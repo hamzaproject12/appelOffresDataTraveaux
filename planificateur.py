@@ -84,11 +84,15 @@ def amorcer_donnees() -> None:
     le volume prend le relais — c'est lui qui s'enrichit ensuite, jour après jour.
     """
     archive = ICI / "amorce.tar.gz"
-    if (DONNEES / "extraits").is_dir():
+    # parametres.json est le bon témoin : il n'existe que si le dossier a vraiment été collecté.
+    # Un dossier extraits\ créé mais vide ferait croire à tort que le volume est amorcé.
+    if (DONNEES / "consultations" / "parametres.json").exists():
         return
     if not archive.exists():
-        dire(f"{DONNEES}/extraits est vide et {archive.name} est absent du dépôt :")
-        dire("la mise à jour ne pourra rien reconstruire. Voir preparer_amorce.ps1.")
+        dire(f"RIEN À RECONSTRUIRE : {DONNEES} est vide et {archive.name} n'est pas dans l'image.")
+        dire("Le site sert la base déployée, mais la mise à jour quotidienne ne peut pas tourner.")
+        dire("Sur le PC : preparer_amorce.ps1, puis git add amorce.tar.gz et vérifie que le")
+        dire("Dockerfile contient bien « COPY *.gz ./ » et non le seul nom de la base.")
         return
     import tarfile
     dire(f"premier démarrage : dépliage de {archive.name} "
