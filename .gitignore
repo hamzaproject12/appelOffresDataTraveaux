@@ -1,0 +1,11 @@
+__pycache__/
+*.pyc
+*.db-wal
+*.db-shm
+journal.db
+lancer.ps1
+# La base décompressée reste locale : c'est pv.db.gz qui est versionné.
+pv.db
+pv.db.tmp
+pv_travaux.db
+pv_travaux.db.tmp
