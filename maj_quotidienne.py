@@ -28,6 +28,7 @@ import hashlib
 import json
 import os
 import re
+import shutil
 import subprocess
 import sqlite3
 import sys
@@ -349,6 +350,19 @@ def reconstruire(base: str | None, seuil: str | None) -> int:
     cible = Path(os.environ.get("BASE") or (ICI / (f"pv_{base}.db" if base else "pv.db")))
     avant = refs_en_base(cible)
     neuve = Path(str(cible) + ".neuf")
+    for reste in (neuve, Path(str(neuve) + ".gz"), Path(str(neuve) + "-wal"), Path(str(neuve) + "-shm")):
+        reste.unlink(missing_ok=True)                # débris d'une tentative interrompue
+
+    # La reconstruction écrit une seconde base à côté de celle qui est servie : il faut la place
+    # des deux, plus de quoi respirer. Sans ce contrôle, SQLite s'arrête au milieu sur « disk is
+    # full », et le volume reste encombré de fichiers à moitié écrits.
+    besoin = max(cible.stat().st_size if cible.exists() else 0, 60_000_000) * 2
+    libre = shutil.disk_usage(cible.parent if cible.parent.exists() else ICI).free
+    if libre < besoin:
+        dire(f"PLACE INSUFFISANTE : {libre/1e6:.0f} Mo libres, il en faut {besoin/1e6:.0f}.")
+        dire("La base en place continue d'être servie. Agrandis le volume — les dizaines de")
+        dire("milliers de petits fichiers JSON occupent près du double de leur taille réelle.")
+        return -1
 
     commande = [sys.executable, str(ICI / "construire_base.py")]
     if base:
@@ -384,8 +398,9 @@ def reconstruire(base: str | None, seuil: str | None) -> int:
     for suffixe in ("", "-wal", "-shm"):
         Path(str(cible) + suffixe).unlink(missing_ok=True)
     os.replace(neuve, cible)
-    if Path(str(neuve) + ".gz").exists():
-        os.replace(str(neuve) + ".gz", str(cible) + ".gz")
+    # L'archive compressée ne sert qu'au transport par Git, depuis le PC. Sur le volume elle
+    # n'est jamais lue et coûte vingt mégaoctets : on la jette.
+    Path(str(neuve) + ".gz").unlink(missing_ok=True)
 
     gagnes = len(apres - avant)
     dire(f"base en place : {len(apres)} marchés ({gagnes:+d} depuis la dernière fois)")
