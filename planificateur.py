@@ -84,9 +84,12 @@ def amorcer_donnees() -> None:
     le volume prend le relais — c'est lui qui s'enrichit ensuite, jour après jour.
     """
     archive = ICI / "amorce.tar.gz"
-    # parametres.json est le bon témoin : il n'existe que si le dossier a vraiment été collecté.
-    # Un dossier extraits\ créé mais vide ferait croire à tort que le volume est amorcé.
-    if (DONNEES / "consultations" / "parametres.json").exists():
+    # Le témoin est un fichier que l'amorçage pose lui-même : il ne dépend pas de ce que
+    # contient l'archive. Le dossier Services, par exemple, n'a pas de parametres.json — s'en
+    # servir de témoin ferait redéplier 144 Mo à chaque redémarrage, par-dessus les JSON que
+    # le pod venait de collecter, et remettrait les compteurs de relance à zéro.
+    temoin = DONNEES / ".amorce_faite"
+    if temoin.exists() or (DONNEES / "consultations" / "parametres.json").exists():
         return
     if not archive.exists():
         dire(f"RIEN À RECONSTRUIRE : {DONNEES} est vide et {archive.name} n'est pas dans l'image.")
@@ -101,11 +104,18 @@ def amorcer_donnees() -> None:
     try:
         DONNEES.mkdir(parents=True, exist_ok=True)
         with tarfile.open(archive, "r:gz") as t:
-            t.extractall(DONNEES)                    # noqa: S202 — archive produite par nous
+            # filter="data" refuse les chemins absolus et les liens qui sortiraient du volume.
+            # C'est le comportement que Python imposera de toute façon, et il supprime
+            # l'avertissement vu au premier démarrage.
+            t.extractall(DONNEES, filter="data")
     except (OSError, tarfile.TarError) as e:
         dire(f"dépliage impossible : {e}")
         return
     extraits = len(list((DONNEES / "extraits").glob("*.json"))) if (DONNEES / "extraits").is_dir() else 0
+    try:
+        temoin.write_text(datetime.now(timezone.utc).isoformat(), encoding="utf-8")
+    except OSError as e:
+        dire(f"ATTENTION : {temoin} non écrit ({e}) — l'archive serait redéployée au prochain départ")
     dire(f"archive dépliée en {time.time() - debut:.0f} s — {extraits} extraits sur le volume")
 
 

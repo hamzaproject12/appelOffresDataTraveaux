@@ -166,14 +166,24 @@ def consultations_recentes(jours: int) -> int:
 
 # --------------------------------------------------------------- 2. les fiches
 
-def fiches_manquantes(fils: int) -> int:
-    """Estimation, caution, qualification et classe des consultations dont la fiche manque."""
+def fiches_manquantes(fils: int, plafond: int) -> int:
+    """Estimation, caution, qualification et classe des consultations dont la fiche manque.
+
+    Le dossier Services arrive avec un retard important : il a été collecté par un chemin plus
+    ancien, et vingt mille consultations n'ont jamais eu de fiche. Les lire d'un seul trait
+    prendrait une nuit entière. On les prend donc par paquets, les plus récentes d'abord — ce
+    sont elles qui comptent — et le retard se comble sur quelques nuits.
+    """
     dossier = cc.SORTIE / "estimations"
     dossier.mkdir(parents=True, exist_ok=True)
     toutes = cc.consultations_listees()
     deja = {p.stem for p in dossier.glob("*.json")}
-    reste = [c for c in toutes if c["ref"] not in deja]
+    reste = [c for c in toutes if c["ref"] not in deja][::-1]   # les dernières listées d'abord
     dire(f"{len(reste)} fiche(s) de consultation à lire")
+    if plafond and len(reste) > plafond:
+        dire(f"plafond de {plafond} : les {len(reste) - plafond} autres seront lues "
+             f"les nuits suivantes")
+        reste = reste[:plafond]
     if not reste:
         return 0
 
@@ -396,6 +406,8 @@ def main() -> None:
                     help="tentatives avant d'abandonner une consultation sans PV (défaut 12)")
     ap.add_argument("--plafond", type=int, default=4000, metavar="N",
                     help="requêtes d'extraits au plus par passage (défaut 4000 ; 0 = sans limite)")
+    ap.add_argument("--plafond-fiches", type=int, default=3000, metavar="N",
+                    help="fiches de consultation au plus par passage (défaut 3000 ; 0 = sans limite)")
     ap.add_argument("--fils", type=int, default=3, metavar="N", help="requêtes en parallèle")
     ap.add_argument("--seuil", metavar="N", help="passé tel quel à construire_base.py")
     ap.add_argument("--sonde", action="store_true", help="teste le portail et s'arrête")
@@ -416,7 +428,7 @@ def main() -> None:
             sys.exit(1)
         try:
             nouvelles = consultations_recentes(a.jours)
-            fiches_manquantes(a.fils)
+            fiches_manquantes(a.fils, a.plafond_fiches)
             pv = extraits(a.relance, a.essais, a.fils, a.plafond)
         except Exception as e:                               # noqa: BLE001
             dire(f"collecte interrompue — {type(e).__name__}: {e}")
