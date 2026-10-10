@@ -9,3 +9,25 @@ pv.db
 pv.db.tmp
 pv_travaux.db
 pv_travaux.db.tmp
+
+# Le chantier de rattrapage : environ 70 000 fichiers de travail — un JSON par annonce lue,
+# un par refus, les journaux, la liste des annonces. Le pod ne s'en sert jamais : ce qu'il lui
+# faut voyage dans amorce.tar.gz, qui est versionné, lui. Les laisser dans le dépôt l'alourdit
+# de 111 Mo, ralentit chaque construction d'image, et publie la donnée extraite.
+rattrapage/
+moisson/
+
+# Les reconnaissances du portail : pages HTML conservées en local pour mémoire. Elles ont servi
+# une fois, à trouver les bonnes adresses ; elles n'ont rien à faire dans le dépôt.
+sondage/
+sondage2/
+sondage3/
+diagnostic_ocr.txt
+*.log
+
+# Les documents eux-mêmes : des gigaoctets de PDF et de scans. Jamais dans Git.
+*.pdf
+*.doc
+*.docx
+*.rar
+*.7z
