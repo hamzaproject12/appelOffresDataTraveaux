@@ -1,0 +1,66 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "684204",
+ "orgAcronyme": "d4q",
+ "reference_pv": null,
+ "nouveau": true,
+ "reference": null,
+ "objet": null,
+ "acheteur": null,
+ "procedure": null,
+ "categorie": "Travaux",
+ "date_limite_plis": "13/10/2022",
+ "lieu_ouverture": "Siège de la Direction Régionale du Centre Nord (DRS) :88 rue du Soudan, Ville nouvell Fès —- Maroc",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "13/12/2022",
+ "justification": "Moins-disant",
+ "infructueux": false,
+ "attributaire": null,
+ "montant_attribue": null,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "ANZELEC",
+   "montant_acte_engagement": 881628.0,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "ASSISSOU TRAVAUX",
+   "montant_acte_engagement": 1046280.0,
+   "montant_apres_verification": null,
+   "autres_montants": [
+    1046280.0
+   ],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "MARAKSOF",
+   "montant_acte_engagement": 982152.0,
+   "montant_apres_verification": null,
+   "autres_montants": [
+    982152.0
+   ],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 3,
+ "alertes_ocr": [
+  "Attributaire non trouvé."
+ ],
+ "notes_ocr": [
+  "Maître d'ouvrage absent du PV (utiliser l'acheteur public du portail)."
+ ],
+ "qualite": "complet"
+}

@@ -1,0 +1,75 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "1017647",
+ "orgAcronyme": "o8p",
+ "reference_pv": null,
+ "nouveau": true,
+ "reference": null,
+ "objet": "Travaux de désherbage à la plateforme aéroportuaire de l'aéroport Tétouan Saniat R'mel",
+ "acheteur": "l'OFFICE NATIONAL DES AEROPORTS",
+ "procedure": "appel d'offres ouvert",
+ "categorie": "Travaux",
+ "date_limite_plis": "16/06/2026",
+ "lieu_ouverture": "La salle de réunion de la Direction des Achaïs et de la Logistique",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "26/06/2026",
+ "justification": "L'offre la plus avantageuse.",
+ "infructueux": false,
+ "attributaire": "BIO HYGIENE SERVICES",
+ "montant_attribue": 1317636.0,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "BIO HYGIENE SERVICES",
+   "montant_acte_engagement": 1317636.0,
+   "montant_apres_verification": 1317636.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "STE SAMA ESPOIR",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_dossier_administratif_technique",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "STE ADEME MULTISERVICES",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_dossier_administratif_technique",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Concurrenis À des prix- Détail estimatif",
+   "montant_acte_engagement": 317636.0,
+   "montant_apres_verification": null,
+   "autres_montants": [
+    1317636.0
+   ],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 4,
+ "alertes_ocr": [
+  "« BIO HYGIENE SERVICES » absent de la liste des plis déposés (nom mal lu ?).",
+  "« Concurrenis À des prix- Détail estimatif » absent de la liste des plis déposés (nom mal lu ?)."
+ ],
+ "notes_ocr": [
+  "« STE SAMA ESPOIR » absent de la liste des plis déposés (nom mal lu ?).",
+  "« STE ADEME MULTISERVICES » absent de la liste des plis déposés (nom mal lu ?)."
+ ],
+ "qualite": "complet"
+}

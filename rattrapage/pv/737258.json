@@ -1,0 +1,87 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "737258",
+ "orgAcronyme": "h5r",
+ "reference_pv": "01/2023",
+ "nouveau": true,
+ "reference": "01/2023",
+ "objet": "Travaux de renforcement de la piste reliant DOUAR HADDADA vers LA RR318 sur une longueur 9620.00 mi Province Berrechid",
+ "acheteur": "Commune Sidi El Mekki",
+ "procedure": "appel d'offres ouvert",
+ "categorie": "Travaux",
+ "date_limite_plis": "21/07/2023",
+ "lieu_ouverture": "Siege de Commune Sidi El Mekki",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "09/08/2023",
+ "justification": "en application des critères du règlements de consultation .",
+ "infructueux": false,
+ "attributaire": "STE GFTR",
+ "montant_attribue": 4896241.2,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "STE GFTR",
+   "montant_acte_engagement": 4896241.2,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "STE SBTP",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "depose",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "STE FOREFIL SARL",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_offre_technique",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "STE UNIVERS TRAVAUX ROUTIERS",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_offre_technique",
+   "admis_avec_reserve": true
+  },
+  {
+   "nom": "STE EL AMALDES TRAVAUX PUBLICS SELTRAP",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_offre_technique",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "STE GFTR In",
+   "montant_acte_engagement": 4896241.2,
+   "montant_apres_verification": 4896241.2,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 6,
+ "alertes_ocr": [
+  "« STE GFTR In » absent de la liste des plis déposés (nom mal lu ?)."
+ ],
+ "notes_ocr": [],
+ "qualite": "complet"
+}

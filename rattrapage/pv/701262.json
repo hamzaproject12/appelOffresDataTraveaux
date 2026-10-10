@@ -1,0 +1,60 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "701262",
+ "orgAcronyme": "o8p",
+ "reference_pv": "T5724/PS",
+ "nouveau": true,
+ "reference": "T5724/PS",
+ "objet": null,
+ "acheteur": "Objet de l’appel d'offres",
+ "procedure": "appel d'offres ouvert",
+ "categorie": "Travaux",
+ "date_limite_plis": null,
+ "lieu_ouverture": null,
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": null,
+ "justification": null,
+ "infructueux": false,
+ "attributaire": "RAPIBAT",
+ "montant_attribue": 2858894.11,
+ "attributaires_par_lot": [
+  {
+   "lot": null,
+   "attributaire": "RAPIBAT",
+   "montant": 2858894.11
+  },
+  {
+   "lot": null,
+   "attributaire": "RAPICLIM",
+   "montant": 2630931.34
+  }
+ ],
+ "soumissionnaires": [
+  {
+   "nom": "RAPIBAT",
+   "montant_acte_engagement": 2858894.11,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "RAPICLIM",
+   "montant_acte_engagement": 2630931.34,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 2,
+ "alertes_ocr": [],
+ "notes_ocr": [],
+ "qualite": "attribution"
+}

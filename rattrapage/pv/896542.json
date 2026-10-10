@@ -1,0 +1,70 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "896542",
+ "orgAcronyme": "o8p",
+ "reference_pv": null,
+ "nouveau": true,
+ "reference": null,
+ "objet": null,
+ "acheteur": "Direction du ports de Safi et Région",
+ "procedure": null,
+ "categorie": "Travaux",
+ "date_limite_plis": null,
+ "lieu_ouverture": "Direction du ports de Safi et Région",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "13/05/2025",
+ "justification": null,
+ "infructueux": false,
+ "attributaire": "SEPT CENT DIX MILLE DEUX CENT",
+ "montant_attribue": 710200.0,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "SECTOB SARL",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "depose",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "TECNITAS",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "depose",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "STE BEDRAF DU BATIMENT",
+   "montant_acte_engagement": 941000.0,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "SEPT CENT DIX MILLE DEUX CENT",
+   "montant_acte_engagement": 710200.0,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 4,
+ "alertes_ocr": [
+  "« STE BEDRAF DU BATIMENT » absent de la liste des plis déposés (nom mal lu ?).",
+  "« SEPT CENT DIX MILLE DEUX CENT » absent de la liste des plis déposés (nom mal lu ?)."
+ ],
+ "notes_ocr": [],
+ "qualite": "complet"
+}

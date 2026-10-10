@@ -1,0 +1,91 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "960207",
+ "orgAcronyme": "q0x",
+ "reference_pv": null,
+ "nouveau": true,
+ "reference": null,
+ "objet": null,
+ "acheteur": "Commune de N'ZALAT BENI AMMAR",
+ "procedure": null,
+ "categorie": "Travaux",
+ "date_limite_plis": "25/11/2025",
+ "lieu_ouverture": "Bureau du Président de la Commune de N’ZALAT BENI AMMAR",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "03/12/2025",
+ "justification": "Offre économiquement la plus avantageuse pour l'administration,",
+ "infructueux": false,
+ "attributaire": "STE LYTRAV SARL",
+ "montant_attribue": 446062.5,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "ENTREPRISE WADAKR",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "depose",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "STE MALINE TRAVAUX SARL",
+   "montant_acte_engagement": 443812.5,
+   "montant_apres_verification": null,
+   "autres_montants": [
+    443872.5
+   ],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "GRANDS TRAVAUX LAHRICHI SARL",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "depose",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "CONSTRUCTION TILAL TRAVAUX DIVERS",
+   "montant_acte_engagement": 439987.5,
+   "montant_apres_verification": null,
+   "autres_montants": [
+    439987.5
+   ],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "STE LYTRAV SARL",
+   "montant_acte_engagement": 446062.5,
+   "montant_apres_verification": null,
+   "autres_montants": [
+    446062.5
+   ],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "STE ABADOU DE TRAVAUX S.N.C",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 6,
+ "alertes_ocr": [],
+ "notes_ocr": [],
+ "qualite": "complet"
+}

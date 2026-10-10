@@ -1,0 +1,60 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "685691",
+ "orgAcronyme": "o8p",
+ "reference_pv": "41/2022",
+ "nouveau": true,
+ "reference": "41/2022",
+ "objet": "Travaux de traitement de l'instabilité au PK8+200 de la RN29. Province de Taza",
+ "acheteur": null,
+ "procedure": null,
+ "categorie": "Travaux",
+ "date_limite_plis": "08/12/2022",
+ "lieu_ouverture": "DPETLE DE TAZA",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "19/12/2022",
+ "justification": "Offre moins disante",
+ "infructueux": false,
+ "attributaire": "GROUPEMENT STE BARA SSO ET STE ABMB",
+ "montant_attribue": 2096048.4,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "STE KARMO TRAV",
+   "montant_acte_engagement": 2391028.76,
+   "montant_apres_verification": 2391028.76,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "GROUPEMENT STE BARA SSO ET STE ABMB",
+   "montant_acte_engagement": 2096048.4,
+   "montant_apres_verification": 2096048.4,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": true
+  },
+  {
+   "nom": "STE EBYR",
+   "montant_acte_engagement": 2164293.56,
+   "montant_apres_verification": 2164293.56,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": true
+  }
+ ],
+ "nombre_soumissionnaires": 3,
+ "alertes_ocr": [],
+ "notes_ocr": [
+  "Maître d'ouvrage absent du PV (utiliser l'acheteur public du portail)."
+ ],
+ "qualite": "complet"
+}

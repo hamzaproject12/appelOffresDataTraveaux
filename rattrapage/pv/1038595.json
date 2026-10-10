@@ -1,0 +1,67 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "1038595",
+ "orgAcronyme": "g3h",
+ "reference_pv": "95/2",
+ "nouveau": true,
+ "reference": "95/2",
+ "objet": null,
+ "acheteur": "Société Régionale Multiservices Fès Meknès « SRM-FM »",
+ "procedure": null,
+ "categorie": "Travaux",
+ "date_limite_plis": "31/08/2026",
+ "lieu_ouverture": "Siège de la SRM-FM",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "02/09/2026",
+ "justification": "L’offre la plus avantageuse.",
+ "infructueux": false,
+ "attributaire": null,
+ "montant_attribue": null,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "SIWERGY MAROC",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "SEVIELEC",
+   "montant_acte_engagement": 3261600.0,
+   "montant_apres_verification": 3913920.0,
+   "autres_montants": [
+    3913920.0
+   ],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "LUCERNA TRAVAUX Lot2",
+   "montant_acte_engagement": 2660000.0,
+   "montant_apres_verification": 3192000.0,
+   "autres_montants": [
+    3192000.0
+   ],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 3,
+ "alertes_ocr": [
+  "Attributaire non trouvé."
+ ],
+ "notes_ocr": [
+  "« SEVIELEC » : montant rectifié de 3 261 600.00 à 3 913 920.00 DH.",
+  "« LUCERNA TRAVAUX Lot2 » : montant rectifié de 2 660 000.00 à 3 192 000.00 DH."
+ ],
+ "qualite": "complet"
+}

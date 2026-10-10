@@ -1,0 +1,51 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "666913",
+ "orgAcronyme": "j0w",
+ "reference_pv": null,
+ "nouveau": true,
+ "reference": null,
+ "objet": "Travaux d'entretien des voies relevant de la commune de Marrakech,",
+ "acheteur": "Commune de Marrakech",
+ "procedure": null,
+ "categorie": "Travaux",
+ "date_limite_plis": "28/09/2022",
+ "lieu_ouverture": "Commune de Marrakech à l'Avenue Mohamed VI F fournaux ayant publié l'avis de publicité",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": null,
+ "justification": null,
+ "infructueux": false,
+ "attributaire": "ENTREPRISE GENERALE DES ROUTES ET DES TRAVAUX PUBTICS (GRTP)",
+ "montant_attribue": null,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "fustification du choix de l'attributaire",
+   "montant_acte_engagement": 3162480.0,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "ENTREPRISE GENERALE DES ROUTES ET DES TRAVAUX PUBTICS (GRTP)",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 2,
+ "alertes_ocr": [
+  "Montant de l'attributaire « ENTREPRISE GENERALE DES ROUTES ET DES TRAVAUX PUBTICS (GRTP) » non trouvé."
+ ],
+ "notes_ocr": [],
+ "qualite": "attribution"
+}

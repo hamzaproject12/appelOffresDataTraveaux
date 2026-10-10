@@ -1,0 +1,79 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "810040",
+ "orgAcronyme": "l1f",
+ "reference_pv": "08/2024",
+ "nouveau": true,
+ "reference": "08/2024",
+ "objet": "ENTRETIEN COURANT DE VOIES",
+ "acheteur": "Commune de Fnideq",
+ "procedure": "appel d'offres ouvert national",
+ "categorie": "Travaux",
+ "date_limite_plis": "25/06/2024",
+ "lieu_ouverture": "Salle des réunions au siège de la Commune de Fnideq",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "01/07/2024",
+ "justification": null,
+ "infructueux": false,
+ "attributaire": "KOUFACHA ROUTIERS SARL. - Le Groupement CIVIROUTE SARL & KOUFACHA ROUTIERS SARL",
+ "montant_attribue": null,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "SOCIETE TP NORD SARL",
+   "montant_acte_engagement": 1507560.0,
+   "montant_apres_verification": 1507560.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "SOCIETE OKTI TRAVAUX SARL",
+   "montant_acte_engagement": 1231560.0,
+   "montant_apres_verification": 1231560.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "KOUFACHA ROUTIERS SARL. - Le Groupement CIVIROUTE SARL & KOUFACHA ROUTIERS SARL",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "SARL TEMARA",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "ROUTIERS SARL FAP PRSRENS",
+   "montant_acte_engagement": 1294140.0,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 5,
+ "alertes_ocr": [
+  "« ROUTIERS SARL FAP PRSRENS » absent de la liste des plis déposés (nom mal lu ?).",
+  "Montant de l'attributaire « KOUFACHA ROUTIERS SARL. - Le Groupement CIVIROUTE SARL & KOUFACHA ROUTIERS SARL » non trouvé."
+ ],
+ "notes_ocr": [],
+ "qualite": "complet"
+}

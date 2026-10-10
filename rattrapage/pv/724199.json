@@ -1,0 +1,85 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "724199",
+ "orgAcronyme": "g3h",
+ "reference_pv": null,
+ "nouveau": true,
+ "reference": null,
+ "objet": null,
+ "acheteur": "Préfecture de Salé",
+ "procedure": null,
+ "categorie": "Travaux",
+ "date_limite_plis": "15/06/2023",
+ "lieu_ouverture": "Préfecture de Salé",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "22/06/2023",
+ "justification": "Offre la moins disante jugée la plus avantageuse pour l'administration.",
+ "infructueux": false,
+ "attributaire": "BENMESSOUD Abdeslam",
+ "montant_attribue": 256996.8,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "BENMESSOUD Abdeslam",
+   "montant_acte_engagement": 256996.8,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "STE A.H.Y CONSTRUCTION SARL",
+   "montant_acte_engagement": 313545.6,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_offre_financiere",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "STE SEQUIPAB SARL",
+   "montant_acte_engagement": 330767.36,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_offre_financiere",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "STE BATISSBAT SARL",
+   "montant_acte_engagement": 336577.2,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_offre_financiere",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "STE ABERBACH OULMES SARL AU",
+   "montant_acte_engagement": 256687.2,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_offre_financiere",
+   "admis_avec_reserve": true
+  },
+  {
+   "nom": "STE TRAVAUX MODERNE SARL",
+   "montant_acte_engagement": 287299.2,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 6,
+ "alertes_ocr": [],
+ "notes_ocr": [],
+ "qualite": "complet"
+}

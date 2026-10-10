@@ -1,0 +1,74 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "726489",
+ "orgAcronyme": "g3h",
+ "reference_pv": "51/2023/S2A",
+ "nouveau": true,
+ "reference": "51/2023/S2A",
+ "objet": "TRAVAUX D’AMENAGEMENT DU PARC METROPOLITAIN DE TIKIOUINE DE LA VILLE D’AGADIR LOT N°2 : TRAVAUX PREPARATOIRES",
+ "acheteur": null,
+ "procedure": "appel d'offres ouvert",
+ "categorie": "Travaux",
+ "date_limite_plis": null,
+ "lieu_ouverture": null,
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": null,
+ "justification": null,
+ "infructueux": false,
+ "attributaire": "GROUPEMENT ACHGHAL AL JANOUB/SODELUX",
+ "montant_attribue": 2280000.0,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "SOCIETE DYNAMIQUE ATLAS",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": true
+  },
+  {
+   "nom": "SOCIETE MOUNORIK TRANS",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": true
+  },
+  {
+   "nom": "SOCIETE ZAMANE EL KHEIR",
+   "montant_acte_engagement": 3240000.0,
+   "montant_apres_verification": 3240000.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "GROUPEMENT ACHGHAL AL JANOUB/SODELUX",
+   "montant_acte_engagement": 2280000.0,
+   "montant_apres_verification": 2280000.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 4,
+ "alertes_ocr": [
+  "« SOCIETE ZAMANE EL KHEIR » absent de la liste des plis déposés (nom mal lu ?).",
+  "« GROUPEMENT ACHGHAL AL JANOUB/SODELUX » absent de la liste des plis déposés (nom mal lu ?)."
+ ],
+ "notes_ocr": [
+  "« SOCIETE DYNAMIQUE ATLAS » absent de la liste des plis déposés (nom mal lu ?).",
+  "« SOCIETE MOUNORIK TRANS » absent de la liste des plis déposés (nom mal lu ?).",
+  "Maître d'ouvrage absent du PV (utiliser l'acheteur public du portail)."
+ ],
+ "qualite": "complet"
+}

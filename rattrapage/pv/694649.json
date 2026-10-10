@@ -1,0 +1,85 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "694649",
+ "orgAcronyme": "d4q",
+ "reference_pv": "06/E/2023",
+ "nouveau": true,
+ "reference": "06/E/2023",
+ "objet": "Travaux de détection et réparation de fuites",
+ "acheteur": "s RADEE.TA",
+ "procedure": null,
+ "categorie": "Travaux",
+ "date_limite_plis": "01/02/2023",
+ "lieu_ouverture": "Siège de la RADEE.TA \" ATAHDAT AL MAGHRIBIA \" du 03/01/2023 \"LE MATIN \" du 03/01/2023",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": null,
+ "justification": "- Dossiers administratif, technique et offre technique. - Offre avantageuse répondant afk critères d'évaluation.",
+ "infructueux": false,
+ "attributaire": "DES CANAUX ET MOUZHIR ELEC",
+ "montant_attribue": 2306700.0,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "des Sociétés HYDRAULIQUE",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "DES CANAUX ET MOUZHIR ELEC",
+   "montant_acte_engagement": 2306700.0,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "R.IB AWB. succursal entreprise Hassan II Taza",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "001609838000074 : Dsläol) d>ghl Là yazll",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "HYDRAULIQUE DES",
+   "montant_acte_engagement": 1922250.0,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 5,
+ "alertes_ocr": [
+  "« R.IB AWB. succursal entreprise Hassan II Taza » : montant illisible (7 690 000 944 700 000 DH)  écarté.",
+  "« 001609838000074 : Dsläol) d>ghl Là yazll » : montant illisible (7 690 000 944 700 000 DH)  écarté.",
+  "« DES CANAUX ET MOUZHIR ELEC » absent de la liste des plis déposés (nom mal lu ?).",
+  "« HYDRAULIQUE DES » absent de la liste des plis déposés (nom mal lu ?)."
+ ],
+ "notes_ocr": [
+  "« des Sociétés HYDRAULIQUE » absent de la liste des plis déposés (nom mal lu ?).",
+  "« R.IB AWB. succursal entreprise Hassan II Taza » absent de la liste des plis déposés (nom mal lu ?).",
+  "« 001609838000074 : Dsläol) d>ghl Là yazll » absent de la liste des plis déposés (nom mal lu ?)."
+ ],
+ "qualite": "complet"
+}

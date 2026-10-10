@@ -1,0 +1,62 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "695478",
+ "orgAcronyme": "d4q",
+ "reference_pv": null,
+ "nouveau": true,
+ "reference": null,
+ "objet": "Réhabilitation des équipements hydromécaniques et des anti béliers des stations de pompage et des réservoirs aux centres relevant de l'AS6/2",
+ "acheteur": null,
+ "procedure": null,
+ "categorie": "Travaux",
+ "date_limite_plis": null,
+ "lieu_ouverture": "au Siège de la Direction Régionale de l'Oriental (DRE) Place 18 Mars 2003 - Oujda - Maroc",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "21/02/2023",
+ "justification": null,
+ "infructueux": false,
+ "attributaire": "Délai d'exécution",
+ "montant_attribue": 781320.0,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "AMARBOUH TRAVAUX",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "depose",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "BTDF : MAROC",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "depose",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Délai d'exécution",
+   "montant_acte_engagement": 781320.0,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 3,
+ "alertes_ocr": [
+  "« Délai d'exécution » absent de la liste des plis déposés (nom mal lu ?)."
+ ],
+ "notes_ocr": [
+  "Maître d'ouvrage absent du PV (utiliser l'acheteur public du portail)."
+ ],
+ "qualite": "attribution"
+}

@@ -1,0 +1,77 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "1033176",
+ "orgAcronyme": "g3h",
+ "reference_pv": null,
+ "nouveau": true,
+ "reference": null,
+ "objet": null,
+ "acheteur": "Société Régionale Multiservices Fès Meknès « SRM-FM »",
+ "procedure": null,
+ "categorie": "Travaux",
+ "date_limite_plis": "16/07/2026",
+ "lieu_ouverture": "Siège de la SRM-FM",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "05/08/2026",
+ "justification": "L’offre la plus avantageuse.",
+ "infructueux": false,
+ "attributaire": "ICOMEL",
+ "montant_attribue": 4766286.0,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "FARAH TECHNIC INDUSTRIE",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_dossier_administratif_technique",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "ICOMEL",
+   "montant_acte_engagement": 4766286.0,
+   "montant_apres_verification": 5719543.2,
+   "autres_montants": [
+    5719543.2
+   ],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "CCRE",
+   "montant_acte_engagement": 5018775.0,
+   "montant_apres_verification": 6022530.0,
+   "autres_montants": [
+    6022530.0
+   ],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "FD CONCEPT",
+   "montant_acte_engagement": 4966186.0,
+   "montant_apres_verification": 5959423.2,
+   "autres_montants": [
+    5959423.2
+   ],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 4,
+ "alertes_ocr": [],
+ "notes_ocr": [
+  "« ICOMEL » : montant rectifié de 4 766 286.00 à 5 719 543.20 DH.",
+  "« CCRE » : montant rectifié de 5 018 775.00 à 6 022 530.00 DH.",
+  "« FD CONCEPT » : montant rectifié de 4 966 186.00 à 5 959 423.20 DH."
+ ],
+ "qualite": "complet"
+}

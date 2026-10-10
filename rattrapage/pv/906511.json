@@ -1,0 +1,45 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "906511",
+ "orgAcronyme": "d4q",
+ "reference_pv": null,
+ "nouveau": true,
+ "reference": null,
+ "objet": null,
+ "acheteur": null,
+ "procedure": null,
+ "categorie": "Travaux",
+ "date_limite_plis": "27/05/2025",
+ "lieu_ouverture": "Siège DRDL",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": null,
+ "justification": "Conforme",
+ "infructueux": false,
+ "attributaire": null,
+ "montant_attribue": null,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "PROXI INDUSTRIE",
+   "montant_acte_engagement": 480385.63,
+   "montant_apres_verification": 480385.63,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 1,
+ "alertes_ocr": [
+  "Attributaire non trouvé."
+ ],
+ "notes_ocr": [
+  "Maître d'ouvrage absent du PV (utiliser l'acheteur public du portail).",
+  "Montants exprimés hors taxes (HT)."
+ ],
+ "qualite": "attribution"
+}

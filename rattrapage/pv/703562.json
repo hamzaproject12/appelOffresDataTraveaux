@@ -1,0 +1,94 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "703562",
+ "orgAcronyme": "q0x",
+ "reference_pv": null,
+ "nouveau": true,
+ "reference": null,
+ "objet": null,
+ "acheteur": null,
+ "procedure": null,
+ "categorie": "Travaux",
+ "date_limite_plis": null,
+ "lieu_ouverture": null,
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "22/11/2022",
+ "justification": null,
+ "infructueux": false,
+ "attributaire": "GROUPEMENT DE SOCITE ASMAE AZROU SARL AU-AZROU-. ET SOCIETE BEAUTE SARL -TAROUDANT",
+ "montant_attribue": 405552.0,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "GROUPEMENT DE SOCITE SUPER FLOR SARL",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_offre_financiere",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "MARRAKECH-- ET SOCIETE AFRICANE SARL -TEMARA",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_offre_financiere",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "GROUPEMENT DE SOCITE ASMAE AZROU SARL AU-AZROU-. ET SOCIETE BEAUTE SARL -TAROUDANT",
+   "montant_acte_engagement": 405552.0,
+   "montant_apres_verification": 405552.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "SOCITE HINATRA SARL -FES",
+   "montant_acte_engagement": 471420.0,
+   "montant_apres_verification": 471420.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "GROUPEMENT DE SOCITE SINAN ISKANE SARL -BEN! MELLAL- ET SOCIETE SOGENIMATRA SARL -DAKHL",
+   "montant_acte_engagement": 996032.0,
+   "montant_apres_verification": 996032.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Y SOCIETE OUNIR SARL -AZILAL",
+   "montant_acte_engagement": 440040.0,
+   "montant_apres_verification": 440040.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 6,
+ "alertes_ocr": [
+  "« GROUPEMENT DE SOCITE ASMAE AZROU SARL AU-AZROU-. ET SOCIETE BEAUTE SARL -TAROUDANT » absent de la liste des plis déposés (nom mal lu ?).",
+  "« SOCITE HINATRA SARL -FES » absent de la liste des plis déposés (nom mal lu ?).",
+  "« GROUPEMENT DE SOCITE SINAN ISKANE SARL -BEN! MELLAL- ET SOCIETE SOGENIMATRA SARL -DAKHL » absent de la liste des plis déposés (nom mal lu ?).",
+  "« Y SOCIETE OUNIR SARL -AZILAL » absent de la liste des plis déposés (nom mal lu ?)."
+ ],
+ "notes_ocr": [
+  "« GROUPEMENT DE SOCITE SUPER FLOR SARL » absent de la liste des plis déposés (nom mal lu ?).",
+  "« MARRAKECH-- ET SOCIETE AFRICANE SARL -TEMARA » absent de la liste des plis déposés (nom mal lu ?).",
+  "Maître d'ouvrage absent du PV (utiliser l'acheteur public du portail)."
+ ],
+ "qualite": "complet"
+}

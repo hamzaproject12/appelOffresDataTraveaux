@@ -1,0 +1,85 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "690224",
+ "orgAcronyme": "j8k",
+ "reference_pv": "51/22",
+ "nouveau": true,
+ "reference": "51/22",
+ "objet": "TRAVAUX DE MISE À NIVEAU ET TRAVAUX IN SITE DES VOIRIE, ASSAINISSEMENT, AEP, DALLAGE ET REALISATION DES HORS SITE D'ASSAINISSEMENT, D’AEP ET VOIRIEDE L'OPERATION ASSAFA TRANCHE E SIS À LA",
+ "acheteur": null,
+ "procedure": "appel d'offres ouvert",
+ "categorie": "Travaux",
+ "date_limite_plis": "23/08/2022",
+ "lieu_ouverture": "AI Omane Casablanca — Settat",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": null,
+ "justification": null,
+ "infructueux": false,
+ "attributaire": "SA2B",
+ "montant_attribue": 8247822.0,
+ "attributaires_par_lot": [
+  {
+   "lot": null,
+   "attributaire": "SA2B",
+   "montant": 8247822.0
+  },
+  {
+   "lot": "Unique",
+   "attributaire": "L'OPERATION ASSAFA Le 23/08/2022 Le 01/09/2022 SA2B",
+   "montant": 8247822.0
+  }
+ ],
+ "soumissionnaires": [
+  {
+   "nom": "STE ESTAR BATIMENT - GROUPEMENT",
+   "montant_acte_engagement": 8767962.0,
+   "montant_apres_verification": 8767962.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "EMISTAM / INJAZAT PROJET - SA2B - MWKC - GROUPEMENT ALVA TRAVAUX",
+   "montant_acte_engagement": 8990299.2,
+   "montant_apres_verification": 8990299.2,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "GROUPEMENT ALVA TRAVAUX /CHAHD TRAVAUX",
+   "montant_acte_engagement": 8494113.6,
+   "montant_apres_verification": 8494113.6,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "L'OPERATION ASSAFA Le 23/08/2022 Le 01/09/2022 SA2B",
+   "montant_acte_engagement": 8247822.0,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [
+    "Unique"
+   ],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 4,
+ "alertes_ocr": [
+  "« GROUPEMENT ALVA TRAVAUX /CHAHD TRAVAUX » absent de la liste des plis déposés (nom mal lu ?).",
+  "« L'OPERATION ASSAFA Le 23/08/2022 Le 01/09/2022 SA2B » absent de la liste des plis déposés (nom mal lu ?)."
+ ],
+ "notes_ocr": [
+  "Maître d'ouvrage absent du PV (utiliser l'acheteur public du portail)."
+ ],
+ "qualite": "complet"
+}

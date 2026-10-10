@@ -1,0 +1,72 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "740652",
+ "orgAcronyme": "q1s",
+ "reference_pv": "03/2023",
+ "nouveau": true,
+ "reference": "03/2023",
+ "objet": "Travaux d’aménagement hydro-agricole dans la zone d'action de la direction provinciale de l'agriculture d'Azilal",
+ "acheteur": "Directeur Provincial de l’ Agriculture d’Azilal",
+ "procedure": null,
+ "categorie": "Travaux",
+ "date_limite_plis": null,
+ "lieu_ouverture": "la salle de réunion de la Direction Provinciale de l’Agriculture d’Azilal",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "30/08/2023",
+ "justification": "Selon les critères fixés par le règlement de la consultation.",
+ "infructueux": false,
+ "attributaire": "GROUPEMENT STE KOUL-GUINE et STE TAGOUNT BUILDING",
+ "montant_attribue": 1116228.0,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "SARHANE ET FAROUKE",
+   "montant_acte_engagement": 1146714.0,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [
+    "01",
+    "1"
+   ],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "STE MOZITRA",
+   "montant_acte_engagement": 1048740.0,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [
+    "01",
+    "2"
+   ],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "GROUPEMENT STE KOUL-GUINE et STE TAGOUNT BUILDING",
+   "montant_acte_engagement": 1116228.0,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [
+    "01",
+    "2"
+   ],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 3,
+ "alertes_ocr": [
+  "« STE MOZITRA » absent de la liste des plis déposés (nom mal lu ?).",
+  "« GROUPEMENT STE KOUL-GUINE et STE TAGOUNT BUILDING » absent de la liste des plis déposés (nom mal lu ?)."
+ ],
+ "notes_ocr": [
+  "Marché alloti (3 lots)."
+ ],
+ "qualite": "complet"
+}

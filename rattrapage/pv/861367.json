@@ -1,0 +1,58 @@
+{
+ "source": "extrait_docx",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "861367",
+ "orgAcronyme": "s3z",
+ "reference_pv": "23/2024",
+ "nouveau": true,
+ "reference": "23/2024",
+ "objet": "Aménagement et gros travaux de maintenance des terrains de sports, acquisition et pose de matériels de sport à la commune de khemisset",
+ "acheteur": "Commune de Khémisset",
+ "procedure": null,
+ "categorie": "Travaux",
+ "date_limite_plis": "18/12/2024",
+ "lieu_ouverture": "Commune de Khémisset",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "19/12/2024",
+ "justification": null,
+ "infructueux": true,
+ "attributaire": null,
+ "montant_attribue": null,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "Sté SLHT",
+   "montant_acte_engagement": 2150268.0,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_offre_financiere",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Sté Hirage de construction",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_dossier_administratif_technique",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Sté Sozatrad",
+   "montant_acte_engagement": 2419818.0,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_offre_financiere",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 3,
+ "alertes_ocr": [],
+ "notes_ocr": [],
+ "qualite": "complet"
+}

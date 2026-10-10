@@ -1,0 +1,73 @@
+{
+ "source": "extrait_docx",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "742824",
+ "orgAcronyme": "g3h",
+ "reference_pv": "02/2023",
+ "nouveau": true,
+ "reference": "02/2023",
+ "objet": "l’Appel d’Offres n°02/2023 pour la réalisation des travaux d’entretien des projets de la SONADAC 01/08/2023 & 31/08/2023",
+ "acheteur": null,
+ "procedure": "appel d'offres ouvert",
+ "categorie": "Travaux",
+ "date_limite_plis": null,
+ "lieu_ouverture": null,
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": null,
+ "justification": null,
+ "infructueux": false,
+ "attributaire": null,
+ "montant_attribue": null,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "ENTREPRISE ARRAID",
+   "montant_acte_engagement": 2132766.0,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "IGHIMO TRAV",
+   "montant_acte_engagement": 4265532.0,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "RHNIMA",
+   "montant_acte_engagement": 4996140.0,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Monsieur le Directeur Général est sollicité",
+   "montant_acte_engagement": 2132766.0,
+   "montant_apres_verification": null,
+   "autres_montants": [
+    4265532.0
+   ],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 4,
+ "alertes_ocr": [
+  "Attributaire non trouvé."
+ ],
+ "notes_ocr": [
+  "Maître d'ouvrage absent du PV (utiliser l'acheteur public du portail)."
+ ],
+ "qualite": "complet"
+}

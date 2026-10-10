@@ -1,0 +1,49 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "838861",
+ "orgAcronyme": "g3h",
+ "reference_pv": "119/24/EAU",
+ "nouveau": true,
+ "reference": "119/24/EAU",
+ "objet": "Travaux de sectorisation du réseau d'eau potable",
+ "acheteur": "RADEEMA",
+ "procedure": "appel d'offres ouvert",
+ "categorie": "Travaux",
+ "date_limite_plis": "23/09/2024",
+ "lieu_ouverture": "Siège de la RADEEMA Boulevard Mohamed VI MARRAKECH",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": null,
+ "justification": "Offre économiquement la plus avantageuse.",
+ "infructueux": false,
+ "attributaire": "ALLRESEAUX",
+ "montant_attribue": 1605062.88,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "SCADELEC",
+   "montant_acte_engagement": 1486200.0,
+   "montant_apres_verification": 1486200.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_offre_financiere",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "ALLRESEAUX",
+   "montant_acte_engagement": 1605062.88,
+   "montant_apres_verification": 1605062.88,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 2,
+ "alertes_ocr": [],
+ "notes_ocr": [],
+ "qualite": "complet"
+}

@@ -1,0 +1,99 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "723332",
+ "orgAcronyme": "o8p",
+ "reference_pv": "056-23-AOO",
+ "nouveau": true,
+ "reference": "056-23-AOO",
+ "objet": "Travaux d'entretien des bâtiments à la plateforme aéroportuaire Casablanca Mohammed V",
+ "acheteur": "l'OFFICE NATIONAL DES AEROPORTS",
+ "procedure": "appel d'offres ouvert",
+ "categorie": "Travaux",
+ "date_limite_plis": "25/05/2023",
+ "lieu_ouverture": "La salle de réunion de la Direction des Achaïs et de la Logistique",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "20/06/2023",
+ "justification": "Moins-disant conforme.",
+ "infructueux": false,
+ "attributaire": "GROUPEMENT ORTIS MAROC/ MED 4 DES TRAVAUX",
+ "montant_attribue": 5858820.0,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "GROUPEMENT ORTIS MAROC/ MED 4 DES TRAVAUX",
+   "montant_acte_engagement": 5858820.0,
+   "montant_apres_verification": 5858820.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "GROUPEMENT HARANITRAV/ ENTREPRISE RIAD",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "MESKI DES TRAVAUX DIVERS",
+   "montant_acte_engagement": 7108701.6,
+   "montant_apres_verification": 7108701.6,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "GROUPEMENT ORTIS",
+   "montant_acte_engagement": 5858820.0,
+   "montant_apres_verification": null,
+   "autres_montants": [
+    5858820.0
+   ],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "ENTREPRISE RIAD",
+   "montant_acte_engagement": 6796231.2,
+   "montant_apres_verification": 6796231.2,
+   "autres_montants": [
+    6796231.2
+   ],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "L'EQUIPEMENT/ACE SYSTEME",
+   "montant_acte_engagement": 108701.6,
+   "montant_apres_verification": null,
+   "autres_montants": [
+    7108701.6
+   ],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 6,
+ "alertes_ocr": [
+  "« GROUPEMENT ORTIS MAROC/ MED 4 DES TRAVAUX » absent de la liste des plis déposés (nom mal lu ?).",
+  "« MESKI DES TRAVAUX DIVERS » absent de la liste des plis déposés (nom mal lu ?).",
+  "« GROUPEMENT ORTIS » absent de la liste des plis déposés (nom mal lu ?).",
+  "« ENTREPRISE RIAD » absent de la liste des plis déposés (nom mal lu ?).",
+  "« L'EQUIPEMENT/ACE SYSTEME » absent de la liste des plis déposés (nom mal lu ?)."
+ ],
+ "notes_ocr": [
+  "« GROUPEMENT HARANITRAV/ ENTREPRISE RIAD » absent de la liste des plis déposés (nom mal lu ?)."
+ ],
+ "qualite": "complet"
+}

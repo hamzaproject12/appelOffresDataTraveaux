@@ -1,0 +1,72 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "961848",
+ "orgAcronyme": "a1z",
+ "reference_pv": "08/AMR/2025",
+ "nouveau": true,
+ "reference": "08/AMR/2025",
+ "objet": "Entretien courant des voies dans le territoire de l’ Arrondissement Moulay Rachid (Entretien de chaussée)",
+ "acheteur": "Arrondissement Moulay Rachid",
+ "procedure": "appel d'offres ouvert international",
+ "categorie": "Travaux",
+ "date_limite_plis": "01/12/2025",
+ "lieu_ouverture": "bureau de Mr le président de l'Arrondissement Moulay Rachid",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "08/12/2025",
+ "justification": "son offre économiquement la plus avantageuse",
+ "infructueux": false,
+ "attributaire": "CAMPEZO SARLAU",
+ "montant_attribue": 15478800.0,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "VIAS",
+   "montant_acte_engagement": 16416000.0,
+   "montant_apres_verification": 16416000.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "CAMPEZO SARLAU",
+   "montant_acte_engagement": 15478800.0,
+   "montant_apres_verification": 15478800.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "ECA ELMARAH SARLAU",
+   "montant_acte_engagement": 16800000.0,
+   "montant_apres_verification": 16800000.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "CTR SARL",
+   "montant_acte_engagement": 15972000.0,
+   "montant_apres_verification": 15972000.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 4,
+ "alertes_ocr": [
+  "« VIAS » absent de la liste des plis déposés (nom mal lu ?).",
+  "« CAMPEZO SARLAU » absent de la liste des plis déposés (nom mal lu ?).",
+  "« ECA ELMARAH SARLAU » absent de la liste des plis déposés (nom mal lu ?).",
+  "« CTR SARL » absent de la liste des plis déposés (nom mal lu ?)."
+ ],
+ "notes_ocr": [],
+ "qualite": "complet"
+}

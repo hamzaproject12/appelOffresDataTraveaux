@@ -1,0 +1,60 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "681330",
+ "orgAcronyme": "q1s",
+ "reference_pv": "01/2023/0RSM",
+ "nouveau": true,
+ "reference": "01/2023/0RSM",
+ "objet": "Travaux de génie civil, équipement électrique, électromécanique et hydromécanique des forages d'exploitation au niveau des périmètres modernes, gérés par l'ORMVA du Souss Massa, Province de Taroudant",
+ "acheteur": "ORMVA/SM",
+ "procedure": "appel d'offres ouvert",
+ "categorie": "Travaux",
+ "date_limite_plis": "09/11/2022",
+ "lieu_ouverture": "salle de réunion de la direction de l'ORMVA/SM",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "23/11/2022",
+ "justification": null,
+ "infructueux": false,
+ "attributaire": "CAGP INVEST",
+ "montant_attribue": 5139660.0,
+ "attributaires_par_lot": [
+  {
+   "lot": null,
+   "attributaire": "CAGP INVEST",
+   "montant": 5139660.0
+  },
+  {
+   "lot": null,
+   "attributaire": "OMEGA FLUIDES",
+   "montant": 4239787.56
+  }
+ ],
+ "soumissionnaires": [
+  {
+   "nom": "CAGP INVEST",
+   "montant_acte_engagement": 4678860.0,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "OMEGA FLUIDES",
+   "montant_acte_engagement": 4239786.44,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 2,
+ "alertes_ocr": [],
+ "notes_ocr": [],
+ "qualite": "attribution"
+}

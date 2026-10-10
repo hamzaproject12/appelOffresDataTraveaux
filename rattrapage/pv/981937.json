@@ -1,0 +1,62 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "981937",
+ "orgAcronyme": "g3h",
+ "reference_pv": null,
+ "nouveau": true,
+ "reference": null,
+ "objet": "Acquisition des GEP et accessoires hydromécaniques des stations de pompage et équipements hydromécaniques et électrique des STEP relevant de la direction provinciale de Berkane",
+ "acheteur": null,
+ "procedure": "appel d'offres ouvert",
+ "categorie": "Travaux",
+ "date_limite_plis": "19/01/2026",
+ "lieu_ouverture": "Siège de la Direction Provinciale de Berkane de la SRM-ORI",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "04/03/2026",
+ "justification": "Offre moins-disante conforme.",
+ "infructueux": false,
+ "attributaire": "Société Pour l'Equipement Hydraulique et Industriel (SEHI) SARL",
+ "montant_attribue": 1070400.0,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "Société Pour l'Equipement Hydraulique et Industriel (SEHI) SARL",
+   "montant_acte_engagement": 1070400.0,
+   "montant_apres_verification": 1070400.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "et Société ALOUS SARL",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Société ALOUS SARL",
+   "montant_acte_engagement": 1510608.0,
+   "montant_apres_verification": 1510608.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 3,
+ "alertes_ocr": [
+  "« Société ALOUS SARL » absent de la liste des plis déposés (nom mal lu ?)."
+ ],
+ "notes_ocr": [
+  "Maître d'ouvrage absent du PV (utiliser l'acheteur public du portail)."
+ ],
+ "qualite": "complet"
+}

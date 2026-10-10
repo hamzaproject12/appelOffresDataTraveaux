@@ -1,0 +1,54 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "867186",
+ "orgAcronyme": "d4q",
+ "reference_pv": null,
+ "nouveau": true,
+ "reference": null,
+ "objet": "Prestation de ramonage et remise en état de la fumisterie des chaudières auxiliaires de la centrale TAG de Kenitra",
+ "acheteur": null,
+ "procedure": null,
+ "categorie": "Travaux",
+ "date_limite_plis": "31/12/2024",
+ "lieu_ouverture": "ONEE-BE Roches Noires",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": null,
+ "justification": "L'offre moins disante et conforme. >",
+ "infructueux": false,
+ "attributaire": "EGFI",
+ "montant_attribue": 128040.0,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "EGFI, FIGYMED et CASA MAZOUT",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "depose",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "EGFI",
+   "montant_acte_engagement": 128040.0,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 2,
+ "alertes_ocr": [
+  "« EGFI » absent de la liste des plis déposés (nom mal lu ?)."
+ ],
+ "notes_ocr": [
+  "Maître d'ouvrage absent du PV (utiliser l'acheteur public du portail).",
+  "Montants exprimés hors taxes (HT)."
+ ],
+ "qualite": "attribution"
+}

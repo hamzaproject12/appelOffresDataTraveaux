@@ -1,0 +1,75 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "771697",
+ "orgAcronyme": "g3h",
+ "reference_pv": "44/PT/2023",
+ "nouveau": true,
+ "reference": "44/PT/2023",
+ "objet": "Travaux de construction de dix salles de classe aux communes de Bouchabel (4 à SS Smouniene) et de Loulja (3 à Oulad Mrah et 3 à Bni Zkiane)",
+ "acheteur": null,
+ "procedure": null,
+ "categorie": "Travaux",
+ "date_limite_plis": "10/04/2023",
+ "lieu_ouverture": "le bureau du Secrétariat Général de la Province de Taounate",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": null,
+ "justification": "l'offre financière est la moins disante.",
+ "infructueux": false,
+ "attributaire": "SOCIETE AJI TRADIVE SARL AU A FES",
+ "montant_attribue": 2978446.08,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "SOCIETE BOUNYANE EL ARFAOUI SARL À MEKNES",
+   "montant_acte_engagement": 3203598.0,
+   "montant_apres_verification": null,
+   "autres_montants": [
+    3203598.0
+   ],
+   "lots": [],
+   "statut": "ecarte_dossier_administratif_technique",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "SOCIETE MOHAM TRAVAUX SARL A FES",
+   "montant_acte_engagement": 2949902.4,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_dossier_administratif_technique",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "SOCIETE AJI TRADIVE SARL AU A FES",
+   "montant_acte_engagement": 2978446.08,
+   "montant_apres_verification": null,
+   "autres_montants": [
+    2978446.08
+   ],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "SOCIETE ADIL FOR A TAZA",
+   "montant_acte_engagement": 3165904.8,
+   "montant_apres_verification": null,
+   "autres_montants": [
+    3165904.8
+   ],
+   "lots": [],
+   "statut": "ecarte_dossier_administratif_technique",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 4,
+ "alertes_ocr": [],
+ "notes_ocr": [
+  "Maître d'ouvrage absent du PV (utiliser l'acheteur public du portail)."
+ ],
+ "qualite": "complet"
+}

@@ -1,0 +1,69 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "798542",
+ "orgAcronyme": "g3h",
+ "reference_pv": "453/2024/GK-TCE",
+ "nouveau": true,
+ "reference": "453/2024/GK-TCE",
+ "objet": "Travaux de construction d’une salle couverte omnisports à l’espace sportif AI Ghaba AI Khadra au niveau de la Préfecture d’arrondissements Moulay Rachid à Casablanca",
+ "acheteur": "Société CASABLANCA AMÉNAGEMENT",
+ "procedure": "appel d'offres ouvert",
+ "categorie": "Travaux",
+ "date_limite_plis": "03/05/2024",
+ "lieu_ouverture": "Salle de réunion de CASABLANCA AMÉNAGEMENT S.A",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "21/05/2024",
+ "justification": "Ÿ_ L'offre la moins disante.",
+ "infructueux": false,
+ "attributaire": "Société OPTIMACO",
+ "montant_attribue": 13337100.36,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "Société ENTREPRISE DE CONSTRUCTION EL KHEIR",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "depose",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Société OKTI TRAVAUX",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_offre_technique",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Société OPTIMACO",
+   "montant_acte_engagement": 13337100.36,
+   "montant_apres_verification": 13337100.36,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Société DES ENTREPRISES ZAOUIA",
+   "montant_acte_engagement": 13527344.51,
+   "montant_apres_verification": 13527347.22,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 4,
+ "alertes_ocr": [],
+ "notes_ocr": [
+  "« Société DES ENTREPRISES ZAOUIA » : montant rectifié de 13 527 344.51 à 13 527 347.22 DH."
+ ],
+ "qualite": "complet"
+}

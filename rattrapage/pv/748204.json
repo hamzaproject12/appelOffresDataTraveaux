@@ -1,0 +1,45 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "748204",
+ "orgAcronyme": "d4q",
+ "reference_pv": null,
+ "nouveau": true,
+ "reference": null,
+ "objet": "Fourniture et travaux de recalorifugeage des réservoirs fuel oil et des divers équipements de la centrale à turbines à gaz de Mohammedia 3x100MW",
+ "acheteur": null,
+ "procedure": null,
+ "categorie": "Travaux",
+ "date_limite_plis": "05/10/2023",
+ "lieu_ouverture": "Siège ONEE-BE",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": null,
+ "justification": "offre moins disante.",
+ "infructueux": false,
+ "attributaire": null,
+ "montant_attribue": null,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "SISOTHERM et ENERGIES CONTINUES",
+   "montant_acte_engagement": 2859000.0,
+   "montant_apres_verification": 2859000.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 1,
+ "alertes_ocr": [
+  "Attributaire non trouvé."
+ ],
+ "notes_ocr": [
+  "Maître d'ouvrage absent du PV (utiliser l'acheteur public du portail).",
+  "Montants exprimés hors taxes (HT)."
+ ],
+ "qualite": "attribution"
+}

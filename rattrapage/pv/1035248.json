@@ -1,0 +1,55 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "1035248",
+ "orgAcronyme": "d4q",
+ "reference_pv": null,
+ "nouveau": true,
+ "reference": null,
+ "objet": "Travaux de plomberie et de maçonnerie au siège de L'ONEE-BE à Casablanca et ses annexes",
+ "acheteur": null,
+ "procedure": null,
+ "categorie": "Travaux",
+ "date_limite_plis": "05/08/2026",
+ "lieu_ouverture": "Casablanca",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": null,
+ "justification": "- Pour le lot n° 1 : seul soumissionnaire conforme.",
+ "infructueux": true,
+ "attributaire": "AFRINOX II",
+ "montant_attribue": 282623.0,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "WAFA WORKS — AFRINOX II",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "depose",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "AFRINOX II",
+   "montant_acte_engagement": 282623.0,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [
+    "1"
+   ],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 2,
+ "alertes_ocr": [
+  "« AFRINOX II » absent de la liste des plis déposés (nom mal lu ?)."
+ ],
+ "notes_ocr": [
+  "Maître d'ouvrage absent du PV (utiliser l'acheteur public du portail)."
+ ],
+ "qualite": "attribution"
+}

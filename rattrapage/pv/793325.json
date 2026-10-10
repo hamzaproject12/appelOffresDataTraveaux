@@ -1,0 +1,237 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "793325",
+ "orgAcronyme": "w7t",
+ "reference_pv": "05/2024/DRANEFRSK",
+ "nouveau": true,
+ "reference": "05/2024/DRANEFRSK",
+ "objet": "de l'appel d’offre : Exécution des travaux de récolte, débusquage, tri, transport et empilage sur",
+ "acheteur": "LE DIRECTEUR REGIONAL DE L'AGENCE NATIONALE DES EAUX ET FORETS DE RABAT SALE KENITRA",
+ "procedure": null,
+ "categorie": "Travaux",
+ "date_limite_plis": "16/04/2024",
+ "lieu_ouverture": "DIRECTION REGIONAL DE L'AGENCE NATIONALE DES EAUX ET FORETS DE RABAT",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "29/04/2024",
+ "justification": "Offre économiquement la plus avantageuses",
+ "infructueux": true,
+ "attributaire": "STE ADMN",
+ "montant_attribue": 375355.32,
+ "attributaires_par_lot": [
+  {
+   "lot": "2",
+   "attributaire": "STE ADMN",
+   "montant": 375355.32
+  },
+  {
+   "lot": "3",
+   "attributaire": "STE FRAUMANE",
+   "montant": 446490.0
+  },
+  {
+   "lot": "4",
+   "attributaire": "STE ADMN",
+   "montant": 457800.0
+  },
+  {
+   "lot": "5",
+   "attributaire": "STE FRAUMANE",
+   "montant": 545895.0
+  },
+  {
+   "lot": "6",
+   "attributaire": "STE FRAUMANE",
+   "montant": 529155.0
+  },
+  {
+   "lot": "7",
+   "attributaire": "STE ADMN",
+   "montant": 510345.0
+  },
+  {
+   "lot": "8",
+   "attributaire": "STE AMDAN",
+   "montant": 577172.88
+  },
+  {
+   "lot": "9",
+   "attributaire": "STE AMDAN",
+   "montant": 228910.56
+  }
+ ],
+ "soumissionnaires": [
+  {
+   "nom": "STE AMDAN",
+   "montant_acte_engagement": 596700.0,
+   "montant_apres_verification": null,
+   "autres_montants": [
+    367680.0,
+    518443.62,
+    577172.88,
+    228910.56
+   ],
+   "lots": [
+    "1",
+    "2",
+    "5",
+    "6",
+    "7",
+    "8",
+    "9"
+   ],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "STE INVESTMENT SERVICE",
+   "montant_acte_engagement": 572832.0,
+   "montant_apres_verification": null,
+   "autres_montants": [
+    349296.0,
+    454608.0,
+    523200.0,
+    579600.0,
+    461808.0,
+    482508.0,
+    551304.0,
+    226560.0,
+    463950.0
+   ],
+   "lots": [
+    "1",
+    "2",
+    "3",
+    "4",
+    "5",
+    "6",
+    "7",
+    "8"
+   ],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "STE ADMN",
+   "montant_acte_engagement": 654717.6,
+   "montant_apres_verification": null,
+   "autres_montants": [
+    375355.32,
+    457800.0,
+    530145.0,
+    510345.0
+   ],
+   "lots": [
+    "1",
+    "2",
+    "4",
+    "5",
+    "6",
+    "7"
+   ],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "STE FRAUMANE",
+   "montant_acte_engagement": 605880.0,
+   "montant_apres_verification": null,
+   "autres_montants": [
+    406056.6,
+    446490.0,
+    436087.2,
+    545895.0,
+    529155.0,
+    531068.1
+   ],
+   "lots": [
+    "1",
+    "2",
+    "3",
+    "4",
+    "5",
+    "6",
+    "7"
+   ],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "ENTREPRISE AKOUTEI BENOMAR",
+   "montant_acte_engagement": 460020.0,
+   "montant_apres_verification": null,
+   "autres_montants": [
+    623700.0,
+    722070.0
+   ],
+   "lots": [
+    "3",
+    "5",
+    "7",
+    "8"
+   ],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "CHARROUF ABDELHAQ",
+   "montant_acte_engagement": 587520.0,
+   "montant_apres_verification": null,
+   "autres_montants": [
+    373425.0,
+    524979.0,
+    523767.24,
+    500014.38,
+    565440.0,
+    221830.56
+   ],
+   "lots": [
+    "1",
+    "2",
+    "5",
+    "6",
+    "7",
+    "8",
+    "9"
+   ],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "STE TRAVAUX DARKOUCH",
+   "montant_acte_engagement": 554472.0,
+   "montant_apres_verification": null,
+   "autres_montants": [
+    358488.0,
+    432960.0,
+    481344.0,
+    506706.0,
+    463950.0,
+    565440.0,
+    215232.0,
+    476322.0
+   ],
+   "lots": [
+    "1",
+    "2",
+    "3",
+    "4",
+    "5",
+    "6",
+    "7",
+    "8"
+   ],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 7,
+ "alertes_ocr": [],
+ "notes_ocr": [
+  "Marché alloti (9 lots)."
+ ],
+ "qualite": "complet"
+}

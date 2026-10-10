@@ -1,0 +1,60 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "719987",
+ "orgAcronyme": "m8x",
+ "reference_pv": null,
+ "nouveau": true,
+ "reference": null,
+ "objet": "TRAVAUX D’AMENAGEMENT DU SIEGE DE LA COMMUNE ES-SEMARA REPRESENTE PAR : LE PRESIDENT DE LA COMMUNE D’ES-SEMARA",
+ "acheteur": null,
+ "procedure": null,
+ "categorie": "Travaux",
+ "date_limite_plis": "31/05/2023",
+ "lieu_ouverture": "salle des réunions de la commune Conformément à l’avis publié dans les journaux suivants",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": null,
+ "justification": "- DOSSIER ADMINISTRATIF ET TECHNIQUE CONFORME.",
+ "infructueux": false,
+ "attributaire": "SOCIETE CHJA DE TRAVAUX DE CONSTRUCTION SARL",
+ "montant_attribue": 280980.66,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "e_ SOMISSION ELECTRONIQUE (En ligne)",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "depose",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "SUPPORT PAPIER",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "depose",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "SOCIETE CHJA DE TRAVAUX DE CONSTRUCTION SARL",
+   "montant_acte_engagement": 280980.66,
+   "montant_apres_verification": 280980.66,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 3,
+ "alertes_ocr": [],
+ "notes_ocr": [
+  "Maître d'ouvrage absent du PV (utiliser l'acheteur public du portail)."
+ ],
+ "qualite": "attribution"
+}

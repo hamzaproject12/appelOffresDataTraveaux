@@ -1,0 +1,105 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "876789",
+ "orgAcronyme": "j0w",
+ "reference_pv": "01/2025",
+ "nouveau": true,
+ "reference": "01/2025",
+ "objet": null,
+ "acheteur": null,
+ "procedure": "appel d'offres ouvert",
+ "categorie": "Travaux",
+ "date_limite_plis": null,
+ "lieu_ouverture": null,
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": null,
+ "justification": null,
+ "infructueux": false,
+ "attributaire": null,
+ "montant_attribue": null,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "HAY 2010 sarl",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Ajouter la mention lu et approuve au RC",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "déclaration sur l’honneur). ÿ",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Fournir statuts de date récente,",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "I- ALLIANCE CEI sarl",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "OUEST APLICATION sarl",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "CONSAMAR sarl ÿ",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 7,
+ "alertes_ocr": [
+  "Attributaire non trouvé."
+ ],
+ "notes_ocr": [
+  "« HAY 2010 sarl » absent de la liste des plis déposés (nom mal lu ?).",
+  "« Ajouter la mention lu et approuve au RC » absent de la liste des plis déposés (nom mal lu ?).",
+  "« déclaration sur l’honneur). ÿ » absent de la liste des plis déposés (nom mal lu ?).",
+  "« Fournir statuts de date récente, » absent de la liste des plis déposés (nom mal lu ?).",
+  "« I- ALLIANCE CEI sarl » absent de la liste des plis déposés (nom mal lu ?).",
+  "« OUEST APLICATION sarl » absent de la liste des plis déposés (nom mal lu ?).",
+  "« CONSAMAR sarl ÿ » absent de la liste des plis déposés (nom mal lu ?).",
+  "Maître d'ouvrage absent du PV (utiliser l'acheteur public du portail)."
+ ],
+ "qualite": "participants"
+}

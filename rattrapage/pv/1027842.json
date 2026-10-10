@@ -1,0 +1,56 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "1027842",
+ "orgAcronyme": "g3h",
+ "reference_pv": null,
+ "nouveau": true,
+ "reference": null,
+ "objet": null,
+ "acheteur": "Société Régionale Multiservices Fès Meknès « SRM-FM »",
+ "procedure": null,
+ "categorie": "Travaux",
+ "date_limite_plis": "30/06/2026",
+ "lieu_ouverture": "Siège de la SRM-FM",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "16/07/2026",
+ "justification": "L'offre la plus avantageuse.",
+ "infructueux": false,
+ "attributaire": "ELECNAY",
+ "montant_attribue": 7850937.3,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "NOMATIS",
+   "montant_acte_engagement": 8023848.39,
+   "montant_apres_verification": 9617218.07,
+   "autres_montants": [
+    9628618.07
+   ],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "ELECNAY",
+   "montant_acte_engagement": 7850937.3,
+   "montant_apres_verification": 9421124.76,
+   "autres_montants": [
+    9421124.76
+   ],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 2,
+ "alertes_ocr": [],
+ "notes_ocr": [
+  "« NOMATIS » : montant rectifié de 8 023 848.39 à 9 617 218.07 DH.",
+  "« ELECNAY » : montant rectifié de 7 850 937.30 à 9 421 124.76 DH."
+ ],
+ "qualite": "complet"
+}

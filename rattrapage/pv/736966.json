@@ -1,0 +1,87 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "736966",
+ "orgAcronyme": "o8p",
+ "reference_pv": "15/2023/HZ",
+ "nouveau": true,
+ "reference": "15/2023/HZ",
+ "objet": null,
+ "acheteur": "DIRECTION PROVINCIALE DE L'EQUIPEMENT DU TRANSPORT ET DE LA LOGISTIQUE D'AL HAOUZ",
+ "procedure": "appel d'offres ouvert",
+ "categorie": "Travaux",
+ "date_limite_plis": "27/04/2023",
+ "lieu_ouverture": null,
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "08/05/2023",
+ "justification": "l'offre la plus avantageuse a été retenue.",
+ "infructueux": false,
+ "attributaire": "STE SAKITRA",
+ "montant_attribue": 32855468.4,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "KHAMICH à LAAYOUNE",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_dossier_administratif_technique",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "STAPORT à CASABLANCA",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_dossier_administratif_technique",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "SNL TRAVAUX à MARRAKECH",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_dossier_administratif_technique",
+   "admis_avec_reserve": true
+  },
+  {
+   "nom": "SAKITRA à MARRAKECH",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_dossier_administratif_technique",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "LOBATRAVS à MARRAKECH",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_dossier_administratif_technique",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "STE SAKITRA",
+   "montant_acte_engagement": 32855468.4,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 6,
+ "alertes_ocr": [
+  "« STE SAKITRA » absent de la liste des plis déposés (nom mal lu ?)."
+ ],
+ "notes_ocr": [],
+ "qualite": "attribution"
+}

@@ -1,0 +1,58 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "935463",
+ "orgAcronyme": "g8e",
+ "reference_pv": "45/2025/DGI",
+ "nouveau": true,
+ "reference": "45/2025/DGI",
+ "objet": null,
+ "acheteur": "Le Chef de la Division du Budget et des Equipements Le Chef de la Division du Budget et des Equipements",
+ "procedure": "appel d'offres ouvert national",
+ "categorie": "Travaux",
+ "date_limite_plis": "25/09/2025",
+ "lieu_ouverture": "des plis",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "30/09/2025",
+ "justification": "offre la mieux disante",
+ "infructueux": false,
+ "attributaire": "Sté. NEWERACOM",
+ "montant_attribue": 1782930.0,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "Sté. BEST SOLUTIONS ELEC",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_dossier_administratif_technique",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Sté. TECHELEC",
+   "montant_acte_engagement": 1796640.0,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Sté. NEWERACOM",
+   "montant_acte_engagement": 1782930.0,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 3,
+ "alertes_ocr": [],
+ "notes_ocr": [],
+ "qualite": "complet"
+}

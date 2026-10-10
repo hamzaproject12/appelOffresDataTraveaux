@@ -1,0 +1,124 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "698093",
+ "orgAcronyme": "g3h",
+ "reference_pv": "01/2023/ND/CMSBA",
+ "nouveau": true,
+ "reference": "01/2023/ND/CMSBA",
+ "objet": "TRAVAUX D’AMENAGEMENT ET D’EQUIPEMENT DE LA SAITTE MULTISERVICE DU COMPTEXE MÉDICO-SOCIAL DE BEN ABID",
+ "acheteur": "La province de Nouaceur",
+ "procedure": "appel d'offres ouvert",
+ "categorie": "Travaux",
+ "date_limite_plis": null,
+ "lieu_ouverture": null,
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "03/03/2023",
+ "justification": "la société ayant la meilleure offre (moins disante).",
+ "infructueux": false,
+ "attributaire": "ATELIER REYAD",
+ "montant_attribue": 1345580.4,
+ "attributaires_par_lot": [
+  {
+   "lot": null,
+   "attributaire": "ATELIER REYAD",
+   "montant": 1345580.4
+  },
+  {
+   "lot": null,
+   "attributaire": "DELTAMED",
+   "montant": 1490971.2
+  }
+ ],
+ "soumissionnaires": [
+  {
+   "nom": "ATELIER REYAD",
+   "montant_acte_engagement": 1345580.4,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "DELTAMED",
+   "montant_acte_engagement": 1490971.2,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "MIZOU CONSTRUCTION",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_dossier_administratif_technique",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "BATI CONSTRUCTION FARQUOUCHE",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_dossier_administratif_technique",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "SOLINAM",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_dossier_administratif_technique",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "SOCIÉTÉ ANONYME DE DÉVELOPPEMENT LOCAL au Capital de",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_offre_financiere",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Imm Bureaux N°7, 2ème étage Ville verte Bouskoura | Tél :0522-06-54-91 Fax",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_offre_financiere",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "NOUACEUR DÉVELOPPEMENT S.A",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_offre_financiere",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 8,
+ "alertes_ocr": [
+  "« ATELIER REYAD » absent de la liste des plis déposés (nom mal lu ?).",
+  "« DELTAMED » absent de la liste des plis déposés (nom mal lu ?)."
+ ],
+ "notes_ocr": [
+  "« MIZOU CONSTRUCTION » absent de la liste des plis déposés (nom mal lu ?).",
+  "« BATI CONSTRUCTION FARQUOUCHE » absent de la liste des plis déposés (nom mal lu ?).",
+  "« SOLINAM » absent de la liste des plis déposés (nom mal lu ?).",
+  "« SOCIÉTÉ ANONYME DE DÉVELOPPEMENT LOCAL au Capital de » absent de la liste des plis déposés (nom mal lu ?).",
+  "« Imm Bureaux N°7, 2ème étage Ville verte Bouskoura | Tél :0522-06-54-91 Fax » absent de la liste des plis déposés (nom mal lu ?).",
+  "« NOUACEUR DÉVELOPPEMENT S.A » absent de la liste des plis déposés (nom mal lu ?)."
+ ],
+ "qualite": "attribution"
+}

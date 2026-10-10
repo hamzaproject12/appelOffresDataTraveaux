@@ -1,0 +1,65 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "669132",
+ "orgAcronyme": "g3h",
+ "reference_pv": "3-2-28153",
+ "nouveau": true,
+ "reference": "3-2-28153",
+ "objet": null,
+ "acheteur": null,
+ "procedure": null,
+ "categorie": "Travaux",
+ "date_limite_plis": null,
+ "lieu_ouverture": "salle Ce rétro Ce .a RATES s's à Averre criss er 3.72:218 SAFI OLLTAAUX AYANT JUL.DLÉ L'avis Ce pU.2.ici'É : o Le tes . ASS A BA cu le 3/09/2022",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": null,
+ "justification": null,
+ "infructueux": false,
+ "attributaire": null,
+ "montant_attribue": null,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "(CATTIRAU)",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_dossier_administratif_technique",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Concurrenrt retemu",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_dossier_administratif_technique",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Dare c'acièvener: ces ‘:’avarx ce La conm'ss on",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_dossier_administratif_technique",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 3,
+ "alertes_ocr": [
+  "Attributaire non trouvé."
+ ],
+ "notes_ocr": [
+  "« (CATTIRAU) » absent de la liste des plis déposés (nom mal lu ?).",
+  "« Concurrenrt retemu » absent de la liste des plis déposés (nom mal lu ?).",
+  "« Dare c'acièvener: ces ‘:’avarx ce La conm'ss on » absent de la liste des plis déposés (nom mal lu ?).",
+  "Maître d'ouvrage absent du PV (utiliser l'acheteur public du portail)."
+ ],
+ "qualite": "participants"
+}

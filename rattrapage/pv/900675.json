@@ -1,0 +1,111 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "900675",
+ "orgAcronyme": "g3h",
+ "reference_pv": "58/2025",
+ "nouveau": true,
+ "reference": "58/2025",
+ "objet": null,
+ "acheteur": "Régie Autonome de Distribution d’Eau et d’Electricité de Fès",
+ "procedure": "appel d'offres ouvert",
+ "categorie": "Travaux",
+ "date_limite_plis": "08/05/2025",
+ "lieu_ouverture": "Siège de la RADEEF",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "26/05/2025",
+ "justification": null,
+ "infructueux": false,
+ "attributaire": "MATITRAVE",
+ "montant_attribue": 2914570.0,
+ "attributaires_par_lot": [
+  {
+   "lot": null,
+   "attributaire": "MATITRAVE",
+   "montant": 2914570.0
+  },
+  {
+   "lot": null,
+   "attributaire": "NEW WATER",
+   "montant": 2592345.0
+  }
+ ],
+ "soumissionnaires": [
+  {
+   "nom": "ALOUSS",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "depose",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "MATITRAVE",
+   "montant_acte_engagement": 2914570.0,
+   "montant_apres_verification": null,
+   "autres_montants": [
+    2992800.0
+   ],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "NEW WATER",
+   "montant_acte_engagement": 2592345.0,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "MATI WORKS",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "depose",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "SETCTP",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_dossier_administratif_technique",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "COHIN ENVIRONNEMENT MAROC ENTRAGECI ALOUSS NEW WATER",
+   "montant_acte_engagement": 2999034.0,
+   "montant_apres_verification": null,
+   "autres_montants": [
+    2836150.0,
+    3136705.0,
+    2592345.0
+   ],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "ENTRAGECI",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "depose",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 7,
+ "alertes_ocr": [],
+ "notes_ocr": [],
+ "qualite": "complet"
+}

@@ -1,0 +1,53 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "711280",
+ "orgAcronyme": "d4q",
+ "reference_pv": null,
+ "nouveau": true,
+ "reference": null,
+ "objet": "Assainissement liquide du centre de Souk Tlet du Gharb. Lot 2 et STEP Monobloc (SBR)",
+ "acheteur": null,
+ "procedure": "appel d'offres ouvert",
+ "categorie": "Travaux",
+ "date_limite_plis": "15/11/2023",
+ "lieu_ouverture": "au Siège de la Direction Régionale de l'Ouest (DR4) Lotissement Al Qods - Kénitra - Maroc",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "02/05/2023",
+ "justification": "Moins-disant",
+ "infructueux": false,
+ "attributaire": null,
+ "montant_attribue": null,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "GROUP SETCTP / NOVAQUA - marché de travaux",
+   "montant_acte_engagement": 7090491.6,
+   "montant_apres_verification": 7090491.6,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "GROUP SETCTP / NOVAQUA - marché d'exploitation",
+   "montant_acte_engagement": 856800.0,
+   "montant_apres_verification": 856800.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 2,
+ "alertes_ocr": [
+  "Attributaire non trouvé."
+ ],
+ "notes_ocr": [
+  "Maître d'ouvrage absent du PV (utiliser l'acheteur public du portail)."
+ ],
+ "qualite": "complet"
+}

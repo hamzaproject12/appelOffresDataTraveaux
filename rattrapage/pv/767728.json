@@ -1,0 +1,142 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "767728",
+ "orgAcronyme": "m1w",
+ "reference_pv": null,
+ "nouveau": true,
+ "reference": null,
+ "objet": null,
+ "acheteur": "Barid Al Maghrib S.A",
+ "procedure": null,
+ "categorie": "Travaux",
+ "date_limite_plis": "12/12/2023",
+ "lieu_ouverture": "Direction Achats, sise au 8, rue Dayet Erroumi, Agdal – Rabat",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "28/12/2023",
+ "justification": "Offre la moins disante.",
+ "infructueux": true,
+ "attributaire": "MAJD TRAVAUX FORESTIERS",
+ "montant_attribue": 492895.0,
+ "attributaires_par_lot": [
+  {
+   "lot": "1",
+   "attributaire": "MAJD TRAVAUX FORESTIERS",
+   "montant": 492895.0
+  },
+  {
+   "lot": "2",
+   "attributaire": "G.G.C.A",
+   "montant": 299051.0
+  },
+  {
+   "lot": "4",
+   "attributaire": "SAGHRO MULTISERVICES 3M",
+   "montant": 141570.0
+  }
+ ],
+ "soumissionnaires": [
+  {
+   "nom": "Soumissions physiques Soumissions électroniques",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "depose",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "SAGHRO MULTISERVICES 3M",
+   "montant_acte_engagement": 141930.0,
+   "montant_apres_verification": null,
+   "autres_montants": [
+    141570.0
+   ],
+   "lots": [
+    "4"
+   ],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "MAJD TRAVAUX FORESTIERS",
+   "montant_acte_engagement": 543545.0,
+   "montant_apres_verification": null,
+   "autres_montants": [
+    492895.0
+   ],
+   "lots": [
+    "1"
+   ],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "JW TRAVAUX",
+   "montant_acte_engagement": 147828.0,
+   "montant_apres_verification": null,
+   "autres_montants": [
+    147828.0
+   ],
+   "lots": [
+    "4"
+   ],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "HARMONY TRAVAUX",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_dossier_administratif_technique",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "GC DU NORD",
+   "montant_acte_engagement": 457420.0,
+   "montant_apres_verification": null,
+   "autres_montants": [
+    457420.0
+   ],
+   "lots": [
+    "2"
+   ],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "G.G.C.A",
+   "montant_acte_engagement": 299051.0,
+   "montant_apres_verification": null,
+   "autres_montants": [
+    299051.0
+   ],
+   "lots": [
+    "2"
+   ],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "ABDEI CONSTRUCTION",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "depose",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 8,
+ "alertes_ocr": [],
+ "notes_ocr": [
+  "Marché alloti (3 lots).",
+  "Montants exprimés hors taxes (HT)."
+ ],
+ "qualite": "complet"
+}

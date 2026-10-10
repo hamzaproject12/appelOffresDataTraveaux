@@ -1,0 +1,70 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "978052",
+ "orgAcronyme": "d4q",
+ "reference_pv": null,
+ "nouveau": true,
+ "reference": null,
+ "objet": null,
+ "acheteur": null,
+ "procedure": "appel d'offres ouvert",
+ "categorie": "Travaux",
+ "date_limite_plis": "31/07/2025",
+ "lieu_ouverture": "à la Salle d'ouverture de l'Immeuble G - Avenue Mohamed Belhassan El Ouazzani - Rabat",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "18/02/2026",
+ "justification": "Moins-disant",
+ "infructueux": false,
+ "attributaire": "SOGETRAMA GLS",
+ "montant_attribue": 28727551.04,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "ATNER (ATLAS ENERGIE)",
+   "montant_acte_engagement": 37640202.0,
+   "montant_apres_verification": 37640202.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_dossier_administratif_technique",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "CEGELEC MAROC",
+   "montant_acte_engagement": 30367760.4,
+   "montant_apres_verification": 30367760.4,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "SOGETRAMA GLS",
+   "montant_acte_engagement": 28933351.04,
+   "montant_apres_verification": 28727551.04,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "WATEGA MAROC",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "depose",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 4,
+ "alertes_ocr": [],
+ "notes_ocr": [
+  "« SOGETRAMA GLS » : montant rectifié de 28 933 351.04 à 28 727 551.04 DH.",
+  "Maître d'ouvrage absent du PV (utiliser l'acheteur public du portail)."
+ ],
+ "qualite": "complet"
+}

@@ -1,0 +1,101 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "763184",
+ "orgAcronyme": "z7x",
+ "reference_pv": null,
+ "nouveau": true,
+ "reference": null,
+ "objet": null,
+ "acheteur": "Le Doyen de la Faculté des Lettres et des Sciences Humaines d’Oujda",
+ "procedure": null,
+ "categorie": "Travaux",
+ "date_limite_plis": null,
+ "lieu_ouverture": "le bureau de service financier de la FLSHO",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "11/12/2023",
+ "justification": "il a présenté l’offre économiquement la plus avantageuse.",
+ "infructueux": false,
+ "attributaire": "BUILDEX TRAVAUX",
+ "montant_attribue": 1188036.0,
+ "attributaires_par_lot": [
+  {
+   "lot": null,
+   "attributaire": "BUILDEX TRAVAUX",
+   "montant": 1188036.0
+  },
+  {
+   "lot": null,
+   "attributaire": "LA PLATFOPME DU BATIMENT ET TRAVAUX PUBLIC",
+   "montant": 1285423.2
+  },
+  {
+   "lot": null,
+   "attributaire": "TASTAOUT",
+   "montant": 1199584.8
+  }
+ ],
+ "soumissionnaires": [
+  {
+   "nom": "BUILDEX TRAVAUX",
+   "montant_acte_engagement": 1188036.0,
+   "montant_apres_verification": 1188036.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "CDEM PRO",
+   "montant_acte_engagement": 1274366.4,
+   "montant_apres_verification": 1274366.4,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "LA PLATFOPME DU BATIMENT ET TRAVAUX PUBLIC",
+   "montant_acte_engagement": 1285423.2,
+   "montant_apres_verification": 1285423.2,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "ESTCONS BENBRAHIM",
+   "montant_acte_engagement": 1218283.2,
+   "montant_apres_verification": 1218283.2,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "JIMALUX",
+   "montant_acte_engagement": 1185192.0,
+   "montant_apres_verification": 1185192.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "TASTAOUT",
+   "montant_acte_engagement": 1199584.8,
+   "montant_apres_verification": 1199584.8,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 6,
+ "alertes_ocr": [],
+ "notes_ocr": [],
+ "qualite": "complet"
+}

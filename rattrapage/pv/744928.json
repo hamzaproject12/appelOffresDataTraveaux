@@ -1,0 +1,84 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "744928",
+ "orgAcronyme": "o8p",
+ "reference_pv": "AO/34/ANEPCEST/2023",
+ "nouveau": true,
+ "reference": "AO/34/ANEPCEST/2023",
+ "objet": "« TRAVAUX D'EXTENSION DU CENTRE REGIONAL DE LA JEUNESSE ET DE L'ENFANCE DE FES SIS A ZOUAGHA »",
+ "acheteur": null,
+ "procedure": "appel d'offres ouvert",
+ "categorie": "Travaux",
+ "date_limite_plis": "08/05/2023",
+ "lieu_ouverture": "le bureau du Directeur Régional de l'Agence Nationale des Equipements",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "22/09/2023",
+ "justification": null,
+ "infructueux": false,
+ "attributaire": "STE ASSALA ISKANE SARL",
+ "montant_attribue": 15600060.57,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "STE SALOTRAV",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_dossier_administratif_technique",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "STE OTRADI",
+   "montant_acte_engagement": 17924408.43,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_offre_financiere",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "STE MOUZOBAT. LEE",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_offre_financiere",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "STE COOP TRAVAUX",
+   "montant_acte_engagement": 15415829.27,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_offre_financiere",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "STE ASSALA ISKANE SARL",
+   "montant_acte_engagement": 15600060.57,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 5,
+ "alertes_ocr": [
+  "« STE OTRADI » absent de la liste des plis déposés (nom mal lu ?).",
+  "« STE COOP TRAVAUX » absent de la liste des plis déposés (nom mal lu ?).",
+  "« STE ASSALA ISKANE SARL » absent de la liste des plis déposés (nom mal lu ?)."
+ ],
+ "notes_ocr": [
+  "« STE SALOTRAV » absent de la liste des plis déposés (nom mal lu ?).",
+  "« STE MOUZOBAT. LEE » absent de la liste des plis déposés (nom mal lu ?).",
+  "Maître d'ouvrage absent du PV (utiliser l'acheteur public du portail)."
+ ],
+ "qualite": "complet"
+}

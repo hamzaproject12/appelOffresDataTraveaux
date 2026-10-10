@@ -1,0 +1,67 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "1035364",
+ "orgAcronyme": "w9x",
+ "reference_pv": "70/DGPC/2026",
+ "nouveau": true,
+ "reference": "70/DGPC/2026",
+ "objet": "les travaux d'aménagement et d'installation des blocs modulaires destinés à l'Ecole Nationale de la Protection Civile à Casablanca (lot unique)",
+ "acheteur": "La Direction Générale de la Protection Civile",
+ "procedure": "appel d'offres ouvert national",
+ "categorie": "Travaux",
+ "date_limite_plis": "17/08/2026",
+ "lieu_ouverture": "Salle des réunions du siège de la Direction Générale de la Protection Civile, Avenue Ibn Rochd, Agdal, Rabat",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "27/08/2026",
+ "justification": "l'offre économiquement la plus avantageuse.",
+ "infructueux": false,
+ "attributaire": "STE ACEV",
+ "montant_attribue": 5998340.4,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "STE ARAB TATWEER",
+   "montant_acte_engagement": 5695032.0,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_offre_financiere",
+   "admis_avec_reserve": true
+  },
+  {
+   "nom": "STE LUXURY BUILDING",
+   "montant_acte_engagement": 6396000.0,
+   "montant_apres_verification": 6396000.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": true
+  },
+  {
+   "nom": "e. STE SELECT CONTRACTORS",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_dossier_administratif_technique",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "STE ACEV",
+   "montant_acte_engagement": 5998340.4,
+   "montant_apres_verification": 5998340.4,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 4,
+ "alertes_ocr": [],
+ "notes_ocr": [],
+ "qualite": "complet"
+}

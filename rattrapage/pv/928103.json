@@ -1,0 +1,58 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "928103",
+ "orgAcronyme": "q1s",
+ "reference_pv": "01/2025/DIAEA/DOPSAISS",
+ "nouveau": true,
+ "reference": "01/2025/DIAEA/DOPSAISS",
+ "objet": "travaux de réalisation des vannes de sectionnement au niveau de l’adducteur de la tranche IT dans le cadre du projet d’aménagement hydro agricole pour la sauvegarde de la plaine de Saiss dans la Province de SEFROU",
+ "acheteur": "Chef d'Aménagement Provisoire pour la Supervision de Projet d'Aménagement Hydro-Agricole de la Plaine de Saiss",
+ "procedure": "appel d'offres ouvert international",
+ "categorie": "Travaux",
+ "date_limite_plis": "12/08/2025",
+ "lieu_ouverture": "la salle des réunions du projet d'aménagement hydro-agricole pour la sauvegarde de la plaine du saiss, sis à Avenue des FAR FES",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "03/09/2025",
+ "justification": "l'offre la mieux disante",
+ "infructueux": false,
+ "attributaire": "Société CAPEP",
+ "montant_attribue": 106011564.0,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "Société STAM",
+   "montant_acte_engagement": 107623710.0,
+   "montant_apres_verification": 107623710.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_offre_financiere",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Société SNCE",
+   "montant_acte_engagement": 109538676.0,
+   "montant_apres_verification": 109538676.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_offre_financiere",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Société CAPEP",
+   "montant_acte_engagement": 106011564.0,
+   "montant_apres_verification": 106011564.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 3,
+ "alertes_ocr": [],
+ "notes_ocr": [],
+ "qualite": "complet"
+}

@@ -1,0 +1,49 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "860361",
+ "orgAcronyme": "j8k",
+ "reference_pv": "40/TTH-TE/2024",
+ "nouveau": true,
+ "reference": "40/TTH-TE/2024",
+ "objet": "TRAVAUX D'ECLAIRAGE PUBLIC DU PROJET HAY AL MATAR, A TETOUAN",
+ "acheteur": "AL OMRANE TANGER-TETOUAN-AL HOCEIMA",
+ "procedure": null,
+ "categorie": "Travaux",
+ "date_limite_plis": "29/11/2024",
+ "lieu_ouverture": "Al Omrane Tanger-Tétouan-Al Hoceima",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": null,
+ "justification": "MOINS DISANT",
+ "infructueux": false,
+ "attributaire": "TRACHI",
+ "montant_attribue": 449640.0,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "AGA LUD",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_offre_financiere",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "TRACHI",
+   "montant_acte_engagement": 449640.0,
+   "montant_apres_verification": 449640.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 2,
+ "alertes_ocr": [],
+ "notes_ocr": [],
+ "qualite": "attribution"
+}

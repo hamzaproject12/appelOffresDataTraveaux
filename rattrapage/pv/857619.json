@@ -1,0 +1,80 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "857619",
+ "orgAcronyme": "g3h",
+ "reference_pv": "155/2024",
+ "nouveau": true,
+ "reference": "155/2024",
+ "objet": null,
+ "acheteur": "Régie Autonome de Distribution d'Eau et d’Electricité de Fès",
+ "procedure": "appel d'offres ouvert",
+ "categorie": "Travaux",
+ "date_limite_plis": "21/11/2024",
+ "lieu_ouverture": "Siège de la RADEEF",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "04/12/2024",
+ "justification": null,
+ "infructueux": false,
+ "attributaire": "RAZ TRAVAUX",
+ "montant_attribue": 1815250.0,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "ENTREPRISE EL HAMDANI HASSAN DES TRAVAUX DIVERS",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "depose",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "EGOREB",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "depose",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "EL HOURIA HOLDING",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_dossier_administratif_technique",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "MATITRAVE RAVAUX DES TRAVAUX DIVERS ÉGOREB",
+   "montant_acte_engagement": 2175885.0,
+   "montant_apres_verification": null,
+   "autres_montants": [
+    1815250.0,
+    2103445.0,
+    1998.0
+   ],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "RAZ TRAVAUX",
+   "montant_acte_engagement": 1815250.0,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 5,
+ "alertes_ocr": [],
+ "notes_ocr": [],
+ "qualite": "complet"
+}

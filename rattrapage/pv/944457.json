@@ -1,0 +1,76 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "944457",
+ "orgAcronyme": "g3h",
+ "reference_pv": "34/SDAD/2025",
+ "nouveau": true,
+ "reference": "34/SDAD/2025",
+ "objet": "TRAVAUX D’AMENAGEMENT DE LA PLATEFORME DE LA CORNICHE BASSE AU NIVEAU DU BOULEVARD MOHAMMED V A LA VILLE DE DAKHLA",
+ "acheteur": null,
+ "procedure": "appel d'offres ouvert",
+ "categorie": "Travaux",
+ "date_limite_plis": "16/10/2025",
+ "lieu_ouverture": "Secrétariat Général Province D'oued Eddahab",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "23/10/2025",
+ "justification": "Offre conforme aux exigences du Règlement de consultation et la plus avantageuse.",
+ "infructueux": false,
+ "attributaire": "Société AKOUJE",
+ "montant_attribue": 10254600.0,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "Société GROUPE MARHOUNI SUD",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_dossier_administratif_technique",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Société MAY MAR BUILDING",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_offre_technique",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Société ALMO JARDIN",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_offre_technique",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Société AKOUJE",
+   "montant_acte_engagement": 10254600.0,
+   "montant_apres_verification": null,
+   "autres_montants": [
+    10254600.0
+   ],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 4,
+ "alertes_ocr": [
+  "« Société AKOUJE » absent de la liste des plis déposés (nom mal lu ?)."
+ ],
+ "notes_ocr": [
+  "« Société GROUPE MARHOUNI SUD » absent de la liste des plis déposés (nom mal lu ?).",
+  "« Société MAY MAR BUILDING » absent de la liste des plis déposés (nom mal lu ?).",
+  "« Société ALMO JARDIN » absent de la liste des plis déposés (nom mal lu ?).",
+  "Maître d'ouvrage absent du PV (utiliser l'acheteur public du portail)."
+ ],
+ "qualite": "attribution"
+}

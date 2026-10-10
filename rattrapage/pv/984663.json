@@ -1,0 +1,64 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "984663",
+ "orgAcronyme": "q0x",
+ "reference_pv": "02/2026",
+ "nouveau": true,
+ "reference": "02/2026",
+ "objet": "Voies urbaines (aménagement des fontaines du boulevard Med V et boulevard Zerktouni)",
+ "acheteur": "Commune de Khénifra",
+ "procedure": "appel d'offres ouvert national",
+ "categorie": "Travaux",
+ "date_limite_plis": "10/03/2026",
+ "lieu_ouverture": "Bureau du Président",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": null,
+ "justification": null,
+ "infructueux": false,
+ "attributaire": null,
+ "montant_attribue": null,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "Sté NAZELEC Sarl, Khénifra",
+   "montant_acte_engagement": 451318.8,
+   "montant_apres_verification": 451318.8,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "STE JAMAL ISTITMAR, Fquih Ben Salah -Manque des fiches techniques",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_dossier_administratif_technique",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "NAFOURA TECHNIQUE SARL AU, Fquih Ben Salah",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_dossier_administratif_technique",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 3,
+ "alertes_ocr": [
+  "« Sté NAZELEC Sarl, Khénifra » absent de la liste des plis déposés (nom mal lu ?).",
+  "Attributaire non trouvé."
+ ],
+ "notes_ocr": [
+  "« STE JAMAL ISTITMAR, Fquih Ben Salah -Manque des fiches techniques » absent de la liste des plis déposés (nom mal lu ?).",
+  "« NAFOURA TECHNIQUE SARL AU, Fquih Ben Salah » absent de la liste des plis déposés (nom mal lu ?)."
+ ],
+ "qualite": "attribution"
+}

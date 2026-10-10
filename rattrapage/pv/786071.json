@@ -1,0 +1,153 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "786071",
+ "orgAcronyme": "q1s",
+ "reference_pv": null,
+ "nouveau": true,
+ "reference": null,
+ "objet": "contrôle technique des études et travaux de construction des marchés de détail au poisson à Sidi Slimane Chra’a (Berkane), Oujda, Essaouira, Dakhla et Guelmim",
+ "acheteur": "OFFICE NATIONAL DES PECHES",
+ "procedure": null,
+ "categorie": "Travaux",
+ "date_limite_plis": "20/03/2024",
+ "lieu_ouverture": "Office National des Pêches, sis 15, rue du Lieutenant Mohamed Mahroud à Casablanca",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "03/04/2024",
+ "justification": "l'offre la moins disante.",
+ "infructueux": false,
+ "attributaire": "RISK CONTROL",
+ "montant_attribue": 59640.0,
+ "attributaires_par_lot": [
+  {
+   "lot": "1",
+   "attributaire": "RISK CONTROL",
+   "montant": 59640.0
+  },
+  {
+   "lot": "2",
+   "attributaire": "TECNITAS",
+   "montant": 43200.0
+  },
+  {
+   "lot": "3",
+   "attributaire": "RISK CONTROL",
+   "montant": 50160.0
+  },
+  {
+   "lot": "4",
+   "attributaire": "SOMACEP Il (Société Marocaine de Contrôle et Prévention)",
+   "montant": 52800.0
+  },
+  {
+   "lot": "5",
+   "attributaire": "SOMACEP Il (Société Marocaine de Contrôle et Prévention)",
+   "montant": 62400.0
+  }
+ ],
+ "soumissionnaires": [
+  {
+   "nom": "DEKRA INSPECTION",
+   "montant_acte_engagement": 100800.0,
+   "montant_apres_verification": null,
+   "autres_montants": [
+    100800.0,
+    72000.0,
+    78000.0,
+    84000.0,
+    78000.0
+   ],
+   "lots": [
+    "1",
+    "2",
+    "4",
+    "5"
+   ],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "SOMACEP Il (Société Marocaine de Contrôle et Prévention)",
+   "montant_acte_engagement": 81600.0,
+   "montant_apres_verification": null,
+   "autres_montants": [
+    81600.0,
+    57600.0,
+    52800.0,
+    52800.0,
+    62400.0
+   ],
+   "lots": [
+    "1",
+    "2",
+    "4",
+    "5"
+   ],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "TECNITAS",
+   "montant_acte_engagement": 63600.0,
+   "montant_apres_verification": null,
+   "autres_montants": [
+    63600.0,
+    43200.0,
+    62400.0,
+    63600.0,
+    68400.0
+   ],
+   "lots": [
+    "1",
+    "2",
+    "4",
+    "5"
+   ],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "RISK CONTROL",
+   "montant_acte_engagement": 59640.0,
+   "montant_apres_verification": null,
+   "autres_montants": [
+    59640.0,
+    45000.0,
+    50160.0
+   ],
+   "lots": [
+    "1",
+    "2",
+    "3"
+   ],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "SESCONTROLE",
+   "montant_acte_engagement": 75600.0,
+   "montant_apres_verification": null,
+   "autres_montants": [
+    75600.0,
+    54000.0,
+    68640.0
+   ],
+   "lots": [
+    "1",
+    "2",
+    "5"
+   ],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 5,
+ "alertes_ocr": [],
+ "notes_ocr": [
+  "Marché alloti (5 lots)."
+ ],
+ "qualite": "complet"
+}

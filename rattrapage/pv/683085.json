@@ -1,0 +1,51 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "683085",
+ "orgAcronyme": "q1s",
+ "reference_pv": "19/2022",
+ "nouveau": true,
+ "reference": "19/2022",
+ "objet": "TRAVAUX COMPLEMENTAIRES D'ENTRETIEN DES EQUIPEMENTS ELECTRIQUES DE LA PROTECTION CATHODIQUE DU RESEAU",
+ "acheteur": "Direction Provinciale de l’Agriculture de Taounate",
+ "procedure": "appel d'offres ouvert",
+ "categorie": "Travaux",
+ "date_limite_plis": null,
+ "lieu_ouverture": "l'Agriculture de Taounate",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "08/12/2022",
+ "justification": null,
+ "infructueux": false,
+ "attributaire": "Ste TAE SARL",
+ "montant_attribue": 756120.0,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "Ste TAE SARL",
+   "montant_acte_engagement": 756120.0,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": true
+  },
+  {
+   "nom": "intéressante présentée par la société TAE SARL. D’un montant de",
+   "montant_acte_engagement": 756120.0,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 2,
+ "alertes_ocr": [
+  "« intéressante présentée par la société TAE SARL. D’un montant de » absent de la liste des plis déposés (nom mal lu ?)."
+ ],
+ "notes_ocr": [],
+ "qualite": "complet"
+}

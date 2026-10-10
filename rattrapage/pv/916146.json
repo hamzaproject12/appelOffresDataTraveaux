@@ -1,0 +1,56 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "916146",
+ "orgAcronyme": "d4q",
+ "reference_pv": "20/AMG/3/2025",
+ "nouveau": true,
+ "reference": "20/AMG/3/2025",
+ "objet": "Entretien, réparation et maintenance des collecteurs d’assainissement aux",
+ "acheteur": null,
+ "procedure": "appel d'offres ouvert",
+ "categorie": "Travaux",
+ "date_limite_plis": "01/07/2025",
+ "lieu_ouverture": "au siège de la Direction Régionale Guelmim Oued Noun (DRG) - Quartier administratif, Bd Al Fida, Imm C, 2ème étage - Guelmim - Maroc SHTG (SOCIETE HAFIDI DES TRAVAUX GUELMIM)",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "15/07/2025",
+ "justification": "Moins-disant",
+ "infructueux": false,
+ "attributaire": null,
+ "montant_attribue": null,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "DRG/C - DIVISION ACHATS DRG",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "depose",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "SHTG (SOCIETE HAFIDI DES TRAVAUX GUELMIM)",
+   "montant_acte_engagement": 719664.0,
+   "montant_apres_verification": null,
+   "autres_montants": [
+    719664.0
+   ],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 2,
+ "alertes_ocr": [
+  "« SHTG (SOCIETE HAFIDI DES TRAVAUX GUELMIM) » absent de la liste des plis déposés (nom mal lu ?).",
+  "Attributaire non trouvé."
+ ],
+ "notes_ocr": [
+  "Maître d'ouvrage absent du PV (utiliser l'acheteur public du portail)."
+ ],
+ "qualite": "attribution"
+}

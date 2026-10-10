@@ -1,0 +1,60 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "808445",
+ "orgAcronyme": "q0x",
+ "reference_pv": "03/2024",
+ "nouveau": true,
+ "reference": "03/2024",
+ "objet": null,
+ "acheteur": "commune territoriale de Tadighoust",
+ "procedure": "appel d'offres ouvert",
+ "categorie": "Travaux",
+ "date_limite_plis": null,
+ "lieu_ouverture": "bureau du président au siège de la commune de Tadighoust",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "25/06/2024",
+ "justification": "offre la plus avantageuse la commission décide d’annuler l’appel d’offres ouvert n° :03/2024 ” travaux d’aménagement de la place Izran à Ksar Cherif commune Tadighoust en lot unique \"en raison de dépassement , par les deux offres reçus, des crédits budgétaires alloué au marché.",
+ "infructueux": false,
+ "attributaire": "Société STELTRAV",
+ "montant_attribue": 947921.04,
+ "attributaires_par_lot": [
+  {
+   "lot": null,
+   "attributaire": "Société STELTRAV",
+   "montant": 947921.04
+  },
+  {
+   "lot": null,
+   "attributaire": "Société NIXNAS BUILDING",
+   "montant": 969253.6
+  }
+ ],
+ "soumissionnaires": [
+  {
+   "nom": "Société STELTRAV",
+   "montant_acte_engagement": 947921.04,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Société NIXNAS BUILDING",
+   "montant_acte_engagement": 969253.6,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 2,
+ "alertes_ocr": [],
+ "notes_ocr": [],
+ "qualite": "attribution"
+}

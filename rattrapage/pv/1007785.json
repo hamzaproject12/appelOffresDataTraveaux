@@ -1,0 +1,58 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "1007785",
+ "orgAcronyme": "d0q",
+ "reference_pv": null,
+ "nouveau": true,
+ "reference": null,
+ "objet": "Gros Travaux de maintenance d'éclairage public de la corniche Sabadilla, commune d’",
+ "acheteur": "Commune d’AI Hoceima",
+ "procedure": null,
+ "categorie": "Travaux",
+ "date_limite_plis": "14/05/2026",
+ "lieu_ouverture": "le bureau du président de la commune d’AI Hoceima",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "22/05/2026",
+ "justification": null,
+ "infructueux": false,
+ "attributaire": "STE TAMOUDA BAY DES TRAVAUX DIVERS",
+ "montant_attribue": 4031592.0,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "STE ELECTAD",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_dossier_administratif_technique",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "ENTREPRISE TAHAT.P",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_dossier_administratif_technique",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "STE TAMOUDA BAY DES TRAVAUX DIVERS",
+   "montant_acte_engagement": 4031592.0,
+   "montant_apres_verification": 4031592.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 3,
+ "alertes_ocr": [],
+ "notes_ocr": [],
+ "qualite": "attribution"
+}

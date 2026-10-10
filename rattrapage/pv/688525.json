@@ -1,0 +1,126 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "688525",
+ "orgAcronyme": "h5r",
+ "reference_pv": null,
+ "nouveau": true,
+ "reference": null,
+ "objet": null,
+ "acheteur": null,
+ "procedure": null,
+ "categorie": "Travaux",
+ "date_limite_plis": null,
+ "lieu_ouverture": null,
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": null,
+ "justification": null,
+ "infructueux": false,
+ "attributaire": null,
+ "montant_attribue": null,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "PAR VOIE ELECTRONIQUE STE ZAMANE EL KHEIR S.A.R.L PRODUIRE LES PIECES OBJET DU DOSSIER",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": true
+  },
+  {
+   "nom": "PAR VOIE ELECTRONIQUE STE IZER INVEST S.A.R.L FES",
+   "montant_acte_engagement": 2998826.4,
+   "montant_apres_verification": 2998826.4,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": true
+  },
+  {
+   "nom": "PAR VOIE ELECTRONIQUE STE ZAMANE EL KHEIR S.A.R.L EL JADIDA",
+   "montant_acte_engagement": 3220909.2,
+   "montant_apres_verification": 2785599.6,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "PAR VOIE ELECTRONIQUE STE DHW MAITRISE S.A.R.L CASABLANCA",
+   "montant_acte_engagement": 2972037.6,
+   "montant_apres_verification": 2972037.6,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "PAR VOIE ELECTRONIQUE STE ATLAS GT S.A.R.L AU RABAT",
+   "montant_acte_engagement": 3541226.4,
+   "montant_apres_verification": 3541226.4,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "PAR VOIE ELECTRONIQUE ENTREPRISE BAKKARI SALAH KHOURIBGA",
+   "montant_acte_engagement": 4256393.76,
+   "montant_apres_verification": 4256393.76,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "PAR VOIE ELECTRONIQUE STE EL AMAL DES TRAVAUX PUBLIC SELTRAP S.A.R.L MARRAKECH",
+   "montant_acte_engagement": 2910729.6,
+   "montant_apres_verification": 2910729.6,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "PAR VOIE ELECTRONIQUE STE ZS TRAVAUX S.A.R.L AGADIR",
+   "montant_acte_engagement": 3365930.4,
+   "montant_apres_verification": 3365930.4,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "PROPISTE S.A.R.L EL KELAA DES SRAGHNA",
+   "montant_acte_engagement": 3220386.48,
+   "montant_apres_verification": 3220386.48,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 9,
+ "alertes_ocr": [
+  "« PAR VOIE ELECTRONIQUE STE IZER INVEST S.A.R.L FES » absent de la liste des plis déposés (nom mal lu ?).",
+  "« PAR VOIE ELECTRONIQUE STE ZAMANE EL KHEIR S.A.R.L EL JADIDA » absent de la liste des plis déposés (nom mal lu ?).",
+  "« PAR VOIE ELECTRONIQUE STE DHW MAITRISE S.A.R.L CASABLANCA » absent de la liste des plis déposés (nom mal lu ?).",
+  "« PAR VOIE ELECTRONIQUE STE ATLAS GT S.A.R.L AU RABAT » absent de la liste des plis déposés (nom mal lu ?).",
+  "« PAR VOIE ELECTRONIQUE ENTREPRISE BAKKARI SALAH KHOURIBGA » absent de la liste des plis déposés (nom mal lu ?).",
+  "« PAR VOIE ELECTRONIQUE STE EL AMAL DES TRAVAUX PUBLIC SELTRAP S.A.R.L MARRAKECH » absent de la liste des plis déposés (nom mal lu ?).",
+  "« PAR VOIE ELECTRONIQUE STE ZS TRAVAUX S.A.R.L AGADIR » absent de la liste des plis déposés (nom mal lu ?).",
+  "« PROPISTE S.A.R.L EL KELAA DES SRAGHNA » absent de la liste des plis déposés (nom mal lu ?).",
+  "Attributaire non trouvé."
+ ],
+ "notes_ocr": [
+  "« PAR VOIE ELECTRONIQUE STE ZAMANE EL KHEIR S.A.R.L PRODUIRE LES PIECES OBJET DU DOSSIER » absent de la liste des plis déposés (nom mal lu ?).",
+  "« PAR VOIE ELECTRONIQUE STE ZAMANE EL KHEIR S.A.R.L EL JADIDA » : montant rectifié de 3 220 909.20 à 2 785 599.60 DH.",
+  "Maître d'ouvrage absent du PV (utiliser l'acheteur public du portail)."
+ ],
+ "qualite": "complet"
+}

@@ -1,0 +1,51 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "979132",
+ "orgAcronyme": "g3h",
+ "reference_pv": "19/2026",
+ "nouveau": true,
+ "reference": "19/2026",
+ "objet": null,
+ "acheteur": "Société Régionale Multiservices Fès Meknès « SRM-FM »",
+ "procedure": "appel d'offres ouvert",
+ "categorie": "Travaux",
+ "date_limite_plis": "15/01/2026",
+ "lieu_ouverture": "Siège de la SRM-FM",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "12/02/2026",
+ "justification": null,
+ "infructueux": false,
+ "attributaire": "SLIRA TRAVAUX (2 LOTS)",
+ "montant_attribue": 5631500.0,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "SLIRA TRAVAUX (2 LOTS)",
+   "montant_acte_engagement": 5631500.0,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [
+    "1"
+   ],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "DELTA INGENIERIE INDUSTRIELLE (2 LOTS)",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_dossier_administratif_technique",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 2,
+ "alertes_ocr": [],
+ "notes_ocr": [],
+ "qualite": "attribution"
+}

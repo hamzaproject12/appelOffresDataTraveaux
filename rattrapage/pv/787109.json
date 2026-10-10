@@ -1,0 +1,68 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "787109",
+ "orgAcronyme": "o8p",
+ "reference_pv": "02/DRMS/2024/MSPS",
+ "nouveau": true,
+ "reference": "02/DRMS/2024/MSPS",
+ "objet": "TRAVAUX DE RACCORDEMENT SOUTERRAIN 2° CATEGORIE A 22KV DE L'HOPITAL DE PROXIMITE D'IMINTANOUTE -PROVINCE DE CHICHAOUA-",
+ "acheteur": "Ministère de la santé et de la protection sociale",
+ "procedure": "appel d'offres ouvert",
+ "categorie": "Travaux",
+ "date_limite_plis": "19/03/2024",
+ "lieu_ouverture": "DIRECTION MARRAKECH SAFI - ANEP Marrakech Safi",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "03/04/2024",
+ "justification": "Le marché est attribué au concurrent ayant proposé la deuxième offre financière la plus avantageuse, car le concurrent ayant proposé l’offre la e répondu dans les délais règlementaires.",
+ "infructueux": false,
+ "attributaire": "ELECTOMAR",
+ "montant_attribue": 1724819.84,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "ELECTOMAR",
+   "montant_acte_engagement": 1724819.84,
+   "montant_apres_verification": null,
+   "autres_montants": [
+    1724819.84
+   ],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "OUEST APPLICATION",
+   "montant_acte_engagement": 1537567.51,
+   "montant_apres_verification": null,
+   "autres_montants": [
+    1537567.51
+   ],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "EPELCO",
+   "montant_acte_engagement": 1879695.6,
+   "montant_apres_verification": null,
+   "autres_montants": [
+    1879695.6
+   ],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 3,
+ "alertes_ocr": [
+  "« ELECTOMAR » absent de la liste des plis déposés (nom mal lu ?).",
+  "« OUEST APPLICATION » absent de la liste des plis déposés (nom mal lu ?).",
+  "« EPELCO » absent de la liste des plis déposés (nom mal lu ?)."
+ ],
+ "notes_ocr": [],
+ "qualite": "complet"
+}

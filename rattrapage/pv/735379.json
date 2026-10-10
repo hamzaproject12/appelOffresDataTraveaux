@@ -1,0 +1,161 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "735379",
+ "orgAcronyme": "j8k",
+ "reference_pv": "03/2023-Obiet",
+ "nouveau": true,
+ "reference": "03/2023-Obiet",
+ "objet": null,
+ "acheteur": "Le Ministère de l’Am Le Ministère de l’Am Politique de la Ville",
+ "procedure": null,
+ "categorie": "Travaux",
+ "date_limite_plis": "12/06/2023",
+ "lieu_ouverture": "La salle de réunion de la Directio La salle de réunion de la Directio n des Ressources Humaines et des Affaires Financières et",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "09/08/2023",
+ "justification": "La commission a apprécié les capacités financières l'importance des prestations objet de la consultation. marché aux concurrents ayants présenté les offres les et techniques en rapport avec la nature et Par conséquent, la Commission a attribué le plus avantageuse (les moins disantes).",
+ "infructueux": false,
+ "attributaire": "Société MAGHREBNET RTABI ET CIE SNC",
+ "montant_attribue": 2721147.0,
+ "attributaires_par_lot": [
+  {
+   "lot": "1",
+   "attributaire": "Société MAGHREBNET RTABI ET CIE SNC",
+   "montant": 2721147.0
+  },
+  {
+   "lot": "2",
+   "attributaire": "Société MAGHREBNET RTABI ET CIE SNC",
+   "montant": 1149396.0
+  }
+ ],
+ "soumissionnaires": [
+  {
+   "nom": "Société CHAIME DES TRAVAUX",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [
+    "1",
+    "2"
+   ],
+   "statut": "ecarte_offre_technique",
+   "admis_avec_reserve": true
+  },
+  {
+   "nom": "Société STE ELEXPERT SARL D'ELECTRICITE ee",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [
+    "1"
+   ],
+   "statut": "depose",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Société GRITEL SARL - Société ELEXPERT SARL",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [
+    "1"
+   ],
+   "statut": "depose",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Société MULTI WORK CENTER - GRPT STIL ENERGIES SARL / OMEGA",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [
+    "1"
+   ],
+   "statut": "ecarte_dossier_administratif_technique",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "MAROC SARL OMEGA FLUIDES SARL AU",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [
+    "1"
+   ],
+   "statut": "ecarte_dossier_administratif_technique",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Société I CENTER MAROC",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [
+    "1"
+   ],
+   "statut": "depose",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Société TECH ELEC SARL",
+   "montant_acte_engagement": 2704920.0,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [
+    "1"
+   ],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Société MAGHREBNET RTABI ET CIE SNC",
+   "montant_acte_engagement": 2721147.0,
+   "montant_apres_verification": null,
+   "autres_montants": [
+    1149396.0
+   ],
+   "lots": [
+    "1",
+    "2"
+   ],
+   "statut": "attributaire",
+   "admis_avec_reserve": true
+  },
+  {
+   "nom": "Société VENTEC SA",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [
+    "1",
+    "2"
+   ],
+   "statut": "admis",
+   "admis_avec_reserve": true
+  },
+  {
+   "nom": "Société GRITEL SARL",
+   "montant_acte_engagement": 3164563.2,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [
+    "1"
+   ],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 10,
+ "alertes_ocr": [
+  "« Société GRITEL SARL » absent de la liste des plis déposés (nom mal lu ?)."
+ ],
+ "notes_ocr": [
+  "Marché alloti (2 lots)."
+ ],
+ "qualite": "complet"
+}

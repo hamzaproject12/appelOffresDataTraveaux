@@ -1,0 +1,51 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "771779",
+ "orgAcronyme": "g3h",
+ "reference_pv": "24/PT/2023",
+ "nouveau": true,
+ "reference": "24/PT/2023",
+ "objet": "Travaux de construction de 10 salles de classe aux communes de (4 A SS HASSANE BNOU THABITE, 2 A BOUCHEN ET 3 A DAR ABAKHITI) ET DE BNI OUNJEL TAFRAOUT (1 A RAS DAR) - Province de Taounate",
+ "acheteur": null,
+ "procedure": null,
+ "categorie": "Travaux",
+ "date_limite_plis": "23/03/2023",
+ "lieu_ouverture": "le bureau du Secrétariat Général de la Province de Taounate",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": null,
+ "justification": "l'offre financière est la moins disante.",
+ "infructueux": false,
+ "attributaire": "SOCIETE BAB JAME TRAVO A TAOUNATE",
+ "montant_attribue": 2902737.0,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "SOCIETE TAHIRI ATLAS SARL A FES",
+   "montant_acte_engagement": 3209965.2,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_dossier_administratif_technique",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "SOCIETE BAB JAME TRAVO A TAOUNATE",
+   "montant_acte_engagement": 2902737.0,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 2,
+ "alertes_ocr": [],
+ "notes_ocr": [
+  "Maître d'ouvrage absent du PV (utiliser l'acheteur public du portail)."
+ ],
+ "qualite": "complet"
+}

@@ -1,0 +1,76 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "1041579",
+ "orgAcronyme": "o8p",
+ "reference_pv": "18/2026/ANEPCO",
+ "nouveau": true,
+ "reference": "18/2026/ANEPCO",
+ "objet": "TRAVAUX DE CONSTRUCTION DE L’HOPITAL DE PROXIMITE D’AGUELMOUSS ELECTRICITE HTA/BT & COURANTS FAIBLES",
+ "acheteur": "MINISTERE DE LA SANTE ET DE LA PROTECTION SOCIALE",
+ "procedure": "appel d'offres ouvert international",
+ "categorie": "Travaux",
+ "date_limite_plis": "18/06/2026",
+ "lieu_ouverture": "ANEP CENTRE OUEST",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "18/09/2026",
+ "justification": "L’offre avantageuse est l'offre la mieux disante par rapport au prix de référence",
+ "infructueux": false,
+ "attributaire": "BELECTRABAT",
+ "montant_attribue": 25241481.6,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "PROTELEC",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "BELECTRABAT",
+   "montant_acte_engagement": 25241481.6,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Groupement SMH T ELECOMMUNICATION & Rebitech",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_offre_technique",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "SORALEC",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_offre_technique",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "D.PNETWORKS",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_offre_technique",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 5,
+ "alertes_ocr": [],
+ "notes_ocr": [],
+ "qualite": "attribution"
+}

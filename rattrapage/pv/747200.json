@@ -1,0 +1,86 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "747200",
+ "orgAcronyme": "g3h",
+ "reference_pv": "11/23/ELEC",
+ "nouveau": true,
+ "reference": "11/23/ELEC",
+ "objet": "Travaux de normalisation des coffrets de distribution Basse Tension",
+ "acheteur": "Régie Autonome de Distribution d’Eau et d’Electricité de MARRAKECH",
+ "procedure": "appel d'offres ouvert",
+ "categorie": "Travaux",
+ "date_limite_plis": "27/04/2023",
+ "lieu_ouverture": "au Siège de la RADEEMA Boulevard Mohamed VI MARRAKECH",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": null,
+ "justification": "l’offre la plus avantageuse 7",
+ "infructueux": false,
+ "attributaire": null,
+ "montant_attribue": null,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "3L ELEC",
+   "montant_acte_engagement": 876500.0,
+   "montant_apres_verification": null,
+   "autres_montants": [
+    1051800.0
+   ],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "ELEC TRIMAROC",
+   "montant_acte_engagement": 824940.0,
+   "montant_apres_verification": null,
+   "autres_montants": [
+    989928.0
+   ],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "eSDBTP",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_dossier_administratif_technique",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "NOURAZINOV",
+   "montant_acte_engagement": 1759000.0,
+   "montant_apres_verification": null,
+   "autres_montants": [
+    910800.0
+   ],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "JADDAH TRAVCO",
+   "montant_acte_engagement": 799400.0,
+   "montant_apres_verification": null,
+   "autres_montants": [
+    959280.0
+   ],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 5,
+ "alertes_ocr": [
+  "Attributaire non trouvé."
+ ],
+ "notes_ocr": [],
+ "qualite": "complet"
+}

@@ -1,0 +1,105 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "1023829",
+ "orgAcronyme": "p1v",
+ "reference_pv": null,
+ "nouveau": true,
+ "reference": null,
+ "objet": null,
+ "acheteur": null,
+ "procedure": null,
+ "categorie": "Travaux",
+ "date_limite_plis": null,
+ "lieu_ouverture": "des PIS: la sale des réuniors au cremier élage à",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": null,
+ "justification": null,
+ "infructueux": false,
+ "attributaire": null,
+ "montant_attribue": null,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "EEE",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_offre_financiere",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Sté SOCADELEG SARL",
+   "montant_acte_engagement": 9720.0,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "pe = a at bacs tal Domi Done Fr nd, FPT DL EE mr mdr DIE ae co mb D ve Ê2 4 U pes",
+   "montant_acte_engagement": 8419200.0,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "EE A NPC A MR EUR ee OU are don M nome 2 nn PÉrrRn Eut e POn RRe",
+   "montant_acte_engagement": 10032000.0,
+   "montant_apres_verification": 10032000.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "hi . AVENTUELSES",
+   "montant_acte_engagement": 51200.0,
+   "montant_apres_verification": 51200.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Sté SAKITKRA SARL",
+   "montant_acte_engagement": 9720000.0,
+   "montant_apres_verification": 9720000.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "EL MARAH ET sté",
+   "montant_acte_engagement": 8553600.0,
+   "montant_apres_verification": 8553600.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 7,
+ "alertes_ocr": [
+  "« Sté SOCADELEG SARL » absent de la liste des plis déposés (nom mal lu ?).",
+  "« pe = a at bacs tal Domi Done Fr nd, FPT DL EE mr mdr DIE ae co mb D ve Ê2 4 U pes » absent de la liste des plis déposés (nom mal lu ?).",
+  "« EE A NPC A MR EUR ee OU are don M nome 2 nn PÉrrRn Eut e POn RRe » absent de la liste des plis déposés (nom mal lu ?).",
+  "« hi . AVENTUELSES » absent de la liste des plis déposés (nom mal lu ?).",
+  "« Sté SAKITKRA SARL » absent de la liste des plis déposés (nom mal lu ?).",
+  "« EL MARAH ET sté » absent de la liste des plis déposés (nom mal lu ?).",
+  "Attributaire non trouvé."
+ ],
+ "notes_ocr": [
+  "« EEE » absent de la liste des plis déposés (nom mal lu ?).",
+  "Maître d'ouvrage absent du PV (utiliser l'acheteur public du portail)."
+ ],
+ "qualite": "complet"
+}

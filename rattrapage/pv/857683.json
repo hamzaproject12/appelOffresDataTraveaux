@@ -1,0 +1,125 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "857683",
+ "orgAcronyme": "g8e",
+ "reference_pv": null,
+ "nouveau": true,
+ "reference": null,
+ "objet": null,
+ "acheteur": "Agence Régionale d'Exécution des Projets Région Béni Mellal-Khénifre",
+ "procedure": null,
+ "categorie": "Travaux",
+ "date_limite_plis": "28/11/2024",
+ "lieu_ouverture": "Salle de réunion de l'AREP région Beni Mellal Khénifra Sis Bd Med V lotissement lala Hayat immeuble n°3, 4% et 5° étage Béni Mellal,",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "05/12/2024",
+ "justification": "L’offre économiquement la plus avantageuse",
+ "infructueux": false,
+ "attributaire": "STE BENDAHAN TRAVAUX",
+ "montant_attribue": 1769880.0,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "STE MEDOUZA",
+   "montant_acte_engagement": 16980.0,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "STE JAZALUM",
+   "montant_acte_engagement": 2017200.0,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "STE KAPLOMB Ps",
+   "montant_acte_engagement": 1741320.0,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": true
+  },
+  {
+   "nom": "STE CAPGEN E&",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "depose",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "S. STE 2LL HMI",
+   "montant_acte_engagement": 1848060.0,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "STE NOURSSINE",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_dossier_administratif_technique",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "STE OMABRAZIN Vi",
+   "montant_acte_engagement": 1952760.0,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "STE BENDAHAN TRAVAUX",
+   "montant_acte_engagement": 1769880.0,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "STE PANAVI TRAVAUX",
+   "montant_acte_engagement": 1747200.0,
+   "montant_apres_verification": 1971900.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "STE CAPGEN",
+   "montant_acte_engagement": 1815840.0,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 10,
+ "alertes_ocr": [
+  "« STE CAPGEN » absent de la liste des plis déposés (nom mal lu ?)."
+ ],
+ "notes_ocr": [
+  "« STE PANAVI TRAVAUX » : montant rectifié de 1 747 200.00 à 1 971 900.00 DH."
+ ],
+ "qualite": "complet"
+}

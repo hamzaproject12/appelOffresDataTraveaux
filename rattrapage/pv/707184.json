@@ -1,0 +1,78 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "707184",
+ "orgAcronyme": "g3h",
+ "reference_pv": "12/FDR/2023",
+ "nouveau": true,
+ "reference": "12/FDR/2023",
+ "objet": "TRAVAUX D'AMENAGEMENT ET D'EXTENSION DES CENTRES DE SANTE 1ER NIVEAU HRARA , AYIR.ET OULAD SELMANE A LA PROVINCE DE SAFI",
+ "acheteur": "Province de Safi",
+ "procedure": null,
+ "categorie": "Travaux",
+ "date_limite_plis": "21/03/2023",
+ "lieu_ouverture": "Salle de réunion sis au Secrétariat General de la Province de Safi",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": null,
+ "justification": null,
+ "infructueux": false,
+ "attributaire": "ATEKADA CONSTRUCTION",
+ "montant_attribue": null,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "ENTREPRISE JABNATI NAOUFAL",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "ATEKADA CONSTRUCTION",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "ZINE BTP",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "ALGAZMIR",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "ARCHIDTP",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 5,
+ "alertes_ocr": [
+  "Montant de l'attributaire « ATEKADA CONSTRUCTION » non trouvé."
+ ],
+ "notes_ocr": [],
+ "qualite": "participants"
+}

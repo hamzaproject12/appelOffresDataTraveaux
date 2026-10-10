@@ -1,0 +1,51 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "765204",
+ "orgAcronyme": "j8k",
+ "reference_pv": null,
+ "nouveau": true,
+ "reference": null,
+ "objet": null,
+ "acheteur": "AL OMRANE AL JANOUB",
+ "procedure": "appel d'offres ouvert",
+ "categorie": "Travaux",
+ "date_limite_plis": "06/12/2023",
+ "lieu_ouverture": "LAAYOUNE",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "18/12/2023",
+ "justification": null,
+ "infructueux": false,
+ "attributaire": "AIT HAJI FRERE-SAHAF",
+ "montant_attribue": 2920255.0,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "AIT HAJI FRERE-SAHAF",
+   "montant_acte_engagement": 3504306.0,
+   "montant_apres_verification": 3504306.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "WINE SAKOUR",
+   "montant_acte_engagement": 3508500.0,
+   "montant_apres_verification": 3508500.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 2,
+ "alertes_ocr": [],
+ "notes_ocr": [
+  "Montants exprimés hors taxes (HT)."
+ ],
+ "qualite": "complet"
+}

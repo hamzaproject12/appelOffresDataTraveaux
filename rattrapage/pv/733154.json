@@ -1,0 +1,84 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "733154",
+ "orgAcronyme": "g3h",
+ "reference_pv": null,
+ "nouveau": true,
+ "reference": null,
+ "objet": "TRAvÂux DE coNSTRUCTToN »u ceïDAT DE BNr rouzrNE ET Dt LOGEMENT DE FONCTION DU CAID -PROVINCE DE DRTOUCH- ./",
+ "acheteur": "la Province de DRIOUCH, représentéepar^ Mr. Le Gouvetneur",
+ "procedure": null,
+ "categorie": "Travaux",
+ "date_limite_plis": "20/07/2023",
+ "lieu_ouverture": "Secrétariat Général de la Province de DRIOUCH",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": null,
+ "justification": "L'offre la moins disante.",
+ "infructueux": false,
+ "attributaire": null,
+ "montant_attribue": null,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "Sté MIDASCO SARL. 3 9r",
+   "montant_acte_engagement": 914769.6,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "STE, CHOIJART SARL",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Néalrt",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "concurrenr rerc (En",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_offre_financiere",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Sté CHOUARI SARL",
+   "montant_acte_engagement": 3390000.0,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 5,
+ "alertes_ocr": [
+  "« Sté MIDASCO SARL. 3 9r » absent de la liste des plis déposés (nom mal lu ?).",
+  "« Sté CHOUARI SARL » absent de la liste des plis déposés (nom mal lu ?).",
+  "Attributaire non trouvé."
+ ],
+ "notes_ocr": [
+  "« STE, CHOIJART SARL » absent de la liste des plis déposés (nom mal lu ?).",
+  "« Néalrt » absent de la liste des plis déposés (nom mal lu ?).",
+  "« concurrenr rerc (En » absent de la liste des plis déposés (nom mal lu ?)."
+ ],
+ "qualite": "complet"
+}

@@ -1,0 +1,44 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "968510",
+ "orgAcronyme": "d4q",
+ "reference_pv": null,
+ "nouveau": true,
+ "reference": null,
+ "objet": "d'ouverture des retenue lis des travaux de retenu DH/HT P la Commission",
+ "acheteur": null,
+ "procedure": null,
+ "categorie": "Travaux",
+ "date_limite_plis": "24/12/2025",
+ "lieu_ouverture": "Roches noires",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": null,
+ "justification": "l'offre financière est excessive par rapport à l'estimation de l'ONEE-BE",
+ "infructueux": true,
+ "attributaire": null,
+ "montant_attribue": null,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "ST3E",
+   "montant_acte_engagement": 57110.0,
+   "montant_apres_verification": 57510.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_offre_financiere",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 1,
+ "alertes_ocr": [],
+ "notes_ocr": [
+  "« ST3E » : montant rectifié de 57 110.00 à 57 510.00 DH.",
+  "Maître d'ouvrage absent du PV (utiliser l'acheteur public du portail).",
+  "Montants exprimés hors taxes (HT)."
+ ],
+ "qualite": "attribution"
+}

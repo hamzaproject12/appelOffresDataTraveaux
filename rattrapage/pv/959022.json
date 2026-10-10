@@ -1,0 +1,73 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "959022",
+ "orgAcronyme": "z9k",
+ "reference_pv": "17/2025/CD",
+ "nouveau": true,
+ "reference": "17/2025/CD",
+ "objet": "Entretien du réseau d’éclairage public",
+ "acheteur": "Commune de Demnate représentée par le président du conseil communal de Demnate",
+ "procedure": null,
+ "categorie": "Travaux",
+ "date_limite_plis": "25/11/2025",
+ "lieu_ouverture": "la salle de réunion sise au siège de :a commune de Demnate",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "01/12/2025",
+ "justification": null,
+ "infructueux": false,
+ "attributaire": "Société BS PROJET",
+ "montant_attribue": 140040.0,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "Société BS PROJET",
+   "montant_acte_engagement": 140040.0,
+   "montant_apres_verification": 140040.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Société ELEC TRIMAROC",
+   "montant_acte_engagement": 154440.0,
+   "montant_apres_verification": 154440.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Société OXYFOR GROUP",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_dossier_administratif_technique",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Société ANOUG",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_dossier_administratif_technique",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 4,
+ "alertes_ocr": [
+  "« Société BS PROJET » absent de la liste des plis déposés (nom mal lu ?).",
+  "« Société ELEC TRIMAROC » absent de la liste des plis déposés (nom mal lu ?)."
+ ],
+ "notes_ocr": [
+  "« Société OXYFOR GROUP » absent de la liste des plis déposés (nom mal lu ?).",
+  "« Société ANOUG » absent de la liste des plis déposés (nom mal lu ?)."
+ ],
+ "qualite": "complet"
+}

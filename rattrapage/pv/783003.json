@@ -1,0 +1,96 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "783003",
+ "orgAcronyme": "j8k",
+ "reference_pv": null,
+ "nouveau": true,
+ "reference": null,
+ "objet": null,
+ "acheteur": "Al Omrane Rabat-Rabat-Salé",
+ "procedure": "appel d'offres ouvert",
+ "categorie": "Travaux",
+ "date_limite_plis": "12/06/2023",
+ "lieu_ouverture": "Siège d'Al Omrane Rabat-Salé-Kénitra",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": null,
+ "justification": "L'offre plus avantageuse.",
+ "infructueux": false,
+ "attributaire": "ETACER",
+ "montant_attribue": 11061291.6,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "OUMOUJANE",
+   "montant_acte_engagement": 12609853.2,
+   "montant_apres_verification": 12609853.2,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "CHESA NORD",
+   "montant_acte_engagement": 11467194.0,
+   "montant_apres_verification": 11467194.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "GESER",
+   "montant_acte_engagement": 12340086.0,
+   "montant_apres_verification": 12340086.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "TOURATE FES (SOUMISSION ELECTRONIQUE)",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "GROUPEMENT TRAINVEST/INJAZAT",
+   "montant_acte_engagement": 12022103.33,
+   "montant_apres_verification": 12022103.33,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "GROUPEMENT MWKC/URBANISA (SOUMISSION",
+   "montant_acte_engagement": 13359108.3,
+   "montant_apres_verification": 13359108.3,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "ETACER",
+   "montant_acte_engagement": 11061291.6,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 7,
+ "alertes_ocr": [
+  "« ETACER » absent de la liste des plis déposés (nom mal lu ?)."
+ ],
+ "notes_ocr": [],
+ "qualite": "complet"
+}

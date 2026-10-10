@@ -1,0 +1,63 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "975481",
+ "orgAcronyme": "d4q",
+ "reference_pv": null,
+ "nouveau": true,
+ "reference": null,
+ "objet": null,
+ "acheteur": null,
+ "procedure": null,
+ "categorie": "Travaux",
+ "date_limite_plis": "15/12/2025",
+ "lieu_ouverture": "Bureaux de la Direction Transport Région Oriental Oujda",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "05/02/2026",
+ "justification": "soumissionnaire moins disant conforme.",
+ "infructueux": false,
+ "attributaire": "ONEBAT",
+ "montant_attribue": 147600.0,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "ONEBAT",
+   "montant_acte_engagement": 147600.0,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "ORIENTAL LITAAMIRE",
+   "montant_acte_engagement": 158000.0,
+   "montant_apres_verification": 4158000.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "ASMAE ALI NEGOCE",
+   "montant_acte_engagement": 136000.0,
+   "montant_apres_verification": 136000.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 3,
+ "alertes_ocr": [
+  "« ORIENTAL LITAAMIRE » : écart anormal entre montant initial et vérifié (lecture à vérifier)."
+ ],
+ "notes_ocr": [
+  "« ORIENTAL LITAAMIRE » : montant rectifié de 158 000.00 à 4 158 000.00 DH.",
+  "Maître d'ouvrage absent du PV (utiliser l'acheteur public du portail)."
+ ],
+ "qualite": "complet"
+}

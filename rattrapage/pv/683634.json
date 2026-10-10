@@ -1,0 +1,61 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "683634",
+ "orgAcronyme": "q1s",
+ "reference_pv": "12/2022/CRRAGD",
+ "nouveau": true,
+ "reference": "12/2022/CRRAGD",
+ "objet": "RELATIF AUX TRAVAUX D'AMENAGEMENT & D’EQUIPEMENT DE SERRES POUR LE CENTRE REGIONAL DE LA RECHERCHE AGRONOMIQUE D’AGADIR EN LOT UNIQUE",
+ "acheteur": null,
+ "procedure": null,
+ "categorie": "Travaux",
+ "date_limite_plis": "28/11/2022",
+ "lieu_ouverture": "la salle de réunions du siège de l’Institut National de la Recherche Agronomique (INRA), sis Avenue de la Victoire à Rabat",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "12/12/2022",
+ "justification": "l’offre la plus avantageuse",
+ "infructueux": false,
+ "attributaire": "OUHRATEC",
+ "montant_attribue": 553200.0,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "COMATECH",
+   "montant_acte_engagement": 1538394.6,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_offre_financiere",
+   "admis_avec_reserve": true
+  },
+  {
+   "nom": "AGRI4.0",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_dossier_administratif_technique",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "OUHRATEC",
+   "montant_acte_engagement": 562800.0,
+   "montant_apres_verification": 553200.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 3,
+ "alertes_ocr": [],
+ "notes_ocr": [
+  "« OUHRATEC » : montant rectifié de 562 800.00 à 553 200.00 DH.",
+  "Maître d'ouvrage absent du PV (utiliser l'acheteur public du portail)."
+ ],
+ "qualite": "complet"
+}

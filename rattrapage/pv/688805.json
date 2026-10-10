@@ -1,0 +1,88 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "688805",
+ "orgAcronyme": "z7x",
+ "reference_pv": "01/FLSHR/2022",
+ "nouveau": true,
+ "reference": "01/FLSHR/2022",
+ "objet": "« Travaux d'étanchéité des terrasses du bâtiment A de l’annexe de la Faculté des Lettres et des Sciences Humaines de Rabat-Irfane»",
+ "acheteur": "La Faculté des Lettres et des Sciences Humaines de Rabat représentée par le Doyen",
+ "procedure": "appel d'offres ouvert",
+ "categorie": "Travaux",
+ "date_limite_plis": "08/12/2022",
+ "lieu_ouverture": "La salle de réunion Mohamed Aabid Eljabri à la FLSHR",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": null,
+ "justification": "La commission a attribué le marché au concurrent dont l’offre financière est la moins disant parmi les concurrents retenus à l’issu de l’examen des offres administratifs et techniques. + Datc d’achèvement des travaux de la commission : le Lundi 26 Décembre 2022",
+ "infructueux": false,
+ "attributaire": null,
+ "montant_attribue": null,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "STE TIFAR ETANCHEITE SARL AU",
+   "montant_acte_engagement": 464120.0,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": true
+  },
+  {
+   "nom": "SOZATRAD",
+   "montant_acte_engagement": 269656.0,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_dossier_administratif_technique",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "SOALHA CONSTRUCTION SARL",
+   "montant_acte_engagement": 284800.0,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_dossier_administratif_technique",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "ENTC",
+   "montant_acte_engagement": 991580.0,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_dossier_administratif_technique",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "SOBAMEK",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_dossier_administratif_technique",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "POLYSOL SARL",
+   "montant_acte_engagement": 249440.0,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 6,
+ "alertes_ocr": [
+  "« POLYSOL SARL » absent de la liste des plis déposés (nom mal lu ?).",
+  "Attributaire non trouvé."
+ ],
+ "notes_ocr": [],
+ "qualite": "complet"
+}

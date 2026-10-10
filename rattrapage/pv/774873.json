@@ -1,0 +1,71 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "774873",
+ "orgAcronyme": "b5j",
+ "reference_pv": null,
+ "nouveau": true,
+ "reference": null,
+ "objet": "Travaux de viabilisation du lotissement « ARGANA » à Agadir comprenant une tranche opération OSAMAC., lot : travaux de voirie, assainissement et alimentation en eau potable",
+ "acheteur": "Agence de Logements et d’Equipements Militaires",
+ "procedure": null,
+ "categorie": "Travaux",
+ "date_limite_plis": "29/01/2024",
+ "lieu_ouverture": "Salle des réunions de l'ALEM",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "14/02/2024",
+ "justification": "offre la plus avantageuse.",
+ "infructueux": false,
+ "attributaire": "GROUPEMENT ENTREPRISE DE TRAVAUX ET D'INGENIERIE D'AGADIR (ETIA) ET MOGABULDING",
+ "montant_attribue": 14500932.0,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "GROUPEMENT PERFORMANCE MATERIEL ET F.S IDIVA",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_dossier_administratif_technique",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "TIRA TRAVAUX",
+   "montant_acte_engagement": 135312248.0,
+   "montant_apres_verification": 13312248.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_offre_financiere",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "GROUPEMENT SHTR ET SITMAX DE TRAVAUX DIVERS",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_offre_financiere",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "GROUPEMENT ENTREPRISE DE TRAVAUX ET D'INGENIERIE D'AGADIR (ETIA) ET MOGABULDING",
+   "montant_acte_engagement": 14500932.0,
+   "montant_apres_verification": 14500932.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 4,
+ "alertes_ocr": [
+  "« TIRA TRAVAUX » : écart anormal entre montant initial et vérifié (lecture à vérifier)."
+ ],
+ "notes_ocr": [
+  "« TIRA TRAVAUX » : montant rectifié de 135 312 248.00 à 13 312 248.00 DH."
+ ],
+ "qualite": "complet"
+}

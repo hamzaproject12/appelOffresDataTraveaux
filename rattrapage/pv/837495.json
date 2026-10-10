@@ -1,0 +1,51 @@
+{
+ "source": "extrait_docx",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "837495",
+ "orgAcronyme": "a1z",
+ "reference_pv": "12/ASO/2024",
+ "nouveau": true,
+ "reference": "12/ASO/2024",
+ "objet": "Entretien courant de chaussées et trottoirs",
+ "acheteur": "Président de l’arrondissement de sidi othmane",
+ "procedure": "appel d'offres ouvert simplifié",
+ "categorie": "Travaux",
+ "date_limite_plis": "03/10/2024",
+ "lieu_ouverture": "Bureau de président de l’arrondissement",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": null,
+ "justification": null,
+ "infructueux": false,
+ "attributaire": null,
+ "montant_attribue": null,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "GROUPEMENT Sté SAFIR TRAVAUX ET Sté ECBT",
+   "montant_acte_engagement": 5379000.0,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "GROUPEMENT Sté MESKI DE TRAVAUX ET Sté SBGP",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_dossier_administratif_technique",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 2,
+ "alertes_ocr": [
+  "Attributaire non trouvé."
+ ],
+ "notes_ocr": [],
+ "qualite": "attribution"
+}

@@ -1,0 +1,614 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "810738",
+ "orgAcronyme": "z9k",
+ "reference_pv": "01/BP/2024",
+ "nouveau": true,
+ "reference": "01/BP/2024",
+ "objet": "ADDUCTION EAU POTABLE : TRAVAUX D'EXTENSION RESEAUX D'EAU POTABLE DANS LA COMMUNE BENI CHEGDALE RELEVANT PROVINCE DE FQUIH BEN SALAH",
+ "acheteur": "Conseil Provincial de Fquih Ben Salah",
+ "procedure": "appel d'offres ouvert national",
+ "categorie": "Travaux",
+ "date_limite_plis": "20/05/2024",
+ "lieu_ouverture": "le bureau de Président du Conseil Provincial",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "28/06/2024",
+ "justification": null,
+ "infructueux": false,
+ "attributaire": "Société GERAB Sarl, résidence Yasmine B3 ET b4 Lotissement Al wifaq N°3118 Temara",
+ "montant_attribue": 8270426.4,
+ "attributaires_par_lot": [
+  {
+   "lot": null,
+   "attributaire": "Société GERAB Sarl, résidence Yasmine B3 ET b4 Lotissement Al wifaq N°3118 Temara",
+   "montant": 8270426.4
+  },
+  {
+   "lot": null,
+   "attributaire": "Société AMRAD S.A.R.L-AU",
+   "montant": 8305044.0
+  },
+  {
+   "lot": null,
+   "attributaire": "Société « ATLAS BOUGAFER » S.A.R.L",
+   "montant": 8245161.6
+  },
+  {
+   "lot": null,
+   "attributaire": "Société EGCA SARL",
+   "montant": 8320059.6
+  },
+  {
+   "lot": null,
+   "attributaire": "Société Africa Atlas",
+   "montant": 9173684.4
+  },
+  {
+   "lot": null,
+   "attributaire": "Société SOB-TRA S.A.R.L AU",
+   "montant": 8240.0
+  },
+  {
+   "lot": null,
+   "attributaire": "Société TAMOULTE SARL",
+   "montant": 8336286.0
+  },
+  {
+   "lot": null,
+   "attributaire": "Société Nouvelle des Travaux Routiers et Ouvrages Sarl - SNTRO",
+   "montant": 9772706.4
+  },
+  {
+   "lot": null,
+   "attributaire": "Société SADECOM SARL",
+   "montant": 8360298.0
+  },
+  {
+   "lot": null,
+   "attributaire": "Industriel Ouarzazate",
+   "montant": 8422101.84
+  }
+ ],
+ "soumissionnaires": [
+  {
+   "nom": "Société MARHABA ZARK- SARL",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_offre_financiere",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Société GERAB Sarl, résidence Yasmine B3 ET b4 Lotissement Al wifaq N°3118 Temara",
+   "montant_acte_engagement": 8270426.4,
+   "montant_apres_verification": 8270426.4,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Entreprise AWRACHE DOUKKALA SARL",
+   "montant_acte_engagement": 8279566.8,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_offre_financiere",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "2Eme étage lotissement Al Ikhlas Béni Mella",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_offre_financiere",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Société SIGMA INFRA",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_offre_financiere",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "de Safi, Marrakech",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_offre_financiere",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Société AMRAD S.A.R.L-AU",
+   "montant_acte_engagement": 8305044.0,
+   "montant_apres_verification": 8305044.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Société « ATLAS BOUGAFER » S.A.R.L",
+   "montant_acte_engagement": 8245161.6,
+   "montant_apres_verification": 8245161.6,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "EL MOHAMMADI OUARZAZATE",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "depose",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Société EGCA SARL",
+   "montant_acte_engagement": 8320059.6,
+   "montant_apres_verification": 8320059.6,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "RESIDENCE BENI AAMIR 5 EME ET AGE, BENI MELLAL",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "depose",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "la société",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_offre_financiere",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Société Africa Atlas",
+   "montant_acte_engagement": 9173684.4,
+   "montant_apres_verification": 9173684.4,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Société MEDOUZA SARL, Adiesse du siège social de la société: N° 280 BIS 280 BIS LOT CHEMS",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "depose",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Industriel Ouarzazate",
+   "montant_acte_engagement": 8321370.0,
+   "montant_apres_verification": 8360298.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Société TRAHAQA SARL Au",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_offre_financiere",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "HAY EL WAHDA, Ouarzazate",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_offre_financiere",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Société ERI SER S.A , 22 km 1 Lot Aït Said Ait Melloul Agadir",
+   "montant_acte_engagement": 8605264.92,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_offre_financiere",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Société AGOTRA SARL, LOT MAAZOUZIA N°91 APPT N°01 AL MASSAR MARRAKECH",
+   "montant_acte_engagement": 7932290.4,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_offre_financiere",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "société : IMM 3 APPT N 4 LOT HASSANIA OUARZAZATE",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Société QWERTY TRAVAUX « SARL AU",
+   "montant_acte_engagement": 8291169.6,
+   "montant_apres_verification": 8291169.6,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Société SOB-TRA S.A.R.L AU",
+   "montant_acte_engagement": 8340158.4,
+   "montant_apres_verification": 8340158.4,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Abderrahim Bouabid Cité Nahda Erfoud BP 56",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "depose",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Société MOGABULDING SARL AU",
+   "montant_acte_engagement": 8311800.0,
+   "montant_apres_verification": 8311800.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "dresse du domicile élu",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_offre_financiere",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "ENTRPRISE AZLOU DE TRAVAUX ET D'EQUIPEMENT SARL",
+   "montant_acte_engagement": 8341297.2,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Société KETRA SARL",
+   "montant_acte_engagement": 9935472.0,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_offre_financiere",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "LOTISSEMENT AL ATLASS OUARZAZATE",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_offre_financiere",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "d. Med V - Rce. Badr n° 4 - Fès",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_offre_financiere",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Fès",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "depose",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Société AOURDOU",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "depose",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "al DOUAR IFARTE TAGHBALTE TAZARINE ZAGORA",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_offre_financiere",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Société AOURDOU TRAVAUX sarl",
+   "montant_acte_engagement": 8341389.6,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_offre_financiere",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Société HAJJI ELECTRO Sarl",
+   "montant_acte_engagement": 8309103.6,
+   "montant_apres_verification": 9120807.6,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "th AI Omrane Ryad Selouane BP 461, SELOUANE NADOR",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Société SAGERA SARL",
+   "montant_acte_engagement": 8322096.0,
+   "montant_apres_verification": 9846492.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Société TAMOULTE SARL",
+   "montant_acte_engagement": 9772706.4,
+   "montant_apres_verification": 8336286.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Société Nouvelle des Travaux Routiers et Ouvrages Sarl - SNTRO",
+   "montant_acte_engagement": 9772706.4,
+   "montant_apres_verification": 9772706.4,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Société SMYBAM « SARL",
+   "montant_acte_engagement": 8296192.8,
+   "montant_apres_verification": 9464344.8,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "u siège de la Société",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_offre_financiere",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Société 2LBYA S.A.RL",
+   "montant_acte_engagement": 8284684.8,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Société G.H.S S.A.R.L",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_offre_financiere",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "al de la société Douar IMINSITE TAZARINE ZAGORA",
+   "montant_acte_engagement": 8304712.8,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_offre_financiere",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Société SODIMINE SARL",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_offre_financiere",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "TAZARINE ZAGORA",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Société F.S IDIVA SARL",
+   "montant_acte_engagement": 8291236.8,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_offre_financiere",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Société AIT KALLAL SARL",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_offre_financiere",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "OULIA TINEJDAD",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_offre_financiere",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Société « DIVERS CHANTIERS SUD-EST",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_offre_financiere",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "IZOUMGUENE, IMIDER, TINGHIR",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_offre_financiere",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Société C.A.H SARL AU",
+   "montant_acte_engagement": 8321370.0,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_offre_financiere",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Société REVAM SARL (Société à responsabilité limitée",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_dossier_administratif_technique",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "domicile élu Av Hassan I, Rue 5 N° 19, 3ème Etage, Nador",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "depose",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Société SONASIA S.A.R.L",
+   "montant_acte_engagement": 8422101.84,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Société Y M T SUD SARL",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_offre_financiere",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Société SADECOM SARL",
+   "montant_acte_engagement": 8360298.0,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Société SOMAGITRAKE « SARL",
+   "montant_acte_engagement": 8300220.0,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Société AQUA INSTAL EQUIPEMENT Sarl",
+   "montant_acte_engagement": 8290910.4,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 58,
+ "alertes_ocr": [
+  "« Société SADECOM SARL » absent de la liste des plis déposés (nom mal lu ?).",
+  "« Société SOMAGITRAKE « SARL » absent de la liste des plis déposés (nom mal lu ?).",
+  "« Société AQUA INSTAL EQUIPEMENT Sarl » absent de la liste des plis déposés (nom mal lu ?)."
+ ],
+ "notes_ocr": [
+  "« Industriel Ouarzazate » : montant rectifié de 8 321 370.00 à 8 360 298.00 DH.",
+  "« Société HAJJI ELECTRO Sarl » : montant rectifié de 8 309 103.60 à 9 120 807.60 DH.",
+  "« Société SAGERA SARL » : montant rectifié de 8 322 096.00 à 9 846 492.00 DH.",
+  "« Société TAMOULTE SARL » : montant rectifié de 9 772 706.40 à 8 336 286.00 DH.",
+  "« Société SMYBAM « SARL » : montant rectifié de 8 296 192.80 à 9 464 344.80 DH."
+ ],
+ "qualite": "complet"
+}

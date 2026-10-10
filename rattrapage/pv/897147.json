@@ -1,0 +1,85 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "897147",
+ "orgAcronyme": "g3h",
+ "reference_pv": "10000325",
+ "nouveau": true,
+ "reference": "10000325",
+ "objet": "Travaux d'hydrocurage du réseau d'assainissement liquide au niveau des agences de la DP Chtouka Ait Baha, Province de Chtouka Ait Baha",
+ "acheteur": "Société Régionale Multiservices Souss Massa « SRM-SM » Société Anonyme (S.A.)",
+ "procedure": null,
+ "categorie": "Travaux",
+ "date_limite_plis": "26/03/2025",
+ "lieu_ouverture": "les bureaux de la SRM-SM, sis au 3ème étage — rue 18 Novembre Q.I AGADIR",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": null,
+ "justification": "offre la moins-disante",
+ "infructueux": false,
+ "attributaire": "AL ITFAI",
+ "montant_attribue": 357660.0,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "SDB ENVIRONNEMENT",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_dossier_administratif_technique",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "SANI ASSAINISSEMENT",
+   "montant_acte_engagement": 460380.0,
+   "montant_apres_verification": 460380.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "AL ITFAI",
+   "montant_acte_engagement": 357660.0,
+   "montant_apres_verification": 357660.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": true
+  },
+  {
+   "nom": "ASSIF CONSEIL",
+   "montant_acte_engagement": 453402.0,
+   "montant_apres_verification": 453402.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "DAROUICH TRAVAUX",
+   "montant_acte_engagement": 449436.0,
+   "montant_apres_verification": 449436.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "MEGA TRAITEMENT",
+   "montant_acte_engagement": 410400.0,
+   "montant_apres_verification": 410400.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 6,
+ "alertes_ocr": [],
+ "notes_ocr": [],
+ "qualite": "complet"
+}

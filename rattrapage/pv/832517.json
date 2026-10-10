@@ -1,0 +1,105 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "832517",
+ "orgAcronyme": "d4q",
+ "reference_pv": null,
+ "nouveau": true,
+ "reference": null,
+ "objet": null,
+ "acheteur": null,
+ "procedure": "appel d'offres ouvert",
+ "categorie": "Travaux",
+ "date_limite_plis": "05/10/2023",
+ "lieu_ouverture": "Siège de la Direction Régionale Distribution Casabianca",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": null,
+ "justification": null,
+ "infructueux": false,
+ "attributaire": "XCEL ENERGY AB",
+ "montant_attribue": 529600.0,
+ "attributaires_par_lot": [
+  {
+   "lot": "1",
+   "attributaire": "XCEL ENERGY AB",
+   "montant": 529600.0
+  },
+  {
+   "lot": null,
+   "attributaire": "XCEL ENERGY AB",
+   "montant": 529600.0
+  },
+  {
+   "lot": "2",
+   "attributaire": "XCEL ENERGY AB",
+   "montant": 455990.0
+  },
+  {
+   "lot": null,
+   "attributaire": "SCELENEREN AS",
+   "montant": 508740.0
+  }
+ ],
+ "soumissionnaires": [
+  {
+   "nom": "Extrait du procès-verbal de la séance d'AO 2 AO ouvert n°",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_offre_financiere",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "êranche Électricité eu Sp Ubl (suite)",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_offre_financiere",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "XCEL ENERGY AB",
+   "montant_acte_engagement": 529600.0,
+   "montant_apres_verification": null,
+   "autres_montants": [
+    529600.0,
+    635520.0,
+    455990.0,
+    610488.0
+   ],
+   "lots": [
+    "1",
+    "2"
+   ],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "SCELENEREN AS",
+   "montant_acte_engagement": 508740.0,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 4,
+ "alertes_ocr": [
+  "« XCEL ENERGY AB » absent de la liste des plis déposés (nom mal lu ?).",
+  "« SCELENEREN AS » absent de la liste des plis déposés (nom mal lu ?)."
+ ],
+ "notes_ocr": [
+  "« Extrait du procès-verbal de la séance d'AO 2 AO ouvert n° » absent de la liste des plis déposés (nom mal lu ?).",
+  "« êranche Électricité eu Sp Ubl (suite) » absent de la liste des plis déposés (nom mal lu ?).",
+  "Marché alloti (2 lots).",
+  "Maître d'ouvrage absent du PV (utiliser l'acheteur public du portail).",
+  "Montants exprimés hors taxes (HT)."
+ ],
+ "qualite": "attribution"
+}

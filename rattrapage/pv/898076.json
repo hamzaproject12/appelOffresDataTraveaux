@@ -1,0 +1,72 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "898076",
+ "orgAcronyme": "g3h",
+ "reference_pv": null,
+ "nouveau": true,
+ "reference": null,
+ "objet": null,
+ "acheteur": "Societe de Developpement Local RABAT VILLE VERTE",
+ "procedure": null,
+ "categorie": "Travaux",
+ "date_limite_plis": "30/04/2025",
+ "lieu_ouverture": "Bureaux de la Societe Rabat Ville Verte au Pare Hassan II de Rabat",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "19/05/2025",
+ "justification": "Offre avantageuse conforrne aux exigences du dossier d'appel d'offres",
+ "infructueux": false,
+ "attributaire": "Bordereau des prix marche",
+ "montant_attribue": 1026852.0,
+ "attributaires_par_lot": [
+  {
+   "lot": null,
+   "attributaire": "Bordereau des prix marche",
+   "montant": 1026852.0
+  },
+  {
+   "lot": null,
+   "attributaire": "ALOUSS SARL Bordereau des Prix Service apres-vente et",
+   "montant": 4398.0
+  }
+ ],
+ "soumissionnaires": [
+  {
+   "nom": "ALOUSS SARL",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Bordereau des prix marche",
+   "montant_acte_engagement": 1026852.0,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "ALOUSS SARL Bordereau des Prix Service apres-vente et",
+   "montant_acte_engagement": 4398.0,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 3,
+ "alertes_ocr": [
+  "« Bordereau des prix marche » absent de la liste des plis déposés (nom mal lu ?).",
+  "« ALOUSS SARL Bordereau des Prix Service apres-vente et » absent de la liste des plis déposés (nom mal lu ?)."
+ ],
+ "notes_ocr": [],
+ "qualite": "attribution"
+}

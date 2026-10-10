@@ -1,0 +1,81 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "722759",
+ "orgAcronyme": "f8y",
+ "reference_pv": null,
+ "nouveau": true,
+ "reference": null,
+ "objet": "Travaux de construction et goudronnage de la piste reliant Bouhrawa et El harcha passant parlhzawien",
+ "acheteur": "La Commune de Bouarg",
+ "procedure": "appel d'offres ouvert",
+ "categorie": "Travaux",
+ "date_limite_plis": null,
+ "lieu_ouverture": "Bureau de président de la commune de Bouarg",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": null,
+ "justification": "offre moin disant",
+ "infructueux": false,
+ "attributaire": "Sté Construction technology corporation sarl",
+ "montant_attribue": null,
+ "attributaires_par_lot": [
+  {
+   "lot": null,
+   "attributaire": "Sté Construction technology corporation sarl",
+   "montant": null
+  },
+  {
+   "lot": null,
+   "attributaire": "Sté Zaoruari transport sarl",
+   "montant": null
+  },
+  {
+   "lot": null,
+   "attributaire": ") Sté Tiztoutine travaux sarl",
+   "montant": null
+  }
+ ],
+ "soumissionnaires": [
+  {
+   "nom": "Sté Construction technology corporation sarl",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": true
+  },
+  {
+   "nom": ") Sté Tiztoutine travaux sarl",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": true
+  },
+  {
+   "nom": "Sté Zaoruari transport sarl",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": true
+  }
+ ],
+ "nombre_soumissionnaires": 3,
+ "alertes_ocr": [
+  "« Sté Construction technology corporation sarl » absent de la liste des plis déposés (nom mal lu ?).",
+  "« ) Sté Tiztoutine travaux sarl » absent de la liste des plis déposés (nom mal lu ?).",
+  "« Sté Zaoruari transport sarl » absent de la liste des plis déposés (nom mal lu ?).",
+  "Montant de l'attributaire « Sté Construction technology corporation sarl » non trouvé.",
+  "Montant de l'attributaire « Sté Zaoruari transport sarl » non trouvé.",
+  "Montant de l'attributaire « ) Sté Tiztoutine travaux sarl » non trouvé."
+ ],
+ "notes_ocr": [],
+ "qualite": "participants"
+}

@@ -1,0 +1,74 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "719013",
+ "orgAcronyme": "q1s",
+ "reference_pv": "45/2023/OR/OZ",
+ "nouveau": true,
+ "reference": "45/2023/OR/OZ",
+ "objet": null,
+ "acheteur": "Résultat : Attribué",
+ "procedure": "appel d'offres ouvert",
+ "categorie": "Travaux",
+ "date_limite_plis": null,
+ "lieu_ouverture": "Date ouverture des plis",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "25/05/2023",
+ "justification": "Offre moins disante",
+ "infructueux": false,
+ "attributaire": "SOCIETE AIT BAABI MOHAMED SARL",
+ "montant_attribue": 517836.0,
+ "attributaires_par_lot": [
+  {
+   "lot": null,
+   "attributaire": "SOCIETE AIT BAABI MOHAMED SARL",
+   "montant": 517836.0
+  },
+  {
+   "lot": null,
+   "attributaire": "SOCIETE ELECTRO ANADIF SARL",
+   "montant": 439800.0
+  },
+  {
+   "lot": null,
+   "attributaire": "SOCIETE MAGHREB DES RESEAUX ELECTRIQUES SARL",
+   "montant": 453066.0
+  }
+ ],
+ "soumissionnaires": [
+  {
+   "nom": "SOCIETE AIT BAABI MOHAMED SARL",
+   "montant_acte_engagement": 517836.0,
+   "montant_apres_verification": 517836.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "SOCIETE ELECTRO ANADIF SARL",
+   "montant_acte_engagement": 439800.0,
+   "montant_apres_verification": 439800.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "SOCIETE MAGHREB DES RESEAUX ELECTRIQUES SARL",
+   "montant_acte_engagement": 453066.0,
+   "montant_apres_verification": 453066.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 3,
+ "alertes_ocr": [],
+ "notes_ocr": [],
+ "qualite": "attribution"
+}

@@ -1,0 +1,53 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "955138",
+ "orgAcronyme": "p8x",
+ "reference_pv": "088/SPO/INV/2025",
+ "nouveau": true,
+ "reference": "088/SPO/INV/2025",
+ "objet": null,
+ "acheteur": "La Directrice Provinciale de la direction provinciale de l'AREFTTH à Ouezzane",
+ "procedure": "appel d'offres ouvert national",
+ "categorie": "Travaux",
+ "date_limite_plis": "12/11/2025",
+ "lieu_ouverture": "la salle des réunions de la direction provinciale de L'AREFTTH à OUEZZANE la salle des réunions de la direction provinciale de L'AREFTTH à OUEZZANE",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "17/11/2025",
+ "justification": "L'offre la plus avantageuse.",
+ "infructueux": false,
+ "attributaire": "SCOTIM",
+ "montant_attribue": 7809291.0,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "SCOTIM",
+   "montant_acte_engagement": 7809291.0,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "ASSALA ISKANE",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_dossier_administratif_technique",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 2,
+ "alertes_ocr": [
+  "« SCOTIM » absent de la liste des plis déposés (nom mal lu ?)."
+ ],
+ "notes_ocr": [
+  "« ASSALA ISKANE » absent de la liste des plis déposés (nom mal lu ?)."
+ ],
+ "qualite": "attribution"
+}

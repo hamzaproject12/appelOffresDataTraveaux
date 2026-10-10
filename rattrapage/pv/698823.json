@@ -1,0 +1,76 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "698823",
+ "orgAcronyme": "h5r",
+ "reference_pv": "01/CS/2023",
+ "nouveau": true,
+ "reference": "01/CS/2023",
+ "objet": "GROS TRAVAUX DE MAINTENANCE DE VOIRIES DE CERTAINS QUARTIERS DE LA COMMUNE DE SETTAT PROVINCE DE SETTAT",
+ "acheteur": "COMMUNE DE SETTAT",
+ "procedure": null,
+ "categorie": "Travaux",
+ "date_limite_plis": "16/02/2023",
+ "lieu_ouverture": null,
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "02/03/2023",
+ "justification": "le concurrent ayant présenté l’offre la plus avantageuse",
+ "infructueux": false,
+ "attributaire": "Groupement Sté SFTGC SARL et Sté TRAINVEST Sarl",
+ "montant_attribue": 4070520.0,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "Groupement Sté CORIAM Sarl et Sté KOUFACHA ROUTIERS",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_dossier_administratif_technique",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Sté SOCADELESG Sarl AU",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "depose",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Groupement Sté ECBT Sarl et Sté LABERAGA TRAVAUX Sarl",
+   "montant_acte_engagement": 4162965.0,
+   "montant_apres_verification": 4162965.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Groupement Sté SFTGC SARL et Sté TRAINVEST Sarl",
+   "montant_acte_engagement": 4070520.0,
+   "montant_apres_verification": 4070520.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Ste BEMATRAX Sarl Au Groupement Sté ECBT Sarl",
+   "montant_acte_engagement": 4162965.0,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 5,
+ "alertes_ocr": [],
+ "notes_ocr": [],
+ "qualite": "complet"
+}

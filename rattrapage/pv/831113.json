@@ -1,0 +1,53 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "831113",
+ "orgAcronyme": "d4q",
+ "reference_pv": null,
+ "nouveau": true,
+ "reference": null,
+ "objet": null,
+ "acheteur": null,
+ "procedure": null,
+ "categorie": "Travaux",
+ "date_limite_plis": "13/08/2024",
+ "lieu_ouverture": "siège de la Direction Régionale Distribution Béni Mellal",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": null,
+ "justification": "Moins disant conforme",
+ "infructueux": false,
+ "attributaire": "2B ATLAS FOR INVESTMENT AND INNOVATION",
+ "montant_attribue": 252540.0,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "ANIR PRO, EGINE, ONE DAY POWER, ALFA TDS",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "depose",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "2B ATLAS FOR INVESTMENT AND INNOVATION",
+   "montant_acte_engagement": 332510.0,
+   "montant_apres_verification": 252540.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 2,
+ "alertes_ocr": [],
+ "notes_ocr": [
+  "« 2B ATLAS FOR INVESTMENT AND INNOVATION » : montant rectifié de 332 510.00 à 252 540.00 DH.",
+  "Maître d'ouvrage absent du PV (utiliser l'acheteur public du portail).",
+  "Montants exprimés hors taxes (HT)."
+ ],
+ "qualite": "attribution"
+}

@@ -1,0 +1,114 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "764141",
+ "orgAcronyme": "z7x",
+ "reference_pv": "52/UCA/2023",
+ "nouveau": true,
+ "reference": "52/UCA/2023",
+ "objet": null,
+ "acheteur": null,
+ "procedure": "appel d'offres ouvert",
+ "categorie": "Travaux",
+ "date_limite_plis": null,
+ "lieu_ouverture": null,
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "11/12/2023",
+ "justification": "Le concurrent ayant l’offre la plus avantageuse.",
+ "infructueux": false,
+ "attributaire": "Sté WE CONCEPT MAROC",
+ "montant_attribue": 230874.0,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "Sté ABIOKIM",
+   "montant_acte_engagement": 39600.0,
+   "montant_apres_verification": 39600.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_offre_financiere",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Sté EUROBI",
+   "montant_acte_engagement": 217350.0,
+   "montant_apres_verification": 217350.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Sté WE CONCEPT MAROC",
+   "montant_acte_engagement": 230874.0,
+   "montant_apres_verification": 230874.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Sté EL GHAIT",
+   "montant_acte_engagement": 215418.0,
+   "montant_apres_verification": 215418.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Sté NEW LOOK STORES",
+   "montant_acte_engagement": 152628.0,
+   "montant_apres_verification": 152628.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Sté ANOUMINES",
+   "montant_acte_engagement": 251160.0,
+   "montant_apres_verification": 251160.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Sté BIG BUILDING PROJECT",
+   "montant_acte_engagement": 218316.0,
+   "montant_apres_verification": 218316.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Sté MENUISERIE ELARGOUBI",
+   "montant_acte_engagement": 224498.4,
+   "montant_apres_verification": 224498.4,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 8,
+ "alertes_ocr": [
+  "« Sté ABIOKIM » absent de la liste des plis déposés (nom mal lu ?).",
+  "« Sté EUROBI » absent de la liste des plis déposés (nom mal lu ?).",
+  "« Sté WE CONCEPT MAROC » absent de la liste des plis déposés (nom mal lu ?).",
+  "« Sté EL GHAIT » absent de la liste des plis déposés (nom mal lu ?).",
+  "« Sté NEW LOOK STORES » absent de la liste des plis déposés (nom mal lu ?).",
+  "« Sté ANOUMINES » absent de la liste des plis déposés (nom mal lu ?).",
+  "« Sté BIG BUILDING PROJECT » absent de la liste des plis déposés (nom mal lu ?).",
+  "« Sté MENUISERIE ELARGOUBI » absent de la liste des plis déposés (nom mal lu ?)."
+ ],
+ "notes_ocr": [
+  "Maître d'ouvrage absent du PV (utiliser l'acheteur public du portail)."
+ ],
+ "qualite": "complet"
+}

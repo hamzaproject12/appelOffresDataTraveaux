@@ -1,0 +1,78 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "1011576",
+ "orgAcronyme": "i1t",
+ "reference_pv": "04/CTAS/2026",
+ "nouveau": true,
+ "reference": "04/CTAS/2026",
+ "objet": "TRAVAUX D'EXTENSION ET DE RENFORCEMENT DU RESEAU ELECTRIQUE POUR L’ELECTRIFICATION DE 125 FOYERS AU NIVEA DE 11 DOUARS RELEVANT DE LA COMMUNE TERRITORIALE D’AMEUR SEFLIA",
+ "acheteur": "DATE D'OUVERTURE DES PLIS",
+ "procedure": "appel d'offres ouvert national",
+ "categorie": "Travaux",
+ "date_limite_plis": null,
+ "lieu_ouverture": "JOURNAUX AYANT PUBLIE L’AVIS D'APPEL D’OFFRES",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": null,
+ "justification": null,
+ "infructueux": false,
+ "attributaire": "COMMUNE AMEUR SEFLIA",
+ "montant_attribue": null,
+ "attributaires_par_lot": [
+  {
+   "lot": null,
+   "attributaire": "COMMUNE AMEUR SEFLIA",
+   "montant": null
+  },
+  {
+   "lot": null,
+   "attributaire": "LA SALLE DE REUNIONS DE LA COMMUNE À OULED BOURAHMA",
+   "montant": null
+  },
+  {
+   "lot": null,
+   "attributaire": "AL ALAM n°26265 DU OL'OPINION . n°20666 DU AL ALAM OL'OPINION",
+   "montant": null
+  }
+ ],
+ "soumissionnaires": [
+  {
+   "nom": "COMMUNE AMEUR SEFLIA",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "LA SALLE DE REUNIONS DE LA COMMUNE À OULED BOURAHMA",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "AL ALAM n°26265 DU OL'OPINION . n°20666 DU AL ALAM OL'OPINION",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 3,
+ "alertes_ocr": [
+  "Montant de l'attributaire « COMMUNE AMEUR SEFLIA » non trouvé.",
+  "Montant de l'attributaire « LA SALLE DE REUNIONS DE LA COMMUNE À OULED BOURAHMA » non trouvé.",
+  "Montant de l'attributaire « AL ALAM n°26265 DU OL'OPINION . n°20666 DU AL ALAM OL'OPINION » non trouvé."
+ ],
+ "notes_ocr": [],
+ "qualite": "participants"
+}

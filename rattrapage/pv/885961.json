@@ -1,0 +1,78 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "885961",
+ "orgAcronyme": "f9f",
+ "reference_pv": null,
+ "nouveau": true,
+ "reference": null,
+ "objet": null,
+ "acheteur": "CONSEIL PROVINCIAL DE TINGHIR",
+ "procedure": null,
+ "categorie": "Travaux",
+ "date_limite_plis": "10/03/2025",
+ "lieu_ouverture": "Bureaux .du Conseil Provincial de Tinghir",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "07/04/2025",
+ "justification": "Son offre est la plus proche du prix de référence par défaut.",
+ "infructueux": false,
+ "attributaire": "STE GHADIL SARL AU",
+ "montant_attribue": null,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "STE GHADIL SARL AU",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "STE TAOUADA TRAVAUX SARL",
+   "montant_acte_engagement": 2650344.0,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "STE AIT OUKHALI TRAVAUX SARL",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "STE HAJ DOUIRI SOHADU SARL",
+   "montant_acte_engagement": 2716860.0,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "STE SHEVAN MA FORAGE SARL AU",
+   "montant_acte_engagement": 2749380.0,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 5,
+ "alertes_ocr": [
+  "Montant de l'attributaire « STE GHADIL SARL AU » non trouvé."
+ ],
+ "notes_ocr": [],
+ "qualite": "complet"
+}

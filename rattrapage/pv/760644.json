@@ -1,0 +1,53 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "760644",
+ "orgAcronyme": "g3h",
+ "reference_pv": null,
+ "nouveau": true,
+ "reference": null,
+ "objet": "Travaux d’entretien courant du réseau et ouvrages d'eau potable dans le périmètre de distribution de la RADEEL",
+ "acheteur": "RADEEL",
+ "procedure": null,
+ "categorie": "Travaux",
+ "date_limite_plis": "26/10/2023",
+ "lieu_ouverture": "salle de réunion de la RADEEL",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "30/11/2023",
+ "justification": null,
+ "infructueux": false,
+ "attributaire": "RABAT ASSAINISSEMENT EAU POTABLE Min",
+ "montant_attribue": 751140.0,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "RABAT ASSAINISSEMENT EAU POTABLE Min",
+   "montant_acte_engagement": 751140.0,
+   "montant_apres_verification": 1399680.0,
+   "autres_montants": [
+    1399680.0
+   ],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "SOBOUWAT",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_dossier_administratif_technique",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 2,
+ "alertes_ocr": [],
+ "notes_ocr": [
+  "« RABAT ASSAINISSEMENT EAU POTABLE Min » : montant rectifié de 751 140.00 à 1 399 680.00 DH."
+ ],
+ "qualite": "attribution"
+}

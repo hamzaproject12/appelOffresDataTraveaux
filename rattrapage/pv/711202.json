@@ -1,0 +1,51 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "711202",
+ "orgAcronyme": "g3h",
+ "reference_pv": "2239/E/2023",
+ "nouveau": true,
+ "reference": "2239/E/2023",
+ "objet": "Vérification métrologique des points de comptage des clients hta et des clients BT sur TC",
+ "acheteur": "RÉGIE AUTONOME DE DISTRIBUTION EAU ET ÉLECTRICITÉ",
+ "procedure": "appel d'offres ouvert",
+ "categorie": "Travaux",
+ "date_limite_plis": "19/04/2023",
+ "lieu_ouverture": null,
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "03/05/2023",
+ "justification": null,
+ "infructueux": false,
+ "attributaire": null,
+ "montant_attribue": null,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "RAMTEC",
+   "montant_acte_engagement": 168360.0,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "CEAC",
+   "montant_acte_engagement": 175800.0,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 2,
+ "alertes_ocr": [
+  "Attributaire non trouvé."
+ ],
+ "notes_ocr": [],
+ "qualite": "complet"
+}

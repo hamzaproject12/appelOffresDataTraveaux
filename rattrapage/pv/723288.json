@@ -1,0 +1,171 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "723288",
+ "orgAcronyme": "d4q",
+ "reference_pv": "19/2023/ABHSM",
+ "nouveau": true,
+ "reference": "19/2023/ABHSM",
+ "objet": null,
+ "acheteur": "Directeur de l'Agence du Bassin Hydraulique de Souss Massa",
+ "procedure": null,
+ "categorie": "Travaux",
+ "date_limite_plis": null,
+ "lieu_ouverture": "l'Agence du Bassin Hydraulique de Souss Massa, Avenue Moulay Abdallah - Agadir",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": null,
+ "justification": "Classement par offre moins disante.",
+ "infructueux": false,
+ "attributaire": "GLOBAL TRAVAUX EXPRESS",
+ "montant_attribue": 1637616.0,
+ "attributaires_par_lot": [
+  {
+   "lot": null,
+   "attributaire": "GLOBAL TRAVAUX EXPRESS",
+   "montant": 1637616.0
+  },
+  {
+   "lot": null,
+   "attributaire": "EGBF",
+   "montant": 1660080.0
+  },
+  {
+   "lot": null,
+   "attributaire": "FORAGE ZOUHOUR",
+   "montant": 1880400.0
+  },
+  {
+   "lot": null,
+   "attributaire": "LBIR FORAGE ET FONDATION",
+   "montant": 2368320.0
+  }
+ ],
+ "soumissionnaires": [
+  {
+   "nom": "EGBF 1",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "FORAGE ZOUHOUR",
+   "montant_acte_engagement": 1880400.0,
+   "montant_apres_verification": null,
+   "autres_montants": [
+    2436000.0,
+    1825200.0
+   ],
+   "lots": [
+    "1"
+   ],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "GLOBAL TRAVAUX EXPRESS",
+   "montant_acte_engagement": 1637616.0,
+   "montant_apres_verification": null,
+   "autres_montants": [
+    2407920.0,
+    1588416.0
+   ],
+   "lots": [
+    "1"
+   ],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "LBIR FORAGE ET FONDATION",
+   "montant_acte_engagement": 2368320.0,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [
+    "1"
+   ],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Awê.ûe Môüràÿ Abceltètst - È ? 43? ,\\qè.1",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "drarl ât trsm(âàb",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "&ul_0 you nil ol poil à JlSg",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "HO1Oe$t ILLCA 0500 CeOOe",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Agence du Bassin Hydraulique de Souss Massa",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "EGBF",
+   "montant_acte_engagement": 1660080.0,
+   "montant_apres_verification": null,
+   "autres_montants": [
+    2052120.0,
+    1674000.0
+   ],
+   "lots": [
+    "1"
+   ],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 10,
+ "alertes_ocr": [
+  "« FORAGE ZOUHOUR » absent de la liste des plis déposés (nom mal lu ?).",
+  "« GLOBAL TRAVAUX EXPRESS » absent de la liste des plis déposés (nom mal lu ?).",
+  "« LBIR FORAGE ET FONDATION » absent de la liste des plis déposés (nom mal lu ?).",
+  "« EGBF » absent de la liste des plis déposés (nom mal lu ?)."
+ ],
+ "notes_ocr": [
+  "« EGBF 1 » absent de la liste des plis déposés (nom mal lu ?).",
+  "« Awê.ûe Môüràÿ Abceltètst - È ? 43? ,\\qè.1 » absent de la liste des plis déposés (nom mal lu ?).",
+  "« drarl ât trsm(âàb » absent de la liste des plis déposés (nom mal lu ?).",
+  "« &ul_0 you nil ol poil à JlSg » absent de la liste des plis déposés (nom mal lu ?).",
+  "« HO1Oe$t ILLCA 0500 CeOOe » absent de la liste des plis déposés (nom mal lu ?).",
+  "« Agence du Bassin Hydraulique de Souss Massa » absent de la liste des plis déposés (nom mal lu ?)."
+ ],
+ "qualite": "attribution"
+}

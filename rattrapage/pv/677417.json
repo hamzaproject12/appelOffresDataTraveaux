@@ -1,0 +1,94 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "677417",
+ "orgAcronyme": "d4q",
+ "reference_pv": "59DR3/2022",
+ "nouveau": true,
+ "reference": "59DR3/2022",
+ "objet": "Travaux d'entretien du réseau de distribution d'eau potable AEP de Fom El Anser et douars et AEP Rurale d'Aghbala et Douars riverains relevant de l'Agence Mixte de Beni Mellal et Fkih Ben Salah",
+ "acheteur": null,
+ "procedure": null,
+ "categorie": "Travaux",
+ "date_limite_plis": "13/09/2022",
+ "lieu_ouverture": "Siège DR3",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "15/11/2022",
+ "justification": "L’offre la plus avantageuse",
+ "infructueux": false,
+ "attributaire": "GOUBAR",
+ "montant_attribue": 372096.0,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "GOUBAR",
+   "montant_acte_engagement": 372096.0,
+   "montant_apres_verification": 372096.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "TIZGUIT NAC",
+   "montant_acte_engagement": 397656.0,
+   "montant_apres_verification": 397656.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "OPOTABL",
+   "montant_acte_engagement": 456120.0,
+   "montant_apres_verification": 456120.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "ELECLEAU FOUNA",
+   "montant_acte_engagement": 483180.0,
+   "montant_apres_verification": 483180.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "ENVERDEAU",
+   "montant_acte_engagement": 630480.0,
+   "montant_apres_verification": 630480.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "KSBID",
+   "montant_acte_engagement": 650274.0,
+   "montant_apres_verification": 650274.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 6,
+ "alertes_ocr": [
+  "« GOUBAR » absent de la liste des plis déposés (nom mal lu ?).",
+  "« TIZGUIT NAC » absent de la liste des plis déposés (nom mal lu ?).",
+  "« OPOTABL » absent de la liste des plis déposés (nom mal lu ?).",
+  "« ELECLEAU FOUNA » absent de la liste des plis déposés (nom mal lu ?).",
+  "« ENVERDEAU » absent de la liste des plis déposés (nom mal lu ?).",
+  "« KSBID » absent de la liste des plis déposés (nom mal lu ?)."
+ ],
+ "notes_ocr": [
+  "Maître d'ouvrage absent du PV (utiliser l'acheteur public du portail)."
+ ],
+ "qualite": "complet"
+}

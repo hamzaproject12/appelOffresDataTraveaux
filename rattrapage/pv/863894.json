@@ -1,0 +1,99 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "863894",
+ "orgAcronyme": "o8p",
+ "reference_pv": "43/2024/MI",
+ "nouveau": true,
+ "reference": "43/2024/MI",
+ "objet": "Travaux de génie civil et d'équipement en matériel de pompage pour l'approvisionnement en",
+ "acheteur": "Le Directeur Provincial de l'Equipement, du Transport et de la Logistique de MIDELT",
+ "procedure": "appel d'offres ouvert national",
+ "categorie": "Travaux",
+ "date_limite_plis": "09/12/2024",
+ "lieu_ouverture": "Direction Provinciale de l'Equipement, du Transport, et de la Logistique de MIDELT",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "11/12/2024",
+ "justification": "l’offre 1 799 999,20 économiquement la plus avantageuse",
+ "infructueux": false,
+ "attributaire": "FRANCHISE DES TRAVAUX PUBLIC SARL",
+ "montant_attribue": 1799999.2,
+ "attributaires_par_lot": [
+  {
+   "lot": null,
+   "attributaire": "FRANCHISE DES TRAVAUX PUBLIC SARL",
+   "montant": 1799999.2
+  },
+  {
+   "lot": null,
+   "attributaire": "PUBLIC SARL",
+   "montant": null
+  }
+ ],
+ "soumissionnaires": [
+  {
+   "nom": "Concurrents Type de dépôt",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "depose",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "HYDROMEC SARL",
+   "montant_acte_engagement": 2045942.0,
+   "montant_apres_verification": 2045942.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "AMENAGEMENT ET TRAVAUX PUBLICS DU MAROC SARL",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "SPERANSSA GROUPE SARL",
+   "montant_acte_engagement": 1770288.0,
+   "montant_apres_verification": 1770288.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "FRANCHISE DES TRAVAUX PUBLIC SARL",
+   "montant_acte_engagement": 1799999.2,
+   "montant_apres_verification": 1799999.2,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "PUBLIC SARL",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 6,
+ "alertes_ocr": [
+  "« PUBLIC SARL » absent de la liste des plis déposés (nom mal lu ?).",
+  "Montant de l'attributaire « PUBLIC SARL » non trouvé."
+ ],
+ "notes_ocr": [],
+ "qualite": "complet"
+}

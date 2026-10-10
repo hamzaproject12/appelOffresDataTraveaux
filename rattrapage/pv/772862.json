@@ -1,0 +1,142 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "772862",
+ "orgAcronyme": "f9f",
+ "reference_pv": "46/2023",
+ "nouveau": true,
+ "reference": "46/2023",
+ "objet": null,
+ "acheteur": "Région Souss Massa %",
+ "procedure": "appel d'offres ouvert simplifié",
+ "categorie": "Travaux",
+ "date_limite_plis": null,
+ "lieu_ouverture": "Siège du Conseil Régional Souss Massa % Journaux avant publié l’avis de publicité",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": null,
+ "justification": null,
+ "infructueux": false,
+ "attributaire": "Société IMITRITE TRAVAUX",
+ "montant_attribue": 732096.0,
+ "attributaires_par_lot": [
+  {
+   "lot": null,
+   "attributaire": "Société IMITRITE TRAVAUX",
+   "montant": 732096.0
+  },
+  {
+   "lot": null,
+   "attributaire": "Société YN BATIMENT",
+   "montant": 794976.0
+  },
+  {
+   "lot": null,
+   "attributaire": "Société ZAGOUR",
+   "montant": 729600.0
+  },
+  {
+   "lot": null,
+   "attributaire": "Société KOLANE LIL ABAR",
+   "montant": 1280.0
+  }
+ ],
+ "soumissionnaires": [
+  {
+   "nom": "Société QUALITY FOR",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_dossier_administratif_technique",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Société YN BATIMENT",
+   "montant_acte_engagement": 732096.0,
+   "montant_apres_verification": 732096.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Société IMITRITE TRAVAUX",
+   "montant_acte_engagement": 732096.0,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Société TIZNITE FARKHINE",
+   "montant_acte_engagement": 732096.0,
+   "montant_apres_verification": 732096.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Société B.M.R GAV",
+   "montant_acte_engagement": 729600.0,
+   "montant_apres_verification": 729600.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Société ZAGOUR",
+   "montant_acte_engagement": 689520.0,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Société 2PS PROJETS",
+   "montant_acte_engagement": 689520.0,
+   "montant_apres_verification": 689520.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Société KOLANE LIL ABAR",
+   "montant_acte_engagement": 1280.0,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Société DE CREUSEMENT DES PUITS",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_dossier_administratif_technique",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Société ROCK FONDATION",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_dossier_administratif_technique",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 10,
+ "alertes_ocr": [],
+ "notes_ocr": [],
+ "qualite": "complet"
+}

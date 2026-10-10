@@ -1,0 +1,62 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "1006934",
+ "orgAcronyme": "q0x",
+ "reference_pv": null,
+ "nouveau": true,
+ "reference": null,
+ "objet": "Travaux d'aménagement de l'abattoir de la ville de Midelt",
+ "acheteur": "Président de la commune de Midelt",
+ "procedure": null,
+ "categorie": "Travaux",
+ "date_limite_plis": "12/05/2026",
+ "lieu_ouverture": "Salle de réunion de la commune de Midelt",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "22/05/2025",
+ "justification": "La commission propose au maître d’ouvrage de retenir l’offre économiquement la plus avantageuse présenté par : STE LESYMD SARL AU, pour un montant de : 3 792 762,00 Dhs (Trois millions sept cent quatre-vingt-douze Mille sept cent soixante-deux Dirhams Zéro Centimes)",
+ "infructueux": false,
+ "attributaire": "STE LESYMD SARL AU",
+ "montant_attribue": 3792762.0,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "BOUDITRAV",
+   "montant_acte_engagement": 3947400.0,
+   "montant_apres_verification": 3947400.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "STE LESYMD SARL AU",
+   "montant_acte_engagement": 3792762.0,
+   "montant_apres_verification": 3792762.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "S.M.H. ENERGY",
+   "montant_acte_engagement": 3852726.0,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 3,
+ "alertes_ocr": [
+  "« BOUDITRAV » absent de la liste des plis déposés (nom mal lu ?).",
+  "« STE LESYMD SARL AU » absent de la liste des plis déposés (nom mal lu ?).",
+  "« S.M.H. ENERGY » absent de la liste des plis déposés (nom mal lu ?)."
+ ],
+ "notes_ocr": [],
+ "qualite": "complet"
+}

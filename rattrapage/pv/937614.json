@@ -1,0 +1,80 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "937614",
+ "orgAcronyme": "d4q",
+ "reference_pv": "41/DR3/2025",
+ "nouveau": true,
+ "reference": "41/DR3/2025",
+ "objet": "relatif à",
+ "acheteur": null,
+ "procedure": "appel d'offres ouvert",
+ "categorie": "Travaux",
+ "date_limite_plis": "03/09/2025",
+ "lieu_ouverture": "au siège de la Direction Régionale du Centre (DR3) Boulevard Mohamed VI, Quartier Administratif - Khouribga - Maroc",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "07/10/2025",
+ "justification": "Moins-disant",
+ "infructueux": false,
+ "attributaire": "STDEA",
+ "montant_attribue": 3298800.0,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "l L 7 ENADEP né di MAROC",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "depose",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "L L SOGEA MAROC | EL l ” MAROC",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "depose",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "STDEA L u | | LL MAROC",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "depose",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "L WATEGA",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "depose",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "STDEA",
+   "montant_acte_engagement": 3298800.0,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 5,
+ "alertes_ocr": [
+  "« STDEA » absent de la liste des plis déposés (nom mal lu ?)."
+ ],
+ "notes_ocr": [
+  "Maître d'ouvrage absent du PV (utiliser l'acheteur public du portail)."
+ ],
+ "qualite": "attribution"
+}

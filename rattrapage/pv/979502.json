@@ -1,0 +1,88 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "979502",
+ "orgAcronyme": "g3h",
+ "reference_pv": "245/2025",
+ "nouveau": true,
+ "reference": "245/2025",
+ "objet": null,
+ "acheteur": "Société Régionale Multiservices Fès Meknès « SRM-FM »",
+ "procedure": "appel d'offres ouvert",
+ "categorie": "Travaux",
+ "date_limite_plis": "04/12/2025",
+ "lieu_ouverture": "Siège de la SRM-FM",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "12/02/2026",
+ "justification": null,
+ "infructueux": false,
+ "attributaire": "SOUSALIO",
+ "montant_attribue": 6613100.0,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "SMYBAM",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_offre_technique",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "AITECO",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "depose",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "VARDEP",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_dossier_administratif_technique",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "ARCO",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_offre_financiere",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "SOUSALIO",
+   "montant_acte_engagement": 6533675.0,
+   "montant_apres_verification": null,
+   "autres_montants": [
+    7383500.0,
+    6613100.0
+   ],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "UNITECH ENERGY",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_offre_technique",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 6,
+ "alertes_ocr": [],
+ "notes_ocr": [],
+ "qualite": "attribution"
+}

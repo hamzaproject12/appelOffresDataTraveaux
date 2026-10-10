@@ -1,0 +1,101 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "716311",
+ "orgAcronyme": "g3h",
+ "reference_pv": "39/2023",
+ "nouveau": true,
+ "reference": "39/2023",
+ "objet": "Travaux de grosses réparations et de réhabilitation des bâtiments administratifs du service central du Ministère de l’Intérieur à Rabat (lot unique)",
+ "acheteur": "Ministère de l’intérieur",
+ "procedure": "appel d'offres ouvert",
+ "categorie": "Travaux",
+ "date_limite_plis": "12/05/2023",
+ "lieu_ouverture": "la Direction des Affaires Administratives |Division des Marchés du Ministère de l'Intérieur)",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "24/05/2023",
+ "justification": "l’offre jugée la moins disante ;",
+ "infructueux": false,
+ "attributaire": "Sté. MMOUM SERVICE",
+ "montant_attribue": 3927459.6,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "Sté. MMOUM SERVICE",
+   "montant_acte_engagement": 3927459.6,
+   "montant_apres_verification": null,
+   "autres_montants": [
+    3927459.6
+   ],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Sté. NEW NICE",
+   "montant_acte_engagement": 5400120.0,
+   "montant_apres_verification": null,
+   "autres_montants": [
+    5400120.0
+   ],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Sté. AIT LHADJ BEN AMOUCH DE TRAVAUX",
+   "montant_acte_engagement": 5163600.0,
+   "montant_apres_verification": null,
+   "autres_montants": [
+    5163600.0
+   ],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Sté. ELECTRICITE ET TRAVAUX DIVERS DE BATIMENTS \"ETD",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Sté. IDIAL CONTRACTOUR",
+   "montant_acte_engagement": 4861942.61,
+   "montant_apres_verification": null,
+   "autres_montants": [
+    4861942.61
+   ],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": true
+  },
+  {
+   "nom": "Sté. ISO MEK",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_dossier_administratif_technique",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 6,
+ "alertes_ocr": [
+  "« Sté. MMOUM SERVICE » absent de la liste des plis déposés (nom mal lu ?).",
+  "« Sté. NEW NICE » absent de la liste des plis déposés (nom mal lu ?).",
+  "« Sté. AIT LHADJ BEN AMOUCH DE TRAVAUX » absent de la liste des plis déposés (nom mal lu ?).",
+  "« Sté. IDIAL CONTRACTOUR » absent de la liste des plis déposés (nom mal lu ?)."
+ ],
+ "notes_ocr": [
+  "« Sté. ELECTRICITE ET TRAVAUX DIVERS DE BATIMENTS \"ETD » absent de la liste des plis déposés (nom mal lu ?).",
+  "« Sté. ISO MEK » absent de la liste des plis déposés (nom mal lu ?)."
+ ],
+ "qualite": "complet"
+}

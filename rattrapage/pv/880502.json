@@ -1,0 +1,54 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "880502",
+ "orgAcronyme": "g3h",
+ "reference_pv": "26/2025/S2A",
+ "nouveau": true,
+ "reference": "26/2025/S2A",
+ "objet": "PROJET D’AMENAGEMENT URBAIN ET PAYSAGER DES ALENTOURS DU GRAND STADE D'AGADIR, TRAVAUX D’INFRASTRUCTURES HYDRAULIQUES DES EAUX USEES EPUREES ET RESEAUX D’ARROSAGE",
+ "acheteur": null,
+ "procedure": "appel d'offres ouvert",
+ "categorie": "Travaux",
+ "date_limite_plis": null,
+ "lieu_ouverture": null,
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": null,
+ "justification": null,
+ "infructueux": false,
+ "attributaire": "SOCIETE ERI-SER",
+ "montant_attribue": 10909552.8,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "GROUPEMENT SICATRA & PETIT ATLAS DES TRAVAUX",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_offre_technique",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "SOCIETE ERI-SER",
+   "montant_acte_engagement": 10909552.8,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 2,
+ "alertes_ocr": [
+  "« SOCIETE ERI-SER » absent de la liste des plis déposés (nom mal lu ?)."
+ ],
+ "notes_ocr": [
+  "« GROUPEMENT SICATRA & PETIT ATLAS DES TRAVAUX » absent de la liste des plis déposés (nom mal lu ?).",
+  "Maître d'ouvrage absent du PV (utiliser l'acheteur public du portail)."
+ ],
+ "qualite": "attribution"
+}

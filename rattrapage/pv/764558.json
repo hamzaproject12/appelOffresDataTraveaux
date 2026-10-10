@@ -1,0 +1,109 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "764558",
+ "orgAcronyme": "q1s",
+ "reference_pv": "39/2023-DKSMG",
+ "nouveau": true,
+ "reference": "39/2023-DKSMG",
+ "objet": "travaux d’entretien et d'aménagement des bâtiments administratifs de l'ORMVAD. > Maître d'ouvrage : L'Office Régional de Mise en Valeur Agricole des Doukkala",
+ "acheteur": "L'Office Régional de Mise en Valeur Agricole des Doukkala",
+ "procedure": "appel d'offres ouvert",
+ "categorie": "Travaux",
+ "date_limite_plis": "07/12/2023",
+ "lieu_ouverture": "Salle des réunions de l'ORMVAD",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "13/12/2023",
+ "justification": "l'offre présentée est économiquement la plus avantageuse (la mieux disante).",
+ "infructueux": false,
+ "attributaire": "KASTRAV",
+ "montant_attribue": 759384.0,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "ou soumissionné électroniquement",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "depose",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "CAPRIABE",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_offre_financiere",
+   "admis_avec_reserve": true
+  },
+  {
+   "nom": "KASTRAV",
+   "montant_acte_engagement": 759384.0,
+   "montant_apres_verification": null,
+   "autres_montants": [
+    759384.0
+   ],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": true
+  },
+  {
+   "nom": "EXCELLIUM DEVELOPPEMENT",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": true
+  },
+  {
+   "nom": "SININE",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_offre_financiere",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "ALBARAE AMENAGEMENT",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_offre_financiere",
+   "admis_avec_reserve": true
+  },
+  {
+   "nom": "SOUHAIR MOHAMED",
+   "montant_acte_engagement": 743640.0,
+   "montant_apres_verification": null,
+   "autres_montants": [
+    743640.0
+   ],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": true
+  },
+  {
+   "nom": "BRICOLA.SLOG SERVICE",
+   "montant_acte_engagement": 717300.0,
+   "montant_apres_verification": null,
+   "autres_montants": [
+    717300.0
+   ],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 8,
+ "alertes_ocr": [],
+ "notes_ocr": [],
+ "qualite": "complet"
+}

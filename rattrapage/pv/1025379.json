@@ -1,0 +1,58 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "1025379",
+ "orgAcronyme": "b5j",
+ "reference_pv": null,
+ "nouveau": true,
+ "reference": null,
+ "objet": "Travaux de viabilisation du lotissement Al Jihad sis à Sidi Ifni lot : réseaux d'électrification. de l'éclairage public et téléphonie",
+ "acheteur": "Agence de Logements et d'Equipements Militaires",
+ "procedure": null,
+ "categorie": "Travaux",
+ "date_limite_plis": "02/07/2026",
+ "lieu_ouverture": "Salle des réunions de l'ALEM",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "16/07/2026",
+ "justification": null,
+ "infructueux": true,
+ "attributaire": null,
+ "montant_attribue": null,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "ELECTRICITE FIDEL DU MAROC",
+   "montant_acte_engagement": 10515894.0,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_offre_financiere",
+   "admis_avec_reserve": true
+  },
+  {
+   "nom": "ELECTOMAR",
+   "montant_acte_engagement": 10595209.2,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_offre_financiere",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "PROMETI",
+   "montant_acte_engagement": 11185208.4,
+   "montant_apres_verification": 11185208.4,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_dossier_administratif_technique",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 3,
+ "alertes_ocr": [],
+ "notes_ocr": [],
+ "qualite": "complet"
+}

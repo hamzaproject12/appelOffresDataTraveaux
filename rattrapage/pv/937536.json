@@ -1,0 +1,42 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "937536",
+ "orgAcronyme": "j8k",
+ "reference_pv": "131/2025",
+ "nouveau": true,
+ "reference": "131/2025",
+ "objet": null,
+ "acheteur": "AL OMRANE MARRAKECH-SAFI",
+ "procedure": "appel d'offres ouvert",
+ "categorie": "Travaux",
+ "date_limite_plis": "29/09/2025",
+ "lieu_ouverture": "Siège de la société AI Omrane Marrakech-Safi",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "29/09/2025",
+ "justification": "Infructueux",
+ "infructueux": false,
+ "attributaire": "acte d’ensagement T.T.C",
+ "montant_attribue": null,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "acte d’ensagement T.T.C",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 1,
+ "alertes_ocr": [
+  "Montant de l'attributaire « acte d’ensagement T.T.C » non trouvé."
+ ],
+ "notes_ocr": [],
+ "qualite": "participants"
+}

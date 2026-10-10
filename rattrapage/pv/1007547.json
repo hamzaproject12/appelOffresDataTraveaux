@@ -1,0 +1,54 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "1007547",
+ "orgAcronyme": "o8p",
+ "reference_pv": null,
+ "nouveau": true,
+ "reference": null,
+ "objet": "TRAVAUX D’AMENAGEMENT DES BATIMENTS RELEVANT DE LA FONDATION NATIONALE DES MUSEES EN UN COMPLEXE MUSEAL A RABAT. LOT : LUSTRERIE, ECLAIRAGE MUSEOGRAPHIQUE ET MISE EN LUMIERE DU",
+ "acheteur": null,
+ "procedure": null,
+ "categorie": "Travaux",
+ "date_limite_plis": "29/04/2026",
+ "lieu_ouverture": "Salle de réunions de la Direction Régionale de l’ANEP de Rabat-Salé-Kénitra, sis à Hay Nahda 2 Rabat",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "25/05/2026",
+ "justification": "Conformément aux dispositions de l’article 15 du règlement de consultation, la meilleure offre financière est celle la mieux-disante par rapport au prix de référence.",
+ "infructueux": false,
+ "attributaire": "STE BELECTRABAT",
+ "montant_attribue": 22968025.2,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "STE BELECTRABAT",
+   "montant_acte_engagement": 22968025.2,
+   "montant_apres_verification": 22968025.2,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "STE EQUELEC",
+   "montant_acte_engagement": 24034401.6,
+   "montant_apres_verification": 34401.6,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_offre_financiere",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 2,
+ "alertes_ocr": [
+  "« STE EQUELEC » : écart anormal entre montant initial et vérifié (lecture à vérifier)."
+ ],
+ "notes_ocr": [
+  "« STE EQUELEC » : montant rectifié de 24 034 401.60 à 34 401.60 DH.",
+  "Maître d'ouvrage absent du PV (utiliser l'acheteur public du portail)."
+ ],
+ "qualite": "complet"
+}

@@ -1,0 +1,71 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "764555",
+ "orgAcronyme": "q1s",
+ "reference_pv": "33/2023-DKGR",
+ "nouveau": true,
+ "reference": "33/2023-DKGR",
+ "objet": "travaux de réparation des disjoncteurs moyenne tension des départs moteurs électriques de la station de pompage haut service des Doukkala. > Maître d'ouvrage : L'Office Régional de Mise en Valeur Agricole des Doukkala",
+ "acheteur": "L'Office Régional de Mise en Valeur Agricole des Doukkala",
+ "procedure": "appel d'offres ouvert",
+ "categorie": "Travaux",
+ "date_limite_plis": "28/11/2023",
+ "lieu_ouverture": "Salle des réunions de l'ORMVAD",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "12/12/2023",
+ "justification": "l'offre présentée est économiquement la plus avantageuse (la mieux disante).",
+ "infructueux": false,
+ "attributaire": "NOUR TREY SERVICES",
+ "montant_attribue": 221760.0,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "ou soumissionné électroniquement",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "depose",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "VOIE MAINTENANCE",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_dossier_administratif_technique",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "NOUR TREY SERVICES",
+   "montant_acte_engagement": 221760.0,
+   "montant_apres_verification": null,
+   "autres_montants": [
+    221760.0
+   ],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "NIKELEC",
+   "montant_acte_engagement": 248400.0,
+   "montant_apres_verification": null,
+   "autres_montants": [
+    248400.0
+   ],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 4,
+ "alertes_ocr": [],
+ "notes_ocr": [],
+ "qualite": "complet"
+}

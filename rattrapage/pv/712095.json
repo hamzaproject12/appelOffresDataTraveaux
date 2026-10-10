@@ -1,0 +1,54 @@
+{
+ "source": "extrait_docx",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "712095",
+ "orgAcronyme": "j8k",
+ "reference_pv": null,
+ "nouveau": true,
+ "reference": null,
+ "objet": "La Réalisation des travaux de construction du Grand théâtre d’Agadir – G.T.A, Lot : électricité HTA/BT & courants faibles, sis à la Commune Territoriale d’Agadir, Préfecture Agadir Ida-Outanane",
+ "acheteur": null,
+ "procedure": "appel d'offres ouvert",
+ "categorie": "Travaux",
+ "date_limite_plis": "02/05/2023",
+ "lieu_ouverture": "Division des Marchés de la Société Al Omrane Souss Massa",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "08/05/2023",
+ "justification": "Concurrent représentant l’offre la plus avantageuse.",
+ "infructueux": false,
+ "attributaire": "BELECTRABAT",
+ "montant_attribue": 33415082.05,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "BELECTRABAT",
+   "montant_acte_engagement": 33415082.05,
+   "montant_apres_verification": 33415082.05,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "PROMETI",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_offre_technique",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 2,
+ "alertes_ocr": [
+  "« BELECTRABAT » absent de la liste des plis déposés (nom mal lu ?)."
+ ],
+ "notes_ocr": [
+  "« PROMETI » absent de la liste des plis déposés (nom mal lu ?).",
+  "Maître d'ouvrage absent du PV (utiliser l'acheteur public du portail)."
+ ],
+ "qualite": "attribution"
+}

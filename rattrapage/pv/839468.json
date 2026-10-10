@@ -1,0 +1,60 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "839468",
+ "orgAcronyme": "j0w",
+ "reference_pv": "10/2024",
+ "nouveau": true,
+ "reference": "10/2024",
+ "objet": "travaux d'aménagement de de la voie principale du centre de la commune Aït Imour (voirie, assainissement, aménagement des trottoirs, ouvrages hydrauliques et de soutènement)",
+ "acheteur": "Commune Ait Imour",
+ "procedure": "appel d'offres ouvert national",
+ "categorie": "Travaux",
+ "date_limite_plis": "09/10/2024",
+ "lieu_ouverture": "la salle des réunions de la commune Ait Imour",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "18/10/2024",
+ "justification": "l'offre économiquement la plus avantageuse.",
+ "infructueux": false,
+ "attributaire": "Groupement",
+ "montant_attribue": 4123368.0,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "Société TRAINVEST et Société DYNAMIQUE MATERIAUX",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "MATERIAUX",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "depose",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Groupement",
+   "montant_acte_engagement": 4123368.0,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 3,
+ "alertes_ocr": [
+  "« Groupement » absent de la liste des plis déposés (nom mal lu ?)."
+ ],
+ "notes_ocr": [],
+ "qualite": "attribution"
+}

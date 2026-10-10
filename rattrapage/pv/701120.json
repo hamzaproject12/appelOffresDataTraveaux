@@ -1,0 +1,72 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "701120",
+ "orgAcronyme": "d4q",
+ "reference_pv": null,
+ "nouveau": true,
+ "reference": null,
+ "objet": "Aménagement des dérivations HTA aériennes dégradées relevant de la Direction Provinciate indication Objet du lot Date et Date Concurrent Montant de du lot heure d'achèvement retenu l'offre",
+ "acheteur": null,
+ "procedure": null,
+ "categorie": "Travaux",
+ "date_limite_plis": "02/03/2023",
+ "lieu_ouverture": "ONEE-BE / Siège Direction Régionale Distribution Agadir",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "16/03/2023",
+ "justification": "L'offre proposée par le soumissionnaire « SOCIETE MSSIOUA TRAVAUX DIVERS » s'écarte d’un taux acceptable de +9,66% par rapport à l'estimation.",
+ "infructueux": false,
+ "attributaire": "SOCIETE MSSIOUA TRAVAUX DIVERS",
+ "montant_attribue": 2140023.24,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "SOCIETE MSSIOUA TRAVAUX DIVERS",
+   "montant_acte_engagement": 2140023.24,
+   "montant_apres_verification": 2140023.24,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "SOCIETE RESORT TRAVAUX DIVERS (RTD) et SOCIETE GAMAF",
+   "montant_acte_engagement": 2314228.2,
+   "montant_apres_verification": 2314228.2,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "SOCIETE LEC BOURICHE",
+   "montant_acte_engagement": 2270480.63,
+   "montant_apres_verification": 2270480.63,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "SOCIETE GAMAF CL",
+   "montant_acte_engagement": 2419703.45,
+   "montant_apres_verification": 2419703.45,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 4,
+ "alertes_ocr": [
+  "« SOCIETE LEC BOURICHE » absent de la liste des plis déposés (nom mal lu ?).",
+  "« SOCIETE GAMAF CL » absent de la liste des plis déposés (nom mal lu ?)."
+ ],
+ "notes_ocr": [
+  "Maître d'ouvrage absent du PV (utiliser l'acheteur public du portail)."
+ ],
+ "qualite": "complet"
+}

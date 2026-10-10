@@ -1,0 +1,61 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "724615",
+ "orgAcronyme": "d4q",
+ "reference_pv": null,
+ "nouveau": true,
+ "reference": null,
+ "objet": null,
+ "acheteur": null,
+ "procedure": "appel d'offres ouvert",
+ "categorie": "Travaux",
+ "date_limite_plis": "15/02/2023",
+ "lieu_ouverture": "Siège de la Direction Régionale Daraa-Tafilalet (DRD) Avenue Mohamed VI - Azemmour J'did - Errachidia",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "26/06/2023",
+ "justification": "Moins-disant",
+ "infructueux": false,
+ "attributaire": "NOUV-EAU",
+ "montant_attribue": 12716568.0,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "ATLAS BOUGAFER",
+   "montant_acte_engagement": 12263196.0,
+   "montant_apres_verification": 12263196.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_dossier_administratif_technique",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "NOUV-EAU",
+   "montant_acte_engagement": 12716568.0,
+   "montant_apres_verification": 12716568.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "SICATRA MAROC",
+   "montant_acte_engagement": 11226786.0,
+   "montant_apres_verification": 11223740.4,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 3,
+ "alertes_ocr": [],
+ "notes_ocr": [
+  "« SICATRA MAROC » : montant rectifié de 11 226 786.00 à 11 223 740.40 DH.",
+  "Maître d'ouvrage absent du PV (utiliser l'acheteur public du portail)."
+ ],
+ "qualite": "complet"
+}

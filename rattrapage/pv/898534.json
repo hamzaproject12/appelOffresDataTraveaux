@@ -1,0 +1,51 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "898534",
+ "orgAcronyme": "o8p",
+ "reference_pv": "05/DPCR-ANP/2025",
+ "nouveau": true,
+ "reference": "05/DPCR-ANP/2025",
+ "objet": "Travaux d'entretien préventif, systématique et curatif des postes électriques et des groupes électrogènes au Port de Casablanca",
+ "acheteur": "AGENCE NATIONALE DES PORTS, DIRECTION DU PORT DE CASABLANCA ET REGION",
+ "procedure": null,
+ "categorie": "Travaux",
+ "date_limite_plis": "29/04/2025",
+ "lieu_ouverture": "DIRECTION DU PORT DE CASABLANCA ET REGION",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "20/05/2025",
+ "justification": null,
+ "infructueux": false,
+ "attributaire": "EMPEGEC",
+ "montant_attribue": 963203.0,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "DAR ELEC- EMPEGEC",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "depose",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "EMPEGEC",
+   "montant_acte_engagement": 963203.0,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 2,
+ "alertes_ocr": [
+  "« EMPEGEC » absent de la liste des plis déposés (nom mal lu ?)."
+ ],
+ "notes_ocr": [],
+ "qualite": "attribution"
+}

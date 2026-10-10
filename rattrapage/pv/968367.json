@@ -1,0 +1,51 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "968367",
+ "orgAcronyme": "g8e",
+ "reference_pv": "A193/RRA/2025",
+ "nouveau": true,
+ "reference": "A193/RRA/2025",
+ "objet": "TRAVAUX DE PEINTURE DES FAÇADES DANS LA VILLE DE RABAT, TRANCHE 4",
+ "acheteur": null,
+ "procedure": null,
+ "categorie": "Travaux",
+ "date_limite_plis": "08/12/2025",
+ "lieu_ouverture": "Bureau de la Société Rabat Région Aménagement au 9, Place Al joulane — Rabat",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "02/01/2026",
+ "justification": "Offre conforme aux exigences du Règlement de la consultation et l'offre la plus avantageuses",
+ "infructueux": false,
+ "attributaire": "ZAMANE EL KHEIR",
+ "montant_attribue": 10872000.0,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "ZAMANE EL KHEIR",
+   "montant_acte_engagement": 10872000.0,
+   "montant_apres_verification": 10872000.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "ENTC",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_offre_technique",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 2,
+ "alertes_ocr": [],
+ "notes_ocr": [
+  "Maître d'ouvrage absent du PV (utiliser l'acheteur public du portail)."
+ ],
+ "qualite": "attribution"
+}

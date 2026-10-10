@@ -1,0 +1,58 @@
+{
+ "source": "extrait_docx",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "750495",
+ "orgAcronyme": "s3z",
+ "reference_pv": null,
+ "nouveau": true,
+ "reference": null,
+ "objet": "TRAVAUX DE MISE A NIVEAU DU BD MOHAMMED VI SUR 3.9 KM A AIN EL AOUDA : FOURNITURE ET POSE DE MATERIEL ELECTRIQUE DE DECORATION",
+ "acheteur": "COMMUNE AIN EL AOUDA",
+ "procedure": null,
+ "categorie": "Travaux",
+ "date_limite_plis": "14/09/2023",
+ "lieu_ouverture": "LE BUREAU DU PRESIDENT DE LA COMMUNE AIN EL AOUDA",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "26/10/2023",
+ "justification": "Offre classé 1er (ELECLEF) n’a pas produit les pièces du dossier administratif, conformément à l’article 40 du décret du 20 mars 2013.",
+ "infructueux": false,
+ "attributaire": "Sté HAY 2010 SARL",
+ "montant_attribue": 5947260.0,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "Sté SOCADELEG SARL AU",
+   "montant_acte_engagement": 6431460.0,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Sté ELECTRICITE LEZAR EL FARDAOUI SARL (ELECLEF)",
+   "montant_acte_engagement": 6431460.0,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Sté HAY 2010 SARL",
+   "montant_acte_engagement": 5947260.0,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 3,
+ "alertes_ocr": [],
+ "notes_ocr": [],
+ "qualite": "complet"
+}

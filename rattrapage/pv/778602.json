@@ -1,0 +1,51 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "778602",
+ "orgAcronyme": "j8k",
+ "reference_pv": null,
+ "nouveau": true,
+ "reference": null,
+ "objet": "TRAVAUX D’ACHEVEMENT D’ALIMENTATION EN EAU POTABLE IN SITE ET HORS SITE LOTISSEMENT IZDIHAR ARRONDISSEMENT ZOUAGHAPROVINCE DE MOULAY YAACOUB",
+ "acheteur": "AL Omrane Fès-Meknès",
+ "procedure": null,
+ "categorie": "Travaux",
+ "date_limite_plis": "28/02/2024",
+ "lieu_ouverture": "AL Omrane Fès-Meknès",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "05/03/2024",
+ "justification": null,
+ "infructueux": true,
+ "attributaire": null,
+ "montant_attribue": null,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "STE ITKANE AL OMRANE-Fès",
+   "montant_acte_engagement": 2259978.0,
+   "montant_apres_verification": 2761182.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "STE MAROC TIDAR- Fès",
+   "montant_acte_engagement": 2761182.0,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 2,
+ "alertes_ocr": [],
+ "notes_ocr": [
+  "« STE ITKANE AL OMRANE-Fès » : montant rectifié de 2 259 978.00 à 2 761 182.00 DH."
+ ],
+ "qualite": "complet"
+}

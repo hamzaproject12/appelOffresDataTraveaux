@@ -1,0 +1,60 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "1025739",
+ "orgAcronyme": "o8p",
+ "reference_pv": null,
+ "nouveau": true,
+ "reference": null,
+ "objet": null,
+ "acheteur": "Ministère de la Santé et de la Protection Sociale",
+ "procedure": "appel d'offres ouvert",
+ "categorie": "Travaux",
+ "date_limite_plis": "14/07/2026",
+ "lieu_ouverture": "Boulevard Al Maghreb AI Arabi Oujda BP 752 Conformément aux avis publiés dans les journaux suivants",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "21/07/2026",
+ "justification": "L’offre la plus avantageuse qui est l’offre la mieux disante a été retenue, sous réserve de l’obtention de la non objection de la banque islamique de développement (BID)",
+ "infructueux": false,
+ "attributaire": "STE SMF LASER SARL ss seesessees MOHAMMEDIA",
+ "montant_attribue": 5051400.0,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "STE SMF LASER SARL ss seesessees MOHAMMEDIA",
+   "montant_acte_engagement": 5051400.0,
+   "montant_apres_verification": 5051400.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "STE ATELIERS INDUSTRIELS CHERIFIENS",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "depose",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "STE METAPLEX SARL snsusssssnsssssnsessse sers TANGER",
+   "montant_acte_engagement": 5094000.0,
+   "montant_apres_verification": 5094000.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 3,
+ "alertes_ocr": [
+  "« STE METAPLEX SARL snsusssssnsssssnsessse sers TANGER » absent de la liste des plis déposés (nom mal lu ?)."
+ ],
+ "notes_ocr": [],
+ "qualite": "complet"
+}

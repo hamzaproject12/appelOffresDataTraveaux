@@ -1,0 +1,61 @@
+{
+ "source": "extrait_docx",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "937215",
+ "orgAcronyme": "a1t",
+ "reference_pv": "64/2025/ADHA",
+ "nouveau": true,
+ "reference": "64/2025/ADHA",
+ "objet": null,
+ "acheteur": "DIRECTEUR GENERAL DE L’AGENCE DE DEVELOPPEMNT DU HAUT ATLAS",
+ "procedure": null,
+ "categorie": "Travaux",
+ "date_limite_plis": "19/09/2025",
+ "lieu_ouverture": "Salle de réunions de la DIRECTION PROVINCIALE DE L’AGRICULTURE MARRAKECH",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "01/10/2025",
+ "justification": null,
+ "infructueux": false,
+ "attributaire": "ENTREPRISE AIT ATTA",
+ "montant_attribue": 3846840.0,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "Sté MAGISTAR",
+   "montant_acte_engagement": 3991956.0,
+   "montant_apres_verification": 3991956.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "ENTREPRISE AIT ATTA",
+   "montant_acte_engagement": 3846840.0,
+   "montant_apres_verification": 3991956.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Sté SOMSO",
+   "montant_acte_engagement": 4392684.0,
+   "montant_apres_verification": 3846840.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 3,
+ "alertes_ocr": [],
+ "notes_ocr": [
+  "« ENTREPRISE AIT ATTA » : montant rectifié de 3 846 840.00 à 3 991 956.00 DH.",
+  "« Sté SOMSO » : montant rectifié de 4 392 684.00 à 3 846 840.00 DH."
+ ],
+ "qualite": "complet"
+}

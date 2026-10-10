@@ -1,0 +1,79 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "1027801",
+ "orgAcronyme": "g3h",
+ "reference_pv": "9233/21126",
+ "nouveau": true,
+ "reference": "9233/21126",
+ "objet": null,
+ "acheteur": "Société Régionale Multiservices Fès Meknès « SRM-FM »",
+ "procedure": null,
+ "categorie": "Travaux",
+ "date_limite_plis": "09/07/2026",
+ "lieu_ouverture": "Siège de la SRM-FM",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "21/07/2026",
+ "justification": "L’offre la plus avantageuse.",
+ "infructueux": false,
+ "attributaire": "SARA ELECTRIQUE",
+ "montant_attribue": 13668981.0,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "ELECTRO TAFOGHALT",
+   "montant_acte_engagement": 16052306.75,
+   "montant_apres_verification": 19262994.66,
+   "autres_montants": [
+    19262768.09
+   ],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "ICOMEL",
+   "montant_acte_engagement": 15936538.0,
+   "montant_apres_verification": 19123845.6,
+   "autres_montants": [
+    19123845.6
+   ],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "SARA ELECTRIQUE",
+   "montant_acte_engagement": 14124981.0,
+   "montant_apres_verification": 16402777.2,
+   "autres_montants": [
+    16949977.2
+   ],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "STE D'ELECTRICITÉ DE OUARZAZAT (ELECTROU)",
+   "montant_acte_engagement": 14636489.0,
+   "montant_apres_verification": null,
+   "autres_montants": [
+    17563786.8
+   ],
+   "lots": [],
+   "statut": "ecarte_offre_financiere",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 4,
+ "alertes_ocr": [],
+ "notes_ocr": [
+  "« ELECTRO TAFOGHALT » : montant rectifié de 16 052 306.75 à 19 262 994.66 DH.",
+  "« ICOMEL » : montant rectifié de 15 936 538.00 à 19 123 845.60 DH.",
+  "« SARA ELECTRIQUE » : montant rectifié de 14 124 981.00 à 16 402 777.20 DH."
+ ],
+ "qualite": "complet"
+}

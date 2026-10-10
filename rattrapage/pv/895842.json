@@ -1,0 +1,45 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "895842",
+ "orgAcronyme": "g3h",
+ "reference_pv": "51/2025/S2A",
+ "nouveau": true,
+ "reference": "51/2025/S2A",
+ "objet": "TRAVAUX DE CONSTRUCTION D'UN CENTRE SOCIO-SPORTIF, TYPE \"A\" AU QUARTIER AGHROUD DE LA VILLE D’AGADIR « EN TROIS LOTS SEPARES CUMULABLES »",
+ "acheteur": null,
+ "procedure": "appel d'offres ouvert",
+ "categorie": "Travaux",
+ "date_limite_plis": null,
+ "lieu_ouverture": null,
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": null,
+ "justification": null,
+ "infructueux": false,
+ "attributaire": null,
+ "montant_attribue": null,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "GROUPEMENT VERACRUZ / AMECODIV",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": true
+  }
+ ],
+ "nombre_soumissionnaires": 1,
+ "alertes_ocr": [
+  "Attributaire non trouvé."
+ ],
+ "notes_ocr": [
+  "« GROUPEMENT VERACRUZ / AMECODIV » absent de la liste des plis déposés (nom mal lu ?).",
+  "Maître d'ouvrage absent du PV (utiliser l'acheteur public du portail)."
+ ],
+ "qualite": "participants"
+}

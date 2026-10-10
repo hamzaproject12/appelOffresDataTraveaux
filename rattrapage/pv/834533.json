@@ -1,0 +1,70 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "834533",
+ "orgAcronyme": "o8p",
+ "reference_pv": "119-24-AO0O",
+ "nouveau": true,
+ "reference": "119-24-AO0O",
+ "objet": "Travaux de renforcement du parking avions et aménagement d'une nouvelle bretelle au niveau de l'aéroport Benslimane",
+ "acheteur": "l'OFFICE NATIONAL DES AEROPORTS",
+ "procedure": "appel d'offres ouvert",
+ "categorie": "Travaux",
+ "date_limite_plis": "12/09/2024",
+ "lieu_ouverture": "La salle de réunion de la Direction des Achaïs et de la Logistique",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "03/10/2024",
+ "justification": "L'offre la plus avantageuse.",
+ "infructueux": false,
+ "attributaire": "LES GRANDS CHANTIERS",
+ "montant_attribue": 63697384.2,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "LES GRANDS CHANTIERS",
+   "montant_acte_engagement": 63697384.2,
+   "montant_apres_verification": 63697384.2,
+   "autres_montants": [
+    63697384.2
+   ],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "LES GRANDS TRAVAUX",
+   "montant_acte_engagement": 64307571.55,
+   "montant_apres_verification": null,
+   "autres_montants": [
+    64307571.55
+   ],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "VIAS",
+   "montant_acte_engagement": 64450626.0,
+   "montant_apres_verification": 64309227.0,
+   "autres_montants": [
+    64450626.0
+   ],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 3,
+ "alertes_ocr": [
+  "« LES GRANDS CHANTIERS » absent de la liste des plis déposés (nom mal lu ?).",
+  "« LES GRANDS TRAVAUX » absent de la liste des plis déposés (nom mal lu ?).",
+  "« VIAS » absent de la liste des plis déposés (nom mal lu ?)."
+ ],
+ "notes_ocr": [
+  "« VIAS » : montant rectifié de 64 450 626.00 à 64 309 227.00 DH."
+ ],
+ "qualite": "complet"
+}

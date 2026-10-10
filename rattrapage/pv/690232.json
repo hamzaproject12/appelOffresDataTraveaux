@@ -1,0 +1,54 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "690232",
+ "orgAcronyme": "j8k",
+ "reference_pv": "68/22",
+ "nouveau": true,
+ "reference": "68/22",
+ "objet": "TRAVAUX DE CONSTRUCTION D'UN CENTRE SOCIO SPORTIF ET D’UNE ECOLE PRIMAIRE A L'OPERATION ANNAJAH SIS A LA COMMUNE RURALE DE SIDI HAJJAJ OUED HASSAR, PROVINCE DE MEDIOUNA",
+ "acheteur": null,
+ "procedure": "appel d'offres ouvert",
+ "categorie": "Travaux",
+ "date_limite_plis": "05/10/2022",
+ "lieu_ouverture": "A1 Omane Casablanca — Settat",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "05/10/2022",
+ "justification": "Offre financière la plus avantageuse",
+ "infructueux": false,
+ "attributaire": "BATI BUILDING",
+ "montant_attribue": 11025797.94,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "OPERA TRAVAUX",
+   "montant_acte_engagement": 11340006.0,
+   "montant_apres_verification": 11340000.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "BATI BUILDING",
+   "montant_acte_engagement": 11025797.94,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 2,
+ "alertes_ocr": [
+  "« BATI BUILDING » absent de la liste des plis déposés (nom mal lu ?)."
+ ],
+ "notes_ocr": [
+  "« OPERA TRAVAUX » : montant rectifié de 11 340 006.00 à 11 340 000.00 DH.",
+  "Maître d'ouvrage absent du PV (utiliser l'acheteur public du portail)."
+ ],
+ "qualite": "complet"
+}

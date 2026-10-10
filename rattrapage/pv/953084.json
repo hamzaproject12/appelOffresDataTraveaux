@@ -1,0 +1,124 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "953084",
+ "orgAcronyme": "j0w",
+ "reference_pv": null,
+ "nouveau": true,
+ "reference": null,
+ "objet": "(Lot UNIQUE)",
+ "acheteur": "Commune Ait Haddou Youssef",
+ "procedure": null,
+ "categorie": "Travaux",
+ "date_limite_plis": "11/11/2025",
+ "lieu_ouverture": "Sites électroniques de",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": null,
+ "justification": "l’attributaire",
+ "infructueux": false,
+ "attributaire": "EL ASRY BRAHIM",
+ "montant_attribue": null,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "EL1 STE SBLT",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": true
+  },
+  {
+   "nom": "rectifications",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": true
+  },
+  {
+   "nom": "STE SBLTP",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_dossier_administratif_technique",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "STE JINTAR BOUHCINE",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_dossier_administratif_technique",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "SIBASTRA TRAVAUX",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_dossier_administratif_technique",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "EL ASRY BRAHIM",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "STE OMARASRI TRAVAUX",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_dossier_administratif_technique",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "ELS8 : SOCIETE AM2T TRAVAUX SARL AU",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_dossier_administratif_technique",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "ATITMATEN BUILDING",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_dossier_administratif_technique",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 9,
+ "alertes_ocr": [
+  "« EL ASRY BRAHIM » absent de la liste des plis déposés (nom mal lu ?).",
+  "Montant de l'attributaire « EL ASRY BRAHIM » non trouvé."
+ ],
+ "notes_ocr": [
+  "« EL1 STE SBLT » absent de la liste des plis déposés (nom mal lu ?).",
+  "« rectifications » absent de la liste des plis déposés (nom mal lu ?).",
+  "« STE SBLTP » absent de la liste des plis déposés (nom mal lu ?).",
+  "« STE JINTAR BOUHCINE » absent de la liste des plis déposés (nom mal lu ?).",
+  "« SIBASTRA TRAVAUX » absent de la liste des plis déposés (nom mal lu ?).",
+  "« STE OMARASRI TRAVAUX » absent de la liste des plis déposés (nom mal lu ?).",
+  "« ELS8 : SOCIETE AM2T TRAVAUX SARL AU » absent de la liste des plis déposés (nom mal lu ?).",
+  "« ATITMATEN BUILDING » absent de la liste des plis déposés (nom mal lu ?)."
+ ],
+ "qualite": "participants"
+}

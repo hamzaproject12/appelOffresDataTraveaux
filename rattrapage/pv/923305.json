@@ -1,0 +1,73 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "923305",
+ "orgAcronyme": "g3h",
+ "reference_pv": "13/2025/bg",
+ "nouveau": true,
+ "reference": "13/2025/bg",
+ "objet": null,
+ "acheteur": "Province d’Es-semara",
+ "procedure": "appel d'offres ouvert",
+ "categorie": "Travaux",
+ "date_limite_plis": "31/07/2025",
+ "lieu_ouverture": null,
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "06/08/2025",
+ "justification": "l'offre la plus avantageuse",
+ "infructueux": false,
+ "attributaire": "EURO TD SAHARA",
+ "montant_attribue": 297924.0,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "N Dépôt électronique Dépôt physique",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "depose",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "STE MAYERTRAV SARL NON AUTORISE",
+   "montant_acte_engagement": 295854.0,
+   "montant_apres_verification": null,
+   "autres_montants": [
+    295854.0
+   ],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "EURO TD SAHARA",
+   "montant_acte_engagement": 287824.0,
+   "montant_apres_verification": null,
+   "autres_montants": [
+    297924.0
+   ],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "STE CHAJAA",
+   "montant_acte_engagement": 315636.0,
+   "montant_apres_verification": null,
+   "autres_montants": [
+    315636.0
+   ],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 4,
+ "alertes_ocr": [],
+ "notes_ocr": [],
+ "qualite": "complet"
+}

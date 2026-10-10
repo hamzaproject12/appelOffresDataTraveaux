@@ -1,0 +1,58 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "1008695",
+ "orgAcronyme": "g3h",
+ "reference_pv": "06/BG/2026",
+ "nouveau": true,
+ "reference": "06/BG/2026",
+ "objet": "TRAVAUX D’ACHEVEMENT DE LA RESIDENCE OFFICIELLE DE MONSIEUR LE GOUVERNEUR DE LA PROVINCE D’OUARZAZATE",
+ "acheteur": "Gouverneur de la province d’Ouarzazate",
+ "procedure": "appel d'offres ouvert national",
+ "categorie": "Travaux",
+ "date_limite_plis": "22/05/2026",
+ "lieu_ouverture": "Secrétariat Général de la Province d’Ouarzazate (salle des réunions)",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "26/05/2026",
+ "justification": "Offre économiquement la plus avantageuse pour l’administration.",
+ "infructueux": false,
+ "attributaire": "STE HAUT EXTRA SERVICES SARL",
+ "montant_attribue": 1941430.8,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "STE HAUT EXTRA SERVICES SARL",
+   "montant_acte_engagement": 1941430.8,
+   "montant_apres_verification": 1941430.8,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "STE JEB SUD SARL AU",
+   "montant_acte_engagement": 2032060.8,
+   "montant_apres_verification": 2032060.8,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "STE SALITAF SARL AU",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_dossier_administratif_technique",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 3,
+ "alertes_ocr": [],
+ "notes_ocr": [],
+ "qualite": "complet"
+}

@@ -1,0 +1,123 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "984034",
+ "orgAcronyme": "g3h",
+ "reference_pv": "01/2026/ND/EP-RP3011",
+ "nouveau": true,
+ "reference": "01/2026/ND/EP-RP3011",
+ "objet": "TRAVAUX D'ECLAIRAGE PUBLIC RELATIFS A LA RP3011 COMMUNE DE BOUSKOURA",
+ "acheteur": "La Commune de Bouskoura",
+ "procedure": null,
+ "categorie": "Travaux",
+ "date_limite_plis": null,
+ "lieu_ouverture": null,
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "09/03/2026",
+ "justification": "la société ayant la meilleure offre (économiquement la plus avantageuse).",
+ "infructueux": false,
+ "attributaire": "LAMALIF",
+ "montant_attribue": 33126372.0,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "LAMALIF",
+   "montant_acte_engagement": 33126372.0,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "EQUELEC",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "ELECTRO INDUSTRIE",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_offre_technique",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "STE SOCADELEG",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_offre_technique",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "n CEGELEC",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_offre_technique",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "STE CCRE",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_dossier_administratif_technique",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "ICOMEL",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_dossier_administratif_technique",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "NOUACEUR DÉVELOPPEMENT S.A",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_offre_technique",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "PACE RANCE Pr AE",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_offre_technique",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 9,
+ "alertes_ocr": [
+  "« LAMALIF » absent de la liste des plis déposés (nom mal lu ?)."
+ ],
+ "notes_ocr": [
+  "« EQUELEC » absent de la liste des plis déposés (nom mal lu ?).",
+  "« ELECTRO INDUSTRIE » absent de la liste des plis déposés (nom mal lu ?).",
+  "« STE SOCADELEG » absent de la liste des plis déposés (nom mal lu ?).",
+  "« n CEGELEC » absent de la liste des plis déposés (nom mal lu ?).",
+  "« STE CCRE » absent de la liste des plis déposés (nom mal lu ?).",
+  "« ICOMEL » absent de la liste des plis déposés (nom mal lu ?).",
+  "« NOUACEUR DÉVELOPPEMENT S.A » absent de la liste des plis déposés (nom mal lu ?).",
+  "« PACE RANCE Pr AE » absent de la liste des plis déposés (nom mal lu ?)."
+ ],
+ "qualite": "attribution"
+}

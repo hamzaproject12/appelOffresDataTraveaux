@@ -1,0 +1,96 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "812199",
+ "orgAcronyme": "a1z",
+ "reference_pv": "29/2024",
+ "nouveau": true,
+ "reference": "29/2024",
+ "objet": "Travaux d'aménagement paysager des espaces verts d’accompagnement des boulevards et axes structurants la ville de Casablanca en deux (2) lots séparés",
+ "acheteur": null,
+ "procedure": null,
+ "categorie": "Travaux",
+ "date_limite_plis": "08/04/2024",
+ "lieu_ouverture": "la salle des réunions de la Commune de",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "23/04/2024",
+ "justification": "l'offre la plus avantageuse. /E 4",
+ "infructueux": false,
+ "attributaire": "TAMESNA VERT",
+ "montant_attribue": 18719100.0,
+ "attributaires_par_lot": [
+  {
+   "lot": "1",
+   "attributaire": "TAMESNA VERT",
+   "montant": 18719100.0
+  },
+  {
+   "lot": "2",
+   "attributaire": "ATELIER VERT",
+   "montant": 18975600.0
+  }
+ ],
+ "soumissionnaires": [
+  {
+   "nom": "ATELIER VERT",
+   "montant_acte_engagement": 19715400.0,
+   "montant_apres_verification": 19715400.0,
+   "autres_montants": [
+    18975600.0
+   ],
+   "lots": [
+    "1",
+    "2"
+   ],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "TAMESNA VERT",
+   "montant_acte_engagement": 18719100.0,
+   "montant_apres_verification": 18719100.0,
+   "autres_montants": [
+    19187100.0
+   ],
+   "lots": [
+    "1",
+    "2"
+   ],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "MP PROJECT",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "FLUX VERT",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_dossier_administratif_technique",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 4,
+ "alertes_ocr": [
+  "« ATELIER VERT » absent de la liste des plis déposés (nom mal lu ?).",
+  "« TAMESNA VERT » absent de la liste des plis déposés (nom mal lu ?)."
+ ],
+ "notes_ocr": [
+  "« MP PROJECT » absent de la liste des plis déposés (nom mal lu ?).",
+  "« FLUX VERT » absent de la liste des plis déposés (nom mal lu ?).",
+  "Marché alloti (2 lots).",
+  "Maître d'ouvrage absent du PV (utiliser l'acheteur public du portail)."
+ ],
+ "qualite": "attribution"
+}

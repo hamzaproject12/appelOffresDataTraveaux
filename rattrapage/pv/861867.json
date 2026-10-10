@@ -1,0 +1,79 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "861867",
+ "orgAcronyme": "l1f",
+ "reference_pv": "6-2024",
+ "nouveau": true,
+ "reference": "6-2024",
+ "objet": "LES TRAVAUX DE LA REHABILITATION ET LA FERMETURE DE LA DECHARGE PUBLIQUE D’OUEZZANE EN LOT UNIQUE",
+ "acheteur": "Etablissement De Coopération Intercommunal Attadamoun",
+ "procedure": null,
+ "categorie": "Travaux",
+ "date_limite_plis": "11/12/2024",
+ "lieu_ouverture": "Siège de la Provincial d’Ouezzane",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "17/12/2024",
+ "justification": "Selon la règlementation en Vigueur, l’offre la mieux-disante est celle qui est la plus proche du prix de référence par défaut ; L'offre de Sté SNTRO SARL est la plus proche du prix de référence par défaut (4,374.36 MAD) comparé à celle de Sté SSMT SARL (31,916.67 MAD). Ainsi, conformément aux dispositions de l’article 43 du décret n°2-22-431 des Marche Publics, Sté SNTRO SARL est retenue comme att",
+ "infructueux": false,
+ "attributaire": "Sté SNTRO SARL",
+ "montant_attribue": 21966354.48,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "Sté SNTROSARL",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Sté SSMT SARLsis à IMM LIRKI 2éme étage M'HAITA TAROUDANT",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "depose",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Sté MONAR SARL",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_offre_technique",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Sté SNTRO SARL",
+   "montant_acte_engagement": 21966354.48,
+   "montant_apres_verification": 21966354.48,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Sté SSMT SARL",
+   "montant_acte_engagement": 21938812.17,
+   "montant_apres_verification": 21938812.17,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 5,
+ "alertes_ocr": [
+  "« Sté SNTRO SARL » absent de la liste des plis déposés (nom mal lu ?).",
+  "« Sté SSMT SARL » absent de la liste des plis déposés (nom mal lu ?)."
+ ],
+ "notes_ocr": [],
+ "qualite": "complet"
+}

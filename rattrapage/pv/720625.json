@@ -1,0 +1,60 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "720625",
+ "orgAcronyme": "q0x",
+ "reference_pv": "08/2023/CP",
+ "nouveau": true,
+ "reference": "08/2023/CP",
+ "objet": "ETUDE ARCHITECTURALE ET SUIVI DES TRAVAUX DE CONSTRUCTION DES ESPACES DE COMMERCE, CULTURELS ET DE DIVERTISSEMENTS A L’INTERIEUR DE L'ESPACE OASIEN ET PEDAGOGIQUE A CT CHORFA",
+ "acheteur": "CONSEIL PROVINCIAL D'ERRACHIDIA",
+ "procedure": "consultation architecturale",
+ "categorie": "Travaux",
+ "date_limite_plis": "09/06/2023",
+ "lieu_ouverture": "SALLE DE REUNION DU CONSEIL PROVINCIAL D'ERRACHIDIA",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "09/06/2023",
+ "justification": null,
+ "infructueux": false,
+ "attributaire": "SAIDI DRISS",
+ "montant_attribue": null,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "AMBRE STUDIO",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_dossier_administratif_technique",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "AMMANI ARCHITECTURE SAIDI DRISS",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "SAIDI DRISS",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 3,
+ "alertes_ocr": [
+  "Montant de l'attributaire « SAIDI DRISS » non trouvé."
+ ],
+ "notes_ocr": [],
+ "qualite": "participants"
+}

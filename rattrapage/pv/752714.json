@@ -1,0 +1,104 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "752714",
+ "orgAcronyme": "j8k",
+ "reference_pv": null,
+ "nouveau": true,
+ "reference": null,
+ "objet": "Réalisation des travaux d’aménagements extérieurs de l’opération AL FADLE sise à la commune Territoriale d’Agadir, préfecture d’Agadir Ida Outanane",
+ "acheteur": null,
+ "procedure": null,
+ "categorie": "Travaux",
+ "date_limite_plis": "02/11/2023",
+ "lieu_ouverture": "Division des Marchés de la Société Al Omrane souss Massa",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "07/11/2023",
+ "justification": "Concurrent représentant l’offre la plus avantageuse.",
+ "infructueux": false,
+ "attributaire": "SAHAF",
+ "montant_attribue": 2347519.39,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "SAHAF - EA TRAVAUX - ETIA",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "GROUPEMENT TRACTA SUD & DYNAMIQUE",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_dossier_administratif_technique",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "MATERIAUX",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_dossier_administratif_technique",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "cautionnement provisoire",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_dossier_administratif_technique",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "SAHAF",
+   "montant_acte_engagement": 2347519.39,
+   "montant_apres_verification": 2347519.39,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "EA TRAVAUX",
+   "montant_acte_engagement": 2347519.39,
+   "montant_apres_verification": 2347519.39,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "ETIA",
+   "montant_acte_engagement": 2508623.66,
+   "montant_apres_verification": 2508623.66,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 7,
+ "alertes_ocr": [
+  "« SAHAF » absent de la liste des plis déposés (nom mal lu ?).",
+  "« EA TRAVAUX » absent de la liste des plis déposés (nom mal lu ?).",
+  "« ETIA » absent de la liste des plis déposés (nom mal lu ?)."
+ ],
+ "notes_ocr": [
+  "« SAHAF - EA TRAVAUX - ETIA » absent de la liste des plis déposés (nom mal lu ?).",
+  "« GROUPEMENT TRACTA SUD & DYNAMIQUE » absent de la liste des plis déposés (nom mal lu ?).",
+  "« MATERIAUX » absent de la liste des plis déposés (nom mal lu ?).",
+  "« cautionnement provisoire » absent de la liste des plis déposés (nom mal lu ?).",
+  "Maître d'ouvrage absent du PV (utiliser l'acheteur public du portail)."
+ ],
+ "qualite": "complet"
+}

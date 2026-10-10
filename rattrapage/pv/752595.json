@@ -1,0 +1,49 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "752595",
+ "orgAcronyme": "p1v",
+ "reference_pv": "05/2023",
+ "nouveau": true,
+ "reference": "05/2023",
+ "objet": "Travaux d'aménagement des pistes au sein du territoire de la commune saniat berguig",
+ "acheteur": "COMMUNE TERRITORIALE SANIAT BERGUIG",
+ "procedure": "appel d'offres ouvert",
+ "categorie": "Travaux",
+ "date_limite_plis": "09/08/2023",
+ "lieu_ouverture": "siège de la commune saniat berguig",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "07/11/2023",
+ "justification": "appel d'offre déclaré infructueux.",
+ "infructueux": true,
+ "attributaire": null,
+ "montant_attribue": null,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "Société AMNSNAW TRAVAUX MASSIRA 3 secteur À N°254 APP N°3",
+   "montant_acte_engagement": 1458297.6,
+   "montant_apres_verification": 1458297.6,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_offre_financiere",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "BATI BONART S.A.R.L-AU N°25 hassanial Alia Mohammedia",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_dossier_administratif_technique",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 2,
+ "alertes_ocr": [],
+ "notes_ocr": [],
+ "qualite": "attribution"
+}

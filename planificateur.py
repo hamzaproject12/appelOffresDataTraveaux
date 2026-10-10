@@ -76,6 +76,24 @@ def appeler(*arguments: str) -> int:
     return p.wait()
 
 
+
+def empreinte(chemin) -> str:
+    """Les 16 premiers caractères du SHA-256 d'un fichier : de quoi reconnaître une archive.
+
+    On ne peut pas se fier aux dates : Docker attribue aux fichiers copiés dans l'image la date
+    du clone, pas celle du commit, si bien qu'une archive inchangée paraît neuve à chaque
+    construction. Le contenu, lui, ne mentit pas.
+    """
+    import hashlib
+    h = hashlib.sha256()
+    try:
+        with open(chemin, "rb") as f:
+            for bloc in iter(lambda: f.read(1 << 20), b""):
+                h.update(bloc)
+    except OSError:
+        return ""
+    return h.hexdigest()[:16]
+
 def amorcer_donnees() -> None:
     """Déverse l'archive JSON du dépôt sur le volume, la première fois seulement.
 
@@ -84,12 +102,27 @@ def amorcer_donnees() -> None:
     le volume prend le relais — c'est lui qui s'enrichit ensuite, jour après jour.
     """
     archive = ICI / "amorce.tar.gz"
+    if not archive.exists():
+        dire(f"RIEN À DÉPLIER : {archive.name} n'est pas dans l'image.")
+        return
     # Le témoin est un fichier que l'amorçage pose lui-même : il ne dépend pas de ce que
     # contient l'archive. Le dossier Services, par exemple, n'a pas de parametres.json — s'en
     # servir de témoin ferait redéplier 144 Mo à chaque redémarrage, par-dessus les JSON que
     # le pod venait de collecter, et remettrait les compteurs de relance à zéro.
     temoin = DONNEES / ".amorce_faite"
-    if temoin.exists() or (DONNEES / "consultations" / "parametres.json").exists():
+    # Le témoin retient l'empreinte de l'archive qu'il a dépliée. Un simple témoin de passage
+    # ne suffisait pas : quand on déploie une récolte agrandie, le volume gardait les anciens
+    # extraits, et la reconstruction nocturne les reprenait — effaçant du site tout ce que la
+    # nouvelle récolte avait apporté. En comparant les empreintes, une archive inchangée n'est
+    # jamais redépliée, et une archive nouvelle l'est toujours.
+    actuelle = empreinte(archive)
+    posee = ""
+    if temoin.exists():
+        try:
+            posee = temoin.read_text(encoding="utf-8").strip().split()[-1]
+        except (OSError, IndexError):
+            posee = ""
+    if posee and actuelle and posee == actuelle:
         return
     if not archive.exists():
         dire(f"RIEN À RECONSTRUIRE : {DONNEES} est vide et {archive.name} n'est pas dans l'image.")
@@ -98,7 +131,8 @@ def amorcer_donnees() -> None:
         dire("Dockerfile contient bien « COPY *.gz ./ » et non le seul nom de la base.")
         return
     import tarfile
-    dire(f"premier démarrage : dépliage de {archive.name} "
+    dire(f"{'premier démarrage' if not posee else 'archive renouvelée'} : dépliage de"
+         f" {archive.name} "
          f"({archive.stat().st_size / 1e6:.0f} Mo) vers {DONNEES}")
     debut = time.time()
     try:
@@ -113,7 +147,8 @@ def amorcer_donnees() -> None:
         return
     extraits = len(list((DONNEES / "extraits").glob("*.json"))) if (DONNEES / "extraits").is_dir() else 0
     try:
-        temoin.write_text(datetime.now(timezone.utc).isoformat(), encoding="utf-8")
+        temoin.write_text(f"{datetime.now(timezone.utc).isoformat()} {actuelle}",
+                          encoding="utf-8")
     except OSError as e:
         dire(f"ATTENTION : {temoin} non écrit ({e}) — l'archive serait redéployée au prochain départ")
     dire(f"archive dépliée en {time.time() - debut:.0f} s — {extraits} extraits sur le volume")

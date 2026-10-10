@@ -1,0 +1,51 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "741925",
+ "orgAcronyme": "e5w",
+ "reference_pv": "09/RFM/2023",
+ "nouveau": true,
+ "reference": "09/RFM/2023",
+ "objet": "D'APPEL D'OFFRES BOUBIDMANE- PROVINCE D'EL HAJEB",
+ "acheteur": "LE PRESIDENT DU CONSEIL DE LA REGION FES MEKNES BATE D PRATURE _- 07/09/2023 à 10H30 min",
+ "procedure": null,
+ "categorie": "Travaux",
+ "date_limite_plis": null,
+ "lieu_ouverture": "DES L'ANNEXE DU CONSEIL REGION FES MEKNES L PLIS",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": null,
+ "justification": "Offre la moins disante,",
+ "infructueux": false,
+ "attributaire": null,
+ "montant_attribue": null,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "STE MAYEC SARL AGADIR",
+   "montant_acte_engagement": 228219.6,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": true
+  },
+  {
+   "nom": "STE DES TRAVAUX GENIE CIVIL ELECTRICITE ET TELECOM SARL MEKNES",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_dossier_administratif_technique",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 2,
+ "alertes_ocr": [
+  "Attributaire non trouvé."
+ ],
+ "notes_ocr": [],
+ "qualite": "attribution"
+}

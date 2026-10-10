@@ -1,0 +1,63 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "894004",
+ "orgAcronyme": "a1t",
+ "reference_pv": "22/2025",
+ "nouveau": true,
+ "reference": "22/2025",
+ "objet": "Travaux d'Achèvement du stade municipal Lahbib Habouha à la ville d'Es-Semara : Charpente",
+ "acheteur": "MAITRE D'OUVRAGE DELEGUE AGENCE POUR LA PROMOTION ET LE PROVINCE D’ES-SEMARA DEVELOPPEMENT ECONOMIQUEET SOCIAL DES",
+ "procedure": "appel d'offres ouvert",
+ "categorie": "Travaux",
+ "date_limite_plis": "22/04/2025",
+ "lieu_ouverture": "Salle des réunions à l'annexe de l'Agence du Sud à Laâyoune",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "05/05/2025",
+ "justification": "Offre économiquement plus avantageuse. Fait le : 05/05/2025 AOO-22/2025",
+ "infructueux": false,
+ "attributaire": "STE NEOMOB",
+ "montant_attribue": 8495424.0,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "STE NEOMOB",
+   "montant_acte_engagement": 8495424.0,
+   "montant_apres_verification": 8495424.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "STE MYMAR BULDING",
+   "montant_acte_engagement": 10102358.4,
+   "montant_apres_verification": 10102358.4,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "STE AIT IKEN",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_dossier_administratif_technique",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 3,
+ "alertes_ocr": [
+  "« STE NEOMOB » absent de la liste des plis déposés (nom mal lu ?).",
+  "« STE MYMAR BULDING » absent de la liste des plis déposés (nom mal lu ?)."
+ ],
+ "notes_ocr": [
+  "« STE AIT IKEN » absent de la liste des plis déposés (nom mal lu ?)."
+ ],
+ "qualite": "complet"
+}

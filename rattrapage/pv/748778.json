@@ -1,0 +1,82 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "748778",
+ "orgAcronyme": "g8e",
+ "reference_pv": null,
+ "nouveau": true,
+ "reference": null,
+ "objet": "Travaux de construction du siège de la présidence du ministère public à Hay Ryad lot N°3 lots techniques",
+ "acheteur": null,
+ "procedure": null,
+ "categorie": "Travaux",
+ "date_limite_plis": "17/08/2023",
+ "lieu_ouverture": "Bureau de la Société Rabat Région Aménagement au 9, Place AI Joulane — Rabat",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "23/10/2023",
+ "justification": "Offre conforme aux exigences du Règlement de la consultation et moins disante.",
+ "infructueux": false,
+ "attributaire": "STE VENTEC",
+ "montant_attribue": 135766836.0,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "GROUPEMENT « URBAGEC ET FINATECH GROUP)",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_offre_technique",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "GROUPEMENT « PROTELEC ET SOTHECA",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_offre_technique",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "STE VENTEC",
+   "montant_acte_engagement": 135766836.0,
+   "montant_apres_verification": null,
+   "autres_montants": [
+    135766836.0
+   ],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "GROUPEMENT « BELECTRABAT ET RAPIBAT",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_dossier_administratif_technique",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "STE CEGELEC",
+   "montant_acte_engagement": 150001104.33,
+   "montant_apres_verification": null,
+   "autres_montants": [
+    150001104.33
+   ],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 5,
+ "alertes_ocr": [],
+ "notes_ocr": [
+  "Maître d'ouvrage absent du PV (utiliser l'acheteur public du portail)."
+ ],
+ "qualite": "complet"
+}

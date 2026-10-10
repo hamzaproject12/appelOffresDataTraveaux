@@ -1,0 +1,84 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "717129",
+ "orgAcronyme": "g3h",
+ "reference_pv": "34/2023/S2A",
+ "nouveau": true,
+ "reference": "34/2023/S2A",
+ "objet": "TRAVAUX D’AMÉNAGEMENT DE L’INSTITUT DES BEAUX-ARTS DE LA VILLE D’AGADIR",
+ "acheteur": null,
+ "procedure": "appel d'offres ouvert",
+ "categorie": "Travaux",
+ "date_limite_plis": null,
+ "lieu_ouverture": null,
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": null,
+ "justification": null,
+ "infructueux": false,
+ "attributaire": "SOCIETE SOFITRAC",
+ "montant_attribue": 15344280.0,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "SOCIETE SOCOTRAD TRAVAUX",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": true
+  },
+  {
+   "nom": "SOCIETE MATRANEG",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": true
+  },
+  {
+   "nom": "ENTREPRISE DE CONSTRUCTION RAZIKI",
+   "montant_acte_engagement": 16133460.0,
+   "montant_apres_verification": 16133460.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "SOCIETE OUED SOUSS CONSTRCUTION",
+   "montant_acte_engagement": 15642377.52,
+   "montant_apres_verification": 15642377.52,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "SOCIETE SOFITRAC",
+   "montant_acte_engagement": 15344280.0,
+   "montant_apres_verification": 15344280.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 5,
+ "alertes_ocr": [
+  "« ENTREPRISE DE CONSTRUCTION RAZIKI » absent de la liste des plis déposés (nom mal lu ?).",
+  "« SOCIETE OUED SOUSS CONSTRCUTION » absent de la liste des plis déposés (nom mal lu ?).",
+  "« SOCIETE SOFITRAC » absent de la liste des plis déposés (nom mal lu ?)."
+ ],
+ "notes_ocr": [
+  "« SOCIETE SOCOTRAD TRAVAUX » absent de la liste des plis déposés (nom mal lu ?).",
+  "« SOCIETE MATRANEG » absent de la liste des plis déposés (nom mal lu ?).",
+  "Maître d'ouvrage absent du PV (utiliser l'acheteur public du portail)."
+ ],
+ "qualite": "complet"
+}

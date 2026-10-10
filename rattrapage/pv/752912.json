@@ -1,0 +1,66 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "752912",
+ "orgAcronyme": "d4q",
+ "reference_pv": null,
+ "nouveau": true,
+ "reference": null,
+ "objet": "Entretien des équipements de la STEP et SP d'assainissement à Ifrane",
+ "acheteur": null,
+ "procedure": "appel d'offres ouvert",
+ "categorie": "Travaux",
+ "date_limite_plis": "18/07/2023",
+ "lieu_ouverture": "au Siège de la Direction Régionale du Centre Nord (DR5) 88 rue du Soudan, Ville nouvelle - Fès - Maroc",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "07/11/2023",
+ "justification": "Moins-disant ECO MONDE - Offre de base",
+ "infructueux": false,
+ "attributaire": "ECO MONDE MAROC",
+ "montant_attribue": 661590.0,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "ECO MONDE MAROC",
+   "montant_acte_engagement": 661590.0,
+   "montant_apres_verification": null,
+   "autres_montants": [
+    661590.0
+   ],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "EXPERMEC MAROC",
+   "montant_acte_engagement": 1053924.0,
+   "montant_apres_verification": null,
+   "autres_montants": [
+    1053924.0
+   ],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "NEW WATER MAROC",
+   "montant_acte_engagement": 838343.28,
+   "montant_apres_verification": null,
+   "autres_montants": [
+    835943.28
+   ],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 3,
+ "alertes_ocr": [],
+ "notes_ocr": [
+  "Maître d'ouvrage absent du PV (utiliser l'acheteur public du portail)."
+ ],
+ "qualite": "complet"
+}

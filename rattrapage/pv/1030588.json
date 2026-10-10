@@ -1,0 +1,114 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "1030588",
+ "orgAcronyme": "g3h",
+ "reference_pv": "10008521",
+ "nouveau": true,
+ "reference": "10008521",
+ "objet": "FOURNITURE, INSTALLATION ET MISE EN SERVICE DE DEBITMETRES ELECTROMAGNETIQUES D'EXPLOITATION SUR LE RESEAU D'EAU POTABLE DE LA REGION DE L’ORIENTAL EN 7 LOTS : LOT 1 : PROVINCE DE BERKANE",
+ "acheteur": null,
+ "procedure": null,
+ "categorie": "Travaux",
+ "date_limite_plis": "02/06/2026",
+ "lieu_ouverture": "Siège de la SRM-ORI",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": null,
+ "justification": "offre moins-disante conforme par tot. -",
+ "infructueux": true,
+ "attributaire": "ABB EAUX TRAVAUX",
+ "montant_attribue": 1872000.0,
+ "attributaires_par_lot": [
+  {
+   "lot": null,
+   "attributaire": "ABB EAUX TRAVAUX",
+   "montant": 1872000.0
+  },
+  {
+   "lot": null,
+   "attributaire": "SOHIME",
+   "montant": 1588623.6
+  },
+  {
+   "lot": null,
+   "attributaire": "SAT2E",
+   "montant": 826800.0
+  }
+ ],
+ "soumissionnaires": [
+  {
+   "nom": "MABEC",
+   "montant_acte_engagement": 838800.0,
+   "montant_apres_verification": 838800.0,
+   "autres_montants": [],
+   "lots": [
+    "3"
+   ],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "RMC",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_dossier_administratif_technique",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "SOHIME",
+   "montant_acte_engagement": 1588623.6,
+   "montant_apres_verification": 1588623.6,
+   "autres_montants": [],
+   "lots": [
+    "3",
+    "4"
+   ],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "ABB EAUX TRAVAUX",
+   "montant_acte_engagement": 1872000.0,
+   "montant_apres_verification": 1872000.0,
+   "autres_montants": [],
+   "lots": [
+    "2",
+    "3"
+   ],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "SAT2E",
+   "montant_acte_engagement": 826900.0,
+   "montant_apres_verification": 826900.0,
+   "autres_montants": [],
+   "lots": [
+    "3"
+   ],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "BOUDYAMAN HYDRO-ELEC",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_offre_technique",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 6,
+ "alertes_ocr": [],
+ "notes_ocr": [
+  "Marché alloti (3 lots).",
+  "Maître d'ouvrage absent du PV (utiliser l'acheteur public du portail)."
+ ],
+ "qualite": "complet"
+}

@@ -1,0 +1,73 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "719730",
+ "orgAcronyme": "g3h",
+ "reference_pv": null,
+ "nouveau": true,
+ "reference": null,
+ "objet": "Travaux de construction de l'internat du lycée Loulad à la commune Loulad Province de Settat",
+ "acheteur": "La province de Settat",
+ "procedure": "appel d'offres ouvert",
+ "categorie": "Travaux",
+ "date_limite_plis": null,
+ "lieu_ouverture": "la Division d’Equipement / Province de Settat",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "06/06/2023",
+ "justification": " L’attributaire a proposé une offre financière classée la plus avantageuse.",
+ "infructueux": false,
+ "attributaire": "Société « NEW",
+ "montant_attribue": 4897726.56,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "Société « FTCM» et Société « G TRAV",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_offre_financiere",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Société « FTCM",
+   "montant_acte_engagement": 4890716.4,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Société « G TRAV",
+   "montant_acte_engagement": 5062171.92,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Société « NEW",
+   "montant_acte_engagement": 4897726.56,
+   "montant_apres_verification": 4897726.56,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 4,
+ "alertes_ocr": [
+  "« Société « FTCM » absent de la liste des plis déposés (nom mal lu ?).",
+  "« Société « G TRAV » absent de la liste des plis déposés (nom mal lu ?).",
+  "« Société « NEW » absent de la liste des plis déposés (nom mal lu ?)."
+ ],
+ "notes_ocr": [
+  "« Société « FTCM» et Société « G TRAV » absent de la liste des plis déposés (nom mal lu ?)."
+ ],
+ "qualite": "complet"
+}

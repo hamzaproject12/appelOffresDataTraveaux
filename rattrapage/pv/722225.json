@@ -1,0 +1,67 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "722225",
+ "orgAcronyme": "d4q",
+ "reference_pv": null,
+ "nouveau": true,
+ "reference": null,
+ "objet": null,
+ "acheteur": "RADEEJ",
+ "procedure": "appel d'offres ouvert",
+ "categorie": "Travaux",
+ "date_limite_plis": "16/05/2023",
+ "lieu_ouverture": "Siège RADEEJ à EL JADIDA",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "14/06/2023",
+ "justification": "Offre la plus avantageuse.",
+ "infructueux": false,
+ "attributaire": "TRAVAUX OMS",
+ "montant_attribue": 26582871.0,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "UBAC",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "BOUFARESS DRISS HERITIERS (BOUFARESS MOULOUD)",
+   "montant_acte_engagement": 27654000.0,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "TRAVAUX OMS",
+   "montant_acte_engagement": 26582871.0,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "HYDRO PRO",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_dossier_administratif_technique",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 4,
+ "alertes_ocr": [],
+ "notes_ocr": [],
+ "qualite": "complet"
+}

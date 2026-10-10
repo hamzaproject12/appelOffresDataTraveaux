@@ -1,0 +1,89 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "723280",
+ "orgAcronyme": "d4q",
+ "reference_pv": "15/2023IABHSM",
+ "nouveau": true,
+ "reference": "15/2023IABHSM",
+ "objet": "TRAVAUX D,ENTRETIEN ET REALISATIoN DES ESSAIS DEs EQUIPEMENTS ELECTROMECANIQUES ET HYDROMECANIQUES DES BARRAGES SITUES DANS LA ZONE D'ACTION DE L'ABHSM",
+ "acheteur": "Directeur de l'Agence du Bassin Hydraulique de Souss Massa",
+ "procedure": null,
+ "categorie": "Travaux",
+ "date_limite_plis": null,
+ "lieu_ouverture": "l'Agence du Bassin Hydraulique de souss Massa, Avenue Moulay Abdallah - Agadir",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "19/06/2023",
+ "justification": "Classement par offre moins disante",
+ "infructueux": false,
+ "attributaire": "AL ASSEMA TRAVAUX",
+ "montant_attribue": 964800.0,
+ "attributaires_par_lot": [
+  {
+   "lot": null,
+   "attributaire": "AL ASSEMA TRAVAUX",
+   "montant": 964800.0
+  },
+  {
+   "lot": null,
+   "attributaire": "OMEGA FLUIDE",
+   "montant": 1116900.0
+  },
+  {
+   "lot": null,
+   "attributaire": "ALOUSS 1262 2AO,OO SAMAHA SUD",
+   "montant": 790080.0
+  }
+ ],
+ "soumissionnaires": [
+  {
+   "nom": "2 ALOUSS",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "OMEGA FLUIDE",
+   "montant_acte_engagement": 1116900.0,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "AL ASSEMA TRAVAUX",
+   "montant_acte_engagement": 964800.0,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "ALOUSS 1262 2AO,OO SAMAHA SUD",
+   "montant_acte_engagement": 790080.0,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 4,
+ "alertes_ocr": [
+  "« OMEGA FLUIDE » absent de la liste des plis déposés (nom mal lu ?).",
+  "« AL ASSEMA TRAVAUX » absent de la liste des plis déposés (nom mal lu ?).",
+  "« ALOUSS 1262 2AO,OO SAMAHA SUD » absent de la liste des plis déposés (nom mal lu ?)."
+ ],
+ "notes_ocr": [
+  "« 2 ALOUSS » absent de la liste des plis déposés (nom mal lu ?)."
+ ],
+ "qualite": "attribution"
+}

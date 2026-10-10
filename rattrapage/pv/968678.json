@@ -1,0 +1,78 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "968678",
+ "orgAcronyme": "e5w",
+ "reference_pv": "10/2025/CO",
+ "nouveau": true,
+ "reference": "10/2025/CO",
+ "objet": "TRAVAUX DE CONSTRUCTION DE SEGUIAS AUX DOUARS MAGDOULE OULAD DEHOU, MAGDOULE OULAD YOUSSEF ET LAKRARMA RELEVANT DE LA COMMUNE DE OUIZEGHT",
+ "acheteur": "Commune de Ouizeght",
+ "procedure": "appel d'offres ouvert simplifié",
+ "categorie": "Travaux",
+ "date_limite_plis": null,
+ "lieu_ouverture": "Salle des réunions au siège de la commune de Ouizeght - Journaux ayant publié l’avis d’appel d’offres:  Journal Libération N° : 10670 du 29/11/2025  Portail des marchés publics : www.marchespublics.gov.ma du : 28/11/2025",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "16/12/2025",
+ "justification": "offre économiquement avantageuse",
+ "infructueux": false,
+ "attributaire": "Z.A.M.NOUVA SARL",
+ "montant_attribue": 309996.0,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "STE CIEL SAGHRA",
+   "montant_acte_engagement": 311136.0,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_offre_financiere",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "SAMY GENIE CIVIL",
+   "montant_acte_engagement": 311424.0,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_offre_financiere",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "TRAM EGRAN",
+   "montant_acte_engagement": 325428.0,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Z.A.M.NOUVA SARL",
+   "montant_acte_engagement": 309996.0,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "STE SAGHALI",
+   "montant_acte_engagement": 325326.0,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 5,
+ "alertes_ocr": [
+  "« STE SAGHALI » absent de la liste des plis déposés (nom mal lu ?)."
+ ],
+ "notes_ocr": [],
+ "qualite": "complet"
+}

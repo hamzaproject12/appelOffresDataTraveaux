@@ -1,0 +1,93 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "982705",
+ "orgAcronyme": "f8y",
+ "reference_pv": "16/2025/CT",
+ "nouveau": true,
+ "reference": "16/2025/CT",
+ "objet": "Travaux de signalisation horizontale sur les voies de la ville de Taourirt",
+ "acheteur": "Commune Taourirt",
+ "procedure": null,
+ "categorie": "Travaux",
+ "date_limite_plis": "04/11/2025",
+ "lieu_ouverture": "Commune de Taourirt, Bureau de Président de la commune",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "05/03/2026",
+ "justification": null,
+ "infructueux": true,
+ "attributaire": null,
+ "montant_attribue": null,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "LA LIGNE BLANCHE",
+   "montant_acte_engagement": 681000.0,
+   "montant_apres_verification": 681000.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "CHIGUER CHANTIERS DU NORD-EST",
+   "montant_acte_engagement": 671400.0,
+   "montant_apres_verification": 671400.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "CHAMAL SIGNALISATION",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_dossier_administratif_technique",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "ATELIERS INDUSTRIELS CHERIFIEN",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_dossier_administratif_technique",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "INJAZ WORKS",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_dossier_administratif_technique",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "STE PINTAPLANA MAROC",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_dossier_administratif_technique",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 6,
+ "alertes_ocr": [
+  "« LA LIGNE BLANCHE » absent de la liste des plis déposés (nom mal lu ?).",
+  "« CHIGUER CHANTIERS DU NORD-EST » absent de la liste des plis déposés (nom mal lu ?)."
+ ],
+ "notes_ocr": [
+  "« CHAMAL SIGNALISATION » absent de la liste des plis déposés (nom mal lu ?).",
+  "« ATELIERS INDUSTRIELS CHERIFIEN » absent de la liste des plis déposés (nom mal lu ?).",
+  "« INJAZ WORKS » absent de la liste des plis déposés (nom mal lu ?).",
+  "« STE PINTAPLANA MAROC » absent de la liste des plis déposés (nom mal lu ?)."
+ ],
+ "qualite": "complet"
+}

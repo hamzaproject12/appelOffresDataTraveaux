@@ -1,0 +1,51 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "1030985",
+ "orgAcronyme": "h5r",
+ "reference_pv": "04/RAS/2026",
+ "nouveau": true,
+ "reference": "04/RAS/2026",
+ "objet": "TRAVAUX RELATIVES LA CONSTRUCTION DE 07 PISTES RELEVANT DE LA COMMUNE RAS EL AIN CHAOUIA PROVINCE SETTAT",
+ "acheteur": "COMMUNE DE RAS EL AIN CHAOUIA",
+ "procedure": null,
+ "categorie": "Travaux",
+ "date_limite_plis": "28/07/2026",
+ "lieu_ouverture": "Commune ras el ain chaouia",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "03/08/2026",
+ "justification": "le concurrent ayant présenté l’offre la plus avantageuse par rapport au prix de référence.",
+ "infructueux": false,
+ "attributaire": "CONKRETO TRAVAUX DIVERS SARL",
+ "montant_attribue": 1647976.8,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "BATI ARMO SARL.AU",
+   "montant_acte_engagement": 1708320.0,
+   "montant_apres_verification": 1708320.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_offre_financiere",
+   "admis_avec_reserve": true
+  },
+  {
+   "nom": "CONKRETO TRAVAUX DIVERS SARL",
+   "montant_acte_engagement": 647976.8,
+   "montant_apres_verification": 1647976.8,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": true
+  }
+ ],
+ "nombre_soumissionnaires": 2,
+ "alertes_ocr": [],
+ "notes_ocr": [
+  "« CONKRETO TRAVAUX DIVERS SARL » : montant rectifié de 647 976.80 à 1 647 976.80 DH."
+ ],
+ "qualite": "complet"
+}

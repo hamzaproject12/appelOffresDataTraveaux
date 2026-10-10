@@ -1,0 +1,85 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "983208",
+ "orgAcronyme": "g3h",
+ "reference_pv": null,
+ "nouveau": true,
+ "reference": null,
+ "objet": "Fourniture et installation des batteries stationnaires 127 Ycc et 48 Vcc de type étanche avec système de monitoring en trois (3) lots: lot n' 1 : OUJDA ANGAD, lot n' 2 : JERADA et lot n' 3 : FlGUlG",
+ "acheteur": null,
+ "procedure": "appel d'offres ouvert",
+ "categorie": "Travaux",
+ "date_limite_plis": "06/01/2025",
+ "lieu_ouverture": "Siège de la SRM-ORI",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": null,
+ "justification": null,
+ "infructueux": false,
+ "attributaire": "Lot n\" Z 677 t84,OO",
+ "montant_attribue": 1542.0,
+ "attributaires_par_lot": [
+  {
+   "lot": null,
+   "attributaire": "Lot n\" Z 677 t84,OO",
+   "montant": 1542.0
+  },
+  {
+   "lot": null,
+   "attributaire": "Justilicâtion du choix de I'attributaire",
+   "montant": 742176.0
+  }
+ ],
+ "soumissionnaires": [
+  {
+   "nom": "SCHIETE MAROC",
+   "montant_acte_engagement": 1542544.0,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "l-ot",
+   "montant_acte_engagement": 3742.0,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Lot n\" Z 677 t84,OO",
+   "montant_acte_engagement": 1542.0,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Justilicâtion du choix de I'attributaire",
+   "montant_acte_engagement": 742176.0,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 4,
+ "alertes_ocr": [
+  "« SCHIETE MAROC » absent de la liste des plis déposés (nom mal lu ?).",
+  "« l-ot » absent de la liste des plis déposés (nom mal lu ?).",
+  "« Lot n\" Z 677 t84,OO » absent de la liste des plis déposés (nom mal lu ?).",
+  "« Justilicâtion du choix de I'attributaire » absent de la liste des plis déposés (nom mal lu ?)."
+ ],
+ "notes_ocr": [
+  "Maître d'ouvrage absent du PV (utiliser l'acheteur public du portail)."
+ ],
+ "qualite": "complet"
+}

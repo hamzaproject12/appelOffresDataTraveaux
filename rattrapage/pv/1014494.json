@@ -1,0 +1,69 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "1014494",
+ "orgAcronyme": "e5w",
+ "reference_pv": null,
+ "nouveau": true,
+ "reference": null,
+ "objet": null,
+ "acheteur": null,
+ "procedure": null,
+ "categorie": "Travaux",
+ "date_limite_plis": null,
+ "lieu_ouverture": null,
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "18/06/2026",
+ "justification": "Le concurrent ayant l’offre économiquement la plus avantageuse.",
+ "infructueux": false,
+ "attributaire": "STE LJISR DES FOURNITURES ET DES TRAVAUX SARL",
+ "montant_attribue": 450306.0,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "STE CHABTE TRAV SARL",
+   "montant_acte_engagement": 470240.4,
+   "montant_apres_verification": 470240.4,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "STE BOUAQUEL TRAVAUX",
+   "montant_acte_engagement": 493638.0,
+   "montant_apres_verification": 493638.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "STE JAD BEN FES",
+   "montant_acte_engagement": 441405.6,
+   "montant_apres_verification": 441405.6,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "STE LJISR DES FOURNITURES ET DES TRAVAUX SARL",
+   "montant_acte_engagement": 450306.0,
+   "montant_apres_verification": 450306.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 4,
+ "alertes_ocr": [],
+ "notes_ocr": [
+  "Maître d'ouvrage absent du PV (utiliser l'acheteur public du portail)."
+ ],
+ "qualite": "complet"
+}

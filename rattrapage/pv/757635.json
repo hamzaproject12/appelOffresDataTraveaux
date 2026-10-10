@@ -1,0 +1,54 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "757635",
+ "orgAcronyme": "g3h",
+ "reference_pv": "23/WRLSH/BG/2023",
+ "nouveau": true,
+ "reference": "23/WRLSH/BG/2023",
+ "objet": null,
+ "acheteur": "Province de Laayoune",
+ "procedure": "appel d'offres ouvert",
+ "categorie": "Travaux",
+ "date_limite_plis": "14/11/2023",
+ "lieu_ouverture": "la salle des réunions de la Province de Laayoune ournaux avant publié avis de publicité",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "21/11/2023",
+ "justification": null,
+ "infructueux": false,
+ "attributaire": "STE ANBDOU S.A.R.L",
+ "montant_attribue": 2105772.0,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "STE BEN ZAID BTP S.A.R.L A.U",
+   "montant_acte_engagement": 2233.0,
+   "montant_apres_verification": 2233480.8,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "STE ANBDOU S.A.R.L",
+   "montant_acte_engagement": 2105772.0,
+   "montant_apres_verification": 2105772.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 2,
+ "alertes_ocr": [
+  "« STE ANBDOU S.A.R.L » absent de la liste des plis déposés (nom mal lu ?).",
+  "« STE BEN ZAID BTP S.A.R.L A.U » : écart anormal entre montant initial et vérifié (lecture à vérifier)."
+ ],
+ "notes_ocr": [
+  "« STE BEN ZAID BTP S.A.R.L A.U » : montant rectifié de 2 233.00 à 2 233 480.80 DH."
+ ],
+ "qualite": "complet"
+}

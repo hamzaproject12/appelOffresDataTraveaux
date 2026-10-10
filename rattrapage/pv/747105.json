@@ -1,0 +1,82 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "747105",
+ "orgAcronyme": "g8e",
+ "reference_pv": "89/2023",
+ "nouveau": true,
+ "reference": "89/2023",
+ "objet": "TRAVAUX D'AMENAGEMENT DE LA CAFETERIA DE L'INSTITUT DE FORMATION DOUANIERE A BENSLIMANE",
+ "acheteur": "l'Administration des Douanes et Impôts Indirects",
+ "procedure": null,
+ "categorie": "Travaux",
+ "date_limite_plis": "25/09/2023",
+ "lieu_ouverture": "la salle des appels d'offres",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "16/10/2023",
+ "justification": "L'offre la plus avantageuse est l'offre la moins disante.",
+ "infructueux": false,
+ "attributaire": "E2M BATIMENT SARL AU",
+ "montant_attribue": 690000.0,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "E2M BATIMENT SARL AU",
+   "montant_acte_engagement": 690000.0,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [
+    "1"
+   ],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "DELTAMED SARL AU",
+   "montant_acte_engagement": 725928.0,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [
+    "1"
+   ],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "MULTIPOSE RAKIB SARL AU",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_dossier_administratif_technique",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "BOUARIF TRAVAUX SARL",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "depose",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "TRAMADA SARL AU (Lots n° 2)",
+   "montant_acte_engagement": 522648.0,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [
+    "1"
+   ],
+   "statut": "ecarte_offre_technique",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 5,
+ "alertes_ocr": [],
+ "notes_ocr": [],
+ "qualite": "complet"
+}

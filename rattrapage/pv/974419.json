@@ -1,0 +1,95 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "974419",
+ "orgAcronyme": "d4q",
+ "reference_pv": null,
+ "nouveau": true,
+ "reference": null,
+ "objet": "Travaux de mise en place des Ames t6le au niveau des adductions de Bab Louta",
+ "acheteur": null,
+ "procedure": "appel d'offres ouvert",
+ "categorie": "Travaux",
+ "date_limite_plis": null,
+ "lieu_ouverture": "au siEge de la Direction R6gionale FEs-Mekn6s (DR5) - 88 rue du Soudan, Vi1le nouvelle - F6s - Maroc",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": null,
+ "justification": null,
+ "infructueux": false,
+ "attributaire": "portail des marchSs",
+ "montant_attribue": null,
+ "attributaires_par_lot": [
+  {
+   "lot": null,
+   "attributaire": "portail des marchSs",
+   "montant": null
+  },
+  {
+   "lot": null,
+   "attributaire": "Le Matin (Franqais)",
+   "montant": null
+  },
+  {
+   "lot": null,
+   "attributaire": "Aujourd'Hui Le Maroc (Franqais) i-t'-l",
+   "montant": null
+  },
+  {
+   "lot": null,
+   "attributaire": "Annahar A1 Maghribia (Arabe)",
+   "montant": null
+  }
+ ],
+ "soumissionnaires": [
+  {
+   "nom": "portail des marchSs",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Le Matin (Franqais)",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Aujourd'Hui Le Maroc (Franqais) i-t'-l",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Annahar A1 Maghribia (Arabe)",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 4,
+ "alertes_ocr": [
+  "Montant de l'attributaire « portail des marchSs » non trouvé.",
+  "Montant de l'attributaire « Le Matin (Franqais) » non trouvé.",
+  "Montant de l'attributaire « Aujourd'Hui Le Maroc (Franqais) i-t'-l » non trouvé.",
+  "Montant de l'attributaire « Annahar A1 Maghribia (Arabe) » non trouvé."
+ ],
+ "notes_ocr": [
+  "Maître d'ouvrage absent du PV (utiliser l'acheteur public du portail)."
+ ],
+ "qualite": "participants"
+}

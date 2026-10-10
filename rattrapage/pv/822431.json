@@ -1,0 +1,63 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "822431",
+ "orgAcronyme": "q9t",
+ "reference_pv": null,
+ "nouveau": true,
+ "reference": null,
+ "objet": "TRAVAUX DE CONSTRUCTION D'UN HOPITAL DE JOUR A LA VILLE D'IFRANE RELEVANT DE LA DIRECTION REGIONALE DE LA",
+ "acheteur": "La Directrice Régionale de la Santé et de la Protection Sociale à la Région Fès-Meknès",
+ "procedure": null,
+ "categorie": "Travaux",
+ "date_limite_plis": "27/06/2024",
+ "lieu_ouverture": "la DRSPS Fès-Meknès",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "09/08/2024",
+ "justification": "3 c Choix de l'offre économiquement la plus avantageuse. l'attributaire : q P 8",
+ "infructueux": false,
+ "attributaire": "STE MCDOMAR GROUP",
+ "montant_attribue": 4135090.8,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "STE RIVALTEC",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_dossier_administratif_technique",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "STE MCDOMAR GROUP",
+   "montant_acte_engagement": 4135090.8,
+   "montant_apres_verification": 4135090.8,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "STE RAPIBAT",
+   "montant_acte_engagement": 4343148.0,
+   "montant_apres_verification": 4343148.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 3,
+ "alertes_ocr": [
+  "« STE MCDOMAR GROUP » absent de la liste des plis déposés (nom mal lu ?).",
+  "« STE RAPIBAT » absent de la liste des plis déposés (nom mal lu ?)."
+ ],
+ "notes_ocr": [
+  "« STE RIVALTEC » absent de la liste des plis déposés (nom mal lu ?)."
+ ],
+ "qualite": "complet"
+}

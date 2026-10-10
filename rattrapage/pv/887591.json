@@ -1,0 +1,101 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "887591",
+ "orgAcronyme": "g3h",
+ "reference_pv": null,
+ "nouveau": true,
+ "reference": null,
+ "objet": "Travaux curatifs du réseau secondaire et tertiaire d’eau potable lot 1 et lot 2",
+ "acheteur": "société régionale multiservices Marrakech Safi « SRM-MS »",
+ "procedure": "appel d'offres ouvert",
+ "categorie": "Travaux",
+ "date_limite_plis": "26/03/2025",
+ "lieu_ouverture": "au Siège de la SRM-MS MARRAKECH",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "14/04/2025",
+ "justification": "La combinaison la plus AD est G-C TRA pour lot 1 et L4 président de laommission des appel$ d'offres a ee",
+ "infructueux": false,
+ "attributaire": "G-CTRA",
+ "montant_attribue": 3597600.0,
+ "attributaires_par_lot": [
+  {
+   "lot": "1",
+   "attributaire": "G-CTRA",
+   "montant": 3597600.0
+  },
+  {
+   "lot": "2",
+   "attributaire": "HYDROLO",
+   "montant": 3019200.0
+  }
+ ],
+ "soumissionnaires": [
+  {
+   "nom": "BUTEC UTILITY SERVICES MAROC",
+   "montant_acte_engagement": 3827280.0,
+   "montant_apres_verification": 3827280.0,
+   "autres_montants": [
+    3920280.0
+   ],
+   "lots": [
+    "1",
+    "2"
+   ],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "OMNIUM HYDROLIQUE ET ELECTRIQUE LOT 2",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_dossier_administratif_technique",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "G-CTRA LOT I 7",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "G-CTRA",
+   "montant_acte_engagement": 3597600.0,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [
+    "1"
+   ],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "HYDROLO",
+   "montant_acte_engagement": 3019200.0,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [
+    "2"
+   ],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 5,
+ "alertes_ocr": [
+  "« G-CTRA » absent de la liste des plis déposés (nom mal lu ?).",
+  "« HYDROLO » absent de la liste des plis déposés (nom mal lu ?)."
+ ],
+ "notes_ocr": [
+  "Marché alloti (2 lots)."
+ ],
+ "qualite": "complet"
+}

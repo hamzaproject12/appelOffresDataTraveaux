@@ -1,0 +1,73 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "762603",
+ "orgAcronyme": "q1s",
+ "reference_pv": "05/2023/SER",
+ "nouveau": true,
+ "reference": "05/2023/SER",
+ "objet": "Travaux de transformation de deux forages de reconnaissance en forage d'exploitation dans la commune d'Ahl Oued Za province de Taourirt",
+ "acheteur": "ORMVA de la Moulouya",
+ "procedure": null,
+ "categorie": "Travaux",
+ "date_limite_plis": "07/04/2023",
+ "lieu_ouverture": "Salle des réunions de l'ORMVAM",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "19/06/2023",
+ "justification": "l'offre présentée par la société GEO-SONDA BARHDADI est l'offre la plus avantageuse.",
+ "infructueux": false,
+ "attributaire": "GEO-SONDA BARHDADI",
+ "montant_attribue": 693360.0,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "TROIS",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "AIT AISSA FORAGE LIL FILAHA",
+   "montant_acte_engagement": 735024.0,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "FORAGE MODERNE DU MAROC",
+   "montant_acte_engagement": 877080.0,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "GEO-SONDA BARHDADI",
+   "montant_acte_engagement": 693360.0,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 4,
+ "alertes_ocr": [
+  "« AIT AISSA FORAGE LIL FILAHA » absent de la liste des plis déposés (nom mal lu ?).",
+  "« FORAGE MODERNE DU MAROC » absent de la liste des plis déposés (nom mal lu ?).",
+  "« GEO-SONDA BARHDADI » absent de la liste des plis déposés (nom mal lu ?)."
+ ],
+ "notes_ocr": [
+  "« TROIS » absent de la liste des plis déposés (nom mal lu ?)."
+ ],
+ "qualite": "complet"
+}

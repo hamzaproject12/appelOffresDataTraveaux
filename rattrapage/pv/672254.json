@@ -1,0 +1,93 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "672254",
+ "orgAcronyme": "q0x",
+ "reference_pv": "2-12-349",
+ "nouveau": true,
+ "reference": "2-12-349",
+ "objet": "Travaux d'aménagement et de réhabilitation de la Gare routière de Meknès",
+ "acheteur": "La commune de Meknès",
+ "procedure": null,
+ "categorie": "Travaux",
+ "date_limite_plis": "20/09/2022",
+ "lieu_ouverture": "siège de la Commune de Meknès (siège principal) sis au Boulevard des F.AR Ville Nouvelle, Meknès",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "01/11/2022",
+ "justification": "l'attributaire L'offre avantageuse",
+ "infructueux": false,
+ "attributaire": "Sté ALLAT Sarl",
+ "montant_attribue": 2640486.0,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "Sté ESSIMA-ETANCHEITE Sarl-Au",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_offre_financiere",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Sté EL BRIHI DE CTP Sarl",
+   "montant_acte_engagement": 2799174.0,
+   "montant_apres_verification": 2799174.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Sté CADEMAT TRAVAUX Sarl",
+   "montant_acte_engagement": 3780843.6,
+   "montant_apres_verification": 3780843.6,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Sté ALLAT Sarl",
+   "montant_acte_engagement": 2640486.0,
+   "montant_apres_verification": 2640486.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Sté CHANIZ Sarl-Au",
+   "montant_acte_engagement": 3709011.6,
+   "montant_apres_verification": 3709011.6,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Sté SOBIK Sarl",
+   "montant_acte_engagement": 3175920.0,
+   "montant_apres_verification": 3175920.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 6,
+ "alertes_ocr": [
+  "« Sté EL BRIHI DE CTP Sarl » absent de la liste des plis déposés (nom mal lu ?).",
+  "« Sté CADEMAT TRAVAUX Sarl » absent de la liste des plis déposés (nom mal lu ?).",
+  "« Sté ALLAT Sarl » absent de la liste des plis déposés (nom mal lu ?).",
+  "« Sté CHANIZ Sarl-Au » absent de la liste des plis déposés (nom mal lu ?).",
+  "« Sté SOBIK Sarl » absent de la liste des plis déposés (nom mal lu ?)."
+ ],
+ "notes_ocr": [
+  "« Sté ESSIMA-ETANCHEITE Sarl-Au » absent de la liste des plis déposés (nom mal lu ?)."
+ ],
+ "qualite": "complet"
+}

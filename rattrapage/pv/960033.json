@@ -1,0 +1,93 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "960033",
+ "orgAcronyme": "j0w",
+ "reference_pv": "130/2025/AREP-MS",
+ "nouveau": true,
+ "reference": "130/2025/AREP-MS",
+ "objet": "TRAVAUX DE MISE A NIVEAU DU CENTRE AL OUIDANE- PREFECTURE DE MARRAKECH",
+ "acheteur": "AGENCE REGIONALE D'EXECUTION DES PROJETS MARRAKECH-SAFI",
+ "procedure": "appel d'offres ouvert international",
+ "categorie": "Travaux",
+ "date_limite_plis": "28/11/2025",
+ "lieu_ouverture": "SIEGE DE L'AGENCE REGIONALE D'EXECUTION DES PROJETS MARRAKECH SAFI",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": null,
+ "justification": "Après examen des pièces du dossier administratif et technique et de l'offre financière, La commission a décidé de proposer à l'autorité compétente de retenir l'offre économiquement La plus avantageuse présentée par le groupement de La société MESKI DES TRAVAUX DIVERS SARL, la société ELECTRICITE LEZAR EL FARDAQUI (ELECLEF) SARL et la société SOURCE BLEUE GRANDS PROJETS (SBGP) SARL pour un montant ",
+ "infructueux": false,
+ "attributaire": "GR STE MESKI DES TRAVAUX DIVERS, STE ELECTRICITE LEZAR EL FARDAOUI (ELECLEF) ET",
+ "montant_attribue": null,
+ "attributaires_par_lot": [
+  {
+   "lot": null,
+   "attributaire": "GR STE MESKI DES TRAVAUX DIVERS, STE ELECTRICITE LEZAR EL FARDAOUI (ELECLEF) ET",
+   "montant": null
+  },
+  {
+   "lot": null,
+   "attributaire": "FARDAOUI (ELECLEF) ET STE SOURCE BLEUE GRANDS PROJETS Lû (SBGP)",
+   "montant": 44965.0
+  }
+ ],
+ "soumissionnaires": [
+  {
+   "nom": "GR STE MESKI DES TRAVAUX DIVERS, STE ELECTRICITE LEZAR EL FARDAOUI (ELECLEF) ET",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "STE SOURCE BLEUE GRANDS PROJETS (SBGP)",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "GR STE SAKITRA ET STE 02E ENERGIE",
+   "montant_acte_engagement": 47960190.0,
+   "montant_apres_verification": 47960190.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "GR STE AKACH ELEC ET STE NOUVELLE DES TRAVAUX ROUTIERS ET OUVRAGES (SNTRO)",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "FARDAOUI (ELECLEF) ET STE SOURCE BLEUE GRANDS PROJETS Lû (SBGP)",
+   "montant_acte_engagement": 44965321.2,
+   "montant_apres_verification": 44965.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 5,
+ "alertes_ocr": [
+  "« FARDAOUI (ELECLEF) ET STE SOURCE BLEUE GRANDS PROJETS Lû (SBGP) » absent de la liste des plis déposés (nom mal lu ?).",
+  "« FARDAOUI (ELECLEF) ET STE SOURCE BLEUE GRANDS PROJETS Lû (SBGP) » : écart anormal entre montant initial et vérifié (lecture à vérifier).",
+  "Montant de l'attributaire « GR STE MESKI DES TRAVAUX DIVERS, STE ELECTRICITE LEZAR EL FARDAOUI (ELECLEF) ET » non trouvé."
+ ],
+ "notes_ocr": [
+  "« FARDAOUI (ELECLEF) ET STE SOURCE BLEUE GRANDS PROJETS Lû (SBGP) » : montant rectifié de 44 965 321.20 à 44 965.00 DH."
+ ],
+ "qualite": "complet"
+}

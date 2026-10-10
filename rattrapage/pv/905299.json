@@ -1,0 +1,93 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "905299",
+ "orgAcronyme": "j8k",
+ "reference_pv": "28/2025",
+ "nouveau": true,
+ "reference": "28/2025",
+ "objet": "TRAVAUX D'ASSAINISSEMENT LIQUIDE DES KSOURS DE LA COMMUNE ER-RTEB PROVINCE DE ERRACHDIA : TRANCHE 1",
+ "acheteur": "SOCIETE AL OMRANE DRÂA-TAFILALET YŸ _",
+ "procedure": "appel d'offres ouvert",
+ "categorie": "Travaux",
+ "date_limite_plis": null,
+ "lieu_ouverture": "SOCIETE AL OMRANE DRÂA-TAFILALET",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": null,
+ "justification": "l'offre la mieux disante par rapport au prix de référence.",
+ "infructueux": false,
+ "attributaire": "NOVAQUA",
+ "montant_attribue": 17543974.02,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "NICE TRAVAUX",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_offre_technique",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "UBAC",
+   "montant_acte_engagement": 17155352.76,
+   "montant_apres_verification": null,
+   "autres_montants": [
+    17155352.76
+   ],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "ETABLISSEMENT ESSAKINI",
+   "montant_acte_engagement": 20043754.0,
+   "montant_apres_verification": null,
+   "autres_montants": [
+    20043754.0
+   ],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "GMTP",
+   "montant_acte_engagement": 17458197.25,
+   "montant_apres_verification": null,
+   "autres_montants": [
+    17458197.25
+   ],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "NOVAQUA",
+   "montant_acte_engagement": 17890582.16,
+   "montant_apres_verification": null,
+   "autres_montants": [
+    17543974.02
+   ],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "GRP REFORMAN & OUMOUJANE",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_dossier_administratif_technique",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 6,
+ "alertes_ocr": [],
+ "notes_ocr": [],
+ "qualite": "complet"
+}

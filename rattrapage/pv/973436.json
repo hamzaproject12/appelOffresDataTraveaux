@@ -1,0 +1,52 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "973436",
+ "orgAcronyme": "d4q",
+ "reference_pv": "50/ABHL/2025",
+ "nouveau": true,
+ "reference": "50/ABHL/2025",
+ "objet": "TRAVAUX DE DESENVASEMENT DU PETIT BARRAGE SGHIR",
+ "acheteur": "AGENDE DU BASSIN HYDRAULIUE DU LUUKKDS",
+ "procedure": null,
+ "categorie": "Travaux",
+ "date_limite_plis": null,
+ "lieu_ouverture": "BUREAU DE L'AGENDE DU BASSIN NYDRAULIUE DU LDUKKDS. AVENUE MASSIRA-TETEIUAN",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": null,
+ "justification": "Le concurrent ayant présenté l'offre la mieux disante.",
+ "infructueux": false,
+ "attributaire": "SGGTR SARL AU",
+ "montant_attribue": null,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "SGDTRSARLAU",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "SGGTR SARL AU",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 2,
+ "alertes_ocr": [
+  "« SGGTR SARL AU » absent de la liste des plis déposés (nom mal lu ?).",
+  "Montant de l'attributaire « SGGTR SARL AU » non trouvé."
+ ],
+ "notes_ocr": [],
+ "qualite": "participants"
+}

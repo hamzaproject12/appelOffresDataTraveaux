@@ -1,0 +1,54 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "910614",
+ "orgAcronyme": "g3h",
+ "reference_pv": "76/2025/S2A",
+ "nouveau": true,
+ "reference": "76/2025/S2A",
+ "objet": "TRAVAUX DE REALISATION DE L’INTERNAT IGUIDI SIS A LA COMMUNE IGUIDI RELEVANT DE LA PROVINCE DE TAROUDANNT - PROGRAMME 2023 - ▪ Date d’ouverture des plis : Lundi 26 mai 2025 à 10h",
+ "acheteur": null,
+ "procedure": "appel d'offres ouvert",
+ "categorie": "Travaux",
+ "date_limite_plis": null,
+ "lieu_ouverture": null,
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": null,
+ "justification": null,
+ "infructueux": false,
+ "attributaire": "SOCIETE SCOTIM",
+ "montant_attribue": 10289474.28,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "SOCIETE VAROSSE",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": true
+  },
+  {
+   "nom": "SOCIETE SCOTIM",
+   "montant_acte_engagement": 10289474.28,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 2,
+ "alertes_ocr": [
+  "« SOCIETE SCOTIM » absent de la liste des plis déposés (nom mal lu ?)."
+ ],
+ "notes_ocr": [
+  "« SOCIETE VAROSSE » absent de la liste des plis déposés (nom mal lu ?).",
+  "Maître d'ouvrage absent du PV (utiliser l'acheteur public du portail)."
+ ],
+ "qualite": "attribution"
+}

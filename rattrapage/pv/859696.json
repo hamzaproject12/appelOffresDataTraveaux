@@ -1,0 +1,72 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "859696",
+ "orgAcronyme": "o8p",
+ "reference_pv": "73/2024",
+ "nouveau": true,
+ "reference": "73/2024",
+ "objet": null,
+ "acheteur": null,
+ "procedure": "appel d'offres ouvert national",
+ "categorie": "Travaux",
+ "date_limite_plis": "27/11/2024",
+ "lieu_ouverture": "Direction Régionale de l'Agence Nationale des Equipements Publics de Tanger Tétouan Al Hoceima, au Centre Hospitalier Universitaire de Tanger- km 17- Route de Rabat -Tanger",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "13/12/2024",
+ "justification": "Offre la mieux disante. +",
+ "infructueux": false,
+ "attributaire": "BOUGHABI CO",
+ "montant_attribue": 3337789.2,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "BOUGHABI CO",
+   "montant_acte_engagement": 3337789.2,
+   "montant_apres_verification": 3337789.2,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "CESARADO NEGO COMATP",
+   "montant_acte_engagement": 3662281.2,
+   "montant_apres_verification": 3394.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "COMATP",
+   "montant_acte_engagement": 3394288.2,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "TASNIMED",
+   "montant_acte_engagement": 3834466.8,
+   "montant_apres_verification": 3834466.8,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 4,
+ "alertes_ocr": [
+  "« CESARADO NEGO COMATP » : écart anormal entre montant initial et vérifié (lecture à vérifier)."
+ ],
+ "notes_ocr": [
+  "« CESARADO NEGO COMATP » : montant rectifié de 3 662 281.20 à 3 394.00 DH.",
+  "Maître d'ouvrage absent du PV (utiliser l'acheteur public du portail)."
+ ],
+ "qualite": "complet"
+}

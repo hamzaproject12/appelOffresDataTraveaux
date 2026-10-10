@@ -1,0 +1,93 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "1015090",
+ "orgAcronyme": "g8e",
+ "reference_pv": "101/2026",
+ "nouveau": true,
+ "reference": "101/2026",
+ "objet": "TRAVAUX DE CONSTRUCTION DES PISTES A LA CT TIFNI PROVINCE D’AZILAL —LOT UNIQUE",
+ "acheteur": "Agence Régionale d’Exécution des Projets Région Béni Mellal-Khénifra",
+ "procedure": null,
+ "categorie": "Travaux",
+ "date_limite_plis": "03/06/2026",
+ "lieu_ouverture": "Salle de réunion de l’AREP région Beni Mellal Khénifra Sis Bd Med V lotissement lala Hayat immeuble n°3, 4f\"° et 5\"° étage Béni Mellal",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "19/06/2026",
+ "justification": "L'offre économiquement la plus avantageuse",
+ "infructueux": false,
+ "attributaire": "AMASSIN CLB",
+ "montant_attribue": 7713720.0,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "SASD",
+   "montant_acte_engagement": 7857792.0,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "AMASSIN CLB",
+   "montant_acte_engagement": 7713720.0,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "YAHYA STAR",
+   "montant_acte_engagement": 8324040.0,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Bd Med V lotissement lala Hayat immeuble n°3, 4*\"*et 5£\" étage Béni Mellal",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_dossier_administratif_technique",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "d LPS",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_dossier_administratif_technique",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Bis Ji",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_dossier_administratif_technique",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 6,
+ "alertes_ocr": [
+  "« SASD » absent de la liste des plis déposés (nom mal lu ?).",
+  "« AMASSIN CLB » absent de la liste des plis déposés (nom mal lu ?).",
+  "« YAHYA STAR » absent de la liste des plis déposés (nom mal lu ?)."
+ ],
+ "notes_ocr": [
+  "« Bd Med V lotissement lala Hayat immeuble n°3, 4*\"*et 5£\" étage Béni Mellal » absent de la liste des plis déposés (nom mal lu ?).",
+  "« d LPS » absent de la liste des plis déposés (nom mal lu ?).",
+  "« Bis Ji » absent de la liste des plis déposés (nom mal lu ?)."
+ ],
+ "qualite": "complet"
+}

@@ -1,0 +1,54 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "881022",
+ "orgAcronyme": "g3h",
+ "reference_pv": "05/2024/SDL3TD",
+ "nouveau": true,
+ "reference": "05/2024/SDL3TD",
+ "objet": null,
+ "acheteur": null,
+ "procedure": "appel d'offres ouvert",
+ "categorie": "Travaux",
+ "date_limite_plis": "20/01/2025",
+ "lieu_ouverture": "Salle de réunion de la société de développement local TANGER TETOUAN TRAVAUX DE DISTRIBUTION SA",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": null,
+ "justification": "Offre moins disante conforme aux critères d'attribution prévues par le règlement particulier de l'appel d'offres et le règlement des marchés de la SDL 3TD.",
+ "infructueux": false,
+ "attributaire": "SABETT",
+ "montant_attribue": 25790190.0,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "ALPHA PROCESS",
+   "montant_acte_engagement": 23354973.0,
+   "montant_apres_verification": 28025967.6,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "SABETT",
+   "montant_acte_engagement": 25790190.0,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 2,
+ "alertes_ocr": [
+  "« SABETT » absent de la liste des plis déposés (nom mal lu ?)."
+ ],
+ "notes_ocr": [
+  "« ALPHA PROCESS » : montant rectifié de 23 354 973.00 à 28 025 967.60 DH.",
+  "Maître d'ouvrage absent du PV (utiliser l'acheteur public du portail)."
+ ],
+ "qualite": "complet"
+}

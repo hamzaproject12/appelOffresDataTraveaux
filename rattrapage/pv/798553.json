@@ -1,0 +1,75 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "798553",
+ "orgAcronyme": "j8k",
+ "reference_pv": "15/2024",
+ "nouveau": true,
+ "reference": "15/2024",
+ "objet": "TRAVAUX DU CABLAGE DU RESEAU TELEPHONIQUE DU LOTISSEMENT AL MAJD TR3 A LA COMMUNE TERRITORIALE DE TINGHIR — PROVINCE DE TINGHIR Y* _ Date d'ouverture des plis : 07/05/2024 A 10H",
+ "acheteur": null,
+ "procedure": "appel d'offres ouvert",
+ "categorie": "Travaux",
+ "date_limite_plis": null,
+ "lieu_ouverture": "SOCIETE AL OMRANE DRÂA-TAFILALET",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": null,
+ "justification": "le MOINS DISANT .",
+ "infructueux": false,
+ "attributaire": "ALPHA GTP",
+ "montant_attribue": 3039040.68,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "REUSSITE TELECOM",
+   "montant_acte_engagement": 3523993.98,
+   "montant_apres_verification": null,
+   "autres_montants": [
+    3523993.98
+   ],
+   "lots": [],
+   "statut": "ecarte_dossier_administratif_technique",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "TRAINVEST",
+   "montant_acte_engagement": 3394673.1,
+   "montant_apres_verification": null,
+   "autres_montants": [
+    3394673.1
+   ],
+   "lots": [],
+   "statut": "ecarte_dossier_administratif_technique",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "ALPHA GTP",
+   "montant_acte_engagement": 3039040.68,
+   "montant_apres_verification": null,
+   "autres_montants": [
+    3039040.68
+   ],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "HAMATEL",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_offre_technique",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 4,
+ "alertes_ocr": [],
+ "notes_ocr": [
+  "Maître d'ouvrage absent du PV (utiliser l'acheteur public du portail)."
+ ],
+ "qualite": "complet"
+}

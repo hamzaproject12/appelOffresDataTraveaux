@@ -1,0 +1,70 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "672334",
+ "orgAcronyme": "a1t",
+ "reference_pv": "07/2022",
+ "nouveau": true,
+ "reference": "07/2022",
+ "objet": "Fourniture, livraison et installation de poste transformateur à l’Institut National des Postes et Télécommunications",
+ "acheteur": "Institut National des Postes et Télécommunications",
+ "procedure": "appel d'offres ouvert",
+ "categorie": "Travaux",
+ "date_limite_plis": "19/10/2022",
+ "lieu_ouverture": "INPT",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "31/10/2022",
+ "justification": "d’évaluation.",
+ "infructueux": false,
+ "attributaire": null,
+ "montant_attribue": null,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "EXTRAIT DU PROCES-VERBAL D’APPEL D’OFFRES",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "depose",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "INSTITUT NATIONAL DES",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "depose",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "POSTES ET",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "depose",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "SDR SARL",
+   "montant_acte_engagement": 899880.0,
+   "montant_apres_verification": 899880.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 4,
+ "alertes_ocr": [
+  "« SDR SARL » absent de la liste des plis déposés (nom mal lu ?).",
+  "Attributaire non trouvé."
+ ],
+ "notes_ocr": [],
+ "qualite": "attribution"
+}

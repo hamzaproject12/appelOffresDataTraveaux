@@ -1,0 +1,58 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "1001204",
+ "orgAcronyme": "f9f",
+ "reference_pv": "02/SPE/2026",
+ "nouveau": true,
+ "reference": "02/SPE/2026",
+ "objet": "TRAVAUX D’ECLAIRAGE PUBLIC BOULEVARD MOHAMED V DE CARREFOUR IMZILNE A AIT AABDOUNE A LA COMMUNE DE BOUMALNE DADES PROVINCE DE TINGHIR PREMIERE TRANCHE",
+ "acheteur": "COMMUNE BOUMALNE DADES",
+ "procedure": null,
+ "categorie": "Travaux",
+ "date_limite_plis": "06/04/2026",
+ "lieu_ouverture": "La salle des réunions de la commune",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "14/04/2026",
+ "justification": "L'offre la plus avantageuse.",
+ "infructueux": false,
+ "attributaire": "GROUPEMENT STE RUTRAVEC ET SSTCO",
+ "montant_attribue": 3599700.0,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "ALMOKAYADA",
+   "montant_acte_engagement": 3998340.0,
+   "montant_apres_verification": 3998340.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "STE INTRIT.ELEC",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_dossier_administratif_technique",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "GROUPEMENT STE RUTRAVEC ET SSTCO",
+   "montant_acte_engagement": 3599700.0,
+   "montant_apres_verification": 3599700.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 3,
+ "alertes_ocr": [],
+ "notes_ocr": [],
+ "qualite": "complet"
+}

@@ -1,0 +1,55 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "959381",
+ "orgAcronyme": "o8p",
+ "reference_pv": "21/AOO/DPLR-ANP/2025",
+ "nouveau": true,
+ "reference": "21/AOO/DPLR-ANP/2025",
+ "objet": "TRAVAUX DE MAINTENANCE DES ESPACES VERTS AU PORT DE LAAYOUNE",
+ "acheteur": "Agence Nationale des Ports - Direction du Port de Laäyoune et Région",
+ "procedure": "appel d'offres ouvert national",
+ "categorie": "Travaux",
+ "date_limite_plis": "24/11/2025",
+ "lieu_ouverture": "Salle de réunion de la Direction du Port de Laâyoune et Région",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "28/11/2025",
+ "justification": null,
+ "infructueux": false,
+ "attributaire": null,
+ "montant_attribue": null,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "MONDO JARDINE - SERAOW",
+   "montant_acte_engagement": 159375.94,
+   "montant_apres_verification": null,
+   "autres_montants": [
+    159375.93
+   ],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "MAROC GARDEN",
+   "montant_acte_engagement": 199200.0,
+   "montant_apres_verification": null,
+   "autres_montants": [
+    199200.0
+   ],
+   "lots": [],
+   "statut": "ecarte_offre_financiere",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 2,
+ "alertes_ocr": [
+  "Attributaire non trouvé."
+ ],
+ "notes_ocr": [],
+ "qualite": "complet"
+}

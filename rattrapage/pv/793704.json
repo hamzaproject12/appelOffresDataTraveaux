@@ -1,0 +1,69 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "793704",
+ "orgAcronyme": "o4d",
+ "reference_pv": null,
+ "nouveau": true,
+ "reference": null,
+ "objet": "Travaux d’Agencement et d'Aménagement des Constructions en lot unique",
+ "acheteur": "Direction Régionale CNSS Fès Saïss",
+ "procedure": "appel d'offres ouvert simplifié",
+ "categorie": "Travaux",
+ "date_limite_plis": "23/04/2024",
+ "lieu_ouverture": "Salle de réunion de la CNSS Direction Régionale Fès Saïss sis 4ème étage Résidence Jnan El Kamel Rue Antara Ibn Chaddad Fès",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "06/05/2024",
+ "justification": "l'offre économiquement la plus avantageuse.",
+ "infructueux": false,
+ "attributaire": "LK INTERIM",
+ "montant_attribue": 171600.0,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "UPST - SORTRAN",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "depose",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "GOLOUME TRAVAUX - LK INTERIM - MAK G3 NOUR - GUIDE BTP - MINERVA BUILDING",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_dossier_administratif_technique",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "DADES ACHRAL - RENOVE FAKIR",
+   "montant_acte_engagement": 179508.0,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "LK INTERIM",
+   "montant_acte_engagement": 171600.0,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 4,
+ "alertes_ocr": [
+  "« LK INTERIM » absent de la liste des plis déposés (nom mal lu ?)."
+ ],
+ "notes_ocr": [],
+ "qualite": "complet"
+}

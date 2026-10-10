@@ -1,0 +1,74 @@
+{
+ "source": "extrait_docx",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "962318",
+ "orgAcronyme": "e5w",
+ "reference_pv": "14/2025",
+ "nouveau": true,
+ "reference": "14/2025",
+ "objet": "ENTRETIEN COURANT DES VOIES (TROTTOIRS ET RUELLES)",
+ "acheteur": "Arrondissement Mérinides",
+ "procedure": "appel d'offres ouvert national",
+ "categorie": "Travaux",
+ "date_limite_plis": "28/11/2025",
+ "lieu_ouverture": null,
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "09/12/2025",
+ "justification": "L’offre financière présentée par l’attributaire a été jugée avantageuse par la commission d’ouverture des plis.",
+ "infructueux": false,
+ "attributaire": "STE MEDI EXPO SARL AU",
+ "montant_attribue": null,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "STE MEDI EXPO SARL AU",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "STE ORTIS MAROC S.A.R.L",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "STE KIKOVA SARL",
+   "montant_acte_engagement": 3142560.0,
+   "montant_apres_verification": 3142560.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Détermination de prix de référence",
+   "montant_acte_engagement": 3405900.0,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 4,
+ "alertes_ocr": [
+  "« STE MEDI EXPO SARL AU » absent de la liste des plis déposés (nom mal lu ?).",
+  "« STE KIKOVA SARL » absent de la liste des plis déposés (nom mal lu ?).",
+  "« Détermination de prix de référence » absent de la liste des plis déposés (nom mal lu ?).",
+  "Montant de l'attributaire « STE MEDI EXPO SARL AU » non trouvé."
+ ],
+ "notes_ocr": [
+  "« STE ORTIS MAROC S.A.R.L » absent de la liste des plis déposés (nom mal lu ?)."
+ ],
+ "qualite": "complet"
+}

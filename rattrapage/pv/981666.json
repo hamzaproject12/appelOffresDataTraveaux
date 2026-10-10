@@ -1,0 +1,73 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "981666",
+ "orgAcronyme": "p1v",
+ "reference_pv": "19/2025/CZ",
+ "nouveau": true,
+ "reference": "19/2025/CZ",
+ "objet": null,
+ "acheteur": "Commune de Zemamra",
+ "procedure": null,
+ "categorie": "Travaux",
+ "date_limite_plis": null,
+ "lieu_ouverture": "Siège de la commune de Zemamra",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "23/02/2026",
+ "justification": null,
+ "infructueux": false,
+ "attributaire": "Groupements de sociétés",
+ "montant_attribue": 4381506.0,
+ "attributaires_par_lot": [
+  {
+   "lot": null,
+   "attributaire": "Groupements de sociétés",
+   "montant": 4381506.0
+  },
+  {
+   "lot": null,
+   "attributaire": "TRAV SARL",
+   "montant": null
+  }
+ ],
+ "soumissionnaires": [
+  {
+   "nom": "Groupements de sociétés",
+   "montant_acte_engagement": 4381506.0,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "SARL et PALACE GARDEN SARL et BAHRI TRAV",
+   "montant_acte_engagement": 4436934.0,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "TRAV SARL",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 3,
+ "alertes_ocr": [
+  "« SARL et PALACE GARDEN SARL et BAHRI TRAV » absent de la liste des plis déposés (nom mal lu ?).",
+  "« TRAV SARL » absent de la liste des plis déposés (nom mal lu ?).",
+  "Montant de l'attributaire « TRAV SARL » non trouvé."
+ ],
+ "notes_ocr": [],
+ "qualite": "complet"
+}

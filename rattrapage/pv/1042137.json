@@ -1,0 +1,81 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "1042137",
+ "orgAcronyme": "o8p",
+ "reference_pv": null,
+ "nouveau": true,
+ "reference": null,
+ "objet": "BRANCHEMENT ELECTRIQUE PRINCIPAL ET SECOURS DU CENTRE INFORMATIQUE AU NOUVEAU PORT DE SAFI NEANT",
+ "acheteur": "Direction du ports de Safi et Région",
+ "procedure": null,
+ "categorie": "Travaux",
+ "date_limite_plis": null,
+ "lieu_ouverture": "Direction du ports de Safi et Région",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "22/09/2026",
+ "justification": null,
+ "infructueux": false,
+ "attributaire": "40/AOON/DPSR-ANP/2026",
+ "montant_attribue": 2104800.0,
+ "attributaires_par_lot": [
+  {
+   "lot": null,
+   "attributaire": "40/AOON/DPSR-ANP/2026",
+   "montant": 2104800.0
+  },
+  {
+   "lot": null,
+   "attributaire": "JOURNAL ARABE DATES D’INSERTION",
+   "montant": 2104800.0
+  }
+ ],
+ "soumissionnaires": [
+  {
+   "nom": "N° SECTOB SARL",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "depose",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "TECNITAS",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "depose",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "40/AOON/DPSR-ANP/2026",
+   "montant_acte_engagement": 2104800.0,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "JOURNAL ARABE DATES D’INSERTION",
+   "montant_acte_engagement": 2104800.0,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 4,
+ "alertes_ocr": [
+  "« 40/AOON/DPSR-ANP/2026 » absent de la liste des plis déposés (nom mal lu ?).",
+  "« JOURNAL ARABE DATES D’INSERTION » absent de la liste des plis déposés (nom mal lu ?)."
+ ],
+ "notes_ocr": [],
+ "qualite": "attribution"
+}

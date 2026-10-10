@@ -1,0 +1,69 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "1024448",
+ "orgAcronyme": "g8e",
+ "reference_pv": "115/2026",
+ "nouveau": true,
+ "reference": "115/2026",
+ "objet": "TRAVAUX D'ACHEVEMENT DE L'AMENAGEMENT DU B KHENIFRA ENTRE SIEGE CAIDAT AGELMAM AZEGZA ET LABORATO OULEVARD ZERKTOUNI A LA COMMUNE DE",
+ "acheteur": "Agence Régionale d’Exécution des Projets Région Béni Mellal-Khénifra",
+ "procedure": null,
+ "categorie": "Travaux",
+ "date_limite_plis": "24/06/2026",
+ "lieu_ouverture": null,
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "15/07/2026",
+ "justification": "L’offre économiquement la plus avantageuse",
+ "infructueux": false,
+ "attributaire": "ETS BOUALI",
+ "montant_attribue": 46582602.6,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "ETS BOUALI",
+   "montant_acte_engagement": 46582602.6,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "STE TR3F",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": true
+  },
+  {
+   "nom": "STE CTR",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "STE CTR ‘engagemen",
+   "montant_acte_engagement": 582602.6,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 4,
+ "alertes_ocr": [
+  "« STE CTR ‘engagemen » absent de la liste des plis déposés (nom mal lu ?)."
+ ],
+ "notes_ocr": [],
+ "qualite": "complet"
+}

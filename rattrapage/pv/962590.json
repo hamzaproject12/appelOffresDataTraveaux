@@ -1,0 +1,42 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "962590",
+ "orgAcronyme": "j8k",
+ "reference_pv": "123/25",
+ "nouveau": true,
+ "reference": "123/25",
+ "objet": null,
+ "acheteur": "AI Omrane Casablanca - Settat",
+ "procedure": "appel d'offres ouvert",
+ "categorie": "Travaux",
+ "date_limite_plis": null,
+ "lieu_ouverture": null,
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": null,
+ "justification": null,
+ "infructueux": false,
+ "attributaire": null,
+ "montant_attribue": null,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "IMMATRICULATION FONCIERE MAROC",
+   "montant_acte_engagement": 3214036.8,
+   "montant_apres_verification": 3214036.8,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 1,
+ "alertes_ocr": [
+  "Attributaire non trouvé."
+ ],
+ "notes_ocr": [],
+ "qualite": "attribution"
+}

@@ -1,0 +1,54 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "737729",
+ "orgAcronyme": "o8p",
+ "reference_pv": "25/2023",
+ "nouveau": true,
+ "reference": "25/2023",
+ "objet": "Travaux de Renforcement et Elargissement de la RN29 (EX RR507) du PK137+225 au PK153+050 Province de TAZA. « LOT 2 »",
+ "acheteur": null,
+ "procedure": null,
+ "categorie": "Travaux",
+ "date_limite_plis": "26/07/2023",
+ "lieu_ouverture": "DPETL DE TAZA",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "18/08/2023",
+ "justification": "Offre moins disante",
+ "infructueux": false,
+ "attributaire": "STE COSTRUCTION D’'INFRASTRASTRUCTURE ROUTIERES ET GENIE CIVIL « CIRGEC",
+ "montant_attribue": 24137506.2,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "STE COSTRUCTION D’'INFRASTRASTRUCTURE ROUTIERES ET GENIE CIVIL « CIRGEC",
+   "montant_acte_engagement": 24137506.2,
+   "montant_apres_verification": 24137506.2,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "STE EL GHOUATI AHMED",
+   "montant_acte_engagement": 26436604.8,
+   "montant_apres_verification": 26436604.8,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_offre_financiere",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 2,
+ "alertes_ocr": [
+  "« STE COSTRUCTION D’'INFRASTRASTRUCTURE ROUTIERES ET GENIE CIVIL « CIRGEC » absent de la liste des plis déposés (nom mal lu ?).",
+  "« STE EL GHOUATI AHMED » absent de la liste des plis déposés (nom mal lu ?)."
+ ],
+ "notes_ocr": [
+  "Maître d'ouvrage absent du PV (utiliser l'acheteur public du portail)."
+ ],
+ "qualite": "complet"
+}

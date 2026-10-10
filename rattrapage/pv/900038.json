@@ -1,0 +1,69 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "900038",
+ "orgAcronyme": "g3h",
+ "reference_pv": "10000362",
+ "nouveau": true,
+ "reference": "10000362",
+ "objet": "Travaux de Réhabilitation et renforcement du réseau d’Assainissement Liquide de la ville de Tiznit - 1ère tranche Province de Tiznit",
+ "acheteur": "Société Régionale Multiservices Souss Massa « SRM-SM » Société Anonyme (S.A.)",
+ "procedure": null,
+ "categorie": "Travaux",
+ "date_limite_plis": "22/04/2025",
+ "lieu_ouverture": "les bureaux de la SRM-SM, sis au 3ème étage — rue 18 Novembre Q.I AGADIR",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": null,
+ "justification": "offre la moins-disante 9 3 MAS",
+ "infructueux": false,
+ "attributaire": "SOUSALIO",
+ "montant_attribue": 12074136.0,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "VARDEP",
+   "montant_acte_engagement": 12881696.4,
+   "montant_apres_verification": 12881696.4,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "GMTP",
+   "montant_acte_engagement": 12718860.0,
+   "montant_apres_verification": 12718860.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "GHTP",
+   "montant_acte_engagement": 12636399.39,
+   "montant_apres_verification": 12636399.39,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "SOUSALIO",
+   "montant_acte_engagement": 12074136.0,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 4,
+ "alertes_ocr": [
+  "« SOUSALIO » absent de la liste des plis déposés (nom mal lu ?)."
+ ],
+ "notes_ocr": [],
+ "qualite": "complet"
+}

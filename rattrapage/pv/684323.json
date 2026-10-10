@@ -1,0 +1,87 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "684323",
+ "orgAcronyme": "q1s",
+ "reference_pv": "64/2022/0RH/SM",
+ "nouveau": true,
+ "reference": "64/2022/0RH/SM",
+ "objet": "EQUIPEMENT DES LOCAUX DE L’ORMVAH EN RAYONNAGE",
+ "acheteur": null,
+ "procedure": null,
+ "categorie": "Travaux",
+ "date_limite_plis": "15/11/2022",
+ "lieu_ouverture": "Siège de l’Office Régional de Mise en Valeur Agricole du Haouz",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "12/12/2022",
+ "justification": "l'Offre la plus avantageuse est présentée par la société : NOUR BETON SARL - AU",
+ "infructueux": false,
+ "attributaire": "NOUR BETON SARL - AU",
+ "montant_attribue": 427140.0,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "ALPHA NEW",
+   "montant_acte_engagement": 469980.0,
+   "montant_apres_verification": 469980.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "HAOUZ ACTION",
+   "montant_acte_engagement": 501480.0,
+   "montant_apres_verification": 501480.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "EXPERT EQUIPEMENT",
+   "montant_acte_engagement": 503244.0,
+   "montant_apres_verification": 503244.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "NOUR BETON SARL - AU",
+   "montant_acte_engagement": 427140.0,
+   "montant_apres_verification": 427140.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "NORA BUREAUX",
+   "montant_acte_engagement": 422220.0,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_offre_financiere",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "CORALI MAROC SARL AU",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_dossier_administratif_technique",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 6,
+ "alertes_ocr": [],
+ "notes_ocr": [
+  "Maître d'ouvrage absent du PV (utiliser l'acheteur public du portail)."
+ ],
+ "qualite": "complet"
+}

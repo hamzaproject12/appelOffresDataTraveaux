@@ -1,0 +1,91 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "719832",
+ "orgAcronyme": "g3h",
+ "reference_pv": "36/2023",
+ "nouveau": true,
+ "reference": "36/2023",
+ "objet": "Travaux d'installation des centrales d'incendie au Ministère de l’intérieur à Rabat (lot unique)",
+ "acheteur": "Ministère de l'Intérieur",
+ "procedure": "appel d'offres ouvert",
+ "categorie": "Travaux",
+ "date_limite_plis": "25/05/2023",
+ "lieu_ouverture": "la Direction des Affaires Administratives (Division des Marchés du Ministère de l’Intérieur)",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "07/06/2023",
+ "justification": "l'offre jugée la moins disante ;",
+ "infructueux": false,
+ "attributaire": "Sté FINATECH SYSTEMS SA",
+ "montant_attribue": 1040004.0,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "Sté MAGHREBNET RTABI ET CIE",
+   "montant_acte_engagement": 1246237.56,
+   "montant_apres_verification": null,
+   "autres_montants": [
+    1246237.56
+   ],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": true
+  },
+  {
+   "nom": "Sté FINATECH SYSTEMS SA",
+   "montant_acte_engagement": 1040004.0,
+   "montant_apres_verification": null,
+   "autres_montants": [
+    1040004.0
+   ],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Sté BELECTRABAT SARL AU",
+   "montant_acte_engagement": 1500000.0,
+   "montant_apres_verification": null,
+   "autres_montants": [
+    1500000.0
+   ],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Sté FACILITY PROPERTY MANAGEMENT",
+   "montant_acte_engagement": 1182000.0,
+   "montant_apres_verification": null,
+   "autres_montants": [
+    1182000.0
+   ],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Sté ALOMRA Des INTERNATIONAL",
+   "montant_acte_engagement": 1828573.0,
+   "montant_apres_verification": null,
+   "autres_montants": [
+    1828573.2
+   ],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 5,
+ "alertes_ocr": [
+  "« Sté FINATECH SYSTEMS SA » absent de la liste des plis déposés (nom mal lu ?).",
+  "« Sté BELECTRABAT SARL AU » absent de la liste des plis déposés (nom mal lu ?).",
+  "« Sté FACILITY PROPERTY MANAGEMENT » absent de la liste des plis déposés (nom mal lu ?).",
+  "« Sté ALOMRA Des INTERNATIONAL » absent de la liste des plis déposés (nom mal lu ?)."
+ ],
+ "notes_ocr": [],
+ "qualite": "complet"
+}

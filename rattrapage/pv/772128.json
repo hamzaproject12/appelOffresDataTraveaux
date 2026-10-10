@@ -1,0 +1,85 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "772128",
+ "orgAcronyme": "o8p",
+ "reference_pv": "42/DAGS/2023",
+ "nouveau": true,
+ "reference": "42/DAGS/2023",
+ "objet": "Recharge et maintenance des extincteurs du centre logistique SNTL de Mohammedi",
+ "acheteur": "SNTL",
+ "procedure": null,
+ "categorie": "Travaux",
+ "date_limite_plis": "04/01/2024",
+ "lieu_ouverture": "Siège SNTL Rabat",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "30/01/2024",
+ "justification": null,
+ "infructueux": false,
+ "attributaire": "SOPROFEU",
+ "montant_attribue": 97464.0,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "PROTECTION SALI",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_dossier_administratif_technique",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "SOPROFEU",
+   "montant_acte_engagement": 97464.0,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": true
+  },
+  {
+   "nom": "GEMAPRO",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "depose",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "NORD PROTECTION",
+   "montant_acte_engagement": 113220.0,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "PROTEC FEU",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_dossier_administratif_technique",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "EMITECH",
+   "montant_acte_engagement": 121056.0,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 6,
+ "alertes_ocr": [],
+ "notes_ocr": [],
+ "qualite": "complet"
+}

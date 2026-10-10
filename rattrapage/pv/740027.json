@@ -1,0 +1,63 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "740027",
+ "orgAcronyme": "a1z",
+ "reference_pv": "12/2023",
+ "nouveau": true,
+ "reference": "12/2023",
+ "objet": "relatif aux travaux d'aménagement et d'éclairage public de la RP 3001 et de la RP3012 sises à la coinmune DAR BOUAZZA - Province de Nouaceur",
+ "acheteur": "Commune de Dar Bouazza",
+ "procedure": "appel d'offres ouvert",
+ "categorie": "Travaux",
+ "date_limite_plis": "15/06/2023",
+ "lieu_ouverture": "Bureau du Président de la Commune de Dar Bouazza",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "29/08/2023",
+ "justification": "l'offre classée la moine disante",
+ "infructueux": false,
+ "attributaire": "Groupement NABILUM/TIRA TRAVAUX",
+ "montant_attribue": 24337138.8,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "Groupement NABILUM/TIRA TRAVAUX",
+   "montant_acte_engagement": 24337138.8,
+   "montant_apres_verification": 24337138.8,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Société ALEQ",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Société SOCADELEG",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_dossier_administratif_technique",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 3,
+ "alertes_ocr": [
+  "« Groupement NABILUM/TIRA TRAVAUX » absent de la liste des plis déposés (nom mal lu ?)."
+ ],
+ "notes_ocr": [
+  "« Société ALEQ » absent de la liste des plis déposés (nom mal lu ?).",
+  "« Société SOCADELEG » absent de la liste des plis déposés (nom mal lu ?)."
+ ],
+ "qualite": "attribution"
+}

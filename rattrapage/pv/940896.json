@@ -1,0 +1,64 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "940896",
+ "orgAcronyme": "g8e",
+ "reference_pv": "155/2025",
+ "nouveau": true,
+ "reference": "155/2025",
+ "objet": "TRAVAUX D’AMENAGEMENT DE LA PISTE RELIANT LA RR302 ET BOUKHADEL A TRAVERS AGHANBOU ET AMENAGEMENT DE LA PISTE RELIANT BOUKHADEL ET AGUERED SDIDANE-CT ZAOUIT AHANSAL - PROVINCE d'ouvrage : Agence Régionale d'Exécution des Projets Région Béni Mellal-Khénifra",
+ "acheteur": null,
+ "procedure": null,
+ "categorie": "Travaux",
+ "date_limite_plis": null,
+ "lieu_ouverture": "d éme et 5éme étage Béni Mellal",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": null,
+ "justification": "15/10/2025 à 13 heures 20 min",
+ "infructueux": false,
+ "attributaire": "SOGEVA",
+ "montant_attribue": 17879400.0,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "SOGEVA",
+   "montant_acte_engagement": 17879400.0,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": true
+  },
+  {
+   "nom": "FTPR",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": true
+  },
+  {
+   "nom": "TV Vérific",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": true
+  }
+ ],
+ "nombre_soumissionnaires": 3,
+ "alertes_ocr": [
+  "« SOGEVA » absent de la liste des plis déposés (nom mal lu ?)."
+ ],
+ "notes_ocr": [
+  "« FTPR » absent de la liste des plis déposés (nom mal lu ?).",
+  "« TV Vérific » absent de la liste des plis déposés (nom mal lu ?).",
+  "Maître d'ouvrage absent du PV (utiliser l'acheteur public du portail)."
+ ],
+ "qualite": "attribution"
+}

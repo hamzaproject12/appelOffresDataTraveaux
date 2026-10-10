@@ -1,0 +1,52 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "1030241",
+ "orgAcronyme": "h5r",
+ "reference_pv": "03-2026",
+ "nouveau": true,
+ "reference": "03-2026",
+ "objet": "Construction de la piste reliant foyer Koutobi Sghir et foyer Hafid AI Aidi et Construction de la piste",
+ "acheteur": "Commune Ain Tizgha",
+ "procedure": "appel d'offres ouvert",
+ "categorie": "Travaux",
+ "date_limite_plis": null,
+ "lieu_ouverture": "la salle de réunion de l’annexe de la Commune Ain Tizgha située à Caïdat Ain Tizgha",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "03/08/2026",
+ "justification": "l'offre la plus avantageuse.",
+ "infructueux": false,
+ "attributaire": "Société GENERAL CHANTIERS SARL",
+ "montant_attribue": 3825031.08,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "Société GENERAL CHANTIERS SARL",
+   "montant_acte_engagement": 3825031.08,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Groupement société YOURAB SARL AU et société YAHYA STAR SARL",
+   "montant_acte_engagement": 3826678.68,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 2,
+ "alertes_ocr": [
+  "« Société GENERAL CHANTIERS SARL » absent de la liste des plis déposés (nom mal lu ?).",
+  "« Groupement société YOURAB SARL AU et société YAHYA STAR SARL » absent de la liste des plis déposés (nom mal lu ?)."
+ ],
+ "notes_ocr": [],
+ "qualite": "complet"
+}

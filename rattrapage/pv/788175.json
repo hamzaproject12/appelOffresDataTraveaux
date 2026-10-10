@@ -1,0 +1,60 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "788175",
+ "orgAcronyme": "g8e",
+ "reference_pv": "11/2024/MEF/AC/CONST",
+ "nouveau": true,
+ "reference": "11/2024/MEF/AC/CONST",
+ "objet": null,
+ "acheteur": "Direction des Affaires Administratives et Générales du Ministère de l'Economie et des Finances",
+ "procedure": "appel d'offres ouvert simplifié",
+ "categorie": "Travaux",
+ "date_limite_plis": "08/04/2024",
+ "lieu_ouverture": "Salle des réunions de la Direction des Affaires Administratives et Générales, Quartier Administratif, Rabat — Chellah,",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "09/04/2024",
+ "justification": "L’offre économiquement la plus avantageuse pour l’ Administration",
+ "infructueux": false,
+ "attributaire": "Société FACILITY PROPERTY MANAGEMENT",
+ "montant_attribue": 1308000.0,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "Société FACILITY PROPERTY MANAGEMENT",
+   "montant_acte_engagement": 1308000.0,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Société LA NOUVELLE SOCIETE MAGI DEUTZ",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_dossier_administratif_technique",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Société SETRONIC",
+   "montant_acte_engagement": 1332000.0,
+   "montant_apres_verification": null,
+   "autres_montants": [
+    1332000.0
+   ],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 3,
+ "alertes_ocr": [],
+ "notes_ocr": [],
+ "qualite": "complet"
+}

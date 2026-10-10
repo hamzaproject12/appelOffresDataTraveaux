@@ -1,0 +1,67 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "789140",
+ "orgAcronyme": "j8k",
+ "reference_pv": null,
+ "nouveau": true,
+ "reference": null,
+ "objet": "TRAVAUX DE CONSTRUCTION D’UNE SALLE DE SPORT DU PROGRAMME INDH A LA COMMUNE DE FES - PREFECTURE DE FES",
+ "acheteur": "AL Omrane Fès-Meknès",
+ "procedure": null,
+ "categorie": "Travaux",
+ "date_limite_plis": "01/04/2024",
+ "lieu_ouverture": "AL Omrane Fès-Meknès",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "19/04/2024",
+ "justification": "l’offre la moins disante",
+ "infructueux": false,
+ "attributaire": "Gpt. GMKA et MKTREQ- Fès",
+ "montant_attribue": 3046459.5,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "ICHICHIE- El Hajeb",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_dossier_administratif_technique",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "SM2H ENERGIE- Fès",
+   "montant_acte_engagement": 3075473.4,
+   "montant_apres_verification": 3075473.4,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Gpt. GMKA et MKTREQ- Fès",
+   "montant_acte_engagement": 3046459.5,
+   "montant_apres_verification": 3046459.5,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": true
+  },
+  {
+   "nom": "MOHAMED BOUGHABA- Rabat",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_dossier_administratif_technique",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 4,
+ "alertes_ocr": [],
+ "notes_ocr": [],
+ "qualite": "complet"
+}

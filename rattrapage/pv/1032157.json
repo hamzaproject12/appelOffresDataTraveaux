@@ -1,0 +1,71 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "1032157",
+ "orgAcronyme": "g3h",
+ "reference_pv": "31/DPJ-2026",
+ "nouveau": true,
+ "reference": "31/DPJ-2026",
+ "objet": null,
+ "acheteur": "SRM-CS",
+ "procedure": "appel d'offres ouvert",
+ "categorie": "Travaux",
+ "date_limite_plis": "13/07/2026",
+ "lieu_ouverture": "DIRECTION PROVINCIALE D’EL JADIDA",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "07/08/2026",
+ "justification": null,
+ "infructueux": true,
+ "attributaire": "HYDROSYSTEMES",
+ "montant_attribue": 4105904.0,
+ "attributaires_par_lot": [
+  {
+   "lot": null,
+   "attributaire": "HYDROSYSTEMES",
+   "montant": 4105904.0
+  },
+  {
+   "lot": "2",
+   "attributaire": "ART BINAV",
+   "montant": 456000.0
+  }
+ ],
+ "soumissionnaires": [
+  {
+   "nom": "AQUA DEMINE",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_dossier_administratif_technique",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "HYDROSYSTEMES",
+   "montant_acte_engagement": 4105904.0,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "ART BINAV",
+   "montant_acte_engagement": 456000.0,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [
+    "2"
+   ],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 3,
+ "alertes_ocr": [],
+ "notes_ocr": [],
+ "qualite": "attribution"
+}

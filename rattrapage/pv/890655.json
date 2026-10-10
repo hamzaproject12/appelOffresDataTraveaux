@@ -1,0 +1,95 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "890655",
+ "orgAcronyme": "o8p",
+ "reference_pv": "05/A00/DPMR-ANP/2025",
+ "nouveau": true,
+ "reference": "05/A00/DPMR-ANP/2025",
+ "objet": "« TRAVAUX DE RENOVATION DES ABRIS PARKING AU PORT DE MOHAMMEDIA »",
+ "acheteur": "AGENCE NATIONALE DES PORTS : DEPARTEMENT DU PORT DE KENITRA ET MEHDIA",
+ "procedure": "appel d'offres ouvert",
+ "categorie": "Travaux",
+ "date_limite_plis": "08/04/2025",
+ "lieu_ouverture": "ANP/DPMR Conformément à l’avis publié dans : Désignation journaux Langue Date de parution",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "24/04/2025",
+ "justification": null,
+ "infructueux": false,
+ "attributaire": null,
+ "montant_attribue": null,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "ANGC SARL AU",
+   "montant_acte_engagement": 1954340.0,
+   "montant_apres_verification": 1954340.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "BOURANIME SARL",
+   "montant_acte_engagement": 1780200.0,
+   "montant_apres_verification": 1780200.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "ELUXE BTP SARL",
+   "montant_acte_engagement": 1865540.0,
+   "montant_apres_verification": 1865540.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "VIABUILD SARL AU",
+   "montant_acte_engagement": 2113750.0,
+   "montant_apres_verification": 2113750.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "VIA SUD SARL AU",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_dossier_administratif_technique",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "SOBIK",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_offre_technique",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 6,
+ "alertes_ocr": [
+  "« ANGC SARL AU » absent de la liste des plis déposés (nom mal lu ?).",
+  "« BOURANIME SARL » absent de la liste des plis déposés (nom mal lu ?).",
+  "« ELUXE BTP SARL » absent de la liste des plis déposés (nom mal lu ?).",
+  "« VIABUILD SARL AU » absent de la liste des plis déposés (nom mal lu ?).",
+  "Attributaire non trouvé."
+ ],
+ "notes_ocr": [
+  "« VIA SUD SARL AU » absent de la liste des plis déposés (nom mal lu ?).",
+  "« SOBIK » absent de la liste des plis déposés (nom mal lu ?).",
+  "Montants exprimés hors taxes (HT)."
+ ],
+ "qualite": "complet"
+}

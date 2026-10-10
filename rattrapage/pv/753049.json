@@ -1,0 +1,62 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "753049",
+ "orgAcronyme": "d4q",
+ "reference_pv": null,
+ "nouveau": true,
+ "reference": null,
+ "objet": null,
+ "acheteur": null,
+ "procedure": "appel d'offres ouvert",
+ "categorie": "Travaux",
+ "date_limite_plis": null,
+ "lieu_ouverture": "au Siège de la Direction Régionale du Centre Nord (DRS5)",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "07/11/2023",
+ "justification": "Moins-disant",
+ "infructueux": false,
+ "attributaire": "GROUP ESTEF /ASSISSOU TRAVAUX -— 3. 238. 167, 84 120 Jeefs S)",
+ "montant_attribue": null,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "GROUP ESTEF RSSTSSOU TRAVAUX - Offre",
+   "montant_acte_engagement": 3238467.84,
+   "montant_apres_verification": 3238467.84,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "de base SOTRADATE",
+   "montant_acte_engagement": 4398612.0,
+   "montant_apres_verification": 4398612.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "GROUP ESTEF /ASSISSOU TRAVAUX -— 3. 238. 167, 84 120 Jeefs S)",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 3,
+ "alertes_ocr": [
+  "Montant de l'attributaire « GROUP ESTEF /ASSISSOU TRAVAUX -— 3. 238. 167, 84 120 Jeefs S) » non trouvé."
+ ],
+ "notes_ocr": [
+  "Maître d'ouvrage absent du PV (utiliser l'acheteur public du portail)."
+ ],
+ "qualite": "complet"
+}

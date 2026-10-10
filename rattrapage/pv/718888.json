@@ -1,0 +1,178 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "718888",
+ "orgAcronyme": "g3h",
+ "reference_pv": "31/E/2023",
+ "nouveau": true,
+ "reference": "31/E/2023",
+ "objet": "TRAVAUX DE REHABILITATION DE RESEAU LOT N°1 : SECTEUR AL ANDALOUS LOT N°2 : SECTEUR LAZARET HAUT",
+ "acheteur": "RADEEO",
+ "procedure": null,
+ "categorie": "Travaux",
+ "date_limite_plis": "16/05/2023",
+ "lieu_ouverture": "salle de réunion de la RADEEO",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "01/06/2023",
+ "justification": null,
+ "infructueux": false,
+ "attributaire": "Société SODR RABAIS",
+ "montant_attribue": 5425563.6,
+ "attributaires_par_lot": [
+  {
+   "lot": "1",
+   "attributaire": "Société SODR RABAIS",
+   "montant": 5425563.6
+  },
+  {
+   "lot": "2",
+   "attributaire": "Société STEPAG",
+   "montant": 5135368.5
+  },
+  {
+   "lot": "3",
+   "attributaire": "Société TIEC",
+   "montant": 3905442.0
+  }
+ ],
+ "soumissionnaires": [
+  {
+   "nom": "Société OUJDA CHAUFFAGE",
+   "montant_acte_engagement": 7037275.14,
+   "montant_apres_verification": null,
+   "autres_montants": [
+    5691196.62
+   ],
+   "lots": [
+    "1",
+    "2"
+   ],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Société SOCAO",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_dossier_administratif_technique",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Société ABB EAUX TRAVAUX",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_dossier_administratif_technique",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Société SBNH",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "depose",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Société STEPAG RABAIS",
+   "montant_acte_engagement": 6702166.8,
+   "montant_apres_verification": null,
+   "autres_montants": [
+    5135368.5,
+    3558291.6
+   ],
+   "lots": [
+    "1",
+    "2",
+    "3"
+   ],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Société TIEC RABAIS",
+   "montant_acte_engagement": 7180893.0,
+   "montant_apres_verification": null,
+   "autres_montants": [
+    5437449.0,
+    3905442.0
+   ],
+   "lots": [
+    "1",
+    "2",
+    "3"
+   ],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Société SODR RABAIS",
+   "montant_acte_engagement": 5425563.6,
+   "montant_apres_verification": null,
+   "autres_montants": [
+    4374125.64,
+    3198123.06
+   ],
+   "lots": [
+    "1",
+    "2",
+    "3"
+   ],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Société SBNH RABAIS",
+   "montant_acte_engagement": 3992229.6,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [
+    "3"
+   ],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Société STEPAG",
+   "montant_acte_engagement": 5135368.5,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [
+    "2"
+   ],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Société TIEC",
+   "montant_acte_engagement": 3905442.0,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [
+    "3"
+   ],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 10,
+ "alertes_ocr": [
+  "« Société STEPAG RABAIS » absent de la liste des plis déposés (nom mal lu ?).",
+  "« Société TIEC RABAIS » absent de la liste des plis déposés (nom mal lu ?).",
+  "« Société SODR RABAIS » absent de la liste des plis déposés (nom mal lu ?).",
+  "« Société SBNH RABAIS » absent de la liste des plis déposés (nom mal lu ?).",
+  "« Société STEPAG » absent de la liste des plis déposés (nom mal lu ?).",
+  "« Société TIEC » absent de la liste des plis déposés (nom mal lu ?)."
+ ],
+ "notes_ocr": [
+  "Marché alloti (3 lots)."
+ ],
+ "qualite": "complet"
+}

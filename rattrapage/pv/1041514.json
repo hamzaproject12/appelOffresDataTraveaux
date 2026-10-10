@@ -1,0 +1,63 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "1041514",
+ "orgAcronyme": "p8x",
+ "reference_pv": null,
+ "nouveau": true,
+ "reference": null,
+ "objet": "Travaux de construction du lycée collégial AL ANOUAR A EL AZZOUZIA ARRONDISSEMENT MENARA relevant de la direction provinciale de Marrakech en lot unique",
+ "acheteur": null,
+ "procedure": "appel d'offres ouvert",
+ "categorie": "Travaux",
+ "date_limite_plis": "10/09/2026",
+ "lieu_ouverture": "La salle des réunions à la Direction Provinciale de Marrakech",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "16/09/2026",
+ "justification": "Concurrent ayant présenté l’offre économiquement la plus avantageuse.",
+ "infructueux": false,
+ "attributaire": "STE LES GRANDS BATISSEURS INNOVANTS SARL « LGBI",
+ "montant_attribue": 12897749.1,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "STE AOUNATE DE CONSTRUCTION",
+   "montant_acte_engagement": 13234212.12,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "STE LES GRANDS BATISSEURS INNOVANTS SARL « LGBI",
+   "montant_acte_engagement": 12897749.1,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "SARL « LGBI",
+   "montant_acte_engagement": 12898260.0,
+   "montant_apres_verification": 12897749.1,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 3,
+ "alertes_ocr": [
+  "« SARL « LGBI » absent de la liste des plis déposés (nom mal lu ?)."
+ ],
+ "notes_ocr": [
+  "« SARL « LGBI » : montant rectifié de 12 898 260.00 à 12 897 749.10 DH.",
+  "Maître d'ouvrage absent du PV (utiliser l'acheteur public du portail)."
+ ],
+ "qualite": "complet"
+}

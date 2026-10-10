@@ -1,0 +1,76 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "816728",
+ "orgAcronyme": "g3h",
+ "reference_pv": "01/2024/SDL3TD",
+ "nouveau": true,
+ "reference": "01/2024/SDL3TD",
+ "objet": null,
+ "acheteur": null,
+ "procedure": null,
+ "categorie": "Travaux",
+ "date_limite_plis": "04/07/2024",
+ "lieu_ouverture": "Salle de réunion de la société de développement local TANGER TETOUAN TRAVAUX DE DISTRIBUTION SA Les iournaux avant publié l'avis de publicité",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "18/07/2024",
+ "justification": "Offres moins disantes conformes aux critères d'attribution prévues par le règlement particulier de l'appel d'offre et le règlement des marchés de la SDL 3TD.",
+ "infructueux": false,
+ "attributaire": "ECTE (LOT1 offre de base)",
+ "montant_attribue": 10253361.0,
+ "attributaires_par_lot": [
+  {
+   "lot": null,
+   "attributaire": "ECTE (LOT1 offre de base)",
+   "montant": 10253361.0
+  },
+  {
+   "lot": null,
+   "attributaire": "KAZINOV",
+   "montant": 11075880.0
+  }
+ ],
+ "soumissionnaires": [
+  {
+   "nom": "ECTE",
+   "montant_acte_engagement": 13373361.0,
+   "montant_apres_verification": 13373361.0,
+   "autres_montants": [],
+   "lots": [
+    "1"
+   ],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "ECTE (LOT1 offre de base)",
+   "montant_acte_engagement": 10253361.0,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "KAZINOV",
+   "montant_acte_engagement": 11075880.0,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 3,
+ "alertes_ocr": [
+  "« ECTE (LOT1 offre de base) » absent de la liste des plis déposés (nom mal lu ?).",
+  "« KAZINOV » absent de la liste des plis déposés (nom mal lu ?)."
+ ],
+ "notes_ocr": [
+  "Maître d'ouvrage absent du PV (utiliser l'acheteur public du portail)."
+ ],
+ "qualite": "complet"
+}

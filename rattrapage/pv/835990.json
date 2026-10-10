@@ -1,0 +1,64 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "835990",
+ "orgAcronyme": "d4q",
+ "reference_pv": "31/DRD/CE/2024",
+ "nouveau": true,
+ "reference": "31/DRD/CE/2024",
+ "objet": "Alimentation en eau potable des populations rurales de la province de Zagora à partir du barrage d’Agdez Groupe",
+ "acheteur": null,
+ "procedure": "appel d'offres ouvert",
+ "categorie": "Travaux",
+ "date_limite_plis": "10/07/2024",
+ "lieu_ouverture": "Siège de la Direction Régionale Daraa-Tafilalet (DRD) Avenue Mohamed VI - Azemmour J'did - Errachidia",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "09/10/2024",
+ "justification": "Moins-disant",
+ "infructueux": false,
+ "attributaire": "OMEGA FLUIDES",
+ "montant_attribue": 5600000.0,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "NE ss",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "depose",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "OMEGA FLUIDES",
+   "montant_acte_engagement": 5600000.0,
+   "montant_apres_verification": null,
+   "autres_montants": [
+    5600000.0
+   ],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "VIMAGI",
+   "montant_acte_engagement": 5837040.0,
+   "montant_apres_verification": null,
+   "autres_montants": [
+    5837040.0
+   ],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 3,
+ "alertes_ocr": [],
+ "notes_ocr": [
+  "Maître d'ouvrage absent du PV (utiliser l'acheteur public du portail)."
+ ],
+ "qualite": "complet"
+}

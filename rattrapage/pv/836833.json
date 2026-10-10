@@ -1,0 +1,71 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "836833",
+ "orgAcronyme": "o8p",
+ "reference_pv": "AO/97/ANEPCEST/2024",
+ "nouveau": true,
+ "reference": "AO/97/ANEPCEST/2024",
+ "objet": "« TRAVAUX DE CONSTRUCTION DE L'INTERNAT DU COLLEGE BADIER COMMUNE FRITISSA, PROVINCE BOULMANE »",
+ "acheteur": null,
+ "procedure": "appel d'offres ouvert national",
+ "categorie": "Travaux",
+ "date_limite_plis": "26/09/2024",
+ "lieu_ouverture": "le bureau du Directeur Régional de l'Agence Nationale des Equipements",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "10/10/2024",
+ "justification": "l'offre économiquement la fus avantageuse",
+ "infructueux": false,
+ "attributaire": "Groupement CASA OMEGA TRAVAUX SARL AU et STE SOURIBAK TRAVAUX SARL AU",
+ "montant_attribue": 9238372.0,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "STESTDH SARLAU 7",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "STE GEANTRAV SARL AU",
+   "montant_acte_engagement": 8425620.0,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Groupement CASA OMEGA TRAVAUX SARL AU et STE SOURIBAK TRAVAUX SARL AU",
+   "montant_acte_engagement": 8238372.0,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": true
+  },
+  {
+   "nom": "STE STDH SARL AU",
+   "montant_acte_engagement": 8937561.6,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 4,
+ "alertes_ocr": [
+  "« STE STDH SARL AU » absent de la liste des plis déposés (nom mal lu ?)."
+ ],
+ "notes_ocr": [
+  "Maître d'ouvrage absent du PV (utiliser l'acheteur public du portail)."
+ ],
+ "qualite": "complet"
+}

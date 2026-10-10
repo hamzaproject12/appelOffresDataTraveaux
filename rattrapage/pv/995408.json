@@ -1,0 +1,72 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "995408",
+ "orgAcronyme": "j0w",
+ "reference_pv": "01/2026/cshh",
+ "nouveau": true,
+ "reference": "01/2026/cshh",
+ "objet": "Construction de la Route Relient la Route Provincial 2218 Vers Bouazad Sur Une Longueur de 1,430 km Commune Sidi Ahmed Ou Hamed Province Essaouira",
+ "acheteur": "COMMUNE DE SIDI H'MAD OUHAMED",
+ "procedure": null,
+ "categorie": "Travaux",
+ "date_limite_plis": "03/03/2026",
+ "lieu_ouverture": "COMMUNE DE SIDI H'MAD OUHAMED",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "17/03/2026",
+ "justification": "Le candidat relevant de l’activité de l’objet du marché et ayant répondu favorablement aux conditions exigées est : la SOCIETE INNOVA ROUTE S.A.R.L",
+ "infructueux": false,
+ "attributaire": "STE INNOVA ROUTE S.A.R.L.",
+ "montant_attribue": null,
+ "attributaires_par_lot": [
+  {
+   "lot": null,
+   "attributaire": "STE INNOVA ROUTE S.A.R.L.",
+   "montant": null
+  },
+  {
+   "lot": null,
+   "attributaire": "STE AREHAL TRAVAUX S.A.R.A.U",
+   "montant": null
+  }
+ ],
+ "soumissionnaires": [
+  {
+   "nom": "STE INNOVA ROUTE S.A.R.L.",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "khattabia,imm B,1° etage,n°3-marrakech",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "STE AREHAL TRAVAUX S.A.R.A.U",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 3,
+ "alertes_ocr": [
+  "Montant de l'attributaire « STE INNOVA ROUTE S.A.R.L. » non trouvé.",
+  "Montant de l'attributaire « STE AREHAL TRAVAUX S.A.R.A.U » non trouvé."
+ ],
+ "notes_ocr": [],
+ "qualite": "participants"
+}

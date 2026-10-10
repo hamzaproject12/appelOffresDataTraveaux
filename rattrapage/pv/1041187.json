@@ -1,0 +1,87 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "1041187",
+ "orgAcronyme": "g3h",
+ "reference_pv": "35/OA/2026",
+ "nouveau": true,
+ "reference": "35/OA/2026",
+ "objet": null,
+ "acheteur": null,
+ "procedure": "appel d'offres ouvert",
+ "categorie": "Travaux",
+ "date_limite_plis": "24/07/2026",
+ "lieu_ouverture": "Bureau de la Société « OUARZAZATE AMENAGEMENT », Province d’Ouarzazate, avenue Mohammed VI - Ouarzazate",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "17/09/2026",
+ "justification": "Offre conforme aux exigences du Règlement de la consultation et offre économiquement la plus avantageuse.",
+ "infructueux": false,
+ "attributaire": "WINARUS",
+ "montant_attribue": 9609753.6,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "SOALHA CONSTRUCTIONS",
+   "montant_acte_engagement": 9753612.0,
+   "montant_apres_verification": 9753612.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "INBS",
+   "montant_acte_engagement": 10406365.59,
+   "montant_apres_verification": 10406365.59,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "OUVRAGE CONTRACTOR",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_dossier_administratif_technique",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "MASKRT TRAVAUX",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_dossier_administratif_technique",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "ALMO JARDIN",
+   "montant_acte_engagement": 9157251.6,
+   "montant_apres_verification": 9157251.6,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "WINARUS",
+   "montant_acte_engagement": 9609753.6,
+   "montant_apres_verification": 9609753.6,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 6,
+ "alertes_ocr": [],
+ "notes_ocr": [
+  "Maître d'ouvrage absent du PV (utiliser l'acheteur public du portail)."
+ ],
+ "qualite": "complet"
+}

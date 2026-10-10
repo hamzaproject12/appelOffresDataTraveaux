@@ -1,0 +1,88 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "927918",
+ "orgAcronyme": "d4q",
+ "reference_pv": null,
+ "nouveau": true,
+ "reference": null,
+ "objet": null,
+ "acheteur": null,
+ "procedure": "appel d'offres ouvert",
+ "categorie": "Travaux",
+ "date_limite_plis": "18/06/2025",
+ "lieu_ouverture": "au siège de la Direction Régionale du Nord (DR9) - 4, Pue Melilla, Castilla - Tanger - Maroc",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "03/09/2025",
+ "justification": "Moins-disant",
+ "infructueux": false,
+ "attributaire": "LMM AGENCEMENT MAROC",
+ "montant_attribue": 77220.0,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "ASMAE ALI NEGOCE MAROC",
+   "montant_acte_engagement": 128700.0,
+   "montant_apres_verification": null,
+   "autres_montants": [
+    128700.0
+   ],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "GLOBAL NASSIH EXPERTISE MAROC",
+   "montant_acte_engagement": 136500.0,
+   "montant_apres_verification": null,
+   "autres_montants": [
+    136500.0
+   ],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "LMM AGENCEMENT MAROC",
+   "montant_acte_engagement": 77220.0,
+   "montant_apres_verification": null,
+   "autres_montants": [
+    77220.0
+   ],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "NORA BUREAUX MAROC",
+   "montant_acte_engagement": 114582.0,
+   "montant_apres_verification": null,
+   "autres_montants": [
+    114582.0
+   ],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "SAKAT MAROC",
+   "montant_acte_engagement": 132600.0,
+   "montant_apres_verification": null,
+   "autres_montants": [
+    132600.0
+   ],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 5,
+ "alertes_ocr": [],
+ "notes_ocr": [
+  "Maître d'ouvrage absent du PV (utiliser l'acheteur public du portail)."
+ ],
+ "qualite": "complet"
+}

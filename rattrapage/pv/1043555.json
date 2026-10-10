@@ -1,0 +1,83 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "1043555",
+ "orgAcronyme": "l1f",
+ "reference_pv": "02/2026",
+ "nouveau": true,
+ "reference": "02/2026",
+ "objet": "Travaux d'aménagement des trottoirs de la voie traversant le Centre de Beni Gorfet (2éme tranche) à la Commune de Beni Gorfet Province Larache",
+ "acheteur": "Commune de Beni Gorfet",
+ "procedure": "appel d'offres ouvert",
+ "categorie": "Travaux",
+ "date_limite_plis": "10/09/2026",
+ "lieu_ouverture": "Bureau du Président de la Commune",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "25/09/2026",
+ "justification": "Offre économiquement la plus avantageuse",
+ "infructueux": false,
+ "attributaire": "EL2 Sté B.NL.H SARL AU",
+ "montant_attribue": 573924.0,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "EL1 Sté SIGATER TRAVAUX SARL AU",
+   "montant_acte_engagement": 573516.0,
+   "montant_apres_verification": 573516.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "EL2 Sté B.\\...+ SARL AU",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "arf ELS Sté MASSIGAN SARL AU",
+   "montant_acte_engagement": 578880.0,
+   "montant_apres_verification": 578880.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "EL5 Sté SYA TRAVAUX SARL",
+   "montant_acte_engagement": 575220.0,
+   "montant_apres_verification": 575220.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "EL2 Sté B.NL.H SARL AU",
+   "montant_acte_engagement": 573924.0,
+   "montant_apres_verification": 573924.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 5,
+ "alertes_ocr": [
+  "« EL1 Sté SIGATER TRAVAUX SARL AU » absent de la liste des plis déposés (nom mal lu ?).",
+  "« arf ELS Sté MASSIGAN SARL AU » absent de la liste des plis déposés (nom mal lu ?).",
+  "« EL5 Sté SYA TRAVAUX SARL » absent de la liste des plis déposés (nom mal lu ?).",
+  "« EL2 Sté B.NL.H SARL AU » absent de la liste des plis déposés (nom mal lu ?)."
+ ],
+ "notes_ocr": [
+  "« EL2 Sté B.\\...+ SARL AU » absent de la liste des plis déposés (nom mal lu ?)."
+ ],
+ "qualite": "complet"
+}

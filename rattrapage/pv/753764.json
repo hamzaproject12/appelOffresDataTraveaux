@@ -1,0 +1,54 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "753764",
+ "orgAcronyme": "f9f",
+ "reference_pv": null,
+ "nouveau": true,
+ "reference": null,
+ "objet": null,
+ "acheteur": "la Commune d'Inezgane",
+ "procedure": "appel d'offres ouvert",
+ "categorie": "Travaux",
+ "date_limite_plis": "17/10/2023",
+ "lieu_ouverture": "Bureaux de Mr Le Président de la Commune d'Inezgane",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "09/11/2023",
+ "justification": null,
+ "infructueux": false,
+ "attributaire": "Société Adjudicataire",
+ "montant_attribue": null,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "Sté NAIT ELKHALFAOUI TRAVAUX sarl",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Société Adjudicataire",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 2,
+ "alertes_ocr": [
+  "« Société Adjudicataire » absent de la liste des plis déposés (nom mal lu ?).",
+  "Montant de l'attributaire « Société Adjudicataire » non trouvé."
+ ],
+ "notes_ocr": [
+  "« Sté NAIT ELKHALFAOUI TRAVAUX sarl » absent de la liste des plis déposés (nom mal lu ?)."
+ ],
+ "qualite": "participants"
+}

@@ -1,0 +1,94 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "967375",
+ "orgAcronyme": "d4q",
+ "reference_pv": "55/DR1/CI/2025",
+ "nouveau": true,
+ "reference": "55/DR1/CI/2025",
+ "objet": "Renouvellement des équipements hydromécaniques et de régulation de la",
+ "acheteur": null,
+ "procedure": "appel d'offres ouvert",
+ "categorie": "Travaux",
+ "date_limite_plis": "06/10/2025",
+ "lieu_ouverture": "au siège de la Direction Régionale Souss-Massa (DR1) Rue 18 Novembre Quartier Industriel - Agadir - Maroc AISSAM ELEC",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "29/12/2025",
+ "justification": "Moins-disant",
+ "infructueux": true,
+ "attributaire": null,
+ "montant_attribue": null,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "MAROC",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_dossier_administratif_technique",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Le Matin (Français)",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_dossier_administratif_technique",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Assahra Al Maghribia (Arabe)",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_dossier_administratif_technique",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "JOURNAL DATE DE PUBLICATION",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_dossier_administratif_technique",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "DR1/C - Division Achats - DR1",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_offre_financiere",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "OMNIUM HYDROLIQUE ET ELECTRIQUE - Offre de base",
+   "montant_acte_engagement": 953580.0,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 6,
+ "alertes_ocr": [
+  "« OMNIUM HYDROLIQUE ET ELECTRIQUE - Offre de base » absent de la liste des plis déposés (nom mal lu ?)."
+ ],
+ "notes_ocr": [
+  "« MAROC » absent de la liste des plis déposés (nom mal lu ?).",
+  "« Le Matin (Français) » absent de la liste des plis déposés (nom mal lu ?).",
+  "« Assahra Al Maghribia (Arabe) » absent de la liste des plis déposés (nom mal lu ?).",
+  "« JOURNAL DATE DE PUBLICATION » absent de la liste des plis déposés (nom mal lu ?).",
+  "« DR1/C - Division Achats - DR1 » absent de la liste des plis déposés (nom mal lu ?).",
+  "Maître d'ouvrage absent du PV (utiliser l'acheteur public du portail)."
+ ],
+ "qualite": "attribution"
+}

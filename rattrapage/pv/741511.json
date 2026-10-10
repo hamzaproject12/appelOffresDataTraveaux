@@ -1,0 +1,77 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "741511",
+ "orgAcronyme": "a1t",
+ "reference_pv": "DCT/TRAVAUX-AEP-TARGUIST-BNI",
+ "nouveau": true,
+ "reference": "DCT/TRAVAUX-AEP-TARGUIST-BNI",
+ "objet": "TRAVAUX DE DEVIATION DE LA CONDUITE D'EAU POTABLE POUR L’ACHEVEMENT DES TRAVAUX",
+ "acheteur": "Agence pour la Promotion et le Développement Economique et Social des Préfectures et Provinces du Nord du Royaume",
+ "procedure": null,
+ "categorie": "Travaux",
+ "date_limite_plis": "11/09/2023",
+ "lieu_ouverture": null,
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "13/09/2025",
+ "justification": "L'offre la moins disante présentée par la société « SOCIETE NOUVELLE AIRE DES TRAVAUX » avec un montant de : (3 368 232.00 Dhs 1 1C) comme suit «trois millions trois cent soixante huit dirhams deux cent trente deux dirhams toutes taxes comprises ».",
+ "infructueux": false,
+ "attributaire": null,
+ "montant_attribue": null,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "OUMOUJANE TRAVAUX",
+   "montant_acte_engagement": 4575792.0,
+   "montant_apres_verification": null,
+   "autres_montants": [
+    4575792.0
+   ],
+   "lots": [],
+   "statut": "ecarte_offre_financiere",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Angle Rue Sijelmassa et Rue Abou Jarir, quartier administratif, Tanger",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "depose",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "GROUPEMENT GAMA BAT sarl &",
+   "montant_acte_engagement": 3998352.0,
+   "montant_apres_verification": null,
+   "autres_montants": [
+    3998352.0
+   ],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "SOCIETE NOUVELLE AIRE DES",
+   "montant_acte_engagement": 3368232.0,
+   "montant_apres_verification": null,
+   "autres_montants": [
+    3368232.0
+   ],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 4,
+ "alertes_ocr": [
+  "« GROUPEMENT GAMA BAT sarl & » absent de la liste des plis déposés (nom mal lu ?).",
+  "« SOCIETE NOUVELLE AIRE DES » absent de la liste des plis déposés (nom mal lu ?).",
+  "Attributaire non trouvé."
+ ],
+ "notes_ocr": [],
+ "qualite": "complet"
+}

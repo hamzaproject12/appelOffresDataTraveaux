@@ -1,0 +1,51 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "980383",
+ "orgAcronyme": "j8k",
+ "reference_pv": "17/2026",
+ "nouveau": true,
+ "reference": "17/2026",
+ "objet": "TRAVAUX DE VOIRIE, D'ASSAINISSEMENT ET D'ALIMENTATION EN EAU POTABLE DU LOTISSEMENT BLED BENSLIMANE COMMUNE DE FES PREFECTURE DE FES",
+ "acheteur": "AL Omrane Fès-Meknès",
+ "procedure": "appel d'offres ouvert",
+ "categorie": "Travaux",
+ "date_limite_plis": "12/02/2026",
+ "lieu_ouverture": "AL Omrane Fès-Meknès",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "26/02/2026",
+ "justification": "l’offre la moins disante",
+ "infructueux": false,
+ "attributaire": null,
+ "montant_attribue": null,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "GROUPEMENT STE LES NOUVEAUX CHANTIERS DU CENTRE ET STE MENARA",
+   "montant_acte_engagement": 3381616.8,
+   "montant_apres_verification": 3381616.8,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "STE SATRED",
+   "montant_acte_engagement": 3722272.8,
+   "montant_apres_verification": 3722272.8,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 2,
+ "alertes_ocr": [
+  "Attributaire non trouvé."
+ ],
+ "notes_ocr": [],
+ "qualite": "complet"
+}

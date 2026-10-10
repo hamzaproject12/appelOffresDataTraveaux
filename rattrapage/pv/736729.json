@@ -1,0 +1,106 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "736729",
+ "orgAcronyme": "g3h",
+ "reference_pv": "50/A/2023",
+ "nouveau": true,
+ "reference": "50/A/2023",
+ "objet": "TRAVAUX DE REHABILITATION DU RESEAU D'ASSAINISSEMENT LIQUIDE DU QUARTIER TENIS DANS LA VILLE D'OUJDA",
+ "acheteur": "RADEEO",
+ "procedure": null,
+ "categorie": "Travaux",
+ "date_limite_plis": "27/07/2023",
+ "lieu_ouverture": "salle de réunion de la RADEEO",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "16/08/2023",
+ "justification": null,
+ "infructueux": false,
+ "attributaire": "Entreprise EL HAMDANI HASSAN",
+ "montant_attribue": 2474643.6,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "(soumission électronique obligatoirement)",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "depose",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Société GREEN CODE",
+   "montant_acte_engagement": 2506369.8,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Société OUJDA CHAUFFAGE",
+   "montant_acte_engagement": 2750661.54,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Entreprise EL HAMDANI HASSAN",
+   "montant_acte_engagement": 2474643.6,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Y Société SODR",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "depose",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Société STEPAG",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Société SODR Rabaïis",
+   "montant_acte_engagement": 2674518.66,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Société STEPAG Rabais",
+   "montant_acte_engagement": 2680863.9,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 8,
+ "alertes_ocr": [
+  "« Société SODR Rabaïis » absent de la liste des plis déposés (nom mal lu ?).",
+  "« Société STEPAG Rabais » absent de la liste des plis déposés (nom mal lu ?)."
+ ],
+ "notes_ocr": [],
+ "qualite": "complet"
+}

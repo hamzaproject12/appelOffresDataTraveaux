@@ -1,0 +1,60 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "891639",
+ "orgAcronyme": "s3z",
+ "reference_pv": "28/25/AREP-RRSK",
+ "nouveau": true,
+ "reference": "28/25/AREP-RRSK",
+ "objet": "« TRAVAUX DE CONSTRUCTION DES ROUTES RURALES DANS LES COMMUNES AIT OURBIL, SIDI GHANDOUR, HOUDRANE, TIDDAS, AIT ALI OULAHCEN, EZZHILIGUA, MARCHOUCH, AIN SBIT ET AIT MALEK RELEVANT DE LA PROVINCE DE KHEMISSET, REGION",
+ "acheteur": "Agence Régionale d’Exécution des projets de la Région de Rabat- Salé Kénitra",
+ "procedure": "appel d'offres ouvert international",
+ "categorie": "Travaux",
+ "date_limite_plis": "17/04/2025",
+ "lieu_ouverture": "Bureaux de l’Agence Régionale d’Exécution des Projets de la Région de Rabat Salé Kenitra, sis 50, avenue Moulay Ismail, Hassan-Rabat",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "29/04/2025",
+ "justification": "Offre économiquement la plus avantageuse. PTS F",
+ "infructueux": false,
+ "attributaire": "Société LABERAGA Travaux S.A.R.L.A.U",
+ "montant_attribue": 70047264.0,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "EUROLOGISTIQUE SARL",
+   "montant_acte_engagement": 69364461.6,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_offre_financiere",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Société LABERAGA Travaux S.A.R.L.A.U",
+   "montant_acte_engagement": 70047264.0,
+   "montant_apres_verification": 70047264.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "et travaux divers (TR3F) ET Société LABERAGA",
+   "montant_acte_engagement": 70047264.0,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 3,
+ "alertes_ocr": [
+  "« et travaux divers (TR3F) ET Société LABERAGA » absent de la liste des plis déposés (nom mal lu ?)."
+ ],
+ "notes_ocr": [],
+ "qualite": "complet"
+}

@@ -1,0 +1,92 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "924470",
+ "orgAcronyme": "g3h",
+ "reference_pv": "53/2025/LOT",
+ "nouveau": true,
+ "reference": "53/2025/LOT",
+ "objet": null,
+ "acheteur": null,
+ "procedure": "appel d'offres ouvert",
+ "categorie": "Travaux",
+ "date_limite_plis": "05/08/2025",
+ "lieu_ouverture": null,
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "15/08/2025",
+ "justification": "Le concurrent ayant présenté l’offre financière la plus avantageuse et la moins disante. Le concurrent ayant présenté une offre financière avantageuse,",
+ "infructueux": true,
+ "attributaire": "Société ZAHRAT AL MAJD SARL",
+ "montant_attribue": 4823244.0,
+ "attributaires_par_lot": [
+  {
+   "lot": null,
+   "attributaire": "Société ZAHRAT AL MAJD SARL",
+   "montant": 4823244.0
+  },
+  {
+   "lot": null,
+   "attributaire": "Société RACHAD ISTIMTAR",
+   "montant": 5894172.0
+  }
+ ],
+ "soumissionnaires": [
+  {
+   "nom": "Société RACHAD ISTIMTAR",
+   "montant_acte_engagement": 5753472.0,
+   "montant_apres_verification": 11164944.0,
+   "autres_montants": [
+    11164944.0
+   ],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Société PATRIMOINE ET RENOUVEAU SARL",
+   "montant_acte_engagement": 5659176.0,
+   "montant_apres_verification": 11167872.0,
+   "autres_montants": [
+    11167872.0
+   ],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Société ZAHRAT AL MAJD SARL",
+   "montant_acte_engagement": 4823244.0,
+   "montant_apres_verification": 9501336.0,
+   "autres_montants": [
+    9501336.0
+   ],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Société CLUTCH SARL AU",
+   "montant_acte_engagement": 5137680.0,
+   "montant_apres_verification": 10160256.0,
+   "autres_montants": [
+    10160256.0
+   ],
+   "lots": [],
+   "statut": "ecarte_dossier_administratif_technique",
+   "admis_avec_reserve": true
+  }
+ ],
+ "nombre_soumissionnaires": 4,
+ "alertes_ocr": [],
+ "notes_ocr": [
+  "« Société RACHAD ISTIMTAR » : montant rectifié de 5 753 472.00 à 11 164 944.00 DH.",
+  "« Société PATRIMOINE ET RENOUVEAU SARL » : montant rectifié de 5 659 176.00 à 11 167 872.00 DH.",
+  "« Société ZAHRAT AL MAJD SARL » : montant rectifié de 4 823 244.00 à 9 501 336.00 DH.",
+  "« Société CLUTCH SARL AU » : montant rectifié de 5 137 680.00 à 10 160 256.00 DH.",
+  "Maître d'ouvrage absent du PV (utiliser l'acheteur public du portail)."
+ ],
+ "qualite": "complet"
+}

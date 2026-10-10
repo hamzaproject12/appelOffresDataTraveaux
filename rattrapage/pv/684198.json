@@ -1,0 +1,75 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "684198",
+ "orgAcronyme": "d4q",
+ "reference_pv": "52/C/2022",
+ "nouveau": true,
+ "reference": "52/C/2022",
+ "objet": "Travaux d’aménagement de la salle des archives de la RADEETA",
+ "acheteur": null,
+ "procedure": null,
+ "categorie": "Travaux",
+ "date_limite_plis": "24/11/2022",
+ "lieu_ouverture": "Siège de la RADEE.TA fourneux ayant publié Pavis de publicite” \"ATAHDAT AL MAGHRIBIA \" du 02/11/2022 ne TS SPORE\" LE MATIN \" du 02/11/2022",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": null,
+ "justification": "- Dossiers administratif et technique. - Offre avantageuse répondant critères d'évaluation.",
+ "infructueux": false,
+ "attributaire": "Société ADAM EN'AZ",
+ "montant_attribue": 442442.4,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "éan",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_dossier_administratif_technique",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Société ADAM EN'AZ",
+   "montant_acte_engagement": 442442.4,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Siège social: 163, Avenue Allal AI fassi - Taza - B.P",
+   "montant_acte_engagement": 137137.0,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "R.I.B AWB. succursal entreprise Hassan II Taza",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 4,
+ "alertes_ocr": [
+  "« R.I.B AWB. succursal entreprise Hassan II Taza » : montant illisible (7 690 000 944 700 000 DH)  écarté.",
+  "« Société ADAM EN'AZ » absent de la liste des plis déposés (nom mal lu ?).",
+  "« Siège social: 163, Avenue Allal AI fassi - Taza - B.P » absent de la liste des plis déposés (nom mal lu ?)."
+ ],
+ "notes_ocr": [
+  "« éan » absent de la liste des plis déposés (nom mal lu ?).",
+  "« R.I.B AWB. succursal entreprise Hassan II Taza » absent de la liste des plis déposés (nom mal lu ?).",
+  "Maître d'ouvrage absent du PV (utiliser l'acheteur public du portail)."
+ ],
+ "qualite": "complet"
+}

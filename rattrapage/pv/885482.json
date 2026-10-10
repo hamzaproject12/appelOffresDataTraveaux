@@ -1,0 +1,49 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "885482",
+ "orgAcronyme": "f9f",
+ "reference_pv": "01/2025",
+ "nouveau": true,
+ "reference": "01/2025",
+ "objet": "TRAVAUX D'ECLAIRAGE PUBLIC PAR LE SYSTEME SOLAIRE AU NIVEAU DES QUARTIERS : IMYANE, TAZKA, ADAD ET SOUS HOTEL LES AMANDIERS À LA COMMUNE DE TAFRAOUT, PROVINCE DE TIENIT",
+ "acheteur": "Commune de Tafraout",
+ "procedure": "appel d'offres ouvert",
+ "categorie": "Travaux",
+ "date_limite_plis": "19/03/2025",
+ "lieu_ouverture": "la salle des réunions de la commune de Tafraout",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "02/04/2025",
+ "justification": null,
+ "infructueux": false,
+ "attributaire": "STE POLYTEC ITS",
+ "montant_attribue": 492840.0,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "STE UNIVERS ENERGIE",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_dossier_administratif_technique",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "STE POLYTEC ITS",
+   "montant_acte_engagement": 492840.0,
+   "montant_apres_verification": 492840.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 2,
+ "alertes_ocr": [],
+ "notes_ocr": [],
+ "qualite": "attribution"
+}

@@ -1,0 +1,85 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "985785",
+ "orgAcronyme": "p1v",
+ "reference_pv": null,
+ "nouveau": true,
+ "reference": null,
+ "objet": null,
+ "acheteur": null,
+ "procedure": null,
+ "categorie": "Travaux",
+ "date_limite_plis": null,
+ "lieu_ouverture": "Siège de la commune de Zemamra . Journqux oyqnt publié I'ovis de publicité : 1. TIBERATION",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "09/03/2026",
+ "justification": null,
+ "infructueux": false,
+ "attributaire": null,
+ "montant_attribue": null,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "Concurreut",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_dossier_administratif_technique",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Société BATIPRO",
+   "montant_acte_engagement": 1260360.0,
+   "montant_apres_verification": 1260360.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Société IZAKO SARL",
+   "montant_acte_engagement": 1253568.0,
+   "montant_apres_verification": 1253568.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Société SMT BTP",
+   "montant_acte_engagement": 1252248.0,
+   "montant_apres_verification": 1252248.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Société ZINA PROJECT",
+   "montant_acte_engagement": 1439292.0,
+   "montant_apres_verification": 1439292.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 5,
+ "alertes_ocr": [
+  "« Société BATIPRO » absent de la liste des plis déposés (nom mal lu ?).",
+  "« Société IZAKO SARL » absent de la liste des plis déposés (nom mal lu ?).",
+  "« Société SMT BTP » absent de la liste des plis déposés (nom mal lu ?).",
+  "« Société ZINA PROJECT » absent de la liste des plis déposés (nom mal lu ?).",
+  "Attributaire non trouvé."
+ ],
+ "notes_ocr": [
+  "« Concurreut » absent de la liste des plis déposés (nom mal lu ?).",
+  "Maître d'ouvrage absent du PV (utiliser l'acheteur public du portail)."
+ ],
+ "qualite": "complet"
+}

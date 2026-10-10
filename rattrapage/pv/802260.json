@@ -1,0 +1,96 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "802260",
+ "orgAcronyme": "g3h",
+ "reference_pv": "03/SDAD/2024",
+ "nouveau": true,
+ "reference": "03/SDAD/2024",
+ "objet": "TRAVAUX DE REHABILITATION DE RESEAU DE DISTRIBUTION D'EAU POTABLE DE LA VILLE DE DAKHLA",
+ "acheteur": null,
+ "procedure": "appel d'offres ouvert",
+ "categorie": "Travaux",
+ "date_limite_plis": "14/05/2024",
+ "lieu_ouverture": "Secrétariat Général Province D'oued Eddahab",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "28/05/2024",
+ "justification": "Offre conforme aux exigences du Règlement de consultation et la mieux distante.",
+ "infructueux": false,
+ "attributaire": "SOCIETE ALEQ",
+ "montant_attribue": 72324574.8,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "SOCIETE NOUVELLE TRAVAUX MAROC",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_dossier_administratif_technique",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "SOCIETE HS INFRA",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_offre_technique",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "SOCIETE AKOUJE",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_offre_technique",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "SOCIETE OUMOUJANE TRAVAUX",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_offre_technique",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "SOCIETE SOTRADEMA",
+   "montant_acte_engagement": 72924521.0,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_offre_financiere",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "SOCIETE ALEQ",
+   "montant_acte_engagement": 72324574.8,
+   "montant_apres_verification": null,
+   "autres_montants": [
+    72324574.8
+   ],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 6,
+ "alertes_ocr": [
+  "« SOCIETE SOTRADEMA » absent de la liste des plis déposés (nom mal lu ?).",
+  "« SOCIETE ALEQ » absent de la liste des plis déposés (nom mal lu ?)."
+ ],
+ "notes_ocr": [
+  "« SOCIETE NOUVELLE TRAVAUX MAROC » absent de la liste des plis déposés (nom mal lu ?).",
+  "« SOCIETE HS INFRA » absent de la liste des plis déposés (nom mal lu ?).",
+  "« SOCIETE AKOUJE » absent de la liste des plis déposés (nom mal lu ?).",
+  "« SOCIETE OUMOUJANE TRAVAUX » absent de la liste des plis déposés (nom mal lu ?).",
+  "Maître d'ouvrage absent du PV (utiliser l'acheteur public du portail)."
+ ],
+ "qualite": "complet"
+}

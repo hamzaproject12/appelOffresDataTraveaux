@@ -1,0 +1,81 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "1026619",
+ "orgAcronyme": "j0w",
+ "reference_pv": "03/2026",
+ "nouveau": true,
+ "reference": "03/2026",
+ "objet": "TRAVAUX DE CONSTRUCTION ET EQUIPEMENT D'UN CHATEAU D'EAU AU DOUAR EL BERJA MOKA (AIT ERRAMI) À LA COMMUNE AIT IMOUR,",
+ "acheteur": "Commune Ait Imour",
+ "procedure": "appel d'offres ouvert national",
+ "categorie": "Travaux",
+ "date_limite_plis": "25/06/2026",
+ "lieu_ouverture": "la salle des réunions de la commune Ait Imour",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "22/07/2026",
+ "justification": "l'offre la plus avantageuse.",
+ "infructueux": false,
+ "attributaire": null,
+ "montant_attribue": null,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "SOCIETE URBAIN WAT",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "depose",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "SOCIETE TIFZIWIN TRAVAUX",
+   "montant_acte_engagement": 344251.2,
+   "montant_apres_verification": 344251.2,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "SOCIETE MAGIC URBAN",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "depose",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "EL HARRAQ BOUJAMAA",
+   "montant_acte_engagement": 346066.8,
+   "montant_apres_verification": 346066.8,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_offre_financiere",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "SOCIETE TARSOL",
+   "montant_acte_engagement": 347385.6,
+   "montant_apres_verification": 7385.6,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 5,
+ "alertes_ocr": [
+  "Attributaire non trouvé.",
+  "« SOCIETE TARSOL » : écart anormal entre montant initial et vérifié (lecture à vérifier)."
+ ],
+ "notes_ocr": [
+  "« SOCIETE TARSOL » : montant rectifié de 347 385.60 à 7 385.60 DH."
+ ],
+ "qualite": "complet"
+}

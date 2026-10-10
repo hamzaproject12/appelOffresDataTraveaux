@@ -1,0 +1,78 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "782373",
+ "orgAcronyme": "j8k",
+ "reference_pv": null,
+ "nouveau": true,
+ "reference": null,
+ "objet": null,
+ "acheteur": "Al Omrane Rabat-Rabat-Salé",
+ "procedure": "appel d'offres ouvert",
+ "categorie": "Travaux",
+ "date_limite_plis": "19/10/2023",
+ "lieu_ouverture": "Siège d'A] Omrane Rabat-Salé-Kénitra |",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "03/11/2023",
+ "justification": "Moins disant.",
+ "infructueux": false,
+ "attributaire": "CHESA NORD",
+ "montant_attribue": 6850668.0,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "ETACER",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_offre_technique",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "GMTP",
+   "montant_acte_engagement": 7523803.68,
+   "montant_apres_verification": 7523803.68,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "CHESA NORD",
+   "montant_acte_engagement": 6863988.0,
+   "montant_apres_verification": 6850668.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "UNIVERS BAT",
+   "montant_acte_engagement": 7979092.8,
+   "montant_apres_verification": 7979092.8,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "ALEQ",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_offre_technique",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 5,
+ "alertes_ocr": [],
+ "notes_ocr": [
+  "« CHESA NORD » : montant rectifié de 6 863 988.00 à 6 850 668.00 DH."
+ ],
+ "qualite": "complet"
+}

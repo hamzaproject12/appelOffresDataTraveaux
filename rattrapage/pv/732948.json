@@ -1,0 +1,60 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "732948",
+ "orgAcronyme": "o8p",
+ "reference_pv": "ER/10/2023",
+ "nouveau": true,
+ "reference": "ER/10/2023",
+ "objet": null,
+ "acheteur": "Monsieur le Directeur Provincial de l'Equipement, du Transport, de la Logistique et de l’Eau d’Errachidia",
+ "procedure": "appel d'offres ouvert",
+ "categorie": "Travaux",
+ "date_limite_plis": "20/07/2023",
+ "lieu_ouverture": "Le bureau du Directeur provincial de l'Equipement et du",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": null,
+ "justification": null,
+ "infructueux": false,
+ "attributaire": null,
+ "montant_attribue": null,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "CONSAMAR",
+   "montant_acte_engagement": 1007857.44,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "SEVIELEC",
+   "montant_acte_engagement": 1030658.76,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "FASEG",
+   "montant_acte_engagement": 996637.44,
+   "montant_apres_verification": 996637.44,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 3,
+ "alertes_ocr": [
+  "Attributaire non trouvé."
+ ],
+ "notes_ocr": [],
+ "qualite": "complet"
+}

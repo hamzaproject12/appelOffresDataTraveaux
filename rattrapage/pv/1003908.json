@@ -1,0 +1,74 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "1003908",
+ "orgAcronyme": "p1v",
+ "reference_pv": null,
+ "nouveau": true,
+ "reference": null,
+ "objet": "TRAVAUX DE L'ELECTRIFICATION HTA/BT DE 104 FOYERS AU 21 DOUARS (DOUARS OULED CHEIKH, OULED CHBANE MAGROUNATE ,KDADRA ,KRARFA LAAMARNA,BAIRAT,KRARFA OULED FILALI,BLALA,/CHEMMAMA BEN MHAMMED,LAAOUAOUDA ,OULED",
+ "acheteur": "COMMUNE OULED AMRANE",
+ "procedure": null,
+ "categorie": "Travaux",
+ "date_limite_plis": "17/03/2026",
+ "lieu_ouverture": null,
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": null,
+ "justification": null,
+ "infructueux": false,
+ "attributaire": null,
+ "montant_attribue": null,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "STE ICOMEL SARL",
+   "montant_acte_engagement": 6954522.96,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "SSTE ELECTRO TAFOGHALT SARL",
+   "montant_acte_engagement": 7050437.72,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Conçurent retenue",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_offre_financiere",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Ouled Amrane, le",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_offre_financiere",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 4,
+ "alertes_ocr": [
+  "« STE ICOMEL SARL » absent de la liste des plis déposés (nom mal lu ?).",
+  "« SSTE ELECTRO TAFOGHALT SARL » absent de la liste des plis déposés (nom mal lu ?).",
+  "Attributaire non trouvé."
+ ],
+ "notes_ocr": [
+  "« Conçurent retenue » absent de la liste des plis déposés (nom mal lu ?).",
+  "« Ouled Amrane, le » absent de la liste des plis déposés (nom mal lu ?)."
+ ],
+ "qualite": "complet"
+}

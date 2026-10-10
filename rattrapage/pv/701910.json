@@ -1,0 +1,94 @@
+{
+ "source": "extrait_docx",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "701910",
+ "orgAcronyme": "j8k",
+ "reference_pv": null,
+ "nouveau": true,
+ "reference": null,
+ "objet": "Travaux d’éclairage public hors site du lotissement Titrit, sis à la collectivité territoriale Ait Amira, province Chtouka Ait Baha",
+ "acheteur": null,
+ "procedure": "appel d'offres ouvert",
+ "categorie": "Travaux",
+ "date_limite_plis": "17/03/2023",
+ "lieu_ouverture": "Division des Marchés de la Société Al Omrane souss Massa",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "23/03/2023",
+ "justification": "Concurrent représentant l’offre la plus avantageuse.",
+ "infructueux": false,
+ "attributaire": "ELECTRIKLIM",
+ "montant_attribue": 4650059.15,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "ELECTRIKLIM",
+   "montant_acte_engagement": 4650059.15,
+   "montant_apres_verification": 4650059.15,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "ELECTRICITE AKHENKHAM",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_dossier_administratif_technique",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "C.C.R.E",
+   "montant_acte_engagement": 5568549.84,
+   "montant_apres_verification": 5568549.84,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "SELFIM",
+   "montant_acte_engagement": 5376530.88,
+   "montant_apres_verification": 5376530.88,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "ATPLUM",
+   "montant_acte_engagement": 5408534.04,
+   "montant_apres_verification": 5408534.04,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "ELECTRIQUE 2002 TAGHZOUT",
+   "montant_acte_engagement": 5280521.4,
+   "montant_apres_verification": 5280521.4,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 6,
+ "alertes_ocr": [
+  "« ELECTRIKLIM » absent de la liste des plis déposés (nom mal lu ?).",
+  "« C.C.R.E » absent de la liste des plis déposés (nom mal lu ?).",
+  "« SELFIM » absent de la liste des plis déposés (nom mal lu ?).",
+  "« ATPLUM » absent de la liste des plis déposés (nom mal lu ?).",
+  "« ELECTRIQUE 2002 TAGHZOUT » absent de la liste des plis déposés (nom mal lu ?)."
+ ],
+ "notes_ocr": [
+  "« ELECTRICITE AKHENKHAM » absent de la liste des plis déposés (nom mal lu ?).",
+  "Maître d'ouvrage absent du PV (utiliser l'acheteur public du portail)."
+ ],
+ "qualite": "complet"
+}

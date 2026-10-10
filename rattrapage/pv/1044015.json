@@ -1,0 +1,67 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "1044015",
+ "orgAcronyme": "g3h",
+ "reference_pv": "120/2026/EL",
+ "nouveau": true,
+ "reference": "120/2026/EL",
+ "objet": null,
+ "acheteur": null,
+ "procedure": null,
+ "categorie": "Travaux",
+ "date_limite_plis": "01/09/2026",
+ "lieu_ouverture": "Salle de réunion de la Société Régionale Multiservices Tanger-Tétouan-Al Hoceima « SRM-TTA »",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "29/09/2026",
+ "justification": "L'offre la plus avantageuse est l'offre la moins disante, conforme aux critères d'attribution prévues par le règlement de consultation de l'appel d'offres.",
+ "infructueux": true,
+ "attributaire": "INGEPEL",
+ "montant_attribue": 7505427.55,
+ "attributaires_par_lot": [
+  {
+   "lot": "1",
+   "attributaire": "INGEPEL",
+   "montant": 7505427.55
+  },
+  {
+   "lot": "3",
+   "attributaire": "INGEPEL",
+   "montant": 8203738.81
+  }
+ ],
+ "soumissionnaires": [
+  {
+   "nom": "INGEPEL",
+   "montant_acte_engagement": 7505427.55,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [
+    "1",
+    "2",
+    "3"
+   ],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "SBAI ABDESSELAM",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_dossier_administratif_technique",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 2,
+ "alertes_ocr": [],
+ "notes_ocr": [
+  "Marché alloti (3 lots).",
+  "Maître d'ouvrage absent du PV (utiliser l'acheteur public du portail)."
+ ],
+ "qualite": "attribution"
+}

@@ -1,0 +1,117 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "755291",
+ "orgAcronyme": "q1s",
+ "reference_pv": "54/2023/0RH/SM",
+ "nouveau": true,
+ "reference": "54/2023/0RH/SM",
+ "objet": "TRAVAUX DE REPARATION ET D'ENTRETIEN DES BATIMENTS ADMINISTRATIFS DE L'ORMVA DU HAOUZ",
+ "acheteur": null,
+ "procedure": null,
+ "categorie": "Travaux",
+ "date_limite_plis": "26/10/2023",
+ "lieu_ouverture": "Siège de l'Office Régional de Mise en Valeur Agricole du Haouz",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "14/11/2023",
+ "justification": "l'Offre la plus avantageuse est présentée par la société NOUR BETON SARL - AU.",
+ "infructueux": false,
+ "attributaire": "NOUR BETON SARL - AU",
+ "montant_attribue": 114624.0,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "CHISRA TRAVAUX",
+   "montant_acte_engagement": 134148.0,
+   "montant_apres_verification": 134148.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "TRATICTRA",
+   "montant_acte_engagement": 120180.0,
+   "montant_apres_verification": 120180.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "STE BAHOMAY",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_dossier_administratif_technique",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "TIFARDINE",
+   "montant_acte_engagement": 132048.0,
+   "montant_apres_verification": 132048.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "BIG CONSTRUCTION COMPANY",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_offre_financiere",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "MENUISERIE EL ARGOUBI",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_dossier_administratif_technique",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "STE PRO POOL",
+   "montant_acte_engagement": 436056.0,
+   "montant_apres_verification": 136056.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "STE SUD 1 1CGC",
+   "montant_acte_engagement": 134340.0,
+   "montant_apres_verification": 134340.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "NOUR BETON SARL - AU",
+   "montant_acte_engagement": 114624.0,
+   "montant_apres_verification": 114624.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 9,
+ "alertes_ocr": [
+  "« STE PRO POOL » : écart anormal entre montant initial et vérifié (lecture à vérifier)."
+ ],
+ "notes_ocr": [
+  "« STE PRO POOL » : montant rectifié de 436 056.00 à 136 056.00 DH.",
+  "Maître d'ouvrage absent du PV (utiliser l'acheteur public du portail)."
+ ],
+ "qualite": "complet"
+}

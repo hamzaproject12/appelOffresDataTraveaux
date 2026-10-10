@@ -1,0 +1,71 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "782148",
+ "orgAcronyme": "j8k",
+ "reference_pv": "93/2023/K-TRA",
+ "nouveau": true,
+ "reference": "93/2023/K-TRA",
+ "objet": null,
+ "acheteur": "Al Omrane Rabat-Rabat-Salé",
+ "procedure": "appel d'offres ouvert",
+ "categorie": "Travaux",
+ "date_limite_plis": "27/12/2023",
+ "lieu_ouverture": "Siège d'Al Omrane Rabat-Salé-Kénitra",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "01/02/2024",
+ "justification": "Moins disant.",
+ "infructueux": false,
+ "attributaire": "CHESA NORD",
+ "montant_attribue": 1619433.6,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "ETACER",
+   "montant_acte_engagement": 1886983.2,
+   "montant_apres_verification": 1886983.2,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "CHESA NORD",
+   "montant_acte_engagement": 1619433.6,
+   "montant_apres_verification": 284668.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "INJAZAT PROJET",
+   "montant_acte_engagement": 2284668.0,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "AUTO ENTRPRENEUR EL MALAH MOHAMED",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_dossier_administratif_technique",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 4,
+ "alertes_ocr": [
+  "« CHESA NORD » : écart anormal entre montant initial et vérifié (lecture à vérifier)."
+ ],
+ "notes_ocr": [
+  "« CHESA NORD » : montant rectifié de 1 619 433.60 à 284 668.00 DH."
+ ],
+ "qualite": "complet"
+}

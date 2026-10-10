@@ -1,0 +1,61 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "836475",
+ "orgAcronyme": "d4q",
+ "reference_pv": null,
+ "nouveau": true,
+ "reference": null,
+ "objet": null,
+ "acheteur": null,
+ "procedure": "appel d'offres ouvert",
+ "categorie": "Travaux",
+ "date_limite_plis": "29/05/2024",
+ "lieu_ouverture": "à la Salle d'ouverture de l'Immeuble G - Avenue Mohamed Belhassan El Ouazzani - Rabat",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "10/10/2024",
+ "justification": "Moins-disant",
+ "infructueux": false,
+ "attributaire": "GROUP WATERLEAU GROUP/ CTHM/ NGE",
+ "montant_attribue": 315965506.98,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "GROUP ATNER/ EGCA MAROC - MAROC",
+   "montant_acte_engagement": 339267520.8,
+   "montant_apres_verification": 339267520.8,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "GROUP SOGEA MAROC / SOGETRAMA GLS Dossiers Technique et Additif",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_dossier_administratif_technique",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "GROUP WATERLEAU GROUP/ CTHM/ NGE",
+   "montant_acte_engagement": 325182688.69,
+   "montant_apres_verification": 315965506.98,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 3,
+ "alertes_ocr": [],
+ "notes_ocr": [
+  "« GROUP WATERLEAU GROUP/ CTHM/ NGE » : montant rectifié de 325 182 688.69 à 315 965 506.98 DH.",
+  "Maître d'ouvrage absent du PV (utiliser l'acheteur public du portail)."
+ ],
+ "qualite": "complet"
+}

@@ -1,0 +1,82 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "701119",
+ "orgAcronyme": "d4q",
+ "reference_pv": null,
+ "nouveau": true,
+ "reference": null,
+ "objet": null,
+ "acheteur": null,
+ "procedure": null,
+ "categorie": "Travaux",
+ "date_limite_plis": "16/02/2023",
+ "lieu_ouverture": "Siège de la Direction Régionale Distribution Agadir",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "16/03/2023",
+ "justification": "L'offre proposée par le soumissionnaire « Sté GRUND » s’écarte d’un taux acceptable de -10,82 par rapport à l'estimation",
+ "infructueux": false,
+ "attributaire": "Sté GRUND",
+ "montant_attribue": 663240.0,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "Sté BOUSSIK D'ELECTRICITE",
+   "montant_acte_engagement": 833616.0,
+   "montant_apres_verification": 833616.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Sté SPINELEC",
+   "montant_acte_engagement": 730800.0,
+   "montant_apres_verification": 730800.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Sté GRUND",
+   "montant_acte_engagement": 663240.0,
+   "montant_apres_verification": 663240.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Sté FARATEC",
+   "montant_acte_engagement": 687480.0,
+   "montant_apres_verification": 687480.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Sté MAYEC",
+   "montant_acte_engagement": 848160.0,
+   "montant_apres_verification": 848160.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 5,
+ "alertes_ocr": [
+  "« Sté GRUND » absent de la liste des plis déposés (nom mal lu ?).",
+  "« Sté FARATEC » absent de la liste des plis déposés (nom mal lu ?).",
+  "« Sté MAYEC » absent de la liste des plis déposés (nom mal lu ?)."
+ ],
+ "notes_ocr": [
+  "Maître d'ouvrage absent du PV (utiliser l'acheteur public du portail)."
+ ],
+ "qualite": "complet"
+}

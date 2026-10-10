@@ -1,0 +1,67 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "1001189",
+ "orgAcronyme": "g3h",
+ "reference_pv": null,
+ "nouveau": true,
+ "reference": null,
+ "objet": "Travaux d’entretien des ouvrages et renouvellement du réseau d’assainissement liquide de la ville de Fès (2 lots) : Lot n°1 : Zone ville nouvelle et Ouest,",
+ "acheteur": "Société Régionale Multiservices Fès Meknès « SRM-FM »",
+ "procedure": null,
+ "categorie": "Travaux",
+ "date_limite_plis": "16/04/2026",
+ "lieu_ouverture": "Siège de la SRM-FM",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "05/05/2026",
+ "justification": "L’offre la plus avantageuse.",
+ "infructueux": false,
+ "attributaire": "RAZ TRAVAUX",
+ "montant_attribue": 3610830.0,
+ "attributaires_par_lot": [
+  {
+   "lot": null,
+   "attributaire": "RAZ TRAVAUX",
+   "montant": 3610830.0
+  },
+  {
+   "lot": null,
+   "attributaire": "Groupement PLOMB & SOBOUWAT Lot 2",
+   "montant": 1425275.0
+  }
+ ],
+ "soumissionnaires": [
+  {
+   "nom": "Groupement PLOMB & SOBOUWAT Lot 2",
+   "montant_acte_engagement": 1425275.0,
+   "montant_apres_verification": 1710330.0,
+   "autres_montants": [
+    1710330.0
+   ],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "RAZ TRAVAUX",
+   "montant_acte_engagement": 3610830.0,
+   "montant_apres_verification": 4332996.0,
+   "autres_montants": [
+    4332996.0
+   ],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 2,
+ "alertes_ocr": [],
+ "notes_ocr": [
+  "« Groupement PLOMB & SOBOUWAT Lot 2 » : montant rectifié de 1 425 275.00 à 1 710 330.00 DH.",
+  "« RAZ TRAVAUX » : montant rectifié de 3 610 830.00 à 4 332 996.00 DH."
+ ],
+ "qualite": "attribution"
+}

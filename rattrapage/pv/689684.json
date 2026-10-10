@@ -1,0 +1,78 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "689684",
+ "orgAcronyme": "j8k",
+ "reference_pv": null,
+ "nouveau": true,
+ "reference": null,
+ "objet": null,
+ "acheteur": "AL OMRANE MARRAKECH-SAFT",
+ "procedure": "appel d'offres ouvert",
+ "categorie": "Travaux",
+ "date_limite_plis": "28/12/2022",
+ "lieu_ouverture": "SIEGE DE LA SOCIETE AL OMRANE MARRAKECH-SAFI",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "12/01/2023",
+ "justification": "Moins disant",
+ "infructueux": false,
+ "attributaire": null,
+ "montant_attribue": null,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "SOCADELEG",
+   "montant_acte_engagement": 16112223.66,
+   "montant_apres_verification": 16112223.66,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "MULTI WORK CENTER Montant de la caution provisoire",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_dossier_administratif_technique",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "ELECTRICITE OTHMANE ELGOUTE",
+   "montant_acte_engagement": 15862940.2,
+   "montant_apres_verification": 15862940.2,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_offre_financiere",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "COMPAGNIE DE CONSTRUCTION",
+   "montant_acte_engagement": 17480242.65,
+   "montant_apres_verification": 17480242.65,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "ELECTRO INDUSTRIE",
+   "montant_acte_engagement": 17936248.98,
+   "montant_apres_verification": 17936248.98,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 5,
+ "alertes_ocr": [
+  "Attributaire non trouvé."
+ ],
+ "notes_ocr": [],
+ "qualite": "complet"
+}

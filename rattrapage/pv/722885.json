@@ -1,0 +1,58 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "722885",
+ "orgAcronyme": "o8p",
+ "reference_pv": "13/AOO/DRPJ-ANP/2023",
+ "nouveau": true,
+ "reference": "13/AOO/DRPJ-ANP/2023",
+ "objet": null,
+ "acheteur": "Direction Régionale des Ports d'El Jadida",
+ "procedure": "appel d'offres ouvert",
+ "categorie": "Travaux",
+ "date_limite_plis": "06/06/2023",
+ "lieu_ouverture": "Port de Jorf lasfar",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "15/06/2023",
+ "justification": "e EMPEGEC a présenté la meilleure offre conforme",
+ "infructueux": false,
+ "attributaire": "EMPEGEC",
+ "montant_attribue": 989810.0,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "EMPEGEC",
+   "montant_acte_engagement": 989810.0,
+   "montant_apres_verification": 1826560.0,
+   "autres_montants": [
+    1826560.0
+   ],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "ALOUSS",
+   "montant_acte_engagement": 1688906.0,
+   "montant_apres_verification": 2991.0,
+   "autres_montants": [
+    2991.0
+   ],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 2,
+ "alertes_ocr": [
+  "« ALOUSS » : écart anormal entre montant initial et vérifié (lecture à vérifier)."
+ ],
+ "notes_ocr": [
+  "« EMPEGEC » : montant rectifié de 989 810.00 à 1 826 560.00 DH.",
+  "« ALOUSS » : montant rectifié de 1 688 906.00 à 2 991.00 DH."
+ ],
+ "qualite": "complet"
+}

@@ -1,0 +1,73 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "690225",
+ "orgAcronyme": "j8k",
+ "reference_pv": "55/22",
+ "nouveau": true,
+ "reference": "55/22",
+ "objet": "TRAVAUX DE REAMENAGEMENT D E L'AGENCE AL OMRANE MOHAMMEDIA BENSLIMANE SIS A MOHAMMEDIA",
+ "acheteur": null,
+ "procedure": "appel d'offres ouvert",
+ "categorie": "Travaux",
+ "date_limite_plis": "25/08/2022",
+ "lieu_ouverture": "AI Omane Casablanca — Settat",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": null,
+ "justification": null,
+ "infructueux": false,
+ "attributaire": "SOKIATEC sarl",
+ "montant_attribue": 251638.08,
+ "attributaires_par_lot": [
+  {
+   "lot": null,
+   "attributaire": "SOKIATEC sarl",
+   "montant": 251638.08
+  },
+  {
+   "lot": "Unique",
+   "attributaire": "SOKIATEC sarl",
+   "montant": 251638.08
+  }
+ ],
+ "soumissionnaires": [
+  {
+   "nom": "SOKIATEC sarl",
+   "montant_acte_engagement": 251638.08,
+   "montant_apres_verification": 251638.08,
+   "autres_montants": [],
+   "lots": [
+    "Unique"
+   ],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "En application de l'arti",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "depose",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Ce document ne doit être ni reproduit ni communiquésans l’",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "depose",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 3,
+ "alertes_ocr": [],
+ "notes_ocr": [
+  "Maître d'ouvrage absent du PV (utiliser l'acheteur public du portail)."
+ ],
+ "qualite": "attribution"
+}

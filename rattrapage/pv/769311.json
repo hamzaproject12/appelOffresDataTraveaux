@@ -1,0 +1,67 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "769311",
+ "orgAcronyme": "a1z",
+ "reference_pv": "16/2023/BR",
+ "nouveau": true,
+ "reference": "16/2023/BR",
+ "objet": null,
+ "acheteur": "Région Casablanca-Settat",
+ "procedure": "appel d'offres ouvert",
+ "categorie": "Travaux",
+ "date_limite_plis": "02/01/2024",
+ "lieu_ouverture": "Siège de la Région Casablanca- Settat",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "10/01/2024",
+ "justification": "offre la plus avantageuse.",
+ "infructueux": false,
+ "attributaire": "GTR",
+ "montant_attribue": 30519823.2,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "VIAS",
+   "montant_acte_engagement": 35513046.0,
+   "montant_apres_verification": 35513046.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "GTR",
+   "montant_acte_engagement": 30519823.2,
+   "montant_apres_verification": 30519823.2,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "LA SOURCE BLEU DE TRAVAUX",
+   "montant_acte_engagement": 32816303.04,
+   "montant_apres_verification": 32816303.04,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_offre_financiere",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "ALEQ",
+   "montant_acte_engagement": 34353006.6,
+   "montant_apres_verification": 34353006.6,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 4,
+ "alertes_ocr": [],
+ "notes_ocr": [],
+ "qualite": "complet"
+}

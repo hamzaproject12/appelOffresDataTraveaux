@@ -1,0 +1,58 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "798759",
+ "orgAcronyme": "f8y",
+ "reference_pv": "04/2024/CF",
+ "nouveau": true,
+ "reference": "04/2024/CF",
+ "objet": "Travaux de construction du réseau d’assainissement liquide à Ksar ancien d’OULED SLIMAN, Ville de Figuig",
+ "acheteur": "Commune de Figuig",
+ "procedure": "appel d'offres ouvert simplifié",
+ "categorie": "Travaux",
+ "date_limite_plis": "15/05/2024",
+ "lieu_ouverture": "Salle de Réunion de Bureau des marchés de la commune de Figuig sis à la Cité Administratif, Figuig",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "22/05/2024",
+ "justification": "L’offre économiquement la plus avantageuse",
+ "infructueux": false,
+ "attributaire": "STE ANTD",
+ "montant_attribue": 295416.0,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "SOCIETE VRD ELARABI",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_dossier_administratif_technique",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "STE ANTD",
+   "montant_acte_engagement": 295416.0,
+   "montant_apres_verification": 295416.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": true
+  },
+  {
+   "nom": "P.C.F GARD",
+   "montant_acte_engagement": 297540.0,
+   "montant_apres_verification": 297540.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": true
+  }
+ ],
+ "nombre_soumissionnaires": 3,
+ "alertes_ocr": [],
+ "notes_ocr": [],
+ "qualite": "complet"
+}

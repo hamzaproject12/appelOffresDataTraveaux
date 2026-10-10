@@ -1,0 +1,87 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "962731",
+ "orgAcronyme": "f8y",
+ "reference_pv": null,
+ "nouveau": true,
+ "reference": null,
+ "objet": "APPEL D'OFFRE N° 03/2025 SIMPLIFIE TRAVAUX D'AMENAGEMENT DU SOUK HEBDOMADAIRE DANS LA COMMUNE DE BOUMERIEM",
+ "acheteur": "COMMUNE DE BOUMERIEM",
+ "procedure": "appel d'offres ouvert simplifié",
+ "categorie": "Travaux",
+ "date_limite_plis": "04/12/2025",
+ "lieu_ouverture": "Siege De La Commune Boumeriem",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "11/12/2025",
+ "justification": "Selon le calcule de prix de référence : P= 280 000.00+ 2 Montants des actes d'engagement après",
+ "infructueux": false,
+ "attributaire": "STE DALIA ZMAM",
+ "montant_attribue": null,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "TAGOUL SARL AUSTE DADRISS",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_dossier_administratif_technique",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "V NOUVELLE STE DEI",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_dossier_administratif_technique",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "STE DALIA ZMAM",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "STE RICHCOL",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_dossier_administratif_technique",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "STE SAAD REBOISEMENT SARL AU",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_dossier_administratif_technique",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "STE EZIS",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_dossier_administratif_technique",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 6,
+ "alertes_ocr": [
+  "Montant de l'attributaire « STE DALIA ZMAM » non trouvé."
+ ],
+ "notes_ocr": [],
+ "qualite": "participants"
+}

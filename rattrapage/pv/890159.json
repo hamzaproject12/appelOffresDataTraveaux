@@ -1,0 +1,99 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "890159",
+ "orgAcronyme": "d4q",
+ "reference_pv": null,
+ "nouveau": true,
+ "reference": null,
+ "objet": "Maintenance et la remise en état des transformateurs de la Direction Transport Région Centre",
+ "acheteur": null,
+ "procedure": null,
+ "categorie": "Travaux",
+ "date_limite_plis": "27/02/2025",
+ "lieu_ouverture": "Direction Approvisionnements et Marchés (DAM) : 65, Rue Othman Ben Affan 20000 Casablanca",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": null,
+ "justification": "Moins disant conformes e à |",
+ "infructueux": false,
+ "attributaire": "Les Ateliers AM",
+ "montant_attribue": 10846956.15,
+ "attributaires_par_lot": [
+  {
+   "lot": null,
+   "attributaire": "Les Ateliers AM",
+   "montant": 10846956.15
+  },
+  {
+   "lot": "2",
+   "attributaire": "Les Ateliers AM",
+   "montant": 10157478.21
+  },
+  {
+   "lot": null,
+   "attributaire": "Loti Grid Energy Company",
+   "montant": 9380165.0
+  },
+  {
+   "lot": "2",
+   "attributaire": "Loti Grid Energy Company",
+   "montant": 8036946.0
+  }
+ ],
+ "soumissionnaires": [
+  {
+   "nom": "Les Ateliers AM",
+   "montant_acte_engagement": 10846956.0,
+   "montant_apres_verification": 10846956.15,
+   "autres_montants": [
+    10157478.26
+   ],
+   "lots": [
+    "1",
+    "2"
+   ],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Groupement Master Grid (FR/MAR)",
+   "montant_acte_engagement": 486428.0,
+   "montant_apres_verification": 286664.0,
+   "autres_montants": [
+    198252.0
+   ],
+   "lots": [
+    "1",
+    "2"
+   ],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Loti Grid Energy Company",
+   "montant_acte_engagement": 9380165.0,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [
+    "2"
+   ],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 3,
+ "alertes_ocr": [
+  "« Groupement Master Grid (FR/MAR) » absent de la liste des plis déposés (nom mal lu ?).",
+  "« Loti Grid Energy Company » absent de la liste des plis déposés (nom mal lu ?)."
+ ],
+ "notes_ocr": [
+  "« Les Ateliers AM » : montant rectifié de 10 846 956.00 à 10 846 956.15 DH.",
+  "« Groupement Master Grid (FR/MAR) » : montant rectifié de 486 428.00 à 286 664.00 DH.",
+  "Marché alloti (2 lots).",
+  "Maître d'ouvrage absent du PV (utiliser l'acheteur public du portail)."
+ ],
+ "qualite": "complet"
+}

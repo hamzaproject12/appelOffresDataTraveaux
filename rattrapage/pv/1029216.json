@@ -1,0 +1,88 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "1029216",
+ "orgAcronyme": "o8p",
+ "reference_pv": "20/AOO/DPLR-ANP/2026",
+ "nouveau": true,
+ "reference": "20/AOO/DPLR-ANP/2026",
+ "objet": "TRAVAUX DE RENFORCEMENT D’ECLAIRAGE PUBLIC AU NIVEAU DE LA ZONE ADJACENTE AU CHAMP PHOTOVOLTAIQUE DU PORT DE BOUJDOUR",
+ "acheteur": "Agence Nationale des Ports - Direction du Port de Laâyoune et Région",
+ "procedure": "appel d'offres ouvert national",
+ "categorie": "Travaux",
+ "date_limite_plis": "17/07/2026",
+ "lieu_ouverture": "Salle de réunion de la Direction du Port de Laâyoune et Région",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "29/07/2026",
+ "justification": null,
+ "infructueux": false,
+ "attributaire": "IRONPILLAR",
+ "montant_attribue": 617640.0,
+ "attributaires_par_lot": [
+  {
+   "lot": null,
+   "attributaire": "IRONPILLAR",
+   "montant": 617640.0
+  },
+  {
+   "lot": null,
+   "attributaire": "ADDAWHITE",
+   "montant": 660600.0
+  },
+  {
+   "lot": null,
+   "attributaire": "EL HENYNY SUD",
+   "montant": 695280.0
+  },
+  {
+   "lot": null,
+   "attributaire": "HMAIM BUSINESS",
+   "montant": 695700.0
+  }
+ ],
+ "soumissionnaires": [
+  {
+   "nom": "EL HENYNY SUD",
+   "montant_acte_engagement": 695280.0,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "ADDAWHITE",
+   "montant_acte_engagement": 660600.0,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "HMAIM BUSINESS",
+   "montant_acte_engagement": 695700.0,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "IRONPILLAR",
+   "montant_acte_engagement": 617640.0,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 4,
+ "alertes_ocr": [],
+ "notes_ocr": [],
+ "qualite": "attribution"
+}

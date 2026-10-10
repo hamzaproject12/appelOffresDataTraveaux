@@ -1,0 +1,51 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "748235",
+ "orgAcronyme": "g3h",
+ "reference_pv": "27/2023/BG/FDR",
+ "nouveau": true,
+ "reference": "27/2023/BG/FDR",
+ "objet": "Programme de réduction des disparités territoriales et sociales en milieu rural : travaux de construction de la rnc reliant la",
+ "acheteur": null,
+ "procedure": "appel d'offres ouvert",
+ "categorie": "Travaux",
+ "date_limite_plis": "04/10/2023",
+ "lieu_ouverture": null,
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "09/10/2023",
+ "justification": "l’offre la moins disante est l’offre de la Sté SCONTRANS-Oujda",
+ "infructueux": false,
+ "attributaire": "Sté SCONTRANS-Oujda",
+ "montant_attribue": 3305160.0,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "Sté HBJAOUI Travaux -Berkane",
+   "montant_acte_engagement": 3790200.0,
+   "montant_apres_verification": 3790200.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Sté SCONTRANS-Oujda",
+   "montant_acte_engagement": 3305160.0,
+   "montant_apres_verification": 3305160.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 2,
+ "alertes_ocr": [],
+ "notes_ocr": [
+  "Maître d'ouvrage absent du PV (utiliser l'acheteur public du portail)."
+ ],
+ "qualite": "complet"
+}

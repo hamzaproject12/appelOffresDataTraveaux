@@ -1,0 +1,63 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "684710",
+ "orgAcronyme": "g8e",
+ "reference_pv": "265/2022./Objet",
+ "nouveau": true,
+ "reference": "265/2022./Objet",
+ "objet": "TRAVAUX DE REMPLACEMENT DES SALLES PREFABRIQUEES PAR DES SAILES EN DUR, DE CONSTRUCTION DES BLOCS SANITAIRES ET DES MURS DE CLOTURE À LA PROVINCE DE BENI MELLAL-LOT UNIQUE-",
+ "acheteur": "Agence Régionale d'Exécution des Projets Région Béni Mellal- Khénifra",
+ "procedure": null,
+ "categorie": "Travaux",
+ "date_limite_plis": "16/11/2022",
+ "lieu_ouverture": "Salle de réunion de l’AREP région Beni Mellal Khénifra, Sis Bd Med V lotissement lala Hayat immeuble n°3, 4\"%et 5%\" étage Béni Mellal",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": null,
+ "justification": null,
+ "infructueux": false,
+ "attributaire": null,
+ "montant_attribue": null,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "Gr. MANASSA TRV ET EXPERT CONSTRUCTION",
+   "montant_acte_engagement": 8800000.8,
+   "montant_apres_verification": 9154682.4,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_dossier_administratif_technique",
+   "admis_avec_reserve": true
+  },
+  {
+   "nom": "2: STE/ENTC",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "depose",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "STE ENTC",
+   "montant_acte_engagement": 9336177.6,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 3,
+ "alertes_ocr": [
+  "« STE ENTC » absent de la liste des plis déposés (nom mal lu ?).",
+  "Attributaire non trouvé."
+ ],
+ "notes_ocr": [
+  "« Gr. MANASSA TRV ET EXPERT CONSTRUCTION » : montant rectifié de 8 800 000.80 à 9 154 682.40 DH."
+ ],
+ "qualite": "complet"
+}

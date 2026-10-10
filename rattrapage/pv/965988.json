@@ -1,0 +1,110 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "965988",
+ "orgAcronyme": "d4q",
+ "reference_pv": "58/DR6/C/2025",
+ "nouveau": true,
+ "reference": "58/DR6/C/2025",
+ "objet": "Entretien courant bâtiment technique AEP au niveau du Secteur de Production Oujda - Taourirt — Berkane",
+ "acheteur": null,
+ "procedure": "appel d'offres ouvert national",
+ "categorie": "Travaux",
+ "date_limite_plis": "04/12/2025",
+ "lieu_ouverture": "au siège de la Direction Régionale l'Oriental (DR6) Place 18 Mars 2003 - Oujda - Maroc",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "23/12/2025",
+ "justification": "Moins-disant",
+ "infructueux": false,
+ "attributaire": "Délai d'exécution",
+ "montant_attribue": 270000.0,
+ "attributaires_par_lot": [
+  {
+   "lot": null,
+   "attributaire": "Délai d'exécution",
+   "montant": 270000.0
+  },
+  {
+   "lot": null,
+   "attributaire": "ENECE",
+   "montant": 270000.12
+  }
+ ],
+ "soumissionnaires": [
+  {
+   "nom": "7 ASSISSOU TRAVAUX",
+   "montant_acte_engagement": 357960.0,
+   "montant_apres_verification": null,
+   "autres_montants": [
+    357960.0
+   ],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "BOUDYAMAN HYDRO ELEC MAROC",
+   "montant_acte_engagement": 339720.0,
+   "montant_apres_verification": null,
+   "autres_montants": [
+    339720.0
+   ],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "ENECE",
+   "montant_acte_engagement": 270000.12,
+   "montant_apres_verification": null,
+   "autres_montants": [
+    270000.12
+   ],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "LOTFI MERIANE MAROC",
+   "montant_acte_engagement": 299220.0,
+   "montant_apres_verification": null,
+   "autres_montants": [
+    299220.0
+   ],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "SODEI MAROC",
+   "montant_acte_engagement": 360600.0,
+   "montant_apres_verification": null,
+   "autres_montants": [
+    360600.0
+   ],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Délai d'exécution",
+   "montant_acte_engagement": 270000.0,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 6,
+ "alertes_ocr": [
+  "« Délai d'exécution » absent de la liste des plis déposés (nom mal lu ?)."
+ ],
+ "notes_ocr": [
+  "Maître d'ouvrage absent du PV (utiliser l'acheteur public du portail)."
+ ],
+ "qualite": "complet"
+}

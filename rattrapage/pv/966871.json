@@ -1,0 +1,91 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "966871",
+ "orgAcronyme": "p8x",
+ "reference_pv": "43/RH/ZO025/INV",
+ "nouveau": true,
+ "reference": "43/RH/ZO025/INV",
+ "objet": "TRAVAUX DE CONSTRUCTION DE L'ECOLE PRIMAIRE OMAR IBN AL-KHATTAB, À LA CT NZALET LAADEM RELEVANT DE LA DIRECTION PROVINCIALE DE RHAMNA",
+ "acheteur": "Le directeur provincial à RHAMNA",
+ "procedure": "appel d'offres ouvert national",
+ "categorie": "Travaux",
+ "date_limite_plis": "13/11/2025",
+ "lieu_ouverture": "La salle des réunions à la direction provinciale de RHAMNA",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": null,
+ "justification": "Date d’chévement des travaux de la commission. 21/11/2025",
+ "infructueux": false,
+ "attributaire": "GROUPEMENT 6",
+ "montant_attribue": 40300.0,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "STE IDZAR TRAVAUX SARL",
+   "montant_acte_engagement": 7391712.0,
+   "montant_apres_verification": 7391712.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "G TRAV SARL ET MOMED FOB SARL",
+   "montant_acte_engagement": 6840300.0,
+   "montant_apres_verification": 6840300.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "STE EL MAANAOUI TRAVAUX SARL",
+   "montant_acte_engagement": 7990596.0,
+   "montant_apres_verification": 7990596.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "STE TOUZDIT SARL",
+   "montant_acte_engagement": 8019326.4,
+   "montant_apres_verification": 8019326.4,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "STE SOUFRITRAP SARL",
+   "montant_acte_engagement": 7517142.0,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "GROUPEMENT 6",
+   "montant_acte_engagement": 40300.0,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 6,
+ "alertes_ocr": [
+  "« G TRAV SARL ET MOMED FOB SARL » absent de la liste des plis déposés (nom mal lu ?).",
+  "« STE EL MAANAOUI TRAVAUX SARL » absent de la liste des plis déposés (nom mal lu ?).",
+  "« STE TOUZDIT SARL » absent de la liste des plis déposés (nom mal lu ?).",
+  "« STE SOUFRITRAP SARL » absent de la liste des plis déposés (nom mal lu ?).",
+  "« GROUPEMENT 6 » absent de la liste des plis déposés (nom mal lu ?)."
+ ],
+ "notes_ocr": [],
+ "qualite": "complet"
+}

@@ -1,0 +1,74 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "1026435",
+ "orgAcronyme": "g3h",
+ "reference_pv": null,
+ "nouveau": true,
+ "reference": null,
+ "objet": "Travaux d'éclairage public de voiries de la ville de Tanger —",
+ "acheteur": "Tranche 1 Tranche 1 le Directeur Général de la société Tanger Région Aménagements",
+ "procedure": null,
+ "categorie": "Travaux",
+ "date_limite_plis": "19/06/2026",
+ "lieu_ouverture": "Siège de la wilaya de Tanger Tétouan Assilah",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "21/07/2026",
+ "justification": "technico-financière : “ SOCIETE LAMALIF GROUP",
+ "infructueux": false,
+ "attributaire": null,
+ "montant_attribue": null,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "Société LAMALIF GROUP",
+   "montant_acte_engagement": 28479678.24,
+   "montant_apres_verification": 28479678.24,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Société EQUELEC",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_offre_financiere",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "RCN° 163555 - Taxe Professionnelle N° 50421128 - IF N°",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_offre_technique",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Tanger Région Aménagements",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_offre_technique",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 4,
+ "alertes_ocr": [
+  "« Société LAMALIF GROUP » absent de la liste des plis déposés (nom mal lu ?).",
+  "Attributaire non trouvé."
+ ],
+ "notes_ocr": [
+  "« Société EQUELEC » absent de la liste des plis déposés (nom mal lu ?).",
+  "« RCN° 163555 - Taxe Professionnelle N° 50421128 - IF N° » absent de la liste des plis déposés (nom mal lu ?).",
+  "« Tanger Région Aménagements » absent de la liste des plis déposés (nom mal lu ?)."
+ ],
+ "qualite": "attribution"
+}

@@ -1,0 +1,154 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "761899",
+ "orgAcronyme": "s3z",
+ "reference_pv": "38/23/AREP/RRSK",
+ "nouveau": true,
+ "reference": "38/23/AREP/RRSK",
+ "objet": "TRAVAUX DE CONSTRUCTION D'ESPACES DE LA MEMOIRE HISTORIQUE DE LA RESISTANCE ET DE LA LIBERATION A KHEMISSET (MARCHE ALLOTI EN DEUX LOTS)",
+ "acheteur": "Agence Régionale d’Exécution des projets de la Région de Rabat- Salé Kénitra",
+ "procedure": null,
+ "categorie": "Travaux",
+ "date_limite_plis": null,
+ "lieu_ouverture": "Bureaux de l’Agence Régionale d’Exécution des Projets de la Région de Rabat Salé Kenitra, sis 50, avenue Moulay Ismail, Hassan-Rabat",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "07/12/2023",
+ "justification": "L’'Offre financière la mieux disante.",
+ "infructueux": false,
+ "attributaire": "T2GC SARL",
+ "montant_attribue": 3159156.0,
+ "attributaires_par_lot": [
+  {
+   "lot": null,
+   "attributaire": "T2GC SARL",
+   "montant": 3159156.0
+  },
+  {
+   "lot": null,
+   "attributaire": "TIZOUDA TRAVAUX MAROC",
+   "montant": 2037685.2
+  }
+ ],
+ "soumissionnaires": [
+  {
+   "nom": "SOTRIP SARL",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_dossier_administratif_technique",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "KADEM SARL",
+   "montant_acte_engagement": 3620472.0,
+   "montant_apres_verification": 3658872.0,
+   "autres_montants": [],
+   "lots": [
+    "1"
+   ],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "GCCA SARL AU",
+   "montant_acte_engagement": 3136296.0,
+   "montant_apres_verification": 3136296.0,
+   "autres_montants": [],
+   "lots": [
+    "1"
+   ],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "T2GC SARL",
+   "montant_acte_engagement": 3131556.0,
+   "montant_apres_verification": 3159156.0,
+   "autres_montants": [],
+   "lots": [
+    "1"
+   ],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "TIZOUDA TRAVAUX MAROC",
+   "montant_acte_engagement": 2743719.6,
+   "montant_apres_verification": 2743719.6,
+   "autres_montants": [
+    2037685.2
+   ],
+   "lots": [
+    "1",
+    "2"
+   ],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "RYAD AL BINAA",
+   "montant_acte_engagement": 3546000.0,
+   "montant_apres_verification": 3546000.0,
+   "autres_montants": [],
+   "lots": [
+    "1"
+   ],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "ANOUMINES SARL",
+   "montant_acte_engagement": 3177408.0,
+   "montant_apres_verification": 3177408.0,
+   "autres_montants": [],
+   "lots": [
+    "1"
+   ],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "GROUPEMENT DE LA STE WATER BLEU TRAVAUX SARL AU& EQUIPEMENT STAF",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_dossier_administratif_technique",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "SARL AU",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "depose",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "CETOTRAD SARL",
+   "montant_acte_engagement": 2254300.68,
+   "montant_apres_verification": 2455564.68,
+   "autres_montants": [],
+   "lots": [
+    "2"
+   ],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 10,
+ "alertes_ocr": [],
+ "notes_ocr": [
+  "« KADEM SARL » : montant rectifié de 3 620 472.00 à 3 658 872.00 DH.",
+  "« T2GC SARL » : montant rectifié de 3 131 556.00 à 3 159 156.00 DH.",
+  "« CETOTRAD SARL » : montant rectifié de 2 254 300.68 à 2 455 564.68 DH.",
+  "Marché alloti (2 lots)."
+ ],
+ "qualite": "complet"
+}

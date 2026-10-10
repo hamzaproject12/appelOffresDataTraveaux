@@ -1,0 +1,53 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "726487",
+ "orgAcronyme": "o8p",
+ "reference_pv": "16/2023",
+ "nouveau": true,
+ "reference": "16/2023",
+ "objet": "Travaux de la signalisation horizontale sur la RN11 du PK 145+000 au PK 162+651 (Province de Youssoufia)",
+ "acheteur": null,
+ "procedure": "appel d'offres ouvert",
+ "categorie": "Travaux",
+ "date_limite_plis": "22/06/2023",
+ "lieu_ouverture": "la Direction Provinciale de l'équipement, du transport et de la logistique de Safi",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "05/07/2023",
+ "justification": "offre la moins disante pour l'administration",
+ "infructueux": false,
+ "attributaire": "CHAMAL SIGNALISATION",
+ "montant_attribue": 547092.0,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "ATELIER TEULI",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_dossier_administratif_technique",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "CHAMAL SIGNALISATION",
+   "montant_acte_engagement": 547092.0,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 2,
+ "alertes_ocr": [
+  "« CHAMAL SIGNALISATION » absent de la liste des plis déposés (nom mal lu ?)."
+ ],
+ "notes_ocr": [
+  "Maître d'ouvrage absent du PV (utiliser l'acheteur public du portail)."
+ ],
+ "qualite": "attribution"
+}

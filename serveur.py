@@ -36,6 +36,23 @@ from fastapi.responses import FileResponse, HTMLResponse, JSONResponse, PlainTex
 ICI = Path(__file__).resolve().parent
 
 
+def _empreinte(chemin: Path) -> str:
+    """Les 16 premiers caractères du SHA-256 d'un fichier, pour reconnaître une archive.
+
+    Les dates ne servent à rien ici : Docker donne aux fichiers de l'image la date du clone et
+    non celle du commit, si bien qu'une archive inchangée paraît neuve à chaque construction.
+    """
+    import hashlib
+    h = hashlib.sha256()
+    try:
+        with open(chemin, "rb") as f:
+            for bloc in iter(lambda: f.read(1 << 20), b""):
+                h.update(bloc)
+    except OSError:
+        return ""
+    return h.hexdigest()[:16]
+
+
 def decompresser(cible: Path) -> None:
     """La base voyage compressée (pv.db.gz) : décompressée, elle est trop lourde pour Git.
 
@@ -50,11 +67,23 @@ def decompresser(cible: Path) -> None:
         archive = voisines[0] if len(voisines) == 1 else ICI / "pv.db.gz"
     if not archive.exists():
         return
+    marque = cible.with_name(cible.name + ".amorce")
+    actuelle = _empreinte(archive)
     if cible.exists() and os.environ.get("AMORCE_SEULEMENT") == "1":
         # Le pod met la base à jour tout seul sur son volume : l'archive du dépôt ne sert qu'à
-        # l'amorcer la première fois. Sans ce garde-fou, un simple déploiement de code ferait
-        # revenir la base en arrière et effacerait les mises à jour accumulées.
-        return
+        # l'amorcer. Sans garde-fou, un simple déploiement de code ferait revenir la base en
+        # arrière et effacerait les mises à jour accumulées. Mais si l'archive du dépôt a
+        # CHANGÉ, c'est qu'une base reconstruite arrive — plus complète que ce que le volume
+        # a pu accumuler seul : elle doit prendre la place. On distingue les deux cas par
+        # l'empreinte du fichier, la date n'étant pas fiable dans une image Docker.
+        try:
+            posee = marque.read_text(encoding="utf-8").strip()
+        except OSError:
+            posee = ""
+        if not actuelle or posee == actuelle:
+            return
+        print(f"[pv] {archive.name} a changé : la base du dépôt remplace celle du volume",
+              flush=True)
     if cible.exists() and cible.stat().st_mtime >= archive.stat().st_mtime:
         return
     try:
@@ -65,6 +94,11 @@ def decompresser(cible: Path) -> None:
         for reste in (str(cible) + "-wal", str(cible) + "-shm"):
             Path(reste).unlink(missing_ok=True)
         os.replace(provisoire, cible)
+        if actuelle:
+            try:
+                marque.write_text(actuelle, encoding="utf-8")
+            except OSError:
+                pass                                 # sans la marque, on redéplierait une fois
         print(f"[pv] base dépliée depuis {archive.name} ({archive.stat().st_size / 1e6:.0f} Mo "
               f"compressés) vers {cible}", flush=True)
     except OSError as e:

@@ -1,0 +1,173 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "768048",
+ "orgAcronyme": "q1s",
+ "reference_pv": "03/2023",
+ "nouveau": true,
+ "reference": "03/2023",
+ "objet": "TRAVAUX D'AMENAGEMENT HYDRO-AGRICOLE DES PERIMETRES DE LA PETITE ET MOYENNE HYDRAULQUE RELEVANT DES CERCLES : ASNI, AMIZMIZ, T OUAMA, AIT OURIR ET TAHNAOUTE PROVINCE D'AL HAOUZ REPARTIS EN QUATRE LOTS",
+ "acheteur": "Direction Provinciale de l'Agriculture de Marrakech",
+ "procedure": "appel d'offres ouvert",
+ "categorie": "Travaux",
+ "date_limite_plis": "07/09/2023",
+ "lieu_ouverture": "La Salle De Réunion De La Direction Provinciale De l'Agriculture De Marrakech, Sise Avenue Hassan II, Guèliz Marrakech",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "06/12/2023",
+ "justification": "% Moins disant conforme",
+ "infructueux": false,
+ "attributaire": "Ste ALMOUGNI TD « sarl » - ERRACHIDIA",
+ "montant_attribue": 1491900.0,
+ "attributaires_par_lot": [
+  {
+   "lot": null,
+   "attributaire": "Ste ALMOUGNI TD « sarl » - ERRACHIDIA",
+   "montant": 1491900.0
+  },
+  {
+   "lot": null,
+   "attributaire": "Ste AMARSSID SARL - TINGHIR",
+   "montant": 997752.0
+  },
+  {
+   "lot": null,
+   "attributaire": "Ste DRAA TAFILLALET AMENAGEMENT (DTA). - MARRAKECH",
+   "montant": 794598.0
+  },
+  {
+   "lot": null,
+   "attributaire": "Ste JADA BUILDING SARL AU - MARRAKECH",
+   "montant": 722530.8
+  }
+ ],
+ "soumissionnaires": [
+  {
+   "nom": "Ste ALMOUGNI TD « sarl » - ERRACHIDIA",
+   "montant_acte_engagement": 1491900.0,
+   "montant_apres_verification": 1491900.0,
+   "autres_montants": [
+    1331532.0,
+    982464.0,
+    933420.0
+   ],
+   "lots": [
+    "1",
+    "2",
+    "3",
+    "4"
+   ],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Ste AMARSSID SARL - TINGHIR",
+   "montant_acte_engagement": 1098840.0,
+   "montant_apres_verification": 1098840.0,
+   "autres_montants": [
+    997752.0,
+    822732.0,
+    772842.0
+   ],
+   "lots": [
+    "1",
+    "2",
+    "3",
+    "4"
+   ],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "ENTREPRENEUR NASYR MOHAMED - AZILAL",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [
+    "1",
+    "2"
+   ],
+   "statut": "ecarte_dossier_administratif_technique",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Ste Génie de VRD SARL AU - KELAA DES SRAGHNAS",
+   "montant_acte_engagement": 1040028.0,
+   "montant_apres_verification": 1040028.0,
+   "autres_montants": [
+    739944.0
+   ],
+   "lots": [
+    "2",
+    "3"
+   ],
+   "statut": "ecarte_offre_financiere",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Ste Immatriculation Foncière Maroc - TANGER",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [
+    "2",
+    "3",
+    "4"
+   ],
+   "statut": "ecarte_dossier_administratif_technique",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Ste DRAA TAFILLALET AMENAGEMENT (DTA). - MARRAKECH",
+   "montant_acte_engagement": 794598.0,
+   "montant_apres_verification": 794598.0,
+   "autres_montants": [],
+   "lots": [
+    "3"
+   ],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Ste TOUZDIYI SARL- OUARZAZATE",
+   "montant_acte_engagement": 824820.0,
+   "montant_apres_verification": 824820.0,
+   "autres_montants": [
+    785100.0
+   ],
+   "lots": [
+    "3",
+    "4"
+   ],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Ste JADA BUILDING SARL AU - MARRAKECH",
+   "montant_acte_engagement": 788892.0,
+   "montant_apres_verification": 722530.8,
+   "autres_montants": [
+    722530.8
+   ],
+   "lots": [
+    "3",
+    "4"
+   ],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 8,
+ "alertes_ocr": [
+  "« Ste DRAA TAFILLALET AMENAGEMENT (DTA). - MARRAKECH » absent de la liste des plis déposés (nom mal lu ?).",
+  "« Ste TOUZDIYI SARL- OUARZAZATE » absent de la liste des plis déposés (nom mal lu ?).",
+  "« Ste JADA BUILDING SARL AU - MARRAKECH » absent de la liste des plis déposés (nom mal lu ?)."
+ ],
+ "notes_ocr": [
+  "« Ste JADA BUILDING SARL AU - MARRAKECH » : montant rectifié de 788 892.00 à 722 530.80 DH.",
+  "Marché alloti (4 lots)."
+ ],
+ "qualite": "complet"
+}

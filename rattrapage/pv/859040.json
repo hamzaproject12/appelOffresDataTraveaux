@@ -1,0 +1,76 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "859040",
+ "orgAcronyme": "e5w",
+ "reference_pv": null,
+ "nouveau": true,
+ "reference": null,
+ "objet": "Travaux de réalisation d'un forage au douar Ait Ali youssef à la commune Azzaba- Province Sefrou￾Maitre d'ouvrage : Commune Azzaba",
+ "acheteur": null,
+ "procedure": null,
+ "categorie": "Travaux",
+ "date_limite_plis": null,
+ "lieu_ouverture": "d es olis La salle des réunions au siège administratif de la commune Azzaba Les iaurnaux avants publiés l'avis de publicité",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": null,
+ "justification": "I'offre économiquement la plus avantageuse, Date d'a ent des travaux de la commlssron: L1./12/2024 à 11h.",
+ "infructueux": false,
+ "attributaire": "La Sté AMANE VERT SARL",
+ "montant_attribue": null,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "Colimur",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_offre_financiere",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "La Sté ASRAC NEGOCE SARL",
+   "montant_acte_engagement": 72720.0,
+   "montant_apres_verification": 72720.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "La Sté BENSAGHRFOUNE SARL AU",
+   "montant_acte_engagement": 73068.0,
+   "montant_apres_verification": 73058.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "La Sté AMANE VERT SARL",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 4,
+ "alertes_ocr": [
+  "« La Sté ASRAC NEGOCE SARL » absent de la liste des plis déposés (nom mal lu ?).",
+  "« La Sté BENSAGHRFOUNE SARL AU » absent de la liste des plis déposés (nom mal lu ?).",
+  "« La Sté AMANE VERT SARL » absent de la liste des plis déposés (nom mal lu ?).",
+  "Montant de l'attributaire « La Sté AMANE VERT SARL » non trouvé."
+ ],
+ "notes_ocr": [
+  "« Colimur » absent de la liste des plis déposés (nom mal lu ?).",
+  "« La Sté BENSAGHRFOUNE SARL AU » : montant rectifié de 73 068.00 à 73 058.00 DH.",
+  "Maître d'ouvrage absent du PV (utiliser l'acheteur public du portail)."
+ ],
+ "qualite": "complet"
+}

@@ -1,0 +1,67 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "721962",
+ "orgAcronyme": "g3h",
+ "reference_pv": "38/2023",
+ "nouveau": true,
+ "reference": "38/2023",
+ "objet": null,
+ "acheteur": "Régie Autonome de Distribution d’Eau et d’Electricité de Fès",
+ "procedure": "appel d'offres ouvert",
+ "categorie": "Travaux",
+ "date_limite_plis": "29/05/2023",
+ "lieu_ouverture": "Siège de la RADEEF",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "15/06/2023",
+ "justification": "offre la plus avantageuse",
+ "infructueux": false,
+ "attributaire": "s AL MADAR SERVICES DU NORD",
+ "montant_attribue": 655400.0,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "EL HOURIA HOLDING",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "depose",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "SMERAV",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "depose",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "s AL MADAR SERVICES DU NORD",
+   "montant_acte_engagement": 655400.0,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "s ZABOUK TRAVAUX",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_dossier_administratif_technique",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 4,
+ "alertes_ocr": [],
+ "notes_ocr": [],
+ "qualite": "attribution"
+}

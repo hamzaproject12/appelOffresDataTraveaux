@@ -1,0 +1,52 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "798921",
+ "orgAcronyme": "q0x",
+ "reference_pv": null,
+ "nouveau": true,
+ "reference": null,
+ "objet": null,
+ "acheteur": null,
+ "procedure": null,
+ "categorie": "Travaux",
+ "date_limite_plis": null,
+ "lieu_ouverture": null,
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": null,
+ "justification": "je 3 + Date de l’achèvement des travaux de la commission . le 23/05/2024 à 10 heures 45min.",
+ "infructueux": false,
+ "attributaire": "Sté CHANTIES DE TRAVAUX DIVERS SARL",
+ "montant_attribue": 517200.0,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "Sté CHANTIES DE TRAVAUX DIVERS SARL",
+   "montant_acte_engagement": 517200.0,
+   "montant_apres_verification": 517200.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Sté PRODI TRAV SARL AU",
+   "montant_acte_engagement": 566664.0,
+   "montant_apres_verification": 966664.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 2,
+ "alertes_ocr": [],
+ "notes_ocr": [
+  "« Sté PRODI TRAV SARL AU » : montant rectifié de 566 664.00 à 966 664.00 DH.",
+  "Maître d'ouvrage absent du PV (utiliser l'acheteur public du portail)."
+ ],
+ "qualite": "complet"
+}

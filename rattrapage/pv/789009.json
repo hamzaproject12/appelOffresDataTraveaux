@@ -1,0 +1,72 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "789009",
+ "orgAcronyme": "d4q",
+ "reference_pv": "03/2024/ABHGZR",
+ "nouveau": true,
+ "reference": "03/2024/ABHGZR",
+ "objet": "Travaux d'aménagement et entretien des espaces verts des locaux administratifs de l'Agence du Bassin Hydraulique du Guir Ziz Rheris",
+ "acheteur": "Directeur de l’ Agence du Bassin Hydraulique de GUIR-ZIZ-RHERIS",
+ "procedure": "appel d'offres ouvert",
+ "categorie": "Travaux",
+ "date_limite_plis": "26/03/2024",
+ "lieu_ouverture": "La salle de réunion de l’Agence du Bassin Hydraulique de Guir-Ziz-Rheris",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "18/04/2024",
+ "justification": "Tirage au sort des offres équivalentes des concurrents ayant présentés le taux de majoration le plus faible.",
+ "infructueux": false,
+ "attributaire": "STE DAHA VERTE SARL",
+ "montant_attribue": 345634.56,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "STE AMANE VERT SARL AU",
+   "montant_acte_engagement": 345634.56,
+   "montant_apres_verification": 345634.56,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "STE PLANTEAFLEUR SARL",
+   "montant_acte_engagement": 345634.56,
+   "montant_apres_verification": 345634.56,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "STE DAHA VERTE SARL",
+   "montant_acte_engagement": 345634.56,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": true
+  },
+  {
+   "nom": "STE K&O TRAVAUX SARL AU",
+   "montant_acte_engagement": 345634.56,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 4,
+ "alertes_ocr": [
+  "« STE AMANE VERT SARL AU » absent de la liste des plis déposés (nom mal lu ?).",
+  "« STE PLANTEAFLEUR SARL » absent de la liste des plis déposés (nom mal lu ?).",
+  "« STE DAHA VERTE SARL » absent de la liste des plis déposés (nom mal lu ?).",
+  "« STE K&O TRAVAUX SARL AU » absent de la liste des plis déposés (nom mal lu ?)."
+ ],
+ "notes_ocr": [],
+ "qualite": "complet"
+}

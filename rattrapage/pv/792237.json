@@ -1,0 +1,70 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "792237",
+ "orgAcronyme": "q1s",
+ "reference_pv": null,
+ "nouveau": true,
+ "reference": null,
+ "objet": "Travaux d’entretien du génie civil des réseaux d’irrigation des périmètres irrigués",
+ "acheteur": "l'Office Régional de Mise en Valeur Agricole du Haouz",
+ "procedure": null,
+ "categorie": "Travaux",
+ "date_limite_plis": "16/04/2024",
+ "lieu_ouverture": "Siège de l'Office Régional de Mise en Valeur Agricole du Haouz",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "30/04/2024",
+ "justification": "l'Offre la plus avantageuse est présentée par le GROUPEMENT HELPY PRO/ECTS & EQUIPEMENT PIC.",
+ "infructueux": false,
+ "attributaire": "GROUPEMENT HELPY PROJECTS & EQUIPEMENT PIC",
+ "montant_attribue": null,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "GENIE DE VRD",
+   "montant_acte_engagement": 1000000.0,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "GROUPEMENT HELPY PROJECTS & EQUIPEMENT PIC",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "AC WORK",
+   "montant_acte_engagement": 1000000.0,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_offre_financiere",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "GROUPEMENT HELPY PROJECTS & Min",
+   "montant_acte_engagement": 1000000.0,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 4,
+ "alertes_ocr": [
+  "« GROUPEMENT HELPY PROJECTS & Min » absent de la liste des plis déposés (nom mal lu ?).",
+  "Montant de l'attributaire « GROUPEMENT HELPY PROJECTS & EQUIPEMENT PIC » non trouvé."
+ ],
+ "notes_ocr": [],
+ "qualite": "complet"
+}

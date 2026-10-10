@@ -1,0 +1,73 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "936493",
+ "orgAcronyme": "p1v",
+ "reference_pv": null,
+ "nouveau": true,
+ "reference": null,
+ "objet": "TRAVAUX DE MISE A NIVEAU DES QUARTIERS SOUS EQUIPES AUX CENTRES MOULAY ABDELLAH, SIDI",
+ "acheteur": "C/ Moulay Abdellah",
+ "procedure": null,
+ "categorie": "Travaux",
+ "date_limite_plis": "16/09/2025",
+ "lieu_ouverture": "Bureau de Mr le Président de la C/ Moulay Abdellah",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": null,
+ "justification": "regard du prix de référence à l’administration le 23/09/2025",
+ "infructueux": false,
+ "attributaire": "Ste BATI DU SUD SARL",
+ "montant_attribue": 17761518.0,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "GROUPEMENT CONJOINT DES",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "SARL et la SOCIÉTÉ SOURCE BLEUE GRANDS PROJETS SBGP",
+   "montant_acte_engagement": 18544160.4,
+   "montant_apres_verification": 18544160.4,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "AMENAGEMENT SARL et Ste DE CONSTRUCTION ET D’AMENAGEMENT EL MARAH SARL",
+   "montant_acte_engagement": 19235832.0,
+   "montant_apres_verification": 19235832.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Ste BATI DU SUD SARL",
+   "montant_acte_engagement": 17761518.0,
+   "montant_apres_verification": 17761518.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 4,
+ "alertes_ocr": [
+  "« SARL et la SOCIÉTÉ SOURCE BLEUE GRANDS PROJETS SBGP » absent de la liste des plis déposés (nom mal lu ?).",
+  "« AMENAGEMENT SARL et Ste DE CONSTRUCTION ET D’AMENAGEMENT EL MARAH SARL » absent de la liste des plis déposés (nom mal lu ?).",
+  "« Ste BATI DU SUD SARL » absent de la liste des plis déposés (nom mal lu ?)."
+ ],
+ "notes_ocr": [
+  "« GROUPEMENT CONJOINT DES » absent de la liste des plis déposés (nom mal lu ?)."
+ ],
+ "qualite": "complet"
+}

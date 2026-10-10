@@ -1,0 +1,104 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "772211",
+ "orgAcronyme": "g3h",
+ "reference_pv": "120/PT/BG/2023",
+ "nouveau": true,
+ "reference": "120/PT/BG/2023",
+ "objet": "Travaux d'aménagement du siège de caïdat Mtioua Louta - Province de",
+ "acheteur": null,
+ "procedure": null,
+ "categorie": "Travaux",
+ "date_limite_plis": "09/11/2023",
+ "lieu_ouverture": "le bureau du Secrétariat Général de la Province de Taounate",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": null,
+ "justification": "l'offre financière est l’offre économiquement la plus avantageuse.",
+ "infructueux": false,
+ "attributaire": "SOCIETE GHEBICHAT TRAVAUX SARL Entp TRAVAUX DIVERS DE CONSTRUCTION",
+ "montant_attribue": 134040.0,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "SOCIETE SAMA ESPOIR SARL AU A AZILAL",
+   "montant_acte_engagement": 158280.0,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_dossier_administratif_technique",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "SOCIETE GHEBICHAT TRAVAUX SARL Entp TRAVAUX DIVERS DE CONSTRUCTION",
+   "montant_acte_engagement": 134040.0,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "CONSTRUCTION A TAOUNATE",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_dossier_administratif_technique",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "SOCIETE I.M.3 SARL A TINGHIR",
+   "montant_acte_engagement": 119580.0,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_dossier_administratif_technique",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "SOCIETE TN TA WMAT SARL A TINGHIR",
+   "montant_acte_engagement": 148680.0,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_dossier_administratif_technique",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "TINGHIR déclaration sur l’honneur",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_dossier_administratif_technique",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "AO N° 120/PT/BG/2023 Page 1",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_dossier_administratif_technique",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 7,
+ "alertes_ocr": [
+  "« SOCIETE SAMA ESPOIR SARL AU A AZILAL » absent de la liste des plis déposés (nom mal lu ?).",
+  "« SOCIETE GHEBICHAT TRAVAUX SARL Entp TRAVAUX DIVERS DE CONSTRUCTION » absent de la liste des plis déposés (nom mal lu ?).",
+  "« SOCIETE I.M.3 SARL A TINGHIR » absent de la liste des plis déposés (nom mal lu ?).",
+  "« SOCIETE TN TA WMAT SARL A TINGHIR » absent de la liste des plis déposés (nom mal lu ?)."
+ ],
+ "notes_ocr": [
+  "« CONSTRUCTION A TAOUNATE » absent de la liste des plis déposés (nom mal lu ?).",
+  "« TINGHIR déclaration sur l’honneur » absent de la liste des plis déposés (nom mal lu ?).",
+  "« AO N° 120/PT/BG/2023 Page 1 » absent de la liste des plis déposés (nom mal lu ?).",
+  "Maître d'ouvrage absent du PV (utiliser l'acheteur public du portail)."
+ ],
+ "qualite": "complet"
+}

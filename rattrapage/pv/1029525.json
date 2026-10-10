@@ -1,0 +1,52 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "1029525",
+ "orgAcronyme": "s3z",
+ "reference_pv": null,
+ "nouveau": true,
+ "reference": null,
+ "objet": "Travaux de signalisation verticale - commune de salé",
+ "acheteur": "le président de la commune de salé",
+ "procedure": null,
+ "categorie": "Travaux",
+ "date_limite_plis": "23/07/2026",
+ "lieu_ouverture": "commune de salé Conformément à l'avis publié dans le journaux suivant : LE MATIN: n'18509 du25106/2026",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "03/08/2026",
+ "justification": "le concurrent a présenté l'offre la plus avantageuse",
+ "infructueux": false,
+ "attributaire": "Société ATELIERS INDUSTRIELS CHERIFIEN AIC S.A",
+ "montant_attribue": 1502164.8,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "Société LA LIGNE BLANCHE S.A",
+   "montant_acte_engagement": 1583228.4,
+   "montant_apres_verification": 1583228.4,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_dossier_administratif_technique",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Société ATELIERS INDUSTRIELS CHERIFIEN AIC S.A",
+   "montant_acte_engagement": 1502164.8,
+   "montant_apres_verification": 1502164.8,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 2,
+ "alertes_ocr": [
+  "« Société LA LIGNE BLANCHE S.A » absent de la liste des plis déposés (nom mal lu ?).",
+  "« Société ATELIERS INDUSTRIELS CHERIFIEN AIC S.A » absent de la liste des plis déposés (nom mal lu ?)."
+ ],
+ "notes_ocr": [],
+ "qualite": "complet"
+}

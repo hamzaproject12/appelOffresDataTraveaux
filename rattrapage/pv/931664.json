@@ -1,0 +1,51 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "931664",
+ "orgAcronyme": "a1t",
+ "reference_pv": "54/2025/ADHA",
+ "nouveau": true,
+ "reference": "54/2025/ADHA",
+ "objet": null,
+ "acheteur": "DIRECTEUR GENERAL DE L’AGENCE DE DVELLOPEMNT DU HAUT ATLAS",
+ "procedure": null,
+ "categorie": "Travaux",
+ "date_limite_plis": "10/09/2025",
+ "lieu_ouverture": "Salle de réunions de la DIRECTION PROVINCIALE DE L’ AGRICULTURE MARRAKECH",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "18/09/2025",
+ "justification": null,
+ "infructueux": false,
+ "attributaire": "cent trente-six",
+ "montant_attribue": 2418.0,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "Sté SENOTP",
+   "montant_acte_engagement": 2418636.0,
+   "montant_apres_verification": 2418636.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "cent trente-six",
+   "montant_acte_engagement": 2418.0,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 2,
+ "alertes_ocr": [
+  "« cent trente-six » absent de la liste des plis déposés (nom mal lu ?)."
+ ],
+ "notes_ocr": [],
+ "qualite": "complet"
+}

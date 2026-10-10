@@ -1,0 +1,69 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "1025871",
+ "orgAcronyme": "p8x",
+ "reference_pv": "86/ENSM/2026/OBJET",
+ "nouveau": true,
+ "reference": "86/ENSM/2026/OBJET",
+ "objet": "Acquisition et installation de climatiseurs au profit de l'Ecole Normale Supérieure de Marrakech (lot Unique) L'ECOLE NORMALE SUPERIEURE DE MARRAKECH 13/07/2026 à11h00 -",
+ "acheteur": "Date d'ouverture des plis",
+ "procedure": "appel d'offres ouvert simplifié",
+ "categorie": "Travaux",
+ "date_limite_plis": null,
+ "lieu_ouverture": "Journaux de publication des avis",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "20/07/2026",
+ "justification": "Le concurrent ayant l'offre la plus avantageuse.",
+ "infructueux": false,
+ "attributaire": null,
+ "montant_attribue": null,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "ELESI",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "depose",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "BEN TP MAROC",
+   "montant_acte_engagement": 533520.0,
+   "montant_apres_verification": 533520.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "STE NEW START WORKS SARL",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_dossier_administratif_technique",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "STE TEMICAS",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "depose",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 4,
+ "alertes_ocr": [
+  "Attributaire non trouvé."
+ ],
+ "notes_ocr": [],
+ "qualite": "attribution"
+}

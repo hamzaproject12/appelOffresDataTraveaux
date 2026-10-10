@@ -1,0 +1,70 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "794003",
+ "orgAcronyme": "g3h",
+ "reference_pv": null,
+ "nouveau": true,
+ "reference": null,
+ "objet": "TRAVAUX D’ENTRETIEN DES LOCAUX DE LA RADEES",
+ "acheteur": "la Régie Autonome Intercommunale de Distribution d’Eau et d’Électricité de la Province de SAFI (RADEES)",
+ "procedure": "appel d'offres ouvert national",
+ "categorie": "Travaux",
+ "date_limite_plis": "25/04/2024",
+ "lieu_ouverture": "Siège de la RADEES",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "07/05/2024",
+ "justification": "Offre la plus avantageuse.",
+ "infructueux": false,
+ "attributaire": "CHATEAU SAFI",
+ "montant_attribue": 655740.0,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "STE OUAKRIM BATIMENT-CHATEAU SAFI-STE FARTOUN DES TRAVAUX",
+   "montant_acte_engagement": 718704.0,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "DIVERS-STE ZOUINIATRA-SOCIETE TGMH -APROS et TCMA TRAVAUX",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "depose",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "SOCIETE TGMH",
+   "montant_acte_engagement": 791640.0,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "CHATEAU SAFI",
+   "montant_acte_engagement": 655740.0,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 4,
+ "alertes_ocr": [
+  "« SOCIETE TGMH » absent de la liste des plis déposés (nom mal lu ?).",
+  "« CHATEAU SAFI » absent de la liste des plis déposés (nom mal lu ?)."
+ ],
+ "notes_ocr": [],
+ "qualite": "complet"
+}

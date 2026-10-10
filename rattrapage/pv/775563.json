@@ -1,0 +1,54 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "775563",
+ "orgAcronyme": "a1z",
+ "reference_pv": "64/23",
+ "nouveau": true,
+ "reference": "64/23",
+ "objet": "Travaux D’aménagement Et Mise A Niveau Du Complexe Culturel Touria Sekkat A Casablanca",
+ "acheteur": null,
+ "procedure": null,
+ "categorie": "Travaux",
+ "date_limite_plis": "20/11/2023",
+ "lieu_ouverture": "la salle des réunions de la Commune de",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": null,
+ "justification": "l’offre la plus avantageuse. sa",
+ "infructueux": false,
+ "attributaire": "STE HIDAMEK SARL",
+ "montant_attribue": 3592200.0,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "STE HIDAMEK SARL",
+   "montant_acte_engagement": 3592200.0,
+   "montant_apres_verification": 3592200.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "MATRANEG SARL",
+   "montant_acte_engagement": 4248144.0,
+   "montant_apres_verification": 4248144.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 2,
+ "alertes_ocr": [
+  "« STE HIDAMEK SARL » absent de la liste des plis déposés (nom mal lu ?).",
+  "« MATRANEG SARL » absent de la liste des plis déposés (nom mal lu ?)."
+ ],
+ "notes_ocr": [
+  "Maître d'ouvrage absent du PV (utiliser l'acheteur public du portail)."
+ ],
+ "qualite": "complet"
+}

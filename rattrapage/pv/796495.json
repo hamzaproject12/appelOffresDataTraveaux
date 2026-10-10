@@ -1,0 +1,51 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "796495",
+ "orgAcronyme": "g3h",
+ "reference_pv": null,
+ "nouveau": true,
+ "reference": null,
+ "objet": "Travaux de renouvellement et de renforcement du réseau d’assainissement liquide dans le périmètre de distribution de la RADEEL",
+ "acheteur": "RADEEL »* Datc d'ouverture des plis : 26/03/2024",
+ "procedure": null,
+ "categorie": "Travaux",
+ "date_limite_plis": null,
+ "lieu_ouverture": "salle de réunion de la RADEEL",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "14/05/2024",
+ "justification": null,
+ "infructueux": false,
+ "attributaire": "MATITRAVE",
+ "montant_attribue": 6830040.0,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "INJAZ PROJETS - AGOTRA -- MATITRAVE",
+   "montant_acte_engagement": 7339200.0,
+   "montant_apres_verification": 7339200.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "MATITRAVE",
+   "montant_acte_engagement": 6830040.0,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 2,
+ "alertes_ocr": [
+  "« MATITRAVE » absent de la liste des plis déposés (nom mal lu ?)."
+ ],
+ "notes_ocr": [],
+ "qualite": "complet"
+}

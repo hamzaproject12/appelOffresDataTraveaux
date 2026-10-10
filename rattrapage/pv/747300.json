@@ -1,0 +1,51 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "747300",
+ "orgAcronyme": "g3h",
+ "reference_pv": "05/23/ASST",
+ "nouveau": true,
+ "reference": "05/23/ASST",
+ "objet": "Travaux d’entretien et de réparation du réseau d’assainissement",
+ "acheteur": "Régie Autonome de Distribution d’Eau et d’Electricité de MARRAKECH",
+ "procedure": "appel d'offres ouvert",
+ "categorie": "Travaux",
+ "date_limite_plis": "22/03/2023",
+ "lieu_ouverture": "au Siège de la RADEEMA Boulevard Mohamed VI MARRAKECH",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "14/04/2023",
+ "justification": "l’offre la plus avantageuse.",
+ "infructueux": true,
+ "attributaire": "économique RAB",
+ "montant_attribue": 6041710.0,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "ee GERAB",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "économique RAB",
+   "montant_acte_engagement": 6041710.0,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 2,
+ "alertes_ocr": [
+  "« économique RAB » absent de la liste des plis déposés (nom mal lu ?)."
+ ],
+ "notes_ocr": [],
+ "qualite": "attribution"
+}

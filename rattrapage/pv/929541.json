@@ -1,0 +1,73 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "929541",
+ "orgAcronyme": "d4q",
+ "reference_pv": "30/DAM/EE/2025",
+ "nouveau": true,
+ "reference": "30/DAM/EE/2025",
+ "objet": "relatif à",
+ "acheteur": null,
+ "procedure": "appel d'offres ouvert",
+ "categorie": "Travaux",
+ "date_limite_plis": "03/09/2025",
+ "lieu_ouverture": "à la Salle d'ouverture de l'Immeuble G - Avenue Mohamed Belhassan El Ouazzani - Rabat",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "11/09/2025",
+ "justification": "Moins-disant",
+ "infructueux": false,
+ "attributaire": "re de base",
+ "montant_attribue": 4720680.0,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "IWADCO MAROC",
+   "montant_acte_engagement": 5882160.0,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "LBIR FORAGE ET FONDATION - Offre de",
+   "montant_acte_engagement": 5196960.0,
+   "montant_apres_verification": null,
+   "autres_montants": [
+    5196960.0
+   ],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "L SOCHTRAP | MAROC",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "depose",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "re de base",
+   "montant_acte_engagement": 4720680.0,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 4,
+ "alertes_ocr": [
+  "« re de base » absent de la liste des plis déposés (nom mal lu ?)."
+ ],
+ "notes_ocr": [
+  "Maître d'ouvrage absent du PV (utiliser l'acheteur public du portail)."
+ ],
+ "qualite": "complet"
+}

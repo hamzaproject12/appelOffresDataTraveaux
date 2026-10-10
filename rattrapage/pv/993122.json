@@ -1,0 +1,51 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "993122",
+ "orgAcronyme": "g3h",
+ "reference_pv": "33/2026",
+ "nouveau": true,
+ "reference": "33/2026",
+ "objet": null,
+ "acheteur": "Société Régionale Multiservices Fès Meknès « SRM-FM »",
+ "procedure": "appel d'offres ouvert",
+ "categorie": "Travaux",
+ "date_limite_plis": "05/03/2026",
+ "lieu_ouverture": "Siège de la SRM-FM",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": null,
+ "justification": null,
+ "infructueux": false,
+ "attributaire": "L.K. INTERIM",
+ "montant_attribue": 1935500.0,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "L.K. INTERIM",
+   "montant_acte_engagement": 1935500.0,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "KHANFIROU ET FILS",
+   "montant_acte_engagement": 1935500.0,
+   "montant_apres_verification": null,
+   "autres_montants": [
+    1888720.0
+   ],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 2,
+ "alertes_ocr": [],
+ "notes_ocr": [],
+ "qualite": "complet"
+}

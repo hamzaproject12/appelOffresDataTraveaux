@@ -1,0 +1,60 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "719702",
+ "orgAcronyme": "g3h",
+ "reference_pv": "42/2023",
+ "nouveau": true,
+ "reference": "42/2023",
+ "objet": "Travaux d'amélioration des Circuits Touristiques Sekkakine-Mellah-Cheikh El Kamel dans la",
+ "acheteur": null,
+ "procedure": "appel d'offres ouvert",
+ "categorie": "Travaux",
+ "date_limite_plis": "23/05/2023",
+ "lieu_ouverture": "Antenne de l’ADER-Fès à Meknès",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "06/06/2023",
+ "justification": "Le concurrent ayant présenté une offre financière avantageuse.",
+ "infructueux": false,
+ "attributaire": "Société ANRIA SARL",
+ "montant_attribue": 10367700.0,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "Société ANRIA SARL",
+   "montant_acte_engagement": 10367700.0,
+   "montant_apres_verification": 10367700.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Société BERRAHO ABDELMALKI SARL AU",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_dossier_administratif_technique",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Société RESTORE PLUS SARL AU",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_dossier_administratif_technique",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 3,
+ "alertes_ocr": [],
+ "notes_ocr": [
+  "Maître d'ouvrage absent du PV (utiliser l'acheteur public du portail)."
+ ],
+ "qualite": "attribution"
+}

@@ -1,0 +1,51 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "771585",
+ "orgAcronyme": "g3h",
+ "reference_pv": "1/2024/M-FA",
+ "nouveau": true,
+ "reference": "1/2024/M-FA",
+ "objet": "Travaux d’agencement et d'aménagement, pour la réfection et la rénovation du siège de la Mutuelle des Forces Auxiliaires à Rabat en lot unique",
+ "acheteur": "Mutuelle des Forces Auxiliaires",
+ "procedure": "appel d'offres ouvert",
+ "categorie": "Travaux",
+ "date_limite_plis": "16/01/2024",
+ "lieu_ouverture": "Siège de la Mutuelle des Actions Sanitaires et Sociales des Forces Auxiliaires -Rabat-",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": null,
+ "justification": "l'offre financière la mieux-disante par rapport au prix de référence.",
+ "infructueux": false,
+ "attributaire": "STE EBGC CONSTRUCTION",
+ "montant_attribue": 14589150.32,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "La société",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_dossier_administratif_technique",
+   "admis_avec_reserve": true
+  },
+  {
+   "nom": "STE EBGC CONSTRUCTION",
+   "montant_acte_engagement": 14589150.32,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 2,
+ "alertes_ocr": [
+  "« STE EBGC CONSTRUCTION » absent de la liste des plis déposés (nom mal lu ?)."
+ ],
+ "notes_ocr": [],
+ "qualite": "attribution"
+}

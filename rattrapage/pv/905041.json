@@ -1,0 +1,58 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "905041",
+ "orgAcronyme": "o8p",
+ "reference_pv": "06/AOO/DPJR-ANP/2025",
+ "nouveau": true,
+ "reference": "06/AOO/DPJR-ANP/2025",
+ "objet": null,
+ "acheteur": "Direction du Port de Jorf Lasfar et Région",
+ "procedure": "appel d'offres ouvert",
+ "categorie": "Travaux",
+ "date_limite_plis": "22/05/2025",
+ "lieu_ouverture": "Direction du Port de Jorf Lasfar et Région",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "10/06/2025",
+ "justification": "e VIV AQUAa présenté la meilleure offre conforme.",
+ "infructueux": false,
+ "attributaire": "VIV AQUA",
+ "montant_attribue": 1916000.0,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "VIV AQUA",
+   "montant_acte_engagement": 1916000.0,
+   "montant_apres_verification": 1916000.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "ALOUSS",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_dossier_administratif_technique",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "ENTREPRISE GETRADIM",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_dossier_administratif_technique",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 3,
+ "alertes_ocr": [],
+ "notes_ocr": [],
+ "qualite": "attribution"
+}

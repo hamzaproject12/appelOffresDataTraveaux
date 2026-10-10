@@ -1,0 +1,65 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "683800",
+ "orgAcronyme": "g3h",
+ "reference_pv": "IO4DBM/2q22/FDR",
+ "nouveau": true,
+ "reference": "IO4DBM/2q22/FDR",
+ "objet": "TRAVAIIX DE CONSTRUCTION D'UN CENTRE DE SANTE COMMLINE OULED SALEH PROVINCE DE NOUACEUR",
+ "acheteur": null,
+ "procedure": null,
+ "categorie": "Travaux",
+ "date_limite_plis": null,
+ "lieu_ouverture": "la salle des réunions du Secrétariat General de la Province Nouaceur",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": null,
+ "justification": null,
+ "infructueux": false,
+ "attributaire": "Société ARCHID TP Sarl Au",
+ "montant_attribue": null,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "t - I Société MATRANEC Sarl",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Société ARCHID TP Sarl Au",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Société CENERAL CONSRUCTION COMPANY OF AFRICA Sarl Au",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_dossier_administratif_technique",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 3,
+ "alertes_ocr": [
+  "« Société ARCHID TP Sarl Au » absent de la liste des plis déposés (nom mal lu ?).",
+  "Montant de l'attributaire « Société ARCHID TP Sarl Au » non trouvé."
+ ],
+ "notes_ocr": [
+  "« t - I Société MATRANEC Sarl » absent de la liste des plis déposés (nom mal lu ?).",
+  "« Société CENERAL CONSRUCTION COMPANY OF AFRICA Sarl Au » absent de la liste des plis déposés (nom mal lu ?).",
+  "Maître d'ouvrage absent du PV (utiliser l'acheteur public du portail)."
+ ],
+ "qualite": "participants"
+}

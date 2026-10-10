@@ -1,0 +1,63 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "723942",
+ "orgAcronyme": "d4q",
+ "reference_pv": null,
+ "nouveau": true,
+ "reference": null,
+ "objet": null,
+ "acheteur": null,
+ "procedure": null,
+ "categorie": "Travaux",
+ "date_limite_plis": "11/05/2023",
+ "lieu_ouverture": "Bureaux de la Direction Transport Région Oriental Oujda",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "22/06/2023",
+ "justification": "offre moins disante conforme.",
+ "infructueux": false,
+ "attributaire": "ASSISSOU TRAVAUX Division Exploitation Transport Fès",
+ "montant_attribue": 1298460.0,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "ORIENTAL LITAAMIR",
+   "montant_acte_engagement": 1124134.0,
+   "montant_apres_verification": 1124134.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "ABF EQUIPEMENT",
+   "montant_acte_engagement": 1194089.0,
+   "montant_apres_verification": 1183589.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "ASSISSOU TRAVAUX Division Exploitation Transport Fès",
+   "montant_acte_engagement": 1298460.0,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 3,
+ "alertes_ocr": [
+  "« ASSISSOU TRAVAUX Division Exploitation Transport Fès » absent de la liste des plis déposés (nom mal lu ?)."
+ ],
+ "notes_ocr": [
+  "« ABF EQUIPEMENT » : montant rectifié de 1 194 089.00 à 1 183 589.00 DH.",
+  "Maître d'ouvrage absent du PV (utiliser l'acheteur public du portail)."
+ ],
+ "qualite": "complet"
+}

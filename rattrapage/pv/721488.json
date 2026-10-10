@@ -1,0 +1,105 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "721488",
+ "orgAcronyme": "d4q",
+ "reference_pv": null,
+ "nouveau": true,
+ "reference": null,
+ "objet": null,
+ "acheteur": null,
+ "procedure": "appel d'offres ouvert",
+ "categorie": "Travaux",
+ "date_limite_plis": "31/05/2023",
+ "lieu_ouverture": "à la Salle d'ouverture de l'immeuble G - Avenue Mohamed Belhassan El Ouazzani - Rabat",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "14/06/2023",
+ "justification": "Moins-disant",
+ "infructueux": false,
+ "attributaire": "ASTOP",
+ "montant_attribue": 257760.0,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "ADETOP MAROC",
+   "montant_acte_engagement": 200760.0,
+   "montant_apres_verification": 200760.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "AHOUARI JAMAL (IGT) MAROC",
+   "montant_acte_engagement": 330720.0,
+   "montant_apres_verification": 330720.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "ASTOP",
+   "montant_acte_engagement": 257760.0,
+   "montant_apres_verification": 257760.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "BAHI NAJIB MAROC",
+   "montant_acte_engagement": 399120.0,
+   "montant_apres_verification": 399120.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "IGT SAGHIR HAFID MAROC",
+   "montant_acte_engagement": 348420.0,
+   "montant_apres_verification": 348420.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "MALIH HICHAM MAROC",
+   "montant_acte_engagement": 342000.0,
+   "montant_apres_verification": 342000.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "SETOM MAROC",
+   "montant_acte_engagement": 331200.0,
+   "montant_apres_verification": 331200.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "SGE TOPO MAROC",
+   "montant_acte_engagement": 283224.0,
+   "montant_apres_verification": 283224.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 8,
+ "alertes_ocr": [],
+ "notes_ocr": [
+  "Maître d'ouvrage absent du PV (utiliser l'acheteur public du portail)."
+ ],
+ "qualite": "complet"
+}

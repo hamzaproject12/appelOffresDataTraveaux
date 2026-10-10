@@ -1,0 +1,87 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "794991",
+ "orgAcronyme": "f9f",
+ "reference_pv": "4/2024/BP",
+ "nouveau": true,
+ "reference": "4/2024/BP",
+ "objet": null,
+ "acheteur": null,
+ "procedure": "appel d'offres ouvert simplifié",
+ "categorie": "Travaux",
+ "date_limite_plis": null,
+ "lieu_ouverture": null,
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": null,
+ "justification": "le concurrent a présenté l'offre économiquement la plus avantageuse",
+ "infructueux": false,
+ "attributaire": "Sté \" INTRIT ELEC\" SARL",
+ "montant_attribue": 391230.0,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "CONCCURENTS",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "depose",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "1, Sté\" NAXU \" SARL AU",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "depose",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Sté \"ELECTRO COP 2 2 \"SARL AU",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "depose",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Sté \" INTRIT ELEC\" SARL",
+   "montant_acte_engagement": 391230.0,
+   "montant_apres_verification": 391230.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Sté \"AMINE ELECTROMECA \"SARL AU",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "depose",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Sté \" NAXU \" SARL AU",
+   "montant_acte_engagement": 432264.0,
+   "montant_apres_verification": 432264.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 6,
+ "alertes_ocr": [],
+ "notes_ocr": [
+  "Maître d'ouvrage absent du PV (utiliser l'acheteur public du portail)."
+ ],
+ "qualite": "complet"
+}

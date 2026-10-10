@@ -1,0 +1,82 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "831609",
+ "orgAcronyme": "d4q",
+ "reference_pv": null,
+ "nouveau": true,
+ "reference": null,
+ "objet": "Création des boucles et renforcement des réseaux HTA relavant de la Direction Provinciale Distribution TAROUDANT (Province de TAROUDANT)",
+ "acheteur": null,
+ "procedure": null,
+ "categorie": "Travaux",
+ "date_limite_plis": "04/09/2024",
+ "lieu_ouverture": "Siège ONEE-Branche Electricité",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "25/09/2024",
+ "justification": "L'offre proposée par le soumissionnaire « SOCIETE CARTAG TRAVAUX » s’écarte d’un taux acceptable de -0,91% par rapport à l’estimation.",
+ "infructueux": false,
+ "attributaire": "SOCIETE CARTAG TRAVAUX",
+ "montant_attribue": 4044870.3,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "SOCIETE CARTAG TRAVAUX",
+   "montant_acte_engagement": 4044870.3,
+   "montant_apres_verification": 4044870.3,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "SOCIETE IMADELEC",
+   "montant_acte_engagement": 4423071.0,
+   "montant_apres_verification": 4423071.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "SOCIETE ELECTRO TAFOGHALT",
+   "montant_acte_engagement": 4157499.0,
+   "montant_apres_verification": 4157499.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "SOCIETE HS INFRA",
+   "montant_acte_engagement": 4527387.0,
+   "montant_apres_verification": 4527387.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "SOCIETE MSSIOUA TRAVAUX DIVERS",
+   "montant_acte_engagement": 4577991.6,
+   "montant_apres_verification": 4577991.6,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 5,
+ "alertes_ocr": [
+  "« SOCIETE ELECTRO TAFOGHALT » absent de la liste des plis déposés (nom mal lu ?).",
+  "« SOCIETE HS INFRA » absent de la liste des plis déposés (nom mal lu ?).",
+  "« SOCIETE MSSIOUA TRAVAUX DIVERS » absent de la liste des plis déposés (nom mal lu ?)."
+ ],
+ "notes_ocr": [
+  "Maître d'ouvrage absent du PV (utiliser l'acheteur public du portail)."
+ ],
+ "qualite": "complet"
+}

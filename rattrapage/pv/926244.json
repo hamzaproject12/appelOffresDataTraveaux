@@ -1,0 +1,79 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "926244",
+ "orgAcronyme": "d4q",
+ "reference_pv": "DB3128045-Lot",
+ "nouveau": true,
+ "reference": "DB3128045-Lot",
+ "objet": null,
+ "acheteur": null,
+ "procedure": null,
+ "categorie": "Travaux",
+ "date_limite_plis": "08/07/2025",
+ "lieu_ouverture": "Siège de la Direction Régionale Distribution Béni Mellal",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": null,
+ "justification": "Moins disant conforme",
+ "infructueux": false,
+ "attributaire": "SAFETRANEG",
+ "montant_attribue": 412450.0,
+ "attributaires_par_lot": [
+  {
+   "lot": null,
+   "attributaire": "SAFETRANEG",
+   "montant": 412450.0
+  },
+  {
+   "lot": null,
+   "attributaire": "ERALEC",
+   "montant": 296010.0
+  }
+ ],
+ "soumissionnaires": [
+  {
+   "nom": "SAFAR SERVICE & BTP",
+   "montant_acte_engagement": 425000.0,
+   "montant_apres_verification": 425000.0,
+   "autres_montants": [],
+   "lots": [
+    "1",
+    "2"
+   ],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "SAFETRANEG",
+   "montant_acte_engagement": 412450.0,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "ERALEC",
+   "montant_acte_engagement": 296010.0,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 3,
+ "alertes_ocr": [
+  "« SAFETRANEG » absent de la liste des plis déposés (nom mal lu ?).",
+  "« ERALEC » absent de la liste des plis déposés (nom mal lu ?)."
+ ],
+ "notes_ocr": [
+  "Marché alloti (2 lots).",
+  "Maître d'ouvrage absent du PV (utiliser l'acheteur public du portail).",
+  "Montants exprimés hors taxes (HT)."
+ ],
+ "qualite": "complet"
+}

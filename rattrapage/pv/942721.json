@@ -1,0 +1,65 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "942721",
+ "orgAcronyme": "o8p",
+ "reference_pv": null,
+ "nouveau": true,
+ "reference": null,
+ "objet": null,
+ "acheteur": null,
+ "procedure": null,
+ "categorie": "Travaux",
+ "date_limite_plis": "02/10/2025",
+ "lieu_ouverture": null,
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": null,
+ "justification": "L'offre a à us avantageuse. - Date c'acièvement ces travaux ce .a commission 08/0/2025",
+ "infructueux": false,
+ "attributaire": "Concurrent Vontant ce ‘acte c'engagement",
+ "montant_attribue": null,
+ "attributaires_par_lot": [
+  {
+   "lot": null,
+   "attributaire": "Concurrent Vontant ce ‘acte c'engagement",
+   "montant": null
+  },
+  {
+   "lot": null,
+   "attributaire": "GROU?£C:=ADYA AT ANT QUE 972.481.,43 cas",
+   "montant": null
+  }
+ ],
+ "soumissionnaires": [
+  {
+   "nom": "Concurrent Vontant ce ‘acte c'engagement",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "GROU?£C:=ADYA AT ANT QUE 972.481.,43 cas",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 2,
+ "alertes_ocr": [
+  "Montant de l'attributaire « Concurrent Vontant ce ‘acte c'engagement » non trouvé.",
+  "Montant de l'attributaire « GROU?£C:=ADYA AT ANT QUE 972.481.,43 cas » non trouvé."
+ ],
+ "notes_ocr": [
+  "Maître d'ouvrage absent du PV (utiliser l'acheteur public du portail)."
+ ],
+ "qualite": "participants"
+}

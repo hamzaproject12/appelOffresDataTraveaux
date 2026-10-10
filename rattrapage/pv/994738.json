@@ -1,0 +1,56 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "994738",
+ "orgAcronyme": "g3h",
+ "reference_pv": "14/2026",
+ "nouveau": true,
+ "reference": "14/2026",
+ "objet": "Travaux de restauration et de réhabilitation du Hammam Al kaddan ainsi que ses voisinages dans la médina de Fès, ville de Fès, en lot unique",
+ "acheteur": null,
+ "procedure": "appel d'offres ouvert",
+ "categorie": "Travaux",
+ "date_limite_plis": "09/04/2026",
+ "lieu_ouverture": "Siège de l’ADER-Fès",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "16/04/2026",
+ "justification": "Le concurrent ayant présenté une offre financière avantageuse.",
+ "infructueux": false,
+ "attributaire": "Société ANDALOUS DESIGN SARL",
+ "montant_attribue": 5130432.0,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "Société ANDALOUS DESIGN SARL",
+   "montant_acte_engagement": 3391956.0,
+   "montant_apres_verification": 5130432.0,
+   "autres_montants": [
+    1593603.0
+   ],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "DESIGN SARL Montant Globale de l’acte d’engagement",
+   "montant_acte_engagement": 5130432.0,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 2,
+ "alertes_ocr": [
+  "« DESIGN SARL Montant Globale de l’acte d’engagement » absent de la liste des plis déposés (nom mal lu ?)."
+ ],
+ "notes_ocr": [
+  "« Société ANDALOUS DESIGN SARL » : montant rectifié de 3 391 956.00 à 5 130 432.00 DH.",
+  "Maître d'ouvrage absent du PV (utiliser l'acheteur public du portail)."
+ ],
+ "qualite": "complet"
+}

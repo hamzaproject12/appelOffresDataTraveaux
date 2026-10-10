@@ -1,0 +1,60 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "736381",
+ "orgAcronyme": "g8e",
+ "reference_pv": "112/2023",
+ "nouveau": true,
+ "reference": "112/2023",
+ "objet": "ACHEVEMENT DES TRAVAUX D'AMENAGEMENT DU BOULEVARD 20 AOUT A LA COMMUNE KASBA TADLA, PROVINCE BENI MELLAL-LOT UNIQUE",
+ "acheteur": "Agence Régionale d'Exécution des Projets Région Béni Mellal- Khénifra",
+ "procedure": null,
+ "categorie": "Travaux",
+ "date_limite_plis": "20/07/2023",
+ "lieu_ouverture": "Salle de réunion de I' AREP région Beni Mellal Khénifra, Sis Bd Med V lotissement lala Hayat immeuble n°3, 4 éme et 5éme étage Béni Mellal",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "15/08/2023",
+ "justification": "L'offre la plus avantageuse.",
+ "infructueux": false,
+ "attributaire": "STE SATP",
+ "montant_attribue": 6394536.0,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "STEANETRA",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": true
+  },
+  {
+   "nom": "STESATP",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "STE SATP",
+   "montant_acte_engagement": 6394536.0,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 3,
+ "alertes_ocr": [
+  "« STE SATP » absent de la liste des plis déposés (nom mal lu ?)."
+ ],
+ "notes_ocr": [],
+ "qualite": "attribution"
+}

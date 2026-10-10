@@ -1,0 +1,95 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "817085",
+ "orgAcronyme": "o8p",
+ "reference_pv": "24/DRM5S/2024/MSPS",
+ "nouveau": true,
+ "reference": "24/DRM5S/2024/MSPS",
+ "objet": "TRAVAUX DE RECONSTRUCTION DES CENTRES DE SOINS DE SANTÉ PRIMAIRES SUIVANTS : DR AKHAFARGA -— DR ALATASS - DR LAADILAT- PROVINCE DE CHICHAOUA _TOUCHES PAR LE SEISME",
+ "acheteur": "Ministère de la santé et de la protection sociale de Marrakech -Safi",
+ "procedure": "appel d'offres ouvert",
+ "categorie": "Travaux",
+ "date_limite_plis": "10/06/2024",
+ "lieu_ouverture": "DIRECTION REGIONALE ANEP MARRAKECH-SAFI",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "12/07/2024",
+ "justification": "Le marché est attribué au concurrent ayant proposé l'offre financière la plus avantageuse.",
+ "infructueux": false,
+ "attributaire": "IFOULKI RTM",
+ "montant_attribue": 6953884.8,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "H2E TRAVAUX",
+   "montant_acte_engagement": 7209919.2,
+   "montant_apres_verification": null,
+   "autres_montants": [
+    7209919.2
+   ],
+   "lots": [],
+   "statut": "ecarte_offre_financiere",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Groupement PETRAC",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "depose",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "IFOULKI RTM",
+   "montant_acte_engagement": 6953884.8,
+   "montant_apres_verification": null,
+   "autres_montants": [
+    6953884.8
+   ],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Groupement OULHINTSUD et LA &KA BTP",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "depose",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "STE ABDO BATIMENT",
+   "montant_acte_engagement": 7486096.8,
+   "montant_apres_verification": null,
+   "autres_montants": [
+    7486096.8
+   ],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Groupement PETRAC et AIT",
+   "montant_acte_engagement": 8361709.2,
+   "montant_apres_verification": null,
+   "autres_montants": [
+    8361709.2
+   ],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 6,
+ "alertes_ocr": [
+  "« Groupement PETRAC et AIT » absent de la liste des plis déposés (nom mal lu ?)."
+ ],
+ "notes_ocr": [],
+ "qualite": "complet"
+}

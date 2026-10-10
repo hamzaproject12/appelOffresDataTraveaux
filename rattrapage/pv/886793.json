@@ -1,0 +1,145 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "886793",
+ "orgAcronyme": "g3h",
+ "reference_pv": null,
+ "nouveau": true,
+ "reference": null,
+ "objet": null,
+ "acheteur": null,
+ "procedure": null,
+ "categorie": "Travaux",
+ "date_limite_plis": null,
+ "lieu_ouverture": null,
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": null,
+ "justification": null,
+ "infructueux": false,
+ "attributaire": null,
+ "montant_attribue": null,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "SOCIETE NEXT LAB SARL",
+   "montant_acte_engagement": 528540.0,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "SOCIETE DIDALI",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "SOCIETE RAM MEDIA NS",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "SOCIETE HIGH BUREAU",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "SOCIETE SONORISATION BENHIMAS DS",
+   "montant_acte_engagement": 532674.0,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "SOCIETE DELTA COMPTENCES fe",
+   "montant_acte_engagement": 535314.0,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "SOCIETE SEMOUG TECHNOLOGIE RU 0",
+   "montant_acte_engagement": 527657.05,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "SOCIETE ZINA MARKETING NEGOCE Er",
+   "montant_acte_engagement": 531304.8,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "SOCIETE RANIA TECH",
+   "montant_acte_engagement": 526788.0,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": true
+  },
+  {
+   "nom": "SOCIETE DIDALI Fee",
+   "montant_acte_engagement": 513513.07,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "SOCIETE HIGH BUREAU rl",
+   "montant_acte_engagement": 526548.0,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 11,
+ "alertes_ocr": [
+  "« SOCIETE NEXT LAB SARL » absent de la liste des plis déposés (nom mal lu ?).",
+  "« SOCIETE SONORISATION BENHIMAS DS » absent de la liste des plis déposés (nom mal lu ?).",
+  "« SOCIETE DELTA COMPTENCES fe » absent de la liste des plis déposés (nom mal lu ?).",
+  "« SOCIETE SEMOUG TECHNOLOGIE RU 0 » absent de la liste des plis déposés (nom mal lu ?).",
+  "« SOCIETE ZINA MARKETING NEGOCE Er » absent de la liste des plis déposés (nom mal lu ?).",
+  "« SOCIETE RANIA TECH » absent de la liste des plis déposés (nom mal lu ?).",
+  "« SOCIETE DIDALI Fee » absent de la liste des plis déposés (nom mal lu ?).",
+  "« SOCIETE HIGH BUREAU rl » absent de la liste des plis déposés (nom mal lu ?).",
+  "Attributaire non trouvé."
+ ],
+ "notes_ocr": [
+  "« SOCIETE DIDALI » absent de la liste des plis déposés (nom mal lu ?).",
+  "« SOCIETE RAM MEDIA NS » absent de la liste des plis déposés (nom mal lu ?).",
+  "« SOCIETE HIGH BUREAU » absent de la liste des plis déposés (nom mal lu ?).",
+  "Maître d'ouvrage absent du PV (utiliser l'acheteur public du portail)."
+ ],
+ "qualite": "complet"
+}

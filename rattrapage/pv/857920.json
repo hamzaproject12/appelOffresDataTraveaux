@@ -1,0 +1,75 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "857920",
+ "orgAcronyme": "z7x",
+ "reference_pv": "12/2024ESTF",
+ "nouveau": true,
+ "reference": "12/2024ESTF",
+ "objet": "Appel d'offres ouvert simplifié n°12/2024ESTF relatif aux travaux d’aménagement des locaux et espaces extérieurs de l'Ecole Supérieure de Technologie « EST » de Fès",
+ "acheteur": "Ecole Supérieure de Technologie de Fès",
+ "procedure": "appel d'offres ouvert simplifié",
+ "categorie": "Travaux",
+ "date_limite_plis": "29/11/2024",
+ "lieu_ouverture": "Siège de la présidence de l’Université Sidi Mohamed Ben Abdellah",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "04/12/2024",
+ "justification": "Offre financière la plus avantageuse.",
+ "infructueux": false,
+ "attributaire": "Sté GLOIRE TRAV SARL AU",
+ "montant_attribue": 1236540.0,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "Sté SOZARTIZAN SARL",
+   "montant_acte_engagement": 1424280.0,
+   "montant_apres_verification": 1424280.0,
+   "autres_montants": [],
+   "lots": [
+    "unique"
+   ],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Lot unique Sté GLOIRE TRAV SARL AU",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Sté NOUVELLE GENERATION DU MONDE THERMIQUE SARL",
+   "montant_acte_engagement": 1198440.0,
+   "montant_apres_verification": 1198440.0,
+   "autres_montants": [],
+   "lots": [
+    "unique"
+   ],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Sté GLOIRE TRAV SARL AU",
+   "montant_acte_engagement": 1236540.0,
+   "montant_apres_verification": 1236540.0,
+   "autres_montants": [],
+   "lots": [
+    "unique"
+   ],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 4,
+ "alertes_ocr": [
+  "« Sté GLOIRE TRAV SARL AU » absent de la liste des plis déposés (nom mal lu ?)."
+ ],
+ "notes_ocr": [],
+ "qualite": "complet"
+}

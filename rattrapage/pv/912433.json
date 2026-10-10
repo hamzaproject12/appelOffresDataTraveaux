@@ -1,0 +1,84 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "912433",
+ "orgAcronyme": "j8k",
+ "reference_pv": null,
+ "nouveau": true,
+ "reference": null,
+ "objet": "Travaux de renforcement de chaussée, d’aménagement de trottoir et espaces verts de l’opération Zone Show Room",
+ "acheteur": null,
+ "procedure": "appel d'offres ouvert",
+ "categorie": "Travaux",
+ "date_limite_plis": "26/06/2025",
+ "lieu_ouverture": "Division des Marchés de la Société Al Omrane souss Massa",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "04/07/2025",
+ "justification": "Concurrent représentant l’offre la plus avantageuse.",
+ "infructueux": false,
+ "attributaire": "ETIA",
+ "montant_attribue": 5566824.82,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "SICATRA - SAHAF - ETIA",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "TOUNA SERVICES",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_offre_technique",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "SICATRA",
+   "montant_acte_engagement": 6525489.4,
+   "montant_apres_verification": 6525489.4,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "SAHAF",
+   "montant_acte_engagement": 7078588.08,
+   "montant_apres_verification": 7078588.08,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "ETIA",
+   "montant_acte_engagement": 5566824.82,
+   "montant_apres_verification": 5566824.82,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 5,
+ "alertes_ocr": [
+  "« SICATRA » absent de la liste des plis déposés (nom mal lu ?).",
+  "« SAHAF » absent de la liste des plis déposés (nom mal lu ?).",
+  "« ETIA » absent de la liste des plis déposés (nom mal lu ?)."
+ ],
+ "notes_ocr": [
+  "« SICATRA - SAHAF - ETIA » absent de la liste des plis déposés (nom mal lu ?).",
+  "« TOUNA SERVICES » absent de la liste des plis déposés (nom mal lu ?).",
+  "Maître d'ouvrage absent du PV (utiliser l'acheteur public du portail)."
+ ],
+ "qualite": "complet"
+}

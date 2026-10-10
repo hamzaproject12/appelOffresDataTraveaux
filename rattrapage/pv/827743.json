@@ -1,0 +1,81 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "827743",
+ "orgAcronyme": "d4q",
+ "reference_pv": null,
+ "nouveau": true,
+ "reference": null,
+ "objet": "Maintenance et réparation de fuites sur conduite de diamètre inferieur a 400 mm relevant du secteur de production au niveau des provinc?s Nador et Guerif",
+ "acheteur": null,
+ "procedure": "appel d'offres ouvert",
+ "categorie": "Travaux",
+ "date_limite_plis": "29/08/2024",
+ "lieu_ouverture": null,
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "10/09/2024",
+ "justification": "Moins-disant",
+ "infructueux": false,
+ "attributaire": "ABB EAUX TRAVAUX",
+ "montant_attribue": 1437000.0,
+ "attributaires_par_lot": [
+  {
+   "lot": null,
+   "attributaire": "ABB EAUX TRAVAUX",
+   "montant": 1437000.0
+  },
+  {
+   "lot": null,
+   "attributaire": "RABIE DE TRAVAUX DIVERS",
+   "montant": 1174644.0
+  },
+  {
+   "lot": null,
+   "attributaire": "DIV : :3 de",
+   "montant": 1174644.0
+  },
+  {
+   "lot": null,
+   "attributaire": "RABIE DE TRAVAUX DIVERS - Offre de",
+   "montant": 1174644.0
+  }
+ ],
+ "soumissionnaires": [
+  {
+   "nom": "ABB EAUX TRAVAUX",
+   "montant_acte_engagement": 1437000.0,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "RABIE DE TRAVAUX DIVERS - Offre de",
+   "montant_acte_engagement": 1174644.0,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "DIV : :3 de",
+   "montant_acte_engagement": 1174644.0,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 3,
+ "alertes_ocr": [],
+ "notes_ocr": [
+  "Maître d'ouvrage absent du PV (utiliser l'acheteur public du portail)."
+ ],
+ "qualite": "attribution"
+}

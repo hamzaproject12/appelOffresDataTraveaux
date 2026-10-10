@@ -1,0 +1,104 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "1023592",
+ "orgAcronyme": "o8p",
+ "reference_pv": "01/CPMO/2026",
+ "nouveau": true,
+ "reference": "01/CPMO/2026",
+ "objet": null,
+ "acheteur": "CONSEIL PREFECTORAL DE MOHAMMEDIA",
+ "procedure": "appel d'offres ouvert international",
+ "categorie": "Travaux",
+ "date_limite_plis": "07/07/2026",
+ "lieu_ouverture": "BUREAUX D’AD M INFRASTRUCTURE À PROXIMITE DE LA GARE DE PEAGE TIT MELLIL",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "14/07/2026",
+ "justification": "Offre la mieux-disante.",
+ "infructueux": false,
+ "attributaire": "TABAREK",
+ "montant_attribue": 25301100.0,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "CAMPEZO",
+   "montant_acte_engagement": 29107099.2,
+   "montant_apres_verification": 29107099.2,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "GRANDS CHANTIERS ROUTIERS (GCR)",
+   "montant_acte_engagement": 37474395.6,
+   "montant_apres_verification": 37474395.6,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_offre_financiere",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "GROUPE MOJAZINE",
+   "montant_acte_engagement": 29284968.0,
+   "montant_apres_verification": 29285364.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "EL HALLAOUI",
+   "montant_acte_engagement": 27800126.4,
+   "montant_apres_verification": 27800126.4,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "VIAS",
+   "montant_acte_engagement": 27962868.0,
+   "montant_apres_verification": 27962868.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "TABAREK",
+   "montant_acte_engagement": 25301100.0,
+   "montant_apres_verification": 25301100.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "MERASTRUGTURE",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": true
+  }
+ ],
+ "nombre_soumissionnaires": 7,
+ "alertes_ocr": [
+  "« CAMPEZO » absent de la liste des plis déposés (nom mal lu ?).",
+  "« GRANDS CHANTIERS ROUTIERS (GCR) » absent de la liste des plis déposés (nom mal lu ?).",
+  "« GROUPE MOJAZINE » absent de la liste des plis déposés (nom mal lu ?).",
+  "« EL HALLAOUI » absent de la liste des plis déposés (nom mal lu ?).",
+  "« VIAS » absent de la liste des plis déposés (nom mal lu ?).",
+  "« TABAREK » absent de la liste des plis déposés (nom mal lu ?)."
+ ],
+ "notes_ocr": [
+  "« MERASTRUGTURE » absent de la liste des plis déposés (nom mal lu ?).",
+  "« GROUPE MOJAZINE » : montant rectifié de 29 284 968.00 à 29 285 364.00 DH."
+ ],
+ "qualite": "complet"
+}

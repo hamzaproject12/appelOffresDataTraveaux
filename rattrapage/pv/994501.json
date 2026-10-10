@@ -1,0 +1,58 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "994501",
+ "orgAcronyme": "g3h",
+ "reference_pv": "11/DPJ-2026",
+ "nouveau": true,
+ "reference": "11/DPJ-2026",
+ "objet": null,
+ "acheteur": "SRM:-CS DP EL JADIDA",
+ "procedure": "appel d'offres ouvert",
+ "categorie": "Travaux",
+ "date_limite_plis": "26/03/2026",
+ "lieu_ouverture": "Direction Provinciale El Jadida",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "15/04/2026",
+ "justification": "Offre la plus avantageuse.",
+ "infructueux": false,
+ "attributaire": "ART BINAV",
+ "montant_attribue": 4049430.0,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "ART BINAV",
+   "montant_acte_engagement": 4049430.0,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "AQUA DEMINE",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_dossier_administratif_technique",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Z.M KOPAN",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_dossier_administratif_technique",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 3,
+ "alertes_ocr": [],
+ "notes_ocr": [],
+ "qualite": "attribution"
+}

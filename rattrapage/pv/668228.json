@@ -1,0 +1,74 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "668228",
+ "orgAcronyme": "q1s",
+ "reference_pv": "60/2022/0RSM",
+ "nouveau": true,
+ "reference": "60/2022/0RSM",
+ "objet": "Travaux de construction et d'installation des abris pour les équipements des Stations en tête des exploitations des périmètres P12 et P13 relevant de la province de Taroudant (2“\" tranche)",
+ "acheteur": "ORMVA/SM",
+ "procedure": "appel d'offres ouvert",
+ "categorie": "Travaux",
+ "date_limite_plis": "28/09/2022",
+ "lieu_ouverture": "salle de réunion de la direction de l'ORMVA/SM",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "12/10/2022",
+ "justification": "offre la moins disante de la société UNIVERS PHYTO",
+ "infructueux": false,
+ "attributaire": "IRRIONE",
+ "montant_attribue": 806640.0,
+ "attributaires_par_lot": [
+  {
+   "lot": null,
+   "attributaire": "IRRIONE",
+   "montant": 806640.0
+  },
+  {
+   "lot": null,
+   "attributaire": "UNIVERS PHYTO",
+   "montant": 642252.0
+  },
+  {
+   "lot": null,
+   "attributaire": "IRRI DEPORT",
+   "montant": 793260.0
+  }
+ ],
+ "soumissionnaires": [
+  {
+   "nom": "IRRIONE",
+   "montant_acte_engagement": 806640.0,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "UNIVERS PHYTO",
+   "montant_acte_engagement": 642252.0,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "IRRI DEPORT",
+   "montant_acte_engagement": 793260.0,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 3,
+ "alertes_ocr": [],
+ "notes_ocr": [],
+ "qualite": "attribution"
+}

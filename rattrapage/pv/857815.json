@@ -1,0 +1,75 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "857815",
+ "orgAcronyme": "o8p",
+ "reference_pv": "221-24-AOO",
+ "nouveau": true,
+ "reference": "221-24-AOO",
+ "objet": "Travaux de construction d'une brigade cynotechnique de la DGSN à l'Aéroport Agadir AI Massira",
+ "acheteur": "l'OFFICE NATIONAL DES AEROPORTS",
+ "procedure": "appel d'offres ouvert",
+ "categorie": "Travaux",
+ "date_limite_plis": "12/11/2024",
+ "lieu_ouverture": "La salle de réunion de la Direction des Achaïs et de la Logistique",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "05/12/2024",
+ "justification": "L'offre la plus avantageuse.",
+ "infructueux": false,
+ "attributaire": "1 ORTIS MAROC COMPRISE COMPRISE",
+ "montant_attribue": 3866166.0,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "ORTIS MAROC EL 3",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "SOGETRACOF-MAROC",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_dossier_administratif_technique",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "SOGETREL",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_dossier_administratif_technique",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "1 ORTIS MAROC COMPRISE COMPRISE",
+   "montant_acte_engagement": 3866166.0,
+   "montant_apres_verification": 3866166.0,
+   "autres_montants": [
+    3866166.0
+   ],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 4,
+ "alertes_ocr": [
+  "« 1 ORTIS MAROC COMPRISE COMPRISE » absent de la liste des plis déposés (nom mal lu ?)."
+ ],
+ "notes_ocr": [
+  "« ORTIS MAROC EL 3 » absent de la liste des plis déposés (nom mal lu ?).",
+  "« SOGETRACOF-MAROC » absent de la liste des plis déposés (nom mal lu ?).",
+  "« SOGETREL » absent de la liste des plis déposés (nom mal lu ?)."
+ ],
+ "qualite": "attribution"
+}

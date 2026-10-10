@@ -1,0 +1,62 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "741202",
+ "orgAcronyme": "g3h",
+ "reference_pv": "28/23/LAU/ASST",
+ "nouveau": true,
+ "reference": "28/23/LAU/ASST",
+ "objet": "Travaux de réhabilitation intramuros",
+ "acheteur": "Régie Autonome de Distribution d’Hau et d’Electricité de MARRAKECH",
+ "procedure": "appel d'offres ouvert",
+ "categorie": "Travaux",
+ "date_limite_plis": "18/05/2023",
+ "lieu_ouverture": "au Siège de la RADEEMA Boulevard Mohamed VI MARRAKECH",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "14/07/2023",
+ "justification": "l'offre la plus avantageuse.",
+ "infructueux": false,
+ "attributaire": "GERAB",
+ "montant_attribue": 7033984.0,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "VARDEP",
+   "montant_acte_engagement": 7059878.4,
+   "montant_apres_verification": null,
+   "autres_montants": [
+    8471854.08
+   ],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "WATEP",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_dossier_administratif_technique",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "GERAB",
+   "montant_acte_engagement": 7033984.0,
+   "montant_apres_verification": null,
+   "autres_montants": [
+    8440780.8
+   ],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 3,
+ "alertes_ocr": [],
+ "notes_ocr": [],
+ "qualite": "complet"
+}

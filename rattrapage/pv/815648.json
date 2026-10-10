@@ -1,0 +1,72 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "815648",
+ "orgAcronyme": "h5r",
+ "reference_pv": null,
+ "nouveau": true,
+ "reference": null,
+ "objet": "du Marché et Objectifs",
+ "acheteur": "Commune d’Oued-Zem",
+ "procedure": "appel d'offres ouvert national",
+ "categorie": "Travaux",
+ "date_limite_plis": "03/07/2024",
+ "lieu_ouverture": "Salle de réunion",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "16/07/2024",
+ "justification": "les critères de sélection des concurrents devront être l'offre financière la mieux disante. “L'offre qu'il a présentée est la mieux disante. Oued-Zem le : 16/07/2024 le complément de dossier administratif est accepté par la commission.",
+ "infructueux": false,
+ "attributaire": "SOCIETE SHIMA SPORT ITALIA à Kénitra",
+ "montant_attribue": 1212258.0,
+ "attributaires_par_lot": [
+  {
+   "lot": null,
+   "attributaire": "SOCIETE SHIMA SPORT ITALIA à Kénitra",
+   "montant": 1212258.0
+  },
+  {
+   "lot": null,
+   "attributaire": "Moyens alloués au projet",
+   "montant": null
+  }
+ ],
+ "soumissionnaires": [
+  {
+   "nom": "SOCIETE SHIMA SPORT ITALIA à Kénitra",
+   "montant_acte_engagement": 1212258.0,
+   "montant_apres_verification": 1212258.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "SOCIETE AUGUST SARL à Babat",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_dossier_administratif_technique",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Moyens alloués au projet",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 3,
+ "alertes_ocr": [
+  "« Moyens alloués au projet » absent de la liste des plis déposés (nom mal lu ?).",
+  "Montant de l'attributaire « Moyens alloués au projet » non trouvé."
+ ],
+ "notes_ocr": [],
+ "qualite": "attribution"
+}

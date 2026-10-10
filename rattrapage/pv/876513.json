@@ -1,0 +1,51 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "876513",
+ "orgAcronyme": "o8p",
+ "reference_pv": "03/2025/MENPS",
+ "nouveau": true,
+ "reference": "03/2025/MENPS",
+ "objet": "OUVERT NATIONAL SUR OFFRES DE PRIX N° : 03/2025/MENPS relatif aux : Travaux de construction du stade de football AI Barid à la préfecture de rabat. Lot n°3 : Ascenseurs",
+ "acheteur": null,
+ "procedure": "appel d'offres ouvert national",
+ "categorie": "Travaux",
+ "date_limite_plis": "27/02/2025",
+ "lieu_ouverture": "Salle de réunions de l'Agence Nationale des Equipements Publics, Hay Nahda 2 à Rabat",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "03/03/2025",
+ "justification": "Conformément aux dispositions des articles 5 et 14 du règlement de consultation.",
+ "infructueux": false,
+ "attributaire": "OTIS MAROC",
+ "montant_attribue": 3502080.0,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "SCHINDLER MAROC",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_dossier_administratif_technique",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "OTIS MAROC",
+   "montant_acte_engagement": 3502080.0,
+   "montant_apres_verification": 3502080.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 2,
+ "alertes_ocr": [],
+ "notes_ocr": [
+  "Maître d'ouvrage absent du PV (utiliser l'acheteur public du portail)."
+ ],
+ "qualite": "attribution"
+}

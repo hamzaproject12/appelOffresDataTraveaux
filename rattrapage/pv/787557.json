@@ -1,0 +1,109 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "787557",
+ "orgAcronyme": "g3h",
+ "reference_pv": "440/2024/CORN-C3-L7",
+ "nouveau": true,
+ "reference": "440/2024/CORN-C3-L7",
+ "objet": "AMÉNAGEMENT DE LA PROMENADE MARITIME DE LA MOSQUÉE HASSAN II",
+ "acheteur": "Société CASABLANCA AMÉNAGEMENT",
+ "procedure": "appel d'offres ouvert",
+ "categorie": "Travaux",
+ "date_limite_plis": "26/03/2024",
+ "lieu_ouverture": "Salle de réunion de CASABLANCA AMÉNAGEMENT S.A",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "08/04/2024",
+ "justification": "YŸ La meilleure combinaison des offres permettant au maître d'ouvrage de retenir l’offre globale la plus avantageuse pour l’ensemble des lots.",
+ "infructueux": false,
+ "attributaire": "Société HTCC",
+ "montant_attribue": 1767600.0,
+ "attributaires_par_lot": [
+  {
+   "lot": "7",
+   "attributaire": "Société HTCC",
+   "montant": 1767600.0
+  },
+  {
+   "lot": "8",
+   "attributaire": "Société AL MACHRIK AL ARABI SARL",
+   "montant": 1704000.0
+  }
+ ],
+ "soumissionnaires": [
+  {
+   "nom": "Société AL MACHRIK AL ARABI SARL",
+   "montant_acte_engagement": 1776000.0,
+   "montant_apres_verification": null,
+   "autres_montants": [
+    1776000.0,
+    1704000.0
+   ],
+   "lots": [
+    "7",
+    "8"
+   ],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Société HTCC 2. Société HTCC",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [
+    "7"
+   ],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Société PETRAC SARL AU 3. Société PETRAC SARL AU",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [
+    "7"
+   ],
+   "statut": "ecarte_dossier_administratif_technique",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Société SOLVED 2. Société SOLVED",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [
+    "7"
+   ],
+   "statut": "ecarte_dossier_administratif_technique",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Société HTCC",
+   "montant_acte_engagement": 1767600.0,
+   "montant_apres_verification": null,
+   "autres_montants": [
+    1767600.0,
+    1994400.0
+   ],
+   "lots": [
+    "7",
+    "8"
+   ],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 5,
+ "alertes_ocr": [
+  "« Société HTCC » absent de la liste des plis déposés (nom mal lu ?)."
+ ],
+ "notes_ocr": [
+  "Marché alloti (2 lots)."
+ ],
+ "qualite": "attribution"
+}

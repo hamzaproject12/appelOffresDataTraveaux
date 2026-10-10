@@ -1,0 +1,71 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "959541",
+ "orgAcronyme": "g3h",
+ "reference_pv": "10003877",
+ "nouveau": true,
+ "reference": "10003877",
+ "objet": "Travaux de recherche et réparation de fuites a de Berkane réseau haut - Province de Berkane — u niveau de réseau de distribution de la commune",
+ "acheteur": null,
+ "procedure": null,
+ "categorie": "Travaux",
+ "date_limite_plis": "03/11/2025",
+ "lieu_ouverture": "Siège",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "02/12/2025",
+ "justification": "Offre moins-disante conforme.",
+ "infructueux": false,
+ "attributaire": "ENTREPRISE ANOUAR DES TRAVAUX H'YDRAULIQUE ET BATIMENT ET STE GENERALE",
+ "montant_attribue": 1259798.4,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "GROUPEMENT SOCIETE TARIK ELAINOUSSI SARL",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "ENTREPRISE ANOUAR DES TRAVAUX H'YDRAULIQUE ET BATIMENT ET STE GENERALE",
+   "montant_acte_engagement": 1259798.4,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "D’ENERGIES SARL AU, et SOCIETE TOGADER SARL",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "SOCIETE TOGADER SARL",
+   "montant_acte_engagement": 1559750.4,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 4,
+ "alertes_ocr": [
+  "« SOCIETE TOGADER SARL » absent de la liste des plis déposés (nom mal lu ?)."
+ ],
+ "notes_ocr": [
+  "Maître d'ouvrage absent du PV (utiliser l'acheteur public du portail)."
+ ],
+ "qualite": "complet"
+}

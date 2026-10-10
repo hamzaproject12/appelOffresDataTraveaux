@@ -1,0 +1,76 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "778208",
+ "orgAcronyme": "g8e",
+ "reference_pv": "59/2023/DGI",
+ "nouveau": true,
+ "reference": "59/2023/DGI",
+ "objet": "la réalisation des travaux d'aménagement de la salle VIP de l'immeuble \"C’ relevant du siège de la Direction Générale des Impôts à Rabat (lot unique)",
+ "acheteur": "Chef de la Division du Budget et des Equipements",
+ "procedure": "appel d'offres ouvert simplifié",
+ "categorie": "Travaux",
+ "date_limite_plis": "14/02/2024",
+ "lieu_ouverture": null,
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "01/03/2024",
+ "justification": "offre la mieux disante",
+ "infructueux": false,
+ "attributaire": "SALHI DE CONSTRUCTION ET TRAVAUX DIVERS",
+ "montant_attribue": 318060.0,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "HARMONY TRAVAUX",
+   "montant_acte_engagement": 373380.0,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "SALHI DE CONSTRUCTION ET TRAVAUX DIVERS",
+   "montant_acte_engagement": 318060.0,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": true
+  },
+  {
+   "nom": "ARNATEC",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_offre_technique",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "ASIZIL",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_offre_technique",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "PETRAC",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_offre_technique",
+   "admis_avec_reserve": true
+  }
+ ],
+ "nombre_soumissionnaires": 5,
+ "alertes_ocr": [],
+ "notes_ocr": [],
+ "qualite": "complet"
+}

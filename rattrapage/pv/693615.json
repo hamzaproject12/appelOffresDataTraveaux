@@ -1,0 +1,107 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "693615",
+ "orgAcronyme": "d4q",
+ "reference_pv": null,
+ "nouveau": true,
+ "reference": null,
+ "objet": null,
+ "acheteur": null,
+ "procedure": "appel d'offres ouvert",
+ "categorie": "Travaux",
+ "date_limite_plis": "02/11/2022",
+ "lieu_ouverture": "Siège de la Direction Régionale du Centre Nord (DR5) - 88 rue du Soudan, Ville nouvelle — Fès - Maroc",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "09/02/2023",
+ "justification": "Moins-disant",
+ "infructueux": false,
+ "attributaire": null,
+ "montant_attribue": null,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "SOCIETE ENTRAID MAROC",
+   "montant_acte_engagement": 837294.0,
+   "montant_apres_verification": null,
+   "autres_montants": [
+    837294.0
+   ],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "SOCIETE TASTRACO MAROC",
+   "montant_acte_engagement": 747588.0,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "LOTFI MERIANE",
+   "montant_acte_engagement": 525222.0,
+   "montant_apres_verification": null,
+   "autres_montants": [
+    524022.0
+   ],
+   "lots": [],
+   "statut": "ecarte_dossier_administratif_technique",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "GROUPEMENT TARIK EL AINOUSSI / SMAT ( société MAROC - MARO",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "depose",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Moyen Atlas Travaux)",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "depose",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "HDB TRAVAUX",
+   "montant_acte_engagement": 616224.0,
+   "montant_apres_verification": null,
+   "autres_montants": [
+    616224.0
+   ],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "GROUP SMAT (STE MOYENS ATLAS TRAVAUX) / STE TARIK",
+   "montant_acte_engagement": 687000.0,
+   "montant_apres_verification": null,
+   "autres_montants": [
+    687000.0
+   ],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 7,
+ "alertes_ocr": [
+  "« GROUP SMAT (STE MOYENS ATLAS TRAVAUX) / STE TARIK » absent de la liste des plis déposés (nom mal lu ?).",
+  "Attributaire non trouvé."
+ ],
+ "notes_ocr": [
+  "Maître d'ouvrage absent du PV (utiliser l'acheteur public du portail)."
+ ],
+ "qualite": "complet"
+}

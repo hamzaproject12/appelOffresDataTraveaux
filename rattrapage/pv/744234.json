@@ -1,0 +1,82 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "744234",
+ "orgAcronyme": "d4q",
+ "reference_pv": "31/2023/ABHT",
+ "nouveau": true,
+ "reference": "31/2023/ABHT",
+ "objet": "TRAVAUX DE REALISATION DE RECONNIASNACE REPARTI EN DEUX C2) LOTS : |",
+ "acheteur": "Agence du Bassin Hydraulique du Tensift",
+ "procedure": null,
+ "categorie": "Travaux",
+ "date_limite_plis": "15/09/2023",
+ "lieu_ouverture": "Agence du Bassin Hydraulique du Tensift",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "27/09/2023",
+ "justification": "l’offre la plus avantageuse selon Particle 15 du règlement de consultation .",
+ "infructueux": false,
+ "attributaire": null,
+ "montant_attribue": null,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "GLOBAL TRAVAUX EXPRESS",
+   "montant_acte_engagement": 3764040.0,
+   "montant_apres_verification": 3764040.0,
+   "autres_montants": [],
+   "lots": [
+    "01",
+    "02"
+   ],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "IMISYB",
+   "montant_acte_engagement": 4535040.0,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [
+    "01"
+   ],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "d EGBF",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [
+    "01"
+   ],
+   "statut": "depose",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "4 FORAGE ZOUHOUR",
+   "montant_acte_engagement": 3286020.0,
+   "montant_apres_verification": 3292500.0,
+   "autres_montants": [],
+   "lots": [
+    "01",
+    "02"
+   ],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 4,
+ "alertes_ocr": [
+  "Attributaire non trouvé."
+ ],
+ "notes_ocr": [
+  "« 4 FORAGE ZOUHOUR » : montant rectifié de 3 286 020.00 à 3 292 500.00 DH.",
+  "Marché alloti (2 lots)."
+ ],
+ "qualite": "complet"
+}

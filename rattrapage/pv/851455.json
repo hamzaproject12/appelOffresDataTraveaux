@@ -1,0 +1,114 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "851455",
+ "orgAcronyme": "z9k",
+ "reference_pv": "16/2024/C.AZ",
+ "nouveau": true,
+ "reference": "16/2024/C.AZ",
+ "objet": null,
+ "acheteur": null,
+ "procedure": "appel d'offres ouvert",
+ "categorie": "Travaux",
+ "date_limite_plis": null,
+ "lieu_ouverture": null,
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": null,
+ "justification": null,
+ "infructueux": false,
+ "attributaire": "Sté ANDREW SARL, DR AIT ALLA BZOU-TABIA",
+ "montant_attribue": 630000.0,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "Les attestations de références",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_dossier_administratif_technique",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Sté VARF SARL AU, DR TALHA TAMDA NOUMARCID, AZILAL. exigées par le dossier d’appel",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_dossier_administratif_technique",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "d’offre non produits",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_dossier_administratif_technique",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "l- Sté TIFRATINE TRAVAUX SARL-AU, DOUAR AIT SELLAM CR TABANT AZILAL",
+   "montant_acte_engagement": 626400.0,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_dossier_administratif_technique",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Sté LAACHAOUI BUILDING SARL, APP ler ETAGE HAY EL INARA BLOC DI0 N°",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_dossier_administratif_technique",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "550 MARRAKECHI",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_dossier_administratif_technique",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Sté ANDREW SARL, DR AIT ALLA BZOU-TABIA",
+   "montant_acte_engagement": 630000.0,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "INARA BLOC DI10 N° 550 MARRAKECH",
+   "montant_acte_engagement": 633600.0,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 8,
+ "alertes_ocr": [
+  "« l- Sté TIFRATINE TRAVAUX SARL-AU, DOUAR AIT SELLAM CR TABANT AZILAL » absent de la liste des plis déposés (nom mal lu ?).",
+  "« Sté ANDREW SARL, DR AIT ALLA BZOU-TABIA » absent de la liste des plis déposés (nom mal lu ?).",
+  "« INARA BLOC DI10 N° 550 MARRAKECH » absent de la liste des plis déposés (nom mal lu ?)."
+ ],
+ "notes_ocr": [
+  "« Les attestations de références » absent de la liste des plis déposés (nom mal lu ?).",
+  "« Sté VARF SARL AU, DR TALHA TAMDA NOUMARCID, AZILAL. exigées par le dossier d’appel » absent de la liste des plis déposés (nom mal lu ?).",
+  "« d’offre non produits » absent de la liste des plis déposés (nom mal lu ?).",
+  "« Sté LAACHAOUI BUILDING SARL, APP ler ETAGE HAY EL INARA BLOC DI0 N° » absent de la liste des plis déposés (nom mal lu ?).",
+  "« 550 MARRAKECHI » absent de la liste des plis déposés (nom mal lu ?).",
+  "Maître d'ouvrage absent du PV (utiliser l'acheteur public du portail)."
+ ],
+ "qualite": "complet"
+}

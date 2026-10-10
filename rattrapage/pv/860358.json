@@ -1,0 +1,60 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "860358",
+ "orgAcronyme": "j8k",
+ "reference_pv": "37/TTH-CH/2024",
+ "nouveau": true,
+ "reference": "37/TTH-CH/2024",
+ "objet": "TRAVAUX DU RESEAU D'’ALIMENTATION EN EAU POTABLE DE L'OPERATION « LES LAURIERS TR 2 », A LA VILLE NOUVELLE CHRAFATE",
+ "acheteur": "AL OMRANE TANGER-TETOUAN-AL HOCEIMA",
+ "procedure": null,
+ "categorie": "Travaux",
+ "date_limite_plis": "26/11/2024",
+ "lieu_ouverture": "Al Omrane Tanger-Tétouan-Al Hoceima",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "04/12/2024",
+ "justification": "MOINS DISANT",
+ "infructueux": false,
+ "attributaire": "SODAW",
+ "montant_attribue": 345060.0,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "ABB EAUX TRAVAUX",
+   "montant_acte_engagement": 390000.0,
+   "montant_apres_verification": 390000.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "MAROC TIDAR",
+   "montant_acte_engagement": 371712.0,
+   "montant_apres_verification": 371712.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "SODAW",
+   "montant_acte_engagement": 344460.0,
+   "montant_apres_verification": 345060.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 3,
+ "alertes_ocr": [],
+ "notes_ocr": [
+  "« SODAW » : montant rectifié de 344 460.00 à 345 060.00 DH."
+ ],
+ "qualite": "complet"
+}

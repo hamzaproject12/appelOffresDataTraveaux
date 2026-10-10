@@ -1,0 +1,62 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "698731",
+ "orgAcronyme": "q1s",
+ "reference_pv": "89/2022/SOREC",
+ "nouveau": true,
+ "reference": "89/2022/SOREC",
+ "objet": "Fourniture et pose des panneaux composites au niveau de l’administration du Centre d’Entrainement Hippiques de Bouznika pour le compte de la SOREC",
+ "acheteur": null,
+ "procedure": null,
+ "categorie": "Travaux",
+ "date_limite_plis": "28/10/2022",
+ "lieu_ouverture": "Bureaux du siège de la Société Royale d’Encouragement du Cheval (SOREC) sise à ZENITH RABAT - Angle Rocade de Rabat et rue Ait Malek",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "30/11/2022",
+ "justification": "l’offre la moins disante",
+ "infructueux": false,
+ "attributaire": "AL IBHAJ SARL",
+ "montant_attribue": 94920.0,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "ENTREPRISE MOHAMED LAGOUYLI CENTRALU",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_offre_technique",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "SMART WORK CONSTRUCTION ALIBHAJ SARL",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_dossier_administratif_technique",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "AL IBHAJ SARL",
+   "montant_acte_engagement": 94920.0,
+   "montant_apres_verification": 94920.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 3,
+ "alertes_ocr": [
+  "« AL IBHAJ SARL » absent de la liste des plis déposés (nom mal lu ?)."
+ ],
+ "notes_ocr": [
+  "Maître d'ouvrage absent du PV (utiliser l'acheteur public du portail)."
+ ],
+ "qualite": "attribution"
+}

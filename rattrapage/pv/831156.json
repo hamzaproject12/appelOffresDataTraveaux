@@ -1,0 +1,91 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "831156",
+ "orgAcronyme": "f9f",
+ "reference_pv": "22/BC.OT/2024",
+ "nouveau": true,
+ "reference": "22/BC.OT/2024",
+ "objet": "TRAVAUX D’AMENAGEMENT URBAIN A LA COMMUNE D’OULED TEIMA PROVINCE DE TAROUDANT.TRANCHE 3 : LAHRICHA",
+ "acheteur": null,
+ "procedure": null,
+ "categorie": "Travaux",
+ "date_limite_plis": "22/08/2024",
+ "lieu_ouverture": "Bureau de la Présidente de la Commune d’Ouled Teima",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "20/09/2024",
+ "justification": "Offre économiquement la plus avantageuse. +",
+ "infructueux": false,
+ "attributaire": "GPT: STE. GCCR Sa.rl AU & STE. FORT",
+ "montant_attribue": 5227320.0,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "STE. VERACRUZ Sarl",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_dossier_administratif_technique",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "GPT: STE. ETIA S.a.r.l & STE.MOGABULDING S.ar.l",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_offre_technique",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "STE. MARJANE DAK S.a.r.l",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_offre_technique",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "GPT : STE. GCCR S.a.r.l AU & STE. FORT TRAVAUX S.a.r.I AU",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "GPT: STE. LE THEATRE D’AMENAGEMENT S.a.r.l AU & STE. CHBALI HYDRO S.a.r.l AU",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_dossier_administratif_technique",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "GPT: STE. GCCR Sa.rl AU & STE. FORT",
+   "montant_acte_engagement": 5227320.0,
+   "montant_apres_verification": 227320.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 6,
+ "alertes_ocr": [
+  "« GPT: STE. GCCR Sa.rl AU & STE. FORT » absent de la liste des plis déposés (nom mal lu ?).",
+  "« GPT: STE. GCCR Sa.rl AU & STE. FORT » : écart anormal entre montant initial et vérifié (lecture à vérifier)."
+ ],
+ "notes_ocr": [
+  "« GPT: STE. GCCR Sa.rl AU & STE. FORT » : montant rectifié de 5 227 320.00 à 227 320.00 DH.",
+  "Maître d'ouvrage absent du PV (utiliser l'acheteur public du portail)."
+ ],
+ "qualite": "attribution"
+}

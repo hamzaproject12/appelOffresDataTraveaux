@@ -1,0 +1,93 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "916727",
+ "orgAcronyme": "g3h",
+ "reference_pv": "18/2025/ND/TPB",
+ "nouveau": true,
+ "reference": "18/2025/ND/TPB",
+ "objet": "TRAVAUX DE CONSTRUCTION ET DE REAMENAGEMENT D'UN OUVRAGE DE FRANCHISSEMENT AU NIVEAU DU PN4021 SUR LA VOIE FERREE CASABLANCA - SIDI ELAIDI",
+ "acheteur": "La Commune de Bouskoura",
+ "procedure": "appel d'offres ouvert",
+ "categorie": "Travaux",
+ "date_limite_plis": null,
+ "lieu_ouverture": null,
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "16/07/2025",
+ "justification": null,
+ "infructueux": true,
+ "attributaire": null,
+ "montant_attribue": null,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "CAPEP",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "NGE CONTRACTING",
+   "montant_acte_engagement": 183424238.28,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_offre_financiere",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "sm CAPEP P RRNQUSS",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_offre_financiere",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "NAS ds",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_offre_financiere",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Appel d'offres infructueux",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_offre_financiere",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "CAPPEP",
+   "montant_acte_engagement": 187749719.64,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 6,
+ "alertes_ocr": [
+  "« NGE CONTRACTING » absent de la liste des plis déposés (nom mal lu ?).",
+  "« CAPPEP » absent de la liste des plis déposés (nom mal lu ?)."
+ ],
+ "notes_ocr": [
+  "« CAPEP » absent de la liste des plis déposés (nom mal lu ?).",
+  "« sm CAPEP P RRNQUSS » absent de la liste des plis déposés (nom mal lu ?).",
+  "« NAS ds » absent de la liste des plis déposés (nom mal lu ?).",
+  "« Appel d'offres infructueux » absent de la liste des plis déposés (nom mal lu ?)."
+ ],
+ "qualite": "complet"
+}

@@ -1,0 +1,82 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "800773",
+ "orgAcronyme": "d4q",
+ "reference_pv": "34/2024/ABHGZR",
+ "nouveau": true,
+ "reference": "34/2024/ABHGZR",
+ "objet": "Travaux de réalisation d'un seuil au niveau de l'Oued Guir pour la recharge artificielle de la nappe alluviale de GOURRAMA",
+ "acheteur": "Directeur de l'Agence du Bassin Hydraulique de GUIR-ZIZ-RHERIS",
+ "procedure": "appel d'offres ouvert",
+ "categorie": "Travaux",
+ "date_limite_plis": "26/04/2024",
+ "lieu_ouverture": "La salle de réunion de l'Agence du Bassin Hydraulique de Guir-Ziz-Rheris",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "28/05/2024",
+ "justification": "l'offre la plus avantageuse.",
+ "infructueux": false,
+ "attributaire": "STE SNTRO SARL",
+ "montant_attribue": 2485566.0,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "STE SOUTHYDRAULIC SARL AU",
+   "montant_acte_engagement": 2485380.0,
+   "montant_apres_verification": 2485380.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "STE SNTRO SARL",
+   "montant_acte_engagement": 2485566.0,
+   "montant_apres_verification": 2485566.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "STE SMATRI SARL",
+   "montant_acte_engagement": 2607780.0,
+   "montant_apres_verification": 2607780.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "STE SENOTP SARL",
+   "montant_acte_engagement": 2608848.0,
+   "montant_apres_verification": 2608848.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "STE EXEQUA SARL AU",
+   "montant_acte_engagement": 2598840.0,
+   "montant_apres_verification": 2598840.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": true
+  }
+ ],
+ "nombre_soumissionnaires": 5,
+ "alertes_ocr": [
+  "« STE SOUTHYDRAULIC SARL AU » absent de la liste des plis déposés (nom mal lu ?).",
+  "« STE SNTRO SARL » absent de la liste des plis déposés (nom mal lu ?).",
+  "« STE SMATRI SARL » absent de la liste des plis déposés (nom mal lu ?).",
+  "« STE SENOTP SARL » absent de la liste des plis déposés (nom mal lu ?).",
+  "« STE EXEQUA SARL AU » absent de la liste des plis déposés (nom mal lu ?)."
+ ],
+ "notes_ocr": [],
+ "qualite": "complet"
+}

@@ -1,0 +1,52 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "891312",
+ "orgAcronyme": "d4q",
+ "reference_pv": null,
+ "nouveau": true,
+ "reference": null,
+ "objet": "FTP des vannes de régulation multijets",
+ "acheteur": null,
+ "procedure": "appel d'offres ouvert",
+ "categorie": "Travaux",
+ "date_limite_plis": "16/01/2025",
+ "lieu_ouverture": "au siège de la Direction Régionale du Centre (DR3) Boulevard Mohamed VI, Quartier Administratif - Khouribga - Maroc",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "29/04/2025",
+ "justification": "Moins-disant",
+ "infructueux": true,
+ "attributaire": null,
+ "montant_attribue": null,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "UNITED INDUSTRIAL EXPERTS - Offre de",
+   "montant_acte_engagement": 2006400.0,
+   "montant_apres_verification": 2006400.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "VALVTEC",
+   "montant_acte_engagement": 2328000.0,
+   "montant_apres_verification": 1561740.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_dossier_administratif_technique",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 2,
+ "alertes_ocr": [],
+ "notes_ocr": [
+  "« VALVTEC » : montant rectifié de 2 328 000.00 à 1 561 740.00 DH.",
+  "Maître d'ouvrage absent du PV (utiliser l'acheteur public du portail)."
+ ],
+ "qualite": "complet"
+}

@@ -1,0 +1,77 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "834142",
+ "orgAcronyme": "g3h",
+ "reference_pv": "36lE/2024",
+ "nouveau": true,
+ "reference": "36lE/2024",
+ "objet": "Travaux de renforcement, reconditionnement et restructuration du réseau de distribution d'eau potable de la ville d'Ouida",
+ "acheteur": null,
+ "procedure": null,
+ "categorie": "Travaux",
+ "date_limite_plis": null,
+ "lieu_ouverture": "salle de réunion de Ia RADEEO Iournaux ayant publié l'avis de publicité",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "02/10/2024",
+ "justification": "L'offre Ia mieux-disante : offre la plus proche au prix de référence et ce conformément à l'article 44 du décret n\" 2-22-431, relatif aux marchés public du 15 Chaabane 1444 (B Mars 2023)",
+ "infructueux": false,
+ "attributaire": null,
+ "montant_attribue": null,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "/ Société TIEC ,/ Société STEPAG ./ Société ABB EAUX TRAVAUX",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Société TtrEC lue.lonarloN + 9 yo",
+   "montant_acte_engagement": 2847454.6,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Société ABB EAUX TRAVAUX",
+   "montant_acte_engagement": 3134808.0,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Société TIEC",
+   "montant_acte_engagement": 2847450.6,
+   "montant_apres_verification": null,
+   "autres_montants": [
+    2847450.6
+   ],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 4,
+ "alertes_ocr": [
+  "« Société TtrEC lue.lonarloN + 9 yo » absent de la liste des plis déposés (nom mal lu ?).",
+  "« Société ABB EAUX TRAVAUX » absent de la liste des plis déposés (nom mal lu ?).",
+  "« Société TIEC » absent de la liste des plis déposés (nom mal lu ?).",
+  "Attributaire non trouvé."
+ ],
+ "notes_ocr": [
+  "« / Société TIEC ,/ Société STEPAG ./ Société ABB EAUX TRAVAUX » absent de la liste des plis déposés (nom mal lu ?).",
+  "Maître d'ouvrage absent du PV (utiliser l'acheteur public du portail)."
+ ],
+ "qualite": "complet"
+}

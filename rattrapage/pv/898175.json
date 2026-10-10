@@ -1,0 +1,83 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "898175",
+ "orgAcronyme": "j0w",
+ "reference_pv": "02/2025/BP",
+ "nouveau": true,
+ "reference": "02/2025/BP",
+ "objet": "TRAVAUX D’AMÉNAGEMENT DE L’ENTRÉE DE LA VILLE DE BENGUERIR COTE CASABLANCA",
+ "acheteur": "CONSEIL PROVINCIAL RHAMNA",
+ "procedure": "appel d'offres ouvert",
+ "categorie": "Travaux",
+ "date_limite_plis": "06/05/2025",
+ "lieu_ouverture": "Salle de réunion du Conseil Provincial Rhamna",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "20/05/2025",
+ "justification": "l’offre économiquement la plus avantageuse (conformément aux dispositions de l’article 43 du décret n° 2-22-431 du 15 chaabane 1444 08 mars 2023 relatif aux marchés publics)",
+ "infructueux": false,
+ "attributaire": "ASSREM NEGOCE SARL",
+ "montant_attribue": 22322178.0,
+ "attributaires_par_lot": [
+  {
+   "lot": null,
+   "attributaire": "ASSREM NEGOCE SARL",
+   "montant": 22322178.0
+  },
+  {
+   "lot": null,
+   "attributaire": "STE SOCADELEG SARL AU",
+   "montant": 25485798.0
+  },
+  {
+   "lot": null,
+   "attributaire": "Groupement Ste VALTECH SA / Ste ATLAS TRAVAUX PUBLICS SARL",
+   "montant": 25290854.4
+  }
+ ],
+ "soumissionnaires": [
+  {
+   "nom": "Groupement Ste KIM BUILDING SARL AU / Ste ETABLISSEMENT",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "ASSREM NEGOCE SARL",
+   "montant_acte_engagement": 22322178.0,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Groupement Ste VALTECH SA / Ste ATLAS TRAVAUX PUBLICS SARL",
+   "montant_acte_engagement": 25290854.4,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "STE SOCADELEG SARL AU",
+   "montant_acte_engagement": 25485798.0,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 4,
+ "alertes_ocr": [],
+ "notes_ocr": [],
+ "qualite": "attribution"
+}

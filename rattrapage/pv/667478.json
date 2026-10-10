@@ -1,0 +1,80 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "667478",
+ "orgAcronyme": "q1s",
+ "reference_pv": "19/2022",
+ "nouveau": true,
+ "reference": "19/2022",
+ "objet": "Travaux d’entretien des bâtiments administratifs de l'ORMVAD",
+ "acheteur": "L'Office Régional de Mise en Valeur Agricole des Doukkala",
+ "procedure": "appel d'offres ouvert",
+ "categorie": "Travaux",
+ "date_limite_plis": "05/10/2022",
+ "lieu_ouverture": "Salle des réunions de l'ORMVAD",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "11/10/2022",
+ "justification": "l'offre présentée est la plus avantageuse (la moins disante).",
+ "infructueux": false,
+ "attributaire": "KASTRAV",
+ "montant_attribue": 586266.0,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "KASTRAV",
+   "montant_acte_engagement": 586266.0,
+   "montant_apres_verification": null,
+   "autres_montants": [
+    586266.0
+   ],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "CAPRIABE",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_dossier_administratif_technique",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "SODRIWCHAT",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_dossier_administratif_technique",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "BATISSE",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_dossier_administratif_technique",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "HANNIMED",
+   "montant_acte_engagement": 716100.0,
+   "montant_apres_verification": null,
+   "autres_montants": [
+    716100.0
+   ],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 5,
+ "alertes_ocr": [],
+ "notes_ocr": [],
+ "qualite": "complet"
+}

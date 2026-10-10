@@ -1,0 +1,91 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "812197",
+ "orgAcronyme": "a1z",
+ "reference_pv": null,
+ "nouveau": true,
+ "reference": null,
+ "objet": "Travaux D’aménagement Du Boulevard El Hachmi El Filali (Ex Taddart } En Deux Lots Séparés",
+ "acheteur": null,
+ "procedure": null,
+ "categorie": "Travaux",
+ "date_limite_plis": "27/02/2024",
+ "lieu_ouverture": "la salle des réunions de la Commune de",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "07/03/2024",
+ "justification": "l'offre la plus avantageuse.",
+ "infructueux": false,
+ "attributaire": "VIAS",
+ "montant_attribue": 55596045.6,
+ "attributaires_par_lot": [
+  {
+   "lot": "1",
+   "attributaire": "VIAS",
+   "montant": 55596045.6
+  },
+  {
+   "lot": "2",
+   "attributaire": "GRAND TRAVAUX ROUTIERS(GTR)",
+   "montant": 40877122.44
+  }
+ ],
+ "soumissionnaires": [
+  {
+   "nom": "VIAS",
+   "montant_acte_engagement": 55596045.6,
+   "montant_apres_verification": 55596045.6,
+   "autres_montants": [
+    42963546.0
+   ],
+   "lots": [
+    "1",
+    "2"
+   ],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "GROUP MOJAZINE",
+   "montant_acte_engagement": 55631340.0,
+   "montant_apres_verification": 55631340.0,
+   "autres_montants": [
+    40898352.0
+   ],
+   "lots": [
+    "1",
+    "2"
+   ],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "GRAND TRAVAUX ROUTIERS(GTR)",
+   "montant_acte_engagement": 56458176.72,
+   "montant_apres_verification": 56458176.72,
+   "autres_montants": [
+    40877122.44
+   ],
+   "lots": [
+    "1",
+    "2"
+   ],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 3,
+ "alertes_ocr": [
+  "« VIAS » absent de la liste des plis déposés (nom mal lu ?).",
+  "« GROUP MOJAZINE » absent de la liste des plis déposés (nom mal lu ?).",
+  "« GRAND TRAVAUX ROUTIERS(GTR) » absent de la liste des plis déposés (nom mal lu ?)."
+ ],
+ "notes_ocr": [
+  "Marché alloti (2 lots).",
+  "Maître d'ouvrage absent du PV (utiliser l'acheteur public du portail)."
+ ],
+ "qualite": "complet"
+}

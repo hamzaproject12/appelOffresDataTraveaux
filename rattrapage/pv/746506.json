@@ -1,0 +1,58 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "746506",
+ "orgAcronyme": "f9f",
+ "reference_pv": "21/2023/T/CAM",
+ "nouveau": true,
+ "reference": "21/2023/T/CAM",
+ "objet": null,
+ "acheteur": "COMMUNE D'AIT MELLOUL",
+ "procedure": "appel d'offres ouvert",
+ "categorie": "Travaux",
+ "date_limite_plis": "02/10/2023",
+ "lieu_ouverture": "salle de réunion au parc municipal sis au quartier industriel à Ait Melloul à l'avis publié dans les journaux suivants LANGUE SUPPORT DATE : N°",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "12/10/2023",
+ "justification": "avantageuse en terme qualité prix",
+ "infructueux": false,
+ "attributaire": "SOCIETE ISTRADA TRAVAUX",
+ "montant_attribue": 2172060.0,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "SOCIETE Groupement SOCIETE GENERAL TECH INVEST et SOCIETE MOGABULDING",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_dossier_administratif_technique",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Groupement SOCIETE NAIT EL KHALFAOUI TRAVAUX",
+   "montant_acte_engagement": 2200320.0,
+   "montant_apres_verification": 2200320.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": true
+  },
+  {
+   "nom": "SOCIETE ISTRADA TRAVAUX",
+   "montant_acte_engagement": 2172060.0,
+   "montant_apres_verification": 2172060.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 3,
+ "alertes_ocr": [],
+ "notes_ocr": [],
+ "qualite": "complet"
+}

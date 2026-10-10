@@ -1,0 +1,51 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "945944",
+ "orgAcronyme": "j8k",
+ "reference_pv": null,
+ "nouveau": true,
+ "reference": null,
+ "objet": null,
+ "acheteur": "AL OMRANE AL JANOUB",
+ "procedure": "appel d'offres ouvert",
+ "categorie": "Travaux",
+ "date_limite_plis": "20/10/2025",
+ "lieu_ouverture": "LAAYOUNE",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "29/10/2025",
+ "justification": null,
+ "infructueux": false,
+ "attributaire": "SALBI",
+ "montant_attribue": 19560830.0,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "SALBI",
+   "montant_acte_engagement": 19560830.0,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "GR : MYMAR BULDING & HTSM",
+   "montant_acte_engagement": 23846616.0,
+   "montant_apres_verification": 23846616.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 2,
+ "alertes_ocr": [],
+ "notes_ocr": [
+  "Montants exprimés hors taxes (HT)."
+ ],
+ "qualite": "complet"
+}

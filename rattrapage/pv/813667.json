@@ -1,0 +1,55 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "813667",
+ "orgAcronyme": "o4d",
+ "reference_pv": "05/2024",
+ "nouveau": true,
+ "reference": "05/2024",
+ "objet": "Travaux d'aménagement de l'agence CNSS Guelmim en Lot Unique",
+ "acheteur": "CNSS Direction régionale GUELMIM OUED NOUN",
+ "procedure": null,
+ "categorie": "Travaux",
+ "date_limite_plis": "28/06/2024",
+ "lieu_ouverture": null,
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "01/07/2024",
+ "justification": "Lot : Offre la plus avantageuse.",
+ "infructueux": false,
+ "attributaire": null,
+ "montant_attribue": null,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "STE KABEL CONSTRUCTIONS WORK",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [
+    "unique"
+   ],
+   "statut": "ecarte_dossier_administratif_technique",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "STE ASSASSE NEGOCE",
+   "montant_acte_engagement": 274073.74,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [
+    "unique"
+   ],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 2,
+ "alertes_ocr": [
+  "Attributaire non trouvé."
+ ],
+ "notes_ocr": [],
+ "qualite": "attribution"
+}

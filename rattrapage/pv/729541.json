@@ -1,0 +1,68 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "729541",
+ "orgAcronyme": "a1z",
+ "reference_pv": null,
+ "nouveau": true,
+ "reference": null,
+ "objet": null,
+ "acheteur": null,
+ "procedure": null,
+ "categorie": "Travaux",
+ "date_limite_plis": "14/06/2023",
+ "lieu_ouverture": "la Salle de Réunion à L'ANNEXE AL AZHAR de l'ARRONDISSEMENT HAY HASSANI sise à Avenue Aziz Bilal Cité AL Azhar Oulfa Casablanca",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": null,
+ "justification": null,
+ "infructueux": true,
+ "attributaire": null,
+ "montant_attribue": null,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "STE ETABLISSEMENT ASSREM NEGOCE SARL",
+   "montant_acte_engagement": 993000.0,
+   "montant_apres_verification": 1986000.0,
+   "autres_montants": [
+    1986000.0
+   ],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "CAMPEZO SARLAU",
+   "montant_acte_engagement": 1167480.0,
+   "montant_apres_verification": 2334960.0,
+   "autres_montants": [
+    2334960.0
+   ],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "NICE TRAVAUX S.A.R.L",
+   "montant_acte_engagement": 818400.0,
+   "montant_apres_verification": null,
+   "autres_montants": [
+    1636800.0
+   ],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 3,
+ "alertes_ocr": [],
+ "notes_ocr": [
+  "« STE ETABLISSEMENT ASSREM NEGOCE SARL » : montant rectifié de 993 000.00 à 1 986 000.00 DH.",
+  "« CAMPEZO SARLAU » : montant rectifié de 1 167 480.00 à 2 334 960.00 DH.",
+  "Maître d'ouvrage absent du PV (utiliser l'acheteur public du portail)."
+ ],
+ "qualite": "complet"
+}

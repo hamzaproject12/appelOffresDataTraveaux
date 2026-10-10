@@ -1,0 +1,51 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "847677",
+ "orgAcronyme": "g3h",
+ "reference_pv": "04/2024",
+ "nouveau": true,
+ "reference": "04/2024",
+ "objet": "Travaux de realisation d’une ligne souterraine HTA de longueur 2010 m, relatif au branchement",
+ "acheteur": "Centre Régional d’Investissement de la Région Guelmim-Oued Noun",
+ "procedure": "appel d'offres ouvert national",
+ "categorie": "Travaux",
+ "date_limite_plis": "23/10/2024",
+ "lieu_ouverture": "Salle de réunion du Centre Régional d’Investissement de la Région Guelmim Oued Noun",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "11/11/2024",
+ "justification": "offre du concurrent la mieux-disante",
+ "infructueux": false,
+ "attributaire": null,
+ "montant_attribue": null,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "BS PROJET Casablanca",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "TRAVAUX DELEC Tiznit",
+   "montant_acte_engagement": 625008.0,
+   "montant_apres_verification": 625008.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 2,
+ "alertes_ocr": [
+  "Attributaire non trouvé."
+ ],
+ "notes_ocr": [],
+ "qualite": "attribution"
+}

@@ -1,0 +1,53 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "989343",
+ "orgAcronyme": "q0x",
+ "reference_pv": null,
+ "nouveau": true,
+ "reference": null,
+ "objet": "ENTRETIEN COURANT DE LA VOIRIE DES QUARTIERS EL AMAL'ENNAHDA'OUHOUD' ADMINISTRATIVEDELAVILLEMRIRTPRoVINCEKHENIFRA",
+ "acheteur": null,
+ "procedure": null,
+ "categorie": "Travaux",
+ "date_limite_plis": "31/03/2026",
+ "lieu_ouverture": "salle de réunion de la commune de M'rirt'",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "31/03/2026",
+ "justification": null,
+ "infructueux": false,
+ "attributaire": "x de référence par la société MENARA VRD",
+ "montant_attribue": null,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "NE,ANT",
+   "montant_acte_engagement": 499878.0,
+   "montant_apres_verification": 499878.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "x de référence par la société MENARA VRD",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 2,
+ "alertes_ocr": [
+  "Montant de l'attributaire « x de référence par la société MENARA VRD » non trouvé."
+ ],
+ "notes_ocr": [
+  "Maître d'ouvrage absent du PV (utiliser l'acheteur public du portail)."
+ ],
+ "qualite": "attribution"
+}

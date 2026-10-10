@@ -1,0 +1,146 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "914309",
+ "orgAcronyme": "g3h",
+ "reference_pv": null,
+ "nouveau": true,
+ "reference": null,
+ "objet": null,
+ "acheteur": null,
+ "procedure": "appel d'offres ouvert",
+ "categorie": "Travaux",
+ "date_limite_plis": "12/06/2025",
+ "lieu_ouverture": "Siège de | ADER-Fès",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "30/06/2025",
+ "justification": "Le concurrent ayant présenté l'offre financière la plus avantageuse et la Le concurrent ayant présenté l'offre financière la plus avantageuse et la",
+ "infructueux": false,
+ "attributaire": "Société TALAINI PLANETE SARL",
+ "montant_attribue": 399336.0,
+ "attributaires_par_lot": [
+  {
+   "lot": null,
+   "attributaire": "Société TALAINI PLANETE SARL",
+   "montant": 399336.0
+  },
+  {
+   "lot": null,
+   "attributaire": "Société CONSTRUCTION TILAL TRAVAUX DIVERS SARL AU",
+   "montant": 391458.0
+  }
+ ],
+ "soumissionnaires": [
+  {
+   "nom": "Société BEN SAGHROUNE",
+   "montant_acte_engagement": 479688.0,
+   "montant_apres_verification": 959376.0,
+   "autres_montants": [
+    959376.0
+   ],
+   "lots": [],
+   "statut": "ecarte_dossier_administratif_technique",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Société PROMABID SARL",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_dossier_administratif_technique",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Société SENHAJI ISTITMAR SARL AU",
+   "montant_acte_engagement": 466944.0,
+   "montant_apres_verification": 933888.0,
+   "autres_montants": [
+    933888.0
+   ],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Société TALAINI PLANETE SARL",
+   "montant_acte_engagement": 399336.0,
+   "montant_apres_verification": 798672.0,
+   "autres_montants": [
+    798672.0
+   ],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Société ZDAKATRAD SARL",
+   "montant_acte_engagement": 401196.0,
+   "montant_apres_verification": 802392.0,
+   "autres_montants": [
+    802392.0
+   ],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": true
+  },
+  {
+   "nom": "Société CONSTRUCTION TILAL TRAVAUX DIVERS SARL AU",
+   "montant_acte_engagement": 414618.0,
+   "montant_apres_verification": 829236.0,
+   "autres_montants": [
+    829236.0
+   ],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": true
+  },
+  {
+   "nom": "Entreprise EDDAHIOUY BOURAGBA",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_dossier_administratif_technique",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Société JAWHARAT TARMIM SARL AU",
+   "montant_acte_engagement": 843487.2,
+   "montant_apres_verification": 957528.0,
+   "autres_montants": [
+    957528.0
+   ],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Société SOMAPAINT SARL",
+   "montant_acte_engagement": 281160.0,
+   "montant_apres_verification": 562320.0,
+   "autres_montants": [
+    562320.0
+   ],
+   "lots": [],
+   "statut": "ecarte_dossier_administratif_technique",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 9,
+ "alertes_ocr": [],
+ "notes_ocr": [
+  "« Société BEN SAGHROUNE » : montant rectifié de 479 688.00 à 959 376.00 DH.",
+  "« Société SENHAJI ISTITMAR SARL AU » : montant rectifié de 466 944.00 à 933 888.00 DH.",
+  "« Société TALAINI PLANETE SARL » : montant rectifié de 399 336.00 à 798 672.00 DH.",
+  "« Société ZDAKATRAD SARL » : montant rectifié de 401 196.00 à 802 392.00 DH.",
+  "« Société CONSTRUCTION TILAL TRAVAUX DIVERS SARL AU » : montant rectifié de 414 618.00 à 829 236.00 DH.",
+  "« Société JAWHARAT TARMIM SARL AU » : montant rectifié de 843 487.20 à 957 528.00 DH.",
+  "« Société SOMAPAINT SARL » : montant rectifié de 281 160.00 à 562 320.00 DH.",
+  "Maître d'ouvrage absent du PV (utiliser l'acheteur public du portail)."
+ ],
+ "qualite": "complet"
+}

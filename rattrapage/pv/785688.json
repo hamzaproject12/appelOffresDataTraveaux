@@ -1,0 +1,58 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "785688",
+ "orgAcronyme": "l1f",
+ "reference_pv": "7/2024",
+ "nouveau": true,
+ "reference": "7/2024",
+ "objet": "Travaux d'installation et rénovation de l'éclairage public des axes princibaux de la ville de chefchaouen",
+ "acheteur": "Commune de Chefchaouen",
+ "procedure": null,
+ "categorie": "Travaux",
+ "date_limite_plis": "14/03/2024",
+ "lieu_ouverture": "Siège de la Commune de Chefchaouen",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "02/04/2024",
+ "justification": "mieux disante",
+ "infructueux": false,
+ "attributaire": "Sté SOCADELEG",
+ "montant_attribue": 6054240.0,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "Sté SOCADELEG",
+   "montant_acte_engagement": 6054240.0,
+   "montant_apres_verification": 6054240.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Sté BELECTRABAT - Groupement",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_dossier_administratif_technique",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Groupement Compagnie Générale de Luminaire et GMT",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "depose",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 3,
+ "alertes_ocr": [],
+ "notes_ocr": [],
+ "qualite": "attribution"
+}

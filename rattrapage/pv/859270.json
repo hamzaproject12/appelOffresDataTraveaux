@@ -1,0 +1,68 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "859270",
+ "orgAcronyme": "g3h",
+ "reference_pv": "19/SDAD/2024",
+ "nouveau": true,
+ "reference": "19/SDAD/2024",
+ "objet": "TRAVAUX D’AMENAGEMENT DU RESEAU D’ECLAIRAGE PUBLIC DE L'AVENUE AL OUALAE A LA VILLE DE DAKHLA",
+ "acheteur": null,
+ "procedure": "appel d'offres ouvert",
+ "categorie": "Travaux",
+ "date_limite_plis": "21/11/2024",
+ "lieu_ouverture": "Secrétariat Général des Affaires Régionales de Oued Eddahab",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "03/12/2024",
+ "justification": "Offre conforme aux exigences du Règlement de consultation et la plus avantageuse.",
+ "infructueux": false,
+ "attributaire": "Société CEGELEC",
+ "montant_attribue": 69593997.34,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "Société C.C.R.E",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_offre_technique",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Société LAMALIF GROUP",
+   "montant_acte_engagement": 70558068.0,
+   "montant_apres_verification": null,
+   "autres_montants": [
+    70558068.0
+   ],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Société CEGELEC",
+   "montant_acte_engagement": 69593997.34,
+   "montant_apres_verification": null,
+   "autres_montants": [
+    69593997.34
+   ],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 3,
+ "alertes_ocr": [
+  "« Société LAMALIF GROUP » absent de la liste des plis déposés (nom mal lu ?).",
+  "« Société CEGELEC » absent de la liste des plis déposés (nom mal lu ?)."
+ ],
+ "notes_ocr": [
+  "« Société C.C.R.E » absent de la liste des plis déposés (nom mal lu ?).",
+  "Maître d'ouvrage absent du PV (utiliser l'acheteur public du portail)."
+ ],
+ "qualite": "complet"
+}

@@ -1,0 +1,49 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "920614",
+ "orgAcronyme": "u6i",
+ "reference_pv": "09/2025",
+ "nouveau": true,
+ "reference": "09/2025",
+ "objet": "APPEL D'OFFRES OUVERT INTERNATIONAL SUR OFFRES DE PRIX N°09/2025 AYANT POUR OBJET LA RÉALISATION DES TRAVAUX D'ENTRETIEN ET DE CARÉNAGE DU NAVIRE AL AMIR MOULAY ABDALLAH APPARTENANT A L'INSTITUT NATIONAL DE RECHERCHE HALIEUTIQUE (INRH)",
+ "acheteur": "Institut Nationale de Recherche Halieutique",
+ "procedure": "appel d'offres ouvert international",
+ "categorie": "Travaux",
+ "date_limite_plis": "31/07/2025",
+ "lieu_ouverture": "Salle de Réunion de l’Institut Nationale de Recherche Halieutique BD Sidi Abderrahmane - Casablanca",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": null,
+ "justification": null,
+ "infructueux": true,
+ "attributaire": null,
+ "montant_attribue": null,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "MOTORES ABC MARRUECOS",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_dossier_administratif_technique",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "URM",
+   "montant_acte_engagement": 4387584.0,
+   "montant_apres_verification": 4387584.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_offre_financiere",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 2,
+ "alertes_ocr": [],
+ "notes_ocr": [],
+ "qualite": "attribution"
+}

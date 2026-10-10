@@ -1,0 +1,94 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "742865",
+ "orgAcronyme": "q1s",
+ "reference_pv": "08/DPA/TT/2023",
+ "nouveau": true,
+ "reference": "08/DPA/TT/2023",
+ "objet": "Construction de citernes souterraines (metfa) pour l’abreuvement du cheptel à travers la Province de TanTan dans le cadre du programme de réduction de l’impact du déficit pluviométrique",
+ "acheteur": "Directeur Provincial de l'Agriculture de TanTan",
+ "procedure": "appel d'offres ouvert",
+ "categorie": "Travaux",
+ "date_limite_plis": "20/09/2023",
+ "lieu_ouverture": "Salle de réunion de la DPA de TanTan",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "21/09/2023",
+ "justification": "7 Néant Société qualifiée dans le domaine æ Offre moins disante",
+ "infructueux": false,
+ "attributaire": "Société BRAJEF sarl.au",
+ "montant_attribue": null,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "Société MOTCHO STAR Travaux Divers sarl",
+   "montant_acte_engagement": 586200.0,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_offre_financiere",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "æ Société BRAJEF sart.au",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Société HICHAM-ABDEL TRAVAUX sarl.au",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_dossier_administratif_technique",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Société ELADMI Travaux sarl",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_dossier_administratif_technique",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Société CIGRAF sarl",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_dossier_administratif_technique",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Société BRAJEF sarl.au",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 6,
+ "alertes_ocr": [
+  "« Société MOTCHO STAR Travaux Divers sarl » absent de la liste des plis déposés (nom mal lu ?).",
+  "« Société BRAJEF sarl.au » absent de la liste des plis déposés (nom mal lu ?).",
+  "Montant de l'attributaire « Société BRAJEF sarl.au » non trouvé."
+ ],
+ "notes_ocr": [
+  "« æ Société BRAJEF sart.au » absent de la liste des plis déposés (nom mal lu ?).",
+  "« Société HICHAM-ABDEL TRAVAUX sarl.au » absent de la liste des plis déposés (nom mal lu ?).",
+  "« Société ELADMI Travaux sarl » absent de la liste des plis déposés (nom mal lu ?).",
+  "« Société CIGRAF sarl » absent de la liste des plis déposés (nom mal lu ?)."
+ ],
+ "qualite": "attribution"
+}

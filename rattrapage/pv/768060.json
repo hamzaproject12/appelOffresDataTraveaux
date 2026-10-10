@@ -1,0 +1,42 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "768060",
+ "orgAcronyme": "j8k",
+ "reference_pv": "15412023",
+ "nouveau": true,
+ "reference": "15412023",
+ "objet": null,
+ "acheteur": "Al Omrane /Région de l'Oriental",
+ "procedure": null,
+ "categorie": "Travaux",
+ "date_limite_plis": null,
+ "lieu_ouverture": null,
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": null,
+ "justification": null,
+ "infructueux": false,
+ "attributaire": "AUGUN",
+ "montant_attribue": null,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "AUGUN",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 1,
+ "alertes_ocr": [
+  "Montant de l'attributaire « AUGUN » non trouvé."
+ ],
+ "notes_ocr": [],
+ "qualite": "participants"
+}

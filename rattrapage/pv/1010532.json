@@ -1,0 +1,76 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "1010532",
+ "orgAcronyme": "h5r",
+ "reference_pv": "01/2026",
+ "nouveau": true,
+ "reference": "01/2026",
+ "objet": null,
+ "acheteur": "La Commune Territoriale de M'zoura,",
+ "procedure": "appel d'offres ouvert national",
+ "categorie": "Travaux",
+ "date_limite_plis": "12/05/2026",
+ "lieu_ouverture": "Bureau du Président de La Commune Territoriale de M'zoura",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "25/05/2026",
+ "justification": "L'offre financière proposée par l'attributaire est la mieux-disante, elle est la plus proche du prix de référence par défaut et ce conformément aux dispositions de l'article 44 du Décret n°2-22-431 du 15 chaabane 1444 (8 mars 2023) relatif aux marchés publics",
+ "infructueux": false,
+ "attributaire": "Sté ACHGHAL TEMARA",
+ "montant_attribue": 1308087.6,
+ "attributaires_par_lot": [
+  {
+   "lot": null,
+   "attributaire": "Sté ACHGHAL TEMARA",
+   "montant": 1308087.6
+  },
+  {
+   "lot": null,
+   "attributaire": "Sté UNIVERS TRAVAUX ROUTIERS Sarl",
+   "montant": 1296870.0
+  },
+  {
+   "lot": null,
+   "attributaire": "Sté ERFALI TRAVAUX SARL",
+   "montant": null
+  }
+ ],
+ "soumissionnaires": [
+  {
+   "nom": "Sté ACHGHAL TEMARA",
+   "montant_acte_engagement": 1308087.6,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Sté UNIVERS TRAVAUX ROUTIERS Sarl",
+   "montant_acte_engagement": 1296870.0,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Sté ERFALI TRAVAUX SARL",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 3,
+ "alertes_ocr": [
+  "Montant de l'attributaire « Sté ERFALI TRAVAUX SARL » non trouvé."
+ ],
+ "notes_ocr": [],
+ "qualite": "attribution"
+}

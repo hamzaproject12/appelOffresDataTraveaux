@@ -1,0 +1,62 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "944079",
+ "orgAcronyme": "d0q",
+ "reference_pv": null,
+ "nouveau": true,
+ "reference": null,
+ "objet": null,
+ "acheteur": "Date d'ouverture des Plis \"'",
+ "procedure": "appel d'offres ouvert",
+ "categorie": "Travaux",
+ "date_limite_plis": null,
+ "lieu_ouverture": "\"'",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": null,
+ "justification": null,
+ "infructueux": false,
+ "attributaire": "éventuelles Sou mission naires",
+ "montant_attribue": 2178620.0,
+ "attributaires_par_lot": [
+  {
+   "lot": null,
+   "attributaire": "éventuelles Sou mission naires",
+   "montant": 2178620.0
+  },
+  {
+   "lot": null,
+   "attributaire": "STE ADIMPRO L2 L7B",
+   "montant": null
+  }
+ ],
+ "soumissionnaires": [
+  {
+   "nom": "éventuelles Sou mission naires",
+   "montant_acte_engagement": 2178620.0,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "STE ADIMPRO L2 L7B",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 2,
+ "alertes_ocr": [
+  "Montant de l'attributaire « STE ADIMPRO L2 L7B » non trouvé."
+ ],
+ "notes_ocr": [],
+ "qualite": "attribution"
+}

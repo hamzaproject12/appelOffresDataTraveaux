@@ -1,0 +1,90 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "774301",
+ "orgAcronyme": "h5r",
+ "reference_pv": "3/CST/2023",
+ "nouveau": true,
+ "reference": "3/CST/2023",
+ "objet": "Travaux d’électrification des foyers aux villages relevant de la commune soualem trifiya par l’installation des poteaux et câblage HTA/BT",
+ "acheteur": "commune Soualem Trifiya",
+ "procedure": "appel d'offres ouvert",
+ "categorie": "Travaux",
+ "date_limite_plis": "08/01/2024",
+ "lieu_ouverture": "salle des réunions de la commune",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "22/01/2024",
+ "justification": "offre présenté est la plus avantageuse économiquement.",
+ "infructueux": false,
+ "attributaire": null,
+ "montant_attribue": null,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "Concurrent 1 Société ELEC TRIMAROC",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "depose",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Concurrent 3 Société ICOMEL",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "depose",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Concurrent 4 Société EPELCO",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "depose",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Société ELEC TRIMAROC",
+   "montant_acte_engagement": 3868628.94,
+   "montant_apres_verification": 3868628.94,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Société ELECTOMAR",
+   "montant_acte_engagement": 4098875.28,
+   "montant_apres_verification": 4098875.28,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Société ICOMEL",
+   "montant_acte_engagement": 3905091.6,
+   "montant_apres_verification": 3905091.6,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 6,
+ "alertes_ocr": [
+  "« Société ELEC TRIMAROC » absent de la liste des plis déposés (nom mal lu ?).",
+  "« Société ELECTOMAR » absent de la liste des plis déposés (nom mal lu ?).",
+  "« Société ICOMEL » absent de la liste des plis déposés (nom mal lu ?).",
+  "Attributaire non trouvé."
+ ],
+ "notes_ocr": [],
+ "qualite": "complet"
+}

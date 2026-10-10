@@ -1,0 +1,61 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "961184",
+ "orgAcronyme": "g3h",
+ "reference_pv": "10003364",
+ "nouveau": true,
+ "reference": "10003364",
+ "objet": "Réhabilitation du réseau d’eau potable de Guercif : quartier Chouibir et autres",
+ "acheteur": null,
+ "procedure": null,
+ "categorie": "Travaux",
+ "date_limite_plis": "16/10/2025",
+ "lieu_ouverture": "Siège de la SRM-ORI",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": null,
+ "justification": "Offre moins-disante conforme.",
+ "infructueux": false,
+ "attributaire": "CHESA NORD",
+ "montant_attribue": 13531914.0,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "CHESA NORD",
+   "montant_acte_engagement": 13596714.0,
+   "montant_apres_verification": 13531914.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "TRAVAUX ET D’EQUIPEMENT / SONOCIC, SMYBAM, MATITRAVE, OUMOUJANE TRAVAUX",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "GENIE CIVIL, SOMAGITRAKE",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_dossier_administratif_technique",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 3,
+ "alertes_ocr": [],
+ "notes_ocr": [
+  "« CHESA NORD » : montant rectifié de 13 596 714.00 à 13 531 914.00 DH.",
+  "Maître d'ouvrage absent du PV (utiliser l'acheteur public du portail)."
+ ],
+ "qualite": "attribution"
+}

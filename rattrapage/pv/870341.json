@@ -1,0 +1,51 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "870341",
+ "orgAcronyme": "j8k",
+ "reference_pv": "58/2024",
+ "nouveau": true,
+ "reference": "58/2024",
+ "objet": "LA REALISATION DES TRAVAUX D'AMENAGEMENT DE LA PLACE PUBLIQUE SIS À LA COMMUNE TERRITORIALE DE TINEJDAD -PROVINCE D'ERRACHIDIA",
+ "acheteur": "SOCIETE AL OMRANE DRAA-TAFILALET",
+ "procedure": "appel d'offres ouvert",
+ "categorie": "Travaux",
+ "date_limite_plis": "28/01/2025",
+ "lieu_ouverture": "SOCIETE AL OMRANE DRÂA-TAFILALET",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": null,
+ "justification": "l'offre la mieux disante par rapport au prix de référence.",
+ "infructueux": false,
+ "attributaire": "GESTRAD",
+ "montant_attribue": 4093367.65,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "NICE GARDEN",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_offre_technique",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "GESTRAD",
+   "montant_acte_engagement": 4093367.65,
+   "montant_apres_verification": null,
+   "autres_montants": [
+    4093367.65
+   ],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 2,
+ "alertes_ocr": [],
+ "notes_ocr": [],
+ "qualite": "attribution"
+}

@@ -1,0 +1,78 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "729637",
+ "orgAcronyme": "j8k",
+ "reference_pv": null,
+ "nouveau": true,
+ "reference": null,
+ "objet": "TRAVAUX DE RESEAU D’ELECTRIFICATION DE LA ZONE D’ACTIVITES PROFESSIONNELLES DU QUARTIER AL WARDA A LA COMMUNE DE BENGURIR - PROVINCE RHAMNA",
+ "acheteur": "AL OMRANE MARRAKECH-SAFI",
+ "procedure": "appel d'offres ouvert",
+ "categorie": "Travaux",
+ "date_limite_plis": "12/07/2023",
+ "lieu_ouverture": "SIEGE DE LA SOCIETE AL OMRANE MARRAKECH-SAFI",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "18/07/2023",
+ "justification": "Moins disant",
+ "infructueux": false,
+ "attributaire": "COM CI Montant de lacte d'envagement LI.C",
+ "montant_attribue": 1539064.08,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "CCRE",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "depose",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "ALPHA GTP",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "O2E ENERGIE",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "ELECTOMAR",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "COM CI Montant de lacte d'envagement LI.C",
+   "montant_acte_engagement": 1539064.08,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 5,
+ "alertes_ocr": [
+  "« COM CI Montant de lacte d'envagement LI.C » absent de la liste des plis déposés (nom mal lu ?)."
+ ],
+ "notes_ocr": [],
+ "qualite": "attribution"
+}

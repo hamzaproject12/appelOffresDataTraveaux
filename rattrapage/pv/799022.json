@@ -1,0 +1,79 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "799022",
+ "orgAcronyme": "g3h",
+ "reference_pv": null,
+ "nouveau": true,
+ "reference": null,
+ "objet": "« TRAVAUX DE CONSTRUCTION D'UN FOYER FEMININ ET D’UNE MAISON DES JEUNES A LA COMMUNE DE SKHIRATE - PREFECTURE DE SKHIRATE-TEMARA - REGION RABAT SALE KENITRA»",
+ "acheteur": "Société SKHIRATE TEMARA AMENAGEMENT ET DEVELOPPEMENT SA",
+ "procedure": "appel d'offres ouvert",
+ "categorie": "Travaux",
+ "date_limite_plis": "17/05/2024",
+ "lieu_ouverture": "Salle de réunion de la société sise à lotissement Almostakbel immeuble 22 Témara Maroc",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "22/05/2024",
+ "justification": "L'offre la mieux disante.",
+ "infructueux": false,
+ "attributaire": "GROUPEMENT STE CLUTCH SARL AU/ STE ATALY SARL",
+ "montant_attribue": null,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "STE RENOVI SARL AU",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_dossier_administratif_technique",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "STE MBI SCAVI SARL",
+   "montant_acte_engagement": 9191512.92,
+   "montant_apres_verification": 9191512.92,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_offre_financiere",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "GROUPEMENT STE CLUTCH SARL AU/ STE ATALY SARL",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "STE WINARUS ING SARL",
+   "montant_acte_engagement": 8772930.96,
+   "montant_apres_verification": 8772930.96,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_offre_financiere",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "GROUPEMENT STE CLUTCH SARL AU/ STE",
+   "montant_acte_engagement": 8133179.52,
+   "montant_apres_verification": 8133179.52,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 5,
+ "alertes_ocr": [
+  "« GROUPEMENT STE CLUTCH SARL AU/ STE » absent de la liste des plis déposés (nom mal lu ?).",
+  "Montant de l'attributaire « GROUPEMENT STE CLUTCH SARL AU/ STE ATALY SARL » non trouvé."
+ ],
+ "notes_ocr": [],
+ "qualite": "complet"
+}

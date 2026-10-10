@@ -1,0 +1,133 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "771888",
+ "orgAcronyme": "g3h",
+ "reference_pv": "95/PT/INDH/2023",
+ "nouveau": true,
+ "reference": "95/PT/INDH/2023",
+ "objet": "Travaux de construction de la route non classé reliant Bni Oulid au douar Bab Jamae, Province de Taounate",
+ "acheteur": null,
+ "procedure": null,
+ "categorie": "Travaux",
+ "date_limite_plis": "28/08/2023",
+ "lieu_ouverture": "le bureau du Secrétariat Général de la Province de Taounate",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": null,
+ "justification": "l'offre financière est la moins disante.",
+ "infructueux": false,
+ "attributaire": "SOCIETE ALIAT EL HOUCINE SARL A FES",
+ "montant_attribue": 19800382.44,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "SOCIETE LA REVELATION DE GENIE CIVIL SARL AU A KHOURIBGA",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_dossier_administratif_technique",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "SOCIETE SCAVI SARL A TEMARA",
+   "montant_acte_engagement": 22368678.24,
+   "montant_apres_verification": null,
+   "autres_montants": [
+    22368678.24
+   ],
+   "lots": [],
+   "statut": "ecarte_dossier_administratif_technique",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "SOCIETE SNTRO SARL A MARRAKECH",
+   "montant_acte_engagement": 25886655.78,
+   "montant_apres_verification": null,
+   "autres_montants": [
+    25886655.78
+   ],
+   "lots": [],
+   "statut": "ecarte_dossier_administratif_technique",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "SOCIETE SANOTRAV SARL AU A MEKNES",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_dossier_administratif_technique",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "SOCIETE ALIAT EL HOUCINE SARL A FES",
+   "montant_acte_engagement": 19800382.44,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "SOCIETE ADIMPRO SARL A FES. électroniquement par le mandataire",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_dossier_administratif_technique",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "SOCIETE BEMATRAX SARL AU A SETTAT",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_dossier_administratif_technique",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "GENIE CIVIL SARL AU À",
+   "montant_acte_engagement": 19859564.58,
+   "montant_apres_verification": null,
+   "autres_montants": [
+    19859564.58
+   ],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "porn SANOTRAV SARL AU À",
+   "montant_acte_engagement": 19873564.92,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "PAS TE ALIAT EL HOUCINE SARL",
+   "montant_acte_engagement": 19800382.44,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 10,
+ "alertes_ocr": [
+  "« GENIE CIVIL SARL AU À » absent de la liste des plis déposés (nom mal lu ?).",
+  "« porn SANOTRAV SARL AU À » absent de la liste des plis déposés (nom mal lu ?).",
+  "« PAS TE ALIAT EL HOUCINE SARL » absent de la liste des plis déposés (nom mal lu ?)."
+ ],
+ "notes_ocr": [
+  "Maître d'ouvrage absent du PV (utiliser l'acheteur public du portail)."
+ ],
+ "qualite": "complet"
+}

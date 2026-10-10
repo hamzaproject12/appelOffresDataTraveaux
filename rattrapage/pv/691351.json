@@ -1,0 +1,45 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "691351",
+ "orgAcronyme": "d4q",
+ "reference_pv": null,
+ "nouveau": true,
+ "reference": null,
+ "objet": null,
+ "acheteur": null,
+ "procedure": null,
+ "categorie": "Travaux",
+ "date_limite_plis": "09/01/2023",
+ "lieu_ouverture": "Siège de la Direction régionale Distribution Agadir de l'ONEE-Branche Electricité",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": null,
+ "justification": "Appel d'offres jugé infructueux {Offre globale du soumissionnaire unique « SOCIETE A.O.T » est considérée une offre excessive s’écartant de +334,95% par rapport au montant de l'estimation. De plus, son offre présente des prix unitaires excessifs et des prix unitaires anormalement bas qui se varient entre -77,78% et 3650,00% par rapport aux prix unitaire estimés).",
+ "infructueux": true,
+ "attributaire": null,
+ "montant_attribue": null,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "SOCIETE A.O.T",
+   "montant_acte_engagement": 542022.0,
+   "montant_apres_verification": 1968594.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_offre_financiere",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 1,
+ "alertes_ocr": [
+  "« SOCIETE A.O.T » : écart anormal entre montant initial et vérifié (lecture à vérifier)."
+ ],
+ "notes_ocr": [
+  "« SOCIETE A.O.T » : montant rectifié de 542 022.00 à 1 968 594.00 DH.",
+  "Maître d'ouvrage absent du PV (utiliser l'acheteur public du portail)."
+ ],
+ "qualite": "attribution"
+}

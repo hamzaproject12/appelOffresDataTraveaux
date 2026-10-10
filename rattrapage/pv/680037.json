@@ -1,0 +1,58 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "680037",
+ "orgAcronyme": "f8y",
+ "reference_pv": "07/2022",
+ "nouveau": true,
+ "reference": "07/2022",
+ "objet": "Création d'une salle de classe à douar soltanate El Oued à la commune Machraa Hammadi",
+ "acheteur": "Commune de MechraaHammadi",
+ "procedure": null,
+ "categorie": "Travaux",
+ "date_limite_plis": "18/10/2022",
+ "lieu_ouverture": null,
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "23/11/2022",
+ "justification": null,
+ "infructueux": true,
+ "attributaire": null,
+ "montant_attribue": null,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "STE DADES ACHGHAL SARL BOUMALNE DADES- TINGHIR",
+   "montant_acte_engagement": 165643.2,
+   "montant_apres_verification": 165643.2,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_offre_financiere",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Société KARESS SARL Travaux Divers, 2 Rue Lakhmiss -El Aioun",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_dossier_administratif_technique",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "SUPPLY TRAVAUX SARL/AU N°97 Bis, Rte Jerrada Hay Ain Lahjar -El Aioun Sidi Mellouk",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_dossier_administratif_technique",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 3,
+ "alertes_ocr": [],
+ "notes_ocr": [],
+ "qualite": "attribution"
+}

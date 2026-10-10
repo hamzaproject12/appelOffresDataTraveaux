@@ -1,0 +1,78 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "830215",
+ "orgAcronyme": "q1s",
+ "reference_pv": "69/2024/SOREC",
+ "nouveau": true,
+ "reference": "69/2024/SOREC",
+ "objet": "Travaux de moustiquaires, grillage, et dallage au niveau du CEH Bouskoura",
+ "acheteur": null,
+ "procedure": null,
+ "categorie": "Travaux",
+ "date_limite_plis": "26/08/2024",
+ "lieu_ouverture": "Bureaux du siège de la Société Royale d’Encouragement du Cheval (SOREC) sise à ZENITH RABAT - Angle Rocade de Rabat et rue Ait Malek",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "29/08/2024",
+ "justification": "Le concurrent ayant présenté l’offre la moins disante.",
+ "infructueux": false,
+ "attributaire": "TRAVIMPO",
+ "montant_attribue": 152160.0,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "TRAVIMPO",
+   "montant_acte_engagement": 152160.0,
+   "montant_apres_verification": 152160.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "BEST BAT INGENIERIE",
+   "montant_acte_engagement": 200820.0,
+   "montant_apres_verification": 200820.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "MAROC ENGIN ET CHANTIER",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_dossier_administratif_technique",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "BOUAICHA BATIMENT",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_dossier_administratif_technique",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "JBL ELECTRONICS",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_dossier_administratif_technique",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 5,
+ "alertes_ocr": [],
+ "notes_ocr": [
+  "Maître d'ouvrage absent du PV (utiliser l'acheteur public du portail)."
+ ],
+ "qualite": "complet"
+}

@@ -1,0 +1,83 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "716179",
+ "orgAcronyme": "o8p",
+ "reference_pv": "02/2023",
+ "nouveau": true,
+ "reference": "02/2023",
+ "objet": "Réalisation des travaux de dégagement des emprises du projet de l'autoroute Guercif - Nador. Province de Driouch et Nador",
+ "acheteur": "le Directeur Régional de l'Equipement du Transport et de la Logistique de l'Oriental-Oujda",
+ "procedure": "appel d'offres ouvert",
+ "categorie": "Travaux",
+ "date_limite_plis": "09/05/2023",
+ "lieu_ouverture": "la salle des réunions à la Direction Régionale de l'Equipement du Transport et de la Logistique de l’Oriental-Oujda",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": null,
+ "justification": "la Sté SUPERFLOR, qui a présenté l'offre la moins disante.",
+ "infructueux": false,
+ "attributaire": "DITRAMA",
+ "montant_attribue": 13381000.0,
+ "attributaires_par_lot": [
+  {
+   "lot": null,
+   "attributaire": "DITRAMA",
+   "montant": 13381000.0
+  },
+  {
+   "lot": null,
+   "attributaire": "DHW MAITRISE",
+   "montant": 4128000.0
+  },
+  {
+   "lot": null,
+   "attributaire": "SUPERFLOR",
+   "montant": 3120000.0
+  }
+ ],
+ "soumissionnaires": [
+  {
+   "nom": "DITRAMA",
+   "montant_acte_engagement": 3381000.0,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "DHW MAITRISE",
+   "montant_acte_engagement": 4128000.0,
+   "montant_apres_verification": 4128000.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "SUPERFLOR",
+   "montant_acte_engagement": 3120000.0,
+   "montant_apres_verification": 3120000.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "ZAGORANAYA",
+   "montant_acte_engagement": 3495000.0,
+   "montant_apres_verification": 3495000.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 4,
+ "alertes_ocr": [],
+ "notes_ocr": [],
+ "qualite": "complet"
+}

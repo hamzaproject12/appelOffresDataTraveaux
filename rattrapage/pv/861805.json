@@ -1,0 +1,70 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "861805",
+ "orgAcronyme": "j8k",
+ "reference_pv": null,
+ "nouveau": true,
+ "reference": null,
+ "objet": "TRAVAUX DE CONSTRUCTION DE LOGEMENTS « RIAD AL BAHIA » TRANCHE TR 2 GROS ŒUVRES-ETANCHEITE-REVETEMENT-MENUISERIE-ELECTRICITE-PLOMBERIE SANITAIRE-PEINTURE- VITRERIE AMENAGEMENT EXTERIEUR EFFICACITE ENERGETIQUE-ASCENSEUR SIS A LA COMMUNE",
+ "acheteur": "AL Omrane Fès-Meknès",
+ "procedure": null,
+ "categorie": "Travaux",
+ "date_limite_plis": "23/12/2024",
+ "lieu_ouverture": "AL Omrane Fès-Meknès",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "23/12/2024",
+ "justification": "l’offre la moins disante",
+ "infructueux": false,
+ "attributaire": null,
+ "montant_attribue": null,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "STE MANAR RIF",
+   "montant_acte_engagement": 13916887.63,
+   "montant_apres_verification": 13916887.63,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "STE GAVAT",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "depose",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "STE ORIONIS",
+   "montant_acte_engagement": 11732935.32,
+   "montant_apres_verification": 11732935.32,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "STE GOVAT",
+   "montant_acte_engagement": 13818145.11,
+   "montant_apres_verification": 13818145.11,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 4,
+ "alertes_ocr": [
+  "« STE GOVAT » absent de la liste des plis déposés (nom mal lu ?).",
+  "Attributaire non trouvé."
+ ],
+ "notes_ocr": [],
+ "qualite": "complet"
+}

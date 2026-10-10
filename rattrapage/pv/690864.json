@@ -1,0 +1,54 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "690864",
+ "orgAcronyme": "g3h",
+ "reference_pv": "15/2022",
+ "nouveau": true,
+ "reference": "15/2022",
+ "objet": "du marché: Travaux de construction du siège du Centre Régional d'Investissement",
+ "acheteur": null,
+ "procedure": null,
+ "categorie": "Travaux",
+ "date_limite_plis": "22/12/2022",
+ "lieu_ouverture": "le siège du Centre Régional d'Investissement de la Région Guelmim-Oued Noun Joumaux ayant publié I'avis",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": null,
+ "justification": "offre du concurrent la moins-disante",
+ "infructueux": false,
+ "attributaire": null,
+ "montant_attribue": null,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "quatre cent vingt",
+   "montant_acte_engagement": 6603.0,
+   "montant_apres_verification": 6603.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Groupement ENGOR SA & SARL T.fC",
+   "montant_acte_engagement": 6603420.0,
+   "montant_apres_verification": 6603420.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 2,
+ "alertes_ocr": [
+  "« Groupement ENGOR SA & SARL T.fC » absent de la liste des plis déposés (nom mal lu ?).",
+  "Attributaire non trouvé."
+ ],
+ "notes_ocr": [
+  "Maître d'ouvrage absent du PV (utiliser l'acheteur public du portail)."
+ ],
+ "qualite": "complet"
+}

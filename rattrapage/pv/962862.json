@@ -1,0 +1,64 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "962862",
+ "orgAcronyme": "g3h",
+ "reference_pv": "178/25/ELEC",
+ "nouveau": true,
+ "reference": "178/25/ELEC",
+ "objet": "Travaux de réalisation des branchements électriques divers basse teusion-Ville de Marrakech",
+ "acheteur": "SRM-MS",
+ "procedure": null,
+ "categorie": "Travaux",
+ "date_limite_plis": "17/11/2025",
+ "lieu_ouverture": "Siège de la SRM-MS Boulevard Mohamed VI MARRAKECH",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": null,
+ "justification": "Offre la moins disante.",
+ "infructueux": false,
+ "attributaire": "ELEC TRIMAROC",
+ "montant_attribue": 4622988.0,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "ELEC TRIMAROC",
+   "montant_acte_engagement": 4622988.0,
+   "montant_apres_verification": 4622988.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "DAREL",
+   "montant_acte_engagement": 4965.0,
+   "montant_apres_verification": 4965300.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "JADDAH TRAVCO",
+   "montant_acte_engagement": 4931.0,
+   "montant_apres_verification": 4931400.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 3,
+ "alertes_ocr": [
+  "« DAREL » : écart anormal entre montant initial et vérifié (lecture à vérifier).",
+  "« JADDAH TRAVCO » : écart anormal entre montant initial et vérifié (lecture à vérifier)."
+ ],
+ "notes_ocr": [
+  "« DAREL » : montant rectifié de 4 965.00 à 4 965 300.00 DH.",
+  "« JADDAH TRAVCO » : montant rectifié de 4 931.00 à 4 931 400.00 DH."
+ ],
+ "qualite": "complet"
+}

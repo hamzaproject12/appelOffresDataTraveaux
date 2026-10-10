@@ -1,0 +1,268 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "807001",
+ "orgAcronyme": "q1s",
+ "reference_pv": "40/2024/0RSM",
+ "nouveau": true,
+ "reference": "40/2024/0RSM",
+ "objet": "Travaux d'aménagement et équipement du Club Fellah de l'Office Régional de Mise en Valeur Agricole Souss Massa",
+ "acheteur": "ORMVA/SM",
+ "procedure": "appel d'offres ouvert",
+ "categorie": "Travaux",
+ "date_limite_plis": "29/05/2024",
+ "lieu_ouverture": "Salle de réunion de la direction de l'ORMVA/SM",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "20/06/2024",
+ "justification": "Pour le lot n° 1 : L'offre la plus avantageuse de la société RIT-TRAV par rapport au prix de référence qui est de 2.009.163,14 Dhs TTC. Pour le lot n° 2 : L'offre la plus avantageuse du groupement SETRAGED / GENERAL CIVIL par rapport au prix de référence qui est de 1.581.423,39 Dhs TTC.",
+ "infructueux": false,
+ "attributaire": "STE RIT-TRAV",
+ "montant_attribue": 1990388.8,
+ "attributaires_par_lot": [
+  {
+   "lot": "1",
+   "attributaire": "STE RIT-TRAV",
+   "montant": 1990388.8
+  },
+  {
+   "lot": "2",
+   "attributaire": "Gpt SETRAGED / GENERAL CIVIL",
+   "montant": 1577776.32
+  }
+ ],
+ "soumissionnaires": [
+  {
+   "nom": "DUMAROC",
+   "montant_acte_engagement": 2196804.0,
+   "montant_apres_verification": 2196804.0,
+   "autres_montants": [],
+   "lots": [
+    "1"
+   ],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "A AUGUST TAROUDANT",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [
+    "1"
+   ],
+   "statut": "depose",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "VIE VERTE",
+   "montant_acte_engagement": 2208948.0,
+   "montant_apres_verification": 2208948.0,
+   "autres_montants": [
+    1577091.48
+   ],
+   "lots": [
+    "1",
+    "2"
+   ],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "STE RIT-TRAV",
+   "montant_acte_engagement": 1990388.8,
+   "montant_apres_verification": 1990388.8,
+   "autres_montants": [],
+   "lots": [
+    "1"
+   ],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "COSTRABEN",
+   "montant_acte_engagement": 1994532.0,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [
+    "1"
+   ],
+   "statut": "ecarte_offre_financiere",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "STE CHOURAFA TRAVAUX",
+   "montant_acte_engagement": 1988904.0,
+   "montant_apres_verification": 1988904.0,
+   "autres_montants": [],
+   "lots": [
+    "1"
+   ],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "SSTCO NU — AGADIR",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [
+    "1"
+   ],
+   "statut": "depose",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "ODIMIUM",
+   "montant_acte_engagement": 2010792.0,
+   "montant_apres_verification": 2010792.0,
+   "autres_montants": [
+    1556418.48
+   ],
+   "lots": [
+    "1",
+    "2"
+   ],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "VALMETRA LAAYOUNE",
+   "montant_acte_engagement": 2046552.0,
+   "montant_apres_verification": 2046552.0,
+   "autres_montants": [],
+   "lots": [
+    "1"
+   ],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Gpt BOURIOGRI / ENDICOTRA",
+   "montant_acte_engagement": 2025948.0,
+   "montant_apres_verification": 2025948.0,
+   "autres_montants": [
+    1563663.36
+   ],
+   "lots": [
+    "1",
+    "2"
+   ],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "PRIVILEGE BTP",
+   "montant_acte_engagement": 2013048.0,
+   "montant_apres_verification": 2013048.0,
+   "autres_montants": [],
+   "lots": [
+    "1"
+   ],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "ECOGEO",
+   "montant_acte_engagement": 1612763.52,
+   "montant_apres_verification": 1612763.52,
+   "autres_montants": [],
+   "lots": [
+    "1",
+    "2"
+   ],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Gpt SETRAGED / GENERAL CIVIL",
+   "montant_acte_engagement": 1577776.32,
+   "montant_apres_verification": 1577776.32,
+   "autres_montants": [],
+   "lots": [
+    "1",
+    "2"
+   ],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "SHIMA SPORT ITALIA",
+   "montant_acte_engagement": 1574457.6,
+   "montant_apres_verification": 1574457.6,
+   "autres_montants": [],
+   "lots": [
+    "1",
+    "2"
+   ],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "AUGUST",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [
+    "1"
+   ],
+   "statut": "ecarte_dossier_administratif_technique",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "LE THEATRE D'AMENAGEMENT",
+   "montant_acte_engagement": 1590757.44,
+   "montant_apres_verification": 1590757.44,
+   "autres_montants": [],
+   "lots": [
+    "1",
+    "2"
+   ],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "ELOMARI ABDELALI TRAVAUX (SEAT SARL AU)",
+   "montant_acte_engagement": 1555015.2,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [
+    "1"
+   ],
+   "statut": "ecarte_offre_financiere",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Gpt AMANE VERT / GENERAL BUSINES",
+   "montant_acte_engagement": 1557660.0,
+   "montant_apres_verification": 1557660.0,
+   "autres_montants": [],
+   "lots": [
+    "1",
+    "2"
+   ],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "SOZATRAD",
+   "montant_acte_engagement": 1845849.84,
+   "montant_apres_verification": 1845849.84,
+   "autres_montants": [],
+   "lots": [
+    "1",
+    "2"
+   ],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 19,
+ "alertes_ocr": [],
+ "notes_ocr": [
+  "Marché alloti (2 lots)."
+ ],
+ "qualite": "complet"
+}

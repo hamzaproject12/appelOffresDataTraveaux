@@ -1,0 +1,60 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "681167",
+ "orgAcronyme": "p8x",
+ "reference_pv": "35/MID/INV/2022",
+ "nouveau": true,
+ "reference": "35/MID/INV/2022",
+ "objet": "TRAVAUX DE BRANCHEMEN DE L'EAU POTABLE ET QUARANTE (10) REREVANT DE LEA D",
+ "acheteur": "Le directeur provincial de la DP de l’aref DT de MIDELT",
+ "procedure": null,
+ "categorie": "Travaux",
+ "date_limite_plis": "17/11/2022",
+ "lieu_ouverture": "bureau de service des affaires administratives et financières, construction,",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "28/11/2022",
+ "justification": "STE TASNIMED SARL AU L'offre financière la plus avantageuse est la mieux disante.",
+ "infructueux": false,
+ "attributaire": null,
+ "montant_attribue": null,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "STE TASNIMED SARL AU",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "depose",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "STE SENEJATRO SARL AU",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_dossier_administratif_technique",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "STE MOHOONO TRAVAUX DIVERS",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_dossier_administratif_technique",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 3,
+ "alertes_ocr": [
+  "Attributaire non trouvé."
+ ],
+ "notes_ocr": [],
+ "qualite": "participants"
+}

@@ -1,0 +1,60 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "881672",
+ "orgAcronyme": "f4g",
+ "reference_pv": "20/DH/BG/2024",
+ "nouveau": true,
+ "reference": "20/DH/BG/2024",
+ "objet": "Travaux d'achèvement de construction du complexe culturel des Habous à Agadir. Travaux de : gros",
+ "acheteur": "Ministère des Habous et des affaires islamiques",
+ "procedure": null,
+ "categorie": "Travaux",
+ "date_limite_plis": "17/12/2024",
+ "lieu_ouverture": "La division de la construction et des investissements sis à l'angle rue Angola et rue Mali océan Rabat",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "27/01/2025",
+ "justification": "le concurrent ayant présenté l'offre techniquement conforme et mieux disante. ‘achè fl",
+ "infructueux": false,
+ "attributaire": "Société SOTAMAC SARL",
+ "montant_attribue": 53973361.2,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "Société SOTAMAC SARL",
+   "montant_acte_engagement": 53973361.2,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": true
+  },
+  {
+   "nom": "Société AHMASARL AU",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "depose",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Société AHMA SARL AU",
+   "montant_acte_engagement": 54110646.12,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 3,
+ "alertes_ocr": [
+  "« Société AHMA SARL AU » absent de la liste des plis déposés (nom mal lu ?)."
+ ],
+ "notes_ocr": [],
+ "qualite": "complet"
+}

@@ -1,0 +1,129 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "771902",
+ "orgAcronyme": "g3h",
+ "reference_pv": "106/PT/CPT/2023",
+ "nouveau": true,
+ "reference": "106/PT/CPT/2023",
+ "objet": "Travaux de construction de l’unité provinciale administrative, sociale et médicale pour la Mutuelle Générale du Personnel des Administrations Publiques au Maroc (MGPAP) à la commune de Taounate - Province de Taounate",
+ "acheteur": null,
+ "procedure": null,
+ "categorie": "Travaux",
+ "date_limite_plis": "31/08/2023",
+ "lieu_ouverture": "le bureau du Secrétariat Général de la Province de Taounate",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": null,
+ "justification": "l'offre financière est la moins disante.",
+ "infructueux": false,
+ "attributaire": "SOCIETE OULDAN TRAVAUX SARL AU A FES",
+ "montant_attribue": null,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "SOCIETE GHEBICHAT SARL A AIN AICHA TAOUNATE",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_dossier_administratif_technique",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "SOCIETE OULDAN TRAVAUX SARL AU A FES",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "SOCIETE BOUNYANE EL ARFAOUI SARL A MEKNES",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_dossier_administratif_technique",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "SARL AU A FES",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_offre_financiere",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "consultation",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_offre_financiere",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "n° 6214 du 19 décembre",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_offre_financiere",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "eme OUNATE + RE AS",
+   "montant_acte_engagement": 1070493.6,
+   "montant_apres_verification": null,
+   "autres_montants": [
+    1101213.6
+   ],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "RUA TES OULDAN TRAVAUX SARL",
+   "montant_acte_engagement": 839940.0,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "ART À MEENES ANE EL ARFAOUI",
+   "montant_acte_engagement": 1078438.8,
+   "montant_apres_verification": null,
+   "autres_montants": [
+    1078438.8
+   ],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 9,
+ "alertes_ocr": [
+  "« SOCIETE OULDAN TRAVAUX SARL AU A FES » absent de la liste des plis déposés (nom mal lu ?).",
+  "« eme OUNATE + RE AS » absent de la liste des plis déposés (nom mal lu ?).",
+  "« RUA TES OULDAN TRAVAUX SARL » absent de la liste des plis déposés (nom mal lu ?).",
+  "« ART À MEENES ANE EL ARFAOUI » absent de la liste des plis déposés (nom mal lu ?).",
+  "Montant de l'attributaire « SOCIETE OULDAN TRAVAUX SARL AU A FES » non trouvé."
+ ],
+ "notes_ocr": [
+  "« SOCIETE GHEBICHAT SARL A AIN AICHA TAOUNATE » absent de la liste des plis déposés (nom mal lu ?).",
+  "« SOCIETE BOUNYANE EL ARFAOUI SARL A MEKNES » absent de la liste des plis déposés (nom mal lu ?).",
+  "« SARL AU A FES » absent de la liste des plis déposés (nom mal lu ?).",
+  "« consultation » absent de la liste des plis déposés (nom mal lu ?).",
+  "« n° 6214 du 19 décembre » absent de la liste des plis déposés (nom mal lu ?).",
+  "Maître d'ouvrage absent du PV (utiliser l'acheteur public du portail)."
+ ],
+ "qualite": "complet"
+}

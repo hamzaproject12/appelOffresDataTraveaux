@@ -1,0 +1,68 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "1034976",
+ "orgAcronyme": "g3h",
+ "reference_pv": "269/2026",
+ "nouveau": true,
+ "reference": "269/2026",
+ "objet": null,
+ "acheteur": "Société Régionale Multiservices Fès Meknès « SRM-FM »",
+ "procedure": null,
+ "categorie": "Travaux",
+ "date_limite_plis": "29/07/2026",
+ "lieu_ouverture": "Siège de la SRM-FM",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "12/08/2026",
+ "justification": "L'offre la plus avantageuse.",
+ "infructueux": false,
+ "attributaire": "SOMAGITRAKE",
+ "montant_attribue": 11113669.0,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "CANAL’O",
+   "montant_acte_engagement": 12590384.0,
+   "montant_apres_verification": 15108460.8,
+   "autres_montants": [
+    15108460.8
+   ],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "SMEER",
+   "montant_acte_engagement": 12350764.0,
+   "montant_apres_verification": 14820916.8,
+   "autres_montants": [
+    14820916.8
+   ],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "SOMAGITRAKE",
+   "montant_acte_engagement": 11113669.0,
+   "montant_apres_verification": 13336402.8,
+   "autres_montants": [
+    13336402.8
+   ],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 3,
+ "alertes_ocr": [],
+ "notes_ocr": [
+  "« CANAL’O » : montant rectifié de 12 590 384.00 à 15 108 460.80 DH.",
+  "« SMEER » : montant rectifié de 12 350 764.00 à 14 820 916.80 DH.",
+  "« SOMAGITRAKE » : montant rectifié de 11 113 669.00 à 13 336 402.80 DH."
+ ],
+ "qualite": "complet"
+}

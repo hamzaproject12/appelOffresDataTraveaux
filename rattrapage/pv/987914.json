@@ -1,0 +1,123 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "987914",
+ "orgAcronyme": "g3h",
+ "reference_pv": null,
+ "nouveau": true,
+ "reference": null,
+ "objet": null,
+ "acheteur": "Société Régionale Multiservices Fès Meknès « SRM-FM »",
+ "procedure": null,
+ "categorie": "Travaux",
+ "date_limite_plis": "05/03/2026",
+ "lieu_ouverture": "Siège de la SRM-FM",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "17/03/2026",
+ "justification": null,
+ "infructueux": false,
+ "attributaire": "ELECRESEAUX",
+ "montant_attribue": 2816960.0,
+ "attributaires_par_lot": [
+  {
+   "lot": null,
+   "attributaire": "ELECRESEAUX",
+   "montant": 2816960.0
+  },
+  {
+   "lot": null,
+   "attributaire": "KYMAS",
+   "montant": 1348750.0
+  },
+  {
+   "lot": null,
+   "attributaire": "SLASELEC",
+   "montant": 7774901.0
+  }
+ ],
+ "soumissionnaires": [
+  {
+   "nom": "GAMAF",
+   "montant_acte_engagement": 1348750.0,
+   "montant_apres_verification": null,
+   "autres_montants": [
+    1693675.0,
+    1741680.0
+   ],
+   "lots": [
+    "3"
+   ],
+   "statut": "ecarte_offre_financiere",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "SIWERGY MAROC",
+   "montant_acte_engagement": 3431662.8,
+   "montant_apres_verification": null,
+   "autres_montants": [
+    3392100.0,
+    3380352.0
+   ],
+   "lots": [
+    "3"
+   ],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "KYMAS",
+   "montant_acte_engagement": 1348750.0,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "ELECRESEAUX",
+   "montant_acte_engagement": 2859719.0,
+   "montant_apres_verification": null,
+   "autres_montants": [
+    2826750.0,
+    2816960.0
+   ],
+   "lots": [
+    "1"
+   ],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "IMADELEC",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "depose",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "SLASELEC",
+   "montant_acte_engagement": 1618500.0,
+   "montant_apres_verification": null,
+   "autres_montants": [
+    2032410.0,
+    2090016.0
+   ],
+   "lots": [
+    "4"
+   ],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 6,
+ "alertes_ocr": [],
+ "notes_ocr": [
+  "Marché alloti (3 lots)."
+ ],
+ "qualite": "complet"
+}

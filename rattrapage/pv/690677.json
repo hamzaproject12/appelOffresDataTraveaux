@@ -1,0 +1,63 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "690677",
+ "orgAcronyme": "q0x",
+ "reference_pv": "103/AREPDT/2022",
+ "nouveau": true,
+ "reference": "103/AREPDT/2022",
+ "objet": "PROGRAMME DE VALORISATION TERRITORIALE ET PAYSAGERE DES ZONES DE MONTAGNES DE LA REGION DRAA-TAFILALET : TRAVAUX DE CONSTRUCTION DE",
+ "acheteur": "Agence Régionale d’Exécution des Projets Drâa-Tafilalet, ▪",
+ "procedure": "appel d'offres ouvert",
+ "categorie": "Travaux",
+ "date_limite_plis": null,
+ "lieu_ouverture": null,
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": null,
+ "justification": null,
+ "infructueux": false,
+ "attributaire": "GRP RIMAX ET TOUNA BATIMENT",
+ "montant_attribue": 6998760.0,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "STE AIT HAJI FRERES DE",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": true
+  },
+  {
+   "nom": "CONSTRUCTION",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": true
+  },
+  {
+   "nom": "GRP RIMAX ET TOUNA BATIMENT",
+   "montant_acte_engagement": 6998760.0,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 3,
+ "alertes_ocr": [
+  "« GRP RIMAX ET TOUNA BATIMENT » absent de la liste des plis déposés (nom mal lu ?)."
+ ],
+ "notes_ocr": [
+  "« STE AIT HAJI FRERES DE » absent de la liste des plis déposés (nom mal lu ?).",
+  "« CONSTRUCTION » absent de la liste des plis déposés (nom mal lu ?)."
+ ],
+ "qualite": "attribution"
+}

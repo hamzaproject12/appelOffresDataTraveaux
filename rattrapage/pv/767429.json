@@ -1,0 +1,52 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "767429",
+ "orgAcronyme": "g3h",
+ "reference_pv": null,
+ "nouveau": true,
+ "reference": null,
+ "objet": "Travaux de construction d'un ouvrage d'art sur oued ourous sur la route desservant douar Isli à la commune Ait Hkim-Ait Izid, province d,Al Haotz",
+ "acheteur": "province d,Al Haouz I)ate d'ouverture des plis :2g/ll/2023 à l l heures",
+ "procedure": null,
+ "categorie": "Travaux",
+ "date_limite_plis": null,
+ "lieu_ouverture": "des pris : salle des réunions de la province Al Haouz",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": null,
+ "justification": null,
+ "infructueux": false,
+ "attributaire": "STE DIHYA SARL",
+ "montant_attribue": null,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "STE DtHyA SARL",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "depose",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "STE DIHYA SARL",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 2,
+ "alertes_ocr": [
+  "« STE DIHYA SARL » absent de la liste des plis déposés (nom mal lu ?).",
+  "Montant de l'attributaire « STE DIHYA SARL » non trouvé."
+ ],
+ "notes_ocr": [],
+ "qualite": "participants"
+}

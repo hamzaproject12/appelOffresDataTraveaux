@@ -1,0 +1,112 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "771730",
+ "orgAcronyme": "g3h",
+ "reference_pv": "43/PT/2023",
+ "nouveau": true,
+ "reference": "43/PT/2023",
+ "objet": "Travaux de construction de douze salles de classe aux communes de Bni Snous (3 à SS Oulad Ahmed Et 3 à Nouasser) Et de Sidi El Abed (&-3 à SS EI Koraichine Et 3 à Oulad Balgh)",
+ "acheteur": null,
+ "procedure": null,
+ "categorie": "Travaux",
+ "date_limite_plis": "07/04/2023",
+ "lieu_ouverture": "le bureau du Secrétariat Général de la Province de Taounate",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": null,
+ "justification": "l'offre financière est la moins disante.",
+ "infructueux": false,
+ "attributaire": "SOCIETE REALISATION DES PROJETS PUBLICS (R2P SARL AU) À MEKNES",
+ "montant_attribue": 3538034.4,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "SOCIETE ADIL FOR A TAZA",
+   "montant_acte_engagement": 3826740.0,
+   "montant_apres_verification": null,
+   "autres_montants": [
+    3826740.0
+   ],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "SOCIETE BOUNYANE EL ARFAOUI SARL A MEKNES",
+   "montant_acte_engagement": 3844780.8,
+   "montant_apres_verification": null,
+   "autres_montants": [
+    3844780.8
+   ],
+   "lots": [],
+   "statut": "ecarte_dossier_administratif_technique",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "SOCIETE REALISATION DES PROJETS PUBLICS (R2P SARL AU) À MEKNES",
+   "montant_acte_engagement": 3538034.4,
+   "montant_apres_verification": null,
+   "autres_montants": [
+    3538034.4
+   ],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "SOCIETE SO BAKHCHI SARL A FES",
+   "montant_acte_engagement": 3676449.6,
+   "montant_apres_verification": null,
+   "autres_montants": [
+    3676449.6
+   ],
+   "lots": [],
+   "statut": "ecarte_dossier_administratif_technique",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "SOCIETE AJI TRADIVE SARL AU A FES",
+   "montant_acte_engagement": 3663194.4,
+   "montant_apres_verification": null,
+   "autres_montants": [
+    3663194.4
+   ],
+   "lots": [],
+   "statut": "ecarte_dossier_administratif_technique",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "GROUPEMENT : - SOCIETE ATLAS HBAB SARL A TINGHIR",
+   "montant_acte_engagement": 3812949.6,
+   "montant_apres_verification": null,
+   "autres_montants": [
+    3812949.6
+   ],
+   "lots": [],
+   "statut": "ecarte_dossier_administratif_technique",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "SOCIETE INFRATKHOU SARL AU",
+   "montant_acte_engagement": 3545172.0,
+   "montant_apres_verification": null,
+   "autres_montants": [
+    3545172.0
+   ],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 7,
+ "alertes_ocr": [
+  "« SOCIETE INFRATKHOU SARL AU » absent de la liste des plis déposés (nom mal lu ?)."
+ ],
+ "notes_ocr": [
+  "Maître d'ouvrage absent du PV (utiliser l'acheteur public du portail)."
+ ],
+ "qualite": "complet"
+}

@@ -1,0 +1,59 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "872190",
+ "orgAcronyme": "o8p",
+ "reference_pv": "002-25-AOO",
+ "nouveau": true,
+ "reference": "002-25-AOO",
+ "objet": "Travaux de mise à niveau du système de drainage de l'Aéroport Tétouan Saniat R'Mel",
+ "acheteur": "l'OFFICE NATIONAL DES AEROPORTS",
+ "procedure": "appel d'offres ouvert",
+ "categorie": "Travaux",
+ "date_limite_plis": "15/01/2025",
+ "lieu_ouverture": "La salle de réunion de la Direction des Achaïs et de la Logistique",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "13/02/2025",
+ "justification": "L'offre la plus avantageuse.",
+ "infructueux": false,
+ "attributaire": null,
+ "montant_attribue": null,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "SOCIETE NOUVELLE DES",
+   "montant_acte_engagement": 43642848.0,
+   "montant_apres_verification": 36507600.0,
+   "autres_montants": [
+    43642848.0
+   ],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "tr \\GTAL FES COMPRISE COMPRISE",
+   "montant_acte_engagement": 36507600.0,
+   "montant_apres_verification": null,
+   "autres_montants": [
+    36507600.0
+   ],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 2,
+ "alertes_ocr": [
+  "« SOCIETE NOUVELLE DES » absent de la liste des plis déposés (nom mal lu ?).",
+  "« tr \\GTAL FES COMPRISE COMPRISE » absent de la liste des plis déposés (nom mal lu ?).",
+  "Attributaire non trouvé."
+ ],
+ "notes_ocr": [
+  "« SOCIETE NOUVELLE DES » : montant rectifié de 43 642 848.00 à 36 507 600.00 DH."
+ ],
+ "qualite": "complet"
+}

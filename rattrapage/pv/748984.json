@@ -1,0 +1,90 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "748984",
+ "orgAcronyme": "h5j",
+ "reference_pv": "109/2023/BAT",
+ "nouveau": true,
+ "reference": "109/2023/BAT",
+ "objet": "e LOT N° 1 : Travaux de construction et d’extension des bâches à eau dans les établissements pénitentiaires rattachés à la Direction Régionale du Grand Casablanca-Settat",
+ "acheteur": "Délégation Générale à l'Administration Pénitentiaire et à la Réinsertion",
+ "procedure": "appel d'offres ouvert",
+ "categorie": "Travaux",
+ "date_limite_plis": "25/08/2023",
+ "lieu_ouverture": "desplis : Siège de la Délégation Générale à l'Administration Pénitentiaire et à la Réinsertion à Angle Avenue AL Araar et Rue Al Jaouz, Hay Riad-Rabat — 1°\" étage",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "06/10/2023",
+ "justification": "Offre les plus avantageuses",
+ "infructueux": false,
+ "attributaire": "ENTC SARL",
+ "montant_attribue": 7203072.0,
+ "attributaires_par_lot": [
+  {
+   "lot": null,
+   "attributaire": "ENTC SARL",
+   "montant": 7203072.0
+  },
+  {
+   "lot": null,
+   "attributaire": "ORTIS MAROC SARL",
+   "montant": 7138482.6
+  }
+ ],
+ "soumissionnaires": [
+  {
+   "nom": "SOALHA CONSTRUCTIONS SARL pourles lots n°1, n°2 et n°3",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_offre_technique",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "ORTIS MAROC SARL pourle lot n°1",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_offre_technique",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "ENTC SARL",
+   "montant_acte_engagement": 7203072.0,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [
+    "1"
+   ],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "ORTIS MAROC SARL",
+   "montant_acte_engagement": 7138482.6,
+   "montant_apres_verification": null,
+   "autres_montants": [
+    6948576.0
+   ],
+   "lots": [
+    "2",
+    "3"
+   ],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 4,
+ "alertes_ocr": [
+  "« ENTC SARL » absent de la liste des plis déposés (nom mal lu ?).",
+  "« ORTIS MAROC SARL » absent de la liste des plis déposés (nom mal lu ?)."
+ ],
+ "notes_ocr": [
+  "Marché alloti (3 lots)."
+ ],
+ "qualite": "attribution"
+}

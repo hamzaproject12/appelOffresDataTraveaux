@@ -1,0 +1,60 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "909502",
+ "orgAcronyme": "g8e",
+ "reference_pv": "A100/RRA/2025",
+ "nouveau": true,
+ "reference": "A100/RRA/2025",
+ "objet": "TRAVAUX DE REALISATION DU MARCHE DE CHAUDRONNERIE A LA VILLE DE RABAT",
+ "acheteur": null,
+ "procedure": null,
+ "categorie": "Travaux",
+ "date_limite_plis": "10/06/2025",
+ "lieu_ouverture": "Bureau de la Société Rabat Région Aménagement au 9, Place Al Joulane — Rabat",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "24/06/2025",
+ "justification": "Offre conforme aux exigences du Règlement de la consultation et l’offre la plus avantageuses",
+ "infructueux": false,
+ "attributaire": "RT NEGOCE",
+ "montant_attribue": 11457795.82,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "ZAMANE EL KHEIR",
+   "montant_acte_engagement": 11542941.82,
+   "montant_apres_verification": 11542941.82,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "RT NEGOCE",
+   "montant_acte_engagement": 11457795.82,
+   "montant_apres_verification": 11457795.82,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "WINARUS ING",
+   "montant_acte_engagement": 11827597.86,
+   "montant_apres_verification": 11827597.86,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 3,
+ "alertes_ocr": [],
+ "notes_ocr": [
+  "Maître d'ouvrage absent du PV (utiliser l'acheteur public du portail)."
+ ],
+ "qualite": "complet"
+}

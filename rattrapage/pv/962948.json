@@ -1,0 +1,51 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "962948",
+ "orgAcronyme": "d4q",
+ "reference_pv": "55/2025",
+ "nouveau": true,
+ "reference": "55/2025",
+ "objet": "MISE A NIVEAU DU CENTRE DE MAINTENANCE D'OMCo SITUE A AIN DORIJ- REGION D'OUEZZANE",
+ "acheteur": "ONHYM MIDSTREAM CO - OMCo SA",
+ "procedure": "appel d'offres ouvert",
+ "categorie": "Travaux",
+ "date_limite_plis": "01/12/2025",
+ "lieu_ouverture": "Salle de réunion au siège d'OMCo, sis au 5, Avenue Moulay Hassan, Rabat",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "08/12/2025",
+ "justification": "L'offre économiquement la plus avantageuse.",
+ "infructueux": false,
+ "attributaire": "STE LAMLIHTRAV",
+ "montant_attribue": 1127136.0,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "TWAK",
+   "montant_acte_engagement": 1278312.0,
+   "montant_apres_verification": 1278312.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "STE LAMLIHTRAV",
+   "montant_acte_engagement": 1127136.0,
+   "montant_apres_verification": 1127136.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 2,
+ "alertes_ocr": [
+  "« STE LAMLIHTRAV » absent de la liste des plis déposés (nom mal lu ?)."
+ ],
+ "notes_ocr": [],
+ "qualite": "complet"
+}

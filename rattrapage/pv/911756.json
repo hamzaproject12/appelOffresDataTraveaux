@@ -1,0 +1,51 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "911756",
+ "orgAcronyme": "q0x",
+ "reference_pv": "02/2025/C.G.E.O",
+ "nouveau": true,
+ "reference": "02/2025/C.G.E.O",
+ "objet": "Travaux d'éclairage public des voies de la Commune Territoriale Gheris El Ouloui",
+ "acheteur": "COMMUNE GHERIS EL OULOUI",
+ "procedure": "appel d'offres ouvert national",
+ "categorie": "Travaux",
+ "date_limite_plis": "17/06/2025",
+ "lieu_ouverture": "le bureau du président au siège de la Commune Gheris El Ouloui",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": null,
+ "justification": "l'offre présentée par la STE SEVIELEC, est la plus avantageuse.",
+ "infructueux": false,
+ "attributaire": "STE SEVIELEC",
+ "montant_attribue": 1870000.0,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "Coneurrent 3",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "depose",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "STE SEVIELEC",
+   "montant_acte_engagement": 1870000.0,
+   "montant_apres_verification": 1870000.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 2,
+ "alertes_ocr": [
+  "« STE SEVIELEC » absent de la liste des plis déposés (nom mal lu ?)."
+ ],
+ "notes_ocr": [],
+ "qualite": "attribution"
+}

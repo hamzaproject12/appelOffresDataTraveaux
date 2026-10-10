@@ -1,0 +1,58 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "986694",
+ "orgAcronyme": "j8k",
+ "reference_pv": null,
+ "nouveau": true,
+ "reference": null,
+ "objet": "TRAVAUX DE TERRASSEMENT RELATIFS À LA CONSTRUCTION DES LOGEMENTS DE L'OPERATION PANORAMA, AU LOTISSEMENT TAMOUDA 2, A TETOUAN",
+ "acheteur": "AL OMRANE TANGER-TETOUAN-AL HOCEIMA",
+ "procedure": null,
+ "categorie": "Travaux",
+ "date_limite_plis": "13/03/2026",
+ "lieu_ouverture": "Al Omrane Tanger-Tétouan-Al Hoceima",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "09/03/2026",
+ "justification": "Moins disant",
+ "infructueux": false,
+ "attributaire": "COPREF",
+ "montant_attribue": 106200.0,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "S.J.T-TRAVAUX",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_offre_financiere",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "STE BLUEPEAK CONSTRUCTION",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_offre_financiere",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "COPREF",
+   "montant_acte_engagement": 106200.0,
+   "montant_apres_verification": 106200.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 3,
+ "alertes_ocr": [],
+ "notes_ocr": [],
+ "qualite": "attribution"
+}

@@ -1,0 +1,73 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "800205",
+ "orgAcronyme": "j0w",
+ "reference_pv": null,
+ "nouveau": true,
+ "reference": null,
+ "objet": "Travaux d’aménagements de la corniche de Sidi Kaouki — Province d’Essaouira",
+ "acheteur": "Le Conseil Provincial d'Essaouira représenté par le Président du Conseil",
+ "procedure": null,
+ "categorie": "Travaux",
+ "date_limite_plis": null,
+ "lieu_ouverture": "Salle des réunions au Conseil Provincial",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": null,
+ "justification": null,
+ "infructueux": true,
+ "attributaire": null,
+ "montant_attribue": null,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "GROUPEMENT SOCIETE CONSAMAR ET",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_offre_financiere",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "GROUPEMENT SOCIETE CONSAMAR ET SOCIETE GENERAL TECH INVEST",
+   "montant_acte_engagement": 2808888.37,
+   "montant_apres_verification": 2808888.37,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_offre_financiere",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "l'aope c'offres ouver* N° 18/2024/BP cu 28/05/2024 à",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_offre_financiere",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Infructueux",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_offre_financiere",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 4,
+ "alertes_ocr": [
+  "« GROUPEMENT SOCIETE CONSAMAR ET SOCIETE GENERAL TECH INVEST » absent de la liste des plis déposés (nom mal lu ?)."
+ ],
+ "notes_ocr": [
+  "« GROUPEMENT SOCIETE CONSAMAR ET » absent de la liste des plis déposés (nom mal lu ?).",
+  "« l'aope c'offres ouver* N° 18/2024/BP cu 28/05/2024 à » absent de la liste des plis déposés (nom mal lu ?).",
+  "« Infructueux » absent de la liste des plis déposés (nom mal lu ?)."
+ ],
+ "qualite": "attribution"
+}

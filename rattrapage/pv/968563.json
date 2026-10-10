@@ -1,0 +1,44 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "968563",
+ "orgAcronyme": "d4q",
+ "reference_pv": null,
+ "nouveau": true,
+ "reference": null,
+ "objet": "LA REPARATION DES CAMERAS INFRA-ROUGES DE LA DIRECTION TRANSPORT PROVINCES DU SUD LAAYOUNE",
+ "acheteur": null,
+ "procedure": null,
+ "categorie": "Travaux",
+ "date_limite_plis": "16/12/2025",
+ "lieu_ouverture": "LAAYOUNE",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": null,
+ "justification": "Moins-disant",
+ "infructueux": false,
+ "attributaire": "MEDICAR SAFETY",
+ "montant_attribue": 97200.0,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "MEDICAR SAFETY",
+   "montant_acte_engagement": 97200.0,
+   "montant_apres_verification": 97200.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 1,
+ "alertes_ocr": [
+  "« MEDICAR SAFETY » absent de la liste des plis déposés (nom mal lu ?)."
+ ],
+ "notes_ocr": [
+  "Maître d'ouvrage absent du PV (utiliser l'acheteur public du portail)."
+ ],
+ "qualite": "attribution"
+}

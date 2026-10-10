@@ -1,0 +1,63 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "742307",
+ "orgAcronyme": "p8x",
+ "reference_pv": "09/ELH/2020",
+ "nouveau": true,
+ "reference": "09/ELH/2020",
+ "objet": null,
+ "acheteur": "La Direction Provinciale de l'AREF FM à El Hajeb La Direction Provinciale de l'AREF FM à El Hajeb",
+ "procedure": "appel d'offres ouvert",
+ "categorie": "Travaux",
+ "date_limite_plis": null,
+ "lieu_ouverture": "Journaux ayant publié l'avis de publicité",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": null,
+ "justification": "Offre la moins disante",
+ "infructueux": false,
+ "attributaire": "01+016EXTRAIT PVS AOO N°",
+ "montant_attribue": null,
+ "attributaires_par_lot": [
+  {
+   "lot": null,
+   "attributaire": "01+016EXTRAIT PVS AOO N°",
+   "montant": null
+  },
+  {
+   "lot": null,
+   "attributaire": "SOHATI TRAVAUX SARL",
+   "montant": null
+  }
+ ],
+ "soumissionnaires": [
+  {
+   "nom": "01+016EXTRAIT PVS AOO N°",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "SOHATI TRAVAUX SARL",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 2,
+ "alertes_ocr": [
+  "Montant de l'attributaire « 01+016EXTRAIT PVS AOO N° » non trouvé.",
+  "Montant de l'attributaire « SOHATI TRAVAUX SARL » non trouvé."
+ ],
+ "notes_ocr": [],
+ "qualite": "participants"
+}

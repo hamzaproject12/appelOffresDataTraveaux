@@ -1,0 +1,111 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "964357",
+ "orgAcronyme": "o8p",
+ "reference_pv": null,
+ "nouveau": true,
+ "reference": null,
+ "objet": "TRAVAUX D’INSTALLATION D’UN MONTE-CHARGE POUR PMR AU PORT D’ESSAOUIRA",
+ "acheteur": "Direction du ports de Safi et Région",
+ "procedure": null,
+ "categorie": "Travaux",
+ "date_limite_plis": null,
+ "lieu_ouverture": "Direction du ports de Safi et Région",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "15/12/2025",
+ "justification": null,
+ "infructueux": false,
+ "attributaire": "MAROCCAN GREEN INVEST",
+ "montant_attribue": 347940.0,
+ "attributaires_par_lot": [
+  {
+   "lot": null,
+   "attributaire": "MAROCCAN GREEN INVEST",
+   "montant": 347940.0
+  },
+  {
+   "lot": null,
+   "attributaire": "DES MARCHES PUBLICS",
+   "montant": 347940.0
+  },
+  {
+   "lot": null,
+   "attributaire": "TROIS CENT QUARANTE-SEPT MILLE NEUF CENT",
+   "montant": 347940.0
+  },
+  {
+   "lot": null,
+   "attributaire": "QUARANTE LIBERATION",
+   "montant": 360000.0
+  }
+ ],
+ "soumissionnaires": [
+  {
+   "nom": "SECTOB SARL",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "depose",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "TECNITAS",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "depose",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "MAROCCAN GREEN INVEST",
+   "montant_acte_engagement": 347940.0,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "DES MARCHES PUBLICS",
+   "montant_acte_engagement": 347940.0,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "TROIS CENT QUARANTE-SEPT MILLE NEUF CENT",
+   "montant_acte_engagement": 347940.0,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "QUARANTE LIBERATION",
+   "montant_acte_engagement": 360000.0,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 6,
+ "alertes_ocr": [
+  "« MAROCCAN GREEN INVEST » absent de la liste des plis déposés (nom mal lu ?).",
+  "« DES MARCHES PUBLICS » absent de la liste des plis déposés (nom mal lu ?).",
+  "« TROIS CENT QUARANTE-SEPT MILLE NEUF CENT » absent de la liste des plis déposés (nom mal lu ?).",
+  "« QUARANTE LIBERATION » absent de la liste des plis déposés (nom mal lu ?)."
+ ],
+ "notes_ocr": [],
+ "qualite": "attribution"
+}

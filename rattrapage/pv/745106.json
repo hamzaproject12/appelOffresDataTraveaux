@@ -1,0 +1,58 @@
+{
+ "source": "extrait_docx",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "745106",
+ "orgAcronyme": "g3h",
+ "reference_pv": "06/SAP/SP.IM/2023",
+ "nouveau": true,
+ "reference": "06/SAP/SP.IM/2023",
+ "objet": "FOURNITURE ET INSTALLATION D'UN PYLONE AUTOSTABLE DE 50M AU SIEGE DU 2ème ARRONDISSEMENT DE POLICE RELEVANT DU DISTRICT PROVINCIAL DE KHOURIBGA (LOT UNIQUE)",
+ "acheteur": "Préfecture de Police de Béni Mellal",
+ "procedure": "appel d'offres ouvert",
+ "categorie": "Travaux",
+ "date_limite_plis": "21/09/2023",
+ "lieu_ouverture": "Siège de la Préfecture de Police de Béni Mellal",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "05/10/2023",
+ "justification": "offre la plus avantageuse pour l’administration.",
+ "infructueux": false,
+ "attributaire": "STE BOUDNIB SARL DE CASABLANCA",
+ "montant_attribue": 897600.0,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "STE BOUDNIB SARL DE CASABLANCA",
+   "montant_acte_engagement": 897600.0,
+   "montant_apres_verification": 897600.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "2/ STE NEWRAKOM SARL DE RABAT",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_dossier_administratif_technique",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "STE NORD EST ELECTRONIQUE SARL DE CASABLANCA",
+   "montant_acte_engagement": 92240.0,
+   "montant_apres_verification": 92240.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 3,
+ "alertes_ocr": [],
+ "notes_ocr": [],
+ "qualite": "complet"
+}

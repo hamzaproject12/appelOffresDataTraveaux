@@ -1,0 +1,55 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "859222",
+ "orgAcronyme": "j8k",
+ "reference_pv": "82/2024",
+ "nouveau": true,
+ "reference": "82/2024",
+ "objet": "TRAVAUX DE TRAITEMENT ANTI-FEU ET PROTECTION INCENDIE DE LA COUVERTURE EXISTANTE ENTRE DERB DABACHI ET PLACE BEN YOUSSEF À LA MEDINA DE MARRAKECH.Maitre d'ouvrage : AL OMRANE MARRAKECH-SAFT",
+ "acheteur": null,
+ "procedure": "appel d'offres ouvert",
+ "categorie": "Travaux",
+ "date_limite_plis": "05/12/2024",
+ "lieu_ouverture": "AL OMRANE MARRAKECH-SAFT",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "05/12/2024",
+ "justification": null,
+ "infructueux": false,
+ "attributaire": null,
+ "montant_attribue": null,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "SOUMISSION NES D'ENGAGEMENTS",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": true
+  },
+  {
+   "nom": "MOTIFS DES ÉLIMINATIONS DETAILLEES",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_offre_financiere",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 2,
+ "alertes_ocr": [
+  "Attributaire non trouvé."
+ ],
+ "notes_ocr": [
+  "« SOUMISSION NES D'ENGAGEMENTS » absent de la liste des plis déposés (nom mal lu ?).",
+  "« MOTIFS DES ÉLIMINATIONS DETAILLEES » absent de la liste des plis déposés (nom mal lu ?).",
+  "Maître d'ouvrage absent du PV (utiliser l'acheteur public du portail)."
+ ],
+ "qualite": "participants"
+}

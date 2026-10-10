@@ -1,0 +1,94 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "974935",
+ "orgAcronyme": "d4q",
+ "reference_pv": null,
+ "nouveau": true,
+ "reference": null,
+ "objet": "Installation des portiques de manutention des GEPI au niveau des forages de DRG",
+ "acheteur": null,
+ "procedure": "appel d'offres ouvert",
+ "categorie": "Travaux",
+ "date_limite_plis": "16/12/2025",
+ "lieu_ouverture": "au siège de la Direction Régionale l'Oriental (DR6) Place 18 Mars 2003 - Oujda - Maroc",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "05/02/2026",
+ "justification": "Moins-disant",
+ "infructueux": false,
+ "attributaire": "dm, ve RTE Re Cu VIMAGI",
+ "montant_attribue": 708720.0,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "NS rl",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_dossier_administratif_technique",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "PRES",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_dossier_administratif_technique",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "SRE DE EE",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_dossier_administratif_technique",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "IS btenes, Àun eût Mr",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_dossier_administratif_technique",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "dm, ve RTE Re Cu VIMAGI",
+   "montant_acte_engagement": 708720.0,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "JELLOULI MOSTAPHA",
+   "montant_acte_engagement": 571440.0,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 6,
+ "alertes_ocr": [
+  "« dm, ve RTE Re Cu VIMAGI » absent de la liste des plis déposés (nom mal lu ?).",
+  "« JELLOULI MOSTAPHA » absent de la liste des plis déposés (nom mal lu ?)."
+ ],
+ "notes_ocr": [
+  "« NS rl » absent de la liste des plis déposés (nom mal lu ?).",
+  "« PRES » absent de la liste des plis déposés (nom mal lu ?).",
+  "« SRE DE EE » absent de la liste des plis déposés (nom mal lu ?).",
+  "« IS btenes, Àun eût Mr » absent de la liste des plis déposés (nom mal lu ?).",
+  "Maître d'ouvrage absent du PV (utiliser l'acheteur public du portail)."
+ ],
+ "qualite": "complet"
+}

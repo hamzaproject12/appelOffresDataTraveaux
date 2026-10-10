@@ -1,0 +1,75 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "679103",
+ "orgAcronyme": "g3h",
+ "reference_pv": "21/PB/DE/INDH/2022",
+ "nouveau": true,
+ "reference": "21/PB/DE/INDH/2022",
+ "objet": "TRAVAUX DE CONSTRUCTION DE",
+ "acheteur": null,
+ "procedure": null,
+ "categorie": "Travaux",
+ "date_limite_plis": "30/08/2022",
+ "lieu_ouverture": null,
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": null,
+ "justification": null,
+ "infructueux": false,
+ "attributaire": null,
+ "montant_attribue": null,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "SOCIETE SOUMISSOUR SARL - MISSOUR",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "SOCIETE LE POINT VIF - OUTAT EL HAJ",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "SOCIETE TRAVAUX KBC SARL - MISSOUR",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "GROUPEMENT SOCIETE RACHAD TRAVAUX ET SOCIETE BEN HAYATEM SARL",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 4,
+ "alertes_ocr": [
+  "Attributaire non trouvé."
+ ],
+ "notes_ocr": [
+  "« SOCIETE SOUMISSOUR SARL - MISSOUR » absent de la liste des plis déposés (nom mal lu ?).",
+  "« SOCIETE LE POINT VIF - OUTAT EL HAJ » absent de la liste des plis déposés (nom mal lu ?).",
+  "« SOCIETE TRAVAUX KBC SARL - MISSOUR » absent de la liste des plis déposés (nom mal lu ?).",
+  "« GROUPEMENT SOCIETE RACHAD TRAVAUX ET SOCIETE BEN HAYATEM SARL » absent de la liste des plis déposés (nom mal lu ?).",
+  "Maître d'ouvrage absent du PV (utiliser l'acheteur public du portail)."
+ ],
+ "qualite": "participants"
+}

@@ -1,0 +1,60 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "1018743",
+ "orgAcronyme": "o8p",
+ "reference_pv": "ER/15/2026",
+ "nouveau": true,
+ "reference": "ER/15/2026",
+ "objet": null,
+ "acheteur": "Monsieur le Directeur Provincial de l'Equipement, du Transport, de la Logistique d’Errachidia",
+ "procedure": "appel d'offres ouvert",
+ "categorie": "Travaux",
+ "date_limite_plis": "24/06/2026",
+ "lieu_ouverture": "Le bureau du Directeur provincial de l'Equipement et du Transport, de la logistique d’Errachidia (Avenue Moulay Ali Chérif - BP : 56, Errachidia — 52 000)",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": null,
+ "justification": null,
+ "infructueux": false,
+ "attributaire": null,
+ "montant_attribue": null,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "ATELIERS INDUSTRIEL CHEREFIEN (A.I.C)",
+   "montant_acte_engagement": 4920079.92,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "LA LIGNE BLANCHE",
+   "montant_acte_engagement": 4769322.0,
+   "montant_apres_verification": 4769322.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "CHAMAL SIGNALISATION",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_dossier_administratif_technique",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 3,
+ "alertes_ocr": [
+  "Attributaire non trouvé."
+ ],
+ "notes_ocr": [],
+ "qualite": "complet"
+}

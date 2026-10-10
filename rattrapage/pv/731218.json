@@ -1,0 +1,57 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "731218",
+ "orgAcronyme": "f9f",
+ "reference_pv": null,
+ "nouveau": true,
+ "reference": null,
+ "objet": "TRAVAUX DE REHABILITATION DE L'ENSEMBLE DU SITE HISTORIQUE D'AGADIR OUFELLA ET DE SES ABORDS ; LOT : ECLAIRAGE PUBLIC DE LA VOIE D'ACCES ET ECLAIRAGE",
+ "acheteur": null,
+ "procedure": null,
+ "categorie": "Travaux",
+ "date_limite_plis": "25/07/2023",
+ "lieu_ouverture": null,
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "25/07/2023",
+ "justification": "Offre la moins-disante",
+ "infructueux": false,
+ "attributaire": null,
+ "montant_attribue": null,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "LAMALIF",
+   "montant_acte_engagement": 4775580.0,
+   "montant_apres_verification": null,
+   "autres_montants": [
+    4775580.0
+   ],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "CEGELEC",
+   "montant_acte_engagement": 4880556.0,
+   "montant_apres_verification": null,
+   "autres_montants": [
+    4880556.0
+   ],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 2,
+ "alertes_ocr": [
+  "Attributaire non trouvé."
+ ],
+ "notes_ocr": [
+  "Maître d'ouvrage absent du PV (utiliser l'acheteur public du portail)."
+ ],
+ "qualite": "complet"
+}

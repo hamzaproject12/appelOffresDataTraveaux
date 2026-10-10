@@ -1,0 +1,53 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "786339",
+ "orgAcronyme": "t5y",
+ "reference_pv": "07/2024/SDRT",
+ "nouveau": true,
+ "reference": "07/2024/SDRT",
+ "objet": "TRAVAUX D’INSTALLATION DES ABRIS EN CHARPENTE MÉTALLIQUE POUR VÉHICULES AU PARKING DE TRIBUNAL DE PREMIERE INSTANCE DE LARACHE",
+ "acheteur": "Sous Direction Régionale près la Cour d’Appel de Tanger",
+ "procedure": "appel d'offres ouvert",
+ "categorie": "Travaux",
+ "date_limite_plis": "27/03/2024",
+ "lieu_ouverture": "Sous Direction Régionale près la Cour d’Appel de Tanger",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "04/04/2024",
+ "justification": "L’offre la plus avantageuse",
+ "infructueux": false,
+ "attributaire": "STE FIDAT",
+ "montant_attribue": 800280.0,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "JIGAL",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_dossier_administratif_technique",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "STE FIDAT",
+   "montant_acte_engagement": 800280.0,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 2,
+ "alertes_ocr": [
+  "« STE FIDAT » absent de la liste des plis déposés (nom mal lu ?)."
+ ],
+ "notes_ocr": [
+  "« JIGAL » absent de la liste des plis déposés (nom mal lu ?)."
+ ],
+ "qualite": "attribution"
+}

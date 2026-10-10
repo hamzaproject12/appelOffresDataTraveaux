@@ -1,0 +1,64 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "850638",
+ "orgAcronyme": "a1z",
+ "reference_pv": "45/2024",
+ "nouveau": true,
+ "reference": "45/2024",
+ "objet": "travaux d’achèvement de la construction de la salle omnisport Ain chock",
+ "acheteur": null,
+ "procedure": "appel d'offres ouvert",
+ "categorie": "Travaux",
+ "date_limite_plis": "10/09/2024",
+ "lieu_ouverture": "la salle des réunions de la Commune de Casablanca, sise place Mohamed V, Avenue Hassan IT, 2ème étage, bureau 38",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "23/09/2024",
+ "justification": "l’offre économiquement la plus avantageuse.",
+ "infructueux": false,
+ "attributaire": "VISION SPORT",
+ "montant_attribue": 1957800.0,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "VISION SPORT",
+   "montant_acte_engagement": 1957800.0,
+   "montant_apres_verification": 1957800.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "BOURANIME",
+   "montant_acte_engagement": 2127720.0,
+   "montant_apres_verification": 2127720.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "ETAB TRAVAUX",
+   "montant_acte_engagement": 1989000.0,
+   "montant_apres_verification": 1989000.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 3,
+ "alertes_ocr": [
+  "« VISION SPORT » absent de la liste des plis déposés (nom mal lu ?).",
+  "« BOURANIME » absent de la liste des plis déposés (nom mal lu ?).",
+  "« ETAB TRAVAUX » absent de la liste des plis déposés (nom mal lu ?)."
+ ],
+ "notes_ocr": [
+  "Maître d'ouvrage absent du PV (utiliser l'acheteur public du portail)."
+ ],
+ "qualite": "complet"
+}

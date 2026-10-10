@@ -1,0 +1,76 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "950117",
+ "orgAcronyme": "g3h",
+ "reference_pv": "37/SDAD/2025",
+ "nouveau": true,
+ "reference": "37/SDAD/2025",
+ "objet": "TRAVAUX D’AMENAGEMENT DE L'HOPITAL POLYCLINIQUE DE LA VILLE DE DAKHLA LOT : RESEAU D'ASSAINISSEMENT LIQUIDE",
+ "acheteur": null,
+ "procedure": "appel d'offres ouvert",
+ "categorie": "Travaux",
+ "date_limite_plis": "29/10/2025",
+ "lieu_ouverture": null,
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "05/11/2025",
+ "justification": "Offre conforme aux exigences du Règlement de consultation et la plus avantageuse.",
+ "infructueux": false,
+ "attributaire": "OUMOUJANE TRAVAUX",
+ "montant_attribue": 1252208.88,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "GROUPE FAROSS TRADING",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_dossier_administratif_technique",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "AHEL AOUBBA",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_offre_technique",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "SOCIETE TOP SOUKRI",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_offre_technique",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "OUMOUJANE TRAVAUX",
+   "montant_acte_engagement": 1252208.88,
+   "montant_apres_verification": null,
+   "autres_montants": [
+    1252.0
+   ],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 4,
+ "alertes_ocr": [
+  "« OUMOUJANE TRAVAUX » absent de la liste des plis déposés (nom mal lu ?)."
+ ],
+ "notes_ocr": [
+  "« GROUPE FAROSS TRADING » absent de la liste des plis déposés (nom mal lu ?).",
+  "« AHEL AOUBBA » absent de la liste des plis déposés (nom mal lu ?).",
+  "« SOCIETE TOP SOUKRI » absent de la liste des plis déposés (nom mal lu ?).",
+  "Maître d'ouvrage absent du PV (utiliser l'acheteur public du portail)."
+ ],
+ "qualite": "attribution"
+}

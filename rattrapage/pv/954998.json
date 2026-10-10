@@ -1,0 +1,69 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "954998",
+ "orgAcronyme": "f8y",
+ "reference_pv": "15/2025/CT",
+ "nouveau": true,
+ "reference": "15/2025/CT",
+ "objet": "Travaux d’entretien courant des voies de la ville de Taourirt",
+ "acheteur": "Commune Taourirt",
+ "procedure": null,
+ "categorie": "Travaux",
+ "date_limite_plis": "28/10/2025",
+ "lieu_ouverture": "Commune de Taourirt, Bureau de Président de la commune",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "17/11/2025",
+ "justification": "L'OFFRE ECONOMIQUEMENT LA PLUS AVANTAGEUSE.",
+ "infructueux": false,
+ "attributaire": "CHIGUER CHANTIERS DU NORD-EST",
+ "montant_attribue": 449820.0,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "MSNTT",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_dossier_administratif_technique",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "MEDINA KAD",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "depose",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "STE MEKKA STRUCTURES.CO",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_dossier_administratif_technique",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "CHIGUER CHANTIERS DU NORD-EST",
+   "montant_acte_engagement": 449820.0,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 4,
+ "alertes_ocr": [
+  "« CHIGUER CHANTIERS DU NORD-EST » absent de la liste des plis déposés (nom mal lu ?)."
+ ],
+ "notes_ocr": [],
+ "qualite": "attribution"
+}

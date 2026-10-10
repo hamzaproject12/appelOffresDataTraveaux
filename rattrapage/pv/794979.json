@@ -1,0 +1,69 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "794979",
+ "orgAcronyme": "o8p",
+ "reference_pv": null,
+ "nouveau": true,
+ "reference": null,
+ "objet": null,
+ "acheteur": null,
+ "procedure": "appel d'offres ouvert",
+ "categorie": "Travaux",
+ "date_limite_plis": "08/04/2024",
+ "lieu_ouverture": "Direction du Port de Nador et Région",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": null,
+ "justification": "L’offre la moins-disante.",
+ "infructueux": false,
+ "attributaire": "MERRAR ELMOSTAFA",
+ "montant_attribue": 2399750.0,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "MERRAR ELMOSTAFA",
+   "montant_acte_engagement": 2399750.0,
+   "montant_apres_verification": null,
+   "autres_montants": [
+    2399750.0
+   ],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "JIGAL e EZOUTRA e GENERAL BATISSE",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_dossier_administratif_technique",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "2MIC",
+   "montant_acte_engagement": 2858950.0,
+   "montant_apres_verification": null,
+   "autres_montants": [
+    2858950.0
+   ],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 3,
+ "alertes_ocr": [
+  "« MERRAR ELMOSTAFA » absent de la liste des plis déposés (nom mal lu ?).",
+  "« 2MIC » absent de la liste des plis déposés (nom mal lu ?)."
+ ],
+ "notes_ocr": [
+  "« JIGAL e EZOUTRA e GENERAL BATISSE » absent de la liste des plis déposés (nom mal lu ?).",
+  "Maître d'ouvrage absent du PV (utiliser l'acheteur public du portail).",
+  "Montants exprimés hors taxes (HT)."
+ ],
+ "qualite": "complet"
+}

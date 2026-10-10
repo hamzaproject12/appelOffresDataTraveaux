@@ -1,0 +1,60 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "841430",
+ "orgAcronyme": "f8y",
+ "reference_pv": "04/2024",
+ "nouveau": true,
+ "reference": "04/2024",
+ "objet": "Travaux de mise à niveau des plages : Travaux d'Éclairage Public de la voie menant à la plage d’Arekmane à la Province de Nador",
+ "acheteur": "Président du Conseil Provincial de Nador",
+ "procedure": "appel d'offres ouvert simplifié",
+ "categorie": "Travaux",
+ "date_limite_plis": "02/07/2024",
+ "lieu_ouverture": "bureau de président du Conseil Provincial de Nador",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "10/07/2024",
+ "justification": "L'offre jugée économiquement la plus avantageuse.",
+ "infructueux": false,
+ "attributaire": "Ste MEBA CONSTRUCTION",
+ "montant_attribue": 187232.0,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "BUILDDIS TECH 3-GMT NEW LIGHTING",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": true
+  },
+  {
+   "nom": "Ste MEBA CONSTRUCTION",
+   "montant_acte_engagement": 1187232.0,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": true
+  },
+  {
+   "nom": "Ste GMT NEW LIGHTING",
+   "montant_acte_engagement": 1211880.0,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 3,
+ "alertes_ocr": [
+  "« Ste GMT NEW LIGHTING » absent de la liste des plis déposés (nom mal lu ?)."
+ ],
+ "notes_ocr": [],
+ "qualite": "complet"
+}

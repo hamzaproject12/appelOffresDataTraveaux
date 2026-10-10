@@ -1,0 +1,67 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "801862",
+ "orgAcronyme": "o8p",
+ "reference_pv": "05/AO/2024/STADES",
+ "nouveau": true,
+ "reference": "05/AO/2024/STADES",
+ "objet": "Mise à niveau des stades de Casablanca, Marrakech, Agadir et Fès. Travaux d’équipement en mobilier des gradins alloti en quatre lots",
+ "acheteur": null,
+ "procedure": "appel d'offres ouvert international",
+ "categorie": "Travaux",
+ "date_limite_plis": "21/05/2024",
+ "lieu_ouverture": "Salle de réunions de l’Agence Nationale des Equipements Publics, Hay Nahda 2 à Rabat",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "30/05/2024",
+ "justification": "Conformément aux dispositions des articles 5 et 18 du règlement de la consultation.",
+ "infructueux": false,
+ "attributaire": "OMSI S.R.L. SOCIETA’A SOCIO UNICO",
+ "montant_attribue": 34231316.4,
+ "attributaires_par_lot": [
+  {
+   "lot": "1",
+   "attributaire": "OMSI S.R.L. SOCIETA’A SOCIO UNICO",
+   "montant": 34231316.4
+  },
+  {
+   "lot": "2",
+   "attributaire": "MAROC BUREAU",
+   "montant": 18497017.2
+  }
+ ],
+ "soumissionnaires": [
+  {
+   "nom": "OMSI S.R.L. SOCIETA’A SOCIO UNICO",
+   "montant_acte_engagement": 34231316.4,
+   "montant_apres_verification": 34231316.4,
+   "autres_montants": [],
+   "lots": [
+    "1"
+   ],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "MAROC BUREAU",
+   "montant_acte_engagement": 18497017.2,
+   "montant_apres_verification": 18497017.2,
+   "autres_montants": [],
+   "lots": [
+    "2"
+   ],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 2,
+ "alertes_ocr": [],
+ "notes_ocr": [
+  "Marché alloti (2 lots).",
+  "Maître d'ouvrage absent du PV (utiliser l'acheteur public du portail)."
+ ],
+ "qualite": "attribution"
+}

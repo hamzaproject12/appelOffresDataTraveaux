@@ -1,0 +1,54 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "718545",
+ "orgAcronyme": "o8p",
+ "reference_pv": "12/2023",
+ "nouveau": true,
+ "reference": "12/2023",
+ "objet": "Travaux de construction de la liaison Ouled chiekh Igarni Province d'El Kelaa Des sraghna % STE ADAME LILACHRAL ses 1 354 998.00DH",
+ "acheteur": "Direction Provinciale de l’Equipement du Transport et de La logistique D’El Kelaa des Sraghna",
+ "procedure": "appel d'offres ouvert",
+ "categorie": "Travaux",
+ "date_limite_plis": null,
+ "lieu_ouverture": null,
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": null,
+ "justification": null,
+ "infructueux": false,
+ "attributaire": null,
+ "montant_attribue": null,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "STE S2MB TRAP SARL des prix-détail estimatif",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_dossier_administratif_technique",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "STE ADAME",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_dossier_administratif_technique",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 2,
+ "alertes_ocr": [
+  "Attributaire non trouvé."
+ ],
+ "notes_ocr": [
+  "« STE S2MB TRAP SARL des prix-détail estimatif » absent de la liste des plis déposés (nom mal lu ?).",
+  "« STE ADAME » absent de la liste des plis déposés (nom mal lu ?)."
+ ],
+ "qualite": "participants"
+}

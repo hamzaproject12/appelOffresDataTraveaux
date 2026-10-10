@@ -1,0 +1,51 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "1003020",
+ "orgAcronyme": "g3h",
+ "reference_pv": null,
+ "nouveau": true,
+ "reference": null,
+ "objet": "Réparation et entretien du matériel et équipements d’assainissement liquide. Lot 2",
+ "acheteur": "Société Régionale Multiservices RABAT-SALE KENITRA SRM-RSK",
+ "procedure": null,
+ "categorie": "Travaux",
+ "date_limite_plis": "20/04/2026",
+ "lieu_ouverture": "Siège Social SRM-RSK",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "12/05/2026",
+ "justification": "- Dossiers administratif, technique , conformes aux exigences du dossier d’appel d’offres. - _ Offre avantageuse répondant aux critères d'évaluation du règlement des marchés de la société.",
+ "infructueux": false,
+ "attributaire": null,
+ "montant_attribue": null,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "SEMIS",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_dossier_administratif_technique",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "ELESTRA",
+   "montant_acte_engagement": 847800.0,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 2,
+ "alertes_ocr": [
+  "Attributaire non trouvé."
+ ],
+ "notes_ocr": [],
+ "qualite": "attribution"
+}

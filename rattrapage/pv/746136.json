@@ -1,0 +1,64 @@
+{
+ "source": "extrait_docx",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "746136",
+ "orgAcronyme": "f8y",
+ "reference_pv": "05/2023/CJ",
+ "nouveau": true,
+ "reference": "05/2023/CJ",
+ "objet": "TRAVAUX DE REAMENAGEMENT DU SIEGE DE LA COMMUNE DE JERADA",
+ "acheteur": "Commune de Jerada, représentée par le Président de la Commune",
+ "procedure": "appel d'offres ouvert",
+ "categorie": "Travaux",
+ "date_limite_plis": "26/09/2023",
+ "lieu_ouverture": "Bureau du Président de la Commune",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "11/10/2023",
+ "justification": null,
+ "infructueux": true,
+ "attributaire": null,
+ "montant_attribue": null,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "STE BHGC SARL",
+   "montant_acte_engagement": 2441964.0,
+   "montant_apres_verification": 2441964.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "STE EL BRIHI DE CTP SARL",
+   "montant_acte_engagement": 2946810.0,
+   "montant_apres_verification": 2443224.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_offre_financiere",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Motifs des éliminations détaillées",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_dossier_administratif_technique",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 3,
+ "alertes_ocr": [
+  "« STE BHGC SARL » absent de la liste des plis déposés (nom mal lu ?).",
+  "« STE EL BRIHI DE CTP SARL » absent de la liste des plis déposés (nom mal lu ?)."
+ ],
+ "notes_ocr": [
+  "« Motifs des éliminations détaillées » absent de la liste des plis déposés (nom mal lu ?).",
+  "« STE EL BRIHI DE CTP SARL » : montant rectifié de 2 946 810.00 à 2 443 224.00 DH."
+ ],
+ "qualite": "complet"
+}

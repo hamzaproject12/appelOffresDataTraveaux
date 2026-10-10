@@ -1,0 +1,52 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "1000348",
+ "orgAcronyme": "d4q",
+ "reference_pv": null,
+ "nouveau": true,
+ "reference": null,
+ "objet": "Réalisation des études technique et des travaux de démolition de l’ex-centrale et annexes de J'ONEE à SAFI",
+ "acheteur": null,
+ "procedure": null,
+ "categorie": "Travaux",
+ "date_limite_plis": "14/04/2026",
+ "lieu_ouverture": "Siège DTC",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": null,
+ "justification": "Moins disant conforme |",
+ "infructueux": false,
+ "attributaire": "BM2R TRAV",
+ "montant_attribue": 349200.0,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "BM2R TRAV",
+   "montant_acte_engagement": 349200.0,
+   "montant_apres_verification": 349200.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "INOX et DESICONSULT",
+   "montant_acte_engagement": 815790.0,
+   "montant_apres_verification": 827280.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 2,
+ "alertes_ocr": [],
+ "notes_ocr": [
+  "« INOX et DESICONSULT » : montant rectifié de 815 790.00 à 827 280.00 DH.",
+  "Maître d'ouvrage absent du PV (utiliser l'acheteur public du portail)."
+ ],
+ "qualite": "complet"
+}

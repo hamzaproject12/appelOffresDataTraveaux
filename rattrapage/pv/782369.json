@@ -1,0 +1,58 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "782369",
+ "orgAcronyme": "j8k",
+ "reference_pv": "73/2023/K-TRA",
+ "nouveau": true,
+ "reference": "73/2023/K-TRA",
+ "objet": null,
+ "acheteur": "Al Omrane Rabat-Rabat-Salé",
+ "procedure": "appel d'offres ouvert",
+ "categorie": "Travaux",
+ "date_limite_plis": "06/10/2023",
+ "lieu_ouverture": "_ Siège d'Al Omrane Rabat-Salé-Kénitra",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "26/10/2023",
+ "justification": "Moins disant.",
+ "infructueux": false,
+ "attributaire": "CCRE",
+ "montant_attribue": 20072568.0,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "CCRE",
+   "montant_acte_engagement": 20072568.0,
+   "montant_apres_verification": 20072568.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "SOCADELEQ",
+   "montant_acte_engagement": 22560432.0,
+   "montant_apres_verification": 22560432.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "ALEQ",
+   "montant_acte_engagement": 21385692.0,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_dossier_administratif_technique",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 3,
+ "alertes_ocr": [],
+ "notes_ocr": [],
+ "qualite": "complet"
+}

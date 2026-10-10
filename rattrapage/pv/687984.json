@@ -1,0 +1,94 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "687984",
+ "orgAcronyme": "p1v",
+ "reference_pv": "02/2022-BTCM",
+ "nouveau": true,
+ "reference": "02/2022-BTCM",
+ "objet": "Travaux d'entretien Souk hebdomadaire Had Aounate à la commune Metrane",
+ "acheteur": "Commune de Metrane",
+ "procedure": "appel d'offres ouvert",
+ "categorie": "Travaux",
+ "date_limite_plis": "13/12/2022",
+ "lieu_ouverture": null,
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "26/12/2022",
+ "justification": "Les prix proposés par l'attributaire du marché sont jugés avantageux à la commune.",
+ "infructueux": false,
+ "attributaire": "STE : AOUNE DECO Sarl AU, 46, AV OKBA N°2, Agdal - Rabat",
+ "montant_attribue": 410596.8,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "STE : NG BTP, N°58, Appt A3, Rue Oued Sebou, Agdal -Rabat",
+   "montant_acte_engagement": 442149.6,
+   "montant_apres_verification": 442149.6,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "STE : AOUNE DECO Sarl AU, 46, AV OKBA N°2, Agdal - Rabat",
+   "montant_acte_engagement": 410596.8,
+   "montant_apres_verification": 410596.8,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "STE : SOJEDILYA sarl, 105, Lotissement Chems, Red Chaussé ( GARAGE), EL JADIDA",
+   "montant_acte_engagement": 474612.0,
+   "montant_apres_verification": 474612.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "STE : SEMC, 46, Boulevard Zerktouni, 2eme étage, Apt N°6, BP 20100- Casablanca.",
+   "montant_acte_engagement": 442251.2,
+   "montant_apres_verification": 442951.2,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "STE : KAIDI TRAVAUX sarl, Douar Oueled Cheikh, Ouled Amrane -SIDI BENNOUR",
+   "montant_acte_engagement": 482798.4,
+   "montant_apres_verification": 482798.4,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "STE : ARCHIDTP sarl AU , Angle Bd Abdelmoumen & Rue Soumya, Résidence Shehrazade 3, Etage 4, N° 20, Palmiers Casablanca",
+   "montant_acte_engagement": 574677.6,
+   "montant_apres_verification": 574677.6,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 6,
+ "alertes_ocr": [
+  "« STE : NG BTP, N°58, Appt A3, Rue Oued Sebou, Agdal -Rabat » absent de la liste des plis déposés (nom mal lu ?).",
+  "« STE : AOUNE DECO Sarl AU, 46, AV OKBA N°2, Agdal - Rabat » absent de la liste des plis déposés (nom mal lu ?).",
+  "« STE : SOJEDILYA sarl, 105, Lotissement Chems, Red Chaussé ( GARAGE), EL JADIDA » absent de la liste des plis déposés (nom mal lu ?).",
+  "« STE : SEMC, 46, Boulevard Zerktouni, 2eme étage, Apt N°6, BP 20100- Casablanca. » absent de la liste des plis déposés (nom mal lu ?).",
+  "« STE : KAIDI TRAVAUX sarl, Douar Oueled Cheikh, Ouled Amrane -SIDI BENNOUR » absent de la liste des plis déposés (nom mal lu ?).",
+  "« STE : ARCHIDTP sarl AU , Angle Bd Abdelmoumen & Rue Soumya, Résidence Shehrazade 3, Etage 4, N° 20, Palmiers Casablanca » absent de la liste des plis déposés (nom mal lu ?)."
+ ],
+ "notes_ocr": [
+  "« STE : SEMC  46  Boulevard Zerktouni  2eme étage  Apt N°6  BP 20100- Casablanca. » : montant rectifié de 442 251.20 à 442 951.20 DH."
+ ],
+ "qualite": "complet"
+}

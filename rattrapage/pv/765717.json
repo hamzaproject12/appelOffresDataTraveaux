@@ -1,0 +1,58 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "765717",
+ "orgAcronyme": "q0x",
+ "reference_pv": "21/2023",
+ "nouveau": true,
+ "reference": "21/2023",
+ "objet": "Entretien courant des voies",
+ "acheteur": "La commune de Meknès",
+ "procedure": null,
+ "categorie": "Travaux",
+ "date_limite_plis": "14/12/2023",
+ "lieu_ouverture": "siège de la Commune de Meknès (siège principal) sis au Boulevard des F.A.R Ville Nouvelle, Meknès, o Publication",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "20/12/2023",
+ "justification": null,
+ "infructueux": false,
+ "attributaire": "Société ABMB SARL",
+ "montant_attribue": 3393600.0,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "Société CAMPEZO SARL AU",
+   "montant_acte_engagement": 3215520.0,
+   "montant_apres_verification": 3215520.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Société KARMO TRAV SARL AU",
+   "montant_acte_engagement": 3871920.0,
+   "montant_apres_verification": 3871920.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Société ABMB SARL",
+   "montant_acte_engagement": 3393600.0,
+   "montant_apres_verification": 3393600.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 3,
+ "alertes_ocr": [],
+ "notes_ocr": [],
+ "qualite": "complet"
+}

@@ -1,0 +1,58 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "889594",
+ "orgAcronyme": "s3z",
+ "reference_pv": null,
+ "nouveau": true,
+ "reference": null,
+ "objet": null,
+ "acheteur": "COMMUNE OULMES",
+ "procedure": null,
+ "categorie": "Travaux",
+ "date_limite_plis": "11/03/2025",
+ "lieu_ouverture": "les bureaux de la commune sis à l'annexe de Tarmilat commune d'Oulmes",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "21/04/2025",
+ "justification": "l’offre la mieux-disante et la plus proche au prix de référence par excès",
+ "infructueux": false,
+ "attributaire": "Groupement Sté HAY 2010 SARL et Sté TROPICANA",
+ "montant_attribue": 23997794.4,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "Groupement Sté GMT NEW LIGHTING et Sté DELTA FLEURS ts i MA",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_dossier_administratif_technique",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Groupement Sté KACIHI ELEC SARL AU et Sté DELTA 3D SARL AU",
+   "montant_acte_engagement": 25403147.4,
+   "montant_apres_verification": 25403147.4,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Groupement Sté HAY 2010 SARL et Sté TROPICANA",
+   "montant_acte_engagement": 23997794.4,
+   "montant_apres_verification": 23997794.4,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 3,
+ "alertes_ocr": [],
+ "notes_ocr": [],
+ "qualite": "complet"
+}

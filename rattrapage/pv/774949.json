@@ -1,0 +1,54 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "774949",
+ "orgAcronyme": "g3h",
+ "reference_pv": "02/2024/S2A",
+ "nouveau": true,
+ "reference": "02/2024/S2A",
+ "objet": "REAMENAGEMENT ET REVALORISATION DE LA CORNICHE DE LA BAIE ET DE LA ZONE TOURISTIQUE DE LA VILLE D'AGADIR TRAVAUX DE REAMENAGEMENT DES PARKINGS ET LEURS ALENTOURS",
+ "acheteur": null,
+ "procedure": "appel d'offres ouvert",
+ "categorie": "Travaux",
+ "date_limite_plis": null,
+ "lieu_ouverture": null,
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": null,
+ "justification": null,
+ "infructueux": false,
+ "attributaire": "SOCIETE ALEQ",
+ "montant_attribue": 20992866.0,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "SOCIETE TAMESNA VERT",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": true
+  },
+  {
+   "nom": "SOCIETE ALEQ",
+   "montant_acte_engagement": 20992866.0,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 2,
+ "alertes_ocr": [
+  "« SOCIETE ALEQ » absent de la liste des plis déposés (nom mal lu ?)."
+ ],
+ "notes_ocr": [
+  "« SOCIETE TAMESNA VERT » absent de la liste des plis déposés (nom mal lu ?).",
+  "Maître d'ouvrage absent du PV (utiliser l'acheteur public du portail)."
+ ],
+ "qualite": "attribution"
+}

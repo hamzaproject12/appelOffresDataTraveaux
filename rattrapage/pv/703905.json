@@ -1,0 +1,78 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "703905",
+ "orgAcronyme": "g3h",
+ "reference_pv": null,
+ "nouveau": true,
+ "reference": null,
+ "objet": "_: Travaux de construction de Sept (07) unités préscolaires aux communes de la Province de Sidi Ifni — Lot Unique",
+ "acheteur": "Gouverneur de la Province de Sidi Ifni",
+ "procedure": null,
+ "categorie": "Travaux",
+ "date_limite_plis": "14/02/2023",
+ "lieu_ouverture": "Siège Province de Sidi Ifni (salle de réunions)",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "28/02/2023",
+ "justification": "- L'offre financière la moins disante.",
+ "infructueux": false,
+ "attributaire": "STE ASDADI",
+ "montant_attribue": 2115706.8,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "STE FRILAY",
+   "montant_acte_engagement": 1398890.4,
+   "montant_apres_verification": 1398890.4,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "STE EMBTRAP",
+   "montant_acte_engagement": 2335056.0,
+   "montant_apres_verification": 2335056.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "STE WAY PROÏETS",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_dossier_administratif_technique",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "STE ASDADI",
+   "montant_acte_engagement": 2115706.8,
+   "montant_apres_verification": 2115706.8,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "STE FRILAVY",
+   "montant_acte_engagement": 1398890.4,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 5,
+ "alertes_ocr": [
+  "« STE FRILAVY » absent de la liste des plis déposés (nom mal lu ?)."
+ ],
+ "notes_ocr": [],
+ "qualite": "complet"
+}

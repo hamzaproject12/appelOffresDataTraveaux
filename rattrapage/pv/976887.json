@@ -1,0 +1,96 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "976887",
+ "orgAcronyme": "o8p",
+ "reference_pv": null,
+ "nouveau": true,
+ "reference": null,
+ "objet": "MAINTENANCE DES RESEAUX ELECTRIQUES AU PORT DE SAFI ET REGION",
+ "acheteur": "Direction du ports de Safi et Région",
+ "procedure": null,
+ "categorie": "Travaux",
+ "date_limite_plis": null,
+ "lieu_ouverture": "Direction du ports de Safi et Région",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "11/02/2026",
+ "justification": null,
+ "infructueux": false,
+ "attributaire": "DES MARCHES PUBLICS",
+ "montant_attribue": 2873300.0,
+ "attributaires_par_lot": [
+  {
+   "lot": null,
+   "attributaire": "DES MARCHES PUBLICS",
+   "montant": 2873300.0
+  },
+  {
+   "lot": null,
+   "attributaire": "DEUX MILLION HUIT CENT SOIXANTE TREIZE MILLE TROIS CENT",
+   "montant": 2873300.0
+  },
+  {
+   "lot": null,
+   "attributaire": "02/AOO/DPSR-ANP/2026 LIBERATION",
+   "montant": 3447564.0
+  }
+ ],
+ "soumissionnaires": [
+  {
+   "nom": "SECTOB SARL",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "depose",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "TECNITAS",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "depose",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "DES MARCHES PUBLICS",
+   "montant_acte_engagement": 2873300.0,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "DEUX MILLION HUIT CENT SOIXANTE TREIZE MILLE TROIS CENT",
+   "montant_acte_engagement": 2873300.0,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "02/AOO/DPSR-ANP/2026 LIBERATION",
+   "montant_acte_engagement": 3447564.0,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 5,
+ "alertes_ocr": [
+  "« DES MARCHES PUBLICS » absent de la liste des plis déposés (nom mal lu ?).",
+  "« DEUX MILLION HUIT CENT SOIXANTE TREIZE MILLE TROIS CENT » absent de la liste des plis déposés (nom mal lu ?).",
+  "« 02/AOO/DPSR-ANP/2026 LIBERATION » absent de la liste des plis déposés (nom mal lu ?)."
+ ],
+ "notes_ocr": [],
+ "qualite": "attribution"
+}

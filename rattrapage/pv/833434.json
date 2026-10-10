@@ -1,0 +1,121 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "833434",
+ "orgAcronyme": "d4q",
+ "reference_pv": null,
+ "nouveau": true,
+ "reference": null,
+ "objet": "Raccordement de la station de déminéralisation de l'ORMVAM de Bouareg au système adducteur de l'ONEE Branche eau de Nador Lot 2 : ligne électrique",
+ "acheteur": null,
+ "procedure": "appel d'offres ouvert",
+ "categorie": "Travaux",
+ "date_limite_plis": "15/08/2024",
+ "lieu_ouverture": "au Siège de la Direction Régionale de l'Oriental (DR6) Place 18 Mars 2003 - Oujda - Maroc",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "01/10/2024",
+ "justification": "Moins-disant",
+ "infructueux": false,
+ "attributaire": "Délai d'exécution",
+ "montant_attribue": 6762877.21,
+ "attributaires_par_lot": [
+  {
+   "lot": null,
+   "attributaire": "Délai d'exécution",
+   "montant": 6762877.21
+  },
+  {
+   "lot": null,
+   "attributaire": "DERMOTEL",
+   "montant": 6762877.21
+  }
+ ],
+ "soumissionnaires": [
+  {
+   "nom": "DERMOTEL",
+   "montant_acte_engagement": 6762976.33,
+   "montant_apres_verification": null,
+   "autres_montants": [
+    6762877.21
+   ],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "ELD ELECTRIC MAROC MAROC",
+   "montant_acte_engagement": 7894236.48,
+   "montant_apres_verification": null,
+   "autres_montants": [
+    7894236.48
+   ],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "GENERAL SYSTEME ELECTRIQUE - Offre de",
+   "montant_acte_engagement": 6869274.12,
+   "montant_apres_verification": null,
+   "autres_montants": [
+    6869274.12
+   ],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "SEDERAM MAROC",
+   "montant_acte_engagement": 6838537.44,
+   "montant_apres_verification": null,
+   "autres_montants": [
+    6838537.44
+   ],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "SEGMO MAROC",
+   "montant_acte_engagement": 6983422.82,
+   "montant_apres_verification": null,
+   "autres_montants": [
+    6983422.82
+   ],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "STE LAMO MAROC",
+   "montant_acte_engagement": 7187646.62,
+   "montant_apres_verification": null,
+   "autres_montants": [
+    7187646.62
+   ],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Délai d'exécution",
+   "montant_acte_engagement": 6762877.21,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 7,
+ "alertes_ocr": [
+  "« Délai d'exécution » absent de la liste des plis déposés (nom mal lu ?)."
+ ],
+ "notes_ocr": [
+  "Maître d'ouvrage absent du PV (utiliser l'acheteur public du portail)."
+ ],
+ "qualite": "complet"
+}

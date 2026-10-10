@@ -1,0 +1,64 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "849239",
+ "orgAcronyme": "d4q",
+ "reference_pv": null,
+ "nouveau": true,
+ "reference": null,
+ "objet": "Renforcement de l'AEP de COMPLEXE MKANSA à partir du Barrage AL WAHDA",
+ "acheteur": null,
+ "procedure": "appel d'offres ouvert national",
+ "categorie": "Travaux",
+ "date_limite_plis": "02/07/2024",
+ "lieu_ouverture": "au Siège de la Direction Régionale du Centre Nord (DR5) 88 rue du Soudan, Ville nouvelle - Fès - Maroc",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "14/11/2024",
+ "justification": "Moins-disant",
+ "infructueux": false,
+ "attributaire": "MAYEC MAROC",
+ "montant_attribue": 509700.0,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "INGENIEROS DEL NORTE MAROC",
+   "montant_acte_engagement": 542859.6,
+   "montant_apres_verification": null,
+   "autres_montants": [
+    542859.6
+   ],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "MAYEC MAROC",
+   "montant_acte_engagement": 509700.0,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "SERTINE MAROC",
+   "montant_acte_engagement": 611160.0,
+   "montant_apres_verification": null,
+   "autres_montants": [
+    611160.0
+   ],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 3,
+ "alertes_ocr": [],
+ "notes_ocr": [
+  "Maître d'ouvrage absent du PV (utiliser l'acheteur public du portail)."
+ ],
+ "qualite": "complet"
+}

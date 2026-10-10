@@ -1,0 +1,63 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "816834",
+ "orgAcronyme": "q0x",
+ "reference_pv": "01/2024",
+ "nouveau": true,
+ "reference": "01/2024",
+ "objet": null,
+ "acheteur": "Commune de CHARQAOUA",
+ "procedure": null,
+ "categorie": "Travaux",
+ "date_limite_plis": "13/06/2024",
+ "lieu_ouverture": "Bureau du Président de la Commune de CHARQAOUA",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "28/06/2024",
+ "justification": "Le concurrent ayant présenté l'offre la plus avantageuse par rapport au prix de référence.",
+ "infructueux": false,
+ "attributaire": "STE CITA ZONE MA",
+ "montant_attribue": 2459610.0,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "L'EAU MA",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "depose",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "STE BRAHIM BUSINESS",
+   "montant_acte_engagement": 2447794.2,
+   "montant_apres_verification": null,
+   "autres_montants": [
+    2447794.2
+   ],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "STE CITA ZONE MA",
+   "montant_acte_engagement": 2459610.0,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 3,
+ "alertes_ocr": [
+  "« STE BRAHIM BUSINESS » absent de la liste des plis déposés (nom mal lu ?).",
+  "« STE CITA ZONE MA » absent de la liste des plis déposés (nom mal lu ?)."
+ ],
+ "notes_ocr": [],
+ "qualite": "complet"
+}

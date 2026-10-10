@@ -1,0 +1,150 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "858715",
+ "orgAcronyme": "j0w",
+ "reference_pv": null,
+ "nouveau": true,
+ "reference": null,
+ "objet": "TRAVAUX D'AMENAGEMENT DE LA MAISON COMMUNALE, LA COMMUNE DE LAHSINATE PROVINCE D'ESSAOUÏIRA",
+ "acheteur": "COMMUNE LAHSINATE",
+ "procedure": null,
+ "categorie": "Travaux",
+ "date_limite_plis": null,
+ "lieu_ouverture": "la salle des réunions de la Commune LAHSINATE",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "26/11/2024",
+ "justification": "L'offre qui est la plus proche du prix de référence par défaut: > La commission invite. avec la lettre envoyée avec accusé de réception enregistrée sous n° : 1S2/CTL/BT le concurrent ayant présenté l'offre la plus avantageuse qui est de Sté ENALUX MULTISERVICES SARL à : - produire les pièces du dossier administratif.",
+ "infructueux": false,
+ "attributaire": "ELI: Sté GOL.D.A TRAVAUX SARL",
+ "montant_attribue": 145200.0,
+ "attributaires_par_lot": [
+  {
+   "lot": null,
+   "attributaire": "ELI: Sté GOL.D.A TRAVAUX SARL",
+   "montant": 145200.0
+  },
+  {
+   "lot": null,
+   "attributaire": "Sté IDSAH",
+   "montant": 127020.0
+  },
+  {
+   "lot": null,
+   "attributaire": "Sté ENALUX MULTISERVICES SARL",
+   "montant": 127320.0
+  },
+  {
+   "lot": null,
+   "attributaire": "STE TAZOULT MODE SARL",
+   "montant": 126900.0
+  },
+  {
+   "lot": null,
+   "attributaire": "Sté GROUTEMAR",
+   "montant": 137658.0
+  },
+  {
+   "lot": null,
+   "attributaire": "STE BAB LA3NAB SARL",
+   "montant": 125280.0
+  }
+ ],
+ "soumissionnaires": [
+  {
+   "nom": "ELI: Sté GOL.D.A TRAVAUX SARL",
+   "montant_acte_engagement": 145200.0,
+   "montant_apres_verification": 145200.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Sté ENALUX MULTISERVICES SARL",
+   "montant_acte_engagement": 124920.0,
+   "montant_apres_verification": 127320.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "STE TAZOULT MODE SARL",
+   "montant_acte_engagement": 124500.0,
+   "montant_apres_verification": 126900.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "ELS: Sté NV-ART CENTRE IKNIOUEN CT IKNIOUEN TINGHIR 45800 TINGHIR",
+   "montant_acte_engagement": 126120.0,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Sté SORATIJ RT",
+   "montant_acte_engagement": 135573.6,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": true
+  },
+  {
+   "nom": "Sté GROUTEMAR",
+   "montant_acte_engagement": 137658.0,
+   "montant_apres_verification": 137658.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "STE BAB LA3NAB SARL",
+   "montant_acte_engagement": 125280.0,
+   "montant_apres_verification": 125280.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Sté IDSAH",
+   "montant_acte_engagement": 124620.0,
+   "montant_apres_verification": 127020.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "STE master sommy SARL",
+   "montant_acte_engagement": 124596.0,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 9,
+ "alertes_ocr": [
+  "« Sté IDSAH » absent de la liste des plis déposés (nom mal lu ?).",
+  "« STE master sommy SARL » absent de la liste des plis déposés (nom mal lu ?)."
+ ],
+ "notes_ocr": [
+  "« Sté ENALUX MULTISERVICES SARL » : montant rectifié de 124 920.00 à 127 320.00 DH.",
+  "« STE TAZOULT MODE SARL » : montant rectifié de 124 500.00 à 126 900.00 DH.",
+  "« Sté IDSAH » : montant rectifié de 124 620.00 à 127 020.00 DH."
+ ],
+ "qualite": "complet"
+}

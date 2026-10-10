@@ -1,0 +1,69 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "687751",
+ "orgAcronyme": "g3h",
+ "reference_pv": null,
+ "nouveau": true,
+ "reference": null,
+ "objet": "Travaux de construction de l'annexe administrative AL AMANE à Sidi Moumen Préfecture d'Arrondissements de Sidi Bernoussi en lot unique",
+ "acheteur": "Préfecture d'Arrondissements de Sidi Bernoussi",
+ "procedure": "appel d'offres ouvert",
+ "categorie": "Travaux",
+ "date_limite_plis": "23/11/2022",
+ "lieu_ouverture": "Bureau du Secrétariat Général",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "02/12/2022",
+ "justification": null,
+ "infructueux": false,
+ "attributaire": "Sté IBRA PEINT SARL",
+ "montant_attribue": 1913310.0,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "STE DE CONSTRUCTION ET GENIE CIVILE LAAOUINA",
+   "montant_acte_engagement": 1787616.0,
+   "montant_apres_verification": 1922856.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Sté HAM'S MULTI SERVICE",
+   "montant_acte_engagement": 2255766.0,
+   "montant_apres_verification": 2255766.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_dossier_administratif_technique",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Sté IBRA PEINT SARL",
+   "montant_acte_engagement": 1913310.0,
+   "montant_apres_verification": 1913310.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Sté PROGRESSE BUILD",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "depose",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 4,
+ "alertes_ocr": [],
+ "notes_ocr": [
+  "« STE DE CONSTRUCTION ET GENIE CIVILE LAAOUINA » : montant rectifié de 1 787 616.00 à 1 922 856.00 DH."
+ ],
+ "qualite": "complet"
+}

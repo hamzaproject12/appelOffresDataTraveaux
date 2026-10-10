@@ -1,0 +1,54 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "741566",
+ "orgAcronyme": "d4q",
+ "reference_pv": null,
+ "nouveau": true,
+ "reference": null,
+ "objet": "Installation configuration et mise en service des protections numériques de fourniture ONÉE-BE aux postes sources AZROU et IFRANE relevant de la Direction Provinciale Meknès",
+ "acheteur": null,
+ "procedure": "appel d'offres ouvert",
+ "categorie": "Travaux",
+ "date_limite_plis": "13/06/2023",
+ "lieu_ouverture": "Siège de la Direction Régionale Distribution FES",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": null,
+ "justification": "Offre moins disante.",
+ "infructueux": false,
+ "attributaire": "en /HTVA en /TVAC GROUPELEC",
+ "montant_attribue": 1056884.0,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "OMEGA INGENIEROS",
+   "montant_acte_engagement": 1321800.0,
+   "montant_apres_verification": 1569000.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "en /HTVA en /TVAC GROUPELEC",
+   "montant_acte_engagement": 1056884.0,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 2,
+ "alertes_ocr": [
+  "« en /HTVA en /TVAC GROUPELEC » absent de la liste des plis déposés (nom mal lu ?)."
+ ],
+ "notes_ocr": [
+  "« OMEGA INGENIEROS » : montant rectifié de 1 321 800.00 à 1 569 000.00 DH.",
+  "Maître d'ouvrage absent du PV (utiliser l'acheteur public du portail)."
+ ],
+ "qualite": "complet"
+}

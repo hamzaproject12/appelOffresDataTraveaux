@@ -1,0 +1,71 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "700297",
+ "orgAcronyme": "j8k",
+ "reference_pv": "52/TTH-TA/2022",
+ "nouveau": true,
+ "reference": "52/TTH-TA/2022",
+ "objet": "TRAVAUX D'ELECTRIFICATION ET D'ECLAIRAGE PUBLIC DU LOTISSEMENT « ENNOURTR E », À TANGER",
+ "acheteur": "AL OMRANE TANGER-TETOUAN-AL HOCEIMA",
+ "procedure": null,
+ "categorie": "Travaux",
+ "date_limite_plis": "12/01/2023",
+ "lieu_ouverture": "Al Omrane Tanger-Tétouan-Al Hoceima",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": null,
+ "justification": "Moins disant",
+ "infructueux": false,
+ "attributaire": "HAY",
+ "montant_attribue": null,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "INGTELMA",
+   "montant_acte_engagement": 4952493.3,
+   "montant_apres_verification": 4952493.3,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "HAY",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "GRITEL",
+   "montant_acte_engagement": 5804145.34,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "MWC",
+   "montant_acte_engagement": 6233705.76,
+   "montant_apres_verification": 6550505.76,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 4,
+ "alertes_ocr": [
+  "Montant de l'attributaire « HAY » non trouvé."
+ ],
+ "notes_ocr": [
+  "« MWC » : montant rectifié de 6 233 705.76 à 6 550 505.76 DH."
+ ],
+ "qualite": "complet"
+}

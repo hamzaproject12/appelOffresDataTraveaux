@@ -1,0 +1,74 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "915438",
+ "orgAcronyme": "g3h",
+ "reference_pv": "100/2025/S2A",
+ "nouveau": true,
+ "reference": "100/2025/S2A",
+ "objet": "TRAVAUX D’EXTENSION ET DE MISE A NIVEAU DE PLUSIEURS ETABLISSEMENTS SCOLAIRES DE LA PROVINCE DE TATA-PROGRAMME 2023- TRANCHE 1- TATA TRANCHE 1-3",
+ "acheteur": null,
+ "procedure": "appel d'offres ouvert",
+ "categorie": "Travaux",
+ "date_limite_plis": null,
+ "lieu_ouverture": null,
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": null,
+ "justification": null,
+ "infructueux": false,
+ "attributaire": "CONSTRUCTION & SOCIETE TWIZEPRESS",
+ "montant_attribue": 6273915.38,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "GROUPEMENT SOCIETE SOONBGI SUD &SOCIETE LUOZHAM",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": true
+  },
+  {
+   "nom": "SOCIETE VAROSSE",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": true
+  },
+  {
+   "nom": "GROUPEMENT SOCIETE ANGLE POUR",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": true
+  },
+  {
+   "nom": "CONSTRUCTION & SOCIETE TWIZEPRESS",
+   "montant_acte_engagement": 6273915.38,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 4,
+ "alertes_ocr": [
+  "« CONSTRUCTION & SOCIETE TWIZEPRESS » absent de la liste des plis déposés (nom mal lu ?)."
+ ],
+ "notes_ocr": [
+  "« GROUPEMENT SOCIETE SOONBGI SUD &SOCIETE LUOZHAM » absent de la liste des plis déposés (nom mal lu ?).",
+  "« SOCIETE VAROSSE » absent de la liste des plis déposés (nom mal lu ?).",
+  "« GROUPEMENT SOCIETE ANGLE POUR » absent de la liste des plis déposés (nom mal lu ?).",
+  "Maître d'ouvrage absent du PV (utiliser l'acheteur public du portail)."
+ ],
+ "qualite": "attribution"
+}

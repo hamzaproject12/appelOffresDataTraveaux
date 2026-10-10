@@ -1,0 +1,75 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "894121",
+ "orgAcronyme": "o8p",
+ "reference_pv": "06/A00/DPMR-ANP/2025",
+ "nouveau": true,
+ "reference": "06/A00/DPMR-ANP/2025",
+ "objet": "« TRAVAUX DE RENOVATION DES PORTAILS METALLIQUES AU PORT DE MOHAMMEDIA »",
+ "acheteur": "Agence Nationale des ports : Direction du Port de Mohammedia et Région",
+ "procedure": "appel d'offres ouvert",
+ "categorie": "Travaux",
+ "date_limite_plis": "10/04/2025",
+ "lieu_ouverture": "ANP/DPMR Conformément à l’avis publié dans : Désignation journaux Langue Date de parution",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "06/05/2025",
+ "justification": null,
+ "infructueux": false,
+ "attributaire": null,
+ "montant_attribue": null,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "ANGC SARL AU",
+   "montant_acte_engagement": 340880.0,
+   "montant_apres_verification": 340880.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "IMÉDREESED",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": true
+  },
+  {
+   "nom": "BOUYA FER SARL AU",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_dossier_administratif_technique",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "TECHNIQUE GENIE BAT SARL",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_dossier_administratif_technique",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 4,
+ "alertes_ocr": [
+  "« ANGC SARL AU » absent de la liste des plis déposés (nom mal lu ?).",
+  "Attributaire non trouvé."
+ ],
+ "notes_ocr": [
+  "« IMÉDREESED » absent de la liste des plis déposés (nom mal lu ?).",
+  "« BOUYA FER SARL AU » absent de la liste des plis déposés (nom mal lu ?).",
+  "« TECHNIQUE GENIE BAT SARL » absent de la liste des plis déposés (nom mal lu ?).",
+  "Montants exprimés hors taxes (HT)."
+ ],
+ "qualite": "attribution"
+}

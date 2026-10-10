@@ -1,0 +1,71 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "967640",
+ "orgAcronyme": "d4q",
+ "reference_pv": "71/DR3/2025",
+ "nouveau": true,
+ "reference": "71/DR3/2025",
+ "objet": "Entretien et réparation des conduites en PVC et AC de diamètre inférieur à 350 mm aux centres du secteur de production Beni Mellal-Azilal",
+ "acheteur": null,
+ "procedure": "appel d'offres ouvert",
+ "categorie": "Travaux",
+ "date_limite_plis": "25/11/2025",
+ "lieu_ouverture": "au siège de la Direction Régionale Béni Mellal-Khénifra (DR3) - Boulevard Mohamed VI, Quartier Administratif - Khouribga - Maroc",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "30/12/2025",
+ "justification": "Moins-disant",
+ "infructueux": false,
+ "attributaire": "EMARECO",
+ "montant_attribue": 370800.0,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "EMARECO",
+   "montant_acte_engagement": 370800.0,
+   "montant_apres_verification": 370800.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "GESERVEAU MAROC",
+   "montant_acte_engagement": 379944.0,
+   "montant_apres_verification": 379104.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "HENNOU SARL",
+   "montant_acte_engagement": 379944.0,
+   "montant_apres_verification": 409560.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "RADEP",
+   "montant_acte_engagement": 486288.0,
+   "montant_apres_verification": 486288.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 4,
+ "alertes_ocr": [],
+ "notes_ocr": [
+  "« GESERVEAU MAROC » : montant rectifié de 379 944.00 à 379 104.00 DH.",
+  "« HENNOU SARL » : montant rectifié de 379 944.00 à 409 560.00 DH.",
+  "Maître d'ouvrage absent du PV (utiliser l'acheteur public du portail)."
+ ],
+ "qualite": "complet"
+}

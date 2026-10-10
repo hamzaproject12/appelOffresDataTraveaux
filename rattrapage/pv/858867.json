@@ -1,0 +1,77 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "858867",
+ "orgAcronyme": "d4q",
+ "reference_pv": "78/2024",
+ "nouveau": true,
+ "reference": "78/2024",
+ "objet": "REALISATON DES CAMPAGNES DE TRAVAUX DE SONDAGES CAROTTES SUR QUATRE",
+ "acheteur": "ONHYM",
+ "procedure": null,
+ "categorie": "Travaux",
+ "date_limite_plis": "19/11/2024",
+ "lieu_ouverture": "Bureau ONHYM - 34, Avenue AL FADILA CYM RABAT",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "11/12/2024",
+ "justification": "Offre conforme, moins disante",
+ "infructueux": false,
+ "attributaire": "GEOSOND MAROC SARL",
+ "montant_attribue": 7486500.0,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "GEOSOND MAROC SARL",
+   "montant_acte_engagement": 6238750.0,
+   "montant_apres_verification": 7486500.0,
+   "autres_montants": [
+    1247750.0,
+    7486500.0
+   ],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "GEO START DRILL SARL",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_offre_technique",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "ANOUMINES SARL",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_offre_technique",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "AO N° 78/2024 EXTRAIT DE PV D'APPEL D'OFFRES",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_offre_technique",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 4,
+ "alertes_ocr": [
+  "« GEOSOND MAROC SARL » absent de la liste des plis déposés (nom mal lu ?)."
+ ],
+ "notes_ocr": [
+  "« GEO START DRILL SARL » absent de la liste des plis déposés (nom mal lu ?).",
+  "« ANOUMINES SARL » absent de la liste des plis déposés (nom mal lu ?).",
+  "« AO N° 78/2024 EXTRAIT DE PV D'APPEL D'OFFRES » absent de la liste des plis déposés (nom mal lu ?).",
+  "« GEOSOND MAROC SARL » : montant rectifié de 6 238 750.00 à 7 486 500.00 DH."
+ ],
+ "qualite": "attribution"
+}

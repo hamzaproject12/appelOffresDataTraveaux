@@ -1,0 +1,60 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "1043523",
+ "orgAcronyme": "j8k",
+ "reference_pv": null,
+ "nouveau": true,
+ "reference": null,
+ "objet": "TRAVAUX DE CONSTRUCTION D'UN GROUPE D'HABITATION « AL WAHDA TR 3 », A AL HOCEIMA - ILOTS 1 ET 4",
+ "acheteur": "AL OMRANE TANGER-TETOUAN-AL HOCEIMA",
+ "procedure": null,
+ "categorie": "Travaux",
+ "date_limite_plis": "18/09/2026",
+ "lieu_ouverture": "Al Omrane Tanger-Tétouan-Al Hoceima",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": null,
+ "justification": "MIEUX DISANT",
+ "infructueux": false,
+ "attributaire": "STE ARBOCO",
+ "montant_attribue": 24504440.64,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "STE MARCHOUH DE BATIMENT",
+   "montant_acte_engagement": 27458066.34,
+   "montant_apres_verification": 27458066.34,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "STE ARBOCO",
+   "montant_acte_engagement": 24595160.64,
+   "montant_apres_verification": 24504440.64,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "PETRADIB",
+   "montant_acte_engagement": 24991978.1,
+   "montant_apres_verification": 24991978.1,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 3,
+ "alertes_ocr": [],
+ "notes_ocr": [
+  "« STE ARBOCO » : montant rectifié de 24 595 160.64 à 24 504 440.64 DH."
+ ],
+ "qualite": "complet"
+}

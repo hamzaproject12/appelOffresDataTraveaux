@@ -1,0 +1,94 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "684088",
+ "orgAcronyme": "p8x",
+ "reference_pv": "69/DPSK/2022",
+ "nouveau": true,
+ "reference": "69/DPSK/2022",
+ "objet": "Travaux de démolition de l’école primaire CHARAF a sidi kacem province de sidi kacem en lot unique",
+ "acheteur": "Le Directeur provincial de M.E.N.P.S à Sidi Kacem ",
+ "procedure": null,
+ "categorie": "Travaux",
+ "date_limite_plis": null,
+ "lieu_ouverture": null,
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": null,
+ "justification": null,
+ "infructueux": false,
+ "attributaire": null,
+ "montant_attribue": null,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "Sté FIRST HOUSE SARL AU",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_dossier_administratif_technique",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "NEGTRAV RIM SARL 2",
+   "montant_acte_engagement": 399000.0,
+   "montant_apres_verification": 399000.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "STE LMDARSSI-COM SARL AU",
+   "montant_acte_engagement": 360000.0,
+   "montant_apres_verification": 360000.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "STE AHRAM FES SARL",
+   "montant_acte_engagement": 378000.0,
+   "montant_apres_verification": 378000.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "STE PODESTAR SARL",
+   "montant_acte_engagement": 316500.0,
+   "montant_apres_verification": 316500.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "BÂTIMENT TRAVAUX DIVERS SARL 12",
+   "montant_acte_engagement": 398385.0,
+   "montant_apres_verification": 398385.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 6,
+ "alertes_ocr": [
+  "« NEGTRAV RIM SARL 2 » absent de la liste des plis déposés (nom mal lu ?).",
+  "« STE LMDARSSI-COM SARL AU » absent de la liste des plis déposés (nom mal lu ?).",
+  "« STE AHRAM FES SARL » absent de la liste des plis déposés (nom mal lu ?).",
+  "« STE PODESTAR SARL » absent de la liste des plis déposés (nom mal lu ?).",
+  "« BÂTIMENT TRAVAUX DIVERS SARL 12 » absent de la liste des plis déposés (nom mal lu ?).",
+  "Attributaire non trouvé."
+ ],
+ "notes_ocr": [
+  "« Sté FIRST HOUSE SARL AU » absent de la liste des plis déposés (nom mal lu ?)."
+ ],
+ "qualite": "complet"
+}

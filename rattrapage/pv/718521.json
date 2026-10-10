@@ -1,0 +1,60 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "718521",
+ "orgAcronyme": "g3h",
+ "reference_pv": null,
+ "nouveau": true,
+ "reference": null,
+ "objet": "Equipement des postes MT/BT par des automates de télécommande (postes asservis)",
+ "acheteur": "Régie Autonome Intercommunale de Distribution d'Eau, D'Electricité et d'Assainissement Liquide de la Province de KENITRA (RAK)",
+ "procedure": null,
+ "categorie": "Travaux",
+ "date_limite_plis": "11/04/2023",
+ "lieu_ouverture": "Siège RAK - KENITRA",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "01/06/2023",
+ "justification": "• Dossiers administratif, technique et prospectus conformes aux exigences du dossier d'appel d'offres. • Offre avantageuse répondant aux critères d'évaluation du règlement de la consultation et du Règlement relatif aux marchés publics de la RAK.",
+ "infructueux": false,
+ "attributaire": null,
+ "montant_attribue": null,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "KAZINOV",
+   "montant_acte_engagement": 3562200.0,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "MARO GRID",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_dossier_administratif_technique",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "OGE",
+   "montant_acte_engagement": 3477600.0,
+   "montant_apres_verification": 3477600.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 3,
+ "alertes_ocr": [
+  "Attributaire non trouvé."
+ ],
+ "notes_ocr": [],
+ "qualite": "complet"
+}

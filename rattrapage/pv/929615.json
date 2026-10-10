@@ -1,0 +1,51 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "929615",
+ "orgAcronyme": "g3h",
+ "reference_pv": "10001152",
+ "nouveau": true,
+ "reference": "10001152",
+ "objet": "TRAVAUX DE CURAGE DES BACHES DES STEP ET STATIONS DE POMPAGE D4ASSAINISSEMENT DE LA DP DE TAOURIRT",
+ "acheteur": null,
+ "procedure": null,
+ "categorie": "Travaux",
+ "date_limite_plis": "17/07/2025",
+ "lieu_ouverture": "Siège de la SRM-ORI",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": null,
+ "justification": "Offre moins-disante conforme.",
+ "infructueux": false,
+ "attributaire": "STE ANOUAR DES TRAVAUX",
+ "montant_attribue": 344400.0,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "STE ANOUAR DES TRAVAUX",
+   "montant_acte_engagement": 344400.0,
+   "montant_apres_verification": 344400.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "SOTRACOAS",
+   "montant_acte_engagement": 298620.0,
+   "montant_apres_verification": 298620.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_offre_financiere",
+   "admis_avec_reserve": true
+  }
+ ],
+ "nombre_soumissionnaires": 2,
+ "alertes_ocr": [],
+ "notes_ocr": [
+  "Maître d'ouvrage absent du PV (utiliser l'acheteur public du portail)."
+ ],
+ "qualite": "complet"
+}

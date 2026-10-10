@@ -1,0 +1,73 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "875973",
+ "orgAcronyme": "x8h",
+ "reference_pv": "04/BP/2024",
+ "nouveau": true,
+ "reference": "04/BP/2024",
+ "objet": "TRAVAUX D'AMENAGEMENT ET D'EQUIPEMENT D'UN FORAGE À ADAM EL HAIRA A LA COMMUNE TERRITORIALE D'IMLILI PROVINCE D'OUED EDDAHAB -Maître d'ouvrage : Conseil Provincial d’ Oued Eddahab -Date d'ouverture des plis : 10/02/2025 à 12 H 00 MN",
+ "acheteur": "Conseil Provincial d’ Oued Eddahab",
+ "procedure": "appel d'offres ouvert",
+ "categorie": "Travaux",
+ "date_limite_plis": "10/02/2025",
+ "lieu_ouverture": "Salle des réunions au siège du conseil provincial",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "19/02/2025",
+ "justification": "l'offre économiquement la plus avantageuse",
+ "infructueux": false,
+ "attributaire": "STE TGX SAHARA SARL",
+ "montant_attribue": 1120008.0,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "STE TGX SAHARA SARL",
+   "montant_acte_engagement": 1120008.0,
+   "montant_apres_verification": 1120008.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "STE RUCHE CONST SARL",
+   "montant_acte_engagement": 1137156.0,
+   "montant_apres_verification": 1137156.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "STE FOURNIBAT SARL",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_dossier_administratif_technique",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "STE SBAI DRILLING COMPANY SARL",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_dossier_administratif_technique",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 4,
+ "alertes_ocr": [
+  "« STE TGX SAHARA SARL » absent de la liste des plis déposés (nom mal lu ?).",
+  "« STE RUCHE CONST SARL » absent de la liste des plis déposés (nom mal lu ?)."
+ ],
+ "notes_ocr": [
+  "« STE FOURNIBAT SARL » absent de la liste des plis déposés (nom mal lu ?).",
+  "« STE SBAI DRILLING COMPANY SARL » absent de la liste des plis déposés (nom mal lu ?)."
+ ],
+ "qualite": "complet"
+}

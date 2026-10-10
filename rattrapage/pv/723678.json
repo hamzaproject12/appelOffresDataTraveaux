@@ -1,0 +1,63 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "723678",
+ "orgAcronyme": "s3d",
+ "reference_pv": "01/2023",
+ "nouveau": true,
+ "reference": "01/2023",
+ "objet": "TRAVAUX D’'AMENAGEMENT DU CENTRE D'ACCUEIL EL BACHIR RELEVANT DE LA DIRECTION PROVINCIALE DU MINISTERE DE LA JEUNESSE DE LA CULTURE ET DE LA COMMUNICATION-DEPARTEMENT DE LA JEUNESSE - MOHAMMEDIA.-lot unique",
+ "acheteur": null,
+ "procedure": "appel d'offres ouvert",
+ "categorie": "Travaux",
+ "date_limite_plis": "01/06/2023",
+ "lieu_ouverture": "au Siège de la direction Provinciale du ministère de la jeunesse de la culture et de la communication-département de la jeunesse à Mohammedia boulevard Moulay Youssef Mohammedia 28800- Maroc",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": null,
+ "justification": "Moins-disant",
+ "infructueux": false,
+ "attributaire": null,
+ "montant_attribue": null,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "STE SOTRAMOD sarl et STE SALBI sarl MEKNES/ERRACHIDIA",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "depose",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "STE STPCON sarl FES",
+   "montant_acte_engagement": 3851580.0,
+   "montant_apres_verification": 3851580.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "ne SOTRAMOD sarl et STE SALBI",
+   "montant_acte_engagement": 3880866.0,
+   "montant_apres_verification": 3880866.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 3,
+ "alertes_ocr": [
+  "« ne SOTRAMOD sarl et STE SALBI » absent de la liste des plis déposés (nom mal lu ?).",
+  "Attributaire non trouvé."
+ ],
+ "notes_ocr": [
+  "Maître d'ouvrage absent du PV (utiliser l'acheteur public du portail)."
+ ],
+ "qualite": "complet"
+}

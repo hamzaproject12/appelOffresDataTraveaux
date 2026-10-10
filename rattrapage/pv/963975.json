@@ -1,0 +1,83 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "963975",
+ "orgAcronyme": "g3h",
+ "reference_pv": "23/INDH/2025",
+ "nouveau": true,
+ "reference": "23/INDH/2025",
+ "objet": "TRAVAUX DE CREATION DES UNITES PRESCOLAIRES DE TYPE 1 (3UNITES) PROGRAMME 2025 AUX DOUARS LAARAIB, TILHMAID, TOUAASKRE A LA CT OUED ESSAFA- PROVINCE CHTOUKA AIT BAHA",
+ "acheteur": "PROVINCE DE CHTOUKA AIT BAHA",
+ "procedure": "appel d'offres ouvert simplifié",
+ "categorie": "Travaux",
+ "date_limite_plis": "24/11/2025",
+ "lieu_ouverture": "À la division des affaires Financières de la Province De Chtouka Aït Baha, au bureau n°21",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": null,
+ "justification": null,
+ "infructueux": false,
+ "attributaire": "STE SANY MUST",
+ "montant_attribue": 721504.8,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "STE SANY MUST",
+   "montant_acte_engagement": 721504.8,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "COMPAGNIE D'AMENAGEMENT ET FINITIONS RENOVATIONS EXPERTS SARL",
+   "montant_acte_engagement": 688065.12,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_offre_financiere",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "EXPERTS SARL AU CAFRE",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "FINITIONS RENOVATIONS EXPERTS SARL direstinlienr di dis",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_offre_financiere",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "AU CAFRE",
+   "montant_acte_engagement": 684590.76,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_offre_financiere",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 5,
+ "alertes_ocr": [
+  "« STE SANY MUST » absent de la liste des plis déposés (nom mal lu ?).",
+  "« COMPAGNIE D'AMENAGEMENT ET FINITIONS RENOVATIONS EXPERTS SARL » absent de la liste des plis déposés (nom mal lu ?).",
+  "« AU CAFRE » absent de la liste des plis déposés (nom mal lu ?)."
+ ],
+ "notes_ocr": [
+  "« EXPERTS SARL AU CAFRE » absent de la liste des plis déposés (nom mal lu ?).",
+  "« FINITIONS RENOVATIONS EXPERTS SARL direstinlienr di dis » absent de la liste des plis déposés (nom mal lu ?)."
+ ],
+ "qualite": "complet"
+}

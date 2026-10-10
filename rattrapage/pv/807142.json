@@ -1,0 +1,60 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "807142",
+ "orgAcronyme": "o8p",
+ "reference_pv": "28/2024",
+ "nouveau": true,
+ "reference": "28/2024",
+ "objet": "TRAVAUX DE BALISAGE DES PLAGES DE SOUJIRIA KEDIMA, SAFI ET KERRAM DAIFPROVINCE DE SAFI REGION MARRAKECH-SAFI",
+ "acheteur": "la Direction Provinciale de l'équipement, du transport et de la logistique de Safi (représenté par son Directeur Provincial)",
+ "procedure": "appel d'offres ouvert national",
+ "categorie": "Travaux",
+ "date_limite_plis": "04/06/2024",
+ "lieu_ouverture": "la Direction Provinciale de l'équipement, du transport et de la logistique de Safi",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "19/06/2024",
+ "justification": "offre économiquement la plus avantageuse pour l'administration",
+ "infructueux": false,
+ "attributaire": "SOZIFI DES TRAVAUX DIVERS",
+ "montant_attribue": 160320.0,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "TBINA",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_dossier_administratif_technique",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "TECOS MARITIME",
+   "montant_acte_engagement": 159384.0,
+   "montant_apres_verification": 159384.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "SOZIFI DES TRAVAUX DIVERS",
+   "montant_acte_engagement": 160320.0,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 3,
+ "alertes_ocr": [
+  "« SOZIFI DES TRAVAUX DIVERS » absent de la liste des plis déposés (nom mal lu ?)."
+ ],
+ "notes_ocr": [],
+ "qualite": "complet"
+}

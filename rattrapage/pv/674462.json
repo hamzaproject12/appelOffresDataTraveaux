@@ -1,0 +1,51 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "674462",
+ "orgAcronyme": "g8e",
+ "reference_pv": "189/2022",
+ "nouveau": true,
+ "reference": "189/2022",
+ "objet": "ET T LE CAD",
+ "acheteur": "Agence Régionale d’Exécution des Projets Région Béni Mellal-Khénifra",
+ "procedure": null,
+ "categorie": "Travaux",
+ "date_limite_plis": "08/09/2022",
+ "lieu_ouverture": "Salle de réunion de l’AREP région Beni Mellal Khénifra, Sis Bd Med V lotissement lala Hayat immeuble n°3, 4éme et 5éme étage Béni Mellal",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "04/11/2022",
+ "justification": "L'offre la plus avantageuse.",
+ "infructueux": false,
+ "attributaire": "STE G.C.IS",
+ "montant_attribue": 360000.0,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "STEA.T.E.E",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "STE G.C.IS",
+   "montant_acte_engagement": 360000.0,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 2,
+ "alertes_ocr": [
+  "« STE G.C.IS » absent de la liste des plis déposés (nom mal lu ?)."
+ ],
+ "notes_ocr": [],
+ "qualite": "attribution"
+}

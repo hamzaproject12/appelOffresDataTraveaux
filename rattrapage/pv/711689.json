@@ -1,0 +1,60 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "711689",
+ "orgAcronyme": "g3h",
+ "reference_pv": "25/2023",
+ "nouveau": true,
+ "reference": "25/2023",
+ "objet": "Travaux de restauration et de réhabilitation de la Fontaine Historique SRAYRYA dans la médina de Meknès -Ville de Meknès, en lot unique",
+ "acheteur": null,
+ "procedure": "appel d'offres ouvert",
+ "categorie": "Travaux",
+ "date_limite_plis": "04/04/2023",
+ "lieu_ouverture": "Antenne de l’ADER-Fès à Meknès",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "04/05/2023",
+ "justification": "Le concurrent ayant présenté une offre financière avantageuse.",
+ "infructueux": false,
+ "attributaire": "Société RACHAD ISTITMAR SARL",
+ "montant_attribue": 886176.0,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "Société ERRAHMANI MOHA SARL",
+   "montant_acte_engagement": 870112.8,
+   "montant_apres_verification": 870112.8,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_dossier_administratif_technique",
+   "admis_avec_reserve": true
+  },
+  {
+   "nom": "Société RACHAD ISTITMAR SARL",
+   "montant_acte_engagement": 886176.0,
+   "montant_apres_verification": 886176.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Société SOBINMA SARL AU",
+   "montant_acte_engagement": 1257213.6,
+   "montant_apres_verification": 1257213.6,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_offre_financiere",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 3,
+ "alertes_ocr": [],
+ "notes_ocr": [
+  "Maître d'ouvrage absent du PV (utiliser l'acheteur public du portail)."
+ ],
+ "qualite": "complet"
+}

@@ -1,0 +1,54 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "1010661",
+ "orgAcronyme": "g3h",
+ "reference_pv": "10006204",
+ "nouveau": true,
+ "reference": "10006204",
+ "objet": "Raccordement de Ja future Centrale Photovoltaïque de MASEN au réseau HTA du départ MRUA (Province de JERADA)",
+ "acheteur": null,
+ "procedure": null,
+ "categorie": "Travaux",
+ "date_limite_plis": "24/03/2026",
+ "lieu_ouverture": "Siège de la SRM-ORI",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": null,
+ "justification": "Offre Moins-disante conforme.",
+ "infructueux": false,
+ "attributaire": "j SOHAPER",
+ "montant_attribue": 3259922.4,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "nique)",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "j SOHAPER",
+   "montant_acte_engagement": 3259922.4,
+   "montant_apres_verification": 3259922.4,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 2,
+ "alertes_ocr": [
+  "« j SOHAPER » absent de la liste des plis déposés (nom mal lu ?)."
+ ],
+ "notes_ocr": [
+  "« nique) » absent de la liste des plis déposés (nom mal lu ?).",
+  "Maître d'ouvrage absent du PV (utiliser l'acheteur public du portail)."
+ ],
+ "qualite": "attribution"
+}

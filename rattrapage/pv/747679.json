@@ -1,0 +1,97 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "747679",
+ "orgAcronyme": "j0w",
+ "reference_pv": "03/2023",
+ "nouveau": true,
+ "reference": "03/2023",
+ "objet": "Travaux de Construction d’un château d’eau de 25 m3 au douar Molay Othman à la commune d’Ait Imour",
+ "acheteur": "Commune Ait Imour",
+ "procedure": "appel d'offres ouvert",
+ "categorie": "Travaux",
+ "date_limite_plis": "23/08/2023",
+ "lieu_ouverture": "Salle des réunions de la commune",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "18/10/2023",
+ "justification": "offre la plus avantageuse 0€ LINTERS",
+ "infructueux": false,
+ "attributaire": "Entreprise BOUJEMAA EL HARRAQ",
+ "montant_attribue": 185760.0,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "Société EQUEPNOUR",
+   "montant_acte_engagement": 155016.0,
+   "montant_apres_verification": 155016.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_offre_financiere",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Entreprise BOUJEMAA EL HARRAQ",
+   "montant_acte_engagement": 185760.0,
+   "montant_apres_verification": 185760.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Société MARAVER à Laayoune",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "depose",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Société FGTC à Imintanout",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "depose",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Société AFLA IZDATN",
+   "montant_acte_engagement": 158962.8,
+   "montant_apres_verification": 158962.8,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_offre_financiere",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Société MARAVER",
+   "montant_acte_engagement": 189424.8,
+   "montant_apres_verification": 189424.8,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Société FGTC",
+   "montant_acte_engagement": 184860.0,
+   "montant_apres_verification": 184860.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 7,
+ "alertes_ocr": [
+  "« Société MARAVER » absent de la liste des plis déposés (nom mal lu ?).",
+  "« Société FGTC » absent de la liste des plis déposés (nom mal lu ?)."
+ ],
+ "notes_ocr": [],
+ "qualite": "complet"
+}

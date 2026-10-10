@@ -1,0 +1,96 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "747996",
+ "orgAcronyme": "g3h",
+ "reference_pv": "12/2023/BG",
+ "nouveau": true,
+ "reference": "12/2023/BG",
+ "objet": "Travaux d'aménagement et d’installation au niveau du parc-auto de la Préfecture de Tanger Assilah",
+ "acheteur": "Le Wali de 1 Tanger Assilah",
+ "procedure": "appel d'offres ouvert",
+ "categorie": "Travaux",
+ "date_limite_plis": "19/09/2023",
+ "lieu_ouverture": "Bureau",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "18/10/2023",
+ "justification": "offre avantageuse",
+ "infructueux": false,
+ "attributaire": "STE IP NOVA",
+ "montant_attribue": 2310000.0,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "STE GOUTRAC",
+   "montant_acte_engagement": 2535912.0,
+   "montant_apres_verification": 2535912.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "STE ALBOUDNIBIA ACHGHAL",
+   "montant_acte_engagement": 2453580.0,
+   "montant_apres_verification": 2453580.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "STEIP NOVA",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "depose",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "STE ONSSAR",
+   "montant_acte_engagement": 2900001.6,
+   "montant_apres_verification": 2900001.6,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "STE SAL 2S",
+   "montant_acte_engagement": 2393016.0,
+   "montant_apres_verification": 2393016.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "STE FORGA FER",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_offre_financiere",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "STE IP NOVA",
+   "montant_acte_engagement": 2310000.0,
+   "montant_apres_verification": 2310000.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 7,
+ "alertes_ocr": [
+  "« STE IP NOVA » absent de la liste des plis déposés (nom mal lu ?)."
+ ],
+ "notes_ocr": [],
+ "qualite": "complet"
+}

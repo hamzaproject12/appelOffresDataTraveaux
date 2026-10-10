@@ -1,0 +1,55 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "1021048",
+ "orgAcronyme": "d4q",
+ "reference_pv": null,
+ "nouveau": true,
+ "reference": null,
+ "objet": "Travaux de maintenance préventive des compresseurs d’air des centrales TAG Kenitra et Tétouan",
+ "acheteur": null,
+ "procedure": null,
+ "categorie": "Travaux",
+ "date_limite_plis": "05/05/2026",
+ "lieu_ouverture": "ONEE-BE Roches Noires",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": null,
+ "justification": "Moins disant et conforme.",
+ "infructueux": false,
+ "attributaire": "ATLAS COPCO MAROC",
+ "montant_attribue": 774442.53,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "GFR ENGINEERING",
+   "montant_acte_engagement": 105119.4,
+   "montant_apres_verification": 94439.4,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_offre_financiere",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "ATLAS COPCO MAROC",
+   "montant_acte_engagement": 774442.53,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 2,
+ "alertes_ocr": [
+  "« ATLAS COPCO MAROC » absent de la liste des plis déposés (nom mal lu ?)."
+ ],
+ "notes_ocr": [
+  "« GFR ENGINEERING » : montant rectifié de 105 119.40 à 94 439.40 DH.",
+  "Maître d'ouvrage absent du PV (utiliser l'acheteur public du portail).",
+  "Montants exprimés hors taxes (HT)."
+ ],
+ "qualite": "complet"
+}

@@ -1,0 +1,49 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "762148",
+ "orgAcronyme": "j8k",
+ "reference_pv": "92/23",
+ "nouveau": true,
+ "reference": "92/23",
+ "objet": null,
+ "acheteur": "Al Omrane Casablanca - Settat",
+ "procedure": "appel d'offres ouvert",
+ "categorie": "Travaux",
+ "date_limite_plis": "27/11/2023",
+ "lieu_ouverture": "AI Omrane Casablanca — Settat",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "06/12/2023",
+ "justification": "Offre financière la plus avantageuse",
+ "infructueux": false,
+ "attributaire": "GRP ESTAR BATIMENT et STAPORT",
+ "montant_attribue": 10017180.0,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "GRP ESTAR BATIMENT et STAPORT",
+   "montant_acte_engagement": 10017180.0,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "TRANVEST - TOUNA VERDURE",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_dossier_administratif_technique",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 2,
+ "alertes_ocr": [],
+ "notes_ocr": [],
+ "qualite": "attribution"
+}

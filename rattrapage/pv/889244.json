@@ -1,0 +1,83 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "889244",
+ "orgAcronyme": "j8k",
+ "reference_pv": null,
+ "nouveau": true,
+ "reference": null,
+ "objet": "La réalisation des Travaux de la voie d'accès au quartier IMOUNSSIS depuis la voie de contournement, la commune Territoriale d’Agadir - Préfecture d'Agadir Ida Outanane",
+ "acheteur": "Wilaya de la Région Souss Massa",
+ "procedure": "appel d'offres ouvert",
+ "categorie": "Travaux",
+ "date_limite_plis": "18/04/2025",
+ "lieu_ouverture": "Division des Marchés de la Société Al Omrane souss Massa",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "22/04/2025",
+ "justification": "Concurrent représentant l’offre la plus avantageuse.",
+ "infructueux": false,
+ "attributaire": "SAHAF",
+ "montant_attribue": 8036340.0,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "SICATRA - SAHAF - GROUPEMENT SA2B ET TLOUH TRAVAUX",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "GROUPEMENT SA2B ET TLOUH",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_offre_technique",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "TRAVAUX",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_offre_technique",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "SICATRA",
+   "montant_acte_engagement": 9036120.0,
+   "montant_apres_verification": 9036120.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "SAHAF",
+   "montant_acte_engagement": 8036340.0,
+   "montant_apres_verification": 8036340.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 5,
+ "alertes_ocr": [
+  "« SICATRA » absent de la liste des plis déposés (nom mal lu ?).",
+  "« SAHAF » absent de la liste des plis déposés (nom mal lu ?)."
+ ],
+ "notes_ocr": [
+  "« SICATRA - SAHAF - GROUPEMENT SA2B ET TLOUH TRAVAUX » absent de la liste des plis déposés (nom mal lu ?).",
+  "« GROUPEMENT SA2B ET TLOUH » absent de la liste des plis déposés (nom mal lu ?).",
+  "« TRAVAUX » absent de la liste des plis déposés (nom mal lu ?)."
+ ],
+ "qualite": "complet"
+}

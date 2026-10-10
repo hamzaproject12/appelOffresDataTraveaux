@@ -1,0 +1,63 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "922386",
+ "orgAcronyme": "z9k",
+ "reference_pv": "04/2025/C",
+ "nouveau": true,
+ "reference": "04/2025/C",
+ "objet": null,
+ "acheteur": null,
+ "procedure": "appel d'offres ouvert",
+ "categorie": "Travaux",
+ "date_limite_plis": null,
+ "lieu_ouverture": null,
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": null,
+ "justification": null,
+ "infructueux": false,
+ "attributaire": "Sté BTP CLINK, RESIDENCE ZAYANI BLOC D3 MHZ KHENIFRA",
+ "montant_attribue": 820524.0,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "Sté BTP CLINK, RESIDENCE ZAYANI BLOC D3 MHZ KHENIFRA",
+   "montant_acte_engagement": 820524.0,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "l- Sté WICKEY ATTRACTION SARL, 14 Impasse Modibo Keita",
+   "montant_acte_engagement": 928920.0,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Sté UNIVERS DISTRUBUTION SARL, Lot El massar N° 993 Sidi",
+   "montant_acte_engagement": 903600.0,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 3,
+ "alertes_ocr": [
+  "« l- Sté WICKEY ATTRACTION SARL, 14 Impasse Modibo Keita » absent de la liste des plis déposés (nom mal lu ?).",
+  "« Sté UNIVERS DISTRUBUTION SARL, Lot El massar N° 993 Sidi » absent de la liste des plis déposés (nom mal lu ?)."
+ ],
+ "notes_ocr": [
+  "Maître d'ouvrage absent du PV (utiliser l'acheteur public du portail)."
+ ],
+ "qualite": "complet"
+}

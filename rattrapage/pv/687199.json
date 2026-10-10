@@ -1,0 +1,60 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "687199",
+ "orgAcronyme": "j8k",
+ "reference_pv": "27/BM/2022",
+ "nouveau": true,
+ "reference": "27/BM/2022",
+ "objet": "TRAVAUX D'AMENAGEMENT DES ABORDS ET PLANTATION DU LOTISSEMENT ZOUHOUR 3 A FQUIH BEN SALAH",
+ "acheteur": null,
+ "procedure": "appel d'offres ouvert",
+ "categorie": "Travaux",
+ "date_limite_plis": null,
+ "lieu_ouverture": null,
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": null,
+ "justification": null,
+ "infructueux": false,
+ "attributaire": "Sté ARD VERTE",
+ "montant_attribue": 935220.0,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "Sté ARD VERTE",
+   "montant_acte_engagement": 935220.0,
+   "montant_apres_verification": 935220.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Sté NICE GARDEN",
+   "montant_acte_engagement": 960960.0,
+   "montant_apres_verification": 960960.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Sté AIT SAADANE SERVICE",
+   "montant_acte_engagement": 1213680.0,
+   "montant_apres_verification": 1213680.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 3,
+ "alertes_ocr": [],
+ "notes_ocr": [
+  "Maître d'ouvrage absent du PV (utiliser l'acheteur public du portail)."
+ ],
+ "qualite": "complet"
+}

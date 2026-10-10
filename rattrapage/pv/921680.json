@@ -1,0 +1,76 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "921680",
+ "orgAcronyme": "l1f",
+ "reference_pv": "08/2025",
+ "nouveau": true,
+ "reference": "08/2025",
+ "objet": "INSTALLATION DES POTEAUX ET CABLAGES DU RESEAU D’ECLAIRAGE PUBLIC",
+ "acheteur": "Commune de Fnideq",
+ "procedure": "appel d'offres ouvert national",
+ "categorie": "Travaux",
+ "date_limite_plis": "29/07/2025",
+ "lieu_ouverture": "Salle des réunions au siège de la Commune de Fnideq",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "05/08/2025",
+ "justification": null,
+ "infructueux": false,
+ "attributaire": "SOCIETE TAMOUDA BAY DES TRAVAUX DIVERS SARL",
+ "montant_attribue": 2932086.0,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "SOCIETE TELECTRON SARL",
+   "montant_acte_engagement": 2931120.0,
+   "montant_apres_verification": 2931120.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "SOCIETE U ECLAIRAGE SARL AU",
+   "montant_acte_engagement": 3053640.0,
+   "montant_apres_verification": 3053640.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": true
+  },
+  {
+   "nom": "SOCIETE BUILDDIS TECH SARL AU",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_dossier_administratif_technique",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "SOCIETE ELECTRI MAROC S.A",
+   "montant_acte_engagement": 3020064.0,
+   "montant_apres_verification": 3020064.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "SOCIETE TAMOUDA BAY DES TRAVAUX DIVERS SARL",
+   "montant_acte_engagement": 2932086.0,
+   "montant_apres_verification": 2932086.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 5,
+ "alertes_ocr": [],
+ "notes_ocr": [],
+ "qualite": "complet"
+}

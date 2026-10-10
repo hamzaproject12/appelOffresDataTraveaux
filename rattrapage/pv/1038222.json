@@ -1,0 +1,58 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "1038222",
+ "orgAcronyme": "g3h",
+ "reference_pv": "10009352",
+ "nouveau": true,
+ "reference": "10009352",
+ "objet": "Entretien du réseau d'assainissement liquide et réalisation des nouveaux branchements au centre de KELAAT M’GOUNA",
+ "acheteur": "Société Régionale Multiservices Drâa Tafilalet « SRM-DT » Société Anonyme (S.A)",
+ "procedure": null,
+ "categorie": "Travaux",
+ "date_limite_plis": "23/06/2026",
+ "lieu_ouverture": "Siège de la SRM-DT",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "09/09/2026",
+ "justification": "Offre économiquement le plus avantageuse.",
+ "infructueux": false,
+ "attributaire": "WHITE WAY SARL AU",
+ "montant_attribue": 381960.0,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "GLOBAL NASSIH EXPERTISE SARL AU",
+   "montant_acte_engagement": 438828.0,
+   "montant_apres_verification": 438828.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "ART STAM SARL AU",
+   "montant_acte_engagement": 310260.0,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_offre_financiere",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "WHITE WAY SARL AU",
+   "montant_acte_engagement": 381960.0,
+   "montant_apres_verification": 381960.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 3,
+ "alertes_ocr": [],
+ "notes_ocr": [],
+ "qualite": "complet"
+}

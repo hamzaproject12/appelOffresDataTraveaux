@@ -1,0 +1,94 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "864840",
+ "orgAcronyme": "h5r",
+ "reference_pv": "01/2024",
+ "nouveau": true,
+ "reference": "01/2024",
+ "objet": null,
+ "acheteur": null,
+ "procedure": "appel d'offres ouvert",
+ "categorie": "Travaux",
+ "date_limite_plis": null,
+ "lieu_ouverture": null,
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": null,
+ "justification": null,
+ "infructueux": false,
+ "attributaire": "Ste Orhma Holding, Taoudilte Boumalne Dades, Tinghir",
+ "montant_attribue": 600624.0,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "Cronovet sarl » Ennor 2 GP 27 Immeuble Les documents ne sont pas signés électroniquement",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_dossier_administratif_technique",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "291, 2ème Etage Appt 9, Tamesna, Temara",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_dossier_administratif_technique",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Ste Magic Works sark, App N° 1, Imm 18, 1ère Etage lot Lakasbah, Bd Mohamed V, Temara",
+   "montant_acte_engagement": 650544.0,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_dossier_administratif_technique",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Ste Orhma Holding, Taoudilte Boumalne Dades, Tinghir",
+   "montant_acte_engagement": 600624.0,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "ci-dessus",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_dossier_administratif_technique",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "toutes taxes comprises",
+   "montant_acte_engagement": 612252.0,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 6,
+ "alertes_ocr": [
+  "« Ste Magic Works sark, App N° 1, Imm 18, 1ère Etage lot Lakasbah, Bd Mohamed V, Temara » absent de la liste des plis déposés (nom mal lu ?).",
+  "« Ste Orhma Holding, Taoudilte Boumalne Dades, Tinghir » absent de la liste des plis déposés (nom mal lu ?).",
+  "« toutes taxes comprises » absent de la liste des plis déposés (nom mal lu ?)."
+ ],
+ "notes_ocr": [
+  "« Cronovet sarl » Ennor 2 GP 27 Immeuble Les documents ne sont pas signés électroniquement » absent de la liste des plis déposés (nom mal lu ?).",
+  "« 291, 2ème Etage Appt 9, Tamesna, Temara » absent de la liste des plis déposés (nom mal lu ?).",
+  "« ci-dessus » absent de la liste des plis déposés (nom mal lu ?).",
+  "Maître d'ouvrage absent du PV (utiliser l'acheteur public du portail)."
+ ],
+ "qualite": "complet"
+}

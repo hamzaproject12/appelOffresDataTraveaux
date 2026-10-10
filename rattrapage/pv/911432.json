@@ -1,0 +1,62 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "911432",
+ "orgAcronyme": "g3h",
+ "reference_pv": "11/WRLSH/BG/2025",
+ "nouveau": true,
+ "reference": "11/WRLSH/BG/2025",
+ "objet": null,
+ "acheteur": "Province de Laayoune",
+ "procedure": "appel d'offres ouvert national",
+ "categorie": "Travaux",
+ "date_limite_plis": "12/06/2025",
+ "lieu_ouverture": "la salle des réunions de la Province de Laayoune",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "01/07/2025",
+ "justification": null,
+ "infructueux": false,
+ "attributaire": "STE AZYOSII",
+ "montant_attribue": 4501872.0,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "STE AZYOSII",
+   "montant_acte_engagement": 501872.0,
+   "montant_apres_verification": 4501872.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "STE TIFRAZAL",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "depose",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "GROUPEMENT ENTRE STE MYMAR BULDING ET HMAIM BUS",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "depose",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 3,
+ "alertes_ocr": [
+  "« STE AZYOSII » : écart anormal entre montant initial et vérifié (lecture à vérifier)."
+ ],
+ "notes_ocr": [
+  "« STE AZYOSII » : montant rectifié de 501 872.00 à 4 501 872.00 DH."
+ ],
+ "qualite": "attribution"
+}

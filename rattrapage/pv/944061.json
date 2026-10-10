@@ -1,0 +1,55 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "944061",
+ "orgAcronyme": "g3h",
+ "reference_pv": "35/2025/SDR",
+ "nouveau": true,
+ "reference": "35/2025/SDR",
+ "objet": "Travaux de réalisation des équipements hydromécaniques du barrage Belmini dans la province de Figuig",
+ "acheteur": "le directeur général de La société de développement régional services-s. a",
+ "procedure": "appel d'offres ouvert national",
+ "categorie": "Travaux",
+ "date_limite_plis": "10/10/2025",
+ "lieu_ouverture": "La société de développement régional services-s. A",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": null,
+ "justification": "le concurrent retenu est MACOBATE qui a eu offre financière la mieux disant.",
+ "infructueux": false,
+ "attributaire": null,
+ "montant_attribue": null,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "Ste Nouvelle de Chaudronnerie et Hydromécanique",
+   "montant_acte_engagement": 1377978.0,
+   "montant_apres_verification": null,
+   "autres_montants": [
+    1377978.0
+   ],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Ste MACOBATE",
+   "montant_acte_engagement": 1139192.4,
+   "montant_apres_verification": null,
+   "autres_montants": [
+    1139192.4
+   ],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 2,
+ "alertes_ocr": [
+  "Attributaire non trouvé."
+ ],
+ "notes_ocr": [],
+ "qualite": "complet"
+}

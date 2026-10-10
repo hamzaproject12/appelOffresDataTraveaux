@@ -1,0 +1,97 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "682486",
+ "orgAcronyme": "d4q",
+ "reference_pv": null,
+ "nouveau": true,
+ "reference": null,
+ "objet": null,
+ "acheteur": null,
+ "procedure": "appel d'offres ouvert",
+ "categorie": "Travaux",
+ "date_limite_plis": "08/11/2022",
+ "lieu_ouverture": "Siège de la Direction Régionale de l'Ouest (DR4) Lotissement Al Qods - Kénitra - Maroc",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "06/12/2022",
+ "justification": "Moins-disant",
+ "infructueux": false,
+ "attributaire": "M-AMTM",
+ "montant_attribue": 4198992.0,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "GROUP OMOTAL TRAVAUX / HYDRAULIQUE DES CANAUX MAROC - MAROC",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "M-AMTM",
+   "montant_acte_engagement": 4198992.0,
+   "montant_apres_verification": null,
+   "autres_montants": [
+    4198992.0
+   ],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "OUMOUJANE TRAVAUX MAROC",
+   "montant_acte_engagement": 4478976.0,
+   "montant_apres_verification": null,
+   "autres_montants": [
+    4478976.0
+   ],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "ROUTEST MAROC",
+   "montant_acte_engagement": 4694880.0,
+   "montant_apres_verification": null,
+   "autres_montants": [
+    4694880.0
+   ],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "SMATRA MAROC",
+   "montant_acte_engagement": 4169580.0,
+   "montant_apres_verification": null,
+   "autres_montants": [
+    4169580.0
+   ],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "SOCIETE ADAM STD MAROC",
+   "montant_acte_engagement": 4993800.0,
+   "montant_apres_verification": null,
+   "autres_montants": [
+    4993800.0
+   ],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 6,
+ "alertes_ocr": [],
+ "notes_ocr": [
+  "Maître d'ouvrage absent du PV (utiliser l'acheteur public du portail)."
+ ],
+ "qualite": "complet"
+}

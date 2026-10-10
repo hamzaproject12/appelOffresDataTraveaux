@@ -1,0 +1,51 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "726481",
+ "orgAcronyme": "g3h",
+ "reference_pv": "50/2023/S2A",
+ "nouveau": true,
+ "reference": "50/2023/S2A",
+ "objet": "TRAVAUX DE CONSTRUCTION DES MURS DE CLOTURE, DE REFECTION ET DE MISE A NIVEAU DANS DIVERS AXES DE LA VILLE D’AGADIR - TRANCHE 2 ▪ Date d’ouverture des plis : Mardi 20/06/2023 à 10h00",
+ "acheteur": null,
+ "procedure": "appel d'offres ouvert",
+ "categorie": "Travaux",
+ "date_limite_plis": null,
+ "lieu_ouverture": null,
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": null,
+ "justification": null,
+ "infructueux": false,
+ "attributaire": "SOCIETE GCCR",
+ "montant_attribue": 10903800.0,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "SOCIETE ETIA",
+   "montant_acte_engagement": 13583400.0,
+   "montant_apres_verification": 13583400.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "SOCIETE GCCR",
+   "montant_acte_engagement": 10903800.0,
+   "montant_apres_verification": 10903800.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 2,
+ "alertes_ocr": [],
+ "notes_ocr": [
+  "Maître d'ouvrage absent du PV (utiliser l'acheteur public du portail)."
+ ],
+ "qualite": "complet"
+}

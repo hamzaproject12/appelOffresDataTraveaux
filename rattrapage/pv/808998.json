@@ -1,0 +1,77 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "808998",
+ "orgAcronyme": "g3h",
+ "reference_pv": "54/2024/Lot",
+ "nouveau": true,
+ "reference": "54/2024/Lot",
+ "objet": null,
+ "acheteur": null,
+ "procedure": "appel d'offres ouvert",
+ "categorie": "Travaux",
+ "date_limite_plis": "11/06/2024",
+ "lieu_ouverture": null,
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "26/06/2024",
+ "justification": "Le concurrent gfant rése (éake offre avantageuse. Le concurrent ayant présenté une offre avantageuse.",
+ "infructueux": false,
+ "attributaire": "Société AL IKHLAS TRAVAUX",
+ "montant_attribue": 3331596.0,
+ "attributaires_par_lot": [
+  {
+   "lot": null,
+   "attributaire": "Société AL IKHLAS TRAVAUX",
+   "montant": 3331596.0
+  },
+  {
+   "lot": null,
+   "attributaire": "Société RENOVATION BATIS EZ",
+   "montant": 5013201.0
+  }
+ ],
+ "soumissionnaires": [
+  {
+   "nom": "Société AL IKHLAS TRAVAUX",
+   "montant_acte_engagement": 3331596.0,
+   "montant_apres_verification": 6663192.0,
+   "autres_montants": [
+    6663192.0
+   ],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": true
+  },
+  {
+   "nom": "Société BEN SAGHROUNE",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_dossier_administratif_technique",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Société RENOVATION BATIS EZ",
+   "montant_acte_engagement": 5013201.0,
+   "montant_apres_verification": 10026402.0,
+   "autres_montants": [
+    10026402.0
+   ],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 3,
+ "alertes_ocr": [],
+ "notes_ocr": [
+  "« Société AL IKHLAS TRAVAUX » : montant rectifié de 3 331 596.00 à 6 663 192.00 DH.",
+  "« Société RENOVATION BATIS EZ » : montant rectifié de 5 013 201.00 à 10 026 402.00 DH.",
+  "Maître d'ouvrage absent du PV (utiliser l'acheteur public du portail)."
+ ],
+ "qualite": "attribution"
+}

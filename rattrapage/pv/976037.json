@@ -1,0 +1,132 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "976037",
+ "orgAcronyme": "o8p",
+ "reference_pv": "51/DPCR-ANP/2025",
+ "nouveau": true,
+ "reference": "51/DPCR-ANP/2025",
+ "objet": "Travaux de signalisation horizontale au Port de Casablanca",
+ "acheteur": "AGENCE NATIONALE DES PORTS, DIRECTION DU PORT DE CASABLANCA ET REGION",
+ "procedure": "appel d'offres ouvert national",
+ "categorie": "Travaux",
+ "date_limite_plis": "29/01/2026",
+ "lieu_ouverture": "DIRECTION DU PORT DE CASABLANCA ET REGION",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "10/02/2026",
+ "justification": null,
+ "infructueux": false,
+ "attributaire": "VIDAMENAGEMENT",
+ "montant_attribue": 342500.0,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "BEMOX INVEST SARL AU- TSDA SARL-SOCIETE",
+   "montant_acte_engagement": 340000.0,
+   "montant_apres_verification": null,
+   "autres_montants": [
+    408000.0,
+    680000.0,
+    816000.0
+   ],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "PROFESSIONNELLE DE SIGNALISATION SA- AKRAM ANOUAR BTP SARL AU- LA",
+   "montant_acte_engagement": 499000.0,
+   "montant_apres_verification": null,
+   "autres_montants": [
+    598800.0,
+    998000.0,
+    1197600.0
+   ],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "LIGNE BLANCHE SA- VIDAMENAGEMENT-DAR OUVRAGES SARL",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "depose",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "TSDA SARL",
+   "montant_acte_engagement": 362000.0,
+   "montant_apres_verification": null,
+   "autres_montants": [
+    434400.0,
+    724000.0,
+    868800.0
+   ],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "PR mr BTP SARL",
+   "montant_acte_engagement": 350500.0,
+   "montant_apres_verification": null,
+   "autres_montants": [
+    456600.0,
+    761000.0,
+    913200.0
+   ],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "LA LIGNE BLANCHE SA",
+   "montant_acte_engagement": 395500.0,
+   "montant_apres_verification": null,
+   "autres_montants": [
+    474600.0,
+    791000.0,
+    949200.0
+   ],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "DAR OUVRAGES SARL",
+   "montant_acte_engagement": 349000.0,
+   "montant_apres_verification": null,
+   "autres_montants": [
+    418800.0,
+    698000.0
+   ],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "VIDAMENAGEMENT",
+   "montant_acte_engagement": 342500.0,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 8,
+ "alertes_ocr": [
+  "« TSDA SARL » absent de la liste des plis déposés (nom mal lu ?).",
+  "« PR mr BTP SARL » absent de la liste des plis déposés (nom mal lu ?).",
+  "« LA LIGNE BLANCHE SA » absent de la liste des plis déposés (nom mal lu ?).",
+  "« DAR OUVRAGES SARL » absent de la liste des plis déposés (nom mal lu ?).",
+  "« VIDAMENAGEMENT » absent de la liste des plis déposés (nom mal lu ?)."
+ ],
+ "notes_ocr": [],
+ "qualite": "complet"
+}

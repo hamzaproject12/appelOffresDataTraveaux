@@ -1,0 +1,60 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "769445",
+ "orgAcronyme": "g3h",
+ "reference_pv": "166/23/ELEC",
+ "nouveau": true,
+ "reference": "166/23/ELEC",
+ "objet": "Travaux de normalisation du réseau Basse Tension de la ville de MARRAKECH-Guéliz",
+ "acheteur": "Régie Autonome de Distribution d’Eau et d’Electricité de MARRAKECH",
+ "procedure": "appel d'offres ouvert",
+ "categorie": "Travaux",
+ "date_limite_plis": "04/01/2024",
+ "lieu_ouverture": "au Siège de la RADEEMA Boulevard Mohamed VI MARRAKECH",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": null,
+ "justification": null,
+ "infructueux": true,
+ "attributaire": null,
+ "montant_attribue": null,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "ELEC TRIMAROC",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_dossier_administratif_technique",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "DAREL",
+   "montant_acte_engagement": 2846769.0,
+   "montant_apres_verification": null,
+   "autres_montants": [
+    3416122.8
+   ],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "JADDAH TRAVCO",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_offre_technique",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 3,
+ "alertes_ocr": [],
+ "notes_ocr": [],
+ "qualite": "attribution"
+}

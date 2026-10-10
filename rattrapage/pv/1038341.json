@@ -1,0 +1,57 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "1038341",
+ "orgAcronyme": "o8p",
+ "reference_pv": "13/DPCR-ANP/2026",
+ "nouveau": true,
+ "reference": "13/DPCR-ANP/2026",
+ "objet": "Travaux d'entretien des ouvrages en génie civil au port de Casablanca",
+ "acheteur": "AGENCE NATIONALE DES PORTS, DIRECTION DU PORT DE CASABLANCA ET REGION",
+ "procedure": null,
+ "categorie": "Travaux",
+ "date_limite_plis": null,
+ "lieu_ouverture": "DIRECTION DU PORT DE CASABLANCA ET REGION",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "08/09/2026",
+ "justification": null,
+ "infructueux": false,
+ "attributaire": "GROUPEMENT GLOBAL BUILDERS SARL AU ET MAJOR",
+ "montant_attribue": 1552450.0,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "BEMOX INVEST SARL AU/ GROUPEMENT",
+   "montant_acte_engagement": 1844150.0,
+   "montant_apres_verification": null,
+   "autres_montants": [
+    2212980.0,
+    3619500.0,
+    4343400.0
+   ],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "GROUPEMENT GLOBAL BUILDERS SARL AU ET MAJOR",
+   "montant_acte_engagement": 1552450.0,
+   "montant_apres_verification": null,
+   "autres_montants": [
+    1862940.0,
+    3050700.0,
+    3660840.0
+   ],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 2,
+ "alertes_ocr": [],
+ "notes_ocr": [],
+ "qualite": "complet"
+}

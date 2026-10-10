@@ -1,0 +1,49 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "1032607",
+ "orgAcronyme": "f9f",
+ "reference_pv": "07/COB/2026",
+ "nouveau": true,
+ "reference": "07/COB/2026",
+ "objet": "TRAVAUX D'APPROFONDISSEMENT D'UN PUITS A LA COMMUNE D'OULAD BERHIL",
+ "acheteur": "Commune Territoriale Oulad Berhil",
+ "procedure": "appel d'offres ouvert",
+ "categorie": "Travaux",
+ "date_limite_plis": "05/08/2026",
+ "lieu_ouverture": "La salle des réunions au siège de la commune",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "11/08/2026",
+ "justification": "Offre économiquement la plus avantageuse.",
+ "infructueux": false,
+ "attributaire": "STE TRAVAUX D'EAU SOLUTIONS SARL AU",
+ "montant_attribue": 256190.4,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "STE TRAVAUX D'EAU SOLUTIONS SARL AU",
+   "montant_acte_engagement": 256190.4,
+   "montant_apres_verification": 256190.4,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "STE SOURCE D’ESPOIR Sarl",
+   "montant_acte_engagement": 258300.0,
+   "montant_apres_verification": 258300.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 2,
+ "alertes_ocr": [],
+ "notes_ocr": [],
+ "qualite": "complet"
+}

@@ -1,0 +1,62 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "759164",
+ "orgAcronyme": "o8p",
+ "reference_pv": "62/2023-N",
+ "nouveau": true,
+ "reference": "62/2023-N",
+ "objet": "Travaux de reconstruction de la mosquée Agoudim à la comm",
+ "acheteur": null,
+ "procedure": "appel d'offres ouvert national",
+ "categorie": "Travaux",
+ "date_limite_plis": "15/11/2023",
+ "lieu_ouverture": "Bureau de Monsieur le Directeur Régional de l’ Agence Nationale des Equipements",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "27/11/2023",
+ "justification": "Les éléments contenus dans son dossier administratif et technique et son offre financière.",
+ "infructueux": false,
+ "attributaire": "Société CAP TP sarl",
+ "montant_attribue": 9791108.4,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "Société CAP TP sarl",
+   "montant_acte_engagement": 9791108.4,
+   "montant_apres_verification": 9791108.4,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Société SCOTIM sarl",
+   "montant_acte_engagement": 10057077.6,
+   "montant_apres_verification": 10057077.6,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Société CAP TP sorl",
+   "montant_acte_engagement": 9791108.4,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 3,
+ "alertes_ocr": [
+  "« Société CAP TP sorl » absent de la liste des plis déposés (nom mal lu ?)."
+ ],
+ "notes_ocr": [
+  "Maître d'ouvrage absent du PV (utiliser l'acheteur public du portail)."
+ ],
+ "qualite": "complet"
+}

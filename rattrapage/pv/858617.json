@@ -1,0 +1,79 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "858617",
+ "orgAcronyme": "a1t",
+ "reference_pv": "18/2024/INPT",
+ "nouveau": true,
+ "reference": "18/2024/INPT",
+ "objet": "d'assainissement des locaux de l'Institut National des Postes et Madinat Al Irfane, réparti en cinq (5) lots",
+ "acheteur": "Institut National des Postes et Télécommunications",
+ "procedure": "appel d'offres ouvert",
+ "categorie": "Travaux",
+ "date_limite_plis": "05/12/2024",
+ "lieu_ouverture": "INPT",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "10/12/2024",
+ "justification": "gs . d'évaluation.",
+ "infructueux": false,
+ "attributaire": "STE LOURIKI TRAVAUX",
+ "montant_attribue": 2042400.0,
+ "attributaires_par_lot": [
+  {
+   "lot": null,
+   "attributaire": "STE LOURIKI TRAVAUX",
+   "montant": 2042400.0
+  },
+  {
+   "lot": null,
+   "attributaire": "STE BATI HALIM",
+   "montant": 2222202.0
+  },
+  {
+   "lot": null,
+   "attributaire": "STE BATI HALIM - Lot",
+   "montant": 4885900.0
+  },
+  {
+   "lot": null,
+   "attributaire": "TASYS DE TRAVAUX PUBLIC",
+   "montant": 3184200.0
+  }
+ ],
+ "soumissionnaires": [
+  {
+   "nom": "STE BATI HALIM - Lot",
+   "montant_acte_engagement": 2222202.0,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": true
+  },
+  {
+   "nom": "STE LOURIKI TRAVAUX",
+   "montant_acte_engagement": 2042400.0,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "TASYS DE TRAVAUX PUBLIC",
+   "montant_acte_engagement": 3184200.0,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 3,
+ "alertes_ocr": [],
+ "notes_ocr": [],
+ "qualite": "attribution"
+}

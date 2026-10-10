@@ -1,0 +1,92 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "764790",
+ "orgAcronyme": "o8p",
+ "reference_pv": "214-23-AOO",
+ "nouveau": true,
+ "reference": "214-23-AOO",
+ "objet": "Travaux d'achèvement des installations Aéroportuaires à l'Aéroport de Dakhla",
+ "acheteur": "l'OFFICE NATIONAL DES AEROPORTS",
+ "procedure": "appel d'offres ouvert",
+ "categorie": "Travaux",
+ "date_limite_plis": "08/12/2023",
+ "lieu_ouverture": "La salle de réunion de la Direction des Achats et de la Logistique",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "14/12/2023",
+ "justification": "Moins-disant conforme.",
+ "infructueux": false,
+ "attributaire": "MOURGHI DE TRAVAUX",
+ "montant_attribue": 3481416.0,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "ASSAMR DE CONSTRUCTION",
+   "montant_acte_engagement": 3935022.0,
+   "montant_apres_verification": 3935022.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "GRAND TRAVAUX SAHARA",
+   "montant_acte_engagement": 4102752.0,
+   "montant_apres_verification": 4102752.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "DYNAMIC AMENAGEMENT",
+   "montant_acte_engagement": 4011660.0,
+   "montant_apres_verification": 4011660.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "MOURGHI DE TRAVAUX",
+   "montant_acte_engagement": 3481416.0,
+   "montant_apres_verification": 3481416.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "ZC TRAVAUX",
+   "montant_acte_engagement": 3481416.0,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_dossier_administratif_technique",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "SAHARA DYNAMIC",
+   "montant_acte_engagement": 4011660.0,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 6,
+ "alertes_ocr": [
+  "« ASSAMR DE CONSTRUCTION » absent de la liste des plis déposés (nom mal lu ?).",
+  "« GRAND TRAVAUX SAHARA » absent de la liste des plis déposés (nom mal lu ?).",
+  "« DYNAMIC AMENAGEMENT » absent de la liste des plis déposés (nom mal lu ?).",
+  "« MOURGHI DE TRAVAUX » absent de la liste des plis déposés (nom mal lu ?).",
+  "« ZC TRAVAUX » absent de la liste des plis déposés (nom mal lu ?).",
+  "« SAHARA DYNAMIC » absent de la liste des plis déposés (nom mal lu ?)."
+ ],
+ "notes_ocr": [],
+ "qualite": "complet"
+}

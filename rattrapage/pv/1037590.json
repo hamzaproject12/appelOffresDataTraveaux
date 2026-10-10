@@ -1,0 +1,57 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "1037590",
+ "orgAcronyme": "g3h",
+ "reference_pv": null,
+ "nouveau": true,
+ "reference": null,
+ "objet": null,
+ "acheteur": null,
+ "procedure": null,
+ "categorie": "Travaux",
+ "date_limite_plis": "19/08/2026",
+ "lieu_ouverture": null,
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "19/08/2026",
+ "justification": null,
+ "infructueux": true,
+ "attributaire": "TRCOM",
+ "montant_attribue": 1316931.0,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "TRCOM",
+   "montant_acte_engagement": 1316931.0,
+   "montant_apres_verification": null,
+   "autres_montants": [
+    2586576.0
+   ],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "GPT : LUCOMAR/ ENERGY MFADAL",
+   "montant_acte_engagement": 712240.8,
+   "montant_apres_verification": null,
+   "autres_montants": [
+    1437567.12
+   ],
+   "lots": [
+    "4"
+   ],
+   "statut": "ecarte_offre_financiere",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 2,
+ "alertes_ocr": [],
+ "notes_ocr": [
+  "Maître d'ouvrage absent du PV (utiliser l'acheteur public du portail)."
+ ],
+ "qualite": "complet"
+}

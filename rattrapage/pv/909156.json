@@ -1,0 +1,79 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "909156",
+ "orgAcronyme": "o8p",
+ "reference_pv": "06/2025/PR",
+ "nouveau": true,
+ "reference": "06/2025/PR",
+ "objet": "Travaux de réparation des dégâts de crues sur sections discontinues de la RP 1105 et la RP 1100",
+ "acheteur": "Madame la Directrice Provinciale de l'Equipement, du Transport et de la Logistique de Dakhla 12/06/2025 à 12H 30 mn",
+ "procedure": "appel d'offres ouvert",
+ "categorie": "Travaux",
+ "date_limite_plis": null,
+ "lieu_ouverture": "dans le bureau de Mad",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "24/06/2025",
+ "justification": null,
+ "infructueux": false,
+ "attributaire": null,
+ "montant_attribue": null,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "Sté GRAND TRAVAUX SAHARA",
+   "montant_acte_engagement": 5969940.0,
+   "montant_apres_verification": 5969940.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Sté GHOYOUM SAHARA TRAVAUX",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_dossier_administratif_technique",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Sté de construction AKOUJE",
+   "montant_acte_engagement": 6093661.2,
+   "montant_apres_verification": 6093661.2,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Sté M.S.H.Q",
+   "montant_acte_engagement": 6502476.0,
+   "montant_apres_verification": 6502476.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Grp: Sté ENDICOTRA & Sté SNGTRA",
+   "montant_acte_engagement": 5990292.0,
+   "montant_apres_verification": 5990292.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 5,
+ "alertes_ocr": [
+  "« Grp: Sté ENDICOTRA & Sté SNGTRA » absent de la liste des plis déposés (nom mal lu ?).",
+  "Attributaire non trouvé."
+ ],
+ "notes_ocr": [],
+ "qualite": "complet"
+}

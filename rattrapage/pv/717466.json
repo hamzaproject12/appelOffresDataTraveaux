@@ -1,0 +1,125 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "717466",
+ "orgAcronyme": "j8k",
+ "reference_pv": null,
+ "nouveau": true,
+ "reference": null,
+ "objet": "La réalisation des travaux de construction TCE de l’opération immobilière AL IHSAN, sis à la commune territoriale d’Agadir, Préfecture d’Agadir Ida Outanane",
+ "acheteur": null,
+ "procedure": null,
+ "categorie": "Travaux",
+ "date_limite_plis": "26/05/2023",
+ "lieu_ouverture": "Division des Marchés de la Société Al Omrane souss Massa",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "29/05/2023",
+ "justification": "Concurrent représentant l’offre la plus avantageuse.",
+ "infructueux": false,
+ "attributaire": "SICATRA",
+ "montant_attribue": 43901916.51,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "BATRAF *TAESSIS *SICATRA",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "SOTAMAC * SOKETRADOZ *YZO GROUPE",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "SORT",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_dossier_administratif_technique",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "YZO GROUPE",
+   "montant_acte_engagement": 58200000.0,
+   "montant_apres_verification": 57979287.53,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_offre_financiere",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "BATRAF",
+   "montant_acte_engagement": 49110775.71,
+   "montant_apres_verification": 49110775.71,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "TAESSIS",
+   "montant_acte_engagement": 44017875.09,
+   "montant_apres_verification": 44017875.09,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "SICATRA",
+   "montant_acte_engagement": 43901916.51,
+   "montant_apres_verification": 43901916.51,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "SOTAMAC",
+   "montant_acte_engagement": 54732447.42,
+   "montant_apres_verification": 54732447.42,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "SOKETRADOZ",
+   "montant_acte_engagement": 45451123.08,
+   "montant_apres_verification": 45451123.08,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 9,
+ "alertes_ocr": [
+  "« YZO GROUPE » absent de la liste des plis déposés (nom mal lu ?).",
+  "« BATRAF » absent de la liste des plis déposés (nom mal lu ?).",
+  "« TAESSIS » absent de la liste des plis déposés (nom mal lu ?).",
+  "« SICATRA » absent de la liste des plis déposés (nom mal lu ?).",
+  "« SOTAMAC » absent de la liste des plis déposés (nom mal lu ?).",
+  "« SOKETRADOZ » absent de la liste des plis déposés (nom mal lu ?)."
+ ],
+ "notes_ocr": [
+  "« BATRAF *TAESSIS *SICATRA » absent de la liste des plis déposés (nom mal lu ?).",
+  "« SOTAMAC * SOKETRADOZ *YZO GROUPE » absent de la liste des plis déposés (nom mal lu ?).",
+  "« SORT » absent de la liste des plis déposés (nom mal lu ?).",
+  "« YZO GROUPE » : montant rectifié de 58 200 000.00 à 57 979 287.53 DH.",
+  "Maître d'ouvrage absent du PV (utiliser l'acheteur public du portail)."
+ ],
+ "qualite": "complet"
+}

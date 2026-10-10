@@ -1,0 +1,64 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "750665",
+ "orgAcronyme": "p8x",
+ "reference_pv": "22/2023/CH/INV",
+ "nouveau": true,
+ "reference": "22/2023/CH/INV",
+ "objet": null,
+ "acheteur": null,
+ "procedure": "appel d'offres ouvert",
+ "categorie": "Travaux",
+ "date_limite_plis": null,
+ "lieu_ouverture": null,
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "27/10/2023",
+ "justification": " Candidats ayant de bonnes références techniques, administratives et financières.  Les prix sont avantageux pour l’Administration, les offres financières ont été jugées les plus intéressantes par la commission chargée de l’ouverture des plis.",
+ "infructueux": false,
+ "attributaire": "Sté Albeton Spécial de Travaux sarl - Laâyoune",
+ "montant_attribue": 470400.0,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "Sté SOKETRAMED sarl – Ouarzazate",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_dossier_administratif_technique",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Sté KS2M BAT sarl - Mohammedia",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_dossier_administratif_technique",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Sté Albeton Spécial de Travaux sarl - Laâyoune",
+   "montant_acte_engagement": 470400.0,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 3,
+ "alertes_ocr": [
+  "« Sté Albeton Spécial de Travaux sarl - Laâyoune » absent de la liste des plis déposés (nom mal lu ?)."
+ ],
+ "notes_ocr": [
+  "« Sté SOKETRAMED sarl – Ouarzazate » absent de la liste des plis déposés (nom mal lu ?).",
+  "« Sté KS2M BAT sarl - Mohammedia » absent de la liste des plis déposés (nom mal lu ?).",
+  "Maître d'ouvrage absent du PV (utiliser l'acheteur public du portail)."
+ ],
+ "qualite": "attribution"
+}

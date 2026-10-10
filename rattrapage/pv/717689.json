@@ -1,0 +1,67 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "717689",
+ "orgAcronyme": "g8e",
+ "reference_pv": null,
+ "nouveau": true,
+ "reference": null,
+ "objet": null,
+ "acheteur": "Direction Générales des Impôts",
+ "procedure": null,
+ "categorie": "Travaux",
+ "date_limite_plis": "03/05/2023",
+ "lieu_ouverture": "Impôts",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "26/05/2023",
+ "justification": "Offre financière la moins disante.",
+ "infructueux": false,
+ "attributaire": "Sté. ZAHID",
+ "montant_attribue": 4215000.0,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "Sté. ACHRAF CLIM",
+   "montant_acte_engagement": 4393545.79,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Sté. ZAHID",
+   "montant_acte_engagement": 4215000.0,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": true
+  },
+  {
+   "nom": "Sté. PROMETI",
+   "montant_acte_engagement": 4292586.0,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Sté. INDUSTRIE EQUIPEMENTS",
+   "montant_acte_engagement": 5185921.2,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_offre_financiere",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 4,
+ "alertes_ocr": [],
+ "notes_ocr": [],
+ "qualite": "complet"
+}

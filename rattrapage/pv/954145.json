@@ -1,0 +1,51 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "954145",
+ "orgAcronyme": "a1t",
+ "reference_pv": "109/2025/ADHA",
+ "nouveau": true,
+ "reference": "109/2025/ADHA",
+ "objet": null,
+ "acheteur": "L'AGENCE DE DEVELOPPEMNT DU HAUT ATLAS",
+ "procedure": null,
+ "categorie": "Travaux",
+ "date_limite_plis": "04/11/2025",
+ "lieu_ouverture": "Salle de réunions de la DIRECTION PROVINCIALE DE L'AGRICULTURE MARRAKECH",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": null,
+ "justification": null,
+ "infructueux": false,
+ "attributaire": null,
+ "montant_attribue": null,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "ARIHI TRAVAUX",
+   "montant_acte_engagement": 2457474.0,
+   "montant_apres_verification": 2457474.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "OSSABID TRAVAUX",
+   "montant_acte_engagement": 2382498.0,
+   "montant_apres_verification": 2382498.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_dossier_administratif_technique",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 2,
+ "alertes_ocr": [
+  "Attributaire non trouvé."
+ ],
+ "notes_ocr": [],
+ "qualite": "complet"
+}

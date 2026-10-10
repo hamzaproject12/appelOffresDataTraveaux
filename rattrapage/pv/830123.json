@@ -1,0 +1,61 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "830123",
+ "orgAcronyme": "t5y",
+ "reference_pv": null,
+ "nouveau": true,
+ "reference": null,
+ "objet": "« TRAVAUX DE BRANCHEMENT EN MOYEN TENSION DU POSTE DE TRANSFORMATION DE 160 KVA DU CENTRE JUDICIAIRE DE GHAFSAI EN LOT UNIQUE. »",
+ "acheteur": "Le Ministre de la justice représenté par Monsieur le Sous Directeur régional auprès de la Cour d’Appel de Fès",
+ "procedure": null,
+ "categorie": "Travaux",
+ "date_limite_plis": "04/09/2024",
+ "lieu_ouverture": "la salle des réunions de la S/ Direction Régionale près de la cour d’appel de Fès",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "20/09/2024",
+ "justification": "L’offre financière économiquement la plus avantageuse .",
+ "infructueux": false,
+ "attributaire": null,
+ "montant_attribue": null,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "STARA ELEC",
+   "montant_acte_engagement": 542820.0,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_offre_financiere",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "DAR ELEC",
+   "montant_acte_engagement": 481056.0,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_offre_financiere",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "STE SEVIELEC",
+   "montant_acte_engagement": 474960.0,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 3,
+ "alertes_ocr": [
+  "« STE SEVIELEC » absent de la liste des plis déposés (nom mal lu ?).",
+  "Attributaire non trouvé."
+ ],
+ "notes_ocr": [],
+ "qualite": "complet"
+}

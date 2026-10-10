@@ -1,0 +1,84 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "970545",
+ "orgAcronyme": "q0x",
+ "reference_pv": "43/2025",
+ "nouveau": true,
+ "reference": "43/2025",
+ "objet": "TRAVAUX D’ACHEVEMENT DE L’'AMENAGEMENT DU BOULEVARD ZERKTOUNI À LA COMMUNE DE KHENIFRA TRANCHE 1 ENTRE GIRATOIRE > ARE ROUTIERE ET SIEGE COMMUNE AGELMAM AZEGZA",
+ "acheteur": "Commune de Khénifra",
+ "procedure": "appel d'offres ouvert",
+ "categorie": "Travaux",
+ "date_limite_plis": "13/01/2026",
+ "lieu_ouverture": "Bureau du Président",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": null,
+ "justification": null,
+ "infructueux": false,
+ "attributaire": null,
+ "montant_attribue": null,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "STE CONSTRUCTION ET TRAVAUX RO",
+   "montant_acte_engagement": 48478160.4,
+   "montant_apres_verification": 48478160.4,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "ETS 3F DE REVETEMENT ROUTIERE",
+   "montant_acte_engagement": 52505634.06,
+   "montant_apres_verification": 52505634.06,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Manque de caution provisoire",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_dossier_administratif_technique",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "conformes à l’article 11 du R.C",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_dossier_administratif_technique",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "STE SOCADELEG ssssscssssssssasssssssunessssss",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_offre_financiere",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 5,
+ "alertes_ocr": [
+  "« STE CONSTRUCTION ET TRAVAUX RO » absent de la liste des plis déposés (nom mal lu ?).",
+  "« ETS 3F DE REVETEMENT ROUTIERE » absent de la liste des plis déposés (nom mal lu ?).",
+  "Attributaire non trouvé."
+ ],
+ "notes_ocr": [
+  "« Manque de caution provisoire » absent de la liste des plis déposés (nom mal lu ?).",
+  "« conformes à l’article 11 du R.C » absent de la liste des plis déposés (nom mal lu ?).",
+  "« STE SOCADELEG ssssscssssssssasssssssunessssss » absent de la liste des plis déposés (nom mal lu ?)."
+ ],
+ "qualite": "complet"
+}

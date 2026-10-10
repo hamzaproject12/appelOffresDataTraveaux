@@ -1,0 +1,51 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "705775",
+ "orgAcronyme": "j8k",
+ "reference_pv": null,
+ "nouveau": true,
+ "reference": null,
+ "objet": null,
+ "acheteur": "AL OMRANE AL JANOUB",
+ "procedure": "appel d'offres ouvert",
+ "categorie": "Travaux",
+ "date_limite_plis": "29/03/2023",
+ "lieu_ouverture": "LAAYOUNE",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "07/04/2023",
+ "justification": null,
+ "infructueux": false,
+ "attributaire": "AZYOSLI",
+ "montant_attribue": 5830740.0,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "AZYOSLI",
+   "montant_acte_engagement": 5830740.0,
+   "montant_apres_verification": 5830740.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "MP PROJECT",
+   "montant_acte_engagement": 7144396.0,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_offre_financiere",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 2,
+ "alertes_ocr": [],
+ "notes_ocr": [
+  "Montants exprimés hors taxes (HT)."
+ ],
+ "qualite": "complet"
+}

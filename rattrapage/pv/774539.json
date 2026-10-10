@@ -1,0 +1,51 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "774539",
+ "orgAcronyme": "d4q",
+ "reference_pv": null,
+ "nouveau": true,
+ "reference": null,
+ "objet": "TRAVAUX D'ENTRETIEN DU RESEAU D’ASSAINISSEMENT AU CENTRE GHAFSAI",
+ "acheteur": null,
+ "procedure": "appel d'offres ouvert",
+ "categorie": "Travaux",
+ "date_limite_plis": "16/01/2024",
+ "lieu_ouverture": "au Siège de la Direction Régionale du Centre Nord (DR5)88 rue du Soudan, Ville nouvelle - Fès - Maroc",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "13/02/2024",
+ "justification": "Moins-disant",
+ "infructueux": false,
+ "attributaire": "Entreprise ANOUAR DES TRAVAUX",
+ "montant_attribue": 373380.0,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "Entreprise ANOUAR DES TRAVAUX",
+   "montant_acte_engagement": 373380.0,
+   "montant_apres_verification": 373380.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "HYDRAULIQUE ET BATIMENTS",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 2,
+ "alertes_ocr": [],
+ "notes_ocr": [
+  "Maître d'ouvrage absent du PV (utiliser l'acheteur public du portail)."
+ ],
+ "qualite": "attribution"
+}

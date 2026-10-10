@@ -1,0 +1,64 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "931261",
+ "orgAcronyme": "g3h",
+ "reference_pv": "154/2025/S2A",
+ "nouveau": true,
+ "reference": "154/2025/S2A",
+ "objet": "TRAVAUX D’AMENAGEMENT EXTERIEUR DU CENTRE D’EPANOUISSEMENT A ANZA",
+ "acheteur": null,
+ "procedure": "appel d'offres ouvert",
+ "categorie": "Travaux",
+ "date_limite_plis": null,
+ "lieu_ouverture": null,
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": null,
+ "justification": null,
+ "infructueux": false,
+ "attributaire": "GROUPEMENT SOCIETE VERACRUZ &",
+ "montant_attribue": 2628900.0,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "SOCIETE EL BAZ TRAVAUX D'AMENAGEMENT ET DECORATION",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": true
+  },
+  {
+   "nom": "SOCIETE ORTIS MAROC",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": true
+  },
+  {
+   "nom": "GROUPEMENT SOCIETE VERACRUZ &",
+   "montant_acte_engagement": 2628900.0,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": true
+  }
+ ],
+ "nombre_soumissionnaires": 3,
+ "alertes_ocr": [
+  "« GROUPEMENT SOCIETE VERACRUZ & » absent de la liste des plis déposés (nom mal lu ?)."
+ ],
+ "notes_ocr": [
+  "« SOCIETE EL BAZ TRAVAUX D'AMENAGEMENT ET DECORATION » absent de la liste des plis déposés (nom mal lu ?).",
+  "« SOCIETE ORTIS MAROC » absent de la liste des plis déposés (nom mal lu ?).",
+  "Maître d'ouvrage absent du PV (utiliser l'acheteur public du portail)."
+ ],
+ "qualite": "attribution"
+}

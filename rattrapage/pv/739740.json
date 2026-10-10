@@ -1,0 +1,83 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "739740",
+ "orgAcronyme": "d4q",
+ "reference_pv": null,
+ "nouveau": true,
+ "reference": null,
+ "objet": null,
+ "acheteur": null,
+ "procedure": null,
+ "categorie": "Travaux",
+ "date_limite_plis": "16/06/2022",
+ "lieu_ouverture": "Siège de la Direction Régionale Distribution Agadir",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "31/08/2023",
+ "justification": "L'offre proposée par le soumissionnaire « Sté KAZINOV» s’écarte d’un taux acceptable de +10,41 % par rapport à l’estimation",
+ "infructueux": false,
+ "attributaire": "Sté KAZINOV",
+ "montant_attribue": 3756000.0,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "Sté AUTOMELEC",
+   "montant_acte_engagement": 3572970.79,
+   "montant_apres_verification": 3522000.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_offre_financiere",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "GUERMA CONSULTING et Société KAZINOV",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_offre_financiere",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Sté KAZINOV",
+   "montant_acte_engagement": 3756000.0,
+   "montant_apres_verification": 3756000.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Sté INGC",
+   "montant_acte_engagement": 4021306.8,
+   "montant_apres_verification": 4021306.8,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Sté NAXU",
+   "montant_acte_engagement": 4069800.0,
+   "montant_apres_verification": 4069800.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 5,
+ "alertes_ocr": [
+  "« Sté KAZINOV » absent de la liste des plis déposés (nom mal lu ?).",
+  "« Sté INGC » absent de la liste des plis déposés (nom mal lu ?).",
+  "« Sté NAXU » absent de la liste des plis déposés (nom mal lu ?)."
+ ],
+ "notes_ocr": [
+  "« Sté AUTOMELEC » : montant rectifié de 3 572 970.79 à 3 522 000.00 DH.",
+  "Maître d'ouvrage absent du PV (utiliser l'acheteur public du portail)."
+ ],
+ "qualite": "complet"
+}

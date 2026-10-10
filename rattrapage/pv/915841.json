@@ -1,0 +1,64 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "915841",
+ "orgAcronyme": "g3h",
+ "reference_pv": "85/2025/S2A",
+ "nouveau": true,
+ "reference": "85/2025/S2A",
+ "objet": "TRAVAUX DE REALISATION DU LYCEE QUALIFIANT IBRAHIM AL ROUDANI SIS A LA COMMUNE D’AGADIR RELEVANT DE LA PREFECTURE D’AGADIR IDA OUTANANE- PROGRAMME 2024-",
+ "acheteur": null,
+ "procedure": "appel d'offres ouvert",
+ "categorie": "Travaux",
+ "date_limite_plis": null,
+ "lieu_ouverture": null,
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": null,
+ "justification": null,
+ "infructueux": false,
+ "attributaire": "SOCIETE ENTREPRISE HARZI FRERES",
+ "montant_attribue": 14002406.1,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "SOCIETE EBEP",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": true
+  },
+  {
+   "nom": "SOCIETE TIZAL CONSTRUCTION",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": true
+  },
+  {
+   "nom": "SOCIETE ENTREPRISE HARZI FRERES",
+   "montant_acte_engagement": 14002406.1,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 3,
+ "alertes_ocr": [
+  "« SOCIETE ENTREPRISE HARZI FRERES » absent de la liste des plis déposés (nom mal lu ?)."
+ ],
+ "notes_ocr": [
+  "« SOCIETE EBEP » absent de la liste des plis déposés (nom mal lu ?).",
+  "« SOCIETE TIZAL CONSTRUCTION » absent de la liste des plis déposés (nom mal lu ?).",
+  "Maître d'ouvrage absent du PV (utiliser l'acheteur public du portail)."
+ ],
+ "qualite": "attribution"
+}

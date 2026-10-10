@@ -1,0 +1,76 @@
+{
+ "source": "extrait_docx",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "714556",
+ "orgAcronyme": "p8x",
+ "reference_pv": "01J/INV/2023",
+ "nouveau": true,
+ "reference": "01J/INV/2023",
+ "objet": "L’APPEL D’OFFRES AU « RABAIS OU A MAJORATION » N° 01J/INV/2023 du 05/05/2023 à 10H",
+ "acheteur": null,
+ "procedure": null,
+ "categorie": "Travaux",
+ "date_limite_plis": null,
+ "lieu_ouverture": null,
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": null,
+ "justification": null,
+ "infructueux": false,
+ "attributaire": "Société KNAB SARL AU",
+ "montant_attribue": 5589417.07,
+ "attributaires_par_lot": [
+  {
+   "lot": null,
+   "attributaire": "Société KNAB SARL AU",
+   "montant": 5589417.07
+  },
+  {
+   "lot": null,
+   "attributaire": "Société Z 2 K BUILDING SARL",
+   "montant": 5589417.07
+  },
+  {
+   "lot": null,
+   "attributaire": "Société ZAHRAT EL FARAH SARL",
+   "montant": 4397272.14
+  }
+ ],
+ "soumissionnaires": [
+  {
+   "nom": "Société KNAB SARL AU",
+   "montant_acte_engagement": 5589417.07,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Société Z 2 K BUILDING SARL",
+   "montant_acte_engagement": 5589417.07,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Société ZAHRAT EL FARAH SARL",
+   "montant_acte_engagement": 4397272.14,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 3,
+ "alertes_ocr": [],
+ "notes_ocr": [
+  "Maître d'ouvrage absent du PV (utiliser l'acheteur public du portail)."
+ ],
+ "qualite": "attribution"
+}

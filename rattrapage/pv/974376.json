@@ -1,0 +1,62 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "974376",
+ "orgAcronyme": "s3z",
+ "reference_pv": null,
+ "nouveau": true,
+ "reference": null,
+ "objet": null,
+ "acheteur": "commune de Laghoualem",
+ "procedure": null,
+ "categorie": "Travaux",
+ "date_limite_plis": "20/01/2026",
+ "lieu_ouverture": "bureau du président de la commune de laghoualem",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "03/02/2026",
+ "justification": "offre mieux -disante",
+ "infructueux": false,
+ "attributaire": "Sté. TRCOM SARL",
+ "montant_attribue": 1429676.56,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "Sté. TRCOM SARL",
+   "montant_acte_engagement": 1429676.56,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Sté. ELECTRO 1AFOGHALT SARL",
+   "montant_acte_engagement": 1482315.46,
+   "montant_apres_verification": 1482315.46,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_offre_financiere",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Sté, TRCOM SARL 5 ny",
+   "montant_acte_engagement": 1429676.56,
+   "montant_apres_verification": 1429676.56,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 3,
+ "alertes_ocr": [
+  "« Sté. TRCOM SARL » absent de la liste des plis déposés (nom mal lu ?).",
+  "« Sté. ELECTRO 1AFOGHALT SARL » absent de la liste des plis déposés (nom mal lu ?).",
+  "« Sté, TRCOM SARL 5 ny » absent de la liste des plis déposés (nom mal lu ?)."
+ ],
+ "notes_ocr": [],
+ "qualite": "complet"
+}

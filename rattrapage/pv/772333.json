@@ -1,0 +1,67 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "772333",
+ "orgAcronyme": "g8e",
+ "reference_pv": null,
+ "nouveau": true,
+ "reference": null,
+ "objet": "Construction des blocs de classes d'enseignement primaire et préscolaire dans la province de Kenitra travaux tous corps d'état en quatre lot sépares non cumulable LOT 1 : : Primaire : AI Yanabi, Ouled Ouijih 1 et Abi Oubaida Bnou Aljarrah",
+ "acheteur": null,
+ "procedure": null,
+ "categorie": "Travaux",
+ "date_limite_plis": "03/01/2024",
+ "lieu_ouverture": "Bureau de la Société Rabat Région Aménagement au 9, Place Al Joulane — Rabat",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "30/01/2024",
+ "justification": "Offre conforme aux exigences du Règlement de la consultation et moins disante",
+ "infructueux": true,
+ "attributaire": "Société WINARUS ING",
+ "montant_attribue": 7131612.0,
+ "attributaires_par_lot": [
+  {
+   "lot": "1",
+   "attributaire": "Société WINARUS ING",
+   "montant": 7131612.0
+  },
+  {
+   "lot": "4",
+   "attributaire": "Groupement VIKAT ET ANATRA",
+   "montant": 6926295.6
+  }
+ ],
+ "soumissionnaires": [
+  {
+   "nom": "Groupement VIKAT ET ANATRA",
+   "montant_acte_engagement": 6926295.6,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [
+    "4"
+   ],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Société WINARUS ING",
+   "montant_acte_engagement": 7131612.0,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [
+    "1"
+   ],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 2,
+ "alertes_ocr": [],
+ "notes_ocr": [
+  "Marché alloti (2 lots).",
+  "Maître d'ouvrage absent du PV (utiliser l'acheteur public du portail)."
+ ],
+ "qualite": "attribution"
+}

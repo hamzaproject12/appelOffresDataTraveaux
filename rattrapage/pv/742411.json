@@ -1,0 +1,51 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "742411",
+ "orgAcronyme": "a1z",
+ "reference_pv": "7/AM/2023",
+ "nouveau": true,
+ "reference": "7/AM/2023",
+ "objet": "TRAVAUX D'AMENAGEMENT DE",
+ "acheteur": "Le président de l'arrondissement Masrif",
+ "procedure": null,
+ "categorie": "Travaux",
+ "date_limite_plis": "12/06/2023",
+ "lieu_ouverture": "Bureau de Mr le président de l'Arrondissement Le matin et le sahara Le portail marocain des marchés publics",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "03/07/2023",
+ "justification": "offre la plus avantageuse,",
+ "infructueux": false,
+ "attributaire": null,
+ "montant_attribue": null,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "SOCIETE MAIÎTRE DU BATIMENT",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_dossier_administratif_technique",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Société BOURANIME SARL",
+   "montant_acte_engagement": 2576640.0,
+   "montant_apres_verification": 2576640.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 2,
+ "alertes_ocr": [
+  "Attributaire non trouvé."
+ ],
+ "notes_ocr": [],
+ "qualite": "attribution"
+}

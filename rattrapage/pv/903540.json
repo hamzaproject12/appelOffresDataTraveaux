@@ -1,0 +1,55 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "903540",
+ "orgAcronyme": "d4q",
+ "reference_pv": "22/DR6/C/2025",
+ "nouveau": true,
+ "reference": "22/DR6/C/2025",
+ "objet": "Entretien et réparation des groupes électropompes au niveau du Secteur de Production Nador-Driouch et Guercif",
+ "acheteur": null,
+ "procedure": "appel d'offres ouvert",
+ "categorie": "Travaux",
+ "date_limite_plis": "29/05/2025",
+ "lieu_ouverture": null,
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "05/06/2025",
+ "justification": "Moins-disant",
+ "infructueux": false,
+ "attributaire": "HASSAN TECH MAROC",
+ "montant_attribue": 1211220.0,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "HASSAN TECH MAROC",
+   "montant_acte_engagement": 1211220.0,
+   "montant_apres_verification": null,
+   "autres_montants": [
+    1211220.0
+   ],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "RESP (RESEAUX ET STATION DE POMPAGE) MAROC",
+   "montant_acte_engagement": 1564800.0,
+   "montant_apres_verification": null,
+   "autres_montants": [
+    1564800.0
+   ],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 2,
+ "alertes_ocr": [],
+ "notes_ocr": [
+  "Maître d'ouvrage absent du PV (utiliser l'acheteur public du portail)."
+ ],
+ "qualite": "complet"
+}

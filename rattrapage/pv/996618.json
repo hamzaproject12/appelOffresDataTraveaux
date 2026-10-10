@@ -1,0 +1,95 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "996618",
+ "orgAcronyme": "w7t",
+ "reference_pv": "07/2026/DRANEF-SM/DPANEF/Ag",
+ "nouveau": true,
+ "reference": "07/2026/DRANEF-SM/DPANEF/Ag",
+ "objet": "l'exécution des travaux de régénération au profit de la Direction Provinciale de l’Agence",
+ "acheteur": "Le directeur provincial de l'Agence Nationale desEaux et Forestd’Agadir",
+ "procedure": "appel d'offres ouvert national",
+ "categorie": "Travaux",
+ "date_limite_plis": "08/04/2026",
+ "lieu_ouverture": "La salle de réunion de la DRANEF Souss-Massa",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "16/04/2026",
+ "justification": "aire : L'offre économiquement la plus avantageuse.",
+ "infructueux": true,
+ "attributaire": "STE AZOURKI TRAVAUX SARL",
+ "montant_attribue": null,
+ "attributaires_par_lot": [
+  {
+   "lot": null,
+   "attributaire": "STE AZOURKI TRAVAUX SARL",
+   "montant": null
+  },
+  {
+   "lot": null,
+   "attributaire": "STE GIR-LAND SARL",
+   "montant": null
+  },
+  {
+   "lot": null,
+   "attributaire": "IBNELHAFIDZ ABDELLAH",
+   "montant": 300376.8
+  }
+ ],
+ "soumissionnaires": [
+  {
+   "nom": "IBNELHAFIDZ ABDELLAH",
+   "montant_acte_engagement": 300376.8,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "ENTREPRISE OUENZAROUENZAR SARL",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "depose",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "ENTREPRISE OUENZAR SARL",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "STE GIR-LAND SARL",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "STE AZOURKI TRAVAUX SARL",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 5,
+ "alertes_ocr": [
+  "Montant de l'attributaire « STE AZOURKI TRAVAUX SARL » non trouvé.",
+  "Montant de l'attributaire « STE GIR-LAND SARL » non trouvé."
+ ],
+ "notes_ocr": [],
+ "qualite": "attribution"
+}

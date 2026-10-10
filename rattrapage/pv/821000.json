@@ -1,0 +1,103 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "821000",
+ "orgAcronyme": "o8p",
+ "reference_pv": "03/SNTL",
+ "nouveau": true,
+ "reference": "03/SNTL",
+ "objet": "Travaux d'aménagement des agences SNTL Assurances à Casablanca et Agadir",
+ "acheteur": "SNTL Assurances",
+ "procedure": null,
+ "categorie": "Travaux",
+ "date_limite_plis": "01/08/2024",
+ "lieu_ouverture": "Siège SNTL Rabat",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "06/08/2024",
+ "justification": null,
+ "infructueux": false,
+ "attributaire": "RA.BA.VI.PE",
+ "montant_attribue": 409882.8,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "RA.BA.VI.PE",
+   "montant_acte_engagement": 409883.36,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "FASOFT",
+   "montant_acte_engagement": 410544.0,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "SOBDITRAD",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "depose",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "GLOB TRAVAUX DIVERS",
+   "montant_acte_engagement": 411756.0,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "COSTRABEN",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "depose",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "STE NAJISER",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "depose",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "ARTJOB",
+   "montant_acte_engagement": 431616.0,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": true
+  },
+  {
+   "nom": "STE AIT ALLAM",
+   "montant_acte_engagement": 508728.0,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": true
+  }
+ ],
+ "nombre_soumissionnaires": 8,
+ "alertes_ocr": [],
+ "notes_ocr": [],
+ "qualite": "complet"
+}

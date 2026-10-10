@@ -1,0 +1,103 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "812198",
+ "orgAcronyme": "a1z",
+ "reference_pv": null,
+ "nouveau": true,
+ "reference": null,
+ "objet": "Travaux D’aménagement Du Boulevard Abdelkader Sahraoui En Deux Lots Séparés",
+ "acheteur": null,
+ "procedure": null,
+ "categorie": "Travaux",
+ "date_limite_plis": "27/02/2024",
+ "lieu_ouverture": "la salle des réunions de la Commune de",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "07/03/2024",
+ "justification": "l’offre la plus avantageuse. [QG \\",
+ "infructueux": false,
+ "attributaire": "ATLAS TRAVAUX PUBLIC",
+ "montant_attribue": 39606312.0,
+ "attributaires_par_lot": [
+  {
+   "lot": "1",
+   "attributaire": "ATLAS TRAVAUX PUBLIC",
+   "montant": 39606312.0
+  },
+  {
+   "lot": "2",
+   "attributaire": "GRANDS TRAVAUX ROUTIERS",
+   "montant": 47789083.56
+  }
+ ],
+ "soumissionnaires": [
+  {
+   "nom": "VIAS",
+   "montant_acte_engagement": 41829813.6,
+   "montant_apres_verification": 41829813.6,
+   "autres_montants": [
+    47950344.0
+   ],
+   "lots": [
+    "1"
+   ],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "GROUP MOJAZINE",
+   "montant_acte_engagement": 41594442.0,
+   "montant_apres_verification": 41594442.0,
+   "autres_montants": [
+    48546159.0
+   ],
+   "lots": [
+    "1"
+   ],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "ATLAS TRAVAUX PUBLIC",
+   "montant_acte_engagement": 39606312.0,
+   "montant_apres_verification": 39606312.0,
+   "autres_montants": [
+    48432084.0
+   ],
+   "lots": [
+    "1"
+   ],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "GRANDS TRAVAUX ROUTIERS",
+   "montant_acte_engagement": 41709567.6,
+   "montant_apres_verification": 41709567.6,
+   "autres_montants": [
+    47789083.56
+   ],
+   "lots": [
+    "1",
+    "2"
+   ],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 4,
+ "alertes_ocr": [
+  "« VIAS » absent de la liste des plis déposés (nom mal lu ?).",
+  "« GROUP MOJAZINE » absent de la liste des plis déposés (nom mal lu ?).",
+  "« ATLAS TRAVAUX PUBLIC » absent de la liste des plis déposés (nom mal lu ?).",
+  "« GRANDS TRAVAUX ROUTIERS » absent de la liste des plis déposés (nom mal lu ?)."
+ ],
+ "notes_ocr": [
+  "Marché alloti (2 lots).",
+  "Maître d'ouvrage absent du PV (utiliser l'acheteur public du portail)."
+ ],
+ "qualite": "complet"
+}

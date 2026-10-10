@@ -1,0 +1,78 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "969089",
+ "orgAcronyme": "g3h",
+ "reference_pv": "19/2025/DAU",
+ "nouveau": true,
+ "reference": "19/2025/DAU",
+ "objet": "Appel d'offres ouvert international sur offres de prix n° 19/2025/DAU relatif aux travaux d'aménagement du bâtiment Annexe et de réfection du siège de l'Agence Urbaine de Casablanca",
+ "acheteur": "L'Agence Urbaine de Casablanca",
+ "procedure": "appel d'offres ouvert international",
+ "categorie": "Travaux",
+ "date_limite_plis": "19/12/2025",
+ "lieu_ouverture": "L'Agence Urbaine de Casablanca",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "06/01/2026",
+ "justification": "Dossier de soumission conforme et offre la mieux disante par rapport au prix de référence.",
+ "infructueux": false,
+ "attributaire": "HIDAMEK Sarl",
+ "montant_attribue": 13186260.0,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "HIDAMEK Sarl",
+   "montant_acte_engagement": 13186260.0,
+   "montant_apres_verification": 13186260.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "TRAVAUX MNG",
+   "montant_acte_engagement": 13201548.0,
+   "montant_apres_verification": 13345548.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_offre_financiere",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "MATRANEG Sarl",
+   "montant_acte_engagement": 14452194.0,
+   "montant_apres_verification": 14452194.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_offre_financiere",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "ANALI BTP Sarl au",
+   "montant_acte_engagement": 14171286.0,
+   "montant_apres_verification": 14171286.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_offre_financiere",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "GEROA Sarl",
+   "montant_acte_engagement": 15699595.2,
+   "montant_apres_verification": 15699595.2,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_offre_financiere",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 5,
+ "alertes_ocr": [],
+ "notes_ocr": [
+  "« TRAVAUX MNG » : montant rectifié de 13 201 548.00 à 13 345 548.00 DH."
+ ],
+ "qualite": "complet"
+}

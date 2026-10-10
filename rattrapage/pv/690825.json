@@ -1,0 +1,108 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "690825",
+ "orgAcronyme": "d4q",
+ "reference_pv": null,
+ "nouveau": true,
+ "reference": null,
+ "objet": null,
+ "acheteur": null,
+ "procedure": "appel d'offres ouvert",
+ "categorie": "Travaux",
+ "date_limite_plis": "02/11/2022",
+ "lieu_ouverture": "à la Salle d'ouverture de l'Immeuble G - Avenue Mohämed : Belhassan El Ouazzani - Rabat",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": null,
+ "justification": null,
+ "infructueux": false,
+ "attributaire": "QUALITE DU SUD - Variante",
+ "montant_attribue": 4475016.0,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "GTR A di",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "depose",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "AZLOU MAROC",
+   "montant_acte_engagement": 5340480.0,
+   "montant_apres_verification": null,
+   "autres_montants": [
+    5340480.0
+   ],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "CTIM MAROC",
+   "montant_acte_engagement": 6030180.0,
+   "montant_apres_verification": null,
+   "autres_montants": [
+    6030180.0
+   ],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "EGCA MAROC",
+   "montant_acte_engagement": 5994216.0,
+   "montant_apres_verification": null,
+   "autres_montants": [
+    5994216.0
+   ],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "HOLDING AL BARAKA MAROC",
+   "montant_acte_engagement": 5878071.6,
+   "montant_apres_verification": null,
+   "autres_montants": [
+    5878071.6
+   ],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "QUALITE DU SUD - Variante",
+   "montant_acte_engagement": 4475016.0,
+   "montant_apres_verification": null,
+   "autres_montants": [
+    4475016.0
+   ],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "SMATRA MAROC",
+   "montant_acte_engagement": 6061082.4,
+   "montant_apres_verification": null,
+   "autres_montants": [
+    6061082.4
+   ],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 7,
+ "alertes_ocr": [],
+ "notes_ocr": [
+  "Maître d'ouvrage absent du PV (utiliser l'acheteur public du portail)."
+ ],
+ "qualite": "complet"
+}

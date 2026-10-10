@@ -1,0 +1,53 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "788827",
+ "orgAcronyme": "o8p",
+ "reference_pv": "F0368/PM",
+ "nouveau": true,
+ "reference": "F0368/PM",
+ "objet": "Fourniture du matériel roulant ferroviaire neuf et du système de soutien associé",
+ "acheteur": "M. le Directeur du Pôle Matériel",
+ "procedure": "appel d'offres ouvert",
+ "categorie": "Travaux",
+ "date_limite_plis": "21/06/2023",
+ "lieu_ouverture": "Institut de Formation et de Développement de Compétences l’'ONCF",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "17/04/2024",
+ "justification": null,
+ "infructueux": false,
+ "attributaire": null,
+ "montant_attribue": null,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "CHERIFIENNE DE MATERIEL INDUSTRIEL ET FERROVIAIRE (SCIF)",
+   "montant_acte_engagement": 68276.0,
+   "montant_apres_verification": null,
+   "autres_montants": [
+    183777228.0
+   ],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "CRRC Meishan Co (Lots n° 1 et 2)",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 2,
+ "alertes_ocr": [
+  "Attributaire non trouvé."
+ ],
+ "notes_ocr": [],
+ "qualite": "attribution"
+}

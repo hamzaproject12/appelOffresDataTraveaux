@@ -1,0 +1,62 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "978971",
+ "orgAcronyme": "g3h",
+ "reference_pv": "O6/OLT/2025",
+ "nouveau": true,
+ "reference": "O6/OLT/2025",
+ "objet": "TRAVAUX DE MISE A NIVEAU DE LA PLACE BAB SIDI ABDELOUAHAB A LA VILLE D'OUJDA TRAVAUX DE VOIRIE ET RESEAUX DIVERS - VRD",
+ "acheteur": null,
+ "procedure": "appel d'offres ouvert national",
+ "categorie": "Travaux",
+ "date_limite_plis": "20/05/2025",
+ "lieu_ouverture": "les bureaux de la société de développement & OUJDA LI TAHYIAA » SA situés à Wilaya de la Région de l'Oriental — Préfecture d'Oujda-Angad — Bd. Hassan Il - Oujda",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "10/06/2025",
+ "justification": "l'offre économiquement la plus avantageuse est l'offre la moins- disante, celle de l'entreprise TAFILALET TRAVAUX SARL 0",
+ "infructueux": false,
+ "attributaire": null,
+ "montant_attribue": null,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "ASSAINISSEMENT-RESEAUX-CONSEIL (ARCO) SARL AU",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": true
+  },
+  {
+   "nom": "TAFILALET TRAVAUX SARL",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "BRADIV TRAVAUX BTP SARL AU",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_offre_technique",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 3,
+ "alertes_ocr": [
+  "Attributaire non trouvé."
+ ],
+ "notes_ocr": [
+  "Maître d'ouvrage absent du PV (utiliser l'acheteur public du portail)."
+ ],
+ "qualite": "participants"
+}

@@ -1,0 +1,76 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "728522",
+ "orgAcronyme": "u9g",
+ "reference_pv": "31/2023",
+ "nouveau": true,
+ "reference": "31/2023",
+ "objet": "Travaux d'achèvement de la construction d’une école préscolaire a Azilal pour le compte de la fondation Mohammed VI de Promotion des Œuvres Sociales de l’Education-Formation",
+ "acheteur": "8 l’Education-Formation",
+ "procedure": null,
+ "categorie": "Travaux",
+ "date_limite_plis": "29/05/2023",
+ "lieu_ouverture": "Siège de la Fondation",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "11/07/2023",
+ "justification": "offre la plus intéressante.",
+ "infructueux": false,
+ "attributaire": "SELTEB",
+ "montant_attribue": 2798701.0,
+ "attributaires_par_lot": [
+  {
+   "lot": null,
+   "attributaire": "SELTEB",
+   "montant": 2798701.0
+  },
+  {
+   "lot": null,
+   "attributaire": "GROUPEMENT IMSAADEN&GETRADIM",
+   "montant": 3410195.0
+  },
+  {
+   "lot": null,
+   "attributaire": "ISSINGRI TRANSPORT",
+   "montant": 3580000.0
+  }
+ ],
+ "soumissionnaires": [
+  {
+   "nom": "SELTEB",
+   "montant_acte_engagement": 2798701.0,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "GROUPEMENT IMSAADEN&GETRADIM",
+   "montant_acte_engagement": 3410195.0,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": true
+  },
+  {
+   "nom": "ISSINGRI TRANSPORT",
+   "montant_acte_engagement": 3580000.0,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 3,
+ "alertes_ocr": [],
+ "notes_ocr": [
+  "Montants exprimés hors taxes (HT)."
+ ],
+ "qualite": "attribution"
+}

@@ -1,0 +1,104 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "972717",
+ "orgAcronyme": "g3h",
+ "reference_pv": "222/2S/IELEC",
+ "nouveau": true,
+ "reference": "222/2S/IELEC",
+ "objet": "Fourniture et travaux de pose de câble moyenne tension dans la ville de Marrakech",
+ "acheteur": "SRM-MS / É",
+ "procedure": "appel d'offres ouvert",
+ "categorie": "Travaux",
+ "date_limite_plis": "01/12/2025",
+ "lieu_ouverture": "Siège de la SRM-MS Boulevard Mohamed VI MARRAKECH",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "22/01/2026",
+ "justification": null,
+ "infructueux": true,
+ "attributaire": "DAREL",
+ "montant_attribue": 6450900.0,
+ "attributaires_par_lot": [
+  {
+   "lot": "2",
+   "attributaire": "DAREL",
+   "montant": 6450900.0
+  },
+  {
+   "lot": "2",
+   "attributaire": "ELECTRO MOFI",
+   "montant": 5612916.0
+  }
+ ],
+ "soumissionnaires": [
+  {
+   "nom": "DAREL",
+   "montant_acte_engagement": 6737590.8,
+   "montant_apres_verification": 6737590.8,
+   "autres_montants": [],
+   "lots": [
+    "1",
+    "2"
+   ],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "ELECTRICITE BELLET",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [
+    "1"
+   ],
+   "statut": "ecarte_dossier_administratif_technique",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "ELECTRO MOFI",
+   "montant_acte_engagement": 6764856.0,
+   "montant_apres_verification": 6764856.0,
+   "autres_montants": [
+    5612916.0
+   ],
+   "lots": [
+    "1",
+    "2",
+    "93"
+   ],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "NAROV (prospectus techniques seulement)",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [
+    "1"
+   ],
+   "statut": "depose",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "JADDAH TRAVCO",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [
+    "1"
+   ],
+   "statut": "ecarte_dossier_administratif_technique",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 5,
+ "alertes_ocr": [],
+ "notes_ocr": [
+  "Marché alloti (3 lots)."
+ ],
+ "qualite": "attribution"
+}

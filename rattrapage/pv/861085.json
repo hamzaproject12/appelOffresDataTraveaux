@@ -1,0 +1,49 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "861085",
+ "orgAcronyme": "j0w",
+ "reference_pv": "18/2024/ASYBA",
+ "nouveau": true,
+ "reference": "18/2024/ASYBA",
+ "objet": "Travaux d'entretien du parc sportif et de la salle couverte Hay El Jadid à Sidi Youssef Ben Ali",
+ "acheteur": "Arrondissement Sidi Youssef Ben Ali",
+ "procedure": "appel d'offres ouvert national",
+ "categorie": "Travaux",
+ "date_limite_plis": "21/11/2024",
+ "lieu_ouverture": "la salle de réunion de l’Arrondissement Sidi Youssef Ben Ali",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "02/12/2024",
+ "justification": "L'offre la mieux-disante qui est la plus proche du prix de référence",
+ "infructueux": false,
+ "attributaire": "Société Vie Verte sarl",
+ "montant_attribue": 2256360.0,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "Société Groupe jardin sarl",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_dossier_administratif_technique",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Société Vie Verte sarl",
+   "montant_acte_engagement": 2256360.0,
+   "montant_apres_verification": 2256360.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 2,
+ "alertes_ocr": [],
+ "notes_ocr": [],
+ "qualite": "attribution"
+}

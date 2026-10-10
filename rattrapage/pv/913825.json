@@ -1,0 +1,83 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "913825",
+ "orgAcronyme": "f9f",
+ "reference_pv": null,
+ "nouveau": true,
+ "reference": null,
+ "objet": "ENTRETIEN COURANT DES VOIES",
+ "acheteur": "la Commune d'’Inezgane",
+ "procedure": "appel d'offres ouvert national",
+ "categorie": "Travaux",
+ "date_limite_plis": "25/06/2025",
+ "lieu_ouverture": "Bureaux de Mr Le Président de la Commune d'Inezgane",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": null,
+ "justification": null,
+ "infructueux": false,
+ "attributaire": "STE SJ2T SARL AU",
+ "montant_attribue": 1988640.0,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "Y STE MAJI TRAVAUX SARL",
+   "montant_acte_engagement": 2032500.0,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "STE SSMT SARL AU",
+   "montant_acte_engagement": 2065785.36,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "STESJ2T SARL AU",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Y STE PERFORMANCE MATERIEL SARL",
+   "montant_acte_engagement": 2140920.0,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "STE SJ2T SARL AU",
+   "montant_acte_engagement": 1988640.0,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 5,
+ "alertes_ocr": [
+  "« Y STE MAJI TRAVAUX SARL » absent de la liste des plis déposés (nom mal lu ?).",
+  "« STE SSMT SARL AU » absent de la liste des plis déposés (nom mal lu ?).",
+  "« Y STE PERFORMANCE MATERIEL SARL » absent de la liste des plis déposés (nom mal lu ?).",
+  "« STE SJ2T SARL AU » absent de la liste des plis déposés (nom mal lu ?)."
+ ],
+ "notes_ocr": [
+  "« STESJ2T SARL AU » absent de la liste des plis déposés (nom mal lu ?)."
+ ],
+ "qualite": "complet"
+}

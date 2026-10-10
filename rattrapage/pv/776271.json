@@ -1,0 +1,53 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "776271",
+ "orgAcronyme": "d4q",
+ "reference_pv": null,
+ "nouveau": true,
+ "reference": null,
+ "objet": "Aménagement et renforcement du départ HTA Sidi Allal Tazi - Barrage de Garde (Province de Kenitra) = Lot Unique=",
+ "acheteur": null,
+ "procedure": "appel d'offres ouvert",
+ "categorie": "Travaux",
+ "date_limite_plis": "17/01/2024",
+ "lieu_ouverture": "Direction Approvisionnement et Marchés",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": null,
+ "justification": "Classé 1% //Conforme techniquement.",
+ "infructueux": false,
+ "attributaire": "TES A en /HTVA en /TVAC",
+ "montant_attribue": 3258049.2,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "ADAM STD, ELECPHONE, EPELCO, HS INFRA, REMAPTEL, EXCEL INDUSTRIE et PETRADIS",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "depose",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "TES A en /HTVA en /TVAC",
+   "montant_acte_engagement": 3258049.2,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 2,
+ "alertes_ocr": [
+  "« TES A en /HTVA en /TVAC » absent de la liste des plis déposés (nom mal lu ?)."
+ ],
+ "notes_ocr": [
+  "Maître d'ouvrage absent du PV (utiliser l'acheteur public du portail)."
+ ],
+ "qualite": "attribution"
+}

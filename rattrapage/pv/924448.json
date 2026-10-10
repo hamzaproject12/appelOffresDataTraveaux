@@ -1,0 +1,66 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "924448",
+ "orgAcronyme": "j8k",
+ "reference_pv": "46/BM/2025",
+ "nouveau": true,
+ "reference": "46/BM/2025",
+ "objet": "TRAVAUX DE CONSTRUCTION DES LOGEMENTS DE L'OPERATION AL IHSSANE TR 1 ET TR2 SIS AU LOTISSEMENT DIYAR AL MOSTAKBAL TR2 A BENI MELLAL",
+ "acheteur": null,
+ "procedure": "appel d'offres ouvert",
+ "categorie": "Travaux",
+ "date_limite_plis": null,
+ "lieu_ouverture": null,
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": null,
+ "justification": null,
+ "infructueux": false,
+ "attributaire": "Groupement Sté OTTAWA REALISATION",
+ "montant_attribue": 31232793.6,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "Société AGOUDI DAYS BTP",
+   "montant_acte_engagement": 31342904.64,
+   "montant_apres_verification": null,
+   "autres_montants": [
+    31342904.64
+   ],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Groupement Sté OTTAWA REALISATION",
+   "montant_acte_engagement": 31232793.6,
+   "montant_apres_verification": null,
+   "autres_montants": [
+    31232793.6
+   ],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Société HAMDAOUI ALI CONSTRUCTION",
+   "montant_acte_engagement": 31746336.0,
+   "montant_apres_verification": null,
+   "autres_montants": [
+    31746336.0
+   ],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 3,
+ "alertes_ocr": [],
+ "notes_ocr": [
+  "Maître d'ouvrage absent du PV (utiliser l'acheteur public du portail)."
+ ],
+ "qualite": "complet"
+}

@@ -1,0 +1,69 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "707010",
+ "orgAcronyme": "g3h",
+ "reference_pv": "23/2023",
+ "nouveau": true,
+ "reference": "23/2023",
+ "objet": null,
+ "acheteur": null,
+ "procedure": "appel d'offres ouvert",
+ "categorie": "Travaux",
+ "date_limite_plis": "30/03/2023",
+ "lieu_ouverture": "Antenne de l'ADER-Fès à Meknès",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "12/04/2023",
+ "justification": "Le concurrent ayant présenté une offre financière avantageuse.",
+ "infructueux": false,
+ "attributaire": "Société ANDALOUS DESIGN SARL",
+ "montant_attribue": 74650513.2,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "Groupement : Société ELECTRIBA SARL et Société TCN SARL",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_dossier_administratif_technique",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Groupement : Société ATELIER REYAD SARL AU et Société REBEL CONSTRUCTION SARL",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_dossier_administratif_technique",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Société ANDALOUS DESIGN SARL",
+   "montant_acte_engagement": 74650513.2,
+   "montant_apres_verification": 74650513.2,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Société SEGITRAD SARL",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_dossier_administratif_technique",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 4,
+ "alertes_ocr": [],
+ "notes_ocr": [
+  "Maître d'ouvrage absent du PV (utiliser l'acheteur public du portail)."
+ ],
+ "qualite": "attribution"
+}

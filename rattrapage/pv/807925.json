@@ -1,0 +1,51 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "807925",
+ "orgAcronyme": "o8p",
+ "reference_pv": "17/2024",
+ "nouveau": true,
+ "reference": "17/2024",
+ "objet": "Travaux de forages dans les provinces de Safi et Youssoufia - Région Marrakech-Safi",
+ "acheteur": "la Direction Provinciale de l'équipement, du transport et de la logistique de Safi (représenté par son Directeur Provincial)",
+ "procedure": "appel d'offres ouvert national",
+ "categorie": "Travaux",
+ "date_limite_plis": "04/06/2024",
+ "lieu_ouverture": "la Direction Provinciale de l'équipement, du transport et de la logistique de Safi",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "19/06/2024",
+ "justification": "offre économiquement la plus avantageuse pour l’administration",
+ "infructueux": false,
+ "attributaire": "HAJ DOUIRI SOHADU",
+ "montant_attribue": 2403000.0,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "GHRAR BRAHIM DE FORAGE",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "HAJ DOUIRI SOHADU",
+   "montant_acte_engagement": 2403000.0,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 2,
+ "alertes_ocr": [
+  "« HAJ DOUIRI SOHADU » absent de la liste des plis déposés (nom mal lu ?)."
+ ],
+ "notes_ocr": [],
+ "qualite": "attribution"
+}

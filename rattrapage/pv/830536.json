@@ -1,0 +1,48 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "830536",
+ "orgAcronyme": "d4q",
+ "reference_pv": null,
+ "nouveau": true,
+ "reference": null,
+ "objet": "Mise en conformité du réseau HTA détérioré par les intempéries violentes à la Direction Provinciale Tanger",
+ "acheteur": null,
+ "procedure": null,
+ "categorie": "Travaux",
+ "date_limite_plis": "16/07/2024",
+ "lieu_ouverture": "Siège de la Direction Régionale Distribution Tanger",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": null,
+ "justification": "Conforme.",
+ "infructueux": false,
+ "attributaire": "INGENIEROS DEL NORTE",
+ "montant_attribue": 1326255.0,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "INGENIEROS DEL NORTE",
+   "montant_acte_engagement": 1326255.0,
+   "montant_apres_verification": 4591506.0,
+   "autres_montants": [
+    1591506.0
+   ],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 1,
+ "alertes_ocr": [
+  "« INGENIEROS DEL NORTE » : écart anormal entre montant initial et vérifié (lecture à vérifier)."
+ ],
+ "notes_ocr": [
+  "« INGENIEROS DEL NORTE » : montant rectifié de 1 326 255.00 à 4 591 506.00 DH.",
+  "Maître d'ouvrage absent du PV (utiliser l'acheteur public du portail).",
+  "Montants exprimés hors taxes (HT)."
+ ],
+ "qualite": "attribution"
+}

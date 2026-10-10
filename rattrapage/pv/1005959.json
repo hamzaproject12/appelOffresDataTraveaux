@@ -1,0 +1,83 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "1005959",
+ "orgAcronyme": "g3h",
+ "reference_pv": "16/26/ELEC/R",
+ "nouveau": true,
+ "reference": "16/26/ELEC/R",
+ "objet": "Travaux de rétablissement des réseaux MT et BT impactés par la réalisation de la LGV Kenitra —- Marrakech au niveau du territoire de la Préfecture de Marrakech ,",
+ "acheteur": "SRM-MS",
+ "procedure": "appel d'offres ouvert",
+ "categorie": "Travaux",
+ "date_limite_plis": "05/05/2026",
+ "lieu_ouverture": "Siège de la SRM-MS Boulevard Mohamed VI MARRAKECH,",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "18/05/2026",
+ "justification": "Offre la moins disante. a , : V",
+ "infructueux": false,
+ "attributaire": "O2E ENERGIE",
+ "montant_attribue": 13994629.2,
+ "attributaires_par_lot": [
+  {
+   "lot": null,
+   "attributaire": "O2E ENERGIE",
+   "montant": 13994629.2
+  },
+  {
+   "lot": null,
+   "attributaire": "ELEC TRIMAROC",
+   "montant": 16665804.58
+  },
+  {
+   "lot": null,
+   "attributaire": "NAROVA",
+   "montant": 14961576.0
+  }
+ ],
+ "soumissionnaires": [
+  {
+   "nom": "O2E ENERGIE",
+   "montant_acte_engagement": 13994629.2,
+   "montant_apres_verification": 13994629.2,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "ELEC TRIMAROC",
+   "montant_acte_engagement": 16665804.58,
+   "montant_apres_verification": 16665804.58,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "NAROVA",
+   "montant_acte_engagement": 14961576.0,
+   "montant_apres_verification": 14961576.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Groupement solidaire TABARAK TRAVAUX & ELECTRO TIGHZOUINE",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_dossier_administratif_technique",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 4,
+ "alertes_ocr": [],
+ "notes_ocr": [],
+ "qualite": "attribution"
+}

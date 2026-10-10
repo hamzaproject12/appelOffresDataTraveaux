@@ -1,0 +1,63 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "743764",
+ "orgAcronyme": "g3h",
+ "reference_pv": null,
+ "nouveau": true,
+ "reference": null,
+ "objet": "Travaux d'achèvement de la construction de la RP 3619 du PK 77+ggg au PK 95+500 - Province de Settat",
+ "acheteur": "La province de Settat",
+ "procedure": "appel d'offres ouvert",
+ "categorie": "Travaux",
+ "date_limite_plis": "05/09/2023",
+ "lieu_ouverture": "la Division d'Equipement / Province de Settat",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": null,
+ "justification": ",/ L'attributaire est admis au niveau de I'examen du dossier administratif et technique et au niveau du résultat d'examen de l'offre technique , ./ Offre financière la plus avantageuse.",
+ "infructueux": false,
+ "attributaire": "Société « AMAL SALAM TRAVAUX»/Rabat",
+ "montant_attribue": 1355022.4,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "EL1 Société « ZAMANE EL KHEIR»/Casablanca",
+   "montant_acte_engagement": 1940398.0,
+   "montant_apres_verification": 1940398.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_dossier_administratif_technique",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "EL2 Société « MEDTRA»/Casablanca",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_dossier_administratif_technique",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Société « AMAL SALAM TRAVAUX»/Rabat",
+   "montant_acte_engagement": 1355022.4,
+   "montant_apres_verification": 1355022.4,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 3,
+ "alertes_ocr": [
+  "« EL1 Société « ZAMANE EL KHEIR»/Casablanca » absent de la liste des plis déposés (nom mal lu ?).",
+  "« Société « AMAL SALAM TRAVAUX»/Rabat » absent de la liste des plis déposés (nom mal lu ?)."
+ ],
+ "notes_ocr": [
+  "« EL2 Société « MEDTRA»/Casablanca » absent de la liste des plis déposés (nom mal lu ?)."
+ ],
+ "qualite": "complet"
+}

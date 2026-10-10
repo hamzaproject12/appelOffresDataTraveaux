@@ -1,0 +1,84 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "770439",
+ "orgAcronyme": "g3h",
+ "reference_pv": "112/2023/S2A",
+ "nouveau": true,
+ "reference": "112/2023/S2A",
+ "objet": "TRAVAUX DE CONSTRUCTION DU MUSEE DU PATRIMOINE AMAZIGH ET AMENAGEMENT DE LA PLACE DU SOUVENIR DE LA VILLE D’AGADIR",
+ "acheteur": null,
+ "procedure": "appel d'offres ouvert",
+ "categorie": "Travaux",
+ "date_limite_plis": null,
+ "lieu_ouverture": null,
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": null,
+ "justification": null,
+ "infructueux": false,
+ "attributaire": "SOCIETE ENTREPRISE MOHCINE",
+ "montant_attribue": 45473046.0,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "SOCIETE GROUPE MAROCAIN DE CONSTRUCTION GENERALE GMCG",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": true
+  },
+  {
+   "nom": "SOCIETE SOKETRADOZ",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": true
+  },
+  {
+   "nom": "SOCIETE TAFILALET TRAVAUX",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": true
+  },
+  {
+   "nom": "SOCIETE TAMOUNT DE MATERIEL DE CONSTRUCTION",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": true
+  },
+  {
+   "nom": "SOCIETE ENTREPRISE MOHCINE",
+   "montant_acte_engagement": 45473046.0,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 5,
+ "alertes_ocr": [
+  "« SOCIETE ENTREPRISE MOHCINE » absent de la liste des plis déposés (nom mal lu ?)."
+ ],
+ "notes_ocr": [
+  "« SOCIETE GROUPE MAROCAIN DE CONSTRUCTION GENERALE GMCG » absent de la liste des plis déposés (nom mal lu ?).",
+  "« SOCIETE SOKETRADOZ » absent de la liste des plis déposés (nom mal lu ?).",
+  "« SOCIETE TAFILALET TRAVAUX » absent de la liste des plis déposés (nom mal lu ?).",
+  "« SOCIETE TAMOUNT DE MATERIEL DE CONSTRUCTION » absent de la liste des plis déposés (nom mal lu ?).",
+  "Maître d'ouvrage absent du PV (utiliser l'acheteur public du portail)."
+ ],
+ "qualite": "attribution"
+}

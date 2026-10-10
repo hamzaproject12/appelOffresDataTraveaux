@@ -1,0 +1,73 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "818488",
+ "orgAcronyme": "g3h",
+ "reference_pv": "01/2024",
+ "nouveau": true,
+ "reference": "01/2024",
+ "objet": "la fourniture l'installation et la mise en marche d'un Pylône haubané de 30m de hauteur et la",
+ "acheteur": "MR LE DGSN, REPRESENTE PAR MR LE PREFET DE POLICE DE LAAYOUNE",
+ "procedure": null,
+ "categorie": "Travaux",
+ "date_limite_plis": "16/07/2024",
+ "lieu_ouverture": "Siège de la Préfecture de Police de Laâyoune",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": null,
+ "justification": "l'offre la mieux disante.",
+ "infructueux": false,
+ "attributaire": "STE NORD EST ELECTRONIQUE SARL",
+ "montant_attribue": 589968.0,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "STE NORD EST ELECTRONIQUE SARL",
+   "montant_acte_engagement": 589968.0,
+   "montant_apres_verification": 589968.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "STE NOMATIS SARL",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_dossier_administratif_technique",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "STE NOMATIS SARL pour motif",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_dossier_administratif_technique",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "règlement de la consultation",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_dossier_administratif_technique",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 4,
+ "alertes_ocr": [
+  "« STE NORD EST ELECTRONIQUE SARL » absent de la liste des plis déposés (nom mal lu ?)."
+ ],
+ "notes_ocr": [
+  "« STE NOMATIS SARL » absent de la liste des plis déposés (nom mal lu ?).",
+  "« STE NOMATIS SARL pour motif » absent de la liste des plis déposés (nom mal lu ?).",
+  "« règlement de la consultation » absent de la liste des plis déposés (nom mal lu ?)."
+ ],
+ "qualite": "attribution"
+}

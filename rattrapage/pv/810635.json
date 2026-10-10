@@ -1,0 +1,75 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "810635",
+ "orgAcronyme": "o4d",
+ "reference_pv": "05/2024",
+ "nouveau": true,
+ "reference": "05/2024",
+ "objet": "Acquisition, installation et mise en marche des climatiseurs et caméras de surveillance pour la Direction Régionale de la CNSS Orient, en deux lots Distincts",
+ "acheteur": "Direction Régionale de la CNSS Orient",
+ "procedure": null,
+ "categorie": "Travaux",
+ "date_limite_plis": "14/06/2024",
+ "lieu_ouverture": "La salle de réunion, à la Direction Régionale de la CNSS Orient",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "02/07/2024",
+ "justification": "Offre la plus avantageuse par rapport au prix de référence : 134 390.00 DHS Offre retenue à l'issue du tirage au sort effectué par la commission entre les Sociétés DATM TECHNOLOGIE ET ESPACE TECHNOLOGIE.",
+ "infructueux": false,
+ "attributaire": "STE ESPACES TECHNOLOGIE",
+ "montant_attribue": 134160.0,
+ "attributaires_par_lot": [
+  {
+   "lot": null,
+   "attributaire": "STE ESPACES TECHNOLOGIE",
+   "montant": 134160.0
+  },
+  {
+   "lot": null,
+   "attributaire": "STE DATM TECHNOLOGIE",
+   "montant": 45000.0
+  }
+ ],
+ "soumissionnaires": [
+  {
+   "nom": "STE TOP ELECTRICITE",
+   "montant_acte_engagement": 135840.0,
+   "montant_apres_verification": 135840.0,
+   "autres_montants": [],
+   "lots": [
+    "02"
+   ],
+   "statut": "ecarte_dossier_administratif_technique",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "STE DATM TECHNOLOGIE",
+   "montant_acte_engagement": 130800.0,
+   "montant_apres_verification": 130800.0,
+   "autres_montants": [],
+   "lots": [
+    "02"
+   ],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "STE ESPACES TECHNOLOGIE",
+   "montant_acte_engagement": 134160.0,
+   "montant_apres_verification": 134160.0,
+   "autres_montants": [],
+   "lots": [
+    "02"
+   ],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 3,
+ "alertes_ocr": [],
+ "notes_ocr": [],
+ "qualite": "complet"
+}

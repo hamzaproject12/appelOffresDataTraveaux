@@ -1,0 +1,55 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "878273",
+ "orgAcronyme": "q1s",
+ "reference_pv": "16/2025/IRII/SGBD",
+ "nouveau": true,
+ "reference": "16/2025/IRII/SGBD",
+ "objet": null,
+ "acheteur": "l'Office Régional de Mise en valeur Agricole du Haouz",
+ "procedure": null,
+ "categorie": "Travaux",
+ "date_limite_plis": "25/02/2025",
+ "lieu_ouverture": "Siège de l'Office Régional de Mise en valeur Agricole du Haouz",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "11/03/2025",
+ "justification": null,
+ "infructueux": false,
+ "attributaire": null,
+ "montant_attribue": null,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "CCGT CANALISATI0N",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "STE NOUVELLE DES CONDUITS D`EAU",
+   "montant_acte_engagement": 2000000.0,
+   "montant_apres_verification": 4000000.0,
+   "autres_montants": [
+    4000000.0
+   ],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 2,
+ "alertes_ocr": [
+  "Attributaire non trouvé."
+ ],
+ "notes_ocr": [
+  "« STE NOUVELLE DES CONDUITS D`EAU » : montant rectifié de 2 000 000.00 à 4 000 000.00 DH."
+ ],
+ "qualite": "attribution"
+}

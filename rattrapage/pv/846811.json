@@ -1,0 +1,125 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "846811",
+ "orgAcronyme": "s5z",
+ "reference_pv": "06/2024/DPCT",
+ "nouveau": true,
+ "reference": "06/2024/DPCT",
+ "objet": "Travaux de réparation et d'entretien de l'installation électrique et du réseau d'éclairage du centre culturel de Tétouan,",
+ "acheteur": "Le directeur provincial de la culture de Tétouan agissant au nom et pour le",
+ "procedure": "appel d'offres ouvert simplifié",
+ "categorie": "Travaux",
+ "date_limite_plis": "28/10/2024",
+ "lieu_ouverture": null,
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "01/11/2024",
+ "justification": "Son offre répond aux critères et conditions de l’appel d'offres et elle est économiquement la plus avantageuse",
+ "infructueux": false,
+ "attributaire": "Société AMPEREDIS",
+ "montant_attribue": 225120.0,
+ "attributaires_par_lot": [
+  {
+   "lot": null,
+   "attributaire": "Société AMPEREDIS",
+   "montant": 225120.0
+  },
+  {
+   "lot": null,
+   "attributaire": "Société ATLASFS",
+   "montant": 234000.0
+  },
+  {
+   "lot": null,
+   "attributaire": "Société ARNA TEC",
+   "montant": 248940.0
+  },
+  {
+   "lot": null,
+   "attributaire": "Société SAT TELECOM",
+   "montant": 233070.0
+  },
+  {
+   "lot": null,
+   "attributaire": "Société TELECOM CONCEPT",
+   "montant": 233697.6
+  }
+ ],
+ "soumissionnaires": [
+  {
+   "nom": "Société STE EQUIP.BELMOKHTAR",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_dossier_administratif_technique",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Société AMPEREDIS",
+   "montant_acte_engagement": 225120.0,
+   "montant_apres_verification": 225120.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Société Z1 ELECTRO",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_dossier_administratif_technique",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Société ATLASFS",
+   "montant_acte_engagement": 234000.0,
+   "montant_apres_verification": 234000.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Société ARNA TEC",
+   "montant_acte_engagement": 248940.0,
+   "montant_apres_verification": 248940.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Société SAT TELECOM",
+   "montant_acte_engagement": 233070.0,
+   "montant_apres_verification": 233070.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Société TELECOM CONCEPT",
+   "montant_acte_engagement": 233697.6,
+   "montant_apres_verification": 233697.6,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 7,
+ "alertes_ocr": [
+  "« Société ATLASFS » absent de la liste des plis déposés (nom mal lu ?).",
+  "« Société ARNA TEC » absent de la liste des plis déposés (nom mal lu ?).",
+  "« Société SAT TELECOM » absent de la liste des plis déposés (nom mal lu ?).",
+  "« Société TELECOM CONCEPT » absent de la liste des plis déposés (nom mal lu ?)."
+ ],
+ "notes_ocr": [],
+ "qualite": "attribution"
+}

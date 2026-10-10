@@ -1,0 +1,55 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "1039976",
+ "orgAcronyme": "q1s",
+ "reference_pv": "19/2026/DGR",
+ "nouveau": true,
+ "reference": "19/2026/DGR",
+ "objet": "travaux de réparation des fuites sur les conduites sous pression et basse pression des réseaux d'irrigation du périmètre des Doukkala. > Maître d'ouvrage : L'Office Régional de Mise en Valeur Agricole des Doukkala",
+ "acheteur": "L'Office Régional de Mise en Valeur Agricole des Doukkala",
+ "procedure": "appel d'offres ouvert national",
+ "categorie": "Travaux",
+ "date_limite_plis": "02/06/2026",
+ "lieu_ouverture": "Salle des réunions de l'ORMVAD",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "16/06/2026",
+ "justification": "Justification du choix de l’attributaire : l'offre présentée est la plus avantageuse (la mieux disante).",
+ "infructueux": false,
+ "attributaire": "SOCIETE DE GESTION ET DES PROJETS",
+ "montant_attribue": 4549440.0,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "SEMIND",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_offre_financiere",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "SOCIETE DE GESTION ET DES PROJETS",
+   "montant_acte_engagement": 2274720.0,
+   "montant_apres_verification": null,
+   "autres_montants": [
+    2274720.0
+   ],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": true
+  }
+ ],
+ "nombre_soumissionnaires": 2,
+ "alertes_ocr": [
+  "« SOCIETE DE GESTION ET DES PROJETS » absent de la liste des plis déposés (nom mal lu ?)."
+ ],
+ "notes_ocr": [
+  "« SEMIND » absent de la liste des plis déposés (nom mal lu ?)."
+ ],
+ "qualite": "attribution"
+}

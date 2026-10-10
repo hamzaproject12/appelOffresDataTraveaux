@@ -1,0 +1,92 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "968111",
+ "orgAcronyme": "m1w",
+ "reference_pv": null,
+ "nouveau": true,
+ "reference": null,
+ "objet": null,
+ "acheteur": "Barid A1 Maghrib S.A",
+ "procedure": null,
+ "categorie": "Travaux",
+ "date_limite_plis": "29/12/2025",
+ "lieu_ouverture": "Direction Achats et Patrimoine, sise au 8, rue Dayet Erroumi, Agdal — Rabat",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "31/12/2025",
+ "justification": "Offre la plus avantageuse.",
+ "infructueux": false,
+ "attributaire": "TC 1/AN",
+ "montant_attribue": 80000.0,
+ "attributaires_par_lot": [
+  {
+   "lot": null,
+   "attributaire": "TC 1/AN",
+   "montant": 80000.0
+  },
+  {
+   "lot": null,
+   "attributaire": "PERFECT.COM TC 2/AN",
+   "montant": 60000.0
+  }
+ ],
+ "soumissionnaires": [
+  {
+   "nom": "Soumissions physiques Soumissions électroniques",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "depose",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "NEXT GENERATION SERVICES",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "depose",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "NOMATIS",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "depose",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "TC 1/AN",
+   "montant_acte_engagement": 80000.0,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "PERFECT.COM TC 2/AN",
+   "montant_acte_engagement": 60000.0,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 5,
+ "alertes_ocr": [
+  "« TC 1/AN » absent de la liste des plis déposés (nom mal lu ?).",
+  "« PERFECT.COM TC 2/AN » absent de la liste des plis déposés (nom mal lu ?)."
+ ],
+ "notes_ocr": [
+  "Montants exprimés hors taxes (HT)."
+ ],
+ "qualite": "attribution"
+}

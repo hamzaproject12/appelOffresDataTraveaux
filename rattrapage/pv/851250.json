@@ -1,0 +1,84 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "851250",
+ "orgAcronyme": "j8k",
+ "reference_pv": null,
+ "nouveau": true,
+ "reference": null,
+ "objet": "La Réalisation des travaux d’électrification 2°/1° catégorie et d’éclairage public de l'opération Al Manar Founty, sis à la commune Territoriale d’Agadir, Préfecture Agadir Ida Outanane",
+ "acheteur": null,
+ "procedure": "appel d'offres ouvert",
+ "categorie": "Travaux",
+ "date_limite_plis": "08/11/2024",
+ "lieu_ouverture": "Division des Marchés de la Société Al Omrane souss Massa",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "20/11/2024",
+ "justification": null,
+ "infructueux": true,
+ "attributaire": null,
+ "montant_attribue": null,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "SELFIM - C.C.R.E - ELECTRIKLIM - ELEC TRIMAROC",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "C.C.R.E",
+   "montant_acte_engagement": 7701266.4,
+   "montant_apres_verification": 7701266.4,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_offre_financiere",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "SELFIM",
+   "montant_acte_engagement": 9150636.0,
+   "montant_apres_verification": 9150636.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "ELECTRIKLIM",
+   "montant_acte_engagement": 9240228.0,
+   "montant_apres_verification": 9240228.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "ELEC TRIMAROC",
+   "montant_acte_engagement": 9890013.6,
+   "montant_apres_verification": 9890013.6,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 5,
+ "alertes_ocr": [
+  "« C.C.R.E » absent de la liste des plis déposés (nom mal lu ?).",
+  "« SELFIM » absent de la liste des plis déposés (nom mal lu ?).",
+  "« ELECTRIKLIM » absent de la liste des plis déposés (nom mal lu ?).",
+  "« ELEC TRIMAROC » absent de la liste des plis déposés (nom mal lu ?)."
+ ],
+ "notes_ocr": [
+  "« SELFIM - C.C.R.E - ELECTRIKLIM - ELEC TRIMAROC » absent de la liste des plis déposés (nom mal lu ?).",
+  "Maître d'ouvrage absent du PV (utiliser l'acheteur public du portail)."
+ ],
+ "qualite": "complet"
+}

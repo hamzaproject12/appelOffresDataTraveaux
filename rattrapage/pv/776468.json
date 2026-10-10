@@ -1,0 +1,134 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "776468",
+ "orgAcronyme": "e5w",
+ "reference_pv": "22/RFM/2023",
+ "nouveau": true,
+ "reference": "22/RFM/2023",
+ "objet": null,
+ "acheteur": null,
+ "procedure": null,
+ "categorie": "Travaux",
+ "date_limite_plis": "13/02/2024",
+ "lieu_ouverture": "L'ANNEXE DU CONSEIL REGION FES MEKNES",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": null,
+ "justification": "Offre économiquement la plus avantageuse.",
+ "infructueux": false,
+ "attributaire": "STE ROUF ENGINEERING SARL AU",
+ "montant_attribue": 5478814.8,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "EL HAMDAOUI AYAD (personne physique)",
+   "montant_acte_engagement": 5734454.4,
+   "montant_apres_verification": 5734454.4,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "STE SONOTRAP SARL AU",
+   "montant_acte_engagement": 5805937.2,
+   "montant_apres_verification": 5805937.2,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "GROUPEMENT",
+   "montant_acte_engagement": 5850212.4,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_offre_financiere",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "STE HS INFRA SARL",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_offre_financiere",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "STE AVANZA TRAVAUX SARL",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_offre_financiere",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "STE BNIFORT SARL",
+   "montant_acte_engagement": 5673546.0,
+   "montant_apres_verification": 5673546.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": true
+  },
+  {
+   "nom": "STE LA ROUTE VERTE SARL",
+   "montant_acte_engagement": 5566483.2,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_offre_financiere",
+   "admis_avec_reserve": true
+  },
+  {
+   "nom": "STE CAJICA SARL",
+   "montant_acte_engagement": 5922819.6,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_offre_financiere",
+   "admis_avec_reserve": true
+  },
+  {
+   "nom": "STE MBI SCAVI SARL",
+   "montant_acte_engagement": 5700337.2,
+   "montant_apres_verification": 5700337.2,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": true
+  },
+  {
+   "nom": "STE ROUF ENGINEERING SARL AU",
+   "montant_acte_engagement": 5478814.8,
+   "montant_apres_verification": 5478814.8,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": true
+  }
+ ],
+ "nombre_soumissionnaires": 10,
+ "alertes_ocr": [
+  "« EL HAMDAOUI AYAD (personne physique) » absent de la liste des plis déposés (nom mal lu ?).",
+  "« STE SONOTRAP SARL AU » absent de la liste des plis déposés (nom mal lu ?).",
+  "« GROUPEMENT » absent de la liste des plis déposés (nom mal lu ?).",
+  "« STE BNIFORT SARL » absent de la liste des plis déposés (nom mal lu ?).",
+  "« STE LA ROUTE VERTE SARL » absent de la liste des plis déposés (nom mal lu ?).",
+  "« STE CAJICA SARL » absent de la liste des plis déposés (nom mal lu ?).",
+  "« STE MBI SCAVI SARL » absent de la liste des plis déposés (nom mal lu ?).",
+  "« STE ROUF ENGINEERING SARL AU » absent de la liste des plis déposés (nom mal lu ?)."
+ ],
+ "notes_ocr": [
+  "« STE HS INFRA SARL » absent de la liste des plis déposés (nom mal lu ?).",
+  "« STE AVANZA TRAVAUX SARL » absent de la liste des plis déposés (nom mal lu ?).",
+  "Maître d'ouvrage absent du PV (utiliser l'acheteur public du portail)."
+ ],
+ "qualite": "complet"
+}

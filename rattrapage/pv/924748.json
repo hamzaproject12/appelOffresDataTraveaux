@@ -1,0 +1,71 @@
+{
+ "source": "extrait_docx",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "924748",
+ "orgAcronyme": "s3z",
+ "reference_pv": "16/2025",
+ "nouveau": true,
+ "reference": "16/2025",
+ "objet": "Gros travaux de maintenance des voies urbaines à la commune de khemisset",
+ "acheteur": "Commune de Khémisset",
+ "procedure": "appel d'offres ouvert national",
+ "categorie": "Travaux",
+ "date_limite_plis": "12/08/2025",
+ "lieu_ouverture": "Commune de Khémisset",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "15/08/2025",
+ "justification": "offre Economiquement la plus avantageuse.",
+ "infructueux": false,
+ "attributaire": "Sté FULCRUM",
+ "montant_attribue": 3600600.0,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "Sté KOUFACHA ROUTIERS",
+   "montant_acte_engagement": 4005720.0,
+   "montant_apres_verification": 4005720.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Sté SORGA TRAVAUX",
+   "montant_acte_engagement": 3671160.0,
+   "montant_apres_verification": 4005720.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Sté FULCRUM",
+   "montant_acte_engagement": 3600600.0,
+   "montant_apres_verification": 3671160.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Sté ABMB",
+   "montant_acte_engagement": 3523080.0,
+   "montant_apres_verification": 3600600.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 4,
+ "alertes_ocr": [],
+ "notes_ocr": [
+  "« Sté SORGA TRAVAUX » : montant rectifié de 3 671 160.00 à 4 005 720.00 DH.",
+  "« Sté FULCRUM » : montant rectifié de 3 600 600.00 à 3 671 160.00 DH.",
+  "« Sté ABMB » : montant rectifié de 3 523 080.00 à 3 600 600.00 DH."
+ ],
+ "qualite": "complet"
+}

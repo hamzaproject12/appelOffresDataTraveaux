@@ -1,0 +1,181 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "786079",
+ "orgAcronyme": "h5j",
+ "reference_pv": "172/2023/BAT",
+ "nouveau": true,
+ "reference": "172/2023/BAT",
+ "objet": "Appel d’Offres n° 172/2023/BAT du 08/02/2024 à 10 heures relatif aux",
+ "acheteur": "Délégation Générale à l'Administration Pénitentiaire et à la Réinsertion",
+ "procedure": "appel d'offres ouvert international",
+ "categorie": "Travaux",
+ "date_limite_plis": "08/02/2024",
+ "lieu_ouverture": "Siège de la Délégation Générale à l'Administration Pénitentiaire et à la Réinsertion à Angle Avenue AL Araar et Rue Al Jaouz, Hay Riad-Rabat - 1er étage",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "03/04/2024",
+ "justification": "Offre économiquement la plus avantageuse",
+ "infructueux": false,
+ "attributaire": "ENTC SARL AU",
+ "montant_attribue": 5679216.0,
+ "attributaires_par_lot": [
+  {
+   "lot": null,
+   "attributaire": "ENTC SARL AU",
+   "montant": 5679216.0
+  },
+  {
+   "lot": "2",
+   "attributaire": "BEST CONSTRALU SARL",
+   "montant": 3578088.0
+  },
+  {
+   "lot": "3",
+   "attributaire": "ORTIS MAROC SARL",
+   "montant": 3884377.8
+  },
+  {
+   "lot": "4",
+   "attributaire": "MESKI DES TRAVAUX DIVERS SARL",
+   "montant": 6610188.0
+  }
+ ],
+ "soumissionnaires": [
+  {
+   "nom": "LES ROUTES DE TASSAOUT SARL AU",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_offre_technique",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "BEST CONSTRALU SARL",
+   "montant_acte_engagement": 3578088.0,
+   "montant_apres_verification": null,
+   "autres_montants": [
+    3448680.3
+   ],
+   "lots": [
+    "2"
+   ],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "ENTC SARL AU",
+   "montant_acte_engagement": 5679216.0,
+   "montant_apres_verification": null,
+   "autres_montants": [
+    3274788.0,
+    3395467.8
+   ],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "NASSIRDDINE DES TRAVAUX GENERAUX SARL",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_offre_technique",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "TASTAOUTE SARL",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_offre_technique",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "OTPR SARL AU",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_offre_technique",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "MESKI DES TRAVAUX DIVERS SARL",
+   "montant_acte_engagement": 6089112.0,
+   "montant_apres_verification": null,
+   "autres_montants": [
+    6610188.0
+   ],
+   "lots": [
+    "4"
+   ],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "SOALHA CONSTRUCTIONS SARL",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_offre_technique",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "L’ETOILE D’AGENCEMENT DE MEKNES- ETAMEK- SARL",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_offre_technique",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "DOUIRA DE TRAVAUX DIVERS ET FOURNITURE SARL",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "depose",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "La soeiété ORTIS MAROC SARL",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "depose",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "ORTIS MAROC SARL",
+   "montant_acte_engagement": 6770376.0,
+   "montant_apres_verification": null,
+   "autres_montants": [
+    3937976.4,
+    3884377.8,
+    7366176.0
+   ],
+   "lots": [
+    "3"
+   ],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 12,
+ "alertes_ocr": [
+  "« ORTIS MAROC SARL » absent de la liste des plis déposés (nom mal lu ?)."
+ ],
+ "notes_ocr": [
+  "Marché alloti (3 lots)."
+ ],
+ "qualite": "attribution"
+}

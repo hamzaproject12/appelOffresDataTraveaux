@@ -1,0 +1,66 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "799820",
+ "orgAcronyme": "d4q",
+ "reference_pv": "22/DR6/C/2024",
+ "nouveau": true,
+ "reference": "22/DR6/C/2024",
+ "objet": "Réalisation des nouveaux branchements d'eau potable au niveau des centres relevant de l’agence mixte Bouarfa",
+ "acheteur": null,
+ "procedure": "appel d'offres ouvert",
+ "categorie": "Travaux",
+ "date_limite_plis": "04/04/2024",
+ "lieu_ouverture": "au Siège de la Direction Régionale de l'Oriental (DR6) Place 18 Mars 2003 - Oujda - Maroc",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "23/05/2024",
+ "justification": "Moins-disant",
+ "infructueux": false,
+ "attributaire": "EAU RESEAU MAROC",
+ "montant_attribue": 150000.0,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "AIT BENHA SARL",
+   "montant_acte_engagement": 135360.0,
+   "montant_apres_verification": null,
+   "autres_montants": [
+    135360.0
+   ],
+   "lots": [],
+   "statut": "ecarte_dossier_administratif_technique",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "EAU RESEAU MAROC",
+   "montant_acte_engagement": 150000.0,
+   "montant_apres_verification": null,
+   "autres_montants": [
+    150000.0
+   ],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "ZAHINDUSTRIELLE MAROC",
+   "montant_acte_engagement": 156960.0,
+   "montant_apres_verification": null,
+   "autres_montants": [
+    156960.0
+   ],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 3,
+ "alertes_ocr": [],
+ "notes_ocr": [
+  "Maître d'ouvrage absent du PV (utiliser l'acheteur public du portail)."
+ ],
+ "qualite": "complet"
+}

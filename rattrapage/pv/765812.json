@@ -1,0 +1,78 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "765812",
+ "orgAcronyme": "g3h",
+ "reference_pv": "2301/AS/2023",
+ "nouveau": true,
+ "reference": "2301/AS/2023",
+ "objet": "Travaux de Renforcement des collecteurs structurants au niveau des quartiers Mariane 4 & 5",
+ "acheteur": "RÉGIE AUTONOME DE DISTRIBUTION EAU ET ÉLECTRICITÉ DE MEKNÈS",
+ "procedure": "appel d'offres ouvert",
+ "categorie": "Travaux",
+ "date_limite_plis": "23/11/2023",
+ "lieu_ouverture": null,
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": null,
+ "justification": null,
+ "infructueux": false,
+ "attributaire": null,
+ "montant_attribue": null,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "VARDEP",
+   "montant_acte_engagement": 5390092.8,
+   "montant_apres_verification": 5390092.8,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "ENARU",
+   "montant_acte_engagement": 5245020.0,
+   "montant_apres_verification": 5245020.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "SOBLTRAV et ATLAS HANDASSA",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_dossier_administratif_technique",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "INGTELMA",
+   "montant_acte_engagement": 5130060.0,
+   "montant_apres_verification": 5130060.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "OKTI TRAVAUX",
+   "montant_acte_engagement": 5107320.0,
+   "montant_apres_verification": 5107320.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 5,
+ "alertes_ocr": [
+  "Attributaire non trouvé."
+ ],
+ "notes_ocr": [],
+ "qualite": "complet"
+}

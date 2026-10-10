@@ -1,0 +1,72 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "719650",
+ "orgAcronyme": "p1v",
+ "reference_pv": "02/2023",
+ "nouveau": true,
+ "reference": "02/2023",
+ "objet": "Travaux d'Aménagement de La piste menant au lycée qualificatif Mohamed Abid El Jabri au centre Moul Bergui > Maitre c’ouvrage : président commune de Moul Bergui",
+ "acheteur": null,
+ "procedure": null,
+ "categorie": "Travaux",
+ "date_limite_plis": "25/05/2023",
+ "lieu_ouverture": "ces plis : bureau du président",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": null,
+ "justification": "l’offre est avantageuse (loffre la moins disante)",
+ "infructueux": false,
+ "attributaire": "STE COVR TRAVAUX CASABLANCA",
+ "montant_attribue": 567313.2,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "I-STE ZERAZI SARL DEMNATE AZILAL",
+   "montant_acte_engagement": 649194.0,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "STE BEN CHAHYD SARL MARRAKECH",
+   "montant_acte_engagement": 569438.4,
+   "montant_apres_verification": 569438.4,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "STE SONESTRA SARL YOUSSOUFIA",
+   "montant_acte_engagement": 69112.4,
+   "montant_apres_verification": 648992.4,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "STE COVR TRAVAUX CASABLANCA",
+   "montant_acte_engagement": 367313.2,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 4,
+ "alertes_ocr": [
+  "« STE SONESTRA SARL YOUSSOUFIA » : écart anormal entre montant initial et vérifié (lecture à vérifier)."
+ ],
+ "notes_ocr": [
+  "« STE SONESTRA SARL YOUSSOUFIA » : montant rectifié de 69 112.40 à 648 992.40 DH.",
+  "Maître d'ouvrage absent du PV (utiliser l'acheteur public du portail)."
+ ],
+ "qualite": "complet"
+}

@@ -1,0 +1,89 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "1018102",
+ "orgAcronyme": "j0w",
+ "reference_pv": null,
+ "nouveau": true,
+ "reference": null,
+ "objet": "Travaux de construction d’un terrain de proximité entre Douars Oulad Mimoun et lamzazka à la commune Ouled Moumna , Province Chichaoua",
+ "acheteur": "COMMUNE D'OULED EL MOUMNA",
+ "procedure": null,
+ "categorie": "Travaux",
+ "date_limite_plis": "15/06/2026",
+ "lieu_ouverture": "SALLE DE REUNION DE LA COMMUNE",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "29/06/2026",
+ "justification": null,
+ "infructueux": false,
+ "attributaire": "Montantdel'acte",
+ "montant_attribue": 699979.2,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "Concurrent STE AFLAB",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Concurrent STE IMMOBILIERE IFSAM SARL",
+   "montant_acte_engagement": 659979.2,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Concurrent SOCIETE HYDROGENIE SOLUTIONS",
+   "montant_acte_engagement": 699693.6,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "STE AFLAB",
+   "montant_acte_engagement": 721011.6,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "SOCIETE HYDROGENIE SOLUTIONS ne ES",
+   "montant_acte_engagement": 722884.0,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Montantdel'acte",
+   "montant_acte_engagement": 699979.2,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 6,
+ "alertes_ocr": [
+  "« STE AFLAB » absent de la liste des plis déposés (nom mal lu ?).",
+  "« SOCIETE HYDROGENIE SOLUTIONS ne ES » absent de la liste des plis déposés (nom mal lu ?).",
+  "« Montantdel'acte » absent de la liste des plis déposés (nom mal lu ?)."
+ ],
+ "notes_ocr": [],
+ "qualite": "complet"
+}

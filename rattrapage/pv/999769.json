@@ -1,0 +1,86 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "999769",
+ "orgAcronyme": "l1f",
+ "reference_pv": null,
+ "nouveau": true,
+ "reference": null,
+ "objet": null,
+ "acheteur": null,
+ "procedure": null,
+ "categorie": "Travaux",
+ "date_limite_plis": null,
+ "lieu_ouverture": null,
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": null,
+ "justification": "_e concurrent ayant présenté | offre économiquement & mEeUx Dcte d'achèverrert des *ravaux de a commiss'or : 29/04/2026 Eai+ à chefchaduer le 29/04/2026",
+ "infructueux": false,
+ "attributaire": null,
+ "montant_attribue": null,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "ER P EPS",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_offre_financiere",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "AREAS AA RAR APR M LE PMPRAERMR UE mm LT ET",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_offre_financiere",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Sc LM ISSIQ nina ire re Teil de",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_offre_financiere",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Conc nu crrerts Reter U OU Mortan* de l'Acte d'Ergagemert",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_offre_financiere",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "1\" . N _i l'OL * = TA = | 4 ç mm Fr do = mn",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_offre_financiere",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 5,
+ "alertes_ocr": [
+  "Attributaire non trouvé."
+ ],
+ "notes_ocr": [
+  "« ER P EPS » absent de la liste des plis déposés (nom mal lu ?).",
+  "« AREAS AA RAR APR M LE PMPRAERMR UE mm LT ET » absent de la liste des plis déposés (nom mal lu ?).",
+  "« Sc LM ISSIQ nina ire re Teil de » absent de la liste des plis déposés (nom mal lu ?).",
+  "« Conc nu crrerts Reter U OU Mortan* de l'Acte d'Ergagemert » absent de la liste des plis déposés (nom mal lu ?).",
+  "« 1\" . N _i l'OL * = TA = | 4 ç mm Fr do = mn » absent de la liste des plis déposés (nom mal lu ?).",
+  "Maître d'ouvrage absent du PV (utiliser l'acheteur public du portail).",
+  "Montants exprimés hors taxes (HT)."
+ ],
+ "qualite": "participants"
+}

@@ -1,0 +1,108 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "690972",
+ "orgAcronyme": "x8h",
+ "reference_pv": "59/RDOE/2022",
+ "nouveau": true,
+ "reference": "59/RDOE/2022",
+ "objet": null,
+ "acheteur": "REGION DAKHLA OUED EDDAHAB",
+ "procedure": "appel d'offres ouvert",
+ "categorie": "Travaux",
+ "date_limite_plis": "26/12/2022",
+ "lieu_ouverture": "salle des réunions de la Région Dakhla Qued Eddahab sise à Dakhla +",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "19/01/2023",
+ "justification": null,
+ "infructueux": false,
+ "attributaire": "GRP Sté BAHITI Sarl & Sté SAHARA CONSTRUCTION SOLUTION Sarl",
+ "montant_attribue": 3184494.0,
+ "attributaires_par_lot": [
+  {
+   "lot": null,
+   "attributaire": "GRP Sté BAHITI Sarl & Sté SAHARA CONSTRUCTION SOLUTION Sarl",
+   "montant": 3184494.0
+  },
+  {
+   "lot": null,
+   "attributaire": "pe CONSTRUCTION SOLUTION Sarl",
+   "montant": null
+  }
+ ],
+ "soumissionnaires": [
+  {
+   "nom": "$ Sté DYNAMIC AMENAGEMENT Sarl 2",
+   "montant_acte_engagement": 4130394.0,
+   "montant_apres_verification": 4130394.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_dossier_administratif_technique",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "GRP Sté HITRACOS Sarl & Sté DIHYA Sarl",
+   "montant_acte_engagement": 3520342.2,
+   "montant_apres_verification": 3520342.2,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_dossier_administratif_technique",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "GRP Sté DE CONSTRUCTION AKOUJE Sarl & Sté RIVERTRAV Sarl",
+   "montant_acte_engagement": 3466216.8,
+   "montant_apres_verification": 3466216.8,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_dossier_administratif_technique",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "GRP Sté BAHITI Sarl & Sté SAHARA CONSTRUCTION SOLUTION Sarl",
+   "montant_acte_engagement": 3184494.0,
+   "montant_apres_verification": 3184494.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Sté ASSAMR DE CONSTRUCTION Sarl",
+   "montant_acte_engagement": 4834572.0,
+   "montant_apres_verification": 4834572.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_dossier_administratif_technique",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Sté MARJANE DAK Sarl",
+   "montant_acte_engagement": 4349090.4,
+   "montant_apres_verification": 4349090.4,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_dossier_administratif_technique",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "pe CONSTRUCTION SOLUTION Sarl",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 7,
+ "alertes_ocr": [
+  "« pe CONSTRUCTION SOLUTION Sarl » absent de la liste des plis déposés (nom mal lu ?).",
+  "Montant de l'attributaire « pe CONSTRUCTION SOLUTION Sarl » non trouvé."
+ ],
+ "notes_ocr": [],
+ "qualite": "complet"
+}

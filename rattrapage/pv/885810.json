@@ -1,0 +1,162 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "885810",
+ "orgAcronyme": "d4q",
+ "reference_pv": null,
+ "nouveau": true,
+ "reference": null,
+ "objet": null,
+ "acheteur": null,
+ "procedure": "appel d'offres ouvert",
+ "categorie": "Travaux",
+ "date_limite_plis": "04/03/2025",
+ "lieu_ouverture": "au siège de la Direction Régionale de l'Oriental (DR6) - n Place 18 Mars 2003 - Oujda - Maroc 5%",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "10/04/2025",
+ "justification": "Moins-disant",
+ "infructueux": false,
+ "attributaire": "Délai d'exécution",
+ "montant_attribue": 3444678.0,
+ "attributaires_par_lot": [
+  {
+   "lot": null,
+   "attributaire": "Délai d'exécution",
+   "montant": 3444678.0
+  },
+  {
+   "lot": null,
+   "attributaire": "ABB EAUX TRAVAUX MAROC Un",
+   "montant": 3444678.0
+  }
+ ],
+ "soumissionnaires": [
+  {
+   "nom": "N ‘ _ sn PE",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "depose",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "ABB EAUX TRAVAUX MAROC Un",
+   "montant_acte_engagement": 3444678.0,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "AGEBAC MAROZ",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "depose",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "BOUICHOU HADDOU MAROZ",
+   "montant_acte_engagement": 3451617.6,
+   "montant_apres_verification": null,
+   "autres_montants": [
+    3451617.6
+   ],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "ENTRAID MAROZ",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "depose",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "GROUP AIN LABHIRA/ INMAEE MAROC - MAROC",
+   "montant_acte_engagement": 3402775.2,
+   "montant_apres_verification": null,
+   "autres_montants": [
+    3402775.2
+   ],
+   "lots": [],
+   "statut": "ecarte_dossier_administratif_technique",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "GROUP CTEG TRAVAUX/ F.S IDIVA MAROC - MAROC",
+   "montant_acte_engagement": 3456573.24,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "GROUP SODR/ROUTEST MAROC - MAROC",
+   "montant_acte_engagement": 3796172.4,
+   "montant_apres_verification": null,
+   "autres_montants": [
+    3796172.4
+   ],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "GROUP SOGECIM/ SOBOUWAT MAROC - MAROC",
+   "montant_acte_engagement": 3503700.48,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "OUJDA CHAUFFAGE MAROZ",
+   "montant_acte_engagement": 3497520.0,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "SMATRA MAROC",
+   "montant_acte_engagement": 3690226.8,
+   "montant_apres_verification": null,
+   "autres_montants": [
+    3690226.8
+   ],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Délai d'exécution",
+   "montant_acte_engagement": 3444678.0,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 12,
+ "alertes_ocr": [
+  "« Délai d'exécution » absent de la liste des plis déposés (nom mal lu ?)."
+ ],
+ "notes_ocr": [
+  "Maître d'ouvrage absent du PV (utiliser l'acheteur public du portail)."
+ ],
+ "qualite": "complet"
+}

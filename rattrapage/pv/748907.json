@@ -1,0 +1,45 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "748907",
+ "orgAcronyme": "p8x",
+ "reference_pv": "23/LTIZ/2023",
+ "nouveau": true,
+ "reference": "23/LTIZ/2023",
+ "objet": "L'APPEL D'OFFRES OUVERT AU RABAIS OU À MAJORATION N° 23/LTIZ/2023 OBJET : TRAVAUX D'AMÉNAGEMENT DE SEPT SALLES DANS SEPT ÉTABLISSEMENTS RELEVANT DE LA DIRECTION",
+ "acheteur": "LA FORMATION SOUSS MASSA À TIZNIT",
+ "procedure": "appel d'offres ouvert",
+ "categorie": "Travaux",
+ "date_limite_plis": null,
+ "lieu_ouverture": null,
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "25/09/2023",
+ "justification": "L'offre présentée par le candidat est la plus avantageuse pour l'administration.",
+ "infructueux": false,
+ "attributaire": "STE ASSASSE NEGOCE SARL AU",
+ "montant_attribue": 241500.0,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "STE ASSASSE NEGOCE SARL AU",
+   "montant_acte_engagement": 15241500.0,
+   "montant_apres_verification": 241500.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 1,
+ "alertes_ocr": [
+  "« STE ASSASSE NEGOCE SARL AU » absent de la liste des plis déposés (nom mal lu ?).",
+  "« STE ASSASSE NEGOCE SARL AU » : écart anormal entre montant initial et vérifié (lecture à vérifier)."
+ ],
+ "notes_ocr": [
+  "« STE ASSASSE NEGOCE SARL AU » : montant rectifié de 15 241 500.00 à 241 500.00 DH."
+ ],
+ "qualite": "attribution"
+}

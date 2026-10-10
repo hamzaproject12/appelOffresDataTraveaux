@@ -1,0 +1,84 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "735922",
+ "orgAcronyme": "g3h",
+ "reference_pv": "55/2023/S2A",
+ "nouveau": true,
+ "reference": "55/2023/S2A",
+ "objet": "TRAVAUX DE FOURNITURE ET POSE DES POTELETS ET BARRIERES DIRECTIONNELLES A LA VILLE D’AGADIR -TRANCHE 2- ▪ Date d’ouverture des plis : Jeudi 27/07/2023 à 11h00",
+ "acheteur": null,
+ "procedure": "appel d'offres ouvert",
+ "categorie": "Travaux",
+ "date_limite_plis": null,
+ "lieu_ouverture": null,
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": null,
+ "justification": null,
+ "infructueux": false,
+ "attributaire": "SOCIETE SD PROJET",
+ "montant_attribue": 7082400.0,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "SOCIETE CONFORAMA",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": true
+  },
+  {
+   "nom": "SOCIETE SD PROJET",
+   "montant_acte_engagement": 7082400.0,
+   "montant_apres_verification": 7082400.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "SOCIETE ATPLUM",
+   "montant_acte_engagement": 7817880.0,
+   "montant_apres_verification": 7817880.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "SOCIETE LAMALIF",
+   "montant_acte_engagement": 8174520.0,
+   "montant_apres_verification": 8174520.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "SOCIETE AIC",
+   "montant_acte_engagement": 9326160.0,
+   "montant_apres_verification": 9326160.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 5,
+ "alertes_ocr": [
+  "« SOCIETE SD PROJET » absent de la liste des plis déposés (nom mal lu ?).",
+  "« SOCIETE ATPLUM » absent de la liste des plis déposés (nom mal lu ?).",
+  "« SOCIETE LAMALIF » absent de la liste des plis déposés (nom mal lu ?).",
+  "« SOCIETE AIC » absent de la liste des plis déposés (nom mal lu ?)."
+ ],
+ "notes_ocr": [
+  "« SOCIETE CONFORAMA » absent de la liste des plis déposés (nom mal lu ?).",
+  "Maître d'ouvrage absent du PV (utiliser l'acheteur public du portail)."
+ ],
+ "qualite": "complet"
+}

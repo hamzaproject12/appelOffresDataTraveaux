@@ -1,0 +1,49 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "846866",
+ "orgAcronyme": "f4g",
+ "reference_pv": "05/EATF/DNARG/202",
+ "nouveau": true,
+ "reference": "05/EATF/DNARG/202",
+ "objet": "TRAVAUX DE RESTAURATION DE CASABLANCA, EN LOT UNIQUE",
+ "acheteur": "Ministère des Habous et des Affaires Islamiques EE ESSOUXK ET SES DEPENDANCES A",
+ "procedure": null,
+ "categorie": "Travaux",
+ "date_limite_plis": "07/11/2024",
+ "lieu_ouverture": "le bureau de Chef de division du budget et de suivi",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "08/11/2024",
+ "justification": null,
+ "infructueux": true,
+ "attributaire": null,
+ "montant_attribue": null,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "SOCIETE ARTIUM SARL",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_dossier_administratif_technique",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "SOCIETE HAMASS DE TRAVAUX DIVERS SARL",
+   "montant_acte_engagement": 4891374.0,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_offre_financiere",
+   "admis_avec_reserve": true
+  }
+ ],
+ "nombre_soumissionnaires": 2,
+ "alertes_ocr": [],
+ "notes_ocr": [],
+ "qualite": "attribution"
+}

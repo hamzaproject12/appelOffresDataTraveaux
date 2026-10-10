@@ -1,0 +1,71 @@
+{
+ "source": "extrait_docx",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "914766",
+ "orgAcronyme": "j0w",
+ "reference_pv": "21/2025/CBG",
+ "nouveau": true,
+ "reference": "21/2025/CBG",
+ "objet": "TRAVAUX DE RENFORCEMENT DES VOIRIES EN ENROBE A CHAUD À BENGUERIR",
+ "acheteur": "Commune De Benguerir",
+ "procedure": "appel d'offres ouvert national",
+ "categorie": "Travaux",
+ "date_limite_plis": "05/06/2025",
+ "lieu_ouverture": "Siege de la Commune : Siege de la Commune",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "10/07/2025",
+ "justification": "MIEUX DISANT",
+ "infructueux": false,
+ "attributaire": "SOPALMAR",
+ "montant_attribue": 1377000.0,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "SAKITRA",
+   "montant_acte_engagement": 461600.0,
+   "montant_apres_verification": 461600.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "SALMARINAS TRAVAUX",
+   "montant_acte_engagement": 512720.0,
+   "montant_apres_verification": 461600.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "SOPALMAR",
+   "montant_acte_engagement": 377000.0,
+   "montant_apres_verification": 512720.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "MASSO TRAV",
+   "montant_acte_engagement": 435320.0,
+   "montant_apres_verification": 377000.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 4,
+ "alertes_ocr": [],
+ "notes_ocr": [
+  "« SALMARINAS TRAVAUX » : montant rectifié de 512 720.00 à 461 600.00 DH.",
+  "« SOPALMAR » : montant rectifié de 377 000.00 à 512 720.00 DH.",
+  "« MASSO TRAV » : montant rectifié de 435 320.00 à 377 000.00 DH."
+ ],
+ "qualite": "complet"
+}

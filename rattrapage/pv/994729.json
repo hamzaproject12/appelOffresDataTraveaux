@@ -1,0 +1,61 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "994729",
+ "orgAcronyme": "g8e",
+ "reference_pv": "A025/RRA/2026",
+ "nouveau": true,
+ "reference": "A025/RRA/2026",
+ "objet": "CONSTRUCTION DE L'ECOLE ABDALLAH LAROUIA LA COMMUNE URBAINE DE KENITRA LOT UNIQUE",
+ "acheteur": null,
+ "procedure": null,
+ "categorie": "Travaux",
+ "date_limite_plis": "25/02/2026",
+ "lieu_ouverture": "Bureau de la Société Rabat Région Aménagement au 9, Place AI Joulane — Rabat",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "16/04/2026",
+ "justification": "Offre conforme aux exigences du Règlement de la consultation et l'offre la plus avantageuses",
+ "infructueux": false,
+ "attributaire": "INBS",
+ "montant_attribue": 9415811.16,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "FADEC",
+   "montant_acte_engagement": 9190272.0,
+   "montant_apres_verification": 9190272.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_offre_financiere",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "INBS",
+   "montant_acte_engagement": 9415811.16,
+   "montant_apres_verification": 9415811.16,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "KIKOVA",
+   "montant_acte_engagement": 9169026.0,
+   "montant_apres_verification": 8929122.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_offre_financiere",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 3,
+ "alertes_ocr": [],
+ "notes_ocr": [
+  "« KIKOVA » : montant rectifié de 9 169 026.00 à 8 929 122.00 DH.",
+  "Maître d'ouvrage absent du PV (utiliser l'acheteur public du portail)."
+ ],
+ "qualite": "complet"
+}

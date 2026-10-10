@@ -1,0 +1,67 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "838353",
+ "orgAcronyme": "f9f",
+ "reference_pv": "27/BC.OT/2024",
+ "nouveau": true,
+ "reference": "27/BC.OT/2024",
+ "objet": "TRAVAUX D’EQUIPEMENT DES QUARTIER SOUS EQUIPES A LA COMMUNE D'OULED TEIMA PROVINCE DE TAROUDANT. TRANCHE 8 : KORSI GHARBI ET RTEIM 1",
+ "acheteur": "Commune OuledTeima",
+ "procedure": null,
+ "categorie": "Travaux",
+ "date_limite_plis": "27/08/2024",
+ "lieu_ouverture": "Bureau de la Présidente de la Commune d’Ouled Teima",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "04/10/2024",
+ "justification": "Offre économiquement la plus avantageuse.",
+ "infructueux": false,
+ "attributaire": "STE. SEPRAV SARL",
+ "montant_attribue": 8221008.0,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "STE. FORT TRAVAUX SARL AU",
+   "montant_acte_engagement": 9636192.0,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "STE. SEPRAV SARL",
+   "montant_acte_engagement": 8221008.0,
+   "montant_apres_verification": 8221008.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "STE. VALTECH SARL",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_offre_technique",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "GPT:STE TOTAL VEGETAL SARL & STE TIRA TRAVAUX SARL",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_offre_technique",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 4,
+ "alertes_ocr": [],
+ "notes_ocr": [],
+ "qualite": "complet"
+}

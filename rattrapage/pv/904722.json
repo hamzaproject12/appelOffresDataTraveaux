@@ -1,0 +1,65 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "904722",
+ "orgAcronyme": "g3h",
+ "reference_pv": "S/INDH/2025",
+ "nouveau": true,
+ "reference": "S/INDH/2025",
+ "objet": "AOON N°S/INDH/2025 du 02/06/2025 à 10h relatif à TRAVAUX DE CONSTRUCTION DES LIAISONS ROUTIERES : NA LA CTA",
+ "acheteur": null,
+ "procedure": "appel d'offres ouvert national",
+ "categorie": "Travaux",
+ "date_limite_plis": "02/02/2025",
+ "lieu_ouverture": "à la civision des affaires Financières ce a Ce Chtouka Aït Baha, au bureau n°21",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": null,
+ "justification": null,
+ "infructueux": false,
+ "attributaire": null,
+ "montant_attribue": null,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "STE BATIMENT ROUTIER DU SUD SARL",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "STE HENANE TRAVAUX",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "STE EXTRA PUBLIC SARL",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 3,
+ "alertes_ocr": [
+  "Attributaire non trouvé."
+ ],
+ "notes_ocr": [
+  "« STE BATIMENT ROUTIER DU SUD SARL » absent de la liste des plis déposés (nom mal lu ?).",
+  "« STE HENANE TRAVAUX » absent de la liste des plis déposés (nom mal lu ?).",
+  "« STE EXTRA PUBLIC SARL » absent de la liste des plis déposés (nom mal lu ?).",
+  "Maître d'ouvrage absent du PV (utiliser l'acheteur public du portail)."
+ ],
+ "qualite": "participants"
+}

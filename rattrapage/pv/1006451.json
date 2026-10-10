@@ -1,0 +1,69 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "1006451",
+ "orgAcronyme": "g3h",
+ "reference_pv": "16/2026",
+ "nouveau": true,
+ "reference": "16/2026",
+ "objet": "Travaux d’intervention d'urgence et de démolition dans le Bâti Menaçant Ruine au sein de l’ancienne médina de Sefrou, 3ème tranche, en lot unique",
+ "acheteur": null,
+ "procedure": "appel d'offres ouvert",
+ "categorie": "Travaux",
+ "date_limite_plis": "05/05/2026",
+ "lieu_ouverture": "Siège de l'ADER-Fès",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "21/05/2026",
+ "justification": "Le concurrent ayant présenté l'offre financière la plus avantageuse et la moins disante.",
+ "infructueux": false,
+ "attributaire": "Société GUIDE BTP SARL",
+ "montant_attribue": 553716.0,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "Société CHENNOUF PLNT SARL AU",
+   "montant_acte_engagement": 810930.0,
+   "montant_apres_verification": 1621860.0,
+   "autres_montants": [
+    1621860.0
+   ],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": true
+  },
+  {
+   "nom": "Société NAZI GROUPE SARL AU",
+   "montant_acte_engagement": 544212.0,
+   "montant_apres_verification": 1088424.0,
+   "autres_montants": [
+    1088424.0
+   ],
+   "lots": [],
+   "statut": "ecarte_dossier_administratif_technique",
+   "admis_avec_reserve": true
+  },
+  {
+   "nom": "Société GUIDE BTP SARL",
+   "montant_acte_engagement": 553716.0,
+   "montant_apres_verification": 1107432.0,
+   "autres_montants": [
+    1107432.0
+   ],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 3,
+ "alertes_ocr": [],
+ "notes_ocr": [
+  "« Société CHENNOUF PLNT SARL AU » : montant rectifié de 810 930.00 à 1 621 860.00 DH.",
+  "« Société NAZI GROUPE SARL AU » : montant rectifié de 544 212.00 à 1 088 424.00 DH.",
+  "« Société GUIDE BTP SARL » : montant rectifié de 553 716.00 à 1 107 432.00 DH.",
+  "Maître d'ouvrage absent du PV (utiliser l'acheteur public du portail)."
+ ],
+ "qualite": "complet"
+}

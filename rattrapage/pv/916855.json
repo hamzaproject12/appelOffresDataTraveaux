@@ -1,0 +1,55 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "916855",
+ "orgAcronyme": "f8y",
+ "reference_pv": "09/2025",
+ "nouveau": true,
+ "reference": "09/2025",
+ "objet": "«”’ravaux ce réaménagement et ren orcement ce a route nationae 9 (route taouima) _ voirie et assainissement Jour e compte ce a commune ce Nacor, province ce Nacor »",
+ "acheteur": null,
+ "procedure": "appel d'offres ouvert",
+ "categorie": "Travaux",
+ "date_limite_plis": null,
+ "lieu_ouverture": null,
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": null,
+ "justification": "‘offre a o us avantageuse obtenue. Date c'acièvement ces travaux ce a commission : : 8/07/2025 ait à Nacor, e 8/07/2025 Le 9résicent _LePrésid em?) (S'imane. AZOUAGH ff |",
+ "infructueux": false,
+ "attributaire": null,
+ "montant_attribue": null,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "STE LES GRANDS TRAVAUX ROUTIERS DE CASABLANCA",
+   "montant_acte_engagement": 29812495.32,
+   "montant_apres_verification": 29812495.32,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_dossier_administratif_technique",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "STE 2JHL HOLDING SA, DE MARRAKECH 28",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_dossier_administratif_technique",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 2,
+ "alertes_ocr": [
+  "« STE LES GRANDS TRAVAUX ROUTIERS DE CASABLANCA » absent de la liste des plis déposés (nom mal lu ?).",
+  "Attributaire non trouvé."
+ ],
+ "notes_ocr": [
+  "« STE 2JHL HOLDING SA, DE MARRAKECH 28 » absent de la liste des plis déposés (nom mal lu ?).",
+  "Maître d'ouvrage absent du PV (utiliser l'acheteur public du portail)."
+ ],
+ "qualite": "attribution"
+}

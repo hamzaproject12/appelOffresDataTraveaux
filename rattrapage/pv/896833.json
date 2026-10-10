@@ -1,0 +1,53 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "896833",
+ "orgAcronyme": "f8y",
+ "reference_pv": null,
+ "nouveau": true,
+ "reference": null,
+ "objet": "Travaux d'installation de poteaux et câblages pour électrification 1ère et 2ème catégorie de certains foyers à la commune de Rislane- Province de Berkane",
+ "acheteur": "Le président de la commune de Rislane",
+ "procedure": "appel d'offres ouvert national",
+ "categorie": "Travaux",
+ "date_limite_plis": null,
+ "lieu_ouverture": "Bureau du président de la commune de Rislane",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": null,
+ "justification": "Offre conforme aux exigences du règlement avantaqeuse.",
+ "infructueux": false,
+ "attributaire": "z STE NAKOS GLOBAL SERVICES",
+ "montant_attribue": 201407.84,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "STE DARINARA",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_offre_financiere",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "z STE NAKOS GLOBAL SERVICES",
+   "montant_acte_engagement": 201407.84,
+   "montant_apres_verification": 201407.84,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 2,
+ "alertes_ocr": [
+  "« z STE NAKOS GLOBAL SERVICES » absent de la liste des plis déposés (nom mal lu ?)."
+ ],
+ "notes_ocr": [
+  "« STE DARINARA » absent de la liste des plis déposés (nom mal lu ?)."
+ ],
+ "qualite": "attribution"
+}

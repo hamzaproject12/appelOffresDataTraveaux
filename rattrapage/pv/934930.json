@@ -1,0 +1,60 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "934930",
+ "orgAcronyme": "e5w",
+ "reference_pv": null,
+ "nouveau": true,
+ "reference": null,
+ "objet": "TRAVAUX DE CONSTRUCTION DES PISTES À LA COMMUNE raté ZRIZER, PROVINCE DE TAOUNATE, REGION FES-MEKNES :-LA PISTE ter PRE AU NIVEAU DOUAR MECHKOUR ET DOUAR HADDADA (RMILLA) A LA COMMUNE DE ZRIZER",
+ "acheteur": "Le Directeur de l'Agence Régionale d’Exécution des Projets de la Région Fès Meknès",
+ "procedure": null,
+ "categorie": "Travaux",
+ "date_limite_plis": "16/09/2025",
+ "lieu_ouverture": null,
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "29/09/2025",
+ "justification": null,
+ "infructueux": false,
+ "attributaire": "SOIXANTE-QUATRE CENTIMES TOUTES TAXES COMPRISES",
+ "montant_attribue": 38920082.64,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "I STE BNITRA SARL",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Groupement : STE HS INFRA SARL & STE AVANZA TRAVAUX S.A.S",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_dossier_administratif_technique",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "SOIXANTE-QUATRE CENTIMES TOUTES TAXES COMPRISES",
+   "montant_acte_engagement": 38920082.64,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 3,
+ "alertes_ocr": [
+  "« SOIXANTE-QUATRE CENTIMES TOUTES TAXES COMPRISES » absent de la liste des plis déposés (nom mal lu ?)."
+ ],
+ "notes_ocr": [],
+ "qualite": "attribution"
+}

@@ -1,0 +1,117 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "1033611",
+ "orgAcronyme": "a1t",
+ "reference_pv": "134/2026/ADHA-LOT",
+ "nouveau": true,
+ "reference": "134/2026/ADHA-LOT",
+ "objet": null,
+ "acheteur": null,
+ "procedure": null,
+ "categorie": "Travaux",
+ "date_limite_plis": null,
+ "lieu_ouverture": null,
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "04/08/2026",
+ "justification": null,
+ "infructueux": false,
+ "attributaire": "STE SOUSSTHERME SARL",
+ "montant_attribue": 5091312.0,
+ "attributaires_par_lot": [
+  {
+   "lot": null,
+   "attributaire": "STE SOUSSTHERME SARL",
+   "montant": 5091312.0
+  },
+  {
+   "lot": null,
+   "attributaire": "STE SOKIDAM BTP SARL",
+   "montant": 2972904.0
+  }
+ ],
+ "soumissionnaires": [
+  {
+   "nom": "STE KASERV SARL",
+   "montant_acte_engagement": 5301162.0,
+   "montant_apres_verification": 5301162.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "STE W BATIMENT SARL",
+   "montant_acte_engagement": 6017622.0,
+   "montant_apres_verification": 6017622.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "STE MST INGENIERIE SARL AU",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "depose",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "STE EL WAHID DE CONSTRUCTION SARL",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "depose",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "STE SOUSSTHERME SARL",
+   "montant_acte_engagement": 5091312.0,
+   "montant_apres_verification": 5091312.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "STE FINO INTERIEUR SARL",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": true
+  },
+  {
+   "nom": "STE SARP BTP SARL",
+   "montant_acte_engagement": 3365172.0,
+   "montant_apres_verification": 3365172.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "STE SOKIDAM BTP SARL",
+   "montant_acte_engagement": 3286440.0,
+   "montant_apres_verification": 2972904.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 8,
+ "alertes_ocr": [],
+ "notes_ocr": [
+  "« STE SOKIDAM BTP SARL » : montant rectifié de 3 286 440.00 à 2 972 904.00 DH.",
+  "Maître d'ouvrage absent du PV (utiliser l'acheteur public du portail)."
+ ],
+ "qualite": "complet"
+}

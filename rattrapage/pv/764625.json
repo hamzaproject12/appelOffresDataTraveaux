@@ -1,0 +1,78 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "764625",
+ "orgAcronyme": "g8e",
+ "reference_pv": null,
+ "nouveau": true,
+ "reference": null,
+ "objet": null,
+ "acheteur": "CAISSE MAROCAINE DES RETRAITES (CMR)",
+ "procedure": "appel d'offres ouvert national",
+ "categorie": "Travaux",
+ "date_limite_plis": "08/12/2023",
+ "lieu_ouverture": "Siège de la CMR, sis à Rabat, Av' Al Araar- Hay Riad",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": null,
+ "justification": "La société HAY 2O1O SARL n'a pas été retenue lors de l'analyse de son complément du dossier administratif. La société SENETRELEC a présenté un dossier administratif et technique complet et conforme aux dispositions des articles 28 et 30 du décret n'2-22-431 du 08 Mars 2023 relatif aux marchés publics. Ses prospectus et fiches techniques sont jugées conformes aux spécifications techniques du C.P,S,",
+ "infructueux": false,
+ "attributaire": "/ SENETRELEC",
+ "montant_attribue": 161802.0,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "/ COMPAGNIE GENERALE DU LUMINAIRE",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "/ HAY 2o1o sARr",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "depose",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "/ SENETRELEC",
+   "montant_acte_engagement": 161802.0,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": true
+  },
+  {
+   "nom": "/ AZNET",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": true
+  },
+  {
+   "nom": "HAY 2O1O SARL",
+   "montant_acte_engagement": 163063.2,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 5,
+ "alertes_ocr": [
+  "« HAY 2O1O SARL » absent de la liste des plis déposés (nom mal lu ?)."
+ ],
+ "notes_ocr": [],
+ "qualite": "complet"
+}

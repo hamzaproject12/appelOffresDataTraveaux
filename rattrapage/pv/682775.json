@@ -1,0 +1,66 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "682775",
+ "orgAcronyme": "d4q",
+ "reference_pv": null,
+ "nouveau": true,
+ "reference": null,
+ "objet": "Fourniture et Installation d’une traversée 60 KV pour Transformateur 225/60/11 KV du",
+ "acheteur": null,
+ "procedure": null,
+ "categorie": "Travaux",
+ "date_limite_plis": "09/11/2022",
+ "lieu_ouverture": "Tanger",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "07/12/2022",
+ "justification": "Conforme.",
+ "infructueux": false,
+ "attributaire": "LES ATELIERS AM",
+ "montant_attribue": null,
+ "attributaires_par_lot": [
+  {
+   "lot": null,
+   "attributaire": "LES ATELIERS AM",
+   "montant": null
+  },
+  {
+   "lot": null,
+   "attributaire": "M.E.E",
+   "montant": 180000.0
+  }
+ ],
+ "soumissionnaires": [
+  {
+   "nom": "LES ATELIERS AM",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "M.E.E",
+   "montant_acte_engagement": 180000.0,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 2,
+ "alertes_ocr": [
+  "« M.E.E » absent de la liste des plis déposés (nom mal lu ?).",
+  "Montant de l'attributaire « LES ATELIERS AM » non trouvé."
+ ],
+ "notes_ocr": [
+  "Maître d'ouvrage absent du PV (utiliser l'acheteur public du portail).",
+  "Montants exprimés hors taxes (HT)."
+ ],
+ "qualite": "attribution"
+}

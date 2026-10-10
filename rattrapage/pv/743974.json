@@ -1,0 +1,72 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "743974",
+ "orgAcronyme": "d4q",
+ "reference_pv": null,
+ "nouveau": true,
+ "reference": null,
+ "objet": "Acquisition de matériel de diagnostic et de mesures électriques pour les Directions Régionales Transport",
+ "acheteur": null,
+ "procedure": null,
+ "categorie": "Travaux",
+ "date_limite_plis": "26/07/2023",
+ "lieu_ouverture": "Siège ONEF/BE",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "27/09/2022",
+ "justification": "Moins-disant conforme",
+ "infructueux": true,
+ "attributaire": "FAIRFIELD ENGINEERING",
+ "montant_attribue": 675000.0,
+ "attributaires_par_lot": [
+  {
+   "lot": "2",
+   "attributaire": "FAIRFIELD ENGINEERING",
+   "montant": 675000.0
+  },
+  {
+   "lot": "3",
+   "attributaire": "GRID ENERGY COMPANY",
+   "montant": 606300.0
+  }
+ ],
+ "soumissionnaires": [
+  {
+   "nom": "FAIRFIELD ENGINEERING",
+   "montant_acte_engagement": 675000.0,
+   "montant_apres_verification": null,
+   "autres_montants": [
+    675000.0
+   ],
+   "lots": [
+    "2"
+   ],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "GRID ENERGY COMPANY",
+   "montant_acte_engagement": 907700.0,
+   "montant_apres_verification": null,
+   "autres_montants": [
+    907700.0
+   ],
+   "lots": [
+    "2",
+    "3"
+   ],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 2,
+ "alertes_ocr": [],
+ "notes_ocr": [
+  "Marché alloti (2 lots).",
+  "Maître d'ouvrage absent du PV (utiliser l'acheteur public du portail)."
+ ],
+ "qualite": "attribution"
+}

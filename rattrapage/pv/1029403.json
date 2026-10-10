@@ -1,0 +1,62 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "1029403",
+ "orgAcronyme": "d0q",
+ "reference_pv": "13/2026/STE",
+ "nouveau": true,
+ "reference": "13/2026/STE",
+ "objet": null,
+ "acheteur": "Commune de Taza",
+ "procedure": null,
+ "categorie": "Travaux",
+ "date_limite_plis": "08/06/2026",
+ "lieu_ouverture": "Bd Moulay yousse",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": null,
+ "justification": "L’offre la plus avantageuse",
+ "infructueux": false,
+ "attributaire": "MOROCCAN ELECTRIC POWER COMPANY (MEPC) SARL",
+ "montant_attribue": 2190108.0,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "L'ART D’EQUIPEMENT ET SERVICES ARDES",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_dossier_administratif_technique",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "MOROCCAN ELECTRIC POWER COMPANY (MEPC) SARL",
+   "montant_acte_engagement": 2190108.0,
+   "montant_apres_verification": null,
+   "autres_montants": [
+    2190108.0
+   ],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "COMPTOIR BRICOUTILS YADANE SARL",
+   "montant_acte_engagement": 2587860.0,
+   "montant_apres_verification": null,
+   "autres_montants": [
+    2587860.0
+   ],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 3,
+ "alertes_ocr": [],
+ "notes_ocr": [],
+ "qualite": "complet"
+}

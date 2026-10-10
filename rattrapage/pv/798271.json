@@ -1,0 +1,54 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "798271",
+ "orgAcronyme": "g3h",
+ "reference_pv": "42/2024/Lot",
+ "nouveau": true,
+ "reference": "42/2024/Lot",
+ "objet": null,
+ "acheteur": null,
+ "procedure": "appel d'offres ouvert",
+ "categorie": "Travaux",
+ "date_limite_plis": "13/05/2024",
+ "lieu_ouverture": null,
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "20/05/2024",
+ "justification": "Le concurrent ayant présenté une offre avantageuse.",
+ "infructueux": true,
+ "attributaire": "Société ZDAKATRAD SARL",
+ "montant_attribue": 1103280.0,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "Société BOUKADIDA OMAR SARL",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_dossier_administratif_technique",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Société ZDAKATRAD SARL",
+   "montant_acte_engagement": 1103280.0,
+   "montant_apres_verification": 2206560.0,
+   "autres_montants": [
+    2206560.0
+   ],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": true
+  }
+ ],
+ "nombre_soumissionnaires": 2,
+ "alertes_ocr": [],
+ "notes_ocr": [
+  "« Société ZDAKATRAD SARL » : montant rectifié de 1 103 280.00 à 2 206 560.00 DH.",
+  "Maître d'ouvrage absent du PV (utiliser l'acheteur public du portail)."
+ ],
+ "qualite": "attribution"
+}

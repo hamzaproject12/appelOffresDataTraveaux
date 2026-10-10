@@ -1,0 +1,60 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "726958",
+ "orgAcronyme": "o8p",
+ "reference_pv": "17/2023",
+ "nouveau": true,
+ "reference": "17/2023",
+ "objet": "Travaux de reprofilage des accotements de la RR205 (EX RP2307) du PK 9+700 au PK 22+000- (Province de Safi)",
+ "acheteur": "la Direction Provinciale de l'équipement, du transport et de la logistique de Safi (représenté par son Directeur Provincial)",
+ "procedure": "appel d'offres ouvert",
+ "categorie": "Travaux",
+ "date_limite_plis": "22/06/2023",
+ "lieu_ouverture": "la Direction Provinciale de l'équipement, du transport et de la logistique de Safi",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "05/07/2023",
+ "justification": "offre la moins disante pour l’administration",
+ "infructueux": false,
+ "attributaire": "BTP CONTACT",
+ "montant_attribue": 219780.0,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "MOUIS TRAD",
+   "montant_acte_engagement": 276600.0,
+   "montant_apres_verification": 276600.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "MURAN",
+   "montant_acte_engagement": 279060.0,
+   "montant_apres_verification": 279060.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "BTP CONTACT",
+   "montant_acte_engagement": 219780.0,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 3,
+ "alertes_ocr": [
+  "« BTP CONTACT » absent de la liste des plis déposés (nom mal lu ?)."
+ ],
+ "notes_ocr": [],
+ "qualite": "complet"
+}

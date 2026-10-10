@@ -1,0 +1,102 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "861583",
+ "orgAcronyme": "h5r",
+ "reference_pv": null,
+ "nouveau": true,
+ "reference": null,
+ "objet": "Adduction d'eau potable au groupement Lagouirate, groupement karam El ouartvin et au douar Ouled Azzouz ben Allal, CT EL FOKRA, Province khouribga",
+ "acheteur": "Président CT EL FOQRA",
+ "procedure": "appel d'offres ouvert",
+ "categorie": "Travaux",
+ "date_limite_plis": "14/11/2024",
+ "lieu_ouverture": "Bureau Président CT EL FOKRA",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "27/11/2024",
+ "justification": "Offre économiquement la plus avantageuse, (le mieux disant),",
+ "infructueux": false,
+ "attributaire": "Sté Espoir Alpha",
+ "montant_attribue": null,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "Concurrent Et Sté Hydrogénle solution",
+   "montant_acte_engagement": 644200.17,
+   "montant_apres_verification": 688266.12,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Concurrent 2: Sté Espoir Alpha",
+   "montant_acte_engagement": 694726.2,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Concurrent 4: Sté Sotolis",
+   "montant_acte_engagement": 1475984.4,
+   "montant_apres_verification": 787598.4,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Concurrent 4: Entreprise M'HAMED LAHSSINI,",
+   "montant_acte_engagement": 763209.0,
+   "montant_apres_verification": 691821.6,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Concurrent 6: Sté 2LL HMI",
+   "montant_acte_engagement": 691464.24,
+   "montant_apres_verification": 691464.24,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Concurrent 7: Sté Panavi Travaux, 68",
+   "montant_acte_engagement": 6226.6,
+   "montant_apres_verification": 686286.6,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Sté Espoir Alpha",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 7,
+ "alertes_ocr": [
+  "« Concurrent 7: Sté Panavi Travaux, 68 » : écart anormal entre montant initial et vérifié (lecture à vérifier).",
+  "Montant de l'attributaire « Sté Espoir Alpha » non trouvé."
+ ],
+ "notes_ocr": [
+  "« Concurrent Et Sté Hydrogénle solution » : montant rectifié de 644 200.17 à 688 266.12 DH.",
+  "« Concurrent 4: Sté Sotolis » : montant rectifié de 1 475 984.40 à 787 598.40 DH.",
+  "« Concurrent 4: Entreprise M'HAMED LAHSSINI  » : montant rectifié de 763 209.00 à 691 821.60 DH.",
+  "« Concurrent 7: Sté Panavi Travaux  68 » : montant rectifié de 6 226.60 à 686 286.60 DH."
+ ],
+ "qualite": "complet"
+}

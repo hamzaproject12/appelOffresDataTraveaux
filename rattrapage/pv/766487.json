@@ -1,0 +1,85 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "766487",
+ "orgAcronyme": "f8y",
+ "reference_pv": "124/2023/AREPO",
+ "nouveau": true,
+ "reference": "124/2023/AREPO",
+ "objet": "TRAVAUX D'AMENAGEMENT ET D,EXTENsIoN DU SoUK DE LA VILLE DE TAoURIRT- PRovINCE DE TAOTJRIRT, Mrître d'ouwage: Ag€nce Régionale d'Exécution des proj€ts de la Région de I'Oriental",
+ "acheteur": null,
+ "procedure": null,
+ "categorie": "Travaux",
+ "date_limite_plis": "18/12/2023",
+ "lieu_ouverture": null,
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "22/12/2023",
+ "justification": "l’attributaire a présenté l’offre la mieux disante.",
+ "infructueux": false,
+ "attributaire": "SOCIETE NASSIRDDINE DES TRAVAUX GENERATIX SARL",
+ "montant_attribue": 1900386.0,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "SOCIETESCOTMSARL",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "SOCIETE COS CONSTRUCTIONS SARL",
+   "montant_acte_engagement": 33999372.0,
+   "montant_apres_verification": 33999372.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "SOCIETE NASSIRDDINE DES TRAVAUX GENERATIX SARL",
+   "montant_acte_engagement": 1900386.0,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "SOCIETESERGAB SARLAU",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_dossier_administratif_technique",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "SOCIETE SCOTIM SARL",
+   "montant_acte_engagement": 33999372.0,
+   "montant_apres_verification": 34666000.8,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 5,
+ "alertes_ocr": [
+  "« SOCIETE COS CONSTRUCTIONS SARL » absent de la liste des plis déposés (nom mal lu ?).",
+  "« SOCIETE NASSIRDDINE DES TRAVAUX GENERATIX SARL » absent de la liste des plis déposés (nom mal lu ?).",
+  "« SOCIETE SCOTIM SARL » absent de la liste des plis déposés (nom mal lu ?)."
+ ],
+ "notes_ocr": [
+  "« SOCIETESCOTMSARL » absent de la liste des plis déposés (nom mal lu ?).",
+  "« SOCIETESERGAB SARLAU » absent de la liste des plis déposés (nom mal lu ?).",
+  "« SOCIETE SCOTIM SARL » : montant rectifié de 33 999 372.00 à 34 666 000.80 DH.",
+  "Maître d'ouvrage absent du PV (utiliser l'acheteur public du portail)."
+ ],
+ "qualite": "complet"
+}

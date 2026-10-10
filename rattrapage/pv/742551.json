@@ -1,0 +1,126 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "742551",
+ "orgAcronyme": "p1v",
+ "reference_pv": "09/2028",
+ "nouveau": true,
+ "reference": "09/2028",
+ "objet": "Réfection des nids de poules, crevasses et toutes dégradations de la voirie de la commune d’El Jadida",
+ "acheteur": null,
+ "procedure": null,
+ "categorie": "Travaux",
+ "date_limite_plis": "29/08/2023",
+ "lieu_ouverture": ", Salle des réunions au premier étage à l'Annexe administrative Hay Essalam d’El Jadida",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": null,
+ "justification": null,
+ "infructueux": false,
+ "attributaire": null,
+ "montant_attribue": null,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "Société VIAS",
+   "montant_acte_engagement": 14001000.0,
+   "montant_apres_verification": 14001000.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_offre_financiere",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Société SSMT",
+   "montant_acte_engagement": 14328000.0,
+   "montant_apres_verification": 14328000.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_offre_financiere",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Société NICE TRAVAUX",
+   "montant_acte_engagement": 12864000.0,
+   "montant_apres_verification": 12864000.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_offre_financiere",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Société SOCADELEG",
+   "montant_acte_engagement": 12972600.0,
+   "montant_apres_verification": 12972600.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Société TRACTRA",
+   "montant_acte_engagement": 13660200.0,
+   "montant_apres_verification": 13660200.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Société LABERAGA",
+   "montant_acte_engagement": 13014000.0,
+   "montant_apres_verification": 13014000.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Société GROUPE SOYAZID",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_dossier_administratif_technique",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Société (TR3SF) Entreprise 3Fde revêtement routier et travaux divers",
+   "montant_acte_engagement": 11469600.0,
+   "montant_apres_verification": 11469600.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_dossier_administratif_technique",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Société (CTR) construction et travaux routiers",
+   "montant_acte_engagement": 13071000.0,
+   "montant_apres_verification": 13071000.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_offre_financiere",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Société (GRTP) Entreprise Générale des",
+   "montant_acte_engagement": 13320000.0,
+   "montant_apres_verification": 13320000.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 10,
+ "alertes_ocr": [
+  "« Société (GRTP) Entreprise Générale des » absent de la liste des plis déposés (nom mal lu ?).",
+  "Attributaire non trouvé."
+ ],
+ "notes_ocr": [
+  "Maître d'ouvrage absent du PV (utiliser l'acheteur public du portail)."
+ ],
+ "qualite": "complet"
+}

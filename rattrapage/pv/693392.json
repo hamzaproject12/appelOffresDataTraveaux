@@ -1,0 +1,93 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "693392",
+ "orgAcronyme": "h5r",
+ "reference_pv": "07-2022",
+ "nouveau": true,
+ "reference": "07-2022",
+ "objet": "Construction des routes (chemins vicinaux et pistes) aux différents douars de la commune",
+ "acheteur": "Commune Ain Tizgha",
+ "procedure": "appel d'offres ouvert",
+ "categorie": "Travaux",
+ "date_limite_plis": "22/12/2022",
+ "lieu_ouverture": null,
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": null,
+ "justification": "l’offre la moins- disante.",
+ "infructueux": false,
+ "attributaire": "SOCIETE GENERAL CHANTIERS SARL",
+ "montant_attribue": 3228216.0,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "SOCIETE LOGIFOR SARL",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "SOCIETE GENERAL CHANTIERS SARL",
+   "montant_acte_engagement": 3228216.0,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "SOCIETE ZAMANE EL KHEIR - Le bordereau des prix présenté est",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_offre_financiere",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "SOCIETE EMACOTRA SARL",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_dossier_administratif_technique",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "GROUPEMENT ESTAR BATIMENT SARL ET SOCIETE STAPORT SARL",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_dossier_administratif_technique",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "SOCIETE DHW MAÎTRISE SARL",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_dossier_administratif_technique",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 6,
+ "alertes_ocr": [
+  "« SOCIETE GENERAL CHANTIERS SARL » absent de la liste des plis déposés (nom mal lu ?)."
+ ],
+ "notes_ocr": [
+  "« SOCIETE LOGIFOR SARL » absent de la liste des plis déposés (nom mal lu ?).",
+  "« SOCIETE ZAMANE EL KHEIR - Le bordereau des prix présenté est » absent de la liste des plis déposés (nom mal lu ?).",
+  "« SOCIETE EMACOTRA SARL » absent de la liste des plis déposés (nom mal lu ?).",
+  "« GROUPEMENT ESTAR BATIMENT SARL ET SOCIETE STAPORT SARL » absent de la liste des plis déposés (nom mal lu ?).",
+  "« SOCIETE DHW MAÎTRISE SARL » absent de la liste des plis déposés (nom mal lu ?)."
+ ],
+ "qualite": "attribution"
+}

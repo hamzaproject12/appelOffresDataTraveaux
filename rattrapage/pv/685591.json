@@ -1,0 +1,121 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "685591",
+ "orgAcronyme": "o8p",
+ "reference_pv": "222-22-AO0O",
+ "nouveau": true,
+ "reference": "222-22-AO0O",
+ "objet": "Travaux d'aménagement de l'Aéroport de Marrakech Ménara",
+ "acheteur": "l'OFFICE NATIONAL DES AEROPORTS",
+ "procedure": null,
+ "categorie": "Travaux",
+ "date_limite_plis": "13/12/2022",
+ "lieu_ouverture": "la salle de réunion de la Direction Financière",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": null,
+ "justification": "Moins-disant conforme.",
+ "infructueux": false,
+ "attributaire": "COOP TRAVAUX",
+ "montant_attribue": 14057886.0,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "BTP OULIME",
+   "montant_acte_engagement": 16622220.0,
+   "montant_apres_verification": 16622220.0,
+   "autres_montants": [
+    16622220.0
+   ],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "COOP TRAVAUX",
+   "montant_acte_engagement": 14057886.0,
+   "montant_apres_verification": 14057886.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "MESKI DES TRAVAUX DIVERS",
+   "montant_acte_engagement": 14520072.0,
+   "montant_apres_verification": 14520072.0,
+   "autres_montants": [
+    14520072.0
+   ],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "INNOVATIVE BUILDING SOELUTIONS",
+   "montant_acte_engagement": 17221894.8,
+   "montant_apres_verification": 17221894.8,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "INTER CONSTRUCTION",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_dossier_administratif_technique",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "BORA CONSTRUCTION",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_dossier_administratif_technique",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "2 COOP TRAVAUX COMPRISE COMPRISE",
+   "montant_acte_engagement": 14057886.0,
+   "montant_apres_verification": null,
+   "autres_montants": [
+    14057886.0
+   ],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "4 _INNOVATIVE BUILDING",
+   "montant_acte_engagement": 17221894.8,
+   "montant_apres_verification": null,
+   "autres_montants": [
+    17221894.8
+   ],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 8,
+ "alertes_ocr": [
+  "« BTP OULIME » absent de la liste des plis déposés (nom mal lu ?).",
+  "« COOP TRAVAUX » absent de la liste des plis déposés (nom mal lu ?).",
+  "« MESKI DES TRAVAUX DIVERS » absent de la liste des plis déposés (nom mal lu ?).",
+  "« INNOVATIVE BUILDING SOELUTIONS » absent de la liste des plis déposés (nom mal lu ?).",
+  "« 2 COOP TRAVAUX COMPRISE COMPRISE » absent de la liste des plis déposés (nom mal lu ?).",
+  "« 4 _INNOVATIVE BUILDING » absent de la liste des plis déposés (nom mal lu ?)."
+ ],
+ "notes_ocr": [
+  "« INTER CONSTRUCTION » absent de la liste des plis déposés (nom mal lu ?).",
+  "« BORA CONSTRUCTION » absent de la liste des plis déposés (nom mal lu ?)."
+ ],
+ "qualite": "complet"
+}

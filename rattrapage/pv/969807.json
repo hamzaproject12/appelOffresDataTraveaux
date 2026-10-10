@@ -1,0 +1,60 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "969807",
+ "orgAcronyme": "g3h",
+ "reference_pv": null,
+ "nouveau": true,
+ "reference": null,
+ "objet": "TRAVAUX DE CONSTRUCTION EN BICOUCHE DE LA TRANCHE 1 DES PISTES TOTALISANT UN LINEAIRE DE 7,5 KM DANS LA COMMUNE DE SANIAT BERGUIG SIS PROVINCE DE SIDI BENNOUR",
+ "acheteur": null,
+ "procedure": null,
+ "categorie": "Travaux",
+ "date_limite_plis": "31/12/2025",
+ "lieu_ouverture": "Locaux de la société Aménagement de la province SIDI BENNOUR",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "12/01/2026",
+ "justification": "Offre économiquement la plus avantageuse",
+ "infructueux": false,
+ "attributaire": "MASSO TRAV SARL AU",
+ "montant_attribue": 6355879.2,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "TRANSWIN SARL",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_dossier_administratif_technique",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "TRAVGROUP SARL",
+   "montant_acte_engagement": 6373708.8,
+   "montant_apres_verification": 6373708.8,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "MASSO TRAV SARL AU",
+   "montant_acte_engagement": 6355879.2,
+   "montant_apres_verification": 6355879.2,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 3,
+ "alertes_ocr": [],
+ "notes_ocr": [
+  "Maître d'ouvrage absent du PV (utiliser l'acheteur public du portail)."
+ ],
+ "qualite": "complet"
+}

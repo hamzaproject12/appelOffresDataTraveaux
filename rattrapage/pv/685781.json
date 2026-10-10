@@ -1,0 +1,64 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "685781",
+ "orgAcronyme": "d4q",
+ "reference_pv": null,
+ "nouveau": true,
+ "reference": null,
+ "objet": null,
+ "acheteur": null,
+ "procedure": null,
+ "categorie": "Travaux",
+ "date_limite_plis": "01/11/2022",
+ "lieu_ouverture": "Siège DRL Laâyoune",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": null,
+ "justification": "Plus avantageux.",
+ "infructueux": false,
+ "attributaire": "SOREGELEC",
+ "montant_attribue": 3104770.15,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "SMPOWER, SOREGELEC, C.C.R.E, CIMACOSA et Ste OUHAFID TRAVAUX",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Ste OUHAFID TRAVAUX",
+   "montant_acte_engagement": 3996904.46,
+   "montant_apres_verification": 3996904.46,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "SOREGELEC",
+   "montant_acte_engagement": 3104770.15,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 3,
+ "alertes_ocr": [
+  "« Ste OUHAFID TRAVAUX » absent de la liste des plis déposés (nom mal lu ?).",
+  "« SOREGELEC » absent de la liste des plis déposés (nom mal lu ?)."
+ ],
+ "notes_ocr": [
+  "Maître d'ouvrage absent du PV (utiliser l'acheteur public du portail).",
+  "Montants exprimés hors taxes (HT)."
+ ],
+ "qualite": "complet"
+}

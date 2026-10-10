@@ -1,0 +1,53 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "832062",
+ "orgAcronyme": "q0x",
+ "reference_pv": "20/2024",
+ "nouveau": true,
+ "reference": "20/2024",
+ "objet": "LA RESTAURATION ET LA REHABILITATION DE L’AVENUE BIR ANZARANE COMMUNE DE KHENIFRA",
+ "acheteur": "Commune de Khénifra",
+ "procedure": "appel d'offres ouvert simplifié",
+ "categorie": "Travaux",
+ "date_limite_plis": "25/09/2024",
+ "lieu_ouverture": "Bureau du Président",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": null,
+ "justification": null,
+ "infructueux": false,
+ "attributaire": null,
+ "montant_attribue": null,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "Sté OPERA TRAVAUX SARL, Marrakech",
+   "montant_acte_engagement": 7087860.0,
+   "montant_apres_verification": 7087860.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Sté AMRASSOURI SARL. AU, Boumia",
+   "montant_acte_engagement": 6348718.8,
+   "montant_apres_verification": 6348718.8,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 2,
+ "alertes_ocr": [
+  "« Sté OPERA TRAVAUX SARL, Marrakech » absent de la liste des plis déposés (nom mal lu ?).",
+  "« Sté AMRASSOURI SARL. AU, Boumia » absent de la liste des plis déposés (nom mal lu ?).",
+  "Attributaire non trouvé."
+ ],
+ "notes_ocr": [],
+ "qualite": "complet"
+}

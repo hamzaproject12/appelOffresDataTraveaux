@@ -1,0 +1,53 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "682353",
+ "orgAcronyme": "o8p",
+ "reference_pv": "55/2022",
+ "nouveau": true,
+ "reference": "55/2022",
+ "objet": "Travaux d'aménagement des établissements de soins de santé primaires de la Région Souss Massa",
+ "acheteur": null,
+ "procedure": "appel d'offres ouvert",
+ "categorie": "Travaux",
+ "date_limite_plis": "28/11/2022",
+ "lieu_ouverture": "Bureau de Monsieur le Directeur Régional de l’ Agence Nationale des Equipements",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "05/12/2022",
+ "justification": "Les éléments contenus dans son dossier administratif, technique, son offre financière et ses justifications.",
+ "infructueux": false,
+ "attributaire": "Société TIZAL CONSTRUCTION sarl",
+ "montant_attribue": null,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "Société TIZAL CONSTRUCTION sarl",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Société EBEP sarl au",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_dossier_administratif_technique",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 2,
+ "alertes_ocr": [
+  "Montant de l'attributaire « Société TIZAL CONSTRUCTION sarl » non trouvé."
+ ],
+ "notes_ocr": [
+  "Maître d'ouvrage absent du PV (utiliser l'acheteur public du portail)."
+ ],
+ "qualite": "participants"
+}

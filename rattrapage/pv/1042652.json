@@ -1,0 +1,45 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "1042652",
+ "orgAcronyme": "d4q",
+ "reference_pv": "63/2026",
+ "nouveau": true,
+ "reference": "63/2026",
+ "objet": "TRAVAUX D'’ELECTRIFICATION DU CENTRE D’ESTIVAGE DE L'ONHYM A IFRANE »",
+ "acheteur": "ONHYM",
+ "procedure": null,
+ "categorie": "Travaux",
+ "date_limite_plis": "17/09/2026",
+ "lieu_ouverture": "Bureau ONHYM - 34, Avenue AL FADILA CYM RABAT",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "24/09/2026",
+ "justification": "Appel d'offres infructueux",
+ "infructueux": true,
+ "attributaire": null,
+ "montant_attribue": null,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "NIKELEC",
+   "montant_acte_engagement": 335788.4,
+   "montant_apres_verification": 402946.08,
+   "autres_montants": [
+    67157.68,
+    402946.08
+   ],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 1,
+ "alertes_ocr": [],
+ "notes_ocr": [
+  "« NIKELEC » : montant rectifié de 335 788.40 à 402 946.08 DH."
+ ],
+ "qualite": "attribution"
+}

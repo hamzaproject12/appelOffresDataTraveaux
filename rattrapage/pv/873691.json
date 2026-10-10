@@ -1,0 +1,44 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "873691",
+ "orgAcronyme": "d4q",
+ "reference_pv": null,
+ "nouveau": true,
+ "reference": null,
+ "objet": "Peinture des lignes HTB du réseau des Divisions Exploitations Transport Laâyoune, Dakhla et Agadir Re Date etheure Date Montant de l'offre",
+ "acheteur": null,
+ "procedure": null,
+ "categorie": "Travaux",
+ "date_limite_plis": "13/02/2025",
+ "lieu_ouverture": "Casablanca",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": null,
+ "justification": "Jugé infructueux (Aucune offre n’a été déposée). COMMISSION D’AO CENTRALE AO N° TS4127060 Page 1 sur2 Pour le lot n° 6 : Concurrents Montants des actes d'engagement à l'ouverture SOMAPEINTURE 32.495.380,00 DH/HTVA Jugé infructueux (Offre excessive).",
+ "infructueux": true,
+ "attributaire": null,
+ "montant_attribue": null,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "SOMAPEINTURE",
+   "montant_acte_engagement": 32504380.0,
+   "montant_apres_verification": 32504380.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_offre_financiere",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 1,
+ "alertes_ocr": [
+  "« SOMAPEINTURE » absent de la liste des plis déposés (nom mal lu ?)."
+ ],
+ "notes_ocr": [
+  "Maître d'ouvrage absent du PV (utiliser l'acheteur public du portail)."
+ ],
+ "qualite": "attribution"
+}

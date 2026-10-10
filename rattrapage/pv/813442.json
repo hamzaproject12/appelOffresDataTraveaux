@@ -1,0 +1,42 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "813442",
+ "orgAcronyme": "l1f",
+ "reference_pv": "05/2024",
+ "nouveau": true,
+ "reference": "05/2024",
+ "objet": null,
+ "acheteur": "Conseil Provincial Fahs-Anjra",
+ "procedure": "appel d'offres ouvert",
+ "categorie": "Travaux",
+ "date_limite_plis": "03/07/2024",
+ "lieu_ouverture": null,
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "10/07/2024",
+ "justification": null,
+ "infructueux": false,
+ "attributaire": "Sté PETRICA sarlau",
+ "montant_attribue": 3476136.0,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "Sté PETRICA sarlau",
+   "montant_acte_engagement": 3476136.0,
+   "montant_apres_verification": 3476136.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 1,
+ "alertes_ocr": [
+  "« Sté PETRICA sarlau » absent de la liste des plis déposés (nom mal lu ?)."
+ ],
+ "notes_ocr": [],
+ "qualite": "attribution"
+}

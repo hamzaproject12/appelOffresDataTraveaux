@@ -1,0 +1,52 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "1010987",
+ "orgAcronyme": "f8y",
+ "reference_pv": "03/2026/CJ",
+ "nouveau": true,
+ "reference": "03/2026/CJ",
+ "objet": "Travaux d'aménagement de la Piscine Communale de Jerada",
+ "acheteur": "Commune de Jerada, représentée par le Président de la Commune",
+ "procedure": "appel d'offres ouvert",
+ "categorie": "Travaux",
+ "date_limite_plis": "19/06/2026",
+ "lieu_ouverture": "Bureau du Président de la Commune",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "26/02/2026",
+ "justification": null,
+ "infructueux": false,
+ "attributaire": "STE CDEM PRO TL",
+ "montant_attribue": 879404.64,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "STE BATIRENO & EQUIPEMENT SARL",
+   "montant_acte_engagement": 882567.6,
+   "montant_apres_verification": 882567.6,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "STE CDEM PRO TL",
+   "montant_acte_engagement": 879404.64,
+   "montant_apres_verification": 879404.64,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 2,
+ "alertes_ocr": [
+  "« STE BATIRENO & EQUIPEMENT SARL » absent de la liste des plis déposés (nom mal lu ?).",
+  "« STE CDEM PRO TL » absent de la liste des plis déposés (nom mal lu ?)."
+ ],
+ "notes_ocr": [],
+ "qualite": "complet"
+}

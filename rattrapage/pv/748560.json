@@ -1,0 +1,58 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "748560",
+ "orgAcronyme": "d4q",
+ "reference_pv": null,
+ "nouveau": true,
+ "reference": null,
+ "objet": null,
+ "acheteur": "RADEEJ",
+ "procedure": null,
+ "categorie": "Travaux",
+ "date_limite_plis": "05/09/2023",
+ "lieu_ouverture": "Siège RADEEJ à EL JADIDA",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "17/10/2023",
+ "justification": "Offre la plus avantageuse.",
+ "infructueux": false,
+ "attributaire": "BREIJA ENERGIE",
+ "montant_attribue": 634284.0,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "RESEAUX ELECTRICITE",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_offre_financiere",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "BREIJA ENERGIE",
+   "montant_acte_engagement": 634284.0,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "JDIDA IMPROVEMENT",
+   "montant_acte_engagement": 784998.0,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 3,
+ "alertes_ocr": [],
+ "notes_ocr": [],
+ "qualite": "complet"
+}

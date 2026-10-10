@@ -1,0 +1,105 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "745653",
+ "orgAcronyme": "g3h",
+ "reference_pv": "06/INDH/2023",
+ "nouveau": true,
+ "reference": "06/INDH/2023",
+ "objet": "travaux de construction d’un dépôt et mur de clôture au profit de l’association Dar Attadamoun au centre de la commune de Tagant",
+ "acheteur": "Province de Guelmim",
+ "procedure": null,
+ "categorie": "Travaux",
+ "date_limite_plis": "25/09/2023",
+ "lieu_ouverture": "Secrétariat Général de la Province de Guelmim",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "09/10/2023",
+ "justification": "Offre la plus avantageuse",
+ "infructueux": false,
+ "attributaire": "CONTEMA S.A.R.L AU",
+ "montant_attribue": 335364.0,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "Dépôt au format électronique",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "depose",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "STE IMINTRGA DE TRAVAUX SARL AU",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_dossier_administratif_technique",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "STE ZOMBRA TRAVAUX",
+   "montant_acte_engagement": 731959.2,
+   "montant_apres_verification": 383352.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "SOCIETE CHRAMHA SARL",
+   "montant_acte_engagement": 399781.2,
+   "montant_apres_verification": 399781.2,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "CONTEMA S.A.R.L AU",
+   "montant_acte_engagement": 335364.0,
+   "montant_apres_verification": 335364.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "KSAT sarl",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_dossier_administratif_technique",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "STE OPTION VERDURE",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_dossier_administratif_technique",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "EL HARAMAIN SARL",
+   "montant_acte_engagement": 342972.0,
+   "montant_apres_verification": 342972.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 8,
+ "alertes_ocr": [],
+ "notes_ocr": [
+  "« STE ZOMBRA TRAVAUX » : montant rectifié de 731 959.20 à 383 352.00 DH."
+ ],
+ "qualite": "complet"
+}

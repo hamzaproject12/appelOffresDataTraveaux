@@ -1,0 +1,60 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "777190",
+ "orgAcronyme": "d4q",
+ "reference_pv": null,
+ "nouveau": true,
+ "reference": null,
+ "objet": "Travaux d'hydrocurage du réseau d'assainissement liquide du centre SIDI ALLAL TAZI",
+ "acheteur": null,
+ "procedure": "appel d'offres ouvert",
+ "categorie": "Travaux",
+ "date_limite_plis": "30/01/2024",
+ "lieu_ouverture": "au Siège de la Direction Régionale de l'Ouest (DR4) Lotissement Al Qods - Kénitra - Maroc",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "27/02/2027",
+ "justification": "Moins-disant",
+ "infructueux": false,
+ "attributaire": "WORLD CLASS WORK",
+ "montant_attribue": 87328.8,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "AL ITFAI MAROC",
+   "montant_acte_engagement": 96782.88,
+   "montant_apres_verification": 96782.88,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "SONASSEP MAROC",
+   "montant_acte_engagement": 114535.2,
+   "montant_apres_verification": 114535.2,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "WORLD CLASS WORK",
+   "montant_acte_engagement": 87328.8,
+   "montant_apres_verification": 87328.8,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 3,
+ "alertes_ocr": [],
+ "notes_ocr": [
+  "Maître d'ouvrage absent du PV (utiliser l'acheteur public du portail)."
+ ],
+ "qualite": "complet"
+}

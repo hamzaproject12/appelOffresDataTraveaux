@@ -1,0 +1,74 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "666957",
+ "orgAcronyme": "d4q",
+ "reference_pv": null,
+ "nouveau": true,
+ "reference": null,
+ "objet": "! Concurrent retenu d'ouverture des travaux de retenue des plis la Commission",
+ "acheteur": null,
+ "procedure": null,
+ "categorie": "Travaux",
+ "date_limite_plis": "27/09/2022",
+ "lieu_ouverture": "Siège Roche-noires",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": null,
+ "justification": "moins disant conforme. .",
+ "infructueux": false,
+ "attributaire": "MBK SERVICE",
+ "montant_attribue": 108320.0,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "SUD Cool, EEZ équipements, SODITRAMI, TRASERMAR, Sté BRH Brothers",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "depose",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Cabinet EXPO Conseil",
+   "montant_acte_engagement": 110200.0,
+   "montant_apres_verification": 110200.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Sté BRH Brothers",
+   "montant_acte_engagement": 154000.0,
+   "montant_apres_verification": 154000.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "MBK SERVICE",
+   "montant_acte_engagement": 108320.0,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 4,
+ "alertes_ocr": [
+  "« Cabinet EXPO Conseil » absent de la liste des plis déposés (nom mal lu ?).",
+  "« Sté BRH Brothers » absent de la liste des plis déposés (nom mal lu ?).",
+  "« MBK SERVICE » absent de la liste des plis déposés (nom mal lu ?)."
+ ],
+ "notes_ocr": [
+  "Maître d'ouvrage absent du PV (utiliser l'acheteur public du portail).",
+  "Montants exprimés hors taxes (HT)."
+ ],
+ "qualite": "complet"
+}

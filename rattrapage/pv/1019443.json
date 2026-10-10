@@ -1,0 +1,151 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "1019443",
+ "orgAcronyme": "a1t",
+ "reference_pv": "96/2026/ADHA",
+ "nouveau": true,
+ "reference": "96/2026/ADHA",
+ "objet": null,
+ "acheteur": "L’AGENCE DE DEVELOPPEMNT DU HAUT ATLAS",
+ "procedure": null,
+ "categorie": "Travaux",
+ "date_limite_plis": "04/06/2026",
+ "lieu_ouverture": "Salle de réunions de l’ADHA, CHOUITER",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "10/06/2026",
+ "justification": null,
+ "infructueux": false,
+ "attributaire": "Sté SOUSSTHERME SARL",
+ "montant_attribue": 3531782.4,
+ "attributaires_par_lot": [
+  {
+   "lot": null,
+   "attributaire": "Sté SOUSSTHERME SARL",
+   "montant": 3531782.4
+  },
+  {
+   "lot": null,
+   "attributaire": "Sté OULAD WORK SARL",
+   "montant": 5157147.0
+  },
+  {
+   "lot": null,
+   "attributaire": "Sté OUVRAGE CONTRACTOR SARL AU",
+   "montant": 6627600.0
+  },
+  {
+   "lot": null,
+   "attributaire": "Groupement Sté H.R DES EQUIPEMENTS ET TRAVAUX GENERAUX et Sté SOMSO",
+   "montant": 13881390.0
+  },
+  {
+   "lot": null,
+   "attributaire": "Sté AIT OUHSAIN TRAVAUX SARL",
+   "montant": 6154755.6
+  }
+ ],
+ "soumissionnaires": [
+  {
+   "nom": "Sté PRO CONTRACTORS SARL AU",
+   "montant_acte_engagement": 3882340.8,
+   "montant_apres_verification": 3882340.8,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Groupement Sté H.R DES EQUIPEMENTS ET TRAVAUX GENERAUX et Sté SOMSO",
+   "montant_acte_engagement": 3543042.0,
+   "montant_apres_verification": 3543042.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Sté W BATIMENT SARL AU",
+   "montant_acte_engagement": 3610065.6,
+   "montant_apres_verification": 3610065.6,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Sté OULAD WORK SARL",
+   "montant_acte_engagement": 3468157.2,
+   "montant_apres_verification": 3468157.2,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Sté SOUSSTHERME SARL",
+   "montant_acte_engagement": 3531728.4,
+   "montant_apres_verification": 3531782.4,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Sté AIT OUHSAIN TRAVAUX SARL",
+   "montant_acte_engagement": 5543076.0,
+   "montant_apres_verification": 5543076.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Sté OUVRAGE CONTRACTOR SARL AU",
+   "montant_acte_engagement": 6627600.0,
+   "montant_apres_verification": 6627600.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Sté ATLAS BATIMAR SARL AU",
+   "montant_acte_engagement": 13989570.0,
+   "montant_apres_verification": 13989570.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Sté ABDO BATIMENT SARL",
+   "montant_acte_engagement": 13673760.0,
+   "montant_apres_verification": 13673760.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "SOLUTIONS DURABLES (SASD) SARL",
+   "montant_acte_engagement": 7105891.2,
+   "montant_apres_verification": 7105891.2,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 10,
+ "alertes_ocr": [
+  "« SOLUTIONS DURABLES (SASD) SARL » absent de la liste des plis déposés (nom mal lu ?)."
+ ],
+ "notes_ocr": [
+  "« Sté SOUSSTHERME SARL » : montant rectifié de 3 531 728.40 à 3 531 782.40 DH."
+ ],
+ "qualite": "complet"
+}

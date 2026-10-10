@@ -1,0 +1,103 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "998921",
+ "orgAcronyme": "q1s",
+ "reference_pv": null,
+ "nouveau": true,
+ "reference": null,
+ "objet": "TRAVAUX D'ENTRETIEN DU RESEAU D'IRRIGATION CHAMBRES DE VANNES, BORNES ET PRISES D'IRRIGATION SOUS PRESSION AU NIVEAU DU PERIMETRE IRRIGUE DU HAOUZ",
+ "acheteur": "l’Office Régional de Mise en Valeur Agricole du Haouz",
+ "procedure": null,
+ "categorie": "Travaux",
+ "date_limite_plis": "14/04/2026",
+ "lieu_ouverture": "Siège de l’Office Régional de Mise en Valeur Agricole du Haouz",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "28/04/2026",
+ "justification": "l’Offre la plus avantageuse est présentée par la société Lot n° : 1 BENADEP - Lot n° : 2 AMHT",
+ "infructueux": false,
+ "attributaire": "BENADEP",
+ "montant_attribue": 500000.0,
+ "attributaires_par_lot": [
+  {
+   "lot": null,
+   "attributaire": "BENADEP",
+   "montant": 500000.0
+  },
+  {
+   "lot": null,
+   "attributaire": "AMHT",
+   "montant": 500000.0
+  }
+ ],
+ "soumissionnaires": [
+  {
+   "nom": "CCGT CONSORTIUM",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_offre_financiere",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": " HAJ DUIRI SOHADU (Lots",
+   "montant_acte_engagement": 500000.0,
+   "montant_apres_verification": 1861600.0,
+   "autres_montants": [
+    500000.0,
+    1000000.0,
+    1000000.0
+   ],
+   "lots": [],
+   "statut": "ecarte_offre_financiere",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": " RABIB TRAV SARL (Lots",
+   "montant_acte_engagement": 500000.0,
+   "montant_apres_verification": 2323900.0,
+   "autres_montants": [
+    500000.0,
+    1000000.0,
+    1000000.0
+   ],
+   "lots": [],
+   "statut": "ecarte_offre_financiere",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "BENADEP",
+   "montant_acte_engagement": 500000.0,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "AMHT",
+   "montant_acte_engagement": 500000.0,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 5,
+ "alertes_ocr": [
+  "« BENADEP » absent de la liste des plis déposés (nom mal lu ?).",
+  "« AMHT » absent de la liste des plis déposés (nom mal lu ?).",
+  "«  HAJ DUIRI SOHADU (Lots » : écart anormal entre montant initial et vérifié (lecture à vérifier).",
+  "«  RABIB TRAV SARL (Lots » : écart anormal entre montant initial et vérifié (lecture à vérifier)."
+ ],
+ "notes_ocr": [
+  "«  HAJ DUIRI SOHADU (Lots » : montant rectifié de 500 000.00 à 1 861 600.00 DH.",
+  "«  RABIB TRAV SARL (Lots » : montant rectifié de 500 000.00 à 2 323 900.00 DH."
+ ],
+ "qualite": "complet"
+}

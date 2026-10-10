@@ -1,0 +1,84 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "741749",
+ "orgAcronyme": "g3h",
+ "reference_pv": "61/23/ASST",
+ "nouveau": true,
+ "reference": "61/23/ASST",
+ "objet": "Mise à niveau des stations de pompage du réseau d’assainissement à Marrakech",
+ "acheteur": "Régie Autonome de Distribution d’Eau et d’Electricité de MARRAKECH",
+ "procedure": "appel d'offres ouvert",
+ "categorie": "Travaux",
+ "date_limite_plis": "19/06/2023",
+ "lieu_ouverture": "au Siège de la RADEEMA Boulevard Mohamed VI MARRAKECH",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "31/07/2023",
+ "justification": "l’offre la plus avantageuse par lot.",
+ "infructueux": true,
+ "attributaire": "AQUA DEMINE",
+ "montant_attribue": 1161230.0,
+ "attributaires_par_lot": [
+  {
+   "lot": null,
+   "attributaire": "AQUA DEMINE",
+   "montant": 1161230.0
+  },
+  {
+   "lot": null,
+   "attributaire": "SCADELEC",
+   "montant": 2580000.0
+  }
+ ],
+ "soumissionnaires": [
+  {
+   "nom": "OMEGA FLUIDE",
+   "montant_acte_engagement": 1247445.0,
+   "montant_apres_verification": null,
+   "autres_montants": [
+    1496934.0
+   ],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "SCADELEC",
+   "montant_acte_engagement": 2580000.0,
+   "montant_apres_verification": null,
+   "autres_montants": [
+    696000.0
+   ],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "FARAMI TRAVAUX",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_dossier_administratif_technique",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "AQUA DEMINE",
+   "montant_acte_engagement": 1161230.0,
+   "montant_apres_verification": null,
+   "autres_montants": [
+    1393476.0
+   ],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 4,
+ "alertes_ocr": [],
+ "notes_ocr": [],
+ "qualite": "complet"
+}

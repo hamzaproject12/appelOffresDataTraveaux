@@ -1,0 +1,67 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "981587",
+ "orgAcronyme": "g3h",
+ "reference_pv": null,
+ "nouveau": true,
+ "reference": null,
+ "objet": "Travaux de réhabilitation des collecteurs d’assainissement liquide de la ville de Guelmim",
+ "acheteur": "La société régionale multiservices Guelmim-Oued Noun",
+ "procedure": null,
+ "categorie": "Travaux",
+ "date_limite_plis": "19/02/2026",
+ "lieu_ouverture": "Les bureaux de la Société Régionale Multiservices Guelmim-Oued Noun, sis à l’Avenue Mohamed VI BP 294, Guelmim",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "02/03/2026",
+ "justification": "# Dossiers administratifs et techniques conformes aux exigences du dossier d’appel d’offres. * Offre financière avantageuse répondant aux critères d’évaluation du règlement des Marchés de la Société.",
+ "infructueux": false,
+ "attributaire": "STE NOVAQUA",
+ "montant_attribue": 11801628.0,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "STE EAMAR DE GENIE CIVIL",
+   "montant_acte_engagement": 12095760.0,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_offre_financiere",
+   "admis_avec_reserve": true
+  },
+  {
+   "nom": "STE CAH",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_dossier_administratif_technique",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "STE NOVAQUA",
+   "montant_acte_engagement": 11801628.0,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": true
+  },
+  {
+   "nom": "STE INOVATRAV",
+   "montant_acte_engagement": 13200000.0,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": true
+  }
+ ],
+ "nombre_soumissionnaires": 4,
+ "alertes_ocr": [],
+ "notes_ocr": [],
+ "qualite": "complet"
+}

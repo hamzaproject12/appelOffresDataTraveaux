@@ -1,0 +1,84 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "892120",
+ "orgAcronyme": "a1t",
+ "reference_pv": "17/2025",
+ "nouveau": true,
+ "reference": "17/2025",
+ "objet": "aux De Construction d’Al Mac Dans La nce De en n- Ian",
+ "acheteur": null,
+ "procedure": "appel d'offres ouvert",
+ "categorie": "Travaux",
+ "date_limite_plis": "17/04/2025",
+ "lieu_ouverture": "Salle des rêun a province € ce Tan-l'an . Le MATIN IN 161 99 du 26 Mars 2025",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": null,
+ "justification": "Offre économiquement plus avantageuse",
+ "infructueux": false,
+ "attributaire": "STE ALFATAN",
+ "montant_attribue": 1426418.0,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "GIDITAL SARL AT",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "STE ALFATAN",
+   "montant_acte_engagement": 11426418.0,
+   "montant_apres_verification": 11426418.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Sté MYMAR BUL DIN CG",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_dossier_administratif_technique",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Entreprise : | Montant des actes d'engagement",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_dossier_administratif_technique",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "STE GIDITAL | br",
+   "montant_acte_engagement": 11641251.2,
+   "montant_apres_verification": 11641251.2,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 5,
+ "alertes_ocr": [
+  "« STE ALFATAN » absent de la liste des plis déposés (nom mal lu ?).",
+  "« STE GIDITAL | br » absent de la liste des plis déposés (nom mal lu ?)."
+ ],
+ "notes_ocr": [
+  "« GIDITAL SARL AT » absent de la liste des plis déposés (nom mal lu ?).",
+  "« Sté MYMAR BUL DIN CG » absent de la liste des plis déposés (nom mal lu ?).",
+  "« Entreprise : | Montant des actes d'engagement » absent de la liste des plis déposés (nom mal lu ?).",
+  "Maître d'ouvrage absent du PV (utiliser l'acheteur public du portail)."
+ ],
+ "qualite": "complet"
+}

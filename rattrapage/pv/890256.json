@@ -1,0 +1,49 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "890256",
+ "orgAcronyme": "l1f",
+ "reference_pv": "01/2025",
+ "nouveau": true,
+ "reference": "01/2025",
+ "objet": "ENTRETIEN COURANT DES ESPACES VERTS, JARDINS ET FORETS",
+ "acheteur": "Commune de Fnideq",
+ "procedure": null,
+ "categorie": "Travaux",
+ "date_limite_plis": "22/04/2025",
+ "lieu_ouverture": "Salle des réunions au siège de la Commune de Fnideq",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "24/04/2025",
+ "justification": "L’offre la moins avantageuse. - La SOCIETE FADAE EL MANARA SARL est retenue, étant donné que les pièces du complément du dossier administratif et les échantillons produits sont acceptées par la commission.",
+ "infructueux": false,
+ "attributaire": "SOCIETE FADAE EL MANARA SARL",
+ "montant_attribue": 3332880.0,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "SOCIETE EST ARWA TP SARL",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_offre_technique",
+   "admis_avec_reserve": true
+  },
+  {
+   "nom": "SOCIETE FADAE EL MANARA SARL",
+   "montant_acte_engagement": 3332880.0,
+   "montant_apres_verification": 3332880.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 2,
+ "alertes_ocr": [],
+ "notes_ocr": [],
+ "qualite": "attribution"
+}

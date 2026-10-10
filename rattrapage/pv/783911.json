@@ -1,0 +1,144 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "783911",
+ "orgAcronyme": "j8k",
+ "reference_pv": null,
+ "nouveau": true,
+ "reference": null,
+ "objet": null,
+ "acheteur": null,
+ "procedure": "appel d'offres ouvert",
+ "categorie": "Travaux",
+ "date_limite_plis": "06/10/2023",
+ "lieu_ouverture": null,
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": null,
+ "justification": "Moins disant. Date d'achdvement des travaux de la commission 26/10/2023",
+ "infructueux": false,
+ "attributaire": "CCRE",
+ "montant_attribue": 20072568.0,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "CCRE",
+   "montant_acte_engagement": 20072568.0,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "CCRE SOCADELEQ ALEQ",
+   "montant_acte_engagement": 20072568.0,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "ALEQ",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Code : FR-04/ PS-GA",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Ver s on 02",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Dat",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "al ommne",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "R8bat.Sal+.K+nttra",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "EXTRAIT DE PRDCES VERBAL D’DUVERTURE DES PLIS",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "d'engagement aprds",
+   "montant_acte_engagement": 21385692.0,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "v6rifications et rectifications 6ventuelles CCRE SOCADELEQ ALEQ",
+   "montant_acte_engagement": 20072568.0,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 11,
+ "alertes_ocr": [
+  "« CCRE » absent de la liste des plis déposés (nom mal lu ?).",
+  "« CCRE SOCADELEQ ALEQ » absent de la liste des plis déposés (nom mal lu ?).",
+  "« d'engagement aprds » absent de la liste des plis déposés (nom mal lu ?).",
+  "« v6rifications et rectifications 6ventuelles CCRE SOCADELEQ ALEQ » absent de la liste des plis déposés (nom mal lu ?)."
+ ],
+ "notes_ocr": [
+  "« ALEQ » absent de la liste des plis déposés (nom mal lu ?).",
+  "« Code : FR-04/ PS-GA » absent de la liste des plis déposés (nom mal lu ?).",
+  "« Ver s on 02 » absent de la liste des plis déposés (nom mal lu ?).",
+  "« Dat » absent de la liste des plis déposés (nom mal lu ?).",
+  "« al ommne » absent de la liste des plis déposés (nom mal lu ?).",
+  "« R8bat.Sal+.K+nttra » absent de la liste des plis déposés (nom mal lu ?).",
+  "« EXTRAIT DE PRDCES VERBAL D’DUVERTURE DES PLIS » absent de la liste des plis déposés (nom mal lu ?).",
+  "Maître d'ouvrage absent du PV (utiliser l'acheteur public du portail)."
+ ],
+ "qualite": "complet"
+}

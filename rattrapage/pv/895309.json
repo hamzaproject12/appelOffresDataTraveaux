@@ -1,0 +1,89 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "895309",
+ "orgAcronyme": "g3h",
+ "reference_pv": "08/2025/EG",
+ "nouveau": true,
+ "reference": "08/2025/EG",
+ "objet": null,
+ "acheteur": "Province d'Es-semara",
+ "procedure": "appel d'offres ouvert",
+ "categorie": "Travaux",
+ "date_limite_plis": "30/04/2025",
+ "lieu_ouverture": null,
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "07/05/2025",
+ "justification": "l'offre la plus avantageuse",
+ "infructueux": false,
+ "attributaire": "EL3 STE GACHBA TRAVAUX",
+ "montant_attribue": 302952.0,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "EL1 EURO TD SAHARA",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "depose",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "EL2 STE CHAJAA",
+   "montant_acte_engagement": 324464.0,
+   "montant_apres_verification": null,
+   "autres_montants": [
+    325284.0
+   ],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "EL3 STE GACHBA TRAVAUX",
+   "montant_acte_engagement": 302952.0,
+   "montant_apres_verification": null,
+   "autres_montants": [
+    302952.0
+   ],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "EL4 STE SERVICE TRAVAUX",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "depose",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "EL5 STE DAIHAN",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "depose",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "STE DAIHAN",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "depose",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 6,
+ "alertes_ocr": [],
+ "notes_ocr": [],
+ "qualite": "complet"
+}

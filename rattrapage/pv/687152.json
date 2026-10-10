@@ -1,0 +1,54 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "687152",
+ "orgAcronyme": "p8x",
+ "reference_pv": "40/2022/CH/INV",
+ "nouveau": true,
+ "reference": "40/2022/CH/INV",
+ "objet": null,
+ "acheteur": null,
+ "procedure": "appel d'offres ouvert",
+ "categorie": "Travaux",
+ "date_limite_plis": null,
+ "lieu_ouverture": null,
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "14/12/2022",
+ "justification": " Candidats ayant de bonnes références techniques, administratives et financières.  Les prix sont avantageux pour l’Administration, les offres financières ont été jugées les plus intéressantes par la commission chargée de l’ouverture des plis.",
+ "infructueux": false,
+ "attributaire": "Sté EVER LBARAJ sarl – Chichaoua",
+ "montant_attribue": 341580.0,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "relevant de la direction provinciale de CHICHAOUA, AREF - MS",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": true
+  },
+  {
+   "nom": "Sté EVER LBARAJ sarl – Chichaoua",
+   "montant_acte_engagement": 341580.0,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": true
+  }
+ ],
+ "nombre_soumissionnaires": 2,
+ "alertes_ocr": [
+  "« Sté EVER LBARAJ sarl – Chichaoua » absent de la liste des plis déposés (nom mal lu ?)."
+ ],
+ "notes_ocr": [
+  "« relevant de la direction provinciale de CHICHAOUA, AREF - MS » absent de la liste des plis déposés (nom mal lu ?).",
+  "Maître d'ouvrage absent du PV (utiliser l'acheteur public du portail)."
+ ],
+ "qualite": "attribution"
+}

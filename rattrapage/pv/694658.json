@@ -1,0 +1,75 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "694658",
+ "orgAcronyme": "d4q",
+ "reference_pv": null,
+ "nouveau": true,
+ "reference": null,
+ "objet": null,
+ "acheteur": null,
+ "procedure": null,
+ "categorie": "Travaux",
+ "date_limite_plis": "01/02/2023",
+ "lieu_ouverture": "Siège ONEE/BE",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "15/02/2023",
+ "justification": "moins disante",
+ "infructueux": false,
+ "attributaire": "OUHAFID TRAVAUX (Maroc)",
+ "montant_attribue": 12187306.5,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "OUHAFID TRAVAUX (Maroc)",
+   "montant_acte_engagement": 12187306.5,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "SERF (Maroc)",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "depose",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "LUMAFRIC (Maroc) Are",
+   "montant_acte_engagement": 12385552.0,
+   "montant_apres_verification": null,
+   "autres_montants": [
+    12385552.0,
+    14862662.4
+   ],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "REMAPTEL (Maroc) à 9",
+   "montant_acte_engagement": 13210315.5,
+   "montant_apres_verification": null,
+   "autres_montants": [
+    15852378.6
+   ],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 4,
+ "alertes_ocr": [],
+ "notes_ocr": [
+  "Maître d'ouvrage absent du PV (utiliser l'acheteur public du portail).",
+  "Montants exprimés hors taxes (HT)."
+ ],
+ "qualite": "complet"
+}

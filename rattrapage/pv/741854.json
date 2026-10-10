@@ -1,0 +1,49 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "741854",
+ "orgAcronyme": "a1z",
+ "reference_pv": "4/AF/2023",
+ "nouveau": true,
+ "reference": "4/AF/2023",
+ "objet": "Entretien courant des voies",
+ "acheteur": "ARRONDISSEMENT AL FIDA",
+ "procedure": "appel d'offres ouvert",
+ "categorie": "Travaux",
+ "date_limite_plis": "11/09/2023",
+ "lieu_ouverture": "BUREAU DU PRESIDENT DE L’ARRONDISSEMENT",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "14/09/2023",
+ "justification": "MOINS DISANT",
+ "infructueux": false,
+ "attributaire": "Société CORIAM SARL",
+ "montant_attribue": 3135048.0,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "Société CORIAM SARL",
+   "montant_acte_engagement": 3135048.0,
+   "montant_apres_verification": 3135048.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Société RIRAVA",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_dossier_administratif_technique",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 2,
+ "alertes_ocr": [],
+ "notes_ocr": [],
+ "qualite": "attribution"
+}

@@ -1,0 +1,102 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "1029301",
+ "orgAcronyme": "g3h",
+ "reference_pv": "078/2026/EP",
+ "nouveau": true,
+ "reference": "078/2026/EP",
+ "objet": null,
+ "acheteur": null,
+ "procedure": null,
+ "categorie": "Travaux",
+ "date_limite_plis": "18/06/2026",
+ "lieu_ouverture": "Salle de réunion de la Société Régionale Multiservices Tanger-Tétouan-Al Hoceima « SRM-TTA » Les iournaux avant publié l'avis de publicité",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "31/07/2026",
+ "justification": "L'Offre la moins-disante conforme aux dispositions du Règlement de Consultation, avec attribution maximale de 2 lots par attributaire, selon la combinaison la plus économique pour la SRM-TTA en tenant compte des montants des lots en question.",
+ "infructueux": true,
+ "attributaire": "Infructueux",
+ "montant_attribue": 1297972.8,
+ "attributaires_par_lot": [
+  {
+   "lot": "2",
+   "attributaire": "Infructueux",
+   "montant": 1297972.8
+  },
+  {
+   "lot": "3",
+   "attributaire": "BMEER",
+   "montant": 3334430.4
+  },
+  {
+   "lot": "4",
+   "attributaire": "Infructueux",
+   "montant": 1320088.8
+  },
+  {
+   "lot": "5",
+   "attributaire": "SMEER",
+   "montant": 3637850.4
+  }
+ ],
+ "soumissionnaires": [
+  {
+   "nom": "ENTREPRISE HIDA",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "depose",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Infructueux",
+   "montant_acte_engagement": 1297972.8,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [
+    "2",
+    "4"
+   ],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "BMEER",
+   "montant_acte_engagement": 3334430.4,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [
+    "3"
+   ],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "SMEER",
+   "montant_acte_engagement": 3637850.4,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [
+    "5"
+   ],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 4,
+ "alertes_ocr": [
+  "« Infructueux » absent de la liste des plis déposés (nom mal lu ?).",
+  "« BMEER » absent de la liste des plis déposés (nom mal lu ?).",
+  "« SMEER » absent de la liste des plis déposés (nom mal lu ?)."
+ ],
+ "notes_ocr": [
+  "Marché alloti (4 lots).",
+  "Maître d'ouvrage absent du PV (utiliser l'acheteur public du portail)."
+ ],
+ "qualite": "attribution"
+}

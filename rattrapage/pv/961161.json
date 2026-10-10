@@ -1,0 +1,107 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "961161",
+ "orgAcronyme": "p8x",
+ "reference_pv": null,
+ "nouveau": true,
+ "reference": null,
+ "objet": null,
+ "acheteur": "La Directrice de la direction provinciale de l'AREFTTH à Ouezzane",
+ "procedure": "appel d'offres ouvert national",
+ "categorie": "Travaux",
+ "date_limite_plis": null,
+ "lieu_ouverture": "la salle des réunions de la direction provinciale de L’AREFTTH à OUEZZANE la salle des réunions de la direction provinciale de L’AREFTTH à OUEZZANE",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": null,
+ "justification": "L'offre la plus avantageuse.",
+ "infructueux": false,
+ "attributaire": "STE AMI TRAV SARL",
+ "montant_attribue": 1122974.4,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "STE ESTRAV MAROC SARL AU",
+   "montant_acte_engagement": 1129905.4,
+   "montant_apres_verification": 1129905.4,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "ENTREPRISE MODERNE ALJORF SARL",
+   "montant_acte_engagement": 1116042.48,
+   "montant_apres_verification": 1116042.48,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "GROUPEMENT NOURIJIS SARL AU & STÉ BATIHALIM SARL",
+   "montant_acte_engagement": 1107820.8,
+   "montant_apres_verification": 1107820.8,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "STE AMI TRAV SARL",
+   "montant_acte_engagement": 1122974.4,
+   "montant_apres_verification": 1122974.4,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "SOCIÉTÉ AMIWORK SARLAU",
+   "montant_acte_engagement": 185358.8,
+   "montant_apres_verification": 1185358.8,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "THE SAFE EARTH SARL",
+   "montant_acte_engagement": 1136562.0,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "STE BETOLAD SARL AU",
+   "montant_acte_engagement": 119130.8,
+   "montant_apres_verification": 1087930.8,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": true
+  }
+ ],
+ "nombre_soumissionnaires": 7,
+ "alertes_ocr": [
+  "« STE ESTRAV MAROC SARL AU » absent de la liste des plis déposés (nom mal lu ?).",
+  "« ENTREPRISE MODERNE ALJORF SARL » absent de la liste des plis déposés (nom mal lu ?).",
+  "« GROUPEMENT NOURIJIS SARL AU & STÉ BATIHALIM SARL » absent de la liste des plis déposés (nom mal lu ?).",
+  "« STE AMI TRAV SARL » absent de la liste des plis déposés (nom mal lu ?).",
+  "« SOCIÉTÉ AMIWORK SARLAU » absent de la liste des plis déposés (nom mal lu ?).",
+  "« THE SAFE EARTH SARL » absent de la liste des plis déposés (nom mal lu ?).",
+  "« STE BETOLAD SARL AU » absent de la liste des plis déposés (nom mal lu ?).",
+  "« SOCIÉTÉ AMIWORK SARLAU » : écart anormal entre montant initial et vérifié (lecture à vérifier).",
+  "« STE BETOLAD SARL AU » : écart anormal entre montant initial et vérifié (lecture à vérifier)."
+ ],
+ "notes_ocr": [
+  "« SOCIÉTÉ AMIWORK SARLAU » : montant rectifié de 185 358.80 à 1 185 358.80 DH.",
+  "« STE BETOLAD SARL AU » : montant rectifié de 119 130.80 à 1 087 930.80 DH."
+ ],
+ "qualite": "complet"
+}

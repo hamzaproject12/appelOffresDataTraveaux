@@ -1,0 +1,104 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "686016",
+ "orgAcronyme": "z7x",
+ "reference_pv": "54/UCA/2022",
+ "nouveau": true,
+ "reference": "54/UCA/2022",
+ "objet": null,
+ "acheteur": "Présidence de l’Université Cadi Ayyad",
+ "procedure": "appel d'offres ouvert",
+ "categorie": "Travaux",
+ "date_limite_plis": "15/12/2022",
+ "lieu_ouverture": "Salle des réunions de la présidence de l’'UCA",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "16/12/2022",
+ "justification": "Le concurrent ayant l'offre la plus avantageuse.",
+ "infructueux": false,
+ "attributaire": null,
+ "montant_attribue": null,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "AWMATENE",
+   "montant_acte_engagement": 7829154.0,
+   "montant_apres_verification": 7829154.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "STE NAMIRA",
+   "montant_acte_engagement": 8400000.0,
+   "montant_apres_verification": 8400000.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "STE PHACOPS TRAVAUX DIVERS",
+   "montant_acte_engagement": 9635796.0,
+   "montant_apres_verification": 9635796.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": true
+  },
+  {
+   "nom": "Sites électroniques de publication de l’Appel",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": true
+  },
+  {
+   "nom": "ae ee administratifs, techniques, additifs et STE FINITION DE TRAVAUX DE CON",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_dossier_administratif_technique",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "MOGC",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_dossier_administratif_technique",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "AHBARI",
+   "montant_acte_engagement": 8267904.0,
+   "montant_apres_verification": 8267904.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_dossier_administratif_technique",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 7,
+ "alertes_ocr": [
+  "« AWMATENE » absent de la liste des plis déposés (nom mal lu ?).",
+  "« STE NAMIRA » absent de la liste des plis déposés (nom mal lu ?).",
+  "« STE PHACOPS TRAVAUX DIVERS » absent de la liste des plis déposés (nom mal lu ?).",
+  "« AHBARI » absent de la liste des plis déposés (nom mal lu ?).",
+  "Attributaire non trouvé."
+ ],
+ "notes_ocr": [
+  "« Sites électroniques de publication de l’Appel » absent de la liste des plis déposés (nom mal lu ?).",
+  "« ae ee administratifs, techniques, additifs et STE FINITION DE TRAVAUX DE CON » absent de la liste des plis déposés (nom mal lu ?).",
+  "« MOGC » absent de la liste des plis déposés (nom mal lu ?)."
+ ],
+ "qualite": "complet"
+}

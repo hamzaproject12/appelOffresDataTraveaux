@@ -1,0 +1,56 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "739968",
+ "orgAcronyme": "o8p",
+ "reference_pv": "16/2023",
+ "nouveau": true,
+ "reference": "16/2023",
+ "objet": null,
+ "acheteur": null,
+ "procedure": "appel d'offres ouvert",
+ "categorie": "Travaux",
+ "date_limite_plis": null,
+ "lieu_ouverture": null,
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": null,
+ "justification": null,
+ "infructueux": false,
+ "attributaire": null,
+ "montant_attribue": null,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "STE. LA LIGNE BLANCHE à SKHIRAT format électronique",
+   "montant_acte_engagement": 128916.0,
+   "montant_apres_verification": 128916.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_offre_financiere",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "STE. CHAMAL SIGNALISATION à CHEFCHAOUEN",
+   "montant_acte_engagement": 152208.0,
+   "montant_apres_verification": 152208.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_offre_financiere",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 2,
+ "alertes_ocr": [
+  "« STE. LA LIGNE BLANCHE à SKHIRAT format électronique » absent de la liste des plis déposés (nom mal lu ?).",
+  "« STE. CHAMAL SIGNALISATION à CHEFCHAOUEN » absent de la liste des plis déposés (nom mal lu ?).",
+  "Attributaire non trouvé."
+ ],
+ "notes_ocr": [
+  "Maître d'ouvrage absent du PV (utiliser l'acheteur public du portail).",
+  "Montants exprimés hors taxes (HT)."
+ ],
+ "qualite": "complet"
+}

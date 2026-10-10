@@ -1,0 +1,51 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "893288",
+ "orgAcronyme": "j8k",
+ "reference_pv": "40/2025",
+ "nouveau": true,
+ "reference": "40/2025",
+ "objet": "Travaux d’assainissement et pavage des quartiers SMAR et SARSAR Commune de CHEMAIA -— Province de YOUSSOUFIA",
+ "acheteur": "AL OMRANE MARRAKECH-SAFT",
+ "procedure": "appel d'offres ouvert",
+ "categorie": "Travaux",
+ "date_limite_plis": "18/04/2025",
+ "lieu_ouverture": "AL OMRANE MARRAKECH-SAFT",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "02/05/2025",
+ "justification": "S3ACT",
+ "infructueux": false,
+ "attributaire": null,
+ "montant_attribue": null,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "ECA EL MARAH",
+   "montant_acte_engagement": 4372129.02,
+   "montant_apres_verification": 4372129.02,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "S3ACT",
+   "montant_acte_engagement": 4116781.99,
+   "montant_apres_verification": 4116781.99,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 2,
+ "alertes_ocr": [
+  "Attributaire non trouvé."
+ ],
+ "notes_ocr": [],
+ "qualite": "complet"
+}

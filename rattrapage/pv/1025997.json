@@ -1,0 +1,44 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "1025997",
+ "orgAcronyme": "g3h",
+ "reference_pv": "52/2026/52A",
+ "nouveau": true,
+ "reference": "52/2026/52A",
+ "objet": "TRAVAUX DE CONSTRUCTION ET D'AMENAGEMENT DU SOUK TIKIOUINE DE LA VILLE D’'AGADIR",
+ "acheteur": null,
+ "procedure": "appel d'offres ouvert",
+ "categorie": "Travaux",
+ "date_limite_plis": "22/07/2026",
+ "lieu_ouverture": "Bureaux de la Société Agadir Souss Massa Aménagement",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "22/07/2026",
+ "justification": null,
+ "infructueux": false,
+ "attributaire": "Appel d'offres déclaré infructueux",
+ "montant_attribue": null,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "Appel d'offres déclaré infructueux",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 1,
+ "alertes_ocr": [
+  "Montant de l'attributaire « Appel d'offres déclaré infructueux » non trouvé."
+ ],
+ "notes_ocr": [
+  "Maître d'ouvrage absent du PV (utiliser l'acheteur public du portail)."
+ ],
+ "qualite": "participants"
+}

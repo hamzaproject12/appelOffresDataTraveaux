@@ -1,0 +1,97 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "866334",
+ "orgAcronyme": "d4q",
+ "reference_pv": null,
+ "nouveau": true,
+ "reference": null,
+ "objet": null,
+ "acheteur": null,
+ "procedure": "appel d'offres ouvert",
+ "categorie": "Travaux",
+ "date_limite_plis": "27/11/2024",
+ "lieu_ouverture": "au siège de la Direction Régionale Daraa-Tafilalet (DRD)",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "17/01/2025",
+ "justification": "Moins-disant",
+ "infructueux": false,
+ "attributaire": "Montañthrre",
+ "montant_attribue": 183630.0,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "LRÉCONCURR ENT TNRENAINENENN EMEC Le EPE SNS a ES D AVS RD RTE",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "depose",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "BOUMALNE DADES",
+   "montant_acte_engagement": 180030.0,
+   "montant_apres_verification": null,
+   "autres_montants": [
+    183630.0
+   ],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "ENVERDEAU MAROC",
+   "montant_acte_engagement": 214684.8,
+   "montant_apres_verification": null,
+   "autres_montants": [
+    214684.8
+   ],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "OMAMID SERVICES MAROC",
+   "montant_acte_engagement": 198036.0,
+   "montant_apres_verification": null,
+   "autres_montants": [
+    198036.0
+   ],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "SOTITRAD MAROC",
+   "montant_acte_engagement": 198174.0,
+   "montant_apres_verification": null,
+   "autres_montants": [
+    198174.0
+   ],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Montañthrre",
+   "montant_acte_engagement": 183630.0,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 6,
+ "alertes_ocr": [
+  "« Montañthrre » absent de la liste des plis déposés (nom mal lu ?)."
+ ],
+ "notes_ocr": [
+  "Maître d'ouvrage absent du PV (utiliser l'acheteur public du portail)."
+ ],
+ "qualite": "complet"
+}

@@ -1,0 +1,78 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "862903",
+ "orgAcronyme": "i1t",
+ "reference_pv": "09/CK/2024",
+ "nouveau": true,
+ "reference": "09/CK/2024",
+ "objet": "ENTRETIEN COURANT DES ESPACES VERTS DE LA COMMUNE TERRITORIALE DE KCEIBIA",
+ "acheteur": "commune territoriale de kceibia",
+ "procedure": "appel d'offres ouvert national",
+ "categorie": "Travaux",
+ "date_limite_plis": "24/12/2024",
+ "lieu_ouverture": "Salle de réunion de la commune territoriale de kceibia",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "26/12/2024",
+ "justification": "la commission a choisi le concurrent ayant présenté l’offre économiquement la plus avantageuse.",
+ "infructueux": false,
+ "attributaire": null,
+ "montant_attribue": null,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "ADEME MULTISERVICES",
+   "montant_acte_engagement": 976297.62,
+   "montant_apres_verification": 976297.62,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "RABAT VERDURE",
+   "montant_acte_engagement": 976297.62,
+   "montant_apres_verification": 976297.62,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": true
+  },
+  {
+   "nom": "TROPICANA PLANTES SALE",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_dossier_administratif_technique",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "TLGUI FLOWER",
+   "montant_acte_engagement": 976297.62,
+   "montant_apres_verification": 976297.62,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "ESTD SIDI SLIMANE",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "depose",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 5,
+ "alertes_ocr": [
+  "Attributaire non trouvé."
+ ],
+ "notes_ocr": [],
+ "qualite": "complet"
+}

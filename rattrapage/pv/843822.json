@@ -1,0 +1,78 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "843822",
+ "orgAcronyme": "e5w",
+ "reference_pv": "86/AREP-FM/2023",
+ "nouveau": true,
+ "reference": "86/AREP-FM/2023",
+ "objet": "TRAVAUX DE CONSTRUCTION DU BARRAGE MESKDAL- PROVINCE DE",
+ "acheteur": null,
+ "procedure": null,
+ "categorie": "Travaux",
+ "date_limite_plis": null,
+ "lieu_ouverture": null,
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": null,
+ "justification": null,
+ "infructueux": false,
+ "attributaire": "ET ROUTE “STAPORT”",
+ "montant_attribue": 82876485.6,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "ET ROUTE “STAPORT”",
+   "montant_acte_engagement": 82876485.6,
+   "montant_apres_verification": 82876485.6,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "STE PERLA BTP SARL",
+   "montant_acte_engagement": 81104388.0,
+   "montant_apres_verification": 81104388.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "STE CAPEP",
+   "montant_acte_engagement": 93690580.8,
+   "montant_apres_verification": 93690580.8,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "STE NOUVELLE DES TRAVAUX ROUTIERS ET OUVRAGES SARL - SNTRO",
+   "montant_acte_engagement": 85883004.0,
+   "montant_apres_verification": 85883004.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "STE SOUTHYDRAULIC SARL AU",
+   "montant_acte_engagement": 87347682.0,
+   "montant_apres_verification": 87347682.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 5,
+ "alertes_ocr": [],
+ "notes_ocr": [
+  "Maître d'ouvrage absent du PV (utiliser l'acheteur public du portail)."
+ ],
+ "qualite": "complet"
+}

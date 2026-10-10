@@ -1,0 +1,96 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "788003",
+ "orgAcronyme": "o8p",
+ "reference_pv": null,
+ "nouveau": true,
+ "reference": null,
+ "objet": null,
+ "acheteur": "Direction Provinciale de l'Equipement, du Transport et de la logistique de Casablanca",
+ "procedure": null,
+ "categorie": "Travaux",
+ "date_limite_plis": "01/04/2024",
+ "lieu_ouverture": "DPETLC",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "15/04/2024",
+ "justification": "L'offre économiquement la plus avantageuse.",
+ "infructueux": false,
+ "attributaire": "Sté CAMPEZO",
+ "montant_attribue": 23046227.33,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "Sté CAMPEZO",
+   "montant_acte_engagement": 23046227.33,
+   "montant_apres_verification": 23046227.33,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Sté TR3F",
+   "montant_acte_engagement": 23408388.12,
+   "montant_apres_verification": 23408388.12,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Sté SNL TRAVAUX",
+   "montant_acte_engagement": 24148783.08,
+   "montant_apres_verification": 24148783.08,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_offre_financiere",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Sté ALEQ",
+   "montant_acte_engagement": 22209983.04,
+   "montant_apres_verification": 22209983.04,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Sté ETS BOUALI",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "depose",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Sté MOJAZINE",
+   "montant_acte_engagement": 24787780.74,
+   "montant_apres_verification": 24787780.74,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Sté ENTREPRISE BOUALI DES TRAVAUX",
+   "montant_acte_engagement": 24190896.24,
+   "montant_apres_verification": 24190896.24,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 7,
+ "alertes_ocr": [
+  "« Sté ENTREPRISE BOUALI DES TRAVAUX » absent de la liste des plis déposés (nom mal lu ?)."
+ ],
+ "notes_ocr": [],
+ "qualite": "complet"
+}

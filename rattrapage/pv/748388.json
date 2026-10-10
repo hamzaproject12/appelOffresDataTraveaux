@@ -1,0 +1,62 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "748388",
+ "orgAcronyme": "g3h",
+ "reference_pv": "65/BG/T/2023",
+ "nouveau": true,
+ "reference": "65/BG/T/2023",
+ "objet": "Travaux d'aménagement des postes de commandements relevant du territoire de la Province de Settat",
+ "acheteur": "La province de Settat",
+ "procedure": "appel d'offres ouvert",
+ "categorie": "Travaux",
+ "date_limite_plis": "18/09/2023",
+ "lieu_ouverture": "Division Du Budget, Marchés et Ressources Humaines - Province de Settat",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "19/10/2023",
+ "justification": "L oo -_ L'attributaire admis au niveau de l'examen du dossier administratif et technique ; /",
+ "infructueux": false,
+ "attributaire": "EROSUD sarl /Laâyoune",
+ "montant_attribue": 1598928.0,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "CHANTIER BOUDA sarl / Bni Mellal",
+   "montant_acte_engagement": 1508568.0,
+   "montant_apres_verification": 1508568.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_offre_financiere",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "EROSUD sarl /Laâyoune",
+   "montant_acte_engagement": 1598928.0,
+   "montant_apres_verification": 1598928.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "ABRID NOLNIF sarl / DAKHLA",
+   "montant_acte_engagement": 1774296.0,
+   "montant_apres_verification": 1774296.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 3,
+ "alertes_ocr": [
+  "« CHANTIER BOUDA sarl / Bni Mellal » absent de la liste des plis déposés (nom mal lu ?).",
+  "« EROSUD sarl /Laâyoune » absent de la liste des plis déposés (nom mal lu ?).",
+  "« ABRID NOLNIF sarl / DAKHLA » absent de la liste des plis déposés (nom mal lu ?)."
+ ],
+ "notes_ocr": [],
+ "qualite": "complet"
+}

@@ -1,0 +1,58 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "856820",
+ "orgAcronyme": "e5w",
+ "reference_pv": "02/2024",
+ "nouveau": true,
+ "reference": "02/2024",
+ "objet": "Travaux d’extension du réseau d’eau potable au quartier Kalaa Touama Commune EL Menzel - Province de Séfrou",
+ "acheteur": "Président du conseil de la Commune El Menzel",
+ "procedure": "appel d'offres ouvert simplifié",
+ "categorie": "Travaux",
+ "date_limite_plis": "25/11/2024",
+ "lieu_ouverture": "bureau du président du Conseil de la Commune EL Menzel",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "04/12/2024",
+ "justification": "l’offre la plus avantageuse économiquement",
+ "infructueux": false,
+ "attributaire": "Société : TARIK ELAINOUSSI",
+ "montant_attribue": 29760.0,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "Société : JACHA TRAVAUX",
+   "montant_acte_engagement": 30672.0,
+   "montant_apres_verification": 30672.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Société : TARIK ELAINOUSSI",
+   "montant_acte_engagement": 29760.0,
+   "montant_apres_verification": 29760.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": true
+  },
+  {
+   "nom": "Société : LOTFI MERIANE",
+   "montant_acte_engagement": 29088.0,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_offre_financiere",
+   "admis_avec_reserve": true
+  }
+ ],
+ "nombre_soumissionnaires": 3,
+ "alertes_ocr": [],
+ "notes_ocr": [],
+ "qualite": "complet"
+}

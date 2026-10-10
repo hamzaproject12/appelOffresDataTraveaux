@@ -1,0 +1,217 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "764762",
+ "orgAcronyme": "o8p",
+ "reference_pv": "201-23-AOO",
+ "nouveau": true,
+ "reference": "201-23-AOO",
+ "objet": "Travaux d'entretien des bâtiments de différents aéroports Lot 1 : Aéroport Oujda/Angads, Lot 2 : Aéroport Tanger/ibn Batouta, Lot 3 : Aéroport Agadir/Al Massira, Lot 4 : Aéroport Marrakech/Ménara",
+ "acheteur": "l'OFFICE NATIONAL DES AEROPORTS",
+ "procedure": "appel d'offres ouvert",
+ "categorie": "Travaux",
+ "date_limite_plis": "05/12/2023",
+ "lieu_ouverture": "La salle de réunion de la Direction des Achaïs et de la Logistique",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "14/12/2023",
+ "justification": "Moins-disant conforme.",
+ "infructueux": true,
+ "attributaire": "FACILITY PROPERTY MANAGEMENT",
+ "montant_attribue": 1381752.0,
+ "attributaires_par_lot": [
+  {
+   "lot": null,
+   "attributaire": "FACILITY PROPERTY MANAGEMENT",
+   "montant": 1381752.0
+  },
+  {
+   "lot": null,
+   "attributaire": "MAKIMORA BATIMENT",
+   "montant": 2513094.0
+  },
+  {
+   "lot": null,
+   "attributaire": "COOP TRAVAUX",
+   "montant": 2700120.0
+  }
+ ],
+ "soumissionnaires": [
+  {
+   "nom": "ORTIS MAROC",
+   "montant_acte_engagement": 1426068.0,
+   "montant_apres_verification": 1426068.0,
+   "autres_montants": [],
+   "lots": [
+    "1",
+    "4"
+   ],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "FACILITY PROPERTY MANAGEMENT",
+   "montant_acte_engagement": 1381752.0,
+   "montant_apres_verification": 1381752.0,
+   "autres_montants": [],
+   "lots": [
+    "1",
+    "3"
+   ],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "CHARIKAT AL WIDAD",
+   "montant_acte_engagement": 2955132.0,
+   "montant_apres_verification": 2955132.0,
+   "autres_montants": [],
+   "lots": [
+    "1",
+    "3"
+   ],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "SAKAT",
+   "montant_acte_engagement": 2664246.0,
+   "montant_apres_verification": 2664246.0,
+   "autres_montants": [
+    2664246.0
+   ],
+   "lots": [
+    "1",
+    "3"
+   ],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "MAKIMORA BATIMENT",
+   "montant_acte_engagement": 2700120.0,
+   "montant_apres_verification": 2513094.0,
+   "autres_montants": [
+    2700120.0
+   ],
+   "lots": [
+    "1",
+    "3",
+    "4"
+   ],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "COOP TRAVAUX",
+   "montant_acte_engagement": 2700120.0,
+   "montant_apres_verification": 2700120.0,
+   "autres_montants": [],
+   "lots": [
+    "1",
+    "4"
+   ],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "ai LU gp: belle «il",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [
+    "4"
+   ],
+   "statut": "ecarte_dossier_administratif_technique",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "ar Office National Des Aéroports",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [
+    "4"
+   ],
+   "statut": "ecarte_dossier_administratif_technique",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "EXTRAIT DU PROCES VERBAL D'APPEL D'OFFRES ouvert N°",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [
+    "4"
+   ],
+   "statut": "ecarte_dossier_administratif_technique",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "ORTIS MAROC COMPRISE/AN COMPRISE/AN",
+   "montant_acte_engagement": 426068.0,
+   "montant_apres_verification": null,
+   "autres_montants": [
+    1426068.0,
+    3009840.0
+   ],
+   "lots": [
+    "1",
+    "4"
+   ],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "FACILITY PROPERTY",
+   "montant_acte_engagement": 1381752.0,
+   "montant_apres_verification": null,
+   "autres_montants": [
+    1381752.0,
+    2928330.0
+   ],
+   "lots": [
+    "1",
+    "3"
+   ],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "MANAGEMENT COMPRISE COMPRISE/AN",
+   "montant_acte_engagement": 2955132.0,
+   "montant_apres_verification": null,
+   "autres_montants": [
+    2955132.0,
+    513094.0
+   ],
+   "lots": [
+    "3"
+   ],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 12,
+ "alertes_ocr": [
+  "« ORTIS MAROC » absent de la liste des plis déposés (nom mal lu ?).",
+  "« FACILITY PROPERTY MANAGEMENT » absent de la liste des plis déposés (nom mal lu ?).",
+  "« CHARIKAT AL WIDAD » absent de la liste des plis déposés (nom mal lu ?).",
+  "« SAKAT » absent de la liste des plis déposés (nom mal lu ?).",
+  "« MAKIMORA BATIMENT » absent de la liste des plis déposés (nom mal lu ?).",
+  "« COOP TRAVAUX » absent de la liste des plis déposés (nom mal lu ?).",
+  "« ORTIS MAROC COMPRISE/AN COMPRISE/AN » absent de la liste des plis déposés (nom mal lu ?).",
+  "« FACILITY PROPERTY » absent de la liste des plis déposés (nom mal lu ?).",
+  "« MANAGEMENT COMPRISE COMPRISE/AN » absent de la liste des plis déposés (nom mal lu ?)."
+ ],
+ "notes_ocr": [
+  "« ai LU gp: belle «il » absent de la liste des plis déposés (nom mal lu ?).",
+  "« ar Office National Des Aéroports » absent de la liste des plis déposés (nom mal lu ?).",
+  "« EXTRAIT DU PROCES VERBAL D'APPEL D'OFFRES ouvert N° » absent de la liste des plis déposés (nom mal lu ?).",
+  "« MAKIMORA BATIMENT » : montant rectifié de 2 700 120.00 à 2 513 094.00 DH.",
+  "Marché alloti (3 lots)."
+ ],
+ "qualite": "complet"
+}

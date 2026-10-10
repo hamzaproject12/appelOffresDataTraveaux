@@ -1,0 +1,53 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "953326",
+ "orgAcronyme": "d4q",
+ "reference_pv": "14/DRC/CD/2025",
+ "nouveau": true,
+ "reference": "14/DRC/CD/2025",
+ "objet": "relatif à",
+ "acheteur": null,
+ "procedure": "appel d'offres ouvert",
+ "categorie": "Travaux",
+ "date_limite_plis": "25/08/2025",
+ "lieu_ouverture": "au siège de la Direction Régionale de la Côte Atlantique {(DRC) - 6 bis, rue Patrice Lumumba, Rabat - Maroc",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "13/11/2025",
+ "justification": "Moins-disant",
+ "infructueux": false,
+ "attributaire": "STE ALOUSS MAROC",
+ "montant_attribue": 1188073.2,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "TT SOTHCOM 7 MAROC",
+   "montant_acte_engagement": 1249032.0,
+   "montant_apres_verification": null,
+   "autres_montants": [
+    1249032.0
+   ],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "STE ALOUSS MAROC",
+   "montant_acte_engagement": 1188073.2,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 2,
+ "alertes_ocr": [],
+ "notes_ocr": [
+  "Maître d'ouvrage absent du PV (utiliser l'acheteur public du portail)."
+ ],
+ "qualite": "complet"
+}

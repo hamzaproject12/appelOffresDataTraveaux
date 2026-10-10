@@ -1,0 +1,67 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "700796",
+ "orgAcronyme": "q1s",
+ "reference_pv": "5/2023/CRRAK",
+ "nouveau": true,
+ "reference": "5/2023/CRRAK",
+ "objet": "Travaux de Rénovation du Réseau Electrique (moyenne tension) du Domaine Expérimental Sidi Allal Tazi relevant du Centre Régional de la Recherche Agronomique de Kénitra, en lot unique",
+ "acheteur": "Centre Régional de la Recherche Agronomique de Kénitra",
+ "procedure": null,
+ "categorie": "Travaux",
+ "date_limite_plis": "06/03/2023",
+ "lieu_ouverture": "la salle des réunions du siège de l’Institut National de la Recherche Agronomique sis à Avenue de la Victoire à Rabat",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "16/03/2023",
+ "justification": "l’offre la plus avantageuse",
+ "infructueux": false,
+ "attributaire": "Sté ADAM STD",
+ "montant_attribue": 343634.4,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "Sté CHMGP",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_dossier_administratif_technique",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Sté ADAM STD",
+   "montant_acte_engagement": 343634.4,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": true
+  },
+  {
+   "nom": "TRACHI",
+   "montant_acte_engagement": 379200.0,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Sté DRISSOF",
+   "montant_acte_engagement": 388344.0,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 4,
+ "alertes_ocr": [],
+ "notes_ocr": [],
+ "qualite": "complet"
+}

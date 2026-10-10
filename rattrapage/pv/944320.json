@@ -1,0 +1,58 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "944320",
+ "orgAcronyme": "d4q",
+ "reference_pv": null,
+ "nouveau": true,
+ "reference": null,
+ "objet": null,
+ "acheteur": null,
+ "procedure": null,
+ "categorie": "Travaux",
+ "date_limite_plis": "29/09/2025",
+ "lieu_ouverture": "Errachidia",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": null,
+ "justification": "moins disant. > Le montant de l'offre du soumissionnaire CENTRELEC SA classé moins disant s’écarte de +15,26 % par rapport au montant de l'estimation qui s’élève à 1 474 880,00DH-HTVA.",
+ "infructueux": false,
+ "attributaire": "CENTRELEC SA et ELECPHONE SARL",
+ "montant_attribue": 1700000.0,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "CENTRELEC SA et ELECPHONE SARL",
+   "montant_acte_engagement": 1700000.0,
+   "montant_apres_verification": null,
+   "autres_montants": [
+    1700000.05
+   ],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "ELECPHONE SARL",
+   "montant_acte_engagement": 1743250.0,
+   "montant_apres_verification": null,
+   "autres_montants": [
+    1743250.0
+   ],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 2,
+ "alertes_ocr": [
+  "« ELECPHONE SARL » absent de la liste des plis déposés (nom mal lu ?)."
+ ],
+ "notes_ocr": [
+  "Maître d'ouvrage absent du PV (utiliser l'acheteur public du portail).",
+  "Montants exprimés hors taxes (HT)."
+ ],
+ "qualite": "complet"
+}

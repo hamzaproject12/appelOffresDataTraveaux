@@ -1,0 +1,88 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "764077",
+ "orgAcronyme": "o8p",
+ "reference_pv": "186-23-AOO",
+ "nouveau": true,
+ "reference": "186-23-AOO",
+ "objet": "Réalisation de la prestation du balisage diurne aux différents aéroports",
+ "acheteur": "l'OFFICE NATIONAL DES AEROPORTS",
+ "procedure": "appel d'offres ouvert",
+ "categorie": "Travaux",
+ "date_limite_plis": "07/12/2023",
+ "lieu_ouverture": "La salle de réunion de la Direction des Achats et de la Logistique",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "14/12/2023",
+ "justification": "Moins-disant conforme.",
+ "infructueux": false,
+ "attributaire": null,
+ "montant_attribue": null,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "SOCIETE PROFESSIONNELLE DE SIGNALISATION « SPS",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "PINTAPLANA MAROC",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_offre_technique",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "CHAMAL SIGNALISATION",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_offre_technique",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "SOCIETE PROFESSIONNELLE COMPRISE/AN TVA COMPRISE/AN",
+   "montant_acte_engagement": 6300000.0,
+   "montant_apres_verification": null,
+   "autres_montants": [
+    6300000.0
+   ],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "PE ait ti",
+   "montant_acte_engagement": 12600000.0,
+   "montant_apres_verification": 12600000.0,
+   "autres_montants": [
+    12600000.0
+   ],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 5,
+ "alertes_ocr": [
+  "« SOCIETE PROFESSIONNELLE COMPRISE/AN TVA COMPRISE/AN » absent de la liste des plis déposés (nom mal lu ?).",
+  "« PE ait ti » absent de la liste des plis déposés (nom mal lu ?).",
+  "Attributaire non trouvé."
+ ],
+ "notes_ocr": [
+  "« SOCIETE PROFESSIONNELLE DE SIGNALISATION « SPS » absent de la liste des plis déposés (nom mal lu ?).",
+  "« PINTAPLANA MAROC » absent de la liste des plis déposés (nom mal lu ?).",
+  "« CHAMAL SIGNALISATION » absent de la liste des plis déposés (nom mal lu ?)."
+ ],
+ "qualite": "complet"
+}

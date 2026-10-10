@@ -1,0 +1,94 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "682367",
+ "orgAcronyme": "g3h",
+ "reference_pv": "66/2022/S2A",
+ "nouveau": true,
+ "reference": "66/2022/S2A",
+ "objet": "TRAVAUX DE GÉNIE CIVIL ET INTERCONNEXION OPTIQUE ENTRE PLUSIEURS SITES À LA VILLE D’AGADIR",
+ "acheteur": null,
+ "procedure": "appel d'offres ouvert",
+ "categorie": "Travaux",
+ "date_limite_plis": null,
+ "lieu_ouverture": null,
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": null,
+ "justification": null,
+ "infructueux": false,
+ "attributaire": "SOCIETE NEW ERACOM",
+ "montant_attribue": 1777080.0,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "▪ SOCIETE TASFALOUTE",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": true
+  },
+  {
+   "nom": "▪ SOCIETE MEGAFON",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": true
+  },
+  {
+   "nom": "▪ SOCIETE PERFORMANCE TECHNOLOGY",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": true
+  },
+  {
+   "nom": "SOCIETE CEGELEC MAROC",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": true
+  },
+  {
+   "nom": "excessive",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": true
+  },
+  {
+   "nom": "SOCIETE NEW ERACOM",
+   "montant_acte_engagement": 1777080.0,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 6,
+ "alertes_ocr": [
+  "« SOCIETE NEW ERACOM » absent de la liste des plis déposés (nom mal lu ?)."
+ ],
+ "notes_ocr": [
+  "« ▪ SOCIETE TASFALOUTE » absent de la liste des plis déposés (nom mal lu ?).",
+  "« ▪ SOCIETE MEGAFON » absent de la liste des plis déposés (nom mal lu ?).",
+  "« ▪ SOCIETE PERFORMANCE TECHNOLOGY » absent de la liste des plis déposés (nom mal lu ?).",
+  "« SOCIETE CEGELEC MAROC » absent de la liste des plis déposés (nom mal lu ?).",
+  "« excessive » absent de la liste des plis déposés (nom mal lu ?).",
+  "Maître d'ouvrage absent du PV (utiliser l'acheteur public du portail)."
+ ],
+ "qualite": "attribution"
+}

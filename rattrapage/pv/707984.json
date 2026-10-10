@@ -1,0 +1,60 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "707984",
+ "orgAcronyme": "o8p",
+ "reference_pv": null,
+ "nouveau": true,
+ "reference": null,
+ "objet": "Plan de compagne 2023 -Fourniture des panneaux de signalisation verticale et fourniture et pose des",
+ "acheteur": "MINISTERE DE L'ÉQUIPEMENT ET DE L'EAU",
+ "procedure": "appel d'offres ouvert",
+ "categorie": "Travaux",
+ "date_limite_plis": "23/08/2022",
+ "lieu_ouverture": "Direction Provinciale de BENSLIMANE",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "30/03/2023",
+ "justification": null,
+ "infructueux": false,
+ "attributaire": null,
+ "montant_attribue": null,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "Société Ateliers Industriels Chérifiens SA",
+   "montant_acte_engagement": 557460.0,
+   "montant_apres_verification": 557460.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Société ATELIER TEULI SARL",
+   "montant_acte_engagement": 626124.0,
+   "montant_apres_verification": 626124.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_offre_financiere",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Société INJAZ WORKS SARL",
+   "montant_acte_engagement": 504960.0,
+   "montant_apres_verification": 504960.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_offre_financiere",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 3,
+ "alertes_ocr": [
+  "Attributaire non trouvé."
+ ],
+ "notes_ocr": [],
+ "qualite": "complet"
+}

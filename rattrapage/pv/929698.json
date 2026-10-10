@@ -1,0 +1,71 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "929698",
+ "orgAcronyme": "d4q",
+ "reference_pv": null,
+ "nouveau": true,
+ "reference": null,
+ "objet": "Peinture des charpentes métalliques et les locaux des postes HTB de la DTO/XF Lot N°4 : Postes HTB du réseau ERRACHIDIA (POSTES HTB ERRACHIDIA et TINGHIR 11)",
+ "acheteur": null,
+ "procedure": null,
+ "categorie": "Travaux",
+ "date_limite_plis": null,
+ "lieu_ouverture": "Bureaux de la Direction Approvisionnements et Marchés {DAM) : 65, Rue OTHMAN BEN AFFAN 20 000 CASABLANCA",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": null,
+ "justification": "Concurrents conformes pour les lots n° 1, 2, 3 et 4",
+ "infructueux": false,
+ "attributaire": "Peinture des charpentes métalliques et EQUIPEMENT & CHIKA NEG",
+ "montant_attribue": 1612104.0,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "EQUIPEMENT & CHIKA",
+   "montant_acte_engagement": 1343420.0,
+   "montant_apres_verification": 1343420.0,
+   "autres_montants": [
+    376550.0,
+    1170275.0
+   ],
+   "lots": [
+    "3",
+    "4"
+   ],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "GOLDYOU BUILDING",
+   "montant_acte_engagement": 1814825.0,
+   "montant_apres_verification": 1814825.0,
+   "autres_montants": [],
+   "lots": [
+    "4"
+   ],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Peinture des charpentes métalliques et EQUIPEMENT & CHIKA NEG",
+   "montant_acte_engagement": 1612104.0,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 3,
+ "alertes_ocr": [
+  "« Peinture des charpentes métalliques et EQUIPEMENT & CHIKA NEG » absent de la liste des plis déposés (nom mal lu ?)."
+ ],
+ "notes_ocr": [
+  "Marché alloti (2 lots).",
+  "Maître d'ouvrage absent du PV (utiliser l'acheteur public du portail)."
+ ],
+ "qualite": "complet"
+}

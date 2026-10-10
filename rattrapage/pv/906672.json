@@ -1,0 +1,60 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "906672",
+ "orgAcronyme": "g3h",
+ "reference_pv": "551/2025/M1PSB-MANS-TRAV",
+ "nouveau": true,
+ "reference": "551/2025/M1PSB-MANS-TRAV",
+ "objet": "Travaux de reconstruction du Souk El Mansour sis à la Préfecture d'arrondissements de Sidi Bernoussi à Casablanca",
+ "acheteur": "Société CASABLANCA AMÉNAGEMENT",
+ "procedure": "appel d'offres ouvert",
+ "categorie": "Travaux",
+ "date_limite_plis": "25/04/2025",
+ "lieu_ouverture": "Salle de réunion de CASABLANCA AMÉNAGEMENT S.A",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "16/06/2025",
+ "justification": "YŸ_ L'offre la moins disante.",
+ "infructueux": false,
+ "attributaire": "Société OPTIMACO",
+ "montant_attribue": 26409916.04,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "Groupement HTCC - SOMADEAN",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_dossier_administratif_technique",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Société WINARUS ING",
+   "montant_acte_engagement": 28463544.0,
+   "montant_apres_verification": 28463544.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Société OPTIMACO",
+   "montant_acte_engagement": 26409915.89,
+   "montant_apres_verification": 26409916.04,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 3,
+ "alertes_ocr": [],
+ "notes_ocr": [
+  "« Société OPTIMACO » : montant rectifié de 26 409 915.89 à 26 409 916.04 DH."
+ ],
+ "qualite": "complet"
+}

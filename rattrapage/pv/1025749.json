@@ -1,0 +1,135 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "1025749",
+ "orgAcronyme": "g3h",
+ "reference_pv": "9/2026",
+ "nouveau": true,
+ "reference": "9/2026",
+ "objet": null,
+ "acheteur": "Société Régionale Multiservices Fès Meknès « SRM-FM »",
+ "procedure": null,
+ "categorie": "Travaux",
+ "date_limite_plis": "18/06/2026",
+ "lieu_ouverture": "Siège de la SRM-FM",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "14/07/2026",
+ "justification": "L’offre la plus avantageuse.",
+ "infructueux": false,
+ "attributaire": "SNAT",
+ "montant_attribue": 3672700.0,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "GHS TRAVAUX",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_dossier_administratif_technique",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "EL HAMDANI HASSAN",
+   "montant_acte_engagement": 4072050.0,
+   "montant_apres_verification": 4886460.0,
+   "autres_montants": [
+    4886460.0
+   ],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "HR WASSIM TRAVAUX",
+   "montant_acte_engagement": 3839670.0,
+   "montant_apres_verification": null,
+   "autres_montants": [
+    4607604.0
+   ],
+   "lots": [],
+   "statut": "ecarte_offre_financiere",
+   "admis_avec_reserve": true
+  },
+  {
+   "nom": "OUZNAG",
+   "montant_acte_engagement": 3979100.0,
+   "montant_apres_verification": null,
+   "autres_montants": [
+    4774920.0
+   ],
+   "lots": [],
+   "statut": "ecarte_offre_financiere",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "MATIWORKS",
+   "montant_acte_engagement": 4980400.0,
+   "montant_apres_verification": 5976480.0,
+   "autres_montants": [
+    5976480.0
+   ],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "EXTRAS",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_dossier_administratif_technique",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "SONASIA",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_dossier_administratif_technique",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "SNAT",
+   "montant_acte_engagement": 3672700.0,
+   "montant_apres_verification": 4407240.0,
+   "autres_montants": [
+    4407240.0
+   ],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "WHITE WAY",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_dossier_administratif_technique",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "INGTELMA",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_dossier_administratif_technique",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 10,
+ "alertes_ocr": [],
+ "notes_ocr": [
+  "« EL HAMDANI HASSAN » : montant rectifié de 4 072 050.00 à 4 886 460.00 DH.",
+  "« MATIWORKS » : montant rectifié de 4 980 400.00 à 5 976 480.00 DH.",
+  "« SNAT » : montant rectifié de 3 672 700.00 à 4 407 240.00 DH."
+ ],
+ "qualite": "complet"
+}

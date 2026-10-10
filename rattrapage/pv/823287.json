@@ -1,0 +1,94 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "823287",
+ "orgAcronyme": "o8p",
+ "reference_pv": "26/SNTL/2024",
+ "nouveau": true,
+ "reference": "26/SNTL/2024",
+ "objet": "Travaux de fourniture, installation et mise en service d’un poste transformateur de 315 KVA au siège de la SNTL à Rabat, en lot unique",
+ "acheteur": "SNTL",
+ "procedure": null,
+ "categorie": "Travaux",
+ "date_limite_plis": "31/07/2024",
+ "lieu_ouverture": "Siège SNTL Rabat",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "15/08/2024",
+ "justification": null,
+ "infructueux": false,
+ "attributaire": "FIABETECH",
+ "montant_attribue": 548640.0,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "FRETEL",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "depose",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "PETRADIS",
+   "montant_acte_engagement": 588000.0,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "STE OKELEC",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "depose",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "DAR ELEC",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "depose",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "FIABETECH",
+   "montant_acte_engagement": 548640.0,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "DER.COM",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "depose",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "VOLTACTIVE",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "depose",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 7,
+ "alertes_ocr": [],
+ "notes_ocr": [],
+ "qualite": "complet"
+}

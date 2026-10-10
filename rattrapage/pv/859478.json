@@ -1,0 +1,51 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "859478",
+ "orgAcronyme": "o4d",
+ "reference_pv": "219/2024",
+ "nouveau": true,
+ "reference": "219/2024",
+ "objet": null,
+ "acheteur": "Directeur des Achats et Logistique",
+ "procedure": "appel d'offres ouvert international",
+ "categorie": "Travaux",
+ "date_limite_plis": "03/12/2024",
+ "lieu_ouverture": "|",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": null,
+ "justification": null,
+ "infructueux": false,
+ "attributaire": "L'appel d'offre est attribué à la société INNOV ATIVE FUILPRIGN OLUTIONS",
+ "montant_attribue": 23467138.03,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "INNOVATIVE BUILDING SOLUTIONS",
+   "montant_acte_engagement": 23467.0,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "L'appel d'offre est attribué à la société INNOV ATIVE FUILPRIGN OLUTIONS",
+   "montant_acte_engagement": 23467138.03,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 2,
+ "alertes_ocr": [
+  "« L'appel d'offre est attribué à la société INNOV ATIVE FUILPRIGN OLUTIONS » absent de la liste des plis déposés (nom mal lu ?)."
+ ],
+ "notes_ocr": [],
+ "qualite": "complet"
+}

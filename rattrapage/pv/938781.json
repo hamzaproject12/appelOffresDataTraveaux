@@ -1,0 +1,60 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "938781",
+ "orgAcronyme": "a1t",
+ "reference_pv": "68/2025/ADHA",
+ "nouveau": true,
+ "reference": "68/2025/ADHA",
+ "objet": null,
+ "acheteur": "DIRECTEUR GENERAL DE L'AGENCE DE DEVELOPPEMNT DU HAUT ATLAS",
+ "procedure": null,
+ "categorie": "Travaux",
+ "date_limite_plis": "25/09/2025",
+ "lieu_ouverture": "Salle de réunions de la DIRECTION PROVINCIALE DE L'AGRICULTURE MARRAKECH",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "08/10/2025",
+ "justification": null,
+ "infructueux": false,
+ "attributaire": "GROUPEMENT ZAMRA ET FITCHER",
+ "montant_attribue": 2860485.48,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "1 OATIKEN JA",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "depose",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "MD ATLAS",
+   "montant_acte_engagement": 2984837.4,
+   "montant_apres_verification": 2984837.4,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "GROUPEMENT ZAMRA ET FITCHER",
+   "montant_acte_engagement": 2860485.48,
+   "montant_apres_verification": 2860485.48,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 3,
+ "alertes_ocr": [
+  "« GROUPEMENT ZAMRA ET FITCHER » absent de la liste des plis déposés (nom mal lu ?)."
+ ],
+ "notes_ocr": [],
+ "qualite": "complet"
+}

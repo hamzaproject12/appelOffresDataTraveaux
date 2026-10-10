@@ -1,0 +1,165 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "907185",
+ "orgAcronyme": "m1w",
+ "reference_pv": null,
+ "nouveau": true,
+ "reference": null,
+ "objet": null,
+ "acheteur": "Barid Al Maghrib S.A",
+ "procedure": null,
+ "categorie": "Travaux",
+ "date_limite_plis": "14/05/2025",
+ "lieu_ouverture": "Direction Achats & Patrimoine, sise au 8, rue Dayet Erroumi, Agdal – Rabat",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "18/06/2025",
+ "justification": "Offre la moins disante.",
+ "infructueux": true,
+ "attributaire": "ETTBARI YOUSSEF",
+ "montant_attribue": 341260.0,
+ "attributaires_par_lot": [
+  {
+   "lot": "2",
+   "attributaire": "ETTBARI YOUSSEF",
+   "montant": 341260.0
+  },
+  {
+   "lot": "3",
+   "attributaire": "MEDI EXPO",
+   "montant": 577400.0
+  }
+ ],
+ "soumissionnaires": [
+  {
+   "nom": "KENDIRA",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_dossier_administratif_technique",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "YWK CONS",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_dossier_administratif_technique",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "KML INDUSTRIE",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_dossier_administratif_technique",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "ETTBARI YOUSSEF",
+   "montant_acte_engagement": 341260.0,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [
+    "2"
+   ],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "PROMOWEST",
+   "montant_acte_engagement": 451686.0,
+   "montant_apres_verification": null,
+   "autres_montants": [
+    729000.0
+   ],
+   "lots": [
+    "2"
+   ],
+   "statut": "ecarte_offre_technique",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "VINCORTRADE",
+   "montant_acte_engagement": 466014.0,
+   "montant_apres_verification": null,
+   "autres_montants": [
+    710800.0
+   ],
+   "lots": [
+    "2"
+   ],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "ETASKI",
+   "montant_acte_engagement": 382103.6,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [
+    "2"
+   ],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "MEDI EXPO",
+   "montant_acte_engagement": 577400.0,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [
+    "2",
+    "3"
+   ],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "ELESI",
+   "montant_acte_engagement": 603200.0,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [
+    "2"
+   ],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "CGTS",
+   "montant_acte_engagement": 707580.0,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [
+    "2"
+   ],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 10,
+ "alertes_ocr": [
+  "« ETTBARI YOUSSEF » absent de la liste des plis déposés (nom mal lu ?).",
+  "« PROMOWEST » absent de la liste des plis déposés (nom mal lu ?).",
+  "« VINCORTRADE » absent de la liste des plis déposés (nom mal lu ?).",
+  "« ETASKI » absent de la liste des plis déposés (nom mal lu ?).",
+  "« MEDI EXPO » absent de la liste des plis déposés (nom mal lu ?).",
+  "« ELESI » absent de la liste des plis déposés (nom mal lu ?).",
+  "« CGTS » absent de la liste des plis déposés (nom mal lu ?)."
+ ],
+ "notes_ocr": [
+  "« KENDIRA » absent de la liste des plis déposés (nom mal lu ?).",
+  "« YWK CONS » absent de la liste des plis déposés (nom mal lu ?).",
+  "« KML INDUSTRIE » absent de la liste des plis déposés (nom mal lu ?).",
+  "Marché alloti (2 lots).",
+  "Montants exprimés hors taxes (HT)."
+ ],
+ "qualite": "complet"
+}

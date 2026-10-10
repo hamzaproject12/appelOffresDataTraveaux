@@ -1,0 +1,58 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "1036485",
+ "orgAcronyme": "a1z",
+ "reference_pv": "07/2026/CM/DATUSE",
+ "nouveau": true,
+ "reference": "07/2026/CM/DATUSE",
+ "objet": "TRAVAUX D'EXTENSION DU CIMETIERE SIDI M'HAMED BEN LAMLIH",
+ "acheteur": "Président du Conseil Communal de la ville de Mohammedia",
+ "procedure": "appel d'offres ouvert national",
+ "categorie": "Travaux",
+ "date_limite_plis": "18/08/2026",
+ "lieu_ouverture": "La grande salle de réunion de l'hôtel de ville",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "03/09/2026",
+ "justification": "Offre économiquement la plus avantageuse.",
+ "infructueux": false,
+ "attributaire": "Société EMBA NEGOCE ET TRAVAUX",
+ "montant_attribue": 728364.0,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "Société EMBA NEGOCE ET TRAVAUX",
+   "montant_acte_engagement": 728364.0,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Société FK TRAVAUX",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_offre_financiere",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Société AJIDEK",
+   "montant_acte_engagement": 797010.0,
+   "montant_apres_verification": 797010.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_offre_financiere",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 3,
+ "alertes_ocr": [],
+ "notes_ocr": [],
+ "qualite": "complet"
+}

@@ -1,0 +1,101 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "814122",
+ "orgAcronyme": "o4d",
+ "reference_pv": null,
+ "nouveau": true,
+ "reference": null,
+ "objet": "La Réalisation des Travaux de Peinture pour la Direction Régionale Beni Mellal Khenifra et agences rattachées en lot unique",
+ "acheteur": "Direction Régionale CNSS Beni Mellal Khenifra",
+ "procedure": "appel d'offres ouvert",
+ "categorie": "Travaux",
+ "date_limite_plis": "26/06/2024",
+ "lieu_ouverture": "Salle de réunion de la Direction Régionale CNSS Beni Mellal Khenifra sise Boulevard Mohamed V, BP 980 - Beni Mellal",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "11/07/2024",
+ "justification": null,
+ "infructueux": false,
+ "attributaire": "STE CDR AMENAGEMENT",
+ "montant_attribue": 103104.0,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "STE DAMOKHTAR",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_offre_financiere",
+   "admis_avec_reserve": true
+  },
+  {
+   "nom": "STE INTERNATIONAL BATIMENT ET DES",
+   "montant_acte_engagement": 108312.0,
+   "montant_apres_verification": 108312.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_offre_financiere",
+   "admis_avec_reserve": true
+  },
+  {
+   "nom": "ROUTE",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_offre_financiere",
+   "admis_avec_reserve": true
+  },
+  {
+   "nom": "STE GROUTEMAR",
+   "montant_acte_engagement": 122196.0,
+   "montant_apres_verification": 122196.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_offre_financiere",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "STE CDR AMENAGEMENT",
+   "montant_acte_engagement": 108648.0,
+   "montant_apres_verification": 103104.0,
+   "autres_montants": [],
+   "lots": [
+    "unique"
+   ],
+   "statut": "attributaire",
+   "admis_avec_reserve": true
+  },
+  {
+   "nom": "STE MAROC ENGIN ET",
+   "montant_acte_engagement": 121932.0,
+   "montant_apres_verification": 121932.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "STE GL TRA",
+   "montant_acte_engagement": 102540.0,
+   "montant_apres_verification": 102540.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 7,
+ "alertes_ocr": [
+  "« STE MAROC ENGIN ET » absent de la liste des plis déposés (nom mal lu ?).",
+  "« STE GL TRA » absent de la liste des plis déposés (nom mal lu ?)."
+ ],
+ "notes_ocr": [
+  "« STE CDR AMENAGEMENT » : montant rectifié de 108 648.00 à 103 104.00 DH."
+ ],
+ "qualite": "complet"
+}

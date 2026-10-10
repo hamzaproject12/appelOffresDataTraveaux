@@ -1,0 +1,64 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "837456",
+ "orgAcronyme": "g8e",
+ "reference_pv": "160/2024",
+ "nouveau": true,
+ "reference": "160/2024",
+ "objet": null,
+ "acheteur": null,
+ "procedure": null,
+ "categorie": "Travaux",
+ "date_limite_plis": "02/10/2024",
+ "lieu_ouverture": null,
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "10/10/2024",
+ "justification": null,
+ "infructueux": false,
+ "attributaire": "STE TR3F",
+ "montant_attribue": 44358903.6,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "STE TR3F",
+   "montant_acte_engagement": 44358903.6,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "STE TRAINVEST",
+   "montant_acte_engagement": 45612104.4,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "STE SNTRO",
+   "montant_acte_engagement": 45248036.4,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 3,
+ "alertes_ocr": [
+  "« STE TR3F » absent de la liste des plis déposés (nom mal lu ?).",
+  "« STE TRAINVEST » absent de la liste des plis déposés (nom mal lu ?).",
+  "« STE SNTRO » absent de la liste des plis déposés (nom mal lu ?)."
+ ],
+ "notes_ocr": [
+  "Maître d'ouvrage absent du PV (utiliser l'acheteur public du portail)."
+ ],
+ "qualite": "complet"
+}

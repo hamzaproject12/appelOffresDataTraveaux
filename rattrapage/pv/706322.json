@@ -1,0 +1,74 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "706322",
+ "orgAcronyme": "q0x",
+ "reference_pv": "39/AREPDT/2023",
+ "nouveau": true,
+ "reference": "39/AREPDT/2023",
+ "objet": "Programme d’eau potable : Travaux de renforcement du système d'alimentation en eau potable du douar Melaha relevant de la Commune Territoriale de Guir -Province de",
+ "acheteur": null,
+ "procedure": "appel d'offres ouvert",
+ "categorie": "Travaux",
+ "date_limite_plis": null,
+ "lieu_ouverture": null,
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": null,
+ "justification": null,
+ "infructueux": false,
+ "attributaire": "STE STAWIL",
+ "montant_attribue": 442819.2,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "▪ STE ELMD TRAVAUX",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_offre_financiere",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "STE STAWIL",
+   "montant_acte_engagement": 442819.2,
+   "montant_apres_verification": 442819.2,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "STE 2M",
+   "montant_acte_engagement": 454075.2,
+   "montant_apres_verification": 454075.2,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "STE SAL TRAVAUX",
+   "montant_acte_engagement": 498757.2,
+   "montant_apres_verification": 498757.2,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 4,
+ "alertes_ocr": [
+  "« STE STAWIL » absent de la liste des plis déposés (nom mal lu ?).",
+  "« STE 2M » absent de la liste des plis déposés (nom mal lu ?).",
+  "« STE SAL TRAVAUX » absent de la liste des plis déposés (nom mal lu ?)."
+ ],
+ "notes_ocr": [
+  "« ▪ STE ELMD TRAVAUX » absent de la liste des plis déposés (nom mal lu ?).",
+  "Maître d'ouvrage absent du PV (utiliser l'acheteur public du portail)."
+ ],
+ "qualite": "complet"
+}

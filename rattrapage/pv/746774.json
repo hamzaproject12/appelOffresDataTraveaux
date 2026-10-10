@@ -1,0 +1,137 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "746774",
+ "orgAcronyme": "q1s",
+ "reference_pv": "23/2023/DPA/36",
+ "nouveau": true,
+ "reference": "23/2023/DPA/36",
+ "objet": "TRAVAUX D’EQUIPEMENT DE FORAGES EN POMPAGE SOLAIRE, REPARTI EN 3 LOTS",
+ "acheteur": "Directeur Provincial de l’Agriculture d’Essaouira",
+ "procedure": "appel d'offres ouvert",
+ "categorie": "Travaux",
+ "date_limite_plis": "28/09/2023",
+ "lieu_ouverture": "la Direction Provinciale de l’Agriculture d’Essaouira",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "10/10/2023",
+ "justification": "Il s’est avéré qu’il y a une contradiction entre la date du dépôt des catalogues indiquée au portail et celle indiquée au niveau des avis publiés en arabe et français. Et par conséquent, et conformément aux dispositions de l’article 45 du décret n° 2-12-349 du 20/03/2013, l’AOO n° 23/2023/DPA/36 est annulé pour motif : Vice procédure a été décelé.",
+ "infructueux": false,
+ "attributaire": null,
+ "montant_attribue": null,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "STE UNIVERS PHYTO",
+   "montant_acte_engagement": 337555.2,
+   "montant_apres_verification": 337555.2,
+   "autres_montants": [
+    308155.2,
+    414259.2
+   ],
+   "lots": [
+    "1",
+    "2",
+    "3"
+   ],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "STE PROFONDA",
+   "montant_acte_engagement": 370200.0,
+   "montant_apres_verification": 370200.0,
+   "autres_montants": [
+    327000.0,
+    489000.0
+   ],
+   "lots": [
+    "1",
+    "2",
+    "3"
+   ],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "STE MAROCCAN GREEN INVEST",
+   "montant_acte_engagement": 259800.0,
+   "montant_apres_verification": 259800.0,
+   "autres_montants": [
+    263520.0,
+    366720.0
+   ],
+   "lots": [
+    "1",
+    "2",
+    "3"
+   ],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "STE TECHNIQUES ET MAITRISE D'EAU & ENEGIE",
+   "montant_acte_engagement": 364200.0,
+   "montant_apres_verification": 364200.0,
+   "autres_montants": [
+    334200.0,
+    460200.0
+   ],
+   "lots": [
+    "1",
+    "2",
+    "3"
+   ],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "STE ELECTRO COP 22",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_dossier_administratif_technique",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "demandé",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [
+    "1"
+   ],
+   "statut": "ecarte_dossier_administratif_technique",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "STE ENGIN LOURD MAROC",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [
+    "3"
+   ],
+   "statut": "ecarte_dossier_administratif_technique",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 7,
+ "alertes_ocr": [
+  "« STE UNIVERS PHYTO » absent de la liste des plis déposés (nom mal lu ?).",
+  "« STE PROFONDA » absent de la liste des plis déposés (nom mal lu ?).",
+  "« STE MAROCCAN GREEN INVEST » absent de la liste des plis déposés (nom mal lu ?).",
+  "« STE TECHNIQUES ET MAITRISE D'EAU & ENEGIE » absent de la liste des plis déposés (nom mal lu ?).",
+  "Attributaire non trouvé."
+ ],
+ "notes_ocr": [
+  "« STE ELECTRO COP 22 » absent de la liste des plis déposés (nom mal lu ?).",
+  "« demandé » absent de la liste des plis déposés (nom mal lu ?).",
+  "« STE ENGIN LOURD MAROC » absent de la liste des plis déposés (nom mal lu ?).",
+  "Marché alloti (3 lots)."
+ ],
+ "qualite": "complet"
+}

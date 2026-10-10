@@ -1,0 +1,55 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "818256",
+ "orgAcronyme": "o8p",
+ "reference_pv": "13/AO00/DIE/DG/ANP/2024",
+ "nouveau": true,
+ "reference": "13/AO00/DIE/DG/ANP/2024",
+ "objet": null,
+ "acheteur": "DIRECTION DES INFRASTRUCTURES ET ETUDES",
+ "procedure": null,
+ "categorie": "Travaux",
+ "date_limite_plis": "11/07/2024",
+ "lieu_ouverture": "Direction Générale de l’Agence Nationale des Ports, sise à MANDARONA 300 Lot n° 8 — Sidi Maârouf — Casablanca",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "26/07/2024",
+ "justification": "la société LAMALIF GROUP à présenté une offre conforme aux exigences du dossier de l’appel d’offres et la moins disante.",
+ "infructueux": false,
+ "attributaire": "LAMALIF GROUP",
+ "montant_attribue": 6492000.0,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "Publics : ICOMEL",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "depose",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "LAMALIF GROUP",
+   "montant_acte_engagement": 6492000.0,
+   "montant_apres_verification": null,
+   "autres_montants": [
+    6492000.0
+   ],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 2,
+ "alertes_ocr": [
+  "« LAMALIF GROUP » absent de la liste des plis déposés (nom mal lu ?)."
+ ],
+ "notes_ocr": [
+  "Montants exprimés hors taxes (HT)."
+ ],
+ "qualite": "attribution"
+}

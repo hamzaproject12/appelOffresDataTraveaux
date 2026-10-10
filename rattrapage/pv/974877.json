@@ -1,0 +1,161 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "974877",
+ "orgAcronyme": "q9t",
+ "reference_pv": "66G/2025/DRSPSRO",
+ "nouveau": true,
+ "reference": "66G/2025/DRSPSRO",
+ "objet": null,
+ "acheteur": null,
+ "procedure": null,
+ "categorie": "Travaux",
+ "date_limite_plis": null,
+ "lieu_ouverture": null,
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "03/02/2022",
+ "justification": null,
+ "infructueux": false,
+ "attributaire": null,
+ "montant_attribue": null,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "ST D: RO SE &v ICI TRAVAUX",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "depose",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "4 S. 53 FORW IN",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "depose",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "S- STE RAVEOD",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "depose",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "SI: ERRAG:DLA VARIE: EN PRAVALX DIVERS",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "depose",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "SIE DE qu PAC TTON L'OTRAVAUX DR ERASERILICITUR",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "depose",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "S- STE 3.8",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "depose",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "STE LOS NEA 1 RANAITK ET SERVICE",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "depose",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "STE PRO \"RAVAUX",
+   "montant_acte_engagement": 1411292.0,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "STE FO RWIN LE",
+   "montant_acte_engagement": 416609.6,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "STE RRRACHTIIA MAR3RE RL TR JIVERS",
+   "montant_acte_engagement": 1471188.0,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "STE RENOVENT",
+   "montant_acte_engagement": 1419738.0,
+   "montant_apres_verification": 1419738.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "PRO SERVICE T RAVA UX",
+   "montant_acte_engagement": 1411092.9,
+   "montant_apres_verification": 1411092.9,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "STE FORWIN",
+   "montant_acte_engagement": 46609.8,
+   "montant_apres_verification": 416609.6,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 13,
+ "alertes_ocr": [
+  "« STE PRO \"RAVAUX » absent de la liste des plis déposés (nom mal lu ?).",
+  "« STE FO RWIN LE » absent de la liste des plis déposés (nom mal lu ?).",
+  "« STE RRRACHTIIA MAR3RE RL TR JIVERS » absent de la liste des plis déposés (nom mal lu ?).",
+  "« STE RENOVENT » absent de la liste des plis déposés (nom mal lu ?).",
+  "« PRO SERVICE T RAVA UX » absent de la liste des plis déposés (nom mal lu ?).",
+  "« STE FORWIN » absent de la liste des plis déposés (nom mal lu ?).",
+  "Attributaire non trouvé.",
+  "« STE FORWIN » : écart anormal entre montant initial et vérifié (lecture à vérifier)."
+ ],
+ "notes_ocr": [
+  "« STE FORWIN » : montant rectifié de 46 609.80 à 416 609.60 DH.",
+  "Maître d'ouvrage absent du PV (utiliser l'acheteur public du portail).",
+  "Montants exprimés hors taxes (HT)."
+ ],
+ "qualite": "complet"
+}

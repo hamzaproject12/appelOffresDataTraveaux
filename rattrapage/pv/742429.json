@@ -1,0 +1,119 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "742429",
+ "orgAcronyme": "d4q",
+ "reference_pv": null,
+ "nouveau": true,
+ "reference": null,
+ "objet": null,
+ "acheteur": null,
+ "procedure": "appel d'offres ouvert",
+ "categorie": "Travaux",
+ "date_limite_plis": "08/08/2023",
+ "lieu_ouverture": "au Siège de la Direction Régionale du Centre (DR3) Boulevard Mohamed VI, Quartier Administratif - Khouribga - Maroc",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "19/09/2023",
+ "justification": "Moins-disant",
+ "infructueux": false,
+ "attributaire": "CONCURren ACEEUTAIES TIZGUIT NAC",
+ "montant_attribue": 298320.0,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "7 AIT BENHA SARL MAROC nn",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "depose",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "CHAHBOUNE ABDELMOUMAN MAROC",
+   "montant_acte_engagement": 355440.0,
+   "montant_apres_verification": null,
+   "autres_montants": [
+    355440.0
+   ],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "EAU RESEAU MAROC",
+   "montant_acte_engagement": 319896.0,
+   "montant_apres_verification": null,
+   "autres_montants": [
+    319896.0
+   ],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "GROUP ESSMO MAROC / RHRIS DES TRAVAUX PUBLICS MAROC - MAROC (SRHTP)",
+   "montant_acte_engagement": 338400.0,
+   "montant_apres_verification": null,
+   "autres_montants": [
+    338400.0
+   ],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "SIRRI SALAH MAROC",
+   "montant_acte_engagement": 362400.0,
+   "montant_apres_verification": null,
+   "autres_montants": [
+    362400.0
+   ],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "SOTEDAM MAROC",
+   "montant_acte_engagement": 389040.0,
+   "montant_apres_verification": null,
+   "autres_montants": [
+    389040.0
+   ],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "CONCURren ACEEUTAIES TIZGUIT NAC",
+   "montant_acte_engagement": 298320.0,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "AIT BENHA SARL",
+   "montant_acte_engagement": 338760.0,
+   "montant_apres_verification": null,
+   "autres_montants": [
+    338760.0
+   ],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 8,
+ "alertes_ocr": [
+  "« AIT BENHA SARL » absent de la liste des plis déposés (nom mal lu ?)."
+ ],
+ "notes_ocr": [
+  "Maître d'ouvrage absent du PV (utiliser l'acheteur public du portail)."
+ ],
+ "qualite": "complet"
+}

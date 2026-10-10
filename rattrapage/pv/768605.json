@@ -1,0 +1,78 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "768605",
+ "orgAcronyme": "o8p",
+ "reference_pv": "46/2023/ANEP/DRR",
+ "nouveau": true,
+ "reference": "46/2023/ANEP/DRR",
+ "objet": "TRAVAUX D'AMENAGEMENT DU CENTRE PSYCHIATRIQUE DE TEMARA",
+ "acheteur": "MINISTERE DE LA SANTE ET DE LA PROTECTION SOCIALE",
+ "procedure": null,
+ "categorie": "Travaux",
+ "date_limite_plis": "11/12/2023",
+ "lieu_ouverture": "Salle de réunions de la Direction Régionale de l'ANEP de Rabat-Salé-Kénitra, sis à Hay Nahda 2 Rabat",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "19/12/2023",
+ "justification": "Conformément aux dispositions de l'article 14 du règlement de consultation, la meilleure offre financière est celle la mieux-disante par rapport au prix de référence.",
+ "infructueux": false,
+ "attributaire": "STE LE PALAIS D'AMENAGEMENT SARL",
+ "montant_attribue": 11662316.4,
+ "attributaires_par_lot": [
+  {
+   "lot": null,
+   "attributaire": "STE LE PALAIS D'AMENAGEMENT SARL",
+   "montant": 11662316.4
+  },
+  {
+   "lot": null,
+   "attributaire": "STE GROUPE MAROCAIN DE CONSTRUCTION GENERALE GMCG",
+   "montant": 12999498.0
+  }
+ ],
+ "soumissionnaires": [
+  {
+   "nom": "STE ANALIP BTP SARL",
+   "montant_acte_engagement": 12565374.0,
+   "montant_apres_verification": 12565374.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_offre_financiere",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "STE LE PALAIS D'AMENAGEMENT SARL",
+   "montant_acte_engagement": 11662316.4,
+   "montant_apres_verification": 11662316.4,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "STE GROUPE MAROCAIN DE CONSTRUCTION GENERALE GMCG",
+   "montant_acte_engagement": 12999498.0,
+   "montant_apres_verification": 12999498.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "STE ENTC SARL AU",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_offre_technique",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 4,
+ "alertes_ocr": [],
+ "notes_ocr": [],
+ "qualite": "complet"
+}

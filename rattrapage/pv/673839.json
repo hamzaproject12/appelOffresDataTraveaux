@@ -1,0 +1,75 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "673839",
+ "orgAcronyme": "l5b",
+ "reference_pv": "8/2022",
+ "nouveau": true,
+ "reference": "8/2022",
+ "objet": "Travaux d’aménagement au siège de l’IRCAM en deux lots  Lot n°1 : Mise à niveau des installations de climatisation des bâtiments",
+ "acheteur": "IRCAM",
+ "procedure": "appel d'offres ouvert",
+ "categorie": "Travaux",
+ "date_limite_plis": "14/10/2022",
+ "lieu_ouverture": "IRCAM",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "04/11/2022",
+ "justification": null,
+ "infructueux": false,
+ "attributaire": "Majdi Frères",
+ "montant_attribue": 540217.8,
+ "attributaires_par_lot": [
+  {
+   "lot": null,
+   "attributaire": "Majdi Frères",
+   "montant": 540217.8
+  },
+  {
+   "lot": null,
+   "attributaire": "Efnor Tech Elec",
+   "montant": 856380.0
+  }
+ ],
+ "soumissionnaires": [
+  {
+   "nom": "Wislane Travaux Narova",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [
+    "1"
+   ],
+   "statut": "ecarte_dossier_administratif_technique",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Efnor Tech Elec",
+   "montant_acte_engagement": 856380.0,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [
+    "1"
+   ],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Majdi Frères",
+   "montant_acte_engagement": 540217.8,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [
+    "1"
+   ],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 3,
+ "alertes_ocr": [],
+ "notes_ocr": [],
+ "qualite": "attribution"
+}

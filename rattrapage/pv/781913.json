@@ -1,0 +1,64 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "781913",
+ "orgAcronyme": "j8k",
+ "reference_pv": null,
+ "nouveau": true,
+ "reference": null,
+ "objet": "L’achèvement des travaux de mise à niveau des quartiers sous équipés, 2ème Partie, dans le cadre de la politique de la ville à la collectivité territoriale de Belfaa, Province de Chtouka Ait Baha",
+ "acheteur": null,
+ "procedure": "appel d'offres ouvert",
+ "categorie": "Travaux",
+ "date_limite_plis": "15/03/2024",
+ "lieu_ouverture": "Division des Marchés de la Société Al Omrane souss Massa",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "20/03/2024",
+ "justification": "Concurrent représentant l’offre la plus avantageuse.",
+ "infructueux": false,
+ "attributaire": "SAHAF",
+ "montant_attribue": 3882562.92,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "ENTREPRISE DE TRAVAUX ET D’INGENIERIE D’AGADIR (ETIA)",
+   "montant_acte_engagement": 4298409.0,
+   "montant_apres_verification": 4298409.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "SHTR - SURETRAM -ESTAR BATIMENT",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_offre_technique",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "SAHAF",
+   "montant_acte_engagement": 3882562.92,
+   "montant_apres_verification": 3882562.92,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 3,
+ "alertes_ocr": [
+  "« ENTREPRISE DE TRAVAUX ET D’INGENIERIE D’AGADIR (ETIA) » absent de la liste des plis déposés (nom mal lu ?).",
+  "« SAHAF » absent de la liste des plis déposés (nom mal lu ?)."
+ ],
+ "notes_ocr": [
+  "« SHTR - SURETRAM -ESTAR BATIMENT » absent de la liste des plis déposés (nom mal lu ?).",
+  "Maître d'ouvrage absent du PV (utiliser l'acheteur public du portail)."
+ ],
+ "qualite": "complet"
+}

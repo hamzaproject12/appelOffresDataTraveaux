@@ -1,0 +1,56 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "819552",
+ "orgAcronyme": "o8p",
+ "reference_pv": "113-24-AOO",
+ "nouveau": true,
+ "reference": "113-24-AOO",
+ "objet": "Aménagements divers à l'Aéroport Casablanca/ Mohammed V",
+ "acheteur": "l'OFFICE NATIONAL DES AEROPORTS",
+ "procedure": "appel d'offres ouvert",
+ "categorie": "Travaux",
+ "date_limite_plis": "11/07/2024",
+ "lieu_ouverture": "La salle de réunion de la Direction des Achats et de la Logistique",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "01/08/2024",
+ "justification": "L'offre la plus avantageuse.",
+ "infructueux": false,
+ "attributaire": "AHMA",
+ "montant_attribue": 114558792.0,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "JET CONTRACTORS",
+   "montant_acte_engagement": 117427749.6,
+   "montant_apres_verification": 117427749.6,
+   "autres_montants": [
+    117427749.6
+   ],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "AHMA",
+   "montant_acte_engagement": 114558792.0,
+   "montant_apres_verification": 114558792.0,
+   "autres_montants": [
+    114558792.0
+   ],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 2,
+ "alertes_ocr": [
+  "« JET CONTRACTORS » absent de la liste des plis déposés (nom mal lu ?).",
+  "« AHMA » absent de la liste des plis déposés (nom mal lu ?)."
+ ],
+ "notes_ocr": [],
+ "qualite": "complet"
+}

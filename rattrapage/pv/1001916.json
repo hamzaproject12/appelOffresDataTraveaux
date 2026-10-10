@@ -1,0 +1,93 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "1001916",
+ "orgAcronyme": "s3z",
+ "reference_pv": "05/ST/2026/LAA",
+ "nouveau": true,
+ "reference": "05/ST/2026/LAA",
+ "objet": "\"(ENTRETIEN DU DALLAGE DEGRADE DES RUES À L’ARRONDISSEMENT UE. _ ————",
+ "acheteur": "ARRONDISSEMENT LAAYAYDA",
+ "procedure": null,
+ "categorie": "Travaux",
+ "date_limite_plis": "23/04/2026",
+ "lieu_ouverture": null,
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": null,
+ "justification": "Offre 1 mieu @V: nt seuse AT",
+ "infructueux": false,
+ "attributaire": null,
+ "montant_attribue": null,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "BEST LABOR (sarl au)",
+   "montant_acte_engagement": 3661590.0,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_offre_financiere",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "SA AMI TP (sarl au)",
+   "montant_acte_engagement": 3635130.0,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "SLHT (sarl au)",
+   "montant_acte_engagement": 3651000.0,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "MELTRAS (sarl au)",
+   "montant_acte_engagement": 3652488.0,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "FLUX VERT (sarl)",
+   "montant_acte_engagement": 3701100.0,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "AL ANSARI MODERN BUILDING (sarl au)",
+   "montant_acte_engagement": 3677250.0,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 6,
+ "alertes_ocr": [
+  "« BEST LABOR (sarl au) » absent de la liste des plis déposés (nom mal lu ?).",
+  "« SA AMI TP (sarl au) » absent de la liste des plis déposés (nom mal lu ?).",
+  "« SLHT (sarl au) » absent de la liste des plis déposés (nom mal lu ?).",
+  "« MELTRAS (sarl au) » absent de la liste des plis déposés (nom mal lu ?).",
+  "« FLUX VERT (sarl) » absent de la liste des plis déposés (nom mal lu ?).",
+  "« AL ANSARI MODERN BUILDING (sarl au) » absent de la liste des plis déposés (nom mal lu ?).",
+  "Attributaire non trouvé."
+ ],
+ "notes_ocr": [],
+ "qualite": "complet"
+}

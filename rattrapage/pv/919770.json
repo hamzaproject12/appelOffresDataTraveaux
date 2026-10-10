@@ -1,0 +1,52 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "919770",
+ "orgAcronyme": "g8e",
+ "reference_pv": "56/2025/TGR",
+ "nouveau": true,
+ "reference": "56/2025/TGR",
+ "objet": "Travaux d'installation des ascenseurs au siège de la Trésorerie Générale du Royaume, en lot unique",
+ "acheteur": null,
+ "procedure": "appel d'offres ouvert national",
+ "categorie": "Travaux",
+ "date_limite_plis": "15/07/2025",
+ "lieu_ouverture": "Bureaux de la Trésorerie Générale du Royaume (Division du Budget et de la Logistique), Sise à : Rue AI Andaloussia Hay Riad — Rabat",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "28/07/2025",
+ "justification": "Offre la plus avantageuse.",
+ "infructueux": false,
+ "attributaire": "STE OTIS MAROC SAS",
+ "montant_attribue": 3651000.0,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "STE OTIS MAROC SAS",
+   "montant_acte_engagement": 3824400.0,
+   "montant_apres_verification": 3651000.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "STE SCHINDLER MAROC SA",
+   "montant_acte_engagement": 3678000.0,
+   "montant_apres_verification": 3678000.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": true
+  }
+ ],
+ "nombre_soumissionnaires": 2,
+ "alertes_ocr": [],
+ "notes_ocr": [
+  "« STE OTIS MAROC SAS » : montant rectifié de 3 824 400.00 à 3 651 000.00 DH.",
+  "Maître d'ouvrage absent du PV (utiliser l'acheteur public du portail)."
+ ],
+ "qualite": "complet"
+}

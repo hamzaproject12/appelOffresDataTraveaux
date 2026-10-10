@@ -1,0 +1,51 @@
+{
+ "source": "extrait_docx",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "688178",
+ "orgAcronyme": "d4q",
+ "reference_pv": "94/DR4/2022",
+ "nouveau": true,
+ "reference": "94/DR4/2022",
+ "objet": "Equipement d’un nouveau forage au centre de Zaggota - Lot 2 : Equipement",
+ "acheteur": null,
+ "procedure": "appel d'offres ouvert",
+ "categorie": "Travaux",
+ "date_limite_plis": "06/12/2022",
+ "lieu_ouverture": "au Siège de la Direction Régionale de l'Ouest (DR4) Lotissement Al Qods - Kénitra - Maroc",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "03/01/2023",
+ "justification": "Moins-disant",
+ "infructueux": true,
+ "attributaire": null,
+ "montant_attribue": null,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "HYDELEM",
+   "montant_acte_engagement": 692424.0,
+   "montant_apres_verification": 692424.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_dossier_administratif_technique",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "MAROC",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "depose",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 2,
+ "alertes_ocr": [],
+ "notes_ocr": [
+  "Maître d'ouvrage absent du PV (utiliser l'acheteur public du portail)."
+ ],
+ "qualite": "attribution"
+}

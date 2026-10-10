@@ -1,0 +1,63 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "986711",
+ "orgAcronyme": "g3h",
+ "reference_pv": "02/8",
+ "nouveau": true,
+ "reference": "02/8",
+ "objet": "Travaux d'aménagement et de réhabilitations du logement administratif afférent au Caïdat Lamsid à Lamsid",
+ "acheteur": "Province de Boujdour",
+ "procedure": null,
+ "categorie": "Travaux",
+ "date_limite_plis": "17/03/2026",
+ "lieu_ouverture": "ffres ouvert ffres ouvert Salle des réunions d",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": null,
+ "justification": "tributaire: Offre économi uement la plus avantageuse",
+ "infructueux": false,
+ "attributaire": "STE CHEF ISSKANE",
+ "montant_attribue": 863818.8,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "STE CHEF ISSKANE",
+   "montant_acte_engagement": 863818.8,
+   "montant_apres_verification": 863818.8,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "u Secrétariat Général de la Province de Boujdour",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": true
+  },
+  {
+   "nom": "STE ANABDOU",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_dossier_administratif_technique",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 3,
+ "alertes_ocr": [
+  "« STE CHEF ISSKANE » absent de la liste des plis déposés (nom mal lu ?)."
+ ],
+ "notes_ocr": [
+  "« u Secrétariat Général de la Province de Boujdour » absent de la liste des plis déposés (nom mal lu ?).",
+  "« STE ANABDOU » absent de la liste des plis déposés (nom mal lu ?)."
+ ],
+ "qualite": "attribution"
+}

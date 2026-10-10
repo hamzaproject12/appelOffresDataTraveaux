@@ -1,0 +1,117 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "727551",
+ "orgAcronyme": "p8x",
+ "reference_pv": "33/AOO-INV/2023",
+ "nouveau": true,
+ "reference": "33/AOO-INV/2023",
+ "objet": null,
+ "acheteur": "DP AREF DT TINGHIR DP AREF DT TINGHIR",
+ "procedure": "appel d'offres ouvert",
+ "categorie": "Travaux",
+ "date_limite_plis": "07/07/2023",
+ "lieu_ouverture": "Direction Provinciale AREF DT - TINGHIR",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "07/07/2023",
+ "justification": null,
+ "infructueux": false,
+ "attributaire": "STE IKHYAMNE SARL AU",
+ "montant_attribue": 882000.0,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "STE A.2.F TRAVAUX SARL PARTICIPATION PAPIER ri",
+   "montant_acte_engagement": 957699.6,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "STE IKHYAMNE SARL AU",
+   "montant_acte_engagement": 882000.0,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "STET.H.L.A SARL PARTICIPATION PAPIER",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "depose",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "STE AIT MOUNTASSIR SARL AU",
+   "montant_acte_engagement": 920005.2,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_dossier_administratif_technique",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "STE OUVRAGE DEVINRE SARL PARTICIPATION ELECTRONIQUE",
+   "montant_acte_engagement": 1085394.0,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "STE T.H.L.A SARL",
+   "montant_acte_engagement": 838492.8,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "STE LANWAR SARL",
+   "montant_acte_engagement": 886390.8,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "STE GETIM SARL",
+   "montant_acte_engagement": 993074.4,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "STE S.T.Q SARL AU",
+   "montant_acte_engagement": 931486.8,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 9,
+ "alertes_ocr": [
+  "« STE T.H.L.A SARL » absent de la liste des plis déposés (nom mal lu ?).",
+  "« STE LANWAR SARL » absent de la liste des plis déposés (nom mal lu ?).",
+  "« STE GETIM SARL » absent de la liste des plis déposés (nom mal lu ?).",
+  "« STE S.T.Q SARL AU » absent de la liste des plis déposés (nom mal lu ?)."
+ ],
+ "notes_ocr": [],
+ "qualite": "complet"
+}

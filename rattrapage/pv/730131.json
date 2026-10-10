@@ -1,0 +1,92 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "730131",
+ "orgAcronyme": "p8x",
+ "reference_pv": "11/DPRT/2023",
+ "nouveau": true,
+ "reference": "11/DPRT/2023",
+ "objet": "« Travaux D'aménagement De L'é cole MOHAMED BEN SOULAIMANE EL JAZOULI Sis À Youssoufia Relevant De La Direction",
+ "acheteur": "la Direction Provinciale de Rabat",
+ "procedure": "appel d'offres ouvert",
+ "categorie": "Travaux",
+ "date_limite_plis": "10/07/2023",
+ "lieu_ouverture": "les bureaux de la Direction Provinciale de Rabat",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": null,
+ "justification": null,
+ "infructueux": false,
+ "attributaire": "Ste PRIQUADEL Sarl",
+ "montant_attribue": 1998000.0,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "Ste PRIQUADEL Sarl",
+   "montant_acte_engagement": 1998000.0,
+   "montant_apres_verification": null,
+   "autres_montants": [
+    1998000.0
+   ],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Ste MENAMIR Sarl er",
+   "montant_acte_engagement": 2087418.0,
+   "montant_apres_verification": null,
+   "autres_montants": [
+    2087418.0
+   ],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Ste ETAB TRAVAUX Sarl di Pre",
+   "montant_acte_engagement": 2128314.0,
+   "montant_apres_verification": null,
+   "autres_montants": [
+    2128314.0
+   ],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Ste ONSSAR Sarl",
+   "montant_acte_engagement": 2130000.0,
+   "montant_apres_verification": null,
+   "autres_montants": [
+    2130000.0
+   ],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Ste AJIAL CONSTRUCTION Sarl",
+   "montant_acte_engagement": 2454802.8,
+   "montant_apres_verification": null,
+   "autres_montants": [
+    2454802.8
+   ],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 5,
+ "alertes_ocr": [
+  "« Ste PRIQUADEL Sarl » absent de la liste des plis déposés (nom mal lu ?).",
+  "« Ste MENAMIR Sarl er » absent de la liste des plis déposés (nom mal lu ?).",
+  "« Ste ETAB TRAVAUX Sarl di Pre » absent de la liste des plis déposés (nom mal lu ?).",
+  "« Ste ONSSAR Sarl » absent de la liste des plis déposés (nom mal lu ?).",
+  "« Ste AJIAL CONSTRUCTION Sarl » absent de la liste des plis déposés (nom mal lu ?)."
+ ],
+ "notes_ocr": [],
+ "qualite": "complet"
+}

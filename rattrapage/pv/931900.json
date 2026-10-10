@@ -1,0 +1,64 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "931900",
+ "orgAcronyme": "g3h",
+ "reference_pv": "09/PB/DE/INDH/2025",
+ "nouveau": true,
+ "reference": "09/PB/DE/INDH/2025",
+ "objet": "Travaux d'aménagement au",
+ "acheteur": null,
+ "procedure": "appel d'offres ouvert",
+ "categorie": "Travaux",
+ "date_limite_plis": "18/08/2025",
+ "lieu_ouverture": null,
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "18/09/2025",
+ "justification": "offre économiquement la plus avantageuse.",
+ "infructueux": false,
+ "attributaire": "STE SORAYA AFRIQUE.COM SARL AU",
+ "montant_attribue": 214266.0,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "STE SORAYA AFRIQUE.COM SARL AU",
+   "montant_acte_engagement": 214266.0,
+   "montant_apres_verification": 214266.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "STE AYOURAM",
+   "montant_acte_engagement": 223029.6,
+   "montant_apres_verification": 223029.6,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "STE OUILAS",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 3,
+ "alertes_ocr": [
+  "« STE SORAYA AFRIQUE.COM SARL AU » absent de la liste des plis déposés (nom mal lu ?).",
+  "« STE AYOURAM » absent de la liste des plis déposés (nom mal lu ?)."
+ ],
+ "notes_ocr": [
+  "« STE OUILAS » absent de la liste des plis déposés (nom mal lu ?).",
+  "Maître d'ouvrage absent du PV (utiliser l'acheteur public du portail)."
+ ],
+ "qualite": "complet"
+}

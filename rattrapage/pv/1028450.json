@@ -1,0 +1,52 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "1028450",
+ "orgAcronyme": "j8k",
+ "reference_pv": "62/2026",
+ "nouveau": true,
+ "reference": "62/2026",
+ "objet": "TRAVAUX D'ACHÈVEMENT DE L'ASSAINISSEMENT IN-SITE DE LA ZONE D'ACTIVITÉS ARTISANALES D'ARFOUD, SIS À LA COMMUNE TERRITORIALE D'ARFOUD -— PROVINCE D'ERRACHIDIA",
+ "acheteur": "SOCIETE AL OMRANE DRAA-TAFILALET",
+ "procedure": "appel d'offres ouvert",
+ "categorie": "Travaux",
+ "date_limite_plis": "29/07/2026",
+ "lieu_ouverture": "SOCIETE AL OMRANE DRAA-TAFILALET",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": null,
+ "justification": null,
+ "infructueux": true,
+ "attributaire": null,
+ "montant_attribue": null,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "REFORMAN",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_dossier_administratif_technique",
+   "admis_avec_reserve": true
+  },
+  {
+   "nom": "FH VIENNA",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_dossier_administratif_technique",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 2,
+ "alertes_ocr": [],
+ "notes_ocr": [
+  "« REFORMAN » absent de la liste des plis déposés (nom mal lu ?).",
+  "« FH VIENNA » absent de la liste des plis déposés (nom mal lu ?)."
+ ],
+ "qualite": "participants"
+}

@@ -1,0 +1,78 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "926041",
+ "orgAcronyme": "g3h",
+ "reference_pv": "16/BG/2025",
+ "nouveau": true,
+ "reference": "16/BG/2025",
+ "objet": "TRAVAUX D'AMENAGEMENT DES BATIMENTS ADMINISTRATIFS (CAIDATS SAIDATE, AIN TAZITOUNTE, DEMSSIRA, TAOULOUKOULT, CERCLE M'TOUGA) PROVINCE DE CHICHAOUA",
+ "acheteur": null,
+ "procedure": null,
+ "categorie": "Travaux",
+ "date_limite_plis": "18/08/2025",
+ "lieu_ouverture": "SALLE DE REUNION",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "26/08/2025",
+ "justification": "L'Offre la plus avantageuse.",
+ "infructueux": false,
+ "attributaire": "GROUPEMENT ANFIFA TRAVAUX ET SOT ITRANE",
+ "montant_attribue": 1638891.0,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "GROUPEMENT ANFIFA TRAVAUX ET SOT ITRANE",
+   "montant_acte_engagement": 1638891.0,
+   "montant_apres_verification": 1638891.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "STE GODIM",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "ITTAF WORK",
+   "montant_acte_engagement": 1636920.0,
+   "montant_apres_verification": 1636920.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "HASSOUN MUSTAPHA",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_dossier_administratif_technique",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "STE NORTAFRI",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_dossier_administratif_technique",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 5,
+ "alertes_ocr": [],
+ "notes_ocr": [
+  "Maître d'ouvrage absent du PV (utiliser l'acheteur public du portail)."
+ ],
+ "qualite": "complet"
+}

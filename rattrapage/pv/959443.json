@@ -1,0 +1,63 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "959443",
+ "orgAcronyme": "s3z",
+ "reference_pv": "76/25/AREP-RRSK",
+ "nouveau": true,
+ "reference": "76/25/AREP-RRSK",
+ "objet": "« TRAVAUX DE MISE A NIVEAU (VOIRIE, ASSAINISSEMENT, ECLAIRAGE PUBLIC ET AMÉNAGEMENT URBAIN) DU CENTRE DE LA COMMUNE DAR BELAMRI, PROVINCE DE SIDI SLIMANE - LOT UNIQUE - »",
+ "acheteur": "Agence Régionale d’Exécution des projets de la Région de Rabat- Salé Kénitra 7",
+ "procedure": "appel d'offres ouvert international",
+ "categorie": "Travaux",
+ "date_limite_plis": "16/10/2025",
+ "lieu_ouverture": "Bureaux de l’Agence Régionale d’'Exécution des Projets de la Région de Rabat Salé Kenitra, sis 50, avenue Moulay Ismail, Hassan-Rabat",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "02/12/2025",
+ "justification": "Offre économiquement la plus avantageuse. / A2",
+ "infructueux": false,
+ "attributaire": "STE SOGORET SARL AU / UECLAIRAGE SARLAU",
+ "montant_attribue": 33389599.08,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "ALLIANCE CEI S.A.R.L / SORTRAC SARL",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_offre_technique",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "STE SOGORET SARL AU / UECLAIRAGE SARLAU",
+   "montant_acte_engagement": 33389599.08,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Ste INGTELMA Sarl / STE TIRA TRAVAUX SARL",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_dossier_administratif_technique",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 3,
+ "alertes_ocr": [
+  "« STE SOGORET SARL AU / UECLAIRAGE SARLAU » absent de la liste des plis déposés (nom mal lu ?)."
+ ],
+ "notes_ocr": [
+  "« ALLIANCE CEI S.A.R.L / SORTRAC SARL » absent de la liste des plis déposés (nom mal lu ?).",
+  "« Ste INGTELMA Sarl / STE TIRA TRAVAUX SARL » absent de la liste des plis déposés (nom mal lu ?)."
+ ],
+ "qualite": "attribution"
+}

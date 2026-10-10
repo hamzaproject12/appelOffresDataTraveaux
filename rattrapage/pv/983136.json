@@ -1,0 +1,55 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "983136",
+ "orgAcronyme": "d4q",
+ "reference_pv": "27/DAM/ET/2025",
+ "nouveau": true,
+ "reference": "27/DAM/ET/2025",
+ "objet": "Laâäyoune (Alloti) Lot n°1- Prise Directe et prétraitement de la nouvelle unité",
+ "acheteur": null,
+ "procedure": "appel d'offres ouvert",
+ "categorie": "Travaux",
+ "date_limite_plis": "26/11/2025",
+ "lieu_ouverture": "à la Salle d'ouverture de l'Immeuble G - Avenue Mohamed Belhassan El Ouazzani - Rabat",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "09/03/2026",
+ "justification": "Moins-disant",
+ "infructueux": false,
+ "attributaire": "GROUP SOMAGEC/ WMATEC - Offre Variante",
+ "montant_attribue": 720493548.0,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "GROUP SOMAGEC/ WATEC MAROC - MAROC",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "depose",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "GROUP SOMAGEC/ WMATEC - Offre Variante",
+   "montant_acte_engagement": 720493548.0,
+   "montant_apres_verification": null,
+   "autres_montants": [
+    720493548.0
+   ],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 2,
+ "alertes_ocr": [
+  "« GROUP SOMAGEC/ WMATEC - Offre Variante » absent de la liste des plis déposés (nom mal lu ?)."
+ ],
+ "notes_ocr": [
+  "Maître d'ouvrage absent du PV (utiliser l'acheteur public du portail)."
+ ],
+ "qualite": "attribution"
+}

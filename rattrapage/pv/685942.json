@@ -1,0 +1,131 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "685942",
+ "orgAcronyme": "z7x",
+ "reference_pv": "53/FMPM/2022",
+ "nouveau": true,
+ "reference": "53/FMPM/2022",
+ "objet": null,
+ "acheteur": "e FMPM",
+ "procedure": "appel d'offres ouvert",
+ "categorie": "Travaux",
+ "date_limite_plis": "14/12/2022",
+ "lieu_ouverture": "+ Salle des réunions de la présidence de l'UCA",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "16/12/2022",
+ "justification": null,
+ "infructueux": false,
+ "attributaire": null,
+ "montant_attribue": null,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "Société SNTT",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "depose",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Société ECO BOIS",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "depose",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Société TAHA AGENCEMENT",
+   "montant_acte_engagement": 877812.0,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Société SGCM",
+   "montant_acte_engagement": 918510.0,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Société NEXPRO",
+   "montant_acte_engagement": 972396.0,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Société IMA WORK",
+   "montant_acte_engagement": 1036680.0,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Société BMHD TRAVAUX",
+   "montant_acte_engagement": 994980.0,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Société ENAKOJE DE CONSTRUCTION",
+   "montant_acte_engagement": 898608.0,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Société ELEVER TRAVAUX",
+   "montant_acte_engagement": 856296.0,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Société BTP CONTACT",
+   "montant_acte_engagement": 907560.0,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 10,
+ "alertes_ocr": [
+  "« Société TAHA AGENCEMENT » absent de la liste des plis déposés (nom mal lu ?).",
+  "« Société SGCM » absent de la liste des plis déposés (nom mal lu ?).",
+  "« Société NEXPRO » absent de la liste des plis déposés (nom mal lu ?).",
+  "« Société IMA WORK » absent de la liste des plis déposés (nom mal lu ?).",
+  "« Société BMHD TRAVAUX » absent de la liste des plis déposés (nom mal lu ?).",
+  "« Société ENAKOJE DE CONSTRUCTION » absent de la liste des plis déposés (nom mal lu ?).",
+  "« Société ELEVER TRAVAUX » absent de la liste des plis déposés (nom mal lu ?).",
+  "« Société BTP CONTACT » absent de la liste des plis déposés (nom mal lu ?).",
+  "Attributaire non trouvé."
+ ],
+ "notes_ocr": [],
+ "qualite": "complet"
+}

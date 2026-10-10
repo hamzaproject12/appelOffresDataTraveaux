@@ -1,0 +1,62 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "899406",
+ "orgAcronyme": "p1v",
+ "reference_pv": null,
+ "nouveau": true,
+ "reference": null,
+ "objet": "TRAVAUX D'AMENAGEMENT DES ESPACES DE LA ZONE DU MOUSSEM 2025 A LA COMMUNE DE MOULAY ABDELLAH - PROVINCE D’EL JADIDPROVINCE D’EL JADIDA EN LOT UNIQUE",
+ "acheteur": "C/ Moulay Abdellah",
+ "procedure": null,
+ "categorie": "Travaux",
+ "date_limite_plis": "21/05/2025",
+ "lieu_ouverture": "Bureau de Mr le Président de la C/ Moulay Abdellah",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": null,
+ "justification": "regard du prix de référence à l’administration le 22/05/2025.",
+ "infructueux": false,
+ "attributaire": "Sté AZIB DE TRAVAUX DIVERS SARL AU",
+ "montant_attribue": 1539228.0,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "Sté CORDOBA BINAE",
+   "montant_acte_engagement": 1576356.0,
+   "montant_apres_verification": 1576356.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Sté AZIB DE TRAVAUX DIVERS SARL AU",
+   "montant_acte_engagement": 1539228.0,
+   "montant_apres_verification": 1539228.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Sté SABRANI BAT",
+   "montant_acte_engagement": 1546620.0,
+   "montant_apres_verification": 1546620.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 3,
+ "alertes_ocr": [
+  "« Sté CORDOBA BINAE » absent de la liste des plis déposés (nom mal lu ?).",
+  "« Sté AZIB DE TRAVAUX DIVERS SARL AU » absent de la liste des plis déposés (nom mal lu ?).",
+  "« Sté SABRANI BAT » absent de la liste des plis déposés (nom mal lu ?)."
+ ],
+ "notes_ocr": [],
+ "qualite": "complet"
+}

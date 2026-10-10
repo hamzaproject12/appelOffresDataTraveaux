@@ -1,0 +1,104 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "717450",
+ "orgAcronyme": "a1z",
+ "reference_pv": "11/2022/AHM",
+ "nouveau": true,
+ "reference": "11/2022/AHM",
+ "objet": null,
+ "acheteur": "Le président de l’arrondissement Hay Mohammadi",
+ "procedure": "appel d'offres ouvert",
+ "categorie": "Travaux",
+ "date_limite_plis": "22/12/2022",
+ "lieu_ouverture": null,
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "29/12/2022",
+ "justification": "Son offre est la plus avantageuse",
+ "infructueux": false,
+ "attributaire": null,
+ "montant_attribue": null,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "SOCIETE JARDINAGE TRADITIONNEL SARL",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "SOCIETE DAHA VERTE SARL",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "SOCIETE VUETRAV SARL",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Un pli déposé par voie électronique SOCIETE VIE VERTE SARL AU",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "SOCIETE VIE VERTE SARL AU 1. 102. 116 00 1.102. 116, 00",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": true
+  },
+  {
+   "nom": "SOCIETE REKTAL TRAV",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_dossier_administratif_technique",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "SOCIETE AIT HSAINE SERVICE",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_dossier_administratif_technique",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 7,
+ "alertes_ocr": [
+  "Attributaire non trouvé."
+ ],
+ "notes_ocr": [
+  "« SOCIETE JARDINAGE TRADITIONNEL SARL » absent de la liste des plis déposés (nom mal lu ?).",
+  "« SOCIETE DAHA VERTE SARL » absent de la liste des plis déposés (nom mal lu ?).",
+  "« SOCIETE VUETRAV SARL » absent de la liste des plis déposés (nom mal lu ?).",
+  "« Un pli déposé par voie électronique SOCIETE VIE VERTE SARL AU » absent de la liste des plis déposés (nom mal lu ?).",
+  "« SOCIETE VIE VERTE SARL AU 1. 102. 116 00 1.102. 116, 00 » absent de la liste des plis déposés (nom mal lu ?).",
+  "« SOCIETE REKTAL TRAV » absent de la liste des plis déposés (nom mal lu ?).",
+  "« SOCIETE AIT HSAINE SERVICE » absent de la liste des plis déposés (nom mal lu ?)."
+ ],
+ "qualite": "participants"
+}

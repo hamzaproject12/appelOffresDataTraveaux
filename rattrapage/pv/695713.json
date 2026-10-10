@@ -1,0 +1,52 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "695713",
+ "orgAcronyme": "g8e",
+ "reference_pv": null,
+ "nouveau": true,
+ "reference": null,
+ "objet": "TRAVAUX D'AMENAGEMENT DES TROTTOIRS DANS LA VILLE DE RABAT-TRANCHE 11",
+ "acheteur": null,
+ "procedure": null,
+ "categorie": "Travaux",
+ "date_limite_plis": "09/02/2023",
+ "lieu_ouverture": "Bureau de la Société Rabat Région Aménagement au 9, Place Al Joulane — Rabat",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "21/02/2023",
+ "justification": "Offre conforme aux exigences du Règlement de la consultation et moins disante",
+ "infructueux": false,
+ "attributaire": "STE BENNANI HAFID",
+ "montant_attribue": 9677277.6,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "ETS CHTOUN",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_offre_technique",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "STE BENNANI HAFID",
+   "montant_acte_engagement": 9677285.0,
+   "montant_apres_verification": 9677277.6,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 2,
+ "alertes_ocr": [],
+ "notes_ocr": [
+  "« STE BENNANI HAFID » : montant rectifié de 9 677 285.00 à 9 677 277.60 DH.",
+  "Maître d'ouvrage absent du PV (utiliser l'acheteur public du portail)."
+ ],
+ "qualite": "attribution"
+}

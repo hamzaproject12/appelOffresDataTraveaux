@@ -1,0 +1,67 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "1035900",
+ "orgAcronyme": "g3h",
+ "reference_pv": "28/AO/BOURGREG/2026",
+ "nouveau": true,
+ "reference": "28/AO/BOURGREG/2026",
+ "objet": "Travaux de fourniture et pose de palissades des zones des projets d'aménagement de la séquence 2 de la vallée du Bouregreg",
+ "acheteur": "Agence pour l'Aménagement de la Valée du Bouregreg",
+ "procedure": "appel d'offres ouvert",
+ "categorie": "Travaux",
+ "date_limite_plis": "19/08/2026",
+ "lieu_ouverture": "Bureaux de l’Agence sis avenue Prince Héritier Sidi Mohamed à Salé",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "02/09/2026",
+ "justification": "Le moins disant",
+ "infructueux": false,
+ "attributaire": "Société SLAH TRAVAUX DIVERS",
+ "montant_attribue": 4956000.0,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "Société CONFORAMA",
+   "montant_acte_engagement": 5767200.0,
+   "montant_apres_verification": 5767200.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Société WINARUS ING",
+   "montant_acte_engagement": 6204000.0,
+   "montant_apres_verification": 6204000.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Société SLAH TRAVAUX DIVERS",
+   "montant_acte_engagement": 4956000.0,
+   "montant_apres_verification": 4956000.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Société JET MODULAIRE",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_offre_technique",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 4,
+ "alertes_ocr": [],
+ "notes_ocr": [],
+ "qualite": "complet"
+}

@@ -1,0 +1,60 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "934832",
+ "orgAcronyme": "q1s",
+ "reference_pv": "62/2025/SOREC",
+ "nouveau": true,
+ "reference": "62/2025/SOREC",
+ "objet": "Achèvement des travaux d'aménagement d’un guichet unique au haras de Bouznika",
+ "acheteur": null,
+ "procedure": null,
+ "categorie": "Travaux",
+ "date_limite_plis": "28/07/2025",
+ "lieu_ouverture": "Bureaux du siège de la Société Royale d’Encouragement du Cheval (SOREC) sise à ZENITH RABAT — Angle Rocade de Rabat et rue Ait Malek",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "06/08/2025",
+ "justification": "le concurrent ayant présenté l’offre la mieux disante.",
+ "infructueux": false,
+ "attributaire": "SOCIETE AKRAM-ANOUAR BATIMENTS ET TRAVAUX PUBLICS",
+ "montant_attribue": 259632.0,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "SOCIETE AKRAM-ANOUAR BATIMENTS ET TRAVAUX PUBLICS",
+   "montant_acte_engagement": 259632.0,
+   "montant_apres_verification": 259632.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "STE MOVANYAZ",
+   "montant_acte_engagement": 256962.0,
+   "montant_apres_verification": 256962.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "STE MIEUX DISANT",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_dossier_administratif_technique",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 3,
+ "alertes_ocr": [],
+ "notes_ocr": [
+  "Maître d'ouvrage absent du PV (utiliser l'acheteur public du portail)."
+ ],
+ "qualite": "complet"
+}

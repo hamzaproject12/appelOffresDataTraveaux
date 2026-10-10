@@ -1,0 +1,54 @@
+{
+ "source": "extrait_docx",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "795683",
+ "orgAcronyme": "j8k",
+ "reference_pv": null,
+ "nouveau": true,
+ "reference": null,
+ "objet": "La Réalisation des travaux de construction du Grand théâtre d’Agadir Lot : Ascenseurs/ Monte Charges, Commune Territoriale d’Agadir, Préfecture Agadir Ida-Outanane",
+ "acheteur": null,
+ "procedure": "appel d'offres ouvert",
+ "categorie": "Travaux",
+ "date_limite_plis": "09/05/2024",
+ "lieu_ouverture": "Division des Marchés de la Société Al Omrane Souss Massa",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "14/05/2024",
+ "justification": "Concurrent représentant l’offre la plus avantageuse.",
+ "infructueux": false,
+ "attributaire": "SCHINDLER MAROC",
+ "montant_attribue": 3780000.0,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "OTIS MAROC",
+   "montant_acte_engagement": 3945600.0,
+   "montant_apres_verification": 3945600.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "SCHINDLER MAROC",
+   "montant_acte_engagement": 3780000.0,
+   "montant_apres_verification": 3780000.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 2,
+ "alertes_ocr": [
+  "« OTIS MAROC » absent de la liste des plis déposés (nom mal lu ?).",
+  "« SCHINDLER MAROC » absent de la liste des plis déposés (nom mal lu ?)."
+ ],
+ "notes_ocr": [
+  "Maître d'ouvrage absent du PV (utiliser l'acheteur public du portail)."
+ ],
+ "qualite": "complet"
+}

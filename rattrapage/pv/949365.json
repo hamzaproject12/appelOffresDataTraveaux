@@ -1,0 +1,51 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "949365",
+ "orgAcronyme": "l1f",
+ "reference_pv": "04/2025/CL",
+ "nouveau": true,
+ "reference": "04/2025/CL",
+ "objet": "Travaux d'entretien d'installations sportives à la ville de Larache",
+ "acheteur": "le président de la commune de Larache 7",
+ "procedure": "appel d'offres ouvert national",
+ "categorie": "Travaux",
+ "date_limite_plis": null,
+ "lieu_ouverture": "bureau de monsieur le président de la commune",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "07/05/2025",
+ "justification": "offre économiquement avantageuse",
+ "infructueux": false,
+ "attributaire": "Société CONSAMECO SARL AU/Casablanca",
+ "montant_attribue": null,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "Société FOUGI ORG SARL /Tanger",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "depose",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Société CONSAMECO SARL AU/Casablanca",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 2,
+ "alertes_ocr": [
+  "Montant de l'attributaire « Société CONSAMECO SARL AU/Casablanca » non trouvé."
+ ],
+ "notes_ocr": [],
+ "qualite": "participants"
+}

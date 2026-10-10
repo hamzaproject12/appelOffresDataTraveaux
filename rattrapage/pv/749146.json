@@ -1,0 +1,53 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "749146",
+ "orgAcronyme": "o8p",
+ "reference_pv": "41/2023/TAO",
+ "nouveau": true,
+ "reference": "41/2023/TAO",
+ "objet": "Travaux de réparation des ouvrages d’art aux PK 42+500 de la RR 510 et PK 56+400 de la RR 419, Dépendant de la DPETL de Taounate",
+ "acheteur": null,
+ "procedure": "appel d'offres ouvert",
+ "categorie": "Travaux",
+ "date_limite_plis": "18/09/2023",
+ "lieu_ouverture": "la salle de réunion à la Direction Provinciale de l’Equipement, du Transport et de la Logistique de Taounate, Bd Mohamed V Taounate Centre",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "23/10/2023",
+ "justification": "Rempli les conditions demandées par le dossier d’appel d’offre.",
+ "infructueux": false,
+ "attributaire": null,
+ "montant_attribue": null,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "STE SNTRO -MARRAKECH",
+   "montant_acte_engagement": 3875501.4,
+   "montant_apres_verification": 3875501.4,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "GROUPEMENT : STE ATLAS HANDASSA -MEKNES & STE KARMO-TRAV -MEKNES",
+   "montant_acte_engagement": 3541479.18,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_offre_financiere",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 2,
+ "alertes_ocr": [
+  "Attributaire non trouvé."
+ ],
+ "notes_ocr": [
+  "Maître d'ouvrage absent du PV (utiliser l'acheteur public du portail)."
+ ],
+ "qualite": "complet"
+}

@@ -1,0 +1,103 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "787811",
+ "orgAcronyme": "d0q",
+ "reference_pv": null,
+ "nouveau": true,
+ "reference": null,
+ "objet": "Construction de la Route Reliant Centre Taddart À Douar Séguia",
+ "acheteur": "COMMUNE TADDART #",
+ "procedure": null,
+ "categorie": "Travaux",
+ "date_limite_plis": null,
+ "lieu_ouverture": "journaux ayant publie l'avis de publicité",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "05/04/2024",
+ "justification": "le concurrent ayant présenté l'offre économiquement la plus avantageuse",
+ "infructueux": false,
+ "attributaire": "Sté aicouni TP sar",
+ "montant_attribue": 5413228.0,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "SOCIETE MOHAALI TRAV SARL",
+   "montant_acte_engagement": 606900.0,
+   "montant_apres_verification": 606900.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_offre_financiere",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "STE AMAZI DAR SARL AU",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_offre_financiere",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "SOCIETE SOUHRAKAB SARL AU",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_offre_financiere",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "STE SHAF TRAVAUX SARL-AU",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_offre_financiere",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Ste AIDOUNI TP SARL AU",
+   "montant_acte_engagement": 543228.0,
+   "montant_apres_verification": 543228.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_offre_financiere",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "YAAKOUB ISTITMAR SARL",
+   "montant_acte_engagement": 541536.0,
+   "montant_apres_verification": 541536.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_offre_financiere",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Sté aicouni TP sar",
+   "montant_acte_engagement": 5413228.0,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 7,
+ "alertes_ocr": [
+  "« SOCIETE MOHAALI TRAV SARL » absent de la liste des plis déposés (nom mal lu ?).",
+  "« Ste AIDOUNI TP SARL AU » absent de la liste des plis déposés (nom mal lu ?).",
+  "« YAAKOUB ISTITMAR SARL » absent de la liste des plis déposés (nom mal lu ?).",
+  "« Sté aicouni TP sar » absent de la liste des plis déposés (nom mal lu ?)."
+ ],
+ "notes_ocr": [
+  "« STE AMAZI DAR SARL AU » absent de la liste des plis déposés (nom mal lu ?).",
+  "« SOCIETE SOUHRAKAB SARL AU » absent de la liste des plis déposés (nom mal lu ?).",
+  "« STE SHAF TRAVAUX SARL-AU » absent de la liste des plis déposés (nom mal lu ?)."
+ ],
+ "qualite": "complet"
+}

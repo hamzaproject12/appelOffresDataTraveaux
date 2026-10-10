@@ -1,0 +1,63 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "683919",
+ "orgAcronyme": "q1s",
+ "reference_pv": "29/2022/DGRHF",
+ "nouveau": true,
+ "reference": "29/2022/DGRHF",
+ "objet": "« L'acquisition, l'installation et la mise en service des équipements et",
+ "acheteur": null,
+ "procedure": "appel d'offres ouvert",
+ "categorie": "Travaux",
+ "date_limite_plis": "07/12/2022",
+ "lieu_ouverture": "la salle de réunion du siège de l'INRA, Avenue de la Victoire à Rabat",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "12/12/2022",
+ "justification": "l'offre la plus avantageuse.",
+ "infructueux": false,
+ "attributaire": "SETRAGEN",
+ "montant_attribue": 595320.0,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "MEDIS PREMIUM",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_offre_technique",
+   "admis_avec_reserve": true
+  },
+  {
+   "nom": "SETRAGEN",
+   "montant_acte_engagement": 1595320.0,
+   "montant_apres_verification": 595320.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": true
+  },
+  {
+   "nom": "VIDEO SYS",
+   "montant_acte_engagement": 605760.0,
+   "montant_apres_verification": 605760.0,
+   "autres_montants": [
+    605760.0
+   ],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": true
+  }
+ ],
+ "nombre_soumissionnaires": 3,
+ "alertes_ocr": [],
+ "notes_ocr": [
+  "« SETRAGEN » : montant rectifié de 1 595 320.00 à 595 320.00 DH.",
+  "Maître d'ouvrage absent du PV (utiliser l'acheteur public du portail)."
+ ],
+ "qualite": "complet"
+}

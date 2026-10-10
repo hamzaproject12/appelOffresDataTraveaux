@@ -1,0 +1,60 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "941049",
+ "orgAcronyme": "o8p",
+ "reference_pv": "39/DPCR-ANP/2025",
+ "nouveau": true,
+ "reference": "39/DPCR-ANP/2025",
+ "objet": "Travaux d’entretien et de maintenance des équipements de climatisation et des systèmes d'extraction d’air de la DPCR au port de Casablanca",
+ "acheteur": "AGENCE NATIONALE DES PORTS, DIRECTION DU PORT DE CASABLANCA ET REGION",
+ "procedure": "appel d'offres ouvert simplifié",
+ "categorie": "Travaux",
+ "date_limite_plis": "09/09/2025",
+ "lieu_ouverture": "DIRECTION DU PORT DE CASABLANCA ET REGION",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "15/10/2025",
+ "justification": null,
+ "infructueux": false,
+ "attributaire": "BAUENER",
+ "montant_attribue": 348300.0,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "BTP SKILLS, GLOBAL BUILDERS, JADMAR",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "depose",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "TRAVAUX, FACILITY PROPERTY MANAGEMENT, CLIMATHERM, BAUENER et C.F.D.C.P",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "depose",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "BAUENER",
+   "montant_acte_engagement": 348300.0,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 3,
+ "alertes_ocr": [
+  "« BAUENER » absent de la liste des plis déposés (nom mal lu ?)."
+ ],
+ "notes_ocr": [],
+ "qualite": "attribution"
+}

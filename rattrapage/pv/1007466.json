@@ -1,0 +1,110 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "1007466",
+ "orgAcronyme": "l1f",
+ "reference_pv": null,
+ "nouveau": true,
+ "reference": null,
+ "objet": null,
+ "acheteur": null,
+ "procedure": null,
+ "categorie": "Travaux",
+ "date_limite_plis": null,
+ "lieu_ouverture": "des piis : Commune ae Maloussa Salle de réur'or!",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": null,
+ "justification": null,
+ "infructueux": false,
+ "attributaire": "Sté LES VOIR IES DE L'AVENIR",
+ "montant_attribue": 5754375.6,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "Sté LES VOIR IES DE L'AVENIR",
+   "montant_acte_engagement": 5754375.6,
+   "montant_apres_verification": null,
+   "autres_montants": [
+    754375.6
+   ],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Sté EMACOTRA VRD",
+   "montant_acte_engagement": 5965600.8,
+   "montant_apres_verification": null,
+   "autres_montants": [
+    96600.8
+   ],
+   "lots": [],
+   "statut": "ecarte_dossier_administratif_technique",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Sté AWRACHEL-BOUGHAZ",
+   "montant_acte_engagement": 5739294.0,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_dossier_administratif_technique",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Sté SARABIA TRAVAUX ET NEGOCE",
+   "montant_acte_engagement": 5730046.2,
+   "montant_apres_verification": null,
+   "autres_montants": [
+    1046.2
+   ],
+   "lots": [],
+   "statut": "ecarte_dossier_administratif_technique",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "oO DO 6",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_dossier_administratif_technique",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "En En On",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_dossier_administratif_technique",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "CDN (DA (FD CD",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_dossier_administratif_technique",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 7,
+ "alertes_ocr": [
+  "« Sté LES VOIR IES DE L'AVENIR » absent de la liste des plis déposés (nom mal lu ?).",
+  "« Sté EMACOTRA VRD » absent de la liste des plis déposés (nom mal lu ?).",
+  "« Sté AWRACHEL-BOUGHAZ » absent de la liste des plis déposés (nom mal lu ?).",
+  "« Sté SARABIA TRAVAUX ET NEGOCE » absent de la liste des plis déposés (nom mal lu ?)."
+ ],
+ "notes_ocr": [
+  "« oO DO 6 » absent de la liste des plis déposés (nom mal lu ?).",
+  "« En En On » absent de la liste des plis déposés (nom mal lu ?).",
+  "« CDN (DA (FD CD » absent de la liste des plis déposés (nom mal lu ?).",
+  "Maître d'ouvrage absent du PV (utiliser l'acheteur public du portail)."
+ ],
+ "qualite": "complet"
+}

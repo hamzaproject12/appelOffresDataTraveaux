@@ -1,0 +1,65 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "734209",
+ "orgAcronyme": "g3h",
+ "reference_pv": "21/2023",
+ "nouveau": true,
+ "reference": "21/2023",
+ "objet": "Travaux d'installation des bornes incendie au Ministère de l'Intérieur à Rabat (lot unique)",
+ "acheteur": "Ministère de l'Intérieur",
+ "procedure": "appel d'offres ouvert",
+ "categorie": "Travaux",
+ "date_limite_plis": "26/07/2023",
+ "lieu_ouverture": "la Direction des Affaires Administratives (Division des Marchés du Ministère de l'Intérieur)",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "04/08/2023",
+ "justification": "l’offre jugée la moins disante ;",
+ "infructueux": false,
+ "attributaire": "Sté GEST ACTIF SARL AU",
+ "montant_attribue": 790800.0,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "L - Sté. VALMECA MAROC SARL",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "depose",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Sté. FACILITY PROPERTY MANAGEMENT",
+   "montant_acte_engagement": 882000.0,
+   "montant_apres_verification": null,
+   "autres_montants": [
+    882000.0
+   ],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Sté GEST ACTIF SARL AU",
+   "montant_acte_engagement": 790800.0,
+   "montant_apres_verification": null,
+   "autres_montants": [
+    790800.0
+   ],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 3,
+ "alertes_ocr": [
+  "« Sté. FACILITY PROPERTY MANAGEMENT » absent de la liste des plis déposés (nom mal lu ?).",
+  "« Sté GEST ACTIF SARL AU » absent de la liste des plis déposés (nom mal lu ?)."
+ ],
+ "notes_ocr": [],
+ "qualite": "complet"
+}

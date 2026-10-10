@@ -1,0 +1,112 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "1020749",
+ "orgAcronyme": "j0w",
+ "reference_pv": "07/2026/BP",
+ "nouveau": true,
+ "reference": "07/2026/BP",
+ "objet": "TRAVAUX D'AMÉNAGEMENT DES CENTRES SOUR ELAZ, OULED KHALLOUF ET OUARGUI À LA PROVINCE D’EL KELAA SRAGHNA",
+ "acheteur": null,
+ "procedure": "appel d'offres ouvert",
+ "categorie": "Travaux",
+ "date_limite_plis": "25/06/2026",
+ "lieu_ouverture": "le bureau des réunions du conseil provincial au 2 éme étage de la province El Kelâa des Sraghna",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "25/06/2026",
+ "justification": "Offre la plus avantageuse",
+ "infructueux": false,
+ "attributaire": "NEWERACOM et STE MENARA VAC",
+ "montant_attribue": 7674571.86,
+ "attributaires_par_lot": [
+  {
+   "lot": null,
+   "attributaire": "NEWERACOM et STE MENARA VAC",
+   "montant": 7674571.86
+  },
+  {
+   "lot": null,
+   "attributaire": "VAC TRAV et STE PROPISTE SARL",
+   "montant": null
+  }
+ ],
+ "soumissionnaires": [
+  {
+   "nom": "GROUPEMENT ENTRE STE GLOBAL UNION WORKS GUW SARL et SOCIETE",
+   "montant_acte_engagement": 9033792.14,
+   "montant_apres_verification": 9033792.14,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "AFRICAINE DES SOLUTIONS DURABLES SARL",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "GROUPEMENT ENTRE STE ANETRA S.A.R.L et STE SROU CARRIERE SARL",
+   "montant_acte_engagement": 8136016.36,
+   "montant_apres_verification": 8196856.37,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "NEWERACOM et STE MENARA VAC",
+   "montant_acte_engagement": 7674571.86,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "VAC TRAV et STE PROPISTE SARL",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "STE SJ2T SARL",
+   "montant_acte_engagement": 8211220.44,
+   "montant_apres_verification": 8324620.44,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "GROUPEMENT ENTRE STE",
+   "montant_acte_engagement": 7793371.86,
+   "montant_apres_verification": 7793371.86,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 7,
+ "alertes_ocr": [
+  "« GROUPEMENT ENTRE STE » absent de la liste des plis déposés (nom mal lu ?).",
+  "Montant de l'attributaire « VAC TRAV et STE PROPISTE SARL » non trouvé."
+ ],
+ "notes_ocr": [
+  "« GROUPEMENT ENTRE STE ANETRA S.A.R.L et STE SROU CARRIERE SARL » : montant rectifié de 8 136 016.36 à 8 196 856.37 DH.",
+  "« STE SJ2T SARL » : montant rectifié de 8 211 220.44 à 8 324 620.44 DH.",
+  "Maître d'ouvrage absent du PV (utiliser l'acheteur public du portail)."
+ ],
+ "qualite": "complet"
+}

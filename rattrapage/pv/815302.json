@@ -1,0 +1,55 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "815302",
+ "orgAcronyme": "o8p",
+ "reference_pv": "13/AOO/DPJR-ANP/2024",
+ "nouveau": true,
+ "reference": "13/AOO/DPJR-ANP/2024",
+ "objet": null,
+ "acheteur": "Direction du Port de Jorf Lasfar et Région",
+ "procedure": "appel d'offres ouvert",
+ "categorie": "Travaux",
+ "date_limite_plis": "25/06/2024",
+ "lieu_ouverture": "Direction du Port de Jorf Lasfar et Région",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "16/07/2024",
+ "justification": "e VIV AQUA a présenté la meilleure offre conforme",
+ "infructueux": false,
+ "attributaire": "VIV AQUA",
+ "montant_attribue": 942000.0,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "VIV AQUA",
+   "montant_acte_engagement": 942000.0,
+   "montant_apres_verification": null,
+   "autres_montants": [
+    942000.0
+   ],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "LES GRANDS ATELIERS DE MAINTENANCE",
+   "montant_acte_engagement": 962455.0,
+   "montant_apres_verification": null,
+   "autres_montants": [
+    962455.0
+   ],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 2,
+ "alertes_ocr": [],
+ "notes_ocr": [
+  "Montants exprimés hors taxes (HT)."
+ ],
+ "qualite": "complet"
+}

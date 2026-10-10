@@ -1,0 +1,143 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "676322",
+ "orgAcronyme": "o8p",
+ "reference_pv": "30/A00/DRPJ/ANP/2022",
+ "nouveau": true,
+ "reference": "30/A00/DRPJ/ANP/2022",
+ "objet": "TRAVAUX DE PROLONGEMENT DU COLLECTEUR D'ASSAINISSEMENT DES EAUX PLUVIALES DE L'ACES SUD AU PORT DE JORF LASFAR",
+ "acheteur": "Direction Régionale des ports d'El Jadida /Port de Jorf Lasfar",
+ "procedure": null,
+ "categorie": "Travaux",
+ "date_limite_plis": "27/10/2022",
+ "lieu_ouverture": "Direction Régionale des Ports d'El Jadida/Port de Jorf Lasfar, sise à Km 22 route d'Oualidia jorf Lasfar-El Jadida",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": null,
+ "justification": null,
+ "infructueux": false,
+ "attributaire": "ESPACE MENARA",
+ "montant_attribue": 1168000.0,
+ "attributaires_par_lot": [
+  {
+   "lot": null,
+   "attributaire": "ESPACE MENARA",
+   "montant": 1168000.0
+  },
+  {
+   "lot": null,
+   "attributaire": "AF-LIN VARIOUS CONSTRUCTION",
+   "montant": 1075000.0
+  },
+  {
+   "lot": null,
+   "attributaire": "GRAND MATERIEL ET AMENAGEMENT URBAIN(GMAU)",
+   "montant": 1050000.0
+  },
+  {
+   "lot": null,
+   "attributaire": "HUIT CENT CINQ CENT HORS TAXES",
+   "montant": 817500.0
+  }
+ ],
+ "soumissionnaires": [
+  {
+   "nom": "ESPACE MENARA",
+   "montant_acte_engagement": 1168000.0,
+   "montant_apres_verification": null,
+   "autres_montants": [
+    1168000.0
+   ],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "AF-LIN VARIOUS CONSTRUCTION",
+   "montant_acte_engagement": 1075000.0,
+   "montant_apres_verification": null,
+   "autres_montants": [
+    1075000.0
+   ],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "CONSTRUCTION MONDIAL BTP VIV AQUA MATITRAVE MEDVIA",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "depose",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "GREEN ROAD TOUT PUISSANT DE",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "depose",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "COMPANY (GRC) FOLRIBEN TRAVAUX PUBLICS GRAFSEC PRONTE",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "depose",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "GRAND MATERIEL ET AMENAGEMENT URBAIN(GMAU)",
+   "montant_acte_engagement": 1050000.0,
+   "montant_apres_verification": null,
+   "autres_montants": [
+    1050000.0
+   ],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "UGCF NOURSSINE ESSAFFAF ESTRAV AMENAGEMENT",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "depose",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "URBAIN(GMAU)",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "depose",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "HUIT CENT CINQ CENT HORS TAXES",
+   "montant_acte_engagement": 817500.0,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 9,
+ "alertes_ocr": [
+  "« HUIT CENT CINQ CENT HORS TAXES » absent de la liste des plis déposés (nom mal lu ?)."
+ ],
+ "notes_ocr": [
+  "Montants exprimés hors taxes (HT)."
+ ],
+ "qualite": "attribution"
+}

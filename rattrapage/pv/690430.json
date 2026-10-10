@@ -1,0 +1,87 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "690430",
+ "orgAcronyme": "g3h",
+ "reference_pv": "10/DAT/2022",
+ "nouveau": true,
+ "reference": "10/DAT/2022",
+ "objet": "Travaux de construction de l’annexe administrative Moulay Rachid lot unique sis à la Préfecture des Arrondissements Moulay Rachid",
+ "acheteur": null,
+ "procedure": "appel d'offres ouvert",
+ "categorie": "Travaux",
+ "date_limite_plis": "03/01/2023",
+ "lieu_ouverture": "Secrétariat Général Annexe",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "17/01/2023",
+ "justification": "La plus avantageuse",
+ "infructueux": false,
+ "attributaire": "TRAVAUX OMS",
+ "montant_attribue": 3830195.28,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "SOCIETE GRANDS TRAVAUX BATIMENTS ET ROUTES SARL",
+   "montant_acte_engagement": 3936000.0,
+   "montant_apres_verification": 3936000.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_offre_financiere",
+   "admis_avec_reserve": true
+  },
+  {
+   "nom": "ETUCO SARLAU",
+   "montant_acte_engagement": 3999409.2,
+   "montant_apres_verification": 3999409.2,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_offre_financiere",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "FOR SEVEN INVEST",
+   "montant_acte_engagement": 4102440.0,
+   "montant_apres_verification": 4102440.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_offre_financiere",
+   "admis_avec_reserve": true
+  },
+  {
+   "nom": "CHINO UNIBAS SARL",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_offre_financiere",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "DBICHATE NEGOCE",
+   "montant_acte_engagement": 3665029.2,
+   "montant_apres_verification": 3665029.2,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_offre_financiere",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "TRAVAUX OMS",
+   "montant_acte_engagement": 3830195.28,
+   "montant_apres_verification": 3830195.28,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 6,
+ "alertes_ocr": [],
+ "notes_ocr": [
+  "Maître d'ouvrage absent du PV (utiliser l'acheteur public du portail)."
+ ],
+ "qualite": "complet"
+}

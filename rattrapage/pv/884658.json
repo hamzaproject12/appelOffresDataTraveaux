@@ -1,0 +1,60 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "884658",
+ "orgAcronyme": "j0w",
+ "reference_pv": "01/2025/BP",
+ "nouveau": true,
+ "reference": "01/2025/BP",
+ "objet": "TRAVAUX D'AMENAGEMENT DES PISTES A LA COMMUNE DE RASS EL AIN PROVINCE RHAMNA",
+ "acheteur": "CONSEIL PROVINCIAL RHAMNA",
+ "procedure": "appel d'offres ouvert",
+ "categorie": "Travaux",
+ "date_limite_plis": "20/02/2025",
+ "lieu_ouverture": "Salle de réunion du Conseil Provincial Rhamna",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "07/04/2025",
+ "justification": "l’appel d’offre est declarée inferctieux tel que prévus dans l’article 45 du décret n° 2-22-431 du 15 chaabane 1444 08 mars 2023 relatif aux marchés public.",
+ "infructueux": false,
+ "attributaire": null,
+ "montant_attribue": null,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "STE METANSIFT SARL AU",
+   "montant_acte_engagement": 399408.0,
+   "montant_apres_verification": 399408.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": true
+  },
+  {
+   "nom": "STE PRESTATION SIMO BEL SARL AU",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_dossier_administratif_technique",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "STE SMART BUSNESS STAR SARL",
+   "montant_acte_engagement": 406353.6,
+   "montant_apres_verification": 406353.6,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": true
+  }
+ ],
+ "nombre_soumissionnaires": 3,
+ "alertes_ocr": [
+  "Attributaire non trouvé."
+ ],
+ "notes_ocr": [],
+ "qualite": "complet"
+}

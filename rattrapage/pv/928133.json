@@ -1,0 +1,85 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "928133",
+ "orgAcronyme": "d4q",
+ "reference_pv": "32/SPG/1/2025",
+ "nouveau": true,
+ "reference": "32/SPG/1/2025",
+ "objet": "Electrification du forage N° IRE 358/91 à Assa",
+ "acheteur": null,
+ "procedure": "appel d'offres ouvert",
+ "categorie": "Travaux",
+ "date_limite_plis": "12/08/2025",
+ "lieu_ouverture": "au siège de la Direction Régionale Guelmim Oued Noun (DRG) - Quartier administratif, Bd Al Fida, Imm C, 2ème étage - Guelmim - Maroc AVENIR SYSTEME",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "04/09/2025",
+ "justification": "Moins-disant",
+ "infructueux": false,
+ "attributaire": null,
+ "montant_attribue": null,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "MAROC",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_dossier_administratif_technique",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Assahra Al Maghribia (Arabe)",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_dossier_administratif_technique",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Le Matin (Français)",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_dossier_administratif_technique",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "JOURNAL DATE DE PUBLICATION",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_dossier_administratif_technique",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "INGENIEROS DEL NORTE",
+   "montant_acte_engagement": 400899.65,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 5,
+ "alertes_ocr": [
+  "« INGENIEROS DEL NORTE » absent de la liste des plis déposés (nom mal lu ?).",
+  "Attributaire non trouvé."
+ ],
+ "notes_ocr": [
+  "« MAROC » absent de la liste des plis déposés (nom mal lu ?).",
+  "« Assahra Al Maghribia (Arabe) » absent de la liste des plis déposés (nom mal lu ?).",
+  "« Le Matin (Français) » absent de la liste des plis déposés (nom mal lu ?).",
+  "« JOURNAL DATE DE PUBLICATION » absent de la liste des plis déposés (nom mal lu ?).",
+  "Maître d'ouvrage absent du PV (utiliser l'acheteur public du portail)."
+ ],
+ "qualite": "attribution"
+}

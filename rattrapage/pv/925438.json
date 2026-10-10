@@ -1,0 +1,60 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "925438",
+ "orgAcronyme": "g3h",
+ "reference_pv": "14/AO/BOURGREG/2025",
+ "nouveau": true,
+ "reference": "14/AO/BOURGREG/2025",
+ "objet": "Travaux de réalisation des gardes corps des structures métalliques des berges de l’Oued Bouregreg",
+ "acheteur": "Agence pour l'Aménagement de la Valée du Bouregreg",
+ "procedure": "appel d'offres ouvert",
+ "categorie": "Travaux",
+ "date_limite_plis": null,
+ "lieu_ouverture": "Bureaux de l’Agence sis avenue Prince Héritier Sidi Mohamed à Salé",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "22/08/2025",
+ "justification": "Le moins disant",
+ "infructueux": false,
+ "attributaire": null,
+ "montant_attribue": null,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "Entreprise SGTM",
+   "montant_acte_engagement": 9594000.0,
+   "montant_apres_verification": 9594000.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Société CONFORAMA",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_offre_technique",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Société SLAH TRAVAUX DIVERS",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_offre_technique",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 3,
+ "alertes_ocr": [
+  "Attributaire non trouvé."
+ ],
+ "notes_ocr": [],
+ "qualite": "attribution"
+}

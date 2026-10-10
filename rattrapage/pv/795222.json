@@ -1,0 +1,84 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "795222",
+ "orgAcronyme": "g3h",
+ "reference_pv": null,
+ "nouveau": true,
+ "reference": null,
+ "objet": null,
+ "acheteur": null,
+ "procedure": "appel d'offres ouvert",
+ "categorie": "Travaux",
+ "date_limite_plis": "30/04/2024",
+ "lieu_ouverture": "Siège de l'ADER-Fêes",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "10/05/2024",
+ "justification": "Le concurrent ayant présenté une offre avantageuse. Le concurrent ayant présenté l'offre la plus avantageuse et la moins disante.",
+ "infructueux": true,
+ "attributaire": "Société RESTORE PLUS SARL AU",
+ "montant_attribue": 2593995.0,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "Société ABDELHADI LILBINAE SARL AU",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_dossier_administratif_technique",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Société SONATRADIC SARL",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_dossier_administratif_technique",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Société RESTORE PLUS SARL AU",
+   "montant_acte_engagement": 2593995.0,
+   "montant_apres_verification": 5186490.0,
+   "autres_montants": [
+    5186490.0
+   ],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Société RENOVATION BATIS EZ-ZAHRAOUY SARL",
+   "montant_acte_engagement": 5018346.0,
+   "montant_apres_verification": 10036692.0,
+   "autres_montants": [
+    10036692.0
+   ],
+   "lots": [],
+   "statut": "ecarte_dossier_administratif_technique",
+   "admis_avec_reserve": true
+  },
+  {
+   "nom": "Société AL IKHLAS TRAVAUX SARL AU",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_dossier_administratif_technique",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 5,
+ "alertes_ocr": [],
+ "notes_ocr": [
+  "« Société RESTORE PLUS SARL AU » : montant rectifié de 2 593 995.00 à 5 186 490.00 DH.",
+  "« Société RENOVATION BATIS EZ-ZAHRAOUY SARL » : montant rectifié de 5 018 346.00 à 10 036 692.00 DH.",
+  "Maître d'ouvrage absent du PV (utiliser l'acheteur public du portail)."
+ ],
+ "qualite": "complet"
+}

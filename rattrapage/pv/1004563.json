@@ -1,0 +1,76 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "1004563",
+ "orgAcronyme": "g3h",
+ "reference_pv": "290/2S/EAU",
+ "nouveau": true,
+ "reference": "290/2S/EAU",
+ "objet": "REALISATION D'UN NOUVEAU RESERVOIR SEMI-ENTERRE D'UNE CAPACITE DE 10 000 M3 AU SUD DE MARRAKECH ROUTE DE TAHANAOUTE D",
+ "acheteur": "SRM-MS",
+ "procedure": "appel d'offres ouvert",
+ "categorie": "Travaux",
+ "date_limite_plis": "22/01/2026",
+ "lieu_ouverture": "Siège de la SRM-MS Boulevard Mohamed VI MARRAKECH,",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": null,
+ "justification": "Offre ayant obtenu la meilleure né globale.",
+ "infructueux": false,
+ "attributaire": "SOGETRAMA GLS",
+ "montant_attribue": 42729540.0,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "UBAC",
+   "montant_acte_engagement": 44411584.8,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "SNCE",
+   "montant_acte_engagement": 48431455.68,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "SOLID",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_offre_technique",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "CAPTP",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_offre_technique",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "SOGETRAMA GLS",
+   "montant_acte_engagement": 42729540.0,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 5,
+ "alertes_ocr": [],
+ "notes_ocr": [],
+ "qualite": "complet"
+}

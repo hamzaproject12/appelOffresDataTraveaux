@@ -1,0 +1,83 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "1003437",
+ "orgAcronyme": "f8y",
+ "reference_pv": null,
+ "nouveau": true,
+ "reference": null,
+ "objet": "TRAVAUX DE PROTECTION DE LA PALMERAIE DE BEN YATTI RELEVANT DE LA COMMUNE DE BOUANANE",
+ "acheteur": "conseil de Provincial De Figuig",
+ "procedure": null,
+ "categorie": "Travaux",
+ "date_limite_plis": "21/04/2026",
+ "lieu_ouverture": null,
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "05/05/2025",
+ "justification": "En vertu des dispositions de l’article 44 du décret N°2.22.431 du 08 mars 2023 L'offre du concurrent ayant présenté l’offre la plus avantageuse, qui est présentée par STE TIZIZOUA",
+ "infructueux": false,
+ "attributaire": "STE TIZIZOUA",
+ "montant_attribue": 436674.0,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "ELABD ELMALKIA",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_dossier_administratif_technique",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "STE ELBOUSHABIA - Attestations de références sont",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_dossier_administratif_technique",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "insuffisantes",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_dossier_administratif_technique",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "STE BTP IRRIGA",
+   "montant_acte_engagement": 447780.0,
+   "montant_apres_verification": 447780.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "STE TIZIZOUA",
+   "montant_acte_engagement": 436674.0,
+   "montant_apres_verification": 436674.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 5,
+ "alertes_ocr": [
+  "« STE BTP IRRIGA » absent de la liste des plis déposés (nom mal lu ?).",
+  "« STE TIZIZOUA » absent de la liste des plis déposés (nom mal lu ?)."
+ ],
+ "notes_ocr": [
+  "« ELABD ELMALKIA » absent de la liste des plis déposés (nom mal lu ?).",
+  "« STE ELBOUSHABIA - Attestations de références sont » absent de la liste des plis déposés (nom mal lu ?).",
+  "« insuffisantes » absent de la liste des plis déposés (nom mal lu ?)."
+ ],
+ "qualite": "complet"
+}

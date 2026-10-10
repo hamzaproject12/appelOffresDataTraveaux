@@ -1,0 +1,64 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "986965",
+ "orgAcronyme": "j8k",
+ "reference_pv": null,
+ "nouveau": true,
+ "reference": null,
+ "objet": "PROGRAMME DE CONSTRUCTION DE LO GEMENTS «RIAD AL BAHIA TR3 » DANS LE CADRE DU NOUVEAU PROGRAMME D’AIDE AUX LOGEMENTS SIS AU LOTISSEMENT AL BAHIA PREFECTURE DE MEKNES",
+ "acheteur": "AL Omrane Fès-Meknès",
+ "procedure": null,
+ "categorie": "Travaux",
+ "date_limite_plis": "17/03/2026",
+ "lieu_ouverture": "AL Omrane Fès-Meknès",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "19/03/2026",
+ "justification": null,
+ "infructueux": false,
+ "attributaire": "STE HMA INFRA",
+ "montant_attribue": 16259530.56,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "STE HMA INFRA",
+   "montant_acte_engagement": 16259530.56,
+   "montant_apres_verification": null,
+   "autres_montants": [
+    16101671.04
+   ],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "STE ARBOCO",
+   "montant_acte_engagement": 18943142.4,
+   "montant_apres_verification": null,
+   "autres_montants": [
+    18627423.36
+   ],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "STE ARBOCO ci",
+   "montant_acte_engagement": 18943142.4,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 3,
+ "alertes_ocr": [
+  "« STE ARBOCO ci » absent de la liste des plis déposés (nom mal lu ?)."
+ ],
+ "notes_ocr": [],
+ "qualite": "complet"
+}

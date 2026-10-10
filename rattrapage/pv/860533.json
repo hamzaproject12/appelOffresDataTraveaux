@@ -1,0 +1,108 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "860533",
+ "orgAcronyme": "i1t",
+ "reference_pv": "A4I2O24-March",
+ "nouveau": true,
+ "reference": "A4I2O24-March",
+ "objet": "Travaux d'aménagement de la piste ouled mbarek et zhana commune haddada province de kenitra",
+ "acheteur": "MTABDELHAMID SAADAOUI: Président de la commune de Haddada",
+ "procedure": null,
+ "categorie": "Travaux",
+ "date_limite_plis": "30/10/2024",
+ "lieu_ouverture": "bureau du président à la commune de Haddada ; km 3,7 rol/;e de Tanger",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": null,
+ "justification": "le mieux disant qu'est la société 2RM TRAVAUX pour un montant de 847 050,00 dhs soit huit cent quarante sept mille cinquante dirhams",
+ "infructueux": false,
+ "attributaire": "STE 2RM TRAVAUX",
+ "montant_attribue": 847050.0,
+ "attributaires_par_lot": [
+  {
+   "lot": null,
+   "attributaire": "STE 2RM TRAVAUX",
+   "montant": 847050.0
+  },
+  {
+   "lot": null,
+   "attributaire": "STE EGISCOTRAV",
+   "montant": 850008.0
+  },
+  {
+   "lot": null,
+   "attributaire": "Société MASSO TRAV",
+   "montant": 850759.0
+  },
+  {
+   "lot": null,
+   "attributaire": "STE TPMAR",
+   "montant": 851082.0
+  },
+  {
+   "lot": null,
+   "attributaire": "STE AL ANSARI MODERN BUILDING",
+   "montant": 860100.0
+  }
+ ],
+ "soumissionnaires": [
+  {
+   "nom": "STE AL ANSARI MODERN BUILDING",
+   "montant_acte_engagement": 860100.0,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Société MASSO TRAV",
+   "montant_acte_engagement": 850758.0,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "STE TPMAR",
+   "montant_acte_engagement": 851082.0,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "STE 2RM TRAVAUX",
+   "montant_acte_engagement": 847050.0,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "STE EGISCOTRAV",
+   "montant_acte_engagement": 850008.0,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 5,
+ "alertes_ocr": [
+  "« STE AL ANSARI MODERN BUILDING » absent de la liste des plis déposés (nom mal lu ?).",
+  "« Société MASSO TRAV » absent de la liste des plis déposés (nom mal lu ?).",
+  "« STE TPMAR » absent de la liste des plis déposés (nom mal lu ?).",
+  "« STE 2RM TRAVAUX » absent de la liste des plis déposés (nom mal lu ?).",
+  "« STE EGISCOTRAV » absent de la liste des plis déposés (nom mal lu ?)."
+ ],
+ "notes_ocr": [],
+ "qualite": "attribution"
+}

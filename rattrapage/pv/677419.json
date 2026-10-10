@@ -1,0 +1,86 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "677419",
+ "orgAcronyme": "d4q",
+ "reference_pv": "60DR3/2022",
+ "nouveau": true,
+ "reference": "60DR3/2022",
+ "objet": "Travaux de maintenance des réseaux de distribution d'eau potable des centres D.O.Zidouh, Sidi Aissa Ben",
+ "acheteur": null,
+ "procedure": null,
+ "categorie": "Travaux",
+ "date_limite_plis": "13/09/2022",
+ "lieu_ouverture": "Siège DR3",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "15/11/2022",
+ "justification": "L’offre la plus avantageuse",
+ "infructueux": false,
+ "attributaire": "Grpt GOUBAR/KOURROU",
+ "montant_attribue": 995738.0,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "Grpt GOUBAR/KOURROU",
+   "montant_acte_engagement": 995738.0,
+   "montant_apres_verification": 995738.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "EVACT",
+   "montant_acte_engagement": 1119756.0,
+   "montant_apres_verification": 1119756.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "ELECLEAU FOUNA",
+   "montant_acte_engagement": 1169407.2,
+   "montant_apres_verification": 1169407.2,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "ENVERDEAU",
+   "montant_acte_engagement": 199860.0,
+   "montant_apres_verification": 1199860.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "LAHSSINI",
+   "montant_acte_engagement": 1464366.0,
+   "montant_apres_verification": 1464366.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 5,
+ "alertes_ocr": [
+  "« Grpt GOUBAR/KOURROU » absent de la liste des plis déposés (nom mal lu ?).",
+  "« EVACT » absent de la liste des plis déposés (nom mal lu ?).",
+  "« ELECLEAU FOUNA » absent de la liste des plis déposés (nom mal lu ?).",
+  "« ENVERDEAU » absent de la liste des plis déposés (nom mal lu ?).",
+  "« LAHSSINI » absent de la liste des plis déposés (nom mal lu ?).",
+  "« ENVERDEAU » : écart anormal entre montant initial et vérifié (lecture à vérifier)."
+ ],
+ "notes_ocr": [
+  "« ENVERDEAU » : montant rectifié de 199 860.00 à 1 199 860.00 DH.",
+  "Maître d'ouvrage absent du PV (utiliser l'acheteur public du portail)."
+ ],
+ "qualite": "complet"
+}

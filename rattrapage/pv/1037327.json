@@ -1,0 +1,74 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "1037327",
+ "orgAcronyme": "o8p",
+ "reference_pv": "27/2026",
+ "nouveau": true,
+ "reference": "27/2026",
+ "objet": "de Appel d’Offres : « Travaux de confection, mise en place, peinture et écriture des",
+ "acheteur": "Direction Provinciale de l’Equipement du Transport et de La logistique D’El Kelaa des Sraghna",
+ "procedure": "appel d'offres ouvert national",
+ "categorie": "Travaux",
+ "date_limite_plis": "03/09/2026",
+ "lieu_ouverture": "La Direction Provinciale de l'Equipement du Transport et de la Logistique D’EL KELAA DES SRAGHNA",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "07/09/2026",
+ "justification": "l’offre économiquement la plus avantageuse Montant de l'Acte d'Engagement Concurrent STE REXCOLOR 554 616.00 DH",
+ "infructueux": false,
+ "attributaire": null,
+ "montant_attribue": null,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "STE SONOR TELECOM",
+   "montant_acte_engagement": 573600.0,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_offre_financiere",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "STE REXCOLOR",
+   "montant_acte_engagement": 554616.0,
+   "montant_apres_verification": 554616.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "présentation du dossier conformément à",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_offre_financiere",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "l'article 10 du règlement de consultation",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_offre_financiere",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 4,
+ "alertes_ocr": [
+  "« STE SONOR TELECOM » absent de la liste des plis déposés (nom mal lu ?).",
+  "« STE REXCOLOR » absent de la liste des plis déposés (nom mal lu ?).",
+  "Attributaire non trouvé."
+ ],
+ "notes_ocr": [
+  "« présentation du dossier conformément à » absent de la liste des plis déposés (nom mal lu ?).",
+  "« l'article 10 du règlement de consultation » absent de la liste des plis déposés (nom mal lu ?)."
+ ],
+ "qualite": "complet"
+}

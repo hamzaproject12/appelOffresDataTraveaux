@@ -1,0 +1,76 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "987419",
+ "orgAcronyme": "x8h",
+ "reference_pv": "08/CPA/2025",
+ "nouveau": true,
+ "reference": "08/CPA/2025",
+ "objet": "TRAVAUX DE CONSTRUCTION D'UNE MAISON D'HOTES SITUEE AU POSTE FRONTALIER EL GUERGUERATE -— 1re TRANCHE",
+ "acheteur": "Conseil Provincial D’Aousserd",
+ "procedure": "appel d'offres ouvert",
+ "categorie": "Travaux",
+ "date_limite_plis": "10/11/2025",
+ "lieu_ouverture": "Siege de l’annexe du Conseil Provincial D'Aousserd sis à Dakhla",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "26/11/2025",
+ "justification": "l'offre économiquement le plus avantageuse.",
+ "infructueux": false,
+ "attributaire": "SOCIETE TINLMAN NEGOCE",
+ "montant_attribue": 1985035.99,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "SOCIETE ELITRAC",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_dossier_administratif_technique",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "SOCIETE TGX SAHARA",
+   "montant_acte_engagement": 2042700.96,
+   "montant_apres_verification": 2042700.96,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_offre_financiere",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "SOCIETE TINLMAN NEGOCE",
+   "montant_acte_engagement": 1985035.99,
+   "montant_apres_verification": 1985035.99,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "SOCIETE SATRAV",
+   "montant_acte_engagement": 1988515.99,
+   "montant_apres_verification": 1988515.99,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "SOCIETE LYMAROC",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_dossier_administratif_technique",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 5,
+ "alertes_ocr": [],
+ "notes_ocr": [],
+ "qualite": "complet"
+}

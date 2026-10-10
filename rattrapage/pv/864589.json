@@ -1,0 +1,87 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "864589",
+ "orgAcronyme": "j8k",
+ "reference_pv": "90/2024",
+ "nouveau": true,
+ "reference": "90/2024",
+ "objet": "TRAVAUX DE PAVAGE DU LOTISSEMENT TADILI RAHAL A LA VILLE DE MARRAKECH",
+ "acheteur": "AL OMRANE MARRAKECH-SAFTI",
+ "procedure": "appel d'offres ouvert",
+ "categorie": "Travaux",
+ "date_limite_plis": "24/12/2024",
+ "lieu_ouverture": "SIEGE AL OMRANE MARRAKECH-SAFT",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "06/01/2025",
+ "justification": "Moins-Disant.",
+ "infructueux": false,
+ "attributaire": null,
+ "montant_attribue": null,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "CHAHD TRAVAUX",
+   "montant_acte_engagement": 1675525.64,
+   "montant_apres_verification": 1675525.64,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "NICE GARDEN",
+   "montant_acte_engagement": 1955866.5,
+   "montant_apres_verification": 1955866.5,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "GESTRAD",
+   "montant_acte_engagement": 1635476.94,
+   "montant_apres_verification": 1635476.94,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "GPT SUD EST ACHGHAL / EA TRAVAUX",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_dossier_administratif_technique",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "TOUNA SERVICE",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "depose",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "ECA EL MARAH",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "depose",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 6,
+ "alertes_ocr": [
+  "Attributaire non trouvé."
+ ],
+ "notes_ocr": [],
+ "qualite": "complet"
+}

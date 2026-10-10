@@ -1,0 +1,52 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "851459",
+ "orgAcronyme": "p8x",
+ "reference_pv": null,
+ "nouveau": true,
+ "reference": null,
+ "objet": null,
+ "acheteur": "La direction provinciale auprès de l'AREF DT à Tinghir represéntée par Mr le Directeur Provincial",
+ "procedure": null,
+ "categorie": "Travaux",
+ "date_limite_plis": "29/10/2024",
+ "lieu_ouverture": null,
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": null,
+ "justification": null,
+ "infructueux": false,
+ "attributaire": "STE SPERANSSA GROUPE SARL",
+ "montant_attribue": 1969284.0,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "STÉ LAMTALSSI TRAVEAUX",
+   "montant_acte_engagement": 2257722.0,
+   "montant_apres_verification": 2257722.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "STE SPERANSSA GROUPE SARL",
+   "montant_acte_engagement": 1969284.0,
+   "montant_apres_verification": 1969284.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 2,
+ "alertes_ocr": [
+  "« STÉ LAMTALSSI TRAVEAUX » absent de la liste des plis déposés (nom mal lu ?).",
+  "« STE SPERANSSA GROUPE SARL » absent de la liste des plis déposés (nom mal lu ?)."
+ ],
+ "notes_ocr": [],
+ "qualite": "complet"
+}

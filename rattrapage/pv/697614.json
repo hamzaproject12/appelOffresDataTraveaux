@@ -1,0 +1,44 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "697614",
+ "orgAcronyme": "d4q",
+ "reference_pv": null,
+ "nouveau": true,
+ "reference": null,
+ "objet": null,
+ "acheteur": null,
+ "procedure": "appel d'offres ouvert",
+ "categorie": "Travaux",
+ "date_limite_plis": "17/11/2022",
+ "lieu_ouverture": "au Siège de la Direction Régionale du Centre (DR3) Boulevard Mohamed VI, Quartier Administratif - Khouribga - Maroc",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "02/03/2023",
+ "justification": "Moins-disant",
+ "infructueux": false,
+ "attributaire": "OMNIUM HYDROLIQUE ET ELECTRIQUE - Offre",
+ "montant_attribue": 420396.0,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "OMNIUM HYDROLIQUE ET ELECTRIQUE - Offre",
+   "montant_acte_engagement": 420396.0,
+   "montant_apres_verification": null,
+   "autres_montants": [
+    420396.0
+   ],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 1,
+ "alertes_ocr": [],
+ "notes_ocr": [
+  "Maître d'ouvrage absent du PV (utiliser l'acheteur public du portail)."
+ ],
+ "qualite": "attribution"
+}

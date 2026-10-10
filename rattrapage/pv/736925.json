@@ -1,0 +1,70 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "736925",
+ "orgAcronyme": "g3h",
+ "reference_pv": "58/2023/BG",
+ "nouveau": true,
+ "reference": "58/2023/BG",
+ "objet": "Travaux de sonorisation au bâtiment d’extension du siège du Secrétariat Général de la préfecture de Marrakech",
+ "acheteur": "Wali de la Région Marrakech Safi, Gouverneur Préfecture de Marrakech",
+ "procedure": null,
+ "categorie": "Travaux",
+ "date_limite_plis": "27/07/2023",
+ "lieu_ouverture": "Salle de réunion du Secrétariat Général de la Préfecture de Marrakech",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "16/08/2023",
+ "justification": "Offre la plus avantageuse.",
+ "infructueux": false,
+ "attributaire": "Société ABELMO ELECTRONIQUE",
+ "montant_attribue": 3878640.0,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "Société ALOMRA GROUP INTERNATIONAL",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_dossier_administratif_technique",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Société ABELMO ELECTRONIQUE",
+   "montant_acte_engagement": 3878640.0,
+   "montant_apres_verification": 3878640.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Société 3GCOM",
+   "montant_acte_engagement": 4375440.0,
+   "montant_apres_verification": 4375440.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Société TELECO MAROC",
+   "montant_acte_engagement": 3527868.0,
+   "montant_apres_verification": 3527868.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 4,
+ "alertes_ocr": [
+  "« Société 3GCOM » absent de la liste des plis déposés (nom mal lu ?).",
+  "« Société TELECO MAROC » absent de la liste des plis déposés (nom mal lu ?)."
+ ],
+ "notes_ocr": [],
+ "qualite": "complet"
+}

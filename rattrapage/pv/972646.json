@@ -1,0 +1,72 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "972646",
+ "orgAcronyme": "g3h",
+ "reference_pv": "248/2025",
+ "nouveau": true,
+ "reference": "248/2025",
+ "objet": null,
+ "acheteur": "Société Régionale Multiservices Fès Meknès « SRM-FM »",
+ "procedure": "appel d'offres ouvert",
+ "categorie": "Travaux",
+ "date_limite_plis": "04/12/2025",
+ "lieu_ouverture": "Siège de la SRM-FM",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "15/01/2026",
+ "justification": null,
+ "infructueux": false,
+ "attributaire": "MATITRAVE",
+ "montant_attribue": 16640070.0,
+ "attributaires_par_lot": [
+  {
+   "lot": null,
+   "attributaire": "MATITRAVE",
+   "montant": 16640070.0
+  },
+  {
+   "lot": null,
+   "attributaire": "ARCO",
+   "montant": 7863200.0
+  }
+ ],
+ "soumissionnaires": [
+  {
+   "nom": "SRTHYG-BTP",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_dossier_administratif_technique",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "MATITRAVE",
+   "montant_acte_engagement": 16640070.0,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "ARCO",
+   "montant_acte_engagement": 7863200.0,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 3,
+ "alertes_ocr": [
+  "« MATITRAVE » absent de la liste des plis déposés (nom mal lu ?).",
+  "« ARCO » absent de la liste des plis déposés (nom mal lu ?)."
+ ],
+ "notes_ocr": [],
+ "qualite": "attribution"
+}

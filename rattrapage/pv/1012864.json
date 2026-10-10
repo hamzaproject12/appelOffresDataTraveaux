@@ -1,0 +1,102 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "1012864",
+ "orgAcronyme": "m1w",
+ "reference_pv": null,
+ "nouveau": true,
+ "reference": null,
+ "objet": null,
+ "acheteur": "Barid Al Maghrib S.A",
+ "procedure": null,
+ "categorie": "Travaux",
+ "date_limite_plis": "05/05/2026",
+ "lieu_ouverture": "Direction Achats et Patrimoine, sise au 8, rue Dayet Erroumi, Agdal – Rabat",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "11/06/2026",
+ "justification": "Offre la plus avantageuse.",
+ "infructueux": false,
+ "attributaire": "BARI TRAV",
+ "montant_attribue": 163465.08,
+ "attributaires_par_lot": [
+  {
+   "lot": "1",
+   "attributaire": "BARI TRAV",
+   "montant": 163465.08
+  },
+  {
+   "lot": "2",
+   "attributaire": "LK BRICO",
+   "montant": 45883.0
+  },
+  {
+   "lot": "3",
+   "attributaire": "BARI TRAV",
+   "montant": 108750.0
+  },
+  {
+   "lot": "4",
+   "attributaire": "AFRICA INSIDE",
+   "montant": 265780.58
+  }
+ ],
+ "soumissionnaires": [
+  {
+   "nom": "Soumission physique Soumission électronique",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "depose",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "BARI TRAV",
+   "montant_acte_engagement": 163465.08,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [
+    "1",
+    "3"
+   ],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "LK BRICO",
+   "montant_acte_engagement": 45883.0,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [
+    "2"
+   ],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "AFRICA INSIDE",
+   "montant_acte_engagement": 265780.58,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [
+    "4"
+   ],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 4,
+ "alertes_ocr": [
+  "« BARI TRAV » absent de la liste des plis déposés (nom mal lu ?).",
+  "« LK BRICO » absent de la liste des plis déposés (nom mal lu ?).",
+  "« AFRICA INSIDE » absent de la liste des plis déposés (nom mal lu ?)."
+ ],
+ "notes_ocr": [
+  "Marché alloti (4 lots).",
+  "Montants exprimés hors taxes (HT)."
+ ],
+ "qualite": "attribution"
+}

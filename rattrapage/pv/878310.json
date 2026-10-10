@@ -1,0 +1,122 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "878310",
+ "orgAcronyme": "g3h",
+ "reference_pv": "03/2025/FRA-TRAVX",
+ "nouveau": true,
+ "reference": "03/2025/FRA-TRAVX",
+ "objet": null,
+ "acheteur": null,
+ "procedure": "appel d'offres ouvert",
+ "categorie": "Travaux",
+ "date_limite_plis": null,
+ "lieu_ouverture": "les bureaux de la « Société Fès Région ménagement »",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": null,
+ "justification": "l’offre la plus avantageuse pour l Administration Date de l’achèvement des travaux de la commission : le 10 Mars 2025,",
+ "infructueux": false,
+ "attributaire": "Sté MBI SCAVI SARL à Temarra",
+ "montant_attribue": 24574860.0,
+ "attributaires_par_lot": [
+  {
+   "lot": "1",
+   "attributaire": "Sté MBI SCAVI SARL à Temarra",
+   "montant": 24574860.0
+  },
+  {
+   "lot": "2",
+   "attributaire": "Sté BENNANI HAFID SARL à Tanger",
+   "montant": 14720292.0
+  }
+ ],
+ "soumissionnaires": [
+  {
+   "nom": "Sté BENNANI HAFID SARL à Tanger",
+   "montant_acte_engagement": 24176124.0,
+   "montant_apres_verification": 24176124.0,
+   "autres_montants": [
+    14720292.0
+   ],
+   "lots": [
+    "1",
+    "2"
+   ],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Sté MBI SCAVI SARL à Temarra",
+   "montant_acte_engagement": 24574860.0,
+   "montant_apres_verification": 24574860.0,
+   "autres_montants": [],
+   "lots": [
+    "1",
+    "2"
+   ],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Groupement solidaire en Sté ATALAY et Sté CLUTCH à Salé",
+   "montant_acte_engagement": 24375300.0,
+   "montant_apres_verification": 24375300.0,
+   "autres_montants": [
+    14371464.0
+   ],
+   "lots": [
+    "1",
+    "2"
+   ],
+   "statut": "ecarte_offre_financiere",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Sté SOURCE BLEUE GRANDS TRAVAUX à Fès",
+   "montant_acte_engagement": 25757388.0,
+   "montant_apres_verification": 25757388.0,
+   "autres_montants": [
+    15574604.0
+   ],
+   "lots": [
+    "1",
+    "2"
+   ],
+   "statut": "ecarte_offre_financiere",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Sté TIRA SARL à CASA",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [
+    "1",
+    "2"
+   ],
+   "statut": "ecarte_dossier_administratif_technique",
+   "admis_avec_reserve": true
+  },
+  {
+   "nom": "Sté ALBAGEC SARL AU à Rabat",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [
+    "2"
+   ],
+   "statut": "admis",
+   "admis_avec_reserve": true
+  }
+ ],
+ "nombre_soumissionnaires": 6,
+ "alertes_ocr": [],
+ "notes_ocr": [
+  "Marché alloti (2 lots).",
+  "Maître d'ouvrage absent du PV (utiliser l'acheteur public du portail)."
+ ],
+ "qualite": "complet"
+}

@@ -1,0 +1,60 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "889472",
+ "orgAcronyme": "g8e",
+ "reference_pv": "19/2025",
+ "nouveau": true,
+ "reference": "19/2025",
+ "objet": "travaux d’installation et de mise en service d’un système de climatisation DRV au niveau des locaux",
+ "acheteur": null,
+ "procedure": "appel d'offres ouvert national",
+ "categorie": "Travaux",
+ "date_limite_plis": "26/03/2025",
+ "lieu_ouverture": "la salle des appels d’offres de l'Administration des Douanes et Impôts Indirects, sis à Avenue Annakhil Hay Riad Rabat",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "22/04/2025",
+ "justification": "l’offre économiquement la plus avantageuse.",
+ "infructueux": false,
+ "attributaire": "COMPTOIR FROID ET CLIM SARL",
+ "montant_attribue": 1350000.0,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "COMPTOIR FROID ET CLIM SARL",
+   "montant_acte_engagement": 1350000.0,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "EFNOR SARL",
+   "montant_acte_engagement": 1254000.0,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "TECHNO CLIM MAINTENANCE",
+   "montant_acte_engagement": 1348032.0,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 3,
+ "alertes_ocr": [],
+ "notes_ocr": [
+  "Maître d'ouvrage absent du PV (utiliser l'acheteur public du portail)."
+ ],
+ "qualite": "complet"
+}

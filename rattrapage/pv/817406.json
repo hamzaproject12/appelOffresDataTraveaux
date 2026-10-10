@@ -1,0 +1,65 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "817406",
+ "orgAcronyme": "q1s",
+ "reference_pv": null,
+ "nouveau": true,
+ "reference": null,
+ "objet": null,
+ "acheteur": "L'Office Régional de Mise en Valeur Agricole du Loukkos",
+ "procedure": "appel d'offres ouvert",
+ "categorie": "Travaux",
+ "date_limite_plis": "14/05/2024",
+ "lieu_ouverture": "Siège de L’Office Régional de Mise en Valeur Agricole du Loukkos à Ksar EI Kébir",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "03/07/2024",
+ "justification": "L'offre la plus avantageuse",
+ "infructueux": false,
+ "attributaire": "MEAH",
+ "montant_attribue": 1848000.0,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "MEAH",
+   "montant_acte_engagement": 1848000.0,
+   "montant_apres_verification": 927000.0,
+   "autres_montants": [
+    927000.0
+   ],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "ERI-SER",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "depose",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "KVM",
+   "montant_acte_engagement": 1995600.0,
+   "montant_apres_verification": 1000560.0,
+   "autres_montants": [
+    1000560.0
+   ],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 3,
+ "alertes_ocr": [],
+ "notes_ocr": [
+  "« MEAH » : montant rectifié de 1 848 000.00 à 927 000.00 DH.",
+  "« KVM » : montant rectifié de 1 995 600.00 à 1 000 560.00 DH."
+ ],
+ "qualite": "complet"
+}

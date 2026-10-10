@@ -1,0 +1,87 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "859701",
+ "orgAcronyme": "o4d",
+ "reference_pv": "205/2024",
+ "nouveau": true,
+ "reference": "205/2024",
+ "objet": "Travaux d'aménagement du centre de colonie de vacances à IMMOUZER, en lot unique",
+ "acheteur": "Direction des Achats et Logistique",
+ "procedure": "appel d'offres ouvert",
+ "categorie": "Travaux",
+ "date_limite_plis": "26/11/2024",
+ "lieu_ouverture": "Siège de la CNSS, 649 Bd Mohammed V Casa, salle des réunions de la Direction des Achats et Logistique",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "13/12/2024",
+ "justification": null,
+ "infructueux": false,
+ "attributaire": "SOTRMACOMEK",
+ "montant_attribue": 3106788.0,
+ "attributaires_par_lot": [
+  {
+   "lot": null,
+   "attributaire": "SOTRMACOMEK",
+   "montant": 3106788.0
+  },
+  {
+   "lot": null,
+   "attributaire": "STE TIMLALINE DE TRAVAUX",
+   "montant": 3106788.0
+  }
+ ],
+ "soumissionnaires": [
+  {
+   "nom": "SOTRMACOMEK",
+   "montant_acte_engagement": 3106788.0,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "STE TIMLALINE DE TRAVAUX",
+   "montant_acte_engagement": 3597120.0,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "SACT",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_dossier_administratif_technique",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "LA CENTRALE DE TRAVAUX DE COMM",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_dossier_administratif_technique",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "STE AZIERTA TRAVAUX",
+   "montant_acte_engagement": 3101592.0,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 5,
+ "alertes_ocr": [],
+ "notes_ocr": [],
+ "qualite": "complet"
+}

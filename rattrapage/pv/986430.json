@@ -1,0 +1,51 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "986430",
+ "orgAcronyme": "d4q",
+ "reference_pv": "82/DR3/2025",
+ "nouveau": true,
+ "reference": "82/DR3/2025",
+ "objet": "- Date et heure d'ouverture des plis : 27/01/2026 10:30 (Ouverture en un seul temps)",
+ "acheteur": null,
+ "procedure": "appel d'offres ouvert",
+ "categorie": "Travaux",
+ "date_limite_plis": "27/01/2026",
+ "lieu_ouverture": "au siège de la Direction Régionale Béni Mellal-Khénifra (DR3) - Boulevard Mohamed VI, Quartier Administratif - Khouribga - Maroc",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "19/03/2026",
+ "justification": "Moins-disant",
+ "infructueux": false,
+ "attributaire": "ELECTEL",
+ "montant_attribue": 154800.0,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "ELECTEL",
+   "montant_acte_engagement": 154800.0,
+   "montant_apres_verification": 154800.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "PC EN PANNE MAROC",
+   "montant_acte_engagement": 170280.0,
+   "montant_apres_verification": 170280.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 2,
+ "alertes_ocr": [],
+ "notes_ocr": [
+  "Maître d'ouvrage absent du PV (utiliser l'acheteur public du portail)."
+ ],
+ "qualite": "complet"
+}

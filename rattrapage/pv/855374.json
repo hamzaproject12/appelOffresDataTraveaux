@@ -1,0 +1,105 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "855374",
+ "orgAcronyme": "z9k",
+ "reference_pv": null,
+ "nouveau": true,
+ "reference": null,
+ "objet": null,
+ "acheteur": null,
+ "procedure": "appel d'offres ouvert simplifié",
+ "categorie": "Travaux",
+ "date_limite_plis": null,
+ "lieu_ouverture": null,
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": null,
+ "justification": null,
+ "infructueux": false,
+ "attributaire": "STE AKE AFTEN TRAVAUX SARL",
+ "montant_attribue": null,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "STE AKE AFTEN TRAVAUX SARL",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Oo STE MASIQ SYSTEM SARL AU",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "STE SONAFAIRE SARL AU",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Sté « EL WAHID DE CONSTRUCTION » S.A.R.L",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Ste Nouvelle Société MAGIDEUTZ SA",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Ste EARTH BUSINESS SARL, au",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Ste BENESSE travaux sarl",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 7,
+ "alertes_ocr": [
+  "« STE AKE AFTEN TRAVAUX SARL » absent de la liste des plis déposés (nom mal lu ?).",
+  "Montant de l'attributaire « STE AKE AFTEN TRAVAUX SARL » non trouvé."
+ ],
+ "notes_ocr": [
+  "« Oo STE MASIQ SYSTEM SARL AU » absent de la liste des plis déposés (nom mal lu ?).",
+  "« STE SONAFAIRE SARL AU » absent de la liste des plis déposés (nom mal lu ?).",
+  "« Sté « EL WAHID DE CONSTRUCTION » S.A.R.L » absent de la liste des plis déposés (nom mal lu ?).",
+  "« Ste Nouvelle Société MAGIDEUTZ SA » absent de la liste des plis déposés (nom mal lu ?).",
+  "« Ste EARTH BUSINESS SARL, au » absent de la liste des plis déposés (nom mal lu ?).",
+  "« Ste BENESSE travaux sarl » absent de la liste des plis déposés (nom mal lu ?).",
+  "Maître d'ouvrage absent du PV (utiliser l'acheteur public du portail)."
+ ],
+ "qualite": "participants"
+}

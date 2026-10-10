@@ -1,0 +1,56 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "766899",
+ "orgAcronyme": "d4q",
+ "reference_pv": "155/DR1/CE/2023",
+ "nouveau": true,
+ "reference": "155/DR1/CE/2023",
+ "objet": "Renforcement de l'AEP du centre de Biougra à partir du forage N° F30/120, Lot",
+ "acheteur": null,
+ "procedure": "appel d'offres ouvert",
+ "categorie": "Travaux",
+ "date_limite_plis": "20/11/2023",
+ "lieu_ouverture": "au Siège de la Direction Régionale du Sud (DR1) - Rue 18 Novembre Quartier Industriel - Agadir - Maroc STE NOUR AMZOU",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "26/12/2023",
+ "justification": "Moins-disant",
+ "infructueux": false,
+ "attributaire": null,
+ "montant_attribue": null,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "DR1/C - DIVISION ACHATS DR1",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "depose",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "STE NOUR AMZOU",
+   "montant_acte_engagement": 1159668.0,
+   "montant_apres_verification": null,
+   "autres_montants": [
+    1159668.0
+   ],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 2,
+ "alertes_ocr": [
+  "« STE NOUR AMZOU » absent de la liste des plis déposés (nom mal lu ?).",
+  "Attributaire non trouvé."
+ ],
+ "notes_ocr": [
+  "Maître d'ouvrage absent du PV (utiliser l'acheteur public du portail)."
+ ],
+ "qualite": "attribution"
+}

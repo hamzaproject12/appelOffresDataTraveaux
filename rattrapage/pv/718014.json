@@ -1,0 +1,95 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "718014",
+ "orgAcronyme": "f8y",
+ "reference_pv": "08/2023",
+ "nouveau": true,
+ "reference": "08/2023",
+ "objet": "« Entretien courant des voies à la ville de Nador, pour le compte de la commune de Nador, Province de Nador»",
+ "acheteur": "Le président de la commune de Nador",
+ "procedure": null,
+ "categorie": "Travaux",
+ "date_limite_plis": "24/05/2023",
+ "lieu_ouverture": "Bureau du président",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "31/05/2023",
+ "justification": "Moins disant des concurrents retenu.",
+ "infructueux": false,
+ "attributaire": "Sté KARMO-TRAV SARL AU, De Méknes",
+ "montant_attribue": 3491646.0,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "Sté KARMO-TRAV SARL AU, De Méknes",
+   "montant_acte_engagement": 3491646.0,
+   "montant_apres_verification": 3491646.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Sté MAROC ORIENTAL DE CONSTRUCTION IMMOBILIERE",
+   "montant_acte_engagement": 4613724.0,
+   "montant_apres_verification": 4598724.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Sté LES GRANDS TRAVAUX ROUTIERS SA DE CASABLANCA",
+   "montant_acte_engagement": 4865280.0,
+   "montant_apres_verification": 4865280.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Sté SORIEN SARL, De Nador",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": true
+  },
+  {
+   "nom": "sarl, d'Ou",
+   "montant_acte_engagement": 4613724.0,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Sté SORIEN SARL. Dal aroui, P/Nador",
+   "montant_acte_engagement": 4703092.0,
+   "montant_apres_verification": 4693092.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 6,
+ "alertes_ocr": [
+  "« Sté KARMO-TRAV SARL AU, De Méknes » absent de la liste des plis déposés (nom mal lu ?).",
+  "« Sté MAROC ORIENTAL DE CONSTRUCTION IMMOBILIERE » absent de la liste des plis déposés (nom mal lu ?).",
+  "« Sté LES GRANDS TRAVAUX ROUTIERS SA DE CASABLANCA » absent de la liste des plis déposés (nom mal lu ?).",
+  "« sarl, d'Ou » absent de la liste des plis déposés (nom mal lu ?).",
+  "« Sté SORIEN SARL. Dal aroui, P/Nador » absent de la liste des plis déposés (nom mal lu ?)."
+ ],
+ "notes_ocr": [
+  "« Sté SORIEN SARL, De Nador » absent de la liste des plis déposés (nom mal lu ?).",
+  "« Sté MAROC ORIENTAL DE CONSTRUCTION IMMOBILIERE » : montant rectifié de 4 613 724.00 à 4 598 724.00 DH.",
+  "« Sté SORIEN SARL. Dal aroui  P/Nador » : montant rectifié de 4 703 092.00 à 4 693 092.00 DH."
+ ],
+ "qualite": "complet"
+}

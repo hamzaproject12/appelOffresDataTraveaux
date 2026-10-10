@@ -1,0 +1,60 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "763575",
+ "orgAcronyme": "g8e",
+ "reference_pv": "178/2023",
+ "nouveau": true,
+ "reference": "178/2023",
+ "objet": "Date etheure d'achèvement Montant de AO D'ouverture des Des travaux Concurrent retenu l'offre plis de la retenu",
+ "acheteur": "Agence Régionale d'Exécution des Projets Région Béni Mellal- Khénifra",
+ "procedure": null,
+ "categorie": "Travaux",
+ "date_limite_plis": null,
+ "lieu_ouverture": null,
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "12/12/2023",
+ "justification": "L'offre économiquement la plus avantageuse.",
+ "infructueux": false,
+ "attributaire": "STE KOULGUINE ET CANALCO",
+ "montant_attribue": 4231549.8,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "STE KOULGUINE ET CANALCO",
+   "montant_acte_engagement": 3952135.8,
+   "montant_apres_verification": 4231549.8,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": true
+  },
+  {
+   "nom": "GR.STE TANASRT ET OUFLI TRAVAUX",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_dossier_administratif_technique",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "STE H.R DES EQUIPEMENTS ET TRAVAUX GENERAUX",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_dossier_administratif_technique",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 3,
+ "alertes_ocr": [],
+ "notes_ocr": [
+  "« STE KOULGUINE ET CANALCO » : montant rectifié de 3 952 135.80 à 4 231 549.80 DH."
+ ],
+ "qualite": "attribution"
+}

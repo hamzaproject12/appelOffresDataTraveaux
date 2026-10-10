@@ -1,0 +1,61 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "915188",
+ "orgAcronyme": "p1v",
+ "reference_pv": "07/2025/CZ",
+ "nouveau": true,
+ "reference": "07/2025/CZ",
+ "objet": null,
+ "acheteur": "Commune de Zemamra",
+ "procedure": null,
+ "categorie": "Travaux",
+ "date_limite_plis": "05/06/2025",
+ "lieu_ouverture": "_: Siège de la commune de Zemamra",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "09/07/2025",
+ "justification": null,
+ "infructueux": false,
+ "attributaire": "CANDET CONSTRUCTION sarl",
+ "montant_attribue": null,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "CANDET CONSTRUCTION sarl",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "ing sarl AU- CASABLANCA",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "depose",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "et société SERCMI sarl et la sté CANDET",
+   "montant_acte_engagement": 33495226.8,
+   "montant_apres_verification": 33495226.8,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 3,
+ "alertes_ocr": [
+  "« et société SERCMI sarl et la sté CANDET » absent de la liste des plis déposés (nom mal lu ?).",
+  "Montant de l'attributaire « CANDET CONSTRUCTION sarl » non trouvé."
+ ],
+ "notes_ocr": [],
+ "qualite": "attribution"
+}

@@ -1,0 +1,60 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "908210",
+ "orgAcronyme": "g3h",
+ "reference_pv": "38/2025",
+ "nouveau": true,
+ "reference": "38/2025",
+ "objet": "Travaux de restauration et de réhabilitation de Fondouq Maasra dans la médina de Fès, ville de Fès, en lot unique",
+ "acheteur": null,
+ "procedure": "appel d'offres ouvert",
+ "categorie": "Travaux",
+ "date_limite_plis": "11/06/2025",
+ "lieu_ouverture": "Siège de l’ADER-Fès",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "20/06/2025",
+ "justification": "Le concurrent ayant présenté l’offre la plus avantageuse et la moins disante.",
+ "infructueux": false,
+ "attributaire": "Société ZAHRAT AL MAJD SARL",
+ "montant_attribue": 3558258.0,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "Société RACHAD ISTITMAR SARL",
+   "montant_acte_engagement": 4221858.0,
+   "montant_apres_verification": 4221858.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Société ZAHRAT AL MAJD SARL",
+   "montant_acte_engagement": 3558258.0,
+   "montant_apres_verification": 3558258.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Société GHARB RESEAUX SARL",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_dossier_administratif_technique",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 3,
+ "alertes_ocr": [],
+ "notes_ocr": [
+  "Maître d'ouvrage absent du PV (utiliser l'acheteur public du portail)."
+ ],
+ "qualite": "complet"
+}

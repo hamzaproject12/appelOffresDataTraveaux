@@ -1,0 +1,67 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "801529",
+ "orgAcronyme": "q1s",
+ "reference_pv": "35/2024/0RSM",
+ "nouveau": true,
+ "reference": "35/2024/0RSM",
+ "objet": "Travaux d’entretien et de réparation de génie civil des bassins de régulation et des locaux techniques des stations de pompage des périmètres du Souss-Amont gérés par l'ORMVA/SM. Province de Taroudant",
+ "acheteur": "ORMVA/SM",
+ "procedure": "appel d'offres ouvert",
+ "categorie": "Travaux",
+ "date_limite_plis": "08/05/2024",
+ "lieu_ouverture": "Salle de réunion de la direction dè FORMVAISM",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "29/05/2024",
+ "justification": "offre la plus avantageuse de la société IRRI ONE par rapport au prix de référence qui est de 3.484.254,90 Dhs TTC.",
+ "infructueux": false,
+ "attributaire": "IRRIONE",
+ "montant_attribue": 3377661.0,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "SAKAT",
+   "montant_acte_engagement": 3540281.7,
+   "montant_apres_verification": 3540281.7,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "OULHINTSUD",
+   "montant_acte_engagement": 3872423.1,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_offre_financiere",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "IRRIONE",
+   "montant_acte_engagement": 3377661.0,
+   "montant_apres_verification": 3377661.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "ATLAS BOUGAFER",
+   "montant_acte_engagement": 3489094.8,
+   "montant_apres_verification": 3489094.8,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 4,
+ "alertes_ocr": [],
+ "notes_ocr": [],
+ "qualite": "complet"
+}

@@ -1,0 +1,94 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "901388",
+ "orgAcronyme": "s3z",
+ "reference_pv": null,
+ "nouveau": true,
+ "reference": null,
+ "objet": "Aménagement du Local de la Commune a",
+ "acheteur": "le président de la commune de salé",
+ "procedure": "appel d'offres ouvert simplifié",
+ "categorie": "Travaux",
+ "date_limite_plis": "22/05/2025",
+ "lieu_ouverture": "commune de salé LE MATIN n' 18 221 du 2910412025",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": null,
+ "justification": "le concurrent à présenté l'offre la plus avantageuse.",
+ "infructueux": false,
+ "attributaire": null,
+ "montant_attribue": null,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "Société NEW PROMED SARL",
+   "montant_acte_engagement": 465120.0,
+   "montant_apres_verification": 465120.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_offre_financiere",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Société FHT CONSTRUCTION SARL",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_offre_financiere",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Société MED TRUST SARL",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_offre_financiere",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Société DRH SYSTEME SERVICE SARL",
+   "montant_acte_engagement": 465300.0,
+   "montant_apres_verification": 465300.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Société EZZAHRAOUI HOUSE SARL AU",
+   "montant_acte_engagement": 464040.0,
+   "montant_apres_verification": 464040.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Société MAGDAZ TRAVAUX SARL",
+   "montant_acte_engagement": 467688.0,
+   "montant_apres_verification": 467688.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 6,
+ "alertes_ocr": [
+  "« Société NEW PROMED SARL » absent de la liste des plis déposés (nom mal lu ?).",
+  "« Société DRH SYSTEME SERVICE SARL » absent de la liste des plis déposés (nom mal lu ?).",
+  "« Société EZZAHRAOUI HOUSE SARL AU » absent de la liste des plis déposés (nom mal lu ?).",
+  "« Société MAGDAZ TRAVAUX SARL » absent de la liste des plis déposés (nom mal lu ?).",
+  "Attributaire non trouvé."
+ ],
+ "notes_ocr": [
+  "« Société FHT CONSTRUCTION SARL » absent de la liste des plis déposés (nom mal lu ?).",
+  "« Société MED TRUST SARL » absent de la liste des plis déposés (nom mal lu ?)."
+ ],
+ "qualite": "complet"
+}

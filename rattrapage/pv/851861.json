@@ -1,0 +1,80 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "851861",
+ "orgAcronyme": "g3h",
+ "reference_pv": null,
+ "nouveau": true,
+ "reference": null,
+ "objet": null,
+ "acheteur": "Société de Développement Local RABAT VILLE VERTE",
+ "procedure": null,
+ "categorie": "Travaux",
+ "date_limite_plis": "28/10/2024",
+ "lieu_ouverture": "Bureaux de la Société Rabat Ville Verte au Parc Hassan II de Rabat",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "20/11/2024",
+ "justification": "Offre avantageuse conforme aux exigences du dossier d’appel d'offres",
+ "infructueux": false,
+ "attributaire": "SOMECOTRAD",
+ "montant_attribue": null,
+ "attributaires_par_lot": [
+  {
+   "lot": null,
+   "attributaire": "SOMECOTRAD",
+   "montant": null
+  },
+  {
+   "lot": null,
+   "attributaire": "Société Rabat Ville Verte S.A. au Capital Social de 1.600.000 9",
+   "montant": null
+  },
+  {
+   "lot": null,
+   "attributaire": "SOCIETE DE DEVELOPPEMENT LOCAL RABAT VILLE",
+   "montant": null
+  }
+ ],
+ "soumissionnaires": [
+  {
+   "nom": "SOMECOTRAD",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Société Rabat Ville Verte S.A. au Capital Social de 1.600.000 9",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "SOCIETE DE DEVELOPPEMENT LOCAL RABAT VILLE",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 3,
+ "alertes_ocr": [
+  "« Société Rabat Ville Verte S.A. au Capital Social de 1.600.000 9 » absent de la liste des plis déposés (nom mal lu ?).",
+  "« SOCIETE DE DEVELOPPEMENT LOCAL RABAT VILLE » absent de la liste des plis déposés (nom mal lu ?).",
+  "Montant de l'attributaire « SOMECOTRAD » non trouvé.",
+  "Montant de l'attributaire « Société Rabat Ville Verte S.A. au Capital Social de 1.600.000 9 » non trouvé.",
+  "Montant de l'attributaire « SOCIETE DE DEVELOPPEMENT LOCAL RABAT VILLE » non trouvé."
+ ],
+ "notes_ocr": [],
+ "qualite": "participants"
+}

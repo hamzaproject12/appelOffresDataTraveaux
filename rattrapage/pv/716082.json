@@ -1,0 +1,73 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "716082",
+ "orgAcronyme": "q1s",
+ "reference_pv": null,
+ "nouveau": true,
+ "reference": null,
+ "objet": "travaux de maintenance des locaux du Gharb en trois lots : lot 3 : Travaux de remis",
+ "acheteur": "ORMVAG",
+ "procedure": null,
+ "categorie": "Travaux",
+ "date_limite_plis": "27/04/2023",
+ "lieu_ouverture": "siège de l'ORMVAG",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": null,
+ "justification": "l'offre la moins disante.",
+ "infructueux": false,
+ "attributaire": "PUR SANG DES CON STRUCTIONS ET DES MINES",
+ "montant_attribue": null,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "KZ FRERE , BNKHALI , SORADET, et PUR",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "depose",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "PUR SANG DES CON STRUCTIONS ET DES MINES",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "ESPACE IMMOBILIERE MODERNE",
+   "montant_acte_engagement": 104715.6,
+   "montant_apres_verification": null,
+   "autres_montants": [
+    104715.6
+   ],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "WAMRANE TRAVAUX",
+   "montant_acte_engagement": 86305.2,
+   "montant_apres_verification": null,
+   "autres_montants": [
+    86305.2
+   ],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 4,
+ "alertes_ocr": [
+  "Montant de l'attributaire « PUR SANG DES CON STRUCTIONS ET DES MINES » non trouvé."
+ ],
+ "notes_ocr": [],
+ "qualite": "complet"
+}

@@ -1,0 +1,95 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "862206",
+ "orgAcronyme": "f9f",
+ "reference_pv": "25/2O24",
+ "nouveau": true,
+ "reference": "25/2O24",
+ "objet": null,
+ "acheteur": null,
+ "procedure": "appel d'offres ouvert",
+ "categorie": "Travaux",
+ "date_limite_plis": null,
+ "lieu_ouverture": null,
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": null,
+ "justification": null,
+ "infructueux": false,
+ "attributaire": "a￾EXTRAIT DU PROCES _ VERBAT",
+ "montant_attribue": null,
+ "attributaires_par_lot": [
+  {
+   "lot": null,
+   "attributaire": "a￾EXTRAIT DU PROCES _ VERBAT",
+   "montant": null
+  },
+  {
+   "lot": null,
+   "attributaire": "D APPEL D'OFFRE OUVERT NATIONAT",
+   "montant": null
+  },
+  {
+   "lot": null,
+   "attributaire": "complexe culturel de la commune El Guerdane Prooince de Taroudant Ap?&E/or",
+   "montant": null
+  },
+  {
+   "lot": null,
+   "attributaire": "bxc a tÿrcI de la cofirfiune El Gÿerilane Prooinc2 ile Toroudant",
+   "montant": null
+  }
+ ],
+ "soumissionnaires": [
+  {
+   "nom": "a￾EXTRAIT DU PROCES _ VERBAT",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "D APPEL D'OFFRE OUVERT NATIONAT",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "complexe culturel de la commune El Guerdane Prooince de Taroudant Ap?&E/or",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "bxc a tÿrcI de la cofirfiune El Gÿerilane Prooinc2 ile Toroudant",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 4,
+ "alertes_ocr": [
+  "Montant de l'attributaire « a￾EXTRAIT DU PROCES _ VERBAT » non trouvé.",
+  "Montant de l'attributaire « D APPEL D'OFFRE OUVERT NATIONAT » non trouvé.",
+  "Montant de l'attributaire « complexe culturel de la commune El Guerdane Prooince de Taroudant Ap?&E/or » non trouvé.",
+  "Montant de l'attributaire « bxc a tÿrcI de la cofirfiune El Gÿerilane Prooinc2 ile Toroudant » non trouvé."
+ ],
+ "notes_ocr": [
+  "Maître d'ouvrage absent du PV (utiliser l'acheteur public du portail)."
+ ],
+ "qualite": "participants"
+}

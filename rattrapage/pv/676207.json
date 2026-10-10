@@ -1,0 +1,78 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "676207",
+ "orgAcronyme": "e5w",
+ "reference_pv": "04/2022/C",
+ "nouveau": true,
+ "reference": "04/2022/C",
+ "objet": "Travaux d'électrification à la commune de Sidi Harazem",
+ "acheteur": "le Président de la commune de Sidi Harazem",
+ "procedure": "appel d'offres ouvert",
+ "categorie": "Travaux",
+ "date_limite_plis": "01/11/2022",
+ "lieu_ouverture": "la salle de réunion de la commune de Sidi Harazem",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "11/11/2022",
+ "justification": null,
+ "infructueux": false,
+ "attributaire": "SOCHAITEL SARL",
+ "montant_attribue": null,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "Sté : PLANET INDUSTRY SARL",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Sté :NAKOS GLOBAL SERVISES SARL",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Sté :AHL FANOUS SARL",
+   "montant_acte_engagement": 278999.9,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "SOCHAITEL SARL",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Sté : MAK G3 NOUR SARL",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "depose",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 5,
+ "alertes_ocr": [
+  "Montant de l'attributaire « SOCHAITEL SARL » non trouvé."
+ ],
+ "notes_ocr": [],
+ "qualite": "attribution"
+}

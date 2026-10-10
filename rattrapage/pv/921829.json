@@ -1,0 +1,105 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "921829",
+ "orgAcronyme": "o8p",
+ "reference_pv": "KE/29/2025",
+ "nouveau": true,
+ "reference": "KE/29/2025",
+ "objet": null,
+ "acheteur": null,
+ "procedure": "appel d'offres ouvert national",
+ "categorie": "Travaux",
+ "date_limite_plis": "25/07/2025",
+ "lieu_ouverture": null,
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "01/08/2025",
+ "justification": "il a présenté l’offre économiquement la plus avantageuse répondant aux critères et conditions de l’appel d’offres.",
+ "infructueux": false,
+ "attributaire": "GROUPE EXCELLENCE TRAVAUX-AMENAGEMENT",
+ "montant_attribue": 360480.0,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "MHD CONSTRUCTION",
+   "montant_acte_engagement": 356010.0,
+   "montant_apres_verification": 356010.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "GROUPE EXCELLENCE TRAVAUX-AMENAGEMENT",
+   "montant_acte_engagement": 360480.0,
+   "montant_apres_verification": 360480.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "SOMACTA",
+   "montant_acte_engagement": 400860.0,
+   "montant_apres_verification": 400860.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "ESITRAP",
+   "montant_acte_engagement": 363660.0,
+   "montant_apres_verification": 363660.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "FULCRUM",
+   "montant_acte_engagement": 363420.0,
+   "montant_apres_verification": 363420.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "STE TARIK AZIZ DES GRANDS TRAVAUX ROUTIERSLMBR",
+   "montant_acte_engagement": 360375.0,
+   "montant_apres_verification": 360375.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "LCBTP",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "depose",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "LABO EST",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "depose",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 8,
+ "alertes_ocr": [],
+ "notes_ocr": [
+  "Maître d'ouvrage absent du PV (utiliser l'acheteur public du portail)."
+ ],
+ "qualite": "complet"
+}

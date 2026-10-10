@@ -1,0 +1,58 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "724185",
+ "orgAcronyme": "g3h",
+ "reference_pv": "17/2023/ND",
+ "nouveau": true,
+ "reference": "17/2023/ND",
+ "objet": null,
+ "acheteur": "Préfecture de Salé",
+ "procedure": null,
+ "categorie": "Travaux",
+ "date_limite_plis": "13/06/2023",
+ "lieu_ouverture": "Préfecture de Salé",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "22/06/2023",
+ "justification": null,
+ "infructueux": true,
+ "attributaire": null,
+ "montant_attribue": null,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "BENMESSAOUD ABDESLAM",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_dossier_administratif_technique",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "STE SEQUIPAB SARL",
+   "montant_acte_engagement": 425716.81,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_offre_financiere",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "STE BATISSBAT SARL",
+   "montant_acte_engagement": 267254.4,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 3,
+ "alertes_ocr": [],
+ "notes_ocr": [],
+ "qualite": "complet"
+}

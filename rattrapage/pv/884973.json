@@ -1,0 +1,107 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "884973",
+ "orgAcronyme": "j8k",
+ "reference_pv": "04/25",
+ "nouveau": true,
+ "reference": "04/25",
+ "objet": "de lot",
+ "acheteur": "Al Omrane Casablanca - Settat Indication de lot",
+ "procedure": "appel d'offres ouvert",
+ "categorie": "Travaux",
+ "date_limite_plis": null,
+ "lieu_ouverture": "Al Omrane Casablanca - Settat",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "03/03/2025",
+ "justification": null,
+ "infructueux": false,
+ "attributaire": "Sté BOUYA FER",
+ "montant_attribue": 900000.0,
+ "attributaires_par_lot": [
+  {
+   "lot": "Unique",
+   "attributaire": "Sté BOUYA FER",
+   "montant": 900000.0
+  },
+  {
+   "lot": null,
+   "attributaire": "Sté BOUYA FER",
+   "montant": 900000.0
+  }
+ ],
+ "soumissionnaires": [
+  {
+   "nom": "Sté BOUYA FER",
+   "montant_acte_engagement": 900000.0,
+   "montant_apres_verification": 900000.0,
+   "autres_montants": [],
+   "lots": [
+    "Unique"
+   ],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "IOIIRNAT]X DATE DE",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "depose",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "PARUTION",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "depose",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "OBSERVATION",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "depose",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "LE MATIN",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "depose",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "ASSAHRAE AL MAGHRIBIA",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "depose",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "fi,t",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "depose",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 7,
+ "alertes_ocr": [],
+ "notes_ocr": [],
+ "qualite": "attribution"
+}

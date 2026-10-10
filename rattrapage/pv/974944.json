@@ -1,0 +1,90 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "974944",
+ "orgAcronyme": "g3h",
+ "reference_pv": null,
+ "nouveau": true,
+ "reference": null,
+ "objet": "Travaux d’approfondissement et d'équipement d’un puits au niveau du douar Bouaasida relevant de",
+ "acheteur": null,
+ "procedure": "appel d'offres ouvert simplifié",
+ "categorie": "Travaux",
+ "date_limite_plis": "10/11/2025",
+ "lieu_ouverture": "la salle de réunion au siège du secrétariat Général de la province de Taroudannt",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "17/11/2025",
+ "justification": null,
+ "infructueux": false,
+ "attributaire": "Société OUBRAIM, sarl",
+ "montant_attribue": 555000.0,
+ "attributaires_par_lot": [
+  {
+   "lot": null,
+   "attributaire": "Société OUBRAIM, sarl",
+   "montant": 555000.0
+  },
+  {
+   "lot": null,
+   "attributaire": "Société MAROCBELG, sarl",
+   "montant": 587220.0
+  },
+  {
+   "lot": null,
+   "attributaire": "Société CREUSEMENT DES PUITS, sarl",
+   "montant": 650520.0
+  },
+  {
+   "lot": null,
+   "attributaire": "Société ENZBAY TRAVAUX, sarl",
+   "montant": 534873.6
+  }
+ ],
+ "soumissionnaires": [
+  {
+   "nom": "Société OUBRAIM, sarl",
+   "montant_acte_engagement": 555000.0,
+   "montant_apres_verification": 555000.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Société MAROCBELG, sarl",
+   "montant_acte_engagement": 587220.0,
+   "montant_apres_verification": 587220.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Société CREUSEMENT DES PUITS, sarl",
+   "montant_acte_engagement": 650520.0,
+   "montant_apres_verification": 650520.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Société ENZBAY TRAVAUX, sarl",
+   "montant_acte_engagement": 534873.6,
+   "montant_apres_verification": 534873.6,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 4,
+ "alertes_ocr": [],
+ "notes_ocr": [
+  "Maître d'ouvrage absent du PV (utiliser l'acheteur public du portail)."
+ ],
+ "qualite": "attribution"
+}

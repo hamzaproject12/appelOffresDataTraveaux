@@ -1,0 +1,85 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "745820",
+ "orgAcronyme": "g3h",
+ "reference_pv": null,
+ "nouveau": true,
+ "reference": null,
+ "objet": null,
+ "acheteur": "GOUVERNEUR DE LA PROVINCE D'AL HOCEIMA",
+ "procedure": null,
+ "categorie": "Travaux",
+ "date_limite_plis": null,
+ "lieu_ouverture": null,
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": null,
+ "justification": null,
+ "infructueux": false,
+ "attributaire": "et Norjiba SARL",
+ "montant_attribue": null,
+ "attributaires_par_lot": [
+  {
+   "lot": null,
+   "attributaire": "et Norjiba SARL",
+   "montant": null
+  },
+  {
+   "lot": null,
+   "attributaire": "AMC PROJECT SARL",
+   "montant": null
+  }
+ ],
+ "soumissionnaires": [
+  {
+   "nom": "Groupement de sociétés \" AMCOJECTSARLetNorjibaSARL",
+   "montant_acte_engagement": 921383.18,
+   "montant_apres_verification": null,
+   "autres_montants": [
+    921383.18
+   ],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "PR2-Sté ZIANI OBRAS s.a.r.l",
+   "montant_acte_engagement": 1560249.0,
+   "montant_apres_verification": null,
+   "autres_montants": [
+    1560249.0
+   ],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "et Norjiba SARL",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "AMC PROJECT SARL",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 4,
+ "alertes_ocr": [
+  "Montant de l'attributaire « et Norjiba SARL » non trouvé.",
+  "Montant de l'attributaire « AMC PROJECT SARL » non trouvé."
+ ],
+ "notes_ocr": [],
+ "qualite": "complet"
+}

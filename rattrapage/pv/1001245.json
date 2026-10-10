@@ -1,0 +1,58 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "1001245",
+ "orgAcronyme": "g3h",
+ "reference_pv": null,
+ "nouveau": true,
+ "reference": null,
+ "objet": "TRAVAUX D'AMENAGEMENT DE LA ROCADE NORD DE KENITRA RELIANT LA ROCADE SUD A L'ACCES DE LA VILLE COTE TANGER",
+ "acheteur": "la Société Kénitra Aménagement et Développement",
+ "procedure": "appel d'offres ouvert international",
+ "categorie": "Travaux",
+ "date_limite_plis": "26/03/2026",
+ "lieu_ouverture": "Siege de la Société Kénitra Aménagement et Développement",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "02/04/2026",
+ "justification": "l’offre économiquement la plus avantageuse (la mieux-disante).",
+ "infructueux": false,
+ "attributaire": "Société CAMPEZO de Rabat",
+ "montant_attribue": 91189122.0,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "Société CAMPEZO de Rabat",
+   "montant_acte_engagement": 91189122.0,
+   "montant_apres_verification": 91189122.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Société EMACOTRA SARL de Rabat",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_dossier_administratif_technique",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Société VIAS de Casablanca",
+   "montant_acte_engagement": 94540237.2,
+   "montant_apres_verification": 94540237.2,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 3,
+ "alertes_ocr": [],
+ "notes_ocr": [],
+ "qualite": "complet"
+}

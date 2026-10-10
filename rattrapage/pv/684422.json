@@ -1,0 +1,81 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "684422",
+ "orgAcronyme": "m1w",
+ "reference_pv": "04/CCISLSH/2022",
+ "nouveau": true,
+ "reference": "04/CCISLSH/2022",
+ "objet": null,
+ "acheteur": null,
+ "procedure": "appel d'offres ouvert",
+ "categorie": "Travaux",
+ "date_limite_plis": "09/12/2022",
+ "lieu_ouverture": "salle de réunion à la chambre de commerce d'industrie et de services région laayoune sakia elhamra à laayoune",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "13/12/2022",
+ "justification": "L'offrela moins distante jugée acceptable par la commission de jugement des offres.",
+ "infructueux": false,
+ "attributaire": null,
+ "montant_attribue": null,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "STE GIDITAL",
+   "montant_acte_engagement": 9092754.0,
+   "montant_apres_verification": 10157922.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "STE SUNFREE TRAVAUX ET SERVICES",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "depose",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "STE SOGETRACOF MAROC",
+   "montant_acte_engagement": 9481933.8,
+   "montant_apres_verification": 9481933.8,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "STE LA SOCIETE NOUVELLE",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_dossier_administratif_technique",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "STE SOGUAMAC",
+   "montant_acte_engagement": 10962588.0,
+   "montant_apres_verification": 10962588.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 5,
+ "alertes_ocr": [
+  "Attributaire non trouvé."
+ ],
+ "notes_ocr": [
+  "« STE GIDITAL » : montant rectifié de 9 092 754.00 à 10 157 922.00 DH.",
+  "Maître d'ouvrage absent du PV (utiliser l'acheteur public du portail)."
+ ],
+ "qualite": "complet"
+}

@@ -1,0 +1,55 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "1044027",
+ "orgAcronyme": "e5w",
+ "reference_pv": "02/CAC/2026",
+ "nouveau": true,
+ "reference": "02/CAC/2026",
+ "objet": "Extension du réseau d'électricité au centre de la commune Ain Cheggag, province de Sefrou",
+ "acheteur": "commune Ain Cheggag",
+ "procedure": "appel d'offres ouvert national",
+ "categorie": "Travaux",
+ "date_limite_plis": "15/09/2026",
+ "lieu_ouverture": "des",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "28/09/2026",
+ "justification": "l’offre économiquement la plus avantageuse.",
+ "infructueux": false,
+ "attributaire": "Société : PLANET INDUSTRY Sarl",
+ "montant_attribue": 1365064.2,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "Société : PLANET INDUSTRY Sarl",
+   "montant_acte_engagement": 1365064.2,
+   "montant_apres_verification": 365064.2,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Société : FIABETECH",
+   "montant_acte_engagement": 1370328.6,
+   "montant_apres_verification": 370328.6,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 2,
+ "alertes_ocr": [
+  "« Société : PLANET INDUSTRY Sarl » : écart anormal entre montant initial et vérifié (lecture à vérifier).",
+  "« Société : FIABETECH » : écart anormal entre montant initial et vérifié (lecture à vérifier)."
+ ],
+ "notes_ocr": [
+  "« Société : PLANET INDUSTRY Sarl » : montant rectifié de 1 365 064.20 à 365 064.20 DH.",
+  "« Société : FIABETECH » : montant rectifié de 1 370 328.60 à 370 328.60 DH."
+ ],
+ "qualite": "complet"
+}

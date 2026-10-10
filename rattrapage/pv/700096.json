@@ -1,0 +1,62 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "700096",
+ "orgAcronyme": "j0w",
+ "reference_pv": "02/2023/BR",
+ "nouveau": true,
+ "reference": "02/2023/BR",
+ "objet": "TRAVAUX DE CONSTRUCTION DE LA ROUTE RELIANT PISTE AMENAGEE ET DOUAR IZOUNA PASSANT PAR LES DOUARS TIKSIT, AGUERZRA ET TINIZININE AVEC ANTENNE VERS DOUAR TAMGOUNSI A LA COMMUNE TERRITORIALE IMINDOUNITE PROVINCE",
+ "acheteur": "LA REGION MARRAKECH-SAFI",
+ "procedure": "appel d'offres ouvert",
+ "categorie": "Travaux",
+ "date_limite_plis": "07/02/2023",
+ "lieu_ouverture": "LE CONSEIL DE LA REGION MARRAKECH SAFI",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": null,
+ "justification": null,
+ "infructueux": false,
+ "attributaire": "Société SOMLAKO",
+ "montant_attribue": 26322664.8,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "Société SOMLAKO",
+   "montant_acte_engagement": 26322664.8,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Société ATLAS TRAVAUX PUBLICS",
+   "montant_acte_engagement": 36790504.8,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Société SAKITRA",
+   "montant_acte_engagement": 40327939.2,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 3,
+ "alertes_ocr": [
+  "« Société SOMLAKO » absent de la liste des plis déposés (nom mal lu ?).",
+  "« Société ATLAS TRAVAUX PUBLICS » absent de la liste des plis déposés (nom mal lu ?).",
+  "« Société SAKITRA » absent de la liste des plis déposés (nom mal lu ?)."
+ ],
+ "notes_ocr": [],
+ "qualite": "complet"
+}

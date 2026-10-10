@@ -1,0 +1,85 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "685935",
+ "orgAcronyme": "p8x",
+ "reference_pv": "34/2022",
+ "nouveau": true,
+ "reference": "34/2022",
+ "objet": null,
+ "acheteur": null,
+ "procedure": "appel d'offres ouvert",
+ "categorie": "Travaux",
+ "date_limite_plis": null,
+ "lieu_ouverture": null,
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": null,
+ "justification": null,
+ "infructueux": false,
+ "attributaire": "RYAS BATIMENT sarl",
+ "montant_attribue": null,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "Grpt BOUSNAL sarl et IMALALNE sa",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_dossier_administratif_technique",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "RYAS BATIMENT sarl",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "TRAVAUX DE DEMOLITION DES CONSTRUCTIONS EXISTANTES DANS 32 ETABLISSEMENTS SCOLAIRES PRIMAIRES RELEVANT",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_dossier_administratif_technique",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "DE LA DIRECTION PROVINCIALE DE SKHIRAT TEMARA EN LOT UNIQUE",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_dossier_administratif_technique",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Para B du decret 2-12-349 du 20 Mars",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_dossier_administratif_technique",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 5,
+ "alertes_ocr": [
+  "« RYAS BATIMENT sarl » absent de la liste des plis déposés (nom mal lu ?).",
+  "Montant de l'attributaire « RYAS BATIMENT sarl » non trouvé."
+ ],
+ "notes_ocr": [
+  "« Grpt BOUSNAL sarl et IMALALNE sa » absent de la liste des plis déposés (nom mal lu ?).",
+  "« TRAVAUX DE DEMOLITION DES CONSTRUCTIONS EXISTANTES DANS 32 ETABLISSEMENTS SCOLAIRES PRIMAIRES RELEVANT » absent de la liste des plis déposés (nom mal lu ?).",
+  "« DE LA DIRECTION PROVINCIALE DE SKHIRAT TEMARA EN LOT UNIQUE » absent de la liste des plis déposés (nom mal lu ?).",
+  "« Para B du decret 2-12-349 du 20 Mars » absent de la liste des plis déposés (nom mal lu ?).",
+  "Maître d'ouvrage absent du PV (utiliser l'acheteur public du portail)."
+ ],
+ "qualite": "participants"
+}

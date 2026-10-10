@@ -1,0 +1,73 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "712935",
+ "orgAcronyme": "d4q",
+ "reference_pv": "121/DR6/C/2022",
+ "nouveau": true,
+ "reference": "121/DR6/C/2022",
+ "objet": "- Date et heure d'ouverture des plis: 20/12/2022 10:00 (Ouverture en un seul temps)",
+ "acheteur": null,
+ "procedure": "appel d'offres ouvert national",
+ "categorie": "Travaux",
+ "date_limite_plis": "20/12/2022",
+ "lieu_ouverture": "au Siège de la Direction Régionale de l'Oriental (DR6) Place 18 Mars 2003 - Oujda - Maroc",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "11/05/2023",
+ "justification": "Moins-disant",
+ "infructueux": false,
+ "attributaire": "Délai d'exécution: 4 mois",
+ "montant_attribue": 1360700.4,
+ "attributaires_par_lot": [
+  {
+   "lot": null,
+   "attributaire": "Délai d'exécution: 4 mois",
+   "montant": 1360700.4
+  },
+  {
+   "lot": null,
+   "attributaire": "INDUS POMPES (OUJDA) - Offre de",
+   "montant": 1360700.4
+  }
+ ],
+ "soumissionnaires": [
+  {
+   "nom": "INDUS POMPES (OUJDA) - Offre de",
+   "montant_acte_engagement": 1360700.4,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "ROUTEST MAROC",
+   "montant_acte_engagement": 1267812.0,
+   "montant_apres_verification": 1267812.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_dossier_administratif_technique",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Délai d'exécution: 4 mois",
+   "montant_acte_engagement": 1360700.4,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 3,
+ "alertes_ocr": [
+  "« Délai d'exécution: 4 mois » absent de la liste des plis déposés (nom mal lu ?)."
+ ],
+ "notes_ocr": [
+  "Maître d'ouvrage absent du PV (utiliser l'acheteur public du portail)."
+ ],
+ "qualite": "complet"
+}

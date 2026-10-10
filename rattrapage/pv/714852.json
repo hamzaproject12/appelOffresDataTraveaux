@@ -1,0 +1,60 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "714852",
+ "orgAcronyme": "o8p",
+ "reference_pv": "11/2023",
+ "nouveau": true,
+ "reference": "11/2023",
+ "objet": "Travaux de signalisation routière de la route RP1506 du PK 0+000 au PK 30+000 et du PK 62+000 au PK 75+000, Province Ouarzazate",
+ "acheteur": "DPETLE OUARZAZATE",
+ "procedure": null,
+ "categorie": "Travaux",
+ "date_limite_plis": "09/05/2023",
+ "lieu_ouverture": "DPETLE OUARZAZATE",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": null,
+ "justification": "L'offre est avantageuse (l'offre est la moins disante).",
+ "infructueux": false,
+ "attributaire": null,
+ "montant_attribue": null,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "Société La ligne blanche (S.A)",
+   "montant_acte_engagement": 504000.0,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Société Atelier Teuli (sarl)",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_dossier_administratif_technique",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Société CHAMAL SIGNALISATION (Sarl)",
+   "montant_acte_engagement": 444000.0,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 3,
+ "alertes_ocr": [
+  "Attributaire non trouvé."
+ ],
+ "notes_ocr": [],
+ "qualite": "complet"
+}

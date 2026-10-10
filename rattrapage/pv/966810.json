@@ -1,0 +1,87 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "966810",
+ "orgAcronyme": "o8p",
+ "reference_pv": "39/AO00/DPTR-ANP/2025",
+ "nouveau": true,
+ "reference": "39/AO00/DPTR-ANP/2025",
+ "objet": null,
+ "acheteur": "Direction du Port de Tanger et Région",
+ "procedure": null,
+ "categorie": "Travaux",
+ "date_limite_plis": "11/12/2025",
+ "lieu_ouverture": "DPTR- Port de Tanger",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "15/12/2025",
+ "justification": null,
+ "infructueux": false,
+ "attributaire": "TAHIRI ATLAS",
+ "montant_attribue": 292000.0,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "OUAFEL AND CO TAHIRI ATLAS",
+   "montant_acte_engagement": 421200.0,
+   "montant_apres_verification": 421200.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "SAKAT JISHIMMARO",
+   "montant_acte_engagement": 420000.0,
+   "montant_apres_verification": 420000.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "ZF PRO COBRA OASIS",
+   "montant_acte_engagement": 421800.0,
+   "montant_apres_verification": 421800.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "STAR EDGE ART D'ENVIRONNEMENT",
+   "montant_acte_engagement": 420900.0,
+   "montant_apres_verification": 420900.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "AKRAM-ANOUAR BATIMENTS ET TRAVAUX PUBLICS (SAKANBTP)",
+   "montant_acte_engagement": 427200.0,
+   "montant_apres_verification": 427200.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "TAHIRI ATLAS",
+   "montant_acte_engagement": 292000.0,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 6,
+ "alertes_ocr": [
+  "« TAHIRI ATLAS » absent de la liste des plis déposés (nom mal lu ?)."
+ ],
+ "notes_ocr": [],
+ "qualite": "complet"
+}

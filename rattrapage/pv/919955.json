@@ -1,0 +1,49 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "919955",
+ "orgAcronyme": "g3h",
+ "reference_pv": "66/25/EAU",
+ "nouveau": true,
+ "reference": "66/25/EAU",
+ "objet": "Travaux de maintenance des appareils de pression et des équipements de",
+ "acheteur": "Société Régionale Multi-Services Marrakech-Safi",
+ "procedure": "appel d'offres ouvert",
+ "categorie": "Travaux",
+ "date_limite_plis": "17/06/2025",
+ "lieu_ouverture": "au Siège de la SRM-MS Boulevard Mohamed VI MARRAKECH",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "28/07/2025",
+ "justification": "l’offre économiquement la plus avantageuse (moins disante).",
+ "infructueux": false,
+ "attributaire": "SCADELEC",
+ "montant_attribue": 936000.0,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "SCADELEC",
+   "montant_acte_engagement": 936000.0,
+   "montant_apres_verification": 936000.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "SOLO ELCTRONIQUE",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_dossier_administratif_technique",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 2,
+ "alertes_ocr": [],
+ "notes_ocr": [],
+ "qualite": "attribution"
+}

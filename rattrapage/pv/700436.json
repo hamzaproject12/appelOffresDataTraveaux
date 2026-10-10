@@ -1,0 +1,70 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "700436",
+ "orgAcronyme": "g3h",
+ "reference_pv": null,
+ "nouveau": true,
+ "reference": null,
+ "objet": null,
+ "acheteur": "la Régie Autonome Intercommunale de Distribution d'Eau et d’Électricité de SAFI (RADEES)",
+ "procedure": "appel d'offres ouvert",
+ "categorie": "Travaux",
+ "date_limite_plis": "02/03/2023",
+ "lieu_ouverture": "salle de réunion de la RADEES sis à Avenue Idriss 1er B.P:218 SAFT",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": null,
+ "justification": "La Commission d’appel d’offres se base dans le choix des dossiers retenus sur l’exhaustivité du dossier administratif, sur la conformité technique et l’avantage de l’offi:e financière.",
+ "infructueux": false,
+ "attributaire": "JDIDA IMFROVEMENT",
+ "montant_attribue": 568080.0,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "ELECTRICITE MANAR- MEGA ELECTRO",
+   "montant_acte_engagement": 718020.0,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "LUMIERE- JDIDA IMPROVEMENT-STE SDBTP et NOURAZINOV",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "STE SDBTP",
+   "montant_acte_engagement": 625680.0,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "JDIDA IMFROVEMENT",
+   "montant_acte_engagement": 568080.0,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 4,
+ "alertes_ocr": [
+  "« STE SDBTP » absent de la liste des plis déposés (nom mal lu ?).",
+  "« JDIDA IMFROVEMENT » absent de la liste des plis déposés (nom mal lu ?)."
+ ],
+ "notes_ocr": [],
+ "qualite": "complet"
+}

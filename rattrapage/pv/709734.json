@@ -1,0 +1,70 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "709734",
+ "orgAcronyme": "h5r",
+ "reference_pv": "01/2023",
+ "nouveau": true,
+ "reference": "01/2023",
+ "objet": "TRAVAUX DE RACCORDEMENT SOUTERRAIN 2° CATEGORIE DU POSTE DE TRANSFORMATION DU SOUK HEBDOMADAIRE DE GUISSER RELEVANT DE LA COMMUNE DE GUISSER -— PROVINCE DE SETTAT",
+ "acheteur": "Commune de Guisser",
+ "procedure": "appel d'offres ouvert",
+ "categorie": "Travaux",
+ "date_limite_plis": "15/03/2023",
+ "lieu_ouverture": "siège de la Commune de Guisser",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "15/03/2023",
+ "justification": "offre avantageuse",
+ "infructueux": false,
+ "attributaire": "Société NAXU",
+ "montant_attribue": 1435974.0,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "Société NAXU - Société AKACH FIEC sarl",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Société BATISTAR sarl",
+   "montant_acte_engagement": 1436208.0,
+   "montant_apres_verification": 1436208.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_offre_financiere",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Société NAXU",
+   "montant_acte_engagement": 1435974.0,
+   "montant_apres_verification": 1435974.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Société AKACH ELEC sarl",
+   "montant_acte_engagement": 1441946.4,
+   "montant_apres_verification": 1441946.4,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 4,
+ "alertes_ocr": [
+  "« Société NAXU » absent de la liste des plis déposés (nom mal lu ?).",
+  "« Société AKACH ELEC sarl » absent de la liste des plis déposés (nom mal lu ?)."
+ ],
+ "notes_ocr": [],
+ "qualite": "complet"
+}

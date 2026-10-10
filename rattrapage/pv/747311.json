@@ -1,0 +1,49 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "747311",
+ "orgAcronyme": "f9f",
+ "reference_pv": "05/2023",
+ "nouveau": true,
+ "reference": "05/2023",
+ "objet": null,
+ "acheteur": "Commune Dcheira EI Jihadia",
+ "procedure": "appel d'offres ouvert",
+ "categorie": "Travaux",
+ "date_limite_plis": "26/09/2023",
+ "lieu_ouverture": "Salle de réunion n° 108 Hôtel de ville",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "13/10/2023",
+ "justification": "- Dossier Administratif, Technique, offres techniques conformes. - Offre financière le moins disant et plus avantageux.",
+ "infructueux": false,
+ "attributaire": "Société BRAMOC",
+ "montant_attribue": 60360.0,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "Société OULHINT",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_dossier_administratif_technique",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Société BRAMOC",
+   "montant_acte_engagement": 60360.0,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 2,
+ "alertes_ocr": [],
+ "notes_ocr": [],
+ "qualite": "attribution"
+}

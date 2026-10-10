@@ -1,0 +1,85 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "1023364",
+ "orgAcronyme": "q1s",
+ "reference_pv": null,
+ "nouveau": true,
+ "reference": null,
+ "objet": null,
+ "acheteur": "L'Office Régional de Mise en Valeur Agricole du Loukkos",
+ "procedure": "appel d'offres ouvert",
+ "categorie": "Travaux",
+ "date_limite_plis": "01/06/2026",
+ "lieu_ouverture": "Siège de L'Office Régional de Mise en Valeur Agricole du Loukkos à Ksar El Kébir",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "23/06/2026",
+ "justification": "L’offre la plus avantageuse TS",
+ "infructueux": false,
+ "attributaire": "STE ZIYAD TRAVAUX DIVERS",
+ "montant_attribue": 1939200.0,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "MEAH (LA MAROCAINE DES EAUX ET D'AUTOMATISME HYDRAULIQUE)",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_dossier_administratif_technique",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "PEMAVAC",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_dossier_administratif_technique",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "TECHNOPOLE INDUSTRIE",
+   "montant_acte_engagement": 1800000.0,
+   "montant_apres_verification": 1800000.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "TOUR ET FERE",
+   "montant_acte_engagement": 2068056.0,
+   "montant_apres_verification": 2068056.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "STE ZIYAD TRAVAUX DIVERS",
+   "montant_acte_engagement": 1939200.0,
+   "montant_apres_verification": 1939200.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "LAMDA TECHNOLOGY",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_dossier_administratif_technique",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 6,
+ "alertes_ocr": [],
+ "notes_ocr": [],
+ "qualite": "complet"
+}

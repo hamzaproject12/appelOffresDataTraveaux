@@ -1,0 +1,73 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "802185",
+ "orgAcronyme": "g3h",
+ "reference_pv": "02/2024/ND/PROA-T2",
+ "nouveau": true,
+ "reference": "02/2024/ND/PROA-T2",
+ "objet": "TRAVAUX D’AMENAGEMENT ET DE CONSTRUCTION DES PISTES RURALES RELEVANT DU TERRITOIRE DE LA COMMUNE OULED AZZOUZ- TRANCHE 2",
+ "acheteur": "La Commune de Ouled Azzouz",
+ "procedure": "appel d'offres ouvert",
+ "categorie": "Travaux",
+ "date_limite_plis": null,
+ "lieu_ouverture": null,
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "31/05/2024",
+ "justification": "la société ayant la meilleure offre (moins disante).",
+ "infructueux": false,
+ "attributaire": "SFTGC & TRAINVEST",
+ "montant_attribue": 11688345.6,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "SFTGC & TRAINVEST",
+   "montant_acte_engagement": 11688345.6,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "MESKI DES TRAVAUX DIVERS & SOURCE BLEU",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": true
+  },
+  {
+   "nom": "GRANDS PROJETS SBGP",
+   "montant_acte_engagement": 13210611.6,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": true
+  },
+  {
+   "nom": "DSN TRAVAUX & KELM INVEST",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_dossier_administratif_technique",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 4,
+ "alertes_ocr": [
+  "« SFTGC & TRAINVEST » absent de la liste des plis déposés (nom mal lu ?).",
+  "« GRANDS PROJETS SBGP » absent de la liste des plis déposés (nom mal lu ?)."
+ ],
+ "notes_ocr": [
+  "« MESKI DES TRAVAUX DIVERS & SOURCE BLEU » absent de la liste des plis déposés (nom mal lu ?).",
+  "« DSN TRAVAUX & KELM INVEST » absent de la liste des plis déposés (nom mal lu ?)."
+ ],
+ "qualite": "complet"
+}

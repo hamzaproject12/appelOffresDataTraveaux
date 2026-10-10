@@ -1,0 +1,96 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "1010640",
+ "orgAcronyme": "g3h",
+ "reference_pv": "10007618",
+ "nouveau": true,
+ "reference": "10007618",
+ "objet": "TRAVAUX DE REALISATION DU RESEAU PRIMAIRE D'EAU POTABLE DE L’AXE SIDI MOUSSA LAMHAY A DANS LA PREFECTURE OUJDA-ANGAD",
+ "acheteur": null,
+ "procedure": null,
+ "categorie": "Travaux",
+ "date_limite_plis": "23/04/2026",
+ "lieu_ouverture": "Siège de la SRM-ORI",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": null,
+ "justification": "Offre moins-disante conforme. A1/o06/14",
+ "infructueux": false,
+ "attributaire": "STE SOMAGITRAKE",
+ "montant_attribue": 6014395.8,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "STE HYDRAUPEQUE",
+   "montant_acte_engagement": 6862208.22,
+   "montant_apres_verification": 6862208.22,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "STE TIEC/ABB EAUX (G. CONJOINT)",
+   "montant_acte_engagement": 6568010.06,
+   "montant_apres_verification": 6568010.06,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": true
+  },
+  {
+   "nom": "STE WATEGA",
+   "montant_acte_engagement": 6883947.0,
+   "montant_apres_verification": 6883947.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "STE HYDRO MCM/CAH (G. SOLIDAIRE)",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_dossier_administratif_technique",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "STE SOMAGITRAKE",
+   "montant_acte_engagement": 6014395.8,
+   "montant_apres_verification": 6014395.8,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "STE SONARAM",
+   "montant_acte_engagement": 6869454.48,
+   "montant_apres_verification": 6869454.48,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "STE AZDOUR",
+   "montant_acte_engagement": 6050627.1,
+   "montant_apres_verification": 6050627.1,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 7,
+ "alertes_ocr": [],
+ "notes_ocr": [
+  "Maître d'ouvrage absent du PV (utiliser l'acheteur public du portail)."
+ ],
+ "qualite": "complet"
+}

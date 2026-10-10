@@ -1,0 +1,67 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "747956",
+ "orgAcronyme": "z7x",
+ "reference_pv": null,
+ "nouveau": true,
+ "reference": null,
+ "objet": null,
+ "acheteur": "La Présidence de l'Université Abdelmalek Essaâdi",
+ "procedure": null,
+ "categorie": "Travaux",
+ "date_limite_plis": "20/09/2023",
+ "lieu_ouverture": "La Présidence de l'Université Abdelmalek Essaâdi",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "12/10/2023",
+ "justification": "le moins disant.",
+ "infructueux": false,
+ "attributaire": "SOCIETE ALK MEDITERRANEE SARL",
+ "montant_attribue": 9906168.0,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "SOCIETE ARBOCO SARL",
+   "montant_acte_engagement": 10599852.0,
+   "montant_apres_verification": 10599852.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "SOCIETE ALK MEDITERRANEE SARL",
+   "montant_acte_engagement": 9906168.0,
+   "montant_apres_verification": 9906168.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": true
+  },
+  {
+   "nom": "SOCIETE SOBATAGOUMI SARL",
+   "montant_acte_engagement": 11599941.6,
+   "montant_apres_verification": 11599941.6,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "SOCIETE MARCHOUH DE BATIMENT SARL",
+   "montant_acte_engagement": 12558852.0,
+   "montant_apres_verification": 12558852.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 4,
+ "alertes_ocr": [],
+ "notes_ocr": [],
+ "qualite": "complet"
+}

@@ -1,0 +1,116 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "995032",
+ "orgAcronyme": "o8p",
+ "reference_pv": "25T073",
+ "nouveau": true,
+ "reference": "25T073",
+ "objet": "LIGNE FERROVIAIRE BENGUERIR - SAFI",
+ "acheteur": null,
+ "procedure": null,
+ "categorie": "Travaux",
+ "date_limite_plis": "18/03/2026",
+ "lieu_ouverture": "Institut de Formation et de Développement de Compétences de l'ONCF",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "17/04/2026",
+ "justification": "Offres moins disantes.",
+ "infructueux": false,
+ "attributaire": "Groupement: LOT",
+ "montant_attribue": 1126634856.52,
+ "attributaires_par_lot": [
+  {
+   "lot": null,
+   "attributaire": "Groupement: LOT",
+   "montant": 1126634856.52
+  },
+  {
+   "lot": "3",
+   "attributaire": "BO TECHNOLOGY",
+   "montant": 41209920.0
+  },
+  {
+   "lot": "3",
+   "attributaire": "LUMIERES ET TECHNOLOGIE",
+   "montant": 94200508.8
+  }
+ ],
+ "soumissionnaires": [
+  {
+   "nom": "Groupement KARIM GENERAL ENTREPRISE (KGE) / ULTRANET MULTIMEDIA /KIKTRAV",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [
+    "1"
+   ],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "COLAS RAIL MAROC",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [
+    "1"
+   ],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "BO TECHNOLOGY",
+   "montant_acte_engagement": 41209920.0,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [
+    "1",
+    "3"
+   ],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "LUMIERES ET TECHNOLOGIE",
+   "montant_acte_engagement": 94200508.8,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [
+    "1",
+    "3"
+   ],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Groupement TSO et TSO RAIL",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "depose",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Groupement: LOT",
+   "montant_acte_engagement": 1126634856.52,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 6,
+ "alertes_ocr": [
+  "« Groupement: LOT » absent de la liste des plis déposés (nom mal lu ?)."
+ ],
+ "notes_ocr": [
+  "Marché alloti (2 lots).",
+  "Maître d'ouvrage absent du PV (utiliser l'acheteur public du portail)."
+ ],
+ "qualite": "attribution"
+}

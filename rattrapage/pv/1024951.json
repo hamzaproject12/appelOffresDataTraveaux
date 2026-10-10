@@ -1,0 +1,84 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "1024951",
+ "orgAcronyme": "o8p",
+ "reference_pv": "261033/PLGV",
+ "nouveau": true,
+ "reference": "261033/PLGV",
+ "objet": "de Travaux de raccordement au réseau 60 kV ONEE de sous-stations ONCF de la ligne ferroviaire l’Appel classique KENITRA — MARRAKECH",
+ "acheteur": "M. le Directeur Equipements ferroviaires du Pole Projets LGV",
+ "procedure": "appel d'offres ouvert",
+ "categorie": "Travaux",
+ "date_limite_plis": "09/07/2026",
+ "lieu_ouverture": "Institut de Formation et de Développement de Compétences l'ONCF",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "17/07/2026",
+ "justification": "offre moins disante et conforme.",
+ "infructueux": false,
+ "attributaire": "LUMAFRIC",
+ "montant_attribue": 34587840.0,
+ "attributaires_par_lot": [
+  {
+   "lot": "1",
+   "attributaire": "LUMAFRIC",
+   "montant": 34587840.0
+  },
+  {
+   "lot": "2",
+   "attributaire": "SAFARELEC SARL",
+   "montant": 197500000.0
+  }
+ ],
+ "soumissionnaires": [
+  {
+   "nom": "LUMAFRIC",
+   "montant_acte_engagement": 34587840.0,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [
+    "1"
+   ],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "SGEE SARL",
+   "montant_acte_engagement": 35169200.0,
+   "montant_apres_verification": null,
+   "autres_montants": [
+    233044350.76
+   ],
+   "lots": [
+    "1"
+   ],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "SAFARELEC SARL",
+   "montant_acte_engagement": 197500000.0,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [
+    "1",
+    "2"
+   ],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 3,
+ "alertes_ocr": [
+  "« SGEE SARL » absent de la liste des plis déposés (nom mal lu ?).",
+  "« SAFARELEC SARL » absent de la liste des plis déposés (nom mal lu ?)."
+ ],
+ "notes_ocr": [
+  "Marché alloti (2 lots).",
+  "Montants exprimés hors taxes (HT)."
+ ],
+ "qualite": "complet"
+}

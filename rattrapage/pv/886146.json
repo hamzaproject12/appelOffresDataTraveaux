@@ -1,0 +1,54 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "886146",
+ "orgAcronyme": "g8e",
+ "reference_pv": "63/2025",
+ "nouveau": true,
+ "reference": "63/2025",
+ "objet": "TRAVAUX D'ELECTRIFICATION D'UNE STATION DE POMPAGE A LA COMMUNE FOUM EL ANCEUR, PROVINCE DE BENI MELLAL",
+ "acheteur": "Agence Régionale d'Exécution des Projets Région Béni Mellal-Khénifra",
+ "procedure": null,
+ "categorie": "Travaux",
+ "date_limite_plis": "10/04/2025",
+ "lieu_ouverture": "Salle de réunion de l’AREP région Beni Mellal Khénifra Sis Bd Med V lotissement lala Hayat immeuble n°3, 4éme et 5ÉME étage Béni Mellal",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "10/04/2025",
+ "justification": null,
+ "infructueux": false,
+ "attributaire": null,
+ "montant_attribue": null,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "VOX ED 12)",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "bris OU",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": true
+  }
+ ],
+ "nombre_soumissionnaires": 2,
+ "alertes_ocr": [
+  "Attributaire non trouvé."
+ ],
+ "notes_ocr": [
+  "« VOX ED 12) » absent de la liste des plis déposés (nom mal lu ?).",
+  "« bris OU » absent de la liste des plis déposés (nom mal lu ?)."
+ ],
+ "qualite": "participants"
+}

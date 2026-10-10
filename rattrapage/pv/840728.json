@@ -1,0 +1,53 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "840728",
+ "orgAcronyme": "o8p",
+ "reference_pv": "30/2024",
+ "nouveau": true,
+ "reference": "30/2024",
+ "objet": "Travaux ‘d’élargissement et de renforcement de la RN1 du PK1231+000 au PK1236+600 sur 5,6 km Province de Tan-Tan",
+ "acheteur": "DPETL TAN-TAN",
+ "procedure": "appel d'offres ouvert international",
+ "categorie": "Travaux",
+ "date_limite_plis": "10/10/2024",
+ "lieu_ouverture": "les bureaux de la DPETL TAN-TAN",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "22/10/2024",
+ "justification": null,
+ "infructueux": false,
+ "attributaire": "TAAMIR SAHARA GROUP",
+ "montant_attribue": 16934118.0,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "KHMICH",
+   "montant_acte_engagement": 16986696.0,
+   "montant_apres_verification": 16986.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "TAAMIR SAHARA GROUP",
+   "montant_acte_engagement": 16934118.0,
+   "montant_apres_verification": 16934118.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 2,
+ "alertes_ocr": [
+  "« KHMICH » : écart anormal entre montant initial et vérifié (lecture à vérifier)."
+ ],
+ "notes_ocr": [
+  "« KHMICH » : montant rectifié de 16 986 696.00 à 16 986.00 DH."
+ ],
+ "qualite": "complet"
+}

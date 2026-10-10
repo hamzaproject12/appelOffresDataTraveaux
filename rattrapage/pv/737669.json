@@ -1,0 +1,78 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "737669",
+ "orgAcronyme": "g3h",
+ "reference_pv": null,
+ "nouveau": true,
+ "reference": null,
+ "objet": "« TRAVAUX D’ECLAIRAGE PUBLIC DE L'AVENUE HASSAN Il — PREFECTURE SKHIRATE TEMARA » Avec une estimation de LOT N°1: 67.173.000,00 MAD TTC",
+ "acheteur": "Société SKHIRATE TEMARA AMENAGEMENT ET DEVELOPPEMENT SA",
+ "procedure": "appel d'offres ouvert",
+ "categorie": "Travaux",
+ "date_limite_plis": "11/08/2023",
+ "lieu_ouverture": "Salle de réunion de la société sise à lotissement Almostakbel immeuble 22 Témara Maroc",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "23/08/2023",
+ "justification": null,
+ "infructueux": false,
+ "attributaire": "NABILUM",
+ "montant_attribue": 28928568.0,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "NABILUM",
+   "montant_acte_engagement": 28928568.0,
+   "montant_apres_verification": 28928568.0,
+   "autres_montants": [
+    21652464.0
+   ],
+   "lots": [
+    "1",
+    "2",
+    "3"
+   ],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "LAMALIF",
+   "montant_acte_engagement": 64743480.0,
+   "montant_apres_verification": 64743480.0,
+   "autres_montants": [
+    28302960.0
+   ],
+   "lots": [
+    "1",
+    "2",
+    "3"
+   ],
+   "statut": "ecarte_offre_financiere",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "CEGELEC",
+   "montant_acte_engagement": 70771881.6,
+   "montant_apres_verification": 70771881.6,
+   "autres_montants": [
+    21598009.2
+   ],
+   "lots": [
+    "1",
+    "2",
+    "3"
+   ],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 3,
+ "alertes_ocr": [],
+ "notes_ocr": [
+  "Marché alloti (3 lots)."
+ ],
+ "qualite": "complet"
+}

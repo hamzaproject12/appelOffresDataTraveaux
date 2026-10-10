@@ -1,0 +1,80 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "931519",
+ "orgAcronyme": "j0w",
+ "reference_pv": "08/2025/BP",
+ "nouveau": true,
+ "reference": "08/2025/BP",
+ "objet": "TRAVAUX D'AMENAGEMENT DE LA PISTE RELEVANT DE LA COMMUNE TERRITORIALE OD SBIH RELIANT LA RR 206 ET LA RP2108, PROVINCE EL KALAA DES SRAGHNA",
+ "acheteur": null,
+ "procedure": "appel d'offres ouvert",
+ "categorie": "Travaux",
+ "date_limite_plis": "16/09/2025",
+ "lieu_ouverture": "le bureau des réunions du conseil provincial au 2 éme étage de la province El Keläa des Sraghna",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "16/09/2025",
+ "justification": "Offre la plus avantageuse",
+ "infructueux": false,
+ "attributaire": "STE SJ2T SARL",
+ "montant_attribue": 1005263.4,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "STE S2MB TRAP",
+   "montant_acte_engagement": 1038079.44,
+   "montant_apres_verification": 1038079.44,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "STE SJ2T SARL",
+   "montant_acte_engagement": 1005263.4,
+   "montant_apres_verification": 1005263.4,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "GROUPEMENT ENTRE STE SONOTRACO ET STE WINDY TRAVAUX",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "GROUPEMENT ENTRE STE MSA ROUTIER ET STE INNOVA ROUTE",
+   "montant_acte_engagement": 1008263.88,
+   "montant_apres_verification": 1008263.88,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "GROUPEMENT ENTRE STE",
+   "montant_acte_engagement": 1014851.88,
+   "montant_apres_verification": 1014851.88,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 5,
+ "alertes_ocr": [
+  "« GROUPEMENT ENTRE STE » absent de la liste des plis déposés (nom mal lu ?)."
+ ],
+ "notes_ocr": [
+  "Maître d'ouvrage absent du PV (utiliser l'acheteur public du portail)."
+ ],
+ "qualite": "complet"
+}

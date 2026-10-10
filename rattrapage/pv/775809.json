@@ -1,0 +1,49 @@
+{
+ "source": "extrait_docx",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "775809",
+ "orgAcronyme": "g3h",
+ "reference_pv": "04/SAP/SP.IM/2024",
+ "nouveau": true,
+ "reference": "04/SAP/SP.IM/2024",
+ "objet": "LA FOURNITURE, POSE ET LA MISE EN MARCHE DE DEUX POSTE TRANSFORMATION 50 KVA MT/BT AUX SITES STEP1 AFOURAR (BM88) ET TIZGUI ONE (BM81) A LA PROVINCE D’AZILAL –LOT UNIQUE",
+ "acheteur": "Préfecture de Police de Béni Mellal",
+ "procedure": "appel d'offres ouvert simplifié",
+ "categorie": "Travaux",
+ "date_limite_plis": "13/02/2024",
+ "lieu_ouverture": "Siège de la Préfecture de Police de Béni Mellal",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "20/02/2024",
+ "justification": "offre la plus avantageuse pour l’administration.",
+ "infructueux": false,
+ "attributaire": "STE CONSAMAR SARL D’ESSAOUIRA",
+ "montant_attribue": 924012.0,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "STE NIKELEC SARL DE CASABLANCA",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_dossier_administratif_technique",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "STE CONSAMAR SARL D’ESSAOUIRA",
+   "montant_acte_engagement": 924012.0,
+   "montant_apres_verification": 924012.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": true
+  }
+ ],
+ "nombre_soumissionnaires": 2,
+ "alertes_ocr": [],
+ "notes_ocr": [],
+ "qualite": "attribution"
+}

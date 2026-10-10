@@ -1,0 +1,85 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "715338",
+ "orgAcronyme": "g3h",
+ "reference_pv": "23/EA/2023",
+ "nouveau": true,
+ "reference": "23/EA/2023",
+ "objet": "TRAVAUX D'AMENAGEMENT DIVERS AU SIEGE DE LA RADEEO",
+ "acheteur": "RADEEO",
+ "procedure": null,
+ "categorie": "Travaux",
+ "date_limite_plis": "11/04/2023",
+ "lieu_ouverture": "salle de réunion de la RADEEO",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "18/05/2023",
+ "justification": null,
+ "infructueux": false,
+ "attributaire": "Société WINBEST",
+ "montant_attribue": 716743.2,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "Société EDILION",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_offre_technique",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "SLASSI AHMED",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_offre_technique",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Société WINBEST",
+   "montant_acte_engagement": 716743.2,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Société BE-CH TRAVAUX",
+   "montant_acte_engagement": 798600.0,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Société EST NET",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_offre_technique",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "EL BOUJJOUFI RACHID",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "depose",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 6,
+ "alertes_ocr": [],
+ "notes_ocr": [],
+ "qualite": "complet"
+}

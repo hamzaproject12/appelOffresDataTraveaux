@@ -1,0 +1,79 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "680132",
+ "orgAcronyme": "s3z",
+ "reference_pv": null,
+ "nouveau": true,
+ "reference": null,
+ "objet": "de l’Appel d’offre : TRAVAUX D'AMENAGEMENT ET DE L'ELARGISSEMENT DU PARC MUNICIPALE DE SALE PREMIERE TRANCHE",
+ "acheteur": "Commune de Salé",
+ "procedure": "appel d'offres ouvert",
+ "categorie": "Travaux",
+ "date_limite_plis": "03/11/2022",
+ "lieu_ouverture": null,
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "23/11/2022",
+ "justification": "L’offre la plus avantageuse.",
+ "infructueux": false,
+ "attributaire": "Société DAWLI TRAVAUX SARL",
+ "montant_attribue": 4008474.83,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "Société ENTC SARL AU",
+   "montant_acte_engagement": 4231613.72,
+   "montant_apres_verification": 4617173.95,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_dossier_administratif_technique",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Société EL BRIHI DE CONSTRUCTION ET DE TRAVAUX PUBLICS SARL",
+   "montant_acte_engagement": 4772208.77,
+   "montant_apres_verification": 4772208.77,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_dossier_administratif_technique",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Société GEANTRAV SARL AU",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_dossier_administratif_technique",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Société ASCOMED SARL AU",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_dossier_administratif_technique",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Société DAWLI TRAVAUX SARL",
+   "montant_acte_engagement": 3994074.83,
+   "montant_apres_verification": 4008474.83,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 5,
+ "alertes_ocr": [],
+ "notes_ocr": [
+  "« Société ENTC SARL AU » : montant rectifié de 4 231 613.72 à 4 617 173.95 DH.",
+  "« Société DAWLI TRAVAUX SARL » : montant rectifié de 3 994 074.83 à 4 008 474.83 DH."
+ ],
+ "qualite": "complet"
+}

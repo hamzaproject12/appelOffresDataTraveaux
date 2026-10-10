@@ -1,0 +1,49 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "711094",
+ "orgAcronyme": "a1z",
+ "reference_pv": "3/AF/2022",
+ "nouveau": true,
+ "reference": "3/AF/2022",
+ "objet": "ENTRETIEN COURANT DES",
+ "acheteur": "ARRONDISSEMENT AL FIDA",
+ "procedure": "appel d'offres ouvert",
+ "categorie": "Travaux",
+ "date_limite_plis": "20/06/2022",
+ "lieu_ouverture": "BUREAU DU PRESIDENT DE L’ARRONDISSEMENT",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "24/06/2022",
+ "justification": "MOINS DISANT",
+ "infructueux": false,
+ "attributaire": "Groupement société CORIAM et société KOUFACHA ROUTIERS",
+ "montant_attribue": 2637300.0,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "Groupement société BOURANIME ET SOCIETE LABERAGA TRAVAUX",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Groupement société CORIAM et société KOUFACHA ROUTIERS",
+   "montant_acte_engagement": 2637300.0,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 2,
+ "alertes_ocr": [],
+ "notes_ocr": [],
+ "qualite": "attribution"
+}

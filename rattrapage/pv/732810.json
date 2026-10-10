@@ -1,0 +1,71 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "732810",
+ "orgAcronyme": "a1t",
+ "reference_pv": "4/TNG/199-23",
+ "nouveau": true,
+ "reference": "4/TNG/199-23",
+ "objet": "travaux de construction d'une zone d'activité artisanale à la ville de Tanger, (Lot N°4). Maître d'ouvrage: Agence pour la Promotion et le Développement Economique et Social des Préfectures",
+ "acheteur": "Agence pour la Promotion et le Développement Economique et Social des Préfectures et Provinces du Nord du Royaume",
+ "procedure": null,
+ "categorie": "Travaux",
+ "date_limite_plis": "31/07/2023",
+ "lieu_ouverture": null,
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": null,
+ "justification": null,
+ "infructueux": false,
+ "attributaire": null,
+ "montant_attribue": null,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "GUIDE TRAVAUX",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "depose",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "SCOTIM",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "depose",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "TAFILALET TRAVAUX",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "depose",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "COPREF s.a.r.1",
+   "montant_acte_engagement": 22912651.92,
+   "montant_apres_verification": null,
+   "autres_montants": [
+    22912651.92
+   ],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 4,
+ "alertes_ocr": [
+  "Attributaire non trouvé."
+ ],
+ "notes_ocr": [],
+ "qualite": "attribution"
+}

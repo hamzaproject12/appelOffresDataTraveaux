@@ -1,0 +1,93 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "829357",
+ "orgAcronyme": "g8e",
+ "reference_pv": "134/2024",
+ "nouveau": true,
+ "reference": "134/2024",
+ "objet": null,
+ "acheteur": "Agence Régionale d'Exécution des Projets Région Béni Mellal-Khénifra",
+ "procedure": null,
+ "categorie": "Travaux",
+ "date_limite_plis": null,
+ "lieu_ouverture": null,
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "13/09/2024",
+ "justification": "L'offre économiquement la plus avantageuse",
+ "infructueux": false,
+ "attributaire": "STE EGCA",
+ "montant_attribue": 3303176.4,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "1, GRSTE SMATRI&AL ANDALUS ENERGIE RENOUVELLABLE ET L’INGENIERIE DE L’EAU",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "STE SNTRO",
+   "montant_acte_engagement": 3817966.8,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "STE EGCA",
+   "montant_acte_engagement": 3303176.4,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "4, STE OUMOUJANE TRAVAUX",
+   "montant_acte_engagement": 3357093.6,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "GRSTE AIT OUKHALI TRAVAUX&ATLAS BOUGAFER",
+   "montant_acte_engagement": 3285.0,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "GR.STE SMATRI&AL ANDALUS ENERGIE RENOUVELLABLE",
+   "montant_acte_engagement": 3289826.4,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 6,
+ "alertes_ocr": [
+  "« STE SNTRO » absent de la liste des plis déposés (nom mal lu ?).",
+  "« STE EGCA » absent de la liste des plis déposés (nom mal lu ?).",
+  "« 4, STE OUMOUJANE TRAVAUX » absent de la liste des plis déposés (nom mal lu ?).",
+  "« GRSTE AIT OUKHALI TRAVAUX&ATLAS BOUGAFER » absent de la liste des plis déposés (nom mal lu ?).",
+  "« GR.STE SMATRI&AL ANDALUS ENERGIE RENOUVELLABLE » absent de la liste des plis déposés (nom mal lu ?)."
+ ],
+ "notes_ocr": [
+  "« 1, GRSTE SMATRI&AL ANDALUS ENERGIE RENOUVELLABLE ET L’INGENIERIE DE L’EAU » absent de la liste des plis déposés (nom mal lu ?)."
+ ],
+ "qualite": "complet"
+}

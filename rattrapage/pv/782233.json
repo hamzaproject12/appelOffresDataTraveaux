@@ -1,0 +1,74 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "782233",
+ "orgAcronyme": "j8k",
+ "reference_pv": null,
+ "nouveau": true,
+ "reference": null,
+ "objet": "La réalisation des Travaux d’aménagement des abords du lotissement TALAINT II tranche A et C à la collectivité Territoriale de L’QLIAA, Prefecture Inezgane Ait Melloul",
+ "acheteur": null,
+ "procedure": "appel d'offres ouvert",
+ "categorie": "Travaux",
+ "date_limite_plis": "18/03/2024",
+ "lieu_ouverture": "Division des Marchés de la Société Al Omrane souss Massa",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "22/03/2024",
+ "justification": "Concurrent représentant l’offre la plus avantageuse.",
+ "infructueux": false,
+ "attributaire": "Groupement SICATRA & ALPHA GTP",
+ "montant_attribue": 22741775.97,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "Groupement SICATRA & ALPHA GTP",
+   "montant_acte_engagement": 22741775.96,
+   "montant_apres_verification": 22741775.97,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "ALAM EQUIPEMENT (ALEQ)",
+   "montant_acte_engagement": 25990601.11,
+   "montant_apres_verification": 25990601.11,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Groupement SAKITRA & O2E ENERGIE - Groupement SETRAGED & ELECTRIKLIM",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_offre_technique",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Groupement ENTREPRISE DE TRAVAUX ET D’INGENIERIE D’AGADIR (ETIA) & ELECTRIQUE 2002 TAGHZOUT",
+   "montant_acte_engagement": 22741775.97,
+   "montant_apres_verification": 22741775.97,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 4,
+ "alertes_ocr": [
+  "« Groupement SICATRA & ALPHA GTP » absent de la liste des plis déposés (nom mal lu ?).",
+  "« ALAM EQUIPEMENT (ALEQ) » absent de la liste des plis déposés (nom mal lu ?).",
+  "« Groupement ENTREPRISE DE TRAVAUX ET D’INGENIERIE D’AGADIR (ETIA) & ELECTRIQUE 2002 TAGHZOUT » absent de la liste des plis déposés (nom mal lu ?)."
+ ],
+ "notes_ocr": [
+  "« Groupement SAKITRA & O2E ENERGIE - Groupement SETRAGED & ELECTRIKLIM » absent de la liste des plis déposés (nom mal lu ?).",
+  "Maître d'ouvrage absent du PV (utiliser l'acheteur public du portail)."
+ ],
+ "qualite": "complet"
+}

@@ -1,0 +1,74 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "877945",
+ "orgAcronyme": "g3h",
+ "reference_pv": "24/2025/S2A",
+ "nouveau": true,
+ "reference": "24/2025/S2A",
+ "objet": "TRAVAUX D’AMENAGEMENT URBAIN ET PAYSAGERS DE L’ACCES 4 ENTRE LE GIRATOIRE DES FAR ET LE GIRATOIRE D’ABARAZ",
+ "acheteur": null,
+ "procedure": "appel d'offres ouvert",
+ "categorie": "Travaux",
+ "date_limite_plis": null,
+ "lieu_ouverture": null,
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": null,
+ "justification": null,
+ "infructueux": false,
+ "attributaire": "D'INGENIERIE D'AGADIR SARL",
+ "montant_attribue": 21736156.08,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "GROUPEMENT GCCR/TAMESNA VERT",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_offre_technique",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "SOCIETE ALMO JARDIN",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_offre_technique",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "SOCIETE TOTAL VEGETAL",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_offre_technique",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "D'INGENIERIE D'AGADIR SARL",
+   "montant_acte_engagement": 21736156.08,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 4,
+ "alertes_ocr": [
+  "« D'INGENIERIE D'AGADIR SARL » absent de la liste des plis déposés (nom mal lu ?)."
+ ],
+ "notes_ocr": [
+  "« GROUPEMENT GCCR/TAMESNA VERT » absent de la liste des plis déposés (nom mal lu ?).",
+  "« SOCIETE ALMO JARDIN » absent de la liste des plis déposés (nom mal lu ?).",
+  "« SOCIETE TOTAL VEGETAL » absent de la liste des plis déposés (nom mal lu ?).",
+  "Maître d'ouvrage absent du PV (utiliser l'acheteur public du portail)."
+ ],
+ "qualite": "attribution"
+}

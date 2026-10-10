@@ -1,0 +1,92 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "716668",
+ "orgAcronyme": "s3z",
+ "reference_pv": null,
+ "nouveau": true,
+ "reference": null,
+ "objet": null,
+ "acheteur": "_: Commune de Rommani",
+ "procedure": null,
+ "categorie": "Travaux",
+ "date_limite_plis": "02/05/2023",
+ "lieu_ouverture": "Bureau du Président de la Commune",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "22/05/2023",
+ "justification": "- Dossier Administratif, et Technique conformes. - Offre financière le moins disant.",
+ "infructueux": false,
+ "attributaire": "Sté Pur Sang des Constructions et des Mines",
+ "montant_attribue": 220758.0,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "Sté KELTI SARL",
+   "montant_acte_engagement": 305880.0,
+   "montant_apres_verification": 305880.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": true
+  },
+  {
+   "nom": "BOUAZZA EL ATINI",
+   "montant_acte_engagement": 304416.0,
+   "montant_apres_verification": 304416.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": true
+  },
+  {
+   "nom": "Sté NG BTP SARL",
+   "montant_acte_engagement": 315258.0,
+   "montant_apres_verification": 315258.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": true
+  },
+  {
+   "nom": "Sté Pur Sang des Constructions et des Mines",
+   "montant_acte_engagement": 220758.0,
+   "montant_apres_verification": 220758.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Sté MAJARDINET SARL",
+   "montant_acte_engagement": 286830.0,
+   "montant_apres_verification": 286830.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Sté PLANTAFLEUR sarl",
+   "montant_acte_engagement": 355140.0,
+   "montant_apres_verification": 355140.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 6,
+ "alertes_ocr": [
+  "« Sté KELTI SARL » absent de la liste des plis déposés (nom mal lu ?).",
+  "« BOUAZZA EL ATINI » absent de la liste des plis déposés (nom mal lu ?).",
+  "« Sté NG BTP SARL » absent de la liste des plis déposés (nom mal lu ?).",
+  "« Sté Pur Sang des Constructions et des Mines » absent de la liste des plis déposés (nom mal lu ?).",
+  "« Sté MAJARDINET SARL » absent de la liste des plis déposés (nom mal lu ?).",
+  "« Sté PLANTAFLEUR sarl » absent de la liste des plis déposés (nom mal lu ?)."
+ ],
+ "notes_ocr": [],
+ "qualite": "complet"
+}

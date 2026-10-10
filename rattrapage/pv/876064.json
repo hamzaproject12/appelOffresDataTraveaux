@@ -1,0 +1,139 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "876064",
+ "orgAcronyme": "q1s",
+ "reference_pv": "09/2025/SER",
+ "nouveau": true,
+ "reference": "09/2025/SER",
+ "objet": "travaux d’exécution de forages d’exploitation dans les provinces de Nador Berkane et Taourirt en trois lots : Lot n°1 : Commune Bni chikker Bouareg et ouled settout de la province de Nador",
+ "acheteur": "ORMVA de la Moulouya",
+ "procedure": "appel d'offres ouvert national",
+ "categorie": "Travaux",
+ "date_limite_plis": "14/02/2025",
+ "lieu_ouverture": "Salle des réunions de l'ORMVAM",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "28/02/2025",
+ "justification": "Les offres présentées par les concurrents sont les offres les mieux disantes : e Lot n°1 : MULTIGENERATION e Lot n°2 : RABIB TRAV e Lot n°3 : COMPTOIR AGRICOLE DU TAFILALET",
+ "infructueux": false,
+ "attributaire": "MULTIGENERATION",
+ "montant_attribue": 2006100.0,
+ "attributaires_par_lot": [
+  {
+   "lot": "1",
+   "attributaire": "MULTIGENERATION",
+   "montant": 2006100.0
+  },
+  {
+   "lot": "2",
+   "attributaire": "RABIB TRAV",
+   "montant": 1082064.0
+  },
+  {
+   "lot": "3",
+   "attributaire": "COMPTOIR AGRICOLE DU TAFILALET",
+   "montant": 1441080.0
+  }
+ ],
+ "soumissionnaires": [
+  {
+   "nom": "HAJ DUIRI SOHADU",
+   "montant_acte_engagement": 1992000.0,
+   "montant_apres_verification": 1992000.0,
+   "autres_montants": [
+    1220040.0,
+    1516800.0
+   ],
+   "lots": [
+    "1",
+    "2"
+   ],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "AIT AISSA FOURAGE LIL FILAHA",
+   "montant_acte_engagement": 2334660.0,
+   "montant_apres_verification": 2334660.0,
+   "autres_montants": [],
+   "lots": [
+    "1"
+   ],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "MULTIGENERATION",
+   "montant_acte_engagement": 2006100.0,
+   "montant_apres_verification": 2006100.0,
+   "autres_montants": [
+    1188480.0,
+    1578900.0
+   ],
+   "lots": [
+    "1",
+    "2"
+   ],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "RABIB TRAV",
+   "montant_acte_engagement": 2330100.0,
+   "montant_apres_verification": 2330100.0,
+   "autres_montants": [
+    1082064.0,
+    1695900.0
+   ],
+   "lots": [
+    "1",
+    "2",
+    "3"
+   ],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "COMPTOIR AGRICOLE DU TAFILALET",
+   "montant_acte_engagement": 1990800.0,
+   "montant_apres_verification": 1990800.0,
+   "autres_montants": [
+    1079520.0,
+    1441080.0
+   ],
+   "lots": [
+    "1",
+    "2",
+    "3"
+   ],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "SOLUTION HYDRAULIQUE ELECTRIQUE",
+   "montant_acte_engagement": 2334300.0,
+   "montant_apres_verification": 2139300.0,
+   "autres_montants": [
+    1230960.0,
+    1697520.0
+   ],
+   "lots": [
+    "1",
+    "2",
+    "3"
+   ],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 6,
+ "alertes_ocr": [],
+ "notes_ocr": [
+  "« SOLUTION HYDRAULIQUE ELECTRIQUE » : montant rectifié de 2 334 300.00 à 2 139 300.00 DH.",
+  "Marché alloti (3 lots)."
+ ],
+ "qualite": "complet"
+}

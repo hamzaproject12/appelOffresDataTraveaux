@@ -1,0 +1,51 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "782617",
+ "orgAcronyme": "j8k",
+ "reference_pv": "06/DOCH/2024",
+ "nouveau": true,
+ "reference": "06/DOCH/2024",
+ "objet": "LA LOCATION LONGUE DUREE « 48 MOIS » DE VEHICULES NEUFS AVEC PRESTATIONS ACCESSOIRES ET COMPLEMENTAIRES",
+ "acheteur": null,
+ "procedure": "appel d'offres ouvert",
+ "categorie": "Travaux",
+ "date_limite_plis": null,
+ "lieu_ouverture": null,
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": null,
+ "justification": null,
+ "infructueux": false,
+ "attributaire": "Sté APEX CAR",
+ "montant_attribue": 170006.4,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "Sté MARLOC S.A EUROP CAR",
+   "montant_acte_engagement": 190080.0,
+   "montant_apres_verification": 190080.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Sté APEX CAR",
+   "montant_acte_engagement": 170006.4,
+   "montant_apres_verification": 170006.4,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 2,
+ "alertes_ocr": [],
+ "notes_ocr": [
+  "Maître d'ouvrage absent du PV (utiliser l'acheteur public du portail)."
+ ],
+ "qualite": "complet"
+}

@@ -1,0 +1,85 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "688720",
+ "orgAcronyme": "p1v",
+ "reference_pv": "07/STU/2022",
+ "nouveau": true,
+ "reference": "07/STU/2022",
+ "objet": null,
+ "acheteur": "Commune Laaounate",
+ "procedure": null,
+ "categorie": "Travaux",
+ "date_limite_plis": "20/10/2022",
+ "lieu_ouverture": "bureau du président de la Commune Laaounate",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "07/11/2022",
+ "justification": "offre la moins disante;",
+ "infructueux": false,
+ "attributaire": null,
+ "montant_attribue": null,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "SÉSOJEDILYA Sarl",
+   "montant_acte_engagement": 73200.0,
+   "montant_apres_verification": 112800.0,
+   "autres_montants": [
+    112800.0
+   ],
+   "lots": [
+    "1"
+   ],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "SéSOLARELEC Sarl",
+   "montant_acte_engagement": 62160.0,
+   "montant_apres_verification": 108480.0,
+   "autres_montants": [
+    108480.0
+   ],
+   "lots": [
+    "1"
+   ],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "SéMAROC AFRICAINE INDUSTRIEL Sarl - Dépôt sous format papier",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "INDUSTRIEL Sarl Au",
+   "montant_acte_engagement": 3508.93,
+   "montant_apres_verification": 93840.0,
+   "autres_montants": [],
+   "lots": [
+    "1"
+   ],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 4,
+ "alertes_ocr": [
+  "« INDUSTRIEL Sarl Au » absent de la liste des plis déposés (nom mal lu ?).",
+  "Attributaire non trouvé.",
+  "« INDUSTRIEL Sarl Au » : écart anormal entre montant initial et vérifié (lecture à vérifier)."
+ ],
+ "notes_ocr": [
+  "« SÉSOJEDILYA Sarl » : montant rectifié de 73 200.00 à 112 800.00 DH.",
+  "« SéSOLARELEC Sarl » : montant rectifié de 62 160.00 à 108 480.00 DH.",
+  "« INDUSTRIEL Sarl Au » : montant rectifié de 3 508.93 à 93 840.00 DH."
+ ],
+ "qualite": "complet"
+}

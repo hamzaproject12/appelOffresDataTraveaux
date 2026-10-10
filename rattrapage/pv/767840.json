@@ -1,0 +1,119 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "767840",
+ "orgAcronyme": "a1z",
+ "reference_pv": "7/AS/2023",
+ "nouveau": true,
+ "reference": "7/AS/2023",
+ "objet": "TRAVAUX D’AMENAGEMENT DES ESPACES VERTS JARDIN RUE 14 JAMILA 7 ARRONDISSEMENT SBATA",
+ "acheteur": "Le Président de l’ Arrondissement SBATA",
+ "procedure": "appel d'offres ouvert national",
+ "categorie": "Travaux",
+ "date_limite_plis": "27/11/2023",
+ "lieu_ouverture": "Le bureau de monsieur le président de l’ Arrondissement au siège de l'arrondissement SBATA à la Rue 12 Hay LAALOU Casablanca",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": null,
+ "justification": "Offre avantageuse.",
+ "infructueux": false,
+ "attributaire": "SOCIETE DEMAIN VERT",
+ "montant_attribue": 2284224.0,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "SOCIETE FIFA VERT SOCIETE AGATIA TRAVAUX",
+   "montant_acte_engagement": 2690355.6,
+   "montant_apres_verification": 2690355.6,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "SOCIETE FLUX VERT SOCIETE ALMO JARDIN",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "SOCIETE RIAD JARDIN SOCIETE AQUARELLE FLEUR",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_dossier_administratif_technique",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "SOCIETE SONA VERT",
+   "montant_acte_engagement": 2208948.0,
+   "montant_apres_verification": 2208948.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_dossier_administratif_technique",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "SOCIETE DEMAIN VERT",
+   "montant_acte_engagement": 2284224.0,
+   "montant_apres_verification": 2284224.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "SOCIETE MP PROJECT",
+   "montant_acte_engagement": 2242470.0,
+   "montant_apres_verification": 2242470.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "SOCIETE FLUX VERT 2",
+   "montant_acte_engagement": 221573.2,
+   "montant_apres_verification": 2221573.2,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "SOCIETE ALMO JARDIN",
+   "montant_acte_engagement": 2264688.0,
+   "montant_apres_verification": 2264688.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "SOCIETE PLANTAFLEUR",
+   "montant_acte_engagement": 2272452.0,
+   "montant_apres_verification": 2272452.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 9,
+ "alertes_ocr": [
+  "« SOCIETE FLUX VERT 2 » absent de la liste des plis déposés (nom mal lu ?).",
+  "« SOCIETE ALMO JARDIN » absent de la liste des plis déposés (nom mal lu ?).",
+  "« SOCIETE PLANTAFLEUR » absent de la liste des plis déposés (nom mal lu ?).",
+  "« SOCIETE FLUX VERT 2 » : écart anormal entre montant initial et vérifié (lecture à vérifier)."
+ ],
+ "notes_ocr": [
+  "« SOCIETE FLUX VERT 2 » : montant rectifié de 221 573.20 à 2 221 573.20 DH."
+ ],
+ "qualite": "complet"
+}

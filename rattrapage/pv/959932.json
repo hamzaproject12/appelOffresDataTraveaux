@@ -1,0 +1,83 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "959932",
+ "orgAcronyme": "g3h",
+ "reference_pv": "55/2025/INDH",
+ "nouveau": true,
+ "reference": "55/2025/INDH",
+ "objet": "Travaux de reconstruction de Dar Talib Tighmi, à la Commune Tighmi, Province de Tiznit. TT",
+ "acheteur": "LE GOUVERNEUR DE LA PROVINCE DE TIZNIT ,",
+ "procedure": "appel d'offres ouvert national",
+ "categorie": "Travaux",
+ "date_limite_plis": "20/11/2025",
+ "lieu_ouverture": "BUREAUX DU SECRETARIAT GENERAL (SALLE DE REUNIONS)",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": null,
+ "justification": "l’offre la mieux-disante par rapport au prix de référence DA < Date d'achèvement des travaux de la commission : 28/11/2025 >",
+ "infructueux": false,
+ "attributaire": "Société SUD GHARB NEGOCE SARL",
+ "montant_attribue": 2237789.76,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "Société NALT SARL",
+   "montant_acte_engagement": 2593347.6,
+   "montant_apres_verification": 2593347.6,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_dossier_administratif_technique",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Société HEGBA SARL AU",
+   "montant_acte_engagement": 2171290.8,
+   "montant_apres_verification": 2171290.8,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_dossier_administratif_technique",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Société SUD GHARB NEGOCE SARL",
+   "montant_acte_engagement": 2237789.76,
+   "montant_apres_verification": 2237789.76,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "4, Société SMTCO SARL À",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_dossier_administratif_technique",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Société SMTCO SARL",
+   "montant_acte_engagement": 2187777.6,
+   "montant_apres_verification": 2187777.6,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 5,
+ "alertes_ocr": [
+  "« Société NALT SARL » absent de la liste des plis déposés (nom mal lu ?).",
+  "« Société HEGBA SARL AU » absent de la liste des plis déposés (nom mal lu ?).",
+  "« Société SUD GHARB NEGOCE SARL » absent de la liste des plis déposés (nom mal lu ?).",
+  "« Société SMTCO SARL » absent de la liste des plis déposés (nom mal lu ?)."
+ ],
+ "notes_ocr": [
+  "« 4, Société SMTCO SARL À » absent de la liste des plis déposés (nom mal lu ?)."
+ ],
+ "qualite": "complet"
+}

@@ -1,0 +1,53 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "858490",
+ "orgAcronyme": "q1s",
+ "reference_pv": "12/DP",
+ "nouveau": true,
+ "reference": "12/DP",
+ "objet": "réalisation des travaux d'aménagement des pistes dans les communes territoriales Fifi, Bni Faghloum et Bab Taza, Province Chefchaouen",
+ "acheteur": "La Direction Provinciale de l’Agriculture de Chefchaouen %",
+ "procedure": null,
+ "categorie": "Travaux",
+ "date_limite_plis": null,
+ "lieu_ouverture": "la salle de la réunion de la direction provinciale de l'agriculture de Chefchaouen",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": null,
+ "justification": null,
+ "infructueux": false,
+ "attributaire": null,
+ "montant_attribue": null,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "SNTRO",
+   "montant_acte_engagement": 15303588.0,
+   "montant_apres_verification": 15303588.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "STE DU SAHEL ET SAHARA",
+   "montant_acte_engagement": 14998440.0,
+   "montant_apres_verification": 14998440.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 2,
+ "alertes_ocr": [
+  "« SNTRO » absent de la liste des plis déposés (nom mal lu ?).",
+  "« STE DU SAHEL ET SAHARA » absent de la liste des plis déposés (nom mal lu ?).",
+  "Attributaire non trouvé."
+ ],
+ "notes_ocr": [],
+ "qualite": "complet"
+}

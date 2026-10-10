@@ -1,0 +1,54 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "759560",
+ "orgAcronyme": "j8k",
+ "reference_pv": null,
+ "nouveau": true,
+ "reference": null,
+ "objet": "Réalisation des Travaux de protection contre les inondations du lotissement AL HANAE à la commune territoriale de Tata, Province de TATA",
+ "acheteur": null,
+ "procedure": null,
+ "categorie": "Travaux",
+ "date_limite_plis": "23/11/2023",
+ "lieu_ouverture": "Division des Marchés de la Société Al Omrane souss Massa",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "27/11/2023",
+ "justification": "Concurrent représentant l’offre la plus avantageuse.",
+ "infructueux": false,
+ "attributaire": "SOCIETE FADRIK SUD",
+ "montant_attribue": 1558630.77,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "VITA CONSTRUCTION",
+   "montant_acte_engagement": 1698006.7,
+   "montant_apres_verification": 1698006.7,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "SOCIETE FADRIK SUD",
+   "montant_acte_engagement": 1558630.77,
+   "montant_apres_verification": 1558630.77,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 2,
+ "alertes_ocr": [
+  "« VITA CONSTRUCTION » absent de la liste des plis déposés (nom mal lu ?).",
+  "« SOCIETE FADRIK SUD » absent de la liste des plis déposés (nom mal lu ?)."
+ ],
+ "notes_ocr": [
+  "Maître d'ouvrage absent du PV (utiliser l'acheteur public du portail)."
+ ],
+ "qualite": "complet"
+}

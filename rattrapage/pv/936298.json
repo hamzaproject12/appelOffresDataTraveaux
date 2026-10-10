@@ -1,0 +1,60 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "936298",
+ "orgAcronyme": "o8p",
+ "reference_pv": null,
+ "nouveau": true,
+ "reference": null,
+ "objet": null,
+ "acheteur": null,
+ "procedure": "appel d'offres ouvert international",
+ "categorie": "Travaux",
+ "date_limite_plis": "10/09/2025",
+ "lieu_ouverture": "TRAVAUX DIVERS & STE ATLAS TRAVAUX PUBLICS TRAVAUX DIVERS & STE ATLAS TRAVAUX PUBLICS en des dossiers administratifs et techniques",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": null,
+ "justification": "Offre la plus avantageuse.",
+ "infructueux": false,
+ "attributaire": "SOCIETE TRACOM",
+ "montant_attribue": 141798186.0,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "SOCIETE GENERALE DE PROJETS",
+   "montant_acte_engagement": 155383404.0,
+   "montant_apres_verification": 155383404.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "SOCIETE TRACOM",
+   "montant_acte_engagement": 141798186.0,
+   "montant_apres_verification": 141798186.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "SOCIETE SALBI SARL",
+   "montant_acte_engagement": 151210884.0,
+   "montant_apres_verification": 151210884.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 3,
+ "alertes_ocr": [],
+ "notes_ocr": [
+  "Maître d'ouvrage absent du PV (utiliser l'acheteur public du portail)."
+ ],
+ "qualite": "complet"
+}

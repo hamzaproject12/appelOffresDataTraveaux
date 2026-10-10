@@ -1,0 +1,72 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "711344",
+ "orgAcronyme": "d4q",
+ "reference_pv": "12/2023/ABHGZR",
+ "nouveau": true,
+ "reference": "12/2023/ABHGZR",
+ "objet": "Travaux de reconnaissance d’eau souterraine par forages dans la Province de Tinghir",
+ "acheteur": "Directeur de l'Agence du Bassin Hydraulique de Guir-Ziz-Rheris",
+ "procedure": "appel d'offres ouvert",
+ "categorie": "Travaux",
+ "date_limite_plis": "04/04/2023",
+ "lieu_ouverture": "La salle de réunion de l'Agence du Bassin Hydraulique de Guir-Ziz-Rheris",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "03/05/2023",
+ "justification": "l'offre la moins disante.",
+ "infructueux": false,
+ "attributaire": "STE FORAGE ZOUHOUR SARL AU",
+ "montant_attribue": 2638800.0,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "STE FORAGE ZOUHOUR SARL AU",
+   "montant_acte_engagement": 2638800.0,
+   "montant_apres_verification": 2638800.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "STE BATIFORAGE SARL",
+   "montant_acte_engagement": 2842200.0,
+   "montant_apres_verification": 2842200.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "STE IMISYB MAROC SARL AU",
+   "montant_acte_engagement": 2816520.0,
+   "montant_apres_verification": 2816520.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "STE GHRAR BRAHIM DE FORAGE SARL",
+   "montant_acte_engagement": 2724240.0,
+   "montant_apres_verification": 2724240.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 4,
+ "alertes_ocr": [
+  "« STE FORAGE ZOUHOUR SARL AU » absent de la liste des plis déposés (nom mal lu ?).",
+  "« STE BATIFORAGE SARL » absent de la liste des plis déposés (nom mal lu ?).",
+  "« STE IMISYB MAROC SARL AU » absent de la liste des plis déposés (nom mal lu ?).",
+  "« STE GHRAR BRAHIM DE FORAGE SARL » absent de la liste des plis déposés (nom mal lu ?)."
+ ],
+ "notes_ocr": [],
+ "qualite": "complet"
+}

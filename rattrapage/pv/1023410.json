@@ -1,0 +1,90 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "1023410",
+ "orgAcronyme": "j8k",
+ "reference_pv": null,
+ "nouveau": true,
+ "reference": null,
+ "objet": null,
+ "acheteur": "Al Omrane Rabat-Rabat-Salé",
+ "procedure": "appel d'offres ouvert",
+ "categorie": "Travaux",
+ "date_limite_plis": "25/02/2026",
+ "lieu_ouverture": "Siège d'Al Omrane Rabat-Salé-Kénitra",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "02/04/2026",
+ "justification": "Mieux disant.",
+ "infructueux": false,
+ "attributaire": "ESTAR BÂTIMENT",
+ "montant_attribue": 13693368.0,
+ "attributaires_par_lot": [
+  {
+   "lot": null,
+   "attributaire": "ESTAR BÂTIMENT",
+   "montant": 13693368.0
+  },
+  {
+   "lot": null,
+   "attributaire": "TOUNA VERDURE",
+   "montant": 11727456.0
+  },
+  {
+   "lot": null,
+   "attributaire": "TIRA TRAVAUX",
+   "montant": 13483008.0
+  },
+  {
+   "lot": null,
+   "attributaire": "Groupement de sociétés SETRAT & TP NORD",
+   "montant": 13178580.0
+  }
+ ],
+ "soumissionnaires": [
+  {
+   "nom": "ESTAR BÂTIMENT",
+   "montant_acte_engagement": 13693368.0,
+   "montant_apres_verification": 13693368.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "TOUNA VERDURE",
+   "montant_acte_engagement": 11727456.0,
+   "montant_apres_verification": 11727456.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "TIRA TRAVAUX",
+   "montant_acte_engagement": 13483008.0,
+   "montant_apres_verification": 13178580.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Groupement de sociétés SETRAT & TP NORD",
+   "montant_acte_engagement": 13178580.0,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 4,
+ "alertes_ocr": [],
+ "notes_ocr": [
+  "« TIRA TRAVAUX » : montant rectifié de 13 483 008.00 à 13 178 580.00 DH."
+ ],
+ "qualite": "attribution"
+}

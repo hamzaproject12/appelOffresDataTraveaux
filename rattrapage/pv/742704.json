@@ -1,0 +1,64 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "742704",
+ "orgAcronyme": "g3h",
+ "reference_pv": "56/23/ASST",
+ "nouveau": true,
+ "reference": "56/23/ASST",
+ "objet": "Travaux de réalisation de délesteurs structurants : collecteur BELBEKAR",
+ "acheteur": "Régie Autonome de Distribution d’Eau et d’Electricité de MARRAKECH",
+ "procedure": "appel d'offres ouvert",
+ "categorie": "Travaux",
+ "date_limite_plis": "19/06/2023",
+ "lieu_ouverture": "au Siège de la RADEEMA Boulevard Mohamed VI MARRAKECH",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "31/07/2023",
+ "justification": "l’offre la plus avantageuse. |",
+ "infructueux": false,
+ "attributaire": "VARDEP",
+ "montant_attribue": 4661878.0,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "SODREPA",
+   "montant_acte_engagement": 4063750.0,
+   "montant_apres_verification": null,
+   "autres_montants": [
+    4876500.0
+   ],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "VARDEP",
+   "montant_acte_engagement": 4661878.0,
+   "montant_apres_verification": null,
+   "autres_montants": [
+    5594253.6
+   ],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "SIGMA 4T",
+   "montant_acte_engagement": 4861750.0,
+   "montant_apres_verification": null,
+   "autres_montants": [
+    5834100.0
+   ],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 3,
+ "alertes_ocr": [],
+ "notes_ocr": [],
+ "qualite": "complet"
+}

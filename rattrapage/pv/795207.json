@@ -1,0 +1,186 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "795207",
+ "orgAcronyme": "o8p",
+ "reference_pv": "06/AOR/2024/STADES",
+ "nouveau": true,
+ "reference": "06/AOR/2024/STADES",
+ "objet": "Mise à niveau des stades de Casablanca, Marrakech, Agadir et Fès. Travaux d'éclairage spécialisée alloti en quatre lots",
+ "acheteur": null,
+ "procedure": "appel d'offres restreint",
+ "categorie": "Travaux",
+ "date_limite_plis": "07/05/2024",
+ "lieu_ouverture": "Salle de réunions de l’Agence Nationale des Equipements Publics, Hay Nahda 2 à Rabat Références des lettres circulaires : ANEP/DGPDD/121",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "09/05/2024",
+ "justification": "Conformément aux dispositions des articles 5 et 15 du règlement de la consultation.",
+ "infructueux": false,
+ "attributaire": "Société SOHAPER",
+ "montant_attribue": 24495684.0,
+ "attributaires_par_lot": [
+  {
+   "lot": "1",
+   "attributaire": "Société SOHAPER",
+   "montant": 24495684.0
+  },
+  {
+   "lot": "2",
+   "attributaire": "Société LUMIFES",
+   "montant": 39202237.2
+  },
+  {
+   "lot": "3",
+   "attributaire": "Société TER",
+   "montant": 27818100.0
+  },
+  {
+   "lot": "4",
+   "attributaire": "Société CEGELEC",
+   "montant": 38994000.0
+  }
+ ],
+ "soumissionnaires": [
+  {
+   "nom": "Société BUTEC ENERGIES ET SERVICES",
+   "montant_acte_engagement": 23810216.4,
+   "montant_apres_verification": 23810216.4,
+   "autres_montants": [
+    37227816.0,
+    42008742.0
+   ],
+   "lots": [
+    "1",
+    "2",
+    "4"
+   ],
+   "statut": "ecarte_offre_technique",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Société SOHAPER",
+   "montant_acte_engagement": 24495684.0,
+   "montant_apres_verification": 24495684.0,
+   "autres_montants": [
+    45752999.14,
+    26611869.0,
+    37794840.0
+   ],
+   "lots": [
+    "1",
+    "2",
+    "3",
+    "4"
+   ],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Société CEGELEC",
+   "montant_acte_engagement": 27900000.0,
+   "montant_apres_verification": 27900000.0,
+   "autres_montants": [
+    45557199.79,
+    27565882.94,
+    38994000.0
+   ],
+   "lots": [
+    "1",
+    "2",
+    "3",
+    "4"
+   ],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Société LUMIFES",
+   "montant_acte_engagement": 27904916.16,
+   "montant_apres_verification": 27904916.16,
+   "autres_montants": [
+    39202237.2,
+    33663246.0,
+    44861655.6
+   ],
+   "lots": [
+    "1",
+    "2",
+    "3",
+    "4"
+   ],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Société MAGHREBNET",
+   "montant_acte_engagement": 38458223.46,
+   "montant_apres_verification": 38458223.46,
+   "autres_montants": [],
+   "lots": [
+    "2"
+   ],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Société ELECTRIMAROC",
+   "montant_acte_engagement": 38155000.8,
+   "montant_apres_verification": 38155000.8,
+   "autres_montants": [
+    27777000.0
+   ],
+   "lots": [
+    "2",
+    "3"
+   ],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Société PROMETI",
+   "montant_acte_engagement": 45481450.56,
+   "montant_apres_verification": 45481450.56,
+   "autres_montants": [
+    28608146.94
+   ],
+   "lots": [
+    "2",
+    "3"
+   ],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Société TER",
+   "montant_acte_engagement": 37814628.0,
+   "montant_apres_verification": 37814628.0,
+   "autres_montants": [
+    27818100.0
+   ],
+   "lots": [
+    "2",
+    "3"
+   ],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 8,
+ "alertes_ocr": [
+  "« Société SOHAPER » absent de la liste des plis déposés (nom mal lu ?).",
+  "« Société CEGELEC » absent de la liste des plis déposés (nom mal lu ?).",
+  "« Société LUMIFES » absent de la liste des plis déposés (nom mal lu ?).",
+  "« Société MAGHREBNET » absent de la liste des plis déposés (nom mal lu ?).",
+  "« Société ELECTRIMAROC » absent de la liste des plis déposés (nom mal lu ?).",
+  "« Société PROMETI » absent de la liste des plis déposés (nom mal lu ?).",
+  "« Société TER » absent de la liste des plis déposés (nom mal lu ?)."
+ ],
+ "notes_ocr": [
+  "Marché alloti (4 lots).",
+  "Maître d'ouvrage absent du PV (utiliser l'acheteur public du portail)."
+ ],
+ "qualite": "complet"
+}

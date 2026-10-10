@@ -1,0 +1,73 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "727036",
+ "orgAcronyme": "d4q",
+ "reference_pv": null,
+ "nouveau": true,
+ "reference": null,
+ "objet": "du lot x pour 5 années en plis des travaux de la retenu ne DH TTC",
+ "acheteur": null,
+ "procedure": null,
+ "categorie": "Travaux",
+ "date_limite_plis": "21/06/2023",
+ "lieu_ouverture": "Direction des Approvisionnements et Marchés (DAM)",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": null,
+ "justification": "moins disante conforme.",
+ "infructueux": false,
+ "attributaire": "ASSAINISSEMENT",
+ "montant_attribue": 26072970.0,
+ "attributaires_par_lot": [
+  {
+   "lot": null,
+   "attributaire": "ASSAINISSEMENT",
+   "montant": 26072970.0
+  },
+  {
+   "lot": null,
+   "attributaire": "SOS NDD",
+   "montant": 26161768.8
+  }
+ ],
+ "soumissionnaires": [
+  {
+   "nom": "SOS NDD - DEEP CLEANING — OUBABA — CASTEL — GLOBAL",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "depose",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "ASSAINISSEMENT",
+   "montant_acte_engagement": 26072970.0,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "SOS NDD",
+   "montant_acte_engagement": 26161768.8,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 3,
+ "alertes_ocr": [
+  "« SOS NDD » absent de la liste des plis déposés (nom mal lu ?)."
+ ],
+ "notes_ocr": [
+  "Maître d'ouvrage absent du PV (utiliser l'acheteur public du portail)."
+ ],
+ "qualite": "attribution"
+}

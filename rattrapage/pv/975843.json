@@ -1,0 +1,54 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "975843",
+ "orgAcronyme": "d4q",
+ "reference_pv": null,
+ "nouveau": true,
+ "reference": null,
+ "objet": "TRAVAUX DE REMISE EN ETAT DES RESERVOIRS FUEL TRAITES ET CERTIFIES DE LA CENTRALE TURBINES À GAZ DE MOHAMMEDIA 3X100MW",
+ "acheteur": null,
+ "procedure": null,
+ "categorie": "Travaux",
+ "date_limite_plis": "08/01/2026",
+ "lieu_ouverture": "Siège ONEE-BE",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": null,
+ "justification": "Offre moins distante et conforme.",
+ "infructueux": false,
+ "attributaire": "EGFI",
+ "montant_attribue": 4852608.63,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "PROXI INDUSTRIE",
+   "montant_acte_engagement": 5640580.64,
+   "montant_apres_verification": 5640580.64,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "EGFI",
+   "montant_acte_engagement": 4852608.63,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 2,
+ "alertes_ocr": [
+  "« EGFI » absent de la liste des plis déposés (nom mal lu ?)."
+ ],
+ "notes_ocr": [
+  "Maître d'ouvrage absent du PV (utiliser l'acheteur public du portail).",
+  "Montants exprimés hors taxes (HT)."
+ ],
+ "qualite": "complet"
+}

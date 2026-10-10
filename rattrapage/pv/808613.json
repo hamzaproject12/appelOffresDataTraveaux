@@ -1,0 +1,55 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "808613",
+ "orgAcronyme": "j8k",
+ "reference_pv": "25/2024",
+ "nouveau": true,
+ "reference": "25/2024",
+ "objet": "TRAVAUX DE PLANTATION DU LOTISSEMENT AGUELMAM SIS A LA COMMUNE TERRITORIALE DE MIDELT PROVINCE DE MIDELT Y* Date d'ouverture des plis : 13/06/2024 A 10H",
+ "acheteur": null,
+ "procedure": "appel d'offres ouvert",
+ "categorie": "Travaux",
+ "date_limite_plis": "13/06/2024",
+ "lieu_ouverture": "SOCIETE AL OMRANE DRAA-TAFILALET",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": null,
+ "justification": "le MOINS DISANT.",
+ "infructueux": false,
+ "attributaire": "NEW VERT",
+ "montant_attribue": 271200.0,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "NEW VERT",
+   "montant_acte_engagement": 271200.0,
+   "montant_apres_verification": null,
+   "autres_montants": [
+    271200.0
+   ],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "BENMADANI TRAVAUX",
+   "montant_acte_engagement": 345000.0,
+   "montant_apres_verification": null,
+   "autres_montants": [
+    345000.0
+   ],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 2,
+ "alertes_ocr": [],
+ "notes_ocr": [
+  "Maître d'ouvrage absent du PV (utiliser l'acheteur public du portail)."
+ ],
+ "qualite": "complet"
+}

@@ -1,0 +1,118 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "694260",
+ "orgAcronyme": "q1s",
+ "reference_pv": "15/2022/DPA/52",
+ "nouveau": true,
+ "reference": "15/2022/DPA/52",
+ "objet": "LOT 1 : TRAVAUX DE CONSTRUCTION DE TROIS (3) RESERVOIRS",
+ "acheteur": null,
+ "procedure": null,
+ "categorie": "Travaux",
+ "date_limite_plis": "05/04/2022",
+ "lieu_ouverture": "la salle de reunion de la DPA de figuig à bouarfa",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "13/04/2022",
+ "justification": null,
+ "infructueux": false,
+ "attributaire": "Sté BINAE ANNOUJOUD AL OULYA SARL -FIGUIG",
+ "montant_attribue": 411958.08,
+ "attributaires_par_lot": [
+  {
+   "lot": null,
+   "attributaire": "Sté BINAE ANNOUJOUD AL OULYA SARL -FIGUIG",
+   "montant": 411958.08
+  },
+  {
+   "lot": null,
+   "attributaire": "Entr BOUSSALAA LAHCEN - BOUARFA",
+   "montant": 444331.8
+  }
+ ],
+ "soumissionnaires": [
+  {
+   "nom": "Sté KHAFFANE TRAVAUX SARL - BOUARFA",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_dossier_administratif_technique",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Sté BOUKHANFRA MERZAK- TENDRARA",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_dossier_administratif_technique",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "B.T.2.I - JERADA",
+   "montant_acte_engagement": 511220.88,
+   "montant_apres_verification": 511220.88,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Entr BOUSSALAA LAHCEN - BOUARFA",
+   "montant_acte_engagement": 450271.8,
+   "montant_apres_verification": 444331.8,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Sté BINAE ANNOUJOUD AL OULYA SARL -FIGUIG",
+   "montant_acte_engagement": 412006.08,
+   "montant_apres_verification": 411958.08,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": true
+  },
+  {
+   "nom": "STE IKHWANE MARIJI KASMI SARL- BOUARFA",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_dossier_administratif_technique",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Sté BKK - OUARZAZATE",
+   "montant_acte_engagement": 431608.68,
+   "montant_apres_verification": 431608.68,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Sté BETONRICH TRAVAUX",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_dossier_administratif_technique",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 8,
+ "alertes_ocr": [],
+ "notes_ocr": [
+  "« Entr BOUSSALAA LAHCEN - BOUARFA » : montant rectifié de 450 271.80 à 444 331.80 DH.",
+  "« Sté BINAE ANNOUJOUD AL OULYA SARL -FIGUIG » : montant rectifié de 412 006.08 à 411 958.08 DH.",
+  "Maître d'ouvrage absent du PV (utiliser l'acheteur public du portail)."
+ ],
+ "qualite": "complet"
+}

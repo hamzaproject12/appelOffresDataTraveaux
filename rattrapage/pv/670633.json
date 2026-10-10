@@ -1,0 +1,53 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "670633",
+ "orgAcronyme": "o8p",
+ "reference_pv": "24/A00/DRPJ/ANP/2022",
+ "nouveau": true,
+ "reference": "24/A00/DRPJ/ANP/2022",
+ "objet": null,
+ "acheteur": "Direction Régionale des Ports d'El Jadida /Port d'El Jadida",
+ "procedure": null,
+ "categorie": "Travaux",
+ "date_limite_plis": "06/10/2022",
+ "lieu_ouverture": "Direction Régionale des Ports d'El Jadida /Port de Jorf Lasfar, sise à Km 22 route d'Oualidia Jorf Lasfar-El Jadida",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "25/10/2022",
+ "justification": null,
+ "infructueux": false,
+ "attributaire": "Cent Trente Deux Mille Hors Taxes",
+ "montant_attribue": 532000.0,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "VIV AQUA EMPEGEC TRAVAUX MAROC",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Cent Trente Deux Mille Hors Taxes",
+   "montant_acte_engagement": 532000.0,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 2,
+ "alertes_ocr": [
+  "« Cent Trente Deux Mille Hors Taxes » absent de la liste des plis déposés (nom mal lu ?)."
+ ],
+ "notes_ocr": [
+  "Montants exprimés hors taxes (HT)."
+ ],
+ "qualite": "attribution"
+}

@@ -1,0 +1,139 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "1043350",
+ "orgAcronyme": "p8x",
+ "reference_pv": null,
+ "nouveau": true,
+ "reference": null,
+ "objet": "Travaux d’aménagement et de réhabilitation des écoles primaires relevant de la direction provinciale de Marrakech en deux lots séparés",
+ "acheteur": null,
+ "procedure": "appel d'offres ouvert",
+ "categorie": "Travaux",
+ "date_limite_plis": "14/09/2026",
+ "lieu_ouverture": "La salle des réunions à la Direction Provinciale de Marrakech",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "22/09/2026",
+ "justification": "Concurrent ayant présenté l’offre économiquement la plus avantageuse.",
+ "infructueux": false,
+ "attributaire": "STE SAMY GENIE CIVIL SARL",
+ "montant_attribue": 839706.0,
+ "attributaires_par_lot": [
+  {
+   "lot": null,
+   "attributaire": "STE SAMY GENIE CIVIL SARL",
+   "montant": 839706.0
+  },
+  {
+   "lot": null,
+   "attributaire": "STE FIX-OLD SARL",
+   "montant": 253692.0
+  }
+ ],
+ "soumissionnaires": [
+  {
+   "nom": "STE FIX-OLD SARL Lots :2",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "STE AIT MAAZOUZ CONSTRUCTION",
+   "montant_acte_engagement": 275664.0,
+   "montant_apres_verification": 272064.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "STE SAMY GENIE CIVIL SARL",
+   "montant_acte_engagement": 839706.0,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "STE LIRAJ TRAVAUX SARL AU Lots :2",
+   "montant_acte_engagement": 251448.0,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "STE BAIDIR SARL Lots :2",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "STE NOVABNI Lots :1,2",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "depose",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "STE SMH GENIE CIVIL ET CANALIS Lots :2",
+   "montant_acte_engagement": 252144.0,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "STE NOVABNI",
+   "montant_acte_engagement": 1074762.0,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "STE FIX-OLD SARL",
+   "montant_acte_engagement": 253692.0,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "STE BAIDIR SARL",
+   "montant_acte_engagement": 253116.0,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 10,
+ "alertes_ocr": [
+  "« STE NOVABNI » absent de la liste des plis déposés (nom mal lu ?).",
+  "« STE FIX-OLD SARL » absent de la liste des plis déposés (nom mal lu ?).",
+  "« STE BAIDIR SARL » absent de la liste des plis déposés (nom mal lu ?)."
+ ],
+ "notes_ocr": [
+  "« STE AIT MAAZOUZ CONSTRUCTION » : montant rectifié de 275 664.00 à 272 064.00 DH.",
+  "Maître d'ouvrage absent du PV (utiliser l'acheteur public du portail)."
+ ],
+ "qualite": "complet"
+}

@@ -1,0 +1,71 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "709950",
+ "orgAcronyme": "d4q",
+ "reference_pv": null,
+ "nouveau": true,
+ "reference": null,
+ "objet": "du lot d'ouverture Concurrent retenu Observations du lot * des travaux de en MAD des plis Li",
+ "acheteur": null,
+ "procedure": "appel d'offres ouvert",
+ "categorie": "Travaux",
+ "date_limite_plis": "04/04/2023",
+ "lieu_ouverture": "Direction Régionale Distribution Rabat",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": null,
+ "justification": null,
+ "infructueux": false,
+ "attributaire": "EPELCO en /HTVA en /TVAC",
+ "montant_attribue": 434140.0,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "TRACHI- Réseaux Electricité- DRISSOF- Sté RACHID- ADAM STD",
+   "montant_acte_engagement": 373600.0,
+   "montant_apres_verification": null,
+   "autres_montants": [
+    373600.0,
+    373600.0,
+    448320.0
+   ],
+   "lots": [],
+   "statut": "ecarte_offre_financiere",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Sté RACHID",
+   "montant_acte_engagement": 378454.0,
+   "montant_apres_verification": null,
+   "autres_montants": [
+    378454.0,
+    378454.0,
+    454144.8
+   ],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "EPELCO en /HTVA en /TVAC",
+   "montant_acte_engagement": 434140.0,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 3,
+ "alertes_ocr": [
+  "« Sté RACHID » absent de la liste des plis déposés (nom mal lu ?).",
+  "« EPELCO en /HTVA en /TVAC » absent de la liste des plis déposés (nom mal lu ?)."
+ ],
+ "notes_ocr": [
+  "Maître d'ouvrage absent du PV (utiliser l'acheteur public du portail)."
+ ],
+ "qualite": "complet"
+}

@@ -1,0 +1,90 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "951152",
+ "orgAcronyme": "o8p",
+ "reference_pv": "27/AOO/DPJR-ANP/2025",
+ "nouveau": true,
+ "reference": "27/AOO/DPJR-ANP/2025",
+ "objet": null,
+ "acheteur": "Direction du Port de Jorf Lasfar et Région",
+ "procedure": "appel d'offres ouvert",
+ "categorie": "Travaux",
+ "date_limite_plis": "23/10/2025",
+ "lieu_ouverture": "Direction du Port de Jorf Lasfar et Région",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "11/11/2025",
+ "justification": "e SG AMAL a présenté la meilleure offre conforme.",
+ "infructueux": false,
+ "attributaire": "SG AMAL",
+ "montant_attribue": 625515.0,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "ANFAL",
+   "montant_acte_engagement": 833425.5,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_offre_financiere",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "JADMAR TRAVAUX",
+   "montant_acte_engagement": 879045.8,
+   "montant_apres_verification": 750875.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "TAHA WORK",
+   "montant_acte_engagement": 755530.0,
+   "montant_apres_verification": 755530.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "BAYANE KHADAMATE",
+   "montant_acte_engagement": 725155.0,
+   "montant_apres_verification": 725155.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "NAJIN DES TRAVAUX DIVERS ET NEGOCE",
+   "montant_acte_engagement": 624756.0,
+   "montant_apres_verification": 624756.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "SG AMAL",
+   "montant_acte_engagement": 625515.0,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 6,
+ "alertes_ocr": [
+  "« SG AMAL » absent de la liste des plis déposés (nom mal lu ?)."
+ ],
+ "notes_ocr": [
+  "« JADMAR TRAVAUX » : montant rectifié de 879 045.80 à 750 875.00 DH.",
+  "Montants exprimés hors taxes (HT)."
+ ],
+ "qualite": "complet"
+}

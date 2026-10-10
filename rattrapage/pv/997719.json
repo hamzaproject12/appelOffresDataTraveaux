@@ -1,0 +1,65 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "997719",
+ "orgAcronyme": "g3h",
+ "reference_pv": "40/PB/DE/INDH/2024",
+ "nouveau": true,
+ "reference": "40/PB/DE/INDH/2024",
+ "objet": "travaux de construction d’une piste au douar Ighrem Oufala à la commune Ouizeght Province de Boulemane",
+ "acheteur": null,
+ "procedure": "appel d'offres ouvert simplifié",
+ "categorie": "Travaux",
+ "date_limite_plis": "05/12/2024",
+ "lieu_ouverture": null,
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "16/12/2024",
+ "justification": "Offre économiquement la plus avantageuse.",
+ "infructueux": false,
+ "attributaire": "STE LOZOUM TRAVAUX",
+ "montant_attribue": 799374.6,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "STE JEHNI BTP",
+   "montant_acte_engagement": 800000.33,
+   "montant_apres_verification": 800000.33,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "STE LOZOUM TRAVAUX",
+   "montant_acte_engagement": 799375.0,
+   "montant_apres_verification": 799374.6,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "STE OLEA EURO",
+   "montant_acte_engagement": 838142.16,
+   "montant_apres_verification": 838142.16,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 3,
+ "alertes_ocr": [
+  "« STE JEHNI BTP » absent de la liste des plis déposés (nom mal lu ?).",
+  "« STE LOZOUM TRAVAUX » absent de la liste des plis déposés (nom mal lu ?).",
+  "« STE OLEA EURO » absent de la liste des plis déposés (nom mal lu ?)."
+ ],
+ "notes_ocr": [
+  "« STE LOZOUM TRAVAUX » : montant rectifié de 799 375.00 à 799 374.60 DH.",
+  "Maître d'ouvrage absent du PV (utiliser l'acheteur public du portail)."
+ ],
+ "qualite": "complet"
+}

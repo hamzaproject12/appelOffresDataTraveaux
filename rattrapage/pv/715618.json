@@ -1,0 +1,56 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "715618",
+ "orgAcronyme": "d4q",
+ "reference_pv": "51/DR1/CE/2023",
+ "nouveau": true,
+ "reference": "51/DR1/CE/2023",
+ "objet": "Extension des reseaux de distribution aux quartiers du centre Tamait Izdar",
+ "acheteur": null,
+ "procedure": "appel d'offres ouvert",
+ "categorie": "Travaux",
+ "date_limite_plis": "08/05/2023",
+ "lieu_ouverture": "au Siège de la Direction Régionale du Sud (DR1) - Rue 18 Novembre Quartier Industriel - Agadir - Maroc GROUP ARGUE / SONOCIC",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "22/05/2023",
+ "justification": "Moins-disant",
+ "infructueux": false,
+ "attributaire": null,
+ "montant_attribue": null,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "DR1/C - DIVISION ACHATS DR1",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "depose",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "GROUP ARGUE / SONOCIC",
+   "montant_acte_engagement": 5701494.0,
+   "montant_apres_verification": null,
+   "autres_montants": [
+    5701494.0
+   ],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 2,
+ "alertes_ocr": [
+  "« GROUP ARGUE / SONOCIC » absent de la liste des plis déposés (nom mal lu ?).",
+  "Attributaire non trouvé."
+ ],
+ "notes_ocr": [
+  "Maître d'ouvrage absent du PV (utiliser l'acheteur public du portail)."
+ ],
+ "qualite": "attribution"
+}

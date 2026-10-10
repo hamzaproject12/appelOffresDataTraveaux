@@ -1,0 +1,74 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "729360",
+ "orgAcronyme": "o8p",
+ "reference_pv": "11/2023/DPETL/Khouribga",
+ "nouveau": true,
+ "reference": "11/2023/DPETL/Khouribga",
+ "objet": "Travaux de revêtement en enrobé bitumineux de la RP 3510 du PK 1+700 au PK 12+100",
+ "acheteur": null,
+ "procedure": "appel d'offres ouvert",
+ "categorie": "Travaux",
+ "date_limite_plis": "06/07/2023",
+ "lieu_ouverture": "Direction Provincial de L'Equipement du Transport et de la Logistique de Khouribga",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": null,
+ "justification": null,
+ "infructueux": false,
+ "attributaire": "TRAVAUX DIVERS(TR3F) SARL à TEMARA",
+ "montant_attribue": 9084558.0,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "SOCIETE ABDELLAOUI NEGOCE ET 1IRAVAUX",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "ANETRASARL à KHENIFRA nome",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "TRAVAUX DIVERS(TR3F) SARL à TEMARA",
+   "montant_acte_engagement": 9084558.0,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "CASABLANCA",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 4,
+ "alertes_ocr": [
+  "« TRAVAUX DIVERS(TR3F) SARL à TEMARA » absent de la liste des plis déposés (nom mal lu ?)."
+ ],
+ "notes_ocr": [
+  "« SOCIETE ABDELLAOUI NEGOCE ET 1IRAVAUX » absent de la liste des plis déposés (nom mal lu ?).",
+  "« ANETRASARL à KHENIFRA nome » absent de la liste des plis déposés (nom mal lu ?).",
+  "« CASABLANCA » absent de la liste des plis déposés (nom mal lu ?).",
+  "Maître d'ouvrage absent du PV (utiliser l'acheteur public du portail)."
+ ],
+ "qualite": "attribution"
+}

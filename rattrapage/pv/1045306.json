@@ -1,0 +1,68 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "1045306",
+ "orgAcronyme": "o8p",
+ "reference_pv": "07/2026/GSC",
+ "nouveau": true,
+ "reference": "07/2026/GSC",
+ "objet": "TRAVAUX DE CONSTRUCTION DU GRAND STADE DE CASABLANCA – PROVINCE DE BENSLIMANE. LOT",
+ "acheteur": null,
+ "procedure": "appel d'offres ouvert international",
+ "categorie": "Travaux",
+ "date_limite_plis": "23/09/2026",
+ "lieu_ouverture": "Salle de réunions de l’Agence Nationale des Equipements Publics, Hay Nahda 2 à Rabat",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "01/10/2026",
+ "justification": "Conformément aux dispositions des articles 5 et 14 du règlement de la consultation.",
+ "infructueux": false,
+ "attributaire": "Groupement de Sociétés SOMECOTRAD-ROYALVERD SERVICE SLU",
+ "montant_attribue": 92473875.6,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "Société VALTECH",
+   "montant_acte_engagement": 104682000.0,
+   "montant_apres_verification": 104682000.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Groupement de Sociétés MP PROJECT-SUPPORT IN SPORT INTERNATIONAL LTD",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_offre_technique",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Groupement de Sociétés SOMECOTRAD-ROYALVERD SERVICE SLU",
+   "montant_acte_engagement": 92473875.6,
+   "montant_apres_verification": 92473875.6,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Société LIMONTA SPORT SPA",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_dossier_administratif_technique",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 4,
+ "alertes_ocr": [],
+ "notes_ocr": [
+  "Maître d'ouvrage absent du PV (utiliser l'acheteur public du portail)."
+ ]
+}

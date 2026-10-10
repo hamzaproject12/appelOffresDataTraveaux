@@ -1,0 +1,76 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "1020168",
+ "orgAcronyme": "a1t",
+ "reference_pv": "95/2026/ADHA",
+ "nouveau": true,
+ "reference": "95/2026/ADHA",
+ "objet": null,
+ "acheteur": "L’AGENCE DE DEVELOPPEMNT DU HAUT ATLAS",
+ "procedure": null,
+ "categorie": "Travaux",
+ "date_limite_plis": "03/06/2026",
+ "lieu_ouverture": "Salle de réunions de l’ADHA, CHOUITER",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "10/06/2026",
+ "justification": null,
+ "infructueux": false,
+ "attributaire": "Entreprise Marocaine d'Etude et d'Exécution ''EMEE'' SARL AU",
+ "montant_attribue": 6949906.8,
+ "attributaires_par_lot": [
+  {
+   "lot": null,
+   "attributaire": "Entreprise Marocaine d'Etude et d'Exécution ''EMEE'' SARL AU",
+   "montant": 6949906.8
+  },
+  {
+   "lot": null,
+   "attributaire": "SARL AU",
+   "montant": 6569700.0
+  },
+  {
+   "lot": null,
+   "attributaire": "STE ATLAS BATIMAR SARL AU",
+   "montant": 8632092.0
+  }
+ ],
+ "soumissionnaires": [
+  {
+   "nom": "Entreprise Marocaine d'Etude et d'Exécution ''EMEE'' SARL AU",
+   "montant_acte_engagement": 6949906.8,
+   "montant_apres_verification": 6949906.8,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "STE ATLAS BATIMAR SARL AU",
+   "montant_acte_engagement": 8632092.0,
+   "montant_apres_verification": 8632092.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "SARL AU",
+   "montant_acte_engagement": 6569700.0,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 3,
+ "alertes_ocr": [
+  "« SARL AU » absent de la liste des plis déposés (nom mal lu ?)."
+ ],
+ "notes_ocr": [],
+ "qualite": "attribution"
+}

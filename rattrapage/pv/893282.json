@@ -1,0 +1,123 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "893282",
+ "orgAcronyme": "g3h",
+ "reference_pv": "33/2025",
+ "nouveau": true,
+ "reference": "33/2025",
+ "objet": null,
+ "acheteur": "Régie Autonome de Distribution d’Eau et d’Electricité de Fès",
+ "procedure": "appel d'offres ouvert",
+ "categorie": "Travaux",
+ "date_limite_plis": "08/04/2025",
+ "lieu_ouverture": "Siège de la RADEEF",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "02/05/2025",
+ "justification": null,
+ "infructueux": false,
+ "attributaire": "STE GUISSI TRAVAUX EAUX ET PROJETS (SGTEP)",
+ "montant_attribue": 1606000.0,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "Groupement: ANOUAR DES TRAVAUX HYDRAULIQUES ET",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "depose",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "TARIK EL AINOUSSI (2 lots)",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "depose",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "ABOU RAGHAD (2 lots)",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "depose",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "ALL RESEAUX (2 lots)",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "depose",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "RAZ TRAVAUX (2 lots)",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "depose",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "STE GUISSI TRAVAUX EAUX ET PROJETS (SGTEP)",
+   "montant_acte_engagement": 1971600.0,
+   "montant_apres_verification": null,
+   "autres_montants": [
+    1854432.0,
+    1947000.0
+   ],
+   "lots": [
+    "1"
+   ],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Groupement : ANOUAR",
+   "montant_acte_engagement": 1927200.0,
+   "montant_apres_verification": null,
+   "autres_montants": [
+    1999680.0,
+    1976400.0
+   ],
+   "lots": [
+    "2"
+   ],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "ABOU RAGHAD ALL RESEAUX HYDRAULIQUES ET BATIMENTS & SOCIETE GENERALE D’ENERGIE",
+   "montant_acte_engagement": 2086500.0,
+   "montant_apres_verification": null,
+   "autres_montants": [
+    2000790.0,
+    2077000.0
+   ],
+   "lots": [
+    "2"
+   ],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 8,
+ "alertes_ocr": [
+  "« Groupement : ANOUAR » absent de la liste des plis déposés (nom mal lu ?).",
+  "« ABOU RAGHAD ALL RESEAUX HYDRAULIQUES ET BATIMENTS & SOCIETE GENERALE D’ENERGIE » absent de la liste des plis déposés (nom mal lu ?)."
+ ],
+ "notes_ocr": [
+  "Marché alloti (2 lots)."
+ ],
+ "qualite": "complet"
+}

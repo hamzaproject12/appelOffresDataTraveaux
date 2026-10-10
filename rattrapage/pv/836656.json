@@ -1,0 +1,71 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "836656",
+ "orgAcronyme": "j8k",
+ "reference_pv": "52/2024",
+ "nouveau": true,
+ "reference": "52/2024",
+ "objet": "TRAVAUX D’AMENAGEMENT EXTERIEUR DE L’OPERATION RIAD ERRAIHANE 1Ere TRANCHE Maitre d'ouvrage : AL OMRANE MARRAKECH-SAFTI",
+ "acheteur": null,
+ "procedure": "appel d'offres ouvert",
+ "categorie": "Travaux",
+ "date_limite_plis": "30/09/2024",
+ "lieu_ouverture": "SIEGE AL OMRANE MARRAKECH-SAFT",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "09/10/2024",
+ "justification": "Moins-disant.",
+ "infructueux": false,
+ "attributaire": null,
+ "montant_attribue": null,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "TRANSWIN",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_dossier_administratif_technique",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "TOUNA VERDURE",
+   "montant_acte_engagement": 1730147.36,
+   "montant_apres_verification": 1730147.36,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "CHAHD TRAVAUX",
+   "montant_acte_engagement": 1339879.65,
+   "montant_apres_verification": 1339879.65,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "BINADIC",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "depose",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 4,
+ "alertes_ocr": [
+  "Attributaire non trouvé."
+ ],
+ "notes_ocr": [
+  "Maître d'ouvrage absent du PV (utiliser l'acheteur public du portail)."
+ ],
+ "qualite": "complet"
+}

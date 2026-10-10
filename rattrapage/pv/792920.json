@@ -1,0 +1,51 @@
+{
+ "source": "extrait_docx",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "792920",
+ "orgAcronyme": "q0x",
+ "reference_pv": "01/2024",
+ "nouveau": true,
+ "reference": "01/2024",
+ "objet": "travaux de création d’un terrain de proximité à ksar Taous à la Commune Oued Naam Province Errachidia. Concurrents participants",
+ "acheteur": null,
+ "procedure": "appel d'offres ouvert simplifié",
+ "categorie": "Travaux",
+ "date_limite_plis": null,
+ "lieu_ouverture": null,
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "30/04/2024",
+ "justification": "- L’offre de la Ste ANTD SARL est l’offre la mieux disante.",
+ "infructueux": false,
+ "attributaire": "Ste ANTD SARL",
+ "montant_attribue": 334128.0,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "Ste SADIKI TRAVAUX",
+   "montant_acte_engagement": 334128.0,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Ste ANTD SARL",
+   "montant_acte_engagement": 334128.0,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 2,
+ "alertes_ocr": [],
+ "notes_ocr": [
+  "Maître d'ouvrage absent du PV (utiliser l'acheteur public du portail)."
+ ],
+ "qualite": "complet"
+}

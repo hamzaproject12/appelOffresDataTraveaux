@@ -1,0 +1,114 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "1031801",
+ "orgAcronyme": "q0x",
+ "reference_pv": "02/2026",
+ "nouveau": true,
+ "reference": "02/2026",
+ "objet": "Travaux de construction d'un mur de soutènement au quartier Ain Rjal, à la commune de My Driss Zerhoun",
+ "acheteur": "le Président de la commune de My IDriss Zerhoune",
+ "procedure": "appel d'offres ouvert national",
+ "categorie": "Travaux",
+ "date_limite_plis": "04/08/2026",
+ "lieu_ouverture": "bureau du président de la commune",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": null,
+ "justification": "<< Offre économiquement la plus avantageuse >>",
+ "infructueux": false,
+ "attributaire": null,
+ "montant_attribue": null,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "STÉ LAMTALSSI TRAVEAUX SARL AU dns Néant",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_dossier_administratif_technique",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "TALBI SERVICE PUBLIC SARL AdHiIE Néant",
+   "montant_acte_engagement": 1301040.0,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_dossier_administratif_technique",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "STE STRUAT SARL Admis Néant",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_dossier_administratif_technique",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "ATLANTIQUE DES TRAVAUX Admis",
+   "montant_acte_engagement": 1297560.0,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_dossier_administratif_technique",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "HYDRAULIQUES ET SPECIAUX SARL",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_dossier_administratif_technique",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "ASMAE AZROU SARL AU écarté",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_dossier_administratif_technique",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "STE STRUAT SARL",
+   "montant_acte_engagement": 1299708.0,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "LYTRAV SARL",
+   "montant_acte_engagement": 1313400.0,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 8,
+ "alertes_ocr": [
+  "« TALBI SERVICE PUBLIC SARL AdHiIE Néant » absent de la liste des plis déposés (nom mal lu ?).",
+  "« ATLANTIQUE DES TRAVAUX Admis » absent de la liste des plis déposés (nom mal lu ?).",
+  "« STE STRUAT SARL » absent de la liste des plis déposés (nom mal lu ?).",
+  "« LYTRAV SARL » absent de la liste des plis déposés (nom mal lu ?).",
+  "Attributaire non trouvé."
+ ],
+ "notes_ocr": [
+  "« STÉ LAMTALSSI TRAVEAUX SARL AU dns Néant » absent de la liste des plis déposés (nom mal lu ?).",
+  "« STE STRUAT SARL Admis Néant » absent de la liste des plis déposés (nom mal lu ?).",
+  "« HYDRAULIQUES ET SPECIAUX SARL » absent de la liste des plis déposés (nom mal lu ?).",
+  "« ASMAE AZROU SARL AU écarté » absent de la liste des plis déposés (nom mal lu ?)."
+ ],
+ "qualite": "complet"
+}

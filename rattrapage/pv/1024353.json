@@ -1,0 +1,53 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "1024353",
+ "orgAcronyme": "m8x",
+ "reference_pv": "12/2026/C",
+ "nouveau": true,
+ "reference": "12/2026/C",
+ "objet": "‘Travaux de Mise à Niveau Urbaine du Boulevard HASSAN II à la Commune d'ES-SEMARA Province d'ES-SEMARA - Tranche 1-",
+ "acheteur": "COMMUNE D’ES- SEMARA",
+ "procedure": "appel d'offres ouvert",
+ "categorie": "Travaux",
+ "date_limite_plis": "30/06/2026",
+ "lieu_ouverture": "Salle de réunion siège de la commune d’es- semara",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "15/07/2026",
+ "justification": null,
+ "infructueux": false,
+ "attributaire": "NEXTE ROUTIERE",
+ "montant_attribue": 26256812.4,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "STE BOUSSAKSSOU DE CONSTRUCTION",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_dossier_administratif_technique",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "NEXTE ROUTIERE",
+   "montant_acte_engagement": 26256812.4,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 2,
+ "alertes_ocr": [
+  "« NEXTE ROUTIERE » absent de la liste des plis déposés (nom mal lu ?)."
+ ],
+ "notes_ocr": [
+  "« STE BOUSSAKSSOU DE CONSTRUCTION » absent de la liste des plis déposés (nom mal lu ?)."
+ ],
+ "qualite": "attribution"
+}

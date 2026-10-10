@@ -1,0 +1,104 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "684479",
+ "orgAcronyme": "d4q",
+ "reference_pv": null,
+ "nouveau": true,
+ "reference": null,
+ "objet": "Création d'un nouveau départ 22KV BOUGUEDRA-Zone industrielle SAFI dans la Province de SAFI",
+ "acheteur": null,
+ "procedure": null,
+ "categorie": "Travaux",
+ "date_limite_plis": "05/10/2022",
+ "lieu_ouverture": "Commission Centrale (DISTRIBUTION/DAM} à Casablanca",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": null,
+ "justification": "conforme",
+ "infructueux": false,
+ "attributaire": "ELECTRO TAFOGHALT",
+ "montant_attribue": 8417501.3,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "ELECTRICITE BELLET",
+   "montant_acte_engagement": 7376646.88,
+   "montant_apres_verification": 7376646.88,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "FARADAY, PACIFEL, FASEG, SACHELEM, ELECPHONE, LUMAFRIC, EPELCO, ENTEG, ELECTRO TAFOGHALT",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "ELECTRICITE OTHMANE ELGOUTE 7",
+   "montant_acte_engagement": 240493.95,
+   "montant_apres_verification": 7307156.44,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "SOCIETE MEGA ELECTRO LUMIERE",
+   "montant_acte_engagement": 7323348.88,
+   "montant_apres_verification": 7323348.88,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "ENTREPRISE FARADAY",
+   "montant_acte_engagement": 7341174.72,
+   "montant_apres_verification": 7341174.72,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "STE OUEST APLICATION",
+   "montant_acte_engagement": 7424057.32,
+   "montant_apres_verification": 7598937.32,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "ELECTRO TAFOGHALT",
+   "montant_acte_engagement": 8417501.3,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 7,
+ "alertes_ocr": [
+  "« SOCIETE MEGA ELECTRO LUMIERE » absent de la liste des plis déposés (nom mal lu ?).",
+  "« ENTREPRISE FARADAY » absent de la liste des plis déposés (nom mal lu ?).",
+  "« STE OUEST APLICATION » absent de la liste des plis déposés (nom mal lu ?).",
+  "« ELECTRO TAFOGHALT » absent de la liste des plis déposés (nom mal lu ?).",
+  "« ELECTRICITE OTHMANE ELGOUTE 7 » : écart anormal entre montant initial et vérifié (lecture à vérifier)."
+ ],
+ "notes_ocr": [
+  "« ELECTRICITE OTHMANE ELGOUTE 7 » : montant rectifié de 240 493.95 à 7 307 156.44 DH.",
+  "« STE OUEST APLICATION » : montant rectifié de 7 424 057.32 à 7 598 937.32 DH.",
+  "Maître d'ouvrage absent du PV (utiliser l'acheteur public du portail)."
+ ],
+ "qualite": "complet"
+}

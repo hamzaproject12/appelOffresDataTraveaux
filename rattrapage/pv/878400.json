@@ -1,0 +1,58 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "878400",
+ "orgAcronyme": "j8k",
+ "reference_pv": "11/2025",
+ "nouveau": true,
+ "reference": "11/2025",
+ "objet": "travaux de démolition de 50 bâtisses menaçant ruine à la ville de Safi",
+ "acheteur": "AL OMRANE MARRAKECH-SAFT",
+ "procedure": "appel d'offres ouvert",
+ "categorie": "Travaux",
+ "date_limite_plis": "05/03/2025",
+ "lieu_ouverture": "AL OMRANE MARRAKECH-SAFT",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": null,
+ "justification": "EDDAHIOUY BOURGBA È Date d'achèvement des travaux de la commission : 11/03/2025 y LE PRESIDENT DE LA COMMISSION | Ce",
+ "infructueux": false,
+ "attributaire": "EDDAHIOUY BOURGBA",
+ "montant_attribue": 801000.0,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "ANATRA",
+   "montant_acte_engagement": 941400.0,
+   "montant_apres_verification": 941400.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "VIA SUD",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_dossier_administratif_technique",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "EDDAHIOUY BOURGBA",
+   "montant_acte_engagement": 801000.0,
+   "montant_apres_verification": 801000.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 3,
+ "alertes_ocr": [],
+ "notes_ocr": [],
+ "qualite": "complet"
+}

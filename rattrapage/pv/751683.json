@@ -1,0 +1,75 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "751683",
+ "orgAcronyme": "q1s",
+ "reference_pv": "05/2023/CRRAO",
+ "nouveau": true,
+ "reference": "05/2023/CRRAO",
+ "objet": "Travaux d’aménagement de la serre vitrée au Centre Régional de la Recherche Agronomique d’Oujda, en lot unique",
+ "acheteur": null,
+ "procedure": "appel d'offres ouvert",
+ "categorie": "Travaux",
+ "date_limite_plis": "04/10/2023",
+ "lieu_ouverture": "la salle des réunions au siège de l’INRA, Avenue de la Victoire à Rabat",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "01/11/2023",
+ "justification": "l’offre la plus avantageuse",
+ "infructueux": false,
+ "attributaire": "MANTENANCE",
+ "montant_attribue": 410376.0,
+ "attributaires_par_lot": [
+  {
+   "lot": null,
+   "attributaire": "MANTENANCE",
+   "montant": 410376.0
+  },
+  {
+   "lot": "unique",
+   "attributaire": "MULTI SERVICE DE MANTENANCE",
+   "montant": 410376.0
+  }
+ ],
+ "soumissionnaires": [
+  {
+   "nom": "OUHRATEC",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_dossier_administratif_technique",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "MULTI SERVICE DE MANTENANCE",
+   "montant_acte_engagement": 404976.0,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [
+    "unique"
+   ],
+   "statut": "attributaire",
+   "admis_avec_reserve": true
+  },
+  {
+   "nom": "MANTENANCE",
+   "montant_acte_engagement": 410376.0,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 3,
+ "alertes_ocr": [
+  "« MANTENANCE » absent de la liste des plis déposés (nom mal lu ?)."
+ ],
+ "notes_ocr": [
+  "Maître d'ouvrage absent du PV (utiliser l'acheteur public du portail)."
+ ],
+ "qualite": "attribution"
+}

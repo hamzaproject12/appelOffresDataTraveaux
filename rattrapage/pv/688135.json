@@ -1,0 +1,206 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "688135",
+ "orgAcronyme": "m1w",
+ "reference_pv": null,
+ "nouveau": true,
+ "reference": null,
+ "objet": "Travaux de réhabilitation des sites de Barid Al-Maghrib : - Lot 1 : Travaux de réhabilitation : Sous lot 1",
+ "acheteur": null,
+ "procedure": null,
+ "categorie": "Travaux",
+ "date_limite_plis": "06/12/2022",
+ "lieu_ouverture": "Direction Achats, sise au 8, rue Dayet Erroumi, Agdal — Rabat",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "27/12/2022",
+ "justification": "Offres moins disantes.",
+ "infructueux": true,
+ "attributaire": "Temara grand projet",
+ "montant_attribue": 412008.5,
+ "attributaires_par_lot": [
+  {
+   "lot": "1",
+   "attributaire": "Temara grand projet",
+   "montant": 412008.5
+  },
+  {
+   "lot": "2",
+   "attributaire": "H travaux développement",
+   "montant": 230000.0
+  },
+  {
+   "lot": "6",
+   "attributaire": "Loté Daanouni frères",
+   "montant": 335815.0
+  },
+  {
+   "lot": "7",
+   "attributaire": "GL TRA",
+   "montant": 368891.5
+  },
+  {
+   "lot": "9",
+   "attributaire": "Medi Atlas",
+   "montant": 152860.0
+  }
+ ],
+ "soumissionnaires": [
+  {
+   "nom": "Soumissions physiques Soumissions électroniques",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "depose",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "H travaux développement",
+   "montant_acte_engagement": 230000.0,
+   "montant_apres_verification": null,
+   "autres_montants": [
+    230000.0,
+    195000.0
+   ],
+   "lots": [
+    "1",
+    "2"
+   ],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "EL BATE ET BAYA (SELBA) - OTHMAN",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_dossier_administratif_technique",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Medi Atlas",
+   "montant_acte_engagement": 359695.0,
+   "montant_apres_verification": null,
+   "autres_montants": [
+    359695.0,
+    152860.0
+   ],
+   "lots": [
+    "4",
+    "8",
+    "9"
+   ],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "ELMD TRAVAUX",
+   "montant_acte_engagement": 417920.0,
+   "montant_apres_verification": null,
+   "autres_montants": [
+    417920.0
+   ],
+   "lots": [
+    "4"
+   ],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Temara grand projet",
+   "montant_acte_engagement": 412008.5,
+   "montant_apres_verification": null,
+   "autres_montants": [
+    412008.5,
+    234086.0,
+    176410.0,
+    185230.0,
+    362655.0,
+    436339.0,
+    540204.0,
+    704790.0,
+    212684.0,
+    195630.0
+   ],
+   "lots": [
+    "1",
+    "10",
+    "2",
+    "3",
+    "4",
+    "7",
+    "8",
+    "9"
+   ],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Loté Daanouni frères",
+   "montant_acte_engagement": 335815.0,
+   "montant_apres_verification": null,
+   "autres_montants": [
+    335815.0
+   ],
+   "lots": [
+    "4",
+    "6"
+   ],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "IRENO SERVICE",
+   "montant_acte_engagement": 456427.0,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [
+    "7"
+   ],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Lots Chantier Al amal",
+   "montant_acte_engagement": 345005.0,
+   "montant_apres_verification": null,
+   "autres_montants": [
+    345005.0,
+    446131.5
+   ],
+   "lots": [
+    "4",
+    "7"
+   ],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "GL TRA",
+   "montant_acte_engagement": 368891.5,
+   "montant_apres_verification": null,
+   "autres_montants": [
+    368891.5
+   ],
+   "lots": [
+    "4",
+    "7"
+   ],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 10,
+ "alertes_ocr": [],
+ "notes_ocr": [
+  "Marché alloti (9 lots).",
+  "Maître d'ouvrage absent du PV (utiliser l'acheteur public du portail).",
+  "Montants exprimés hors taxes (HT)."
+ ],
+ "qualite": "complet"
+}

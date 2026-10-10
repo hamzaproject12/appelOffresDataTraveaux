@@ -1,0 +1,58 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "963359",
+ "orgAcronyme": "g3h",
+ "reference_pv": "09/2025",
+ "nouveau": true,
+ "reference": "09/2025",
+ "objet": "Travaux d'installation des onduleurs et des batteries des Data Center du Ministère de l’intérieur à Rabat (lot unique)",
+ "acheteur": "Ministère de l'Intérieur",
+ "procedure": "appel d'offres ouvert national",
+ "categorie": "Travaux",
+ "date_limite_plis": "11/12/2025",
+ "lieu_ouverture": "la Direction des Affaires Administratives (Division des Marchés du Ministère de l'Intérieur)",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "12/12/2025",
+ "justification": "l’offre économiquement la plus avantageuse ;",
+ "infructueux": false,
+ "attributaire": "Sté. FACILITY PROPERTY MANAGEMENT SARL",
+ "montant_attribue": 3073800.0,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "Concurrent 1 GROUPEMENT ALOUSS SARL ET NEWERACOM SARL",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_offre_technique",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Concurrent 2 Sté. TRAVAUX ELECTRIQUES ET REALISATIONS SARL",
+   "montant_acte_engagement": 3185784.0,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Sté. FACILITY PROPERTY MANAGEMENT SARL",
+   "montant_acte_engagement": 3073800.0,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 3,
+ "alertes_ocr": [],
+ "notes_ocr": [],
+ "qualite": "complet"
+}

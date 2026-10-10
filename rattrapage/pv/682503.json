@@ -1,0 +1,54 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "682503",
+ "orgAcronyme": "d4q",
+ "reference_pv": null,
+ "nouveau": true,
+ "reference": null,
+ "objet": null,
+ "acheteur": null,
+ "procedure": null,
+ "categorie": "Travaux",
+ "date_limite_plis": "01/11/2022",
+ "lieu_ouverture": "Siège DRL Laâyoune",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": null,
+ "justification": "Plus avantageux.",
+ "infructueux": false,
+ "attributaire": "ECLAIRAGE SAHARA D’ELECTRICITE",
+ "montant_attribue": 1913214.04,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "SOREGELEC",
+   "montant_acte_engagement": 1927977.25,
+   "montant_apres_verification": 1927977.25,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "ECLAIRAGE SAHARA D’ELECTRICITE",
+   "montant_acte_engagement": 1913214.04,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 2,
+ "alertes_ocr": [
+  "« ECLAIRAGE SAHARA D’ELECTRICITE » absent de la liste des plis déposés (nom mal lu ?)."
+ ],
+ "notes_ocr": [
+  "Maître d'ouvrage absent du PV (utiliser l'acheteur public du portail).",
+  "Montants exprimés hors taxes (HT)."
+ ],
+ "qualite": "complet"
+}

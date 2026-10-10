@@ -1,0 +1,51 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "1011865",
+ "orgAcronyme": "d4q",
+ "reference_pv": "8/DAM/ET/2026",
+ "nouveau": true,
+ "reference": "8/DAM/ET/2026",
+ "objet": "AEP d’Agadir à partir du barrage Tamri -Lot n°1: Conduites - Equipements- Génie Civil",
+ "acheteur": null,
+ "procedure": "appel d'offres ouvert",
+ "categorie": "Travaux",
+ "date_limite_plis": "10/06/2026",
+ "lieu_ouverture": "à la Salle d'ouverture de l'Immeuble G - Avenue Mohamed Belhassan El Ouazzani - Rabat",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "10/06/2026",
+ "justification": "Moins-disant",
+ "infructueux": true,
+ "attributaire": null,
+ "montant_attribue": null,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "ATNER (ATLAS ENERGIE)",
+   "montant_acte_engagement": 108034846.8,
+   "montant_apres_verification": 108034846.8,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_dossier_administratif_technique",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "SOGETRAMA GLS",
+   "montant_acte_engagement": 122237930.4,
+   "montant_apres_verification": 122237930.4,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_dossier_administratif_technique",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 2,
+ "alertes_ocr": [],
+ "notes_ocr": [
+  "Maître d'ouvrage absent du PV (utiliser l'acheteur public du portail)."
+ ],
+ "qualite": "complet"
+}

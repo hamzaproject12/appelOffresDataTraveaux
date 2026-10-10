@@ -1,0 +1,51 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "684532",
+ "orgAcronyme": "d4q",
+ "reference_pv": null,
+ "nouveau": true,
+ "reference": null,
+ "objet": "Travaux d’Hydrocurage du réseau d'assainissement au centre de MIDELT",
+ "acheteur": null,
+ "procedure": "appel d'offres ouvert",
+ "categorie": "Travaux",
+ "date_limite_plis": "02/11/2022",
+ "lieu_ouverture": "Siège de la Direction Régionale Daraa-Tafilalet (DRD) Avenue Mohamed VI - Azemmour J'did - Errachidia",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "15/12/2022",
+ "justification": "Moins-disant",
+ "infructueux": false,
+ "attributaire": "DAROUICH TRAVAUX DIVERS",
+ "montant_attribue": 127224.0,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "DAROUICH TRAVAUX DIVERS",
+   "montant_acte_engagement": 127224.0,
+   "montant_apres_verification": 127224.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "HDB TRAVAUX MAROC",
+   "montant_acte_engagement": 165687.0,
+   "montant_apres_verification": 165687.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 2,
+ "alertes_ocr": [],
+ "notes_ocr": [
+  "Maître d'ouvrage absent du PV (utiliser l'acheteur public du portail)."
+ ],
+ "qualite": "complet"
+}

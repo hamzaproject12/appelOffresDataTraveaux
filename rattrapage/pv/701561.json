@@ -1,0 +1,73 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "701561",
+ "orgAcronyme": "i1t",
+ "reference_pv": null,
+ "nouveau": true,
+ "reference": null,
+ "objet": "travaux de protection des douars situes a la commune al haouafate contre les inondations d’oued sebou douars hmidyine drarssa - hmidyine knadra - oulad chaleh - coop karam -— coop sidi moussa -— laazib",
+ "acheteur": "COMMUNE AL HAOUAFATE",
+ "procedure": null,
+ "categorie": "Travaux",
+ "date_limite_plis": "03/03/2023",
+ "lieu_ouverture": "Sale de réunion a la commune al haouafte",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "20/03/2023",
+ "justification": null,
+ "infructueux": false,
+ "attributaire": "Sté AMI FIDEL SARL AU - Meknès",
+ "montant_attribue": 438850.0,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "Sté YOUFTEN BTP - Marrakech 4.3",
+   "montant_acte_engagement": 75400.0,
+   "montant_apres_verification": 43175400.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "STE DE TRAVAUX AGRICOLES INDUS - Casa Blanca",
+   "montant_acte_engagement": 55090285.2,
+   "montant_apres_verification": 55090285.2,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "SNTRO - Marrakech",
+   "montant_acte_engagement": 44438940.0,
+   "montant_apres_verification": 438940.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Sté AMI FIDEL SARL AU - Meknès",
+   "montant_acte_engagement": 44438850.0,
+   "montant_apres_verification": 44438850.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 4,
+ "alertes_ocr": [
+  "« Sté YOUFTEN BTP - Marrakech 4.3 » : écart anormal entre montant initial et vérifié (lecture à vérifier).",
+  "« SNTRO - Marrakech » : écart anormal entre montant initial et vérifié (lecture à vérifier)."
+ ],
+ "notes_ocr": [
+  "« Sté YOUFTEN BTP - Marrakech 4.3 » : montant rectifié de 75 400.00 à 43 175 400.00 DH.",
+  "« SNTRO - Marrakech » : montant rectifié de 44 438 940.00 à 438 940.00 DH."
+ ],
+ "qualite": "complet"
+}

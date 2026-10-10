@@ -1,0 +1,97 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "874645",
+ "orgAcronyme": "d4q",
+ "reference_pv": null,
+ "nouveau": true,
+ "reference": null,
+ "objet": "Renforcement et sécurisation de l'AEP du centre Ait Zineb et douars à partir de l'adduction de Taznakht Lot 2 Génie Civil",
+ "acheteur": null,
+ "procedure": "appel d'offres ouvert",
+ "categorie": "Travaux",
+ "date_limite_plis": "04/12/2024",
+ "lieu_ouverture": "au siège de la Direction Régionale Daraa-Tafilalet (DRD) — Avenue Mohamed VI - Azemmour J'did - Errachidia",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "25/02/2025",
+ "justification": "Moins-disant",
+ "infructueux": false,
+ "attributaire": "Montant TIC Délai d'exécution SOGECIPA",
+ "montant_attribue": 4107030.0,
+ "attributaires_par_lot": [
+  {
+   "lot": null,
+   "attributaire": "Montant TIC Délai d'exécution SOGECIPA",
+   "montant": 4107030.0
+  },
+  {
+   "lot": null,
+   "attributaire": "SOGECI PA MAROC",
+   "montant": 4107030.0
+  }
+ ],
+ "soumissionnaires": [
+  {
+   "nom": "ACH20",
+   "montant_acte_engagement": 5225040.0,
+   "montant_apres_verification": null,
+   "autres_montants": [
+    5225040.0
+   ],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "ENRG MAROC",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "depose",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "GROUP CTG ATLAS / G.H.S TRAVAUX MAROC - MAROC",
+   "montant_acte_engagement": 4633920.0,
+   "montant_apres_verification": null,
+   "autres_montants": [
+    4633920.0
+   ],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "SOGECI PA MAROC",
+   "montant_acte_engagement": 4107030.0,
+   "montant_apres_verification": null,
+   "autres_montants": [
+    4107030.0
+   ],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "SONOCIC MAROC",
+   "montant_acte_engagement": 4514556.0,
+   "montant_apres_verification": null,
+   "autres_montants": [
+    4514556.0
+   ],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 5,
+ "alertes_ocr": [],
+ "notes_ocr": [
+  "Maître d'ouvrage absent du PV (utiliser l'acheteur public du portail)."
+ ],
+ "qualite": "complet"
+}

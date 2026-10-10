@@ -1,0 +1,69 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "862930",
+ "orgAcronyme": "f9f",
+ "reference_pv": null,
+ "nouveau": true,
+ "reference": null,
+ "objet": "Réalisation des Prestations Architecturales Relatives à L'aménagement en Lotissement de la Tranche « Commerces Aglou-Plage », Province de Tiznit, Région Souss Massa",
+ "acheteur": null,
+ "procedure": "consultation architecturale",
+ "categorie": "Travaux",
+ "date_limite_plis": "24/12/2024",
+ "lieu_ouverture": "Salle des réunions du Conseil Provincial de Tiznit",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": null,
+ "justification": "l'offre économiquement la plus avantageuse",
+ "infructueux": false,
+ "attributaire": "ARCHIYAD SARL",
+ "montant_attribue": 78000.0,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "KT ARCHI SARL",
+   "montant_acte_engagement": 1485000.0,
+   "montant_apres_verification": 1485000.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_offre_financiere",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "ARCHIYAD SARL",
+   "montant_acte_engagement": 1428770.0,
+   "montant_apres_verification": 1428770.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "ATELIER YARCHITECT SARL",
+   "montant_acte_engagement": 1485978.0,
+   "montant_apres_verification": 1485978.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_dossier_administratif_technique",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "CABINET D'ARCHITECTURE JERMOUNI MAISSAA",
+   "montant_acte_engagement": 1485000.0,
+   "montant_apres_verification": 1485000.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_offre_financiere",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 4,
+ "alertes_ocr": [],
+ "notes_ocr": [
+  "Maître d'ouvrage absent du PV (utiliser l'acheteur public du portail)."
+ ],
+ "qualite": "complet"
+}

@@ -1,0 +1,73 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "760877",
+ "orgAcronyme": "o8p",
+ "reference_pv": "AOOP/24/2023/ANEPO",
+ "nouveau": true,
+ "reference": "AOOP/24/2023/ANEPO",
+ "objet": null,
+ "acheteur": "Ministère de la Santé et de la Protection Sociale",
+ "procedure": "appel d'offres ouvert",
+ "categorie": "Travaux",
+ "date_limite_plis": "24/11/2023",
+ "lieu_ouverture": "avenue al alaouiyine numéro 44 premier étage, Oujda Conformément à l’avis publié dans les journaux suivants",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "29/11/2023",
+ "justification": "L’offre économiquement la plus avantageuse qui est l’offre la mieux disante a été retenue.",
+ "infructueux": false,
+ "attributaire": "STE KIKOVA SARL",
+ "montant_attribue": null,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "STE KIKOVA SARL",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "STE SCOTIM SARL",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "STE KIKOVA SARL mm ssssessrnesenssescncesesereneneseesescseerenseenee ARFOUD",
+   "montant_acte_engagement": 14077632.0,
+   "montant_apres_verification": 14394048.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "STE SCOTIM SARL ..ssssssnssnrereenenenenenneneseseencenesseneesesseesenes TEMARA",
+   "montant_acte_engagement": 13559779.2,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 4,
+ "alertes_ocr": [
+  "« STE KIKOVA SARL mm ssssessrnesenssescncesesereneneseesescseerenseenee ARFOUD » absent de la liste des plis déposés (nom mal lu ?).",
+  "« STE SCOTIM SARL ..ssssssnssnrereenenenenenneneseseencenesseneesesseesenes TEMARA » absent de la liste des plis déposés (nom mal lu ?).",
+  "Montant de l'attributaire « STE KIKOVA SARL » non trouvé."
+ ],
+ "notes_ocr": [
+  "« STE KIKOVA SARL mm ssssessrnesenssescncesesereneneseesescseerenseenee ARFOUD » : montant rectifié de 14 077 632.00 à 14 394 048.00 DH."
+ ],
+ "qualite": "complet"
+}

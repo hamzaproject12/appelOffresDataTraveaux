@@ -1,0 +1,49 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "812131",
+ "orgAcronyme": "l1f",
+ "reference_pv": null,
+ "nouveau": true,
+ "reference": null,
+ "objet": "Gros travaux de maintenance d'éclairage public : Fourniture et pose des luminaires en LED et changement des luminaires existants en LED",
+ "acheteur": "Commune de M'diq",
+ "procedure": null,
+ "categorie": "Travaux",
+ "date_limite_plis": null,
+ "lieu_ouverture": null,
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "04/07/2024",
+ "justification": null,
+ "infructueux": false,
+ "attributaire": "STE TAMOUDA BAY DES TRAVAUX DIVERS",
+ "montant_attribue": 2528040.0,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "STE ELEC TRIMAROC",
+   "montant_acte_engagement": 2778000.0,
+   "montant_apres_verification": 2778000.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "STE TAMOUDA BAY DES TRAVAUX DIVERS",
+   "montant_acte_engagement": 2528040.0,
+   "montant_apres_verification": 2528040.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 2,
+ "alertes_ocr": [],
+ "notes_ocr": [],
+ "qualite": "complet"
+}

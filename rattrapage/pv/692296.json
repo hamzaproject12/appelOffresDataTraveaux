@@ -1,0 +1,131 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "692296",
+ "orgAcronyme": "d4q",
+ "reference_pv": null,
+ "nouveau": true,
+ "reference": null,
+ "objet": "Travaux de recherche et réparation de fuites avec engagement sur le résultat au niveau du réseau de distributio la ville de Saidia Re | |",
+ "acheteur": null,
+ "procedure": "appel d'offres ouvert",
+ "categorie": "Travaux",
+ "date_limite_plis": "24/01/2023",
+ "lieu_ouverture": "au Siège de la Direction Régionale de 1'ortental (DR6EEAN Place 18 Mars 2003 - Oujda - Maroc |",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "02/02/2023",
+ "justification": null,
+ "infructueux": false,
+ "attributaire": "GREEN CODE MAROC",
+ "montant_attribue": null,
+ "attributaires_par_lot": [
+  {
+   "lot": null,
+   "attributaire": "GREEN CODE MAROC",
+   "montant": null
+  },
+  {
+   "lot": null,
+   "attributaire": "Branche Eau",
+   "montant": null
+  },
+  {
+   "lot": null,
+   "attributaire": "DR6/C - DIVISION ACHATS DR6 14",
+   "montant": null
+  },
+  {
+   "lot": null,
+   "attributaire": "reconductible",
+   "montant": 2836200.0
+  }
+ ],
+ "soumissionnaires": [
+  {
+   "nom": "GREEN CODE MAROC",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "GROUP AFFAIR OF THE WATER/ MAROC W ET TRAVAUX MAROC - MAROC",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "depose",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "CHAOUCH",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "depose",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "DEA pla a 3 el SU be SI EXTRAIT DU PROCES VERBAL",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "depose",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Branche Eau",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "au pi",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "depose",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "DR6/C - DIVISION ACHATS DR6 14",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "reconductible",
+   "montant_acte_engagement": 2836200.0,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 8,
+ "alertes_ocr": [
+  "« reconductible » absent de la liste des plis déposés (nom mal lu ?).",
+  "Montant de l'attributaire « GREEN CODE MAROC » non trouvé.",
+  "Montant de l'attributaire « Branche Eau » non trouvé.",
+  "Montant de l'attributaire « DR6/C - DIVISION ACHATS DR6 14 » non trouvé."
+ ],
+ "notes_ocr": [
+  "Maître d'ouvrage absent du PV (utiliser l'acheteur public du portail)."
+ ],
+ "qualite": "attribution"
+}

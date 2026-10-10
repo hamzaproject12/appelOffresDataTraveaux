@@ -1,0 +1,64 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "740693",
+ "orgAcronyme": "j8k",
+ "reference_pv": null,
+ "nouveau": true,
+ "reference": null,
+ "objet": "Réalisation des Travaux de voirie, de dallage, d'assainissement, et d'alimentation en eau potable et espaces verts, de",
+ "acheteur": null,
+ "procedure": null,
+ "categorie": "Travaux",
+ "date_limite_plis": "01/09/2023",
+ "lieu_ouverture": "Division des Marchés de la Société AI Omrane souss Massa",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "06/09/2023",
+ "justification": "Concurrent représentant l'offre la plus avantageuse.",
+ "infructueux": false,
+ "attributaire": "SICATRA",
+ "montant_attribue": 5544006.26,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "SAHAF - ETIA - SICATRA - ESTAR BATIMENT",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "ETIA",
+   "montant_acte_engagement": 5075498.69,
+   "montant_apres_verification": 5075498.69,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "SICATRA",
+   "montant_acte_engagement": 5544006.26,
+   "montant_apres_verification": 5544006.26,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 3,
+ "alertes_ocr": [
+  "« ETIA » absent de la liste des plis déposés (nom mal lu ?).",
+  "« SICATRA » absent de la liste des plis déposés (nom mal lu ?)."
+ ],
+ "notes_ocr": [
+  "« SAHAF - ETIA - SICATRA - ESTAR BATIMENT » absent de la liste des plis déposés (nom mal lu ?).",
+  "Maître d'ouvrage absent du PV (utiliser l'acheteur public du portail)."
+ ],
+ "qualite": "complet"
+}

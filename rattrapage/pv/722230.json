@@ -1,0 +1,63 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "722230",
+ "orgAcronyme": "o8p",
+ "reference_pv": "09/DRPC-ANP/2023",
+ "nouveau": true,
+ "reference": "09/DRPC-ANP/2023",
+ "objet": "Travaux d'achèvement de la première tranche d'augmentation de la puissance électrique installée et la sécurisation des alimentations électriques au port de Casablanca",
+ "acheteur": "AGENCE NATIONALE DES PORTS, DIRECTION REGIONALE DU PORT DE CASABLANCA",
+ "procedure": null,
+ "categorie": "Travaux",
+ "date_limite_plis": "30/05/2023",
+ "lieu_ouverture": "DIRECTION REGIONALE DU PORT DE CASABLANCA",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "15/06/2023",
+ "justification": null,
+ "infructueux": false,
+ "attributaire": "EMPEGEC",
+ "montant_attribue": 9630000.0,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "EMPEGEC- DAREL- ICOMEL.- STE SOCADELEG",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "depose",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "STE SOCADELEG",
+   "montant_acte_engagement": 9712700.0,
+   "montant_apres_verification": null,
+   "autres_montants": [
+    11655240.0
+   ],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "EMPEGEC",
+   "montant_acte_engagement": 9630000.0,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 3,
+ "alertes_ocr": [
+  "« STE SOCADELEG » absent de la liste des plis déposés (nom mal lu ?).",
+  "« EMPEGEC » absent de la liste des plis déposés (nom mal lu ?)."
+ ],
+ "notes_ocr": [],
+ "qualite": "complet"
+}

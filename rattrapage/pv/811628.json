@@ -1,0 +1,67 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "811628",
+ "orgAcronyme": "b5j",
+ "reference_pv": null,
+ "nouveau": true,
+ "reference": null,
+ "objet": "Travaux de viabilisation des lotissements ATALAA 1 à Sidi Kacem et ATALAA 2 à Jorf El",
+ "acheteur": "Agence de Logements et d'Equipements Militaires",
+ "procedure": null,
+ "categorie": "Travaux",
+ "date_limite_plis": "25/06/2024",
+ "lieu_ouverture": "Salle des réunions de l'ALEM",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "05/07/2024",
+ "justification": "offre la plus avantageuse.",
+ "infructueux": false,
+ "attributaire": "INCHAELEC",
+ "montant_attribue": 4097178.0,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "ICOMEL",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_dossier_administratif_technique",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "ELECTOMAR",
+   "montant_acte_engagement": 4253316.6,
+   "montant_apres_verification": 4253316.6,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "INCHAELEC",
+   "montant_acte_engagement": 4097178.0,
+   "montant_apres_verification": 4097178.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "MULTI WORK CENTER MAROC",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_dossier_administratif_technique",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 4,
+ "alertes_ocr": [],
+ "notes_ocr": [],
+ "qualite": "complet"
+}

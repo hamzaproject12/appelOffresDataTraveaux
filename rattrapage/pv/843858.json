@@ -1,0 +1,107 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "843858",
+ "orgAcronyme": "g8e",
+ "reference_pv": "173/2024",
+ "nouveau": true,
+ "reference": "173/2024",
+ "objet": null,
+ "acheteur": "Agence Régionale d'Exécution des Projets Région Béni Mellal-Khénifra",
+ "procedure": null,
+ "categorie": "Travaux",
+ "date_limite_plis": "24/10/2024",
+ "lieu_ouverture": "Salle de réunion de l'AREP région Beni Mellal Khénifra Sis Bd Med V lotissement lala Hayat immeuble n°3, 4%\" et 5% étage Béni Mellal",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "31/10/2024",
+ "justification": "L'offre économiquement la plus avantageuse",
+ "infructueux": false,
+ "attributaire": "STE DIHYA",
+ "montant_attribue": 1793112.0,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "1, STE SMATRI",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "depose",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "STE HBS EQUIPEMENT",
+   "montant_acte_engagement": 1793298.0,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "STE EGCA - + lo",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "depose",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "STE AIT OUKHALI TRAVAUX",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_dossier_administratif_technique",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "STE DIHYA NC» AS",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "depose",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "STE SMATRI",
+   "montant_acte_engagement": 1794960.0,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "STE EGCA",
+   "montant_acte_engagement": 1803504.0,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "STE DIHYA",
+   "montant_acte_engagement": 1793112.0,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 8,
+ "alertes_ocr": [
+  "« STE SMATRI » absent de la liste des plis déposés (nom mal lu ?).",
+  "« STE EGCA » absent de la liste des plis déposés (nom mal lu ?).",
+  "« STE DIHYA » absent de la liste des plis déposés (nom mal lu ?)."
+ ],
+ "notes_ocr": [],
+ "qualite": "complet"
+}

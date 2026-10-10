@@ -1,0 +1,75 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "967173",
+ "orgAcronyme": "g3h",
+ "reference_pv": null,
+ "nouveau": true,
+ "reference": null,
+ "objet": "Travaux de maintenance des équipements hydromécaniques et électriques des ouvrages d’eau potable aux centres relevant de la Province de Beni Mellal",
+ "acheteur": null,
+ "procedure": null,
+ "categorie": "Travaux",
+ "date_limite_plis": "18/12/2025",
+ "lieu_ouverture": null,
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": null,
+ "justification": null,
+ "infructueux": false,
+ "attributaire": null,
+ "montant_attribue": null,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "Société OMNIUM HYDROLIQUE ET ELECTRIQUE",
+   "montant_acte_engagement": 930180.0,
+   "montant_apres_verification": 930180.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": true
+  },
+  {
+   "nom": "C1 Es: ü Pen, RICE",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": true
+  },
+  {
+   "nom": "Société ALTAIR ENVIRONNEMENT",
+   "montant_acte_engagement": 629880.0,
+   "montant_apres_verification": 629880.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Société ELECTROBOBINAGE ENNOUR",
+   "montant_acte_engagement": 767760.0,
+   "montant_apres_verification": 767760.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 4,
+ "alertes_ocr": [
+  "« Société OMNIUM HYDROLIQUE ET ELECTRIQUE » absent de la liste des plis déposés (nom mal lu ?).",
+  "« Société ALTAIR ENVIRONNEMENT » absent de la liste des plis déposés (nom mal lu ?).",
+  "« Société ELECTROBOBINAGE ENNOUR » absent de la liste des plis déposés (nom mal lu ?).",
+  "Attributaire non trouvé."
+ ],
+ "notes_ocr": [
+  "« C1 Es: ü Pen, RICE » absent de la liste des plis déposés (nom mal lu ?).",
+  "Maître d'ouvrage absent du PV (utiliser l'acheteur public du portail)."
+ ],
+ "qualite": "complet"
+}

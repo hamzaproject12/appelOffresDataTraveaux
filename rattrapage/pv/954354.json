@@ -1,0 +1,72 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "954354",
+ "orgAcronyme": "z9k",
+ "reference_pv": "15/2025/CD",
+ "nouveau": true,
+ "reference": "15/2025/CD",
+ "objet": "Gros travaux de maintenance du réseau d’assainissement",
+ "acheteur": "Commune de Demnate représentée par le président du conseil communal de Demnate",
+ "procedure": null,
+ "categorie": "Travaux",
+ "date_limite_plis": "12/11/2025",
+ "lieu_ouverture": "la salle de réunion sise au siège de la commune de Demnate",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "17/11/2025",
+ "justification": null,
+ "infructueux": false,
+ "attributaire": "Société CRTRA",
+ "montant_attribue": 1817009.28,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "Société CRTRA",
+   "montant_acte_engagement": 1817009.28,
+   "montant_apres_verification": 1817009.28,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Société ESPOIR ALPHA SARL",
+   "montant_acte_engagement": 1850537.16,
+   "montant_apres_verification": 1850537.16,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Société SOLOTRA SARL",
+   "montant_acte_engagement": 1950780.12,
+   "montant_apres_verification": 1950780.12,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Société GEBOUT-SERVICE",
+   "montant_acte_engagement": 1813602.96,
+   "montant_apres_verification": 1813602.96,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": true
+  }
+ ],
+ "nombre_soumissionnaires": 4,
+ "alertes_ocr": [
+  "« Société CRTRA » absent de la liste des plis déposés (nom mal lu ?).",
+  "« Société ESPOIR ALPHA SARL » absent de la liste des plis déposés (nom mal lu ?).",
+  "« Société SOLOTRA SARL » absent de la liste des plis déposés (nom mal lu ?).",
+  "« Société GEBOUT-SERVICE » absent de la liste des plis déposés (nom mal lu ?)."
+ ],
+ "notes_ocr": [],
+ "qualite": "complet"
+}

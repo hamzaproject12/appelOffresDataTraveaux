@@ -1,0 +1,96 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "768489",
+ "orgAcronyme": "g3h",
+ "reference_pv": "123/2023",
+ "nouveau": true,
+ "reference": "123/2023",
+ "objet": "Travaux de restauration et de réhabilitation du Fondouk Jmal dans la Médina de Fès, Ville de Fès, en lot unique",
+ "acheteur": null,
+ "procedure": "appel d'offres ouvert",
+ "categorie": "Travaux",
+ "date_limite_plis": "28/12/2023",
+ "lieu_ouverture": "Siège de l’ ADER-Fès",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "04/01/2024",
+ "justification": "Le concurrent ayant présenté l’offre la plus avantageuse et la moins disante.",
+ "infructueux": false,
+ "attributaire": "Société GEROA SARL",
+ "montant_attribue": 8150490.0,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "Société RACHAD ISTITMAR SARL",
+   "montant_acte_engagement": 8659104.0,
+   "montant_apres_verification": 8659104.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Société TOURATE FES SARL AU",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_dossier_administratif_technique",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Société BENSMAIL ET CIE SARL AU",
+   "montant_acte_engagement": 8672450.4,
+   "montant_apres_verification": 8672450.4,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Société CLUTCH SARL",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_dossier_administratif_technique",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Société GEROA SARL",
+   "montant_acte_engagement": 8150490.0,
+   "montant_apres_verification": 8150490.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Société ELECTRIBA SARL",
+   "montant_acte_engagement": 7492638.0,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_offre_financiere",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Société ALEPH WORKS SARL",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_dossier_administratif_technique",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 7,
+ "alertes_ocr": [],
+ "notes_ocr": [
+  "Maître d'ouvrage absent du PV (utiliser l'acheteur public du portail)."
+ ],
+ "qualite": "complet"
+}

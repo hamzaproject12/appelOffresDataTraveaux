@@ -1,0 +1,73 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "724499",
+ "orgAcronyme": "o8p",
+ "reference_pv": "14/2023",
+ "nouveau": true,
+ "reference": "14/2023",
+ "objet": "TRAVAUX DE BALISAGE DES PLAGES : SO OUSSEF, BADIS, TORRES, CALA IRIS ET MESTASSA MATADERO, SABADIA, IZDI OLMOUD, TALA Y",
+ "acheteur": null,
+ "procedure": null,
+ "categorie": "Travaux",
+ "date_limite_plis": "17/05/2023",
+ "lieu_ouverture": "Direction Provinciale de l'Equipement et de l'Eau d’AL HOCEIMA",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "22/06/2023",
+ "justification": "L'offre la moins disante.",
+ "infructueux": false,
+ "attributaire": "Grou2ement Sté =:223/ ANA’, 697 NB",
+ "montant_attribue": null,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "Groupement Sté HE2B/ ANFAL",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "depose",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Sté FORBE BUILDING",
+   "montant_acte_engagement": 711624.0,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Grousement Sté HE2B/ ANFAT",
+   "montant_acte_engagement": 697080.0,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Grou2ement Sté =:223/ ANA’, 697 NB",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 4,
+ "alertes_ocr": [
+  "« Grousement Sté HE2B/ ANFAT » absent de la liste des plis déposés (nom mal lu ?).",
+  "« Grou2ement Sté =:223/ ANA’, 697 NB » absent de la liste des plis déposés (nom mal lu ?).",
+  "Montant de l'attributaire « Grou2ement Sté =:223/ ANA’, 697 NB » non trouvé."
+ ],
+ "notes_ocr": [
+  "Maître d'ouvrage absent du PV (utiliser l'acheteur public du portail)."
+ ],
+ "qualite": "complet"
+}

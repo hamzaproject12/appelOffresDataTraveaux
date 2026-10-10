@@ -1,0 +1,80 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "704358",
+ "orgAcronyme": "f8y",
+ "reference_pv": "01/2023",
+ "nouveau": true,
+ "reference": "01/2023",
+ "objet": "Ain Lehjer Province Taourirt ** 1ère Tranche **",
+ "acheteur": "COMMUNE AIN LEHJER",
+ "procedure": "appel d'offres ouvert",
+ "categorie": "Travaux",
+ "date_limite_plis": "23/03/2023",
+ "lieu_ouverture": "COMMUNE AIN LEHJER",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "31/03/2023",
+ "justification": "offre la moins disant.",
+ "infructueux": false,
+ "attributaire": "Sté FAHCHOUCH TRAVAUX sarl au",
+ "montant_attribue": 310584.0,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "STE TIN FATI SARL",
+   "montant_acte_engagement": 387420.0,
+   "montant_apres_verification": 387420.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_dossier_administratif_technique",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "STE H K DYNAMIQUE SARL",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_dossier_administratif_technique",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Sté SAT-HYDRAUBAT travaux divers et Négoce",
+   "montant_acte_engagement": 328992.0,
+   "montant_apres_verification": 328992.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Sté FAHCHOUCH TRAVAUX sarl au",
+   "montant_acte_engagement": 310584.0,
+   "montant_apres_verification": 310584.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "STE DAIFI BATIMENT SARL/AU",
+   "montant_acte_engagement": 384144.0,
+   "montant_apres_verification": 384144.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 5,
+ "alertes_ocr": [
+  "« Sté SAT-HYDRAUBAT travaux divers et Négoce » absent de la liste des plis déposés (nom mal lu ?).",
+  "« Sté FAHCHOUCH TRAVAUX sarl au » absent de la liste des plis déposés (nom mal lu ?).",
+  "« STE DAIFI BATIMENT SARL/AU » absent de la liste des plis déposés (nom mal lu ?)."
+ ],
+ "notes_ocr": [],
+ "qualite": "complet"
+}

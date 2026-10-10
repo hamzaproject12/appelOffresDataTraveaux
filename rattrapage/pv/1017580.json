@@ -1,0 +1,53 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "1017580",
+ "orgAcronyme": "g3h",
+ "reference_pv": "03/2026/SDR-F.I.A.S.E.T",
+ "nouveau": true,
+ "reference": "03/2026/SDR-F.I.A.S.E.T",
+ "objet": "Construction, équipement, raccordement électrique et mise en service du nouveau poste source 60/22 KV de la zone industrielle Laghdira, Province El Jadida",
+ "acheteur": "La société de Développement Régional FORUM D’INVESTISSEMENT ET D’ACTIVITE DE SETTAT",
+ "procedure": "appel d'offres ouvert international",
+ "categorie": "Travaux",
+ "date_limite_plis": "12/06/2026",
+ "lieu_ouverture": "Siège de la société de Développement Régional FIASET, situé au : siége de la Région Casablanca-Settat — Boulevard Victor Hugo — Quartier des Habous, Casablanca",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "25/06/2026",
+ "justification": null,
+ "infructueux": false,
+ "attributaire": null,
+ "montant_attribue": null,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "GENERATION MAROC TECHNOLOGIE",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_offre_technique",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "EM ENERGIE MAROC",
+   "montant_acte_engagement": 75970406.4,
+   "montant_apres_verification": 76008700.8,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_offre_financiere",
+   "admis_avec_reserve": true
+  }
+ ],
+ "nombre_soumissionnaires": 2,
+ "alertes_ocr": [
+  "Attributaire non trouvé."
+ ],
+ "notes_ocr": [
+  "« EM ENERGIE MAROC » : montant rectifié de 75 970 406.40 à 76 008 700.80 DH."
+ ],
+ "qualite": "attribution"
+}

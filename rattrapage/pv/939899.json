@@ -1,0 +1,49 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "939899",
+ "orgAcronyme": "a1z",
+ "reference_pv": null,
+ "nouveau": true,
+ "reference": null,
+ "objet": null,
+ "acheteur": "Le président de l'arrondissement Maarif",
+ "procedure": null,
+ "categorie": "Travaux",
+ "date_limite_plis": "16/05/2025",
+ "lieu_ouverture": "Bureau de Mr le président de l’Arrondissement",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "21/05/2025",
+ "justification": "offre la plus avantageuse.",
+ "infructueux": false,
+ "attributaire": "Société AMNEO SARL",
+ "montant_attribue": 568200.0,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "Société AMNEO SARL",
+   "montant_acte_engagement": 568200.0,
+   "montant_apres_verification": 568200.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Société BOUAICHA BATIMENT",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_dossier_administratif_technique",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 2,
+ "alertes_ocr": [],
+ "notes_ocr": [],
+ "qualite": "attribution"
+}

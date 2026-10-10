@@ -1,0 +1,153 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "1019081",
+ "orgAcronyme": "e5w",
+ "reference_pv": "04/RFM/2026",
+ "nouveau": true,
+ "reference": "04/RFM/2026",
+ "objet": null,
+ "acheteur": "LE PRESIDENT DE LA REGION FES MEKNES",
+ "procedure": null,
+ "categorie": "Travaux",
+ "date_limite_plis": "09/06/2026",
+ "lieu_ouverture": "L'ANNEXE DU CONSEIL REGION FES MEKNES",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": null,
+ "justification": "Offre économiquement la plus avantageuse. -DATE D’'ACHEVEMENT DES TRAVAUX DE LA COMMISSION :",
+ "infructueux": false,
+ "attributaire": "STE BATTOU INFRA SARL",
+ "montant_attribue": null,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "STE HAMMI MOB SARL",
+   "montant_acte_engagement": 5999200.8,
+   "montant_apres_verification": 5999200.8,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": true
+  },
+  {
+   "nom": "GROUPEMENT",
+   "montant_acte_engagement": 5970036.0,
+   "montant_apres_verification": 5970036.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_dossier_administratif_technique",
+   "admis_avec_reserve": true
+  },
+  {
+   "nom": "STE SOMAGITRAKE SARL",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_dossier_administratif_technique",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "STE GETRACOV SARL",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_dossier_administratif_technique",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "STE FS GLORIAS SARL",
+   "montant_acte_engagement": 5940397.2,
+   "montant_apres_verification": 5940397.2,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": true
+  },
+  {
+   "nom": "STE 2M LDH SARL",
+   "montant_acte_engagement": 6459487.2,
+   "montant_apres_verification": 459487.2,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": true
+  },
+  {
+   "nom": "STE MARHABA ZARK SARL",
+   "montant_acte_engagement": 5952036.0,
+   "montant_apres_verification": 5952036.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": true
+  },
+  {
+   "nom": "STE BATTOU INFRA SARL",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": true
+  },
+  {
+   "nom": "STE AIT KALLAL SARL",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": true
+  },
+  {
+   "nom": "STE SMYBAM SARL",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": true
+  },
+  {
+   "nom": "STE AQUA INSTAL EQUIPEMENT SARL",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": true
+  },
+  {
+   "nom": "STE SYAM ATLAS SARL",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": true
+  },
+  {
+   "nom": "STE TEMSALAMI SARL",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "depose",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 13,
+ "alertes_ocr": [
+  "« STE 2M LDH SARL » : écart anormal entre montant initial et vérifié (lecture à vérifier).",
+  "Montant de l'attributaire « STE BATTOU INFRA SARL » non trouvé."
+ ],
+ "notes_ocr": [
+  "« STE 2M LDH SARL » : montant rectifié de 6 459 487.20 à 459 487.20 DH."
+ ],
+ "qualite": "complet"
+}

@@ -1,0 +1,51 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "859771",
+ "orgAcronyme": "o8p",
+ "reference_pv": "21/2024/ANEP",
+ "nouveau": true,
+ "reference": "21/2024/ANEP",
+ "objet": "L’acquisition, l’installation et la mise en marche d’ascenseurs au niveau du siège de l'Agence Nationale des Equipements Publics",
+ "acheteur": null,
+ "procedure": "appel d'offres ouvert national",
+ "categorie": "Travaux",
+ "date_limite_plis": "26/11/2024",
+ "lieu_ouverture": "Salle de réunions de l’Agence Nationale des Equipements Publics, Hay Nahda 2 à Rabat",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "05/12/2024",
+ "justification": "Conformément aux dispositions des articles 12,16 et 17 du règlement de consultation.",
+ "infructueux": false,
+ "attributaire": "OTIS MAROC S.AS",
+ "montant_attribue": 785400.0,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "OTIS MAROC S.AS",
+   "montant_acte_engagement": 785400.0,
+   "montant_apres_verification": 785400.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "BE & KA ASCENSEURS",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_offre_technique",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 2,
+ "alertes_ocr": [],
+ "notes_ocr": [
+  "Maître d'ouvrage absent du PV (utiliser l'acheteur public du portail)."
+ ],
+ "qualite": "attribution"
+}

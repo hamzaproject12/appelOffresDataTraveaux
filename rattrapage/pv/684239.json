@@ -1,0 +1,64 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "684239",
+ "orgAcronyme": "g3h",
+ "reference_pv": "135/2022",
+ "nouveau": true,
+ "reference": "135/2022",
+ "objet": "Travaux d'amélioration du paysage urbain de « Boukhssissate et Mellah » situé au sein de Méchouar de Fès-Jdid, ville de Fès. Tranche n°2 : Mellah, en lot unique",
+ "acheteur": null,
+ "procedure": "appel d'offres ouvert",
+ "categorie": "Travaux",
+ "date_limite_plis": "01/12/2022",
+ "lieu_ouverture": "Siège de l’ADER-Fès",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "14/12/2022",
+ "justification": "Le concurrent ayant présenté une offre financière avantageuse.",
+ "infructueux": false,
+ "attributaire": "Société ANATRA SARL AU",
+ "montant_attribue": 22707780.0,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "Société ANATRA SARL AU",
+   "montant_acte_engagement": 22707780.0,
+   "montant_apres_verification": null,
+   "autres_montants": [
+    42823560.0
+   ],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Entreprise FANNE ATOURAT",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_dossier_administratif_technique",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Société GEROA SARL",
+   "montant_acte_engagement": 22877772.0,
+   "montant_apres_verification": null,
+   "autres_montants": [
+    44759544.0
+   ],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": true
+  }
+ ],
+ "nombre_soumissionnaires": 3,
+ "alertes_ocr": [],
+ "notes_ocr": [
+  "Maître d'ouvrage absent du PV (utiliser l'acheteur public du portail)."
+ ],
+ "qualite": "complet"
+}

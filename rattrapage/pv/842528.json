@@ -1,0 +1,42 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "842528",
+ "orgAcronyme": "q1s",
+ "reference_pv": null,
+ "nouveau": true,
+ "reference": null,
+ "objet": null,
+ "acheteur": "L’Office Régional de Mise en Valeur Agricole du Loukkos",
+ "procedure": "appel d'offres ouvert",
+ "categorie": "Travaux",
+ "date_limite_plis": "04/06/2024",
+ "lieu_ouverture": "Siège de L'Office Régional de Mise en Valeur Agricole du Loukkos à Ksar El Kébir",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "05/07/2024",
+ "justification": "L’offre la plus avantageuse",
+ "infructueux": false,
+ "attributaire": "SNCH",
+ "montant_attribue": 1110078.0,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "SNCH",
+   "montant_acte_engagement": 1110078.0,
+   "montant_apres_verification": 1110078.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 1,
+ "alertes_ocr": [
+  "« SNCH » absent de la liste des plis déposés (nom mal lu ?)."
+ ],
+ "notes_ocr": [],
+ "qualite": "attribution"
+}

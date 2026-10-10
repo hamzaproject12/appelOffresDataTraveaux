@@ -1,0 +1,119 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "1021466",
+ "orgAcronyme": "g3h",
+ "reference_pv": "2113/20126",
+ "nouveau": true,
+ "reference": "2113/20126",
+ "objet": "TRAVAUX DE REHABILITATION ET D'EXTENSION DU RESEAU D'ASSAINISSEMENT LIQUIDE DE LA VILLE DE TAZA (2 LOTS) : TAZA HAUT (LOT 1), QUARTIER LAMSSARA (LOT 2)",
+ "acheteur": "Société Régionale Multiservices Fès Meknès « SRM-FM »",
+ "procedure": null,
+ "categorie": "Travaux",
+ "date_limite_plis": "14/05/2026",
+ "lieu_ouverture": "Siège de la SRM-FM",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "30/06/2026",
+ "justification": "L'offre la plus avantageuse.",
+ "infructueux": false,
+ "attributaire": "SOUSALIO",
+ "montant_attribue": 4277900.0,
+ "attributaires_par_lot": [
+  {
+   "lot": null,
+   "attributaire": "SOUSALIO",
+   "montant": 4277900.0
+  },
+  {
+   "lot": null,
+   "attributaire": "KHANFIROU ET FILS",
+   "montant": 1901090.0
+  }
+ ],
+ "soumissionnaires": [
+  {
+   "nom": "KHANFIROU ET FILS",
+   "montant_acte_engagement": 1901090.0,
+   "montant_apres_verification": 2281308.0,
+   "autres_montants": [
+    2281308.0
+   ],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "MATIWORKS",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_dossier_administratif_technique",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "AQUA INSTAL EQUIPEMENT",
+   "montant_acte_engagement": 2193884.0,
+   "montant_apres_verification": 2632660.8,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_dossier_administratif_technique",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "L.K-INTERIM",
+   "montant_acte_engagement": 1906430.0,
+   "montant_apres_verification": 2287716.0,
+   "autres_montants": [
+    2287716.0
+   ],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "OUMOUJANE TRAVAUX",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_dossier_administratif_technique",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "TRV INTERSYS",
+   "montant_acte_engagement": 2262650.0,
+   "montant_apres_verification": 2715180.0,
+   "autres_montants": [
+    2715180.0
+   ],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": true
+  },
+  {
+   "nom": "SOUSALIO",
+   "montant_acte_engagement": 4277900.0,
+   "montant_apres_verification": 5133480.0,
+   "autres_montants": [
+    5133480.0
+   ],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 7,
+ "alertes_ocr": [],
+ "notes_ocr": [
+  "« KHANFIROU ET FILS » : montant rectifié de 1 901 090.00 à 2 281 308.00 DH.",
+  "« AQUA INSTAL EQUIPEMENT » : montant rectifié de 2 193 884.00 à 2 632 660.80 DH.",
+  "« L.K-INTERIM » : montant rectifié de 1 906 430.00 à 2 287 716.00 DH.",
+  "« TRV INTERSYS » : montant rectifié de 2 262 650.00 à 2 715 180.00 DH.",
+  "« SOUSALIO » : montant rectifié de 4 277 900.00 à 5 133 480.00 DH."
+ ],
+ "qualite": "complet"
+}

@@ -1,0 +1,63 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "796451",
+ "orgAcronyme": "q0x",
+ "reference_pv": "42/AREPDT/2024",
+ "nouveau": true,
+ "reference": "42/AREPDT/2024",
+ "objet": "Travaux d’aménagement acoustique et équipement audiovisuel, multimédia et de sonorisation du siège de la région Drâa – Tafilalet et ses annexes",
+ "acheteur": "Agence Régionale d’Exécution des Projets Drâa-Tafilalet, ▪",
+ "procedure": "appel d'offres ouvert",
+ "categorie": "Travaux",
+ "date_limite_plis": null,
+ "lieu_ouverture": null,
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": null,
+ "justification": null,
+ "infructueux": false,
+ "attributaire": "INGTELMA",
+ "montant_attribue": 5381412.0,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "PROMETI",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_offre_financiere",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "INGTELMA",
+   "montant_acte_engagement": 5381412.0,
+   "montant_apres_verification": 5381412.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "DDM",
+   "montant_acte_engagement": 6302700.0,
+   "montant_apres_verification": 6302700.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 3,
+ "alertes_ocr": [
+  "« INGTELMA » absent de la liste des plis déposés (nom mal lu ?).",
+  "« DDM » absent de la liste des plis déposés (nom mal lu ?)."
+ ],
+ "notes_ocr": [
+  "« PROMETI » absent de la liste des plis déposés (nom mal lu ?)."
+ ],
+ "qualite": "complet"
+}

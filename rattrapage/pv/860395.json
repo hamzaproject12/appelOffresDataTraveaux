@@ -1,0 +1,84 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "860395",
+ "orgAcronyme": "q0x",
+ "reference_pv": null,
+ "nouveau": true,
+ "reference": null,
+ "objet": null,
+ "acheteur": "Commune de N’ZALAT BENI AMMAR",
+ "procedure": null,
+ "categorie": "Travaux",
+ "date_limite_plis": "26/11/2024",
+ "lieu_ouverture": "Bureau du Président de la Commune de N'ZALAT BENI AMMAR",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": null,
+ "justification": "Offre économiquement la plus avantageuse pour l'administration,",
+ "infructueux": false,
+ "attributaire": "STE SOFARIMAS TRAVAUX SARL.AU",
+ "montant_attribue": 141480.0,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "STE MALINE TRAV sarl",
+   "montant_acte_engagement": 144360.0,
+   "montant_apres_verification": null,
+   "autres_montants": [
+    144360.0
+   ],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "STE SOFARIMAS TRAVAUX SARL.AU",
+   "montant_acte_engagement": 141480.0,
+   "montant_apres_verification": null,
+   "autres_montants": [
+    141480.0
+   ],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "STE SORATIJ RT SARL",
+   "montant_acte_engagement": 145476.0,
+   "montant_apres_verification": null,
+   "autres_montants": [
+    145476.0
+   ],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "STE MIRAGE BUILDING sarc (Motif de l'élimination",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_dossier_administratif_technique",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "STE STARMOR SARLAU",
+   "montant_acte_engagement": 138600.0,
+   "montant_apres_verification": null,
+   "autres_montants": [
+    138600.0
+   ],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 5,
+ "alertes_ocr": [],
+ "notes_ocr": [],
+ "qualite": "complet"
+}

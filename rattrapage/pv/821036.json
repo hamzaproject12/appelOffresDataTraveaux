@@ -1,0 +1,58 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "821036",
+ "orgAcronyme": "g8e",
+ "reference_pv": "125/2024",
+ "nouveau": true,
+ "reference": "125/2024",
+ "objet": "D’ouverture des plis Des travaux de la Concurrent retenu Montant de l’offre commission retenu",
+ "acheteur": "Agence Régionale d'Exécution des Projets Région Béni Mellal-Khénifra",
+ "procedure": null,
+ "categorie": "Travaux",
+ "date_limite_plis": "24/07/2024",
+ "lieu_ouverture": "Salle de réunion de l’AREP région Beni Mellal Khénifra Sis Bd Med V lotissement lala Hayat immeuble n°3, 4f\" et 5° étage Béni Mellal",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "05/08/2024",
+ "justification": "L'offre économiquement la plus avantageuse",
+ "infructueux": false,
+ "attributaire": "STE ANETRA",
+ "montant_attribue": 4440960.0,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "STE ENDT",
+   "montant_acte_engagement": 4628640.0,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_offre_financiere",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "STE ANETRA",
+   "montant_acte_engagement": 4440960.0,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "STE ECBT",
+   "montant_acte_engagement": 4049280.0,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_offre_financiere",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 3,
+ "alertes_ocr": [],
+ "notes_ocr": [],
+ "qualite": "complet"
+}

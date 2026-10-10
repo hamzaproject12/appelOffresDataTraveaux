@@ -1,0 +1,87 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "713676",
+ "orgAcronyme": "g3h",
+ "reference_pv": null,
+ "nouveau": true,
+ "reference": null,
+ "objet": "Travaux de construction du lycée qualifiant zerkten,province d,Al Haouz",
+ "acheteur": null,
+ "procedure": null,
+ "categorie": "Travaux",
+ "date_limite_plis": null,
+ "lieu_ouverture": "Salle des réunions de la province Al Haouz",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": null,
+ "justification": "Offre la moins distante jugée avantageuse pour l'administration.",
+ "infructueux": false,
+ "attributaire": "ENTREPRISE AIT ATTA",
+ "montant_attribue": 13000027.2,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "GROUPEMENT DE STE SOGETRACOF.MAROC ET STE LUOZHAM 1s",
+   "montant_acte_engagement": 15003165.6,
+   "montant_apres_verification": 15003165.6,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "STE MASKRTTRAVAUX",
+   "montant_acte_engagement": 5689544.0,
+   "montant_apres_verification": 689544.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "GROUPEMENT DE STE SOCOTRAD TRAVAUX ET STE JW TRAVAUX",
+   "montant_acte_engagement": 4000900.4,
+   "montant_apres_verification": 14000900.4,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "ENTREPRISE AIT ATTA",
+   "montant_acte_engagement": 13000027.2,
+   "montant_apres_verification": 3000027.2,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "STE SOURNE ACHGHAL",
+   "montant_acte_engagement": 4574300.0,
+   "montant_apres_verification": 14574300.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 5,
+ "alertes_ocr": [
+  "« STE MASKRTTRAVAUX » : écart anormal entre montant initial et vérifié (lecture à vérifier).",
+  "« GROUPEMENT DE STE SOCOTRAD TRAVAUX ET STE JW TRAVAUX » : écart anormal entre montant initial et vérifié (lecture à vérifier).",
+  "« ENTREPRISE AIT ATTA » : écart anormal entre montant initial et vérifié (lecture à vérifier).",
+  "« STE SOURNE ACHGHAL » : écart anormal entre montant initial et vérifié (lecture à vérifier)."
+ ],
+ "notes_ocr": [
+  "« STE MASKRTTRAVAUX » : montant rectifié de 5 689 544.00 à 689 544.00 DH.",
+  "« GROUPEMENT DE STE SOCOTRAD TRAVAUX ET STE JW TRAVAUX » : montant rectifié de 4 000 900.40 à 14 000 900.40 DH.",
+  "« ENTREPRISE AIT ATTA » : montant rectifié de 13 000 027.20 à 3 000 027.20 DH.",
+  "« STE SOURNE ACHGHAL » : montant rectifié de 4 574 300.00 à 14 574 300.00 DH.",
+  "Maître d'ouvrage absent du PV (utiliser l'acheteur public du portail)."
+ ],
+ "qualite": "complet"
+}

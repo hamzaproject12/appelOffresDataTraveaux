@@ -1,0 +1,93 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "765272",
+ "orgAcronyme": "q1s",
+ "reference_pv": "45/DPA.OZ/SAHA/2023",
+ "nouveau": true,
+ "reference": "45/DPA.OZ/SAHA/2023",
+ "objet": "Travaux de construction d'environ de 6.5 km de pistes rurales au niveau des C/T de ouennana, lamjaara, relevant a la zone d’action de la DPA de Ouezzane",
+ "acheteur": "DPA d’ Ouezzane",
+ "procedure": "appel d'offres ouvert",
+ "categorie": "Travaux",
+ "date_limite_plis": "24/10/2023",
+ "lieu_ouverture": "la salle de réunion de La DPA d’ OUEZZANE",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "07/11/2023",
+ "justification": null,
+ "infructueux": false,
+ "attributaire": "SOCIETE LAMLIHTRAV",
+ "montant_attribue": 8872200.0,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "SOCIETE SOUFOUH AL KOBRA Note technique inférieure à 75",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_dossier_administratif_technique",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "SOCIETE NEGASET",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "SOCIETE MEMOBAT LG ne degré",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_dossier_administratif_technique",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "SOCIETE AZZOUZ SELLAM",
+   "montant_acte_engagement": 11301600.0,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "SOCIETE ELMOUZAZI NOUREDDINE",
+   "montant_acte_engagement": 10270200.0,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "SOCIETE LAMLIHTRAV",
+   "montant_acte_engagement": 8872200.0,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 6,
+ "alertes_ocr": [
+  "« SOCIETE AZZOUZ SELLAM » absent de la liste des plis déposés (nom mal lu ?).",
+  "« SOCIETE ELMOUZAZI NOUREDDINE » absent de la liste des plis déposés (nom mal lu ?).",
+  "« SOCIETE LAMLIHTRAV » absent de la liste des plis déposés (nom mal lu ?)."
+ ],
+ "notes_ocr": [
+  "« SOCIETE SOUFOUH AL KOBRA Note technique inférieure à 75 » absent de la liste des plis déposés (nom mal lu ?).",
+  "« SOCIETE NEGASET » absent de la liste des plis déposés (nom mal lu ?).",
+  "« SOCIETE MEMOBAT LG ne degré » absent de la liste des plis déposés (nom mal lu ?)."
+ ],
+ "qualite": "complet"
+}

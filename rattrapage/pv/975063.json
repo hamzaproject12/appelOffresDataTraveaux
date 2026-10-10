@@ -1,0 +1,79 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "975063",
+ "orgAcronyme": "g8e",
+ "reference_pv": "A002/RRA/2026",
+ "nouveau": true,
+ "reference": "A002/RRA/2026",
+ "objet": "TRAVAUX DE RECONSTRUCTION DE LA MAISON DE JEUNE EL OUAHDA RABAT",
+ "acheteur": null,
+ "procedure": null,
+ "categorie": "Travaux",
+ "date_limite_plis": "15/01/2026",
+ "lieu_ouverture": "Bureau de la Société Rabat Région Aménagement au 9, Place Al Joulane — Rabat",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "05/02/2026",
+ "justification": "Offre conforme aux exigences du Règlement de la consultation et l'offre la plus avantageuses",
+ "infructueux": false,
+ "attributaire": "SOCIETE CLUTCH",
+ "montant_attribue": 13837584.0,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "SOCIETE KIGHLAN CONSTRUCTION",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_offre_technique",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "ENTREPRISE NCIRI DE CONSTRUCTION ET TRAVAUX DIVERS",
+   "montant_acte_engagement": 14308476.0,
+   "montant_apres_verification": 14308476.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "SOCIETE CLUTCH",
+   "montant_acte_engagement": 13837584.0,
+   "montant_apres_verification": 13837584.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "SOCIETE INBS",
+   "montant_acte_engagement": 15165524.6,
+   "montant_apres_verification": 15187299.6,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_offre_financiere",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "SOCIETE LE PALAIS D'AMENAGEMENT",
+   "montant_acte_engagement": 15101118.0,
+   "montant_apres_verification": 15101118.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_offre_financiere",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 5,
+ "alertes_ocr": [],
+ "notes_ocr": [
+  "« SOCIETE INBS » : montant rectifié de 15 165 524.60 à 15 187 299.60 DH.",
+  "Maître d'ouvrage absent du PV (utiliser l'acheteur public du portail)."
+ ],
+ "qualite": "complet"
+}

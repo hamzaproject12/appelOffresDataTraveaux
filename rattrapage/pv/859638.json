@@ -1,0 +1,69 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "859638",
+ "orgAcronyme": "o4d",
+ "reference_pv": "203/2024",
+ "nouveau": true,
+ "reference": "203/2024",
+ "objet": "La refonte d'un Outil de Contrôle Médical de la Caisse Nationale de Sécurité Sociale, en lot unique",
+ "acheteur": "Direction des Achats et Logistique",
+ "procedure": "appel d'offres ouvert",
+ "categorie": "Travaux",
+ "date_limite_plis": "03/12/2024",
+ "lieu_ouverture": "Siège de la CNSS, 649 Bd Mohammed V Casa, salle des réunions de la Direction des Achats et Logistique",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "13/12/2024",
+ "justification": null,
+ "infructueux": false,
+ "attributaire": "INSURBT",
+ "montant_attribue": 6978450.0,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "TRAGEM",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_dossier_administratif_technique",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "MALTEM AFRICA",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_offre_technique",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "INSURBT",
+   "montant_acte_engagement": 6978450.0,
+   "montant_apres_verification": null,
+   "autres_montants": [
+    1742400.0
+   ],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "INETUM MAROC",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_dossier_administratif_technique",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 4,
+ "alertes_ocr": [],
+ "notes_ocr": [],
+ "qualite": "attribution"
+}

@@ -1,0 +1,63 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "763377",
+ "orgAcronyme": "q1s",
+ "reference_pv": "29/DPA.OZ/SAHA/2023",
+ "nouveau": true,
+ "reference": "29/DPA.OZ/SAHA/2023",
+ "objet": "Travaux d'aménagement et confortement des pistes rurales au niveau de la Province d’Ouezzane",
+ "acheteur": "DPA d’ Ouezzane",
+ "procedure": "appel d'offres ouvert",
+ "categorie": "Travaux",
+ "date_limite_plis": "28/08/2023",
+ "lieu_ouverture": "la salle de réunion de La DPA d° OUEZZANE",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "27/09/2023",
+ "justification": null,
+ "infructueux": false,
+ "attributaire": "SOCIETE AZZOUZ ABDELGHAFOUR",
+ "montant_attribue": 5286000.0,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "SOCIETE AZZOUZ ABDELGHAFOUR",
+   "montant_acte_engagement": 5286000.0,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "SOCIETE YOUFTEN BTP Note technique inférieure à 75",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_dossier_administratif_technique",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "SOCIETE ELMOUZZAZI NOUREDDINE Note technique inférieure à 75",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_dossier_administratif_technique",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 3,
+ "alertes_ocr": [
+  "« SOCIETE AZZOUZ ABDELGHAFOUR » absent de la liste des plis déposés (nom mal lu ?)."
+ ],
+ "notes_ocr": [
+  "« SOCIETE YOUFTEN BTP Note technique inférieure à 75 » absent de la liste des plis déposés (nom mal lu ?).",
+  "« SOCIETE ELMOUZZAZI NOUREDDINE Note technique inférieure à 75 » absent de la liste des plis déposés (nom mal lu ?)."
+ ],
+ "qualite": "attribution"
+}

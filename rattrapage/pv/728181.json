@@ -1,0 +1,95 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "728181",
+ "orgAcronyme": "j8k",
+ "reference_pv": null,
+ "nouveau": true,
+ "reference": null,
+ "objet": "TRAVAUX D’ACHEVEMENT DES TRAVAUX D’ASSAINISSEMENT, DE VOIRIE ET DE PAVAGE DES QUARTIERS : ZEMRANE SELMANI 1&2, GHRAB, LAABID, DAIJAT, ZEMRANE LAAYACHI A LA COMMUNE DE JEMAA SHAIM - PROVINCE DE SAFI",
+ "acheteur": "AL OMRANE MARRAKECH-SAFI",
+ "procedure": "appel d'offres ouvert",
+ "categorie": "Travaux",
+ "date_limite_plis": "03/07/2023",
+ "lieu_ouverture": "SIEGE DE LA SOCIETE AL OMRANE MARRAKECH-SAFI",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "10/07/2023",
+ "justification": "Moins disant",
+ "infructueux": false,
+ "attributaire": null,
+ "montant_attribue": null,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "HMK TRAVAUX",
+   "montant_acte_engagement": 2388601.2,
+   "montant_apres_verification": 2388724.51,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_offre_financiere",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "S2MTP",
+   "montant_acte_engagement": 2485964.62,
+   "montant_apres_verification": 2485964.62,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "CHAHD TRAVAUX",
+   "montant_acte_engagement": 2987667.24,
+   "montant_apres_verification": 2987667.24,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "D ONCURREN EE",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": true
+  },
+  {
+   "nom": "(Deux Million Trois Cent Quatre-Vingt-Huit Mille Sept Cent",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_offre_financiere",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "T.T.O)",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_offre_financiere",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 6,
+ "alertes_ocr": [
+  "« HMK TRAVAUX » absent de la liste des plis déposés (nom mal lu ?).",
+  "« S2MTP » absent de la liste des plis déposés (nom mal lu ?).",
+  "« CHAHD TRAVAUX » absent de la liste des plis déposés (nom mal lu ?).",
+  "Attributaire non trouvé."
+ ],
+ "notes_ocr": [
+  "« D ONCURREN EE » absent de la liste des plis déposés (nom mal lu ?).",
+  "« (Deux Million Trois Cent Quatre-Vingt-Huit Mille Sept Cent » absent de la liste des plis déposés (nom mal lu ?).",
+  "« T.T.O) » absent de la liste des plis déposés (nom mal lu ?).",
+  "« HMK TRAVAUX » : montant rectifié de 2 388 601.20 à 2 388 724.51 DH."
+ ],
+ "qualite": "complet"
+}

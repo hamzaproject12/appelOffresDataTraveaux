@@ -1,0 +1,54 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "1033561",
+ "orgAcronyme": "d4q",
+ "reference_pv": "25-62",
+ "nouveau": true,
+ "reference": "25-62",
+ "objet": "Réhabilitation de la ligne 225 KV n° 25-62 « TAZART - ENNAKHIL » relevant de la Division Exploitation Transport Afourer",
+ "acheteur": null,
+ "procedure": null,
+ "categorie": "Travaux",
+ "date_limite_plis": "16/07/2026",
+ "lieu_ouverture": "Direction DAM 65, Rue Othman Ben Affan 20000 Casablanca",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": null,
+ "justification": "Moins-disant conforme",
+ "infructueux": false,
+ "attributaire": "SGEE",
+ "montant_attribue": 19435184.64,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "SGEE et OUHAFID TRAVAUX",
+   "montant_acte_engagement": 20734644.0,
+   "montant_apres_verification": 19925964.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "SGEE",
+   "montant_acte_engagement": 19435184.64,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 2,
+ "alertes_ocr": [
+  "« SGEE » absent de la liste des plis déposés (nom mal lu ?)."
+ ],
+ "notes_ocr": [
+  "« SGEE et OUHAFID TRAVAUX » : montant rectifié de 20 734 644.00 à 19 925 964.00 DH.",
+  "Maître d'ouvrage absent du PV (utiliser l'acheteur public du portail)."
+ ],
+ "qualite": "complet"
+}

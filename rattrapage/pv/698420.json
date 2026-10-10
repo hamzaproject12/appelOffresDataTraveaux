@@ -1,0 +1,88 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "698420",
+ "orgAcronyme": "d4q",
+ "reference_pv": null,
+ "nouveau": true,
+ "reference": null,
+ "objet": "Assainissement liquide du centre de Mograne. Lot 2 : Stations de pompage et conduite de refoulement",
+ "acheteur": null,
+ "procedure": "appel d'offres ouvert",
+ "categorie": "Travaux",
+ "date_limite_plis": "13/12/2022",
+ "lieu_ouverture": "au Siège de la Direction Régionale de l'Ouest (DR4) Lotissement Al Qods - Kénitra - Maroc",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "07/03/2023",
+ "justification": "Moins-disant",
+ "infructueux": false,
+ "attributaire": "GMTP (GENIE MAROCAIN DES TRAVAUX PUBLICS)",
+ "montant_attribue": 4653129.6,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "ARTIBATEL MAROC",
+   "montant_acte_engagement": 5154456.0,
+   "montant_apres_verification": null,
+   "autres_montants": [
+    5154456.0
+   ],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "GMTP (GENIE MAROCAIN DES TRAVAUX PUBLICS)",
+   "montant_acte_engagement": 4653129.6,
+   "montant_apres_verification": null,
+   "autres_montants": [
+    4653129.6
+   ],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "GROUP GHADDACH TRAVAUX / GHTP MAROC - MAROC",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "depose",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "NOUV-EAU MAROC",
+   "montant_acte_engagement": 5472732.0,
+   "montant_apres_verification": null,
+   "autres_montants": [
+    5472732.0
+   ],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "GROUP SRE RE / GHTP - Offre",
+   "montant_acte_engagement": 5655952.68,
+   "montant_apres_verification": null,
+   "autres_montants": [
+    5655952.73
+   ],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 5,
+ "alertes_ocr": [
+  "« GROUP SRE RE / GHTP - Offre » absent de la liste des plis déposés (nom mal lu ?)."
+ ],
+ "notes_ocr": [
+  "Maître d'ouvrage absent du PV (utiliser l'acheteur public du portail)."
+ ],
+ "qualite": "complet"
+}

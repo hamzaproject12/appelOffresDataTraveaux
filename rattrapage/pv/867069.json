@@ -1,0 +1,123 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "867069",
+ "orgAcronyme": "h5r",
+ "reference_pv": null,
+ "nouveau": true,
+ "reference": null,
+ "objet": null,
+ "acheteur": null,
+ "procedure": "appel d'offres ouvert national",
+ "categorie": "Travaux",
+ "date_limite_plis": "24/12/2024",
+ "lieu_ouverture": null,
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": null,
+ "justification": "cs cr'tères de sélector des concurrents devront être l'offre financière la mieux disante. 9. J ustitication du choix de l’attributaire : Ÿ L'offre qu'il a présentée est la mieux disante. 12025 JON ec -2 \"er Le ° 217 beisi à [en D: Or Hec- LES er",
+ "infructueux": false,
+ "attributaire": "Société SOCAZELEG SAR",
+ "montant_attribue": null,
+ "attributaires_par_lot": [
+  {
+   "lot": null,
+   "attributaire": "Société SOCAZELEG SAR",
+   "montant": null
+  },
+  {
+   "lot": null,
+   "attributaire": "Moyens alloués au projet",
+   "montant": null
+  },
+  {
+   "lot": null,
+   "attributaire": "SOCIE 1x SOCADELEG SARL à Voussoifea",
+   "montant": null
+  }
+ ],
+ "soumissionnaires": [
+  {
+   "nom": "SOCIXTE VOLT ACTIVE SARL à K!} [acide",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_dossier_administratif_technique",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "H SOCIET: HAY 2010 SARL & Relbaï",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_dossier_administratif_technique",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "SOCLETE ANTBLEC SARL à Ouec-Zer",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_dossier_administratif_technique",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "SCCIETE AKACH ELEC SARL & Casaïlenca",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_dossier_administratif_technique",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Société SOCAZELEG SAR",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Moyens alloués au projet",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "SOCIE 1x SOCADELEG SARL à Voussoifea",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 7,
+ "alertes_ocr": [
+  "« Société SOCAZELEG SAR » absent de la liste des plis déposés (nom mal lu ?).",
+  "« Moyens alloués au projet » absent de la liste des plis déposés (nom mal lu ?).",
+  "« SOCIE 1x SOCADELEG SARL à Voussoifea » absent de la liste des plis déposés (nom mal lu ?).",
+  "Montant de l'attributaire « Société SOCAZELEG SAR » non trouvé.",
+  "Montant de l'attributaire « Moyens alloués au projet » non trouvé.",
+  "Montant de l'attributaire « SOCIE 1x SOCADELEG SARL à Voussoifea » non trouvé."
+ ],
+ "notes_ocr": [
+  "« SOCIXTE VOLT ACTIVE SARL à K!} [acide » absent de la liste des plis déposés (nom mal lu ?).",
+  "« H SOCIET: HAY 2010 SARL & Relbaï » absent de la liste des plis déposés (nom mal lu ?).",
+  "« SOCLETE ANTBLEC SARL à Ouec-Zer » absent de la liste des plis déposés (nom mal lu ?).",
+  "« SCCIETE AKACH ELEC SARL & Casaïlenca » absent de la liste des plis déposés (nom mal lu ?).",
+  "Maître d'ouvrage absent du PV (utiliser l'acheteur public du portail)."
+ ],
+ "qualite": "participants"
+}

@@ -1,0 +1,96 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "956214",
+ "orgAcronyme": "i1t",
+ "reference_pv": "37/2025",
+ "nouveau": true,
+ "reference": "37/2025",
+ "objet": "Travaux d'assainissement liquide du bassin versant route de Fès à Ouezzane (Iére tranche) LOTI1 — Réseau et stations de pompage",
+ "acheteur": "Commune de Ouezzane",
+ "procedure": "appel d'offres ouvert international",
+ "categorie": "Travaux",
+ "date_limite_plis": "28/07/2025",
+ "lieu_ouverture": "Au siège de la commune d’Ouezzane",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "09/09/2025",
+ "justification": "L’offre la plus avantageuse (Le mieux disant)",
+ "infructueux": false,
+ "attributaire": "Société UBAC",
+ "montant_attribue": 34823319.05,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "Société UBAC",
+   "montant_acte_engagement": 34823319.05,
+   "montant_apres_verification": 34823319.05,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": true
+  },
+  {
+   "nom": "Société ERI-SER",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_offre_technique",
+   "admis_avec_reserve": true
+  },
+  {
+   "nom": "Société VALTECH",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_offre_technique",
+   "admis_avec_reserve": true
+  },
+  {
+   "nom": "Société SOCHTRAP",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_offre_technique",
+   "admis_avec_reserve": true
+  },
+  {
+   "nom": "Société GHADDACH TRAVAUX TRANSPORT ET",
+   "montant_acte_engagement": 40422039.05,
+   "montant_apres_verification": 40422039.05,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": true
+  },
+  {
+   "nom": "Société OUMOUJANE TRAVAUX",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_offre_technique",
+   "admis_avec_reserve": true
+  },
+  {
+   "nom": "Société UBAC. Fe",
+   "montant_acte_engagement": 34823319.05,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 7,
+ "alertes_ocr": [
+  "« Société UBAC. Fe » absent de la liste des plis déposés (nom mal lu ?)."
+ ],
+ "notes_ocr": [],
+ "qualite": "complet"
+}

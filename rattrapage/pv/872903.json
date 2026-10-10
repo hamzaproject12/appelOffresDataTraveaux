@@ -1,0 +1,63 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "872903",
+ "orgAcronyme": "b1d",
+ "reference_pv": "07/CL/2025",
+ "nouveau": true,
+ "reference": "07/CL/2025",
+ "objet": "TRAVAUX RELATIFS AU PROGRAMME INTEGRE DE MISE A NIVEAU URBAIN DANS LE CADRE DE LA POLITIQUE DE LA VILLE DE LAAYOUNE- PROVINCE DE LAAYOUNE, MISE A NIVEAU URBAIN DE LA ZONE 1 : AL WIFAO",
+ "acheteur": "LA COMMUNE DE LAAYOUNE",
+ "procedure": null,
+ "categorie": "Travaux",
+ "date_limite_plis": "03/02/2025",
+ "lieu_ouverture": "La Salle De Réunion De L'annexe De La Commune De Laayoune",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "18/02/2025",
+ "justification": "l’offre le mieux disant.",
+ "infructueux": false,
+ "attributaire": "CSBB MULTI SERVICE",
+ "montant_attribue": 10800291.0,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "ARCO",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": true
+  },
+  {
+   "nom": "BOUTAZARTE SARL",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_offre_financiere",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "CSBB MULTI SERVICE",
+   "montant_acte_engagement": 10800291.0,
+   "montant_apres_verification": 10800291.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 3,
+ "alertes_ocr": [
+  "« CSBB MULTI SERVICE » absent de la liste des plis déposés (nom mal lu ?)."
+ ],
+ "notes_ocr": [
+  "« ARCO » absent de la liste des plis déposés (nom mal lu ?).",
+  "« BOUTAZARTE SARL » absent de la liste des plis déposés (nom mal lu ?)."
+ ],
+ "qualite": "attribution"
+}

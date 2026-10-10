@@ -1,0 +1,180 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "726621",
+ "orgAcronyme": "q1s",
+ "reference_pv": null,
+ "nouveau": true,
+ "reference": null,
+ "objet": "Travaux de création de point pour l'abreuvement de cheptel dans la zone d'action de la DPA de Nador,- Lot N°1 : Travaux d'installation de matériel de pompage fonctionnant par l'énergie renouvelable du point d’eau MedKert à la commune Beni Sidel Louta, Cercle de Guelaia, À",
+ "acheteur": "Le Directeur Provincial de l'Agriculture de Nador",
+ "procedure": null,
+ "categorie": "Travaux",
+ "date_limite_plis": "09/03/2023",
+ "lieu_ouverture": "La Direction Provinciale de l'Agriculture de Nador ”",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "12/04/2023",
+ "justification": "Une offre financière avan tageuse pour l'administration",
+ "infructueux": false,
+ "attributaire": "Sté AGRITRAS",
+ "montant_attribue": 395520.0,
+ "attributaires_par_lot": [
+  {
+   "lot": null,
+   "attributaire": "Sté AGRITRAS",
+   "montant": 395520.0
+  },
+  {
+   "lot": null,
+   "attributaire": "Sté AGRICO ENERGIE",
+   "montant": 366000.0
+  },
+  {
+   "lot": null,
+   "attributaire": "Le Directeur Provincial de l'Agriculture de Nador",
+   "montant": null
+  },
+  {
+   "lot": null,
+   "attributaire": "La Direction Provinciale de l'Agriculture de Nador",
+   "montant": null
+  },
+  {
+   "lot": null,
+   "attributaire": "12358 du 11 février",
+   "montant": null
+  },
+  {
+   "lot": null,
+   "attributaire": "Sté 2PS PROJETS",
+   "montant": 423900.0
+  }
+ ],
+ "soumissionnaires": [
+  {
+   "nom": "Sté LAMDA TECHNOLOGY",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_offre_financiere",
+   "admis_avec_reserve": true
+  },
+  {
+   "nom": "Sté MAISON ENERGIE SOLAIRE ET ENVI",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_offre_financiere",
+   "admis_avec_reserve": true
+  },
+  {
+   "nom": "Sté 2PS PROJETS",
+   "montant_acte_engagement": 423900.0,
+   "montant_apres_verification": null,
+   "autres_montants": [
+    423900.0
+   ],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": true
+  },
+  {
+   "nom": "Sté AGRICO ENERGIE",
+   "montant_acte_engagement": 364800.0,
+   "montant_apres_verification": null,
+   "autres_montants": [
+    364800.0
+   ],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": true
+  },
+  {
+   "nom": "Sté BETONRICHE TRAVAUX",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_offre_financiere",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Sté NOUR SMT",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": true
+  },
+  {
+   "nom": "ement Rural et des Eaux et Forets",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "depose",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "on de point pour l’ab",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "depose",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "12358 du 11 février",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "La Direction Provinciale de l'Agriculture de Nador",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Sté AGRITRAS",
+   "montant_acte_engagement": 395520.0,
+   "montant_apres_verification": null,
+   "autres_montants": [
+    395520.0
+   ],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": true
+  },
+  {
+   "nom": "sue de l’e",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "depose",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 12,
+ "alertes_ocr": [
+  "Montant de l'attributaire « Le Directeur Provincial de l'Agriculture de Nador » non trouvé.",
+  "Montant de l'attributaire « La Direction Provinciale de l'Agriculture de Nador » non trouvé.",
+  "Montant de l'attributaire « 12358 du 11 février » non trouvé."
+ ],
+ "notes_ocr": [],
+ "qualite": "attribution"
+}

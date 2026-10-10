@@ -1,0 +1,56 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "968729",
+ "orgAcronyme": "f9f",
+ "reference_pv": "30/C",
+ "nouveau": true,
+ "reference": "30/C",
+ "objet": "TRAVAUX DE CONSTRUCTION D’UNE PASSERELLE AU NIVEAU DU DOUAR AIT ZAAKRI À LA CT TOUDGHA EL OULIA PROVINCE DE TINGHIR REGION DRAA-TAFILALTE",
+ "acheteur": "CONSEIL PROVINCIAL DE TINGHIR",
+ "procedure": null,
+ "categorie": "Travaux",
+ "date_limite_plis": "25/12/2025",
+ "lieu_ouverture": "Bureaux du Conseil Provincial de Tinghir",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "31/12/2025",
+ "justification": "Son offre est la plus proche du prix de référence par défaut.",
+ "infructueux": false,
+ "attributaire": null,
+ "montant_attribue": null,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "STE AIT OUKHALI TRAVAUX SARL",
+   "montant_acte_engagement": 633540.0,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "STE THE ROAD SARL",
+   "montant_acte_engagement": 7626400.0,
+   "montant_apres_verification": 626400.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 2,
+ "alertes_ocr": [
+  "« STE AIT OUKHALI TRAVAUX SARL » absent de la liste des plis déposés (nom mal lu ?).",
+  "« STE THE ROAD SARL » absent de la liste des plis déposés (nom mal lu ?).",
+  "Attributaire non trouvé.",
+  "« STE THE ROAD SARL » : écart anormal entre montant initial et vérifié (lecture à vérifier)."
+ ],
+ "notes_ocr": [
+  "« STE THE ROAD SARL » : montant rectifié de 7 626 400.00 à 626 400.00 DH."
+ ],
+ "qualite": "complet"
+}

@@ -1,0 +1,55 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "749161",
+ "orgAcronyme": "f9f",
+ "reference_pv": "25/2023/T/CAM",
+ "nouveau": true,
+ "reference": "25/2023/T/CAM",
+ "objet": null,
+ "acheteur": "COMMUNE D'AT MELLOUL",
+ "procedure": "appel d'offres ouvert",
+ "categorie": "Travaux",
+ "date_limite_plis": "02/10/2023",
+ "lieu_ouverture": "salle de réunion au parc municipal sis au quartier industriel à Ait Melou",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": null,
+ "justification": "avantageuse en terme cuaité rix",
+ "infructueux": false,
+ "attributaire": null,
+ "montant_attribue": null,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "SOCIETE RYAD JARDIN",
+   "montant_acte_engagement": 1078814.4,
+   "montant_apres_verification": 1078814.4,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "GROUPEMENT SOCIETE VERDURA ET SOCIETE TAMESNA VERT",
+   "montant_acte_engagement": 1127520.0,
+   "montant_apres_verification": 1427520.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 2,
+ "alertes_ocr": [
+  "« SOCIETE RYAD JARDIN » absent de la liste des plis déposés (nom mal lu ?).",
+  "« GROUPEMENT SOCIETE VERDURA ET SOCIETE TAMESNA VERT » absent de la liste des plis déposés (nom mal lu ?).",
+  "Attributaire non trouvé."
+ ],
+ "notes_ocr": [
+  "« GROUPEMENT SOCIETE VERDURA ET SOCIETE TAMESNA VERT » : montant rectifié de 1 127 520.00 à 1 427 520.00 DH."
+ ],
+ "qualite": "complet"
+}

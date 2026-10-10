@@ -1,0 +1,85 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "816965",
+ "orgAcronyme": "q0x",
+ "reference_pv": "03/2024",
+ "nouveau": true,
+ "reference": "03/2024",
+ "objet": "_: Travaux de construction des pistes des douars Ait Bouhyate ; Ait Tourguine et Ait Moussa ou Ali à la commune de Maïjjatte",
+ "acheteur": null,
+ "procedure": "appel d'offres ouvert",
+ "categorie": "Travaux",
+ "date_limite_plis": "04/07/2024",
+ "lieu_ouverture": "bureau de Monsieur le président de la Commune de Majjate Portail des marchés publics WWW.marchespublies.gov.ma du 07/06/2024",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "17/07/2024",
+ "justification": "offre conforme aux exigences du règlement de la consultation.",
+ "infructueux": false,
+ "attributaire": null,
+ "montant_attribue": null,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "SARL AU STE SGGTR",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": true
+  },
+  {
+   "nom": "STE YAAKOUB ISTITMAR SARL AU",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": true
+  },
+  {
+   "nom": "STE MABER TRAVAUX SARL",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": true
+  },
+  {
+   "nom": "STE",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_dossier_administratif_technique",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "STAWIL SARL",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_dossier_administratif_technique",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 5,
+ "alertes_ocr": [
+  "Attributaire non trouvé."
+ ],
+ "notes_ocr": [
+  "« SARL AU STE SGGTR » absent de la liste des plis déposés (nom mal lu ?).",
+  "« STE YAAKOUB ISTITMAR SARL AU » absent de la liste des plis déposés (nom mal lu ?).",
+  "« STE MABER TRAVAUX SARL » absent de la liste des plis déposés (nom mal lu ?).",
+  "« STE » absent de la liste des plis déposés (nom mal lu ?).",
+  "« STAWIL SARL » absent de la liste des plis déposés (nom mal lu ?).",
+  "Maître d'ouvrage absent du PV (utiliser l'acheteur public du portail)."
+ ],
+ "qualite": "participants"
+}

@@ -1,0 +1,148 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "1045858",
+ "orgAcronyme": "g8e",
+ "reference_pv": "10/2026/DRI-MAR",
+ "nouveau": true,
+ "reference": "10/2026/DRI-MAR",
+ "objet": null,
+ "acheteur": "DIRECTION REGIONALE DES IMPOTS DE MARRAKECH",
+ "procedure": "appel d'offres ouvert national",
+ "categorie": "Travaux",
+ "date_limite_plis": "30/09/2026",
+ "lieu_ouverture": "Salle de réunion de la Direction Régionale des Impôts de Marrakech sis à la Route de Salle de réunion de la Direction Régionale des Impôts de Marrakech sis à la Route de Souihla Targa – Marrakech",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "05/10/2026",
+ "justification": null,
+ "infructueux": false,
+ "attributaire": "C.F.D.C.P SARL, CASABLANCA",
+ "montant_attribue": null,
+ "attributaires_par_lot": [
+  {
+   "lot": null,
+   "attributaire": "C.F.D.C.P SARL, CASABLANCA",
+   "montant": null
+  },
+  {
+   "lot": null,
+   "attributaire": "MEKNES FROID DRIOUICH FRERES SARL, MEKNES",
+   "montant": null
+  },
+  {
+   "lot": null,
+   "attributaire": "ELECTRO SAHTOUT INDUSTRIEL (ELESI) S.A.R.L",
+   "montant": null
+  },
+  {
+   "lot": null,
+   "attributaire": "AU, RABAT",
+   "montant": null
+  },
+  {
+   "lot": null,
+   "attributaire": "UNITAIRE SARL, CASABLANCA",
+   "montant": null
+  },
+  {
+   "lot": null,
+   "attributaire": "CLIMATHERM S.A.R.L, CASABLANCA",
+   "montant": null
+  },
+  {
+   "lot": null,
+   "attributaire": "LES TRAVAUX DE FLUIDE DE CASABLANCA S.A.R.L (TFC), CASABLANCA",
+   "montant": null
+  }
+ ],
+ "soumissionnaires": [
+  {
+   "nom": "C.F.D.C.P SARL, CASABLANCA",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "MEKNES FROID DRIOUICH FRERES SARL, MEKNES",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "INFO FROID DISTRIBUTION SARL AU, CASABLANCA",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_dossier_administratif_technique",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "ELECTRO SAHTOUT INDUSTRIEL (ELESI) S.A.R.L",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "LES TRAVAUX DE FLUIDE DE CASABLANCA S.A.R.L (TFC), CASABLANCA",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "UNITAIRE SARL, CASABLANCA",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "CLIMATHERM S.A.R.L, CASABLANCA",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "AU, RABAT",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 8,
+ "alertes_ocr": [
+  "« AU, RABAT » absent de la liste des plis déposés (nom mal lu ?).",
+  "Montant de l'attributaire « C.F.D.C.P SARL, CASABLANCA » non trouvé.",
+  "Montant de l'attributaire « MEKNES FROID DRIOUICH FRERES SARL, MEKNES » non trouvé.",
+  "Montant de l'attributaire « ELECTRO SAHTOUT INDUSTRIEL (ELESI) S.A.R.L » non trouvé.",
+  "Montant de l'attributaire « AU, RABAT » non trouvé.",
+  "Montant de l'attributaire « UNITAIRE SARL, CASABLANCA » non trouvé.",
+  "Montant de l'attributaire « CLIMATHERM S.A.R.L, CASABLANCA » non trouvé.",
+  "Montant de l'attributaire « LES TRAVAUX DE FLUIDE DE CASABLANCA S.A.R.L (TFC), CASABLANCA » non trouvé."
+ ],
+ "notes_ocr": [],
+ "qualite": "participants"
+}

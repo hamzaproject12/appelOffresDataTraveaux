@@ -1,0 +1,69 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "861353",
+ "orgAcronyme": "o8p",
+ "reference_pv": "50/A00/DPTR-ANP/2024",
+ "nouveau": true,
+ "reference": "50/A00/DPTR-ANP/2024",
+ "objet": null,
+ "acheteur": "Direction du Port de Tanger et Région",
+ "procedure": null,
+ "categorie": "Travaux",
+ "date_limite_plis": "04/12/2024",
+ "lieu_ouverture": "DPTR- Port de Tanger",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "16/12/2024",
+ "justification": null,
+ "infructueux": false,
+ "attributaire": "AP VERT",
+ "montant_attribue": 416040.0,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "TARIK NOUARA AP VERT TROPICANA PLANTES",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "SOLATRAVIT ISO JARDIN ADEME MULTISERVICES",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "VERGIA MAROC GARDEN",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "AP VERT",
+   "montant_acte_engagement": 416040.0,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 4,
+ "alertes_ocr": [
+  "« AP VERT » absent de la liste des plis déposés (nom mal lu ?)."
+ ],
+ "notes_ocr": [],
+ "qualite": "attribution"
+}

@@ -1,0 +1,94 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "860727",
+ "orgAcronyme": "a1z",
+ "reference_pv": "72/2024",
+ "nouveau": true,
+ "reference": "72/2024",
+ "objet": "travaux de réaménagement et mise a niveau des voiries et des trottoirs de la ville de Casablanca Lot 1 —-boulevard la Mecque tronçon entre boulevard Haïfa et boulevard panoramique",
+ "acheteur": null,
+ "procedure": "appel d'offres ouvert",
+ "categorie": "Travaux",
+ "date_limite_plis": "02/09/2024",
+ "lieu_ouverture": "la salle des réunions de la Commune de Casablanca, sise place Mohamed V, Avenue Hassan II, 2ème étage, bureau 38",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": null,
+ "justification": "l’offre économiquement la plus avantageuse.",
+ "infructueux": false,
+ "attributaire": "GROUPE MOJAZINE",
+ "montant_attribue": 47595130.8,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "CAMPEZO",
+   "montant_acte_engagement": 47743264.8,
+   "montant_apres_verification": 47743264.8,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "VIAS",
+   "montant_acte_engagement": 49495380.0,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "GROUPE MOJAZINE",
+   "montant_acte_engagement": 47595130.8,
+   "montant_apres_verification": 47595130.8,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "ATLAS TRAVAUX PUBLICS (ATP)",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "GRANDS TRAVAUX ROUTIERS (GTR)",
+   "montant_acte_engagement": 50999924.76,
+   "montant_apres_verification": 50999924.76,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "eNeant",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_dossier_administratif_technique",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 6,
+ "alertes_ocr": [
+  "« CAMPEZO » absent de la liste des plis déposés (nom mal lu ?).",
+  "« VIAS » absent de la liste des plis déposés (nom mal lu ?).",
+  "« GROUPE MOJAZINE » absent de la liste des plis déposés (nom mal lu ?).",
+  "« GRANDS TRAVAUX ROUTIERS (GTR) » absent de la liste des plis déposés (nom mal lu ?)."
+ ],
+ "notes_ocr": [
+  "« ATLAS TRAVAUX PUBLICS (ATP) » absent de la liste des plis déposés (nom mal lu ?).",
+  "« eNeant » absent de la liste des plis déposés (nom mal lu ?).",
+  "Maître d'ouvrage absent du PV (utiliser l'acheteur public du portail)."
+ ],
+ "qualite": "complet"
+}

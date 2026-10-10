@@ -1,0 +1,89 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "931522",
+ "orgAcronyme": "j0w",
+ "reference_pv": "09/2025/BP",
+ "nouveau": true,
+ "reference": "09/2025/BP",
+ "objet": "TRAVAUX DE CONSTRUCTION DU PISTE RELEVANT DE LA COMMUNE TERRITORIALE OD LGARNE RELIANT DR SIGIRINE ET DR EL QOBA A LA PROVINCE EL KALAA DES SRAGHNA",
+ "acheteur": null,
+ "procedure": "appel d'offres ouvert",
+ "categorie": "Travaux",
+ "date_limite_plis": "16/09/2025",
+ "lieu_ouverture": "le bureau des réunions du conseil provincial au 2 éme étage de la province El Kelâa des Sraghna",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "16/09/2025",
+ "justification": "Offre la plus avantageuse",
+ "infructueux": false,
+ "attributaire": "STE SJ2T SARL",
+ "montant_attribue": 1873669.2,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "STE EXCELLENT HOLDING",
+   "montant_acte_engagement": 1951008.0,
+   "montant_apres_verification": 1951008.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "STE S2MB TRAP",
+   "montant_acte_engagement": 1958787.6,
+   "montant_apres_verification": 1958787.6,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "STE SJ2T SARL",
+   "montant_acte_engagement": 1873669.2,
+   "montant_apres_verification": 1873669.2,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "GROUPEMENT ENTRE STE INNOVA ROUTES ET MSA ROUTIER",
+   "montant_acte_engagement": 1930615.2,
+   "montant_apres_verification": 1930615.2,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "GROUPEMENT ENTRE STE SONOTRACO ET WINDY TRAVAUX",
+   "montant_acte_engagement": 1929571.2,
+   "montant_apres_verification": 1929571.2,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "GROUPEMENT ENTRE STE",
+   "montant_acte_engagement": 1946976.0,
+   "montant_apres_verification": 1946976.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 6,
+ "alertes_ocr": [
+  "« GROUPEMENT ENTRE STE » absent de la liste des plis déposés (nom mal lu ?)."
+ ],
+ "notes_ocr": [
+  "Maître d'ouvrage absent du PV (utiliser l'acheteur public du portail)."
+ ],
+ "qualite": "complet"
+}

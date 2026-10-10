@@ -1,0 +1,55 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "893565",
+ "orgAcronyme": "a1z",
+ "reference_pv": "01/2025",
+ "nouveau": true,
+ "reference": "01/2025",
+ "objet": "Travaux d’entretien des installations de la signalisation lumineuse tricolore",
+ "acheteur": null,
+ "procedure": null,
+ "categorie": "Travaux",
+ "date_limite_plis": "12/02/2025",
+ "lieu_ouverture": "la salle des réunions de la Commune deCasablanca, sise place Mohamed V, Avenue Hassan IL 2ème étage, bureau 38",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": null,
+ "justification": "l’offre économiquement la plus avantageuse. nS",
+ "infructueux": false,
+ "attributaire": null,
+ "montant_attribue": null,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "ELECTRICITE FIDEL DU MAROC (SELFIM)",
+   "montant_acte_engagement": 12368400.0,
+   "montant_apres_verification": 2368400.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "O2E ENERGIE",
+   "montant_acte_engagement": 13346400.0,
+   "montant_apres_verification": 13346400.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 2,
+ "alertes_ocr": [
+  "Attributaire non trouvé.",
+  "« ELECTRICITE FIDEL DU MAROC (SELFIM) » : écart anormal entre montant initial et vérifié (lecture à vérifier)."
+ ],
+ "notes_ocr": [
+  "« ELECTRICITE FIDEL DU MAROC (SELFIM) » : montant rectifié de 12 368 400.00 à 2 368 400.00 DH.",
+  "Maître d'ouvrage absent du PV (utiliser l'acheteur public du portail)."
+ ],
+ "qualite": "complet"
+}

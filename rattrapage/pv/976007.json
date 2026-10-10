@@ -1,0 +1,88 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "976007",
+ "orgAcronyme": "q1s",
+ "reference_pv": null,
+ "nouveau": true,
+ "reference": null,
+ "objet": "TRAVAUX DE SECURISATION DES PRISES D’IRRIGATION AU NIVEAU DES RESEAUX D’IRRIGATION DU HAOUZ",
+ "acheteur": "l’Office Régional de Mise en Valeur Agricole du Haouz",
+ "procedure": null,
+ "categorie": "Travaux",
+ "date_limite_plis": "27/01/2026",
+ "lieu_ouverture": "Siège de l’Office Régional de Mise en Valeur Agricole du Haouz",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "10/02/2026",
+ "justification": "l’Offre financière économiquement la plus avantageuse est présentée par la société : DELTAHYDO",
+ "infructueux": false,
+ "attributaire": "DELTAHYDO",
+ "montant_attribue": 756360.0,
+ "attributaires_par_lot": [
+  {
+   "lot": null,
+   "attributaire": "DELTAHYDO",
+   "montant": 756360.0
+  },
+  {
+   "lot": null,
+   "attributaire": "HELPY PROJECTS",
+   "montant": 752160.0
+  },
+  {
+   "lot": null,
+   "attributaire": "GROUPE EXCELLENCE TRAVAUX-AMENAGEMENT",
+   "montant": 792496.8
+  },
+  {
+   "lot": null,
+   "attributaire": "STILI SOLAR",
+   "montant": 803640.0
+  }
+ ],
+ "soumissionnaires": [
+  {
+   "nom": "DELTAHYDO",
+   "montant_acte_engagement": 756360.0,
+   "montant_apres_verification": 756360.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "STILI SOLAR",
+   "montant_acte_engagement": 803640.0,
+   "montant_apres_verification": 803640.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "GROUPE EXCELLENCE TRAVAUX-AMENAGEMENT",
+   "montant_acte_engagement": 792496.8,
+   "montant_apres_verification": 792496.8,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "HELPY PROJECTS",
+   "montant_acte_engagement": 752160.0,
+   "montant_apres_verification": 752160.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 4,
+ "alertes_ocr": [],
+ "notes_ocr": [],
+ "qualite": "attribution"
+}

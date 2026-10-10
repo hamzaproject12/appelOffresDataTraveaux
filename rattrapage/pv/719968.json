@@ -1,0 +1,88 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "719968",
+ "orgAcronyme": "o8p",
+ "reference_pv": "6/2023",
+ "nouveau": true,
+ "reference": "6/2023",
+ "objet": "Travaux de réparation des dégâts de crue sur la RP3337-Province de BENSLIMANE",
+ "acheteur": "Ministère de l'Equipement et de l'Eau",
+ "procedure": "appel d'offres ouvert",
+ "categorie": "Travaux",
+ "date_limite_plis": "25/05/2023",
+ "lieu_ouverture": "Direction Provinciale de BENSLIMANE",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "01/06/2023",
+ "justification": "conformément aux critères figurant au règlement dela consultation :",
+ "infructueux": false,
+ "attributaire": "Société TG ROUTE SARL LL",
+ "montant_attribue": 255960.0,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "mem men",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "depose",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Société IZER INVEST SARL",
+   "montant_acte_engagement": 316440.0,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Société TG ROUTE SARL nn sn sn",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "depose",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Société PRODI TRAV TRAVAUX SARL",
+   "montant_acte_engagement": 321120.0,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Société SONATIS SARL AU ue LU)",
+   "montant_acte_engagement": 815000.0,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Société TG ROUTE SARL LL",
+   "montant_acte_engagement": 255960.0,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 6,
+ "alertes_ocr": [
+  "« Société SONATIS SARL AU ue LU) » absent de la liste des plis déposés (nom mal lu ?).",
+  "« Société TG ROUTE SARL LL » absent de la liste des plis déposés (nom mal lu ?)."
+ ],
+ "notes_ocr": [],
+ "qualite": "complet"
+}

@@ -1,0 +1,82 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "764623",
+ "orgAcronyme": "o8p",
+ "reference_pv": "21/A00/DI/DG/ANP/2023",
+ "nouveau": true,
+ "reference": "21/A00/DI/DG/ANP/2023",
+ "objet": null,
+ "acheteur": "DIRECTION DES INFRASTRUCTURES",
+ "procedure": null,
+ "categorie": "Travaux",
+ "date_limite_plis": "13/12/2023",
+ "lieu_ouverture": "Direction Générale de l’Agence Nationale des Ports, sise à MANDARONA 300 Lot n° 8 — Sidi Maârouf — Casablanca",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": null,
+ "justification": "la société GROUPE MOJAZINE a présenté l’offre la plus avantageuse.",
+ "infructueux": false,
+ "attributaire": "Groupe MOJAZINE STE LES GRANDS TRAVAUX ROUTIERS ALEQ SARL",
+ "montant_attribue": 52803015.0,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "Groupe MOJAZINE STE LES GRANDS TRAVAUX ROUTIERS ALEQ SARL",
+   "montant_acte_engagement": 52803015.0,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "SAHEL ET SAHARA SARL Groupement SNTRO-NOUV-EAU TRAINVEST SARL",
+   "montant_acte_engagement": 54316009.0,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Groupement SNTRO-NOUV-EAU",
+   "montant_acte_engagement": 56096570.0,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "TRAINVEST SARL",
+   "montant_acte_engagement": 55506655.0,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "ALEQ SARL",
+   "montant_acte_engagement": 55825395.0,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 5,
+ "alertes_ocr": [
+  "« Groupement SNTRO-NOUV-EAU » absent de la liste des plis déposés (nom mal lu ?).",
+  "« TRAINVEST SARL » absent de la liste des plis déposés (nom mal lu ?).",
+  "« ALEQ SARL » absent de la liste des plis déposés (nom mal lu ?)."
+ ],
+ "notes_ocr": [
+  "Montants exprimés hors taxes (HT)."
+ ],
+ "qualite": "complet"
+}

@@ -1,0 +1,90 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "1042721",
+ "orgAcronyme": "d4q",
+ "reference_pv": "48/2026",
+ "nouveau": true,
+ "reference": "48/2026",
+ "objet": "L'ENTRETIEN TECHNIQUE ANNUEL DES BATIMENTS ET LOCAUX DE L'ONHYM »",
+ "acheteur": "ONHYM",
+ "procedure": null,
+ "categorie": "Travaux",
+ "date_limite_plis": "03/09/2026",
+ "lieu_ouverture": "Bureau ONHYM - 34, Avenue AL FADILA CYM RABAT",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "24/09/2026",
+ "justification": "Offre conforme et mieux disante.",
+ "infructueux": false,
+ "attributaire": "TOP ELECTRICITE",
+ "montant_attribue": 469976.4,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "ATLASFS",
+   "montant_acte_engagement": 425200.0,
+   "montant_apres_verification": 510240.0,
+   "autres_montants": [
+    85040.0,
+    510240.0
+   ],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "GLOBAL WORKS",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "KALTE FACILITIES",
+   "montant_acte_engagement": 391500.0,
+   "montant_apres_verification": 469800.0,
+   "autres_montants": [
+    78300.0,
+    469800.0
+   ],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "TOP ELECTRICITE",
+   "montant_acte_engagement": 391647.0,
+   "montant_apres_verification": 469976.4,
+   "autres_montants": [
+    78329.4,
+    469976.4
+   ],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "PARASOL",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_dossier_administratif_technique",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 5,
+ "alertes_ocr": [],
+ "notes_ocr": [
+  "« ATLASFS » : montant rectifié de 425 200.00 à 510 240.00 DH.",
+  "« KALTE FACILITIES » : montant rectifié de 391 500.00 à 469 800.00 DH.",
+  "« TOP ELECTRICITE » : montant rectifié de 391 647.00 à 469 976.40 DH.",
+  "Montants exprimés hors taxes (HT)."
+ ],
+ "qualite": "complet"
+}

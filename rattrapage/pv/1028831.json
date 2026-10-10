@@ -1,0 +1,66 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "1028831",
+ "orgAcronyme": "g3h",
+ "reference_pv": "17/SDAD/2026",
+ "nouveau": true,
+ "reference": "17/SDAD/2026",
+ "objet": "TRAVAUX D'AMÉNAGEMENT INTÉGRÉ DES ALLÉES SECONDAIRES DU BOULEVARD AL WALAE A LA VILLE DE DAKHLA",
+ "acheteur": null,
+ "procedure": null,
+ "categorie": "Travaux",
+ "date_limite_plis": "01/07/2026",
+ "lieu_ouverture": "Secrétariat Général Province D'oued Eddahab",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "08/07/2026",
+ "justification": "Offre conforme aux exigences du Règlement de consultation et la plus avantageuse.",
+ "infructueux": false,
+ "attributaire": "GROUPE MARHOUNI SUD",
+ "montant_attribue": 13574399.52,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "HNIDE TRAVAUX",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_offre_technique",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "NEXT ROUTIERE",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_offre_technique",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "GROUPE MARHOUNI SUD",
+   "montant_acte_engagement": 13574399.52,
+   "montant_apres_verification": null,
+   "autres_montants": [
+    13574399.52
+   ],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 3,
+ "alertes_ocr": [
+  "« GROUPE MARHOUNI SUD » absent de la liste des plis déposés (nom mal lu ?)."
+ ],
+ "notes_ocr": [
+  "« HNIDE TRAVAUX » absent de la liste des plis déposés (nom mal lu ?).",
+  "« NEXT ROUTIERE » absent de la liste des plis déposés (nom mal lu ?).",
+  "Maître d'ouvrage absent du PV (utiliser l'acheteur public du portail)."
+ ],
+ "qualite": "attribution"
+}

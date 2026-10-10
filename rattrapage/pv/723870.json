@@ -1,0 +1,53 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "723870",
+ "orgAcronyme": "f9f",
+ "reference_pv": "04/2023/t/ctam",
+ "nouveau": true,
+ "reference": "04/2023/t/ctam",
+ "objet": null,
+ "acheteur": "COMMUNE D’AIT MELLOUL",
+ "procedure": "appel d'offres ouvert",
+ "categorie": "Travaux",
+ "date_limite_plis": "15/06/2023",
+ "lieu_ouverture": "salle de réunion au parc municipal sis au qu",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "22/06/2023",
+ "justification": "avantageuse en terme qualité prix",
+ "infructueux": false,
+ "attributaire": "GROUPEMENT SOCIETE NAIT EL KHALFAOUI TRAVAUX",
+ "montant_attribue": 756000.0,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "GROUPEMENT SOCIETE NAIT EL KHALFAOUI TRAVAUX",
+   "montant_acte_engagement": 756000.0,
+   "montant_apres_verification": 756000.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "LEFT SOCIETE NAIT OUKHALA TRAVAUX",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 2,
+ "alertes_ocr": [
+  "« GROUPEMENT SOCIETE NAIT EL KHALFAOUI TRAVAUX » absent de la liste des plis déposés (nom mal lu ?)."
+ ],
+ "notes_ocr": [
+  "« LEFT SOCIETE NAIT OUKHALA TRAVAUX » absent de la liste des plis déposés (nom mal lu ?)."
+ ],
+ "qualite": "attribution"
+}

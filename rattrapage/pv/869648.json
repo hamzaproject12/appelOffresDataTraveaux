@@ -1,0 +1,53 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "869648",
+ "orgAcronyme": "d4q",
+ "reference_pv": null,
+ "nouveau": true,
+ "reference": null,
+ "objet": null,
+ "acheteur": null,
+ "procedure": null,
+ "categorie": "Travaux",
+ "date_limite_plis": "03/12/2024",
+ "lieu_ouverture": "Siège DRDL",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": null,
+ "justification": "Moins-disant et conforme.",
+ "infructueux": false,
+ "attributaire": "GROUPEMENT OUASMA TRAVAUX SARL et ATLANTISUD SARL",
+ "montant_attribue": 2356515.0,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "GROUPEMENT OUASMA TRAVAUX SARL et ATLANTISUD SARL",
+   "montant_acte_engagement": 2356515.0,
+   "montant_apres_verification": 2588523.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "ATLANTISUD SARL, SMPOWER et SOREGELEC",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "depose",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 2,
+ "alertes_ocr": [],
+ "notes_ocr": [
+  "« GROUPEMENT OUASMA TRAVAUX SARL et ATLANTISUD SARL » : montant rectifié de 2 356 515.00 à 2 588 523.00 DH.",
+  "Maître d'ouvrage absent du PV (utiliser l'acheteur public du portail).",
+  "Montants exprimés hors taxes (HT)."
+ ],
+ "qualite": "attribution"
+}

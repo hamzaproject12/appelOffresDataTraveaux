@@ -1,0 +1,62 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "926329",
+ "orgAcronyme": "a1t",
+ "reference_pv": "DCT/TRAV-CONSTR-CRECHE/MEDINA/TNG/198-25",
+ "nouveau": true,
+ "reference": "DCT/TRAV-CONSTR-CRECHE/MEDINA/TNG/198-25",
+ "objet": "travaux de construction d'une crèche à Derb Faran dans la médina de Tanger. Maître d’ouvrage : Agence pour la Promotion et le Développement Economique et Social des Préfectures",
+ "acheteur": "Agence pour la Promotion et le Développement Economique et Social des Préfectures et Provinces du Nord du Royaume",
+ "procedure": null,
+ "categorie": "Travaux",
+ "date_limite_plis": "11/08/2025",
+ "lieu_ouverture": null,
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "19/08/2025",
+ "justification": null,
+ "infructueux": false,
+ "attributaire": null,
+ "montant_attribue": null,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "ECHAFI DE BTP SARL Wa",
+   "montant_acte_engagement": 1008216.0,
+   "montant_apres_verification": null,
+   "autres_montants": [
+    1008216.0
+   ],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "OMSATRAV S.AR.L Fu",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "depose",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "PODESTAR SARL AU",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "depose",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 3,
+ "alertes_ocr": [
+  "Attributaire non trouvé."
+ ],
+ "notes_ocr": [],
+ "qualite": "attribution"
+}

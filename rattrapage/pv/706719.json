@@ -1,0 +1,49 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "706719",
+ "orgAcronyme": "j8k",
+ "reference_pv": "07/TTH-LA/2023",
+ "nouveau": true,
+ "reference": "07/TTH-LA/2023",
+ "objet": "TRAVAUX D'ACHEVEMENT DE VOIRIE ET ASSAINISSEMENT DES OPERATIONS AL MANAR II - TR 2 ET AL MANARII - TR 3, A LARACHE",
+ "acheteur": "AL OMRANE TANGER-TETOUAN-AL HOCEIMA",
+ "procedure": null,
+ "categorie": "Travaux",
+ "date_limite_plis": "30/03/2023",
+ "lieu_ouverture": "Al Omrane Tanger-Tétouan-Al Hoceima",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "10/04/2023",
+ "justification": "Moins disant",
+ "infructueux": false,
+ "attributaire": "TOUNA SERVICES",
+ "montant_attribue": 3493578.0,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "ATALY TRAVAUX",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_offre_financiere",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "TOUNA SERVICES",
+   "montant_acte_engagement": 3493578.0,
+   "montant_apres_verification": 3493578.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 2,
+ "alertes_ocr": [],
+ "notes_ocr": [],
+ "qualite": "attribution"
+}

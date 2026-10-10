@@ -1,0 +1,70 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "677858",
+ "orgAcronyme": "f9f",
+ "reference_pv": "02-2022",
+ "nouveau": true,
+ "reference": "02-2022",
+ "objet": "construction des murs de clôture pour les cimetières aux douar ait said et ait ouaaziz commune tanal",
+ "acheteur": "Commune de TANALT",
+ "procedure": "appel d'offres ouvert",
+ "categorie": "Travaux",
+ "date_limite_plis": "02/11/2022",
+ "lieu_ouverture": "La salle de réunion au siège de la commune de TANALT",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "10/11/2022",
+ "justification": "offre avantageuse",
+ "infructueux": false,
+ "attributaire": null,
+ "montant_attribue": null,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "SOCIETE MADHER GLOBALE SERVICE 2. SOCIETE PLOM EOU",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "depose",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "SOCIETE SOLATREP",
+   "montant_acte_engagement": 129933.6,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "SOCIETE DAHBANI NEGOCE",
+   "montant_acte_engagement": 115584.0,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "SOCIETE MADHER GOLBALE SERVICE",
+   "montant_acte_engagement": 105054.0,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 4,
+ "alertes_ocr": [
+  "« SOCIETE MADHER GOLBALE SERVICE » absent de la liste des plis déposés (nom mal lu ?).",
+  "Attributaire non trouvé."
+ ],
+ "notes_ocr": [],
+ "qualite": "complet"
+}

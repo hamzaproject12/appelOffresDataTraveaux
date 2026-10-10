@@ -1,0 +1,105 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "780313",
+ "orgAcronyme": "m8x",
+ "reference_pv": "81/2023/AREP-GON-N",
+ "nouveau": true,
+ "reference": "81/2023/AREP-GON-N",
+ "objet": "TRAVAUX D'AMÉNAGEMENT DES TERRAINS DE PROXIMITÉ OM JISPORT TYPE -E- DANS LA RÉGION DE GUELMIM OUED NOUN - 2éme TRANCHE- (MARCHE ALLO '] EN 04 LOTS)",
+ "acheteur": "AREP Guelmim Oued Noun",
+ "procedure": "appel d'offres ouvert",
+ "categorie": "Travaux",
+ "date_limite_plis": "23/01/2024",
+ "lieu_ouverture": "AREP Guelmim Oued Noun",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "08/03/2024",
+ "justification": null,
+ "infructueux": true,
+ "attributaire": "HTTC",
+ "montant_attribue": 6039911.01,
+ "attributaires_par_lot": [
+  {
+   "lot": null,
+   "attributaire": "HTTC",
+   "montant": 6039911.01
+  },
+  {
+   "lot": null,
+   "attributaire": "ENTC",
+   "montant": 9464.0
+  }
+ ],
+ "soumissionnaires": [
+  {
+   "nom": "HTTC",
+   "montant_acte_engagement": 9220.0,
+   "montant_apres_verification": 6039611.04,
+   "autres_montants": [],
+   "lots": [
+    "1",
+    "2",
+    "4"
+   ],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "L - Groupement BRAMOC & FH SOUSS TRAV",
+   "montant_acte_engagement": 6261.0,
+   "montant_apres_verification": 5806022.4,
+   "autres_montants": [],
+   "lots": [
+    "2",
+    "3"
+   ],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "ENTC",
+   "montant_acte_engagement": 6260.0,
+   "montant_apres_verification": 6260.0,
+   "autres_montants": [
+    9464.0
+   ],
+   "lots": [
+    "1",
+    "2"
+   ],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "H2E TRAVAUX",
+   "montant_acte_engagement": 6277.0,
+   "montant_apres_verification": 6277276.8,
+   "autres_montants": [
+    64088.0
+   ],
+   "lots": [
+    "1",
+    "2",
+    "4"
+   ],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 4,
+ "alertes_ocr": [
+  "« HTTC » : écart anormal entre montant initial et vérifié (lecture à vérifier).",
+  "« L - Groupement BRAMOC & FH SOUSS TRAV » : écart anormal entre montant initial et vérifié (lecture à vérifier).",
+  "« H2E TRAVAUX » : écart anormal entre montant initial et vérifié (lecture à vérifier)."
+ ],
+ "notes_ocr": [
+  "« HTTC » : montant rectifié de 9 220.00 à 6 039 611.04 DH.",
+  "« L - Groupement BRAMOC & FH SOUSS TRAV » : montant rectifié de 6 261.00 à 5 806 022.40 DH.",
+  "« H2E TRAVAUX » : montant rectifié de 6 277.00 à 6 277 276.80 DH.",
+  "Marché alloti (4 lots)."
+ ],
+ "qualite": "complet"
+}

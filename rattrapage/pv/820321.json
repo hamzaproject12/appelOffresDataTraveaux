@@ -1,0 +1,80 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "820321",
+ "orgAcronyme": "a1z",
+ "reference_pv": "4/AS/2024",
+ "nouveau": true,
+ "reference": "4/AS/2024",
+ "objet": "TRAVAUX D'ENTRETIEN DE VOIES DE L’ARRONDISSEMENT SBATA",
+ "acheteur": "Le Président de l’ Arrondissement SBATA",
+ "procedure": "appel d'offres ouvert national",
+ "categorie": "Travaux",
+ "date_limite_plis": "06/06/2024",
+ "lieu_ouverture": "Le bureau de monsieur le président de l’ Arrondissement au siège de l'arrondissement SBATA à la Rue 12 Hay LAALOU Casablanca",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "26/06/2023",
+ "justification": "Offre avantageuse.",
+ "infructueux": false,
+ "attributaire": "SOCIETE LABERAGA DES TRAVAUX",
+ "montant_attribue": 3194400.0,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "ETABLISSEMENT ASSREM NEGOCE",
+   "montant_acte_engagement": 3180000.0,
+   "montant_apres_verification": 3180000.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "SOCIETE LABERAGA DES TRAVAUX",
+   "montant_acte_engagement": 3194400.0,
+   "montant_apres_verification": 3194400.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "ENTREPRISE 3F DE REVETEMENT ROUTIER ET TRAVAUX DIVERS (TR3F)",
+   "montant_acte_engagement": 3277800.0,
+   "montant_apres_verification": 3277800.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "SOCIETE CONSTRUCTION ET TRAVAUX ROUTIERS « CTR » SARL",
+   "montant_acte_engagement": 3277800.0,
+   "montant_apres_verification": 3278400.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "ROUTIERS « CTR » SARL",
+   "montant_acte_engagement": 1273600.97,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 5,
+ "alertes_ocr": [
+  "« ROUTIERS « CTR » SARL » absent de la liste des plis déposés (nom mal lu ?)."
+ ],
+ "notes_ocr": [
+  "« SOCIETE CONSTRUCTION ET TRAVAUX ROUTIERS « CTR » SARL » : montant rectifié de 3 277 800.00 à 3 278 400.00 DH."
+ ],
+ "qualite": "complet"
+}

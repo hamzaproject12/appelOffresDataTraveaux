@@ -1,0 +1,98 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "712363",
+ "orgAcronyme": "d4q",
+ "reference_pv": "112/DR3/2022",
+ "nouveau": true,
+ "reference": "112/DR3/2022",
+ "objet": "relatif à",
+ "acheteur": null,
+ "procedure": "appel d'offres ouvert",
+ "categorie": "Travaux",
+ "date_limite_plis": "07/03/2023",
+ "lieu_ouverture": "Boulevard, Mohamed VI, Quartier Administra Boulevard, Mohamed VI, Quartier Administra",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "09/05/2023",
+ "justification": "Moins-disant",
+ "infructueux": false,
+ "attributaire": "RESOFIL a MAROC",
+ "montant_attribue": 590952.0,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "AMARBOUH TRAVAUX MAROC",
+   "montant_acte_engagement": 731088.0,
+   "montant_apres_verification": 731088.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "BTDF MAROC",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "ENTR AZIZI BOUJEMAA MAROC",
+   "montant_acte_engagement": 739020.0,
+   "montant_apres_verification": 739020.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "RESOFIL a MAROC",
+   "montant_acte_engagement": 590952.0,
+   "montant_apres_verification": 590952.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "SOCIETE ENTREPRISE AMAHROUCH MAROC",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "depose",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "F TASTRACO MAROC",
+   "montant_acte_engagement": 725784.0,
+   "montant_apres_verification": 725784.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "SOCIETE ENTREPRISE AMAHROUCK - offre de",
+   "montant_acte_engagement": 708252.0,
+   "montant_apres_verification": 708252.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 7,
+ "alertes_ocr": [
+  "« SOCIETE ENTREPRISE AMAHROUCK - offre de » absent de la liste des plis déposés (nom mal lu ?)."
+ ],
+ "notes_ocr": [
+  "Maître d'ouvrage absent du PV (utiliser l'acheteur public du portail)."
+ ],
+ "qualite": "complet"
+}

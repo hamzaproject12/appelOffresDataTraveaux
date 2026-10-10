@@ -1,0 +1,621 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "927680",
+ "orgAcronyme": "q1s",
+ "reference_pv": "07/25/DPA/IF",
+ "nouveau": true,
+ "reference": "07/25/DPA/IF",
+ "objet": "Travaux des pistes rurales à travers le cercle de lakhsass, Province de Sidi Ifni (2 Lots)",
+ "acheteur": "DPA SIDI IFNI",
+ "procedure": null,
+ "categorie": "Travaux",
+ "date_limite_plis": null,
+ "lieu_ouverture": "la salle de réunion de la DPA de Sidi Ifni",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "06/08/2025",
+ "justification": null,
+ "infructueux": false,
+ "attributaire": "STE CHADAID TRAVAUX SARL",
+ "montant_attribue": 2629525.82,
+ "attributaires_par_lot": [
+  {
+   "lot": "2",
+   "attributaire": "STE CHADAID TRAVAUX SARL",
+   "montant": 2629525.82
+  },
+  {
+   "lot": "2",
+   "attributaire": "Ste Travaux D’infrastructures De Génie Civil Et Rural (TIGCR) Sarl AGADIR",
+   "montant": 2601174.78
+  }
+ ],
+ "soumissionnaires": [
+  {
+   "nom": "I STE KSAT SARL ASSA",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [
+    "1"
+   ],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "ETS ESSBAAI MOHAMED SALEM LAAYOUNE",
+   "montant_acte_engagement": 3099445.74,
+   "montant_apres_verification": null,
+   "autres_montants": [
+    5126379.0
+   ],
+   "lots": [
+    "1",
+    "2"
+   ],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "STE LEADER CIVIL ENGINEERING SARL LAAYOUNE",
+   "montant_acte_engagement": 2613926.12,
+   "montant_apres_verification": null,
+   "autres_montants": [
+    4300282.2
+   ],
+   "lots": [
+    "1",
+    "2"
+   ],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "STE GENIE RURAL ET URBAIN SARL AGADIR",
+   "montant_acte_engagement": 2595184.6,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [
+    "1"
+   ],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Ste Travaux D’infrastructures De Génie Civil Et Rural (TIGCR) Sarl AGADIR",
+   "montant_acte_engagement": 2601174.78,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [
+    "1",
+    "2"
+   ],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "STE SOUSSA DES TRAVAUX DE BATIMENT SARL AGADIR",
+   "montant_acte_engagement": 2603792.96,
+   "montant_apres_verification": null,
+   "autres_montants": [
+    4310133.0
+   ],
+   "lots": [
+    "1",
+    "2"
+   ],
+   "statut": "ecarte_offre_financiere",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "STE WAY PROJETS SARL LAAYOUNE",
+   "montant_acte_engagement": 2612849.48,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [
+    "1"
+   ],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "STE IRRAGRI SARL RISSANI",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [
+    "1"
+   ],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "STE MOZITRA SARL AZILAL",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [
+    "1"
+   ],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "STE MINASSIL TRAVAUX SARL",
+   "montant_acte_engagement": 2617028.61,
+   "montant_apres_verification": null,
+   "autres_montants": [
+    4221907.2
+   ],
+   "lots": [
+    "1",
+    "2"
+   ],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "STE MGR TD SARL",
+   "montant_acte_engagement": 3099445.74,
+   "montant_apres_verification": null,
+   "autres_montants": [
+    4397148.6
+   ],
+   "lots": [
+    "1",
+    "2"
+   ],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "STE RIT-TRAV SARL",
+   "montant_acte_engagement": 2563898.51,
+   "montant_apres_verification": null,
+   "autres_montants": [
+    4253372.44
+   ],
+   "lots": [
+    "1",
+    "2"
+   ],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "STE BAK.AM SARL eh 4 TAN TAN",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [
+    "1"
+   ],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "STE SOCAFAL PROJET SARL TANTAN",
+   "montant_acte_engagement": 2605525.82,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [
+    "1"
+   ],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "STE CENTRO NIKOS SARL",
+   "montant_acte_engagement": 2666092.23,
+   "montant_apres_verification": null,
+   "autres_montants": [
+    4174210.35
+   ],
+   "lots": [
+    "1",
+    "2"
+   ],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "STE CHADAID TRAVAUX SARL",
+   "montant_acte_engagement": 2629525.82,
+   "montant_apres_verification": null,
+   "autres_montants": [
+    4302978.0
+   ],
+   "lots": [
+    "1",
+    "2"
+   ],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "GROUP. STE GGTRAV SARL ET EL",
+   "montant_acte_engagement": 2685108.67,
+   "montant_apres_verification": null,
+   "autres_montants": [
+    4071226.5
+   ],
+   "lots": [
+    "1",
+    "2"
+   ],
+   "statut": "ecarte_offre_financiere",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "STE VICIA GROUPE SARL LAAYOUNE",
+   "montant_acte_engagement": 2567779.22,
+   "montant_apres_verification": null,
+   "autres_montants": [
+    4289744.62
+   ],
+   "lots": [
+    "1",
+    "2"
+   ],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "STE ANIRAL SARL TAROUDANTE",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [
+    "1"
+   ],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "STE AYSURVE SECURITE SARL AGADIR",
+   "montant_acte_engagement": 2595899.51,
+   "montant_apres_verification": null,
+   "autres_montants": [
+    4260798.0
+   ],
+   "lots": [
+    "1",
+    "2"
+   ],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "STE DAR AL ACHGHAL AL KOUBRA SARL AGADIR",
+   "montant_acte_engagement": 2618906.93,
+   "montant_apres_verification": null,
+   "autres_montants": [
+    4279114.8
+   ],
+   "lots": [
+    "1",
+    "2"
+   ],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "MR TARFAS LASIAD ENTREPRENEUR LAAYOUNE",
+   "montant_acte_engagement": 2536215.64,
+   "montant_apres_verification": null,
+   "autres_montants": [
+    4178489.4
+   ],
+   "lots": [
+    "1",
+    "2"
+   ],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "STE SUD-PHOTOVOLTECKH SARL AGADIR",
+   "montant_acte_engagement": 4298918.7,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [
+    "1",
+    "2"
+   ],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "STE ZS TRAVAUX SARL AGADIR",
+   "montant_acte_engagement": 4291191.0,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [
+    "1",
+    "2"
+   ],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "CIVIL ET RURAL (TIGCR) SARL",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [
+    "1"
+   ],
+   "statut": "ecarte_offre_financiere",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "STE MGR TD SARL ÉÉNPANA) LAAYOUNE",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [
+    "1"
+   ],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "ORDINMENEIRAT SARL ET EL IYSAOUYAHMED rer",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [
+    "1"
+   ],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "STE TIFAOUINEINO BTP SARL",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_dossier_administratif_technique",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "OUCHIKH AHMED ENTREPRENEUR",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_dossier_administratif_technique",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "STE MAROC INFRA ROUTIERE SARL",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_dossier_administratif_technique",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "STE ALFA BEAUTE SARL",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_dossier_administratif_technique",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "STE MEDLA SARL",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_dossier_administratif_technique",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "STE AMMARTI PLANTE SARL",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_dossier_administratif_technique",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "STE CHADAID TRAVAUX SARL L’intéressé est bénéficiaire du Lot N°1, conformément à",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_offre_financiere",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "l’article N°11 du règlement de la consultation",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_offre_financiere",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "RESULTATS DE RECTIFICATIONS",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_offre_financiere",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "IYSAOUYAHMED ENTREPRENEUR. FE ES FORGE",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [
+    "1"
+   ],
+   "statut": "ecarte_offre_financiere",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "STE KSAT SARL",
+   "montant_acte_engagement": 3099445.74,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [
+    "1"
+   ],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "STE IRRAGRI SARL",
+   "montant_acte_engagement": 3099445.74,
+   "montant_apres_verification": null,
+   "autres_montants": [
+    5126379.0
+   ],
+   "lots": [
+    "1",
+    "2"
+   ],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "STE MOZITRA SARL",
+   "montant_acte_engagement": 2624837.22,
+   "montant_apres_verification": null,
+   "autres_montants": [
+    4262316.0
+   ],
+   "lots": [
+    "1",
+    "2"
+   ],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "STE BAK.AM SARL",
+   "montant_acte_engagement": 2571457.91,
+   "montant_apres_verification": null,
+   "autres_montants": [
+    4293022.5
+   ],
+   "lots": [
+    "1",
+    "2"
+   ],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "STE ANIRAL SARL",
+   "montant_acte_engagement": 2578120.56,
+   "montant_apres_verification": null,
+   "autres_montants": [
+    4300884.0
+   ],
+   "lots": [
+    "1",
+    "2"
+   ],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "STE KSAT SARL NÉHRE",
+   "montant_acte_engagement": 5126379.0,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [
+    "2"
+   ],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "quatre-vingt-deux Cts",
+   "montant_acte_engagement": 2629525.82,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [
+    "1"
+   ],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "vingt-douze ,00 Cts",
+   "montant_acte_engagement": 4319592.0,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [
+    "2"
+   ],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 45,
+ "alertes_ocr": [
+  "« ETS ESSBAAI MOHAMED SALEM LAAYOUNE » absent de la liste des plis déposés (nom mal lu ?).",
+  "« STE LEADER CIVIL ENGINEERING SARL LAAYOUNE » absent de la liste des plis déposés (nom mal lu ?).",
+  "« STE GENIE RURAL ET URBAIN SARL AGADIR » absent de la liste des plis déposés (nom mal lu ?).",
+  "« Ste Travaux D’infrastructures De Génie Civil Et Rural (TIGCR) Sarl AGADIR » absent de la liste des plis déposés (nom mal lu ?).",
+  "« STE SOUSSA DES TRAVAUX DE BATIMENT SARL AGADIR » absent de la liste des plis déposés (nom mal lu ?).",
+  "« STE WAY PROJETS SARL LAAYOUNE » absent de la liste des plis déposés (nom mal lu ?).",
+  "« STE MINASSIL TRAVAUX SARL » absent de la liste des plis déposés (nom mal lu ?).",
+  "« STE MGR TD SARL » absent de la liste des plis déposés (nom mal lu ?).",
+  "« STE RIT-TRAV SARL » absent de la liste des plis déposés (nom mal lu ?).",
+  "« STE SOCAFAL PROJET SARL TANTAN » absent de la liste des plis déposés (nom mal lu ?).",
+  "« STE CENTRO NIKOS SARL » absent de la liste des plis déposés (nom mal lu ?).",
+  "« STE CHADAID TRAVAUX SARL » absent de la liste des plis déposés (nom mal lu ?).",
+  "« GROUP. STE GGTRAV SARL ET EL » absent de la liste des plis déposés (nom mal lu ?).",
+  "« STE VICIA GROUPE SARL LAAYOUNE » absent de la liste des plis déposés (nom mal lu ?).",
+  "« STE AYSURVE SECURITE SARL AGADIR » absent de la liste des plis déposés (nom mal lu ?).",
+  "« STE DAR AL ACHGHAL AL KOUBRA SARL AGADIR » absent de la liste des plis déposés (nom mal lu ?).",
+  "« MR TARFAS LASIAD ENTREPRENEUR LAAYOUNE » absent de la liste des plis déposés (nom mal lu ?).",
+  "« STE SUD-PHOTOVOLTECKH SARL AGADIR » absent de la liste des plis déposés (nom mal lu ?).",
+  "« STE ZS TRAVAUX SARL AGADIR » absent de la liste des plis déposés (nom mal lu ?).",
+  "« STE KSAT SARL » absent de la liste des plis déposés (nom mal lu ?).",
+  "« STE IRRAGRI SARL » absent de la liste des plis déposés (nom mal lu ?).",
+  "« STE MOZITRA SARL » absent de la liste des plis déposés (nom mal lu ?).",
+  "« STE BAK.AM SARL » absent de la liste des plis déposés (nom mal lu ?).",
+  "« STE ANIRAL SARL » absent de la liste des plis déposés (nom mal lu ?).",
+  "« STE KSAT SARL NÉHRE » absent de la liste des plis déposés (nom mal lu ?).",
+  "« quatre-vingt-deux Cts » absent de la liste des plis déposés (nom mal lu ?).",
+  "« vingt-douze ,00 Cts » absent de la liste des plis déposés (nom mal lu ?)."
+ ],
+ "notes_ocr": [
+  "« I STE KSAT SARL ASSA » absent de la liste des plis déposés (nom mal lu ?).",
+  "« STE IRRAGRI SARL RISSANI » absent de la liste des plis déposés (nom mal lu ?).",
+  "« STE MOZITRA SARL AZILAL » absent de la liste des plis déposés (nom mal lu ?).",
+  "« STE BAK.AM SARL eh 4 TAN TAN » absent de la liste des plis déposés (nom mal lu ?).",
+  "« STE ANIRAL SARL TAROUDANTE » absent de la liste des plis déposés (nom mal lu ?).",
+  "« CIVIL ET RURAL (TIGCR) SARL » absent de la liste des plis déposés (nom mal lu ?).",
+  "« STE MGR TD SARL ÉÉNPANA) LAAYOUNE » absent de la liste des plis déposés (nom mal lu ?).",
+  "« ORDINMENEIRAT SARL ET EL IYSAOUYAHMED rer » absent de la liste des plis déposés (nom mal lu ?).",
+  "« STE TIFAOUINEINO BTP SARL » absent de la liste des plis déposés (nom mal lu ?).",
+  "« OUCHIKH AHMED ENTREPRENEUR » absent de la liste des plis déposés (nom mal lu ?).",
+  "« STE MAROC INFRA ROUTIERE SARL » absent de la liste des plis déposés (nom mal lu ?).",
+  "« STE ALFA BEAUTE SARL » absent de la liste des plis déposés (nom mal lu ?).",
+  "« STE MEDLA SARL » absent de la liste des plis déposés (nom mal lu ?).",
+  "« STE AMMARTI PLANTE SARL » absent de la liste des plis déposés (nom mal lu ?).",
+  "« STE CHADAID TRAVAUX SARL L’intéressé est bénéficiaire du Lot N°1, conformément à » absent de la liste des plis déposés (nom mal lu ?).",
+  "« l’article N°11 du règlement de la consultation » absent de la liste des plis déposés (nom mal lu ?).",
+  "« RESULTATS DE RECTIFICATIONS » absent de la liste des plis déposés (nom mal lu ?).",
+  "« IYSAOUYAHMED ENTREPRENEUR. FE ES FORGE » absent de la liste des plis déposés (nom mal lu ?).",
+  "Marché alloti (2 lots)."
+ ],
+ "qualite": "complet"
+}

@@ -1,0 +1,62 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "977745",
+ "orgAcronyme": "j8k",
+ "reference_pv": null,
+ "nouveau": true,
+ "reference": null,
+ "objet": "PROGRAMME DE CONSTRUCTION DE LOGEMENTS «PROJET AL KHAYYAM 1 » DANS LE CADRE DU NOUVEAU PROGRAMME D'AIDE AUX LOGEMENTS SECTION 1 SIS AULOTISSEMENT RIAD AL OMRANE PREFECTURE DE MEKNES",
+ "acheteur": "AL Omrane Fès-Meknès",
+ "procedure": null,
+ "categorie": "Travaux",
+ "date_limite_plis": "10/02/2026",
+ "lieu_ouverture": "AL Omrane Fès-Meknès",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "17/02/2026",
+ "justification": null,
+ "infructueux": false,
+ "attributaire": "STE KIKOVA",
+ "montant_attribue": null,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "STEKIKOVA",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "depose",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "STE HAMDAQUI ALI CONSTRUCTION H.A.C",
+   "montant_acte_engagement": 51286598.18,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "STE KIKOVA",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 3,
+ "alertes_ocr": [
+  "« STE HAMDAQUI ALI CONSTRUCTION H.A.C » absent de la liste des plis déposés (nom mal lu ?).",
+  "« STE KIKOVA » absent de la liste des plis déposés (nom mal lu ?).",
+  "Montant de l'attributaire « STE KIKOVA » non trouvé."
+ ],
+ "notes_ocr": [],
+ "qualite": "attribution"
+}

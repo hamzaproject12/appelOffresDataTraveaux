@@ -1,0 +1,461 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "802105",
+ "orgAcronyme": "f9f",
+ "reference_pv": "02/2024",
+ "nouveau": true,
+ "reference": "02/2024",
+ "objet": null,
+ "acheteur": "Commune d'Agadir",
+ "procedure": "appel d'offres ouvert",
+ "categorie": "Travaux",
+ "date_limite_plis": "02/04/2024",
+ "lieu_ouverture": "Salle des réunions, Commune d'Agadir",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "25/04/2024",
+ "justification": "(Moins disant)",
+ "infructueux": false,
+ "attributaire": "Sté NAJITAMR GLOBALE SARL",
+ "montant_attribue": 1222980.0,
+ "attributaires_par_lot": [
+  {
+   "lot": null,
+   "attributaire": "Sté NAJITAMR GLOBALE SARL",
+   "montant": 1222980.0
+  },
+  {
+   "lot": null,
+   "attributaire": "Sté ELAROUSSI TRAVAUX SARL",
+   "montant": 1220750.4
+  },
+  {
+   "lot": null,
+   "attributaire": "Sté OULHINTSUD",
+   "montant": 1207380.0
+  },
+  {
+   "lot": null,
+   "attributaire": "Sté LA et K.A B.T.P SARL",
+   "montant": 1205370.0
+  },
+  {
+   "lot": null,
+   "attributaire": "Sté OUTHEMMI SALAH",
+   "montant": 1200660.0
+  },
+  {
+   "lot": null,
+   "attributaire": "Sté BRAMOC SARL",
+   "montant": 1200060.0
+  },
+  {
+   "lot": null,
+   "attributaire": "Sté MOURAD TRAITEMENT SARL",
+   "montant": 1200000.0
+  },
+  {
+   "lot": null,
+   "attributaire": "Sté ANBDOU SARL",
+   "montant": 1178280.0
+  },
+  {
+   "lot": null,
+   "attributaire": "Sté AMECODIV SARL",
+   "montant": 1098510.0
+  },
+  {
+   "lot": null,
+   "attributaire": "Sté NATUREL TRAVAUX SARL",
+   "montant": 1227480.0
+  },
+  {
+   "lot": null,
+   "attributaire": "Sté AQUAPLANETE SARL AU",
+   "montant": 1228002.0
+  },
+  {
+   "lot": null,
+   "attributaire": "Sté SORDYM TRAVAUX SARL AU",
+   "montant": 1228320.0
+  },
+  {
+   "lot": null,
+   "attributaire": "Sté SGCM",
+   "montant": 1228530.0
+  },
+  {
+   "lot": null,
+   "attributaire": "Sté EPIC DES TRAVAUX DIVERS SARL AU",
+   "montant": 1232070.0
+  },
+  {
+   "lot": null,
+   "attributaire": "Sté HAMUS SARL AU",
+   "montant": 1232724.0
+  },
+  {
+   "lot": null,
+   "attributaire": "Ent. LONG TERME SARL",
+   "montant": 1233204.0
+  },
+  {
+   "lot": null,
+   "attributaire": "Sté AYARA TRAVAUX ET CONSTRUCTION SARL",
+   "montant": 1233594.0
+  },
+  {
+   "lot": null,
+   "attributaire": "Sté BEST SOLUTION T.P SARL",
+   "montant": 1237800.0
+  },
+  {
+   "lot": null,
+   "attributaire": "Sté OJAK.BUILDING SARL",
+   "montant": 1241280.0
+  },
+  {
+   "lot": null,
+   "attributaire": "Sté BRAVO KHALID SARL",
+   "montant": 1314198.0
+  },
+  {
+   "lot": null,
+   "attributaire": "Sté LE GRAND CHANTIER ROUDANAIS SARL",
+   "montant": 1340376.0
+  }
+ ],
+ "soumissionnaires": [
+  {
+   "nom": "Sté MOURAD TRAITEMENT SARL",
+   "montant_acte_engagement": 1200000.0,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Sté LA et K.A B.T.P SARL",
+   "montant_acte_engagement": 1205370.0,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Sté ADDICH ADDI",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_dossier_administratif_technique",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Sté SOKENOR",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_offre_financiere",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Sté HERMODIX",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_dossier_administratif_technique",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Sté OJAK.BUILDING SARL",
+   "montant_acte_engagement": 1241280.0,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Sté ANBDOU SARL",
+   "montant_acte_engagement": 1178280.0,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Sté BEST SOLUTION T.P SARL",
+   "montant_acte_engagement": 1237800.0,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Sté SJ IKTRA",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_dossier_administratif_technique",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Sté BRAMOC SARL",
+   "montant_acte_engagement": 1200060.0,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Sté SGCM",
+   "montant_acte_engagement": 1228530.0,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Sté AYARA TRAVAUX ET CONSTRUCTION SARL",
+   "montant_acte_engagement": 1233594.0,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "CONSTRUCTION SARL",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "depose",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Ent. LONG TERME SARL",
+   "montant_acte_engagement": 1233204.0,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Sté LE GRAND CHANTIER ROUDANAIS SARL",
+   "montant_acte_engagement": 1340376.0,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "SARL",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "depose",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Sté META SOLUTION",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_dossier_administratif_technique",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Sté AOUADA TRAVAUX SARL",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Group . Sté G.B.B et Sté AMANE VERT SARL",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Sté OULHINTSUD",
+   "montant_acte_engagement": 1207380.0,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Sté SORDYM TRAVAUX SARL AU",
+   "montant_acte_engagement": 1228320.0,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Sté OUTHEMMI SALAH",
+   "montant_acte_engagement": 1200660.0,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Sté SOTITRADIM",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_dossier_administratif_technique",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Sté EMBTRAP SARL",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Sté EPIC DES TRAVAUX DIVERS SARL AU",
+   "montant_acte_engagement": 1232070.0,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Sté BENSITRAC MAROC",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_dossier_administratif_technique",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Sté HAMUS SARL AU",
+   "montant_acte_engagement": 1232724.0,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Sté SOTRACOG SARL",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_offre_financiere",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Sté ELAROUSSI TRAVAUX SARL",
+   "montant_acte_engagement": 1220750.4,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Sté NATUREL TRAVAUX SARL",
+   "montant_acte_engagement": 1227480.0,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Sté AQUAPLANETE SARL AU",
+   "montant_acte_engagement": 1228002.0,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Sté BRAVO KHALID SARL",
+   "montant_acte_engagement": 1314198.0,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Sté NAJITAMR GLOBALE SARL",
+   "montant_acte_engagement": 1222980.0,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Sté BEKKALI ELECTRICITE",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_dossier_administratif_technique",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Sté L’'AFRICAN DE GENIE CIVIL",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_dossier_administratif_technique",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Sté AMECODIV SARL",
+   "montant_acte_engagement": 1098510.0,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 36,
+ "alertes_ocr": [],
+ "notes_ocr": [],
+ "qualite": "attribution"
+}

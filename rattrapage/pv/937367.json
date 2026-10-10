@@ -1,0 +1,66 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "937367",
+ "orgAcronyme": "g3h",
+ "reference_pv": "002/2025/HAA",
+ "nouveau": true,
+ "reference": "002/2025/HAA",
+ "objet": "Travaux d'éclairage public dans différentes avenues de la ville de Marrakech — Lots travaux de fourniture et pose des candélabres et luminaires \" LOT] : AVENUE ALLAL FASSI",
+ "acheteur": "Société de Développement Local Hadirate AI Anwar SA",
+ "procedure": "appel d'offres ouvert",
+ "categorie": "Travaux",
+ "date_limite_plis": "19/08/2025",
+ "lieu_ouverture": "Salle d'ouverture des plis - Annexe de la Commune de Marrakech -— Avenue Mohammed VI",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "26/09/2025",
+ "justification": "Les offres présentées par SOCADELEG et ELECTRO INDUSTRIE pour les lots n° 1 et 2 respectivement ont été retenues en raison de leur caractère économiquement le plus avantageux.",
+ "infructueux": false,
+ "attributaire": null,
+ "montant_attribue": null,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "LAMALIF GROUP - LAMALIF GROUP",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [
+    "1"
+   ],
+   "statut": "ecarte_offre_technique",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "O2E ENERGIE",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [
+    "1"
+   ],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "STE SOCADELEG",
+   "montant_acte_engagement": 16852272.0,
+   "montant_apres_verification": 16852272.0,
+   "autres_montants": [],
+   "lots": [
+    "1"
+   ],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 3,
+ "alertes_ocr": [
+  "Attributaire non trouvé."
+ ],
+ "notes_ocr": [],
+ "qualite": "attribution"
+}

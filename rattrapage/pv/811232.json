@@ -1,0 +1,51 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "811232",
+ "orgAcronyme": "j8k",
+ "reference_pv": "34/2024",
+ "nouveau": true,
+ "reference": "34/2024",
+ "objet": "Travaux d'achèvement d'aménagement du centre multidisciplinaire à Tahanaout -Al Haouz",
+ "acheteur": "AL OMRANE MARRAKECH-SAFI",
+ "procedure": "appel d'offres ouvert",
+ "categorie": "Travaux",
+ "date_limite_plis": "20/06/2024",
+ "lieu_ouverture": "SIEGE DE LA SOCIETE AL OMRANE MARRAKECH-SAFI",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "02/07/2024",
+ "justification": "Moins disant",
+ "infructueux": false,
+ "attributaire": null,
+ "montant_attribue": null,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "TRAINVEST",
+   "montant_acte_engagement": 5149449.5,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_offre_financiere",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "CHAHD TRAVAUX",
+   "montant_acte_engagement": 5336058.0,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 2,
+ "alertes_ocr": [
+  "Attributaire non trouvé."
+ ],
+ "notes_ocr": [],
+ "qualite": "complet"
+}

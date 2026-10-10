@@ -1,0 +1,90 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "782468",
+ "orgAcronyme": "o8p",
+ "reference_pv": "T013/PLGV",
+ "nouveau": true,
+ "reference": "T013/PLGV",
+ "objet": "Travaux de réamenagement du 5ème étage du siege de l’'ONCF à Rabat",
+ "acheteur": "M. le Directeur Batiments du Pole Projets LGV",
+ "procedure": null,
+ "categorie": "Travaux",
+ "date_limite_plis": "14/03/2024",
+ "lieu_ouverture": "Institut de Formation et de Développement de Compétences l'ONCF",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "18/03/2024",
+ "justification": null,
+ "infructueux": false,
+ "attributaire": "BEST SOLUTIONS ELEC SARL AU",
+ "montant_attribue": 8934936.0,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "LES ATELIERS HAMMA SARL",
+   "montant_acte_engagement": 10094709.6,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "MESKI DE TRAVAUX DIVERS",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_dossier_administratif_technique",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "SEPARATOR SA",
+   "montant_acte_engagement": 9483564.0,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "SODECOLAB SARL",
+   "montant_acte_engagement": 9909939.6,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "ENGOR SA",
+   "montant_acte_engagement": 9968736.0,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "BEST SOLUTIONS ELEC SARL AU",
+   "montant_acte_engagement": 8934936.0,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 6,
+ "alertes_ocr": [
+  "« SEPARATOR SA » absent de la liste des plis déposés (nom mal lu ?).",
+  "« SODECOLAB SARL » absent de la liste des plis déposés (nom mal lu ?).",
+  "« ENGOR SA » absent de la liste des plis déposés (nom mal lu ?).",
+  "« BEST SOLUTIONS ELEC SARL AU » absent de la liste des plis déposés (nom mal lu ?)."
+ ],
+ "notes_ocr": [],
+ "qualite": "complet"
+}

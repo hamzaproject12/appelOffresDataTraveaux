@@ -1,0 +1,170 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "912109",
+ "orgAcronyme": "g3h",
+ "reference_pv": "564/2025/CAN-VOIRIES-TRAV-L7",
+ "nouveau": true,
+ "reference": "564/2025/CAN-VOIRIES-TRAV-L7",
+ "objet": "Programme d'aménagement des voiries à l’intérieur de la ville de Mohammedia — Lot7 — Llot9",
+ "acheteur": "Société CASABLANCA AMÉNAGEMENT",
+ "procedure": "appel d'offres ouvert",
+ "categorie": "Travaux",
+ "date_limite_plis": "11/06/2025",
+ "lieu_ouverture": "Salle de réunion de CASABLANCA AMÉNAGEMENT S.A",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "01/07/2025",
+ "justification": "Ÿ La meilleure combinaison des offres permettant au maître d'ouvrage de retenir l'offre globale la plus avantageuse pour l’ensemble des lots.",
+ "infructueux": false,
+ "attributaire": "Société NGE CONTRACTING",
+ "montant_attribue": 121199593.2,
+ "attributaires_par_lot": [
+  {
+   "lot": "7",
+   "attributaire": "Société NGE CONTRACTING",
+   "montant": 121199593.2
+  },
+  {
+   "lot": "9",
+   "attributaire": "Société CAMPEZO",
+   "montant": 46847124.0
+  }
+ ],
+ "soumissionnaires": [
+  {
+   "nom": "Société VIAS 1. Société VIAS",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [
+    "7"
+   ],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Société GROUPE MOJAZINE",
+   "montant_acte_engagement": 129613158.0,
+   "montant_apres_verification": null,
+   "autres_montants": [
+    49604796.0
+   ],
+   "lots": [
+    "7",
+    "9"
+   ],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Société NGE CONTRACTING",
+   "montant_acte_engagement": 121199593.2,
+   "montant_apres_verification": null,
+   "autres_montants": [
+    46777998.0
+   ],
+   "lots": [
+    "7",
+    "9"
+   ],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Société GCR 4. Société NGE CONTRACTING",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [
+    "7"
+   ],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Groupement GTR & MYH 5. Société GCR",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [
+    "7"
+   ],
+   "statut": "depose",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Groupement GTR & MYH 1. Groupement GTR & MYH",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [
+    "7"
+   ],
+   "statut": "ecarte_dossier_administratif_technique",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Société EUROLOGISTIQUE",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [
+    "7"
+   ],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Société VIAS",
+   "montant_acte_engagement": 125931348.0,
+   "montant_apres_verification": null,
+   "autres_montants": [
+    48710136.0
+   ],
+   "lots": [
+    "7",
+    "9"
+   ],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Société GCR",
+   "montant_acte_engagement": 127622520.0,
+   "montant_apres_verification": null,
+   "autres_montants": [
+    49564971.6
+   ],
+   "lots": [
+    "7",
+    "9"
+   ],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Société CAMPEZO",
+   "montant_acte_engagement": 46847124.0,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [
+    "9"
+   ],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 10,
+ "alertes_ocr": [
+  "« Société VIAS » absent de la liste des plis déposés (nom mal lu ?).",
+  "« Société GCR » absent de la liste des plis déposés (nom mal lu ?).",
+  "« Société CAMPEZO » absent de la liste des plis déposés (nom mal lu ?)."
+ ],
+ "notes_ocr": [
+  "Marché alloti (2 lots)."
+ ],
+ "qualite": "complet"
+}

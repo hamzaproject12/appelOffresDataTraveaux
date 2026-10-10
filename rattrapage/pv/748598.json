@@ -1,0 +1,55 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "748598",
+ "orgAcronyme": "g3h",
+ "reference_pv": "45/PB/DE/BG/2023",
+ "nouveau": true,
+ "reference": "45/PB/DE/BG/2023",
+ "objet": "TRAVAUX D’AMENAGEMENT ET D’INSTALLATION AUX LOGEMENTS DE FONCTION D’AGENTS D’AUTORITE AU CENTRE D’IMOUZZER MARMOUCHA A LA COMMUNE TERRITORIALE D’IMOUZZER MARMOUCHA RELEVANT DE LA PROVINCE DE",
+ "acheteur": null,
+ "procedure": null,
+ "categorie": "Travaux",
+ "date_limite_plis": "26/09/2023",
+ "lieu_ouverture": null,
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": null,
+ "justification": "CENT SOIXANTE DIX-HUIT DIRHAMS, 60 CENTIMES (455.478,60 DHS). Date de la clôture de la séance d’ouverture des plis : 10.10.2023",
+ "infructueux": false,
+ "attributaire": null,
+ "montant_attribue": null,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "SOCIETE SOTRA CONSTRUCTION - MISSOUR Offre excessif",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "SOCIETE WATRAMA SARL — MISSOUR",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 2,
+ "alertes_ocr": [
+  "Attributaire non trouvé."
+ ],
+ "notes_ocr": [
+  "« SOCIETE SOTRA CONSTRUCTION - MISSOUR Offre excessif » absent de la liste des plis déposés (nom mal lu ?).",
+  "« SOCIETE WATRAMA SARL — MISSOUR » absent de la liste des plis déposés (nom mal lu ?).",
+  "Maître d'ouvrage absent du PV (utiliser l'acheteur public du portail)."
+ ],
+ "qualite": "participants"
+}

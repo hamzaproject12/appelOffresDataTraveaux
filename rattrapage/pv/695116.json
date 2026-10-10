@@ -1,0 +1,97 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "695116",
+ "orgAcronyme": "q1s",
+ "reference_pv": "10/2023/0RSM",
+ "nouveau": true,
+ "reference": "10/2023/0RSM",
+ "objet": "Travaux d'aménagement des bâtiments administratifs de l'ORMVA du Souss-Massa sis à la subdivision de Taliouine province de Taroudant. ‘",
+ "acheteur": "ORMVAI/SM",
+ "procedure": "appel d'offres ouvert",
+ "categorie": "Travaux",
+ "date_limite_plis": "14/12/2022",
+ "lieu_ouverture": "salle de réunion de la direction de l'ORMVA/SM",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "27/01/2023",
+ "justification": null,
+ "infructueux": false,
+ "attributaire": "MONTAZ TRAVAUX",
+ "montant_attribue": 3742266.0,
+ "attributaires_par_lot": [
+  {
+   "lot": null,
+   "attributaire": "MONTAZ TRAVAUX",
+   "montant": 3742266.0
+  },
+  {
+   "lot": null,
+   "attributaire": "FADRIK SUD",
+   "montant": 3907242.2
+  },
+  {
+   "lot": null,
+   "attributaire": "Gpt.SEN/LET'S DO IT COMPANY",
+   "montant": 4590385.6
+  },
+  {
+   "lot": null,
+   "attributaire": "SSTCO",
+   "montant": 3194094.4
+  }
+ ],
+ "soumissionnaires": [
+  {
+   "nom": "SSTCO",
+   "montant_acte_engagement": 3194094.4,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "GPT.BINAYA TRAVAUX/SNOT",
+   "montant_acte_engagement": 3410901.6,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "MONTAZ TRAVAUX",
+   "montant_acte_engagement": 3742266.0,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "FADRIK SUD",
+   "montant_acte_engagement": 3907242.2,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Gpt.SEN/LET'S DO IT COMPANY",
+   "montant_acte_engagement": 4590385.6,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 5,
+ "alertes_ocr": [],
+ "notes_ocr": [],
+ "qualite": "complet"
+}

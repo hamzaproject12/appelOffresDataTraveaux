@@ -1,0 +1,62 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "966734",
+ "orgAcronyme": "o8p",
+ "reference_pv": "06/CCME/2025",
+ "nouveau": true,
+ "reference": "06/CCME/2025",
+ "objet": null,
+ "acheteur": "CONSEIL COMMUNAL DE MEDIOUNA",
+ "procedure": null,
+ "categorie": "Travaux",
+ "date_limite_plis": "18/12/2025",
+ "lieu_ouverture": "BUREAUX D’ADM INFRASTRUCTURE A PROXIMITE DE LA GARE DE PEAGE TIT MELLIL",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "25/12/2025",
+ "justification": "Offre la mieux-disante.",
+ "infructueux": false,
+ "attributaire": "ENTC",
+ "montant_attribue": 6771660.0,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "ENTC",
+   "montant_acte_engagement": 6771660.0,
+   "montant_apres_verification": 6771660.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "ARTRAVASE",
+   "montant_acte_engagement": 7192206.0,
+   "montant_apres_verification": 7192206.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "ZAMANE EL KHEIR",
+   "montant_acte_engagement": 6672702.0,
+   "montant_apres_verification": 6672702.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 3,
+ "alertes_ocr": [
+  "« ENTC » absent de la liste des plis déposés (nom mal lu ?).",
+  "« ARTRAVASE » absent de la liste des plis déposés (nom mal lu ?).",
+  "« ZAMANE EL KHEIR » absent de la liste des plis déposés (nom mal lu ?)."
+ ],
+ "notes_ocr": [],
+ "qualite": "complet"
+}

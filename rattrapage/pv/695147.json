@@ -1,0 +1,42 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "695147",
+ "orgAcronyme": "s3z",
+ "reference_pv": "03/23/CR",
+ "nouveau": true,
+ "reference": "03/23/CR",
+ "objet": null,
+ "acheteur": "Conseil de la Commune de Rabat",
+ "procedure": null,
+ "categorie": "Travaux",
+ "date_limite_plis": "16/02/2023",
+ "lieu_ouverture": "Salle des Réunions au siège de la Commune de Rabat",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "16/02/2023",
+ "justification": null,
+ "infructueux": false,
+ "attributaire": "Appel d’Offres déclaré infructueux",
+ "montant_attribue": null,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "Appel d’Offres déclaré infructueux",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 1,
+ "alertes_ocr": [
+  "Montant de l'attributaire « Appel d’Offres déclaré infructueux » non trouvé."
+ ],
+ "notes_ocr": [],
+ "qualite": "participants"
+}

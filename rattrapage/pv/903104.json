@@ -1,0 +1,69 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "903104",
+ "orgAcronyme": "g3h",
+ "reference_pv": "30/2025",
+ "nouveau": true,
+ "reference": "30/2025",
+ "objet": "Travaux de restauration et de réhabilitation du fondouk 7 Bradyine dans la médina de Fès. ville de Fès. en lot unique",
+ "acheteur": null,
+ "procedure": "appel d'offres ouvert",
+ "categorie": "Travaux",
+ "date_limite_plis": "27/05/2025",
+ "lieu_ouverture": "Siège de l'ADER-Fès",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "03/06/2025",
+ "justification": "Le concurrent ayant présenté l'offre la plus avantageuse et la moins disante.",
+ "infructueux": false,
+ "attributaire": "Société RESTORE PLUS SARL AU",
+ "montant_attribue": 3729672.0,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "Société CLUTCH SARL AU",
+   "montant_acte_engagement": 3908400.0,
+   "montant_apres_verification": 3908400.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": true
+  },
+  {
+   "nom": "Société RESTORE PLUS SARL AU",
+   "montant_acte_engagement": 3729672.0,
+   "montant_apres_verification": 3729672.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": true
+  },
+  {
+   "nom": "Société TREFLE GET SARL AU",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_dossier_administratif_technique",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Société RACHAD ISTITMAR SARL",
+   "montant_acte_engagement": 3737880.0,
+   "montant_apres_verification": 3737880.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": true
+  }
+ ],
+ "nombre_soumissionnaires": 4,
+ "alertes_ocr": [],
+ "notes_ocr": [
+  "Maître d'ouvrage absent du PV (utiliser l'acheteur public du portail)."
+ ],
+ "qualite": "complet"
+}

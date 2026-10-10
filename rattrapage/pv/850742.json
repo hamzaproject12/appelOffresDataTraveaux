@@ -1,0 +1,92 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "850742",
+ "orgAcronyme": "q9t",
+ "reference_pv": "1779/2024",
+ "nouveau": true,
+ "reference": "1779/2024",
+ "objet": "travaux d'installation des équipements de traitement d'air au niveau du service de stérilisation du Centre de Consultation et de Traitement Dentaire relevant du CHUIS",
+ "acheteur": "Centre Hospitalo-universitaire Ibn Sina Rabat",
+ "procedure": null,
+ "categorie": "Travaux",
+ "date_limite_plis": "31/10/2024",
+ "lieu_ouverture": "salle de réunion de la Direction du Centre Hospitalo universitaire Ibn Sina Rabat",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": null,
+ "justification": null,
+ "infructueux": false,
+ "attributaire": "TFC - BAUENER - STE TECHNO CLIM MAINTENANCE",
+ "montant_attribue": 591673.2,
+ "attributaires_par_lot": [
+  {
+   "lot": null,
+   "attributaire": "TFC - BAUENER - STE TECHNO CLIM MAINTENANCE",
+   "montant": 591673.2
+  },
+  {
+   "lot": null,
+   "attributaire": "Pour !'ocguisition",
+   "montant": 595836.0
+  },
+  {
+   "lot": null,
+   "attributaire": "ÂÂilles Huit Cent Trente-Six)",
+   "montant": 43200.0
+  },
+  {
+   "lot": null,
+   "attributaire": "Concurrenf reTenu N6 Crrc) N6 (Estimofion) TFC 7?",
+   "montant": 5436.0
+  }
+ ],
+ "soumissionnaires": [
+  {
+   "nom": "TFC - BAUENER - STE TECHNO CLIM MAINTENANCE",
+   "montant_acte_engagement": 591673.2,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Pour !'ocguisition",
+   "montant_acte_engagement": 595836.0,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "ÂÂilles Huit Cent Trente-Six)",
+   "montant_acte_engagement": 43200.0,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Concurrenf reTenu N6 Crrc) N6 (Estimofion) TFC 7?",
+   "montant_acte_engagement": 5436.0,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 4,
+ "alertes_ocr": [
+  "« Pour !'ocguisition » absent de la liste des plis déposés (nom mal lu ?).",
+  "« ÂÂilles Huit Cent Trente-Six) » absent de la liste des plis déposés (nom mal lu ?).",
+  "« Concurrenf reTenu N6 Crrc) N6 (Estimofion) TFC 7? » absent de la liste des plis déposés (nom mal lu ?)."
+ ],
+ "notes_ocr": [],
+ "qualite": "attribution"
+}

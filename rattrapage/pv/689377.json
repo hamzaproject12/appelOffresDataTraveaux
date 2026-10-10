@@ -1,0 +1,76 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "689377",
+ "orgAcronyme": "d4q",
+ "reference_pv": null,
+ "nouveau": true,
+ "reference": null,
+ "objet": "Augmentation de puissance de 2x20 MVA à 2x40 MVA et adaptation du poste source 60/22KV de BENSLIMANE (Province de BENSLIMANE) == Lot Unique ==",
+ "acheteur": null,
+ "procedure": "appel d'offres ouvert",
+ "categorie": "Travaux",
+ "date_limite_plis": "17/11/2021",
+ "lieu_ouverture": "Direction Approvisionnements et Marchés (DAM) : 65, Rue Othman Ben Affan 20 000 Casablanca",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": null,
+ "justification": "Offre avantageuse.",
+ "infructueux": false,
+ "attributaire": "STÉ SOHAPER",
+ "montant_attribue": null,
+ "attributaires_par_lot": [
+  {
+   "lot": null,
+   "attributaire": "STÉ SOHAPER",
+   "montant": null
+  },
+  {
+   "lot": null,
+   "attributaire": "en /HTVA en /TVAC SC SANNFER",
+   "montant": 5307835.0
+  }
+ ],
+ "soumissionnaires": [
+  {
+   "nom": "SGEE, SOHAPER, MITEL, ELECTRO TADART, ICOMEL et YASSELMEC",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "STÉ SOHAPER",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "en /HTVA en /TVAC SC SANNFER",
+   "montant_acte_engagement": 5307835.0,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 3,
+ "alertes_ocr": [
+  "« STÉ SOHAPER » absent de la liste des plis déposés (nom mal lu ?).",
+  "« en /HTVA en /TVAC SC SANNFER » absent de la liste des plis déposés (nom mal lu ?).",
+  "Montant de l'attributaire « STÉ SOHAPER » non trouvé."
+ ],
+ "notes_ocr": [
+  "Maître d'ouvrage absent du PV (utiliser l'acheteur public du portail).",
+  "Montants exprimés hors taxes (HT)."
+ ],
+ "qualite": "attribution"
+}

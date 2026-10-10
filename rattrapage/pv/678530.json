@@ -1,0 +1,78 @@
+{
+ "source": "extrait_docx",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "678530",
+ "orgAcronyme": "e5w",
+ "reference_pv": "10/2022",
+ "nouveau": true,
+ "reference": "10/2022",
+ "objet": "ENTRETIEN COURANT DES PLACES PUBLIQUES",
+ "acheteur": "Arrondissement Mérinides",
+ "procedure": "appel d'offres ouvert",
+ "categorie": "Travaux",
+ "date_limite_plis": "02/11/2022",
+ "lieu_ouverture": null,
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "11/11/2022",
+ "justification": "L’offre financière justifiée par l’attributaire a été jugée intéressante par la commission d’ouverture des plis.",
+ "infructueux": false,
+ "attributaire": "STE AMITIE TRAVAUX SARL",
+ "montant_attribue": null,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "STE AMITIE TRAVAUX SARL",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "STE G.M. TRAVAUX",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "STE RIYAMIR DESING SARL ET STE MAACHE NEGOCE ET SERVICES SARL –AU (groupement)",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_dossier_administratif_technique",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "STE FHS CONSTRUCTION",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_dossier_administratif_technique",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "STE SABER NOUR INVESTISSEMENT SARL",
+   "montant_acte_engagement": 305520.0,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 5,
+ "alertes_ocr": [
+  "Montant de l'attributaire « STE AMITIE TRAVAUX SARL » non trouvé."
+ ],
+ "notes_ocr": [],
+ "qualite": "attribution"
+}

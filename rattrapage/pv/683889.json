@@ -1,0 +1,78 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "683889",
+ "orgAcronyme": "q0x",
+ "reference_pv": "01/CTA/2022",
+ "nouveau": true,
+ "reference": "01/CTA/2022",
+ "objet": "TRAVAUX DE CONSTRUCTION D'UN PARC AUTOS ET ENGINS A LA COMMUNE D'AMOUGUER PROVINCE DE MIDELT",
+ "acheteur": "commune d’ Amouguer",
+ "procedure": "appel d'offres ouvert",
+ "categorie": "Travaux",
+ "date_limite_plis": "28/10/2022",
+ "lieu_ouverture": "bureau de Mr le président de la commune rurale d’Amouguer",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "01/11/2022",
+ "justification": "Moins disant — Le montant de l’offre du soumissionnaire : STE ADMER SARL s’écarte par rapport à l’estimation du maitre d’ouvrage de : ÿ Montant Estimation % EOER PRES de l’offr : du maitre d’ouvrage d’écartement 01 — STE ADMER SARL 228 675,60 239 880.00 = 4.67 % 02 - STE ADMER SARL 70 374,00 69 982.80 + 0.56 %",
+ "infructueux": false,
+ "attributaire": "STE ADMER SARL",
+ "montant_attribue": 228675.6,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "Sur support électronique",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "depose",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "STE BENABABOU SARL, STE IMIR SARL et STE PNM TRAVAUX SARL",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "depose",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Sur support papier :02",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "depose",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "STE ADMER SARL,STE SOZATL SARL",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "depose",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "STE ADMER SARL",
+   "montant_acte_engagement": 228675.6,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 5,
+ "alertes_ocr": [
+  "« STE ADMER SARL » absent de la liste des plis déposés (nom mal lu ?)."
+ ],
+ "notes_ocr": [],
+ "qualite": "attribution"
+}

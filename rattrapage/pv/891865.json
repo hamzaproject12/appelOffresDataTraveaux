@@ -1,0 +1,69 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "891865",
+ "orgAcronyme": "q0x",
+ "reference_pv": "04/2025",
+ "nouveau": true,
+ "reference": "04/2025",
+ "objet": "TRAVAUX DE REVETEMENT DE TERRAIN DE PROXIMIT AU LOTISSEMENT YASSAMINE COMMUNE OUISLANE",
+ "acheteur": null,
+ "procedure": "appel d'offres ouvert simplifié",
+ "categorie": "Travaux",
+ "date_limite_plis": "15/04/2025",
+ "lieu_ouverture": "la salle de réunion au 1° étage de la Commune d’Ouislane % Journaux ayant publié l'avis de publicité ,",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": null,
+ "justification": null,
+ "infructueux": false,
+ "attributaire": "STE GRANDPA SARL AU",
+ "montant_attribue": 315307.2,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "STE TRAVARD SARL AU",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_dossier_administratif_technique",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "STE AWAEL FIRST SERVICE SARL AU",
+   "montant_acte_engagement": 319176.0,
+   "montant_apres_verification": 319176.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": true
+  },
+  {
+   "nom": "STE GRANDPA SARL AU",
+   "montant_acte_engagement": 315307.2,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "STE TGMH SARL AU",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_dossier_administratif_technique",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 4,
+ "alertes_ocr": [],
+ "notes_ocr": [
+  "Maître d'ouvrage absent du PV (utiliser l'acheteur public du portail)."
+ ],
+ "qualite": "complet"
+}

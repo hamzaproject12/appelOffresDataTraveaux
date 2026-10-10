@@ -1,0 +1,83 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "700095",
+ "orgAcronyme": "j0w",
+ "reference_pv": "01/2023/BR",
+ "nouveau": true,
+ "reference": "01/2023/BR",
+ "objet": "TRAVAUX DE CONSTRUCTION DE LA ROUTE RELIANT CHEF-LIEU AIT HADOU YOUSSEF ET TARGA OUFELA, A LA CT AIT HADOU YOUSSEF- PROVINCE DE CHICHAOUA -",
+ "acheteur": "LA REGION MARRAKECH-SAFI",
+ "procedure": "appel d'offres ouvert",
+ "categorie": "Travaux",
+ "date_limite_plis": "07/02/2023",
+ "lieu_ouverture": "LE CONSEIL DE LA REGION MARRAKECH SAFI",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": null,
+ "justification": null,
+ "infructueux": false,
+ "attributaire": "Société SOMLAKO",
+ "montant_attribue": 25501195.2,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": " Société DE TRAVAUX ET D’EXECUTION DE PROJETS « STEP",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Société SOMLAKO",
+   "montant_acte_engagement": 25501195.2,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Société ATLAS TRAVAUX PUBLICS",
+   "montant_acte_engagement": 28055124.0,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Société IGASER",
+   "montant_acte_engagement": 30683028.0,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Société SAKITRA",
+   "montant_acte_engagement": 31822413.6,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 5,
+ "alertes_ocr": [
+  "« Société SOMLAKO » absent de la liste des plis déposés (nom mal lu ?).",
+  "« Société ATLAS TRAVAUX PUBLICS » absent de la liste des plis déposés (nom mal lu ?).",
+  "« Société IGASER » absent de la liste des plis déposés (nom mal lu ?).",
+  "« Société SAKITRA » absent de la liste des plis déposés (nom mal lu ?)."
+ ],
+ "notes_ocr": [
+  "«  Société DE TRAVAUX ET D’EXECUTION DE PROJETS « STEP » absent de la liste des plis déposés (nom mal lu ?)."
+ ],
+ "qualite": "complet"
+}

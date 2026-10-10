@@ -1,0 +1,73 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "1031857",
+ "orgAcronyme": "g3h",
+ "reference_pv": "27/2026/ND/SLT-SV-RP3011",
+ "nouveau": true,
+ "reference": "27/2026/ND/SLT-SV-RP3011",
+ "objet": "TRAVAUX DE SIGNALISATION LUMINEUSE TRICOLORE ET SIGNALISATION VERTICALE DE LA RP3011 COMMUNE DE BOUSKOURA",
+ "acheteur": "La Commune de Bouskoura",
+ "procedure": null,
+ "categorie": "Travaux",
+ "date_limite_plis": null,
+ "lieu_ouverture": null,
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "06/08/2026",
+ "justification": "la société ayant la meilleure offre (économiquement la plus avantageuse).",
+ "infructueux": false,
+ "attributaire": "s LAMALIF",
+ "montant_attribue": 11207160.0,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "s LAMALIF",
+   "montant_acte_engagement": 11207160.0,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "s ELEC TRIMAROC",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_offre_technique",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "NOUACEUR DÉVELOPPEMENT S.A",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "qu 20 18 dl",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 4,
+ "alertes_ocr": [
+  "« s LAMALIF » absent de la liste des plis déposés (nom mal lu ?)."
+ ],
+ "notes_ocr": [
+  "« s ELEC TRIMAROC » absent de la liste des plis déposés (nom mal lu ?).",
+  "« NOUACEUR DÉVELOPPEMENT S.A » absent de la liste des plis déposés (nom mal lu ?).",
+  "« qu 20 18 dl » absent de la liste des plis déposés (nom mal lu ?)."
+ ],
+ "qualite": "attribution"
+}

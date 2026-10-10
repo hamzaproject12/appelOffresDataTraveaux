@@ -1,0 +1,82 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "912044",
+ "orgAcronyme": "j8k",
+ "reference_pv": "39/2025",
+ "nouveau": true,
+ "reference": "39/2025",
+ "objet": "TRAVAUX D'ASSAINISSEMENT LIQUIDE DU CENTRE IGHREM N'OUGDAL A LA COMMUNE D'IGHREM NOUGDAL —",
+ "acheteur": "SOCIETE AL OMRANE DRAA-TAFILALET YŸ",
+ "procedure": "appel d'offres ouvert",
+ "categorie": "Travaux",
+ "date_limite_plis": null,
+ "lieu_ouverture": "SOCIETE AL OMRANE DRAA-TAFILALET",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": null,
+ "justification": null,
+ "infructueux": false,
+ "attributaire": "GMTP",
+ "montant_attribue": 10592218.91,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "QWERTY TRAVAUX",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_offre_technique",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "AMRAD",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_dossier_administratif_technique",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "GMTP",
+   "montant_acte_engagement": 10592218.91,
+   "montant_apres_verification": null,
+   "autres_montants": [
+    10592218.91
+   ],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "OUMOUJANE",
+   "montant_acte_engagement": 10802766.96,
+   "montant_apres_verification": null,
+   "autres_montants": [
+    10802766.96
+   ],
+   "lots": [],
+   "statut": "ecarte_dossier_administratif_technique",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "PETIT ATLAS",
+   "montant_acte_engagement": 11226404.88,
+   "montant_apres_verification": null,
+   "autres_montants": [
+    11226404.88
+   ],
+   "lots": [],
+   "statut": "ecarte_dossier_administratif_technique",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 5,
+ "alertes_ocr": [],
+ "notes_ocr": [],
+ "qualite": "complet"
+}

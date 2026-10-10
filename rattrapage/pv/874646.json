@@ -1,0 +1,55 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "874646",
+ "orgAcronyme": "d4q",
+ "reference_pv": null,
+ "nouveau": true,
+ "reference": null,
+ "objet": "Travaux d'entretien sur réseau d'assainissement liquide du centre Outat El Haj",
+ "acheteur": null,
+ "procedure": "appel d'offres ouvert",
+ "categorie": "Travaux",
+ "date_limite_plis": "23/01/2025",
+ "lieu_ouverture": "au siège de la Direction Régionale du Centre Nord (DR5) 88 rue du Soudan, Ville nouvelle - Fès - Maroc",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "25/02/2025",
+ "justification": "Moins-disant",
+ "infructueux": false,
+ "attributaire": "ENTR HAMMOU OUBAALA",
+ "montant_attribue": 234036.0,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "ENTR HAMMOU OUBAALA",
+   "montant_acte_engagement": 234036.0,
+   "montant_apres_verification": null,
+   "autres_montants": [
+    234036.0
+   ],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "SONATRASS MAROC",
+   "montant_acte_engagement": 262428.0,
+   "montant_apres_verification": null,
+   "autres_montants": [
+    261468.0
+   ],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 2,
+ "alertes_ocr": [],
+ "notes_ocr": [
+  "Maître d'ouvrage absent du PV (utiliser l'acheteur public du portail)."
+ ],
+ "qualite": "complet"
+}

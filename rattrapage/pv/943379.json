@@ -1,0 +1,52 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "943379",
+ "orgAcronyme": "g8e",
+ "reference_pv": "148/2025/Objet",
+ "nouveau": true,
+ "reference": "148/2025/Objet",
+ "objet": null,
+ "acheteur": "Date d'ouverture des plis : Le 16/10/2025 à 10 heures",
+ "procedure": null,
+ "categorie": "Travaux",
+ "date_limite_plis": "16/10/2025",
+ "lieu_ouverture": "Salle de réuni Sis Bd Med V lotissement lala Hayat immeuble n°3, gême et Ste étage Béni Mellal",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": null,
+ "justification": "L'offre économiquen /10/2025 à 12 heures 58 min rent la plus avantageuse",
+ "infructueux": false,
+ "attributaire": "MENARA VRD",
+ "montant_attribue": 9308880.0,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "ITTO TRAVAUX",
+   "montant_acte_engagement": 9308880.0,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "MENARA VRD",
+   "montant_acte_engagement": 9308880.0,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 2,
+ "alertes_ocr": [
+  "« ITTO TRAVAUX » absent de la liste des plis déposés (nom mal lu ?).",
+  "« MENARA VRD » absent de la liste des plis déposés (nom mal lu ?)."
+ ],
+ "notes_ocr": [],
+ "qualite": "complet"
+}

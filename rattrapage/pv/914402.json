@@ -1,0 +1,104 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "914402",
+ "orgAcronyme": "g3h",
+ "reference_pv": "O4/SKAD/2025",
+ "nouveau": true,
+ "reference": "O4/SKAD/2025",
+ "objet": "Travaux d'aménagement du boulevard El Massira à la vilte de kénitra. r Maître d'ouvrage: SGCIETE K'ENITRA AMENAGEMENT ET DEVELOPPEMENT",
+ "acheteur": null,
+ "procedure": "appel d'offres ouvert",
+ "categorie": "Travaux",
+ "date_limite_plis": null,
+ "lieu_ouverture": "Siege du secrétariat général de la province de Kenitra",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "08/07/2025",
+ "justification": "l’offre économiquement la plus avantageuse (la mieux disante par rapport au prix de référence).",
+ "infructueux": false,
+ "attributaire": "Société CAMPEZO -SARL- de Rabat",
+ "montant_attribue": 59240986.01,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "Société GTR -SA- de Casablanca",
+   "montant_acte_engagement": 58055889.6,
+   "montant_apres_verification": 58055889.6,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Société CAMPEZO -SARL- de Rabat",
+   "montant_acte_engagement": 59240986.01,
+   "montant_apres_verification": 59240986.01,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Société VIAS -SA- de Casablanca",
+   "montant_acte_engagement": 68550292.8,
+   "montant_apres_verification": 68550292.8,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": true
+  },
+  {
+   "nom": "Sièce sociole",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": true
+  },
+  {
+   "nom": "BSE LADITE à EN",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": true
+  },
+  {
+   "nom": "Groupement des Sociétés UNIVERS BAT -SARI- et BOpAySAGE SARL",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_dossier_administratif_technique",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "soctËrÉ KËNlrnA avENAGEMÉlfr E DEvELoppEMÊNr",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_dossier_administratif_technique",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 7,
+ "alertes_ocr": [
+  "« Société GTR -SA- de Casablanca » absent de la liste des plis déposés (nom mal lu ?).",
+  "« Société CAMPEZO -SARL- de Rabat » absent de la liste des plis déposés (nom mal lu ?).",
+  "« Société VIAS -SA- de Casablanca » absent de la liste des plis déposés (nom mal lu ?)."
+ ],
+ "notes_ocr": [
+  "« Sièce sociole » absent de la liste des plis déposés (nom mal lu ?).",
+  "« BSE LADITE à EN » absent de la liste des plis déposés (nom mal lu ?).",
+  "« Groupement des Sociétés UNIVERS BAT -SARI- et BOpAySAGE SARL » absent de la liste des plis déposés (nom mal lu ?).",
+  "« soctËrÉ KËNlrnA avENAGEMÉlfr E DEvELoppEMÊNr » absent de la liste des plis déposés (nom mal lu ?).",
+  "Maître d'ouvrage absent du PV (utiliser l'acheteur public du portail)."
+ ],
+ "qualite": "complet"
+}

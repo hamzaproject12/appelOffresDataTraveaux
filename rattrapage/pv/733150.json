@@ -1,0 +1,99 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "733150",
+ "orgAcronyme": "g3h",
+ "reference_pv": null,
+ "nouveau": true,
+ "reference": null,
+ "objet": "Travaux de construction d'un centre pour les personnes à besoin spécifiques à la commune de BOUDINAR- Ptovince de DRIOUCH",
+ "acheteur": "la Province de DRIOUCH, représentéepar Mr. Le Gouverneur",
+ "procedure": null,
+ "categorie": "Travaux",
+ "date_limite_plis": "17/07/2023",
+ "lieu_ouverture": "Secrétariat Général de la Province de DRIOUCH",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": null,
+ "justification": "L'offre la moins disante.",
+ "infructueux": false,
+ "attributaire": "STE CITY LINE SARL",
+ "montant_attribue": 3696608.52,
+ "attributaires_par_lot": [
+  {
+   "lot": null,
+   "attributaire": "STE CITY LINE SARL",
+   "montant": 3696608.52
+  },
+  {
+   "lot": null,
+   "attributaire": "STE PROJET BATIMENT SARL",
+   "montant": 4800.0
+  },
+  {
+   "lot": null,
+   "attributaire": "STE CHOUARI SARL",
+   "montant": 3563998.78
+  }
+ ],
+ "soumissionnaires": [
+  {
+   "nom": "STE CITY LINE SARL",
+   "montant_acte_engagement": 3696609.97,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "STE PROJET BATIMENT SARL",
+   "montant_acte_engagement": 4800.0,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "STE CHOUARI SARL",
+   "montant_acte_engagement": 502781.47,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "STE MIDASCO SARL",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "PROJET SARL STE",
+   "montant_acte_engagement": 3564000.0,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 5,
+ "alertes_ocr": [
+  "« STE CITY LINE SARL » absent de la liste des plis déposés (nom mal lu ?).",
+  "« STE PROJET BATIMENT SARL » absent de la liste des plis déposés (nom mal lu ?).",
+  "« STE CHOUARI SARL » absent de la liste des plis déposés (nom mal lu ?).",
+  "« PROJET SARL STE » absent de la liste des plis déposés (nom mal lu ?)."
+ ],
+ "notes_ocr": [
+  "« STE MIDASCO SARL » absent de la liste des plis déposés (nom mal lu ?)."
+ ],
+ "qualite": "complet"
+}

@@ -1,0 +1,115 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "1013035",
+ "orgAcronyme": "a1t",
+ "reference_pv": "73/2026/ADHA",
+ "nouveau": true,
+ "reference": "73/2026/ADHA",
+ "objet": null,
+ "acheteur": "L’AGENCE DE DEVELOPPEMNT DU HAUT ATLAS",
+ "procedure": null,
+ "categorie": "Travaux",
+ "date_limite_plis": "30/04/2026",
+ "lieu_ouverture": "Salle de réunions de l’ADHA, CHOUITER",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "14/05/2026",
+ "justification": null,
+ "infructueux": true,
+ "attributaire": "Sté MD ATLAS SARL AU",
+ "montant_attribue": 6100380.0,
+ "attributaires_par_lot": [
+  {
+   "lot": null,
+   "attributaire": "Sté MD ATLAS SARL AU",
+   "montant": 6100380.0
+  },
+  {
+   "lot": null,
+   "attributaire": "Sté LH PROJETS SARL AU",
+   "montant": 5790618.0
+  },
+  {
+   "lot": null,
+   "attributaire": "Sté MAGHREB AMAN SARL AU",
+   "montant": 5404764.0
+  },
+  {
+   "lot": null,
+   "attributaire": "Groupement Sté JADA BUILDING SARL AU et Sté ATLAS CAPITAL TRAVAUX SARL",
+   "montant": 4588272.0
+  }
+ ],
+ "soumissionnaires": [
+  {
+   "nom": "Ce Lot est déclaré infructueux",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "depose",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Sté MD ATLAS SARL AU",
+   "montant_acte_engagement": 6100380.0,
+   "montant_apres_verification": 6100380.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Sté LH PROJETS SARL AU",
+   "montant_acte_engagement": 5790618.0,
+   "montant_apres_verification": 5790618.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Sté MAGHREB AMAN SARL AU",
+   "montant_acte_engagement": 6276495.6,
+   "montant_apres_verification": 6276495.6,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Sté FERCALU SARL",
+   "montant_acte_engagement": 5455390.8,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Groupement Sté JADA BUILDING SARL AU et Sté ATLAS CAPITAL TRAVAUX SARL",
+   "montant_acte_engagement": 4588272.0,
+   "montant_apres_verification": 4588272.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "SARL",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 7,
+ "alertes_ocr": [],
+ "notes_ocr": [],
+ "qualite": "complet"
+}

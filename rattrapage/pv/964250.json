@@ -1,0 +1,65 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "964250",
+ "orgAcronyme": "f8y",
+ "reference_pv": null,
+ "nouveau": true,
+ "reference": null,
+ "objet": "« TRAVAUX DE RENFORCEMENT DU SYSTÈME D'AEP AU SIEGE DE LA PROVINCE DE GUERCIF",
+ "acheteur": "Conseil Provincial de Guercif",
+ "procedure": null,
+ "categorie": "Travaux",
+ "date_limite_plis": "12/12/2025",
+ "lieu_ouverture": "le bureau du président du conseil provincial de Guercif",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": null,
+ "justification": "jugée économiquement la plus avantageuse qui est présentée par par Sté S.F.E.C-BUILDING SARL AU pour un montant de : Cinq Cent Cinquante Cinq Mille Six Cent Dirhams 00 Cts (555 600,00Dhs).TIC.",
+ "infructueux": false,
+ "attributaire": "Sté BENKAJJI SARL AU",
+ "montant_attribue": 555600.0,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "Sté STAR EDGE SARL AU",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_dossier_administratif_technique",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "règlement de consultation",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_dossier_administratif_technique",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Sté BENKAJJI SARL AU",
+   "montant_acte_engagement": 555600.0,
+   "montant_apres_verification": null,
+   "autres_montants": [
+    555600.0
+   ],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 3,
+ "alertes_ocr": [
+  "« Sté BENKAJJI SARL AU » absent de la liste des plis déposés (nom mal lu ?)."
+ ],
+ "notes_ocr": [
+  "« Sté STAR EDGE SARL AU » absent de la liste des plis déposés (nom mal lu ?).",
+  "« règlement de consultation » absent de la liste des plis déposés (nom mal lu ?)."
+ ],
+ "qualite": "attribution"
+}

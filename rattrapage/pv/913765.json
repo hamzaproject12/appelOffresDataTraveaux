@@ -1,0 +1,51 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "913765",
+ "orgAcronyme": "o8p",
+ "reference_pv": null,
+ "nouveau": true,
+ "reference": null,
+ "objet": "Travaux d’élargissement et de renforcement de la RP 5100 du PK 9+000 au PK 18+000 (Province de Sefrou)",
+ "acheteur": "DPETL Sefrou",
+ "procedure": "appel d'offres ouvert",
+ "categorie": "Travaux",
+ "date_limite_plis": "03/07/2025",
+ "lieu_ouverture": "DPETL Sefrou",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "08/07/2025",
+ "justification": "c’est la plus avantageuse",
+ "infructueux": false,
+ "attributaire": "Société GTR (SA)",
+ "montant_attribue": 29436548.52,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "Société GTR (SA)",
+   "montant_acte_engagement": 29436548.52,
+   "montant_apres_verification": 29436548.52,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Groupement Société SBGP (SARL-AU) & Société SSMT (SARL)",
+   "montant_acte_engagement": 29436548.52,
+   "montant_apres_verification": 35482236.9,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_offre_financiere",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 2,
+ "alertes_ocr": [],
+ "notes_ocr": [
+  "« Groupement Société SBGP (SARL-AU) & Société SSMT (SARL) » : montant rectifié de 29 436 548.52 à 35 482 236.90 DH."
+ ],
+ "qualite": "complet"
+}

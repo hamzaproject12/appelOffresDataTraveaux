@@ -1,0 +1,64 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "765616",
+ "orgAcronyme": "o8p",
+ "reference_pv": "03/2023",
+ "nouveau": true,
+ "reference": "03/2023",
+ "objet": "Travaux de Signalisation Horizontale de la Route RR109 reliant ARTE st Foum El Oued entre PK 6+000 et PK 70+000 sur 64 KM",
+ "acheteur": null,
+ "procedure": "appel d'offres ouvert simplifié",
+ "categorie": "Travaux",
+ "date_limite_plis": "29/11/2023",
+ "lieu_ouverture": null,
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "13/12/2023",
+ "justification": "L’offre la mieux-disante",
+ "infructueux": false,
+ "attributaire": "LA LIGNE BLANCHE S.A",
+ "montant_attribue": 322200.0,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "CHAMAL SIGNALISATION SARL",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_dossier_administratif_technique",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Construction et travaux grandes routes CTGR SARL AU",
+   "montant_acte_engagement": 371752.8,
+   "montant_apres_verification": 80371752.8,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "LA LIGNE BLANCHE S.A",
+   "montant_acte_engagement": 322200.0,
+   "montant_apres_verification": 322200.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 3,
+ "alertes_ocr": [
+  "« LA LIGNE BLANCHE S.A » absent de la liste des plis déposés (nom mal lu ?).",
+  "« Construction et travaux grandes routes CTGR SARL AU » : écart anormal entre montant initial et vérifié (lecture à vérifier)."
+ ],
+ "notes_ocr": [
+  "« Construction et travaux grandes routes CTGR SARL AU » : montant rectifié de 371 752.80 à 80 371 752.80 DH.",
+  "Maître d'ouvrage absent du PV (utiliser l'acheteur public du portail)."
+ ],
+ "qualite": "complet"
+}

@@ -1,0 +1,71 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "889641",
+ "orgAcronyme": "o8p",
+ "reference_pv": "02/A00/DPTR-ANP/2025",
+ "nouveau": true,
+ "reference": "02/A00/DPTR-ANP/2025",
+ "objet": null,
+ "acheteur": "Direction du Port de Tanger et Région",
+ "procedure": null,
+ "categorie": "Travaux",
+ "date_limite_plis": "03/04/2025",
+ "lieu_ouverture": "DPTR- Port de Tanger",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "21/04/2024",
+ "justification": null,
+ "infructueux": false,
+ "attributaire": null,
+ "montant_attribue": null,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "ALOUSS PPRIME",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "ADAM STD EMPEGEC",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "OMEGA FLUIDES SFB ELEC",
+   "montant_acte_engagement": 2787392.0,
+   "montant_apres_verification": 2797392.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "DAR ELEC",
+   "montant_acte_engagement": 1774644.0,
+   "montant_apres_verification": 1774644.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 4,
+ "alertes_ocr": [
+  "Attributaire non trouvé."
+ ],
+ "notes_ocr": [
+  "« OMEGA FLUIDES SFB ELEC » : montant rectifié de 2 787 392.00 à 2 797 392.00 DH."
+ ],
+ "qualite": "complet"
+}

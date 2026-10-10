@@ -1,0 +1,89 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "1016245",
+ "orgAcronyme": "g3h",
+ "reference_pv": null,
+ "nouveau": true,
+ "reference": null,
+ "objet": null,
+ "acheteur": null,
+ "procedure": null,
+ "categorie": "Travaux",
+ "date_limite_plis": "04/06/2026",
+ "lieu_ouverture": null,
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "23/06/2026",
+ "justification": "- Dossiers administratif, technique, conformes aux exigences du dossier d’appel d’offres. - Offre avantageuse répondant aux critères d'évaluation du règlement des marchés de la société.",
+ "infructueux": false,
+ "attributaire": "STD-GHARB",
+ "montant_attribue": 506400.0,
+ "attributaires_par_lot": [
+  {
+   "lot": null,
+   "attributaire": "STD-GHARB",
+   "montant": 506400.0
+  },
+  {
+   "lot": null,
+   "attributaire": "EWARD SERVICE",
+   "montant": 239865.6
+  }
+ ],
+ "soumissionnaires": [
+  {
+   "nom": "SOCIETE RABAT ASSAINISSEMENT EAU POTABLE",
+   "montant_acte_engagement": 463200.0,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "STD-GHARB",
+   "montant_acte_engagement": 506400.0,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "SOCIETE DES TRAVAUX EAU POTABLE ET ASSAINISSEMENT APPROFONDIE DE FES",
+   "montant_acte_engagement": 594720.0,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "DELTA RAFIK",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_dossier_administratif_technique",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "EWARD SERVICE",
+   "montant_acte_engagement": 239865.6,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 5,
+ "alertes_ocr": [],
+ "notes_ocr": [
+  "Maître d'ouvrage absent du PV (utiliser l'acheteur public du portail)."
+ ],
+ "qualite": "complet"
+}

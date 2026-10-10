@@ -1,0 +1,99 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "752880",
+ "orgAcronyme": "d4q",
+ "reference_pv": "64/2023",
+ "nouveau": true,
+ "reference": "64/2023",
+ "objet": "LOT N°1 : AMENAGEMENT DES LOCAUX DE L'ONHYM A RABAT ; LOT N°2 : TRAVAUX D'ENTRETIEN DES LOCAUX DES CENTRES DE",
+ "acheteur": "ONHYM",
+ "procedure": null,
+ "categorie": "Travaux",
+ "date_limite_plis": "25/10/2023",
+ "lieu_ouverture": "Bureau ONHYM - 34, Avenue AL FADILA CYM RABAT",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "08/11/2023",
+ "justification": "e Offre conforme moins-disante",
+ "infructueux": false,
+ "attributaire": "ACONIX",
+ "montant_attribue": 427375.0,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "ACONIX",
+   "montant_acte_engagement": 427375.0,
+   "montant_apres_verification": null,
+   "autres_montants": [
+    85475.0,
+    512850.0,
+    274210.0
+   ],
+   "lots": [
+    "1",
+    "2"
+   ],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "SOCIETE BELAGHRISSI ALI",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "BOUAZZAOUI BOUAZZA",
+   "montant_acte_engagement": 215000.0,
+   "montant_apres_verification": null,
+   "autres_montants": [
+    43000.0,
+    258000.0
+   ],
+   "lots": [
+    "2"
+   ],
+   "statut": "ecarte_offre_financiere",
+   "admis_avec_reserve": true
+  },
+  {
+   "nom": "NANOALU",
+   "montant_acte_engagement": 607850.0,
+   "montant_apres_verification": null,
+   "autres_montants": [
+    121570.0,
+    729420.0,
+    483542.0
+   ],
+   "lots": [
+    "2"
+   ],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "SOBEJAD",
+   "montant_acte_engagement": 442700.0,
+   "montant_apres_verification": null,
+   "autres_montants": [
+    88540.0,
+    531240.0
+   ],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 5,
+ "alertes_ocr": [],
+ "notes_ocr": [
+  "Marché alloti (2 lots)."
+ ],
+ "qualite": "complet"
+}

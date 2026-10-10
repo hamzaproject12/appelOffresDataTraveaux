@@ -1,0 +1,104 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "986004",
+ "orgAcronyme": "g3h",
+ "reference_pv": "07/EL/26",
+ "nouveau": true,
+ "reference": "07/EL/26",
+ "objet": "Entretien et maintenance des installations électriques HTA et BT Lot 1 : Entretien et maintenance des installations électriques HTA et BT à la province KHOURIBGA",
+ "acheteur": null,
+ "procedure": "appel d'offres ouvert",
+ "categorie": "Travaux",
+ "date_limite_plis": "19/02/2026",
+ "lieu_ouverture": null,
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "02/03/2026",
+ "justification": "- Offre moins disante.",
+ "infructueux": false,
+ "attributaire": "ADAM STD",
+ "montant_attribue": 2219581.2,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "FARAH TECHNIC INDUSTRIE",
+   "montant_acte_engagement": 655002.0,
+   "montant_apres_verification": null,
+   "autres_montants": [
+    1297746.0,
+    655002.0
+   ],
+   "lots": [
+    "2"
+   ],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "SODRAR",
+   "montant_acte_engagement": 592980.0,
+   "montant_apres_verification": 1288668.0,
+   "autres_montants": [
+    1288668.0
+   ],
+   "lots": [
+    "2"
+   ],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "ADAM STD",
+   "montant_acte_engagement": 1091048.89,
+   "montant_apres_verification": 3140558.4,
+   "autres_montants": [
+    2531671.06,
+    2219581.2
+   ],
+   "lots": [
+    "3",
+    "4",
+    "5"
+   ],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "FSRAN TECH INDUSEREE Max",
+   "montant_acte_engagement": 1297746.0,
+   "montant_apres_verification": 1297746.0,
+   "autres_montants": [],
+   "lots": [
+    "2"
+   ],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "w'enc",
+   "montant_acte_engagement": 4528885.2,
+   "montant_apres_verification": 4528.0,
+   "autres_montants": [],
+   "lots": [
+    "5"
+   ],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 5,
+ "alertes_ocr": [
+  "« w'enc » : écart anormal entre montant initial et vérifié (lecture à vérifier)."
+ ],
+ "notes_ocr": [
+  "« SODRAR » : montant rectifié de 592 980.00 à 1 288 668.00 DH.",
+  "« ADAM STD » : montant rectifié de 1 091 048.89 à 3 140 558.40 DH.",
+  "« w'enc » : montant rectifié de 4 528 885.20 à 4 528.00 DH.",
+  "Marché alloti (4 lots).",
+  "Maître d'ouvrage absent du PV (utiliser l'acheteur public du portail)."
+ ],
+ "qualite": "complet"
+}

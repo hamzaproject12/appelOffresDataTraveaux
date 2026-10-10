@@ -1,0 +1,62 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "1044148",
+ "orgAcronyme": "g3h",
+ "reference_pv": "10011510",
+ "nouveau": true,
+ "reference": "10011510",
+ "objet": "Travaux de réalisation des branchements en eau potable à la province de Figuig",
+ "acheteur": null,
+ "procedure": null,
+ "categorie": "Travaux",
+ "date_limite_plis": "15/09/2026",
+ "lieu_ouverture": "Siège de la Direction Provinciale de Figuig - SRM-Ori",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": null,
+ "justification": "Offre moins-disant conforme.",
+ "infructueux": false,
+ "attributaire": "STE HAMZA TRAVAUX JAADAR",
+ "montant_attribue": 1064007.6,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "ZAHINDUSTRIELLE, STE HAMZA TRAVAUX JAADAR et",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "depose",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "ZAHINDUSTRIELLE et l'amara oriental",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_dossier_administratif_technique",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "STE HAMZA TRAVAUX JAADAR",
+   "montant_acte_engagement": 1064007.6,
+   "montant_apres_verification": 1064007.6,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 3,
+ "alertes_ocr": [
+  "« STE HAMZA TRAVAUX JAADAR » absent de la liste des plis déposés (nom mal lu ?)."
+ ],
+ "notes_ocr": [
+  "Maître d'ouvrage absent du PV (utiliser l'acheteur public du portail)."
+ ],
+ "qualite": "attribution"
+}

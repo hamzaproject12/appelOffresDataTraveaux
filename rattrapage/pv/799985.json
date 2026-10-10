@@ -1,0 +1,62 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "799985",
+ "orgAcronyme": "q1s",
+ "reference_pv": "16/2024/SOREC",
+ "nouveau": true,
+ "reference": "16/2024/SOREC",
+ "objet": "Les travaux de remise en état d’un bassin d’eau au niveau de lhippodrome de Casablanca",
+ "acheteur": null,
+ "procedure": null,
+ "categorie": "Travaux",
+ "date_limite_plis": "29/03/2024",
+ "lieu_ouverture": "Bureaux du siège de la Société Royale d’Encouragement du Cheval (SOREOC) sise à ZENITH RABAT -— Angle Rocade de Rabat et rue Ait Malek",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "02/05/2024",
+ "justification": "Le concurrent ayant présenté l’offre la moins disante.",
+ "infructueux": false,
+ "attributaire": null,
+ "montant_attribue": null,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "Team PAYASAGE",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_dossier_administratif_technique",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "VIA ATD",
+   "montant_acte_engagement": 314640.0,
+   "montant_apres_verification": 314640.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "EC PET TEEN",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "depose",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 3,
+ "alertes_ocr": [
+  "Attributaire non trouvé."
+ ],
+ "notes_ocr": [
+  "Maître d'ouvrage absent du PV (utiliser l'acheteur public du portail)."
+ ],
+ "qualite": "attribution"
+}

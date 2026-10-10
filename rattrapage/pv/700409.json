@@ -1,0 +1,70 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "700409",
+ "orgAcronyme": "g3h",
+ "reference_pv": null,
+ "nouveau": true,
+ "reference": null,
+ "objet": null,
+ "acheteur": "la Régie Autonome Intercommunale de Distribution d’Eau et d’Électricité de SAFT (RADEES)",
+ "procedure": "appel d'offres ouvert",
+ "categorie": "Travaux",
+ "date_limite_plis": "01/03/2023",
+ "lieu_ouverture": "salle de réunion de la RADEES sis à Avenue Idriss 1er B.P:218 SAFI",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": null,
+ "justification": "La Commission d’appel d’offres se base dans le choix des dossiers retenus sur l’exhaustivité du dossier administratif, sur la conformité technique et l’avantage de l’offr'e financière.",
+ "infructueux": false,
+ "attributaire": "M&M SOLAR",
+ "montant_attribue": 417000.0,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "ENERGYVISION MAROC-ELEXPERT-MDE-CST",
+   "montant_acte_engagement": 551553.0,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "ECIEDU-G2ES ENERGY-ENERGY HANDLE- VERDASUN- SOLAIRIUS et M&M SOLAR",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "depose",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "société MDE",
+   "montant_acte_engagement": 551562.0,
+   "montant_apres_verification": 551562.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "M&M SOLAR",
+   "montant_acte_engagement": 417000.0,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 4,
+ "alertes_ocr": [
+  "« société MDE » absent de la liste des plis déposés (nom mal lu ?).",
+  "« M&M SOLAR » absent de la liste des plis déposés (nom mal lu ?)."
+ ],
+ "notes_ocr": [],
+ "qualite": "complet"
+}

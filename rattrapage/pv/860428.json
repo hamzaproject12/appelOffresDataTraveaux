@@ -1,0 +1,110 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "860428",
+ "orgAcronyme": "o8p",
+ "reference_pv": "48/SNTL/2024",
+ "nouveau": true,
+ "reference": "48/SNTL/2024",
+ "objet": "Travaux de remise en état de l'étanchéité de la toiture du bâtiment À au centre Logistique SNTL Mohammedia",
+ "acheteur": "SNTL",
+ "procedure": null,
+ "categorie": "Travaux",
+ "date_limite_plis": "13/12/2024",
+ "lieu_ouverture": "Siège SNTL Rabat",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "16/12/2024",
+ "justification": null,
+ "infructueux": false,
+ "attributaire": "GIGA MED",
+ "montant_attribue": 4806000.0,
+ "attributaires_par_lot": [
+  {
+   "lot": null,
+   "attributaire": "GIGA MED",
+   "montant": 4806000.0
+  },
+  {
+   "lot": null,
+   "attributaire": "GOLD YOU BUILDING",
+   "montant": 4093200.0
+  },
+  {
+   "lot": null,
+   "attributaire": "STE POLYSOL",
+   "montant": 4320000.0
+  }
+ ],
+ "soumissionnaires": [
+  {
+   "nom": "EL BAZ TRAVAUX D'AMENAGEMENT",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_offre_technique",
+   "admis_avec_reserve": true
+  },
+  {
+   "nom": "GIGA MED",
+   "montant_acte_engagement": 4806000.0,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": true
+  },
+  {
+   "nom": "GOLD YOU BUILDING",
+   "montant_acte_engagement": 4093200.0,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "STE POLYSOL",
+   "montant_acte_engagement": 4320000.0,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": true
+  },
+  {
+   "nom": "DNZ CONSTRUCTION",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "depose",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "ETAB TRAVAUX",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "depose",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "STE GRAND TRAVAUX DEVELOPPE",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_dossier_administratif_technique",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 7,
+ "alertes_ocr": [],
+ "notes_ocr": [],
+ "qualite": "attribution"
+}

@@ -1,0 +1,69 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "676347",
+ "orgAcronyme": "z7x",
+ "reference_pv": "01/CA/UMI/22",
+ "nouveau": true,
+ "reference": "01/CA/UMI/22",
+ "objet": null,
+ "acheteur": "Président de l’Université Moulay Ismail, Meknès",
+ "procedure": "consultation architecturale",
+ "categorie": "Travaux",
+ "date_limite_plis": "10/11/2022",
+ "lieu_ouverture": "La Présidence de l’Université Moulay Ismail, Meknès",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "10/11/2022",
+ "justification": "Note globale obtenue est la plus élevée.",
+ "infructueux": false,
+ "attributaire": "Société CABINET D'ARCHITECTURE ET D'URBANISME LEKHRIBAT MEHDI",
+ "montant_attribue": null,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "Groupement : NOUR EDDINE SAADI et A-LA STUDIO SARL",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Société CABINET D'ARCHITECTURE ET D'URBANISME LEKHRIBAT MEHDI",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "FATIMA ZAHRA SERGHINI",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Société JET ARCHITECTURE JET DESIGN GROUP",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 4,
+ "alertes_ocr": [
+  "Montant de l'attributaire « Société CABINET D'ARCHITECTURE ET D'URBANISME LEKHRIBAT MEHDI » non trouvé."
+ ],
+ "notes_ocr": [],
+ "qualite": "participants"
+}

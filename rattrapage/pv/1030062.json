@@ -1,0 +1,101 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "1030062",
+ "orgAcronyme": "g3h",
+ "reference_pv": null,
+ "nouveau": true,
+ "reference": null,
+ "objet": null,
+ "acheteur": "Société Régionale Multiservices Fès Meknès « SRM-FM »",
+ "procedure": null,
+ "categorie": "Travaux",
+ "date_limite_plis": "08/07/2026",
+ "lieu_ouverture": "Siège de la SRM-FM",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "21/07/2026",
+ "justification": "L'offre la plus avantageuse.",
+ "infructueux": false,
+ "attributaire": "FELTRA NORD",
+ "montant_attribue": 12838943.0,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "EAMAR DE GENIE CIVIL",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_dossier_administratif_technique",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "AGOTRA",
+   "montant_acte_engagement": 16510885.0,
+   "montant_apres_verification": 19813062.0,
+   "autres_montants": [
+    19813062.0
+   ],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "OUMOUJANE TRAVAUX",
+   "montant_acte_engagement": 16555480.0,
+   "montant_apres_verification": 19864416.0,
+   "autres_montants": [
+    19866576.0
+   ],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "SOMAGITRAKE",
+   "montant_acte_engagement": 13074833.0,
+   "montant_apres_verification": 15689799.6,
+   "autres_montants": [
+    15689799.6
+   ],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "AZDOUR",
+   "montant_acte_engagement": 13327752.0,
+   "montant_apres_verification": 15993302.4,
+   "autres_montants": [
+    15993302.4
+   ],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "FELTRA NORD",
+   "montant_acte_engagement": 12838943.0,
+   "montant_apres_verification": 15406731.6,
+   "autres_montants": [
+    15406731.6
+   ],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 6,
+ "alertes_ocr": [],
+ "notes_ocr": [
+  "« AGOTRA » : montant rectifié de 16 510 885.00 à 19 813 062.00 DH.",
+  "« OUMOUJANE TRAVAUX » : montant rectifié de 16 555 480.00 à 19 864 416.00 DH.",
+  "« SOMAGITRAKE » : montant rectifié de 13 074 833.00 à 15 689 799.60 DH.",
+  "« AZDOUR » : montant rectifié de 13 327 752.00 à 15 993 302.40 DH.",
+  "« FELTRA NORD » : montant rectifié de 12 838 943.00 à 15 406 731.60 DH."
+ ],
+ "qualite": "complet"
+}

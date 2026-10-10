@@ -1,0 +1,56 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "784176",
+ "orgAcronyme": "d4q",
+ "reference_pv": null,
+ "nouveau": true,
+ "reference": null,
+ "objet": "Construction des lignes 225 KV de raccordement du futur poste AMENDIS Route de Tétouan",
+ "acheteur": null,
+ "procedure": null,
+ "categorie": "Travaux",
+ "date_limite_plis": "28/02/2024",
+ "lieu_ouverture": "Siège ONEFE/BE",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "27/03/2024",
+ "justification": "concurrent unique",
+ "infructueux": false,
+ "attributaire": "bof unique AB",
+ "montant_attribue": 41172531.07,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "FABRILEC",
+   "montant_acte_engagement": 8388053.2,
+   "montant_apres_verification": null,
+   "autres_montants": [
+    41172531.07,
+    49407037.28
+   ],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "bof unique AB",
+   "montant_acte_engagement": 41172531.07,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 2,
+ "alertes_ocr": [
+  "« bof unique AB » absent de la liste des plis déposés (nom mal lu ?)."
+ ],
+ "notes_ocr": [
+  "Maître d'ouvrage absent du PV (utiliser l'acheteur public du portail)."
+ ],
+ "qualite": "complet"
+}

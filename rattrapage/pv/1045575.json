@@ -1,0 +1,63 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "1045575",
+ "orgAcronyme": "j0w",
+ "reference_pv": "60/2026/AREP-MS",
+ "nouveau": true,
+ "reference": "60/2026/AREP-MS",
+ "objet": "Travaux de construction, élargissement et renforcement de la liaison reliant le centre OULED",
+ "acheteur": "AGENCE REGIONALE D'EXECUTION DES PROJETS MARRAKECH-SAFI",
+ "procedure": "appel d'offres ouvert national",
+ "categorie": "Travaux",
+ "date_limite_plis": "21/09/2026",
+ "lieu_ouverture": "SIEGE DE L'AGENCE REGIONALE D'EXECUTION DES PROJETS MARRAKECH SAFI",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": null,
+ "justification": null,
+ "infructueux": false,
+ "attributaire": "STE SJ2T",
+ "montant_attribue": 7677222.0,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "STE S3ACT",
+   "montant_acte_engagement": 7685770.8,
+   "montant_apres_verification": 7685770.8,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "STESJ2T",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "STE SJ2T",
+   "montant_acte_engagement": 7677.0,
+   "montant_apres_verification": 7677222.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 3,
+ "alertes_ocr": [
+  "« STE SJ2T » absent de la liste des plis déposés (nom mal lu ?).",
+  "« STE SJ2T » : écart anormal entre montant initial et vérifié (lecture à vérifier)."
+ ],
+ "notes_ocr": [
+  "« STE SJ2T » : montant rectifié de 7 677.00 à 7 677 222.00 DH."
+ ],
+ "qualite": "complet"
+}

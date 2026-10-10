@@ -1,0 +1,61 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "748070",
+ "orgAcronyme": "g3h",
+ "reference_pv": "50-R1/2023",
+ "nouveau": true,
+ "reference": "50-R1/2023",
+ "objet": null,
+ "acheteur": "Régie Autonome de Distribution d'Eau et d’Electricité de Fès",
+ "procedure": "appel d'offres ouvert",
+ "categorie": "Travaux",
+ "date_limite_plis": "31/08/2023",
+ "lieu_ouverture": "Siège de la RADEEF",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "19/10/2023",
+ "justification": "offre la plus avantageuse",
+ "infructueux": true,
+ "attributaire": "HYDROSYSTEMES",
+ "montant_attribue": 527650.0,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "RMC(Lotsiet2)",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "depose",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "HYDROSYSTEMES",
+   "montant_acte_engagement": 87000.0,
+   "montant_apres_verification": null,
+   "autres_montants": [
+    91998.0,
+    527650.0
+   ],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "TECSYS",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "depose",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 3,
+ "alertes_ocr": [],
+ "notes_ocr": [],
+ "qualite": "attribution"
+}

@@ -1,0 +1,133 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "965599",
+ "orgAcronyme": "j0w",
+ "reference_pv": "04/2025",
+ "nouveau": true,
+ "reference": "04/2025",
+ "objet": "travaux CREUSEMENT D'UN FORAGE PAR SYSTEME ROTTARY AU DOUAR SFI / LAGHFIRI CT OULED ARRAD",
+ "acheteur": "COMMUNE OULED ARRAD",
+ "procedure": "appel d'offres ouvert simplifié",
+ "categorie": "Travaux",
+ "date_limite_plis": "05/12/2025",
+ "lieu_ouverture": "bureau de Mr le président de la commune OULED ARRAD",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "11/12/2025",
+ "justification": "Offre financière économiquement le plus avantageuse.",
+ "infructueux": false,
+ "attributaire": "STE BEN EL MADI TRAVAUX",
+ "montant_attribue": 97080.0,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "STE SAPOUNAS TRAVAUX",
+   "montant_acte_engagement": 99120.0,
+   "montant_apres_verification": 99120.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "STE SADMEL TRAVAUX",
+   "montant_acte_engagement": 96768.0,
+   "montant_apres_verification": 96768.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "STE BEN EL MADI TRAVAUX",
+   "montant_acte_engagement": 97080.0,
+   "montant_apres_verification": 97080.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "STE MOSLIM AGRI",
+   "montant_acte_engagement": 96840.0,
+   "montant_apres_verification": 96840.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "STE ROKBI SONDAGE",
+   "montant_acte_engagement": 94800.0,
+   "montant_apres_verification": 94800.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "STE CG TRAP",
+   "montant_acte_engagement": 98208.0,
+   "montant_apres_verification": 98208.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "STE SETOBAM",
+   "montant_acte_engagement": 107160.0,
+   "montant_apres_verification": 107160.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "STE ESSARAZ VERT SARL",
+   "montant_acte_engagement": 96360.0,
+   "montant_apres_verification": 96360.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "STE BHB TRAVAUX SARL",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_dossier_administratif_technique",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "STE HAJ DUIRI SOHADU",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_dossier_administratif_technique",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 10,
+ "alertes_ocr": [
+  "« STE SAPOUNAS TRAVAUX » absent de la liste des plis déposés (nom mal lu ?).",
+  "« STE SADMEL TRAVAUX » absent de la liste des plis déposés (nom mal lu ?).",
+  "« STE BEN EL MADI TRAVAUX » absent de la liste des plis déposés (nom mal lu ?).",
+  "« STE MOSLIM AGRI » absent de la liste des plis déposés (nom mal lu ?).",
+  "« STE ROKBI SONDAGE » absent de la liste des plis déposés (nom mal lu ?).",
+  "« STE CG TRAP » absent de la liste des plis déposés (nom mal lu ?).",
+  "« STE SETOBAM » absent de la liste des plis déposés (nom mal lu ?).",
+  "« STE ESSARAZ VERT SARL » absent de la liste des plis déposés (nom mal lu ?)."
+ ],
+ "notes_ocr": [
+  "« STE BHB TRAVAUX SARL » absent de la liste des plis déposés (nom mal lu ?).",
+  "« STE HAJ DUIRI SOHADU » absent de la liste des plis déposés (nom mal lu ?)."
+ ],
+ "qualite": "complet"
+}

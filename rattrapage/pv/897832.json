@@ -1,0 +1,60 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "897832",
+ "orgAcronyme": "f9f",
+ "reference_pv": "08/2025",
+ "nouveau": true,
+ "reference": "08/2025",
+ "objet": "TRAVAUX DE RÉHABILITATION ET DE FERMETURE DE LA DÉCHARGE DE TAFRAOUT",
+ "acheteur": "Commune de Tafraout",
+ "procedure": "appel d'offres ouvert",
+ "categorie": "Travaux",
+ "date_limite_plis": "14/05/2025",
+ "lieu_ouverture": "la salle des réunions de la commune de Tafraout",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "20/05/2025",
+ "justification": null,
+ "infructueux": false,
+ "attributaire": "SSMT",
+ "montant_attribue": 5498424.0,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "SNTRO",
+   "montant_acte_engagement": 5849400.0,
+   "montant_apres_verification": 5849400.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "SSMT",
+   "montant_acte_engagement": 5498424.0,
+   "montant_apres_verification": 5498424.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "ANATRA",
+   "montant_acte_engagement": 5118300.0,
+   "montant_apres_verification": 5778300.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": true
+  }
+ ],
+ "nombre_soumissionnaires": 3,
+ "alertes_ocr": [],
+ "notes_ocr": [
+  "« ANATRA » : montant rectifié de 5 118 300.00 à 5 778 300.00 DH."
+ ],
+ "qualite": "complet"
+}

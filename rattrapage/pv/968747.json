@@ -1,0 +1,78 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "968747",
+ "orgAcronyme": "j8k",
+ "reference_pv": "99/2025",
+ "nouveau": true,
+ "reference": "99/2025",
+ "objet": "TRAVAUX DE LA REQUALIFICATION DES QUARTIERS SOUS EQUIPES DE LA COMMUNE TERRITORIALE",
+ "acheteur": null,
+ "procedure": "appel d'offres ouvert",
+ "categorie": "Travaux",
+ "date_limite_plis": null,
+ "lieu_ouverture": "SOCIETE AL OMRANE DRÂA-TAFILALET",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": null,
+ "justification": "l'offre la mieux disante par rapport au prix de référence.",
+ "infructueux": false,
+ "attributaire": "BOUALI",
+ "montant_attribue": 39563499.0,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "SALBI",
+   "montant_acte_engagement": 40753075.2,
+   "montant_apres_verification": null,
+   "autres_montants": [
+    40753075.2,
+    36428117.76
+   ],
+   "lots": [
+    "3",
+    "4"
+   ],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "ETABLISSEMENT ESSAKINI",
+   "montant_acte_engagement": 40180966.2,
+   "montant_apres_verification": null,
+   "autres_montants": [
+    40180966.2,
+    35062872.48
+   ],
+   "lots": [
+    "3",
+    "4"
+   ],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "BOUALI",
+   "montant_acte_engagement": 39563499.0,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [
+    "3"
+   ],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 3,
+ "alertes_ocr": [
+  "« ETABLISSEMENT ESSAKINI » absent de la liste des plis déposés (nom mal lu ?).",
+  "« BOUALI » absent de la liste des plis déposés (nom mal lu ?)."
+ ],
+ "notes_ocr": [
+  "Marché alloti (2 lots).",
+  "Maître d'ouvrage absent du PV (utiliser l'acheteur public du portail)."
+ ],
+ "qualite": "complet"
+}

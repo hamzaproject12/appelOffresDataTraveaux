@@ -1,0 +1,62 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "691200",
+ "orgAcronyme": "d4q",
+ "reference_pv": null,
+ "nouveau": true,
+ "reference": null,
+ "objet": "Injection des postes HTA/BT dans la Direction Provinciale de Berkane (Provinces de Berkane, Taourirt et Guercif)",
+ "acheteur": null,
+ "procedure": null,
+ "categorie": "Travaux",
+ "date_limite_plis": "09/11/2022",
+ "lieu_ouverture": "ONEE/BE 65, Rue Othman Ben Affan Casablanca",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "25/01/2023",
+ "justification": "Moïns-disant conforme Moins-disant conforme",
+ "infructueux": false,
+ "attributaire": "EXTRADIS",
+ "montant_attribue": 6358705.0,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "REMAPTEL",
+   "montant_acte_engagement": 7058639.5,
+   "montant_apres_verification": 7058639.5,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "ELECTRIQUE, EXTRADIS, LUMAFRIC, MARGA ELECTRICITE et SEGMO",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "EXTRADIS",
+   "montant_acte_engagement": 6358705.0,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 3,
+ "alertes_ocr": [
+  "« EXTRADIS » absent de la liste des plis déposés (nom mal lu ?)."
+ ],
+ "notes_ocr": [
+  "Maître d'ouvrage absent du PV (utiliser l'acheteur public du portail)."
+ ],
+ "qualite": "complet"
+}

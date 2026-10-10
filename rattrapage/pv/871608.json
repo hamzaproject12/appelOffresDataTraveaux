@@ -1,0 +1,65 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "871608",
+ "orgAcronyme": "b1d",
+ "reference_pv": "90/CL/2024",
+ "nouveau": true,
+ "reference": "90/CL/2024",
+ "objet": "TRAVAUX D'AMÉNAGEMENT DE L'ENTRÉE SUD DE LA VILLE TRONCON ENTRE LE GIRATOIRE DE L'AÉROPORT ET LE PORTAIL SUD DE LA VILLE DE LAAYOUNE -COMMUNE LAAYOUNE-PROVINCE LAAYOUNE-",
+ "acheteur": "LA COMMUNE DE LAAYOUNE",
+ "procedure": null,
+ "categorie": "Travaux",
+ "date_limite_plis": "09/01/2025",
+ "lieu_ouverture": "La Salle De Réunion De L'annexe De La Commune De Laayoune",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "10/02/2025",
+ "justification": "l'offre Le mieux disant.",
+ "infructueux": false,
+ "attributaire": "STE BOUSSAKSSOU DE CONSTRUCTION S.AR.",
+ "montant_attribue": 36464.0,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "STE BOUSSAKSSOU DE CONSTRUCTION S.AR.",
+   "montant_acte_engagement": 38464350.0,
+   "montant_apres_verification": 36464.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "GROUPEMENT DES ENTREPRISES SUD DEVELOPPEMENT DURABL SARL",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_dossier_administratif_technique",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "BOUTAZARTE SARL ET GUOUASSEM SIDI BALLAHI",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_dossier_administratif_technique",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 3,
+ "alertes_ocr": [
+  "« STE BOUSSAKSSOU DE CONSTRUCTION S.AR. » absent de la liste des plis déposés (nom mal lu ?).",
+  "« STE BOUSSAKSSOU DE CONSTRUCTION S.AR. » : écart anormal entre montant initial et vérifié (lecture à vérifier)."
+ ],
+ "notes_ocr": [
+  "« GROUPEMENT DES ENTREPRISES SUD DEVELOPPEMENT DURABL SARL » absent de la liste des plis déposés (nom mal lu ?).",
+  "« BOUTAZARTE SARL ET GUOUASSEM SIDI BALLAHI » absent de la liste des plis déposés (nom mal lu ?).",
+  "« STE BOUSSAKSSOU DE CONSTRUCTION S.AR. » : montant rectifié de 38 464 350.00 à 36 464.00 DH."
+ ],
+ "qualite": "attribution"
+}

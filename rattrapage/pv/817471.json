@@ -1,0 +1,99 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "817471",
+ "orgAcronyme": "w7t",
+ "reference_pv": "23/2024/DRANEF-FM",
+ "nouveau": true,
+ "reference": "23/2024/DRANEF-FM",
+ "objet": "Exécution des travaux de régénération dans les périmètres relevant de la Direction Régionale de l'Agence Nationale des Faux et Forêts de Fès Meknès repartis en quinze lots",
+ "acheteur": "Le Directeur Régional de l'Agence Nationale des Eaux et Forêts de Fès-Meknès, sous",
+ "procedure": null,
+ "categorie": "Travaux",
+ "date_limite_plis": "08/07/2024",
+ "lieu_ouverture": "La Direction Régionale de l'Agence Nationale des Eaux et Forêts de Fès Meknès.1, Avenue Hassan II Fès",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "22/07/2024",
+ "justification": "Offres économiquement les plus avantageuses",
+ "infructueux": true,
+ "attributaire": "STE SAIH MULTITRAVAUX sarl",
+ "montant_attribue": 5840780.4,
+ "attributaires_par_lot": [
+  {
+   "lot": null,
+   "attributaire": "STE SAIH MULTITRAVAUX sarl",
+   "montant": 5840780.4
+  },
+  {
+   "lot": null,
+   "attributaire": "STE BOUDRISS AMIS sarl",
+   "montant": 2789971.62
+  },
+  {
+   "lot": null,
+   "attributaire": "STE SORADET SARL",
+   "montant": 4661700.0
+  }
+ ],
+ "soumissionnaires": [
+  {
+   "nom": "STE SAIH MULTITRAVAUX sarl",
+   "montant_acte_engagement": 5840780.4,
+   "montant_apres_verification": null,
+   "autres_montants": [
+    5468973.6
+   ],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "TRAVAUX sarl DES TRAVAUX sarl",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "STE SORADET SARL STE SORADET SARL AUCUNE OFFRE",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "STE BOUDRISS AMIS sarl",
+   "montant_acte_engagement": 2789971.62,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "STE SORADET SARL",
+   "montant_acte_engagement": 4661700.0,
+   "montant_apres_verification": null,
+   "autres_montants": [
+    6306549.6
+   ],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 5,
+ "alertes_ocr": [
+  "« STE BOUDRISS AMIS sarl » absent de la liste des plis déposés (nom mal lu ?).",
+  "« STE SORADET SARL » absent de la liste des plis déposés (nom mal lu ?)."
+ ],
+ "notes_ocr": [],
+ "qualite": "attribution"
+}

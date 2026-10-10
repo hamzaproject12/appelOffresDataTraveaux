@@ -1,0 +1,73 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "928787",
+ "orgAcronyme": "g3h",
+ "reference_pv": "30/25lBG",
+ "nouveau": true,
+ "reference": "30/25lBG",
+ "objet": null,
+ "acheteur": "préfecture de Rabat",
+ "procedure": null,
+ "categorie": "Travaux",
+ "date_limite_plis": null,
+ "lieu_ouverture": "salle de réunion au 2ème étage du siège de la wilaya de la Région de Rabat-Salé-Kénitra",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": null,
+ "justification": "offre la plus avantageuse",
+ "infructueux": false,
+ "attributaire": "Sté SOTRABERMAN S.A.R.L",
+ "montant_attribue": 91392.0,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "Sté SENETRELEC S.A.R.L",
+   "montant_acte_engagement": 90006.0,
+   "montant_apres_verification": null,
+   "autres_montants": [
+    90006.0
+   ],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Sté HIRTRA S.A.R.L AU",
+   "montant_acte_engagement": 90432.0,
+   "montant_apres_verification": null,
+   "autres_montants": [
+    90432.0
+   ],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Sté SOTRABERMAN S.A.R.L",
+   "montant_acte_engagement": 91392.0,
+   "montant_apres_verification": null,
+   "autres_montants": [
+    91392.0
+   ],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Entrep ADEPAB",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 4,
+ "alertes_ocr": [],
+ "notes_ocr": [],
+ "qualite": "complet"
+}

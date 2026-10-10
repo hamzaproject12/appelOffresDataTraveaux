@@ -1,0 +1,64 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "726238",
+ "orgAcronyme": "d4q",
+ "reference_pv": null,
+ "nouveau": true,
+ "reference": null,
+ "objet": "Travaux d'élagage, abattage des arbres avoisinant et sous les lignes aériennes HTA relevant de la Direction Provinciale Distribution Tanger - lot unique-",
+ "acheteur": null,
+ "procedure": null,
+ "categorie": "Travaux",
+ "date_limite_plis": "23/05/2023",
+ "lieu_ouverture": "Siège de la Direction Régionale Distribution Tanger",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": null,
+ "justification": "Offre conforme.",
+ "infructueux": false,
+ "attributaire": "GROUP BOUMHAND",
+ "montant_attribue": 973060.0,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "COMPAGNIE DE TRANSPORT DE MARCHANDISE ET DE SERVICES",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_offre_financiere",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "GROUP BOUMHAND",
+   "montant_acte_engagement": 973060.0,
+   "montant_apres_verification": 1167672.0,
+   "autres_montants": [
+    1167672.0
+   ],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": true
+  },
+  {
+   "nom": "ROCHATCO et TOTRADEF",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": true
+  }
+ ],
+ "nombre_soumissionnaires": 3,
+ "alertes_ocr": [],
+ "notes_ocr": [
+  "« GROUP BOUMHAND » : montant rectifié de 973 060.00 à 1 167 672.00 DH.",
+  "Maître d'ouvrage absent du PV (utiliser l'acheteur public du portail).",
+  "Montants exprimés hors taxes (HT)."
+ ],
+ "qualite": "attribution"
+}

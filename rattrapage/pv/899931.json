@@ -1,0 +1,74 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "899931",
+ "orgAcronyme": "z9k",
+ "reference_pv": "03/2025/CD",
+ "nouveau": true,
+ "reference": "03/2025/CD",
+ "objet": "Gros travaux de maintenance des voies urbaines",
+ "acheteur": "Commune de Demnate représentée par le président du conseil communal de Demnate",
+ "procedure": null,
+ "categorie": "Travaux",
+ "date_limite_plis": "14/05/2025",
+ "lieu_ouverture": "la salle de réunion sise au siège de la commune de Demnate",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "22/05/2025",
+ "justification": null,
+ "infructueux": false,
+ "attributaire": "Société LES LOUPS TRAVAUX DIVERS",
+ "montant_attribue": 691559.04,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "Société FASKA TRAVAUX",
+   "montant_acte_engagement": 697504.8,
+   "montant_apres_verification": 697504.8,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Société BOUIFADENE SARL AU",
+   "montant_acte_engagement": 699427.2,
+   "montant_apres_verification": 699427.2,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Société LES LOUPS TRAVAUX DIVERS",
+   "montant_acte_engagement": 691559.84,
+   "montant_apres_verification": 691559.04,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Société ARTWO",
+   "montant_acte_engagement": 698750.4,
+   "montant_apres_verification": 698750.4,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 4,
+ "alertes_ocr": [
+  "« Société FASKA TRAVAUX » absent de la liste des plis déposés (nom mal lu ?).",
+  "« Société BOUIFADENE SARL AU » absent de la liste des plis déposés (nom mal lu ?).",
+  "« Société LES LOUPS TRAVAUX DIVERS » absent de la liste des plis déposés (nom mal lu ?).",
+  "« Société ARTWO » absent de la liste des plis déposés (nom mal lu ?)."
+ ],
+ "notes_ocr": [
+  "« Société LES LOUPS TRAVAUX DIVERS » : montant rectifié de 691 559.84 à 691 559.04 DH."
+ ],
+ "qualite": "complet"
+}

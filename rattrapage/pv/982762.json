@@ -1,0 +1,49 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "982762",
+ "orgAcronyme": "g3h",
+ "reference_pv": "2/DPJ-2026",
+ "nouveau": true,
+ "reference": "2/DPJ-2026",
+ "objet": null,
+ "acheteur": "SRM-CS",
+ "procedure": "appel d'offres ouvert",
+ "categorie": "Travaux",
+ "date_limite_plis": "17/02/2026",
+ "lieu_ouverture": "DIRECTION PROVINCIALE D’EL JADIDA",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "06/03/2026",
+ "justification": null,
+ "infructueux": false,
+ "attributaire": "ELECTRICITE BELLET",
+ "montant_attribue": 21070614.0,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "ELECTRICITE BELLET",
+   "montant_acte_engagement": 21070614.0,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "ELECTROMOFI",
+   "montant_acte_engagement": 21867912.0,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 2,
+ "alertes_ocr": [],
+ "notes_ocr": [],
+ "qualite": "complet"
+}

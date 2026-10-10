@@ -1,0 +1,78 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "673675",
+ "orgAcronyme": "j0w",
+ "reference_pv": null,
+ "nouveau": true,
+ "reference": null,
+ "objet": "Travaux de remise en état du réseau d'éclairage public de la corniche d’Essaouira",
+ "acheteur": "Le Conseil Provincial d'Essaouira représenté par le Président du Conseil",
+ "procedure": null,
+ "categorie": "Travaux",
+ "date_limite_plis": "14/10/2022",
+ "lieu_ouverture": "Salle des réunions au Conseil Provincial",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": null,
+ "justification": null,
+ "infructueux": false,
+ "attributaire": "SOCIETE BITMAR",
+ "montant_attribue": null,
+ "attributaires_par_lot": [
+  {
+   "lot": null,
+   "attributaire": "SOCIETE BITMAR",
+   "montant": null
+  },
+  {
+   "lot": null,
+   "attributaire": "Jus'iica‘ion cu choix ce ‘a’riou'aire",
+   "montant": null
+  },
+  {
+   "lot": null,
+   "attributaire": "Fai à Essaouira",
+   "montant": null
+  }
+ ],
+ "soumissionnaires": [
+  {
+   "nom": "SOCIETE BITMAR",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Jus'iica‘ion cu choix ce ‘a’riou'aire",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Fai à Essaouira",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 3,
+ "alertes_ocr": [
+  "Montant de l'attributaire « SOCIETE BITMAR » non trouvé.",
+  "Montant de l'attributaire « Jus'iica‘ion cu choix ce ‘a’riou'aire » non trouvé.",
+  "Montant de l'attributaire « Fai à Essaouira » non trouvé."
+ ],
+ "notes_ocr": [],
+ "qualite": "participants"
+}

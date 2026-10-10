@@ -1,0 +1,60 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "1034797",
+ "orgAcronyme": "h5r",
+ "reference_pv": "41/CS/2026",
+ "nouveau": true,
+ "reference": "41/CS/2026",
+ "objet": "TRAVAUX D’INSTALLATION DE PONT BASCULE AU NIVEAU DU MARCHE DE GROS COMMUNE DE SETTAT- PROVINCE DE SETTAT",
+ "acheteur": "COMMUNE DE SETTAT",
+ "procedure": null,
+ "categorie": "Travaux",
+ "date_limite_plis": "11/08/2026",
+ "lieu_ouverture": "les bureaux de Madame la Présidente",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "24/08/2026",
+ "justification": "le concurrent ayant présenté l’offre unique la plus avantageuse.",
+ "infructueux": false,
+ "attributaire": "STE STHK HAMDOUN IMMO",
+ "montant_attribue": 608400.0,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "STE SCALMAR",
+   "montant_acte_engagement": 601000.0,
+   "montant_apres_verification": 600999.99,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "STE STHK HAMDOUN IMMO",
+   "montant_acte_engagement": 608400.0,
+   "montant_apres_verification": 608400.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "STE NASSITE EL HABIB PROPRIETAIRE",
+   "montant_acte_engagement": 719760.0,
+   "montant_apres_verification": 719760.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 3,
+ "alertes_ocr": [],
+ "notes_ocr": [
+  "« STE SCALMAR » : montant rectifié de 601 000.00 à 600 999.99 DH."
+ ],
+ "qualite": "complet"
+}

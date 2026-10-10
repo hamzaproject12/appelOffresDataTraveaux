@@ -1,0 +1,51 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "972670",
+ "orgAcronyme": "j8k",
+ "reference_pv": null,
+ "nouveau": true,
+ "reference": null,
+ "objet": "TRAVAUX D’AMENAGEMENT D’UN PARC AU LOTISSEMENT YACOUT 3 A LA COMMUNE EL HAJEB PROVINCE D’EL HAJEB",
+ "acheteur": "AL Omrane F ès-Meknès",
+ "procedure": null,
+ "categorie": "Travaux",
+ "date_limite_plis": "21/01/2026",
+ "lieu_ouverture": "AL Omrane Fès-Meknès",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "26/01/2026",
+ "justification": "l’offre la mieux disante",
+ "infructueux": false,
+ "attributaire": "URBANISA",
+ "montant_attribue": null,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "URBANISA",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": true
+  },
+  {
+   "nom": "GRPT DELTA GREC ET ALMA-STRA SARL",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_dossier_administratif_technique",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 2,
+ "alertes_ocr": [
+  "Montant de l'attributaire « URBANISA » non trouvé."
+ ],
+ "notes_ocr": [],
+ "qualite": "participants"
+}

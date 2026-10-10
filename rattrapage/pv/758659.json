@@ -1,0 +1,85 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "758659",
+ "orgAcronyme": "g3h",
+ "reference_pv": "09/2023/DAU",
+ "nouveau": true,
+ "reference": "09/2023/DAU",
+ "objet": "L'achèvement des travaux des réseaux d'électrification MT/BT, d'éclairage public et de de Nouaceur pour le compte de l'Agence Urbaine de Casablanca",
+ "acheteur": "l'Agence Urbaine de Casablanca",
+ "procedure": null,
+ "categorie": "Travaux",
+ "date_limite_plis": "16/11/2023",
+ "lieu_ouverture": "L'Agence Urbaine de Casablanca",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "23/11/2023",
+ "justification": "Offre techniquement conforme et économiquement la plus avantageuse.",
+ "infructueux": false,
+ "attributaire": "ICOMEL",
+ "montant_attribue": 31401610.8,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "LUMIERES ET TECHNOLOGIES",
+   "montant_acte_engagement": 36293364.6,
+   "montant_apres_verification": 36293364.6,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_offre_financiere",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "PROTELEC",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_offre_financiere",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "SOCADELEG",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_offre_financiere",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "INGTELMA",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_offre_financiere",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "ICOMEL",
+   "montant_acte_engagement": 31401610.8,
+   "montant_apres_verification": 31401610.8,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "ALEQ",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_offre_financiere",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 6,
+ "alertes_ocr": [],
+ "notes_ocr": [],
+ "qualite": "complet"
+}

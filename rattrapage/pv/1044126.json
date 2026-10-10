@@ -1,0 +1,52 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "1044126",
+ "orgAcronyme": "o8p",
+ "reference_pv": "01/CCBO/2026",
+ "nouveau": true,
+ "reference": "01/CCBO/2026",
+ "objet": null,
+ "acheteur": "CONSEIL COMMUNAL DE BOUSKOURA",
+ "procedure": "appel d'offres ouvert",
+ "categorie": "Travaux",
+ "date_limite_plis": "22/09/2026",
+ "lieu_ouverture": "BUREAUX D’ADM INFRASTRUCTURE A PROXIMITE DE LA GARE DE PEAGE TIT MELLIL",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "29/09/2026",
+ "justification": "Offre la mieux-disante.",
+ "infructueux": false,
+ "attributaire": "Entreprise EL HALLAOUI",
+ "montant_attribue": 31574736.0,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "Entreprise EL HALLAOUI",
+   "montant_acte_engagement": 31574736.0,
+   "montant_apres_verification": 31574736.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Groupement VIAS-STAM",
+   "montant_acte_engagement": 35468940.0,
+   "montant_apres_verification": 35468940.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 2,
+ "alertes_ocr": [
+  "« Entreprise EL HALLAOUI » absent de la liste des plis déposés (nom mal lu ?).",
+  "« Groupement VIAS-STAM » absent de la liste des plis déposés (nom mal lu ?)."
+ ],
+ "notes_ocr": [],
+ "qualite": "complet"
+}

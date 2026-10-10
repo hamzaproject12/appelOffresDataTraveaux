@@ -1,0 +1,107 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "677658",
+ "orgAcronyme": "o8p",
+ "reference_pv": "32/2022",
+ "nouveau": true,
+ "reference": "32/2022",
+ "objet": "Travaux de traitement des accotements de la RP5404 cu P471+000 au 72+v00, Province de Taza",
+ "acheteur": null,
+ "procedure": null,
+ "categorie": "Travaux",
+ "date_limite_plis": "13/10/2022",
+ "lieu_ouverture": "DPETLE DE TAZA",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "15/11/2022",
+ "justification": "Offre moins disante",
+ "infructueux": false,
+ "attributaire": "STE BNIFORT",
+ "montant_attribue": 838440.0,
+ "attributaires_par_lot": [
+  {
+   "lot": null,
+   "attributaire": "STE BNIFORT",
+   "montant": 838440.0
+  },
+  {
+   "lot": null,
+   "attributaire": "STE BARA SSO",
+   "montant": 904200.0
+  }
+ ],
+ "soumissionnaires": [
+  {
+   "nom": "STE BNIFORT",
+   "montant_acte_engagement": 838440.0,
+   "montant_apres_verification": 838440.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "STE SONATIS",
+   "montant_acte_engagement": 979200.0,
+   "montant_apres_verification": 979200.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "STE NORD BATIMENT",
+   "montant_acte_engagement": 2862600.0,
+   "montant_apres_verification": 2862600.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_offre_financiere",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "STE DHW MAITRISE",
+   "montant_acte_engagement": 980640.0,
+   "montant_apres_verification": 980640.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "STE CAJICA",
+   "montant_acte_engagement": 993000.0,
+   "montant_apres_verification": 993000.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "STE MBHA TRAVAUX",
+   "montant_acte_engagement": 713040.0,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_offre_financiere",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "STE BARA SSO",
+   "montant_acte_engagement": 904200.0,
+   "montant_apres_verification": 904200.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 7,
+ "alertes_ocr": [],
+ "notes_ocr": [
+  "Maître d'ouvrage absent du PV (utiliser l'acheteur public du portail)."
+ ],
+ "qualite": "complet"
+}

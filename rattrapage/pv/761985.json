@@ -1,0 +1,58 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "761985",
+ "orgAcronyme": "f9f",
+ "reference_pv": "22/2023/BP",
+ "nouveau": true,
+ "reference": "22/2023/BP",
+ "objet": "Travaux de construction d'un complexe social pour les personnes en situation de précarité dans la ville de Tiznit, Province de Tiznit, région Souss Massa, (Lot Electrification)",
+ "acheteur": "Conseil Provincial de Tiznit",
+ "procedure": null,
+ "categorie": "Travaux",
+ "date_limite_plis": "23/11/2023",
+ "lieu_ouverture": "Salle des réunions du Conseil Provincial de Tiznit",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": null,
+ "justification": null,
+ "infructueux": false,
+ "attributaire": "Ste ALPHA GTP",
+ "montant_attribue": 749298.0,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "Ste TABARAK TRAVAUX",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_dossier_administratif_technique",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Ste ELECTRICITE AKHENKHAM",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_dossier_administratif_technique",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Ste ALPHA GTP",
+   "montant_acte_engagement": 749298.0,
+   "montant_apres_verification": 749298.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 3,
+ "alertes_ocr": [],
+ "notes_ocr": [],
+ "qualite": "attribution"
+}

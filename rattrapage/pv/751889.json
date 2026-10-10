@@ -1,0 +1,102 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "751889",
+ "orgAcronyme": "d4q",
+ "reference_pv": "30/DAM/ET/2023",
+ "nouveau": true,
+ "reference": "30/DAM/ET/2023",
+ "objet": "relatif à",
+ "acheteur": null,
+ "procedure": "appel d'offres ouvert",
+ "categorie": "Travaux",
+ "date_limite_plis": "06/09/2023",
+ "lieu_ouverture": "à la Salle d'ouverture de l'Immeuble G - Avenue Mohamed Belhassan El Ouazzani - Rabat",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "02/11/2023",
+ "justification": "Moins-disant",
+ "infructueux": false,
+ "attributaire": "STE CAPEP",
+ "montant_attribue": 262799760.0,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "ATNER (ATLAS ENERGIE)",
+   "montant_acte_engagement": 289517964.0,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "ATN",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "depose",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "ESPAGNE - MAROC - MAROC",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "depose",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "GROUP SADE-CGTH / CTHM",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "(GROUP G.T.I.C MAROC / OUMOUJANE TRAVAUX",
+   "montant_acte_engagement": 305214444.0,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "GROUP GROUPE MOJAZINE/ BARAN ISRAEL",
+   "montant_acte_engagement": 312851744.64,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "STE CAPEP",
+   "montant_acte_engagement": 262799760.0,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 7,
+ "alertes_ocr": [
+  "« GROUP SADE-CGTH / CTHM » : montant illisible (7 300 469 594 DH)  écarté.",
+  "« (GROUP G.T.I.C MAROC / OUMOUJANE TRAVAUX » absent de la liste des plis déposés (nom mal lu ?).",
+  "« GROUP GROUPE MOJAZINE/ BARAN ISRAEL » absent de la liste des plis déposés (nom mal lu ?).",
+  "« STE CAPEP » absent de la liste des plis déposés (nom mal lu ?)."
+ ],
+ "notes_ocr": [
+  "« GROUP SADE-CGTH / CTHM » absent de la liste des plis déposés (nom mal lu ?).",
+  "Maître d'ouvrage absent du PV (utiliser l'acheteur public du portail)."
+ ],
+ "qualite": "complet"
+}

@@ -1,0 +1,96 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "850801",
+ "orgAcronyme": "a1z",
+ "reference_pv": "64/24",
+ "nouveau": true,
+ "reference": "64/24",
+ "objet": "travaux d’aménagement paysager des espaces verts d’accompagnement des boulevards et axes structurant de la ville de Casablanca —en deux lot séparés Lot 1- lot 2 (2ème, tranche)",
+ "acheteur": null,
+ "procedure": null,
+ "categorie": "Travaux",
+ "date_limite_plis": "25/07/2024",
+ "lieu_ouverture": "la salle des réunions de la Commune de Casablanca. sise place Mohamed V, Avenue Hassan IL, 2ème étage, bureau 38",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": null,
+ "justification": null,
+ "infructueux": false,
+ "attributaire": null,
+ "montant_attribue": null,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "gs ENTER l Concurrent Far",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "ATELIER VERT",
+   "montant_acte_engagement": 23580816.0,
+   "montant_apres_verification": 23580816.0,
+   "autres_montants": [
+    22207536.0
+   ],
+   "lots": [
+    "1",
+    "2"
+   ],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "TAMESNA VERT",
+   "montant_acte_engagement": 22155216.0,
+   "montant_apres_verification": 22155216.0,
+   "autres_montants": [
+    23958096.0
+   ],
+   "lots": [
+    "1",
+    "2"
+   ],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "GROUPEMENT « TOTAL VEGETAL ET",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "MASSOTRAV",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 5,
+ "alertes_ocr": [
+  "« ATELIER VERT » absent de la liste des plis déposés (nom mal lu ?).",
+  "« TAMESNA VERT » absent de la liste des plis déposés (nom mal lu ?).",
+  "Attributaire non trouvé."
+ ],
+ "notes_ocr": [
+  "« gs ENTER l Concurrent Far » absent de la liste des plis déposés (nom mal lu ?).",
+  "« GROUPEMENT « TOTAL VEGETAL ET » absent de la liste des plis déposés (nom mal lu ?).",
+  "« MASSOTRAV » absent de la liste des plis déposés (nom mal lu ?).",
+  "Marché alloti (2 lots).",
+  "Maître d'ouvrage absent du PV (utiliser l'acheteur public du portail)."
+ ],
+ "qualite": "complet"
+}

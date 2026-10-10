@@ -1,0 +1,51 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "733385",
+ "orgAcronyme": "a1t",
+ "reference_pv": "DCT/CONSTR",
+ "nouveau": true,
+ "reference": "DCT/CONSTR",
+ "objet": "« La réalisation des travaux de construction du centre AI Amal des personnes à besoins spécifiques Province de Taza. »",
+ "acheteur": "Agence pour la Promotion et le Développement Economique et Social des Préfectures et Provinces du Nord du Royaume",
+ "procedure": null,
+ "categorie": "Travaux",
+ "date_limite_plis": "31/07/2023",
+ "lieu_ouverture": null,
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "01/08/2023",
+ "justification": "L'offre retenue présentée par la société ARBOCO avec un montant de (5 794 344.00 Dhs TTC) soit « cinq millions sept cent quatre vingt quatorze mille trois cent quarante quatre dirhams toutes taxes comprises ».",
+ "infructueux": false,
+ "attributaire": null,
+ "montant_attribue": null,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "GEROA",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_offre_financiere",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "ARBOCO",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": true
+  }
+ ],
+ "nombre_soumissionnaires": 2,
+ "alertes_ocr": [
+  "Attributaire non trouvé."
+ ],
+ "notes_ocr": [],
+ "qualite": "participants"
+}

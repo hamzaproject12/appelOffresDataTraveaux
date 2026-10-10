@@ -1,0 +1,94 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "720101",
+ "orgAcronyme": "f8y",
+ "reference_pv": "49/2023/AREPO",
+ "nouveau": true,
+ "reference": "49/2023/AREPO",
+ "objet": "TRAVAUX DE CONSTRUCTION DE LA ROUTE NON CLASSEE RELIANT DOUAR SOUF ET IMACHOUHAN RELEVANT DE LA COMMLNE IFERNI - PROVINCE DRIOUCH",
+ "acheteur": null,
+ "procedure": null,
+ "categorie": "Travaux",
+ "date_limite_plis": "23/05/2023",
+ "lieu_ouverture": "Srège de I'Agence Régionale d'Exécution des Projets de la Région de l'Oriental",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "06/06/2023",
+ "justification": "l’attributaire a présenté l’offre la moins disante.",
+ "infructueux": false,
+ "attributaire": "SOCIETE AL JANOUB ACHARKI SARL",
+ "montant_attribue": 8168439.6,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "SOCIETE LINIVERS BAT SARL",
+   "montant_acte_engagement": 11466714.0,
+   "montant_apres_verification": 11466714.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "SOCIETE ZAGORANAYA SARL",
+   "montant_acte_engagement": 9036843.6,
+   "montant_apres_verification": 9036843.6,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "SOCIETEAI-JANOUBACHARKISARL",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "SOCIETE TOROK SARL",
+   "montant_acte_engagement": 9339692.4,
+   "montant_apres_verification": 9339692.4,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "SOCIEI-E TOROK SARL 9 3",
+   "montant_acte_engagement": 39692.4,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "SOCIETE AL JANOUB ACHARKI SARL",
+   "montant_acte_engagement": 8168439.6,
+   "montant_apres_verification": 8168439.6,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 6,
+ "alertes_ocr": [
+  "« SOCIETE LINIVERS BAT SARL » absent de la liste des plis déposés (nom mal lu ?).",
+  "« SOCIETE ZAGORANAYA SARL » absent de la liste des plis déposés (nom mal lu ?).",
+  "« SOCIETE TOROK SARL » absent de la liste des plis déposés (nom mal lu ?).",
+  "« SOCIEI-E TOROK SARL 9 3 » absent de la liste des plis déposés (nom mal lu ?).",
+  "« SOCIETE AL JANOUB ACHARKI SARL » absent de la liste des plis déposés (nom mal lu ?)."
+ ],
+ "notes_ocr": [
+  "« SOCIETEAI-JANOUBACHARKISARL » absent de la liste des plis déposés (nom mal lu ?).",
+  "Maître d'ouvrage absent du PV (utiliser l'acheteur public du portail)."
+ ],
+ "qualite": "complet"
+}

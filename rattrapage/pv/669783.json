@@ -1,0 +1,81 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "669783",
+ "orgAcronyme": "g3h",
+ "reference_pv": "73/2022",
+ "nouveau": true,
+ "reference": "73/2022",
+ "objet": null,
+ "acheteur": "Régie Autonome de Distribution d’Eau et d’Electricité de Fès",
+ "procedure": "appel d'offres ouvert",
+ "categorie": "Travaux",
+ "date_limite_plis": "18/08/2022",
+ "lieu_ouverture": "Siège de la RADEEF",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "13/10/2022",
+ "justification": "offre la plus avantageuse",
+ "infructueux": false,
+ "attributaire": "ALLRESEAUX",
+ "montant_attribue": 3287962.44,
+ "attributaires_par_lot": [
+  {
+   "lot": null,
+   "attributaire": "ALLRESEAUX",
+   "montant": 3287962.44
+  },
+  {
+   "lot": "3",
+   "attributaire": "ALLRESEAUX",
+   "montant": 4663780.8
+  }
+ ],
+ "soumissionnaires": [
+  {
+   "nom": "GECOMAR",
+   "montant_acte_engagement": 5327950.0,
+   "montant_apres_verification": null,
+   "autres_montants": [
+    4663780.8
+   ],
+   "lots": [
+    "3"
+   ],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "INOS TRAVAUX",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "depose",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "ALLRESEAUX",
+   "montant_acte_engagement": 4990392.0,
+   "montant_apres_verification": null,
+   "autres_montants": [
+    4048672.8,
+    3945554.93
+   ],
+   "lots": [
+    "1",
+    "3"
+   ],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 3,
+ "alertes_ocr": [],
+ "notes_ocr": [
+  "Marché alloti (2 lots)."
+ ],
+ "qualite": "complet"
+}

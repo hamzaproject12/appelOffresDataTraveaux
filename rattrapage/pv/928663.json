@@ -1,0 +1,92 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "928663",
+ "orgAcronyme": "d4q",
+ "reference_pv": "33/DR3/2025",
+ "nouveau": true,
+ "reference": "33/DR3/2025",
+ "objet": "- Date et heure d'ouverture des plis : 07/08/2025 10:15 (Ouverture en un seul temps)",
+ "acheteur": null,
+ "procedure": "appel d'offres ouvert",
+ "categorie": "Travaux",
+ "date_limite_plis": "07/08/2025",
+ "lieu_ouverture": "au siège de la Direction Régionale du Centre (DR3) Boulevard Mohamed VI, Quartier Administratif - Khouribga - Maroc",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "09/09/2025",
+ "justification": "Moins-disant",
+ "infructueux": false,
+ "attributaire": "RESOFIL",
+ "montant_attribue": 894408.0,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "RE CNE NE ERTEET ge",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "depose",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "a 7 ENTREPRISE LAHSSINI = hs sé MAROC oo",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "depose",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "[ RESOFIL oo | de Li",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "depose",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "MAROC",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "depose",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "ENTREPRISE LAHSSINI",
+   "montant_acte_engagement": 7976764.0,
+   "montant_apres_verification": null,
+   "autres_montants": [
+    876764.0
+   ],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "RESOFIL",
+   "montant_acte_engagement": 894408.0,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 6,
+ "alertes_ocr": [
+  "« ENTREPRISE LAHSSINI » absent de la liste des plis déposés (nom mal lu ?).",
+  "« RESOFIL » absent de la liste des plis déposés (nom mal lu ?)."
+ ],
+ "notes_ocr": [
+  "Maître d'ouvrage absent du PV (utiliser l'acheteur public du portail)."
+ ],
+ "qualite": "complet"
+}

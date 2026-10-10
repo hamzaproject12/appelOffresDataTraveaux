@@ -1,0 +1,63 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "1044284",
+ "orgAcronyme": "g3h",
+ "reference_pv": "10009601",
+ "nouveau": true,
+ "reference": "10009601",
+ "objet": "EXTENSION D'UN COLLECTEUR D’EAU PLUVIALE AU QUARTIER TAKKADOUM BAS A TAOURIRT",
+ "acheteur": null,
+ "procedure": null,
+ "categorie": "Travaux",
+ "date_limite_plis": "10/09/2026",
+ "lieu_ouverture": "Siège de la SRM-ORI",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": null,
+ "justification": "Offre moins-disante conforme.",
+ "infructueux": false,
+ "attributaire": "STE SODR",
+ "montant_attribue": 2237232.0,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "SODR et SMYBAM",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "STE SODR",
+   "montant_acte_engagement": 2237232.0,
+   "montant_apres_verification": 2237232.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "STE SMYBAM",
+   "montant_acte_engagement": 2819832.0,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 3,
+ "alertes_ocr": [
+  "« STE SODR » absent de la liste des plis déposés (nom mal lu ?).",
+  "« STE SMYBAM » absent de la liste des plis déposés (nom mal lu ?)."
+ ],
+ "notes_ocr": [
+  "Maître d'ouvrage absent du PV (utiliser l'acheteur public du portail)."
+ ],
+ "qualite": "complet"
+}

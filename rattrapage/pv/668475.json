@@ -1,0 +1,80 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "668475",
+ "orgAcronyme": "g3h",
+ "reference_pv": "114/2022",
+ "nouveau": true,
+ "reference": "114/2022",
+ "objet": "Travaux de restauration de Sahrij Souani et d'aménagement de ses Abords dans la médina de Meknès-Ville de Meknès 2ème Tranche",
+ "acheteur": null,
+ "procedure": "appel d'offres ouvert",
+ "categorie": "Travaux",
+ "date_limite_plis": "29/09/2022",
+ "lieu_ouverture": "Antenne de l'ADER-Fès à Meknès",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "18/10/2022",
+ "justification": "Offre la moins disante.",
+ "infructueux": false,
+ "attributaire": "Société ARTFAC SARL",
+ "montant_attribue": 8700000.0,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "Société BENSMAIL ET CIE SARL AU",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_dossier_administratif_technique",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Société HORIZON TRAVAUX ET SERVICES SARL",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_dossier_administratif_technique",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Société ARTFAC SARL",
+   "montant_acte_engagement": 8700000.0,
+   "montant_apres_verification": null,
+   "autres_montants": [
+    8700000.0
+   ],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Société JBL ELETRONICS SARL",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_dossier_administratif_technique",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Société GEROA SARL",
+   "montant_acte_engagement": 9964165.2,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 5,
+ "alertes_ocr": [],
+ "notes_ocr": [
+  "Maître d'ouvrage absent du PV (utiliser l'acheteur public du portail)."
+ ],
+ "qualite": "complet"
+}

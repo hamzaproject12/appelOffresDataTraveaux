@@ -1,0 +1,83 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "770933",
+ "orgAcronyme": "p8x",
+ "reference_pv": "23/TS/2023",
+ "nouveau": true,
+ "reference": "23/TS/2023",
+ "objet": "Travaux d'Aménagement et de Réhabilitation de l’Ecole Primaire \"MALIKA EL FASSI\" à Tabriquet - Préfecture de Salé, en lot unique",
+ "acheteur": "Le Directeur Provinciale de Sale",
+ "procedure": "appel d'offres ouvert",
+ "categorie": "Travaux",
+ "date_limite_plis": "07/12/2023",
+ "lieu_ouverture": "les bureaux de la Direction Provinciale de Salé, Sise à Rue AI madariss Rmel »",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": null,
+ "justification": null,
+ "infructueux": false,
+ "attributaire": "soit celle du la Sté. GREENWOODS CONSTRUCTION SARL AU",
+ "montant_attribue": 1815001.97,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "Sté. POLE TRAVAUX DIVERS SARL",
+   "montant_acte_engagement": 1895596.96,
+   "montant_apres_verification": 1895596.96,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Sté. SODICOTRA SARL",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "soit celle du la Sté. GREENWOODS CONSTRUCTION SARL AU",
+   "montant_acte_engagement": 1815001.97,
+   "montant_apres_verification": 1815001.97,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "EEE RAGE RENTET NE DIRE",
+   "montant_acte_engagement": 1853610.26,
+   "montant_apres_verification": 1853610.26,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "SARL AU",
+   "montant_acte_engagement": 1837368.2,
+   "montant_apres_verification": 1837368.2,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 5,
+ "alertes_ocr": [
+  "« Sté. POLE TRAVAUX DIVERS SARL » absent de la liste des plis déposés (nom mal lu ?).",
+  "« soit celle du la Sté. GREENWOODS CONSTRUCTION SARL AU » absent de la liste des plis déposés (nom mal lu ?).",
+  "« EEE RAGE RENTET NE DIRE » absent de la liste des plis déposés (nom mal lu ?).",
+  "« SARL AU » absent de la liste des plis déposés (nom mal lu ?)."
+ ],
+ "notes_ocr": [
+  "« Sté. SODICOTRA SARL » absent de la liste des plis déposés (nom mal lu ?)."
+ ],
+ "qualite": "complet"
+}

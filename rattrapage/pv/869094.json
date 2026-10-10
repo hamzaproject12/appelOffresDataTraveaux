@@ -1,0 +1,62 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "869094",
+ "orgAcronyme": "j8k",
+ "reference_pv": "54/2024",
+ "nouveau": true,
+ "reference": "54/2024",
+ "objet": "TRAVAUX D'ALIMENTATION EN EAU POTABLE IN-SITE ET HORS SITE DU LOTISSEMENT « LES JARDINS DE TAFILALET 1 »",
+ "acheteur": "SOCIETE AL OMRANE DRÂA-TAFILALET",
+ "procedure": "appel d'offres ouvert",
+ "categorie": "Travaux",
+ "date_limite_plis": "16/01/2025",
+ "lieu_ouverture": "SOCIETE AL OMRANE DRAA-TAFILALET",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": null,
+ "justification": null,
+ "infructueux": false,
+ "attributaire": "CHESA NORD",
+ "montant_attribue": 5687202.59,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "CHESA NORD",
+   "montant_acte_engagement": 5687524.9,
+   "montant_apres_verification": null,
+   "autres_montants": [
+    5687202.59
+   ],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": true
+  },
+  {
+   "nom": "GRP SOB-TRA & LAKHALAFA",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_dossier_administratif_technique",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "GMTP",
+   "montant_acte_engagement": 6167948.12,
+   "montant_apres_verification": null,
+   "autres_montants": [
+    6167948.12
+   ],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 3,
+ "alertes_ocr": [],
+ "notes_ocr": [],
+ "qualite": "complet"
+}

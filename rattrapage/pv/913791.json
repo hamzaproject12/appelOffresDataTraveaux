@@ -1,0 +1,64 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "913791",
+ "orgAcronyme": "q1s",
+ "reference_pv": "62/2025/0RSM",
+ "nouveau": true,
+ "reference": "62/2025/0RSM",
+ "objet": "Travaux d'entretien et de maintenance des équipements hydromécaniques équipant les réseaux d'irrigation des périmètres irrigués gérés par l'ORMVA DU SOUSS MASSA. Provinces de Chtouka Ait Baha,",
+ "acheteur": "ORMVA/SM",
+ "procedure": "appel d'offres ouvert",
+ "categorie": "Travaux",
+ "date_limite_plis": "19/06/2025",
+ "lieu_ouverture": "Saile de réunion de la direction de l'ORMVA/SM",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "09/07/2025",
+ "justification": null,
+ "infructueux": false,
+ "attributaire": "METALLIANCE DU SUD Min",
+ "montant_attribue": 300000.0,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "SOLO ELECTRONIQUE",
+   "montant_acte_engagement": 300000.0,
+   "montant_apres_verification": 1320710.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_offre_financiere",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "INDUSTRIELLE D'EXPLOITATION DES ENERGIES NATURELLES (SIDEN) TAROUDANT",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "METALLIANCE DU SUD Min",
+   "montant_acte_engagement": 300000.0,
+   "montant_apres_verification": 1131035.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 3,
+ "alertes_ocr": [
+  "« SOLO ELECTRONIQUE » : écart anormal entre montant initial et vérifié (lecture à vérifier).",
+  "« METALLIANCE DU SUD Min » : écart anormal entre montant initial et vérifié (lecture à vérifier)."
+ ],
+ "notes_ocr": [
+  "« SOLO ELECTRONIQUE » : montant rectifié de 300 000.00 à 1 320 710.00 DH.",
+  "« METALLIANCE DU SUD Min » : montant rectifié de 300 000.00 à 1 131 035.00 DH."
+ ],
+ "qualite": "complet"
+}

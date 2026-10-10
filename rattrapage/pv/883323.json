@@ -1,0 +1,82 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "883323",
+ "orgAcronyme": "q1s",
+ "reference_pv": "01/DPA/TT/2025",
+ "nouveau": true,
+ "reference": "01/DPA/TT/2025",
+ "objet": "Travaux d'électrification du complexe des unités de valorisation des produits agricoles (Province de TanTan)",
+ "acheteur": "Directeur Provincial de l'Agriculture de TanTan",
+ "procedure": "appel d'offres ouvert simplifié",
+ "categorie": "Travaux",
+ "date_limite_plis": "13/03/2025",
+ "lieu_ouverture": "Salle de réunion de la DPA de TanTan",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "28/03/2025",
+ "justification": null,
+ "infructueux": true,
+ "attributaire": null,
+ "montant_attribue": null,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "Société MAGHRIB DES RESEAUX ELECTRIQUE sarl.au",
+   "montant_acte_engagement": 107028.0,
+   "montant_apres_verification": 107028.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_offre_financiere",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Société MOUHADDA ELECTRO sarl.au",
+   "montant_acte_engagement": 89736.0,
+   "montant_apres_verification": 89736.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_offre_financiere",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Société TAWALI sarl.au",
+   "montant_acte_engagement": 93229.2,
+   "montant_apres_verification": 93229.2,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_dossier_administratif_technique",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Société ABAWA NEGOCE sarl.au",
+   "montant_acte_engagement": 98149.0,
+   "montant_apres_verification": 98149.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_dossier_administratif_technique",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Société DES TRAVAUX GENIE ELECTRIQUE sarl.au",
+   "montant_acte_engagement": 91909.2,
+   "montant_apres_verification": 91909.2,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_offre_financiere",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 5,
+ "alertes_ocr": [
+  "« Société MAGHRIB DES RESEAUX ELECTRIQUE sarl.au » absent de la liste des plis déposés (nom mal lu ?).",
+  "« Société MOUHADDA ELECTRO sarl.au » absent de la liste des plis déposés (nom mal lu ?).",
+  "« Société TAWALI sarl.au » absent de la liste des plis déposés (nom mal lu ?).",
+  "« Société ABAWA NEGOCE sarl.au » absent de la liste des plis déposés (nom mal lu ?).",
+  "« Société DES TRAVAUX GENIE ELECTRIQUE sarl.au » absent de la liste des plis déposés (nom mal lu ?)."
+ ],
+ "notes_ocr": [],
+ "qualite": "complet"
+}

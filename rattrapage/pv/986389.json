@@ -1,0 +1,73 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "986389",
+ "orgAcronyme": "g3h",
+ "reference_pv": null,
+ "nouveau": true,
+ "reference": null,
+ "objet": null,
+ "acheteur": "Date d'ouverture des plis",
+ "procedure": "appel d'offres ouvert simplifié",
+ "categorie": "Travaux",
+ "date_limite_plis": null,
+ "lieu_ouverture": "la Province de Settat",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": null,
+ "justification": "L'offre financière proposée par l'attributaire est la mieux-disante, elle est la plus proche du prix de référence par défaut et ce conformément aux dispositions de l'article 44 du Décret n'2-22-431 du 15 chaabane 1444 (8 mars 2023) relatif aux marchés publics",
+ "infructueux": false,
+ "attributaire": "Société MR OUAMLOUK RACHID",
+ "montant_attribue": null,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "EL12 Société AMOTRADIV",
+   "montant_acte_engagement": 220653.6,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_offre_financiere",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Et4 Société LA VIE AZ TRAVAUX",
+   "montant_acte_engagement": 218976.0,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Société S.G.T.L.H",
+   "montant_acte_engagement": 220538.57,
+   "montant_apres_verification": 220538.57,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Société MR OUAMLOUK RACHID",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 4,
+ "alertes_ocr": [
+  "« EL12 Société AMOTRADIV » absent de la liste des plis déposés (nom mal lu ?).",
+  "« Et4 Société LA VIE AZ TRAVAUX » absent de la liste des plis déposés (nom mal lu ?).",
+  "« Société S.G.T.L.H » absent de la liste des plis déposés (nom mal lu ?).",
+  "« Société MR OUAMLOUK RACHID » absent de la liste des plis déposés (nom mal lu ?).",
+  "Montant de l'attributaire « Société MR OUAMLOUK RACHID » non trouvé."
+ ],
+ "notes_ocr": [],
+ "qualite": "complet"
+}

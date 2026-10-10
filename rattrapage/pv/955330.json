@@ -1,0 +1,102 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "955330",
+ "orgAcronyme": "g3h",
+ "reference_pv": null,
+ "nouveau": true,
+ "reference": null,
+ "objet": "TRAVAUX D’INSTALLATION D'UN SYSTEME DE VIDEOSURVEILLANCE LE LONG DES BOULVARDS AL OUALAE ET MOHAMMRD V DANS LA VILLE DE DAKHLEA",
+ "acheteur": null,
+ "procedure": null,
+ "categorie": "Travaux",
+ "date_limite_plis": "31/10/2025",
+ "lieu_ouverture": "Secrétariat Général Province D'oued Eddahab",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "12/11/2025",
+ "justification": "Offre conforme aux exigences du Règlement de consultation et la plus avantageuse.",
+ "infructueux": false,
+ "attributaire": "GTEL",
+ "montant_attribue": 10528858.42,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "SMH TELECOMMUNICATION",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_offre_technique",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "5 FINATECH GROUP",
+   "montant_acte_engagement": 17301986.4,
+   "montant_apres_verification": null,
+   "autres_montants": [
+    17301986.4
+   ],
+   "lots": [],
+   "statut": "ecarte_offre_financiere",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "oo oo GTEL",
+   "montant_acte_engagement": 10528838.22,
+   "montant_apres_verification": null,
+   "autres_montants": [
+    10528858.42
+   ],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "ALOMRA GROUPE INTERNATIONAL",
+   "montant_acte_engagement": 12676522.8,
+   "montant_apres_verification": null,
+   "autres_montants": [
+    12676522.0
+   ],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "NEW ERACOM",
+   "montant_acte_engagement": 12619352.4,
+   "montant_apres_verification": null,
+   "autres_montants": [
+    12619352.4
+   ],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "GTEL",
+   "montant_acte_engagement": 10528858.42,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 6,
+ "alertes_ocr": [
+  "« 5 FINATECH GROUP » absent de la liste des plis déposés (nom mal lu ?).",
+  "« oo oo GTEL » absent de la liste des plis déposés (nom mal lu ?).",
+  "« ALOMRA GROUPE INTERNATIONAL » absent de la liste des plis déposés (nom mal lu ?).",
+  "« NEW ERACOM » absent de la liste des plis déposés (nom mal lu ?).",
+  "« GTEL » absent de la liste des plis déposés (nom mal lu ?)."
+ ],
+ "notes_ocr": [
+  "« SMH TELECOMMUNICATION » absent de la liste des plis déposés (nom mal lu ?).",
+  "Maître d'ouvrage absent du PV (utiliser l'acheteur public du portail)."
+ ],
+ "qualite": "complet"
+}

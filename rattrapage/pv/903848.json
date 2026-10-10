@@ -1,0 +1,79 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "903848",
+ "orgAcronyme": "g3h",
+ "reference_pv": null,
+ "nouveau": true,
+ "reference": null,
+ "objet": "« Travaux d’aménagement de terrains de proximité en gazon synthétique à la préfecture",
+ "acheteur": "Casablanca Events et Animation « CEA SA »",
+ "procedure": "appel d'offres ouvert",
+ "categorie": "Travaux",
+ "date_limite_plis": "06/05/2025",
+ "lieu_ouverture": "Journaux ayant publié l’avis de publicité",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": null,
+ "justification": null,
+ "infructueux": false,
+ "attributaire": "MP PROJECT",
+ "montant_attribue": 4329722.4,
+ "attributaires_par_lot": [
+  {
+   "lot": "1",
+   "attributaire": "MP PROJECT",
+   "montant": 4329722.4
+  },
+  {
+   "lot": "2",
+   "attributaire": "MP PROJECT",
+   "montant": 4329722.4
+  },
+  {
+   "lot": "3",
+   "attributaire": "MP PROJECT",
+   "montant": 4329722.4
+  },
+  {
+   "lot": "4",
+   "attributaire": "MP PROJECT",
+   "montant": 4329722.4
+  }
+ ],
+ "soumissionnaires": [
+  {
+   "nom": "Concurrent adjudicataire e MP PROJECT",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "depose",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "MP PROJECT",
+   "montant_acte_engagement": 4329722.4,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [
+    "1",
+    "2",
+    "3",
+    "4"
+   ],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 2,
+ "alertes_ocr": [
+  "« MP PROJECT » absent de la liste des plis déposés (nom mal lu ?)."
+ ],
+ "notes_ocr": [
+  "Marché alloti (4 lots)."
+ ],
+ "qualite": "attribution"
+}

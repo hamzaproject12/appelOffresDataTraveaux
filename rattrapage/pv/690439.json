@@ -1,0 +1,80 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "690439",
+ "orgAcronyme": "g3h",
+ "reference_pv": "151/2022",
+ "nouveau": true,
+ "reference": "151/2022",
+ "objet": null,
+ "acheteur": null,
+ "procedure": null,
+ "categorie": "Travaux",
+ "date_limite_plis": "09/01/2023",
+ "lieu_ouverture": null,
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "18/01/2023",
+ "justification": "Le concurrent ayant présenté l'offre f nancière la moins disante Le concurrent ayant présenté l'offre financière la moins disante",
+ "infructueux": false,
+ "attributaire": "Société RACHAD ISTITMAR",
+ "montant_attribue": 5316505.2,
+ "attributaires_par_lot": [
+  {
+   "lot": null,
+   "attributaire": "Société RACHAD ISTITMAR",
+   "montant": 5316505.2
+  },
+  {
+   "lot": null,
+   "attributaire": "Société ANDALOUS DESIGN",
+   "montant": 4956382.8
+  }
+ ],
+ "soumissionnaires": [
+  {
+   "nom": "Société RACHAD ISTITMAR",
+   "montant_acte_engagement": 5316505.2,
+   "montant_apres_verification": 10457090.4,
+   "autres_montants": [
+    10457090.4
+   ],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Société ANDALOUS DESIGN",
+   "montant_acte_engagement": 5471401.2,
+   "montant_apres_verification": 10523078.4,
+   "autres_montants": [
+    10523078.4
+   ],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Société GEROA SARL",
+   "montant_acte_engagement": 5157793.32,
+   "montant_apres_verification": 9690770.64,
+   "autres_montants": [
+    9690770.64
+   ],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 3,
+ "alertes_ocr": [],
+ "notes_ocr": [
+  "« Société RACHAD ISTITMAR » : montant rectifié de 5 316 505.20 à 10 457 090.40 DH.",
+  "« Société ANDALOUS DESIGN » : montant rectifié de 5 471 401.20 à 10 523 078.40 DH.",
+  "« Société GEROA SARL » : montant rectifié de 5 157 793.32 à 9 690 770.64 DH.",
+  "Maître d'ouvrage absent du PV (utiliser l'acheteur public du portail)."
+ ],
+ "qualite": "complet"
+}

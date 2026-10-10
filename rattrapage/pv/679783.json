@@ -1,0 +1,112 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "679783",
+ "orgAcronyme": "p8x",
+ "reference_pv": "17/2022",
+ "nouveau": true,
+ "reference": "17/2022",
+ "objet": "Travaux de construction d’une salle préscolaire à l’école primaire Eddakhla à la ville de Dakhla.(Lot unique)",
+ "acheteur": "Académie Régionale d’Éducation et de Formation de la région Dakhla Oued Eddahab",
+ "procedure": "appel d'offres ouvert",
+ "categorie": "Travaux",
+ "date_limite_plis": "07/11/2022",
+ "lieu_ouverture": "(Séance 01) : AREF Dakhla Oued Eddahab",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "14/11/2022",
+ "justification": "L’offre la plus avantageuse et la moins disante.",
+ "infructueux": false,
+ "attributaire": "té SOLADAK sarl",
+ "montant_attribue": 447232.56,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "Sté AIT ICHOU TRVAUX sarl Soumission papier",
+   "montant_acte_engagement": 471838.79,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [
+    "unique"
+   ],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "té ANBDOU sarl Soumission papier",
+   "montant_acte_engagement": 488960.4,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [
+    "unique"
+   ],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "té OUMAFROUKH Travaux Sarl Soumission papier",
+   "montant_acte_engagement": 478094.64,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [
+    "unique"
+   ],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Sté CONSAMI sarl Soumission papier",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [
+    "unique"
+   ],
+   "statut": "depose",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "té AGDEZ SAHARA sarl Soumission papier",
+   "montant_acte_engagement": 563154.0,
+   "montant_apres_verification": null,
+   "autres_montants": [
+    530246.4
+   ],
+   "lots": [
+    "unique"
+   ],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "té SOLADAK sarl",
+   "montant_acte_engagement": 447232.56,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [
+    "unique"
+   ],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Sté CONSAMI sarl",
+   "montant_acte_engagement": 562611.66,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [
+    "unique"
+   ],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 7,
+ "alertes_ocr": [
+  "« Sté CONSAMI sarl » absent de la liste des plis déposés (nom mal lu ?)."
+ ],
+ "notes_ocr": [],
+ "qualite": "complet"
+}

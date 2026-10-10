@@ -1,0 +1,64 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "692636",
+ "orgAcronyme": "g3h",
+ "reference_pv": "73/2022/S2A",
+ "nouveau": true,
+ "reference": "73/2022/S2A",
+ "objet": "TRAVAUX DE REALISATION DU PARC URBAIN \"AL INBIAAT\" DE LA VILLE D’AGADIR LOT N°6 : TRAVAUX DE CONTRUCTION ET AMENAGEMENT DES FONTAINES",
+ "acheteur": null,
+ "procedure": "appel d'offres ouvert",
+ "categorie": "Travaux",
+ "date_limite_plis": "24/01/2023",
+ "lieu_ouverture": null,
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": null,
+ "justification": null,
+ "infructueux": false,
+ "attributaire": "SOCIETE ALMO JARDIN",
+ "montant_attribue": 8904787.68,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "GROUPEMENT SCOREX/MASSIK",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": true
+  },
+  {
+   "nom": "SOCIETE ALMO JARDIN",
+   "montant_acte_engagement": 8904787.68,
+   "montant_apres_verification": 8904787.68,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "ELECTROMECANIQUE",
+   "montant_acte_engagement": 9031519.2,
+   "montant_apres_verification": 9031519.2,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 3,
+ "alertes_ocr": [
+  "« SOCIETE ALMO JARDIN » absent de la liste des plis déposés (nom mal lu ?).",
+  "« ELECTROMECANIQUE » absent de la liste des plis déposés (nom mal lu ?)."
+ ],
+ "notes_ocr": [
+  "« GROUPEMENT SCOREX/MASSIK » absent de la liste des plis déposés (nom mal lu ?).",
+  "Maître d'ouvrage absent du PV (utiliser l'acheteur public du portail)."
+ ],
+ "qualite": "complet"
+}

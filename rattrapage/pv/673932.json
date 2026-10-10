@@ -1,0 +1,104 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "673932",
+ "orgAcronyme": "f9f",
+ "reference_pv": "1212022",
+ "nouveau": true,
+ "reference": "1212022",
+ "objet": null,
+ "acheteur": null,
+ "procedure": "appel d'offres ouvert",
+ "categorie": "Travaux",
+ "date_limite_plis": null,
+ "lieu_ouverture": null,
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": null,
+ "justification": null,
+ "infructueux": false,
+ "attributaire": "SOCIETE NATTJRAL TRAVAUX",
+ "montant_attribue": 594005.0,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "offres techniques: Sté YOUBAY",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_dossier_administratif_technique",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Sté TIGHZA BAT",
+   "montant_acte_engagement": 613693.0,
+   "montant_apres_verification": 613693.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_dossier_administratif_technique",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Sté SOUSSRII)",
+   "montant_acte_engagement": 569082.0,
+   "montant_apres_verification": 569082.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_dossier_administratif_technique",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Sté SSMCA",
+   "montant_acte_engagement": 495773.0,
+   "montant_apres_verification": 495773.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_dossier_administratif_technique",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "SOCIETE NATTJRAL TRAVAUX",
+   "montant_acte_engagement": 594005.0,
+   "montant_apres_verification": 594005.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "<< Commune Dcheira Jihadia Tel/fax",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_dossier_administratif_technique",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Sté SSMCA N'a pas déposé le complément de",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_offre_financiere",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 7,
+ "alertes_ocr": [
+  "« Sté TIGHZA BAT » absent de la liste des plis déposés (nom mal lu ?).",
+  "« Sté SOUSSRII) » absent de la liste des plis déposés (nom mal lu ?).",
+  "« Sté SSMCA » absent de la liste des plis déposés (nom mal lu ?).",
+  "« SOCIETE NATTJRAL TRAVAUX » absent de la liste des plis déposés (nom mal lu ?)."
+ ],
+ "notes_ocr": [
+  "« offres techniques: Sté YOUBAY » absent de la liste des plis déposés (nom mal lu ?).",
+  "« << Commune Dcheira Jihadia Tel/fax » absent de la liste des plis déposés (nom mal lu ?).",
+  "« Sté SSMCA N'a pas déposé le complément de » absent de la liste des plis déposés (nom mal lu ?).",
+  "Maître d'ouvrage absent du PV (utiliser l'acheteur public du portail)."
+ ],
+ "qualite": "complet"
+}

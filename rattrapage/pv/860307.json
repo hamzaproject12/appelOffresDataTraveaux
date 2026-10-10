@@ -1,0 +1,93 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "860307",
+ "orgAcronyme": "o8p",
+ "reference_pv": "276-24-AOO",
+ "nouveau": true,
+ "reference": "276-24-AOO",
+ "objet": "Travaux de construction d’un bloc administratif au Pôle Navigation Aérienne à Nouaceur",
+ "acheteur": "l'OFFICE NATIONAL DES AEROPORTS",
+ "procedure": "appel d'offres ouvert",
+ "categorie": "Travaux",
+ "date_limite_plis": "28/11/2024",
+ "lieu_ouverture": "La salle de réunion de la Direction des Achaïs ef de la Logistique",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "16/12/2024",
+ "justification": "L'offre la plus avantageuse.",
+ "infructueux": false,
+ "attributaire": "BORA CONSTRUCTION",
+ "montant_attribue": 34385511.19,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "SCOTIM",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": true
+  },
+  {
+   "nom": "BORA CONSTRUCTION",
+   "montant_acte_engagement": 34385511.19,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "COMPRISE COMPRISE",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": true
+  },
+  {
+   "nom": "sl Log tite.\" «M",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_dossier_administratif_technique",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "‘office National Des Aéroports",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_dossier_administratif_technique",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "EXTRAIT DU PROCES VERBAL D'APPEL D'OFFRES OUVERT N°",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_dossier_administratif_technique",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 6,
+ "alertes_ocr": [
+  "« BORA CONSTRUCTION » absent de la liste des plis déposés (nom mal lu ?)."
+ ],
+ "notes_ocr": [
+  "« SCOTIM » absent de la liste des plis déposés (nom mal lu ?).",
+  "« COMPRISE COMPRISE » absent de la liste des plis déposés (nom mal lu ?).",
+  "« sl Log tite.\" «M » absent de la liste des plis déposés (nom mal lu ?).",
+  "« ‘office National Des Aéroports » absent de la liste des plis déposés (nom mal lu ?).",
+  "« EXTRAIT DU PROCES VERBAL D'APPEL D'OFFRES OUVERT N° » absent de la liste des plis déposés (nom mal lu ?)."
+ ],
+ "qualite": "attribution"
+}

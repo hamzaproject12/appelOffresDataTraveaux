@@ -1,0 +1,52 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "913733",
+ "orgAcronyme": "d4q",
+ "reference_pv": null,
+ "nouveau": true,
+ "reference": null,
+ "objet": "du lot d'ouverture des des travaux de la Concurrent retenu DH HT plis Commission Remise en état des vestiaires 10.06.2025 08.07.2025 ASMAE AL] 266 700,00",
+ "acheteur": null,
+ "procedure": null,
+ "categorie": "Travaux",
+ "date_limite_plis": "10/06/2025",
+ "lieu_ouverture": "Direction Exploitation Mohammedia (DXM)",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": null,
+ "justification": "moins disante.",
+ "infructueux": false,
+ "attributaire": "ASMAE ALI NEGOCE",
+ "montant_attribue": 266700.0,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "ASMAE ALI NEGOCE",
+   "montant_acte_engagement": 266700.0,
+   "montant_apres_verification": 266700.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "361° BULIDING et OBATI",
+   "montant_acte_engagement": 314490.0,
+   "montant_apres_verification": 314490.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 2,
+ "alertes_ocr": [],
+ "notes_ocr": [
+  "Maître d'ouvrage absent du PV (utiliser l'acheteur public du portail).",
+  "Montants exprimés hors taxes (HT)."
+ ],
+ "qualite": "complet"
+}

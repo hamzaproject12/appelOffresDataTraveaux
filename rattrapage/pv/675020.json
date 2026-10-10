@@ -1,0 +1,65 @@
+{
+ "source": "extrait_docx",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "675020",
+ "orgAcronyme": "a1z",
+ "reference_pv": null,
+ "nouveau": true,
+ "reference": null,
+ "objet": "Travaux d’entretien des installations et abords routières de la Commune de Casablanca",
+ "acheteur": "commune de Casablanca",
+ "procedure": null,
+ "categorie": "Travaux",
+ "date_limite_plis": "13/09/2022",
+ "lieu_ouverture": "la salle des réunions de la Commune de Casablanca, sise place Mohamed V, Avenue Hassan II, 2éme étage, bureau 55",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "30/09/2022",
+ "justification": "l’offre avantageuse.",
+ "infructueux": false,
+ "attributaire": "Société BOURANIME",
+ "montant_attribue": null,
+ "attributaires_par_lot": [
+  {
+   "lot": null,
+   "attributaire": "Société BOURANIME",
+   "montant": null
+  },
+  {
+   "lot": "unique",
+   "attributaire": "Société BOURANIME",
+   "montant": null
+  }
+ ],
+ "soumissionnaires": [
+  {
+   "nom": "Société BOURANIME",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [
+    "unique"
+   ],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Société JET BACO",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_dossier_administratif_technique",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 2,
+ "alertes_ocr": [
+  "Montant de l'attributaire « Société BOURANIME » non trouvé.",
+  "Montant de l'attributaire « Société BOURANIME » non trouvé."
+ ],
+ "notes_ocr": [],
+ "qualite": "participants"
+}

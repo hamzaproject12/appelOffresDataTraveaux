@@ -1,0 +1,124 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "998938",
+ "orgAcronyme": "g3h",
+ "reference_pv": "28/2026/S2A",
+ "nouveau": true,
+ "reference": "28/2026/S2A",
+ "objet": "TRAVAUX DE REALISATION DE L'ECOLE ILLIGH SIS À LA COMMUNE DE TEMSIA RELEVANT DE LA PREFECTURE D'INEZGANE AIT MELLOUL- PROGRAMME 2024,",
+ "acheteur": null,
+ "procedure": "appel d'offres ouvert",
+ "categorie": "Travaux",
+ "date_limite_plis": "10/04/2026",
+ "lieu_ouverture": "Bureaux de la Société Agadir Souss Massa Aménagement",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "29/04/2026",
+ "justification": "Offre conforme aux exigences du Règlement de consultation et mieux disantes.",
+ "infructueux": false,
+ "attributaire": "SOCIETE VAROSSE",
+ "montant_attribue": 7592890.2,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "Méant",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": true
+  },
+  {
+   "nom": "SOCIETE IMSAADEN (ESE)",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_offre_technique",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "SOCIETE SSTCO",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_offre_technique",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "SOCIETE SOCOTRAD",
+   "montant_acte_engagement": 7984135.8,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_offre_financiere",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "L EE",
+   "montant_acte_engagement": 7984135.8,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "SOCIETE LUOZHAM",
+   "montant_acte_engagement": 7981964.46,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "SOCIETE EDATRAV",
+   "montant_acte_engagement": 7732891.2,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "SOCIETE VAROSSE",
+   "montant_acte_engagement": 7592890.2,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "SOCIETE EBEP",
+   "montant_acte_engagement": 8418040.62,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 9,
+ "alertes_ocr": [
+  "« SOCIETE SOCOTRAD » absent de la liste des plis déposés (nom mal lu ?).",
+  "« L EE » absent de la liste des plis déposés (nom mal lu ?).",
+  "« SOCIETE LUOZHAM » absent de la liste des plis déposés (nom mal lu ?).",
+  "« SOCIETE EDATRAV » absent de la liste des plis déposés (nom mal lu ?).",
+  "« SOCIETE VAROSSE » absent de la liste des plis déposés (nom mal lu ?).",
+  "« SOCIETE EBEP » absent de la liste des plis déposés (nom mal lu ?)."
+ ],
+ "notes_ocr": [
+  "« Méant » absent de la liste des plis déposés (nom mal lu ?).",
+  "« SOCIETE IMSAADEN (ESE) » absent de la liste des plis déposés (nom mal lu ?).",
+  "« SOCIETE SSTCO » absent de la liste des plis déposés (nom mal lu ?).",
+  "Maître d'ouvrage absent du PV (utiliser l'acheteur public du portail)."
+ ],
+ "qualite": "complet"
+}

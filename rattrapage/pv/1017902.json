@@ -1,0 +1,67 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "1017902",
+ "orgAcronyme": "j8k",
+ "reference_pv": "103/2026",
+ "nouveau": true,
+ "reference": "103/2026",
+ "objet": "TRAVAUX D’ASSAINISSEMENT HORS SITE DE FOSSE SEPTIQUE AU LOTISSEMENT IZDIHAR SIS A ZOUAGHA- PROVINCE DE MOULAY YAACOUB",
+ "acheteur": "AL Omrane Fès-Meknès",
+ "procedure": "appel d'offres ouvert",
+ "categorie": "Travaux",
+ "date_limite_plis": "18/06/2026",
+ "lieu_ouverture": "AL Omrane Fès-Meknès",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "29/06/2026",
+ "justification": "l’offre économiquement la plus avantageuse",
+ "infructueux": false,
+ "attributaire": "STE SATRED",
+ "montant_attribue": 2143107.0,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "STE ABB EAUX",
+   "montant_acte_engagement": 2238461.1,
+   "montant_apres_verification": 2238461.1,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "STE GRAND TRAVAUX SAHARA",
+   "montant_acte_engagement": 2246958.0,
+   "montant_apres_verification": 2246958.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "STE GETRACOV",
+   "montant_acte_engagement": 2180304.54,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": true
+  },
+  {
+   "nom": "STE SATRED",
+   "montant_acte_engagement": 2143107.0,
+   "montant_apres_verification": 2143107.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 4,
+ "alertes_ocr": [],
+ "notes_ocr": [],
+ "qualite": "complet"
+}

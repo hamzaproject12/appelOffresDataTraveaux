@@ -1,0 +1,62 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "971830",
+ "orgAcronyme": "g3h",
+ "reference_pv": "017/2025",
+ "nouveau": true,
+ "reference": "017/2025",
+ "objet": null,
+ "acheteur": null,
+ "procedure": null,
+ "categorie": "Travaux",
+ "date_limite_plis": "07/01/2026",
+ "lieu_ouverture": "Salle de réunion de la Société Régionale Multiservices Tanger-Tétouan-Al Hoceima « SRM-TTA >» Les iournaux avant publié l'avis de publicité",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "21/01/2026",
+ "justification": "Offre la moins-disante conforme aux critères d'attribution prévues par le règlement de consultation de l'appel d'offres.",
+ "infructueux": false,
+ "attributaire": null,
+ "montant_attribue": null,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "ENTREPRISE HIDA, GERAB, VARDEP, INOVATRAV, MAILIRAVE, MED TPH, SIGMA 4T, MWKC",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "OKTI TRAVAUX, SOMAGITRAKE, GROUPEMENT (SMVRD /SOTACOGENORD), SMYBAM",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "depose",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "INGTELMA",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 3,
+ "alertes_ocr": [
+  "Attributaire non trouvé."
+ ],
+ "notes_ocr": [
+  "Maître d'ouvrage absent du PV (utiliser l'acheteur public du portail)."
+ ],
+ "qualite": "participants"
+}

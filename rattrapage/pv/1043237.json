@@ -1,0 +1,64 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "1043237",
+ "orgAcronyme": "g3h",
+ "reference_pv": "59/DPJ-2026",
+ "nouveau": true,
+ "reference": "59/DPJ-2026",
+ "objet": null,
+ "acheteur": "SRM-CS",
+ "procedure": "appel d'offres ouvert",
+ "categorie": "Travaux",
+ "date_limite_plis": "01/09/2026",
+ "lieu_ouverture": "DIRECTION PROVINCIALE D’EL JADIDA",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "25/09/2026",
+ "justification": null,
+ "infructueux": false,
+ "attributaire": "STE BENVEC",
+ "montant_attribue": 21187129.2,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "STE BENVEC",
+   "montant_acte_engagement": 21187129.2,
+   "montant_apres_verification": null,
+   "autres_montants": [
+    21187129.2
+   ],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "STE YOUR BTP",
+   "montant_acte_engagement": 22378843.47,
+   "montant_apres_verification": null,
+   "autres_montants": [
+    22378928.94
+   ],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "STE AGOUDI DAYS",
+   "montant_acte_engagement": 22170532.8,
+   "montant_apres_verification": null,
+   "autres_montants": [
+    22170532.8
+   ],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 3,
+ "alertes_ocr": [],
+ "notes_ocr": [],
+ "qualite": "complet"
+}

@@ -1,0 +1,84 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "681189",
+ "orgAcronyme": "u6i",
+ "reference_pv": null,
+ "nouveau": true,
+ "reference": null,
+ "objet": null,
+ "acheteur": "Institut de Technologie des Pêches Maritimes de Larache",
+ "procedure": null,
+ "categorie": "Travaux",
+ "date_limite_plis": "10/11/2022",
+ "lieu_ouverture": "ITPM de Larache",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "28/11/2022",
+ "justification": "Offre intéressante pour l'administration",
+ "infructueux": false,
+ "attributaire": "SOCIETE VIA SUD SARL — MARRAKECH",
+ "montant_attribue": 1151834.4,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "NEANTS",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_offre_financiere",
+   "admis_avec_reserve": true
+  },
+  {
+   "nom": "AOO N°",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_offre_financiere",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "SOCIETE TAHIRI ATLAS SARL — FES",
+   "montant_acte_engagement": 1252788.0,
+   "montant_apres_verification": 1252788.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "SOCIETE MOKHTAR POLY SERVICE SARL -TIT MELLIL CASA",
+   "montant_acte_engagement": 1045761.6,
+   "montant_apres_verification": 1045761.6,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "SOCIETE VIA SUD SARL — MARRAKECH",
+   "montant_acte_engagement": 1151834.0,
+   "montant_apres_verification": 1151834.4,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 5,
+ "alertes_ocr": [
+  "« SOCIETE TAHIRI ATLAS SARL — FES » absent de la liste des plis déposés (nom mal lu ?).",
+  "« SOCIETE MOKHTAR POLY SERVICE SARL -TIT MELLIL CASA » absent de la liste des plis déposés (nom mal lu ?).",
+  "« SOCIETE VIA SUD SARL — MARRAKECH » absent de la liste des plis déposés (nom mal lu ?)."
+ ],
+ "notes_ocr": [
+  "« NEANTS » absent de la liste des plis déposés (nom mal lu ?).",
+  "« AOO N° » absent de la liste des plis déposés (nom mal lu ?).",
+  "« SOCIETE VIA SUD SARL — MARRAKECH » : montant rectifié de 1 151 834.00 à 1 151 834.40 DH."
+ ],
+ "qualite": "complet"
+}

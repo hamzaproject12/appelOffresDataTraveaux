@@ -1,0 +1,82 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "942143",
+ "orgAcronyme": "d4q",
+ "reference_pv": null,
+ "nouveau": true,
+ "reference": null,
+ "objet": "renouvellement de la conduite de refoulement des eaux usées de la station de pompage SPI vers la STEP d'Errachidia (province d’Errachidia)",
+ "acheteur": null,
+ "procedure": "appel d'offres ouvert",
+ "categorie": "Travaux",
+ "date_limite_plis": "06/08/2025",
+ "lieu_ouverture": "au siège de la Direction Régionale Daraa-Tafilalet (DRD) — Avenue Mohamed VI - Azemmour J'did - Errachidia",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "20/10/2025",
+ "justification": "Moins-disant",
+ "infructueux": false,
+ "attributaire": "STE AGOTRA",
+ "montant_attribue": 4531800.0,
+ "attributaires_par_lot": [
+  {
+   "lot": null,
+   "attributaire": "STE AGOTRA",
+   "montant": 4531800.0
+  },
+  {
+   "lot": null,
+   "attributaire": "Délai d'exécution",
+   "montant": 4531800.0
+  }
+ ],
+ "soumissionnaires": [
+  {
+   "nom": "BTDF",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "depose",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "IMISYB MAROC",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "depose",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "STE AGOTRA",
+   "montant_acte_engagement": 4531800.0,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Délai d'exécution",
+   "montant_acte_engagement": 4531800.0,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 4,
+ "alertes_ocr": [
+  "« Délai d'exécution » absent de la liste des plis déposés (nom mal lu ?)."
+ ],
+ "notes_ocr": [
+  "Maître d'ouvrage absent du PV (utiliser l'acheteur public du portail)."
+ ],
+ "qualite": "attribution"
+}

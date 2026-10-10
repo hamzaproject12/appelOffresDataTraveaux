@@ -1,0 +1,99 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "747429",
+ "orgAcronyme": "w7t",
+ "reference_pv": "06/2023",
+ "nouveau": true,
+ "reference": "06/2023",
+ "objet": "Travaux de regarnis et d’entretien des plantations anciennes sur une superficie totale",
+ "acheteur": "Directeur Régional de l’ Agence Nationale Des Eaux et Forêts de l’Oriental Directeur Régional de l’ Agence Nationale Des Eaux et Forêts de l’Oriental",
+ "procedure": "appel d'offres ouvert",
+ "categorie": "Travaux",
+ "date_limite_plis": "15/09/2023",
+ "lieu_ouverture": "Salle de réunion de la Direction Régionale de l’Agence nationale des Eaux et Forêts de Salle de réunion de la Direction Régionale de l’Agence nationale des Eaux et Forêts de l’Oriental",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": null,
+ "justification": "Rempli les conditions demandées par le dossier d'appel d’offre",
+ "infructueux": false,
+ "attributaire": "Sté OUK FOREST sarl",
+ "montant_attribue": 1754220.0,
+ "attributaires_par_lot": [
+  {
+   "lot": null,
+   "attributaire": "Sté OUK FOREST sarl",
+   "montant": 1754220.0
+  },
+  {
+   "lot": null,
+   "attributaire": "EI Mouzazi Noureddine",
+   "montant": 2132760.0
+  },
+  {
+   "lot": null,
+   "attributaire": "1 2 Sté SAFA Plante sarl",
+   "montant": 1949460.0
+  },
+  {
+   "lot": null,
+   "attributaire": "Sté SAFA PLANTE sarl Infructueux",
+   "montant": 1949460.0
+  }
+ ],
+ "soumissionnaires": [
+  {
+   "nom": "Sté OUK FOREST sarl",
+   "montant_acte_engagement": 1754220.0,
+   "montant_apres_verification": 1754220.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "EI Mouzazi Noureddine",
+   "montant_acte_engagement": 2132760.0,
+   "montant_apres_verification": 2132760.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": true
+  },
+  {
+   "nom": "Sté Athens Travaux sarl",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_dossier_administratif_technique",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Sté SNOU TRAVAUX sarl",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "depose",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Sté SAFA PLANTE sarl Infructueux",
+   "montant_acte_engagement": 1949460.0,
+   "montant_apres_verification": 1949460.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 5,
+ "alertes_ocr": [
+  "« Sté SAFA PLANTE sarl Infructueux » absent de la liste des plis déposés (nom mal lu ?)."
+ ],
+ "notes_ocr": [],
+ "qualite": "attribution"
+}

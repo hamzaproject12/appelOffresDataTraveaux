@@ -1,0 +1,60 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "763871",
+ "orgAcronyme": "a1t",
+ "reference_pv": "DCT/TRAV-ADDUCTION-EAU",
+ "nouveau": true,
+ "reference": "DCT/TRAV-ADDUCTION-EAU",
+ "objet": null,
+ "acheteur": "L'Agence pour la promotion et le développement économique et social des préfectures et provinces du Nord,",
+ "procedure": null,
+ "categorie": "Travaux",
+ "date_limite_plis": null,
+ "lieu_ouverture": "siège de l'APDN",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "13/12/2023",
+ "justification": "l'offre la plus avantageuse.",
+ "infructueux": false,
+ "attributaire": "DEVELOPPEMENT",
+ "montant_attribue": 1390450.0,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "LA MAROCAINE DES TRAVAUX",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "QWERTY TRAVAUX",
+   "montant_acte_engagement": 1498224.0,
+   "montant_apres_verification": 1498224.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "DEVELOPPEMENT",
+   "montant_acte_engagement": 1390450.0,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 3,
+ "alertes_ocr": [
+  "« DEVELOPPEMENT » absent de la liste des plis déposés (nom mal lu ?)."
+ ],
+ "notes_ocr": [],
+ "qualite": "complet"
+}

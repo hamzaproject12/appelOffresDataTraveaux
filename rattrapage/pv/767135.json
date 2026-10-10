@@ -1,0 +1,83 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "767135",
+ "orgAcronyme": "i1t",
+ "reference_pv": null,
+ "nouveau": true,
+ "reference": null,
+ "objet": "! TMVAUX D'ACHEVEMENT DE CONSTRUCTTON D'UN CENTRE DE qUALIFICATION ET DE FORMATION AU CENTRE D'ARBAOUA COMMUNE D,ARBAOUA,",
+ "acheteur": "COMMUNE D,ARBAOUA",
+ "procedure": "appel d'offres ouvert",
+ "categorie": "Travaux",
+ "date_limite_plis": "07/12/2023",
+ "lieu_ouverture": "bureau de la présidente de la Commune d'Arbaoua au centre d'Arbaoua'",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "26/12/2023",
+ "justification": null,
+ "infructueux": false,
+ "attributaire": "2, SOCIETE ALUFERINOX",
+ "montant_attribue": 1093064.4,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "SOCIETE ONSSAR l- produire le plan de charge",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_dossier_administratif_technique",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "2, SOCIETE ALUFERINOX",
+   "montant_acte_engagement": 1093064.4,
+   "montant_apres_verification": 1093064.4,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "SOCIETE SACT",
+   "montant_acte_engagement": 1218270.0,
+   "montant_apres_verification": 1218270.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "4, SOCIETEYAZICOTRA",
+   "montant_acte_engagement": 1075446.0,
+   "montant_apres_verification": 1075446.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "SOCIETE ONSSAR ,I 079 99B,BO",
+   "montant_acte_engagement": 1079.0,
+   "montant_apres_verification": 1079.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 5,
+ "alertes_ocr": [
+  "« 2, SOCIETE ALUFERINOX » absent de la liste des plis déposés (nom mal lu ?).",
+  "« SOCIETE SACT » absent de la liste des plis déposés (nom mal lu ?).",
+  "« 4, SOCIETEYAZICOTRA » absent de la liste des plis déposés (nom mal lu ?).",
+  "« SOCIETE ONSSAR ,I 079 99B,BO » absent de la liste des plis déposés (nom mal lu ?)."
+ ],
+ "notes_ocr": [
+  "« SOCIETE ONSSAR l- produire le plan de charge » absent de la liste des plis déposés (nom mal lu ?)."
+ ],
+ "qualite": "complet"
+}

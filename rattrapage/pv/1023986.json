@@ -1,0 +1,51 @@
+{
+ "source": "extrait_docx",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "1023986",
+ "orgAcronyme": "d4q",
+ "reference_pv": "24/DR9/C/2026",
+ "nouveau": true,
+ "reference": "24/DR9/C/2026",
+ "objet": "Réhabilitation d’un filtre à sable de la station de traitement Bni Bouayach à AL HOCEIMA",
+ "acheteur": null,
+ "procedure": "appel d'offres ouvert",
+ "categorie": "Travaux",
+ "date_limite_plis": "20/05/2026",
+ "lieu_ouverture": "au siège de la Direction Régionale Tanger-Tetouan-Al Hoceima (DR9) - 6, Rue Melilla, Castilla - Tanger - Maroc",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "15/07/2026",
+ "justification": "Moins-disant",
+ "infructueux": false,
+ "attributaire": "ENTRAID",
+ "montant_attribue": 772380.0,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "ENTRAID",
+   "montant_acte_engagement": 772380.0,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "MAROC",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "depose",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 2,
+ "alertes_ocr": [],
+ "notes_ocr": [
+  "Maître d'ouvrage absent du PV (utiliser l'acheteur public du portail)."
+ ],
+ "qualite": "attribution"
+}

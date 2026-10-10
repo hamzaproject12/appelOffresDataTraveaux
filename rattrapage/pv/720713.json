@@ -1,0 +1,81 @@
+{
+ "source": "extrait_docx",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "720713",
+ "orgAcronyme": "j0w",
+ "reference_pv": "4/2023",
+ "nouveau": true,
+ "reference": "4/2023",
+ "objet": null,
+ "acheteur": "Commune Sidi abdelmoumen",
+ "procedure": "appel d'offres ouvert",
+ "categorie": "Travaux",
+ "date_limite_plis": "30/05/2023",
+ "lieu_ouverture": "Bureau de président C.T",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": null,
+ "justification": null,
+ "infructueux": false,
+ "attributaire": "STE OMARASRI TRAVAUX SARL (AU) TRAVAUX DIVERS",
+ "montant_attribue": 169692.0,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "STE NAKAMA SARL (AU), 12 SOUK LHAD IROHALEN IMINTANOUT",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_dossier_administratif_technique",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "STE GUAYWAR TRAVAUX SERVICES SARL AU DR. RBAT C.T ICHAMRAREN",
+   "montant_acte_engagement": 185544.0,
+   "montant_apres_verification": 175020.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_dossier_administratif_technique",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "STE OUSSOUD TRAVAUX SARL (AU) TRAVAUX DIVERS SOUK LHAD IROHALEN IMINTANOUT",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_dossier_administratif_technique",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "STE OMARASRI TRAVAUX SARL (AU) TRAVAUX DIVERS",
+   "montant_acte_engagement": 169692.0,
+   "montant_apres_verification": 185544.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "STE NAKAMA SARL (AU)",
+   "montant_acte_engagement": 175020.0,
+   "montant_apres_verification": 175020.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 5,
+ "alertes_ocr": [
+  "« STE NAKAMA SARL (AU) » absent de la liste des plis déposés (nom mal lu ?)."
+ ],
+ "notes_ocr": [
+  "« STE GUAYWAR TRAVAUX SERVICES SARL AU DR. RBAT C.T ICHAMRAREN » : montant rectifié de 185 544.00 à 175 020.00 DH.",
+  "« STE OMARASRI TRAVAUX SARL (AU) TRAVAUX DIVERS » : montant rectifié de 169 692.00 à 185 544.00 DH."
+ ],
+ "qualite": "complet"
+}

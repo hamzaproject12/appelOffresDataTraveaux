@@ -1,0 +1,87 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "1028422",
+ "orgAcronyme": "d4q",
+ "reference_pv": null,
+ "nouveau": true,
+ "reference": null,
+ "objet": null,
+ "acheteur": null,
+ "procedure": "appel d'offres ouvert",
+ "categorie": "Travaux",
+ "date_limite_plis": "21/05/2026",
+ "lieu_ouverture": "au siège de la Direction Régionale Casablanca-Settat (DRC) - 6 bis, rue Patrice Lumumba, Rabat - Maroc",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "29/07/2026",
+ "justification": "Moins-disant",
+ "infructueux": false,
+ "attributaire": "TEH (TECHNIQUE EQUIPEMENT HYDRAULIQUE) ex- MAROC",
+ "montant_attribue": 6750252.0,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "INDUS POMPES",
+   "montant_acte_engagement": 7363104.0,
+   "montant_apres_verification": 7363104.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "SEIPIA (Ex TOURNAGE SOUSS) - Offre de",
+   "montant_acte_engagement": 7899247.2,
+   "montant_apres_verification": 7899247.2,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "STE LAMO MAROC",
+   "montant_acte_engagement": 6841966.8,
+   "montant_apres_verification": 6841966.8,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "TEH (TECHNIQUE EQUIPEMENT HYDRAULIQUE) ex- MAROC",
+   "montant_acte_engagement": 6750252.0,
+   "montant_apres_verification": 6750252.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "FLYGT",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "depose",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "VIMAGI MAROC",
+   "montant_acte_engagement": 7644060.0,
+   "montant_apres_verification": 7644060.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 6,
+ "alertes_ocr": [],
+ "notes_ocr": [
+  "Maître d'ouvrage absent du PV (utiliser l'acheteur public du portail)."
+ ],
+ "qualite": "complet"
+}

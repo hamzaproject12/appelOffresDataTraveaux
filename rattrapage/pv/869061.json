@@ -1,0 +1,100 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "869061",
+ "orgAcronyme": "g3h",
+ "reference_pv": null,
+ "nouveau": true,
+ "reference": null,
+ "objet": "AO 32/2024/BG : Travaux de construction d’une salle de réunion au siège de la Wilaya de la région de |’Orienta.-POA",
+ "acheteur": "Le Wali de la Région de l’Oriental-Gouverneur de la Préfecture d’Oujda-Angad",
+ "procedure": "appel d'offres ouvert national",
+ "categorie": "Travaux",
+ "date_limite_plis": "23/01/2025",
+ "lieu_ouverture": "le bureau du Secrétariat Général de la Préfecture d’Oujda-Angad",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "27/01/2025",
+ "justification": "Le Concurrent obtenu est le concurrent ayant présenté l’offre économiquement la plus avantageuse pour un montant de 6.149.376,00dhs.",
+ "infructueux": false,
+ "attributaire": "Groupement Sté HAJJAJI -Meknès et Sté MOBETON -Kénitra",
+ "montant_attribue": 6149376.0,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "Sté SOLAZIZ -Fès",
+   "montant_acte_engagement": 6237180.0,
+   "montant_apres_verification": 6237180.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Sté El Ikhlasse -Berkane",
+   "montant_acte_engagement": 6399504.0,
+   "montant_apres_verification": 6399504.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Groupement Sté HAJJAJI -Meknès et Sté MOBETON -Kénitra",
+   "montant_acte_engagement": 145876.0,
+   "montant_apres_verification": 6149376.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Groupement Sté Namae d’équipement et de construction -Fès et Sté Capital",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_dossier_administratif_technique",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Sté Jimalux -Oujda",
+   "montant_acte_engagement": 6222012.0,
+   "montant_apres_verification": 6232092.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Groupement Sté AKHFIR -Erfoud et Sté SOTALHA -Erfoud",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_dossier_administratif_technique",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Sté For Seven Invest -Casablanca ù",
+   "montant_acte_engagement": 7022460.0,
+   "montant_apres_verification": 7022460.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 7,
+ "alertes_ocr": [
+  "« Sté For Seven Invest -Casablanca ù » absent de la liste des plis déposés (nom mal lu ?).",
+  "« Groupement Sté HAJJAJI -Meknès et Sté MOBETON -Kénitra » : écart anormal entre montant initial et vérifié (lecture à vérifier)."
+ ],
+ "notes_ocr": [
+  "« Groupement Sté HAJJAJI -Meknès et Sté MOBETON -Kénitra » : montant rectifié de 145 876.00 à 6 149 376.00 DH.",
+  "« Sté Jimalux -Oujda » : montant rectifié de 6 222 012.00 à 6 232 092.00 DH."
+ ],
+ "qualite": "complet"
+}

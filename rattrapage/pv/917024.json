@@ -1,0 +1,88 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "917024",
+ "orgAcronyme": "o8p",
+ "reference_pv": "067-25-AOO",
+ "nouveau": true,
+ "reference": "067-25-AOO",
+ "objet": "Travaux de mise à niveau de la voie rapide, de reprise des joints, d'étanchéité des deux viaducs et autres travaux divers à l'Aéroport Casablanca Mohammed V",
+ "acheteur": "l'OFFICE NATIONAL DES AEROPORTS",
+ "procedure": "appel d'offres ouvert",
+ "categorie": "Travaux",
+ "date_limite_plis": "12/06/2025",
+ "lieu_ouverture": "La salle de réunion de la Direction des Achats et de la Logistique",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "17/07/2025",
+ "justification": "L'offre la plus avantageuse.",
+ "infructueux": false,
+ "attributaire": "GROUPEMENT NABILUM / CAMPEZO",
+ "montant_attribue": 143883532.8,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "GROUPEMENT VIAS / COMPAGNIE DE SIGNAUX ELECTRIQUE ET D'EQUIPEMENT HYDRAULIQUE C.S.E.E.H",
+   "montant_acte_engagement": 161618772.0,
+   "montant_apres_verification": 161618772.0,
+   "autres_montants": [
+    161618772.0
+   ],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "GROUPEMENT NABILUM / CAMPEZO",
+   "montant_acte_engagement": 143883532.8,
+   "montant_apres_verification": 143883532.8,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "GROUPE MOJAZINE",
+   "montant_acte_engagement": 147857940.0,
+   "montant_apres_verification": 147857940.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "GROUPEMENT NABILUM",
+   "montant_acte_engagement": 143883532.8,
+   "montant_apres_verification": null,
+   "autres_montants": [
+    143883532.8
+   ],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "CAMPEZO COMPRISE COMPRISE",
+   "montant_acte_engagement": 147857940.0,
+   "montant_apres_verification": null,
+   "autres_montants": [
+    147857940.0
+   ],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 5,
+ "alertes_ocr": [
+  "« GROUPEMENT VIAS / COMPAGNIE DE SIGNAUX ELECTRIQUE ET D'EQUIPEMENT HYDRAULIQUE C.S.E.E.H » absent de la liste des plis déposés (nom mal lu ?).",
+  "« GROUPEMENT NABILUM / CAMPEZO » absent de la liste des plis déposés (nom mal lu ?).",
+  "« GROUPE MOJAZINE » absent de la liste des plis déposés (nom mal lu ?).",
+  "« GROUPEMENT NABILUM » absent de la liste des plis déposés (nom mal lu ?).",
+  "« CAMPEZO COMPRISE COMPRISE » absent de la liste des plis déposés (nom mal lu ?)."
+ ],
+ "notes_ocr": [],
+ "qualite": "complet"
+}

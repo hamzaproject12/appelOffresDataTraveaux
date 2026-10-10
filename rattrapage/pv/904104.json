@@ -1,0 +1,63 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "904104",
+ "orgAcronyme": "g8e",
+ "reference_pv": null,
+ "nouveau": true,
+ "reference": null,
+ "objet": "TRAVAUX DE CONSTRUCTION D'UN LYCEE QUALIFIANT A LA COMMUNE DE SIDI YAACOUB A LA PROVINCED'AZILAL - LOT UNIQUE -",
+ "acheteur": "Agence Régionale d'Ex\u0007cution des Projets Région Béni Mellal- Khénifra",
+ "procedure": "appel d'offres ouvert",
+ "categorie": "Travaux",
+ "date_limite_plis": "04/06/2025",
+ "lieu_ouverture": "Salle de réunion de l'AREP région Beni Mellal Khénifra, Sis Bd Med V lotissement lala Hayat immeublen°3, 4tme ct 5tme étage Béni Mellal",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "05/06/2025",
+ "justification": "I'Offre Economiquement a plus avantageuse.",
+ "infructueux": false,
+ "attributaire": "STE ARCHI BAT-BTP",
+ "montant_attribue": 14944452.0,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "JUIN",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_offre_financiere",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "AEAL HENIFA",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_offre_financiere",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "STE ARCHI BAT-BTP",
+   "montant_acte_engagement": 14944452.0,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 3,
+ "alertes_ocr": [
+  "« STE ARCHI BAT-BTP » absent de la liste des plis déposés (nom mal lu ?)."
+ ],
+ "notes_ocr": [
+  "« JUIN » absent de la liste des plis déposés (nom mal lu ?).",
+  "« AEAL HENIFA » absent de la liste des plis déposés (nom mal lu ?)."
+ ],
+ "qualite": "attribution"
+}

@@ -1,0 +1,54 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "791703",
+ "orgAcronyme": "q0x",
+ "reference_pv": "04/2024",
+ "nouveau": true,
+ "reference": "04/2024",
+ "objet": "Travaux d’achèvement de construction d’un pont au Boulevard Zerktouni vers Tadla",
+ "acheteur": "Commune de Khénifra",
+ "procedure": "appel d'offres ouvert national",
+ "categorie": "Travaux",
+ "date_limite_plis": "23/04/2024",
+ "lieu_ouverture": "Bureau du Président",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": null,
+ "justification": null,
+ "infructueux": false,
+ "attributaire": null,
+ "montant_attribue": null,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "Groupement VANORD Meknès",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Sté DIHYA Sarl Ouarzazate",
+   "montant_acte_engagement": 5717832.24,
+   "montant_apres_verification": 5717832.24,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 2,
+ "alertes_ocr": [
+  "« Sté DIHYA Sarl Ouarzazate » absent de la liste des plis déposés (nom mal lu ?).",
+  "Attributaire non trouvé."
+ ],
+ "notes_ocr": [
+  "« Groupement VANORD Meknès » absent de la liste des plis déposés (nom mal lu ?)."
+ ],
+ "qualite": "attribution"
+}

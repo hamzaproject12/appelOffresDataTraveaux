@@ -1,0 +1,81 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "769902",
+ "orgAcronyme": "f9f",
+ "reference_pv": "19/BC.OT/2023",
+ "nouveau": true,
+ "reference": "19/BC.OT/2023",
+ "objet": "Travaux d'Aménagement Urbain à la Commune Essabah, Kamal Taroudant : Pavage des Chemins Piétons des Quartiers : Bourhila,",
+ "acheteur": null,
+ "procedure": null,
+ "categorie": "Travaux",
+ "date_limite_plis": "27/12/2023",
+ "lieu_ouverture": "Bureau de la Présidente de la Commune d’Ouled Teima",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "12/01/2024",
+ "justification": "mieux disant et répond aux critères fixés au Règlement de la Consultation.",
+ "infructueux": false,
+ "attributaire": "STE. SOMANAC Sarl",
+ "montant_attribue": 2794800.0,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "STE. ETIA Sarl",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "STE. SOMANAC Sarl",
+   "montant_acte_engagement": 2794800.0,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "STE. GCCR S.a.r.l AU",
+   "montant_acte_engagement": 2812800.0,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "STE. ETIA Sa.r.l",
+   "montant_acte_engagement": 2738400.0,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "STE. ETIA S.a.r.l",
+   "montant_acte_engagement": 2794800.0,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 5,
+ "alertes_ocr": [
+  "« STE. ETIA Sa.r.l » absent de la liste des plis déposés (nom mal lu ?).",
+  "« STE. ETIA S.a.r.l » absent de la liste des plis déposés (nom mal lu ?)."
+ ],
+ "notes_ocr": [
+  "Maître d'ouvrage absent du PV (utiliser l'acheteur public du portail)."
+ ],
+ "qualite": "complet"
+}

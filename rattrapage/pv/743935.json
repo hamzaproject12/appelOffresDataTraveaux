@@ -1,0 +1,147 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "743935",
+ "orgAcronyme": "j0w",
+ "reference_pv": null,
+ "nouveau": true,
+ "reference": null,
+ "objet": "Assistance technique aux Travaux de construction de deux pistes",
+ "acheteur": "Conseil Préfectoral de Marrakech",
+ "procedure": "appel d'offres ouvert",
+ "categorie": "Travaux",
+ "date_limite_plis": "14/09/2023",
+ "lieu_ouverture": "La salle des réunions au siège du Conseil Prefectoral de Marrakech",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "27/09/2023",
+ "justification": "offre la plus avantageuse.",
+ "infructueux": false,
+ "attributaire": "IDM SER-TRAV",
+ "montant_attribue": 1953624.6,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "S3ACT",
+   "montant_acte_engagement": 2101143.36,
+   "montant_apres_verification": null,
+   "autres_montants": [
+    2101143.36
+   ],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "FADRIK SUD",
+   "montant_acte_engagement": 2229739.2,
+   "montant_apres_verification": null,
+   "autres_montants": [
+    2229739.2
+   ],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "IDM SER-TRAV",
+   "montant_acte_engagement": 1953624.6,
+   "montant_apres_verification": null,
+   "autres_montants": [
+    1953624.6
+   ],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "OUIAKOUB",
+   "montant_acte_engagement": 2300016.0,
+   "montant_apres_verification": null,
+   "autres_montants": [
+    2300016.0
+   ],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "AIT OUMMAD",
+   "montant_acte_engagement": 2140987.2,
+   "montant_apres_verification": null,
+   "autres_montants": [
+    2140987.2
+   ],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "AMNSNAW TRAVAUX",
+   "montant_acte_engagement": 2018607.6,
+   "montant_apres_verification": null,
+   "autres_montants": [
+    2018607.6
+   ],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "GRANDS ENGINS",
+   "montant_acte_engagement": 2712207.0,
+   "montant_apres_verification": null,
+   "autres_montants": [
+    2712207.0
+   ],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Daaa 1/9",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": true
+  },
+  {
+   "nom": "PERTE -Caution non déposée",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_dossier_administratif_technique",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "activité",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_dossier_administratif_technique",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 10,
+ "alertes_ocr": [
+  "« S3ACT » absent de la liste des plis déposés (nom mal lu ?).",
+  "« FADRIK SUD » absent de la liste des plis déposés (nom mal lu ?).",
+  "« IDM SER-TRAV » absent de la liste des plis déposés (nom mal lu ?).",
+  "« OUIAKOUB » absent de la liste des plis déposés (nom mal lu ?).",
+  "« AIT OUMMAD » absent de la liste des plis déposés (nom mal lu ?).",
+  "« AMNSNAW TRAVAUX » absent de la liste des plis déposés (nom mal lu ?).",
+  "« GRANDS ENGINS » absent de la liste des plis déposés (nom mal lu ?)."
+ ],
+ "notes_ocr": [
+  "« Daaa 1/9 » absent de la liste des plis déposés (nom mal lu ?).",
+  "« PERTE -Caution non déposée » absent de la liste des plis déposés (nom mal lu ?).",
+  "« activité » absent de la liste des plis déposés (nom mal lu ?)."
+ ],
+ "qualite": "complet"
+}

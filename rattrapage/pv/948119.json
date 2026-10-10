@@ -1,0 +1,62 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "948119",
+ "orgAcronyme": "m1w",
+ "reference_pv": "33/AMDIE/2025",
+ "nouveau": true,
+ "reference": "33/AMDIE/2025",
+ "objet": "Relatif à l’achat et l’installation du matériel informatique et du matériel audio-visuel pour le compte",
+ "acheteur": "L’Agence Marocaine de Développement des Investissements et des Exportations",
+ "procedure": "appel d'offres ouvert international",
+ "categorie": "Travaux",
+ "date_limite_plis": "24/10/2025",
+ "lieu_ouverture": "Siège de l’Agence Marocaine de Développement des Investissements et des Exportations, Immeuble 5, 2ème étage, Mahaj Ryad Center Bureaux, Rabat — Maroc",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "03/11/2025",
+ "justification": "L’offre la plus avantageuse est l’offres présentée par : > Lotl1: | -COMPUCOM > Lot2:",
+ "infructueux": false,
+ "attributaire": "COMPUCOM",
+ "montant_attribue": 1274820.0,
+ "attributaires_par_lot": [
+  {
+   "lot": null,
+   "attributaire": "COMPUCOM",
+   "montant": 1274820.0
+  },
+  {
+   "lot": "2",
+   "attributaire": "COMPUCOM",
+   "montant": 135408.0
+  }
+ ],
+ "soumissionnaires": [
+  {
+   "nom": "NEWERACOM MAFUTURE",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_dossier_administratif_technique",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "COMPUCOM",
+   "montant_acte_engagement": 1274820.0,
+   "montant_apres_verification": 1274820.0,
+   "autres_montants": [],
+   "lots": [
+    "2"
+   ],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 2,
+ "alertes_ocr": [],
+ "notes_ocr": [],
+ "qualite": "attribution"
+}

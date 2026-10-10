@@ -1,0 +1,63 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "1022044",
+ "orgAcronyme": "o8p",
+ "reference_pv": "26T018/PLGV",
+ "nouveau": true,
+ "reference": "26T018/PLGV",
+ "objet": "Etudes et travaux d'extension des postes électriques ONEE (BENSLIMANE Il, BENGUERIR et SETTAT) pour le raccordement électrique des nouvelles sous-stations LGV ONCF",
+ "acheteur": null,
+ "procedure": null,
+ "categorie": "Travaux",
+ "date_limite_plis": "02/07/2026",
+ "lieu_ouverture": "Institut de Formation et de Développement de Compétences l’'ONCF",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": null,
+ "justification": null,
+ "infructueux": false,
+ "attributaire": "FABRILEC SA / SGEE SARL",
+ "montant_attribue": 78829699.5,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "EM ENERGIE MAROC SARL / BUTEC ENERGIES & SERVICES SA / FABRILEC SA / SGEE SARL",
+   "montant_acte_engagement": 84926650.0,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "FABRILEC SA / SGEE SARL",
+   "montant_acte_engagement": 78829699.5,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "SGEE SARL",
+   "montant_acte_engagement": 79028800.0,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 3,
+ "alertes_ocr": [
+  "« SGEE SARL » absent de la liste des plis déposés (nom mal lu ?)."
+ ],
+ "notes_ocr": [
+  "Maître d'ouvrage absent du PV (utiliser l'acheteur public du portail).",
+  "Montants exprimés hors taxes (HT)."
+ ],
+ "qualite": "complet"
+}

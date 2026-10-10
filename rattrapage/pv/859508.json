@@ -1,0 +1,60 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "859508",
+ "orgAcronyme": "z9k",
+ "reference_pv": null,
+ "nouveau": true,
+ "reference": null,
+ "objet": null,
+ "acheteur": "le président de la commune de Zaouiat ahansal",
+ "procedure": "appel d'offres ouvert",
+ "categorie": "Travaux",
+ "date_limite_plis": "03/12/2024",
+ "lieu_ouverture": "la salle de réunions de la CT de Zaouiat Ahansal: +",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "12/12/2024",
+ "justification": "l’offre la mieux-distante par rapport au prix de référence.",
+ "infructueux": false,
+ "attributaire": "SOCIETE HAFIDI PROJETS S.A.R.L",
+ "montant_attribue": 153600.0,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "SOCIETE HAFIDI PROJETS S.A.R.L",
+   "montant_acte_engagement": 153600.0,
+   "montant_apres_verification": 153600.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "SOCIETE TRAVAUX DURABLES SARL",
+   "montant_acte_engagement": 161280.0,
+   "montant_apres_verification": 161280.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "SOCIETE H.T MATERIEL SARL",
+   "montant_acte_engagement": 168960.0,
+   "montant_apres_verification": 168960.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 3,
+ "alertes_ocr": [],
+ "notes_ocr": [
+  "Montants exprimés hors taxes (HT)."
+ ],
+ "qualite": "complet"
+}

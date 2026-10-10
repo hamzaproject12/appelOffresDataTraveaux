@@ -1,0 +1,84 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "770860",
+ "orgAcronyme": "j0w",
+ "reference_pv": "05/2023",
+ "nouveau": true,
+ "reference": "05/2023",
+ "objet": "TRAVAUX DE CON STRUCTION D'UN CHATEAU D COMMUNE BOUABOUT PROVINCE DE CHICHAOUA SEANCE DE L’APPEL D'OFFRE",
+ "acheteur": "LE PRESIDENT DE LA COMMUNE TE",
+ "procedure": null,
+ "categorie": "Travaux",
+ "date_limite_plis": "21/12/2023",
+ "lieu_ouverture": "le Bureau de",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": null,
+ "justification": null,
+ "infructueux": false,
+ "attributaire": null,
+ "montant_attribue": null,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "RRITORIALE BOUABOUT",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Mr le président de la commune bouabout",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "STE IRAQL S.A.R.L",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_dossier_administratif_technique",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "STE MAGHREB AMAN",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_dossier_administratif_technique",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "STE AM2T TRAVAUX S.A.R.L",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_dossier_administratif_technique",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 5,
+ "alertes_ocr": [
+  "Attributaire non trouvé."
+ ],
+ "notes_ocr": [
+  "« RRITORIALE BOUABOUT » absent de la liste des plis déposés (nom mal lu ?).",
+  "« Mr le président de la commune bouabout » absent de la liste des plis déposés (nom mal lu ?).",
+  "« STE IRAQL S.A.R.L » absent de la liste des plis déposés (nom mal lu ?).",
+  "« STE MAGHREB AMAN » absent de la liste des plis déposés (nom mal lu ?).",
+  "« STE AM2T TRAVAUX S.A.R.L » absent de la liste des plis déposés (nom mal lu ?)."
+ ],
+ "qualite": "participants"
+}

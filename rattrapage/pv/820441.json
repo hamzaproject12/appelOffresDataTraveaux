@@ -1,0 +1,63 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "820441",
+ "orgAcronyme": "f8y",
+ "reference_pv": null,
+ "nouveau": true,
+ "reference": null,
+ "objet": "GROS TRAVAUX D'AMÉNAGEMENT DE L'ESPACE VERT LAARY CHEIKH, à LA VILLE DE NADOR, Pour le compte de la commune de Nador, Province de Nador",
+ "acheteur": "Le Président de la commune de Nador",
+ "procedure": null,
+ "categorie": "Travaux",
+ "date_limite_plis": "24/07/2024",
+ "lieu_ouverture": "Le bureau de M. le président sis à Bd Mohamed V Nador",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "05/08/2024",
+ "justification": "la plus proche du prix de référence par défaut",
+ "infructueux": false,
+ "attributaire": "Sté FLUX VERT S.A.R.L, de Casablanca",
+ "montant_attribue": 2681226.0,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "Sté FLUX VERT S.A.R.L, de Casablanca",
+   "montant_acte_engagement": 2681226.0,
+   "montant_apres_verification": 2681226.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Sté RYAD JARDIN SARL, de Rabat",
+   "montant_acte_engagement": 2683147.2,
+   "montant_apres_verification": 683147.2,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Sté AGATIA Travaux S.A.R.L",
+   "montant_acte_engagement": 2681640.0,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 3,
+ "alertes_ocr": [
+  "« Sté AGATIA Travaux S.A.R.L » absent de la liste des plis déposés (nom mal lu ?).",
+  "« Sté RYAD JARDIN SARL, de Rabat » : écart anormal entre montant initial et vérifié (lecture à vérifier)."
+ ],
+ "notes_ocr": [
+  "« Sté RYAD JARDIN SARL  de Rabat » : montant rectifié de 2 683 147.20 à 683 147.20 DH."
+ ],
+ "qualite": "complet"
+}

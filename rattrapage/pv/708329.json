@@ -1,0 +1,58 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "708329",
+ "orgAcronyme": "o8p",
+ "reference_pv": null,
+ "nouveau": true,
+ "reference": null,
+ "objet": null,
+ "acheteur": "Direction Provinciale de l’Equipement, du Transport et de la logistique de Casablanca",
+ "procedure": null,
+ "categorie": "Travaux",
+ "date_limite_plis": "28/02/2023",
+ "lieu_ouverture": "DPETLC",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": null,
+ "justification": "L'offre la plus ins disant CP",
+ "infructueux": false,
+ "attributaire": "Sté EPELCO",
+ "montant_attribue": 862007.28,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "Sté RELEPHONE",
+   "montant_acte_engagement": 788486.4,
+   "montant_apres_verification": 788486.4,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Sté EPELCO",
+   "montant_acte_engagement": 862007.28,
+   "montant_apres_verification": 862007.28,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Ste OUEST APPLICATION",
+   "montant_acte_engagement": 802675.2,
+   "montant_apres_verification": 802675.2,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 3,
+ "alertes_ocr": [],
+ "notes_ocr": [],
+ "qualite": "complet"
+}

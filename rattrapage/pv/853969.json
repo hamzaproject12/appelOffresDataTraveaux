@@ -1,0 +1,62 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "853969",
+ "orgAcronyme": "d0q",
+ "reference_pv": "01/2024lCB",
+ "nouveau": true,
+ "reference": "01/2024lCB",
+ "objet": null,
+ "acheteur": null,
+ "procedure": "appel d'offres ouvert",
+ "categorie": "Travaux",
+ "date_limite_plis": null,
+ "lieu_ouverture": null,
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": null,
+ "justification": null,
+ "infructueux": false,
+ "attributaire": "SOCIETE SOTOTIS SARL",
+ "montant_attribue": 697980.0,
+ "attributaires_par_lot": [
+  {
+   "lot": null,
+   "attributaire": "SOCIETE SOTOTIS SARL",
+   "montant": 697980.0
+  },
+  {
+   "lot": null,
+   "attributaire": "SOCIETE OLEA EURO SARL",
+   "montant": 820200.0
+  }
+ ],
+ "soumissionnaires": [
+  {
+   "nom": "SOCIETE SOTOTIS SARL",
+   "montant_acte_engagement": 697980.0,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "SOCIETE OLEA EURO SARL",
+   "montant_acte_engagement": 820200.0,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 2,
+ "alertes_ocr": [],
+ "notes_ocr": [
+  "Maître d'ouvrage absent du PV (utiliser l'acheteur public du portail)."
+ ],
+ "qualite": "attribution"
+}

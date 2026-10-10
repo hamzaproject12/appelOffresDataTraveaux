@@ -1,0 +1,102 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "968484",
+ "orgAcronyme": "a1t",
+ "reference_pv": "171/2025/ADHA",
+ "nouveau": true,
+ "reference": "171/2025/ADHA",
+ "objet": null,
+ "acheteur": "L’AGENCE DE DEVELOPPEMNT DU HAUT ATLAS",
+ "procedure": null,
+ "categorie": "Travaux",
+ "date_limite_plis": "29/12/2025",
+ "lieu_ouverture": "Salle de réunions de la DIRECTION PROVINCIALE DE L’AGRICULTURE MARRAKECH",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": null,
+ "justification": null,
+ "infructueux": true,
+ "attributaire": "DIMABIX",
+ "montant_attribue": 3203042.4,
+ "attributaires_par_lot": [
+  {
+   "lot": null,
+   "attributaire": "DIMABIX",
+   "montant": 3203042.4
+  },
+  {
+   "lot": null,
+   "attributaire": "FERCALU",
+   "montant": 1841820.84
+  },
+  {
+   "lot": null,
+   "attributaire": "INFO CONSTRUCTION",
+   "montant": 3221323.98
+  },
+  {
+   "lot": null,
+   "attributaire": "FANATEC",
+   "montant": 5761324.32
+  },
+  {
+   "lot": null,
+   "attributaire": "CHANTIER AL AMAL",
+   "montant": 3598479.74
+  }
+ ],
+ "soumissionnaires": [
+  {
+   "nom": "FERCALU",
+   "montant_acte_engagement": 1841820.84,
+   "montant_apres_verification": 1841820.84,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "DIMABIX",
+   "montant_acte_engagement": 3203042.4,
+   "montant_apres_verification": 3203042.4,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "FANATEC",
+   "montant_acte_engagement": 3811087.92,
+   "montant_apres_verification": 3811087.92,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "INFO CONSTRUCTION",
+   "montant_acte_engagement": 3569745.9,
+   "montant_apres_verification": 3569745.9,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "CHANTIER AL AMAL",
+   "montant_acte_engagement": 3598479.74,
+   "montant_apres_verification": 3598479.74,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 5,
+ "alertes_ocr": [],
+ "notes_ocr": [],
+ "qualite": "attribution"
+}

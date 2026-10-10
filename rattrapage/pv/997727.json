@@ -1,0 +1,115 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "997727",
+ "orgAcronyme": "g3h",
+ "reference_pv": "42/PB/DE/INDH/2024",
+ "nouveau": true,
+ "reference": "42/PB/DE/INDH/2024",
+ "objet": "Travaux d’achèvement de réalisation de 08 unités de préscolaire relevant de la commune de Fritissa; Province de Boulemane",
+ "acheteur": null,
+ "procedure": "appel d'offres ouvert simplifié",
+ "categorie": "Travaux",
+ "date_limite_plis": "17/12/2024",
+ "lieu_ouverture": null,
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "21/01/2024",
+ "justification": "Offre économiquement la plus avantageuse.",
+ "infructueux": false,
+ "attributaire": "STE LAHCEN OUALLA TRAVAUX",
+ "montant_attribue": 335622.0,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "STE BOUSLIT SARL",
+   "montant_acte_engagement": 337341.0,
+   "montant_apres_verification": 337341.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "STE LA MAITRISE DE CONSTRUCTION",
+   "montant_acte_engagement": 332580.0,
+   "montant_apres_verification": 332580.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "STE ETABLISSEMENT AL IRTIKAE TRAVAUX",
+   "montant_acte_engagement": 334440.0,
+   "montant_apres_verification": 334440.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "STE LAHCEN OUALLA TRAVAUX",
+   "montant_acte_engagement": 335622.0,
+   "montant_apres_verification": 335622.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "STE GALAXY TECHNOLOGIES BAHOU",
+   "montant_acte_engagement": 331128.0,
+   "montant_apres_verification": 331128.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "STE SAAD REBOISEMENT SARL AU",
+   "montant_acte_engagement": 352632.0,
+   "montant_apres_verification": 353352.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "GLM TRAVAUX",
+   "montant_acte_engagement": 358698.0,
+   "montant_apres_verification": 358698.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": true
+  },
+  {
+   "nom": "STE OBSIMA SARL",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": true
+  }
+ ],
+ "nombre_soumissionnaires": 8,
+ "alertes_ocr": [
+  "« STE BOUSLIT SARL » absent de la liste des plis déposés (nom mal lu ?).",
+  "« STE LA MAITRISE DE CONSTRUCTION » absent de la liste des plis déposés (nom mal lu ?).",
+  "« STE ETABLISSEMENT AL IRTIKAE TRAVAUX » absent de la liste des plis déposés (nom mal lu ?).",
+  "« STE LAHCEN OUALLA TRAVAUX » absent de la liste des plis déposés (nom mal lu ?).",
+  "« STE GALAXY TECHNOLOGIES BAHOU » absent de la liste des plis déposés (nom mal lu ?).",
+  "« STE SAAD REBOISEMENT SARL AU » absent de la liste des plis déposés (nom mal lu ?).",
+  "« GLM TRAVAUX » absent de la liste des plis déposés (nom mal lu ?)."
+ ],
+ "notes_ocr": [
+  "« STE OBSIMA SARL » absent de la liste des plis déposés (nom mal lu ?).",
+  "« STE SAAD REBOISEMENT SARL AU » : montant rectifié de 352 632.00 à 353 352.00 DH.",
+  "Maître d'ouvrage absent du PV (utiliser l'acheteur public du portail)."
+ ],
+ "qualite": "complet"
+}

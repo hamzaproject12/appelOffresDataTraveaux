@@ -1,0 +1,73 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "746220",
+ "orgAcronyme": "o8p",
+ "reference_pv": "01/CPMO/2023",
+ "nouveau": true,
+ "reference": "01/CPMO/2023",
+ "objet": null,
+ "acheteur": "CONSEIL PREFECTORAL DE MOHAMMEDIA",
+ "procedure": "appel d'offres ouvert",
+ "categorie": "Travaux",
+ "date_limite_plis": "21/09/2023",
+ "lieu_ouverture": "BUREAUX D’ADM PROJET SIS 58, RUE CAPITAINE ABDESSLAM ELMOUEDEN, OLM -— SOUISSI-RABAT",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "11/10/2023",
+ "justification": null,
+ "infructueux": false,
+ "attributaire": "SOCIETE DE TRAVAUX PUBLICS ET RESEAUX DIVERS (STPRD)",
+ "montant_attribue": 32868458.31,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "SOCIETE DE TRAVAUX PUBLICS ET RESEAUX DIVERS (STPRD)",
+   "montant_acte_engagement": 32868458.31,
+   "montant_apres_verification": 32868458.31,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "MAGHREBINE D’ETUDES ET DE GENIE CIVIL",
+   "montant_acte_engagement": 37349259.77,
+   "montant_apres_verification": 37349259.77,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "ALTATRAV",
+   "montant_acte_engagement": 34331335.42,
+   "montant_apres_verification": 34331335.42,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "EXTRAIT DU PROCES-VERBAL DE L’APPEL D'OFFRES OUVERT SUR OFFRE SRAUN",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": true
+  }
+ ],
+ "nombre_soumissionnaires": 4,
+ "alertes_ocr": [
+  "« SOCIETE DE TRAVAUX PUBLICS ET RESEAUX DIVERS (STPRD) » absent de la liste des plis déposés (nom mal lu ?).",
+  "« MAGHREBINE D’ETUDES ET DE GENIE CIVIL » absent de la liste des plis déposés (nom mal lu ?).",
+  "« ALTATRAV » absent de la liste des plis déposés (nom mal lu ?)."
+ ],
+ "notes_ocr": [
+  "« EXTRAIT DU PROCES-VERBAL DE L’APPEL D'OFFRES OUVERT SUR OFFRE SRAUN » absent de la liste des plis déposés (nom mal lu ?)."
+ ],
+ "qualite": "complet"
+}

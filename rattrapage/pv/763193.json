@@ -1,0 +1,69 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "763193",
+ "orgAcronyme": "e5w",
+ "reference_pv": "108/AREP-FM/2023",
+ "nouveau": true,
+ "reference": "108/AREP-FM/2023",
+ "objet": "Travaux de",
+ "acheteur": "Le Directeur de l’Agence Régionale d’Exécution des Projets de la Région F ès Meknès",
+ "procedure": "appel d'offres ouvert national",
+ "categorie": "Travaux",
+ "date_limite_plis": "28/11/2023",
+ "lieu_ouverture": "Salle des réunions de l’Agence Régionale d’Exécution des + Projets de la Région Fès-Meknès, N°01, Angle Avenue les Nations Unies et Rue Ferhat “Hachad -VN Meknès",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "11/12/2023",
+ "justification": "Le concurrent ayant l’offre économiquement la plus avantageuse.",
+ "infructueux": false,
+ "attributaire": "STE SOFANORTRA V SARL-AU",
+ "montant_attribue": 8357782.2,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "STE AARIBI DE TRAVAUX DIVERS SARL-AU",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_dossier_administratif_technique",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "À STE SOZRA SARL-AU",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "depose",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "STE SOFANORTRA V SARL-AU",
+   "montant_acte_engagement": 8357782.2,
+   "montant_apres_verification": 8357782.2,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "STE SOZRA SARL-AU",
+   "montant_acte_engagement": 8399265.6,
+   "montant_apres_verification": 8399265.6,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 4,
+ "alertes_ocr": [
+  "« STE SOZRA SARL-AU » absent de la liste des plis déposés (nom mal lu ?)."
+ ],
+ "notes_ocr": [],
+ "qualite": "complet"
+}

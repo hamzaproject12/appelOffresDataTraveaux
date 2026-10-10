@@ -1,0 +1,94 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "1001281",
+ "orgAcronyme": "p1v",
+ "reference_pv": null,
+ "nouveau": true,
+ "reference": null,
+ "objet": "TRAVAUX DE CONSTRUCTION DES ROUTES A L'INTERIEUR DU TERRITOIRE DE LA COMMUNE OULED AMRANE ZONE 2 (LA RUE N°33- RUE N°35-RUE A, B, C ET D LES CP SITUE ENTRE LA RUE N°1 STATION AFRIQUA- RUE N°2 ET RUE N°33)",
+ "acheteur": "COMMUNE OULED AMRANE",
+ "procedure": null,
+ "categorie": "Travaux",
+ "date_limite_plis": "10/03/2026",
+ "lieu_ouverture": "de plis : Le bureau du président de la commune Ouled Amrane au siège de la commune",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": null,
+ "justification": null,
+ "infructueux": false,
+ "attributaire": null,
+ "montant_attribue": null,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "STE RIRAVA SARL AU ET STE ECBT SARL (groupement)",
+   "montant_acte_engagement": 3354355.2,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "STE PRESTATION SIMO BEL SARL AU ET STE SORGA TRAVAUX SARL AU (groupement)",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_offre_financiere",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "STE ZOTROS SARL AU ET STE BAHRI TRAV SARL AU (groupement)",
+   "montant_acte_engagement": 4000896.0,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Conçurent retenue",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_offre_financiere",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Ouled Amrane, le",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_offre_financiere",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "La anti à",
+   "montant_acte_engagement": 3355356.0,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 6,
+ "alertes_ocr": [
+  "« STE RIRAVA SARL AU ET STE ECBT SARL (groupement) » absent de la liste des plis déposés (nom mal lu ?).",
+  "« STE ZOTROS SARL AU ET STE BAHRI TRAV SARL AU (groupement) » absent de la liste des plis déposés (nom mal lu ?).",
+  "« La anti à » absent de la liste des plis déposés (nom mal lu ?).",
+  "Attributaire non trouvé."
+ ],
+ "notes_ocr": [
+  "« STE PRESTATION SIMO BEL SARL AU ET STE SORGA TRAVAUX SARL AU (groupement) » absent de la liste des plis déposés (nom mal lu ?).",
+  "« Conçurent retenue » absent de la liste des plis déposés (nom mal lu ?).",
+  "« Ouled Amrane, le » absent de la liste des plis déposés (nom mal lu ?)."
+ ],
+ "qualite": "complet"
+}

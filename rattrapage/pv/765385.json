@@ -1,0 +1,60 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "765385",
+ "orgAcronyme": "q1s",
+ "reference_pv": null,
+ "nouveau": true,
+ "reference": null,
+ "objet": null,
+ "acheteur": "L'Office Régional de Mise en Valeur Agricole du Loukkos",
+ "procedure": "appel d'offres ouvert",
+ "categorie": "Travaux",
+ "date_limite_plis": "07/11/2023",
+ "lieu_ouverture": "Siège de L'Office Régional de Mise en Valeur Agricole du Loukkos à Ksar El Kébir",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "27/11/2023",
+ "justification": "L'offre la plus avantageuse",
+ "infructueux": false,
+ "attributaire": "A-TAMZ",
+ "montant_attribue": 15721966.8,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "BOUKABOUS",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_dossier_administratif_technique",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "ENTREPRISE EL ALAOUI ABDELAZIZ",
+   "montant_acte_engagement": 15721966.8,
+   "montant_apres_verification": 22986705.6,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_offre_financiere",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "A-TAMZ",
+   "montant_acte_engagement": 15721966.8,
+   "montant_apres_verification": 15721966.8,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 3,
+ "alertes_ocr": [],
+ "notes_ocr": [
+  "« ENTREPRISE EL ALAOUI ABDELAZIZ » : montant rectifié de 15 721 966.80 à 22 986 705.60 DH."
+ ],
+ "qualite": "complet"
+}

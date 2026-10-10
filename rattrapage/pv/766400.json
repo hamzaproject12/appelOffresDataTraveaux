@@ -1,0 +1,56 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "766400",
+ "orgAcronyme": "g3h",
+ "reference_pv": "151/23/ELEC",
+ "nouveau": true,
+ "reference": "151/23/ELEC",
+ "objet": "aux de reprise de génie civil aux postes sources de la RADEEMA",
+ "acheteur": null,
+ "procedure": "appel d'offres ouvert",
+ "categorie": "Travaux",
+ "date_limite_plis": "08/12/2023",
+ "lieu_ouverture": "au Siège de la RADÉEMA Boulevard Mohamed VI MARRAKECH",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": null,
+ "justification": "l’offre la plus avantageuse",
+ "infructueux": false,
+ "attributaire": "YOZELEC",
+ "montant_attribue": 794650.0,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "YOZELEC",
+   "montant_acte_engagement": 776200.0,
+   "montant_apres_verification": 794650.0,
+   "autres_montants": [
+    931440.0
+   ],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "JADDAII TRAVCO",
+   "montant_acte_engagement": 885900.0,
+   "montant_apres_verification": null,
+   "autres_montants": [
+    1063080.0
+   ],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 2,
+ "alertes_ocr": [],
+ "notes_ocr": [
+  "« YOZELEC » : montant rectifié de 776 200.00 à 794 650.00 DH.",
+  "Maître d'ouvrage absent du PV (utiliser l'acheteur public du portail)."
+ ],
+ "qualite": "complet"
+}

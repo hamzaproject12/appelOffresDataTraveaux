@@ -1,0 +1,53 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "972483",
+ "orgAcronyme": "g3h",
+ "reference_pv": "35/OLT/2025",
+ "nouveau": true,
+ "reference": "35/OLT/2025",
+ "objet": "TRAVAUX DE CONSTRUCTION D'’UNE PASSERELLE SUR OUED ENNACHEF RELIANT RUE TINDOUF A HAY OUED ENNACHEF A LA VILLE D'OUJDA",
+ "acheteur": null,
+ "procedure": "appel d'offres ouvert national",
+ "categorie": "Travaux",
+ "date_limite_plis": "13/01/2026",
+ "lieu_ouverture": "les bureaux de la société de développement & OUJDA LI TAHYIAA » SA situés à : Wilaya de la Région de l'Oriental — Bd. Hassan Il - Oujda",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "21/01/2026",
+ "justification": "l'offre économiquement la plus avantageuse est l'offre la moins-disante, celle de la société SH AVENTAGE SARL.",
+ "infructueux": false,
+ "attributaire": null,
+ "montant_attribue": null,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "OUJDA CONSTRUCTION IMMOBILIERS SARL-AU",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_dossier_administratif_technique",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "SH AVENTAGE SARL",
+   "montant_acte_engagement": 2515380.0,
+   "montant_apres_verification": 2515380.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 2,
+ "alertes_ocr": [
+  "Attributaire non trouvé."
+ ],
+ "notes_ocr": [
+  "Maître d'ouvrage absent du PV (utiliser l'acheteur public du portail)."
+ ],
+ "qualite": "attribution"
+}

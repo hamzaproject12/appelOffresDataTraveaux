@@ -1,0 +1,90 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "973644",
+ "orgAcronyme": "g3h",
+ "reference_pv": "106/2025",
+ "nouveau": true,
+ "reference": "106/2025",
+ "objet": "Travaux de consolidation, de restauration et de réhabilitation des bâtisses menaçant ruine dans la médina de Sefrou Zone El Kalaa, en lot unique",
+ "acheteur": null,
+ "procedure": "appel d'offres ouvert",
+ "categorie": "Travaux",
+ "date_limite_plis": "20/01/2026",
+ "lieu_ouverture": "Siège de l’ADER-Fès",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "29/01/2026",
+ "justification": "Le concurrent ayant présenté l'offre financière la plus avantageuse et la moins disante.",
+ "infructueux": false,
+ "attributaire": "Société BUILDITEM SARL",
+ "montant_attribue": 802200.0,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "Société AMANHA WORLD TRADING SARL",
+   "montant_acte_engagement": 810564.0,
+   "montant_apres_verification": 1621128.0,
+   "autres_montants": [
+    1621128.0
+   ],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Société Z-BROTHERS SARL",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_dossier_administratif_technique",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Société BUILDITEM SARL",
+   "montant_acte_engagement": 802200.0,
+   "montant_apres_verification": 1604400.0,
+   "autres_montants": [
+    1604400.0
+   ],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Société MBSKA TRAVAUX SARL AU",
+   "montant_acte_engagement": 904776.0,
+   "montant_apres_verification": 1845192.0,
+   "autres_montants": [
+    1809552.0
+   ],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": true
+  },
+  {
+   "nom": "Société ACIER-PRO SARL",
+   "montant_acte_engagement": 810810.0,
+   "montant_apres_verification": 1621620.0,
+   "autres_montants": [
+    1621620.0
+   ],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 5,
+ "alertes_ocr": [],
+ "notes_ocr": [
+  "« Société AMANHA WORLD TRADING SARL » : montant rectifié de 810 564.00 à 1 621 128.00 DH.",
+  "« Société BUILDITEM SARL » : montant rectifié de 802 200.00 à 1 604 400.00 DH.",
+  "« Société MBSKA TRAVAUX SARL AU » : montant rectifié de 904 776.00 à 1 845 192.00 DH.",
+  "« Société ACIER-PRO SARL » : montant rectifié de 810 810.00 à 1 621 620.00 DH.",
+  "Maître d'ouvrage absent du PV (utiliser l'acheteur public du portail)."
+ ],
+ "qualite": "complet"
+}

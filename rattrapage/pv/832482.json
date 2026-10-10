@@ -1,0 +1,59 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "832482",
+ "orgAcronyme": "d4q",
+ "reference_pv": null,
+ "nouveau": true,
+ "reference": null,
+ "objet": "Renforcement de la ligne 22 KV entre les départs « BOUSKOURA-DAR BOUAZZA » et« BOUSKOURA-JOUALLA » WILAYA DU GRAND CASABLANCA == Lot Unique ==",
+ "acheteur": null,
+ "procedure": "appel d'offres ouvert",
+ "categorie": "Travaux",
+ "date_limite_plis": "21/12/2022",
+ "lieu_ouverture": "Direction Approvisionnements et Marchés (DAM) : 65, Rue Othman Ben Affan 20 000 Casablanca",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": null,
+ "justification": "offre avantageuse.",
+ "infructueux": false,
+ "attributaire": "Sté AKACH ELEC",
+ "montant_attribue": null,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "BATISTAR et AKACHELEC",
+   "montant_acte_engagement": 2158182.5,
+   "montant_apres_verification": null,
+   "autres_montants": [
+    2158182.5,
+    2158182.5,
+    2589819.0
+   ],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Sté AKACH ELEC",
+   "montant_acte_engagement": 2132876.5,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 2,
+ "alertes_ocr": [
+  "« Sté AKACH ELEC » absent de la liste des plis déposés (nom mal lu ?).",
+  "Montant de l'attributaire « Sté AKACH ELEC » non trouvé."
+ ],
+ "notes_ocr": [
+  "Maître d'ouvrage absent du PV (utiliser l'acheteur public du portail).",
+  "Montants exprimés hors taxes (HT)."
+ ],
+ "qualite": "complet"
+}

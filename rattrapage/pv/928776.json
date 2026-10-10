@@ -1,0 +1,51 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "928776",
+ "orgAcronyme": "g3h",
+ "reference_pv": "11/BG/2025",
+ "nouveau": true,
+ "reference": "11/BG/2025",
+ "objet": "Projet de construction d’un entrepôt au sein de la plateforme logistique pour les produits de première nécessité au niveau de la",
+ "acheteur": null,
+ "procedure": "appel d'offres ouvert international",
+ "categorie": "Travaux",
+ "date_limite_plis": "28/08/2025",
+ "lieu_ouverture": "Secrétariat Général Province D'oued Eddahab",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "04/09/2025",
+ "justification": "L’offre la mieux disant",
+ "infructueux": false,
+ "attributaire": "STE HNI DE TRAVAUX SONITRAV",
+ "montant_attribue": 13729351.78,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "STE HNI DE TRAVAUX SONITRAV",
+   "montant_acte_engagement": 13729351.78,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "STE STE ASSAMR DE CONSTRUCTION",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "depose",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 2,
+ "alertes_ocr": [],
+ "notes_ocr": [
+  "Maître d'ouvrage absent du PV (utiliser l'acheteur public du portail)."
+ ],
+ "qualite": "attribution"
+}

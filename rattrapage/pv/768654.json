@@ -1,0 +1,51 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "768654",
+ "orgAcronyme": "g3h",
+ "reference_pv": "126/2023",
+ "nouveau": true,
+ "reference": "126/2023",
+ "objet": "Travaux d'aménagement de la place des alaouites dans le cadre du projet d'amélioration du paysage",
+ "acheteur": null,
+ "procedure": "appel d'offres ouvert",
+ "categorie": "Travaux",
+ "date_limite_plis": "29/12/2023",
+ "lieu_ouverture": "Siège de l’ ADER-Fès",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "05/01/2024",
+ "justification": "Le concurrent ayant présenté une offre avantageuse.",
+ "infructueux": false,
+ "attributaire": "Société DELTA FLEURS SARL AU",
+ "montant_attribue": 418716.0,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "Société DELTA FLEURS SARL AU",
+   "montant_acte_engagement": 418716.0,
+   "montant_apres_verification": 418716.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Société ADEME MULTISERVICES",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_dossier_administratif_technique",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 2,
+ "alertes_ocr": [],
+ "notes_ocr": [
+  "Maître d'ouvrage absent du PV (utiliser l'acheteur public du portail)."
+ ],
+ "qualite": "attribution"
+}

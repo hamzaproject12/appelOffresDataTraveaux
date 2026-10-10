@@ -1,0 +1,65 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "692463",
+ "orgAcronyme": "j0w",
+ "reference_pv": "07/20222",
+ "nouveau": true,
+ "reference": "07/20222",
+ "objet": "EXTENSION DE RESEAU BASSE TENSION AUX DIFFERENTS DOUARS DE LA COMMUNE TIMLILT (POUR DES COMPTEUR D2 FILS)TRNCHE 2",
+ "acheteur": "Date d'ouverture des plis",
+ "procedure": "appel d'offres ouvert",
+ "categorie": "Travaux",
+ "date_limite_plis": null,
+ "lieu_ouverture": "Journaux ayant publié l'avis de publicité",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "08/12/2022",
+ "justification": "l'offre présentée répond aux exigences de l'administration.",
+ "infructueux": false,
+ "attributaire": null,
+ "montant_attribue": null,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "SOCIETE ROWLEC",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_dossier_administratif_technique",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "SOCIETE ANJJA MULTISERVICE",
+   "montant_acte_engagement": 287841.6,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_dossier_administratif_technique",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "SOCIETE RADDUANE ELEC TRAVAUX",
+   "montant_acte_engagement": 290260.8,
+   "montant_apres_verification": 287841.6,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_dossier_administratif_technique",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 3,
+ "alertes_ocr": [
+  "« SOCIETE ANJJA MULTISERVICE » absent de la liste des plis déposés (nom mal lu ?).",
+  "« SOCIETE RADDUANE ELEC TRAVAUX » absent de la liste des plis déposés (nom mal lu ?).",
+  "Attributaire non trouvé."
+ ],
+ "notes_ocr": [
+  "« SOCIETE ROWLEC » absent de la liste des plis déposés (nom mal lu ?).",
+  "« SOCIETE RADDUANE ELEC TRAVAUX » : montant rectifié de 290 260.80 à 287 841.60 DH."
+ ],
+ "qualite": "complet"
+}

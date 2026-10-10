@@ -1,0 +1,70 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "719870",
+ "orgAcronyme": "d4q",
+ "reference_pv": null,
+ "nouveau": true,
+ "reference": null,
+ "objet": null,
+ "acheteur": null,
+ "procedure": "appel d'offres ouvert",
+ "categorie": "Travaux",
+ "date_limite_plis": "22/05/2023",
+ "lieu_ouverture": "Siège de la Direction Régionale Guelmim Oued Noun (DRG) Quartier administratif, Bd Al Fida, Imm C, 2ème étage - Guelmim - Maroc",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "07/06/2023",
+ "justification": "Moins-disant",
+ "infructueux": false,
+ "attributaire": "ALMIZA CANALISATION - Offre de",
+ "montant_attribue": 147120.0,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "ENS NS sai 5 | i à si à sS ss",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "depose",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "ALMIZA CANALISATION - Offre de",
+   "montant_acte_engagement": 147120.0,
+   "montant_apres_verification": 147120.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "GROUP SOCIETE D'INTERVENTION ET TRAVAUX MAROC - MAROC",
+   "montant_acte_engagement": 169464.0,
+   "montant_apres_verification": 169464.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "PROGMELEC SARL AU MAROC",
+   "montant_acte_engagement": 181740.0,
+   "montant_apres_verification": 186540.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 4,
+ "alertes_ocr": [],
+ "notes_ocr": [
+  "« PROGMELEC SARL AU MAROC » : montant rectifié de 181 740.00 à 186 540.00 DH.",
+  "Maître d'ouvrage absent du PV (utiliser l'acheteur public du portail)."
+ ],
+ "qualite": "complet"
+}

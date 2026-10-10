@@ -1,0 +1,43 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "828340",
+ "orgAcronyme": "d4q",
+ "reference_pv": "054124879",
+ "nouveau": true,
+ "reference": "054124879",
+ "objet": "Date et heure Date d'achèvement Concurrent retenu Montant de d'ouverture des des travaux de la l'offre retenue plis Commission (DH/HT)",
+ "acheteur": null,
+ "procedure": null,
+ "categorie": "Travaux",
+ "date_limite_plis": "26/06/2024",
+ "lieu_ouverture": "Casablanca",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": null,
+ "justification": "seul soumissionnaire",
+ "infructueux": false,
+ "attributaire": "ENTREPRISE ARHILAS ALI",
+ "montant_attribue": 3324355.0,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "ENTREPRISE ARHILAS ALI",
+   "montant_acte_engagement": 3324355.0,
+   "montant_apres_verification": 3324355.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 1,
+ "alertes_ocr": [],
+ "notes_ocr": [
+  "Maître d'ouvrage absent du PV (utiliser l'acheteur public du portail).",
+  "Montants exprimés hors taxes (HT)."
+ ],
+ "qualite": "attribution"
+}

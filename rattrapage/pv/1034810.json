@@ -1,0 +1,58 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "1034810",
+ "orgAcronyme": "o8p",
+ "reference_pv": "26T045/PLGV",
+ "nouveau": true,
+ "reference": "26T045/PLGV",
+ "objet": "Travaux de construction des Gares RER de Casablanca",
+ "acheteur": null,
+ "procedure": null,
+ "categorie": "Travaux",
+ "date_limite_plis": "18/08/2026",
+ "lieu_ouverture": "Institut de Formation et de Développement de Compétences l'ONCF",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "24/08/2026",
+ "justification": "offre moins disante conforme.",
+ "infructueux": false,
+ "attributaire": "GIDNA SARL",
+ "montant_attribue": 214522590.85,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "URBAGEC SARL",
+   "montant_acte_engagement": 214874448.0,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [
+    "1"
+   ],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "GIDNA SARL",
+   "montant_acte_engagement": 214522590.85,
+   "montant_apres_verification": null,
+   "autres_montants": [
+    256196713.2
+   ],
+   "lots": [
+    "1"
+   ],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 2,
+ "alertes_ocr": [],
+ "notes_ocr": [
+  "Maître d'ouvrage absent du PV (utiliser l'acheteur public du portail).",
+  "Montants exprimés hors taxes (HT)."
+ ],
+ "qualite": "complet"
+}

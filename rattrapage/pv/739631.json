@@ -1,0 +1,69 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "739631",
+ "orgAcronyme": "p1v",
+ "reference_pv": "09/2023/CZ",
+ "nouveau": true,
+ "reference": "09/2023/CZ",
+ "objet": "TRAVAUX DE CONSTRUCTION D'UNE CLOTURE EN VOILE EN BETON ARME POUR LA DECHARGE PUBLIQUE DE LA VILLE DE ZEMAMRA (1ère TRANCHE)",
+ "acheteur": "Commune de Zemamra",
+ "procedure": null,
+ "categorie": "Travaux",
+ "date_limite_plis": "05/07/2023",
+ "lieu_ouverture": "_: Siège de la commune de Zemamra",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "24/08/2023",
+ "justification": null,
+ "infructueux": false,
+ "attributaire": "Sté SOGECTA sarl - BENI-MELLAL",
+ "montant_attribue": 2731392.0,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "Sté NANOTRA sarl - OUARZAZATE",
+   "montant_acte_engagement": 2995896.0,
+   "montant_apres_verification": 2995896.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "électronique société SOGECTA sarl - BENI-MELLAL",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "depose",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Sté travaux OMS sarl - CASABLANCA",
+   "montant_acte_engagement": 3048684.0,
+   "montant_apres_verification": 3048684.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Sté SOGECTA sarl - BENI-MELLAL",
+   "montant_acte_engagement": 2731392.0,
+   "montant_apres_verification": 2731392.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 4,
+ "alertes_ocr": [
+  "« Sté SOGECTA sarl - BENI-MELLAL » absent de la liste des plis déposés (nom mal lu ?)."
+ ],
+ "notes_ocr": [],
+ "qualite": "complet"
+}

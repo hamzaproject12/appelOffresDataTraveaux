@@ -1,0 +1,71 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "910559",
+ "orgAcronyme": "o8p",
+ "reference_pv": "25T012/PLGV",
+ "nouveau": true,
+ "reference": "25T012/PLGV",
+ "objet": "de ne",
+ "acheteur": "M. le Directeur Equipements ferroviaires du Pole Projets LGV",
+ "procedure": "appel d'offres ouvert",
+ "categorie": "Travaux",
+ "date_limite_plis": "19/06/2025",
+ "lieu_ouverture": "Institut de Formation et de Développement de Compétences l'ONCF",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "26/06/2025",
+ "justification": null,
+ "infructueux": true,
+ "attributaire": "BO TECHNOLOGY",
+ "montant_attribue": 127199400.0,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "BO TECHNOLOGY",
+   "montant_acte_engagement": 127199400.0,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [
+    "1",
+    "3"
+   ],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Groupement conjoint COLAS RAIL/COLAS RAIL MAROC",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "depose",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Groupement conjoint COLAS RAIL/ Part Euro",
+   "montant_acte_engagement": 15296784.29,
+   "montant_apres_verification": null,
+   "autres_montants": [
+    9740688.96,
+    2390797.26
+   ],
+   "lots": [
+    "1"
+   ],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 3,
+ "alertes_ocr": [
+  "« Groupement conjoint COLAS RAIL/ Part Euro » absent de la liste des plis déposés (nom mal lu ?)."
+ ],
+ "notes_ocr": [
+  "Marché alloti (2 lots).",
+  "Montants exprimés hors taxes (HT)."
+ ],
+ "qualite": "complet"
+}

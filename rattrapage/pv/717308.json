@@ -1,0 +1,107 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "717308",
+ "orgAcronyme": "q1s",
+ "reference_pv": null,
+ "nouveau": true,
+ "reference": null,
+ "objet": "TRAVAUX D’AMENAGEMENT ET DE REHABILITATION DES PERIMETRES DE PETITES ET MOYENNES HYDRAULIQUES A LA PREFECTURE DE MEKNES REPARTIE EN DEUX LOTS",
+ "acheteur": "Directeur Provincial de Agriculture de Meknès",
+ "procedure": null,
+ "categorie": "Travaux",
+ "date_limite_plis": "10/05/2023",
+ "lieu_ouverture": "Salle de réunion de la DPA de Meknès",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "22/05/2023",
+ "justification": "Possédant des références techniques et son offre est plus intéressante.",
+ "infructueux": false,
+ "attributaire": "HAJJT IMAF à FES",
+ "montant_attribue": 1282140.0,
+ "attributaires_par_lot": [
+  {
+   "lot": null,
+   "attributaire": "HAJJT IMAF à FES",
+   "montant": 1282140.0
+  },
+  {
+   "lot": null,
+   "attributaire": "STE MH TRAVAUX à FES",
+   "montant": 813000.0
+  }
+ ],
+ "soumissionnaires": [
+  {
+   "nom": "STE TRAV GROUP SARL à SIDI KACEM",
+   "montant_acte_engagement": 1294560.0,
+   "montant_apres_verification": 1294560.0,
+   "autres_montants": [
+    863040.0
+   ],
+   "lots": [
+    "1",
+    "2"
+   ],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "KHALID BERDI à TAZA",
+   "montant_acte_engagement": 1404108.0,
+   "montant_apres_verification": 1404108.0,
+   "autres_montants": [],
+   "lots": [
+    "1"
+   ],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "ALMOUGNI TR à ERRACHIDIA",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [
+    "1"
+   ],
+   "statut": "depose",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "HAJJT IMAF à FES",
+   "montant_acte_engagement": 1282140.0,
+   "montant_apres_verification": 1282140.0,
+   "autres_montants": [],
+   "lots": [
+    "1"
+   ],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "STE MH TRAVAUX à FES",
+   "montant_acte_engagement": 1226772.0,
+   "montant_apres_verification": 1226772.0,
+   "autres_montants": [
+    813000.0
+   ],
+   "lots": [
+    "1",
+    "2"
+   ],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 5,
+ "alertes_ocr": [
+  "« STE MH TRAVAUX à FES » absent de la liste des plis déposés (nom mal lu ?)."
+ ],
+ "notes_ocr": [
+  "Marché alloti (2 lots)."
+ ],
+ "qualite": "complet"
+}

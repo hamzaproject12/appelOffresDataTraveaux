@@ -1,0 +1,60 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "765887",
+ "orgAcronyme": "o8p",
+ "reference_pv": "73/2023-N",
+ "nouveau": true,
+ "reference": "73/2023-N",
+ "objet": "Travaux de reconstruction de la mosquée Ichemhane à la commune Tounfite - Province de Midelt",
+ "acheteur": null,
+ "procedure": "appel d'offres ouvert national",
+ "categorie": "Travaux",
+ "date_limite_plis": "11/12/2023",
+ "lieu_ouverture": "Bureau de Monsieur le Directeur Régional de l’ Agence Nationale des Equipements",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "20/12/2023",
+ "justification": "Les éléments contenus dans son dossier administratif et technique et son offre financière.",
+ "infructueux": false,
+ "attributaire": "Groupement Société TAZLGHA DE TRAVAUX sarl et EKTS sarl",
+ "montant_attribue": 5803350.0,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "Société GENETRA sarl au",
+   "montant_acte_engagement": 7148064.0,
+   "montant_apres_verification": 7148064.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_offre_financiere",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Société SCOTIM sarl",
+   "montant_acte_engagement": 6880000.8,
+   "montant_apres_verification": 6880000.8,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Groupement Société TAZLGHA DE TRAVAUX sarl et EKTS sarl",
+   "montant_acte_engagement": 5803350.0,
+   "montant_apres_verification": 5803350.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": true
+  }
+ ],
+ "nombre_soumissionnaires": 3,
+ "alertes_ocr": [],
+ "notes_ocr": [
+  "Maître d'ouvrage absent du PV (utiliser l'acheteur public du portail)."
+ ],
+ "qualite": "complet"
+}

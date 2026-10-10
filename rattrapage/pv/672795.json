@@ -1,0 +1,49 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "672795",
+ "orgAcronyme": "g3h",
+ "reference_pv": "111/2022",
+ "nouveau": true,
+ "reference": "111/2022",
+ "objet": null,
+ "acheteur": "Régie Autonome Multi-Services d’ Agadir",
+ "procedure": null,
+ "categorie": "Travaux",
+ "date_limite_plis": "27/10/2022",
+ "lieu_ouverture": "Siège de la RAMSA",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "27/10/2022",
+ "justification": null,
+ "infructueux": true,
+ "attributaire": null,
+ "montant_attribue": null,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "ENIRAP",
+   "montant_acte_engagement": 6932454.0,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_offre_financiere",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "PERFORMANCE TECHNOLOGY",
+   "montant_acte_engagement": 9516564.0,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_offre_financiere",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 2,
+ "alertes_ocr": [],
+ "notes_ocr": [],
+ "qualite": "complet"
+}

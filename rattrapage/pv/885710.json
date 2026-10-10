@@ -1,0 +1,75 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "885710",
+ "orgAcronyme": "o8p",
+ "reference_pv": "N-ms",
+ "nouveau": true,
+ "reference": "N-ms",
+ "objet": "« TRAVAUX D'AMENAGEMENT EXTERIEUR DU BATIMENT DE LA CAPITAINERIE DU PORT DE MOHAMMEDIA»",
+ "acheteur": "Agence Nationale des ports : Direction du Port de Mohammedia et Région",
+ "procedure": "appel d'offres ouvert",
+ "categorie": "Travaux",
+ "date_limite_plis": "25/03/2025",
+ "lieu_ouverture": "ANP/DPMR Conformément à l'avis publié dans : Désignation journaux Langue Date de parution Date de report",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "08/04/2025",
+ "justification": null,
+ "infructueux": false,
+ "attributaire": null,
+ "montant_attribue": null,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "Groupement VIABUILD SARL AU et KARMO TRAV SARL AU",
+   "montant_acte_engagement": 2790280.0,
+   "montant_apres_verification": 2790280.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_offre_technique",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Groupement ACHGHAL TEMARA SARL AU et UNIVERS TRAVAUX",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_offre_technique",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "ROUTIERS SARL AU",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_offre_technique",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Groupement MAJI TRAVAUX SARL et AJIDEK SARL",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_offre_technique",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 4,
+ "alertes_ocr": [
+  "« Groupement VIABUILD SARL AU et KARMO TRAV SARL AU » absent de la liste des plis déposés (nom mal lu ?).",
+  "Attributaire non trouvé."
+ ],
+ "notes_ocr": [
+  "« Groupement ACHGHAL TEMARA SARL AU et UNIVERS TRAVAUX » absent de la liste des plis déposés (nom mal lu ?).",
+  "« ROUTIERS SARL AU » absent de la liste des plis déposés (nom mal lu ?).",
+  "« Groupement MAJI TRAVAUX SARL et AJIDEK SARL » absent de la liste des plis déposés (nom mal lu ?).",
+  "Montants exprimés hors taxes (HT)."
+ ],
+ "qualite": "attribution"
+}

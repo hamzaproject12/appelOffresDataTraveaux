@@ -1,0 +1,63 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "921037",
+ "orgAcronyme": "g3h",
+ "reference_pv": "10000801/1R",
+ "nouveau": true,
+ "reference": "10000801/1R",
+ "objet": "Travaux d’entretien sur réseau d’assainissement liquide au niveau des villes et centres relevant de la Direction Provinciale de Driouch",
+ "acheteur": null,
+ "procedure": null,
+ "categorie": "Travaux",
+ "date_limite_plis": "04/07/2025",
+ "lieu_ouverture": "Siège de la SRM-ORI",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "01/08/2025",
+ "justification": "Offre moins-disante conforme.",
+ "infructueux": false,
+ "attributaire": "STF. ZAHRAA DES TRAVAUX ET ASSAINISSEMENT SARL",
+ "montant_attribue": 173017.2,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "SANI FARAJI DE TRAVAUX DIVERS",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "STF. ZAHRAA DES TRAVAUX ET ASSAINISSEMENT SARL",
+   "montant_acte_engagement": 173017.2,
+   "montant_apres_verification": 506827.2,
+   "autres_montants": [
+    506827.2
+   ],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "GESTION D'ENTRETIEN ET DE TRAVAUX DIVERS",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_dossier_administratif_technique",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 3,
+ "alertes_ocr": [],
+ "notes_ocr": [
+  "« STF. ZAHRAA DES TRAVAUX ET ASSAINISSEMENT SARL » : montant rectifié de 173 017.20 à 506 827.20 DH.",
+  "Maître d'ouvrage absent du PV (utiliser l'acheteur public du portail)."
+ ],
+ "qualite": "attribution"
+}

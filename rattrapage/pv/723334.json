@@ -1,0 +1,105 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "723334",
+ "orgAcronyme": "o8p",
+ "reference_pv": "057-23-AOO",
+ "nouveau": true,
+ "reference": "057-23-AOO",
+ "objet": "Travaux d'entretien des menuiseries à la plateforme aéroportuaire Casablanca Mohammed V",
+ "acheteur": "l'OFFICE NATIONAL DES AEROPORTS",
+ "procedure": "appel d'offres ouvert",
+ "categorie": "Travaux",
+ "date_limite_plis": "25/05/2023",
+ "lieu_ouverture": "La salle de réunion de la Direction des Achats et de la Logistique",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "20/06/2023",
+ "justification": "Moins-disant conforme.",
+ "infructueux": false,
+ "attributaire": "Concurrenis TIMAL",
+ "montant_attribue": 5094600.0,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "4 NEW NICE",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Concurrenis TIMAL",
+   "montant_acte_engagement": 5094600.0,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "MEDI ATLAS DE TRAVAUX DIVERS",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Æ di Lily: bell. <l",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": true
+  },
+  {
+   "nom": "cs Office National Des Aéroports",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": true
+  },
+  {
+   "nom": "DIVERS DE",
+   "montant_acte_engagement": 5100000.0,
+   "montant_apres_verification": null,
+   "autres_montants": [
+    5100000.0
+   ],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "RABAIS DE",
+   "montant_acte_engagement": 5094600.0,
+   "montant_apres_verification": 5094600.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 7,
+ "alertes_ocr": [
+  "« Concurrenis TIMAL » absent de la liste des plis déposés (nom mal lu ?).",
+  "« DIVERS DE » absent de la liste des plis déposés (nom mal lu ?).",
+  "« RABAIS DE » absent de la liste des plis déposés (nom mal lu ?)."
+ ],
+ "notes_ocr": [
+  "« 4 NEW NICE » absent de la liste des plis déposés (nom mal lu ?).",
+  "« MEDI ATLAS DE TRAVAUX DIVERS » absent de la liste des plis déposés (nom mal lu ?).",
+  "« Æ di Lily: bell. <l » absent de la liste des plis déposés (nom mal lu ?).",
+  "« cs Office National Des Aéroports » absent de la liste des plis déposés (nom mal lu ?)."
+ ],
+ "qualite": "complet"
+}

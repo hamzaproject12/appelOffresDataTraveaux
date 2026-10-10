@@ -1,0 +1,64 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "822545",
+ "orgAcronyme": "o8p",
+ "reference_pv": "15/AOO/DPMR-ANP/2024",
+ "nouveau": true,
+ "reference": "15/AOO/DPMR-ANP/2024",
+ "objet": null,
+ "acheteur": "Agence Nationale des ports / Direction du Port de Mohammedia Et Région",
+ "procedure": "appel d'offres ouvert",
+ "categorie": "Travaux",
+ "date_limite_plis": "16/07/2024",
+ "lieu_ouverture": "ANP/DPMR/DPM Conformément à l'avis publié : Désignation journaux Langue Date de parution",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": null,
+ "justification": null,
+ "infructueux": false,
+ "attributaire": "STE AL ITFAI SARL",
+ "montant_attribue": 117700.0,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "STE AL ITFAI SARL",
+   "montant_acte_engagement": 117700.0,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "STE DEEP CLEANING",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_dossier_administratif_technique",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "STE MOURAD TRAIÎTEMENT",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_dossier_administratif_technique",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 3,
+ "alertes_ocr": [
+  "« STE AL ITFAI SARL » absent de la liste des plis déposés (nom mal lu ?)."
+ ],
+ "notes_ocr": [
+  "« STE DEEP CLEANING » absent de la liste des plis déposés (nom mal lu ?).",
+  "« STE MOURAD TRAIÎTEMENT » absent de la liste des plis déposés (nom mal lu ?).",
+  "Montants exprimés hors taxes (HT)."
+ ],
+ "qualite": "attribution"
+}

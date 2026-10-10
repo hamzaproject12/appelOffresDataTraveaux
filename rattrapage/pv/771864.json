@@ -1,0 +1,137 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "771864",
+ "orgAcronyme": "g3h",
+ "reference_pv": "75/PT/2023",
+ "nouveau": true,
+ "reference": "75/PT/2023",
+ "objet": "Travaux de construction de douze latrines aux communes : Ain Lagdah (SS Didba), Ain Mediouna (Tazouda), Bni Oulid (Chrarta), Bni Ounjel Tafraout (El Knatra), Bouarouss (Oulad Atia), Bouhouda (Douira et Chkayer), Fennassa Bab El Hit",
+ "acheteur": null,
+ "procedure": null,
+ "categorie": "Travaux",
+ "date_limite_plis": "09/06/2023",
+ "lieu_ouverture": "le bureau du Secrétariat Général de la Province de Taounate",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": null,
+ "justification": "101-3 105-4 303 503 et 505, du bordereau des prix détail estimatif qui ont été jugé anormalement bas, ainsi que le prix unitaire des articles n° 102-3 104-2 104-4 104-6105-1 105-2 105-3 201 202 304 401402 403 405 602 604 ef 605, qui ont été jugé excessifs par la commission d'appel d'offres et ce conformément au modèle cadre du sous-détail des prix publié au bulletin officiel n° 6214 du 19 décembre",
+ "infructueux": false,
+ "attributaire": "SOCIETE A.M.R.J SARL A TINGHIR",
+ "montant_attribue": 1512417.6,
+ "attributaires_par_lot": [
+  {
+   "lot": null,
+   "attributaire": "SOCIETE A.M.R.J SARL A TINGHIR",
+   "montant": 1512417.6
+  },
+  {
+   "lot": null,
+   "attributaire": "SOCIETE BEST COSNTRUCTIONS SARL A FES",
+   "montant": 1567233.0
+  }
+ ],
+ "soumissionnaires": [
+  {
+   "nom": "SOCIETE LBABRA CONSTRUTION SARL A TAOUNATE",
+   "montant_acte_engagement": 1577832.0,
+   "montant_apres_verification": null,
+   "autres_montants": [
+    1577832.0
+   ],
+   "lots": [],
+   "statut": "ecarte_dossier_administratif_technique",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "SOCIETE BEST COSNTRUCTIONS SARL A FES",
+   "montant_acte_engagement": 1567233.0,
+   "montant_apres_verification": null,
+   "autres_montants": [
+    1567233.0
+   ],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "SOCIETE ANAFALMANE SARL A AZILAL",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_dossier_administratif_technique",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "SOCIETE A.M.R.J SARL A TINGHIR",
+   "montant_acte_engagement": 1512417.6,
+   "montant_apres_verification": null,
+   "autres_montants": [
+    1512417.6
+   ],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "SOCIETE ECH-ABETTA SARL ENTREPRENEUR DE TRAVAUX DIVERS",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_dossier_administratif_technique",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "TAOUNATE",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_dossier_administratif_technique",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "SOCIETE INFRATKHOU SARL AU A TINGHIR",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_dossier_administratif_technique",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "SOCIETE BAADI DE TRAVAUX ET FOURNITURE SARL AU A BENI MELLAL",
+   "montant_acte_engagement": 1756665.6,
+   "montant_apres_verification": null,
+   "autres_montants": [
+    1756665.6
+   ],
+   "lots": [],
+   "statut": "ecarte_dossier_administratif_technique",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "SORTE ANAFALMANE SARL À",
+   "montant_acte_engagement": 1546464.0,
+   "montant_apres_verification": null,
+   "autres_montants": [
+    1546464.0
+   ],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 9,
+ "alertes_ocr": [
+  "« SORTE ANAFALMANE SARL À » absent de la liste des plis déposés (nom mal lu ?)."
+ ],
+ "notes_ocr": [
+  "Maître d'ouvrage absent du PV (utiliser l'acheteur public du portail)."
+ ],
+ "qualite": "complet"
+}

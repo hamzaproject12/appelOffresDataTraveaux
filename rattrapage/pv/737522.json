@@ -1,0 +1,75 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "737522",
+ "orgAcronyme": "s3d",
+ "reference_pv": null,
+ "nouveau": true,
+ "reference": null,
+ "objet": null,
+ "acheteur": null,
+ "procedure": "appel d'offres ouvert",
+ "categorie": "Travaux",
+ "date_limite_plis": null,
+ "lieu_ouverture": null,
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": null,
+ "justification": "des concurrents Appel d'offre ouvert sur offre de prix N\"01/2023 relatif aux Travaux d'aménagement de centre d'accueil Essaoui relevant de la direction provinciale du ministère de la jeunesse de la culture et de la communication départemet jeunesse lot unique Le 77/07 /2023 à 15h 30mn la sous-commission technique d'appel d'offre N\"01/2023 composée de Mrs : -Mr MOHAMED AQDIM : représentant du burea",
+ "infructueux": false,
+ "attributaire": null,
+ "montant_attribue": null,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "STE MOLFETA BUSINESS SARL (soumission électronique)",
+   "montant_acte_engagement": 1497525.6,
+   "montant_apres_verification": 1497525.6,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_dossier_administratif_technique",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "STE MOGANOUR TRAVAUX SARL AU (soumission électronique)",
+   "montant_acte_engagement": 1521150.0,
+   "montant_apres_verification": 1521150.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_dossier_administratif_technique",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "STE FINO INTERIEUR SARL AU (soumission électronique)",
+   "montant_acte_engagement": 1583791.2,
+   "montant_apres_verification": 1583791.2,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_dossier_administratif_technique",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "STE SUD CONSTRA SARL",
+   "montant_acte_engagement": 1342735.2,
+   "montant_apres_verification": 1342735.2,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_dossier_administratif_technique",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 4,
+ "alertes_ocr": [
+  "« STE MOLFETA BUSINESS SARL (soumission électronique) » absent de la liste des plis déposés (nom mal lu ?).",
+  "« STE MOGANOUR TRAVAUX SARL AU (soumission électronique) » absent de la liste des plis déposés (nom mal lu ?).",
+  "« STE FINO INTERIEUR SARL AU (soumission électronique) » absent de la liste des plis déposés (nom mal lu ?).",
+  "« STE SUD CONSTRA SARL » absent de la liste des plis déposés (nom mal lu ?).",
+  "Attributaire non trouvé."
+ ],
+ "notes_ocr": [
+  "Maître d'ouvrage absent du PV (utiliser l'acheteur public du portail)."
+ ],
+ "qualite": "complet"
+}

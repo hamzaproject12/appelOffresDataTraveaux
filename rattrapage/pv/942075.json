@@ -1,0 +1,60 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "942075",
+ "orgAcronyme": "d4q",
+ "reference_pv": null,
+ "nouveau": true,
+ "reference": null,
+ "objet": null,
+ "acheteur": null,
+ "procedure": "appel d'offres ouvert",
+ "categorie": "Travaux",
+ "date_limite_plis": "10/09/2025",
+ "lieu_ouverture": "au siège de la Direction Régionale Daraa-Tafilalet (DRD)",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "20/10/2025",
+ "justification": "Moins-disant",
+ "infructueux": false,
+ "attributaire": "ENTR BEN KADDOUR ABDELFATTAH - Offre de",
+ "montant_attribue": 351816.0,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "ENTR BEN KADDOUR ABDELFATTAH - Offre de",
+   "montant_acte_engagement": 351816.0,
+   "montant_apres_verification": 351816.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "RAHAGROV MAROC",
+   "montant_acte_engagement": 358849.2,
+   "montant_apres_verification": 358849.2,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "RASYL TRAV",
+   "montant_acte_engagement": 265002.0,
+   "montant_apres_verification": 265002.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_dossier_administratif_technique",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 3,
+ "alertes_ocr": [],
+ "notes_ocr": [
+  "Maître d'ouvrage absent du PV (utiliser l'acheteur public du portail)."
+ ],
+ "qualite": "complet"
+}

@@ -1,0 +1,75 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "798554",
+ "orgAcronyme": "j8k",
+ "reference_pv": "16/2024",
+ "nouveau": true,
+ "reference": "16/2024",
+ "objet": "TRAVAUX DE CABLAGE DU RESEAU TELEPHONIQUE DU LOTISSEMENT LAKSOUR SIS A LA COMMUNE TERRITORIALE BOUMALEN DADES - PROVINCE DE TINGHIR",
+ "acheteur": null,
+ "procedure": "appel d'offres ouvert",
+ "categorie": "Travaux",
+ "date_limite_plis": "07/05/2024",
+ "lieu_ouverture": "SOCIETE AL OMRANE DRÂA-TAFILALET",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": null,
+ "justification": null,
+ "infructueux": false,
+ "attributaire": "ALPHA GTP",
+ "montant_attribue": 2925984.6,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "TRAINVEST",
+   "montant_acte_engagement": 3303531.0,
+   "montant_apres_verification": null,
+   "autres_montants": [
+    3303531.0
+   ],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "ALPHA GTP",
+   "montant_acte_engagement": 2925984.6,
+   "montant_apres_verification": null,
+   "autres_montants": [
+    2925984.6
+   ],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "REUSSITE TELECOM",
+   "montant_acte_engagement": 3429379.8,
+   "montant_apres_verification": null,
+   "autres_montants": [
+    3429379.8
+   ],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "HAMATEL",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 4,
+ "alertes_ocr": [],
+ "notes_ocr": [
+  "Maître d'ouvrage absent du PV (utiliser l'acheteur public du portail)."
+ ],
+ "qualite": "complet"
+}

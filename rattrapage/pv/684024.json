@@ -1,0 +1,60 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "684024",
+ "orgAcronyme": "s3d",
+ "reference_pv": "05/2022",
+ "nouveau": true,
+ "reference": "05/2022",
+ "objet": "Travaux d'aménagement de 5 maison de jeunes (Hakkou,Taourirt,Wifak,Skikar,Naima) et 1",
+ "acheteur": "DIRECTION REGIONALE DE LA JEUNESSE, DE L’'ORIENTALE",
+ "procedure": "appel d'offres ouvert",
+ "categorie": "Travaux",
+ "date_limite_plis": "08/12/2022",
+ "lieu_ouverture": "SIEGE DE LA DIRECTION REGIONALE DU LA JEUNESSE, DE L'ORIENTAL",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "13/12/2022",
+ "justification": "L'Offre la moins-disante. : STE SAP ESTUDIOS SARL : 1 268 256.00 DHS",
+ "infructueux": false,
+ "attributaire": null,
+ "montant_attribue": null,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "STE SAP ESTUDIOS SARL",
+   "montant_acte_engagement": 1268256.0,
+   "montant_apres_verification": 1268256.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": true
+  },
+  {
+   "nom": "STE EL HASNAOUI ABDELHADI TRAVAUX",
+   "montant_acte_engagement": 1470804.0,
+   "montant_apres_verification": 1470804.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "STE PETRAC SARL",
+   "montant_acte_engagement": 1728000.0,
+   "montant_apres_verification": 1728000.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 3,
+ "alertes_ocr": [
+  "Attributaire non trouvé."
+ ],
+ "notes_ocr": [],
+ "qualite": "complet"
+}

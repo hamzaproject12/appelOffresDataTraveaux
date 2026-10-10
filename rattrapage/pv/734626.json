@@ -1,0 +1,63 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "734626",
+ "orgAcronyme": "q1s",
+ "reference_pv": "26/2023/ANDA",
+ "nouveau": true,
+ "reference": "26/2023/ANDA",
+ "objet": "l'acquisition, installation et mise en service d’une unité de fabrique de glace automatique, en lot unique",
+ "acheteur": "Agence Nationale pour le Développement de l’Aquaculture",
+ "procedure": null,
+ "categorie": "Travaux",
+ "date_limite_plis": "18/07/2023",
+ "lieu_ouverture": "Salle de réunion de l'ANDA",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "04/08/2023",
+ "justification": "ogues",
+ "infructueux": false,
+ "attributaire": "VENTEC",
+ "montant_attribue": 4412428.8,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "VENTEC",
+   "montant_acte_engagement": 4412428.8,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": true
+  },
+  {
+   "nom": "CHRISTOPHE ICE",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_dossier_administratif_technique",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "CONSAMECO",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_dossier_administratif_technique",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 3,
+ "alertes_ocr": [
+  "« VENTEC » absent de la liste des plis déposés (nom mal lu ?)."
+ ],
+ "notes_ocr": [
+  "« CHRISTOPHE ICE » absent de la liste des plis déposés (nom mal lu ?).",
+  "« CONSAMECO » absent de la liste des plis déposés (nom mal lu ?)."
+ ],
+ "qualite": "attribution"
+}

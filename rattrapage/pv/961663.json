@@ -1,0 +1,76 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "961663",
+ "orgAcronyme": "j8k",
+ "reference_pv": "82/2025",
+ "nouveau": true,
+ "reference": "82/2025",
+ "objet": "TRAVAUX D'ASSAINISSEMENT LIQUIDE DES QUARTIERS SOUS EQUIPES [BOUABID ECHARQUI 1 ET 2, ALWIFAQ ET D'assainissement Liquide Mutualisé de Réutilisation des Eaux Usées Traitées (PNAM) 5",
+ "acheteur": "SOCIETE AL OMRANE DRÂA-TAFILALET YŸ",
+ "procedure": "appel d'offres ouvert",
+ "categorie": "Travaux",
+ "date_limite_plis": null,
+ "lieu_ouverture": "SOCIETE AL OMRANE DRÂA-TAFILALET",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": null,
+ "justification": "l'offre la mieux disante par rapport au prix de référence.",
+ "infructueux": false,
+ "attributaire": "GMTP",
+ "montant_attribue": 17722193.83,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "SMYBAM",
+   "montant_acte_engagement": 17258180.78,
+   "montant_apres_verification": null,
+   "autres_montants": [
+    17258180.78
+   ],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "GRP GRTP & SNRH",
+   "montant_acte_engagement": 18595021.37,
+   "montant_apres_verification": null,
+   "autres_montants": [
+    18595021.37
+   ],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": true
+  },
+  {
+   "nom": "ETABLISSEMENT ESSAKINI",
+   "montant_acte_engagement": 17629046.23,
+   "montant_apres_verification": null,
+   "autres_montants": [
+    17629046.23
+   ],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "GMTP",
+   "montant_acte_engagement": 17722193.83,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 4,
+ "alertes_ocr": [
+  "« ETABLISSEMENT ESSAKINI » absent de la liste des plis déposés (nom mal lu ?).",
+  "« GMTP » absent de la liste des plis déposés (nom mal lu ?)."
+ ],
+ "notes_ocr": [],
+ "qualite": "complet"
+}

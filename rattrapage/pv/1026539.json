@@ -1,0 +1,153 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "1026539",
+ "orgAcronyme": "g3h",
+ "reference_pv": "45/2026/SFRA-TRVX",
+ "nouveau": true,
+ "reference": "45/2026/SFRA-TRVX",
+ "objet": "Travaux d'aménagement de la RP 5006 à la ville de Fès, -Wilaya de la Région Fès Meknès- en quatre lots",
+ "acheteur": null,
+ "procedure": "appel d'offres ouvert",
+ "categorie": "Travaux",
+ "date_limite_plis": null,
+ "lieu_ouverture": "les bureaux de la « Société Fès Région ménagements »",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": null,
+ "justification": "les offres (lot n°1 et lot n°2) les plus avantageuses pour l'Administration Date de l’achèvement des travaux de la commission : le 21 Avril 2026.",
+ "infructueux": false,
+ "attributaire": "Société GTR CHOUROUXK SARL à Fès",
+ "montant_attribue": 44319360.0,
+ "attributaires_par_lot": [
+  {
+   "lot": "1",
+   "attributaire": "Société GTR CHOUROUXK SARL à Fès",
+   "montant": 44319360.0
+  },
+  {
+   "lot": "2",
+   "attributaire": "Société VIAS SA à Casablanca",
+   "montant": 43772265.6
+  }
+ ],
+ "soumissionnaires": [
+  {
+   "nom": "Société GCR sa à Skhirat",
+   "montant_acte_engagement": 47628632.4,
+   "montant_apres_verification": 47628632.4,
+   "autres_montants": [
+    47484838.8
+   ],
+   "lots": [
+    "1",
+    "2"
+   ],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Société GAMPEZO SARL à Rabat",
+   "montant_acte_engagement": 45678399.6,
+   "montant_apres_verification": 45678399.6,
+   "autres_montants": [
+    46120466.4
+   ],
+   "lots": [
+    "1",
+    "2"
+   ],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Société VIAS SA à Casablanca",
+   "montant_acte_engagement": 43974630.0,
+   "montant_apres_verification": 43974630.0,
+   "autres_montants": [
+    43772265.6
+   ],
+   "lots": [
+    "1",
+    "2"
+   ],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Société GTR CHOUROUXK SARL à Fès",
+   "montant_acte_engagement": 44319360.0,
+   "montant_apres_verification": 44319360.0,
+   "autres_montants": [
+    44137576.8
+   ],
+   "lots": [
+    "1",
+    "2"
+   ],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Société GTR à Casablanca",
+   "montant_acte_engagement": 47216148.0,
+   "montant_apres_verification": 47216148.0,
+   "autres_montants": [
+    46612850.0
+   ],
+   "lots": [
+    "1",
+    "2"
+   ],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Groupement conjoint des Sociétés EUROLOGISTIQUE et ITRA à Temara",
+   "montant_acte_engagement": 43773240.0,
+   "montant_apres_verification": 43773240.0,
+   "autres_montants": [
+    43711854.0
+   ],
+   "lots": [
+    "1",
+    "2"
+   ],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Société SOURCE BLEUE GRANDS PROJETS à Fès",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [
+    "1",
+    "2"
+   ],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Groupement solidaire des Sociétés",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [
+    "1",
+    "2"
+   ],
+   "statut": "ecarte_dossier_administratif_technique",
+   "admis_avec_reserve": true
+  }
+ ],
+ "nombre_soumissionnaires": 8,
+ "alertes_ocr": [],
+ "notes_ocr": [
+  "Marché alloti (2 lots).",
+  "Maître d'ouvrage absent du PV (utiliser l'acheteur public du portail)."
+ ],
+ "qualite": "complet"
+}

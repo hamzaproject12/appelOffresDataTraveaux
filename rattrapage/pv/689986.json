@@ -1,0 +1,100 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "689986",
+ "orgAcronyme": "d4q",
+ "reference_pv": "98/DR4/C/2022",
+ "nouveau": true,
+ "reference": "98/DR4/C/2022",
+ "objet": "- Date et heure d'ouverture des plis : 13/12/2022 09:00 (Ouverture en un seul temps) - Lieu d'ouverture des plis : au Siège de la Direction Régionale de l'Ouest (DR4) - Lotissement Al Qods - Kénitra - Maroc",
+ "acheteur": null,
+ "procedure": "appel d'offres ouvert",
+ "categorie": "Travaux",
+ "date_limite_plis": "13/12/2022",
+ "lieu_ouverture": "au Siège de la Direction Régionale de l'Ouest (DR4) Lotissement Al Qods - Kénitra - Maroc",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "17/01/2023",
+ "justification": "Moins-disant",
+ "infructueux": false,
+ "attributaire": "ENTREPRISE MAROC ASSAINISSEMENT FUTUR",
+ "montant_attribue": 194436.0,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "ENTREPRISE DOUMIRI MAROC",
+   "montant_acte_engagement": 217560.0,
+   "montant_apres_verification": 217560.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "ENTREPRISE KHALFI MAROC",
+   "montant_acte_engagement": 226536.0,
+   "montant_apres_verification": 220536.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "ENTREPRISE MAROC ASSAINISSEMENT FUTUR",
+   "montant_acte_engagement": 194436.0,
+   "montant_apres_verification": 194436.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "ENTREPRISE SUGESTAP",
+   "montant_acte_engagement": 170040.0,
+   "montant_apres_verification": 170040.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_dossier_administratif_technique",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "TRADIVERS MAROC",
+   "montant_acte_engagement": 226188.0,
+   "montant_apres_verification": 226188.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "WAS WAT",
+   "montant_acte_engagement": 160620.0,
+   "montant_apres_verification": 679020.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_dossier_administratif_technique",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "ZAHRAA DES TRAVAUX ET ASSAINISSEMENT MAROC",
+   "montant_acte_engagement": 229080.0,
+   "montant_apres_verification": 229080.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 7,
+ "alertes_ocr": [
+  "« WAS WAT » : écart anormal entre montant initial et vérifié (lecture à vérifier)."
+ ],
+ "notes_ocr": [
+  "« ENTREPRISE KHALFI MAROC » : montant rectifié de 226 536.00 à 220 536.00 DH.",
+  "« WAS WAT » : montant rectifié de 160 620.00 à 679 020.00 DH.",
+  "Maître d'ouvrage absent du PV (utiliser l'acheteur public du portail)."
+ ],
+ "qualite": "complet"
+}

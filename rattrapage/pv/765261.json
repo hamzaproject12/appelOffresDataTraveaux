@@ -1,0 +1,54 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "765261",
+ "orgAcronyme": "p8x",
+ "reference_pv": "18/DPRT",
+ "nouveau": true,
+ "reference": "18/DPRT",
+ "objet": "« Travaux drAménagement des Salles de classes destinées aux Espaces drOrientation",
+ "acheteur": null,
+ "procedure": "appel d'offres ouvert simplifié",
+ "categorie": "Travaux",
+ "date_limite_plis": null,
+ "lieu_ouverture": "les bureaux de la Direction Provinciale de Rabat",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": null,
+ "justification": "l'offre la mieux-disante ts",
+ "infructueux": false,
+ "attributaire": "WIMIL TRAV SARL",
+ "montant_attribue": 534448.8,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "PLOMOTRAV SARL",
+   "montant_acte_engagement": 536184.0,
+   "montant_apres_verification": 36184.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "WIMIL TRAV SARL",
+   "montant_acte_engagement": 534448.8,
+   "montant_apres_verification": 534448.8,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 2,
+ "alertes_ocr": [
+  "« PLOMOTRAV SARL » : écart anormal entre montant initial et vérifié (lecture à vérifier)."
+ ],
+ "notes_ocr": [
+  "« PLOMOTRAV SARL » : montant rectifié de 536 184.00 à 36 184.00 DH.",
+  "Maître d'ouvrage absent du PV (utiliser l'acheteur public du portail)."
+ ],
+ "qualite": "complet"
+}

@@ -1,0 +1,55 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "878277",
+ "orgAcronyme": "q1s",
+ "reference_pv": "17/2025/ORH/SGRD",
+ "nouveau": true,
+ "reference": "17/2025/ORH/SGRD",
+ "objet": "TRAVAUX D'ENTRETIEN DU RESEAU D'IRRIGATION EN CANAUX PORTES AU PERIMETRE DE LA TESSAOUT AVAL",
+ "acheteur": "l'Office Régional de Mise en valeur Agricole du Haouz",
+ "procedure": null,
+ "categorie": "Travaux",
+ "date_limite_plis": null,
+ "lieu_ouverture": "Siège de l'Office Régional de Mise en valeur Agricole du Haouz Joumaux ayant publié l'avis de publicité",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "11/03/2025",
+ "justification": null,
+ "infructueux": false,
+ "attributaire": null,
+ "montant_attribue": null,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "CCGT CANALISATION",
+   "montant_acte_engagement": 5000000.0,
+   "montant_apres_verification": 5000000.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "STE NOUVELLE DES CONDUITS D`EAU",
+   "montant_acte_engagement": 5000000.0,
+   "montant_apres_verification": 10000000.0,
+   "autres_montants": [
+    10000000.0
+   ],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 2,
+ "alertes_ocr": [
+  "Attributaire non trouvé."
+ ],
+ "notes_ocr": [
+  "« STE NOUVELLE DES CONDUITS D`EAU » : montant rectifié de 5 000 000.00 à 10 000 000.00 DH."
+ ],
+ "qualite": "complet"
+}

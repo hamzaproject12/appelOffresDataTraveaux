@@ -1,0 +1,54 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "862840",
+ "orgAcronyme": "s3z",
+ "reference_pv": "05/REST-MNT/SRRPH/2024",
+ "nouveau": true,
+ "reference": "05/REST-MNT/SRRPH/2024",
+ "objet": null,
+ "acheteur": "La Société de Développement Régional — Rabat Région Patrimoine Historique S.A",
+ "procedure": null,
+ "categorie": "Travaux",
+ "date_limite_plis": "04/12/2024",
+ "lieu_ouverture": "7, rue el afghani quartier des orangers — rabat",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "27/12/2024",
+ "justification": "Offre la plus avantageuse.",
+ "infructueux": false,
+ "attributaire": "Société ANDALOUS DESIGN SARL",
+ "montant_attribue": 2717100.0,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "Société ANDALOUS DESIGN SARL",
+   "montant_acte_engagement": 2717100.0,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "SON s- È Res",
+   "montant_acte_engagement": 2717100.0,
+   "montant_apres_verification": null,
+   "autres_montants": [
+    2717100.0
+   ],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 2,
+ "alertes_ocr": [
+  "« Société ANDALOUS DESIGN SARL » absent de la liste des plis déposés (nom mal lu ?).",
+  "« SON s- È Res » absent de la liste des plis déposés (nom mal lu ?)."
+ ],
+ "notes_ocr": [],
+ "qualite": "complet"
+}

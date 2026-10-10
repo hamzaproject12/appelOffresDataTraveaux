@@ -1,0 +1,60 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "946527",
+ "orgAcronyme": "a1t",
+ "reference_pv": "96/2025/ADHA-LOT",
+ "nouveau": true,
+ "reference": "96/2025/ADHA-LOT",
+ "objet": null,
+ "acheteur": "L'AGENCE DE DEVELOPPEMNT DU HAUT ATLAS",
+ "procedure": null,
+ "categorie": "Travaux",
+ "date_limite_plis": "23/10/2025",
+ "lieu_ouverture": "Salle de réunions de la DIRECTION PROVINCIALE DE L'AGRICULTURE MARRAKECH",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "29/10/2025",
+ "justification": null,
+ "infructueux": false,
+ "attributaire": "quatre-vingt-quatre",
+ "montant_attribue": 1670784.0,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "1 IMPLADECOR SARL",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_dossier_administratif_technique",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "2 OUSSDIMINE TRAV SARL",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "quatre-vingt-quatre",
+   "montant_acte_engagement": 1670784.0,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 3,
+ "alertes_ocr": [
+  "« quatre-vingt-quatre » absent de la liste des plis déposés (nom mal lu ?)."
+ ],
+ "notes_ocr": [],
+ "qualite": "attribution"
+}

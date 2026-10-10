@@ -1,0 +1,76 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "698349",
+ "orgAcronyme": "o8p",
+ "reference_pv": "01/DRPC-ANP/2023",
+ "nouveau": true,
+ "reference": "01/DRPC-ANP/2023",
+ "objet": "Travaux d'entretien de la gare maritime au Port de Casablanca",
+ "acheteur": "AGENCE NATIONALE DES PORTS, DIRECTION REGIONALE DU PORT DE CASABLANCA",
+ "procedure": null,
+ "categorie": "Travaux",
+ "date_limite_plis": "07/02/2023",
+ "lieu_ouverture": "DIRECTION REGIONALE DU PORT DE CASABLANCA",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "28/02/2023",
+ "justification": null,
+ "infructueux": false,
+ "attributaire": "GROUPEMENT JADMAR TRAVAUX",
+ "montant_attribue": 1421016.0,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "GLOBAL BUILDERS - GROUPEMENT SAKAT et",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "depose",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "EXTRA SUD EST - GROUPEMENT JADMAR TRAVAUX et WISLANE TRAVAUX",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "depose",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "GROUPEMENT SAKAT et EXTRA",
+   "montant_acte_engagement": 761762.0,
+   "montant_apres_verification": null,
+   "autres_montants": [
+    1825348.8
+   ],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "GROUPEMENT JADMAR TRAVAUX",
+   "montant_acte_engagement": 595590.0,
+   "montant_apres_verification": null,
+   "autres_montants": [
+    714708.0,
+    1184180.0,
+    1421016.0
+   ],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 4,
+ "alertes_ocr": [
+  "« GROUPEMENT SAKAT et EXTRA » absent de la liste des plis déposés (nom mal lu ?).",
+  "« GROUPEMENT JADMAR TRAVAUX » absent de la liste des plis déposés (nom mal lu ?)."
+ ],
+ "notes_ocr": [],
+ "qualite": "complet"
+}

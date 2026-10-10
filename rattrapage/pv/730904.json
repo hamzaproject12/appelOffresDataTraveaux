@@ -1,0 +1,87 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "730904",
+ "orgAcronyme": "q1s",
+ "reference_pv": "21/2023/DGRID",
+ "nouveau": true,
+ "reference": "21/2023/DGRID",
+ "objet": "Travaux d’entretien du matériel hydromécanique dans le périmètre irrigué du Tadla +",
+ "acheteur": "DEPARTEMENT DE LA GESTION DES RESEAUX D'IRRIGATION ET DE DRAINAGE DE L'ORMVA DU TADLA",
+ "procedure": "appel d'offres ouvert",
+ "categorie": "Travaux",
+ "date_limite_plis": "14/07/2023",
+ "lieu_ouverture": "Siège de l'O.R.M.V.A. du Tadla",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": null,
+ "justification": null,
+ "infructueux": false,
+ "attributaire": "Sté KVM INDUSTRIES EQUIPEMENTS",
+ "montant_attribue": 416400.0,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "de l’économie et des finances",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_dossier_administratif_technique",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "APPEL D’OFFRES OUVERT N° 21/2023/DGRID DU",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_dossier_administratif_technique",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Sté KVM INDUSTRIES EQUIPEMENTS",
+   "montant_acte_engagement": 416400.0,
+   "montant_apres_verification": null,
+   "autres_montants": [
+    416400.0
+   ],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Sté SNCH",
+   "montant_acte_engagement": 602256.0,
+   "montant_apres_verification": null,
+   "autres_montants": [
+    602256.0
+   ],
+   "lots": [],
+   "statut": "ecarte_dossier_administratif_technique",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "TOUTES TAXES COMPRISES",
+   "montant_acte_engagement": 416400.0,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 5,
+ "alertes_ocr": [
+  "« Sté KVM INDUSTRIES EQUIPEMENTS » absent de la liste des plis déposés (nom mal lu ?).",
+  "« Sté SNCH » absent de la liste des plis déposés (nom mal lu ?).",
+  "« TOUTES TAXES COMPRISES » absent de la liste des plis déposés (nom mal lu ?)."
+ ],
+ "notes_ocr": [
+  "« de l’économie et des finances » absent de la liste des plis déposés (nom mal lu ?).",
+  "« APPEL D’OFFRES OUVERT N° 21/2023/DGRID DU » absent de la liste des plis déposés (nom mal lu ?)."
+ ],
+ "qualite": "complet"
+}

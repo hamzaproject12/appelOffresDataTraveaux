@@ -1,0 +1,77 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "822643",
+ "orgAcronyme": "g8e",
+ "reference_pv": null,
+ "nouveau": true,
+ "reference": null,
+ "objet": "TRAVAUX D'ECLAIRAGE PUBLIC DE MAHAJ RYAD ET SES ALENTOURS DANS LA VILLE DE RABAT",
+ "acheteur": null,
+ "procedure": null,
+ "categorie": "Travaux",
+ "date_limite_plis": "02/07/2024",
+ "lieu_ouverture": "Bureau de la Société Rabat Région Aménagement au 9, Place Alloulane — Rabat",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "12/08/2024",
+ "justification": "Offre conforme aux exigences du Règlement de la consultation c'est l'offre le moins disante",
+ "infructueux": false,
+ "attributaire": "STE LAMALIF GROUP",
+ "montant_attribue": 16915860.0,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "STE LAMALIF GROUP",
+   "montant_acte_engagement": 16915860.0,
+   "montant_apres_verification": null,
+   "autres_montants": [
+    16915860.0
+   ],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "STE NABILUM",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "depose",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "STE ATP LUM",
+   "montant_acte_engagement": 17318245.2,
+   "montant_apres_verification": null,
+   "autres_montants": [
+    17318245.2
+   ],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "STE EQUELEC",
+   "montant_acte_engagement": 17710596.0,
+   "montant_apres_verification": null,
+   "autres_montants": [
+    17710596.0
+   ],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 4,
+ "alertes_ocr": [
+  "« STE EQUELEC » absent de la liste des plis déposés (nom mal lu ?)."
+ ],
+ "notes_ocr": [
+  "Maître d'ouvrage absent du PV (utiliser l'acheteur public du portail)."
+ ],
+ "qualite": "complet"
+}

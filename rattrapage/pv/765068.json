@@ -1,0 +1,94 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "765068",
+ "orgAcronyme": "z7x",
+ "reference_pv": "04/FMPC/2023",
+ "nouveau": true,
+ "reference": "04/FMPC/2023",
+ "objet": null,
+ "acheteur": "Faculté de Médecine et de pharmacie de Casablanca",
+ "procedure": "appel d'offres ouvert",
+ "categorie": "Travaux",
+ "date_limite_plis": "01/12/2023",
+ "lieu_ouverture": "salle des réunions de la Présidence de l’Université Hassan II Casablanca conformément à l’avis publié dans",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "08/12/2023",
+ "justification": "l’offre le mieux disant",
+ "infructueux": false,
+ "attributaire": "Société EFNOR SARL",
+ "montant_attribue": 1229808.0,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "Société INDUSTRIE EQUIPEMENTS",
+   "montant_acte_engagement": 1623005.28,
+   "montant_apres_verification": 1623005.28,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Société ZAHID SARL",
+   "montant_acte_engagement": 1389000.0,
+   "montant_apres_verification": 1389000.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Société CLIMATHERM SARL",
+   "montant_acte_engagement": 1376976.0,
+   "montant_apres_verification": 1725456.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Société HIDAMEK",
+   "montant_acte_engagement": 1373280.0,
+   "montant_apres_verification": 1373280.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Société EFNOR SARL",
+   "montant_acte_engagement": 1229808.0,
+   "montant_apres_verification": 1229808.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Société ENTC SARL",
+   "montant_acte_engagement": 1257480.0,
+   "montant_apres_verification": 1257480.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 6,
+ "alertes_ocr": [
+  "« Société INDUSTRIE EQUIPEMENTS » absent de la liste des plis déposés (nom mal lu ?).",
+  "« Société ZAHID SARL » absent de la liste des plis déposés (nom mal lu ?).",
+  "« Société CLIMATHERM SARL » absent de la liste des plis déposés (nom mal lu ?).",
+  "« Société HIDAMEK » absent de la liste des plis déposés (nom mal lu ?).",
+  "« Société EFNOR SARL » absent de la liste des plis déposés (nom mal lu ?).",
+  "« Société ENTC SARL » absent de la liste des plis déposés (nom mal lu ?)."
+ ],
+ "notes_ocr": [
+  "« Société CLIMATHERM SARL » : montant rectifié de 1 376 976.00 à 1 725 456.00 DH."
+ ],
+ "qualite": "complet"
+}

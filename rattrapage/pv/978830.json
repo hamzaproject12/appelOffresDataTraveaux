@@ -1,0 +1,80 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "978830",
+ "orgAcronyme": "f4g",
+ "reference_pv": "05/DH/BG/2025",
+ "nouveau": true,
+ "reference": "05/DH/BG/2025",
+ "objet": "Travaux de restauration de 4 Darihs et 6 Zaouias à Meknès : Darih Sidi Basri - Zaouia Sidi Slama - Darih Sidi",
+ "acheteur": "Directeur des Habous",
+ "procedure": "appel d'offres ouvert national",
+ "categorie": "Travaux",
+ "date_limite_plis": "29/01/2026",
+ "lieu_ouverture": "le Bureau de la Chef de la Division de la Construction et des Investissements sis à : 5ème étage, Immeuble Angle Rue Angola et Rue Mali, Quartier Océan à Rabat",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "19/02/2026",
+ "justification": "le concurrent ayant présenté l'offre économiquement la plus avantageuse.",
+ "infructueux": false,
+ "attributaire": "Société ANDALOUS DESIGN SARL AU",
+ "montant_attribue": 9886692.0,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "Société STE AMENAGEMENT METRE ET GROS ŒUVRE SARL",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_offre_financiere",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Société ANDALOUS DESIGN SARL AU",
+   "montant_acte_engagement": 9886692.0,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Société LE PALAIS D'AMENAGEMENT SARL AU",
+   "montant_acte_engagement": 11976480.0,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": true
+  },
+  {
+   "nom": "Société DELTA TARMIM SARL AU",
+   "montant_acte_engagement": 10559724.8,
+   "montant_apres_verification": 11367084.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": true
+  },
+  {
+   "nom": "Société STE AMENAG SR ET GROS ŒUVRE",
+   "montant_acte_engagement": 10096044.0,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 5,
+ "alertes_ocr": [
+  "« Société STE AMENAG SR ET GROS ŒUVRE » absent de la liste des plis déposés (nom mal lu ?)."
+ ],
+ "notes_ocr": [
+  "« Société DELTA TARMIM SARL AU » : montant rectifié de 10 559 724.80 à 11 367 084.00 DH."
+ ],
+ "qualite": "complet"
+}

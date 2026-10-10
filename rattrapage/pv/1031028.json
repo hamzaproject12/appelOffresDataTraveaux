@@ -1,0 +1,52 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "1031028",
+ "orgAcronyme": "f9f",
+ "reference_pv": "20/2026/CI-OBIET",
+ "nouveau": true,
+ "reference": "20/2026/CI-OBIET",
+ "objet": "AMÉNAGEMENT D'UN ESPACE DE PETANQUE AU QUARTIER TARRAST INEZGANE",
+ "acheteur": "la Commune d'Inezgane",
+ "procedure": "appel d'offres ouvert national",
+ "categorie": "Travaux",
+ "date_limite_plis": "23/07/2026",
+ "lieu_ouverture": "la salle de réunion à la division des affaires techniques et études à la Commune D'Inezgane (Av Med v Inezgane)",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": null,
+ "justification": null,
+ "infructueux": false,
+ "attributaire": "Sté ESPACE FLEURS Sarl au",
+ "montant_attribue": null,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "économiquement la plus avantageuse",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "depose",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Sté ESPACE FLEURS Sarl au",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 2,
+ "alertes_ocr": [
+  "« Sté ESPACE FLEURS Sarl au » absent de la liste des plis déposés (nom mal lu ?).",
+  "Montant de l'attributaire « Sté ESPACE FLEURS Sarl au » non trouvé."
+ ],
+ "notes_ocr": [],
+ "qualite": "participants"
+}

@@ -1,0 +1,85 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "723337",
+ "orgAcronyme": "o8p",
+ "reference_pv": "050-23-AO0O",
+ "nouveau": true,
+ "reference": "050-23-AO0O",
+ "objet": "Travaux d'entretien des peintures à la plateforme aéroportuaire Casablanca Mohammed V",
+ "acheteur": "l'OFFICE NATIONAL DES AEROPORTS",
+ "procedure": null,
+ "categorie": "Travaux",
+ "date_limite_plis": null,
+ "lieu_ouverture": "La salle de réunion de la Direction des Achaïs et de la Logistique",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "20/06/2023",
+ "justification": "Moins-disant conforme.",
+ "infructueux": false,
+ "attributaire": "TALHA NET",
+ "montant_attribue": 2317868.7,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "HARANITRAV rabais de",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "TALHA NET",
+   "montant_acte_engagement": 2317868.7,
+   "montant_apres_verification": 2317868.7,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "2HSC",
+   "montant_acte_engagement": 1785190.8,
+   "montant_apres_verification": 1785190.8,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_offre_financiere",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "de = AN Ÿ",
+   "montant_acte_engagement": 785190.8,
+   "montant_apres_verification": null,
+   "autres_montants": [
+    1785190.8
+   ],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "rabais de",
+   "montant_acte_engagement": 447439.0,
+   "montant_apres_verification": 447439.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 5,
+ "alertes_ocr": [
+  "« TALHA NET » absent de la liste des plis déposés (nom mal lu ?).",
+  "« 2HSC » absent de la liste des plis déposés (nom mal lu ?).",
+  "« de = AN Ÿ » absent de la liste des plis déposés (nom mal lu ?).",
+  "« rabais de » absent de la liste des plis déposés (nom mal lu ?)."
+ ],
+ "notes_ocr": [
+  "« HARANITRAV rabais de » absent de la liste des plis déposés (nom mal lu ?)."
+ ],
+ "qualite": "complet"
+}

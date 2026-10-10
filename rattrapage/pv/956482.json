@@ -1,0 +1,90 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "956482",
+ "orgAcronyme": "o8p",
+ "reference_pv": "27/2025",
+ "nouveau": true,
+ "reference": "27/2025",
+ "objet": "ACHEVEMENT DES TRAVAUX DE CONSTRUCTION DE TROIS OUVRAGES D'ART SUR LA RN 10 : SUR OUED LABIAD AU PK 387+451, SUR OUED IBGHLI AU PK 404+000 ET SUR OUED IMARIGHNE AU PK 409+000. PROVINCE D’OUARZAZATE",
+ "acheteur": "Direction Provinciale de l’Equipement, du Transport et de la Logistique d’Ouarzazate",
+ "procedure": null,
+ "categorie": "Travaux",
+ "date_limite_plis": "07/11/2025",
+ "lieu_ouverture": "DPETL OUARZAZATE",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "21/11/2025",
+ "justification": "l'Offre économiquement la plus avantageuse.",
+ "infructueux": false,
+ "attributaire": "ETABLISSEMENT ASSREM NEGOCE (SARL)",
+ "montant_attribue": 18888090.24,
+ "attributaires_par_lot": [
+  {
+   "lot": null,
+   "attributaire": "ETABLISSEMENT ASSREM NEGOCE (SARL)",
+   "montant": 18888090.24
+  },
+  {
+   "lot": null,
+   "attributaire": "Entreprise BOUALI DE TRAVAUX (SARL)",
+   "montant": 19205981.76
+  },
+  {
+   "lot": null,
+   "attributaire": "Société BOUARGA ROUTIERE (SARL)",
+   "montant": 19778553.84
+  },
+  {
+   "lot": null,
+   "attributaire": "GROUPEMENT CONJOINT de la société ERATEN (SARL)",
+   "montant": 19020000.0
+  }
+ ],
+ "soumissionnaires": [
+  {
+   "nom": "Société BOUARGA ROUTIERE (SARL)",
+   "montant_acte_engagement": 19778553.84,
+   "montant_apres_verification": 19778553.84,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Entreprise BOUALI DE TRAVAUX (SARL)",
+   "montant_acte_engagement": 19205981.76,
+   "montant_apres_verification": 19205981.76,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "ETABLISSEMENT ASSREM NEGOCE (SARL)",
+   "montant_acte_engagement": 18888090.24,
+   "montant_apres_verification": 18888090.24,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "GROUPEMENT CONJOINT de la société ERATEN (SARL)",
+   "montant_acte_engagement": 19020000.0,
+   "montant_apres_verification": 19020000.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 4,
+ "alertes_ocr": [
+  "« GROUPEMENT CONJOINT de la société ERATEN (SARL) » absent de la liste des plis déposés (nom mal lu ?)."
+ ],
+ "notes_ocr": [],
+ "qualite": "attribution"
+}

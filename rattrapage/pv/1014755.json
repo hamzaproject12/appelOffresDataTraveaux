@@ -1,0 +1,51 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "1014755",
+ "orgAcronyme": "g3h",
+ "reference_pv": "28/2026/B.G",
+ "nouveau": true,
+ "reference": "28/2026/B.G",
+ "objet": "Travaux d'aménagement et de réhabilitation d'une résidence de fonction - Province Fahs- -Anjra",
+ "acheteur": "Province Fahs-Anijra",
+ "procedure": "appel d'offres ouvert",
+ "categorie": "Travaux",
+ "date_limite_plis": "08/06/2026",
+ "lieu_ouverture": "_: bureau n° 33 (D.B.M) du siège de la Province Fahs-Anjra",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "09/06/2026",
+ "justification": "Son offre est la mieux disante au regard du prix de référence.",
+ "infructueux": false,
+ "attributaire": "Sté. « SAL 2S/SARL",
+ "montant_attribue": 701958.0,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "Sté. « SORICONS/SARL",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_offre_financiere",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Sté. « SAL 2S/SARL",
+   "montant_acte_engagement": 701958.0,
+   "montant_apres_verification": null,
+   "autres_montants": [
+    701958.0
+   ],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 2,
+ "alertes_ocr": [],
+ "notes_ocr": [],
+ "qualite": "attribution"
+}

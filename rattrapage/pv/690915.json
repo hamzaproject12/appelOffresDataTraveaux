@@ -1,0 +1,61 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "690915",
+ "orgAcronyme": "q1s",
+ "reference_pv": "90/2022/1909",
+ "nouveau": true,
+ "reference": "90/2022/1909",
+ "objet": "«Travaux de la piste rurale reliant douar KORIRECHE et douar ZAOUIA SOUFLA Commune BGHAGHZA, province de Tétouan»",
+ "acheteur": "la Direction Provinciale de l'Agriculture de Tétouan",
+ "procedure": "appel d'offres ouvert",
+ "categorie": "Travaux",
+ "date_limite_plis": "07/12/2022",
+ "lieu_ouverture": null,
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "09/12/2022",
+ "justification": null,
+ "infructueux": false,
+ "attributaire": "FOREFAHD SARL",
+ "montant_attribue": 1995444.0,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "FOREFAHD SARL",
+   "montant_acte_engagement": 1995444.0,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Er & GROUPEMENT ADICH TRAVAUX ET SODIACOM",
+   "montant_acte_engagement": 2008752.0,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "4 | ENTREPRISE SALMI OMAR",
+   "montant_acte_engagement": 2465478.0,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 3,
+ "alertes_ocr": [
+  "« Er & GROUPEMENT ADICH TRAVAUX ET SODIACOM » absent de la liste des plis déposés (nom mal lu ?).",
+  "« 4 | ENTREPRISE SALMI OMAR » absent de la liste des plis déposés (nom mal lu ?)."
+ ],
+ "notes_ocr": [],
+ "qualite": "complet"
+}

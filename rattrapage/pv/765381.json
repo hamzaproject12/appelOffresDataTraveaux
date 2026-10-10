@@ -1,0 +1,126 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "765381",
+ "orgAcronyme": "q1s",
+ "reference_pv": null,
+ "nouveau": true,
+ "reference": null,
+ "objet": null,
+ "acheteur": "L'Office Régional de Mise en Valeur Agricole du Loukkos",
+ "procedure": "appel d'offres ouvert",
+ "categorie": "Travaux",
+ "date_limite_plis": "07/11/2023",
+ "lieu_ouverture": "Siège de L'Office Régional de Mise en Valeur Agricole du Loukkos à Ksar El Kébir",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": null,
+ "justification": "L'offre la plus avantageuse",
+ "infructueux": false,
+ "attributaire": "ENTREPRISE DE RENOVATION BOULA",
+ "montant_attribue": 2499127.1,
+ "attributaires_par_lot": [
+  {
+   "lot": null,
+   "attributaire": "ENTREPRISE DE RENOVATION BOULA",
+   "montant": 2499127.1
+  },
+  {
+   "lot": null,
+   "attributaire": "Au tal Âctaat)",
+   "montant": null
+  },
+  {
+   "lot": null,
+   "attributaire": "SA (dll RAS set 2 QI",
+   "montant": null
+  }
+ ],
+ "soumissionnaires": [
+  {
+   "nom": "STE MAGISTAR",
+   "montant_acte_engagement": 2657380.94,
+   "montant_apres_verification": 2657380.94,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "HANS PRO",
+   "montant_acte_engagement": 2362811.42,
+   "montant_apres_verification": 2362811.42,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "ENTREPRISE DE RENOVATION BOULA",
+   "montant_acte_engagement": 2499127.1,
+   "montant_apres_verification": 2499127.1,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "FIKRI NOR",
+   "montant_acte_engagement": 2867608.43,
+   "montant_apres_verification": 2867608.43,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "KADEM",
+   "montant_acte_engagement": 2998452.56,
+   "montant_apres_verification": 2998452.56,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "A-TAMZ",
+   "montant_acte_engagement": 2487414.23,
+   "montant_apres_verification": 2752518.23,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Au tal Âctaat)",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "SA (dll RAS set 2 QI",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 8,
+ "alertes_ocr": [
+  "« Au tal Âctaat) » absent de la liste des plis déposés (nom mal lu ?).",
+  "« SA (dll RAS set 2 QI » absent de la liste des plis déposés (nom mal lu ?).",
+  "Montant de l'attributaire « Au tal Âctaat) » non trouvé.",
+  "Montant de l'attributaire « SA (dll RAS set 2 QI » non trouvé."
+ ],
+ "notes_ocr": [
+  "« A-TAMZ » : montant rectifié de 2 487 414.23 à 2 752 518.23 DH."
+ ],
+ "qualite": "complet"
+}

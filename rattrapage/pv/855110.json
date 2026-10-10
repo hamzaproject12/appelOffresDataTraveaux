@@ -1,0 +1,176 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "855110",
+ "orgAcronyme": "q1s",
+ "reference_pv": null,
+ "nouveau": true,
+ "reference": null,
+ "objet": "Mise à niveau des halles au poisson, comptoirs d’agréage du poisson industriel, unités de gestion des contenants normalisés et entrepôt frigorifique de l'ONP, en sept lots séparés",
+ "acheteur": "OFFICE NATIONAL DES PECHES",
+ "procedure": null,
+ "categorie": "Travaux",
+ "date_limite_plis": "13/11/2024",
+ "lieu_ouverture": "Office National des Pêches, sis 15, rue du Lieutenant Mohamed Mahroud à Casablanca",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "29/11/2024",
+ "justification": "l'offre économi au prix de référence par défaut).",
+ "infructueux": false,
+ "attributaire": "GOLDWAY SOLUTIONS",
+ "montant_attribue": 363396.0,
+ "attributaires_par_lot": [
+  {
+   "lot": "2",
+   "attributaire": "GOLDWAY SOLUTIONS",
+   "montant": 363396.0
+  },
+  {
+   "lot": "6",
+   "attributaire": "GF BUSINESS",
+   "montant": 980520.0
+  }
+ ],
+ "soumissionnaires": [
+  {
+   "nom": "GOLDWAY SOLUTIONS",
+   "montant_acte_engagement": 378744.0,
+   "montant_apres_verification": null,
+   "autres_montants": [
+    378744.0
+   ],
+   "lots": [
+    "2"
+   ],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "GF BUSINESS",
+   "montant_acte_engagement": 980520.0,
+   "montant_apres_verification": null,
+   "autres_montants": [
+    980520.0
+   ],
+   "lots": [
+    "6"
+   ],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "INJAZ SAHARA TRAVAUX",
+   "montant_acte_engagement": 1117104.0,
+   "montant_apres_verification": null,
+   "autres_montants": [
+    1117104.0
+   ],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "STE FALCON SERVICES",
+   "montant_acte_engagement": 954240.0,
+   "montant_apres_verification": null,
+   "autres_montants": [
+    954240.0
+   ],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "ROCHE TRAVAUX",
+   "montant_acte_engagement": 1117020.0,
+   "montant_apres_verification": null,
+   "autres_montants": [
+    1117020.0
+   ],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "MOUSSAOUI GLOBAL",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_dossier_administratif_technique",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "BEN HASSAINE SERVICE",
+   "montant_acte_engagement": 1236120.0,
+   "montant_apres_verification": null,
+   "autres_montants": [
+    1236120.0
+   ],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "AIT MOUSA WICHO",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_dossier_administratif_technique",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "HNIDE TRAVAUX SONITRAV",
+   "montant_acte_engagement": 1204440.0,
+   "montant_apres_verification": null,
+   "autres_montants": [
+    1204440.0
+   ],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "RAOUAH",
+   "montant_acte_engagement": 376440.0,
+   "montant_apres_verification": null,
+   "autres_montants": [
+    376440.0
+   ],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "MARINE INDUSTRIE CHIMIE",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_dossier_administratif_technique",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "GROUPE SS SUD BUSINESS",
+   "montant_acte_engagement": 1116972.0,
+   "montant_apres_verification": null,
+   "autres_montants": [
+    1116972.0
+   ],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 12,
+ "alertes_ocr": [
+  "« GROUPE SS SUD BUSINESS » absent de la liste des plis déposés (nom mal lu ?)."
+ ],
+ "notes_ocr": [
+  "Marché alloti (2 lots)."
+ ],
+ "qualite": "complet"
+}

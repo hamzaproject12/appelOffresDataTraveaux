@@ -1,0 +1,99 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "780472",
+ "orgAcronyme": "d4q",
+ "reference_pv": null,
+ "nouveau": true,
+ "reference": null,
+ "objet": null,
+ "acheteur": null,
+ "procedure": "appel d'offres ouvert",
+ "categorie": "Travaux",
+ "date_limite_plis": "15/02/2024",
+ "lieu_ouverture": "au Siège de la Direction Régionale du Centre (DR3) Boulevard Mohamed VI, Quartier Administratif - Khouribga - Maroc",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "13/03/2024",
+ "justification": "Moins-disant",
+ "infructueux": false,
+ "attributaire": "ELECTRO BOBINAGE ENNOUR - Offre de",
+ "montant_attribue": 2905980.0,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "ELECTEL 7 MAROC",
+   "montant_acte_engagement": 3250320.0,
+   "montant_apres_verification": 3250320.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "ELECTRO BOBINAGE ENNOUR - Offre de",
+   "montant_acte_engagement": 2905980.0,
+   "montant_apres_verification": 905980.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "INCHAELEC MAROC",
+   "montant_acte_engagement": 3359400.0,
+   "montant_apres_verification": 3359400.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "PETRADIS MAROC",
+   "montant_acte_engagement": 2971080.0,
+   "montant_apres_verification": 2971080.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "SEVIELEC MAROC",
+   "montant_acte_engagement": 3610866.0,
+   "montant_apres_verification": 3610866.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "SEVOLTA MAROC",
+   "montant_acte_engagement": 3087972.0,
+   "montant_apres_verification": 3087972.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "STE ALOUSS MAROC",
+   "montant_acte_engagement": 3624746.4,
+   "montant_apres_verification": 3624746.4,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 7,
+ "alertes_ocr": [
+  "« ELECTRO BOBINAGE ENNOUR - Offre de » : écart anormal entre montant initial et vérifié (lecture à vérifier)."
+ ],
+ "notes_ocr": [
+  "« ELECTRO BOBINAGE ENNOUR - Offre de » : montant rectifié de 2 905 980.00 à 905 980.00 DH.",
+  "Maître d'ouvrage absent du PV (utiliser l'acheteur public du portail)."
+ ],
+ "qualite": "complet"
+}

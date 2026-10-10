@@ -1,0 +1,85 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "854851",
+ "orgAcronyme": "g3h",
+ "reference_pv": "2444/0/2024",
+ "nouveau": true,
+ "reference": "2444/0/2024",
+ "objet": "Travaux de réhabilitation du réservoir 2*2000 m3 semi enterré au complexe hydraulique KM6",
+ "acheteur": "RÉGIE AUTONOME DE DISTRIBUTION EAU ET ÉLECTRICITÉ DE MEKNÈS",
+ "procedure": "appel d'offres ouvert national",
+ "categorie": "Travaux",
+ "date_limite_plis": "07/11/2024",
+ "lieu_ouverture": "Siège de la RADEM",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "27/11/2024",
+ "justification": "l'offre économiquement la plus avantageuse.",
+ "infructueux": false,
+ "attributaire": "SONOCIC",
+ "montant_attribue": 4687620.0,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "SOTRALA",
+   "montant_acte_engagement": 5105346.0,
+   "montant_apres_verification": 5105346.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "RMFTRAV",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_dossier_administratif_technique",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "SONOCIC",
+   "montant_acte_engagement": 4687620.0,
+   "montant_apres_verification": 4687620.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "OULAD ABDELHALIM",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_dossier_administratif_technique",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "AC H20",
+   "montant_acte_engagement": 5209500.0,
+   "montant_apres_verification": 5209500.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "SOTRMACOMEK",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_dossier_administratif_technique",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 6,
+ "alertes_ocr": [],
+ "notes_ocr": [],
+ "qualite": "complet"
+}

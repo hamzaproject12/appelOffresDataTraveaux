@@ -1,0 +1,68 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "681650",
+ "orgAcronyme": "d4q",
+ "reference_pv": "63DR3/2022",
+ "nouveau": true,
+ "reference": "63DR3/2022",
+ "objet": "AEP des douars relevant de la Commune territoriale Brakssa - lot : Conduite",
+ "acheteur": null,
+ "procedure": null,
+ "categorie": "Travaux",
+ "date_limite_plis": null,
+ "lieu_ouverture": null,
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": null,
+ "justification": null,
+ "infructueux": false,
+ "attributaire": "GRPT SOMADICAT/SFTB",
+ "montant_attribue": 5660388.0,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "échantillons",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_dossier_administratif_technique",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "GRPT SOMADICAT/SFTB",
+   "montant_acte_engagement": 5660388.0,
+   "montant_apres_verification": null,
+   "autres_montants": [
+    5660388.0
+   ],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "ARATRAF",
+   "montant_acte_engagement": 5951364.0,
+   "montant_apres_verification": null,
+   "autres_montants": [
+    951364.0
+   ],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 3,
+ "alertes_ocr": [
+  "« GRPT SOMADICAT/SFTB » absent de la liste des plis déposés (nom mal lu ?).",
+  "« ARATRAF » absent de la liste des plis déposés (nom mal lu ?)."
+ ],
+ "notes_ocr": [
+  "« échantillons » absent de la liste des plis déposés (nom mal lu ?).",
+  "Maître d'ouvrage absent du PV (utiliser l'acheteur public du portail)."
+ ],
+ "qualite": "complet"
+}

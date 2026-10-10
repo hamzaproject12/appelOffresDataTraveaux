@@ -1,0 +1,43 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "971439",
+ "orgAcronyme": "d4q",
+ "reference_pv": null,
+ "nouveau": true,
+ "reference": null,
+ "objet": "Date et heure Date Concurrent retenu Montant de d'ouverture d'achèvement l'offre des plis des travaux de retenue",
+ "acheteur": null,
+ "procedure": null,
+ "categorie": "Travaux",
+ "date_limite_plis": "16/12/2025",
+ "lieu_ouverture": "Direction Exploitation Mohammedia (DXM)",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": null,
+ "justification": "seul soumissionnaire Concurrents",
+ "infructueux": false,
+ "attributaire": "ECI INDUSTRIE",
+ "montant_attribue": 433800.0,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "ECI INDUSTRIE",
+   "montant_acte_engagement": 433800.0,
+   "montant_apres_verification": 433800.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 1,
+ "alertes_ocr": [],
+ "notes_ocr": [
+  "Maître d'ouvrage absent du PV (utiliser l'acheteur public du portail).",
+  "Montants exprimés hors taxes (HT)."
+ ],
+ "qualite": "attribution"
+}

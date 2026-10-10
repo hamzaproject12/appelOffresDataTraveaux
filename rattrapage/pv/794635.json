@@ -1,0 +1,61 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "794635",
+ "orgAcronyme": "e5w",
+ "reference_pv": "05/2024",
+ "nouveau": true,
+ "reference": "05/2024",
+ "objet": "Appel d'offres ouvert national no 05n024lSTAT relatif à I'ENTRETIEN COURANT DE VOIES : (Travaux de signalisation Horizontales de différentes voies de la Commune de Sefrou),",
+ "acheteur": null,
+ "procedure": "appel d'offres ouvert national",
+ "categorie": "Travaux",
+ "date_limite_plis": null,
+ "lieu_ouverture": null,
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "08/05/2024",
+ "justification": "L'offre la plus avantageuse.",
+ "infructueux": false,
+ "attributaire": "STE CHANTIES DE TRAVAUX DIVERS SARL",
+ "montant_attribue": 472800.0,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "STE CHAMAL SIGNALISATION SARL, AVENUE MAGHRIB ARABI, QUARTIER",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_dossier_administratif_technique",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "STE CHANTIES DE TRAVAUX DIVERS SARL",
+   "montant_acte_engagement": 412800.0,
+   "montant_apres_verification": 472800.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "STE URBAN ELECTRONICS SA",
+   "montant_acte_engagement": 543600.0,
+   "montant_apres_verification": 543600.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 3,
+ "alertes_ocr": [],
+ "notes_ocr": [
+  "« STE CHANTIES DE TRAVAUX DIVERS SARL » : montant rectifié de 412 800.00 à 472 800.00 DH.",
+  "Maître d'ouvrage absent du PV (utiliser l'acheteur public du portail)."
+ ],
+ "qualite": "complet"
+}

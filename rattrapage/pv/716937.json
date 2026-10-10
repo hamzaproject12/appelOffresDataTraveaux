@@ -1,0 +1,84 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "716937",
+ "orgAcronyme": "j0w",
+ "reference_pv": "02/2023",
+ "nouveau": true,
+ "reference": "02/2023",
+ "objet": "AUX Travaux d’installation des grillages de protection pour des cimetières au douars :TAGANTE ,ELGANATE , IKSOUMNE , TIKHRICHITE , ZAOUIA , TASSILLA OUMARK 1er tranche",
+ "acheteur": "la commune rurale de TAFEDNA- Province d’Essaouira",
+ "procedure": "appel d'offres ouvert",
+ "categorie": "Travaux",
+ "date_limite_plis": "29/03/2023",
+ "lieu_ouverture": "commune rurale de TAFEDNA",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "29/03/2023",
+ "justification": null,
+ "infructueux": false,
+ "attributaire": null,
+ "montant_attribue": null,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "STE ANJJA MULTISERVICES SARL",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_offre_financiere",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "et la caution provisoire fait",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_offre_financiere",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Ste BAB LA3NAB sarl",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_offre_financiere",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "STE OASIS LIGHT SARL",
+   "montant_acte_engagement": 289968.0,
+   "montant_apres_verification": 289968.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "STE LAB DE CONSTRUCTION SARL",
+   "montant_acte_engagement": 259476.0,
+   "montant_apres_verification": 259476.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 5,
+ "alertes_ocr": [
+  "« STE OASIS LIGHT SARL » absent de la liste des plis déposés (nom mal lu ?).",
+  "« STE LAB DE CONSTRUCTION SARL » absent de la liste des plis déposés (nom mal lu ?).",
+  "Attributaire non trouvé."
+ ],
+ "notes_ocr": [
+  "« STE ANJJA MULTISERVICES SARL » absent de la liste des plis déposés (nom mal lu ?).",
+  "« et la caution provisoire fait » absent de la liste des plis déposés (nom mal lu ?).",
+  "« Ste BAB LA3NAB sarl » absent de la liste des plis déposés (nom mal lu ?)."
+ ],
+ "qualite": "complet"
+}

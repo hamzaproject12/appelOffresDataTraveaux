@@ -1,0 +1,90 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "754609",
+ "orgAcronyme": "d4q",
+ "reference_pv": null,
+ "nouveau": true,
+ "reference": null,
+ "objet": "Renforcement de réseau basse tension et insertion de PT HTA/BT dans le territoire de la DP Errachidia",
+ "acheteur": null,
+ "procedure": null,
+ "categorie": "Travaux",
+ "date_limite_plis": "07/09/2023",
+ "lieu_ouverture": "Errachidia",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": null,
+ "justification": null,
+ "infructueux": false,
+ "attributaire": "L'offre du concurrent GRITEL SARL AU est moins disante",
+ "montant_attribue": 7770447.66,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "FARADAY SARL, GRITEL SARL AU et FASEG SARL",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "GRITEL SARL AU",
+   "montant_acte_engagement": 8691451.81,
+   "montant_apres_verification": null,
+   "autres_montants": [
+    8796741.82
+   ],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "FASEG SARL",
+   "montant_acte_engagement": 9045451.09,
+   "montant_apres_verification": null,
+   "autres_montants": [
+    9045451.09
+   ],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "FARADAY SARL",
+   "montant_acte_engagement": 9712424.2,
+   "montant_apres_verification": null,
+   "autres_montants": [
+    9712424.2
+   ],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "L'offre du concurrent GRITEL SARL AU est moins disante",
+   "montant_acte_engagement": 7770447.66,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 5,
+ "alertes_ocr": [
+  "« GRITEL SARL AU » absent de la liste des plis déposés (nom mal lu ?).",
+  "« FASEG SARL » absent de la liste des plis déposés (nom mal lu ?).",
+  "« FARADAY SARL » absent de la liste des plis déposés (nom mal lu ?).",
+  "« L'offre du concurrent GRITEL SARL AU est moins disante » absent de la liste des plis déposés (nom mal lu ?)."
+ ],
+ "notes_ocr": [
+  "Maître d'ouvrage absent du PV (utiliser l'acheteur public du portail).",
+  "Montants exprimés hors taxes (HT)."
+ ],
+ "qualite": "complet"
+}

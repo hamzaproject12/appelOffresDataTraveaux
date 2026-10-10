@@ -1,0 +1,55 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "1006126",
+ "orgAcronyme": "z9k",
+ "reference_pv": "02/2026/C.AZ",
+ "nouveau": true,
+ "reference": "02/2026/C.AZ",
+ "objet": null,
+ "acheteur": null,
+ "procedure": "appel d'offres ouvert national",
+ "categorie": "Travaux",
+ "date_limite_plis": null,
+ "lieu_ouverture": null,
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": null,
+ "justification": null,
+ "infructueux": false,
+ "attributaire": null,
+ "montant_attribue": null,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "Sté FASEKA TRAVAUX SAMI, N°288 HAY EE MOUHAMMAIH OM ARZAZAIT",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "CONSTRUCTION ET D'AMENAGEMENT (SETCA), N°272 LOT",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 2,
+ "alertes_ocr": [
+  "Attributaire non trouvé."
+ ],
+ "notes_ocr": [
+  "« Sté FASEKA TRAVAUX SAMI, N°288 HAY EE MOUHAMMAIH OM ARZAZAIT » absent de la liste des plis déposés (nom mal lu ?).",
+  "« CONSTRUCTION ET D'AMENAGEMENT (SETCA), N°272 LOT » absent de la liste des plis déposés (nom mal lu ?).",
+  "Maître d'ouvrage absent du PV (utiliser l'acheteur public du portail)."
+ ],
+ "qualite": "participants"
+}

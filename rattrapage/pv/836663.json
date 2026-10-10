@@ -1,0 +1,63 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "836663",
+ "orgAcronyme": "f9f",
+ "reference_pv": "10/2024/BP",
+ "nouveau": true,
+ "reference": "10/2024/BP",
+ "objet": null,
+ "acheteur": "la Préfecture d’Inezgane Ait Melloul | Le 01 Octobre 2024 à 11Heures Le bureau du Président du Conseil de la Préfecture d’Inezgane",
+ "procedure": "appel d'offres ouvert simplifié",
+ "categorie": "Travaux",
+ "date_limite_plis": null,
+ "lieu_ouverture": "ation de la date",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": null,
+ "justification": "'/ I'Le concurrent a présenté la deuxième offre économiquemeflt la plus avantageuse après Iécartement du premiet concurrefrt.rr",
+ "infructueux": false,
+ "attributaire": "Sté \" RELAX ASCENSEURS SARL",
+ "montant_attribue": 333000.0,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "CONCCURENTS",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Sté\" IMISKAR TRAVAUX SARL",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Sté \" RELAX ASCENSEURS SARL",
+   "montant_acte_engagement": 333000.0,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 3,
+ "alertes_ocr": [
+  "« Sté \" RELAX ASCENSEURS SARL » absent de la liste des plis déposés (nom mal lu ?)."
+ ],
+ "notes_ocr": [
+  "« CONCCURENTS » absent de la liste des plis déposés (nom mal lu ?).",
+  "« Sté\" IMISKAR TRAVAUX SARL » absent de la liste des plis déposés (nom mal lu ?)."
+ ],
+ "qualite": "attribution"
+}

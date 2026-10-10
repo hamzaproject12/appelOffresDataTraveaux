@@ -1,0 +1,135 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "693146",
+ "orgAcronyme": "h5r",
+ "reference_pv": null,
+ "nouveau": true,
+ "reference": null,
+ "objet": null,
+ "acheteur": null,
+ "procedure": null,
+ "categorie": "Travaux",
+ "date_limite_plis": null,
+ "lieu_ouverture": null,
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": null,
+ "justification": null,
+ "infructueux": false,
+ "attributaire": null,
+ "montant_attribue": null,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "STE MAJI TRAVAUX S.A.R.L MOHAMMEDIA",
+   "montant_acte_engagement": 2520300.0,
+   "montant_apres_verification": 2520300.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": true
+  },
+  {
+   "nom": "STE MASTRAW S.A.R.L TINGHIR",
+   "montant_acte_engagement": 2169768.0,
+   "montant_apres_verification": 2169768.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": true
+  },
+  {
+   "nom": "STE GALEON BTP S.A.R.L CASABLANCA",
+   "montant_acte_engagement": 1497564.0,
+   "montant_apres_verification": 1497564.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": true
+  },
+  {
+   "nom": "ECBT S.A.R.L MIDELT",
+   "montant_acte_engagement": 2396130.0,
+   "montant_apres_verification": 2396130.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": true
+  },
+  {
+   "nom": "STE TINNAGH TRAVAUX S.A.R.L.AU CHICHAOUA",
+   "montant_acte_engagement": 1918200.0,
+   "montant_apres_verification": 1918200.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": true
+  },
+  {
+   "nom": "STE OBH TRAVAUX S.A.R.L.AU AIT OURIR AL HAOUZ MARRAKECH",
+   "montant_acte_engagement": 2041934.4,
+   "montant_apres_verification": 2041934.4,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": true
+  },
+  {
+   "nom": "STE SELTRAP S.A.R.L MARRAKECH",
+   "montant_acte_engagement": 2016808.8,
+   "montant_apres_verification": 2016808.8,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": true
+  },
+  {
+   "nom": "STE AMALAD S.A.R.L MARRAKECH",
+   "montant_acte_engagement": 2666112.0,
+   "montant_apres_verification": 2666112.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": true
+  },
+  {
+   "nom": "STE KYMG TRAVAUX S.A.R.L.AU BENI MELLAL",
+   "montant_acte_engagement": 2090080.8,
+   "montant_apres_verification": 2090080.8,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": true
+  },
+  {
+   "nom": "STE ZAMANE EL KHEIR S.A.R.L EL JADIDA",
+   "montant_acte_engagement": 1668811.2,
+   "montant_apres_verification": 1668811.2,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": true
+  }
+ ],
+ "nombre_soumissionnaires": 10,
+ "alertes_ocr": [
+  "« STE MAJI TRAVAUX S.A.R.L MOHAMMEDIA » absent de la liste des plis déposés (nom mal lu ?).",
+  "« STE MASTRAW S.A.R.L TINGHIR » absent de la liste des plis déposés (nom mal lu ?).",
+  "« STE GALEON BTP S.A.R.L CASABLANCA » absent de la liste des plis déposés (nom mal lu ?).",
+  "« ECBT S.A.R.L MIDELT » absent de la liste des plis déposés (nom mal lu ?).",
+  "« STE TINNAGH TRAVAUX S.A.R.L.AU CHICHAOUA » absent de la liste des plis déposés (nom mal lu ?).",
+  "« STE OBH TRAVAUX S.A.R.L.AU AIT OURIR AL HAOUZ MARRAKECH » absent de la liste des plis déposés (nom mal lu ?).",
+  "« STE SELTRAP S.A.R.L MARRAKECH » absent de la liste des plis déposés (nom mal lu ?).",
+  "« STE AMALAD S.A.R.L MARRAKECH » absent de la liste des plis déposés (nom mal lu ?).",
+  "« STE KYMG TRAVAUX S.A.R.L.AU BENI MELLAL » absent de la liste des plis déposés (nom mal lu ?).",
+  "« STE ZAMANE EL KHEIR S.A.R.L EL JADIDA » absent de la liste des plis déposés (nom mal lu ?).",
+  "Attributaire non trouvé."
+ ],
+ "notes_ocr": [
+  "Maître d'ouvrage absent du PV (utiliser l'acheteur public du portail)."
+ ],
+ "qualite": "complet"
+}

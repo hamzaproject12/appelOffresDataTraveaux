@@ -1,0 +1,63 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "767257",
+ "orgAcronyme": "q1s",
+ "reference_pv": "41/DPA.OZ/SAHA/2023",
+ "nouveau": true,
+ "reference": "41/DPA.OZ/SAHA/2023",
+ "objet": "Travaux de construction de la piste rurale reliant la RP 4103 et douar Tizirane, d'environ 6.6 Km au niveau de la Commune Rurale Ain beaida, province d’Ouezzane",
+ "acheteur": "DPA d’ Ouezzane",
+ "procedure": "appel d'offres ouvert",
+ "categorie": "Travaux",
+ "date_limite_plis": "27/09/2023",
+ "lieu_ouverture": "la salle de réunion de La DPA d’ OUEZZANE",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "11/10/2023",
+ "justification": null,
+ "infructueux": false,
+ "attributaire": "SOCIETE LAMLIH TRAVAUX",
+ "montant_attribue": 7017969.6,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "SOCIETE AZZOUZ SELLAM",
+   "montant_acte_engagement": 8850297.6,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "SOCIETE LAMLIH TRAVAUX",
+   "montant_acte_engagement": 7017969.6,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "SOCIETE NEGASET CES non signé",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_dossier_administratif_technique",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 3,
+ "alertes_ocr": [
+  "« SOCIETE AZZOUZ SELLAM » absent de la liste des plis déposés (nom mal lu ?).",
+  "« SOCIETE LAMLIH TRAVAUX » absent de la liste des plis déposés (nom mal lu ?)."
+ ],
+ "notes_ocr": [
+  "« SOCIETE NEGASET CES non signé » absent de la liste des plis déposés (nom mal lu ?)."
+ ],
+ "qualite": "complet"
+}

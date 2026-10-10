@@ -1,0 +1,51 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "853900",
+ "orgAcronyme": "g3h",
+ "reference_pv": "25/2024/INDH",
+ "nouveau": true,
+ "reference": "25/2024/INDH",
+ "objet": null,
+ "acheteur": null,
+ "procedure": "appel d'offres ouvert",
+ "categorie": "Travaux",
+ "date_limite_plis": null,
+ "lieu_ouverture": null,
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": null,
+ "justification": null,
+ "infructueux": false,
+ "attributaire": " Sté OUZOUD MABANI SARL –Azilal",
+ "montant_attribue": 768208.51,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": " Sté IL-BOUCH DE TRAVAUX SARL –Sidi Kacem￾",
+   "montant_acte_engagement": 802447.5,
+   "montant_apres_verification": 802447.5,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": " Sté OUZOUD MABANI SARL –Azilal",
+   "montant_acte_engagement": 768208.51,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 2,
+ "alertes_ocr": [],
+ "notes_ocr": [
+  "Maître d'ouvrage absent du PV (utiliser l'acheteur public du portail)."
+ ],
+ "qualite": "complet"
+}

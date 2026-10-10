@@ -1,0 +1,128 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "680176",
+ "orgAcronyme": "j8k",
+ "reference_pv": "109/2022",
+ "nouveau": true,
+ "reference": "109/2022",
+ "objet": "Fravaux de confortement et consolidation des constructions menaçant ruine dans le tissu ancien à la ville de",
+ "acheteur": "AL OMRANE MARRAKECH:-SAFT",
+ "procedure": "appel d'offres ouvert",
+ "categorie": "Travaux",
+ "date_limite_plis": "03/11/2022",
+ "lieu_ouverture": "Siège de la société A1 Omrane Marrakech-Safi",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": null,
+ "justification": "Moins disant",
+ "infructueux": false,
+ "attributaire": "LA MAROCAINE DES AFFAIRES GLOBALES",
+ "montant_attribue": 3473718.9,
+ "attributaires_par_lot": [
+  {
+   "lot": null,
+   "attributaire": "LA MAROCAINE DES AFFAIRES GLOBALES",
+   "montant": 3473718.9
+  },
+  {
+   "lot": "1",
+   "attributaire": "DIX-HUIT ET QUATRE-VINGT-DIX CENTIMES T.T.C)",
+   "montant": 3433290.42
+  },
+  {
+   "lot": "2",
+   "attributaire": "QUATRE-VINGT-DIX ET QUARANTE-DEUX CENTIMES T.T.C)",
+   "montant": 1470875.87
+  }
+ ],
+ "soumissionnaires": [
+  {
+   "nom": "LA MAROCAINE DES AFFAIRES GLOBALES",
+   "montant_acte_engagement": 3473718.9,
+   "montant_apres_verification": 3473718.9,
+   "autres_montants": [],
+   "lots": [
+    "1"
+   ],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "STRADIM YAN CONSTRUCTION STRADIM",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "depose",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "ANATRA STRADIM ANATRA",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "depose",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "ANATRA",
+   "montant_acte_engagement": 3513877.5,
+   "montant_apres_verification": 3513877.5,
+   "autres_montants": [
+    4339833.39,
+    1470875.87
+   ],
+   "lots": [
+    "1",
+    "2",
+    "3"
+   ],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "invitation",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "depose",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "DIX-HUIT ET QUATRE-VINGT-DIX CENTIMES T.T.C)",
+   "montant_acte_engagement": 3433290.42,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [
+    "1"
+   ],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "QUATRE-VINGT-DIX ET QUARANTE-DEUX CENTIMES T.T.C)",
+   "montant_acte_engagement": 1470875.87,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [
+    "2"
+   ],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 7,
+ "alertes_ocr": [
+  "« DIX-HUIT ET QUATRE-VINGT-DIX CENTIMES T.T.C) » absent de la liste des plis déposés (nom mal lu ?).",
+  "« QUATRE-VINGT-DIX ET QUARANTE-DEUX CENTIMES T.T.C) » absent de la liste des plis déposés (nom mal lu ?)."
+ ],
+ "notes_ocr": [
+  "Marché alloti (3 lots)."
+ ],
+ "qualite": "complet"
+}

@@ -1,0 +1,77 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "918722",
+ "orgAcronyme": "g3h",
+ "reference_pv": "21/SDAD/2025",
+ "nouveau": true,
+ "reference": "21/SDAD/2025",
+ "objet": "TRAVAUX DE MISE A NIVEAU ET ELARGISSEMENT DU BOULEVARD MOHAMMED V ET DE SES ABORDS A LA VILLE DE DAKHLA - LOT 3 : MOBILIER URBAIN - ESPACES VERTS - ARROSAGE",
+ "acheteur": null,
+ "procedure": "appel d'offres ouvert",
+ "categorie": "Travaux",
+ "date_limite_plis": "04/07/2025",
+ "lieu_ouverture": "Secrétariat Général Province D'oued Eddahab",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": null,
+ "justification": "Offre conforme aux exigences du Règlement de consultation et la plus avantageuse. s Date d'achèvement des travaux de la commission : 14/07/2025 à 11h30.",
+ "infructueux": false,
+ "attributaire": null,
+ "montant_attribue": null,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "Société ESPACE VERT EVE",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_offre_technique",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Société KALIFA PLANTE",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_offre_technique",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "U ConcurrentRetenu",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_offre_financiere",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Société BOPAYSAGE",
+   "montant_acte_engagement": 41526726.0,
+   "montant_apres_verification": null,
+   "autres_montants": [
+    41526726.0
+   ],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 4,
+ "alertes_ocr": [
+  "« Société BOPAYSAGE » absent de la liste des plis déposés (nom mal lu ?).",
+  "Attributaire non trouvé."
+ ],
+ "notes_ocr": [
+  "« Société ESPACE VERT EVE » absent de la liste des plis déposés (nom mal lu ?).",
+  "« Société KALIFA PLANTE » absent de la liste des plis déposés (nom mal lu ?).",
+  "« U ConcurrentRetenu » absent de la liste des plis déposés (nom mal lu ?).",
+  "Maître d'ouvrage absent du PV (utiliser l'acheteur public du portail)."
+ ],
+ "qualite": "attribution"
+}

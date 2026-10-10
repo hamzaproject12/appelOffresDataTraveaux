@@ -1,0 +1,95 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "823005",
+ "orgAcronyme": "g8e",
+ "reference_pv": null,
+ "nouveau": true,
+ "reference": null,
+ "objet": "TRAVAUX DE CONSTRUCTION DE LA MAISON DE JEUNES TEKNA A LA PROVINCE DE SIDI KACEM",
+ "acheteur": null,
+ "procedure": null,
+ "categorie": "Travaux",
+ "date_limite_plis": "01/08/2024",
+ "lieu_ouverture": "Bureau de la Société Rabat Région Aménagement au 9, Place Al Joulane — Rabat",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "13/08/2024",
+ "justification": null,
+ "infructueux": false,
+ "attributaire": "STE ZAMANE EL KHEIR",
+ "montant_attribue": 7844995.8,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "SOCIETE BAKADDOURI TRAVAUX",
+   "montant_acte_engagement": 8047312.8,
+   "montant_apres_verification": null,
+   "autres_montants": [
+    8049688.8
+   ],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "STE TRAKOUBEXK",
+   "montant_acte_engagement": 8232528.0,
+   "montant_apres_verification": null,
+   "autres_montants": [
+    8232528.0
+   ],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "STE ZAMANE EL KHEIR",
+   "montant_acte_engagement": 7844995.8,
+   "montant_apres_verification": null,
+   "autres_montants": [
+    7844995.8
+   ],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "STE CORISSAM",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_dossier_administratif_technique",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "ENTREPRISE NCIRI",
+   "montant_acte_engagement": 7955295.6,
+   "montant_apres_verification": null,
+   "autres_montants": [
+    7934295.6
+   ],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "STE ANATRA",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_offre_technique",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 6,
+ "alertes_ocr": [],
+ "notes_ocr": [
+  "Maître d'ouvrage absent du PV (utiliser l'acheteur public du portail)."
+ ],
+ "qualite": "complet"
+}

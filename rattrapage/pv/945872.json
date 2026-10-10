@@ -1,0 +1,93 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "945872",
+ "orgAcronyme": "g3h",
+ "reference_pv": "42/2025/ND/AMRP3038-N",
+ "nouveau": true,
+ "reference": "42/2025/ND/AMRP3038-N",
+ "objet": "Travaux d'aménagement et de remise à niveau de la route provinciale P3038 à Nouaceur",
+ "acheteur": "La Commune de Bouskoura",
+ "procedure": "appel d'offres ouvert",
+ "categorie": "Travaux",
+ "date_limite_plis": null,
+ "lieu_ouverture": null,
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "28/10/2025",
+ "justification": "la société ayant la meilleure offre (économiquement la plus avantageuse).",
+ "infructueux": false,
+ "attributaire": "FLUX VERT",
+ "montant_attribue": 3355236.0,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "ESPACE VERT",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_offre_technique",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "KALIFA PLANTE",
+   "montant_acte_engagement": 3696192.0,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "FLUX VERT",
+   "montant_acte_engagement": 3355236.0,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "VERVETA",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_offre_technique",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "pro 42 2",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "WA GROUP",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_dossier_administratif_technique",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 6,
+ "alertes_ocr": [
+  "« KALIFA PLANTE » absent de la liste des plis déposés (nom mal lu ?).",
+  "« FLUX VERT » absent de la liste des plis déposés (nom mal lu ?)."
+ ],
+ "notes_ocr": [
+  "« ESPACE VERT » absent de la liste des plis déposés (nom mal lu ?).",
+  "« VERVETA » absent de la liste des plis déposés (nom mal lu ?).",
+  "« pro 42 2 » absent de la liste des plis déposés (nom mal lu ?).",
+  "« WA GROUP » absent de la liste des plis déposés (nom mal lu ?)."
+ ],
+ "qualite": "complet"
+}

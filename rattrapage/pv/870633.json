@@ -1,0 +1,78 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "870633",
+ "orgAcronyme": "g8e",
+ "reference_pv": "A114/RRA/2024",
+ "nouveau": true,
+ "reference": "A114/RRA/2024",
+ "objet": "TRAVAUX DE CONSTRUCTION D'UN CENTRE DE TECHNOLOGIE À LA PRÉFECTURE DE RABAT -LOTI",
+ "acheteur": null,
+ "procedure": null,
+ "categorie": "Travaux",
+ "date_limite_plis": "20/01/2025",
+ "lieu_ouverture": "Bureau de la Société Rabat Région Aménagement au 9, Place Al Joulane — Rabat",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "07/02/2025",
+ "justification": "Offre conforme aux exigences du Règlement de la consultation et l'offre la plus avantageuses",
+ "infructueux": false,
+ "attributaire": "ENGOR",
+ "montant_attribue": 116898600.0,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "BADR BETON",
+   "montant_acte_engagement": 122153041.2,
+   "montant_apres_verification": 122153041.2,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": true
+  },
+  {
+   "nom": "ROUANDI",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_offre_technique",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "AHMA",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_offre_technique",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "ENGOR",
+   "montant_acte_engagement": 116898600.0,
+   "montant_apres_verification": 116898600.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "TRAMCO",
+   "montant_acte_engagement": 120487595.4,
+   "montant_apres_verification": 120487595.4,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 5,
+ "alertes_ocr": [],
+ "notes_ocr": [
+  "Maître d'ouvrage absent du PV (utiliser l'acheteur public du portail)."
+ ],
+ "qualite": "complet"
+}

@@ -1,0 +1,54 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "927554",
+ "orgAcronyme": "q0x",
+ "reference_pv": "18/2025",
+ "nouveau": true,
+ "reference": "18/2025",
+ "objet": "TRAVAUX D'ELECTRIFICATION DE 75 LOGEMENTS SITUES AU QUARTIER EL KORS",
+ "acheteur": "Commune de Khénifra",
+ "procedure": "appel d'offres ouvert national",
+ "categorie": "Travaux",
+ "date_limite_plis": "02/09/2025",
+ "lieu_ouverture": "Bureau du Président",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": null,
+ "justification": null,
+ "infructueux": false,
+ "attributaire": null,
+ "montant_attribue": null,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "Sté NAZELEC Sarl, RDC Lot Mabrouka 2 Ouskar N° 49 Khénifra",
+   "montant_acte_engagement": 2346726.0,
+   "montant_apres_verification": 2346726.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "COREEEEELEELLELE",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_offre_financiere",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 2,
+ "alertes_ocr": [
+  "« Sté NAZELEC Sarl, RDC Lot Mabrouka 2 Ouskar N° 49 Khénifra » absent de la liste des plis déposés (nom mal lu ?).",
+  "Attributaire non trouvé."
+ ],
+ "notes_ocr": [
+  "« COREEEEELEELLELE » absent de la liste des plis déposés (nom mal lu ?)."
+ ],
+ "qualite": "attribution"
+}

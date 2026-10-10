@@ -1,0 +1,63 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "1008617",
+ "orgAcronyme": "f9f",
+ "reference_pv": "10/2026/CI-OBIET",
+ "nouveau": true,
+ "reference": "10/2026/CI-OBIET",
+ "objet": "TRAVAUX DE CONSTRUCTION DES VOIES A LA VILLE D'INEZGANE",
+ "acheteur": "la Commune d’Inezgane",
+ "procedure": "appel d'offres ouvert national",
+ "categorie": "Travaux",
+ "date_limite_plis": "18/05/2026",
+ "lieu_ouverture": "la salle de réunion à la division des affaires techniques et études à la Commune D'Inezgane (Av Med v Inezgane)",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": null,
+ "justification": null,
+ "infructueux": false,
+ "attributaire": "STE NAIT ELKHALFAOUI TRAVAUX Sarl AU",
+ "montant_attribue": 8116902.0,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "STE NAIT ELKHALFAOUI TRAVAUX Sarl AU",
+   "montant_acte_engagement": 8116902.0,
+   "montant_apres_verification": 8116902.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "GROUPEMENT STE ENTREPRISE DE TRAVAUX ET D'INGENIERIE D'AGADIR (ETIA) Sarl ET STE NATURE",
+   "montant_acte_engagement": 9233574.0,
+   "montant_apres_verification": 9233574.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "STE NATURE ELEC Sarl",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 3,
+ "alertes_ocr": [
+  "« STE NAIT ELKHALFAOUI TRAVAUX Sarl AU » absent de la liste des plis déposés (nom mal lu ?).",
+  "« GROUPEMENT STE ENTREPRISE DE TRAVAUX ET D'INGENIERIE D'AGADIR (ETIA) Sarl ET STE NATURE » absent de la liste des plis déposés (nom mal lu ?)."
+ ],
+ "notes_ocr": [
+  "« STE NATURE ELEC Sarl » absent de la liste des plis déposés (nom mal lu ?)."
+ ],
+ "qualite": "complet"
+}

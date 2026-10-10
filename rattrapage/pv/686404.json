@@ -1,0 +1,74 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "686404",
+ "orgAcronyme": "q1s",
+ "reference_pv": "123/2022/OR/OZ",
+ "nouveau": true,
+ "reference": "123/2022/OR/OZ",
+ "objet": null,
+ "acheteur": "Résultat : Attribué",
+ "procedure": "appel d'offres ouvert",
+ "categorie": "Travaux",
+ "date_limite_plis": null,
+ "lieu_ouverture": "Date ouverture des plis",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "01/12/2022",
+ "justification": "Offre moins disante",
+ "infructueux": false,
+ "attributaire": "SOCIETE SITESOUSSE SARL",
+ "montant_attribue": 977392.8,
+ "attributaires_par_lot": [
+  {
+   "lot": null,
+   "attributaire": "SOCIETE SITESOUSSE SARL",
+   "montant": 977392.8
+  },
+  {
+   "lot": null,
+   "attributaire": "SOCIETE BRAM YOU SERVITRAV",
+   "montant": 995030.4
+  },
+  {
+   "lot": null,
+   "attributaire": "SOCIETE 3 SEPT SARL",
+   "montant": 877850.0
+  }
+ ],
+ "soumissionnaires": [
+  {
+   "nom": "SOCIETE SITESOUSSE SARL",
+   "montant_acte_engagement": 977392.8,
+   "montant_apres_verification": 977392.8,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "SOCIETE BRAM YOU SERVITRAV",
+   "montant_acte_engagement": 995030.4,
+   "montant_apres_verification": 995030.4,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "SOCIETE 3 SEPT SARL",
+   "montant_acte_engagement": 1053420.0,
+   "montant_apres_verification": 1053420.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 3,
+ "alertes_ocr": [],
+ "notes_ocr": [],
+ "qualite": "attribution"
+}

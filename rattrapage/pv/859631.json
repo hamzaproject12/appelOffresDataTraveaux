@@ -1,0 +1,99 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "859631",
+ "orgAcronyme": "q1s",
+ "reference_pv": null,
+ "nouveau": true,
+ "reference": null,
+ "objet": "Mise à niveau des marchés de gros et halles au poisson de l'ONP, en quatre lots séparés",
+ "acheteur": "OFFICE NATIONAL DES PECHES",
+ "procedure": null,
+ "categorie": "Travaux",
+ "date_limite_plis": "06/12/2024",
+ "lieu_ouverture": "Office National des Pêches, sis 15, rue du Lieutenant Mohamed Mahroud à Casablanca",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": null,
+ "justification": "l'offre économiquement la plus avantageuse (l'offre financière la mieux disante par rapport au prix de référence par défaut).",
+ "infructueux": false,
+ "attributaire": "CONSAMECO et ce",
+ "montant_attribue": 675582.0,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "CONSTRUCTION AMZIL",
+   "montant_acte_engagement": 1091340.0,
+   "montant_apres_verification": null,
+   "autres_montants": [
+    1091340.0
+   ],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "CONSAMECO et ce",
+   "montant_acte_engagement": 461880.0,
+   "montant_apres_verification": null,
+   "autres_montants": [
+    461880.0
+   ],
+   "lots": [
+    "2"
+   ],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "GOLDWAY SOLUTIONS",
+   "montant_acte_engagement": 662016.0,
+   "montant_apres_verification": null,
+   "autres_montants": [
+    662016.0
+   ],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "SIFA WORK",
+   "montant_acte_engagement": 899760.0,
+   "montant_apres_verification": null,
+   "autres_montants": [
+    899760.0
+   ],
+   "lots": [],
+   "statut": "ecarte_offre_financiere",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "ENTREPRISE RAOUAH (lots n°1, n°2, n°3 et n°4)",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "ENTREPRISE RAOUAH",
+   "montant_acte_engagement": 1050444.0,
+   "montant_apres_verification": null,
+   "autres_montants": [
+    1050444.0
+   ],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 6,
+ "alertes_ocr": [
+  "« ENTREPRISE RAOUAH » absent de la liste des plis déposés (nom mal lu ?)."
+ ],
+ "notes_ocr": [],
+ "qualite": "complet"
+}

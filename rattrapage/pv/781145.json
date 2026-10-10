@@ -1,0 +1,58 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "781145",
+ "orgAcronyme": "g8e",
+ "reference_pv": "10/2024",
+ "nouveau": true,
+ "reference": "10/2024",
+ "objet": "ACQUISITION DE 02 CAMIONS CITERNES DE 10 M3 ET 06 CAMIONS CITERNES DE 06 M3 AU PROFIT DE LA PROVINCE DE BENI MELLAL-LOT UNIQUE-",
+ "acheteur": "Agence Régionale d'Exécution des Projets Région Béni Mellal-Khénifra",
+ "procedure": null,
+ "categorie": "Travaux",
+ "date_limite_plis": "17/01/2024",
+ "lieu_ouverture": "Salle de réunion de l'AREP région Beni Mellal Khénifra, Sis Bd Med V lotissement lala Hayat immeuble n°3, 4éme et 5éme étage Béni Mellal",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "15/03/2024",
+ "justification": "L'offre économiquement la plus avantageuse.",
+ "infructueux": false,
+ "attributaire": "STE ATLAS- VEHICULES INDUSTRIELS",
+ "montant_attribue": 6276000.0,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "STE CADOZAT",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_offre_technique",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "STE ATLAS- VEHICULES INDUSTRIELS",
+   "montant_acte_engagement": 6276000.0,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "STE STAT AUTO",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_offre_technique",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 3,
+ "alertes_ocr": [],
+ "notes_ocr": [],
+ "qualite": "attribution"
+}

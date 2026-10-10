@@ -1,0 +1,53 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "926006",
+ "orgAcronyme": "g3h",
+ "reference_pv": "84/25/ASST",
+ "nouveau": true,
+ "reference": "84/25/ASST",
+ "objet": "Prestation d’entretien et réparation des stations de pompage des eaux usées et des vannes murales y compris fournitures des pièces de rechange -Ville Marrakech",
+ "acheteur": "SRM-MS",
+ "procedure": "appel d'offres ouvert",
+ "categorie": "Travaux",
+ "date_limite_plis": "21/07/2025",
+ "lieu_ouverture": "Siège de la SRM-MS Boulevard Mohamed VI MARRAKECH",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "25/08/2025",
+ "justification": "Offre la moins disante.",
+ "infructueux": false,
+ "attributaire": "ALOUSS",
+ "montant_attribue": 1785840.0,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "ART BINAV",
+   "montant_acte_engagement": 1789482.0,
+   "montant_apres_verification": null,
+   "autres_montants": [
+    1789481.98
+   ],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "ALOUSS",
+   "montant_acte_engagement": 1785840.0,
+   "montant_apres_verification": null,
+   "autres_montants": [
+    1785840.0
+   ],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 2,
+ "alertes_ocr": [],
+ "notes_ocr": [],
+ "qualite": "complet"
+}

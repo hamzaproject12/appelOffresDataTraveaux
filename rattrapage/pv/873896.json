@@ -1,0 +1,45 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "873896",
+ "orgAcronyme": "b1d",
+ "reference_pv": "09/2025",
+ "nouveau": true,
+ "reference": "09/2025",
+ "objet": "TRAVAUX D'ASSAINISSEMENT LIQUIDE DE LA VILLE D'EL MARSA : COMPOSANTE 1 % Maître d'ouvrage : Commune d’El Marsa",
+ "acheteur": null,
+ "procedure": "marché négocié",
+ "categorie": "Travaux",
+ "date_limite_plis": "13/02/2025",
+ "lieu_ouverture": "Bureau du président du conseil communal d'El Marsa #% Avis publié dans les quotidiens suivants",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": null,
+ "justification": "Offre retenue après négociation.",
+ "infructueux": false,
+ "attributaire": null,
+ "montant_attribue": null,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "Société NEXTE ROUTIERE",
+   "montant_acte_engagement": 29699900.0,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_offre_financiere",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 1,
+ "alertes_ocr": [
+  "« Société NEXTE ROUTIERE » absent de la liste des plis déposés (nom mal lu ?).",
+  "Attributaire non trouvé."
+ ],
+ "notes_ocr": [
+  "Maître d'ouvrage absent du PV (utiliser l'acheteur public du portail)."
+ ],
+ "qualite": "attribution"
+}

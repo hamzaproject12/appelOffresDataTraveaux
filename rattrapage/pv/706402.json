@@ -1,0 +1,84 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "706402",
+ "orgAcronyme": "q1s",
+ "reference_pv": "03/2023/DPA/36",
+ "nouveau": true,
+ "reference": "03/2023/DPA/36",
+ "objet": "Travaux de Mise en Valeur Agricole de la Réserve de Chasse Royale Ain Sferjla dans la zone d’action de la DPA de Rabat-Salé",
+ "acheteur": "Direction Provinciale de l'Agriculture de Rabat-Salé",
+ "procedure": "appel d'offres ouvert",
+ "categorie": "Travaux",
+ "date_limite_plis": "29/03/2023",
+ "lieu_ouverture": "Direction Provinciale de l'Agriculture de Rabat-Salé",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "10/04/2023",
+ "justification": "l’offre financière la plus avantageuse.",
+ "infructueux": false,
+ "attributaire": "STE ENT ADLAOUI MOHAMMED DES",
+ "montant_attribue": null,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "STE ENT CHAOUKI HASSAN TRAVAUX DIVERS",
+   "montant_acte_engagement": 882000.0,
+   "montant_apres_verification": 882000.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "STE ENT ADLAOUI MOHAMED DES TRAVAUX DIVERS",
+   "montant_acte_engagement": 666000.0,
+   "montant_apres_verification": 666000.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "TRAVAUX DIVERS d'appel d'offres au niveau du DSL et Caution",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": true
+  },
+  {
+   "nom": "Provisoire",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": true
+  },
+  {
+   "nom": "STE ENT ADLAOUI MOHAMMED DES",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 5,
+ "alertes_ocr": [
+  "« STE ENT CHAOUKI HASSAN TRAVAUX DIVERS » absent de la liste des plis déposés (nom mal lu ?).",
+  "« STE ENT ADLAOUI MOHAMED DES TRAVAUX DIVERS » absent de la liste des plis déposés (nom mal lu ?).",
+  "« STE ENT ADLAOUI MOHAMMED DES » absent de la liste des plis déposés (nom mal lu ?).",
+  "Montant de l'attributaire « STE ENT ADLAOUI MOHAMMED DES » non trouvé."
+ ],
+ "notes_ocr": [
+  "« TRAVAUX DIVERS d'appel d'offres au niveau du DSL et Caution » absent de la liste des plis déposés (nom mal lu ?).",
+  "« Provisoire » absent de la liste des plis déposés (nom mal lu ?)."
+ ],
+ "qualite": "complet"
+}

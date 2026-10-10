@@ -1,0 +1,69 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "782896",
+ "orgAcronyme": "j8k",
+ "reference_pv": null,
+ "nouveau": true,
+ "reference": null,
+ "objet": null,
+ "acheteur": "Al Omrane Rabat-Rabat-Salé",
+ "procedure": null,
+ "categorie": "Travaux",
+ "date_limite_plis": "10/03/2023",
+ "lieu_ouverture": "Siège d'Al Omrane Rabat-Salé-Kénitra",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "23/03/2023",
+ "justification": "L'offre la plus avantageuse.",
+ "infructueux": false,
+ "attributaire": "ARNATECP",
+ "montant_attribue": 394160.7,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "JHCB MAROC",
+   "montant_acte_engagement": 457433.87,
+   "montant_apres_verification": 457433.87,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "ARNATEC (SOUMISSION ÉLECT RONIQUE)",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "depose",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "IMLIL PROJET",
+   "montant_acte_engagement": 472992.84,
+   "montant_apres_verification": 472992.84,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "ARNATECP",
+   "montant_acte_engagement": 394160.7,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 4,
+ "alertes_ocr": [
+  "« ARNATECP » absent de la liste des plis déposés (nom mal lu ?)."
+ ],
+ "notes_ocr": [],
+ "qualite": "complet"
+}

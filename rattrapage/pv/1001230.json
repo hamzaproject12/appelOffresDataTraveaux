@@ -1,0 +1,58 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "1001230",
+ "orgAcronyme": "g3h",
+ "reference_pv": "09/SKAD/2026",
+ "nouveau": true,
+ "reference": "09/SKAD/2026",
+ "objet": "TRAVAUX DE CONSTRUCTION DU MARCHE DE PROXIMITE AL ISTIQLAL EN CHARPENTE MÉTALLIQUE A LA VILLE DE KENITRA",
+ "acheteur": "la Société Kénitra Aménagement et Développement",
+ "procedure": "appel d'offres ouvert international",
+ "categorie": "Travaux",
+ "date_limite_plis": "10/03/2026",
+ "lieu_ouverture": "Siege de la Société Kénitra Aménagement et Développement",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "27/03/2026",
+ "justification": "l’offre économiquement la plus avantageuse (la mieux-disante).",
+ "infructueux": false,
+ "attributaire": "Société G TRAV SARL de Marrakech",
+ "montant_attribue": 15811261.56,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "Société G TRAV SARL de Marrakech",
+   "montant_acte_engagement": 15811261.56,
+   "montant_apres_verification": 15811261.56,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Société BATIHALIM Sarl de Taza",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_dossier_administratif_technique",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Société WINARUS ING SARL de Casablanca",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_offre_technique",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 3,
+ "alertes_ocr": [],
+ "notes_ocr": [],
+ "qualite": "attribution"
+}

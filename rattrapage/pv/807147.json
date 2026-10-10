@@ -1,0 +1,78 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "807147",
+ "orgAcronyme": "o8p",
+ "reference_pv": "092-24-AOO",
+ "nouveau": true,
+ "reference": "092-24-AOO",
+ "objet": "Travaux de construction d'une tour de contrôle à l'Aérodrome d’Es-Smara",
+ "acheteur": "l'OFFICE NATIONAL DES AEROPORTS . Daïte d'ouverture des plis : 30/05/2024",
+ "procedure": "appel d'offres ouvert",
+ "categorie": "Travaux",
+ "date_limite_plis": null,
+ "lieu_ouverture": "La salle de réunion de la Direction des Achaïs et de la Logistique",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "20/06/2024",
+ "justification": "L'offre la plus avantageuse.",
+ "infructueux": false,
+ "attributaire": "IMMOBILIERE {SNCIM)",
+ "montant_attribue": 8418997.2,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "NEW MAGHREB DE CONSTRUCTION IMMOBILIÈRE {[SNCIM)",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "COOP TRAVAUX",
+   "montant_acte_engagement": 10000476.0,
+   "montant_apres_verification": 10000476.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "NEW MAGHREB DE NRA TON",
+   "montant_acte_engagement": 8418997.2,
+   "montant_apres_verification": null,
+   "autres_montants": [
+    8418997.2
+   ],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "IMMOBILIERE {SNCIM)",
+   "montant_acte_engagement": 10000476.0,
+   "montant_apres_verification": 8418997.2,
+   "autres_montants": [
+    10000476.0
+   ],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 4,
+ "alertes_ocr": [
+  "« COOP TRAVAUX » absent de la liste des plis déposés (nom mal lu ?).",
+  "« NEW MAGHREB DE NRA TON » absent de la liste des plis déposés (nom mal lu ?).",
+  "« IMMOBILIERE {SNCIM) » absent de la liste des plis déposés (nom mal lu ?)."
+ ],
+ "notes_ocr": [
+  "« NEW MAGHREB DE CONSTRUCTION IMMOBILIÈRE {[SNCIM) » absent de la liste des plis déposés (nom mal lu ?).",
+  "« IMMOBILIERE {SNCIM) » : montant rectifié de 10 000 476.00 à 8 418 997.20 DH."
+ ],
+ "qualite": "complet"
+}

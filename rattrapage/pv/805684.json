@@ -1,0 +1,63 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "805684",
+ "orgAcronyme": "d4q",
+ "reference_pv": null,
+ "nouveau": true,
+ "reference": null,
+ "objet": "Injection de postes de transformation HTA/BT dans le territoire de la Direction Provinciale d'Ouarzazate (Provinces d'Ouarzazate, Zagora et Tinghir)",
+ "acheteur": null,
+ "procedure": null,
+ "categorie": "Travaux",
+ "date_limite_plis": "18/04/2024",
+ "lieu_ouverture": "Errachidia",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": null,
+ "justification": "Moins disant. > Le montant de l'offre du soumissionnaire HS INFRA SARL classé moins disant s’écarte de +15,68% par rapport au montant de l'estimation qui s'élève à 1 045 655,17 DH-HTVA.",
+ "infructueux": false,
+ "attributaire": "HS INFRA SARL",
+ "montant_attribue": 1209653.15,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "HS INFRA SARL et ELECTRO TAFOGHALT",
+   "montant_acte_engagement": 1212475.0,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "SARL",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "depose",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "HS INFRA SARL",
+   "montant_acte_engagement": 1209653.15,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 3,
+ "alertes_ocr": [
+  "« HS INFRA SARL » absent de la liste des plis déposés (nom mal lu ?)."
+ ],
+ "notes_ocr": [
+  "Maître d'ouvrage absent du PV (utiliser l'acheteur public du portail).",
+  "Montants exprimés hors taxes (HT)."
+ ],
+ "qualite": "complet"
+}

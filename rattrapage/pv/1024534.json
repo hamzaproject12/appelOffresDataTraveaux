@@ -1,0 +1,73 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "1024534",
+ "orgAcronyme": "d4q",
+ "reference_pv": null,
+ "nouveau": true,
+ "reference": null,
+ "objet": "ENTRETIEN ET REPARATION DES CONDUITES INFERIEURES OU EGALES À 400 MM EN PVC ET",
+ "acheteur": null,
+ "procedure": "appel d'offres ouvert",
+ "categorie": "Travaux",
+ "date_limite_plis": "18/06/2026",
+ "lieu_ouverture": "au siège de la Direction Régionale Casablanca-Settat (DRC} - 6 bis, rue Patrice Lumumba, Rabat - Maroc",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "16/07/2026",
+ "justification": "Moins-disant",
+ "infructueux": false,
+ "attributaire": "GESERVEAU",
+ "montant_attribue": 1001508.0,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "7 SGEH (SOCIETE DE GENIES ELECTRIQUES ET MAROC",
+   "montant_acte_engagement": 1116600.0,
+   "montant_apres_verification": null,
+   "autres_montants": [
+    1116600.0
+   ],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "HYDRAULTQUES)",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "depose",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "MAROC",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "depose",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "GESERVEAU",
+   "montant_acte_engagement": 1001508.0,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 4,
+ "alertes_ocr": [
+  "« GESERVEAU » absent de la liste des plis déposés (nom mal lu ?)."
+ ],
+ "notes_ocr": [
+  "Maître d'ouvrage absent du PV (utiliser l'acheteur public du portail)."
+ ],
+ "qualite": "complet"
+}

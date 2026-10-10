@@ -1,0 +1,74 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "735528",
+ "orgAcronyme": "z9k",
+ "reference_pv": "06/2023/CT",
+ "nouveau": true,
+ "reference": "06/2023/CT",
+ "objet": "de la consultation : TRAVAUX DE CONSTRUCTION D’UN NOUVEAU SIEGE DE LA COMMUNE AIT OUKABLI",
+ "acheteur": "La commune territoriale AIT OUKABLI Type de procédure : Appel d'Offres Ouvert",
+ "procedure": "appel d'offres ouvert",
+ "categorie": "Travaux",
+ "date_limite_plis": null,
+ "lieu_ouverture": "Bureau de Monsieur le Président de la commune territoriale AIT OUKABLI",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": null,
+ "justification": "offre jugée la plus avantageuse",
+ "infructueux": false,
+ "attributaire": "STE TRAJANE SARL AU",
+ "montant_attribue": 943560.0,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "STE TRAJANE SARL AU",
+   "montant_acte_engagement": 943560.0,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "La Sté sécurité électroniques et techniques de bâtiment (SELTEB)",
+   "montant_acte_engagement": 1150578.0,
+   "montant_apres_verification": null,
+   "autres_montants": [
+    1150578.0
+   ],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "ROUCHE BETON SARL",
+   "montant_acte_engagement": 955284.0,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "de bâtiment (SELTEB)",
+   "montant_acte_engagement": 1150578.0,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 4,
+ "alertes_ocr": [
+  "« STE TRAJANE SARL AU » absent de la liste des plis déposés (nom mal lu ?).",
+  "« La Sté sécurité électroniques et techniques de bâtiment (SELTEB) » absent de la liste des plis déposés (nom mal lu ?).",
+  "« ROUCHE BETON SARL » absent de la liste des plis déposés (nom mal lu ?).",
+  "« de bâtiment (SELTEB) » absent de la liste des plis déposés (nom mal lu ?)."
+ ],
+ "notes_ocr": [],
+ "qualite": "complet"
+}

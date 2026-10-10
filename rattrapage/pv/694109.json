@@ -1,0 +1,83 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "694109",
+ "orgAcronyme": "g3h",
+ "reference_pv": null,
+ "nouveau": true,
+ "reference": null,
+ "objet": null,
+ "acheteur": "la Régie Autonome Intercommunale de Distribution d’Eau et d’Électricité de SAFT (RADEES)",
+ "procedure": "appel d'offres ouvert",
+ "categorie": "Travaux",
+ "date_limite_plis": "02/02/2023",
+ "lieu_ouverture": "salle de réunion de la RADEES sis à Avenue Idriss 1er B.P:218 SAFI",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "14/02/2023",
+ "justification": "La Commission d’appel d’offres se base dans le choix des dossiers retenus sur l’exhaustivité du dossier administratif, sur la conformité technique et l'avantage de l’offre financière.",
+ "infructueux": false,
+ "attributaire": "AGATRING",
+ "montant_attribue": 3114037.56,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "ESAFRIC-AGATRING et WATEGA",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "ARTIBATEL et OMEGA FLUIDES",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_dossier_administratif_technique",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "AGATRING",
+   "montant_acte_engagement": 3114037.56,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "WATEGA",
+   "montant_acte_engagement": 4006860.0,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "ESAFRIC",
+   "montant_acte_engagement": 4056000.0,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 5,
+ "alertes_ocr": [
+  "« AGATRING » absent de la liste des plis déposés (nom mal lu ?).",
+  "« WATEGA » absent de la liste des plis déposés (nom mal lu ?).",
+  "« ESAFRIC » absent de la liste des plis déposés (nom mal lu ?)."
+ ],
+ "notes_ocr": [
+  "« ESAFRIC-AGATRING et WATEGA » absent de la liste des plis déposés (nom mal lu ?).",
+  "« ARTIBATEL et OMEGA FLUIDES » absent de la liste des plis déposés (nom mal lu ?)."
+ ],
+ "qualite": "complet"
+}

@@ -1,0 +1,60 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "983768",
+ "orgAcronyme": "q1s",
+ "reference_pv": "19/2026/D.AM",
+ "nouveau": true,
+ "reference": "19/2026/D.AM",
+ "objet": "Réalisation des travaux de création de pistes agricoles à l'intérieur de la zone d’action de ORMVA du Gharb, Provinces de Sidi Slimane et Sidi Kacem",
+ "acheteur": "ORMVA du Gharb",
+ "procedure": null,
+ "categorie": "Travaux",
+ "date_limite_plis": "26/02/2026",
+ "lieu_ouverture": "Siège de l'ORMVA du Ghart",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "10/02/2026",
+ "justification": "Offre plus avantageuse.",
+ "infructueux": false,
+ "attributaire": "SANTOBAT",
+ "montant_attribue": 9014720.0,
+ "attributaires_par_lot": [
+  {
+   "lot": null,
+   "attributaire": "SANTOBAT",
+   "montant": 9014720.0
+  },
+  {
+   "lot": null,
+   "attributaire": "LAMLIHTRAV",
+   "montant": 19175580.0
+  }
+ ],
+ "soumissionnaires": [
+  {
+   "nom": "SANTOBAT",
+   "montant_acte_engagement": 9014720.0,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "LAMLIHTRAV",
+   "montant_acte_engagement": 19175580.0,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 2,
+ "alertes_ocr": [],
+ "notes_ocr": [],
+ "qualite": "attribution"
+}

@@ -1,0 +1,59 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "679491",
+ "orgAcronyme": "q1s",
+ "reference_pv": "19/DPA.OZ/SAHA/2022",
+ "nouveau": true,
+ "reference": "19/DPA.OZ/SAHA/2022",
+ "objet": "les Travaux d'aménagement des points d’eau dans la province d’ouezzane Ces travaux sont répartis en trois (03) lots",
+ "acheteur": "D.P.A d’Ouezzane",
+ "procedure": "appel d'offres ouvert",
+ "categorie": "Travaux",
+ "date_limite_plis": "08/06/2022",
+ "lieu_ouverture": "la salle de réunion de la DPA de Ouezzane",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "24/06/2022",
+ "justification": null,
+ "infructueux": true,
+ "attributaire": "ENTREPRISE BERDIJ KHALID",
+ "montant_attribue": null,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "ENTREPRISE BERDIJ KHALID",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [
+    "1",
+    "2",
+    "3"
+   ],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "ENTREPRISE GETA (GROUPE EXCELLENCE TRAVAUX AMEN)",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [
+    "1"
+   ],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 2,
+ "alertes_ocr": [
+  "Montant de l'attributaire « ENTREPRISE BERDIJ KHALID » non trouvé."
+ ],
+ "notes_ocr": [
+  "Marché alloti (3 lots)."
+ ],
+ "qualite": "participants"
+}

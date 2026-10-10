@@ -1,0 +1,76 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "992588",
+ "orgAcronyme": "g3h",
+ "reference_pv": "02/BG/2026",
+ "nouveau": true,
+ "reference": "02/BG/2026",
+ "objet": "TRAVAUX DE CONSTRUCTION D'UN LOGEMENT DE FONCTION DU CAID CAIDATE TELOUETE A LA PROVINCE D’OUARZAZATE",
+ "acheteur": "Gouverneur de la province d’Ouarzazate",
+ "procedure": "appel d'offres ouvert national",
+ "categorie": "Travaux",
+ "date_limite_plis": "02/04/2026",
+ "lieu_ouverture": "Secrétariat Général de la Province d’Ouarzazate (salle des réunions)",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "09/04/2026",
+ "justification": "Offre économiquement la plus avantageuse pour l’administration.",
+ "infructueux": false,
+ "attributaire": "STE JEB SUD SARL AU",
+ "montant_attribue": 1207211.4,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "STE SKOU VERT SARL",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_dossier_administratif_technique",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "STE SOBI RAGO ZET SARL",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_dossier_administratif_technique",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "STE JEB SUD SARL AU",
+   "montant_acte_engagement": 1207211.4,
+   "montant_apres_verification": 1207211.4,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "STE SUPER AB TRAVAUX SARL",
+   "montant_acte_engagement": 1314151.2,
+   "montant_apres_verification": 1314151.2,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "STE MBAYOUSS SARL",
+   "montant_acte_engagement": 1247683.2,
+   "montant_apres_verification": 1247683.2,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 5,
+ "alertes_ocr": [],
+ "notes_ocr": [],
+ "qualite": "complet"
+}

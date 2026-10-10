@@ -1,0 +1,51 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "730427",
+ "orgAcronyme": "q1s",
+ "reference_pv": "22/2023/ORH/SGRID",
+ "nouveau": true,
+ "reference": "22/2023/ORH/SGRID",
+ "objet": "REHABILITATION DES CANAUX D'IRRIGATION AU NIVEAU DU PERIMETRE IRRIGUE DE LA TESSAOUT AMONT",
+ "acheteur": null,
+ "procedure": null,
+ "categorie": "Travaux",
+ "date_limite_plis": "06/06/2023",
+ "lieu_ouverture": "Siège de l'Office Régional de Mise en Valeur Agricole du Haouz",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "21/07/2023",
+ "justification": "l'Offre la plus avantageuse est présentée par la société : CCGT.",
+ "infructueux": false,
+ "attributaire": "CCGT",
+ "montant_attribue": 13295082.0,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "CCGT",
+   "montant_acte_engagement": 13295082.0,
+   "montant_apres_verification": 13295082.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "SNCE",
+   "montant_acte_engagement": 13503972.0,
+   "montant_apres_verification": 13503972.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 2,
+ "alertes_ocr": [],
+ "notes_ocr": [
+  "Maître d'ouvrage absent du PV (utiliser l'acheteur public du portail)."
+ ],
+ "qualite": "complet"
+}

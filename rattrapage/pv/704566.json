@@ -1,0 +1,67 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "704566",
+ "orgAcronyme": "g8e",
+ "reference_pv": "29/2023",
+ "nouveau": true,
+ "reference": "29/2023",
+ "objet": "TRAVAUX DE CONSTRUCTION D'UN PONT A POUTRE SUR OUED AHANSAL A LA",
+ "acheteur": "L'Agence Régionale d'Exécution des Projet Région Beni Mellal￾Khenifra",
+ "procedure": null,
+ "categorie": "Travaux",
+ "date_limite_plis": "07/03/2023",
+ "lieu_ouverture": "Salle de réunion de l'AREP région Beni Mellal Khénifra, Sis Bd fyted V lotissement lala Hayat immeuble n°3, 4 éme et 5éme étage Béni Mellal",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "30/03/2023",
+ "justification": "L'offre la plus avantageuse",
+ "infructueux": false,
+ "attributaire": "STE SENOTP",
+ "montant_attribue": 3280080.0,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "STE POLE DE CONSTRUCTION ET D'INGENIERIE",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "STE ENPR",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "STE SENOTP",
+   "montant_acte_engagement": 3280080.0,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": true
+  },
+  {
+   "nom": "STE ARGECI",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_offre_financiere",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 4,
+ "alertes_ocr": [],
+ "notes_ocr": [],
+ "qualite": "attribution"
+}

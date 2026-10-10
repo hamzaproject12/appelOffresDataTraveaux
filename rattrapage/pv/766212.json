@@ -1,0 +1,67 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "766212",
+ "orgAcronyme": "g3h",
+ "reference_pv": "21/E",
+ "nouveau": true,
+ "reference": "21/E",
+ "objet": "Travaux de renouvellement et d’entretien des réseaux électriques sous terrain",
+ "acheteur": "RADEEL",
+ "procedure": null,
+ "categorie": "Travaux",
+ "date_limite_plis": "05/12/2023",
+ "lieu_ouverture": "salle de réunion de la RADEEL",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": null,
+ "justification": null,
+ "infructueux": false,
+ "attributaire": "BATIKAB",
+ "montant_attribue": 13221240.0,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "SBAI ABDESSELAM",
+   "montant_acte_engagement": 13529880.0,
+   "montant_apres_verification": 13529880.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "SOFA",
+   "montant_acte_engagement": 13432117.2,
+   "montant_apres_verification": 13432117.2,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "BATIKAB",
+   "montant_acte_engagement": 13221240.0,
+   "montant_apres_verification": 13221240.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "ELECTRICITE BELLET",
+   "montant_acte_engagement": 14261940.0,
+   "montant_apres_verification": 14261940.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_offre_financiere",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 4,
+ "alertes_ocr": [],
+ "notes_ocr": [],
+ "qualite": "complet"
+}

@@ -1,0 +1,61 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "856464",
+ "orgAcronyme": "d4q",
+ "reference_pv": null,
+ "nouveau": true,
+ "reference": null,
+ "objet": "Entretien du réseau d'eau potable au niveau du centre de Khémisset",
+ "acheteur": null,
+ "procedure": "appel d'offres ouvert",
+ "categorie": "Travaux",
+ "date_limite_plis": "12/11/2024",
+ "lieu_ouverture": "au Siège de la Direction Régionale de l'Ouest (DR4) Lotissement Al Qods - Kénitra - Maroc",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "04/12/2024",
+ "justification": "Moins-disant",
+ "infructueux": false,
+ "attributaire": "SASSA TRAVAUX DIVERS (S.T.D) - Offre de base",
+ "montant_attribue": 387804.0,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "ARINE MERCAN",
+   "montant_acte_engagement": 388530.0,
+   "montant_apres_verification": 402930.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_dossier_administratif_technique",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "RESP (RESEAUX ET STATION DE POMPAGE) MAROC",
+   "montant_acte_engagement": 544848.0,
+   "montant_apres_verification": 544848.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "SASSA TRAVAUX DIVERS (S.T.D) - Offre de base",
+   "montant_acte_engagement": 387804.0,
+   "montant_apres_verification": 387804.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 3,
+ "alertes_ocr": [],
+ "notes_ocr": [
+  "« ARINE MERCAN » : montant rectifié de 388 530.00 à 402 930.00 DH.",
+  "Maître d'ouvrage absent du PV (utiliser l'acheteur public du portail)."
+ ],
+ "qualite": "complet"
+}

@@ -1,0 +1,101 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "858949",
+ "orgAcronyme": "q1s",
+ "reference_pv": "05/2025/0RSM",
+ "nouveau": true,
+ "reference": "05/2025/0RSM",
+ "objet": "Travaux de curage des forages et puits d’exploitation au niveau des périmètres du Sous Amont gérés par l'ORMVA/SM, Province de Taroudant (marché cadre)",
+ "acheteur": "ORMVA/SM",
+ "procedure": "appel d'offres ouvert",
+ "categorie": "Travaux",
+ "date_limite_plis": "21/11/2024",
+ "lieu_ouverture": "Salle de réunion de la direction de l'ORMVA/SM",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "11/12/2024",
+ "justification": null,
+ "infructueux": false,
+ "attributaire": "LBIR FORAGE ET Min",
+ "montant_attribue": 2000000.0,
+ "attributaires_par_lot": [
+  {
+   "lot": null,
+   "attributaire": "LBIR FORAGE ET Min",
+   "montant": 2000000.0
+  },
+  {
+   "lot": null,
+   "attributaire": "FONDATION",
+   "montant": 4000000.0
+  }
+ ],
+ "soumissionnaires": [
+  {
+   "nom": "LBIR FORAGE ET FONDATION Min",
+   "montant_acte_engagement": 2000000.0,
+   "montant_apres_verification": 6384.2,
+   "autres_montants": [
+    4000000.0,
+    6384.2
+   ],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "IMISYB MAROC",
+   "montant_acte_engagement": 2000000.0,
+   "montant_apres_verification": 6549.6,
+   "autres_montants": [
+    4000000.0,
+    6549.6
+   ],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "GEO SONDA BARHDADI OUJDA",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_dossier_administratif_technique",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "LBIR FORAGE ET Min",
+   "montant_acte_engagement": 2000000.0,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "FONDATION",
+   "montant_acte_engagement": 4000000.0,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 5,
+ "alertes_ocr": [
+  "« LBIR FORAGE ET Min » absent de la liste des plis déposés (nom mal lu ?).",
+  "« FONDATION » absent de la liste des plis déposés (nom mal lu ?).",
+  "« LBIR FORAGE ET FONDATION Min » : écart anormal entre montant initial et vérifié (lecture à vérifier).",
+  "« IMISYB MAROC » : écart anormal entre montant initial et vérifié (lecture à vérifier)."
+ ],
+ "notes_ocr": [
+  "« LBIR FORAGE ET FONDATION Min » : montant rectifié de 2 000 000.00 à 6 384.20 DH.",
+  "« IMISYB MAROC » : montant rectifié de 2 000 000.00 à 6 549.60 DH."
+ ],
+ "qualite": "complet"
+}

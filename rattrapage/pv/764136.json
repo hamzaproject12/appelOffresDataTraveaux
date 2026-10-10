@@ -1,0 +1,78 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "764136",
+ "orgAcronyme": "z7x",
+ "reference_pv": "40/UCA/2023",
+ "nouveau": true,
+ "reference": "40/UCA/2023",
+ "objet": null,
+ "acheteur": null,
+ "procedure": "appel d'offres ouvert",
+ "categorie": "Travaux",
+ "date_limite_plis": null,
+ "lieu_ouverture": null,
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "13/12/2023",
+ "justification": "Le concurrent ayant l’offre la plus avantageuse.",
+ "infructueux": false,
+ "attributaire": "Sté SOGETREL",
+ "montant_attribue": 11929870.8,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "Sté SOGETREL",
+   "montant_acte_engagement": 11929870.8,
+   "montant_apres_verification": 11929870.8,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Sté M4 TRAVAUX oo",
+   "montant_acte_engagement": 11889228.0,
+   "montant_apres_verification": 11889228.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Sté SOURNE ACHGHAL",
+   "montant_acte_engagement": 11756077.2,
+   "montant_apres_verification": 11756077.2,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Sté AHBARI",
+   "montant_acte_engagement": 12855330.0,
+   "montant_apres_verification": 12855330.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Sté HAMZA BUILDING",
+   "montant_acte_engagement": 13182928.8,
+   "montant_apres_verification": 13182928.8,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 5,
+ "alertes_ocr": [],
+ "notes_ocr": [
+  "Maître d'ouvrage absent du PV (utiliser l'acheteur public du portail)."
+ ],
+ "qualite": "complet"
+}

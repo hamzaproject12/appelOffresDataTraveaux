@@ -1,0 +1,116 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "1023969",
+ "orgAcronyme": "q9t",
+ "reference_pv": "118/2026",
+ "nouveau": true,
+ "reference": "118/2026",
+ "objet": "Les travaux de rénovation de l'étanchéité des terrasses de L'HER et CCTD relevant du centre hospitalo-universitaire Ibn Sina en deux lots séparés",
+ "acheteur": "Centre Hospitalo-universitaire Ibn Sina Rabat",
+ "procedure": null,
+ "categorie": "Travaux",
+ "date_limite_plis": "30/06/2026",
+ "lieu_ouverture": "salle de réunion de la Direction du Centre Hospitalo universitaire Tbn Sina Rabat",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": null,
+ "justification": null,
+ "infructueux": false,
+ "attributaire": "Estimotion Prtx",
+ "montant_attribue": 1809640.59,
+ "attributaires_par_lot": [
+  {
+   "lot": null,
+   "attributaire": "Estimotion Prtx",
+   "montant": 1809640.59
+  },
+  {
+   "lot": null,
+   "attributaire": "Montsnt de l'octe d'enqagenent (en ) Esfitnotion Prix de référence rAzTA",
+   "montant": 2526000.0
+  },
+  {
+   "lot": null,
+   "attributaire": "Â,IBOUIG",
+   "montant": 1909640.59
+  }
+ ],
+ "soumissionnaires": [
+  {
+   "nom": "MARCOVERRA- POLYSOL -ARTRAVASE -TAZTA-SOGETREL- MBOUIG CONSTRUC 1 LON",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "CONSTRUCIION- FIRST ETANCHE - DIAMONDE BATIMENT- HGMT SARL-STE",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "depose",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "STE SABITRAV",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [
+    "2"
+   ],
+   "statut": "admis",
+   "admis_avec_reserve": true
+  },
+  {
+   "nom": "TECHNOLOGY-STS ATLAS - STCAB SARL AU- GOLD YOU BUILDING",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_dossier_administratif_technique",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Estimotion Prtx",
+   "montant_acte_engagement": 1809640.59,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Montsnt de l'octe d'enqagenent (en ) Esfitnotion Prix de référence rAzTA",
+   "montant_acte_engagement": 2526000.0,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Â,IBOUIG",
+   "montant_acte_engagement": 1909640.59,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 7,
+ "alertes_ocr": [
+  "« Estimotion Prtx » absent de la liste des plis déposés (nom mal lu ?).",
+  "« Montsnt de l'octe d'enqagenent (en ) Esfitnotion Prix de référence rAzTA » absent de la liste des plis déposés (nom mal lu ?).",
+  "« Â,IBOUIG » absent de la liste des plis déposés (nom mal lu ?)."
+ ],
+ "notes_ocr": [],
+ "qualite": "attribution"
+}

@@ -1,0 +1,97 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "857013",
+ "orgAcronyme": "j8k",
+ "reference_pv": "16/2024",
+ "nouveau": true,
+ "reference": "16/2024",
+ "objet": "La mise en place d’un système anti-incendie au siège de l'Agence urbaine de Rabat-Salé tranche || (séparé en deux lots)",
+ "acheteur": "Agence Urbaine de Rabat-Salé",
+ "procedure": "appel d'offres ouvert national",
+ "categorie": "Travaux",
+ "date_limite_plis": "13/11/2024",
+ "lieu_ouverture": "Siège de l'Agence Urbaine de Rabat-Salé",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "04/12/2024",
+ "justification": "- La capacité de la société à répondre aux stipulations du cahier de charges ; - Les moyens humains, techniques et matériels du prestataire ; - Le montant de l'offre financière. (Suite au calcul et classement des offres financières des concurrents par rapport au prix de référence). Angle Avenue Al Araar et Rue Al Jaouz, Secteur 16, Hay Ryad - B.P 2006 - Rabat Lu ji - 2006 : mue - vi gs :16 EU, jyn",
+ "infructueux": false,
+ "attributaire": null,
+ "montant_attribue": null,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "(soumission électronique)",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "depose",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "GHALI POWER SARL AU",
+   "montant_acte_engagement": 360000.0,
+   "montant_apres_verification": null,
+   "autres_montants": [
+    360000.0
+   ],
+   "lots": [
+    "01",
+    "1"
+   ],
+   "statut": "ecarte_offre_technique",
+   "admis_avec_reserve": true
+  },
+  {
+   "nom": "Concurrents - BEFTRA ELEC SARL AU",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "depose",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "NOUR SOLUTION SARL AU",
+   "montant_acte_engagement": 325008.0,
+   "montant_apres_verification": null,
+   "autres_montants": [
+    325008.0,
+    500000.0
+   ],
+   "lots": [
+    "01",
+    "02",
+    "1"
+   ],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "BEFTRA ELEC SARL AU",
+   "montant_acte_engagement": 381912.0,
+   "montant_apres_verification": null,
+   "autres_montants": [
+    381912.0
+   ],
+   "lots": [
+    "1"
+   ],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 5,
+ "alertes_ocr": [
+  "« BEFTRA ELEC SARL AU » absent de la liste des plis déposés (nom mal lu ?).",
+  "Attributaire non trouvé."
+ ],
+ "notes_ocr": [
+  "Marché alloti (3 lots)."
+ ],
+ "qualite": "complet"
+}

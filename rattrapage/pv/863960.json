@@ -1,0 +1,94 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "863960",
+ "orgAcronyme": "a1z",
+ "reference_pv": "105/2024",
+ "nouveau": true,
+ "reference": "105/2024",
+ "objet": "travaux d’enlèvement des panneaux publicitaires et autres dispositifs de publicité",
+ "acheteur": null,
+ "procedure": "appel d'offres ouvert",
+ "categorie": "Travaux",
+ "date_limite_plis": "22/11/2024",
+ "lieu_ouverture": "la salle des réunions de la Commune de Casablanca, sise place Mohamed V, Avenue Hassan IF, 2ème étage, bureau 38",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "04/12/2024",
+ "justification": "l’offre économiquement la plus avantageuse.",
+ "infructueux": false,
+ "attributaire": "SMF LASER",
+ "montant_attribue": 840240.0,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "SMF LASER",
+   "montant_acte_engagement": 840240.0,
+   "montant_apres_verification": 840240.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "SIGMA MOBILITY",
+   "montant_acte_engagement": 888000.0,
+   "montant_apres_verification": 888000.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "AM RENOVATIONS",
+   "montant_acte_engagement": 843600.0,
+   "montant_apres_verification": 843600.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "STE KAIDI TRAVAUX",
+   "montant_acte_engagement": 846000.0,
+   "montant_apres_verification": 846000.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "ENTREPRISE EL IDRISSI TALAL DES TRAVAUX",
+   "montant_acte_engagement": 777000.0,
+   "montant_apres_verification": 777000.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "STE COTRO",
+   "montant_acte_engagement": 835800.0,
+   "montant_apres_verification": 835800.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 6,
+ "alertes_ocr": [
+  "« SMF LASER » absent de la liste des plis déposés (nom mal lu ?).",
+  "« SIGMA MOBILITY » absent de la liste des plis déposés (nom mal lu ?).",
+  "« AM RENOVATIONS » absent de la liste des plis déposés (nom mal lu ?).",
+  "« STE KAIDI TRAVAUX » absent de la liste des plis déposés (nom mal lu ?).",
+  "« ENTREPRISE EL IDRISSI TALAL DES TRAVAUX » absent de la liste des plis déposés (nom mal lu ?).",
+  "« STE COTRO » absent de la liste des plis déposés (nom mal lu ?)."
+ ],
+ "notes_ocr": [
+  "Maître d'ouvrage absent du PV (utiliser l'acheteur public du portail)."
+ ],
+ "qualite": "complet"
+}

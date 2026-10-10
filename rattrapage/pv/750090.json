@@ -1,0 +1,136 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "750090",
+ "orgAcronyme": "e5w",
+ "reference_pv": null,
+ "nouveau": true,
+ "reference": null,
+ "objet": "D'APPEL D'OFFRES COMMUNES DAR OUM SOLTANE ET AIN KERMAPREFECTURE DE MEKNES",
+ "acheteur": null,
+ "procedure": null,
+ "categorie": "Travaux",
+ "date_limite_plis": "18/10/2023",
+ "lieu_ouverture": "L'ANNEXE DU CONSEIL REGION FES MEKNES",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "26/10/2023",
+ "justification": "Offre la moins disante.",
+ "infructueux": false,
+ "attributaire": null,
+ "montant_attribue": null,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "STE BEMATRAX SARL AU",
+   "montant_acte_engagement": 10936524.0,
+   "montant_apres_verification": 10936524.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "STE OSOFORAGE SARL « OUSSILKANE DE SONDAGE FORAGE ET TRAVAUX TINGHIR",
+   "montant_acte_engagement": 13191223.2,
+   "montant_apres_verification": 13191223.2,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": true
+  },
+  {
+   "nom": "STE NOUVELLE DE TRAVAUX PUBLICS « SONOTRAP",
+   "montant_acte_engagement": 10613058.0,
+   "montant_apres_verification": 10613058.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "STE DAR AL ACHGHAL AL KOUBRA SARL AGADIR",
+   "montant_acte_engagement": 11126155.2,
+   "montant_apres_verification": 11126155.2,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "STE BNTP SARL",
+   "montant_acte_engagement": 11780600.4,
+   "montant_apres_verification": 11780600.4,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "STE ISMAILIENNE DE TRAVAUX DIVERS SARL",
+   "montant_acte_engagement": 12070454.4,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_offre_financiere",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "STE HABJAOUI TRAVAUX SARL BERKANE",
+   "montant_acte_engagement": 10727019.0,
+   "montant_apres_verification": 10727019.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "STE FTPR SARL « FILALI TRAVAUX PUBLICS ET REBO",
+   "montant_acte_engagement": 11616614.4,
+   "montant_apres_verification": 11616614.4,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "STE INJAZAT PROJET SARL",
+   "montant_acte_engagement": 13516446.0,
+   "montant_apres_verification": 13542366.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "STE ATI ALLAH DE TRAVAUX DIVERS SARL",
+   "montant_acte_engagement": 11485476.0,
+   "montant_apres_verification": 11485476.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "SIE HABJAOUI TRAVAUX SARL oo",
+   "montant_acte_engagement": 10727019.0,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 11,
+ "alertes_ocr": [
+  "« SIE HABJAOUI TRAVAUX SARL oo » absent de la liste des plis déposés (nom mal lu ?).",
+  "Attributaire non trouvé."
+ ],
+ "notes_ocr": [
+  "« STE INJAZAT PROJET SARL » : montant rectifié de 13 516 446.00 à 13 542 366.00 DH.",
+  "Maître d'ouvrage absent du PV (utiliser l'acheteur public du portail)."
+ ],
+ "qualite": "complet"
+}

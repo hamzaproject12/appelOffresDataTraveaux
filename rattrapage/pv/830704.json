@@ -1,0 +1,49 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "830704",
+ "orgAcronyme": "g3h",
+ "reference_pv": "17/INDH/2024",
+ "nouveau": true,
+ "reference": "17/INDH/2024",
+ "objet": "Travaux de construction d’un centre d’épanouissement des jeunes à la ville d’EI Hajeb — Province d’El-Hajeb",
+ "acheteur": "PROVINCE D’EL-HAJEB",
+ "procedure": "appel d'offres ouvert",
+ "categorie": "Travaux",
+ "date_limite_plis": "18/09/2024",
+ "lieu_ouverture": "Siège de la Province d’El-Hajeb",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "23/09/2024",
+ "justification": "l’offre économiquement la plus avantageuse.",
+ "infructueux": false,
+ "attributaire": "Sté. SOHATI TRAVAUX SARL de Meknès",
+ "montant_attribue": 2513473.2,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "Sté. BOUNYANE EL ARFAOUI SARL de Meknès",
+   "montant_acte_engagement": 3046154.35,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_offre_financiere",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Sté. SOHATI TRAVAUX SARL de Meknès",
+   "montant_acte_engagement": 2513473.2,
+   "montant_apres_verification": 2513473.2,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 2,
+ "alertes_ocr": [],
+ "notes_ocr": [],
+ "qualite": "complet"
+}

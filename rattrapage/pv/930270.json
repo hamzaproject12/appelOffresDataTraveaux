@@ -1,0 +1,64 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "930270",
+ "orgAcronyme": "g3h",
+ "reference_pv": "17/25/BG",
+ "nouveau": true,
+ "reference": "17/25/BG",
+ "objet": null,
+ "acheteur": "Préfecture de Rabat",
+ "procedure": null,
+ "categorie": "Travaux",
+ "date_limite_plis": null,
+ "lieu_ouverture": "Salle de réunion au 2ème étage du siège de la Wilaya de la Région de Rabat-Salé-Kénitra",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "11/09/2025",
+ "justification": "Offre la plus avantageuse",
+ "infructueux": false,
+ "attributaire": "Sté ALEQ S.A",
+ "montant_attribue": 68437966.8,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "Groupement Société STAM et Société VIAS",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Sté ALEQ S.A",
+   "montant_acte_engagement": 68437966.8,
+   "montant_apres_verification": null,
+   "autres_montants": [
+    68437966.8
+   ],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Groupement Société STAM et",
+   "montant_acte_engagement": 67444242.35,
+   "montant_apres_verification": null,
+   "autres_montants": [
+    67444242.34
+   ],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 3,
+ "alertes_ocr": [
+  "« Groupement Société STAM et » absent de la liste des plis déposés (nom mal lu ?)."
+ ],
+ "notes_ocr": [],
+ "qualite": "complet"
+}

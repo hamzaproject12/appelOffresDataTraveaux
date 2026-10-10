@@ -1,0 +1,58 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "680271",
+ "orgAcronyme": "g3h",
+ "reference_pv": "69/EA/2022",
+ "nouveau": true,
+ "reference": "69/EA/2022",
+ "objet": "SECURISATION DES LOCAUX ET OUVRAGES DE LA R.A.D.E.E.0",
+ "acheteur": "RADEEO",
+ "procedure": null,
+ "categorie": "Travaux",
+ "date_limite_plis": "02/11/2022",
+ "lieu_ouverture": "salle de réunion de la RADEEO",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "23/11/2022",
+ "justification": "æ Offre la plus avantageuse (offre moins disante)",
+ "infructueux": false,
+ "attributaire": "Société ESPACE TECHNOLOGIE",
+ "montant_attribue": 1068540.0,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "Société PLAY SOLUTION",
+   "montant_acte_engagement": 1129200.0,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Société SUITE TECHNOLOGIE",
+   "montant_acte_engagement": 1108800.0,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Société ESPACE TECHNOLOGIE",
+   "montant_acte_engagement": 1068540.0,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 3,
+ "alertes_ocr": [],
+ "notes_ocr": [],
+ "qualite": "complet"
+}

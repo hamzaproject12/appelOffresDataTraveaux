@@ -1,0 +1,150 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "794656",
+ "orgAcronyme": "o8p",
+ "reference_pv": null,
+ "nouveau": true,
+ "reference": null,
+ "objet": null,
+ "acheteur": null,
+ "procedure": "appel d'offres ouvert",
+ "categorie": "Travaux",
+ "date_limite_plis": "18/04/2024",
+ "lieu_ouverture": "Direction du Port de Nador et Région",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": null,
+ "justification": "L'offre la moins-disante.",
+ "infructueux": false,
+ "attributaire": "ANETRA",
+ "montant_attribue": 2177500.0,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "SOCIETE SAKITRA e ETABLISSEMENT ESSAKINI e GMKATRAV",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_dossier_administratif_technique",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "STEMIRI + ADIMPRO e ANETRA",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_dossier_administratif_technique",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "PERFORMANCE MATERIEL e EBYR",
+   "montant_acte_engagement": 2498500.0,
+   "montant_apres_verification": null,
+   "autres_montants": [
+    2498500.0
+   ],
+   "lots": [],
+   "statut": "ecarte_dossier_administratif_technique",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "SOCIETE SAKITRA",
+   "montant_acte_engagement": 2282500.0,
+   "montant_apres_verification": null,
+   "autres_montants": [
+    2282500.0
+   ],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "STE MIRI",
+   "montant_acte_engagement": 2383500.0,
+   "montant_apres_verification": null,
+   "autres_montants": [
+    2383500.0
+   ],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "ETABLISSEMENT ESSAKINI",
+   "montant_acte_engagement": 2500000.0,
+   "montant_apres_verification": null,
+   "autres_montants": [
+    2500000.0
+   ],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "ADIMPRO",
+   "montant_acte_engagement": 2463500.0,
+   "montant_apres_verification": null,
+   "autres_montants": [
+    2463500.0
+   ],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "EBYR",
+   "montant_acte_engagement": 2494500.0,
+   "montant_apres_verification": null,
+   "autres_montants": [
+    2494500.0
+   ],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "GMKATRAV",
+   "montant_acte_engagement": 2827500.0,
+   "montant_apres_verification": null,
+   "autres_montants": [
+    2827500.0
+   ],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "ANETRA",
+   "montant_acte_engagement": 2177500.0,
+   "montant_apres_verification": null,
+   "autres_montants": [
+    2177500.0
+   ],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 10,
+ "alertes_ocr": [
+  "« PERFORMANCE MATERIEL e EBYR » absent de la liste des plis déposés (nom mal lu ?).",
+  "« SOCIETE SAKITRA » absent de la liste des plis déposés (nom mal lu ?).",
+  "« STE MIRI » absent de la liste des plis déposés (nom mal lu ?).",
+  "« ETABLISSEMENT ESSAKINI » absent de la liste des plis déposés (nom mal lu ?).",
+  "« ADIMPRO » absent de la liste des plis déposés (nom mal lu ?).",
+  "« EBYR » absent de la liste des plis déposés (nom mal lu ?).",
+  "« GMKATRAV » absent de la liste des plis déposés (nom mal lu ?).",
+  "« ANETRA » absent de la liste des plis déposés (nom mal lu ?)."
+ ],
+ "notes_ocr": [
+  "« SOCIETE SAKITRA e ETABLISSEMENT ESSAKINI e GMKATRAV » absent de la liste des plis déposés (nom mal lu ?).",
+  "« STEMIRI + ADIMPRO e ANETRA » absent de la liste des plis déposés (nom mal lu ?).",
+  "Maître d'ouvrage absent du PV (utiliser l'acheteur public du portail)."
+ ],
+ "qualite": "complet"
+}

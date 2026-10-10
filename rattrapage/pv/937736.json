@@ -1,0 +1,53 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "937736",
+ "orgAcronyme": "j8k",
+ "reference_pv": "134/2025",
+ "nouveau": true,
+ "reference": "134/2025",
+ "objet": "TRAVAUX D’ELECTRIFICATION 20/1° CATEGORIE DU SITE D'ACCUEIL DU CENTRE MOULAY BRAHIM SIS À LA COMMUNE MOULAY BRAHIM - POVINCE AL HAOUZ",
+ "acheteur": "AL OMRANE MARRAKECH-SAFI",
+ "procedure": "appel d'offres ouvert",
+ "categorie": "Travaux",
+ "date_limite_plis": "30/09/2025",
+ "lieu_ouverture": "Siège de la société AI Omrane Marrakech-Safi",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "06/10/2025",
+ "justification": "Offre économiquement la plus avantageuse.",
+ "infructueux": false,
+ "attributaire": "TRAV FOU HAKIM",
+ "montant_attribue": 1319713.03,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "TRAV FOU HAKIM",
+   "montant_acte_engagement": 437887.34,
+   "montant_apres_verification": 1437887.34,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "BUILDDIS TECH",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 2,
+ "alertes_ocr": [
+  "« TRAV FOU HAKIM » : écart anormal entre montant initial et vérifié (lecture à vérifier)."
+ ],
+ "notes_ocr": [
+  "« TRAV FOU HAKIM » : montant rectifié de 437 887.34 à 1 437 887.34 DH."
+ ],
+ "qualite": "attribution"
+}

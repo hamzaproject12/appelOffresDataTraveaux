@@ -1,0 +1,401 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "978373",
+ "orgAcronyme": "q1s",
+ "reference_pv": "03/2026/SER",
+ "nouveau": true,
+ "reference": "03/2026/SER",
+ "objet": "Travaux d'équipement des forages d'exploitation et d'ouvrages annexes en génie civil dans les provinces de Berkane, Nador et Taourirt en six lots",
+ "acheteur": "ORMVA de la Moulouya",
+ "procedure": null,
+ "categorie": "Travaux",
+ "date_limite_plis": "29/01/2026",
+ "lieu_ouverture": "Salle des réunions de l'ORMVAM",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "18/02/2026",
+ "justification": "Les offres présentées par les concurrents sont les offres les mieux disantes : e Lot n° 1: DELTADOR e Lot n°2 : HHMIDANMIN e Lot n°3 : HERTS HOURCHMI HMAD R/P HOURCHMI ANASS e Lot n° 4 : HERTS HOURCHMI HMAD R/P HOURCHMI ANASS e Lot n°5 : AGRITRAS e Lot n°6 : CAGP INVEST",
+ "infructueux": false,
+ "attributaire": "DELTADOR",
+ "montant_attribue": 1328196.0,
+ "attributaires_par_lot": [
+  {
+   "lot": "1",
+   "attributaire": "DELTADOR",
+   "montant": 1328196.0
+  },
+  {
+   "lot": "2",
+   "attributaire": "HHMIDANIMIN",
+   "montant": 1271880.0
+  },
+  {
+   "lot": "3",
+   "attributaire": "HERTS HOURCHMI HMAD R/P HOURCHMI ANASS",
+   "montant": 1661880.0
+  },
+  {
+   "lot": "4",
+   "attributaire": "HERTS HOURCHMI HMAD R/P HOURCHMI ANASS",
+   "montant": 1698000.0
+  },
+  {
+   "lot": "5",
+   "attributaire": "AGRITRAS",
+   "montant": 1110480.0
+  },
+  {
+   "lot": "6",
+   "attributaire": "CAGP INVEST",
+   "montant": 1486380.0
+  }
+ ],
+ "soumissionnaires": [
+  {
+   "nom": "NOUR SMT",
+   "montant_acte_engagement": 1356720.0,
+   "montant_apres_verification": null,
+   "autres_montants": [
+    1388376.0
+   ],
+   "lots": [
+    "1"
+   ],
+   "statut": "ecarte_offre_financiere",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "AIT OUKHALI TRAVAUX",
+   "montant_acte_engagement": 1331079.6,
+   "montant_apres_verification": null,
+   "autres_montants": [
+    1316476.8,
+    824914.4,
+    2008332.0,
+    1137880.8,
+    1495020.0
+   ],
+   "lots": [
+    "1",
+    "2",
+    "3",
+    "4",
+    "5"
+   ],
+   "statut": "ecarte_offre_financiere",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "CANALCO",
+   "montant_acte_engagement": 1346160.0,
+   "montant_apres_verification": 1346160.0,
+   "autres_montants": [
+    1301136.0,
+    1789032.0,
+    1712952.0,
+    1130556.0,
+    1489764.0
+   ],
+   "lots": [
+    "1",
+    "2",
+    "3",
+    "4",
+    "5"
+   ],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "UNION RAKARTE",
+   "montant_acte_engagement": 1362108.0,
+   "montant_apres_verification": 1362108.0,
+   "autres_montants": [
+    1316880.0,
+    1822464.0,
+    1745256.0,
+    1143096.0,
+    1524180.0
+   ],
+   "lots": [
+    "1",
+    "2",
+    "3",
+    "4",
+    "5"
+   ],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "HERTS HOURCHMI HMAD R/P HOURCHMI ANASS",
+   "montant_acte_engagement": 1810200.0,
+   "montant_apres_verification": 1334784.0,
+   "autres_montants": [
+    1698000.0,
+    1113720.0,
+    1498980.0
+   ],
+   "lots": [
+    "1",
+    "2",
+    "3",
+    "4",
+    "5"
+   ],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "OUCHARMOUH",
+   "montant_acte_engagement": 1358432.4,
+   "montant_apres_verification": 1358432.4,
+   "autres_montants": [
+    1239408.0,
+    1786128.0,
+    1679880.0,
+    1107108.0,
+    1475388.0
+   ],
+   "lots": [
+    "1",
+    "2",
+    "3",
+    "4",
+    "5"
+   ],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "DELTADOR",
+   "montant_acte_engagement": 1328196.0,
+   "montant_apres_verification": 1328196.0,
+   "autres_montants": [
+    1283184.0,
+    1793400.0,
+    1708800.0,
+    1120704.0,
+    1502100.0
+   ],
+   "lots": [
+    "1",
+    "2",
+    "3",
+    "4",
+    "5",
+    "6"
+   ],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "IRRAGRI",
+   "montant_acte_engagement": 1340196.0,
+   "montant_apres_verification": 1340196.0,
+   "autres_montants": [
+    1295184.0,
+    1800840.0,
+    1718160.0,
+    1127520.0,
+    1485540.0
+   ],
+   "lots": [
+    "1",
+    "2",
+    "3",
+    "4",
+    "5",
+    "6"
+   ],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "AIT AISSA FOURAGE LILFILAHA",
+   "montant_acte_engagement": 1333500.0,
+   "montant_apres_verification": 1333500.0,
+   "autres_montants": [
+    1296672.0,
+    1874088.0,
+    1769040.0,
+    1115172.0,
+    1558980.0
+   ],
+   "lots": [
+    "1",
+    "2",
+    "3",
+    "4",
+    "5",
+    "6"
+   ],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "AGRITRAS",
+   "montant_acte_engagement": 1343040.0,
+   "montant_apres_verification": 1343040.0,
+   "autres_montants": [
+    1283640.0,
+    1800600.0,
+    1712160.0,
+    1110480.0,
+    1502700.0
+   ],
+   "lots": [
+    "1",
+    "2",
+    "3",
+    "4",
+    "5",
+    "6"
+   ],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "HHMIDANIMIN",
+   "montant_acte_engagement": 1342536.0,
+   "montant_apres_verification": 1342536.0,
+   "autres_montants": [
+    1271880.0,
+    1815192.0,
+    1702200.0,
+    1121664.0,
+    1495236.0
+   ],
+   "lots": [
+    "1",
+    "2",
+    "3",
+    "4",
+    "5",
+    "6"
+   ],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "RABIB TRAV",
+   "montant_acte_engagement": 1327452.0,
+   "montant_apres_verification": 1327452.0,
+   "autres_montants": [
+    1288608.0,
+    1781460.0,
+    1699416.0,
+    1115640.0,
+    1493088.0
+   ],
+   "lots": [
+    "1",
+    "2",
+    "3",
+    "4",
+    "5",
+    "6"
+   ],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "DIHYA",
+   "montant_acte_engagement": 1332144.0,
+   "montant_apres_verification": 1290000.0,
+   "autres_montants": [
+    1290000.0,
+    1799028.0,
+    1119420.0,
+    1499616.0
+   ],
+   "lots": [
+    "1",
+    "2",
+    "3",
+    "4",
+    "5",
+    "6"
+   ],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "HAJ DUIRI SOHADU",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [
+    "1"
+   ],
+   "statut": "ecarte_dossier_administratif_technique",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "CAGP INVEST",
+   "montant_acte_engagement": 1330152.0,
+   "montant_apres_verification": 1330152.0,
+   "autres_montants": [
+    1309200.0,
+    1773480.0,
+    1686144.0,
+    1123560.0,
+    1486380.0
+   ],
+   "lots": [
+    "1",
+    "2",
+    "3",
+    "4",
+    "5",
+    "6"
+   ],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "CHANTIERS GEANTS",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [
+    "1"
+   ],
+   "statut": "ecarte_dossier_administratif_technique",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "GRANDE SOCIETE DES EQUIPEMENTS",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [
+    "1"
+   ],
+   "statut": "depose",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "BOUBAMOU TRAVAUX DIVERS ET CONSTRUCTION",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [
+    "1"
+   ],
+   "statut": "ecarte_dossier_administratif_technique",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 18,
+ "alertes_ocr": [],
+ "notes_ocr": [
+  "« HERTS HOURCHMI HMAD R/P HOURCHMI ANASS » : montant rectifié de 1 810 200.00 à 1 334 784.00 DH.",
+  "« DIHYA » : montant rectifié de 1 332 144.00 à 1 290 000.00 DH.",
+  "Marché alloti (6 lots)."
+ ],
+ "qualite": "complet"
+}

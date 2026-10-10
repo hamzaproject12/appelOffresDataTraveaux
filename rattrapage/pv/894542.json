@@ -1,0 +1,54 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "894542",
+ "orgAcronyme": "j8k",
+ "reference_pv": null,
+ "nouveau": true,
+ "reference": null,
+ "objet": "la réalisation des travaux d’aménagements extérieurs de l’opération Tiguemmi – Tranche 03, sise à la commune territoriale d’Agadir, préfecture d’Agadir Ida Outanane",
+ "acheteur": null,
+ "procedure": "appel d'offres ouvert",
+ "categorie": "Travaux",
+ "date_limite_plis": "02/05/2025",
+ "lieu_ouverture": "Division des Marchés de la Société Al Omrane souss Massa",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "08/05/2025",
+ "justification": "Concurrent représentant l’offre la plus avantageuse.",
+ "infructueux": false,
+ "attributaire": "SAHAF",
+ "montant_attribue": 2624760.74,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "NICE GARDEN",
+   "montant_acte_engagement": 2834731.56,
+   "montant_apres_verification": 2834731.56,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "SAHAF",
+   "montant_acte_engagement": 2624760.74,
+   "montant_apres_verification": 2624760.74,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 2,
+ "alertes_ocr": [
+  "« NICE GARDEN » absent de la liste des plis déposés (nom mal lu ?).",
+  "« SAHAF » absent de la liste des plis déposés (nom mal lu ?)."
+ ],
+ "notes_ocr": [
+  "Maître d'ouvrage absent du PV (utiliser l'acheteur public du portail)."
+ ],
+ "qualite": "complet"
+}

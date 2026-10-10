@@ -1,0 +1,64 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "679493",
+ "orgAcronyme": "p8x",
+ "reference_pv": "52/TS/2022",
+ "nouveau": true,
+ "reference": "52/TS/2022",
+ "objet": "Travaux de Reconstruction des Salles au Sein des Etablissements : École « Ain Berka » à",
+ "acheteur": "LE DIRECTEUR PROVINCIALE DE SALE",
+ "procedure": "appel d'offres ouvert",
+ "categorie": "Travaux",
+ "date_limite_plis": "04/11/2022",
+ "lieu_ouverture": "les bureaux de la Direction Provinciale de Salé, Sise à Rue Al madariss Rmel »",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": null,
+ "justification": null,
+ "infructueux": false,
+ "attributaire": null,
+ "montant_attribue": null,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "Sté. BATIVERT. SARL",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Sté ATLAS BATIMAR SARLAU",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Sté AJIALCONSTRUCTION",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_dossier_administratif_technique",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 3,
+ "alertes_ocr": [
+  "Attributaire non trouvé."
+ ],
+ "notes_ocr": [
+  "« Sté. BATIVERT. SARL » absent de la liste des plis déposés (nom mal lu ?).",
+  "« Sté ATLAS BATIMAR SARLAU » absent de la liste des plis déposés (nom mal lu ?).",
+  "« Sté AJIALCONSTRUCTION » absent de la liste des plis déposés (nom mal lu ?)."
+ ],
+ "qualite": "participants"
+}

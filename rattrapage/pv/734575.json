@@ -1,0 +1,73 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "734575",
+ "orgAcronyme": "u6i",
+ "reference_pv": "02/2023/T/INV/ITPM",
+ "nouveau": true,
+ "reference": "02/2023/T/INV/ITPM",
+ "objet": null,
+ "acheteur": "Institut de Technologie des Pêches Maritimes de Larache",
+ "procedure": "appel d'offres ouvert",
+ "categorie": "Travaux",
+ "date_limite_plis": "31/07/2023",
+ "lieu_ouverture": "ITPM de Larache",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "04/08/2023",
+ "justification": "Offre intéressante pour l'administration",
+ "infructueux": false,
+ "attributaire": "SOCIETE SOUDURE DU SUD SARL — TINGHIR",
+ "montant_attribue": 1219358.4,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "SOCIETE HORIZON METAL SARL — TETOUAN",
+   "montant_acte_engagement": 1222588.8,
+   "montant_apres_verification": 1222588.8,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "NEANTS",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_offre_financiere",
+   "admis_avec_reserve": true
+  },
+  {
+   "nom": "AOO N°",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_offre_financiere",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "SOCIETE SOUDURE DU SUD SARL — TINGHIR",
+   "montant_acte_engagement": 1219358.4,
+   "montant_apres_verification": 1219358.4,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 4,
+ "alertes_ocr": [
+  "« SOCIETE HORIZON METAL SARL — TETOUAN » absent de la liste des plis déposés (nom mal lu ?).",
+  "« SOCIETE SOUDURE DU SUD SARL — TINGHIR » absent de la liste des plis déposés (nom mal lu ?)."
+ ],
+ "notes_ocr": [
+  "« NEANTS » absent de la liste des plis déposés (nom mal lu ?).",
+  "« AOO N° » absent de la liste des plis déposés (nom mal lu ?)."
+ ],
+ "qualite": "complet"
+}

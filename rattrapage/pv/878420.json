@@ -1,0 +1,73 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "878420",
+ "orgAcronyme": "q1s",
+ "reference_pv": "04/2025/DGRID",
+ "nouveau": true,
+ "reference": "04/2025/DGRID",
+ "objet": "Travaux de creusement et d'équipement en système de pompage solaire de deux forages",
+ "acheteur": "OFFICE REGIONAL DE MISE EN VALEUR AGRICOLE DU TADLA",
+ "procedure": "appel d'offres ouvert national",
+ "categorie": "Travaux",
+ "date_limite_plis": "04/03/2025",
+ "lieu_ouverture": "Siège de l’O.R.M.V.A. du Tadla",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": null,
+ "justification": null,
+ "infructueux": false,
+ "attributaire": "conomiquement la plus avantageuse",
+ "montant_attribue": 976140.0,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "APPEL D’OFFRES OUVERT N° 04/2025/DGRID DU",
+   "montant_acte_engagement": 1006215.0,
+   "montant_apres_verification": 1006215.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "conomiquement la plus avantageuse",
+   "montant_acte_engagement": 976140.0,
+   "montant_apres_verification": 30075.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Sté HAJ DUIRI SOHADU SARL",
+   "montant_acte_engagement": 1140000.0,
+   "montant_apres_verification": 133785.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "zéro Cts Toutes Taxes Comprises)",
+   "montant_acte_engagement": 976140.0,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 4,
+ "alertes_ocr": [
+  "« conomiquement la plus avantageuse » : écart anormal entre montant initial et vérifié (lecture à vérifier).",
+  "« Sté HAJ DUIRI SOHADU SARL » : écart anormal entre montant initial et vérifié (lecture à vérifier)."
+ ],
+ "notes_ocr": [
+  "« conomiquement la plus avantageuse » : montant rectifié de 976 140.00 à 30 075.00 DH.",
+  "« Sté HAJ DUIRI SOHADU SARL » : montant rectifié de 1 140 000.00 à 133 785.00 DH."
+ ],
+ "qualite": "complet"
+}

@@ -1,0 +1,63 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "818834",
+ "orgAcronyme": "m8x",
+ "reference_pv": "07/2024",
+ "nouveau": true,
+ "reference": "07/2024",
+ "objet": "TRAVAUX D’AMENAGEMENT DE LA PLACE DE LA SALLE DE SPECTACLE A LA VILLE D’ES- SEMARA",
+ "acheteur": "COMMUNE D’ES- SEMARA",
+ "procedure": "appel d'offres ouvert",
+ "categorie": "Travaux",
+ "date_limite_plis": "23/07/2024",
+ "lieu_ouverture": "Salle de réunion siège de la commune d’es",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "25/07/2024",
+ "justification": null,
+ "infructueux": false,
+ "attributaire": "SOCIETE SEDECO SARL",
+ "montant_attribue": 734814.0,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "CONCURRETS",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_dossier_administratif_technique",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "SOCIETE SD SAHARA SARL",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_dossier_administratif_technique",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "SOCIETE SEDECO SARL",
+   "montant_acte_engagement": 734814.0,
+   "montant_apres_verification": 734814.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 3,
+ "alertes_ocr": [
+  "« SOCIETE SEDECO SARL » absent de la liste des plis déposés (nom mal lu ?)."
+ ],
+ "notes_ocr": [
+  "« CONCURRETS » absent de la liste des plis déposés (nom mal lu ?).",
+  "« SOCIETE SD SAHARA SARL » absent de la liste des plis déposés (nom mal lu ?)."
+ ],
+ "qualite": "attribution"
+}

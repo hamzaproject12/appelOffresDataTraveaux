@@ -1,0 +1,78 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "925291",
+ "orgAcronyme": "j8k",
+ "reference_pv": "68/25",
+ "nouveau": true,
+ "reference": "68/25",
+ "objet": "de lot",
+ "acheteur": "Al Omrane Casablanca - Settat Casablanc a Le 0410812025 a",
+ "procedure": "appel d'offres ouvert",
+ "categorie": "Travaux",
+ "date_limite_plis": null,
+ "lieu_ouverture": "Al Omane Casablanca - Settat",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": null,
+ "justification": null,
+ "infructueux": false,
+ "attributaire": "D'UN GROUPEMENT",
+ "montant_attribue": null,
+ "attributaires_par_lot": [
+  {
+   "lot": "Unique",
+   "attributaire": "D'UN GROUPEMENT",
+   "montant": null
+  },
+  {
+   "lot": "Unique",
+   "attributaire": "GROUPEMENT D,HABITATION R+3 AVEC SOUS SOL ET DEUX PISCINES",
+   "montant": null
+  }
+ ],
+ "soumissionnaires": [
+  {
+   "nom": "Groupement BATIFEN CONCEPTION et 2SS BTP",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_dossier_administratif_technique",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "D'UN GROUPEMENT",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [
+    "Unique"
+   ],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "GROUPEMENT D,HABITATION R+3 AVEC SOUS SOL ET DEUX PISCINES",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [
+    "Unique"
+   ],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 3,
+ "alertes_ocr": [
+  "« D'UN GROUPEMENT » absent de la liste des plis déposés (nom mal lu ?).",
+  "« GROUPEMENT D,HABITATION R+3 AVEC SOUS SOL ET DEUX PISCINES » absent de la liste des plis déposés (nom mal lu ?).",
+  "Montant de l'attributaire « D'UN GROUPEMENT » non trouvé.",
+  "Montant de l'attributaire « GROUPEMENT D,HABITATION R+3 AVEC SOUS SOL ET DEUX PISCINES » non trouvé."
+ ],
+ "notes_ocr": [],
+ "qualite": "participants"
+}

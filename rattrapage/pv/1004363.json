@@ -1,0 +1,85 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "1004363",
+ "orgAcronyme": "m8x",
+ "reference_pv": "10/BR/RGON/2026",
+ "nouveau": true,
+ "reference": "10/BR/RGON/2026",
+ "objet": "Travaux d'aménagement des quartiers sous équipés « QUARTIER CHIKH ABDATI »à la ville de TANTAN- Province de TANTAN",
+ "acheteur": null,
+ "procedure": "appel d'offres ouvert",
+ "categorie": "Travaux",
+ "date_limite_plis": "21/04/2026",
+ "lieu_ouverture": "la salle de réunion n°01 au siege de la Région de Guelmim-Oued Noun Iournaux arant publié l'avis de publicité : Le Matin du: 26/03/2026",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "22/04/2026",
+ "justification": null,
+ "infructueux": false,
+ "attributaire": "STE SIGMATRAV SARL AU",
+ "montant_attribue": null,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "STE SGTRA SARL AU",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "STE SIGMATRAV SARL AU",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "STE STAPORT SA",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_offre_financiere",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Essahraa Almaghrbia du",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_offre_financiere",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "lustification du choix de l'attributaire",
+   "montant_acte_engagement": 48960000.0,
+   "montant_apres_verification": 48960000.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 5,
+ "alertes_ocr": [
+  "« STE SIGMATRAV SARL AU » absent de la liste des plis déposés (nom mal lu ?).",
+  "« lustification du choix de l'attributaire » absent de la liste des plis déposés (nom mal lu ?).",
+  "Montant de l'attributaire « STE SIGMATRAV SARL AU » non trouvé."
+ ],
+ "notes_ocr": [
+  "« STE SGTRA SARL AU » absent de la liste des plis déposés (nom mal lu ?).",
+  "« STE STAPORT SA » absent de la liste des plis déposés (nom mal lu ?).",
+  "« Essahraa Almaghrbia du » absent de la liste des plis déposés (nom mal lu ?).",
+  "Maître d'ouvrage absent du PV (utiliser l'acheteur public du portail)."
+ ],
+ "qualite": "attribution"
+}

@@ -1,0 +1,83 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "891501",
+ "orgAcronyme": "u9g",
+ "reference_pv": "11/2025",
+ "nouveau": true,
+ "reference": "11/2025",
+ "objet": "Travaux d'aménagement des espaces cuisine et annexes du restaurant du siège de la Fondation Mohammed VI de Promotion des Œuvres Sociales de l'Education-Formation à Rabat",
+ "acheteur": "Objet de",
+ "procedure": null,
+ "categorie": "Travaux",
+ "date_limite_plis": "04/04/2025",
+ "lieu_ouverture": "Siège de la Fondation",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "29/04/2025",
+ "justification": "offre la moins disante",
+ "infructueux": false,
+ "attributaire": "ARSOROM",
+ "montant_attribue": null,
+ "attributaires_par_lot": [
+  {
+   "lot": null,
+   "attributaire": "ARSOROM",
+   "montant": null
+  },
+  {
+   "lot": null,
+   "attributaire": "ARSOROM 14 AVRIL 29 AVRIL",
+   "montant": 1300749.5
+  }
+ ],
+ "soumissionnaires": [
+  {
+   "nom": "ETD",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "ARSOROM",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "SPECIALISEE DE BATIMENTS ET TRAVAUX",
+   "montant_acte_engagement": 566571.0,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "ARSOROM 14 AVRIL 29 AVRIL",
+   "montant_acte_engagement": 1300749.5,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 4,
+ "alertes_ocr": [
+  "« ARSOROM 14 AVRIL 29 AVRIL » absent de la liste des plis déposés (nom mal lu ?).",
+  "Montant de l'attributaire « ARSOROM » non trouvé."
+ ],
+ "notes_ocr": [
+  "Montants exprimés hors taxes (HT)."
+ ],
+ "qualite": "complet"
+}

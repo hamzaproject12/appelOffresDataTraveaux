@@ -1,0 +1,80 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "1021869",
+ "orgAcronyme": "q9t",
+ "reference_pv": "027/2026/CHUIRC",
+ "nouveau": true,
+ "reference": "027/2026/CHUIRC",
+ "objet": null,
+ "acheteur": "CENTRE HOSPITALO UNIVERSITAIRE IBN ROCHD DE CASABLANCA I)ate d'ouverture des plis :2ÿOÿ2026 à 10H00",
+ "procedure": "appel d'offres ouvert national",
+ "categorie": "Travaux",
+ "date_limite_plis": null,
+ "lieu_ouverture": "Direction du Centre Hospitalo-Universitaire Ibn Rochd",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "09/07/2026",
+ "justification": "Offre économiquement la plus avantageuse selon les critères de iugement cités dans le règlement de consultation.",
+ "infructueux": false,
+ "attributaire": "Groupement ABDO BATIMENT et FK TRAVAUX",
+ "montant_attribue": null,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "STESTACER",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Groupement EL MAANAOUI TRAVAUX et LA MAROCAINE DES BATISSEURS DE CONSTRUCTION",
+   "montant_acte_engagement": 6640332.0,
+   "montant_apres_verification": 6640332.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Groupement ABDO BATIMENT et FK TRAVAUX",
+   "montant_acte_engagement": 6501396.0,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "STE STACER",
+   "montant_acte_engagement": 7236276.0,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "STE STACER 7",
+   "montant_acte_engagement": 236216.0,
+   "montant_apres_verification": 236216.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 5,
+ "alertes_ocr": [
+  "« STE STACER » absent de la liste des plis déposés (nom mal lu ?).",
+  "« STE STACER 7 » absent de la liste des plis déposés (nom mal lu ?).",
+  "Montant de l'attributaire « Groupement ABDO BATIMENT et FK TRAVAUX » non trouvé."
+ ],
+ "notes_ocr": [],
+ "qualite": "complet"
+}

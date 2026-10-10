@@ -1,0 +1,100 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "942724",
+ "orgAcronyme": "m1w",
+ "reference_pv": "31/AMDIE2025",
+ "nouveau": true,
+ "reference": "31/AMDIE2025",
+ "objet": "L’acquisition et installation des licences et des logiciels informatiques pour le compte de l’agence marocaine de développement des investissements et des exportations (AMDIE)",
+ "acheteur": "L'Agence Marocaine de Développement des Investissements et des Exportations",
+ "procedure": "appel d'offres ouvert simplifié",
+ "categorie": "Travaux",
+ "date_limite_plis": "13/10/2025",
+ "lieu_ouverture": "siège de l’Agence Marocaine de Développement des Investissements et des Exportations, Immeuble 5, 2ème étage, Mahaj Ryad Center Bureaux, Rabat —- Maroc",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "20/10/2025",
+ "justification": "L’offre la plus avantageuse est l’offres présentée par OPULENT AGENCY",
+ "infructueux": false,
+ "attributaire": "OPULENT AGENCY",
+ "montant_attribue": 802680.0,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "GLAMOUR EVENEMENTS",
+   "montant_acte_engagement": 797100.0,
+   "montant_apres_verification": 797100.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_offre_financiere",
+   "admis_avec_reserve": true
+  },
+  {
+   "nom": "AXELI SERVICES",
+   "montant_acte_engagement": 785031.6,
+   "montant_apres_verification": 785031.6,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "AXELI SERVICES INFORMATIQUE&INFOGERANCE SARL AU",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_offre_financiere",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "SARL AU",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "depose",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "ZAID’S PRO COMPANY SARL",
+   "montant_acte_engagement": 804480.0,
+   "montant_apres_verification": 804480.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "218LABS SARL",
+   "montant_acte_engagement": 806049.0,
+   "montant_apres_verification": 806040.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "OPULENT AGENCY",
+   "montant_acte_engagement": 802680.0,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 7,
+ "alertes_ocr": [
+  "« ZAID’S PRO COMPANY SARL » absent de la liste des plis déposés (nom mal lu ?).",
+  "« 218LABS SARL » absent de la liste des plis déposés (nom mal lu ?).",
+  "« OPULENT AGENCY » absent de la liste des plis déposés (nom mal lu ?)."
+ ],
+ "notes_ocr": [
+  "« 218LABS SARL » : montant rectifié de 806 049.00 à 806 040.00 DH."
+ ],
+ "qualite": "complet"
+}

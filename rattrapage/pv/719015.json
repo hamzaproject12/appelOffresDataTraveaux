@@ -1,0 +1,74 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "719015",
+ "orgAcronyme": "q1s",
+ "reference_pv": "52/2023/OR/OZ",
+ "nouveau": true,
+ "reference": "52/2023/OR/OZ",
+ "objet": null,
+ "acheteur": "Résultat : Attribué",
+ "procedure": "appel d'offres ouvert",
+ "categorie": "Travaux",
+ "date_limite_plis": null,
+ "lieu_ouverture": "Date ouverture des plis",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "05/05/2023",
+ "justification": "Offre moins disante",
+ "infructueux": false,
+ "attributaire": "SOCIETE SOUS ISKE TRAVAUX DIVERS SARL",
+ "montant_attribue": 246000.0,
+ "attributaires_par_lot": [
+  {
+   "lot": null,
+   "attributaire": "SOCIETE SOUS ISKE TRAVAUX DIVERS SARL",
+   "montant": 246000.0
+  },
+  {
+   "lot": null,
+   "attributaire": "SOCIETE OTMIRA TRAVAUX SARL",
+   "montant": 199872.0
+  },
+  {
+   "lot": null,
+   "attributaire": "SOCIETE BIHRAN SARL",
+   "montant": 262176.0
+  }
+ ],
+ "soumissionnaires": [
+  {
+   "nom": "SOCIETE SOUS ISKE TRAVAUX DIVERS SARL",
+   "montant_acte_engagement": 246000.0,
+   "montant_apres_verification": 246000.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "SOCIETE OTMIRA TRAVAUX SARL",
+   "montant_acte_engagement": 199872.0,
+   "montant_apres_verification": 199872.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "SOCIETE BIHRAN SARL",
+   "montant_acte_engagement": 262176.0,
+   "montant_apres_verification": 262176.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 3,
+ "alertes_ocr": [],
+ "notes_ocr": [],
+ "qualite": "attribution"
+}

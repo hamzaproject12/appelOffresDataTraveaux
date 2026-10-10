@@ -1,0 +1,82 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "777428",
+ "orgAcronyme": "q0x",
+ "reference_pv": "01/2024",
+ "nouveau": true,
+ "reference": "01/2024",
+ "objet": null,
+ "acheteur": "Commune Ait yaazem",
+ "procedure": "appel d'offres ouvert",
+ "categorie": "Travaux",
+ "date_limite_plis": "14/02/2024",
+ "lieu_ouverture": "Le bureau de président de la commune d'Ait yaazem",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "22/02/2024",
+ "justification": "l’offre économiquement la plus avantageuse .",
+ "infructueux": false,
+ "attributaire": "Société Sevielec ( SEVIELEC) Meknès",
+ "montant_attribue": 918963.84,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "Société des travaux génie civil Electricité et télécom (STGET) Meknès",
+   "montant_acte_engagement": 904472.4,
+   "montant_apres_verification": null,
+   "autres_montants": [
+    904472.4
+   ],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Société Borota travaux (Kalaa sraghna)",
+   "montant_acte_engagement": 960000.0,
+   "montant_apres_verification": null,
+   "autres_montants": [
+    960000.0
+   ],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Société Sevielec ( SEVIELEC) Meknès",
+   "montant_acte_engagement": 918963.84,
+   "montant_apres_verification": null,
+   "autres_montants": [
+    918963.84
+   ],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Mayec Entrepreneur d'Installation Electrique (Travaux d'Electricité)",
+   "montant_acte_engagement": 973540.8,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Société Anjja multi services Essaouira",
+   "montant_acte_engagement": 973540.8,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 5,
+ "alertes_ocr": [],
+ "notes_ocr": [],
+ "qualite": "complet"
+}

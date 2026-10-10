@@ -1,0 +1,53 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "1005563",
+ "orgAcronyme": "j0w",
+ "reference_pv": "21/2026/BP",
+ "nouveau": true,
+ "reference": "21/2026/BP",
+ "objet": "Travaux de construction de la piste reliant Chaouf Sghira et Chaouf Lkbira en traversant douar",
+ "acheteur": "Conseil Préfectoral de Marrakech",
+ "procedure": "appel d'offres ouvert national",
+ "categorie": "Travaux",
+ "date_limite_plis": "12/05/2026",
+ "lieu_ouverture": "La salle des réunions au siège du Conseil Préfectoral de Marrakech",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "19/05/2026",
+ "justification": "offre la plus avantageuse, la mieux disante par rapport au prix de réference 3348454,13",
+ "infructueux": false,
+ "attributaire": "DSN TRAVAUX",
+ "montant_attribue": 3350132.78,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "Groupement conjoint SGTP MAROC et SALMARINAS TRAVAUX",
+   "montant_acte_engagement": 3389179.22,
+   "montant_apres_verification": null,
+   "autres_montants": [
+    3389179.22
+   ],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "DSN TRAVAUX",
+   "montant_acte_engagement": 3350132.78,
+   "montant_apres_verification": null,
+   "autres_montants": [
+    3350132.78
+   ],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 2,
+ "alertes_ocr": [],
+ "notes_ocr": [],
+ "qualite": "complet"
+}

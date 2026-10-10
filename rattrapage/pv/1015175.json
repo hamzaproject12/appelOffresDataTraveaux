@@ -1,0 +1,71 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "1015175",
+ "orgAcronyme": "o8p",
+ "reference_pv": "10/2026/TAO",
+ "nouveau": true,
+ "reference": "10/2026/TAO",
+ "objet": "Plan de Campagne 2026 : Travaux de revêtement superficiel bicouche et rechargement des accotements en sections discontinues de la RP 5329 du PK 0+000 au PK 28+600, RP 5331 du PK",
+ "acheteur": null,
+ "procedure": "appel d'offres ouvert",
+ "categorie": "Travaux",
+ "date_limite_plis": "09/06/2026",
+ "lieu_ouverture": "la salle de réunion à la Direction la Logistique de Taounate, Bd Mohamed V Taounate Centre",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": null,
+ "justification": "Rempli les conditions demandées par le dossier d’appel d’offre.",
+ "infructueux": false,
+ "attributaire": null,
+ "montant_attribue": null,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "STE DES TRAVAUX DE LA NOUVELLE VILLE -MARRAKECH",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_dossier_administratif_technique",
+   "admis_avec_reserve": true
+  },
+  {
+   "nom": "STE ADIMPRO- FES",
+   "montant_acte_engagement": 4627200.0,
+   "montant_apres_verification": 4627200.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "GROUPEMENT STE YOU B TRAVAUX -FES & STE ABMB - FES",
+   "montant_acte_engagement": 4711500.0,
+   "montant_apres_verification": 4711500.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "STE SOBLTRAV -MEKNES",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 4,
+ "alertes_ocr": [
+  "Attributaire non trouvé."
+ ],
+ "notes_ocr": [
+  "Maître d'ouvrage absent du PV (utiliser l'acheteur public du portail)."
+ ],
+ "qualite": "complet"
+}

@@ -1,0 +1,58 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "889485",
+ "orgAcronyme": "g3h",
+ "reference_pv": "2488/AS/2025",
+ "nouveau": true,
+ "reference": "2488/AS/2025",
+ "objet": "BRANCHEMENT ET EXTENSION DU RÉSEAU D'ASSAINISSEMENT SECONDAIRE ET TERTIAIRE AUX",
+ "acheteur": "RÉGIE AUTONOME DE DISTRIBUTION EAU ET ÉLECTRICITÉ DE MEKNÈS",
+ "procedure": "appel d'offres ouvert",
+ "categorie": "Travaux",
+ "date_limite_plis": "03/04/2025",
+ "lieu_ouverture": "Siège de la RADEM",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "22/04/2025",
+ "justification": "seule offre retenue .",
+ "infructueux": false,
+ "attributaire": "ENTREPRISE EL HAMDANI HASSAN DE TRAVAUX DIVERS",
+ "montant_attribue": 4199244.0,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "ASRI-VRD",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_dossier_administratif_technique",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "OKTI TRAVAUX",
+   "montant_acte_engagement": 4527024.0,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_offre_financiere",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "ENTREPRISE EL HAMDANI HASSAN DE TRAVAUX DIVERS",
+   "montant_acte_engagement": 4199244.0,
+   "montant_apres_verification": 4199244.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 3,
+ "alertes_ocr": [],
+ "notes_ocr": [],
+ "qualite": "complet"
+}

@@ -1,0 +1,122 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "940073",
+ "orgAcronyme": "m1w",
+ "reference_pv": null,
+ "nouveau": true,
+ "reference": null,
+ "objet": null,
+ "acheteur": "Barid Al Maghrib S.A",
+ "procedure": null,
+ "categorie": "Travaux",
+ "date_limite_plis": "26/09/2025",
+ "lieu_ouverture": "Direction Achats & Patrimoine, sise au 8, rue Dayet Erroumi, Agdal – Rabat",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "14/10/2025",
+ "justification": "Offres les plus avantageuses.",
+ "infructueux": false,
+ "attributaire": "SELLAK GLOB TRAVAUX",
+ "montant_attribue": 191450.0,
+ "attributaires_par_lot": [
+  {
+   "lot": "1",
+   "attributaire": "SELLAK GLOB TRAVAUX",
+   "montant": 191450.0
+  },
+  {
+   "lot": "2",
+   "attributaire": "OSBIR FRERES",
+   "montant": 113733.0
+  },
+  {
+   "lot": "3",
+   "attributaire": "EDIFPROBAT",
+   "montant": 216952.0
+  },
+  {
+   "lot": "4",
+   "attributaire": "FH SOUSS TRAV",
+   "montant": 599510.0
+  },
+  {
+   "lot": "5",
+   "attributaire": "EDIFPROBAT",
+   "montant": 101326.0
+  }
+ ],
+ "soumissionnaires": [
+  {
+   "nom": "Soumissions physiques Soumissions électroniques",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "depose",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "EDIFPROBAT",
+   "montant_acte_engagement": 216952.0,
+   "montant_apres_verification": null,
+   "autres_montants": [
+    101326.0
+   ],
+   "lots": [
+    "01",
+    "3",
+    "5"
+   ],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "FH SOUSS TRAV",
+   "montant_acte_engagement": 599510.0,
+   "montant_apres_verification": null,
+   "autres_montants": [
+    107420.0
+   ],
+   "lots": [
+    "01",
+    "4"
+   ],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "SELLAK GLOB TRAVAUX",
+   "montant_acte_engagement": 191450.0,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [
+    "01",
+    "1"
+   ],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "OSBIR FRERES",
+   "montant_acte_engagement": 113733.0,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [
+    "01",
+    "2"
+   ],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 5,
+ "alertes_ocr": [],
+ "notes_ocr": [
+  "Marché alloti (6 lots).",
+  "Montants exprimés hors taxes (HT)."
+ ],
+ "qualite": "attribution"
+}

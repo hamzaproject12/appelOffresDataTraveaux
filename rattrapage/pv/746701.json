@@ -1,0 +1,64 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "746701",
+ "orgAcronyme": "a1z",
+ "reference_pv": null,
+ "nouveau": true,
+ "reference": null,
+ "objet": null,
+ "acheteur": null,
+ "procedure": null,
+ "categorie": "Travaux",
+ "date_limite_plis": "29/09/2023",
+ "lieu_ouverture": "la Salle de Réunion à L'ANNEXE AL AZHAR de l'ARRONDISSEMENT HAY HASSANI sise à Avenue Aziz Bilal Cité AL Azhar",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "12/10/2023",
+ "justification": "L’attributaire a présenté l’offre la plus avantageuse « la moins disante)",
+ "infructueux": false,
+ "attributaire": "TIHFOUZ SARL AU",
+ "montant_attribue": 2780280.0,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "STE BOURANIME SARL",
+   "montant_acte_engagement": 2809410.0,
+   "montant_apres_verification": 2809410.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_offre_financiere",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "TIHFOUZ SARL AU",
+   "montant_acte_engagement": 2780280.0,
+   "montant_apres_verification": 2780280.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "TIHFOUZ SARE AU",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 3,
+ "alertes_ocr": [
+  "« STE BOURANIME SARL » absent de la liste des plis déposés (nom mal lu ?).",
+  "« TIHFOUZ SARL AU » absent de la liste des plis déposés (nom mal lu ?)."
+ ],
+ "notes_ocr": [
+  "« TIHFOUZ SARE AU » absent de la liste des plis déposés (nom mal lu ?).",
+  "Maître d'ouvrage absent du PV (utiliser l'acheteur public du portail)."
+ ],
+ "qualite": "complet"
+}

@@ -1,0 +1,69 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "993365",
+ "orgAcronyme": "g3h",
+ "reference_pv": null,
+ "nouveau": true,
+ "reference": null,
+ "objet": "Travaux de branchements neufs d’eau potable petits clients particuliers au niveau de la",
+ "acheteur": "Société Régionale Multiservices RABAT-SALE￾KENITRA SRM-RSK",
+ "procedure": null,
+ "categorie": "Travaux",
+ "date_limite_plis": "05/03/2026",
+ "lieu_ouverture": "Siège Social SRM-RSK",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "13/04/2026",
+ "justification": "- Dossiers administratif et technique conformes aux exigences du dossier d’appel d’offres. - Offre avantageuse répondant aux critères d’évaluation du règlement des marchés de la société.",
+ "infructueux": false,
+ "attributaire": "Minimal Maximal ETACER",
+ "montant_attribue": 3201900.0,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "SMEER",
+   "montant_acte_engagement": 1700.0,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "GPT : DELTA RAFIK/ ERREGGUI",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_dossier_administratif_technique",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "AMANOR",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "depose",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Minimal Maximal ETACER",
+   "montant_acte_engagement": 3201900.0,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 4,
+ "alertes_ocr": [
+  "« Minimal Maximal ETACER » absent de la liste des plis déposés (nom mal lu ?)."
+ ],
+ "notes_ocr": [],
+ "qualite": "complet"
+}

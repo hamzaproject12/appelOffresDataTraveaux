@@ -1,0 +1,55 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "684672",
+ "orgAcronyme": "q1s",
+ "reference_pv": "6/2022/CRRAO",
+ "nouveau": true,
+ "reference": "6/2022/CRRAO",
+ "objet": "Travaux de réalisation et équipement de deux forages au Centre Régional de la Recherche Agronomique d’Oujda et au Domaine Expérimental de Bouareg, en lot unique",
+ "acheteur": null,
+ "procedure": "appel d'offres ouvert",
+ "categorie": "Travaux",
+ "date_limite_plis": "09/12/2022",
+ "lieu_ouverture": "la salle de réunion du siège de l’Institut National de la Recherche Agronomique sis à Avenue de la victoire à Rabat",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "14/12/2022",
+ "justification": "l’offre la plus avantageuse",
+ "infructueux": false,
+ "attributaire": "HAJ DUIRI SOHADU SARL",
+ "montant_attribue": 452820.0,
+ "attributaires_par_lot": [
+  {
+   "lot": null,
+   "attributaire": "HAJ DUIRI SOHADU SARL",
+   "montant": 452820.0
+  },
+  {
+   "lot": "unique",
+   "attributaire": "Société HAJ DUIRI SOHADU SARL",
+   "montant": 452820.0
+  }
+ ],
+ "soumissionnaires": [
+  {
+   "nom": "Société HAJ DUIRI SOHADU SARL",
+   "montant_acte_engagement": 452820.0,
+   "montant_apres_verification": 452820.0,
+   "autres_montants": [],
+   "lots": [
+    "unique"
+   ],
+   "statut": "attributaire",
+   "admis_avec_reserve": true
+  }
+ ],
+ "nombre_soumissionnaires": 1,
+ "alertes_ocr": [],
+ "notes_ocr": [
+  "Maître d'ouvrage absent du PV (utiliser l'acheteur public du portail)."
+ ],
+ "qualite": "attribution"
+}

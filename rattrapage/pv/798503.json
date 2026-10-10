@@ -1,0 +1,67 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "798503",
+ "orgAcronyme": "g3h",
+ "reference_pv": "33/24/ASST",
+ "nouveau": true,
+ "reference": "33/24/ASST",
+ "objet": "Travaux de réhabilitation du réseau d'assainissement liquide Extra Muros",
+ "acheteur": "Régie Autonome de Distribution d’Eau et d’Electricité de MARRAKECH",
+ "procedure": "appel d'offres ouvert",
+ "categorie": "Travaux",
+ "date_limite_plis": "23/04/2024",
+ "lieu_ouverture": "au Siège de la RADEEMA Boulevard Mohamed VI MARRAKECH",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "21/05/2024",
+ "justification": "l’offre économiquement la plus avantageuse",
+ "infructueux": false,
+ "attributaire": "VARDEP",
+ "montant_attribue": 29855453.46,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "EAMAR DE GENIE CIVIL",
+   "montant_acte_engagement": 29656540.75,
+   "montant_apres_verification": 29656540.75,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "INJAZ PROJETS",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_dossier_administratif_technique",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "GROUPEMENT GERAB/COVATRAP",
+   "montant_acte_engagement": 32170008.0,
+   "montant_apres_verification": 32170008.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "VARDEP",
+   "montant_acte_engagement": 29855453.46,
+   "montant_apres_verification": 29855453.46,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 4,
+ "alertes_ocr": [],
+ "notes_ocr": [],
+ "qualite": "complet"
+}

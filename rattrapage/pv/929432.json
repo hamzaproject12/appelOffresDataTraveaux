@@ -1,0 +1,53 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "929432",
+ "orgAcronyme": "g3h",
+ "reference_pv": "31/2025/ND/TCSATTACH",
+ "nouveau": true,
+ "reference": "31/2025/ND/TCSATTACH",
+ "objet": "TRAVAUX DE CONSTRUCTION DU SIEGE ADMINISTRATIF DU GROUPEMENT DES COLLECTIVITES TERRITORIALES ATTACHAROUK A ERRAHMA DAR BOUAZZA",
+ "acheteur": "La Commune de Bouskoura",
+ "procedure": "appel d'offres ouvert",
+ "categorie": "Travaux",
+ "date_limite_plis": null,
+ "lieu_ouverture": null,
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "10/09/2025",
+ "justification": "la société ayant la meilleure offre (économiquement la plus avantageuse).",
+ "infructueux": false,
+ "attributaire": "LOTRAS",
+ "montant_attribue": 3234724.8,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "s LOTRAS",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "LOTRAS",
+   "montant_acte_engagement": 3234724.8,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 2,
+ "alertes_ocr": [
+  "« LOTRAS » absent de la liste des plis déposés (nom mal lu ?)."
+ ],
+ "notes_ocr": [
+  "« s LOTRAS » absent de la liste des plis déposés (nom mal lu ?)."
+ ],
+ "qualite": "attribution"
+}

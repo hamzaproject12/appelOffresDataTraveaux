@@ -1,0 +1,76 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "756742",
+ "orgAcronyme": "a1t",
+ "reference_pv": "DCT/CONSTRUCTION",
+ "nouveau": true,
+ "reference": "DCT/CONSTRUCTION",
+ "objet": null,
+ "acheteur": "L'Agence pour la promotion et le développement économique et social des préfectures et provinces du Nord,",
+ "procedure": null,
+ "categorie": "Travaux",
+ "date_limite_plis": null,
+ "lieu_ouverture": "siège de l'APDN",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "14/11/2023",
+ "justification": "l'offre la plus avantageuse.",
+ "infructueux": false,
+ "attributaire": "SJT TRAVAUX",
+ "montant_attribue": 6840354.0,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "SJT TRAVAUX",
+   "montant_acte_engagement": 6840354.0,
+   "montant_apres_verification": 6840354.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "EL BRIHI DE CONSTRUCTION ET DE TRAVAUX DE CONSTRUCTION sar",
+   "montant_acte_engagement": 6798522.0,
+   "montant_apres_verification": 6798522.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "JMIATEC sar",
+   "montant_acte_engagement": 6783885.6,
+   "montant_apres_verification": 6783885.6,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "SCOTIM",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_dossier_administratif_technique",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "SEMLOULI",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_dossier_administratif_technique",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 5,
+ "alertes_ocr": [],
+ "notes_ocr": [],
+ "qualite": "complet"
+}

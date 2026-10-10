@@ -1,0 +1,56 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "924807",
+ "orgAcronyme": "g3h",
+ "reference_pv": "141/2025/S2A",
+ "nouveau": true,
+ "reference": "141/2025/S2A",
+ "objet": "PROJET D'AMENAGEMENT URBAIN ET PAYSAGER DU PARC ZAITOUN A LA VILLE D'AGADIR",
+ "acheteur": null,
+ "procedure": "appel d'offres ouvert",
+ "categorie": "Travaux",
+ "date_limite_plis": "04/08/2025",
+ "lieu_ouverture": "Bureaux de la Société Agadir Souss Massa Aménagement",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "18/08/2025",
+ "justification": "Offre conforme aux exigences du Règlement de consultation et la moins-disante. E",
+ "infructueux": false,
+ "attributaire": "SOCIETE AMESVERT",
+ "montant_attribue": 9709500.0,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "SOCIETE KALIFA PLANTE",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_offre_technique",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "SOCIETE AMESVERT",
+   "montant_acte_engagement": 9709500.0,
+   "montant_apres_verification": null,
+   "autres_montants": [
+    9709500.0
+   ],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 2,
+ "alertes_ocr": [
+  "« SOCIETE AMESVERT » absent de la liste des plis déposés (nom mal lu ?)."
+ ],
+ "notes_ocr": [
+  "« SOCIETE KALIFA PLANTE » absent de la liste des plis déposés (nom mal lu ?).",
+  "Maître d'ouvrage absent du PV (utiliser l'acheteur public du portail)."
+ ],
+ "qualite": "attribution"
+}

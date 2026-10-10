@@ -1,0 +1,114 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "727838",
+ "orgAcronyme": "q0x",
+ "reference_pv": "94/AREPDT/2023",
+ "nouveau": true,
+ "reference": "94/AREPDT/2023",
+ "objet": "Programme National pour l'Approvisionnement en Eau Potable et d’Irrigation : Travaux d'alimentation en eau potable de la population rurale de la commune Tinzouline à partir du Barrage AGDEZ - Province de",
+ "acheteur": null,
+ "procedure": "appel d'offres ouvert",
+ "categorie": "Travaux",
+ "date_limite_plis": "13/06/2023",
+ "lieu_ouverture": null,
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": null,
+ "justification": null,
+ "infructueux": false,
+ "attributaire": "STE AMRAD",
+ "montant_attribue": 5711220.0,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "STE VIV AQUA",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_offre_financiere",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "STE AMRAD",
+   "montant_acte_engagement": 5711220.0,
+   "montant_apres_verification": 5711220.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "STE F.S IDIVA",
+   "montant_acte_engagement": 5741712.0,
+   "montant_apres_verification": 5741712.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "STE SOMAGITRAKE",
+   "montant_acte_engagement": 5897101.2,
+   "montant_apres_verification": 5897101.2,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "STE SOB-TRA",
+   "montant_acte_engagement": 5929356.0,
+   "montant_apres_verification": 5929356.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "STE OUIHYA HAMIDI",
+   "montant_acte_engagement": 6830682.0,
+   "montant_apres_verification": 6830682.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "STE MWKC",
+   "montant_acte_engagement": 7141266.0,
+   "montant_apres_verification": 7141266.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "STE SOUTHYDRAULIC",
+   "montant_acte_engagement": 8079144.0,
+   "montant_apres_verification": 8079144.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 8,
+ "alertes_ocr": [
+  "« STE AMRAD » absent de la liste des plis déposés (nom mal lu ?).",
+  "« STE F.S IDIVA » absent de la liste des plis déposés (nom mal lu ?).",
+  "« STE SOMAGITRAKE » absent de la liste des plis déposés (nom mal lu ?).",
+  "« STE SOB-TRA » absent de la liste des plis déposés (nom mal lu ?).",
+  "« STE OUIHYA HAMIDI » absent de la liste des plis déposés (nom mal lu ?).",
+  "« STE MWKC » absent de la liste des plis déposés (nom mal lu ?).",
+  "« STE SOUTHYDRAULIC » absent de la liste des plis déposés (nom mal lu ?)."
+ ],
+ "notes_ocr": [
+  "« STE VIV AQUA » absent de la liste des plis déposés (nom mal lu ?).",
+  "Maître d'ouvrage absent du PV (utiliser l'acheteur public du portail)."
+ ],
+ "qualite": "complet"
+}

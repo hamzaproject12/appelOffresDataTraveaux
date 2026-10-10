@@ -1,0 +1,51 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "687853",
+ "orgAcronyme": "s5z",
+ "reference_pv": "2/CSAV/2022",
+ "nouveau": true,
+ "reference": "2/CSAV/2022",
+ "objet": "travaux de sécurisation du site archéologique de Volubilis, Moulau Dris Zerhoun",
+ "acheteur": null,
+ "procedure": "consultation architecturale",
+ "categorie": "Travaux",
+ "date_limite_plis": "15/12/2022",
+ "lieu_ouverture": "bureaux de la Direction Provinciale de la Culture, avenue Bir Anzarane, Meknès",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "26/12/2022",
+ "justification": "offre la plus avantageuse.",
+ "infructueux": false,
+ "attributaire": "Sté. BEM-TT, Meknès. sarl",
+ "montant_attribue": 2981640.0,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "Sté. BEM-TT, Meknès. sarl",
+   "montant_acte_engagement": 2981640.0,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Sté. I. City",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "depose",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 2,
+ "alertes_ocr": [],
+ "notes_ocr": [
+  "Maître d'ouvrage absent du PV (utiliser l'acheteur public du portail)."
+ ],
+ "qualite": "attribution"
+}

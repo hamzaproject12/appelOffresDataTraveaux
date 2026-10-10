@@ -1,0 +1,60 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "732274",
+ "orgAcronyme": "o4d",
+ "reference_pv": "40/2023",
+ "nouveau": true,
+ "reference": "40/2023",
+ "objet": null,
+ "acheteur": "Direction des Achats et Logistique",
+ "procedure": "appel d'offres ouvert",
+ "categorie": "Travaux",
+ "date_limite_plis": "27/06/2023",
+ "lieu_ouverture": "Siège de la CNSS 649 Bd Mohammed V Casa, salle des réunions de la Direction des Achats et Siège de la CNSS 649 Bd Mohammed V Casa, salle des réunions de la Direction des Achats et Logistique",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "27/07/2023",
+ "justification": null,
+ "infructueux": false,
+ "attributaire": null,
+ "montant_attribue": null,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "GIGA MED",
+   "montant_acte_engagement": 1300020.0,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "MAZZA ET BELHAJ",
+   "montant_acte_engagement": 1415400.0,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "ENTC",
+   "montant_acte_engagement": 1328100.0,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": true
+  }
+ ],
+ "nombre_soumissionnaires": 3,
+ "alertes_ocr": [
+  "Attributaire non trouvé."
+ ],
+ "notes_ocr": [],
+ "qualite": "complet"
+}

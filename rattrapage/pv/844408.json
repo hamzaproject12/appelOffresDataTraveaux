@@ -1,0 +1,65 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "844408",
+ "orgAcronyme": "o8p",
+ "reference_pv": "29/A00/DPMR-ANP/2024",
+ "nouveau": true,
+ "reference": "29/A00/DPMR-ANP/2024",
+ "objet": "« TRAVAUX DE SIGNALISATION VERTICALE ET SIGNALETIQUE AUX PORTS DE MOHAMMEDIA, SKHIRAT ET SABLES D'OR»",
+ "acheteur": "Agence Nationale des ports : Direction du Port de Mohammedia et Région",
+ "procedure": "appel d'offres ouvert",
+ "categorie": "Travaux",
+ "date_limite_plis": "22/10/2024",
+ "lieu_ouverture": "ANP/DPMR Conformément à l'avis publié dans : Désignation journaux Langue Date de parution AVIS DE REPORT",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "01/10/2024",
+ "justification": null,
+ "infructueux": false,
+ "attributaire": "Société Professionnelle de Signalisation SPS SA",
+ "montant_attribue": 682995.0,
+ "attributaires_par_lot": [
+  {
+   "lot": null,
+   "attributaire": "Société Professionnelle de Signalisation SPS SA",
+   "montant": 682995.0
+  },
+  {
+   "lot": null,
+   "attributaire": "Société Ateliers Industriels Chérifiens",
+   "montant": 959240.0
+  }
+ ],
+ "soumissionnaires": [
+  {
+   "nom": "Société Professionnelle de Signalisation SPS SA",
+   "montant_acte_engagement": 682995.0,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Société Ateliers Industriels Chérifiens",
+   "montant_acte_engagement": 959240.0,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 2,
+ "alertes_ocr": [
+  "« Société Professionnelle de Signalisation SPS SA » absent de la liste des plis déposés (nom mal lu ?).",
+  "« Société Ateliers Industriels Chérifiens » absent de la liste des plis déposés (nom mal lu ?)."
+ ],
+ "notes_ocr": [
+  "Montants exprimés hors taxes (HT)."
+ ],
+ "qualite": "attribution"
+}

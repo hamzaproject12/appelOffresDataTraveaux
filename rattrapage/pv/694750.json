@@ -1,0 +1,173 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "694750",
+ "orgAcronyme": "f8y",
+ "reference_pv": "01/2022",
+ "nouveau": true,
+ "reference": "01/2022",
+ "objet": "Travaux d’achèvement du nouveau siège de la Commune de Béni Ensar Province de Nador",
+ "acheteur": "La Commune de Beni-Ensar",
+ "procedure": "appel d'offres ouvert",
+ "categorie": "Travaux",
+ "date_limite_plis": "09/01/2023",
+ "lieu_ouverture": "Bureau de président de la commune de Beni-Ensar",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "16/02/2023",
+ "justification": "offre la plus avantageuse",
+ "infructueux": false,
+ "attributaire": "Ste Parisien Services SARL",
+ "montant_attribue": 899904.0,
+ "attributaires_par_lot": [
+  {
+   "lot": null,
+   "attributaire": "Ste Parisien Services SARL",
+   "montant": 899904.0
+  },
+  {
+   "lot": null,
+   "attributaire": "Ste BENLAMKADDEM SERVICES SARL",
+   "montant": 906600.0
+  },
+  {
+   "lot": null,
+   "attributaire": "Ste Chamal Construction SARL",
+   "montant": 97448.0
+  },
+  {
+   "lot": null,
+   "attributaire": "Ste FIDAT SARL",
+   "montant": 192536.0
+  }
+ ],
+ "soumissionnaires": [
+  {
+   "nom": "Ste OTHMAN SARL de Bâtiment et Travaux divers",
+   "montant_acte_engagement": 1192536.0,
+   "montant_apres_verification": 1192536.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Ste Chamal Construction SARL",
+   "montant_acte_engagement": 1013676.0,
+   "montant_apres_verification": 1013676.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Ste ENTAMCO SARL",
+   "montant_acte_engagement": 1015272.0,
+   "montant_apres_verification": 1015272.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Ste STG BUILDING SARL",
+   "montant_acte_engagement": 1070448.0,
+   "montant_apres_verification": 1070448.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Ste Parisien Services SARL",
+   "montant_acte_engagement": 899904.0,
+   "montant_apres_verification": 899904.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Ste3CTREP SARL",
+   "montant_acte_engagement": 906600.0,
+   "montant_apres_verification": 906600.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Ste AMIHAS Des travaux et de construction SARL",
+   "montant_acte_engagement": 1097448.0,
+   "montant_apres_verification": 1097448.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Ste TAOUIMA TRAV SARL",
+   "montant_acte_engagement": 1071120.0,
+   "montant_apres_verification": 1071120.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Ste BENLAMKADDEM SERVICES SARL",
+   "montant_acte_engagement": 1000800.0,
+   "montant_apres_verification": 1000800.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Ste OTRADI SARL",
+   "montant_acte_engagement": 1294692.0,
+   "montant_apres_verification": 1294692.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_dossier_administratif_technique",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Ste 3CTREP SARL",
+   "montant_acte_engagement": 930600.0,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_dossier_administratif_technique",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Ste FIDAT SARL",
+   "montant_acte_engagement": 1215384.0,
+   "montant_apres_verification": 1215384.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 12,
+ "alertes_ocr": [
+  "« Ste OTHMAN SARL de Bâtiment et Travaux divers » absent de la liste des plis déposés (nom mal lu ?).",
+  "« Ste Chamal Construction SARL » absent de la liste des plis déposés (nom mal lu ?).",
+  "« Ste ENTAMCO SARL » absent de la liste des plis déposés (nom mal lu ?).",
+  "« Ste STG BUILDING SARL » absent de la liste des plis déposés (nom mal lu ?).",
+  "« Ste Parisien Services SARL » absent de la liste des plis déposés (nom mal lu ?).",
+  "« Ste3CTREP SARL » absent de la liste des plis déposés (nom mal lu ?).",
+  "« Ste AMIHAS Des travaux et de construction SARL » absent de la liste des plis déposés (nom mal lu ?).",
+  "« Ste TAOUIMA TRAV SARL » absent de la liste des plis déposés (nom mal lu ?).",
+  "« Ste BENLAMKADDEM SERVICES SARL » absent de la liste des plis déposés (nom mal lu ?).",
+  "« Ste OTRADI SARL » absent de la liste des plis déposés (nom mal lu ?).",
+  "« Ste 3CTREP SARL » absent de la liste des plis déposés (nom mal lu ?).",
+  "« Ste FIDAT SARL » absent de la liste des plis déposés (nom mal lu ?)."
+ ],
+ "notes_ocr": [],
+ "qualite": "complet"
+}

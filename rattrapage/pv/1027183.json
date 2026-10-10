@@ -1,0 +1,72 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "1027183",
+ "orgAcronyme": "p8x",
+ "reference_pv": "91/2026",
+ "nouveau": true,
+ "reference": "91/2026",
+ "objet": "D’APPEL D’OFFRES TRAVAUX D’AMENAGEMENT DE 03 TROIS ECOLES PIONNIERES À LA CT TALAMBOTE RELEVANT DE LA PROVINCE DE CHEFCHAOUEN",
+ "acheteur": null,
+ "procedure": "appel d'offres ouvert",
+ "categorie": "Travaux",
+ "date_limite_plis": "06/07/2026",
+ "lieu_ouverture": "SIÈGE DE L’ACADEMIE REGIONALE D’EDUCATION ET DE FORMATION REGION TANGER-TETOUAN-AL HOCEIMA",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "13/07/2026",
+ "justification": null,
+ "infructueux": false,
+ "attributaire": "STE ZINRIF",
+ "montant_attribue": null,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "STEZINRIF",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "STE ORAHMOUNI",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_offre_financiere",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "STE BARI TRAV",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "STE ZINRIF",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 4,
+ "alertes_ocr": [
+  "« STE ZINRIF » absent de la liste des plis déposés (nom mal lu ?).",
+  "Montant de l'attributaire « STE ZINRIF » non trouvé."
+ ],
+ "notes_ocr": [
+  "Maître d'ouvrage absent du PV (utiliser l'acheteur public du portail)."
+ ],
+ "qualite": "participants"
+}

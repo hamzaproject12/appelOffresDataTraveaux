@@ -1,0 +1,53 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "687776",
+ "orgAcronyme": "d4q",
+ "reference_pv": null,
+ "nouveau": true,
+ "reference": null,
+ "objet": null,
+ "acheteur": null,
+ "procedure": null,
+ "categorie": "Travaux",
+ "date_limite_plis": "08/12/2022",
+ "lieu_ouverture": "Siège de la Direction Régionale Distribution Agadir",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "29/12/2022",
+ "justification": "L'offre proposée par le soumissionnaire « Sté OUHAFID TRAVAUX » s’écarte d’un taux acceptable de +7,98 % par rapport à l'estimation",
+ "infructueux": false,
+ "attributaire": "Sté OUHAFID TRAVAUX",
+ "montant_attribue": 1750506.24,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "Société ELEC BOURICHE et Société OUHAFID TRAVAUX",
+   "montant_acte_engagement": 1871218.2,
+   "montant_apres_verification": 1871218.2,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Sté OUHAFID TRAVAUX",
+   "montant_acte_engagement": 1750506.24,
+   "montant_apres_verification": 1750506.24,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 2,
+ "alertes_ocr": [
+  "« Sté OUHAFID TRAVAUX » absent de la liste des plis déposés (nom mal lu ?)."
+ ],
+ "notes_ocr": [
+  "Maître d'ouvrage absent du PV (utiliser l'acheteur public du portail)."
+ ],
+ "qualite": "complet"
+}

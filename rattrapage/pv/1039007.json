@@ -1,0 +1,87 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "1039007",
+ "orgAcronyme": "o8p",
+ "reference_pv": "38/2026-N",
+ "nouveau": true,
+ "reference": "38/2026-N",
+ "objet": "Travaux de mise à niveau du Grand Stade d'Agadir (préparatifs pour la candidature du Maroc pour l’organisation de la coupe du monde 2030). Lot n°3 : Fluides",
+ "acheteur": null,
+ "procedure": "appel d'offres ouvert international",
+ "categorie": "Travaux",
+ "date_limite_plis": "04/09/2026",
+ "lieu_ouverture": "Bureau de Monsieur le Directeur Régional de Agence Nationale des Equipements",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "11/09/2026",
+ "justification": "Les éléments contenus dans son dossier administratif et technique, sa documentation technique, son offre technique et son offre financière.",
+ "infructueux": false,
+ "attributaire": "Société SOTHECA sarl",
+ "montant_attribue": 249475236.0,
+ "attributaires_par_lot": [
+  {
+   "lot": null,
+   "attributaire": "Société SOTHECA sarl",
+   "montant": 249475236.0
+  },
+  {
+   "lot": null,
+   "attributaire": "Société RAPIBAT sarl",
+   "montant": 249696169.2
+  },
+  {
+   "lot": null,
+   "attributaire": "Société MIF MAROC sa",
+   "montant": 242254102.8
+  }
+ ],
+ "soumissionnaires": [
+  {
+   "nom": "Société CEGELEC sa",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_dossier_administratif_technique",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Société SOTHECA sarl",
+   "montant_acte_engagement": 249475236.0,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Société RAPIBAT sarl",
+   "montant_acte_engagement": 249696169.2,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Société MIF MAROC sa",
+   "montant_acte_engagement": 242254102.8,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 4,
+ "alertes_ocr": [
+  "« Société MIF MAROC sa » absent de la liste des plis déposés (nom mal lu ?)."
+ ],
+ "notes_ocr": [
+  "Maître d'ouvrage absent du PV (utiliser l'acheteur public du portail)."
+ ],
+ "qualite": "attribution"
+}

@@ -1,0 +1,60 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "985687",
+ "orgAcronyme": "d4q",
+ "reference_pv": null,
+ "nouveau": true,
+ "reference": null,
+ "objet": "L’élagage, l'abattage, l’essouchement et la cession du bois d’arbres des sites ONEE-BE : Allai AI Fassi, Fès aval, El Kansera et Oued Ei Makhazine {2 lots séparés)",
+ "acheteur": null,
+ "procedure": null,
+ "categorie": "Travaux",
+ "date_limite_plis": "23/12/2025",
+ "lieu_ouverture": "Direction Exploitation Renouvelables Roches Noires",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": null,
+ "justification": "LAHMAR RADI concurrent conforme classé plus disant.",
+ "infructueux": false,
+ "attributaire": "LAHMAR RADI",
+ "montant_attribue": 68630.0,
+ "attributaires_par_lot": [
+  {
+   "lot": "1",
+   "attributaire": "LAHMAR RADI",
+   "montant": 68630.0
+  },
+  {
+   "lot": "2",
+   "attributaire": "LAHMAR RADI",
+   "montant": 26000.0
+  }
+ ],
+ "soumissionnaires": [
+  {
+   "nom": "LAHMAR RADI",
+   "montant_acte_engagement": 68630.0,
+   "montant_apres_verification": null,
+   "autres_montants": [
+    26000.0
+   ],
+   "lots": [
+    "1",
+    "2"
+   ],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 1,
+ "alertes_ocr": [],
+ "notes_ocr": [
+  "Marché alloti (2 lots).",
+  "Maître d'ouvrage absent du PV (utiliser l'acheteur public du portail).",
+  "Montants exprimés hors taxes (HT)."
+ ],
+ "qualite": "attribution"
+}

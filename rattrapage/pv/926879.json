@@ -1,0 +1,103 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "926879",
+ "orgAcronyme": "g3h",
+ "reference_pv": "25/2025/ND/RCFB",
+ "nouveau": true,
+ "reference": "25/2025/ND/RCFB",
+ "objet": "Travaux de réfection de la clôture de la forêt de Bouskoura - Province de Nouaceut",
+ "acheteur": "La Commune de Bouskoura",
+ "procedure": "appel d'offres ouvert",
+ "categorie": "Travaux",
+ "date_limite_plis": null,
+ "lieu_ouverture": null,
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "28/08/2025",
+ "justification": "la société ayant la meilleure offre (économiquement la plus avantageuse).",
+ "infructueux": false,
+ "attributaire": "s STE COFRACO SARL",
+ "montant_attribue": 2863872.0,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "Sté DAHMANE Construction et Travaux Divers",
+   "montant_acte_engagement": 2766240.0,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "s STE COFRACO SARL",
+   "montant_acte_engagement": 2863872.0,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "STE ETUCO SARL",
+   "montant_acte_engagement": 3246264.0,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "ENTREPRISE DE CONSTRUCTION ELKHEIR",
+   "montant_acte_engagement": 2920824.0,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Ste JHS TRAVAUX SARL",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_offre_technique",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "nd. et a: S. î",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "SARL",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_offre_technique",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 7,
+ "alertes_ocr": [
+  "« Sté DAHMANE Construction et Travaux Divers » absent de la liste des plis déposés (nom mal lu ?).",
+  "« s STE COFRACO SARL » absent de la liste des plis déposés (nom mal lu ?).",
+  "« STE ETUCO SARL » absent de la liste des plis déposés (nom mal lu ?).",
+  "« ENTREPRISE DE CONSTRUCTION ELKHEIR » absent de la liste des plis déposés (nom mal lu ?)."
+ ],
+ "notes_ocr": [
+  "« Ste JHS TRAVAUX SARL » absent de la liste des plis déposés (nom mal lu ?).",
+  "« nd. et a: S. î » absent de la liste des plis déposés (nom mal lu ?).",
+  "« SARL » absent de la liste des plis déposés (nom mal lu ?)."
+ ],
+ "qualite": "complet"
+}

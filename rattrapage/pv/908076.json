@@ -1,0 +1,53 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "908076",
+ "orgAcronyme": "o8p",
+ "reference_pv": "14/DPCR-ANP/2025",
+ "nouveau": true,
+ "reference": "14/DPCR-ANP/2025",
+ "objet": "Travaux de fourniture d’une bouée de signalisation maritime au port de Casablanca",
+ "acheteur": "AGENCE NATIONALE DES PORTS, DIRECTION DU PORT DE CASABLANCA ET REGION",
+ "procedure": null,
+ "categorie": "Travaux",
+ "date_limite_plis": "29/05/2025",
+ "lieu_ouverture": "DIRECTION DU PORT DE CASABLANCA ET REGION",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "17/06/2025",
+ "justification": null,
+ "infructueux": false,
+ "attributaire": "ANFAL",
+ "montant_attribue": 477645.0,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "SCAPHMAR- ANFAL",
+   "montant_acte_engagement": 690000.0,
+   "montant_apres_verification": null,
+   "autres_montants": [
+    828000.0
+   ],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "ANFAL",
+   "montant_acte_engagement": 477645.0,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 2,
+ "alertes_ocr": [
+  "« ANFAL » absent de la liste des plis déposés (nom mal lu ?)."
+ ],
+ "notes_ocr": [],
+ "qualite": "complet"
+}

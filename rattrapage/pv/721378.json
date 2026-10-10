@@ -1,0 +1,66 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "721378",
+ "orgAcronyme": "z9k",
+ "reference_pv": null,
+ "nouveau": true,
+ "reference": null,
+ "objet": null,
+ "acheteur": "La commune de Beri Mellal",
+ "procedure": null,
+ "categorie": "Travaux",
+ "date_limite_plis": "05/05/2023",
+ "lieu_ouverture": null,
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": null,
+ "justification": null,
+ "infructueux": false,
+ "attributaire": null,
+ "montant_attribue": null,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "Soc'été PARA NORD SUD SARL",
+   "montant_acte_engagement": 10709067.16,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Soc'été TOP ENERGIE SAR",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Soc'été PARA NORD SLD SARL AE ET PRE RER",
+   "montant_acte_engagement": 12709067.16,
+   "montant_apres_verification": null,
+   "autres_montants": [
+    10709060.76
+   ],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 3,
+ "alertes_ocr": [
+  "« Soc'été PARA NORD SUD SARL » absent de la liste des plis déposés (nom mal lu ?).",
+  "« Soc'été PARA NORD SLD SARL AE ET PRE RER » absent de la liste des plis déposés (nom mal lu ?).",
+  "Attributaire non trouvé."
+ ],
+ "notes_ocr": [
+  "« Soc'été TOP ENERGIE SAR » absent de la liste des plis déposés (nom mal lu ?)."
+ ],
+ "qualite": "complet"
+}

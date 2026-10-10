@@ -1,0 +1,63 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "982190",
+ "orgAcronyme": "g8e",
+ "reference_pv": "01/2026",
+ "nouveau": true,
+ "reference": "01/2026",
+ "objet": "D’ouverture des d’achèvement Concurrent Montant de l'offre retenu plis Des travaux de la retenu commission",
+ "acheteur": "Agence Régionale d'Exécution des Projets Région Béni Mellal- Khénifra",
+ "procedure": "appel d'offres ouvert",
+ "categorie": "Travaux",
+ "date_limite_plis": "24/02/2026",
+ "lieu_ouverture": "Salle de réunion de l’AREP région Beni Mellal Khéñnifra, Sis Bd Med V lotissement lala Hayat immeuble n°3, 4° et 5é\"t étage Béni Mellal",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "04/03/2026",
+ "justification": "L'offre économiquement la plus avantageuse",
+ "infructueux": false,
+ "attributaire": "STE. SONETAR",
+ "montant_attribue": 7194672.0,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "STE. SONETAR",
+   "montant_acte_engagement": 7194672.0,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": true
+  },
+  {
+   "nom": "AREP-BK 1&",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_dossier_administratif_technique",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Bd Med V lotissement lala Hayat immeuble n°3, gémeet 5e étage Béni Mellal",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_dossier_administratif_technique",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 3,
+ "alertes_ocr": [
+  "« STE. SONETAR » absent de la liste des plis déposés (nom mal lu ?)."
+ ],
+ "notes_ocr": [
+  "« AREP-BK 1& » absent de la liste des plis déposés (nom mal lu ?).",
+  "« Bd Med V lotissement lala Hayat immeuble n°3, gémeet 5e étage Béni Mellal » absent de la liste des plis déposés (nom mal lu ?)."
+ ],
+ "qualite": "attribution"
+}

@@ -1,0 +1,67 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "832553",
+ "orgAcronyme": "d4q",
+ "reference_pv": null,
+ "nouveau": true,
+ "reference": null,
+ "objet": "Remplacement des poteaux BT en bois et en béton armé endommagés, aux localités de Dar Bouazza, Bouskoura, Lissasfa, Nouaceur et Rahma (Grand Casablanca)",
+ "acheteur": null,
+ "procedure": "appel d'offres ouvert",
+ "categorie": "Travaux",
+ "date_limite_plis": "29/04/2021",
+ "lieu_ouverture": "Siège de la Direction Régionale Distribution Casablanca",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": null,
+ "justification": "Offre 3ème moins disante, retenue suite au désistement du 1° (SOMPAREC} et du 2ème (GOUREP ELEC) \" (à)",
+ "infructueux": false,
+ "attributaire": "en /HTVA en /TVAC NESRELEC",
+ "montant_attribue": 527424.0,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "SOMAPREC, ASBILEC, EPELCO, ENERGIE 3000, GOUREP ELEC, 2El SYSTEMS",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "depose",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "ELECTRICITE ELGHALI",
+   "montant_acte_engagement": 499449.92,
+   "montant_apres_verification": null,
+   "autres_montants": [
+    599339.9,
+    659210.0,
+    791052.0
+   ],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "en /HTVA en /TVAC NESRELEC",
+   "montant_acte_engagement": 527424.0,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 3,
+ "alertes_ocr": [
+  "« en /HTVA en /TVAC NESRELEC » absent de la liste des plis déposés (nom mal lu ?)."
+ ],
+ "notes_ocr": [
+  "Maître d'ouvrage absent du PV (utiliser l'acheteur public du portail).",
+  "Montants exprimés hors taxes (HT)."
+ ],
+ "qualite": "complet"
+}

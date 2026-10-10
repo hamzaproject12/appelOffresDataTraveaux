@@ -1,0 +1,124 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "1010414",
+ "orgAcronyme": "q0x",
+ "reference_pv": "10/2026",
+ "nouveau": true,
+ "reference": "10/2026",
+ "objet": "Achèvement de la restauration et la réhabilitation de l’avenue Bir Anzarane et son environnement à la commune de Khénifra",
+ "acheteur": "Commune de Khénifra",
+ "procedure": "appel d'offres ouvert national",
+ "categorie": "Travaux",
+ "date_limite_plis": "02/06/2026",
+ "lieu_ouverture": "Bureau du Président",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": null,
+ "justification": null,
+ "infructueux": false,
+ "attributaire": null,
+ "montant_attribue": null,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "Sté Tozaw Travaux",
+   "montant_acte_engagement": 3592368.0,
+   "montant_apres_verification": 3592368.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Sté Ouzalid trav sarl",
+   "montant_acte_engagement": 3425587.2,
+   "montant_apres_verification": 3425587.2,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Ste Extra Clean service Maroc",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_dossier_administratif_technique",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Ste Aluferinox",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_dossier_administratif_technique",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Ste MTF Construction",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_dossier_administratif_technique",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Ste A h Safi",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_dossier_administratif_technique",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Ste Génie Structure pro sarlau",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_dossier_administratif_technique",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Ste Bouita Building",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_dossier_administratif_technique",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Sté BM2R Trav",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_dossier_administratif_technique",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 9,
+ "alertes_ocr": [
+  "« Sté Tozaw Travaux » absent de la liste des plis déposés (nom mal lu ?).",
+  "« Sté Ouzalid trav sarl » absent de la liste des plis déposés (nom mal lu ?).",
+  "Attributaire non trouvé."
+ ],
+ "notes_ocr": [
+  "« Ste Extra Clean service Maroc » absent de la liste des plis déposés (nom mal lu ?).",
+  "« Ste Aluferinox » absent de la liste des plis déposés (nom mal lu ?).",
+  "« Ste MTF Construction » absent de la liste des plis déposés (nom mal lu ?).",
+  "« Ste A h Safi » absent de la liste des plis déposés (nom mal lu ?).",
+  "« Ste Génie Structure pro sarlau » absent de la liste des plis déposés (nom mal lu ?).",
+  "« Ste Bouita Building » absent de la liste des plis déposés (nom mal lu ?).",
+  "« Sté BM2R Trav » absent de la liste des plis déposés (nom mal lu ?)."
+ ],
+ "qualite": "complet"
+}

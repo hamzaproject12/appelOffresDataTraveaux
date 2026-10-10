@@ -1,0 +1,51 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "740201",
+ "orgAcronyme": "j0w",
+ "reference_pv": "02/2023",
+ "nouveau": true,
+ "reference": "02/2023",
+ "objet": "Travaux de construction et équipement d'un château D'eau de 100 m3 au douar OULED MOUH à la commune De SIDI ISHAQ -— province d'ESSAOUIRA",
+ "acheteur": "Le Président de la Commune Sidi Ishaq",
+ "procedure": null,
+ "categorie": "Travaux",
+ "date_limite_plis": null,
+ "lieu_ouverture": "Salle des réunions à la Commune SIDI ISHAQ",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "28/07/2023",
+ "justification": null,
+ "infructueux": false,
+ "attributaire": "STETRARENSASARLAU",
+ "montant_attribue": 7566382.0,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "STE TRAKENSA",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "depose",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "STETRARENSASARLAU",
+   "montant_acte_engagement": 7566382.0,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 2,
+ "alertes_ocr": [
+  "« STETRARENSASARLAU » absent de la liste des plis déposés (nom mal lu ?)."
+ ],
+ "notes_ocr": [],
+ "qualite": "attribution"
+}

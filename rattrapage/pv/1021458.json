@@ -1,0 +1,43 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "1021458",
+ "orgAcronyme": "o8p",
+ "reference_pv": "17/A00/DPMR-ANP/2026",
+ "nouveau": true,
+ "reference": "17/A00/DPMR-ANP/2026",
+ "objet": null,
+ "acheteur": "Agence Nationale des ports : Direction du Port",
+ "procedure": "appel d'offres ouvert national",
+ "categorie": "Travaux",
+ "date_limite_plis": "02/06/2026",
+ "lieu_ouverture": "ANP/DPMR Conformément à l'avis publié dans : de Mohammedia et Région",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "09/06/2026",
+ "justification": null,
+ "infructueux": false,
+ "attributaire": null,
+ "montant_attribue": null,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "GLOBAL BUILDERS",
+   "montant_acte_engagement": 4794600.0,
+   "montant_apres_verification": 4794600.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 1,
+ "alertes_ocr": [
+  "« GLOBAL BUILDERS » absent de la liste des plis déposés (nom mal lu ?).",
+  "Attributaire non trouvé."
+ ],
+ "notes_ocr": [],
+ "qualite": "attribution"
+}

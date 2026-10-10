@@ -1,0 +1,145 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "1012608",
+ "orgAcronyme": "o8p",
+ "reference_pv": "FOSTP/04/2026",
+ "nouveau": true,
+ "reference": "FOSTP/04/2026",
+ "objet": "Travaux de construction de deux terrains en gazon synthétique aux Clubs des Travaux Publics de Fès et Meknès",
+ "acheteur": "Fondation des Œuvres Sociales des Travaux Publics",
+ "procedure": null,
+ "categorie": "Travaux",
+ "date_limite_plis": "02/06/2026",
+ "lieu_ouverture": "dans la salle de réunion de la FOS TP",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "12/06/2026",
+ "justification": "- La Société S.E.A.T Sarl est qualifiée répondant aux critères et conditions de l’appel d'offres et son offre est la plus avantageuse eu égard aux critères d'évaluation figurant dans le règlement de consultation.",
+ "infructueux": false,
+ "attributaire": "SHIMA SPORT ITALIA SARL-AU",
+ "montant_attribue": 2787336.0,
+ "attributaires_par_lot": [
+  {
+   "lot": null,
+   "attributaire": "SHIMA SPORT ITALIA SARL-AU",
+   "montant": 2787336.0
+  },
+  {
+   "lot": null,
+   "attributaire": "BEMOX INVEST SARL AU",
+   "montant": 2815074.0
+  },
+  {
+   "lot": null,
+   "attributaire": "AUGUST S.A.R.L A.",
+   "montant": 2867364.0
+  }
+ ],
+ "soumissionnaires": [
+  {
+   "nom": "ICHICHIE SARL",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_dossier_administratif_technique",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "SHIMA SPORT ITALIA SARL-AU",
+   "montant_acte_engagement": 2787336.0,
+   "montant_apres_verification": null,
+   "autres_montants": [
+    2787336.0
+   ],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "ENDICOTRA SARL",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_dossier_administratif_technique",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "AUGUST S.A.R.L A.",
+   "montant_acte_engagement": 2867364.0,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Le S.E.A.T Sarl",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "depose",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "BEMOX INVEST SARL AU",
+   "montant_acte_engagement": 2815074.0,
+   "montant_apres_verification": null,
+   "autres_montants": [
+    2815074.0
+   ],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": true
+  },
+  {
+   "nom": "AKHFIR TRAVAUX SARL",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_dossier_administratif_technique",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "ALJANOUB ACHARKI",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_dossier_administratif_technique",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "UGCF S.A.R.L",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_dossier_administratif_technique",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "S.E.A.T Sarl dns",
+   "montant_acte_engagement": 2780562.0,
+   "montant_apres_verification": null,
+   "autres_montants": [
+    2780562.0
+   ],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 10,
+ "alertes_ocr": [
+  "« S.E.A.T Sarl dns » absent de la liste des plis déposés (nom mal lu ?)."
+ ],
+ "notes_ocr": [],
+ "qualite": "complet"
+}

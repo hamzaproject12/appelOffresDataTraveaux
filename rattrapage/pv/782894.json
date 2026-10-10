@@ -1,0 +1,58 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "782894",
+ "orgAcronyme": "j8k",
+ "reference_pv": null,
+ "nouveau": true,
+ "reference": null,
+ "objet": null,
+ "acheteur": "Al Omrane Rabat-Rabat-Salé",
+ "procedure": "appel d'offres ouvert",
+ "categorie": "Travaux",
+ "date_limite_plis": "20/02/2023",
+ "lieu_ouverture": "Siège d'Al Omrane Rabat-Salé-Kénitra",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "09/03/2023",
+ "justification": "L'offre la plus avantageuse.",
+ "infructueux": false,
+ "attributaire": "MULTI WORK CENTER MAROC",
+ "montant_attribue": 17798512.8,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "MULTI WORK CENTER MAROC",
+   "montant_acte_engagement": 17798512.8,
+   "montant_apres_verification": 17798512.8,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "GRITEL",
+   "montant_acte_engagement": 19094258.4,
+   "montant_apres_verification": 19094258.4,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "DAREL (SOUMISSION ÉLECTRONIQUE)",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "depose",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 3,
+ "alertes_ocr": [],
+ "notes_ocr": [],
+ "qualite": "complet"
+}

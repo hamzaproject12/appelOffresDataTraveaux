@@ -1,0 +1,53 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "1027504",
+ "orgAcronyme": "g3h",
+ "reference_pv": "21/OLT/2026",
+ "nouveau": true,
+ "reference": "21/OLT/2026",
+ "objet": "TRAVAUX DE SIGNALISATION HORIZONTALE DANS LA VILLE D'OUJDA",
+ "acheteur": null,
+ "procedure": "appel d'offres ouvert national",
+ "categorie": "Travaux",
+ "date_limite_plis": "20/07/2026",
+ "lieu_ouverture": "les bureaux de la société de développement &« OUJDA LI TAHYIAA » SA situés à Wilaya de la Région de l'Oriental — Bd. Hassan Il - Oujda",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "23/07/2026",
+ "justification": "l'offre économiquement la plus avantageuse est l'offre la moins- disante, celle de la société : PINTAPLANA MAROC SARL.",
+ "infructueux": false,
+ "attributaire": null,
+ "montant_attribue": null,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "PINTAPLANA MAROC SARL",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "LA LIGNE BLANCHE SA",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 2,
+ "alertes_ocr": [
+  "Attributaire non trouvé."
+ ],
+ "notes_ocr": [
+  "Maître d'ouvrage absent du PV (utiliser l'acheteur public du portail)."
+ ],
+ "qualite": "participants"
+}

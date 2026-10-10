@@ -1,0 +1,163 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "961376",
+ "orgAcronyme": "q1s",
+ "reference_pv": "01/2026/0RSM",
+ "nouveau": true,
+ "reference": "01/2026/0RSM",
+ "objet": "Travaux de fourniture et pose de conduites et équipements de filtration et de comptage dans le cadre du projet de reconversion collective en irrigation localisée des périmètres gérés par les AUEA relevant de la zone",
+ "acheteur": "ORMVA/SM",
+ "procedure": "appel d'offres ouvert",
+ "categorie": "Travaux",
+ "date_limite_plis": "12/11/2025",
+ "lieu_ouverture": "Salle de réunion de la direction de lORMVA/SM",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "08/12/2025",
+ "justification": null,
+ "infructueux": false,
+ "attributaire": "ERI-SER",
+ "montant_attribue": 5770874.4,
+ "attributaires_par_lot": [
+  {
+   "lot": "1",
+   "attributaire": "ERI-SER",
+   "montant": 5770874.4
+  },
+  {
+   "lot": "2",
+   "attributaire": "UNIVERS PHYTO",
+   "montant": 5291737.2
+  },
+  {
+   "lot": "3",
+   "attributaire": "CMGP",
+   "montant": 5487637.2
+  }
+ ],
+ "soumissionnaires": [
+  {
+   "nom": "UNIVERS PHYTO < nt",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [
+    "1"
+   ],
+   "statut": "depose",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "UNIVERS PHYTO",
+   "montant_acte_engagement": 5600062.2,
+   "montant_apres_verification": 5559547.2,
+   "autres_montants": [
+    5291737.2,
+    5420418.0,
+    4466727.6
+   ],
+   "lots": [
+    "1",
+    "2",
+    "3"
+   ],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "ERI-SER AIT MELLOUL",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [
+    "1",
+    "2",
+    "3"
+   ],
+   "statut": "depose",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "2 IRRIONE CASABLANCA",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [
+    "1",
+    "2"
+   ],
+   "statut": "depose",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "CMGP",
+   "montant_acte_engagement": 6089739.6,
+   "montant_apres_verification": 6089739.6,
+   "autres_montants": [
+    5487637.2
+   ],
+   "lots": [
+    "1",
+    "2",
+    "3"
+   ],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "LR Rs",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [
+    "3"
+   ],
+   "statut": "depose",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Aa ges sir a Us",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [
+    "3"
+   ],
+   "statut": "depose",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Cia $ otuall 5 day jatl",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [
+    "3"
+   ],
+   "statut": "depose",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Développement Rurale",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [
+    "2",
+    "3"
+   ],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 9,
+ "alertes_ocr": [],
+ "notes_ocr": [
+  "« UNIVERS PHYTO » : montant rectifié de 5 600 062.20 à 5 559 547.20 DH.",
+  "Marché alloti (3 lots)."
+ ],
+ "qualite": "attribution"
+}

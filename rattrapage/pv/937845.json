@@ -1,0 +1,51 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "937845",
+ "orgAcronyme": "j8k",
+ "reference_pv": "96/25",
+ "nouveau": true,
+ "reference": "96/25",
+ "objet": "TRAVAUX DE CONSTRUCTION D'UNE MAISON DES JEUNES P130 R+1 SIS A QUARTIER OULED REHOU, PREFECTURE DES ARRONDISSEMENT AIN CHOCK -LOT UNIQUE (MARCHE AU FORFAIT CLEF EN MAIN AU RABAIS OU MAJORATION)",
+ "acheteur": null,
+ "procedure": "appel d'offres ouvert",
+ "categorie": "Travaux",
+ "date_limite_plis": "17/09/2025",
+ "lieu_ouverture": "AI Omrane Casablanca — Settat",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": null,
+ "justification": "Offre financière la plus avantageuse",
+ "infructueux": false,
+ "attributaire": "DAHMANE CONSTRUCTION ET TRAVAUX",
+ "montant_attribue": 2208000.0,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "DAHMANE CONSTRUCTION ET TRAVAUX",
+   "montant_acte_engagement": 2208000.0,
+   "montant_apres_verification": 2208000.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Version 03",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "depose",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 2,
+ "alertes_ocr": [],
+ "notes_ocr": [
+  "Maître d'ouvrage absent du PV (utiliser l'acheteur public du portail)."
+ ],
+ "qualite": "attribution"
+}

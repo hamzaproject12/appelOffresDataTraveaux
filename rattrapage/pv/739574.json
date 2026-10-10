@@ -1,0 +1,109 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "739574",
+ "orgAcronyme": "e5w",
+ "reference_pv": null,
+ "nouveau": true,
+ "reference": null,
+ "objet": "D'APPEL D'OFFRES Douar MECHTA LHJIR via Douar BELLMOUNE à la Commune AIN KANSARA, PROVINCE DE MOULAY YACOUB",
+ "acheteur": "DATE D'OUVERTURE DES LE 02/08/2023 À 10H30 MIN",
+ "procedure": null,
+ "categorie": "Travaux",
+ "date_limite_plis": "02/08/2023",
+ "lieu_ouverture": "DES L'ANNEXE DU CONSEIL REGION FES MEKNES PLIS : ’ HA » - o n\"",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "29/08/2023",
+ "justification": "Offre la moins disante.",
+ "infructueux": false,
+ "attributaire": null,
+ "montant_attribue": null,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "STE ENTRAMA SARL FES",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "depose",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "STE BENDAL SARL",
+   "montant_acte_engagement": 7657912.73,
+   "montant_apres_verification": 7657912.73,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "STE AVANZA TRAVAUX SARL TANGER",
+   "montant_acte_engagement": 9362134.26,
+   "montant_apres_verification": 9362134.26,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "STE MACHARII AL BARAKA SARL FES",
+   "montant_acte_engagement": 8795606.65,
+   "montant_apres_verification": 6969169.68,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "STE SOBEC SARL MEKNES",
+   "montant_acte_engagement": 8795606.65,
+   "montant_apres_verification": 8795606.65,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "STE CHAHMET.C.V",
+   "montant_acte_engagement": 8458684.03,
+   "montant_apres_verification": 8458684.03,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "STE ATI ALLAH DE TRAVAUX DIVERS SARL",
+   "montant_acte_engagement": 8199995.82,
+   "montant_apres_verification": 8199995.82,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": true
+  },
+  {
+   "nom": "STE ADYOUSTAR SARL",
+   "montant_acte_engagement": 641000.0,
+   "montant_apres_verification": 7641000.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": true
+  }
+ ],
+ "nombre_soumissionnaires": 8,
+ "alertes_ocr": [
+  "Attributaire non trouvé.",
+  "« STE ADYOUSTAR SARL » : écart anormal entre montant initial et vérifié (lecture à vérifier)."
+ ],
+ "notes_ocr": [
+  "« STE MACHARII AL BARAKA SARL FES » : montant rectifié de 8 795 606.65 à 6 969 169.68 DH.",
+  "« STE ADYOUSTAR SARL » : montant rectifié de 641 000.00 à 7 641 000.00 DH."
+ ],
+ "qualite": "complet"
+}

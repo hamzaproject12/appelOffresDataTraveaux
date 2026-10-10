@@ -1,0 +1,55 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "878271",
+ "orgAcronyme": "q1s",
+ "reference_pv": null,
+ "nouveau": true,
+ "reference": null,
+ "objet": "TRAVAUX D'ENTRETIEN DU RESEAU D'IRRIGATION EN CONDUITES SOUS PRESSION DANS LES PERIMETRES IRRIGUES DU HAOUZ",
+ "acheteur": "l’Office Régional de Mise en Valeur Agricole du Haouz",
+ "procedure": null,
+ "categorie": "Travaux",
+ "date_limite_plis": "25/02/2025",
+ "lieu_ouverture": "Siège de l’Office Régional de Mise en Valeur Agricole du Haouz",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": null,
+ "justification": "l’Offre la plus avantageuse est présentée par la société BENADEP a commission des appels d’offres : 11/03/2025",
+ "infructueux": false,
+ "attributaire": "BENADEP",
+ "montant_attribue": 2000000.0,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "CCGT CANALISATION",
+   "montant_acte_engagement": 2000000.0,
+   "montant_apres_verification": null,
+   "autres_montants": [
+    4000000.0
+   ],
+   "lots": [],
+   "statut": "ecarte_offre_financiere",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "BENADEP",
+   "montant_acte_engagement": 2000000.0,
+   "montant_apres_verification": 4000000.0,
+   "autres_montants": [
+    4000000.0
+   ],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 2,
+ "alertes_ocr": [],
+ "notes_ocr": [
+  "« BENADEP » : montant rectifié de 2 000 000.00 à 4 000 000.00 DH."
+ ],
+ "qualite": "complet"
+}

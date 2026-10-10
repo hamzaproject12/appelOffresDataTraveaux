@@ -1,0 +1,84 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "694383",
+ "orgAcronyme": "g3h",
+ "reference_pv": "82/2022/S2A",
+ "nouveau": true,
+ "reference": "82/2022/S2A",
+ "objet": "TRAVAUX DE REALISATION DE LA SALLE COUVERTE HAY HASSANI DE LA VILLE D’AGADIR ▪ Date d’ouverture des plis : Vendredi 03/02/2023 à 12h00",
+ "acheteur": null,
+ "procedure": "appel d'offres ouvert",
+ "categorie": "Travaux",
+ "date_limite_plis": null,
+ "lieu_ouverture": null,
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": null,
+ "justification": null,
+ "infructueux": false,
+ "attributaire": "SOCIETE SOFITRAC",
+ "montant_attribue": 12414997.2,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "GROUPEMENT ACHGHAL AL JANOUB / MATOZID",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": true
+  },
+  {
+   "nom": "SOCIETE SOFITRAC",
+   "montant_acte_engagement": 12414997.2,
+   "montant_apres_verification": 12414997.2,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "SOCIETE OUED SOUSS",
+   "montant_acte_engagement": 13191049.32,
+   "montant_apres_verification": 13191049.32,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "SOCIETE RAZIKI",
+   "montant_acte_engagement": 13056148.2,
+   "montant_apres_verification": 13056148.2,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "SOCIETE GMCG",
+   "montant_acte_engagement": 13478860.8,
+   "montant_apres_verification": 13478860.8,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 5,
+ "alertes_ocr": [
+  "« SOCIETE SOFITRAC » absent de la liste des plis déposés (nom mal lu ?).",
+  "« SOCIETE OUED SOUSS » absent de la liste des plis déposés (nom mal lu ?).",
+  "« SOCIETE RAZIKI » absent de la liste des plis déposés (nom mal lu ?).",
+  "« SOCIETE GMCG » absent de la liste des plis déposés (nom mal lu ?)."
+ ],
+ "notes_ocr": [
+  "« GROUPEMENT ACHGHAL AL JANOUB / MATOZID » absent de la liste des plis déposés (nom mal lu ?).",
+  "Maître d'ouvrage absent du PV (utiliser l'acheteur public du portail)."
+ ],
+ "qualite": "complet"
+}

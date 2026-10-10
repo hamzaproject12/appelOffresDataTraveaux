@@ -1,0 +1,53 @@
+{
+ "source": "extrait_docx",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "743003",
+ "orgAcronyme": "z9k",
+ "reference_pv": "01/2023CTT/BC",
+ "nouveau": true,
+ "reference": "01/2023CTT/BC",
+ "objet": "de la réserve N E A N T",
+ "acheteur": "Président commune taounza",
+ "procedure": null,
+ "categorie": "Travaux",
+ "date_limite_plis": "24/07/2023",
+ "lieu_ouverture": "s des plis : la Salle des Réunions de la commune Taounza",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "31/08/2023",
+ "justification": "l’offre la plus avantageuse qui est STE WARKON TRAVAUX SARL HAY IMENTREGUE .BP 730 . AZILAL",
+ "infructueux": false,
+ "attributaire": null,
+ "montant_attribue": null,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "STE WARKON TRAVAUX SARL HAY IMENTREGUE .BP 730 . AZILAL",
+   "montant_acte_engagement": 304788.0,
+   "montant_apres_verification": 304788.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "STE FAKIR TRAVAUX zone industrielle km6 route de Marrakech BENI MELLAL",
+   "montant_acte_engagement": 429930.0,
+   "montant_apres_verification": 429930.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 2,
+ "alertes_ocr": [
+  "« STE WARKON TRAVAUX SARL HAY IMENTREGUE .BP 730 . AZILAL » absent de la liste des plis déposés (nom mal lu ?).",
+  "« STE FAKIR TRAVAUX zone industrielle km6 route de Marrakech BENI MELLAL » absent de la liste des plis déposés (nom mal lu ?).",
+  "Attributaire non trouvé."
+ ],
+ "notes_ocr": [],
+ "qualite": "complet"
+}

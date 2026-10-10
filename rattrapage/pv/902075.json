@@ -1,0 +1,120 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "902075",
+ "orgAcronyme": "l1f",
+ "reference_pv": null,
+ "nouveau": true,
+ "reference": null,
+ "objet": "Travaux de Ravalement des façades à la ville de M’diq",
+ "acheteur": "Commune de M’diq",
+ "procedure": null,
+ "categorie": "Travaux",
+ "date_limite_plis": null,
+ "lieu_ouverture": null,
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "30/05/2025",
+ "justification": null,
+ "infructueux": false,
+ "attributaire": "STE MERBAT",
+ "montant_attribue": 281760.0,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "STE STEPLUS",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "depose",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "STE HYCOS",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "depose",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "STE IBDE TRAV",
+   "montant_acte_engagement": 282720.0,
+   "montant_apres_verification": 282720.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "STE LONA QUALITE SARL AU",
+   "montant_acte_engagement": 282840.0,
+   "montant_apres_verification": 282840.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "DAHNAN TRAVAUX SARL AU",
+   "montant_acte_engagement": 281340.0,
+   "montant_apres_verification": 281340.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "IMJAN TRAVAUX sarl",
+   "montant_acte_engagement": 284820.0,
+   "montant_apres_verification": 284820.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "STE SENOUI",
+   "montant_acte_engagement": 283590.0,
+   "montant_apres_verification": 283590.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "MAJI SERV SARL",
+   "montant_acte_engagement": 283020.0,
+   "montant_apres_verification": 283020.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "STE MERBAT",
+   "montant_acte_engagement": 281760.0,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 9,
+ "alertes_ocr": [
+  "« STE IBDE TRAV » absent de la liste des plis déposés (nom mal lu ?).",
+  "« STE LONA QUALITE SARL AU » absent de la liste des plis déposés (nom mal lu ?).",
+  "« DAHNAN TRAVAUX SARL AU » absent de la liste des plis déposés (nom mal lu ?).",
+  "« IMJAN TRAVAUX sarl » absent de la liste des plis déposés (nom mal lu ?).",
+  "« STE SENOUI » absent de la liste des plis déposés (nom mal lu ?).",
+  "« MAJI SERV SARL » absent de la liste des plis déposés (nom mal lu ?).",
+  "« STE MERBAT » absent de la liste des plis déposés (nom mal lu ?)."
+ ],
+ "notes_ocr": [],
+ "qualite": "complet"
+}

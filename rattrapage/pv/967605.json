@@ -1,0 +1,100 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "967605",
+ "orgAcronyme": "q0x",
+ "reference_pv": "2-22-43ldu",
+ "nouveau": true,
+ "reference": "2-22-43ldu",
+ "objet": "Entretien.ou.untdediversespacesvertsdelacommunedeMeknès",
+ "acheteur": null,
+ "procedure": "appel d'offres ouvert national",
+ "categorie": "Travaux",
+ "date_limite_plis": null,
+ "lieu_ouverture": "la salle des réunions au siège Boulevard des F.A.R, Ville Nouvelle' principal de la Commune de Meknès sis au",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "30/12/2025",
+ "justification": null,
+ "infructueux": false,
+ "attributaire": "Société SIMON'JARDIN SARL",
+ "montant_attribue": 1961153.25,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "SOCiété MARAVER SATI AU",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "depose",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "SOCiété RYAD JARDIN SARL",
+   "montant_acte_engagement": 1961153.25,
+   "montant_apres_verification": 1961153.25,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Société HOF PLANTE SARL sarl",
+   "montant_acte_engagement": 1961153.25,
+   "montant_apres_verification": 1961153.25,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Société BOUMHAND GROUP SARL-AU",
+   "montant_acte_engagement": 1961153.25,
+   "montant_apres_verification": 1961153.25,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Société SIMON'JARDIN SARL",
+   "montant_acte_engagement": 961153.62,
+   "montant_apres_verification": 1961153.25,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Société LEADE'R CARDEN SARL-AU",
+   "montant_acte_engagement": 1961153.25,
+   "montant_apres_verification": 1961153.25,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Société MARAVER Sarl AU",
+   "montant_acte_engagement": 961153.26,
+   "montant_apres_verification": 1961153.25,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 7,
+ "alertes_ocr": [
+  "« Société MARAVER Sarl AU » absent de la liste des plis déposés (nom mal lu ?)."
+ ],
+ "notes_ocr": [
+  "« Société SIMON'JARDIN SARL » : montant rectifié de 961 153.62 à 1 961 153.25 DH.",
+  "« Société MARAVER Sarl AU » : montant rectifié de 961 153.26 à 1 961 153.25 DH.",
+  "Maître d'ouvrage absent du PV (utiliser l'acheteur public du portail)."
+ ],
+ "qualite": "complet"
+}

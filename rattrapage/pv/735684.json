@@ -1,0 +1,88 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "735684",
+ "orgAcronyme": "d4q",
+ "reference_pv": null,
+ "nouveau": true,
+ "reference": null,
+ "objet": null,
+ "acheteur": null,
+ "procedure": "appel d'offres ouvert",
+ "categorie": "Travaux",
+ "date_limite_plis": "11/07/2023",
+ "lieu_ouverture": "au Siège de la Direction Régionale du Centre Nord (DR5) -88 rue du Soudan, Ville nouvelle - Fès - Maroc",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "10/08/2023",
+ "justification": "Moins-disant",
+ "infructueux": false,
+ "attributaire": "T.A.E.R",
+ "montant_attribue": 150120.0,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "ASMAE ALI NEGOCE MAROC",
+   "montant_acte_engagement": 179460.0,
+   "montant_apres_verification": null,
+   "autres_montants": [
+    179460.0
+   ],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "ENTR EL HADDAOUT MAROC",
+   "montant_acte_engagement": 158040.0,
+   "montant_apres_verification": null,
+   "autres_montants": [
+    158040.0
+   ],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "LAHROUR INVEST MAROC",
+   "montant_acte_engagement": 147924.0,
+   "montant_apres_verification": null,
+   "autres_montants": [
+    144024.0
+   ],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "SODISTRAV MAROC",
+   "montant_acte_engagement": 151368.0,
+   "montant_apres_verification": null,
+   "autres_montants": [
+    151368.0
+   ],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "T.A.E.R",
+   "montant_acte_engagement": 150120.0,
+   "montant_apres_verification": null,
+   "autres_montants": [
+    150120.0
+   ],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 5,
+ "alertes_ocr": [],
+ "notes_ocr": [
+  "Maître d'ouvrage absent du PV (utiliser l'acheteur public du portail)."
+ ],
+ "qualite": "complet"
+}

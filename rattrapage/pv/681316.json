@@ -1,0 +1,73 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "681316",
+ "orgAcronyme": "d0q",
+ "reference_pv": "01/CTSHM/2022",
+ "nouveau": true,
+ "reference": "01/CTSHM/2022",
+ "objet": "de l’appel d'offre :rravaux de mise à niveau du centre de la commune Sidi El haj M'hamed - Caidat Beni Zeroual cercle de Rhfsai Province de Taounate",
+ "acheteur": "Le Président de la commune sidi elhaj mhamed",
+ "procedure": "appel d'offres ouvert",
+ "categorie": "Travaux",
+ "date_limite_plis": "16/11/2022",
+ "lieu_ouverture": "salle de réunion commune sidi elhaj mhamed",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": null,
+ "justification": null,
+ "infructueux": false,
+ "attributaire": null,
+ "montant_attribue": null,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "Sté ABMB SARL",
+   "montant_acte_engagement": 6889980.0,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "GRP MEDTRA /SOBLTRAV",
+   "montant_acte_engagement": 6173472.0,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Sté SAHEL ET SAHARA SARL",
+   "montant_acte_engagement": 7003584.0,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Sté ATOURRATE SARL",
+   "montant_acte_engagement": 6354348.0,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 4,
+ "alertes_ocr": [
+  "« Sté ABMB SARL » absent de la liste des plis déposés (nom mal lu ?).",
+  "« GRP MEDTRA /SOBLTRAV » absent de la liste des plis déposés (nom mal lu ?).",
+  "« Sté SAHEL ET SAHARA SARL » absent de la liste des plis déposés (nom mal lu ?).",
+  "« Sté ATOURRATE SARL » absent de la liste des plis déposés (nom mal lu ?).",
+  "Attributaire non trouvé."
+ ],
+ "notes_ocr": [],
+ "qualite": "complet"
+}

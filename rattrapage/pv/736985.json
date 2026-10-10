@@ -1,0 +1,69 @@
+{
+ "source": "extrait_docx",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "736985",
+ "orgAcronyme": "d4q",
+ "reference_pv": null,
+ "nouveau": true,
+ "reference": null,
+ "objet": "Assainissement liquide de Sidi BouOthmane et Skhour R’hamna Lot",
+ "acheteur": null,
+ "procedure": "appel d'offres ouvert national",
+ "categorie": "Travaux",
+ "date_limite_plis": "06/07/2023",
+ "lieu_ouverture": "au Siège de la Direction Régionale du Tensift (DR2) Boulevard Mohamed V, Angle Rue Badr, Gueliz - Marrakech - Maroc",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "17/08/2023",
+ "justification": "Moins-disant.",
+ "infructueux": false,
+ "attributaire": "ELECTRA-SUD",
+ "montant_attribue": 304993.92,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "ELECTOMAR",
+   "montant_acte_engagement": 356036.4,
+   "montant_apres_verification": 356036.4,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "MAROC",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "depose",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "ELECTRA-SUD",
+   "montant_acte_engagement": 304993.92,
+   "montant_apres_verification": 304993.92,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "PW KHADIR",
+   "montant_acte_engagement": 304993.92,
+   "montant_apres_verification": 304993.92,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 4,
+ "alertes_ocr": [],
+ "notes_ocr": [
+  "Maître d'ouvrage absent du PV (utiliser l'acheteur public du portail)."
+ ],
+ "qualite": "complet"
+}

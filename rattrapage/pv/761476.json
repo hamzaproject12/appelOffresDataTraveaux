@@ -1,0 +1,78 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "761476",
+ "orgAcronyme": "f9f",
+ "reference_pv": "03/BC/2023",
+ "nouveau": true,
+ "reference": "03/BC/2023",
+ "objet": "Travaux de la deuxième tranche de l'assainissement liquide des quartiers de la commune El Guerdane: Quartier DAKHLA 2 à la commune El Guerdane, Province de Taroudannt, Région du Souss Massa",
+ "acheteur": "Commune El Guerdane",
+ "procedure": "appel d'offres ouvert national",
+ "categorie": "Travaux",
+ "date_limite_plis": "21/11/2023",
+ "lieu_ouverture": "bureau de la commune El Guerdane",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "30/11/2023",
+ "justification": "l'offre économiquement la plus avantageuse",
+ "infructueux": false,
+ "attributaire": "GROUPEMENT DES STE ABOULHAOUA SARL A TIZNIT ET STE IKKADAR TRAVAUX ET NEGOCE A TAROUDANT",
+ "montant_attribue": null,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "STE SOMAGITRAKE SARL À OUARZAZATE",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_offre_financiere",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "GROUPEMENT DES STE ABOULHAOUA SARL A TIZNIT ET STE IKKADAR TRAVAUX ET NEGOCE A TAROUDANT",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "STE CAH SARL A TANGER",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_offre_financiere",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "GROUPEMENT DES STE WIDAS SERVICES SARL À AGADIR ET LAYACHI DBICHE",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_dossier_administratif_technique",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "GROUPEMENT DES STE IDRAGEC SARL À OUARZAZATE ET STE AOURDOU TRAVAUX",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_dossier_administratif_technique",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 5,
+ "alertes_ocr": [
+  "Montant de l'attributaire « GROUPEMENT DES STE ABOULHAOUA SARL A TIZNIT ET STE IKKADAR TRAVAUX ET NEGOCE A TAROUDANT » non trouvé."
+ ],
+ "notes_ocr": [],
+ "qualite": "participants"
+}

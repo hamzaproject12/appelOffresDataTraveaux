@@ -1,0 +1,71 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "1021877",
+ "orgAcronyme": "g3h",
+ "reference_pv": "10008627",
+ "nouveau": true,
+ "reference": "10008627",
+ "objet": "Travaux d’aménagement des espaces d’accueil et des locaux administratifs et l’installation des réseaux informatiques au niveau des agences ROUTE DE TAZA et BENI DRAR",
+ "acheteur": null,
+ "procedure": null,
+ "categorie": "Travaux",
+ "date_limite_plis": "20/05/2026",
+ "lieu_ouverture": "Siège de la SRM-ORI",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": null,
+ "justification": "Offre moins-disante conforme.",
+ "infructueux": false,
+ "attributaire": "STE. WINBEST SARL AU",
+ "montant_attribue": 1070886.0,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "STE. CDEM PRO SARL AU -- - STE. WINBEST SARL AU",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "STE. SOFARIMAS TRAVAUX SARL AU _STE. PLATFORME DU BATIMENT ET",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "depose",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "STE. PLAY SOLUTIONS SARL AU TRAVAUX PUBLICS SARL AU",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "depose",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "STE. WINBEST SARL AU",
+   "montant_acte_engagement": 1070886.0,
+   "montant_apres_verification": 1070886.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 4,
+ "alertes_ocr": [
+  "« STE. WINBEST SARL AU » absent de la liste des plis déposés (nom mal lu ?)."
+ ],
+ "notes_ocr": [
+  "Maître d'ouvrage absent du PV (utiliser l'acheteur public du portail)."
+ ],
+ "qualite": "attribution"
+}

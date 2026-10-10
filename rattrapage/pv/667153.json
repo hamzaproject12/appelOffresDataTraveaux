@@ -1,0 +1,97 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "667153",
+ "orgAcronyme": "d0q",
+ "reference_pv": null,
+ "nouveau": true,
+ "reference": null,
+ "objet": null,
+ "acheteur": "Date d'ouverture des plis",
+ "procedure": "appel d'offres ouvert",
+ "categorie": "Travaux",
+ "date_limite_plis": null,
+ "lieu_ouverture": "Journaux ayant publié l'avis de publicité",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "06/10/2022",
+ "justification": "offre la plus avantageuse(Classé deuxième).",
+ "infructueux": false,
+ "attributaire": "Société STARMOR s.a.r.l, Fes",
+ "montant_attribue": 367845.0,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "Société 4AMEM A, s.a.r.l. Salé",
+   "montant_acte_engagement": 378729.0,
+   "montant_apres_verification": 378729.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_offre_financiere",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Maître d'ouvrage",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "depose",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Lieu d'ouverture des plis",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "depose",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Société STARMOR s.a.r.l, Fes",
+   "montant_acte_engagement": 367845.0,
+   "montant_apres_verification": 367845.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Société REAL M.J Taounate",
+   "montant_acte_engagement": 310272.0,
+   "montant_apres_verification": 310272.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_offre_financiere",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Société MOONYOX Sarl Berkane",
+   "montant_acte_engagement": 377850.0,
+   "montant_apres_verification": 377850.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Société RAY AN Sart Taounate",
+   "montant_acte_engagement": 368907.0,
+   "montant_apres_verification": 368907.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 7,
+ "alertes_ocr": [
+  "« Société MOONYOX Sarl Berkane » absent de la liste des plis déposés (nom mal lu ?).",
+  "« Société RAY AN Sart Taounate » absent de la liste des plis déposés (nom mal lu ?)."
+ ],
+ "notes_ocr": [],
+ "qualite": "complet"
+}

@@ -1,0 +1,61 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "667536",
+ "orgAcronyme": "g3h",
+ "reference_pv": "63/A/2022",
+ "nouveau": true,
+ "reference": "63/A/2022",
+ "objet": "TRAVAUX DE REALISATION DU COLLECTEUR D2-N3-1 DANS LA VILLE D'OUJDA",
+ "acheteur": "RADEEO",
+ "procedure": null,
+ "categorie": "Travaux",
+ "date_limite_plis": "29/09/2022",
+ "lieu_ouverture": "salle de réunion de la RADEEO",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "13/10/2022",
+ "justification": null,
+ "infructueux": false,
+ "attributaire": "Société EL HORE MOHAMMED TRAVAUX",
+ "montant_attribue": 1460388.56,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "Société EL HORE MOHAMMED TRAVAUX",
+   "montant_acte_engagement": 1460388.56,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Société STEPAG Rabais",
+   "montant_acte_engagement": 1561384.44,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Société GREEN CODE Rabaiïis",
+   "montant_acte_engagement": 1754482.24,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 3,
+ "alertes_ocr": [
+  "« Société STEPAG Rabais » absent de la liste des plis déposés (nom mal lu ?).",
+  "« Société GREEN CODE Rabaiïis » absent de la liste des plis déposés (nom mal lu ?)."
+ ],
+ "notes_ocr": [],
+ "qualite": "complet"
+}

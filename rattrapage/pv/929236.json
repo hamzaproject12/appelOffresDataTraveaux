@@ -1,0 +1,53 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "929236",
+ "orgAcronyme": "g3h",
+ "reference_pv": "10000785",
+ "nouveau": true,
+ "reference": "10000785",
+ "objet": "BRANCHEMENTS PARTICULIERS EN EAU POTABLE AU NIVEAU DE LA DIRECTION PROVINCIALE DE NADOR",
+ "acheteur": null,
+ "procedure": null,
+ "categorie": "Travaux",
+ "date_limite_plis": "16/07/2025",
+ "lieu_ouverture": "Siège de la SRM-ORI | Le",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": null,
+ "justification": "Offre moins-disante conforme. Le:",
+ "infructueux": false,
+ "attributaire": "STE OUJDA CHAUFFAGE",
+ "montant_attribue": 10554000.0,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "STE OUJDA CHAUFFAGE",
+   "montant_acte_engagement": 10554000.0,
+   "montant_apres_verification": 10554000.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "STE WATEGA",
+   "montant_acte_engagement": 11355600.0,
+   "montant_apres_verification": 11355600.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 2,
+ "alertes_ocr": [
+  "« STE WATEGA » absent de la liste des plis déposés (nom mal lu ?)."
+ ],
+ "notes_ocr": [
+  "Maître d'ouvrage absent du PV (utiliser l'acheteur public du portail)."
+ ],
+ "qualite": "complet"
+}

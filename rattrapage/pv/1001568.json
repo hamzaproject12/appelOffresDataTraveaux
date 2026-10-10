@@ -1,0 +1,90 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "1001568",
+ "orgAcronyme": "s3z",
+ "reference_pv": null,
+ "nouveau": true,
+ "reference": null,
+ "objet": "ENTRETI/EN COLIRANT DES VOTES EN ENRO&E*Arrondissement de Bettona* lot-unique 2, -Maître d'ouvrage : ARRONDISSEMENT DE BETTANA 3, -Date d'ouverlure des plis t 3O/O4/2O26",
+ "acheteur": null,
+ "procedure": "appel d'offres ouvert simplifié",
+ "categorie": "Travaux",
+ "date_limite_plis": null,
+ "lieu_ouverture": null,
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": null,
+ "justification": "-Dossier administratif et technique valable - Offre financière la plus avantageuse.",
+ "infructueux": false,
+ "attributaire": "JUSKA SARL",
+ "montant_attribue": 1274980.0,
+ "attributaires_par_lot": [
+  {
+   "lot": null,
+   "attributaire": "JUSKA SARL",
+   "montant": 1274980.0
+  },
+  {
+   "lot": null,
+   "attributaire": "BIYA BITUME SARL",
+   "montant": 290240.0
+  },
+  {
+   "lot": null,
+   "attributaire": "DIFAF SARL",
+   "montant": 382400.0
+  }
+ ],
+ "soumissionnaires": [
+  {
+   "nom": "BIYA BITUME SARL",
+   "montant_acte_engagement": 290240.0,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "JUSKA SARL",
+   "montant_acte_engagement": 1274980.0,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "DIFAF SARL",
+   "montant_acte_engagement": 382400.0,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Néont",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_dossier_administratif_technique",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 4,
+ "alertes_ocr": [
+  "« BIYA BITUME SARL » absent de la liste des plis déposés (nom mal lu ?).",
+  "« JUSKA SARL » absent de la liste des plis déposés (nom mal lu ?).",
+  "« DIFAF SARL » absent de la liste des plis déposés (nom mal lu ?)."
+ ],
+ "notes_ocr": [
+  "« Néont » absent de la liste des plis déposés (nom mal lu ?).",
+  "Maître d'ouvrage absent du PV (utiliser l'acheteur public du portail)."
+ ],
+ "qualite": "attribution"
+}

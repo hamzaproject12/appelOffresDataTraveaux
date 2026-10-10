@@ -1,0 +1,62 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "685422",
+ "orgAcronyme": "z7x",
+ "reference_pv": "52/UCA/2022",
+ "nouveau": true,
+ "reference": "52/UCA/2022",
+ "objet": null,
+ "acheteur": "Présidence de l'Université Cadi Ayyad",
+ "procedure": "appel d'offres ouvert",
+ "categorie": "Travaux",
+ "date_limite_plis": "08/12/2022",
+ "lieu_ouverture": "Salle des réunions de la présidence de l'UCA",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "15/12/2022",
+ "justification": "Le concurrent ayant l'offre la plus avantageuse.",
+ "infructueux": false,
+ "attributaire": "STE NAMIRA",
+ "montant_attribue": 3647204.09,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "STE NAMIRA",
+   "montant_acte_engagement": 3647204.09,
+   "montant_apres_verification": 3647204.09,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "STE ATLAS DADES",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "depose",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "STE SOFITRAC",
+   "montant_acte_engagement": 4023265.97,
+   "montant_apres_verification": 4025665.97,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 3,
+ "alertes_ocr": [
+  "« STE SOFITRAC » absent de la liste des plis déposés (nom mal lu ?)."
+ ],
+ "notes_ocr": [
+  "« STE SOFITRAC » : montant rectifié de 4 023 265.97 à 4 025 665.97 DH."
+ ],
+ "qualite": "complet"
+}

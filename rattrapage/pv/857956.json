@@ -1,0 +1,44 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "857956",
+ "orgAcronyme": "g3h",
+ "reference_pv": "19/A/2024/R1",
+ "nouveau": true,
+ "reference": "19/A/2024/R1",
+ "objet": "TRAVAUX DE RENFORCEMENT DU RESEAU D'ASSAINISSEMENT LIQUIDE PRES DE LA STATION CDG À LA VILLE DE LARACHE",
+ "acheteur": "RADEEL",
+ "procedure": null,
+ "categorie": "Travaux",
+ "date_limite_plis": "05/11/2024",
+ "lieu_ouverture": "salle de réunion de la RADEEL",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": null,
+ "justification": null,
+ "infructueux": false,
+ "attributaire": "NAMTEK",
+ "montant_attribue": 1150008.0,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "NAMTEK",
+   "montant_acte_engagement": 150008.0,
+   "montant_apres_verification": 1150008.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 1,
+ "alertes_ocr": [
+  "« NAMTEK » : écart anormal entre montant initial et vérifié (lecture à vérifier)."
+ ],
+ "notes_ocr": [
+  "« NAMTEK » : montant rectifié de 150 008.00 à 1 150 008.00 DH."
+ ],
+ "qualite": "attribution"
+}

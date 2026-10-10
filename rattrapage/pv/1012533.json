@@ -1,0 +1,60 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "1012533",
+ "orgAcronyme": "z9k",
+ "reference_pv": "04/BP/2026",
+ "nouveau": true,
+ "reference": "04/BP/2026",
+ "objet": "AUX D’AMENAGEMENT DU NOUVEAU SIEGE DU DISTRICT PROVINCIAL DE LA SURETE NATIONALE FQUIH BEN SALAH",
+ "acheteur": "Conseil Provincial de Fquih Ben Salah",
+ "procedure": "appel d'offres ouvert national",
+ "categorie": "Travaux",
+ "date_limite_plis": "03/06/2026",
+ "lieu_ouverture": "le bureau de Président du Conseil Provincial de Fquih Ben Salah",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "11/06/2026",
+ "justification": "Groupement conjoint : Sté ONE DAY POWER SARL AU, APPARTEMENT EN 2 EME ETAGE SIS 3 MARS BLOC 3 N 47 BENI MELLAL et Sté TECH ELEC SARL, 9, Rue Jbel Toubkal Apt. N° 7 Agdal-Rabat ayant présenté l'offre la plus avantageuse.",
+ "infructueux": false,
+ "attributaire": "TRAVAUX DIVERS, LOTISSEMENT ELFADL RUE 4 N° 17 AIN CHOCK CASABLANCA",
+ "montant_attribue": 4729920.0,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "Groupement : Sté ONE DAY POWER SARL AU, APPARTEMENT EN 2 EME ETAGE",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "TRAVAUX DIVERS, LOTISSEMENT ELFADL RUE 4 N° 17 AIN CHOCK CASABLANCA",
+   "montant_acte_engagement": 4729920.0,
+   "montant_apres_verification": 4729920.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "M Groupement",
+   "montant_acte_engagement": 4765.0,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 3,
+ "alertes_ocr": [
+  "« M Groupement » absent de la liste des plis déposés (nom mal lu ?)."
+ ],
+ "notes_ocr": [],
+ "qualite": "complet"
+}

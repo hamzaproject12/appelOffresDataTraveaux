@@ -1,0 +1,89 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "762730",
+ "orgAcronyme": "o8p",
+ "reference_pv": "AO/180/ANEPCEST/2023",
+ "nouveau": true,
+ "reference": "AO/180/ANEPCEST/2023",
+ "objet": "« TRAVAUX D'EXTENSION DE DEUX (02) SALLES DE CLASSE A L'ECOLE IDRISS AL AOUAL A LA COMMUNE DE MEKNES PREFECTURE DE MEKNES »",
+ "acheteur": null,
+ "procedure": "appel d'offres ouvert simplifié",
+ "categorie": "Travaux",
+ "date_limite_plis": "01/12/2023",
+ "lieu_ouverture": "le bureau du Directeur Régional de l'Agence Nationale des Equipements",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "07/12/2023",
+ "justification": "l'offre économiquement la plus avantageuse",
+ "infructueux": false,
+ "attributaire": "STE SOHATI TRAVAUX SARL",
+ "montant_attribue": 554478.0,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "STE BORJ LOGEMENTS SARL",
+   "montant_acte_engagement": 531848.4,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "STE SOHATI TRAVAUX SARL",
+   "montant_acte_engagement": 554478.0,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "STELYTRAV SARL AU",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "depose",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "STE BOUYA FER SARL AU",
+   "montant_acte_engagement": 561223.2,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "STE LM AMNINTRAV SARL",
+   "montant_acte_engagement": 575472.0,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "STE LYTRAV SARL AU",
+   "montant_acte_engagement": 528020.4,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 6,
+ "alertes_ocr": [
+  "« STE LYTRAV SARL AU » absent de la liste des plis déposés (nom mal lu ?)."
+ ],
+ "notes_ocr": [
+  "Maître d'ouvrage absent du PV (utiliser l'acheteur public du portail)."
+ ],
+ "qualite": "complet"
+}

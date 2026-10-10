@@ -1,0 +1,95 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "689394",
+ "orgAcronyme": "d4q",
+ "reference_pv": "62/DR2/C/2022",
+ "nouveau": true,
+ "reference": "62/DR2/C/2022",
+ "objet": "- Date et heure d'ouverture des plis : 24/11/2022 10:00 (Ouverture en un seul temps) - Lieu d'ouverture des plis : au Siège de la Direction Régionale du Tensift (DR2) - Boulevard Mohamed V, Angle Rue Badr, Gueliz - Marrakech - Maroc",
+ "acheteur": null,
+ "procedure": "appel d'offres ouvert",
+ "categorie": "Travaux",
+ "date_limite_plis": "24/11/2022",
+ "lieu_ouverture": "au Siège de la Direction Régionale du Tensift (DR2) Boulevard Mohamed V, Angle Rue Badr, Gueliz - Marrakech - Maroc ENTRAID",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "29/12/2022",
+ "justification": "Moins-disant",
+ "infructueux": false,
+ "attributaire": null,
+ "montant_attribue": null,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "MAROC",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_dossier_administratif_technique",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Al Massae (Arabe)",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_dossier_administratif_technique",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "L’Opinion (Français)",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_dossier_administratif_technique",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Maroc le Jour (MAP) (Français)",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_dossier_administratif_technique",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "JOURNAL DATE DE PUBLICATION",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_dossier_administratif_technique",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "ENTREPRISE AJRINIJA MILOUD - Offre de base PASSIONI",
+   "montant_acte_engagement": 885809.4,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 6,
+ "alertes_ocr": [
+  "« ENTREPRISE AJRINIJA MILOUD - Offre de base PASSIONI » absent de la liste des plis déposés (nom mal lu ?).",
+  "Attributaire non trouvé."
+ ],
+ "notes_ocr": [
+  "« MAROC » absent de la liste des plis déposés (nom mal lu ?).",
+  "« Al Massae (Arabe) » absent de la liste des plis déposés (nom mal lu ?).",
+  "« L’Opinion (Français) » absent de la liste des plis déposés (nom mal lu ?).",
+  "« Maroc le Jour (MAP) (Français) » absent de la liste des plis déposés (nom mal lu ?).",
+  "« JOURNAL DATE DE PUBLICATION » absent de la liste des plis déposés (nom mal lu ?).",
+  "Maître d'ouvrage absent du PV (utiliser l'acheteur public du portail)."
+ ],
+ "qualite": "attribution"
+}

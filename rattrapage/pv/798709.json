@@ -1,0 +1,63 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "798709",
+ "orgAcronyme": "o8p",
+ "reference_pv": null,
+ "nouveau": true,
+ "reference": null,
+ "objet": "travaux d'amenagement de 3 terrains au centre fédéral de formation de football de Laayoune en gazon naturel",
+ "acheteur": "Fédération Royale Marocaine de Football",
+ "procedure": "appel d'offres ouvert",
+ "categorie": "Travaux",
+ "date_limite_plis": "01/03/2024",
+ "lieu_ouverture": "des Salle de réunions de l'Agence Nationale des Equipements plis Publics, sis à Hay Nahda Il Rabat",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "21/05/2024",
+ "justification": "L'offre la mieux-disante, proposé par la commission d'appel d'offre au maître d'ouvrage, est celle qui est la plus proche du prix de référence par défaut et ce cconformément aux dispositions de l'article 20 du règlement de consultation.",
+ "infructueux": false,
+ "attributaire": "Société VALTECH",
+ "montant_attribue": 22674504.0,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "Société VALTECH",
+   "montant_acte_engagement": 22674504.0,
+   "montant_apres_verification": 22674504.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Laayoune en gazon naturel. EXTRAIT DU PROCES VERBAL",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_offre_financiere",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "ANEP",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_offre_financiere",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 3,
+ "alertes_ocr": [
+  "« Société VALTECH » absent de la liste des plis déposés (nom mal lu ?)."
+ ],
+ "notes_ocr": [
+  "« Laayoune en gazon naturel. EXTRAIT DU PROCES VERBAL » absent de la liste des plis déposés (nom mal lu ?).",
+  "« ANEP » absent de la liste des plis déposés (nom mal lu ?)."
+ ],
+ "qualite": "attribution"
+}

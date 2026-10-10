@@ -1,0 +1,87 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "678118",
+ "orgAcronyme": "s3z",
+ "reference_pv": null,
+ "nouveau": true,
+ "reference": null,
+ "objet": "Travaux de forages de reconnaissance au niveau de la commune Ez zhiliga",
+ "acheteur": "Commune Ezzhiliga : Commune Ezzhiliga 7",
+ "procedure": null,
+ "categorie": "Travaux",
+ "date_limite_plis": null,
+ "lieu_ouverture": null,
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": null,
+ "justification": "Dossier Administratif, et Technique conformes. Offre financière le moins disant. 7 Date d'achèvement des travaux de la Commission (ou du jury) : 10/11/2022 à 16 :00",
+ "infructueux": false,
+ "attributaire": "Ste MULTIGENERATION SARL (Ouarzazate)",
+ "montant_attribue": 938136.0,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "Ste SIBER SARL (Fes)",
+   "montant_acte_engagement": 999936.0,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_dossier_administratif_technique",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Ste SHEVAN MA FORAGE SARL AU (Er-rich)",
+   "montant_acte_engagement": 1061940.0,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Ste AIT OUKHALI TRAVAUX SARL et Ste MULTIGENERATION SAR",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "depose",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Ste ROUIRI CONSTRUCTION SARL AU (Marrakech)",
+   "montant_acte_engagement": 1171020.0,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_dossier_administratif_technique",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Ste MULTIGENERATION SARL (Ouarzazate)",
+   "montant_acte_engagement": 938136.0,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Ste AIT OUKHALI TRAVAUX SARL (Ouarzazate)",
+   "montant_acte_engagement": 1431780.0,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 6,
+ "alertes_ocr": [
+  "« Ste AIT OUKHALI TRAVAUX SARL (Ouarzazate) » absent de la liste des plis déposés (nom mal lu ?)."
+ ],
+ "notes_ocr": [],
+ "qualite": "complet"
+}

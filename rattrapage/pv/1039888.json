@@ -1,0 +1,68 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "1039888",
+ "orgAcronyme": "g3h",
+ "reference_pv": "21/SDAD/2026",
+ "nouveau": true,
+ "reference": "21/SDAD/2026",
+ "objet": "TRAVAUX D'AMENAGEMENT DE L'HOPITAL POLYCLINIQUE DE LA VILLE DE DAKHLA LOT : SIGNALETIQUE",
+ "acheteur": null,
+ "procedure": "appel d'offres ouvert",
+ "categorie": "Travaux",
+ "date_limite_plis": "16/07/2026",
+ "lieu_ouverture": "Secrétariat Général Province D'oued Eddahab",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": null,
+ "justification": "Offre conforme aux exigences du Règlement de consultation et la plus avantageuse.",
+ "infructueux": false,
+ "attributaire": "SMF LASER",
+ "montant_attribue": 1992720.0,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "Groupement des sociétés HITRACOS et DIHYA",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_offre_technique",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "SMF LASER",
+   "montant_acte_engagement": 1992720.0,
+   "montant_apres_verification": null,
+   "autres_montants": [
+    1992720.0
+   ],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Ateliers Industriels Chérifiens",
+   "montant_acte_engagement": 2052456.0,
+   "montant_apres_verification": null,
+   "autres_montants": [
+    2052456.0
+   ],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 3,
+ "alertes_ocr": [
+  "« SMF LASER » absent de la liste des plis déposés (nom mal lu ?).",
+  "« Ateliers Industriels Chérifiens » absent de la liste des plis déposés (nom mal lu ?)."
+ ],
+ "notes_ocr": [
+  "« Groupement des sociétés HITRACOS et DIHYA » absent de la liste des plis déposés (nom mal lu ?).",
+  "Maître d'ouvrage absent du PV (utiliser l'acheteur public du portail)."
+ ],
+ "qualite": "complet"
+}

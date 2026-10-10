@@ -1,0 +1,80 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "861181",
+ "orgAcronyme": "q0x",
+ "reference_pv": "01/2024",
+ "nouveau": true,
+ "reference": "01/2024",
+ "objet": "Travaux d'aménagement des voies et assainissement aux quartiers : Massira, Doum et Soukaina à la commune d’Agourai",
+ "acheteur": "La présidente de la Commune d’Agourai",
+ "procedure": "appel d'offres ouvert national",
+ "categorie": "Travaux",
+ "date_limite_plis": "16/12/2024",
+ "lieu_ouverture": "les bureaux de la présidente du Conseil de la commune d’Agourai",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "19/12/2024",
+ "justification": "Le marché est attribué au concurrent ayant présenté l'offre jugée économiquement la plus avantageuse, qui est la mieux disante par rapport au prix de référence déterminé par la commission d'ouverture des plis.",
+ "infructueux": false,
+ "attributaire": "X Cour, J*i é SO",
+ "montant_attribue": 3833884.8,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "PAÉET",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "depose",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Concurrent 1 :STE BELMEKKI HASSAN ET FILS SARL MEKNES FE lente à",
+   "montant_acte_engagement": 5368812.0,
+   "montant_apres_verification": 5368812.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "SARL AU LAAYOUNE",
+   "montant_acte_engagement": 4437085.8,
+   "montant_apres_verification": 4437085.8,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Concurrent 5: STE KARMO TRAV SARL AU MEKNES",
+   "montant_acte_engagement": 4139697.6,
+   "montant_apres_verification": 4139697.6,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "X Cour, J*i é SO",
+   "montant_acte_engagement": 3833884.8,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 5,
+ "alertes_ocr": [
+  "« SARL AU LAAYOUNE » absent de la liste des plis déposés (nom mal lu ?).",
+  "« Concurrent 5: STE KARMO TRAV SARL AU MEKNES » absent de la liste des plis déposés (nom mal lu ?).",
+  "« X Cour, J*i é SO » absent de la liste des plis déposés (nom mal lu ?)."
+ ],
+ "notes_ocr": [],
+ "qualite": "complet"
+}

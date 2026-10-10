@@ -1,0 +1,105 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "883440",
+ "orgAcronyme": "d4q",
+ "reference_pv": "8/DR2/C/2025",
+ "nouveau": true,
+ "reference": "8/DR2/C/2025",
+ "objet": "- Date et heure d'ouverture des plis : 06/03/2025 10:00 (Ouverture en un seul temps) - Lieu d'ouverture des plis : au siège de la Direction Régionale Marrakech-Safi (DR2) - Boulevard Mohamed V, Angle Rue Badr, Gueliz - Marrakech - Maroc",
+ "acheteur": null,
+ "procedure": "appel d'offres ouvert",
+ "categorie": "Travaux",
+ "date_limite_plis": "06/03/2025",
+ "lieu_ouverture": "au siège de la Direction Régionale Marrakech-Safi (DR2) Boulevard Mohamed V, Angle Rue Badr, Gueliz - Marrakech - Maroc ENTR EBASTD",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "27/03/2025",
+ "justification": "Moins-disant",
+ "infructueux": false,
+ "attributaire": null,
+ "montant_attribue": null,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "MAROC",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_dossier_administratif_technique",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Les Inspirations Eco (Français)",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_dossier_administratif_technique",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Rissalat Al Oumma (Arabe)",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_dossier_administratif_technique",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "L’Opinion (Français)",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_dossier_administratif_technique",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Al Alam (Arabe)",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_dossier_administratif_technique",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "JOURNAL DATE DE PUBLICATION",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_dossier_administratif_technique",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "STE ABOU RAGHAD",
+   "montant_acte_engagement": 620640.0,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 7,
+ "alertes_ocr": [
+  "« STE ABOU RAGHAD » absent de la liste des plis déposés (nom mal lu ?).",
+  "Attributaire non trouvé."
+ ],
+ "notes_ocr": [
+  "« MAROC » absent de la liste des plis déposés (nom mal lu ?).",
+  "« Les Inspirations Eco (Français) » absent de la liste des plis déposés (nom mal lu ?).",
+  "« Rissalat Al Oumma (Arabe) » absent de la liste des plis déposés (nom mal lu ?).",
+  "« L’Opinion (Français) » absent de la liste des plis déposés (nom mal lu ?).",
+  "« Al Alam (Arabe) » absent de la liste des plis déposés (nom mal lu ?).",
+  "« JOURNAL DATE DE PUBLICATION » absent de la liste des plis déposés (nom mal lu ?).",
+  "Maître d'ouvrage absent du PV (utiliser l'acheteur public du portail)."
+ ],
+ "qualite": "attribution"
+}

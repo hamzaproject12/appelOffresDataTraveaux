@@ -1,0 +1,64 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "667494",
+ "orgAcronyme": "i1t",
+ "reference_pv": "05/2022",
+ "nouveau": true,
+ "reference": "05/2022",
+ "objet": "TRAVAUX D’ACHEVEMENT DE CONSTRUCTION D’UN CENTRE DE QUALIFICATION ET DE FORMATION AU CENTRE D’ARBAOUA",
+ "acheteur": null,
+ "procedure": null,
+ "categorie": "Travaux",
+ "date_limite_plis": null,
+ "lieu_ouverture": null,
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "13/10/2022",
+ "justification": "offre plus avantageuse",
+ "infructueux": false,
+ "attributaire": "SOCIETE ONSSAR SARL",
+ "montant_attribue": 778008.0,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "AJIAL CONSTRUCTION SARL",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": true
+  },
+  {
+   "nom": "KHAILA ELEK SARL AU",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": true
+  },
+  {
+   "nom": "SOCIETE ONSSAR SARL",
+   "montant_acte_engagement": 778008.0,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": true
+  }
+ ],
+ "nombre_soumissionnaires": 3,
+ "alertes_ocr": [
+  "« SOCIETE ONSSAR SARL » absent de la liste des plis déposés (nom mal lu ?)."
+ ],
+ "notes_ocr": [
+  "« AJIAL CONSTRUCTION SARL » absent de la liste des plis déposés (nom mal lu ?).",
+  "« KHAILA ELEK SARL AU » absent de la liste des plis déposés (nom mal lu ?).",
+  "Maître d'ouvrage absent du PV (utiliser l'acheteur public du portail)."
+ ],
+ "qualite": "attribution"
+}

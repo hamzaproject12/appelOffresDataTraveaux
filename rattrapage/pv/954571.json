@@ -1,0 +1,78 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "954571",
+ "orgAcronyme": "q9t",
+ "reference_pv": "125/2025/OBJET",
+ "nouveau": true,
+ "reference": "125/2025/OBJET",
+ "objet": "travaux d'aménagement des locaux du centre de consultation et traitement dentaire relevant du CHUIS",
+ "acheteur": "Centre Hospitalo-universitaire Ibn Sina Rabat",
+ "procedure": null,
+ "categorie": "Travaux",
+ "date_limite_plis": "28/10/2025",
+ "lieu_ouverture": "salle de réunion de la Direction du Centre Hospitalo universitaire Ibn Sina Rabat. /",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": null,
+ "justification": null,
+ "infructueux": false,
+ "attributaire": "Trente Dirhoms",
+ "montant_attribue": 1192530.0,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "FHT CONSTRUCTION - ALI OUBANE TRAVAUX - NOSTRADIV.- AMALU",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": true
+  },
+  {
+   "nom": "OUAFEL AND CO - 2TA - BENTAHA HOLDING SERVICES - HAFIDI",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "INVEST - STS ATLAS-' (AIT SALEM SALH TRAVAUX - ARBO-DAY",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "depose",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "SOJADICO - BATEV - BOUNASERA",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "depose",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Trente Dirhoms",
+   "montant_acte_engagement": 1192530.0,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 5,
+ "alertes_ocr": [
+  "« Trente Dirhoms » absent de la liste des plis déposés (nom mal lu ?)."
+ ],
+ "notes_ocr": [],
+ "qualite": "attribution"
+}

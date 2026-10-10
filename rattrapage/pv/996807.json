@@ -1,0 +1,94 @@
+{
+ "source": "extrait_docx",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "996807",
+ "orgAcronyme": "f9f",
+ "reference_pv": "01/2022",
+ "nouveau": true,
+ "reference": "01/2022",
+ "objet": null,
+ "acheteur": null,
+ "procedure": "appel d'offres ouvert",
+ "categorie": "Travaux",
+ "date_limite_plis": null,
+ "lieu_ouverture": null,
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": null,
+ "justification": null,
+ "infructueux": false,
+ "attributaire": "Sté ESPOIR PTP sarl",
+ "montant_attribue": 149964.0,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "Sté ESPOIR PTP sarl",
+   "montant_acte_engagement": 149964.0,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": true
+  },
+  {
+   "nom": "TRA 02 lettre E N° 61 TAMNSOURTE",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Sté SHTR sarl",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": true
+  },
+  {
+   "nom": "Lot DRAA 2N°769 ZAGORA",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "N° d’ordre",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": true
+  },
+  {
+   "nom": "Sté SHTR sarl (Cent quarante neuf mille neuf cents soixante quatre",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": true
+  }
+ ],
+ "nombre_soumissionnaires": 6,
+ "alertes_ocr": [
+  "« Sté ESPOIR PTP sarl » absent de la liste des plis déposés (nom mal lu ?)."
+ ],
+ "notes_ocr": [
+  "« TRA 02 lettre E N° 61 TAMNSOURTE » absent de la liste des plis déposés (nom mal lu ?).",
+  "« Sté SHTR sarl » absent de la liste des plis déposés (nom mal lu ?).",
+  "« Lot DRAA 2N°769 ZAGORA » absent de la liste des plis déposés (nom mal lu ?).",
+  "« N° d’ordre » absent de la liste des plis déposés (nom mal lu ?).",
+  "« Sté SHTR sarl (Cent quarante neuf mille neuf cents soixante quatre » absent de la liste des plis déposés (nom mal lu ?).",
+  "Maître d'ouvrage absent du PV (utiliser l'acheteur public du portail)."
+ ],
+ "qualite": "attribution"
+}

@@ -1,0 +1,82 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "1025703",
+ "orgAcronyme": "g3h",
+ "reference_pv": null,
+ "nouveau": true,
+ "reference": null,
+ "objet": "Réhabilitation des équipements hydromécanique du réseau de distribution d'eau potable au niveau des centres relevant de la Direction Provinciale de Berkane - Province de Berkane —",
+ "acheteur": null,
+ "procedure": "appel d'offres ouvert",
+ "categorie": "Travaux",
+ "date_limite_plis": "02/06/2026",
+ "lieu_ouverture": "Siège de la Direction Provinciale de Berkane de la SRM-ORI",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": null,
+ "justification": "Offre moins STAUL cpaforme. |",
+ "infructueux": false,
+ "attributaire": "STE INFRAWORKS SARL",
+ "montant_attribue": 587640.0,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "STE TIEC SARL, STE ZAKARI HYDRO SARL AU, STE SAT2E SARL",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "STE INFRAWORKS SARL",
+   "montant_acte_engagement": 587640.0,
+   "montant_apres_verification": 587640.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "STE SAT2E SARL",
+   "montant_acte_engagement": 590412.0,
+   "montant_apres_verification": 590412.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "STE ZAKARI HYDRO SARL AU",
+   "montant_acte_engagement": 603868.8,
+   "montant_apres_verification": 603868.8,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "STE TIEC SARL",
+   "montant_acte_engagement": 631236.0,
+   "montant_apres_verification": 631236.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 5,
+ "alertes_ocr": [
+  "« STE SAT2E SARL » absent de la liste des plis déposés (nom mal lu ?).",
+  "« STE ZAKARI HYDRO SARL AU » absent de la liste des plis déposés (nom mal lu ?).",
+  "« STE TIEC SARL » absent de la liste des plis déposés (nom mal lu ?)."
+ ],
+ "notes_ocr": [
+  "Maître d'ouvrage absent du PV (utiliser l'acheteur public du portail)."
+ ],
+ "qualite": "complet"
+}

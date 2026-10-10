@@ -1,0 +1,70 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "749143",
+ "orgAcronyme": "o8p",
+ "reference_pv": "39/2023/TAO",
+ "nouveau": true,
+ "reference": "39/2023/TAO",
+ "objet": "Travaux de construction d’une déviation provisoire au PK172+800 de la RR408, Dépendant de la DPETL de Taounate",
+ "acheteur": null,
+ "procedure": "appel d'offres ouvert",
+ "categorie": "Travaux",
+ "date_limite_plis": "18/09/2023",
+ "lieu_ouverture": "la salle de réunion à la Direction Provinciale de l’Equipement, du Transport et de la Logistique de Taounate, Bd Mohamed V Taounate Centre",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "23/10/2023",
+ "justification": "Rempli les conditions demandées par le dossier d’appel d’offre.",
+ "infructueux": false,
+ "attributaire": "STE REPER NORTE -FES",
+ "montant_attribue": 497077.2,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "STE AGDAL BETON -FES",
+   "montant_acte_engagement": 542731.2,
+   "montant_apres_verification": 542731.2,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "STE REPER NORTE -FES",
+   "montant_acte_engagement": 497077.2,
+   "montant_apres_verification": 497077.2,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "ALIAT EL HOUCINE -FES",
+   "montant_acte_engagement": 683066.4,
+   "montant_apres_verification": 683066.4,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "STE HINATRA -FES",
+   "montant_acte_engagement": 601812.0,
+   "montant_apres_verification": 751356.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_offre_financiere",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 4,
+ "alertes_ocr": [],
+ "notes_ocr": [
+  "« STE HINATRA -FES » : montant rectifié de 601 812.00 à 751 356.00 DH.",
+  "Maître d'ouvrage absent du PV (utiliser l'acheteur public du portail)."
+ ],
+ "qualite": "complet"
+}

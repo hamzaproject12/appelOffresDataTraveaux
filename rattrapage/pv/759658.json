@@ -1,0 +1,80 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "759658",
+ "orgAcronyme": "o8p",
+ "reference_pv": "20/2023",
+ "nouveau": true,
+ "reference": "20/2023",
+ "objet": "Travaux de reconstruction d’un ouvrage d’art au PK 18+500 de la RP R5408 Dépendant de la DPETL de GUERCIF",
+ "acheteur": "MINISTERE DE L'AGRICULTURE, DE LA PECHE MARITIME, DU DEVELOPPEMENT RURAL ET DES EAUX ET FORETS",
+ "procedure": "appel d'offres ouvert national",
+ "categorie": "Travaux",
+ "date_limite_plis": "10/11/2023",
+ "lieu_ouverture": "dans les bureaux de la Direction Provincial de l'Equipement, Du Transport et de la Logistique de Guercif sis Avenue Mohammed VI, Guercif",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "16/11/2023",
+ "justification": "Dossier conforme, disponibilité de certificat de qualification et de classification",
+ "infructueux": false,
+ "attributaire": "GROUPEMENT :-STE ENPR+ STE STAPORT",
+ "montant_attribue": 8448271.8,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "GROUPEMENT :-STE POLE DE CONSTRUCTION",
+   "montant_acte_engagement": 9320077.5,
+   "montant_apres_verification": 9320077.5,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "GROUPEMENT :-STE ENPR+ STE STAPORT",
+   "montant_acte_engagement": 8448271.8,
+   "montant_apres_verification": 8448271.8,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": true
+  },
+  {
+   "nom": "STE GTR CHOUROUK",
+   "montant_acte_engagement": 9457501.2,
+   "montant_apres_verification": 9457501.2,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "GROUPEMENT :-STE STPRD + STE AVANZA",
+   "montant_acte_engagement": 9250618.8,
+   "montant_apres_verification": 9250618.8,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "STE ATLAS HANDASSA",
+   "montant_acte_engagement": 8169562.8,
+   "montant_apres_verification": 8169562.8,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 5,
+ "alertes_ocr": [
+  "« STE GTR CHOUROUK » absent de la liste des plis déposés (nom mal lu ?).",
+  "« GROUPEMENT :-STE STPRD + STE AVANZA » absent de la liste des plis déposés (nom mal lu ?).",
+  "« STE ATLAS HANDASSA » absent de la liste des plis déposés (nom mal lu ?)."
+ ],
+ "notes_ocr": [],
+ "qualite": "complet"
+}

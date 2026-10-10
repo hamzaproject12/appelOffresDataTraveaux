@@ -1,0 +1,58 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "749131",
+ "orgAcronyme": "o4d",
+ "reference_pv": "98/2023",
+ "nouveau": true,
+ "reference": "98/2023",
+ "objet": null,
+ "acheteur": "Direction des Achats et Logistique",
+ "procedure": "appel d'offres ouvert",
+ "categorie": "Travaux",
+ "date_limite_plis": "10/10/2023",
+ "lieu_ouverture": "Siège de la CNSS, 649 Bd Mohammed V Casa, salle des réunions de la Direction des Achats et Siège de la CNSS, 649 Bd Mohammed V Casa, salle des réunions de la Direction des Achats et Logistique",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "24/10/2023",
+ "justification": null,
+ "infructueux": true,
+ "attributaire": "CLIMATHERM",
+ "montant_attribue": 2383368.0,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "RICHE BOIS",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "depose",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "SEPARATOR - lots 1 et 2",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_dossier_administratif_technique",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "CLIMATHERM",
+   "montant_acte_engagement": 2383368.0,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 3,
+ "alertes_ocr": [],
+ "notes_ocr": [],
+ "qualite": "attribution"
+}

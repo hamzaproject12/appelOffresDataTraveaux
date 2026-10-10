@@ -1,0 +1,64 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "883961",
+ "orgAcronyme": "j8k",
+ "reference_pv": "2512025",
+ "nouveau": true,
+ "reference": "2512025",
+ "objet": "TRAVAT,X D,AMENAGEMENT D'UN PARC AU LOTISSEMENT YAKOUT 3 COMMUNE EL HAJEB, PROVINCE EL HAJEB,",
+ "acheteur": "AL Omrane Fès-Meknès",
+ "procedure": null,
+ "categorie": "Travaux",
+ "date_limite_plis": null,
+ "lieu_ouverture": null,
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": null,
+ "justification": "L'offre la plus avantageuse ayant obtenue la note totale la plus élevée",
+ "infructueux": false,
+ "attributaire": null,
+ "montant_attribue": null,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "/ MEDI ÉXPO- Fès",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "/ SEAT- Meknès r' ïRA TRAVAUX- câseblanca",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "ITEANT",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": true
+  }
+ ],
+ "nombre_soumissionnaires": 3,
+ "alertes_ocr": [
+  "Attributaire non trouvé."
+ ],
+ "notes_ocr": [
+  "« / MEDI ÉXPO- Fès » absent de la liste des plis déposés (nom mal lu ?).",
+  "« / SEAT- Meknès r' ïRA TRAVAUX- câseblanca » absent de la liste des plis déposés (nom mal lu ?).",
+  "« ITEANT » absent de la liste des plis déposés (nom mal lu ?)."
+ ],
+ "qualite": "participants"
+}

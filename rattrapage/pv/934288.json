@@ -1,0 +1,154 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "934288",
+ "orgAcronyme": "e5w",
+ "reference_pv": "9/2025",
+ "nouveau": true,
+ "reference": "9/2025",
+ "objet": "de l'appel offre PROCES-VERBAL DE L’APPEL D’OFFRES OUVERT SIMPLIFIE N°9/2025",
+ "acheteur": null,
+ "procedure": "appel d'offres ouvert simplifié",
+ "categorie": "Travaux",
+ "date_limite_plis": null,
+ "lieu_ouverture": null,
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": null,
+ "justification": null,
+ "infructueux": false,
+ "attributaire": "2STE LOUALI BETUM",
+ "montant_attribue": 200304.78,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "1GROS CHANTIER DU MAROC S.A.R.L estimatif",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": true
+  },
+  {
+   "nom": "2STE LOUALI BETUM",
+   "montant_acte_engagement": 200304.78,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": true
+  },
+  {
+   "nom": "3STE SOKAMETRAV SARL-AU",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": true
+  },
+  {
+   "nom": "4STE GENIE GREEN BTB",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": true
+  },
+  {
+   "nom": "5STE JAD BEN FES",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": true
+  },
+  {
+   "nom": "6STE IMOUFES RAY",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": true
+  },
+  {
+   "nom": "7STE ASTRA SAGHROU SARLA AU",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": true
+  },
+  {
+   "nom": "STE SOFARIMAS TRAVAUX SARL",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_dossier_administratif_technique",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "8STE ARABIANNE DES TRAVAUX DIVERS ET SERVICE SARL",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_dossier_administratif_technique",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "MANQUE DE SIGNATURE ELECTRONIQUE SUR DECLARATION",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_offre_financiere",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "SUR L'HONNEUR ET CPS",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_offre_financiere",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "estimatif",
+   "montant_acte_engagement": 200304.78,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 12,
+ "alertes_ocr": [
+  "« 2STE LOUALI BETUM » absent de la liste des plis déposés (nom mal lu ?).",
+  "« estimatif » absent de la liste des plis déposés (nom mal lu ?)."
+ ],
+ "notes_ocr": [
+  "« 1GROS CHANTIER DU MAROC S.A.R.L estimatif » absent de la liste des plis déposés (nom mal lu ?).",
+  "« 3STE SOKAMETRAV SARL-AU » absent de la liste des plis déposés (nom mal lu ?).",
+  "« 4STE GENIE GREEN BTB » absent de la liste des plis déposés (nom mal lu ?).",
+  "« 5STE JAD BEN FES » absent de la liste des plis déposés (nom mal lu ?).",
+  "« 6STE IMOUFES RAY » absent de la liste des plis déposés (nom mal lu ?).",
+  "« 7STE ASTRA SAGHROU SARLA AU » absent de la liste des plis déposés (nom mal lu ?).",
+  "« STE SOFARIMAS TRAVAUX SARL » absent de la liste des plis déposés (nom mal lu ?).",
+  "« 8STE ARABIANNE DES TRAVAUX DIVERS ET SERVICE SARL » absent de la liste des plis déposés (nom mal lu ?).",
+  "« MANQUE DE SIGNATURE ELECTRONIQUE SUR DECLARATION » absent de la liste des plis déposés (nom mal lu ?).",
+  "« SUR L'HONNEUR ET CPS » absent de la liste des plis déposés (nom mal lu ?).",
+  "Maître d'ouvrage absent du PV (utiliser l'acheteur public du portail)."
+ ],
+ "qualite": "complet"
+}

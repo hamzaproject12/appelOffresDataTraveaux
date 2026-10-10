@@ -1,0 +1,63 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "746051",
+ "orgAcronyme": "g3h",
+ "reference_pv": "11/2023/ND/MMB",
+ "nouveau": true,
+ "reference": "11/2023/ND/MMB",
+ "objet": "TRAVAUX DE CONSTRUCTION D’UN MARCHE MUNICIPAL A LA COMMUNE DE BOUSKOUR2A",
+ "acheteur": "La Commune de Bouskouta",
+ "procedure": "appel d'offres ouvert",
+ "categorie": "Travaux",
+ "date_limite_plis": null,
+ "lieu_ouverture": null,
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "11/10/2023",
+ "justification": "la société ayant la meilleure offre (moins disante).",
+ "infructueux": false,
+ "attributaire": "OPTIMACO",
+ "montant_attribue": 22137996.48,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "2 WINARUSING",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_offre_technique",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "MESKI DES TRAVAUX DIVERS",
+   "montant_acte_engagement": 23775357.6,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "OPTIMACO",
+   "montant_acte_engagement": 22137996.48,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 3,
+ "alertes_ocr": [
+  "« MESKI DES TRAVAUX DIVERS » absent de la liste des plis déposés (nom mal lu ?).",
+  "« OPTIMACO » absent de la liste des plis déposés (nom mal lu ?)."
+ ],
+ "notes_ocr": [
+  "« 2 WINARUSING » absent de la liste des plis déposés (nom mal lu ?)."
+ ],
+ "qualite": "complet"
+}

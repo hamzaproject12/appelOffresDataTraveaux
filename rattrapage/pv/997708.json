@@ -1,0 +1,94 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "997708",
+ "orgAcronyme": "g3h",
+ "reference_pv": "22/PB/DE/INDH/2024",
+ "nouveau": true,
+ "reference": "22/PB/DE/INDH/2024",
+ "objet": "TRAVAUX D’AMENAGEMENT AU CENTRE HEMODIALYSE SIS A OUTAT EL HAJ",
+ "acheteur": null,
+ "procedure": "appel d'offres ouvert simplifié",
+ "categorie": "Travaux",
+ "date_limite_plis": "13/11/2024",
+ "lieu_ouverture": null,
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "26/11/2024",
+ "justification": "Offre économiquement la plus avantageuse.",
+ "infructueux": false,
+ "attributaire": "STE SAFIMRA",
+ "montant_attribue": 91272.0,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "STE DADES ACHGHAL",
+   "montant_acte_engagement": 90498.6,
+   "montant_apres_verification": 90498.6,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "STE SAFIMRA",
+   "montant_acte_engagement": 91272.0,
+   "montant_apres_verification": 91272.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "STE GALAXY TECHNOLOGIES BAHOU",
+   "montant_acte_engagement": 94608.0,
+   "montant_apres_verification": 94608.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "STA NABTRA",
+   "montant_acte_engagement": 102777.6,
+   "montant_apres_verification": 102777.6,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "STE LAHCEN OUALLA TRAVAUX",
+   "montant_acte_engagement": 92576.4,
+   "montant_apres_verification": 92576.4,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "GST WORK",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": true
+  }
+ ],
+ "nombre_soumissionnaires": 6,
+ "alertes_ocr": [
+  "« STE DADES ACHGHAL » absent de la liste des plis déposés (nom mal lu ?).",
+  "« STE SAFIMRA » absent de la liste des plis déposés (nom mal lu ?).",
+  "« STE GALAXY TECHNOLOGIES BAHOU » absent de la liste des plis déposés (nom mal lu ?).",
+  "« STA NABTRA » absent de la liste des plis déposés (nom mal lu ?).",
+  "« STE LAHCEN OUALLA TRAVAUX » absent de la liste des plis déposés (nom mal lu ?)."
+ ],
+ "notes_ocr": [
+  "« GST WORK » absent de la liste des plis déposés (nom mal lu ?).",
+  "Maître d'ouvrage absent du PV (utiliser l'acheteur public du portail)."
+ ],
+ "qualite": "complet"
+}

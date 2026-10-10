@@ -1,0 +1,64 @@
+{
+ "source": "extrait_docx",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "770121",
+ "orgAcronyme": "d4q",
+ "reference_pv": null,
+ "nouveau": true,
+ "reference": null,
+ "objet": "Travaux d’extension des réseaux de distribution au niveau des quartiers péri-urbains des centres AL HOCEIMA, AJDIR ET TARGUIST - Marché d’achèvement",
+ "acheteur": null,
+ "procedure": null,
+ "categorie": "Travaux",
+ "date_limite_plis": "08/03/2023",
+ "lieu_ouverture": "DR9",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "17/01/2024",
+ "justification": "l’offre la plus avantageuse",
+ "infructueux": false,
+ "attributaire": "INMA HIGH TECH et BTDF",
+ "montant_attribue": 64088.0,
+ "attributaires_par_lot": [
+  {
+   "lot": null,
+   "attributaire": "INMA HIGH TECH et BTDF",
+   "montant": 64088.0
+  },
+  {
+   "lot": null,
+   "attributaire": "Délai d’exécution BTDF",
+   "montant": 852600.0
+  }
+ ],
+ "soumissionnaires": [
+  {
+   "nom": "INMA HIGH TECH et BTDF",
+   "montant_acte_engagement": 64088.0,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": true
+  },
+  {
+   "nom": "Délai d’exécution BTDF",
+   "montant_acte_engagement": 852600.0,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 2,
+ "alertes_ocr": [
+  "« Délai d’exécution BTDF » absent de la liste des plis déposés (nom mal lu ?)."
+ ],
+ "notes_ocr": [
+  "Maître d'ouvrage absent du PV (utiliser l'acheteur public du portail)."
+ ],
+ "qualite": "attribution"
+}

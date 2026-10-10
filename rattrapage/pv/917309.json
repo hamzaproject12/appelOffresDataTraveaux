@@ -1,0 +1,73 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "917309",
+ "orgAcronyme": "l1f",
+ "reference_pv": "3-2025",
+ "nouveau": true,
+ "reference": "3-2025",
+ "objet": "L’EXPLOITATION PROVISOIRE ET LE TRANSFERT DES DECHETS VERS LE CENTRE D’ENFOUISSEMENT ET DE VALORISATION DE LA PROVINCE D'OUEZZANE",
+ "acheteur": "Etablissement De Coopération Intercommunal Attadamoun",
+ "procedure": null,
+ "categorie": "Travaux",
+ "date_limite_plis": "15/07/2025",
+ "lieu_ouverture": "Siège de la Provincial d’Ouezzane",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "16/07/2025",
+ "justification": null,
+ "infructueux": true,
+ "attributaire": null,
+ "montant_attribue": null,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "Sté SOS NDD",
+   "montant_acte_engagement": 30328158.0,
+   "montant_apres_verification": 30328158.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": true
+  },
+  {
+   "nom": "Sté ARMA HOLDENG SA Rabat",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": true
+  },
+  {
+   "nom": "Sté SNTRO SARL",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_dossier_administratif_technique",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Ste Les Grands Chantiers SARL AU «L.GC",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_dossier_administratif_technique",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 4,
+ "alertes_ocr": [
+  "« Sté SOS NDD » absent de la liste des plis déposés (nom mal lu ?)."
+ ],
+ "notes_ocr": [
+  "« Sté ARMA HOLDENG SA Rabat » absent de la liste des plis déposés (nom mal lu ?).",
+  "« Sté SNTRO SARL » absent de la liste des plis déposés (nom mal lu ?).",
+  "« Ste Les Grands Chantiers SARL AU «L.GC » absent de la liste des plis déposés (nom mal lu ?)."
+ ],
+ "qualite": "attribution"
+}

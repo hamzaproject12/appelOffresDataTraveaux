@@ -1,0 +1,60 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "837763",
+ "orgAcronyme": "q1s",
+ "reference_pv": "73/2024/SOREC",
+ "nouveau": true,
+ "reference": "73/2024/SOREC",
+ "objet": "Travaux d’aménagement et Fourniture d’équipements audiovisuels pour Studio au profit de la SOREC en deux (02) lots séparés",
+ "acheteur": null,
+ "procedure": null,
+ "categorie": "Travaux",
+ "date_limite_plis": "30/08/2024",
+ "lieu_ouverture": "Bureaux du siège de la Société Royale d’Encouragement du Cheval (SOREO) sise à ZENITH RABAT — Angle Rocade de Rabat et rue Ait Malek",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "18/09/2024",
+ "justification": "le concurrent ayant présenté l’offre la moins disante.",
+ "infructueux": false,
+ "attributaire": "JBL ELECTRONICS",
+ "montant_attribue": 1683468.0,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "rare ET rer=errer re",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "depose",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "SACPRO",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_offre_technique",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "JBL ELECTRONICS",
+   "montant_acte_engagement": 1683468.0,
+   "montant_apres_verification": 1683468.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 3,
+ "alertes_ocr": [],
+ "notes_ocr": [
+  "Maître d'ouvrage absent du PV (utiliser l'acheteur public du portail)."
+ ],
+ "qualite": "attribution"
+}

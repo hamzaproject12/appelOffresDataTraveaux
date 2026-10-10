@@ -1,0 +1,57 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "876263",
+ "orgAcronyme": "d4q",
+ "reference_pv": null,
+ "nouveau": true,
+ "reference": null,
+ "objet": "La mise en conformité du réseau HTA détérioré par les intempéries violentes à la Direction Provinciale Tanger",
+ "acheteur": null,
+ "procedure": null,
+ "categorie": "Travaux",
+ "date_limite_plis": "24/12/2025",
+ "lieu_ouverture": "Siège de la Direction Régionale Distribution Tanger",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": null,
+ "justification": "Conforme.",
+ "infructueux": false,
+ "attributaire": "IMADELEC",
+ "montant_attribue": 2303360.42,
+ "attributaires_par_lot": [
+  {
+   "lot": null,
+   "attributaire": "IMADELEC",
+   "montant": 2303360.42
+  },
+  {
+   "lot": null,
+   "attributaire": "en /HTVA en /TVAC IMADELEC",
+   "montant": 1919467.02
+  }
+ ],
+ "soumissionnaires": [
+  {
+   "nom": "en /HTVA en /TVAC IMADELEC",
+   "montant_acte_engagement": 1919467.02,
+   "montant_apres_verification": 2303360.42,
+   "autres_montants": [
+    2303360.42
+   ],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 1,
+ "alertes_ocr": [],
+ "notes_ocr": [
+  "« en /HTVA en /TVAC IMADELEC » : montant rectifié de 1 919 467.02 à 2 303 360.42 DH.",
+  "Maître d'ouvrage absent du PV (utiliser l'acheteur public du portail).",
+  "Montants exprimés hors taxes (HT)."
+ ],
+ "qualite": "attribution"
+}

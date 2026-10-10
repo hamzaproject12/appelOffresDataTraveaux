@@ -1,0 +1,256 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "688197",
+ "orgAcronyme": "p8x",
+ "reference_pv": "48/2022/INV",
+ "nouveau": true,
+ "reference": "48/2022/INV",
+ "objet": null,
+ "acheteur": "Monsieur le directeur provincial à Taroudant",
+ "procedure": null,
+ "categorie": "Travaux",
+ "date_limite_plis": "24/11/2022",
+ "lieu_ouverture": "la salle des réunions à la direction provinciale de Taroudant",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "13/12/2022",
+ "justification": "l’offre la moins disante.",
+ "infructueux": false,
+ "attributaire": "STE RIYAD BTP",
+ "montant_attribue": 1189179.6,
+ "attributaires_par_lot": [
+  {
+   "lot": null,
+   "attributaire": "STE RIYAD BTP",
+   "montant": 1189179.6
+  },
+  {
+   "lot": null,
+   "attributaire": "STE SOGERCOS",
+   "montant": 985208.4
+  }
+ ],
+ "soumissionnaires": [
+  {
+   "nom": " STE TIMOULA SARL  STE TIMOULA SARL",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [
+    "01"
+   ],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "STE SOGERCOS",
+   "montant_acte_engagement": 1239949.2,
+   "montant_apres_verification": null,
+   "autres_montants": [
+    985208.4
+   ],
+   "lots": [
+    "01",
+    "1",
+    "2"
+   ],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "STE AYOUBARDA TRAVEAUX SARL",
+   "montant_acte_engagement": 1297896.0,
+   "montant_apres_verification": null,
+   "autres_montants": [
+    1038453.6
+   ],
+   "lots": [
+    "01",
+    "1",
+    "2"
+   ],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "STE ANGLE POUR CONSTRUCTION",
+   "montant_acte_engagement": 1235560.8,
+   "montant_apres_verification": null,
+   "autres_montants": [
+    2023436.4
+   ],
+   "lots": [
+    "01",
+    "1",
+    "2"
+   ],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "STE RIYAD BTP",
+   "montant_acte_engagement": 1189179.6,
+   "montant_apres_verification": null,
+   "autres_montants": [
+    975132.0
+   ],
+   "lots": [
+    "01",
+    "1",
+    "2"
+   ],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": " STE VERACRUZ TRAVAUX  STE MASSIK DE CONSTRUCTION",
+   "montant_acte_engagement": 1354368.0,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [
+    "01",
+    "1"
+   ],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "STE BROTHERS TODGHA",
+   "montant_acte_engagement": 1407820.8,
+   "montant_apres_verification": null,
+   "autres_montants": [
+    1090743.36
+   ],
+   "lots": [
+    "01",
+    "1",
+    "2"
+   ],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": " STE JAWLANE TRAVAUX  STE VERACRUZ TRAVEAUX DE CONSTRUCTION",
+   "montant_acte_engagement": 1255452.0,
+   "montant_apres_verification": null,
+   "autres_montants": [
+    1060977.6
+   ],
+   "lots": [
+    "01",
+    "1",
+    "2"
+   ],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": " NAZARET CONSTRUCTION  STE BROTHERS TODGHA",
+   "montant_acte_engagement": 1288689.6,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [
+    "01",
+    "1"
+   ],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": " STE TIMOULA SARL  STE JAWLANE",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [
+    "01"
+   ],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": " STE NAZARET",
+   "montant_acte_engagement": 999974.4,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [
+    "01",
+    "2"
+   ],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": " STE TARAGALT",
+   "montant_acte_engagement": 988455.6,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [
+    "01",
+    "2"
+   ],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "STE TIMOULA SARL",
+   "montant_acte_engagement": 1538064.0,
+   "montant_apres_verification": null,
+   "autres_montants": [
+    1198965.6
+   ],
+   "lots": [
+    "1",
+    "2"
+   ],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "STE FADIL EFGC SARL",
+   "montant_acte_engagement": 1189766.4,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [
+    "2"
+   ],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "STE MASSIK DE CONSTRUCTION",
+   "montant_acte_engagement": 1142869.2,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [
+    "2"
+   ],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "STE JAWLANE",
+   "montant_acte_engagement": 1023279.6,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [
+    "2"
+   ],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 16,
+ "alertes_ocr": [
+  "« STE TIMOULA SARL » absent de la liste des plis déposés (nom mal lu ?).",
+  "« STE FADIL EFGC SARL » absent de la liste des plis déposés (nom mal lu ?).",
+  "« STE MASSIK DE CONSTRUCTION » absent de la liste des plis déposés (nom mal lu ?).",
+  "« STE JAWLANE » absent de la liste des plis déposés (nom mal lu ?)."
+ ],
+ "notes_ocr": [
+  "Marché alloti (3 lots)."
+ ],
+ "qualite": "complet"
+}

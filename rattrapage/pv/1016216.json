@@ -1,0 +1,69 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "1016216",
+ "orgAcronyme": "o8p",
+ "reference_pv": null,
+ "nouveau": true,
+ "reference": null,
+ "objet": "Travaux de dédoublement de la RP3317 du PK 0+000 au PK 5+000 - Province de Benslimane",
+ "acheteur": "La caisse pour le financement Routier",
+ "procedure": null,
+ "categorie": "Travaux",
+ "date_limite_plis": "16/06/2026",
+ "lieu_ouverture": "La caisse pour le financement Routier",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "23/06/2026",
+ "justification": "conformément aux critères figurant au règlement de la consultation :",
+ "infructueux": false,
+ "attributaire": "STE ALEQ",
+ "montant_attribue": 53281568.94,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "STE GCR",
+   "montant_acte_engagement": 56076664.32,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "STE ALEQ",
+   "montant_acte_engagement": 53281568.94,
+   "montant_apres_verification": 53281568.94,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "STE TR3F",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "STE ALEQ LL nn",
+   "montant_acte_engagement": 53281568.94,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 4,
+ "alertes_ocr": [
+  "« STE ALEQ LL nn » absent de la liste des plis déposés (nom mal lu ?)."
+ ],
+ "notes_ocr": [],
+ "qualite": "complet"
+}

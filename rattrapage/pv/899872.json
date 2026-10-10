@@ -1,0 +1,87 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "899872",
+ "orgAcronyme": "d0q",
+ "reference_pv": "04/2025/SAT",
+ "nouveau": true,
+ "reference": "04/2025/SAT",
+ "objet": "Travaux de protection du souk hebdomadaire de la ville de Taza contre les inondations d’oued Larbaa, - tranche 2 Commune de Taza, Province de Taza, Région Fès-Meknès",
+ "acheteur": "Commune de Taza",
+ "procedure": "appel d'offres ouvert",
+ "categorie": "Travaux",
+ "date_limite_plis": "14/04/2025",
+ "lieu_ouverture": "Bd Moulay youssef siege de l’ex-communauté urbaine de Taza",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": null,
+ "justification": "L’offre la plus avantageuse",
+ "infructueux": false,
+ "attributaire": "Sté HAMMI MOB",
+ "montant_attribue": 2694840.0,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "SNTA SARL",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Sté HAMMI MOB",
+   "montant_acte_engagement": 2694840.0,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "STE HACHLAF DE CONSTRUCTION ET TRAVAUX DIVERS SARL",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_dossier_administratif_technique",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "dE. | mes",
+   "montant_acte_engagement": 2783760.0,
+   "montant_apres_verification": null,
+   "autres_montants": [
+    2783760.0
+   ],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "SN HANDENRAEUS",
+   "montant_acte_engagement": 2694840.0,
+   "montant_apres_verification": null,
+   "autres_montants": [
+    2694840.0
+   ],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 5,
+ "alertes_ocr": [
+  "« Sté HAMMI MOB » absent de la liste des plis déposés (nom mal lu ?).",
+  "« dE. | mes » absent de la liste des plis déposés (nom mal lu ?).",
+  "« SN HANDENRAEUS » absent de la liste des plis déposés (nom mal lu ?)."
+ ],
+ "notes_ocr": [
+  "« SNTA SARL » absent de la liste des plis déposés (nom mal lu ?).",
+  "« STE HACHLAF DE CONSTRUCTION ET TRAVAUX DIVERS SARL » absent de la liste des plis déposés (nom mal lu ?)."
+ ],
+ "qualite": "complet"
+}

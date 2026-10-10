@@ -1,0 +1,62 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "919774",
+ "orgAcronyme": "j0w",
+ "reference_pv": "04/2025",
+ "nouveau": true,
+ "reference": "04/2025",
+ "objet": "TRAVAUX DE CONSTRUCTION DES PISTES EN BICOUCHE AUX DIFFERENTS DOUARS DE LA COUMMUNE ZEMRANE CHARQUIA PROVINCE EL KELLA DES SRAGHNA",
+ "acheteur": "COMMUNE TERRITORIALE ZEMRANE CHARQUIA",
+ "procedure": "appel d'offres ouvert national",
+ "categorie": "Travaux",
+ "date_limite_plis": "16/07/2025",
+ "lieu_ouverture": "bureau du président au siège de la commune",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": null,
+ "justification": "le concurrent qui a présenté l'offre économiquement la plus avantageuse ( la mieux disante )",
+ "infructueux": false,
+ "attributaire": "GROUPEMENT : STE SONOTRAGEC SARL AU ET STE AGHOJDAM KECH TRAV SARL",
+ "montant_attribue": 212420.0,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "STE S2MB TRAP SARL AU",
+   "montant_acte_engagement": 1221606.0,
+   "montant_apres_verification": 1221606.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "GROUPEMENT : STE SONOTRAGEC SARL AU ET STE AGHOJDAM KECH TRAV SARL",
+   "montant_acte_engagement": 1212420.0,
+   "montant_apres_verification": 1212420.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "GROUPEMENT : STE PETRO BTP SARL AU ET STE SODIMATRA SARL",
+   "montant_acte_engagement": 1222758.0,
+   "montant_apres_verification": 1222758.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 3,
+ "alertes_ocr": [
+  "« STE S2MB TRAP SARL AU » absent de la liste des plis déposés (nom mal lu ?).",
+  "« GROUPEMENT : STE SONOTRAGEC SARL AU ET STE AGHOJDAM KECH TRAV SARL » absent de la liste des plis déposés (nom mal lu ?).",
+  "« GROUPEMENT : STE PETRO BTP SARL AU ET STE SODIMATRA SARL » absent de la liste des plis déposés (nom mal lu ?)."
+ ],
+ "notes_ocr": [],
+ "qualite": "complet"
+}

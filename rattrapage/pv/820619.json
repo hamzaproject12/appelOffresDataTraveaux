@@ -1,0 +1,58 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "820619",
+ "orgAcronyme": "z9k",
+ "reference_pv": "04/2024/BC/CT",
+ "nouveau": true,
+ "reference": "04/2024/BC/CT",
+ "objet": null,
+ "acheteur": "le président de la commune de",
+ "procedure": "appel d'offres ouvert",
+ "categorie": "Travaux",
+ "date_limite_plis": "23/07/2024",
+ "lieu_ouverture": "la salle de réunions de la CT de Zaouiat Ahansal",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "29/07/2024",
+ "justification": "l'offre la mieux-distante par rapport au prix de référence.",
+ "infructueux": false,
+ "attributaire": "SOCIETE HAFDI PROJETS S.A.R.L",
+ "montant_attribue": 469200.0,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "SOCIETE WAY PROJET SARL",
+   "montant_acte_engagement": 467355.0,
+   "montant_apres_verification": 467355.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "SOCIETE HAFDI PROJETS S.A.R.L",
+   "montant_acte_engagement": 469200.0,
+   "montant_apres_verification": 469200.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "STE GROS OUVRES TRANSPORT",
+   "montant_acte_engagement": 496800.0,
+   "montant_apres_verification": 496800.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 3,
+ "alertes_ocr": [],
+ "notes_ocr": [],
+ "qualite": "complet"
+}

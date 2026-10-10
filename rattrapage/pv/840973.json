@@ -1,0 +1,72 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "840973",
+ "orgAcronyme": "p1v",
+ "reference_pv": "07/2024",
+ "nouveau": true,
+ "reference": "07/2024",
+ "objet": "travaux d’élargissement et renforcement de la route Sidi MISBAH au sein de la commune Haouzia province D’EL JADIDA",
+ "acheteur": "COMMUNE DE HAOUZIA",
+ "procedure": "appel d'offres ouvert national",
+ "categorie": "Travaux",
+ "date_limite_plis": "29/08/2024",
+ "lieu_ouverture": null,
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": null,
+ "justification": "le concurrent a présenté l'offre la plus avantageuse = | Leù ed ee, _ Nm D",
+ "infructueux": false,
+ "attributaire": "GROUPEMENT DE LA STE SGR BTP ET LA STE SJ2T SARL AU",
+ "montant_attribue": 1622732.46,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "STE ECBT SARL",
+   "montant_acte_engagement": 1618095.54,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "GROUPEMENT DE LA STE SGR BTP ET LA STE SJ2T SARL AU",
+   "montant_acte_engagement": 1622732.46,
+   "montant_apres_verification": 1622732.46,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "STE ETS 3F DE REVETEMENT ROUTIERE",
+   "montant_acte_engagement": 1716476.95,
+   "montant_apres_verification": 1716476.95,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "STE ECBT SARL 1 PR Fe Yeeo",
+   "montant_acte_engagement": 8095.54,
+   "montant_apres_verification": 1618095.54,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 4,
+ "alertes_ocr": [
+  "« STE ECBT SARL 1 PR Fe Yeeo » absent de la liste des plis déposés (nom mal lu ?).",
+  "« STE ECBT SARL 1 PR Fe Yeeo » : écart anormal entre montant initial et vérifié (lecture à vérifier)."
+ ],
+ "notes_ocr": [
+  "« STE ECBT SARL 1 PR Fe Yeeo » : montant rectifié de 8 095.54 à 1 618 095.54 DH."
+ ],
+ "qualite": "complet"
+}

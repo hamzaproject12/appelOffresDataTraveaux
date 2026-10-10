@@ -1,0 +1,53 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "718829",
+ "orgAcronyme": "d4q",
+ "reference_pv": "19/2023/ABHGZR",
+ "nouveau": true,
+ "reference": "19/2023/ABHGZR",
+ "objet": "Réalisation d’un forage de reconnaissance profond dans la Nappe du Haut Atlas (Bassin de Guir) - Province de Midelt",
+ "acheteur": "Directeur de l'Agence du Bassin Hydraulique de Guir-Ziz-Rheris",
+ "procedure": "appel d'offres ouvert",
+ "categorie": "Travaux",
+ "date_limite_plis": "16/05/2023",
+ "lieu_ouverture": "La salle de réunion de l'Agence du Bassin Hydraulique de Guir-Ziz-Rheris",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "01/06/2023",
+ "justification": "l'offre la moins disante.",
+ "infructueux": false,
+ "attributaire": "STES.J.SS MAROC SARL",
+ "montant_attribue": 2989560.0,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "STES.J.SS MAROC SARL",
+   "montant_acte_engagement": 2989560.0,
+   "montant_apres_verification": 2989560.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "STE BATIFORAGE SARL",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_dossier_administratif_technique",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 2,
+ "alertes_ocr": [
+  "« STES.J.SS MAROC SARL » absent de la liste des plis déposés (nom mal lu ?)."
+ ],
+ "notes_ocr": [
+  "« STE BATIFORAGE SARL » absent de la liste des plis déposés (nom mal lu ?)."
+ ],
+ "qualite": "attribution"
+}

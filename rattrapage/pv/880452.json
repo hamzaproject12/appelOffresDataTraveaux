@@ -1,0 +1,104 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "880452",
+ "orgAcronyme": "w7t",
+ "reference_pv": "07/2025/DRANEFL-SM",
+ "nouveau": true,
+ "reference": "07/2025/DRANEFL-SM",
+ "objet": "l'exécution des travaux de régénération au profit de la Direction Régionale de l'Agence",
+ "acheteur": "Le Directeur Régionale de l'Agence Nationale des Eaux et Forêts de Souss-Massa",
+ "procedure": null,
+ "categorie": "Travaux",
+ "date_limite_plis": "06/03/2025",
+ "lieu_ouverture": "Siège de la Direction Régionale de l'Agence Nationale des Eaux et Forêts de Souss-Massa à Agadir",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "18/03/2025",
+ "justification": "Offre conforme aux exigences du règlement de consultation.",
+ "infructueux": false,
+ "attributaire": "GROPUPEMENT SOLIDAIRE STE BOUNOUTRA FOR SARL",
+ "montant_attribue": 2370000.0,
+ "attributaires_par_lot": [
+  {
+   "lot": null,
+   "attributaire": "GROPUPEMENT SOLIDAIRE STE BOUNOUTRA FOR SARL",
+   "montant": 2370000.0
+  },
+  {
+   "lot": null,
+   "attributaire": "STE EAM SERVICE SARL",
+   "montant": 3477672.0
+  },
+  {
+   "lot": null,
+   "attributaire": "STE OPTION VERDURE SARL",
+   "montant": 3421092.0
+  }
+ ],
+ "soumissionnaires": [
+  {
+   "nom": "23,4 ENTREPRISE OUNZAR",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "depose",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "1,5 STE BOUNOUTRA FOR",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "depose",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "STE OPTION VERDURE SARL",
+   "montant_acte_engagement": 3421092.0,
+   "montant_apres_verification": 3421092.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "STE EAM SERVICE SARL",
+   "montant_acte_engagement": 3477672.0,
+   "montant_apres_verification": 3477672.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "GROPUPEMENT SOLIDAIRE STE BOUNOUTRA FOR SARL",
+   "montant_acte_engagement": 2370000.0,
+   "montant_apres_verification": 2370000.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "STE ENTRPRISE OUENZAR SARL",
+   "montant_acte_engagement": 3540859.56,
+   "montant_apres_verification": 3540859.56,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 6,
+ "alertes_ocr": [
+  "« GROPUPEMENT SOLIDAIRE STE BOUNOUTRA FOR SARL » absent de la liste des plis déposés (nom mal lu ?).",
+  "« STE ENTRPRISE OUENZAR SARL » absent de la liste des plis déposés (nom mal lu ?)."
+ ],
+ "notes_ocr": [],
+ "qualite": "complet"
+}

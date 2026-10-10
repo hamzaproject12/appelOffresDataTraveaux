@@ -1,0 +1,84 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "904166",
+ "orgAcronyme": "d4q",
+ "reference_pv": "43/E/2025",
+ "nouveau": true,
+ "reference": "43/E/2025",
+ "objet": "Travaux de renouvellement des forages",
+ "acheteur": "RADEE.TA",
+ "procedure": null,
+ "categorie": "Travaux",
+ "date_limite_plis": "03/06/2025",
+ "lieu_ouverture": "Siège de la RADEE.TA",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "06/06/2025",
+ "justification": "- Dossiers administratif et technique conforme. _- - Offre avantageuse répondant aux critères d'évaluation, s",
+ "infructueux": false,
+ "attributaire": "Société ROAD CONSTRUCTION VIP",
+ "montant_attribue": 8165210.0,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "Société ROAD CONSTRUCTION VIP",
+   "montant_acte_engagement": 8165210.0,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "l'examen des offres techniques 2. Société Z.M KOPAN",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Siège social: 163, Avenue Allal Al fassi - Taza - B.P",
+   "montant_acte_engagement": 137137.0,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Centre d’Appel",
+   "montant_acte_engagement": 35282282.0,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "< Site web RI.B AWB",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 5,
+ "alertes_ocr": [
+  "« < Site web RI.B AWB » : montant illisible (7 690 000 476 900 000 DH)  écarté.",
+  "« Société ROAD CONSTRUCTION VIP » absent de la liste des plis déposés (nom mal lu ?).",
+  "« Siège social: 163, Avenue Allal Al fassi - Taza - B.P » absent de la liste des plis déposés (nom mal lu ?).",
+  "« Centre d’Appel » absent de la liste des plis déposés (nom mal lu ?)."
+ ],
+ "notes_ocr": [
+  "« l'examen des offres techniques 2. Société Z.M KOPAN » absent de la liste des plis déposés (nom mal lu ?).",
+  "« < Site web RI.B AWB » absent de la liste des plis déposés (nom mal lu ?)."
+ ],
+ "qualite": "complet"
+}

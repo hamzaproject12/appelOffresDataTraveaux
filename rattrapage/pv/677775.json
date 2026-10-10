@@ -1,0 +1,80 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "677775",
+ "orgAcronyme": "g3h",
+ "reference_pv": null,
+ "nouveau": true,
+ "reference": null,
+ "objet": null,
+ "acheteur": "GOUVERNEUR DE LA PROVINCE D'AL HOCEIMA",
+ "procedure": "appel d'offres ouvert",
+ "categorie": "Travaux",
+ "date_limite_plis": "14/09/2022",
+ "lieu_ouverture": null,
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": null,
+ "justification": "Le marché est attribué au concurrent dont l'offre financière est la moins disante répondant aux conditions requises conformément à l'article 40 du décretdesmarchéspublics4 •`. '. ``.r:..:.`..::.``'- ` ..... Slg é D EGOUJ",
+ "infructueux": false,
+ "attributaire": null,
+ "montant_attribue": null,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "fsociété NORJIBAs.a.r.l",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_offre_financiere",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Société NORJIBA s.a.r.l",
+   "montant_acte_engagement": 99852.0,
+   "montant_apres_verification": null,
+   "autres_montants": [
+    99852.0
+   ],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "JRA CONSTRUCTION s.a.r.l",
+   "montant_acte_engagement": 104952.0,
+   "montant_apres_verification": null,
+   "autres_montants": [
+    104952.0
+   ],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Sté N.KF.I TRAVAUX s.a.r.l",
+   "montant_acte_engagement": 132781.0,
+   "montant_apres_verification": null,
+   "autres_montants": [
+    132781.0
+   ],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 4,
+ "alertes_ocr": [
+  "« Société NORJIBA s.a.r.l » absent de la liste des plis déposés (nom mal lu ?).",
+  "« JRA CONSTRUCTION s.a.r.l » absent de la liste des plis déposés (nom mal lu ?).",
+  "« Sté N.KF.I TRAVAUX s.a.r.l » absent de la liste des plis déposés (nom mal lu ?).",
+  "Attributaire non trouvé."
+ ],
+ "notes_ocr": [
+  "« fsociété NORJIBAs.a.r.l » absent de la liste des plis déposés (nom mal lu ?)."
+ ],
+ "qualite": "complet"
+}

@@ -1,0 +1,363 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "861586",
+ "orgAcronyme": "q1s",
+ "reference_pv": "39/2024/DPA/1/SAHA",
+ "nouveau": true,
+ "reference": "39/2024/DPA/1/SAHA",
+ "objet": "Travaux de construction, de réhabilitation et d'aménagement des pistes et routes rurales au niveau du Cercle Igherm Province de Taroudant, région de Souss Massa",
+ "acheteur": "Directeur Provincial de l’ Agriculture d’ Agadir",
+ "procedure": "appel d'offres ouvert international",
+ "categorie": "Travaux",
+ "date_limite_plis": "12/12/2024",
+ "lieu_ouverture": "la salle des réunions de la Direction Provinciale de l’Agriculture d’Agadir",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "16/12/2024",
+ "justification": "l’offre jugée la plus avantageuse.",
+ "infructueux": false,
+ "attributaire": "STE DE CONSTRUCTION AKOUJE",
+ "montant_attribue": 11183823.6,
+ "attributaires_par_lot": [
+  {
+   "lot": "01",
+   "attributaire": "STE DE CONSTRUCTION AKOUJE",
+   "montant": 11183823.6
+  },
+  {
+   "lot": "02",
+   "attributaire": "GROUPEMENT STE EJYM/ STE BAKAM",
+   "montant": 12157269.6
+  },
+  {
+   "lot": "03",
+   "attributaire": "WAY PROJETS",
+   "montant": 10263505.68
+  },
+  {
+   "lot": "04",
+   "attributaire": "GROUPEMENT STE EJYM/ STE BAKAM",
+   "montant": 11490042.0
+  },
+  {
+   "lot": "05",
+   "attributaire": "STE SLAMTE N'REBBI",
+   "montant": 11692262.04
+  },
+  {
+   "lot": "06",
+   "attributaire": "STE MEDLA",
+   "montant": 10398390.66
+  }
+ ],
+ "soumissionnaires": [
+  {
+   "nom": "COMPLEXE BATIMENT ET TRAVAUX PUBLICS",
+   "montant_acte_engagement": 11978318.4,
+   "montant_apres_verification": null,
+   "autres_montants": [
+    11244803.54,
+    10936496.76
+   ],
+   "lots": [
+    "02",
+    "04",
+    "06"
+   ],
+   "statut": "ecarte_offre_financiere",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "PERFORMANCE MATERIEL",
+   "montant_acte_engagement": 11395037.22,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [
+    "06"
+   ],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "OUAKHDOU MOHAMED 6",
+   "montant_acte_engagement": 11610454.37,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [
+    "06"
+   ],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "AIT OUKHALI TRAVAUX",
+   "montant_acte_engagement": 10233526.34,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [
+    "02",
+    "06"
+   ],
+   "statut": "ecarte_offre_financiere",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "STE SLAMTE N'REBBI",
+   "montant_acte_engagement": 13435215.0,
+   "montant_apres_verification": null,
+   "autres_montants": [
+    11692262.04,
+    12036546.78
+   ],
+   "lots": [
+    "04",
+    "05",
+    "06"
+   ],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "OUCHIKH AHMED",
+   "montant_acte_engagement": 9939940.08,
+   "montant_apres_verification": null,
+   "autres_montants": [
+    11249599.8,
+    10136638.1
+   ],
+   "lots": [
+    "03",
+    "04",
+    "06"
+   ],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "STE MEDLA",
+   "montant_acte_engagement": 10394790.66,
+   "montant_apres_verification": 10398390.66,
+   "autres_montants": [],
+   "lots": [
+    "04",
+    "06"
+   ],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "STE MIAH ESSAHRA",
+   "montant_acte_engagement": 11843073.3,
+   "montant_apres_verification": 11846598.9,
+   "autres_montants": [],
+   "lots": [
+    "06"
+   ],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "STE DE CONSTRUCTION AKOUJE",
+   "montant_acte_engagement": 11183823.6,
+   "montant_apres_verification": null,
+   "autres_montants": [
+    12046646.4,
+    9928923.6,
+    11358373.2,
+    11408811.0,
+    10115828.77
+   ],
+   "lots": [
+    "01",
+    "02",
+    "03",
+    "04",
+    "05",
+    "06"
+   ],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "STE ANIRAL",
+   "montant_acte_engagement": 13435215.0,
+   "montant_apres_verification": null,
+   "autres_montants": [
+    13759338.0,
+    10217476.26
+   ],
+   "lots": [
+    "04",
+    "05",
+    "06"
+   ],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "ZS TRAVAUX",
+   "montant_acte_engagement": 13435215.0,
+   "montant_apres_verification": 13281975.0,
+   "autres_montants": [],
+   "lots": [
+    "04"
+   ],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "GROUPEMENT STE OUED AWRA/ STE JALBAKH",
+   "montant_acte_engagement": 11330259.6,
+   "montant_apres_verification": null,
+   "autres_montants": [
+    12109859.64,
+    10143510.48,
+    10166149.86
+   ],
+   "lots": [
+    "01",
+    "02",
+    "03",
+    "06"
+   ],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "GROUPEMENT STE EJYM/ STE BAKAM",
+   "montant_acte_engagement": 12157269.6,
+   "montant_apres_verification": null,
+   "autres_montants": [
+    11490042.0,
+    13759338.0,
+    11979575.34
+   ],
+   "lots": [
+    "02",
+    "04",
+    "05",
+    "06"
+   ],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "EL MANSOURY MOHAMED",
+   "montant_acte_engagement": 11973812.76,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [
+    "03"
+   ],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "STE LEADER CIVIL ENGINEERING",
+   "montant_acte_engagement": 12108465.0,
+   "montant_apres_verification": null,
+   "autres_montants": [
+    12025176.6,
+    11170996.2,
+    13806792.0,
+    10014829.39
+   ],
+   "lots": [
+    "02",
+    "03",
+    "04",
+    "05",
+    "06"
+   ],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "STE SOUSSA DES TRAVAUX DE BATIMENTS",
+   "montant_acte_engagement": 14356055.4,
+   "montant_apres_verification": null,
+   "autres_montants": [
+    10131848.16,
+    9012595.8,
+    11625902.4,
+    9908759.28
+   ],
+   "lots": [
+    "02",
+    "03",
+    "04",
+    "05",
+    "06"
+   ],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "STE ZEDS",
+   "montant_acte_engagement": 11947354.8,
+   "montant_apres_verification": null,
+   "autres_montants": [
+    10340862.42
+   ],
+   "lots": [
+    "03",
+    "06"
+   ],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "NEGASET",
+   "montant_acte_engagement": 11947258.56,
+   "montant_apres_verification": null,
+   "autres_montants": [
+    11977027.61
+   ],
+   "lots": [
+    "02",
+    "03",
+    "06"
+   ],
+   "statut": "ecarte_offre_financiere",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "RHARBAL AYOUB",
+   "montant_acte_engagement": 11961528.96,
+   "montant_apres_verification": null,
+   "autres_montants": [
+    11982252.3
+   ],
+   "lots": [
+    "02",
+    "03",
+    "06"
+   ],
+   "statut": "ecarte_offre_financiere",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "WAY PROJETS",
+   "montant_acte_engagement": 10263505.68,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [
+    "03"
+   ],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 20,
+ "alertes_ocr": [],
+ "notes_ocr": [
+  "« STE MEDLA » : montant rectifié de 10 394 790.66 à 10 398 390.66 DH.",
+  "« STE MIAH ESSAHRA » : montant rectifié de 11 843 073.30 à 11 846 598.90 DH.",
+  "« ZS TRAVAUX » : montant rectifié de 13 435 215.00 à 13 281 975.00 DH.",
+  "Marché alloti (6 lots)."
+ ],
+ "qualite": "complet"
+}

@@ -1,0 +1,78 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "861745",
+ "orgAcronyme": "b5j",
+ "reference_pv": null,
+ "nouveau": true,
+ "reference": null,
+ "objet": "Travaux de mise à niveau des logements ALEM Azzouhour à Béni Mellal",
+ "acheteur": "Agence de Logements et d'Equipements Militaires",
+ "procedure": null,
+ "categorie": "Travaux",
+ "date_limite_plis": "09/12/2024",
+ "lieu_ouverture": null,
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "23/12/2024",
+ "justification": "offre la plus avantageuse.",
+ "infructueux": false,
+ "attributaire": "2HSC SARL",
+ "montant_attribue": 3550440.0,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "TRIMOB SARL",
+   "montant_acte_engagement": 4161150.0,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_offre_financiere",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "BATI BUILDING SARL AU",
+   "montant_acte_engagement": 3392010.0,
+   "montant_apres_verification": 3392010.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "ENTC SARL AU",
+   "montant_acte_engagement": 4001640.0,
+   "montant_apres_verification": 4001640.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "2H8C SARL",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "depose",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "2HSC SARL",
+   "montant_acte_engagement": 3550440.0,
+   "montant_apres_verification": 3550440.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 5,
+ "alertes_ocr": [
+  "« 2HSC SARL » absent de la liste des plis déposés (nom mal lu ?)."
+ ],
+ "notes_ocr": [],
+ "qualite": "complet"
+}

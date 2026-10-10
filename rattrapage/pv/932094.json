@@ -1,0 +1,83 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "932094",
+ "orgAcronyme": "q1s",
+ "reference_pv": "36/DPA.OZ/SAHA/2025",
+ "nouveau": true,
+ "reference": "36/DPA.OZ/SAHA/2025",
+ "objet": "TRAVAUX DE CONSTRUCTION DU SOUK HEBDOMADAIRE À LA COMMUNE TERRITORIALE ZOUMI, PROVINCE OUEZZANE »",
+ "acheteur": "DPA d°’ Ouezzane",
+ "procedure": "appel d'offres ouvert international",
+ "categorie": "Travaux",
+ "date_limite_plis": "01/07/2025",
+ "lieu_ouverture": "le bureau de service support de La DPA d'OUEZZANE",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "09/07/2025",
+ "justification": null,
+ "infructueux": false,
+ "attributaire": "Entreprise AIT NASSER",
+ "montant_attribue": 15684752.4,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "Entreprise AIT NASSER",
+   "montant_acte_engagement": 15684752.4,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Entreprise ANATRA",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Entreprise TRAVAUX OMS CBS et RE non paraphés",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": true
+  },
+  {
+   "nom": "La quantité relative au prix N°9 au",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_dossier_administratif_technique",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "estimatif est erronée",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_dossier_administratif_technique",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 5,
+ "alertes_ocr": [
+  "« Entreprise AIT NASSER » absent de la liste des plis déposés (nom mal lu ?)."
+ ],
+ "notes_ocr": [
+  "« Entreprise ANATRA » absent de la liste des plis déposés (nom mal lu ?).",
+  "« Entreprise TRAVAUX OMS CBS et RE non paraphés » absent de la liste des plis déposés (nom mal lu ?).",
+  "« La quantité relative au prix N°9 au » absent de la liste des plis déposés (nom mal lu ?).",
+  "« estimatif est erronée » absent de la liste des plis déposés (nom mal lu ?)."
+ ],
+ "qualite": "attribution"
+}

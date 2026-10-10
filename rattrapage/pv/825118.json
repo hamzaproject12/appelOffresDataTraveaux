@@ -1,0 +1,115 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "825118",
+ "orgAcronyme": "o8p",
+ "reference_pv": "20/AOO/DPMR-ANP/2024",
+ "nouveau": true,
+ "reference": "20/AOO/DPMR-ANP/2024",
+ "objet": null,
+ "acheteur": "Agence Nationale des ports / Direction du Por",
+ "procedure": "appel d'offres ouvert",
+ "categorie": "Travaux",
+ "date_limite_plis": "13/08/2024",
+ "lieu_ouverture": "ANP/DPMR/DPM t de Mohammedia Et Région Désignation journaux Langue Date de parution",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": null,
+ "justification": null,
+ "infructueux": false,
+ "attributaire": "0 VRD",
+ "montant_attribue": 520800.0,
+ "attributaires_par_lot": [
+  {
+   "lot": null,
+   "attributaire": "0 VRD",
+   "montant": 520800.0
+  },
+  {
+   "lot": null,
+   "attributaire": "taxes)",
+   "montant": 991900.0
+  }
+ ],
+ "soumissionnaires": [
+  {
+   "nom": "STE MANSOURI VRD SARL",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "STE EL ABASSI SOIMA",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_dossier_administratif_technique",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "STE YAHYA STAR",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_dossier_administratif_technique",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "STE GLOBAL BUILDERS SARL",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_offre_technique",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "PES",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_offre_technique",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "0 VRD",
+   "montant_acte_engagement": 520800.0,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "taxes)",
+   "montant_acte_engagement": 991900.0,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 7,
+ "alertes_ocr": [
+  "« 0 VRD » absent de la liste des plis déposés (nom mal lu ?).",
+  "« taxes) » absent de la liste des plis déposés (nom mal lu ?)."
+ ],
+ "notes_ocr": [
+  "« STE MANSOURI VRD SARL » absent de la liste des plis déposés (nom mal lu ?).",
+  "« STE EL ABASSI SOIMA » absent de la liste des plis déposés (nom mal lu ?).",
+  "« STE YAHYA STAR » absent de la liste des plis déposés (nom mal lu ?).",
+  "« STE GLOBAL BUILDERS SARL » absent de la liste des plis déposés (nom mal lu ?).",
+  "« PES » absent de la liste des plis déposés (nom mal lu ?).",
+  "Montants exprimés hors taxes (HT)."
+ ],
+ "qualite": "attribution"
+}

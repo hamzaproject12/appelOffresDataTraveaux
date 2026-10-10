@@ -1,0 +1,126 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "998937",
+ "orgAcronyme": "j8k",
+ "reference_pv": null,
+ "nouveau": true,
+ "reference": null,
+ "objet": "TRAVAUX TOPOGRAPHIQUES RELATIFS AU PROJETS DE CONSTRUCTIONS : LOT 1: - LES PERLES 2 SIS AU LOTISSEMENT RIAD AL OMRANE TR$",
+ "acheteur": "AL Ormmrane Fès-Meknès",
+ "procedure": null,
+ "categorie": "Travaux",
+ "date_limite_plis": "09/04/2026",
+ "lieu_ouverture": "AL Omrane Fès-Meknès",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "28/04/2026",
+ "justification": null,
+ "infructueux": false,
+ "attributaire": "BUREAU ALAOUI TOPO",
+ "montant_attribue": 221112.0,
+ "attributaires_par_lot": [
+  {
+   "lot": "2",
+   "attributaire": "BUREAU ALAOUI TOPO",
+   "montant": 221112.0
+  },
+  {
+   "lot": null,
+   "attributaire": "TOPOSERVICES",
+   "montant": 122364.0
+  }
+ ],
+ "soumissionnaires": [
+  {
+   "nom": "TOPOSYS CONSEILS",
+   "montant_acte_engagement": 166500.0,
+   "montant_apres_verification": null,
+   "autres_montants": [
+    118800.0
+   ],
+   "lots": [
+    "1",
+    "2"
+   ],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "TOPO SURVEY",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "depose",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "à EXTRAIT DU PROCES VEXRBAL ©, :Fe-11/PS-AcHaT",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "depose",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "D D'OUVIXIIRE DES 2.1S rte",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "depose",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "BUREAU ALAOUI TOPO",
+   "montant_acte_engagement": 221112.0,
+   "montant_apres_verification": null,
+   "autres_montants": [
+    157766.4
+   ],
+   "lots": [
+    "1",
+    "2"
+   ],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "CABINET LAABARTA",
+   "montant_acte_engagement": 210900.0,
+   "montant_apres_verification": null,
+   "autres_montants": [
+    150480.0
+   ],
+   "lots": [
+    "1",
+    "2"
+   ],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "TOPOSERVICES",
+   "montant_acte_engagement": 122364.0,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 7,
+ "alertes_ocr": [
+  "« BUREAU ALAOUI TOPO » absent de la liste des plis déposés (nom mal lu ?).",
+  "« CABINET LAABARTA » absent de la liste des plis déposés (nom mal lu ?).",
+  "« TOPOSERVICES » absent de la liste des plis déposés (nom mal lu ?)."
+ ],
+ "notes_ocr": [
+  "Marché alloti (2 lots)."
+ ],
+ "qualite": "complet"
+}

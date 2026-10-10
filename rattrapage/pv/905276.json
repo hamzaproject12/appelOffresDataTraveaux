@@ -1,0 +1,111 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "905276",
+ "orgAcronyme": "l1f",
+ "reference_pv": "02/2025",
+ "nouveau": true,
+ "reference": "02/2025",
+ "objet": null,
+ "acheteur": "Conseil Provincial Fahs-An jra",
+ "procedure": "appel d'offres ouvert",
+ "categorie": "Travaux",
+ "date_limite_plis": "26/05/2025",
+ "lieu_ouverture": "Salle des réunions de Mr. Le Président du CP Fahs-Anjra Le “pis A",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "12/06/2025",
+ "justification": null,
+ "infructueux": false,
+ "attributaire": "Sté SOLAZIZ sarl",
+ "montant_attribue": 3874147.2,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "Fees plis °_Sté NEM WOY TRAV sarlau",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "depose",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Sté SOGEVA sarlau",
+   "montant_acte_engagement": 4094256.96,
+   "montant_apres_verification": 4094256.96,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Groupement AREHAL TRAVAUX sarl et MSA ROUTIER sarl SES",
+   "montant_acte_engagement": 792333.6,
+   "montant_apres_verification": 3792333.6,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "et MSA ROUTIER sarl",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "depose",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Sté SOLAZIZ sarl",
+   "montant_acte_engagement": 3874147.2,
+   "montant_apres_verification": 3874147.2,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Groupement AWRACH EL BOUGHAZ sarlau",
+   "montant_acte_engagement": 3848949.6,
+   "montant_apres_verification": 3848949.6,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Sté ZAOUARI TRANSPORT sarl",
+   "montant_acte_engagement": 4197547.2,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Sté NEM WOY TRAV sarlau",
+   "montant_acte_engagement": 4509607.2,
+   "montant_apres_verification": 4509607.2,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 8,
+ "alertes_ocr": [
+  "« Sté SOLAZIZ sarl » absent de la liste des plis déposés (nom mal lu ?).",
+  "« Groupement AWRACH EL BOUGHAZ sarlau » absent de la liste des plis déposés (nom mal lu ?).",
+  "« Sté ZAOUARI TRANSPORT sarl » absent de la liste des plis déposés (nom mal lu ?).",
+  "« Sté NEM WOY TRAV sarlau » absent de la liste des plis déposés (nom mal lu ?).",
+  "« Groupement AREHAL TRAVAUX sarl et MSA ROUTIER sarl SES » : écart anormal entre montant initial et vérifié (lecture à vérifier)."
+ ],
+ "notes_ocr": [
+  "« Groupement AREHAL TRAVAUX sarl et MSA ROUTIER sarl SES » : montant rectifié de 792 333.60 à 3 792 333.60 DH."
+ ],
+ "qualite": "complet"
+}

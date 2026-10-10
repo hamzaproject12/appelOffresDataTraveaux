@@ -1,0 +1,62 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "969771",
+ "orgAcronyme": "p1v",
+ "reference_pv": "44/2025",
+ "nouveau": true,
+ "reference": "44/2025",
+ "objet": "Travaux d'entretien d'éclairage public à la commune de Moulay Abdellah",
+ "acheteur": "C/ Moulay Abdellah",
+ "procedure": "appel d'offres ouvert national",
+ "categorie": "Travaux",
+ "date_limite_plis": "09/12/2025",
+ "lieu_ouverture": "Bureau de Mr le Président de la C/ Moulay Abdellah",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": null,
+ "justification": "prix de référence à l’administration le 12/12/2025",
+ "infructueux": false,
+ "attributaire": "SOCIETE AGA LUD S.A.R.L.AU",
+ "montant_attribue": 496018.8,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "SOCIETE MAROCAINE DE TRAVAUX PUBLICS D’ECLAIRAGE (S.M.T.P.E)",
+   "montant_acte_engagement": 502545.6,
+   "montant_apres_verification": 502545.6,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "SOCIETE CHICHACOM TRAVAUX ET NEGOCE SARL",
+   "montant_acte_engagement": 503470.8,
+   "montant_apres_verification": 503470.8,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "SOCIETE AGA LUD S.A.R.L.AU",
+   "montant_acte_engagement": 496018.8,
+   "montant_apres_verification": 496018.8,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 3,
+ "alertes_ocr": [
+  "« SOCIETE MAROCAINE DE TRAVAUX PUBLICS D’ECLAIRAGE (S.M.T.P.E) » absent de la liste des plis déposés (nom mal lu ?).",
+  "« SOCIETE CHICHACOM TRAVAUX ET NEGOCE SARL » absent de la liste des plis déposés (nom mal lu ?).",
+  "« SOCIETE AGA LUD S.A.R.L.AU » absent de la liste des plis déposés (nom mal lu ?)."
+ ],
+ "notes_ocr": [],
+ "qualite": "complet"
+}

@@ -1,0 +1,96 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "901259",
+ "orgAcronyme": "g3h",
+ "reference_pv": "2498/E/2025",
+ "nouveau": true,
+ "reference": "2498/E/2025",
+ "objet": "TRAVAUX BASSE TENSION",
+ "acheteur": "RÉGIE AUTONOME DE DISTRIBUTION EAU ET ÉLECTRICITÉ DE MEKNÈS",
+ "procedure": "appel d'offres ouvert",
+ "categorie": "Travaux",
+ "date_limite_plis": "22/05/2025",
+ "lieu_ouverture": "Siège de la RADEM",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "27/05/2025",
+ "justification": "l'offre économiquement la plus avantageuse .",
+ "infructueux": false,
+ "attributaire": "STE SEVIELEC",
+ "montant_attribue": 1559096.52,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "STER.A.CH.I.D",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "RESEAUX ELECTRICITE",
+   "montant_acte_engagement": 1448550.0,
+   "montant_apres_verification": 1448550.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "ADAM STD",
+   "montant_acte_engagement": 1610845.8,
+   "montant_apres_verification": 1610845.8,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "MOROCCAN ELECTRIC POWER COMPANY (MEPC)",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_dossier_administratif_technique",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "STE SEVIELEC",
+   "montant_acte_engagement": 1559096.52,
+   "montant_apres_verification": 1559096.52,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "BUILDDIS TECH",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_dossier_administratif_technique",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "STE R.A.C.H.I.D",
+   "montant_acte_engagement": 1536241.2,
+   "montant_apres_verification": 1536241.2,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 7,
+ "alertes_ocr": [
+  "« STE R.A.C.H.I.D » absent de la liste des plis déposés (nom mal lu ?)."
+ ],
+ "notes_ocr": [],
+ "qualite": "complet"
+}

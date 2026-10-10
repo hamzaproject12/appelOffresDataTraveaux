@@ -1,0 +1,79 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "968048",
+ "orgAcronyme": "g3h",
+ "reference_pv": "10003584",
+ "nouveau": true,
+ "reference": "10003584",
+ "objet": "Travaux de réhabilitation de réseau d’eau potable dans la ville d’Oujda en deux lots : . nn Lot 1 : Lazaret Bas - Quartier Essalam. L Lot 2 : Lazaret Bas - Quartier Moulay Miloud",
+ "acheteur": null,
+ "procedure": null,
+ "categorie": "Travaux",
+ "date_limite_plis": "23/10/2025",
+ "lieu_ouverture": "Siège de la SRM-ORI",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": null,
+ "justification": "Offre moins-disante par lot conforme (l'attribution pour chaque concurrent est limitée à un maximum d’un (01) seul lot selon l’ordre chronologique).",
+ "infructueux": true,
+ "attributaire": "STE HOLDING AL BARAKA",
+ "montant_attribue": 11168983.62,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "STE TIEC tou",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "depose",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "STE WATEGA S ra",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "depose",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "STE HOLDING AL BARAKA",
+   "montant_acte_engagement": 11168983.62,
+   "montant_apres_verification": 11168983.62,
+   "autres_montants": [
+    10875559.5
+   ],
+   "lots": [
+    "1",
+    "2"
+   ],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "STE WATEGA",
+   "montant_acte_engagement": 9089712.0,
+   "montant_apres_verification": 9089712.0,
+   "autres_montants": [],
+   "lots": [
+    "1"
+   ],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 4,
+ "alertes_ocr": [
+  "« STE WATEGA » absent de la liste des plis déposés (nom mal lu ?)."
+ ],
+ "notes_ocr": [
+  "Marché alloti (2 lots).",
+  "Maître d'ouvrage absent du PV (utiliser l'acheteur public du portail)."
+ ],
+ "qualite": "complet"
+}

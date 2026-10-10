@@ -1,0 +1,85 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "742607",
+ "orgAcronyme": "d4q",
+ "reference_pv": null,
+ "nouveau": true,
+ "reference": null,
+ "objet": "Réparation des dégâts causés par les crues et remise en service du siphon de la station de pompage d’eau brute sur le barrage Mechraa Hammadi",
+ "acheteur": null,
+ "procedure": "marché négocié",
+ "categorie": "Travaux",
+ "date_limite_plis": "19/09/2023",
+ "lieu_ouverture": "au Siège de la Direction Régionale de l'Oriental (DR6) Place 18 Mars 2003 - Oujda - Maroc AA at ua RUB à donna Let à. de oué ae at sut ua",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "20/09/2023",
+ "justification": null,
+ "infructueux": false,
+ "attributaire": "Délai d'exécution",
+ "montant_attribue": 1253087.62,
+ "attributaires_par_lot": [
+  {
+   "lot": null,
+   "attributaire": "Délai d'exécution",
+   "montant": 1253087.62
+  },
+  {
+   "lot": null,
+   "attributaire": "HYDROSYSTEMES _ offre de base",
+   "montant": 1253087.62
+  }
+ ],
+ "soumissionnaires": [
+  {
+   "nom": "Rabais de",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_dossier_administratif_technique",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "om ot atitae 5 S pr E EPST PURE sa German Li MES AB 2Ù 2",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_dossier_administratif_technique",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Délai d'exécution",
+   "montant_acte_engagement": 1253087.62,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "HYDROSYSTEMES _ offre de base",
+   "montant_acte_engagement": 1253087.62,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 4,
+ "alertes_ocr": [
+  "« Délai d'exécution » absent de la liste des plis déposés (nom mal lu ?).",
+  "« HYDROSYSTEMES _ offre de base » absent de la liste des plis déposés (nom mal lu ?)."
+ ],
+ "notes_ocr": [
+  "« Rabais de » absent de la liste des plis déposés (nom mal lu ?).",
+  "« om ot atitae 5 S pr E EPST PURE sa German Li MES AB 2Ù 2 » absent de la liste des plis déposés (nom mal lu ?).",
+  "Maître d'ouvrage absent du PV (utiliser l'acheteur public du portail)."
+ ],
+ "qualite": "attribution"
+}

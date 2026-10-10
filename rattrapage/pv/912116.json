@@ -1,0 +1,126 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "912116",
+ "orgAcronyme": "g3h",
+ "reference_pv": "10000748",
+ "nouveau": true,
+ "reference": "10000748",
+ "objet": "AMENAGEMENT DES POSTES MT/BT A LA PROVINCE DE NADOR LOT1 : AMENAGEMENT DES POSTES MT/BT TYPE CABINE A LA PROVINCE DE NADOR",
+ "acheteur": null,
+ "procedure": null,
+ "categorie": "Travaux",
+ "date_limite_plis": "07/05/2025",
+ "lieu_ouverture": "Siège de la SRM-ORI",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": null,
+ "justification": "Offre moins-disante conforme.",
+ "infructueux": false,
+ "attributaire": "REC PRURE",
+ "montant_attribue": 3940898.4,
+ "attributaires_par_lot": [
+  {
+   "lot": null,
+   "attributaire": "REC PRURE",
+   "montant": 3940898.4
+  },
+  {
+   "lot": null,
+   "attributaire": "PROMETI",
+   "montant": 4637184.0
+  }
+ ],
+ "soumissionnaires": [
+  {
+   "nom": "BESELEC (",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_dossier_administratif_technique",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "ELECT TRAV",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_offre_financiere",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "REC PRURE",
+   "montant_acte_engagement": 3940898.4,
+   "montant_apres_verification": 3940898.4,
+   "autres_montants": [],
+   "lots": [
+    "1"
+   ],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "SEDERAM",
+   "montant_acte_engagement": 4350091.2,
+   "montant_apres_verification": 4350091.2,
+   "autres_montants": [],
+   "lots": [
+    "1"
+   ],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "PROMETI",
+   "montant_acte_engagement": 4637184.0,
+   "montant_apres_verification": 4637184.0,
+   "autres_montants": [],
+   "lots": [
+    "2"
+   ],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "EXTRADIS",
+   "montant_acte_engagement": 5043600.0,
+   "montant_apres_verification": 5043600.0,
+   "autres_montants": [],
+   "lots": [
+    "2"
+   ],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "dois",
+   "montant_acte_engagement": 4830000.0,
+   "montant_apres_verification": 4830000.0,
+   "autres_montants": [],
+   "lots": [
+    "1"
+   ],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 7,
+ "alertes_ocr": [
+  "« REC PRURE » absent de la liste des plis déposés (nom mal lu ?).",
+  "« SEDERAM » absent de la liste des plis déposés (nom mal lu ?).",
+  "« PROMETI » absent de la liste des plis déposés (nom mal lu ?).",
+  "« EXTRADIS » absent de la liste des plis déposés (nom mal lu ?).",
+  "« dois » absent de la liste des plis déposés (nom mal lu ?)."
+ ],
+ "notes_ocr": [
+  "« BESELEC ( » absent de la liste des plis déposés (nom mal lu ?).",
+  "« ELECT TRAV » absent de la liste des plis déposés (nom mal lu ?).",
+  "Marché alloti (2 lots).",
+  "Maître d'ouvrage absent du PV (utiliser l'acheteur public du portail)."
+ ],
+ "qualite": "complet"
+}

@@ -1,0 +1,83 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "1014817",
+ "orgAcronyme": "g8e",
+ "reference_pv": "100/2026",
+ "nouveau": true,
+ "reference": "100/2026",
+ "objet": "TRAVAUX DE CONSTRUCTION LA ROUTE RELIANT DOUAR O COMMUNE OULED ABDOUNE A LA PROVINCE DE KHOURIBGA-LOT UNIQUE- ULED CHIKH ALI ET TAWANZA RELEVANT DE LA",
+ "acheteur": "Agence Régionale d’Exécution des Projets Région Béni Mellal-Khénifra",
+ "procedure": null,
+ "categorie": "Travaux",
+ "date_limite_plis": "04/06/2026",
+ "lieu_ouverture": "Salle de réunion de l’AREP région Beni Mellal Khénifra Sis Bd Med V lotissement lala Hayat immeuble n°3, géme et 5éme étage Béni Mellal",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "19/06/2026",
+ "justification": "L'offre économiquement la plus avantageuse",
+ "infructueux": false,
+ "attributaire": "STE BERRAHO ABDELMALKI",
+ "montant_attribue": 1011604.0,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "STE ARGECI LEE",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "STE TOTAL VEGETAL 6",
+   "montant_acte_engagement": 15650448.0,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "STE ROUF ENGINEERING",
+   "montant_acte_engagement": 15120840.0,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "STE BERRAHO ABDELMALKI",
+   "montant_acte_engagement": 15011604.0,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": true
+  },
+  {
+   "nom": "STE ARGECI",
+   "montant_acte_engagement": 16152000.0,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 5,
+ "alertes_ocr": [
+  "« STE TOTAL VEGETAL 6 » absent de la liste des plis déposés (nom mal lu ?).",
+  "« STE ROUF ENGINEERING » absent de la liste des plis déposés (nom mal lu ?).",
+  "« STE BERRAHO ABDELMALKI » absent de la liste des plis déposés (nom mal lu ?).",
+  "« STE ARGECI » absent de la liste des plis déposés (nom mal lu ?)."
+ ],
+ "notes_ocr": [
+  "« STE ARGECI LEE » absent de la liste des plis déposés (nom mal lu ?)."
+ ],
+ "qualite": "complet"
+}

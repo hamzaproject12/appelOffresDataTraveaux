@@ -1,0 +1,127 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "876620",
+ "orgAcronyme": "d4q",
+ "reference_pv": "68/AMG/2/2024",
+ "nouveau": true,
+ "reference": "68/AMG/2/2024",
+ "objet": null,
+ "acheteur": null,
+ "procedure": null,
+ "categorie": "Travaux",
+ "date_limite_plis": null,
+ "lieu_ouverture": null,
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": null,
+ "justification": null,
+ "infructueux": false,
+ "attributaire": "CANALISATION / ENTR base",
+ "montant_attribue": 516600.0,
+ "attributaires_par_lot": [
+  {
+   "lot": null,
+   "attributaire": "CANALISATION / ENTR base",
+   "montant": 516600.0
+  },
+  {
+   "lot": null,
+   "attributaire": "correction",
+   "montant": 690000.0
+  },
+  {
+   "lot": null,
+   "attributaire": "DRG/C à DAM/T comp.(Eq",
+   "montant": 516600.0
+  },
+  {
+   "lot": null,
+   "attributaire": "Nature des prestations",
+   "montant": 690000.0
+  },
+  {
+   "lot": null,
+   "attributaire": "Réservée aux PME",
+   "montant": 647700.0
+  },
+  {
+   "lot": null,
+   "attributaire": "SGEH (SOCIETE DE GENIES ELECTRIQUES ET HYDRAULIQUES) Code GM Délai d'éxec",
+   "montant": null
+  }
+ ],
+ "soumissionnaires": [
+  {
+   "nom": "Cadre réservé à DAM/T",
+   "montant_acte_engagement": 544188.0,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "CANALISATION / ENTR base",
+   "montant_acte_engagement": 516600.0,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "correction",
+   "montant_acte_engagement": 690000.0,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "DRG/C à DAM/T comp.(Eq",
+   "montant_acte_engagement": 516600.0,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Nature des prestations",
+   "montant_acte_engagement": 690000.0,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Réservée aux PME",
+   "montant_acte_engagement": 647700.0,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "SGEH (SOCIETE DE GENIES ELECTRIQUES ET HYDRAULIQUES) Code GM Délai d'éxec",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 7,
+ "alertes_ocr": [],
+ "notes_ocr": [
+  "Maître d'ouvrage absent du PV (utiliser l'acheteur public du portail)."
+ ],
+ "qualite": "complet"
+}

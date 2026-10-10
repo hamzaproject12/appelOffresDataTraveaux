@@ -1,0 +1,64 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "992340",
+ "orgAcronyme": "o8p",
+ "reference_pv": "03/A00/DPMR-ANP/2026",
+ "nouveau": true,
+ "reference": "03/A00/DPMR-ANP/2026",
+ "objet": "«TRAVAUX DE REFECTION DES STRUCTURES EN BOIS AU PORT DE SKHIRAT.»",
+ "acheteur": "Agence Nationale des ports : Direction du Por",
+ "procedure": "appel d'offres ouvert national",
+ "categorie": "Travaux",
+ "date_limite_plis": "31/03/2026",
+ "lieu_ouverture": "ANP/DPMR Conformément à l’avis publié dans : t de Mohammedia et Région",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "07/04/2026",
+ "justification": null,
+ "infructueux": false,
+ "attributaire": null,
+ "montant_attribue": null,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "GROUPEMENT GLOBAL BUILDERS SARL AU ET MAJOR",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "ET MAJOR STRUCTURAL BUILD SARL",
+   "montant_acte_engagement": 4872900.0,
+   "montant_apres_verification": 4872900.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "SOCIETE ENTC SARL AU",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_dossier_administratif_technique",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 3,
+ "alertes_ocr": [
+  "« ET MAJOR STRUCTURAL BUILD SARL » absent de la liste des plis déposés (nom mal lu ?).",
+  "Attributaire non trouvé."
+ ],
+ "notes_ocr": [
+  "« GROUPEMENT GLOBAL BUILDERS SARL AU ET MAJOR » absent de la liste des plis déposés (nom mal lu ?).",
+  "« SOCIETE ENTC SARL AU » absent de la liste des plis déposés (nom mal lu ?)."
+ ],
+ "qualite": "attribution"
+}

@@ -1,0 +1,75 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "722278",
+ "orgAcronyme": "d4q",
+ "reference_pv": null,
+ "nouveau": true,
+ "reference": null,
+ "objet": null,
+ "acheteur": null,
+ "procedure": "appel d'offres ouvert",
+ "categorie": "Travaux",
+ "date_limite_plis": "19/04/2023",
+ "lieu_ouverture": "Siège de la Direction Régionale Daraa-Tafilalet (DRD) Avenue Mohamed VI - Azemmour J'did - Errachidia",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "16/06/2023",
+ "justification": "Moins-disant",
+ "infructueux": false,
+ "attributaire": "RAHAGROV OEES de base",
+ "montant_attribue": 215628.0,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "ART STAM (MICROENTREPRISE) - Offre de",
+   "montant_acte_engagement": 214638.0,
+   "montant_apres_verification": null,
+   "autres_montants": [
+    214638.0
+   ],
+   "lots": [],
+   "statut": "ecarte_dossier_administratif_technique",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "BOUMALNE DADES",
+   "montant_acte_engagement": 139164.0,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_dossier_administratif_technique",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "GESERVEAU",
+   "montant_acte_engagement": 200034.0,
+   "montant_apres_verification": null,
+   "autres_montants": [
+    200034.0
+   ],
+   "lots": [],
+   "statut": "ecarte_dossier_administratif_technique",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "RAHAGROV OEES de base",
+   "montant_acte_engagement": 215628.0,
+   "montant_apres_verification": null,
+   "autres_montants": [
+    215628.0
+   ],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 4,
+ "alertes_ocr": [],
+ "notes_ocr": [
+  "Maître d'ouvrage absent du PV (utiliser l'acheteur public du portail)."
+ ],
+ "qualite": "complet"
+}

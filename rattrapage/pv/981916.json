@@ -1,0 +1,94 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "981916",
+ "orgAcronyme": "a1t",
+ "reference_pv": "30/2026/ADHA",
+ "nouveau": true,
+ "reference": "30/2026/ADHA",
+ "objet": null,
+ "acheteur": "L’AGENCE DE DEVELOPPEMNT DU HAUT ATLAS",
+ "procedure": null,
+ "categorie": "Travaux",
+ "date_limite_plis": "25/02/2026",
+ "lieu_ouverture": "Salle de réunions de l’ADHA, CHWITER",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "03/03/2026",
+ "justification": null,
+ "infructueux": false,
+ "attributaire": "Sté EL BAZ TRAVAUX SARL",
+ "montant_attribue": 4441020.0,
+ "attributaires_par_lot": [
+  {
+   "lot": null,
+   "attributaire": "Sté EL BAZ TRAVAUX SARL",
+   "montant": 4441020.0
+  },
+  {
+   "lot": null,
+   "attributaire": "Sté 2B ATLAS FOR INVESTMENT AND INNOVATION",
+   "montant": 4049262.0
+  },
+  {
+   "lot": null,
+   "attributaire": "Sté ISCOBRA SARL",
+   "montant": 4796592.0
+  }
+ ],
+ "soumissionnaires": [
+  {
+   "nom": "Sté EL BAZ TRAVAUX SARL",
+   "montant_acte_engagement": 4441020.0,
+   "montant_apres_verification": 4441020.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Sté ATLAS DADES SARL",
+   "montant_acte_engagement": 48530.0,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_offre_financiere",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Sté APRO TRAVAUX SARL AU",
+   "montant_acte_engagement": 4142550.0,
+   "montant_apres_verification": 4142550.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Sté 2B ATLAS FOR INVESTMENT AND INNOVATION",
+   "montant_acte_engagement": 4049262.0,
+   "montant_apres_verification": 4049262.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Sté ISCOBRA SARL",
+   "montant_acte_engagement": 4792416.0,
+   "montant_apres_verification": 4796592.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 5,
+ "alertes_ocr": [],
+ "notes_ocr": [
+  "« Sté ISCOBRA SARL » : montant rectifié de 4 792 416.00 à 4 796 592.00 DH."
+ ],
+ "qualite": "complet"
+}

@@ -1,0 +1,124 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "688202",
+ "orgAcronyme": "p8x",
+ "reference_pv": null,
+ "nouveau": true,
+ "reference": null,
+ "objet": null,
+ "acheteur": "Monsieur le directeur provincial à Taroudant",
+ "procedure": null,
+ "categorie": "Travaux",
+ "date_limite_plis": "29/11/2022",
+ "lieu_ouverture": "la salle des réunions à la direction provinciale de Taroudant",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "07/12/2022",
+ "justification": "l’offre la moins disante.",
+ "infructueux": false,
+ "attributaire": "STE YONAZ TRAVAUX",
+ "montant_attribue": 1288908.0,
+ "attributaires_par_lot": [
+  {
+   "lot": null,
+   "attributaire": "STE YONAZ TRAVAUX",
+   "montant": 1288908.0
+  },
+  {
+   "lot": null,
+   "attributaire": "STE PETAVIT TRAVAUX",
+   "montant": 1107775.2
+  },
+  {
+   "lot": null,
+   "attributaire": "STE JAWLANE TRAVAUX",
+   "montant": 937867.2
+  }
+ ],
+ "soumissionnaires": [
+  {
+   "nom": "STE EL BAGHDADI INVESTISSEMENT SARL",
+   "montant_acte_engagement": 1295256.0,
+   "montant_apres_verification": null,
+   "autres_montants": [
+    1295256.0,
+    941632.8
+   ],
+   "lots": [
+    "1",
+    "3"
+   ],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "STE COSUTRAGECO SARL",
+   "montant_acte_engagement": 1315598.4,
+   "montant_apres_verification": null,
+   "autres_montants": [
+    1315598.4
+   ],
+   "lots": [
+    "1"
+   ],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "STE PETAVIT TRAVAUX",
+   "montant_acte_engagement": 1365609.6,
+   "montant_apres_verification": null,
+   "autres_montants": [
+    1365609.6,
+    1107775.2,
+    1222788.0
+   ],
+   "lots": [
+    "1",
+    "2",
+    "3"
+   ],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "STE JAWLANE TRAVAUX",
+   "montant_acte_engagement": 1328770.8,
+   "montant_apres_verification": null,
+   "autres_montants": [
+    1328770.8,
+    1113132.0,
+    964387.2
+   ],
+   "lots": [
+    "1",
+    "2",
+    "3"
+   ],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "STE YONAZ TRAVAUX",
+   "montant_acte_engagement": 1288908.0,
+   "montant_apres_verification": null,
+   "autres_montants": [
+    1288908.0
+   ],
+   "lots": [
+    "1"
+   ],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 5,
+ "alertes_ocr": [],
+ "notes_ocr": [
+  "Marché alloti (3 lots)."
+ ],
+ "qualite": "complet"
+}

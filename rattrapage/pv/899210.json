@@ -1,0 +1,84 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "899210",
+ "orgAcronyme": "p1v",
+ "reference_pv": "01/2025/CZ",
+ "nouveau": true,
+ "reference": "01/2025/CZ",
+ "objet": "TRAVAUX D'AMENAGEMENT DE VOIRIE ET D'ASSAINISSEMENT DE LA ZONE",
+ "acheteur": null,
+ "procedure": null,
+ "categorie": "Travaux",
+ "date_limite_plis": null,
+ "lieu_ouverture": "Siège de la commune de Zemamra",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "21/05/2025",
+ "justification": null,
+ "infructueux": false,
+ "attributaire": "STE GMT NEW LIGHTING",
+ "montant_attribue": 17781804.0,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "Ste VALTECH — RABAT",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Ste GMT NEW LIGHTING",
+   "montant_acte_engagement": 17781804.0,
+   "montant_apres_verification": 17781804.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Groupements de la STE MESKI DES TRAVAUX DIVER",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "UNIVERS TRAVAUX ROUTIERS P RER",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_dossier_administratif_technique",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "<conjoint>",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_dossier_administratif_technique",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 5,
+ "alertes_ocr": [
+  "« Ste GMT NEW LIGHTING » absent de la liste des plis déposés (nom mal lu ?)."
+ ],
+ "notes_ocr": [
+  "« Ste VALTECH — RABAT » absent de la liste des plis déposés (nom mal lu ?).",
+  "« Groupements de la STE MESKI DES TRAVAUX DIVER » absent de la liste des plis déposés (nom mal lu ?).",
+  "« UNIVERS TRAVAUX ROUTIERS P RER » absent de la liste des plis déposés (nom mal lu ?).",
+  "« <conjoint> » absent de la liste des plis déposés (nom mal lu ?).",
+  "Maître d'ouvrage absent du PV (utiliser l'acheteur public du portail)."
+ ],
+ "qualite": "attribution"
+}

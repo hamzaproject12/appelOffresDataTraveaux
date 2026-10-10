@@ -1,0 +1,142 @@
+{
+ "source": "extrait_docx",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "675030",
+ "orgAcronyme": "a1z",
+ "reference_pv": null,
+ "nouveau": true,
+ "reference": null,
+ "objet": "travaux de construction de la voie d’aménagement AS 31",
+ "acheteur": null,
+ "procedure": null,
+ "categorie": "Travaux",
+ "date_limite_plis": "30/08/2022",
+ "lieu_ouverture": "la salle des réunions de la Commune de Casablanca, sise place Mohamed V, Avenue Hassan II, 2éme étage, bureau 55",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "20/09/2022",
+ "justification": "l’offre la plus avantageuse.",
+ "infructueux": false,
+ "attributaire": "Société Construction et Travaux Routiers (CTR)",
+ "montant_attribue": 7525922.4,
+ "attributaires_par_lot": [
+  {
+   "lot": null,
+   "attributaire": "Société Construction et Travaux Routiers (CTR)",
+   "montant": 7525922.4
+  },
+  {
+   "lot": "unique",
+   "attributaire": "Société Construction et Travaux Routiers (CTR)",
+   "montant": 7525922.4
+  }
+ ],
+ "soumissionnaires": [
+  {
+   "nom": "Société Construction et Travaux Routiers (CTR)",
+   "montant_acte_engagement": 7525922.4,
+   "montant_apres_verification": 8687700.0,
+   "autres_montants": [],
+   "lots": [
+    "unique"
+   ],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Société STAPORT",
+   "montant_acte_engagement": 8691841.2,
+   "montant_apres_verification": 9567540.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Société Nice Travaux",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_offre_technique",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Société VIAS",
+   "montant_acte_engagement": 9670495.2,
+   "montant_apres_verification": 7525922.4,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Société les Grands Chantiers Routiers GCR",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "depose",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Société KOUFACHA ROUTIERS",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_offre_technique",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Société CAMPEZO",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_offre_technique",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Société Nouvelle Des Travaux Routiers Et Ouvrages (SNTRO)",
+   "montant_acte_engagement": 8687700.0,
+   "montant_apres_verification": 8687700.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Société ENTISEGE",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_dossier_administratif_technique",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Société GCR",
+   "montant_acte_engagement": 9567540.0,
+   "montant_apres_verification": 9670495.2,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 10,
+ "alertes_ocr": [
+  "« Société GCR » absent de la liste des plis déposés (nom mal lu ?)."
+ ],
+ "notes_ocr": [
+  "« Société Construction et Travaux Routiers (CTR) » : montant rectifié de 7 525 922.40 à 8 687 700.00 DH.",
+  "« Société STAPORT » : montant rectifié de 8 691 841.20 à 9 567 540.00 DH.",
+  "« Société VIAS » : montant rectifié de 9 670 495.20 à 7 525 922.40 DH.",
+  "« Société GCR » : montant rectifié de 9 567 540.00 à 9 670 495.20 DH.",
+  "Maître d'ouvrage absent du PV (utiliser l'acheteur public du portail)."
+ ],
+ "qualite": "complet"
+}

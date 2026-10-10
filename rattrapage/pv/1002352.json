@@ -1,0 +1,58 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "1002352",
+ "orgAcronyme": "j0w",
+ "reference_pv": "05/2026/5R-H",
+ "nouveau": true,
+ "reference": "05/2026/5R-H",
+ "objet": "ADDUCTION D'EAU POTABLE : TRAVAUX DE FORAGE DES PUITS ET CONSTRUCTION D'UN CHATEAUX D'EAUDE 25 M3",
+ "acheteur": "commune laattaouia",
+ "procedure": "appel d'offres ouvert",
+ "categorie": "Travaux",
+ "date_limite_plis": "02/04/2026",
+ "lieu_ouverture": "salle des réunions de la commune laattaouia",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": null,
+ "justification": "L'offre la plus avantageuse.",
+ "infructueux": false,
+ "attributaire": "STE HAJ DUIRI SOHADU sarl",
+ "montant_attribue": 678265.2,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "STE STE SFTGC sarl",
+   "montant_acte_engagement": 739356.0,
+   "montant_apres_verification": 739356.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "STE ROKBI SONDAGE sarl au",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_dossier_administratif_technique",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "STE HAJ DUIRI SOHADU sarl",
+   "montant_acte_engagement": 678265.2,
+   "montant_apres_verification": 678265.2,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 3,
+ "alertes_ocr": [],
+ "notes_ocr": [],
+ "qualite": "complet"
+}

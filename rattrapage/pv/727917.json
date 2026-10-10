@@ -1,0 +1,79 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "727917",
+ "orgAcronyme": "q1s",
+ "reference_pv": "01/2023",
+ "nouveau": true,
+ "reference": "01/2023",
+ "objet": "TRAVAUX D’AMENAGEMENT DES BATIMENTS ADMINISTRATIFS DE LA DIRECTION PROVINCIALE DE L'AGRICULTURE D’AZILAL",
+ "acheteur": "Directeur Provincial de l’Agriculture d’Azilal",
+ "procedure": null,
+ "categorie": "Travaux",
+ "date_limite_plis": null,
+ "lieu_ouverture": "la salle de réunion de la Direction Provinciale de l'Agriculture d’Azilal _- LIBERATION (En Français ) du 12/04/2023 n° 9895",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": null,
+ "justification": null,
+ "infructueux": false,
+ "attributaire": "STE. REGIONALE DES GRANDS CHANTIERS ROUTIERS",
+ "montant_attribue": null,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "Ste TAGOUNT BUILDING",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_dossier_administratif_technique",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "STE MULTIPOSE RAKIB",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_offre_financiere",
+   "admis_avec_reserve": true
+  },
+  {
+   "nom": "STE M.Z WORK SARL",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": true
+  },
+  {
+   "nom": "STE LD WORKS",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": true
+  },
+  {
+   "nom": "STE. REGIONALE DES GRANDS CHANTIERS ROUTIERS",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 5,
+ "alertes_ocr": [
+  "« STE. REGIONALE DES GRANDS CHANTIERS ROUTIERS » absent de la liste des plis déposés (nom mal lu ?).",
+  "Montant de l'attributaire « STE. REGIONALE DES GRANDS CHANTIERS ROUTIERS » non trouvé."
+ ],
+ "notes_ocr": [],
+ "qualite": "participants"
+}

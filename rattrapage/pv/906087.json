@@ -1,0 +1,81 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "906087",
+ "orgAcronyme": "q1s",
+ "reference_pv": "34/2025/SOREC",
+ "nouveau": true,
+ "reference": "34/2025/SOREC",
+ "objet": "Achèvement des travaux de moustiquaire, grillage et dallage au niveau du CEH Bouskoura",
+ "acheteur": null,
+ "procedure": null,
+ "categorie": "Travaux",
+ "date_limite_plis": "26/05/2025",
+ "lieu_ouverture": "Bureaux du siège de la Société Royale d’Encouragement du Cheval (SOREC) sise à ZENITH RABAT — Angle Rocade de Rabat et rue Aït Malek",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "03/06/2025",
+ "justification": "le concurrent ayant présenté l’offre la mieux disante.",
+ "infructueux": false,
+ "attributaire": "METANSIFT",
+ "montant_attribue": 135300.0,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "LE PALIER",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_dossier_administratif_technique",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "MASTERTRAV",
+   "montant_acte_engagement": 158340.0,
+   "montant_apres_verification": 158340.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "METANSIFT",
+   "montant_acte_engagement": 135300.0,
+   "montant_apres_verification": 135300.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "FTCN SARL",
+   "montant_acte_engagement": 125130.0,
+   "montant_apres_verification": 92730.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "S.A au Capital de 15868060 - Siège Social",
+   "montant_acte_engagement": 68145.0,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 5,
+ "alertes_ocr": [
+  "« S.A au Capital de 15868060 - Siège Social » absent de la liste des plis déposés (nom mal lu ?)."
+ ],
+ "notes_ocr": [
+  "« FTCN SARL » : montant rectifié de 125 130.00 à 92 730.00 DH.",
+  "Maître d'ouvrage absent du PV (utiliser l'acheteur public du portail)."
+ ],
+ "qualite": "complet"
+}

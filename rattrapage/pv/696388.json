@@ -1,0 +1,58 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "696388",
+ "orgAcronyme": "g3h",
+ "reference_pv": "01/A/2023",
+ "nouveau": true,
+ "reference": "01/A/2023",
+ "objet": "TRAVAUX DE RACCORDEMENT DE LA ZONE D'EXTENSION MARJANE DANS LA VILLE D'OUJDA COLLECTEUR PRINCIPAL MARJANE",
+ "acheteur": "RADEEO",
+ "procedure": null,
+ "categorie": "Travaux",
+ "date_limite_plis": "08/02/2023",
+ "lieu_ouverture": "salle de réunion de la RADEEO",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "23/02/2023",
+ "justification": "» Offre la plus avantageuse (offre moins disante)",
+ "infructueux": false,
+ "attributaire": "SOCIETE OUJDA CHAUFFAGE",
+ "montant_attribue": 1372585.5,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "SOCIETE GREEN CODE",
+   "montant_acte_engagement": 1412546.86,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "SOCIETE OUJDA CHAUFFAGE",
+   "montant_acte_engagement": 1372585.5,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Entreprise EL HAMDANI HASSAN",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_offre_technique",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 3,
+ "alertes_ocr": [],
+ "notes_ocr": [],
+ "qualite": "complet"
+}

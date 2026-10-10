@@ -1,0 +1,72 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "935192",
+ "orgAcronyme": "d4q",
+ "reference_pv": "34/DR3/2025",
+ "nouveau": true,
+ "reference": "34/DR3/2025",
+ "objet": "relatif à",
+ "acheteur": null,
+ "procedure": "appel d'offres ouvert",
+ "categorie": "Travaux",
+ "date_limite_plis": "07/08/2025",
+ "lieu_ouverture": "au siège de la Direction Régionale du Centre (DR3) Boulevard Mohamed VI, Quartier Administratif - Khouribga - Maroc",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "30/09/2025",
+ "justification": "Moins-disant",
+ "infructueux": false,
+ "attributaire": "reconductible pour année (5) SOTRACOAS",
+ "montant_attribue": 415620.0,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "GROUP IYSS CONSTRUCTION / ASTRAM",
+   "montant_acte_engagement": 536856.0,
+   "montant_apres_verification": 536856.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "HDB TRAVAUX",
+   "montant_acte_engagement": 591864.0,
+   "montant_apres_verification": 591864.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "SANT ASSAINISSEMENT",
+   "montant_acte_engagement": 794088.0,
+   "montant_apres_verification": 794088.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "reconductible pour année (5) SOTRACOAS",
+   "montant_acte_engagement": 777415.0,
+   "montant_apres_verification": 7415620.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 4,
+ "alertes_ocr": [
+  "« reconductible pour année (5) SOTRACOAS » : écart anormal entre montant initial et vérifié (lecture à vérifier)."
+ ],
+ "notes_ocr": [
+  "« reconductible pour année (5) SOTRACOAS » : montant rectifié de 777 415.00 à 7 415 620.00 DH.",
+  "Maître d'ouvrage absent du PV (utiliser l'acheteur public du portail)."
+ ],
+ "qualite": "complet"
+}

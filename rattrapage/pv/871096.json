@@ -1,0 +1,162 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "871096",
+ "orgAcronyme": "g3h",
+ "reference_pv": "01/2024",
+ "nouveau": true,
+ "reference": "01/2024",
+ "objet": "Travaux d’aménagement des boulevards au niveau de la ville de Fès -Wilaya de la Région Fès Meknès en quatre lots",
+ "acheteur": null,
+ "procedure": "appel d'offres ouvert",
+ "categorie": "Travaux",
+ "date_limite_plis": null,
+ "lieu_ouverture": "les bureaux de la « Société Fès Région ménagement »",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": null,
+ "justification": "l’offre la plus avantageuse pour l’ Administration Date de l’achèvement des travaux de la commission : le 04 Février 2025,",
+ "infructueux": false,
+ "attributaire": "Société les Grands Travaux Routiers GTR à Casablanca",
+ "montant_attribue": 111182460.0,
+ "attributaires_par_lot": [
+  {
+   "lot": "1",
+   "attributaire": "Société les Grands Travaux Routiers GTR à Casablanca",
+   "montant": 111182460.0
+  },
+  {
+   "lot": "2",
+   "attributaire": "Société VIAS à Casablanca",
+   "montant": 116360475.6
+  },
+  {
+   "lot": "3",
+   "attributaire": "Société NGE CONTRACTING SA à Casablanca",
+   "montant": 104684059.2
+  }
+ ],
+ "soumissionnaires": [
+  {
+   "nom": "Société VIAS à Casablanca",
+   "montant_acte_engagement": 112193209.2,
+   "montant_apres_verification": 112193209.2,
+   "autres_montants": [
+    116360475.6,
+    106124666.4,
+    107791259.64
+   ],
+   "lots": [
+    "1",
+    "2",
+    "3",
+    "4"
+   ],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Société les Grands Travaux Routiers GTR à Casablanca",
+   "montant_acte_engagement": 111182460.0,
+   "montant_apres_verification": 111182460.0,
+   "autres_montants": [
+    117633333.6,
+    105644464.2,
+    107673668.4
+   ],
+   "lots": [
+    "1",
+    "2",
+    "3",
+    "4"
+   ],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Société GROUPE MOJAZINE (S.A) à Casablanca",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [
+    "1",
+    "2",
+    "3"
+   ],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Temarra",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [
+    "1",
+    "2",
+    "3"
+   ],
+   "statut": "ecarte_offre_financiere",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Société NGE CONTRACTING SA à Casablanca",
+   "montant_acte_engagement": 113709333.6,
+   "montant_apres_verification": 113709333.6,
+   "autres_montants": [
+    118800120.6,
+    106811337.6
+   ],
+   "lots": [
+    "1",
+    "2",
+    "3",
+    "4"
+   ],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "[I LS Y AN",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [
+    "3"
+   ],
+   "statut": "depose",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "AOO N° 01/2024 FRA-TRVX SR",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [
+    "3"
+   ],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Groupement entre la Société BGI Construction et EUROLOGISTIQUE SARL à",
+   "montant_acte_engagement": 115242943.2,
+   "montant_apres_verification": 115242943.2,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 8,
+ "alertes_ocr": [
+  "« Groupement entre la Société BGI Construction et EUROLOGISTIQUE SARL à » absent de la liste des plis déposés (nom mal lu ?)."
+ ],
+ "notes_ocr": [
+  "Marché alloti (4 lots).",
+  "Maître d'ouvrage absent du PV (utiliser l'acheteur public du portail)."
+ ],
+ "qualite": "complet"
+}

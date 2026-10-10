@@ -1,0 +1,89 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "887517",
+ "orgAcronyme": "h5j",
+ "reference_pv": "130/2024/BAT",
+ "nouveau": true,
+ "reference": "130/2024/BAT",
+ "objet": null,
+ "acheteur": "Délégation Générale à l'Administration Pénitentiaire et à la Réinsertion",
+ "procedure": "appel d'offres ouvert international",
+ "categorie": "Travaux",
+ "date_limite_plis": "17/12/2024",
+ "lieu_ouverture": "Siège de la Délégation Générale à l'Administration Pénitentiaire et à la Réinsertion à Angle Avenue AL Araar et Rue Al Jaouz, Hay Riad-Rabat - 1er étage",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "15/04/2025",
+ "justification": "Offre économiquement la plus avantageuse",
+ "infructueux": true,
+ "attributaire": "HICTRAV SARL AU",
+ "montant_attribue": 5723442.0,
+ "attributaires_par_lot": [
+  {
+   "lot": null,
+   "attributaire": "HICTRAV SARL AU",
+   "montant": 5723442.0
+  },
+  {
+   "lot": "2",
+   "attributaire": "ACHRAF CLIM S.A.R.L",
+   "montant": 5661324.0
+  },
+  {
+   "lot": "3",
+   "attributaire": "HICTRAV SARL AU",
+   "montant": 5673798.0
+  }
+ ],
+ "soumissionnaires": [
+  {
+   "nom": "ACHRAF CLIM S.A.R.L",
+   "montant_acte_engagement": 5735228.4,
+   "montant_apres_verification": null,
+   "autres_montants": [
+    5661324.0,
+    5726300.4
+   ],
+   "lots": [
+    "2"
+   ],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "SGETEC SARL",
+   "montant_acte_engagement": 5630209.2,
+   "montant_apres_verification": null,
+   "autres_montants": [
+    5601780.0
+   ],
+   "lots": [],
+   "statut": "ecarte_offre_financiere",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "HICTRAV SARL AU",
+   "montant_acte_engagement": 5723442.0,
+   "montant_apres_verification": null,
+   "autres_montants": [
+    5639394.0,
+    5673798.0,
+    5812464.0
+   ],
+   "lots": [
+    "3"
+   ],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 3,
+ "alertes_ocr": [],
+ "notes_ocr": [
+  "Marché alloti (2 lots)."
+ ],
+ "qualite": "complet"
+}

@@ -1,0 +1,84 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "902923",
+ "orgAcronyme": "g3h",
+ "reference_pv": "05/2025/INDH",
+ "nouveau": true,
+ "reference": "05/2025/INDH",
+ "objet": null,
+ "acheteur": "Province d'Es-semara",
+ "procedure": "appel d'offres ouvert",
+ "categorie": "Travaux",
+ "date_limite_plis": "30/05/2025",
+ "lieu_ouverture": null,
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "03/06/2025",
+ "justification": "l'offre la plus avantageuse",
+ "infructueux": false,
+ "attributaire": "EL2 STE GACHBA TRAVAUX",
+ "montant_attribue": 249300.0,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "EL1 STE AMJAD TRAVAUX",
+   "montant_acte_engagement": 245544.0,
+   "montant_apres_verification": null,
+   "autres_montants": [
+    245544.0
+   ],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "EL2 STE GACHBA TRAVAUX",
+   "montant_acte_engagement": 249300.0,
+   "montant_apres_verification": null,
+   "autres_montants": [
+    249300.0
+   ],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "EL3 STE AQUA SALZARO",
+   "montant_acte_engagement": 250116.0,
+   "montant_apres_verification": null,
+   "autres_montants": [
+    252216.0
+   ],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "ELA EURO TD SAHARA",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_offre_financiere",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "EL5 STE CHAJAA",
+   "montant_acte_engagement": 250248.0,
+   "montant_apres_verification": null,
+   "autres_montants": [
+    250248.0
+   ],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 5,
+ "alertes_ocr": [],
+ "notes_ocr": [],
+ "qualite": "complet"
+}

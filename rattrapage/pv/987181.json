@@ -1,0 +1,79 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "987181",
+ "orgAcronyme": "d4q",
+ "reference_pv": null,
+ "nouveau": true,
+ "reference": null,
+ "objet": "Construction d’une nouvelle ligne 60 kV en simple terne pour le renforcement de l'alimentation électrique du poste 60/22 kV ONDA BENSLIMANE",
+ "acheteur": null,
+ "procedure": null,
+ "categorie": "Travaux",
+ "date_limite_plis": "17/02/2026",
+ "lieu_ouverture": "Direction DAM 65, Rue Othman Ben Affan 20000 Casablanca",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": null,
+ "justification": "moins-disant conforme",
+ "infructueux": false,
+ "attributaire": "LUMAFRIC",
+ "montant_attribue": 21816480.0,
+ "attributaires_par_lot": [
+  {
+   "lot": null,
+   "attributaire": "LUMAFRIC",
+   "montant": 21816480.0
+  },
+  {
+   "lot": null,
+   "attributaire": "BUTEC ENERGIES & SERVICES",
+   "montant": 22292754.28
+  },
+  {
+   "lot": null,
+   "attributaire": "SERF",
+   "montant": 18233232.0
+  }
+ ],
+ "soumissionnaires": [
+  {
+   "nom": "LUMAFRIC",
+   "montant_acte_engagement": 21816480.0,
+   "montant_apres_verification": 21816480.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "BUTEC ENERGIES & SERVICES",
+   "montant_acte_engagement": 22292754.24,
+   "montant_apres_verification": 22292754.28,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "SERF",
+   "montant_acte_engagement": 18233232.0,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 3,
+ "alertes_ocr": [
+  "« SERF » absent de la liste des plis déposés (nom mal lu ?)."
+ ],
+ "notes_ocr": [
+  "« BUTEC ENERGIES & SERVICES » : montant rectifié de 22 292 754.24 à 22 292 754.28 DH.",
+  "Maître d'ouvrage absent du PV (utiliser l'acheteur public du portail)."
+ ],
+ "qualite": "attribution"
+}

@@ -1,0 +1,42 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "771784",
+ "orgAcronyme": "l1f",
+ "reference_pv": "03/2023",
+ "nouveau": true,
+ "reference": "03/2023",
+ "objet": null,
+ "acheteur": "Conseil Provincial Fahs-Anjra",
+ "procedure": "appel d'offres ouvert",
+ "categorie": "Travaux",
+ "date_limite_plis": "17/01/2024",
+ "lieu_ouverture": null,
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "29/01/2024",
+ "justification": "Avoir l’offre la plus avantageuse après satisfaction des précisions demandées par la commission d’appel d’offres.",
+ "infructueux": false,
+ "attributaire": "Sté ALPHA PROCESS sarl",
+ "montant_attribue": 1387707.06,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "Sté ALPHA PROCESS sarl",
+   "montant_acte_engagement": 1387707.06,
+   "montant_apres_verification": 1387707.06,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 1,
+ "alertes_ocr": [
+  "« Sté ALPHA PROCESS sarl » absent de la liste des plis déposés (nom mal lu ?)."
+ ],
+ "notes_ocr": [],
+ "qualite": "attribution"
+}

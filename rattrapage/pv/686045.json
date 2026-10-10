@@ -1,0 +1,89 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "686045",
+ "orgAcronyme": "g3h",
+ "reference_pv": "13/DBM/BG/2022",
+ "nouveau": true,
+ "reference": "13/DBM/BG/2022",
+ "objet": "Travaux de création d’une piscine couverte à la ville d’El Aioun Sidi Mellouk- Province de Taourirt",
+ "acheteur": "Province de Taourirt",
+ "procedure": "appel d'offres ouvert",
+ "categorie": "Travaux",
+ "date_limite_plis": "26/09/2022",
+ "lieu_ouverture": "Salle de réunion de la Province de Taourirt",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "04/10/2022",
+ "justification": "le candidat retenu a présenté les capacités techniques et financières suffisantes et son offre est la plus avantageuse.",
+ "infructueux": false,
+ "attributaire": " Société PROMOCAB TRAV SARL",
+ "montant_attribue": 11764122.0,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": " Société NAMAE D’ÉQUIPEMENT ET DE CONSTRUCTION SARL",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_offre_financiere",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "MOHAMMED V- VN - Fès",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_offre_financiere",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": " Société PROMOCAB TRAV SARL",
+   "montant_acte_engagement": 11764122.0,
+   "montant_apres_verification": 11764122.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": " Société ATOURRATE SARL",
+   "montant_acte_engagement": 12634556.0,
+   "montant_apres_verification": 12641756.4,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_offre_financiere",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "17 Atlas-Fès",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_offre_financiere",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "CONSTRUCTION SARL",
+   "montant_acte_engagement": 12094044.0,
+   "montant_apres_verification": 12094044.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 6,
+ "alertes_ocr": [
+  "« CONSTRUCTION SARL » absent de la liste des plis déposés (nom mal lu ?)."
+ ],
+ "notes_ocr": [
+  "«  Société ATOURRATE SARL » : montant rectifié de 12 634 556.00 à 12 641 756.40 DH."
+ ],
+ "qualite": "complet"
+}

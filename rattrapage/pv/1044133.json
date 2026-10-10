@@ -1,0 +1,69 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "1044133",
+ "orgAcronyme": "g3h",
+ "reference_pv": "10008507",
+ "nouveau": true,
+ "reference": "10008507",
+ "objet": "Travaux de réalisation des branchements en eau potable dans la province de JERADA",
+ "acheteur": null,
+ "procedure": null,
+ "categorie": "Travaux",
+ "date_limite_plis": "10/09/2026",
+ "lieu_ouverture": "Siège DP Jerada de la SRM-ORI",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "29/09/2026",
+ "justification": "Offre moins-disante conforme.",
+ "infructueux": false,
+ "attributaire": "STE BOUDYAMAN HYDRO-ELEC Sarl",
+ "montant_attribue": 869160.0,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "STE ANOUAR DES TRAVAUX HYDRAULIQUES ET BATIMENTS",
+   "montant_acte_engagement": 868960.09,
+   "montant_apres_verification": 868960.09,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "STE ZAHINDUSTRIELLE SARL",
+   "montant_acte_engagement": 898920.0,
+   "montant_apres_verification": 898920.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": true
+  },
+  {
+   "nom": "STE ABBEAUX TRAVAUX HYDRAULIQUES",
+   "montant_acte_engagement": 898800.0,
+   "montant_apres_verification": 898800.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "STE BOUDYAMAN HYDRO-ELEC Sarl",
+   "montant_acte_engagement": 869160.0,
+   "montant_apres_verification": 869160.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 4,
+ "alertes_ocr": [],
+ "notes_ocr": [
+  "Maître d'ouvrage absent du PV (utiliser l'acheteur public du portail)."
+ ],
+ "qualite": "complet"
+}

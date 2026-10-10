@@ -1,0 +1,102 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "687780",
+ "orgAcronyme": "d4q",
+ "reference_pv": null,
+ "nouveau": true,
+ "reference": null,
+ "objet": "Insertion et remplacement des IACM pour le réseau HTA de la Direction Provinciale Distribution TIZNIT Indication Objet du lot Date et Date Concurrent Montant de du lot heure d'achèvement retenu l'offre",
+ "acheteur": null,
+ "procedure": null,
+ "categorie": "Travaux",
+ "date_limite_plis": "01/12/2022",
+ "lieu_ouverture": "ONEE-BE / Siège Direction Régionale Distribution Agadir",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "29/12/2022",
+ "justification": "L'offre proposée par le soumissionnaire « ENTREPRISE POLYVALENTE D'ELECTRICITE ET DE CONSTRUCTION (EPELCO) » s’écarte d’un taux acceptable de +4,30% par rapport à l'estimation,",
+ "infructueux": false,
+ "attributaire": "ENTREPRISE POLYVALENTE D'ELECTRICITE ET DE CONSTRUCTION (EPELCO)",
+ "montant_attribue": 613900.8,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "ENTREPRISE POLYVALENTE D'ELECTRICITE ET DE CONSTRUCTION (EPELCO)",
+   "montant_acte_engagement": 613900.8,
+   "montant_apres_verification": 613900.8,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": true
+  },
+  {
+   "nom": "CONSTRUCTION (EPELCO), SOCIETE MAYEC, SOCIETE DARAA ENERGY, SOCIETE MSSIOUA TRAVAUX DIVERS",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": true
+  },
+  {
+   "nom": "SOCIETE GRUND SARL, SOCIETE SODRAR et SOCIETE OUHAFID TRAVAUX",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_offre_financiere",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "SOCIETE MAYEC",
+   "montant_acte_engagement": 636787.2,
+   "montant_apres_verification": 636787.2,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "SOCIETE DARAA ENERGY",
+   "montant_acte_engagement": 650356.8,
+   "montant_apres_verification": 650356.8,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "SOCIETE MSSIOUA TRAVAUX DIVERS",
+   "montant_acte_engagement": 670746.0,
+   "montant_apres_verification": 670468.8,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "SOCIETE ELEC BOURICHE",
+   "montant_acte_engagement": 683781.6,
+   "montant_apres_verification": 683781.6,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 7,
+ "alertes_ocr": [
+  "« SOCIETE MAYEC » absent de la liste des plis déposés (nom mal lu ?).",
+  "« SOCIETE DARAA ENERGY » absent de la liste des plis déposés (nom mal lu ?).",
+  "« SOCIETE MSSIOUA TRAVAUX DIVERS » absent de la liste des plis déposés (nom mal lu ?).",
+  "« SOCIETE ELEC BOURICHE » absent de la liste des plis déposés (nom mal lu ?)."
+ ],
+ "notes_ocr": [
+  "« SOCIETE MSSIOUA TRAVAUX DIVERS » : montant rectifié de 670 746.00 à 670 468.80 DH.",
+  "Maître d'ouvrage absent du PV (utiliser l'acheteur public du portail)."
+ ],
+ "qualite": "complet"
+}

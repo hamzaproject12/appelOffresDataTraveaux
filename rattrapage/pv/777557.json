@@ -1,0 +1,119 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "777557",
+ "orgAcronyme": "d4q",
+ "reference_pv": "09/AE/2024",
+ "nouveau": true,
+ "reference": "09/AE/2024",
+ "objet": "*Lot n°1 : Tavaux de renouvellement, de mise à niveau et de renforcement du réseau d’eau potable",
+ "acheteur": "s RADEE.TA",
+ "procedure": null,
+ "categorie": "Travaux",
+ "date_limite_plis": "14/02/2024",
+ "lieu_ouverture": "Siège de la RADEE.TA",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "28/02/2024",
+ "justification": "- Dossiers administratif, technique et offre FF technique. - Offre avantageuse répondant aux critères d'évaluation.",
+ "infructueux": false,
+ "attributaire": "Société MWKC Rabaïs",
+ "montant_attribue": 11239029.36,
+ "attributaires_par_lot": [
+  {
+   "lot": "1",
+   "attributaire": "Société MWKC Rabaïs",
+   "montant": 11239029.36
+  },
+  {
+   "lot": "2",
+   "attributaire": "Société SOUSALIO",
+   "montant": 10211594.12
+  }
+ ],
+ "soumissionnaires": [
+  {
+   "nom": "offre 4. Société ARGUE ENTREPRISE",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "depose",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "réserve 4. Société HOLDING AL BARAKA",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Société SRTHYG-BTP is",
+   "montant_acte_engagement": 9606008.0,
+   "montant_apres_verification": null,
+   "autres_montants": [
+    10605032.83
+   ],
+   "lots": [
+    "1"
+   ],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Société MWKC Rabaïs",
+   "montant_acte_engagement": 11239029.36,
+   "montant_apres_verification": null,
+   "autres_montants": [
+    10107394.18
+   ],
+   "lots": [
+    "1",
+    "2"
+   ],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Société HOLDING",
+   "montant_acte_engagement": 11527209.6,
+   "montant_apres_verification": 12380223.11,
+   "autres_montants": [
+    10419994.0
+   ],
+   "lots": [
+    "1",
+    "2"
+   ],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Société SOUSALIO",
+   "montant_acte_engagement": 10211594.12,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [
+    "2"
+   ],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 6,
+ "alertes_ocr": [
+  "« Société MWKC Rabaïs » absent de la liste des plis déposés (nom mal lu ?).",
+  "« Société HOLDING » absent de la liste des plis déposés (nom mal lu ?).",
+  "« Société SOUSALIO » absent de la liste des plis déposés (nom mal lu ?)."
+ ],
+ "notes_ocr": [
+  "« Société HOLDING » : montant rectifié de 11 527 209.60 à 12 380 223.11 DH.",
+  "Marché alloti (2 lots)."
+ ],
+ "qualite": "complet"
+}

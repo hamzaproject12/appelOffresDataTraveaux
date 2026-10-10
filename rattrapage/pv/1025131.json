@@ -1,0 +1,60 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "1025131",
+ "orgAcronyme": "z9k",
+ "reference_pv": "09/BP/2026",
+ "nouveau": true,
+ "reference": "09/BP/2026",
+ "objet": "TRAVAUX DE CONSTRUCTION DES PISTES ET ROUTES DANS LE TERRITOIRE DE LA COMMUNE KHALFIA",
+ "acheteur": "Conseil Provincial de Fquih Ben Salah",
+ "procedure": "appel d'offres ouvert national",
+ "categorie": "Travaux",
+ "date_limite_plis": "09/07/2026",
+ "lieu_ouverture": "le bureau de Président du Conseil Provincial de Fquih Ben Salah",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "16/07/2026",
+ "justification": "STE R2J PRO SARL, AU, N° 98 lotissement EL HIDAOUI EL ATTAOUIA, EL KELAA SERAGHNA, Maroc. Pour un montant de : 5 866 572,00 Dhs. (Cinq Million Huit Cent Soixante Six Mille Cinq Cent Soixante Douze Dhs 00 cts. ayant présenté l'offre la plus avantageuse économiquement.",
+ "infructueux": false,
+ "attributaire": "STE R2.J PRO SARL, AU, N° 98 lotissement EL HIDAOUI EL ATTAOUIA, EL KELAA SERAGHNA, Maroc",
+ "montant_attribue": 5866572.0,
+ "attributaires_par_lot": [
+  {
+   "lot": null,
+   "attributaire": "STE R2.J PRO SARL, AU, N° 98 lotissement EL HIDAOUI EL ATTAOUIA, EL KELAA SERAGHNA, Maroc",
+   "montant": 5866572.0
+  },
+  {
+   "lot": null,
+   "attributaire": "STE ALJANOUB ACHARKI, KSAR SKOURA CR ASZ ERFOUD, ERRACHIDIA, Maroc",
+   "montant": 5907300.0
+  }
+ ],
+ "soumissionnaires": [
+  {
+   "nom": "STE R2.J PRO SARL, AU, N° 98 lotissement EL HIDAOUI EL ATTAOUIA, EL KELAA SERAGHNA, Maroc",
+   "montant_acte_engagement": 5866572.0,
+   "montant_apres_verification": 5866572.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "STE ALJANOUB ACHARKI, KSAR SKOURA CR ASZ ERFOUD, ERRACHIDIA, Maroc",
+   "montant_acte_engagement": 5907300.0,
+   "montant_apres_verification": 5907300.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": true
+  }
+ ],
+ "nombre_soumissionnaires": 2,
+ "alertes_ocr": [],
+ "notes_ocr": [],
+ "qualite": "attribution"
+}

@@ -1,0 +1,109 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "850798",
+ "orgAcronyme": "a1z",
+ "reference_pv": "61/24",
+ "nouveau": true,
+ "reference": "61/24",
+ "objet": "Travaux de Forage et d’équipement de Puits et Aménagement et Construction de Bâches a eaux dans Les Parcs, Jardins Espaces Verts Vois Publiques de Casablanca en Quatre Lots Sépares",
+ "acheteur": null,
+ "procedure": null,
+ "categorie": "Travaux",
+ "date_limite_plis": "25/07/2024",
+ "lieu_ouverture": "la salle des réunions de la Commune de Casablanca, sise place Mohamed V, Avenue Hassan IL, 2ème étage, bureau 38",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": null,
+ "justification": null,
+ "infructueux": false,
+ "attributaire": null,
+ "montant_attribue": null,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "A DR RP NE SOS",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "TIZINTE FARKHINE",
+   "montant_acte_engagement": 2139849.84,
+   "montant_apres_verification": null,
+   "autres_montants": [
+    1502700.0
+   ],
+   "lots": [
+    "1",
+    "2"
+   ],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "AMAR TRAVAUX ET SERVICE",
+   "montant_acte_engagement": 2138220.0,
+   "montant_apres_verification": null,
+   "autres_montants": [
+    1713480.0,
+    1497480.0
+   ],
+   "lots": [
+    "1",
+    "2",
+    "4"
+   ],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "CAGP INVEST",
+   "montant_acte_engagement": 2222880.0,
+   "montant_apres_verification": null,
+   "autres_montants": [
+    1757520.0
+   ],
+   "lots": [
+    "1",
+    "2",
+    "4"
+   ],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "NOUVSCOM",
+   "montant_acte_engagement": 1959600.0,
+   "montant_apres_verification": null,
+   "autres_montants": [
+    1723200.0
+   ],
+   "lots": [
+    "1",
+    "2"
+   ],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 5,
+ "alertes_ocr": [
+  "« TIZINTE FARKHINE » absent de la liste des plis déposés (nom mal lu ?).",
+  "« AMAR TRAVAUX ET SERVICE » absent de la liste des plis déposés (nom mal lu ?).",
+  "« CAGP INVEST » absent de la liste des plis déposés (nom mal lu ?).",
+  "« NOUVSCOM » absent de la liste des plis déposés (nom mal lu ?).",
+  "Attributaire non trouvé."
+ ],
+ "notes_ocr": [
+  "« A DR RP NE SOS » absent de la liste des plis déposés (nom mal lu ?).",
+  "Marché alloti (3 lots).",
+  "Maître d'ouvrage absent du PV (utiliser l'acheteur public du portail)."
+ ],
+ "qualite": "complet"
+}

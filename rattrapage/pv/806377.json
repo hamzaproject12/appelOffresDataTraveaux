@@ -1,0 +1,64 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "806377",
+ "orgAcronyme": "z6n",
+ "reference_pv": "01/2024",
+ "nouveau": true,
+ "reference": "01/2024",
+ "objet": "s Travaux de mise à niveau des installations électriques du siège de la Cour des Comptes",
+ "acheteur": "s la Cour des comptes",
+ "procedure": "appel d'offres ouvert national",
+ "categorie": "Travaux",
+ "date_limite_plis": "22/04/2024",
+ "lieu_ouverture": "s Siège de la cour des comptes sis à Rabat Hay-Riad",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "10/06/2024",
+ "justification": "L'offre la plus avantageuse",
+ "infructueux": false,
+ "attributaire": "SUD DEVELOPPEMENT DURABLE SARL",
+ "montant_attribue": 8591265.73,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "SUD DEVELOPPEMENT DURABLE SARL",
+   "montant_acte_engagement": 8591261.28,
+   "montant_apres_verification": 8591265.73,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "COGETERE SARL",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "FACILITY PROPERTY MANAGEMENT SARL",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_offre_technique",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 3,
+ "alertes_ocr": [
+  "« SUD DEVELOPPEMENT DURABLE SARL » absent de la liste des plis déposés (nom mal lu ?)."
+ ],
+ "notes_ocr": [
+  "« COGETERE SARL » absent de la liste des plis déposés (nom mal lu ?).",
+  "« FACILITY PROPERTY MANAGEMENT SARL » absent de la liste des plis déposés (nom mal lu ?).",
+  "« SUD DEVELOPPEMENT DURABLE SARL » : montant rectifié de 8 591 261.28 à 8 591 265.73 DH."
+ ],
+ "qualite": "attribution"
+}

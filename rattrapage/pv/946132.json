@@ -1,0 +1,62 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "946132",
+ "orgAcronyme": "j0w",
+ "reference_pv": "02/2025",
+ "nouveau": true,
+ "reference": "02/2025",
+ "objet": "Travaux de",
+ "acheteur": "le président de la commune terntonale Moulay Bourerttoune",
+ "procedure": null,
+ "categorie": "Travaux",
+ "date_limite_plis": "16/10/2076",
+ "lieu_ouverture": null,
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "27/10/2025",
+ "justification": null,
+ "infructueux": false,
+ "attributaire": null,
+ "montant_attribue": null,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "dé BSSR THVCRS PRESTATIONS SARL Garage centre Élhanchane province d'Esssouira",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "depose",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "sé BSSR DIVERS FRESTATIONS SARL",
+   "montant_acte_engagement": 646962.0,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "6 BSSR ENVERS PRESTATICNS SARL 646 Sé3.0",
+   "montant_acte_engagement": 646962.0,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 3,
+ "alertes_ocr": [
+  "« sé BSSR DIVERS FRESTATIONS SARL » absent de la liste des plis déposés (nom mal lu ?).",
+  "« 6 BSSR ENVERS PRESTATICNS SARL 646 Sé3.0 » absent de la liste des plis déposés (nom mal lu ?).",
+  "Attributaire non trouvé."
+ ],
+ "notes_ocr": [],
+ "qualite": "complet"
+}

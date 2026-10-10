@@ -1,0 +1,111 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "805993",
+ "orgAcronyme": "d4q",
+ "reference_pv": null,
+ "nouveau": true,
+ "reference": null,
+ "objet": "Construction d’un bâtiment administratif, la réalisation des voiries, l'aménagement extérieur et la réalisation de l'assainissement de la centrale à Turbines à Gaz 3x100MW de Mohammedia",
+ "acheteur": null,
+ "procedure": null,
+ "categorie": "Travaux",
+ "date_limite_plis": "30/05/2024",
+ "lieu_ouverture": "Siège ONEE-BE",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": null,
+ "justification": "jugé infructueux.",
+ "infructueux": false,
+ "attributaire": "Construction d’un bâtiment",
+ "montant_attribue": null,
+ "attributaires_par_lot": [
+  {
+   "lot": null,
+   "attributaire": "Construction d’un bâtiment",
+   "montant": null
+  },
+  {
+   "lot": null,
+   "attributaire": "voiries, l'aménagement extérieur",
+   "montant": null
+  },
+  {
+   "lot": null,
+   "attributaire": "l'assainissement de la centrale à",
+   "montant": null
+  },
+  {
+   "lot": null,
+   "attributaire": "Turbines à Gaz 3x100MW de Mohammedia",
+   "montant": null
+  },
+  {
+   "lot": null,
+   "attributaire": "09h00 Jugé infructueux",
+   "montant": null
+  }
+ ],
+ "soumissionnaires": [
+  {
+   "nom": "Construction d’un bâtiment",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "voiries, l'aménagement extérieur",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "l'assainissement de la centrale à",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Turbines à Gaz 3x100MW de Mohammedia",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "09h00 Jugé infructueux",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 5,
+ "alertes_ocr": [
+  "Montant de l'attributaire « Construction d’un bâtiment » non trouvé.",
+  "Montant de l'attributaire « voiries, l'aménagement extérieur » non trouvé.",
+  "Montant de l'attributaire « l'assainissement de la centrale à » non trouvé.",
+  "Montant de l'attributaire « Turbines à Gaz 3x100MW de Mohammedia » non trouvé.",
+  "Montant de l'attributaire « 09h00 Jugé infructueux » non trouvé."
+ ],
+ "notes_ocr": [
+  "Maître d'ouvrage absent du PV (utiliser l'acheteur public du portail).",
+  "Montants exprimés hors taxes (HT)."
+ ],
+ "qualite": "participants"
+}

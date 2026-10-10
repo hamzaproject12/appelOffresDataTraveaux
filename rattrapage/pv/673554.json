@@ -1,0 +1,62 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "673554",
+ "orgAcronyme": "j8k",
+ "reference_pv": "108/2022",
+ "nouveau": true,
+ "reference": "108/2022",
+ "objet": "TRAVAUX DE REHABILITATION ET DE RESTAURATION DU MAUSOLE MOULAY ALI CHERIF (TRAVAUX",
+ "acheteur": "AL OMRANE MARRAKECH-SAFI",
+ "procedure": "appel d'offres ouvert",
+ "categorie": "Travaux",
+ "date_limite_plis": "25/10/2022",
+ "lieu_ouverture": "SIEGE DE LA SOCIETE AL OMRANE MARRAKECH-SAFI",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "02/11/2022",
+ "justification": "Moins disant",
+ "infructueux": false,
+ "attributaire": null,
+ "montant_attribue": null,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "SOBINMA",
+   "montant_acte_engagement": 11362045.08,
+   "montant_apres_verification": 11362045.08,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "GEROA",
+   "montant_acte_engagement": 13884796.8,
+   "montant_apres_verification": 13884660.8,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "MULTI SERVICE DE MARRAKECH",
+   "montant_acte_engagement": 10999426.62,
+   "montant_apres_verification": 10999426.62,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_offre_financiere",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 3,
+ "alertes_ocr": [
+  "Attributaire non trouvé."
+ ],
+ "notes_ocr": [
+  "« GEROA » : montant rectifié de 13 884 796.80 à 13 884 660.80 DH."
+ ],
+ "qualite": "complet"
+}

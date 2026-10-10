@@ -1,0 +1,54 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "779375",
+ "orgAcronyme": "i1t",
+ "reference_pv": "01/2024",
+ "nouveau": true,
+ "reference": "01/2024",
+ "objet": "Travaux de renforcement du réseau de voirie de la",
+ "acheteur": "Monsieur le Président de la Commune de Kenitra",
+ "procedure": "appel d'offres ouvert national",
+ "categorie": "Travaux",
+ "date_limite_plis": "27/02/2024",
+ "lieu_ouverture": "Le bureau de Monsieur le Président de la commune de Kenitra",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "29/02/2024",
+ "justification": null,
+ "infructueux": false,
+ "attributaire": "Appel d’offres annulé KENITRA, LE",
+ "montant_attribue": null,
+ "attributaires_par_lot": [
+  {
+   "lot": null,
+   "attributaire": "Appel d’offres annulé KENITRA, LE",
+   "montant": null
+  },
+  {
+   "lot": null,
+   "attributaire": "Appel d’offres annulé",
+   "montant": null
+  }
+ ],
+ "soumissionnaires": [
+  {
+   "nom": "Appel d’offres annulé",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 1,
+ "alertes_ocr": [
+  "Montant de l'attributaire « Appel d’offres annulé KENITRA, LE » non trouvé.",
+  "Montant de l'attributaire « Appel d’offres annulé » non trouvé."
+ ],
+ "notes_ocr": [],
+ "qualite": "participants"
+}

@@ -1,0 +1,95 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "853360",
+ "orgAcronyme": "q0x",
+ "reference_pv": "02/CTO/2024",
+ "nouveau": true,
+ "reference": "02/CTO/2024",
+ "objet": null,
+ "acheteur": null,
+ "procedure": "appel d'offres ouvert simplifié",
+ "categorie": "Travaux",
+ "date_limite_plis": "20/11/2024",
+ "lieu_ouverture": "bureau du président de la commune d’Outerbate",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "20/11/2024",
+ "justification": null,
+ "infructueux": false,
+ "attributaire": null,
+ "montant_attribue": null,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "STE IZZIANE SARL",
+   "montant_acte_engagement": 123898.2,
+   "montant_apres_verification": 123898.2,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": true
+  },
+  {
+   "nom": "La commissi 00",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_offre_financiere",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "escripti",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_offre_financiere",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "simplifié n°2 /CTO/2024 du 20/11/2024 pour vice de procédure",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_offre_financiere",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "STE JAHEZ SARL",
+   "montant_acte_engagement": 106995.0,
+   "montant_apres_verification": 106995.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "STE TENYA TRAVAUX",
+   "montant_acte_engagement": 106758.0,
+   "montant_apres_verification": 106758.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 6,
+ "alertes_ocr": [
+  "« STE IZZIANE SARL » absent de la liste des plis déposés (nom mal lu ?).",
+  "« STE JAHEZ SARL » absent de la liste des plis déposés (nom mal lu ?).",
+  "« STE TENYA TRAVAUX » absent de la liste des plis déposés (nom mal lu ?).",
+  "Attributaire non trouvé."
+ ],
+ "notes_ocr": [
+  "« La commissi 00 » absent de la liste des plis déposés (nom mal lu ?).",
+  "« escripti » absent de la liste des plis déposés (nom mal lu ?).",
+  "« simplifié n°2 /CTO/2024 du 20/11/2024 pour vice de procédure » absent de la liste des plis déposés (nom mal lu ?).",
+  "Maître d'ouvrage absent du PV (utiliser l'acheteur public du portail)."
+ ],
+ "qualite": "complet"
+}

@@ -1,0 +1,70 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "917564",
+ "orgAcronyme": "p8x",
+ "reference_pv": "25/2025/CH/INV",
+ "nouveau": true,
+ "reference": "25/2025/CH/INV",
+ "objet": null,
+ "acheteur": null,
+ "procedure": "appel d'offres ouvert simplifié",
+ "categorie": "Travaux",
+ "date_limite_plis": null,
+ "lieu_ouverture": null,
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": null,
+ "justification": " Candidats ayant de bonnes références techniques, administratives et financières.  Les prix sont avantageux pour l’Administration, les offres financières ont été jugées les plus intéressantes par la commission chargée de l’ouverture des plis.  Date d’achèvement des travaux de la commission : 21/07/2025 à 15h20mn.",
+ "infructueux": false,
+ "attributaire": "Sté BSSR Divers Prestations sarl – Essaouira",
+ "montant_attribue": 75507.0,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "Sté El Khoudari Travaux sarl - Youssoufia",
+   "montant_acte_engagement": 74610.0,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_offre_financiere",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Sté BSSR Divers Prestations sarl – Essaouira",
+   "montant_acte_engagement": 75507.0,
+   "montant_apres_verification": 75507.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Sté Eward Service sarl – Marrakech",
+   "montant_acte_engagement": 74940.84,
+   "montant_apres_verification": 76140.84,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Sté DAIFOLLAH sarl - Chichaoua",
+   "montant_acte_engagement": 76467.6,
+   "montant_apres_verification": 76467.6,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 4,
+ "alertes_ocr": [],
+ "notes_ocr": [
+  "« Sté Eward Service sarl – Marrakech » : montant rectifié de 74 940.84 à 76 140.84 DH.",
+  "Maître d'ouvrage absent du PV (utiliser l'acheteur public du portail)."
+ ],
+ "qualite": "complet"
+}

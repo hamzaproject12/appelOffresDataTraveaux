@@ -1,0 +1,73 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "826313",
+ "orgAcronyme": "g3h",
+ "reference_pv": "30/BG/2024",
+ "nouveau": true,
+ "reference": "30/BG/2024",
+ "objet": "TRAVAUX DE REHABILITATION DES LOGEMENTS ADMINISTRATIFS AUX COMMUNES LABKHATI ET LAGHIATE RELEVANTES DE LA PROVINCE DE SAFI ,WILAYA REGION",
+ "acheteur": "Province de Safi",
+ "procedure": "appel d'offres ouvert national",
+ "categorie": "Travaux",
+ "date_limite_plis": "08/08/2024",
+ "lieu_ouverture": "Salle de réunions sis au Secrétariat General de la Province de Safi",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": null,
+ "justification": null,
+ "infructueux": false,
+ "attributaire": "SAFAOUT KHADAMAT",
+ "montant_attribue": 403155.6,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "CITETRA",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_dossier_administratif_technique",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "FORSUM",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_dossier_administratif_technique",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "SPECIA ROM",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_dossier_administratif_technique",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "SAFAOUT KHADAMAT",
+   "montant_acte_engagement": 403155.6,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 4,
+ "alertes_ocr": [
+  "« SAFAOUT KHADAMAT » absent de la liste des plis déposés (nom mal lu ?)."
+ ],
+ "notes_ocr": [
+  "« CITETRA » absent de la liste des plis déposés (nom mal lu ?).",
+  "« FORSUM » absent de la liste des plis déposés (nom mal lu ?).",
+  "« SPECIA ROM » absent de la liste des plis déposés (nom mal lu ?)."
+ ],
+ "qualite": "attribution"
+}

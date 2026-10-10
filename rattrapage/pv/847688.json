@@ -1,0 +1,58 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "847688",
+ "orgAcronyme": "e5w",
+ "reference_pv": "01-2024-Commune",
+ "nouveau": true,
+ "reference": "01-2024-Commune",
+ "objet": "L’A.E. P DES DOUARS AIN ALLA ; ZAOUIA BENI MKOUD ; SIDI YAHIA relevant de la commune IRHAZRANE Province Séfrou (LOT UNIQUE)",
+ "acheteur": "Le président de la commune Ighezrane",
+ "procedure": null,
+ "categorie": "Travaux",
+ "date_limite_plis": "18/10/2024",
+ "lieu_ouverture": "le Siege de la commune Ighezrane",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "11/11/2024",
+ "justification": "L'offre la plus avantageuse",
+ "infructueux": false,
+ "attributaire": "SOCIETE S.A.L TRAVAUX SARL AU",
+ "montant_attribue": 1741380.0,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "ENERGY K2 TRAVAUX SARL AU",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_dossier_administratif_technique",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "SUDITRAV SARL AU",
+   "montant_acte_engagement": 1865400.0,
+   "montant_apres_verification": 1865400.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_offre_financiere",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "SOCIETE S.A.L TRAVAUX SARL AU",
+   "montant_acte_engagement": 1741380.0,
+   "montant_apres_verification": 1741380.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": true
+  }
+ ],
+ "nombre_soumissionnaires": 3,
+ "alertes_ocr": [],
+ "notes_ocr": [],
+ "qualite": "complet"
+}

@@ -1,0 +1,72 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "940542",
+ "orgAcronyme": "g3h",
+ "reference_pv": "10001702",
+ "nouveau": true,
+ "reference": "10001702",
+ "objet": "Renouvellement des équipements hydromécaniques des STEP et des accessoires hydromécaniques des stations de pompage relevant de la Direction provinciale de Berkane - Province de Berkane -",
+ "acheteur": null,
+ "procedure": null,
+ "categorie": "Travaux",
+ "date_limite_plis": "08/09/2025",
+ "lieu_ouverture": "Siège de la Direction Provinciale de Berkane de la SRM-ORI",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "14/10/2025",
+ "justification": "Offre moins-disante conforme.",
+ "infructueux": false,
+ "attributaire": "Sté NOUVELLE DE CHAUDRONNERIEET",
+ "montant_attribue": 354654.0,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "Sté ALLOUL DES TRAVAUX ET ETUDE",
+   "montant_acte_engagement": 385200.0,
+   "montant_apres_verification": 385200.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "ELECTROMECANIQUE et Sté NOUVELLE DE CHAUDRONNERIEET HYDROMECANIQUE",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Sté NOUVELLE DE CHAUDRONNERIEET",
+   "montant_acte_engagement": 354654.0,
+   "montant_apres_verification": 354654.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Sté INEW",
+   "montant_acte_engagement": 358200.0,
+   "montant_apres_verification": 358200.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 4,
+ "alertes_ocr": [
+  "« Sté NOUVELLE DE CHAUDRONNERIEET » absent de la liste des plis déposés (nom mal lu ?).",
+  "« Sté INEW » absent de la liste des plis déposés (nom mal lu ?)."
+ ],
+ "notes_ocr": [
+  "Maître d'ouvrage absent du PV (utiliser l'acheteur public du portail)."
+ ],
+ "qualite": "complet"
+}

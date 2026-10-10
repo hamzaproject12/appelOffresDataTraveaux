@@ -1,0 +1,52 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "1044764",
+ "orgAcronyme": "d4q",
+ "reference_pv": null,
+ "nouveau": true,
+ "reference": null,
+ "objet": null,
+ "acheteur": null,
+ "procedure": "appel d'offres ouvert",
+ "categorie": "Travaux",
+ "date_limite_plis": "08/07/2026",
+ "lieu_ouverture": "au siège de la Direction Régionale Daraa-Tafilalet (DRD)",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "01/10/2026",
+ "justification": "Moins-disant",
+ "infructueux": false,
+ "attributaire": "GLOBAL NASSIH EXPERTISE - Offre de",
+ "montant_attribue": 2399648.4,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "GLOBAL NASSIH EXPERTISE - Offre de",
+   "montant_acte_engagement": 2399648.4,
+   "montant_apres_verification": 2399648.4,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "STE ENTREPRISE DES ACTIVITES UTILES Dossiers Technique et Additif",
+   "montant_acte_engagement": 1600000.8,
+   "montant_apres_verification": 1595248.8,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_dossier_administratif_technique",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 2,
+ "alertes_ocr": [],
+ "notes_ocr": [
+  "« STE ENTREPRISE DES ACTIVITES UTILES Dossiers Technique et Additif » : montant rectifié de 1 600 000.80 à 1 595 248.80 DH.",
+  "Maître d'ouvrage absent du PV (utiliser l'acheteur public du portail)."
+ ],
+ "qualite": "complet"
+}

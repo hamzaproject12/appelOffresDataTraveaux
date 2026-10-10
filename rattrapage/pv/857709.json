@@ -1,0 +1,60 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "857709",
+ "orgAcronyme": "g8e",
+ "reference_pv": "203/2024",
+ "nouveau": true,
+ "reference": "203/2024",
+ "objet": null,
+ "acheteur": "Agence Régionale d'Exécution des Projets Région Béni Mellal-Khénifra",
+ "procedure": null,
+ "categorie": "Travaux",
+ "date_limite_plis": "04/12/2024",
+ "lieu_ouverture": "Salle de réunion de l'AREP région Beni Mellal Khénifra Sis Bd Med V lotissement lala Hayat immeuble n°3, 4\" et Ste étage Béni Mellal",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "05/12/2024",
+ "justification": "L'offre économiquement la plus avantageuse",
+ "infructueux": false,
+ "attributaire": "STE PANAVI TRAVAUX",
+ "montant_attribue": 3355350.0,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "STE PANAVI TRAVAUX",
+   "montant_acte_engagement": 3403350.0,
+   "montant_apres_verification": 3355350.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "STE AIT KALLAL",
+   "montant_acte_engagement": 3810348.0,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "STE H.R DES EQUIPMENTS ET TRAVAUX",
+   "montant_acte_engagement": 4234830.0,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_offre_financiere",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 3,
+ "alertes_ocr": [],
+ "notes_ocr": [
+  "« STE PANAVI TRAVAUX » : montant rectifié de 3 403 350.00 à 3 355 350.00 DH."
+ ],
+ "qualite": "complet"
+}

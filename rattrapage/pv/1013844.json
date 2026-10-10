@@ -1,0 +1,58 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "1013844",
+ "orgAcronyme": "j0w",
+ "reference_pv": "11/2026/AREP-MS",
+ "nouveau": true,
+ "reference": "11/2026/AREP-MS",
+ "objet": null,
+ "acheteur": "AGENCE REGIONALE D'EXECUTION DES PROJETS MARRAKECH-SAFI",
+ "procedure": "appel d'offres ouvert international",
+ "categorie": "Travaux",
+ "date_limite_plis": "28/05/2026",
+ "lieu_ouverture": "SIEGE DE L'AGENCE REGIONALE D'EXECUTION DES PROJETS MARRAKECH SAFI",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": null,
+ "justification": "Après examen des pièces du dossier administratif et technique et de l'offre financière, la commission a décidé de proposer à l'autorité compétente de retenir l'offre économiquement la plus avantageuse présentée par La société GRAMAGEC, pour un montant de 19.227.020,40 Dhs TTC (Dix-neuf millions deux cent vingt-sept mille vingt Dirhams et quarante Centimes Toutes Taxes Comprises). _",
+ "infructueux": false,
+ "attributaire": "STE GRAMAGEC",
+ "montant_attribue": 19227020.4,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "STE TRACTRA",
+   "montant_acte_engagement": 21415441.2,
+   "montant_apres_verification": 21415441.2,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "STE GRAMAGEC",
+   "montant_acte_engagement": 19227020.4,
+   "montant_apres_verification": 19227020.4,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "STE TRAVAUX ET CARRIERRES DU SUD",
+   "montant_acte_engagement": 22526.0,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_offre_financiere",
+   "admis_avec_reserve": true
+  }
+ ],
+ "nombre_soumissionnaires": 3,
+ "alertes_ocr": [],
+ "notes_ocr": [],
+ "qualite": "complet"
+}

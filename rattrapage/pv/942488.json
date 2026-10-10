@@ -1,0 +1,75 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "942488",
+ "orgAcronyme": "d4q",
+ "reference_pv": "57/DR3/2025",
+ "nouveau": true,
+ "reference": "57/DR3/2025",
+ "objet": "- Date et heure d'ouverture des plis : 30/09/2025 10:00 (Ouverture en un seul temps)",
+ "acheteur": null,
+ "procedure": "appel d'offres ouvert",
+ "categorie": "Travaux",
+ "date_limite_plis": "30/09/2025",
+ "lieu_ouverture": "au siège de la Direction Régionale du Centre (DR3) Boulevard Mohamed VI, Quartier Administratif - Khouribga - Maroc",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": null,
+ "justification": "Moins-disant - Date: d'achèvement des travaux de la commission : 21/10/2025",
+ "infructueux": false,
+ "attributaire": "STE ENTREPRISE DES ACTIVITES UTILES",
+ "montant_attribue": 626400.0,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "nn ESRÉTERENET TITI de SET LT",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "depose",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "EAU RESEAU LS ni 7 MAROC",
+   "montant_acte_engagement": 159960.0,
+   "montant_apres_verification": 759960.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "F L SABARTRAV oo a MAROC",
+   "montant_acte_engagement": 7815640.0,
+   "montant_apres_verification": 815640.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "STE ENTREPRISE DES ACTIVITES UTILES",
+   "montant_acte_engagement": 696600.0,
+   "montant_apres_verification": 626400.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 4,
+ "alertes_ocr": [
+  "« EAU RESEAU LS ni 7 MAROC » : écart anormal entre montant initial et vérifié (lecture à vérifier).",
+  "« F L SABARTRAV oo a MAROC » : écart anormal entre montant initial et vérifié (lecture à vérifier)."
+ ],
+ "notes_ocr": [
+  "« EAU RESEAU LS ni 7 MAROC » : montant rectifié de 159 960.00 à 759 960.00 DH.",
+  "« F L SABARTRAV oo a MAROC » : montant rectifié de 7 815 640.00 à 815 640.00 DH.",
+  "« STE ENTREPRISE DES ACTIVITES UTILES » : montant rectifié de 696 600.00 à 626 400.00 DH.",
+  "Maître d'ouvrage absent du PV (utiliser l'acheteur public du portail)."
+ ],
+ "qualite": "complet"
+}

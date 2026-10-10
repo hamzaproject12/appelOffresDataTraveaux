@@ -1,0 +1,49 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "1036974",
+ "orgAcronyme": "j8k",
+ "reference_pv": "133/2026",
+ "nouveau": true,
+ "reference": "133/2026",
+ "objet": "TRAVAUX D'AMENAGEMENT D’UNE NOUVELLE TRANCHE DE LA COULEE VERTE A LA VILLE DE",
+ "acheteur": "AL OMRANE MARRAKECH-SAFT",
+ "procedure": "appel d'offres ouvert",
+ "categorie": "Travaux",
+ "date_limite_plis": "31/08/2026",
+ "lieu_ouverture": "AL OMRANE MARRAKECH-SAFT",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "04/09/2026",
+ "justification": "offre la plus avantageuse",
+ "infructueux": false,
+ "attributaire": "GROUPE MOJAZINE",
+ "montant_attribue": 22431763.44,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "GROUPE MOJAZINE",
+   "montant_acte_engagement": 22431763.44,
+   "montant_apres_verification": 22431763.44,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "OUMOUJANE TRAVAUX",
+   "montant_acte_engagement": 23777272.92,
+   "montant_apres_verification": 23777272.92,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_offre_financiere",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 2,
+ "alertes_ocr": [],
+ "notes_ocr": [],
+ "qualite": "complet"
+}

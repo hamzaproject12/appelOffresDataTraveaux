@@ -1,0 +1,74 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "860519",
+ "orgAcronyme": "o4d",
+ "reference_pv": "193/2024",
+ "nouveau": true,
+ "reference": "193/2024",
+ "objet": null,
+ "acheteur": "Directeur des Achats et Logistique",
+ "procedure": "appel d'offres ouvert international",
+ "categorie": "Travaux",
+ "date_limite_plis": "04/12/2024",
+ "lieu_ouverture": "Siège de la CNSS 649 belvédère Mohamed V Casa, Salle de réunion de la Direction des Achats et",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": null,
+ "justification": null,
+ "infructueux": false,
+ "attributaire": null,
+ "montant_attribue": null,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "STEPLUS",
+   "montant_acte_engagement": 3053388.6,
+   "montant_apres_verification": null,
+   "autres_montants": [
+    3092976.0,
+    119040.0
+   ],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "HYCOS",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_dossier_administratif_technique",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "UNIT-AIRE",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_dossier_administratif_technique",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "RESTOQUIP",
+   "montant_acte_engagement": 2922084.0,
+   "montant_apres_verification": null,
+   "autres_montants": [
+    118800.0
+   ],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": true
+  }
+ ],
+ "nombre_soumissionnaires": 4,
+ "alertes_ocr": [
+  "Attributaire non trouvé."
+ ],
+ "notes_ocr": [],
+ "qualite": "complet"
+}

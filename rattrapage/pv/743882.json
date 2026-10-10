@@ -1,0 +1,74 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "743882",
+ "orgAcronyme": "a1z",
+ "reference_pv": "LL/A.H.H/2023",
+ "nouveau": true,
+ "reference": "LL/A.H.H/2023",
+ "objet": "Entretien Courant des Voix : Entretien des Nids de poules, Crevasses et toutes Dégradations (Marché cadre)",
+ "acheteur": "Arrondissement Hay Hassani",
+ "procedure": "appel d'offres ouvert",
+ "categorie": "Travaux",
+ "date_limite_plis": "19/09/2023",
+ "lieu_ouverture": "la Salle de Réunion à L'ANNEXE AL AZHAR de l’ARRONDISSEMENT HAY HASSANI sise à Avenue Aziz Bilal Cité AL Azhar Oulfa Casablanca",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "26/09/2023",
+ "justification": "L’attributaire a présenté l’offre la plus avantageuse « La moins disante »",
+ "infructueux": false,
+ "attributaire": "NICE TRAVAUX S.A.R.L",
+ "montant_attribue": 1035000.0,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "VIASSA",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "CAMPEZO SARLAU",
+   "montant_acte_engagement": 1167300.0,
+   "montant_apres_verification": 2334600.0,
+   "autres_montants": [
+    2334600.0
+   ],
+   "lots": [],
+   "statut": "ecarte_offre_financiere",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "NICE TRAVAUX S.A.R.L",
+   "montant_acte_engagement": 1035000.0,
+   "montant_apres_verification": 1035000.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "VIAS SA",
+   "montant_acte_engagement": 1226400.0,
+   "montant_apres_verification": 2452800.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 4,
+ "alertes_ocr": [
+  "« VIAS SA » absent de la liste des plis déposés (nom mal lu ?)."
+ ],
+ "notes_ocr": [
+  "« CAMPEZO SARLAU » : montant rectifié de 1 167 300.00 à 2 334 600.00 DH.",
+  "« VIAS SA » : montant rectifié de 1 226 400.00 à 2 452 800.00 DH."
+ ],
+ "qualite": "complet"
+}

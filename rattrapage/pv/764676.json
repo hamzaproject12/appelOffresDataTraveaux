@@ -1,0 +1,93 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "764676",
+ "orgAcronyme": "g3h",
+ "reference_pv": "74/E/2023",
+ "nouveau": true,
+ "reference": "74/E/2023",
+ "objet": "Travaux de réalisation du réseau primaire au secteur JAWHARA dans la ville d'Oujda",
+ "acheteur": "RADEEO",
+ "procedure": null,
+ "categorie": "Travaux",
+ "date_limite_plis": "07/12/2023",
+ "lieu_ouverture": "salle de réunion de la RADEEO",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "14/12/2023",
+ "justification": null,
+ "infructueux": false,
+ "attributaire": "SOCIETE SOBOUWAT",
+ "montant_attribue": 809875.08,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "Y SOCIETE SOCAO",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "SOCIETE SOBOUWAT",
+   "montant_acte_engagement": 809875.08,
+   "montant_apres_verification": 809875.08,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "SOCIETE STEPAG",
+   "montant_acte_engagement": 911973.94,
+   "montant_apres_verification": 911973.94,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "SOCIETE GREEN CODE",
+   "montant_acte_engagement": 897232.39,
+   "montant_apres_verification": 897232.39,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "SOCIETE ABB EAUX TRAVAUX",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_dossier_administratif_technique",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "SOCIETE SOCAO",
+   "montant_acte_engagement": 900872.28,
+   "montant_apres_verification": 900872.28,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 6,
+ "alertes_ocr": [
+  "« SOCIETE SOBOUWAT » absent de la liste des plis déposés (nom mal lu ?).",
+  "« SOCIETE STEPAG » absent de la liste des plis déposés (nom mal lu ?).",
+  "« SOCIETE GREEN CODE » absent de la liste des plis déposés (nom mal lu ?).",
+  "« SOCIETE SOCAO » absent de la liste des plis déposés (nom mal lu ?)."
+ ],
+ "notes_ocr": [
+  "« Y SOCIETE SOCAO » absent de la liste des plis déposés (nom mal lu ?).",
+  "« SOCIETE ABB EAUX TRAVAUX » absent de la liste des plis déposés (nom mal lu ?)."
+ ],
+ "qualite": "complet"
+}

@@ -1,0 +1,80 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "780154",
+ "orgAcronyme": "o8p",
+ "reference_pv": "06/2024-N",
+ "nouveau": true,
+ "reference": "06/2024-N",
+ "objet": "Travaux de construction de l’hôpital de proximité Tighert à Sidi Ifni. Lot : Gros œuvre et Etanchéité",
+ "acheteur": null,
+ "procedure": "appel d'offres ouvert international",
+ "categorie": "Travaux",
+ "date_limite_plis": "23/02/2024",
+ "lieu_ouverture": "Bureau de Monsieur le Directeur Régional de l’ Agence Nationale des Equipements",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "12/03/2024",
+ "justification": "Les éléments contenus dans son dossier administratif et technique, son offre technique et son offre financière.",
+ "infructueux": false,
+ "attributaire": "Société AHMA sarl au",
+ "montant_attribue": 61207123.2,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "Société COS CONSTRUCTIONS sarl",
+   "montant_acte_engagement": 63293688.0,
+   "montant_apres_verification": 63293688.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_offre_technique",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Société AHMA sarl QU",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "depose",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Société ENGINEERING DE L'ORIENTAL « ENGOR » sa",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_offre_technique",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Société ESE OUKHAF DE CONSTRUCTION sarl",
+   "montant_acte_engagement": 62462280.0,
+   "montant_apres_verification": 62462280.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Société AHMA sarl au",
+   "montant_acte_engagement": 61207123.2,
+   "montant_apres_verification": 61207123.2,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 5,
+ "alertes_ocr": [
+  "« Société AHMA sarl au » absent de la liste des plis déposés (nom mal lu ?)."
+ ],
+ "notes_ocr": [
+  "Maître d'ouvrage absent du PV (utiliser l'acheteur public du portail)."
+ ],
+ "qualite": "complet"
+}

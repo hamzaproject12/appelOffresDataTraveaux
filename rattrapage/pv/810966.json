@@ -1,0 +1,71 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "810966",
+ "orgAcronyme": "d4q",
+ "reference_pv": null,
+ "nouveau": true,
+ "reference": null,
+ "objet": "Création d’un nouveau départ HTA LOUNASDA à partir du poste source 60/22 KV d’EL KELAA DES SRAGHNA (Province d'El Kelaa Des Sraghna)",
+ "acheteur": null,
+ "procedure": null,
+ "categorie": "Travaux",
+ "date_limite_plis": "08/05/2024",
+ "lieu_ouverture": "Commission Centrale (DISTRIBUTION/DAM) à Casablanca",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": null,
+ "justification": "conforme",
+ "infructueux": false,
+ "attributaire": "STE D'ELECTRICITE DE OUARZAZATE ELECTROU",
+ "montant_attribue": 6056758.2,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "PACIFEL, HS INFRA, ELECPHONE, OUEST APLICATION, GAMAF",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "TABARAK TRAVAUX",
+   "montant_acte_engagement": 5658676.0,
+   "montant_apres_verification": 5658676.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "STE D'ELECTRICITE DE OUARZAZATE ELECTROU",
+   "montant_acte_engagement": 5047298.5,
+   "montant_apres_verification": 5047298.5,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "ENTREPRISE TOUMA D'ELECTRICITE GENERALE",
+   "montant_acte_engagement": 5826220.54,
+   "montant_apres_verification": 5826220.54,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 4,
+ "alertes_ocr": [
+  "« ENTREPRISE TOUMA D'ELECTRICITE GENERALE » absent de la liste des plis déposés (nom mal lu ?)."
+ ],
+ "notes_ocr": [
+  "Maître d'ouvrage absent du PV (utiliser l'acheteur public du portail)."
+ ],
+ "qualite": "complet"
+}

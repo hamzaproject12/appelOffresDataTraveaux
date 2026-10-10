@@ -1,0 +1,51 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "951940",
+ "orgAcronyme": "g8e",
+ "reference_pv": "A161/RRA/2025",
+ "nouveau": true,
+ "reference": "A161/RRA/2025",
+ "objet": "TRAVAUX DE REFECTION DES MURAILLES HISTORIQUES A LA VILLE DE RABAT",
+ "acheteur": null,
+ "procedure": null,
+ "categorie": "Travaux",
+ "date_limite_plis": "28/10/2025",
+ "lieu_ouverture": "Bureau de la Société Rabat Région Aménagement au 9, Place Al Joulane — Rabat",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "12/11/2025",
+ "justification": "Offre conforme aux exigences du Règlement de la consultation et l'offre la plus avantageuses",
+ "infructueux": false,
+ "attributaire": "SOCIETE AMENAGEMENT METRE ET GROS ŒUVRE",
+ "montant_attribue": 14793300.0,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "SOCIETE TOURATE FES",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_offre_technique",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "SOCIETE AMENAGEMENT METRE ET GROS ŒUVRE",
+   "montant_acte_engagement": 14793300.0,
+   "montant_apres_verification": 14793300.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 2,
+ "alertes_ocr": [],
+ "notes_ocr": [
+  "Maître d'ouvrage absent du PV (utiliser l'acheteur public du portail)."
+ ],
+ "qualite": "attribution"
+}

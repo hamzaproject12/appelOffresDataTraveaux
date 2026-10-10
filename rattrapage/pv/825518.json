@@ -1,0 +1,108 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "825518",
+ "orgAcronyme": "d4q",
+ "reference_pv": null,
+ "nouveau": true,
+ "reference": null,
+ "objet": "Electrification des trois forages artésiens à la production Ras El Ma",
+ "acheteur": null,
+ "procedure": "appel d'offres ouvert",
+ "categorie": "Travaux",
+ "date_limite_plis": "02/07/2024",
+ "lieu_ouverture": "au Siège de la Direction Régionale du Centre Nord (DR5S) -88 rue du Soudan, Ville nouvelle - Fès — Maroc",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "29/08/2024",
+ "justification": "Moins-disant",
+ "infructueux": false,
+ "attributaire": "ENERGIE",
+ "montant_attribue": 2617057.44,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "ENERGIE 3000 MAROC",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "depose",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "GENERAL SYSTEME ELECTRIQUE MAROC",
+   "montant_acte_engagement": 2873797.2,
+   "montant_apres_verification": null,
+   "autres_montants": [
+    2873797.2
+   ],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "PETRADIS MAROC",
+   "montant_acte_engagement": 2842003.2,
+   "montant_apres_verification": null,
+   "autres_montants": [
+    2842003.2
+   ],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "SERTINE MAROC",
+   "montant_acte_engagement": 2768656.8,
+   "montant_apres_verification": null,
+   "autres_montants": [
+    2768656.8
+   ],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "SOCHAITEL (CHAIMAE DES TRAVAUX D'ELECTRICITE) MAROC",
+   "montant_acte_engagement": 2859208.8,
+   "montant_apres_verification": null,
+   "autres_montants": [
+    2859208.8
+   ],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "STE LAMO MAROC",
+   "montant_acte_engagement": 2784001.2,
+   "montant_apres_verification": null,
+   "autres_montants": [
+    2784001.2
+   ],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "ENERGIE",
+   "montant_acte_engagement": 2617057.44,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 7,
+ "alertes_ocr": [
+  "« ENERGIE » absent de la liste des plis déposés (nom mal lu ?)."
+ ],
+ "notes_ocr": [
+  "Maître d'ouvrage absent du PV (utiliser l'acheteur public du portail)."
+ ],
+ "qualite": "complet"
+}

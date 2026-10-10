@@ -1,0 +1,97 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "696882",
+ "orgAcronyme": "e5w",
+ "reference_pv": "28/RFM/2022",
+ "nouveau": true,
+ "reference": "28/RFM/2022",
+ "objet": "D'APPEL D'OFFRES DES FOYERS A LA COMMUNE AIN KANSARA - PROVINCE MOULAY YACOUB",
+ "acheteur": "LE PRESIDENT DE LA REGION FES MEKNES",
+ "procedure": null,
+ "categorie": "Travaux",
+ "date_limite_plis": "15/02/2023",
+ "lieu_ouverture": "DES 7 L'ANNEXE DU CONSEIL REGION FES MEKNES PLIS",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": null,
+ "justification": "Offre la moins disante.",
+ "infructueux": false,
+ "attributaire": "STE SEVIELEC SARL",
+ "montant_attribue": 680860.08,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "STE RISCOMAROC SARL TT FES",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "depose",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "STE RELEPHONE SARL",
+   "montant_acte_engagement": 609826.08,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_offre_financiere",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "[7 4. STE ENERGIE AHLAF SARL D TAOURIRT",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "depose",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "STE SEVIELEC SARL",
+   "montant_acte_engagement": 680860.08,
+   "montant_apres_verification": 680860.08,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "STE MAK G3 NOUR SARL",
+   "montant_acte_engagement": 632115.74,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_offre_financiere",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "STE ENERGIE AHLAF SARL",
+   "montant_acte_engagement": 626542.03,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "STE SEVIELEC SARL | LL",
+   "montant_acte_engagement": 680860.08,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 7,
+ "alertes_ocr": [
+  "« STE ENERGIE AHLAF SARL » absent de la liste des plis déposés (nom mal lu ?).",
+  "« STE SEVIELEC SARL | LL » absent de la liste des plis déposés (nom mal lu ?)."
+ ],
+ "notes_ocr": [],
+ "qualite": "complet"
+}

@@ -1,0 +1,44 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "1033940",
+ "orgAcronyme": "d4q",
+ "reference_pv": "33/DR1/CI1/2026",
+ "nouveau": true,
+ "reference": "33/DR1/CI1/2026",
+ "objet": "",
+ "acheteur": null,
+ "procedure": "appel d'offres ouvert",
+ "categorie": "Travaux",
+ "date_limite_plis": "27/07/2026",
+ "lieu_ouverture": "au siège de la Direction Régionale Souss-Massa (DR1) Rue 18 Novembre Quartier Industriel - Agadir - Maroc",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "18/08/2026",
+ "justification": "Moins-disant",
+ "infructueux": false,
+ "attributaire": "ART BINAV",
+ "montant_attribue": 516000.0,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "ART BINAV",
+   "montant_acte_engagement": 516000.0,
+   "montant_apres_verification": null,
+   "autres_montants": [
+    516000.0
+   ],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 1,
+ "alertes_ocr": [],
+ "notes_ocr": [
+  "Maître d'ouvrage absent du PV (utiliser l'acheteur public du portail)."
+ ],
+ "qualite": "attribution"
+}

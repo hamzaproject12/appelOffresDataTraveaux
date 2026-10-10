@@ -1,0 +1,105 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "763548",
+ "orgAcronyme": "f8y",
+ "reference_pv": "l0l/2023/AREPO",
+ "nouveau": true,
+ "reference": "l0l/2023/AREPO",
+ "objet": "TRAVAUX D'ALIMf,NTATIoN EN EAU PoTABLE DEs DoUARs BoUYEJRA, ZAALoUK IHRJOUILANE' OULED SMAIL SoUFLA ET OULED MOHEMED ISMAIL SOUFLA RÊLEVANT DE LA CoMMUNE AL BARKANYENE PROVINCE Df, NADOR",
+ "acheteur": null,
+ "procedure": null,
+ "categorie": "Travaux",
+ "date_limite_plis": null,
+ "lieu_ouverture": null,
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": null,
+ "justification": "r'attributaire a présenté r,offre la mieux disante.",
+ "infructueux": false,
+ "attributaire": null,
+ "montant_attribue": null,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "r. SOCIETE BOUAYADI. A TRAVAUX",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_dossier_administratif_technique",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "t. 3fflï",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_dossier_administratif_technique",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": ") SOCIETE A-ETABLISSEMENT SARL AU",
+   "montant_acte_engagement": 487152.0,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_dossier_administratif_technique",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "SOCIETE AC TRAVAUX SARL",
+   "montant_acte_engagement": 479544.0,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_offre_financiere",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Liste 2. SOCIETE SOUTH EAST HICHWAYS BRIDG AND CONSTRUCTION SARL",
+   "montant_acte_engagement": 490380.0,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_offre_financiere",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "APPROFONDIE DE FES SARL AU",
+   "montant_acte_engagement": 476568.0,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "SOCIETE DE CONSTRUCTION ET VOIRIE SARL",
+   "montant_acte_engagement": 482664.0,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 7,
+ "alertes_ocr": [
+  "« ) SOCIETE A-ETABLISSEMENT SARL AU » absent de la liste des plis déposés (nom mal lu ?).",
+  "« SOCIETE AC TRAVAUX SARL » absent de la liste des plis déposés (nom mal lu ?).",
+  "« Liste 2. SOCIETE SOUTH EAST HICHWAYS BRIDG AND CONSTRUCTION SARL » absent de la liste des plis déposés (nom mal lu ?).",
+  "« APPROFONDIE DE FES SARL AU » absent de la liste des plis déposés (nom mal lu ?).",
+  "« SOCIETE DE CONSTRUCTION ET VOIRIE SARL » absent de la liste des plis déposés (nom mal lu ?).",
+  "Attributaire non trouvé."
+ ],
+ "notes_ocr": [
+  "« r. SOCIETE BOUAYADI. A TRAVAUX » absent de la liste des plis déposés (nom mal lu ?).",
+  "« t. 3fflï » absent de la liste des plis déposés (nom mal lu ?).",
+  "Maître d'ouvrage absent du PV (utiliser l'acheteur public du portail)."
+ ],
+ "qualite": "complet"
+}

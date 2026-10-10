@@ -1,0 +1,58 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "948168",
+ "orgAcronyme": "e5w",
+ "reference_pv": null,
+ "nouveau": true,
+ "reference": null,
+ "objet": null,
+ "acheteur": "Président du Conseil provincial de Séfrou",
+ "procedure": null,
+ "categorie": "Travaux",
+ "date_limite_plis": "21/03/2023",
+ "lieu_ouverture": "Bureau du président du conseil provincial de Sefrou",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "12/04/2023",
+ "justification": "Elle a présenté l'offre la plus avantageuse pour l'administration",
+ "infructueux": false,
+ "attributaire": "Société ENERGIE AHLAF",
+ "montant_attribue": 859009.2,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "Société CHAFELEC",
+   "montant_acte_engagement": 899370.0,
+   "montant_apres_verification": 899370.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Société BEST SOLUTIONS ELEC",
+   "montant_acte_engagement": 955580.4,
+   "montant_apres_verification": 955580.4,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Société ENERGIE AHLAF",
+   "montant_acte_engagement": 859009.2,
+   "montant_apres_verification": 859009.2,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 3,
+ "alertes_ocr": [],
+ "notes_ocr": [],
+ "qualite": "complet"
+}

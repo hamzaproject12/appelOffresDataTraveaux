@@ -1,0 +1,80 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "768307",
+ "orgAcronyme": "j8k",
+ "reference_pv": null,
+ "nouveau": true,
+ "reference": null,
+ "objet": "CONCEPTION, REALISATION ET EXPLOITATION DE LA PREMIERE PHASE DE LA STATION D'EPURATION DES EAUX USEES DU PARC INDUSTRIEL AIN CHEGAG- PROVINCE DE SEFROU",
+ "acheteur": "AL Omrane Fès-Meknès",
+ "procedure": null,
+ "categorie": "Travaux",
+ "date_limite_plis": "04/09/2023",
+ "lieu_ouverture": "AL Omrane Fès-Meknès",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "15/12/2023",
+ "justification": "l’offre la moins disante",
+ "infructueux": false,
+ "attributaire": "Groupement SOTRAVECO & WTL GROUP MAROC & WATERLEAU Groupe",
+ "montant_attribue": null,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "Groupement STROC Industrie, ID WT & DEVISE",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_dossier_administratif_technique",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Groupement BIWATER International et Sté SEEG",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "depose",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Groupement SOTRAVECO & WTL GROUP MAROC & WATERLEAU Groupe",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Groupement SOTRAVECO & WTL GROUP LOT 1",
+   "montant_acte_engagement": 102128152.8,
+   "montant_apres_verification": 102128152.8,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "MAROC & WATERLEAU Groupe",
+   "montant_acte_engagement": 24132000.0,
+   "montant_apres_verification": 24132000.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 5,
+ "alertes_ocr": [
+  "« Groupement SOTRAVECO & WTL GROUP LOT 1 » absent de la liste des plis déposés (nom mal lu ?).",
+  "« MAROC & WATERLEAU Groupe » absent de la liste des plis déposés (nom mal lu ?).",
+  "Montant de l'attributaire « Groupement SOTRAVECO & WTL GROUP MAROC & WATERLEAU Groupe » non trouvé."
+ ],
+ "notes_ocr": [],
+ "qualite": "complet"
+}

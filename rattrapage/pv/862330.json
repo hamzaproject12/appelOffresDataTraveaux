@@ -1,0 +1,108 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "862330",
+ "orgAcronyme": "s3z",
+ "reference_pv": "20/2024",
+ "nouveau": true,
+ "reference": "20/2024",
+ "objet": "TRAVAUX D’AMENAGEMENT DE LA CORNICHE -GRILLE DE PROTECTION- PREFECTURE DE SALE -LOT UNIQUE",
+ "acheteur": null,
+ "procedure": "appel d'offres ouvert national",
+ "categorie": "Travaux",
+ "date_limite_plis": "09/12/2024",
+ "lieu_ouverture": "la salle de réunion du Conseil Préfectoral de Salé",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": null,
+ "justification": "L'offre la plus avantageuse pour l’administration est l'offre présentée par la SOCIETE HIDAMEK,, pour un montant de 2 844 240.00 DHS TTC Deux Millions Huit Cent Quarante-Quatre Mille Deux Cent Quarante dhs TTC).",
+ "infructueux": false,
+ "attributaire": "Société HIDAMEK > $4À 240 OÙ",
+ "montant_attribue": null,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "Société ANATRA",
+   "montant_acte_engagement": 2897400.0,
+   "montant_apres_verification": 2897400.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Société HIDAMEK",
+   "montant_acte_engagement": 2844240.0,
+   "montant_apres_verification": 2844240.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Société DAWLI TRAVAUX",
+   "montant_acte_engagement": 2806800.0,
+   "montant_apres_verification": 2806800.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Société AKLIM",
+   "montant_acte_engagement": 2825880.0,
+   "montant_apres_verification": 2825880.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Société SLAH TRAVAUX DIVERS",
+   "montant_acte_engagement": 2845752.0,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_offre_financiere",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Société SOUDURE DU SUD",
+   "montant_acte_engagement": 2799600.0,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_offre_financiere",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Société STE MAZZA ET BELHA",
+   "montant_acte_engagement": 3366840.0,
+   "montant_apres_verification": 3366840.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": true
+  },
+  {
+   "nom": "Société HIDAMEK > $4À 240 OÙ",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 8,
+ "alertes_ocr": [
+  "« Société HIDAMEK > $4À 240 OÙ » absent de la liste des plis déposés (nom mal lu ?).",
+  "Montant de l'attributaire « Société HIDAMEK > $4À 240 OÙ » non trouvé."
+ ],
+ "notes_ocr": [
+  "Maître d'ouvrage absent du PV (utiliser l'acheteur public du portail)."
+ ],
+ "qualite": "complet"
+}

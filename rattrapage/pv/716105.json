@@ -1,0 +1,61 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "716105",
+ "orgAcronyme": "p1v",
+ "reference_pv": "07/2023/CZ",
+ "nouveau": true,
+ "reference": "07/2023/CZ",
+ "objet": "TRAVAUX DE CONSTRUCTION D'UNE CLOTURE EN VOILE EN BETON ARME POUR LA DECHARGE PUBLIQUE DE LA VILLE DE ZEMAMRA (1ère TRANCHE)",
+ "acheteur": "Commune de Zemamra",
+ "procedure": null,
+ "categorie": "Travaux",
+ "date_limite_plis": "22/05/2023",
+ "lieu_ouverture": "Siège de la commune de Zemamra",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "22/05/2023",
+ "justification": null,
+ "infructueux": false,
+ "attributaire": null,
+ "montant_attribue": null,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "Sté DECO GRC sarl - EL KELAA DES SRAGHNA",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_dossier_administratif_technique",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "électronique sté NANOTRA sarl OUARZAZATE",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "depose",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Sté NANOTRA sarl — OUARZAZATE",
+   "montant_acte_engagement": 2852040.0,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 3,
+ "alertes_ocr": [
+  "« Sté NANOTRA sarl — OUARZAZATE » absent de la liste des plis déposés (nom mal lu ?).",
+  "Attributaire non trouvé."
+ ],
+ "notes_ocr": [],
+ "qualite": "attribution"
+}

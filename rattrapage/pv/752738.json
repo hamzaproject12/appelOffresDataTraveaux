@@ -1,0 +1,191 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "752738",
+ "orgAcronyme": "g3h",
+ "reference_pv": "59/EA/2023",
+ "nouveau": true,
+ "reference": "59/EA/2023",
+ "objet": "TRAVAUX D'EXTENSION, DE RENFORCEMENT, DE DEPLACEMENT D'OUVRAGES, DE REHABILITATION ET D'ENTRETIEN DES RESEAUX D'ASSAINISSEMENT LIQUIDE ET D'EAU POTABLE DANS LA VILLE D'OUJDA EN QUATRE (04) LOTS",
+ "acheteur": "R.A.D.E.E.0",
+ "procedure": "appel d'offres ouvert",
+ "categorie": "Travaux",
+ "date_limite_plis": "16/10/2023",
+ "lieu_ouverture": "salle de réunion de la R.A.D.E.E.0 lournaux avant publié l'avis de publicité : > Lejournal äx xl els.-ln° 11602 du 30/08/2023 (insertion en langue arabe)",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "03/11/2023",
+ "justification": "> Offre la plus avantageuse (offre moins disante par lot), l'attribution pour chaque concurrent est limitée à un maximum d’un (01) seul lot selon l’ordre chronologique des lots",
+ "infructueux": false,
+ "attributaire": "Société MWKC",
+ "montant_attribue": 12069468.0,
+ "attributaires_par_lot": [
+  {
+   "lot": "1",
+   "attributaire": "Société MWKC",
+   "montant": 12069468.0
+  },
+  {
+   "lot": "2",
+   "attributaire": "Société STEPAG",
+   "montant": 5166532.8
+  },
+  {
+   "lot": "3",
+   "attributaire": "EL HAMDANI HASSAN",
+   "montant": 2625679.2
+  },
+  {
+   "lot": "4",
+   "attributaire": "Société GREEN CODE -Société GREEN CODE",
+   "montant": 2196774.0
+  }
+ ],
+ "soumissionnaires": [
+  {
+   "nom": "EL HAMDANI HASSAN",
+   "montant_acte_engagement": 14646096.0,
+   "montant_apres_verification": null,
+   "autres_montants": [
+    7153660.8,
+    2625679.2,
+    2894572.8
+   ],
+   "lots": [
+    "1",
+    "2",
+    "3",
+    "4"
+   ],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Société MWKC -Société MWKC",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [
+    "1"
+   ],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Société GREEN CODE -Société GREEN CODE",
+   "montant_acte_engagement": 12883140.0,
+   "montant_apres_verification": null,
+   "autres_montants": [
+    5762671.2,
+    2196774.0
+   ],
+   "lots": [
+    "1",
+    "2",
+    "4"
+   ],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "EL HORE MOHAMMED",
+   "montant_acte_engagement": 15730992.0,
+   "montant_apres_verification": null,
+   "autres_montants": [
+    7617324.0,
+    2770212.0,
+    2997950.4
+   ],
+   "lots": [
+    "1",
+    "2",
+    "3",
+    "4"
+   ],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Société TIEC",
+   "montant_acte_engagement": 5630196.0,
+   "montant_apres_verification": null,
+   "autres_montants": [
+    2584440.0
+   ],
+   "lots": [
+    "1",
+    "2",
+    "4"
+   ],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Société SBNH",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [
+    "1"
+   ],
+   "statut": "ecarte_dossier_administratif_technique",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Société STEPAG -Société STEPAG",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [
+    "1"
+   ],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Société MWKC",
+   "montant_acte_engagement": 12069468.0,
+   "montant_apres_verification": null,
+   "autres_montants": [
+    6027621.6,
+    2240258.4,
+    2455218.0
+   ],
+   "lots": [
+    "1",
+    "2",
+    "3",
+    "4"
+   ],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Société STEPAG",
+   "montant_acte_engagement": 5166532.8,
+   "montant_apres_verification": null,
+   "autres_montants": [
+    2649768.0,
+    2842884.0
+   ],
+   "lots": [
+    "2",
+    "3",
+    "4"
+   ],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 9,
+ "alertes_ocr": [
+  "« Société MWKC » absent de la liste des plis déposés (nom mal lu ?).",
+  "« Société STEPAG » absent de la liste des plis déposés (nom mal lu ?)."
+ ],
+ "notes_ocr": [
+  "Marché alloti (4 lots)."
+ ],
+ "qualite": "complet"
+}

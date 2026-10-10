@@ -1,0 +1,66 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "711994",
+ "orgAcronyme": "o8p",
+ "reference_pv": "03/A00/DRPJ/ANP/2023",
+ "nouveau": true,
+ "reference": "03/A00/DRPJ/ANP/2023",
+ "objet": "TRAVAUX D'AMENAGEMENT DES ESPACES VERTS AU PORTS DE JORF LASFAR",
+ "acheteur": "Direction Régionale des ports d'El Jadida /Port de Jorf Lasfar",
+ "procedure": null,
+ "categorie": "Travaux",
+ "date_limite_plis": "20/04/2023",
+ "lieu_ouverture": "Direction Régionale des ports d'El Jadida/Port de Jorf Lasfar, sise à Km 22 route d’Oualidia Jorf Lasfar-El Jadida",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "05/04/2023",
+ "justification": null,
+ "infructueux": false,
+ "attributaire": "CITOYENNE DE RABAT NEW VERT MAJARDINET IRRI POWER ORBIT VERT AMTGHOUS TRAVAUX",
+ "montant_attribue": 267670.0,
+ "attributaires_par_lot": [
+  {
+   "lot": null,
+   "attributaire": "CITOYENNE DE RABAT NEW VERT MAJARDINET IRRI POWER ORBIT VERT AMTGHOUS TRAVAUX",
+   "montant": 267670.0
+  },
+  {
+   "lot": null,
+   "attributaire": "RYAD JARDIN REKTAL TRAV SMIC TAFRAOUT VERTE JARDIBILOBA PLANTAFLEUR",
+   "montant": 359710.0
+  }
+ ],
+ "soumissionnaires": [
+  {
+   "nom": "CITOYENNE DE RABAT NEW VERT MAJARDINET IRRI POWER ORBIT VERT AMTGHOUS TRAVAUX",
+   "montant_acte_engagement": 333670.0,
+   "montant_apres_verification": null,
+   "autres_montants": [
+    267670.0
+   ],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "RYAD JARDIN REKTAL TRAV SMIC TAFRAOUT VERTE JARDIBILOBA PLANTAFLEUR",
+   "montant_acte_engagement": 359710.0,
+   "montant_apres_verification": null,
+   "autres_montants": [
+    359710.0
+   ],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 2,
+ "alertes_ocr": [],
+ "notes_ocr": [
+  "Montants exprimés hors taxes (HT)."
+ ],
+ "qualite": "attribution"
+}

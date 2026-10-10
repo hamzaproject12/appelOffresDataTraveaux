@@ -1,0 +1,61 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "812319",
+ "orgAcronyme": "s3z",
+ "reference_pv": "07/24/CR",
+ "nouveau": true,
+ "reference": "07/24/CR",
+ "objet": null,
+ "acheteur": "la Commune de Rabat",
+ "procedure": "appel d'offres ouvert international",
+ "categorie": "Travaux",
+ "date_limite_plis": "20/06/2024",
+ "lieu_ouverture": "Salle des Réunions au siège de la Commune de Rabat",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": null,
+ "justification": null,
+ "infructueux": false,
+ "attributaire": "STÉ LAMALIF GROUP SARL-AU",
+ "montant_attribue": null,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "STÉ LAMALIF GROUP S.A.R.L-AU",
+   "montant_acte_engagement": 38766218.4,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "STÉ CEGELEC S.A",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_dossier_administratif_technique",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "STÉ LAMALIF GROUP SARL-AU",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 3,
+ "alertes_ocr": [
+  "« STÉ LAMALIF GROUP SARL-AU » absent de la liste des plis déposés (nom mal lu ?).",
+  "Montant de l'attributaire « STÉ LAMALIF GROUP SARL-AU » non trouvé."
+ ],
+ "notes_ocr": [],
+ "qualite": "attribution"
+}

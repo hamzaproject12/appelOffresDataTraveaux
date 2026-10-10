@@ -1,0 +1,63 @@
+{
+ "source": "extrait_docx",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "681176",
+ "orgAcronyme": "j8k",
+ "reference_pv": null,
+ "nouveau": true,
+ "reference": null,
+ "objet": "Travaux de voirie, d’assainissement et d’alimentation en eau potable de l’opération Al Manar Founty sis à la commune d’Agadir, préfecture Agadir Ida Outanane",
+ "acheteur": null,
+ "procedure": null,
+ "categorie": "Travaux",
+ "date_limite_plis": "22/11/2022",
+ "lieu_ouverture": "Division des Marchés de la Société Al omrane souss Massa",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "29/11/2022",
+ "justification": "Concurrent représentant l’offre la plus avantageuse.",
+ "infructueux": false,
+ "attributaire": "SICATRA",
+ "montant_attribue": 17730463.2,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "SICATRA - GROUPEMENT GMTP & SATG - ESTAR BATIMENT - SNTRO",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "GROUPEMENT GMTP & SATG",
+   "montant_acte_engagement": 18387849.64,
+   "montant_apres_verification": 18387849.64,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "SICATRA",
+   "montant_acte_engagement": 17730463.2,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 3,
+ "alertes_ocr": [
+  "« GROUPEMENT GMTP & SATG » absent de la liste des plis déposés (nom mal lu ?).",
+  "« SICATRA » absent de la liste des plis déposés (nom mal lu ?)."
+ ],
+ "notes_ocr": [
+  "Maître d'ouvrage absent du PV (utiliser l'acheteur public du portail)."
+ ],
+ "qualite": "complet"
+}

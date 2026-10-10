@@ -1,0 +1,65 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "931084",
+ "orgAcronyme": "g3h",
+ "reference_pv": "152/2025/S2A",
+ "nouveau": true,
+ "reference": "152/2025/S2A",
+ "objet": "TRAVAUX D’AMENAGEMENT DES ENTREES ET AXES PRINCIPAUX DE LA VILLE DE TIZNIT TRAVAUX DE VOIRIE, ASSAINISSEMENT, ARROSAGE ET GENIE CIVIL EN 3 LOTS SEPARES CUMULABLES LOT N°1: AVENUE MOULAY EL HASSAN BEN YOUSSEF LOT N°2",
+ "acheteur": null,
+ "procedure": "appel d'offres ouvert",
+ "categorie": "Travaux",
+ "date_limite_plis": null,
+ "lieu_ouverture": null,
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": null,
+ "justification": null,
+ "infructueux": false,
+ "attributaire": null,
+ "montant_attribue": null,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "Agadir le",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": true
+  },
+  {
+   "nom": "▪ Justification du choix de l’attributaire",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": true
+  },
+  {
+   "nom": "consultation et moins disantes",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": true
+  }
+ ],
+ "nombre_soumissionnaires": 3,
+ "alertes_ocr": [
+  "Attributaire non trouvé."
+ ],
+ "notes_ocr": [
+  "« Agadir le » absent de la liste des plis déposés (nom mal lu ?).",
+  "« ▪ Justification du choix de l’attributaire » absent de la liste des plis déposés (nom mal lu ?).",
+  "« consultation et moins disantes » absent de la liste des plis déposés (nom mal lu ?).",
+  "Maître d'ouvrage absent du PV (utiliser l'acheteur public du portail)."
+ ],
+ "qualite": "participants"
+}

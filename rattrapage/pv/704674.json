@@ -1,0 +1,63 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "704674",
+ "orgAcronyme": "z9k",
+ "reference_pv": "02/2023",
+ "nouveau": true,
+ "reference": "02/2023",
+ "objet": "Travaux de Construction d’un terrain au Sazon Svnthétiques au quartier PAM sis commune dar ouled zidouh",
+ "acheteur": "Commune de Dar Ould Zidouh",
+ "procedure": null,
+ "categorie": "Travaux",
+ "date_limite_plis": "16/03/2023",
+ "lieu_ouverture": "Bureau du Président de la Commune de Dar Ould Zidouh",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": null,
+ "justification": null,
+ "infructueux": false,
+ "attributaire": "Ste SELTEB sarl au",
+ "montant_attribue": 780534.0,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "Ste SELTEB sarl au",
+   "montant_acte_engagement": 780534.0,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "mohamed 5 centre témara",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Ste SUD TTCGC",
+   "montant_acte_engagement": 1413787.2,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_dossier_administratif_technique",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 3,
+ "alertes_ocr": [
+  "« Ste SELTEB sarl au » absent de la liste des plis déposés (nom mal lu ?).",
+  "« Ste SUD TTCGC » absent de la liste des plis déposés (nom mal lu ?)."
+ ],
+ "notes_ocr": [
+  "« mohamed 5 centre témara » absent de la liste des plis déposés (nom mal lu ?)."
+ ],
+ "qualite": "complet"
+}

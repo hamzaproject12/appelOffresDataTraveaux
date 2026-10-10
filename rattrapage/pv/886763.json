@@ -1,0 +1,62 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "886763",
+ "orgAcronyme": "q1s",
+ "reference_pv": null,
+ "nouveau": true,
+ "reference": null,
+ "objet": "travaux de curage des canaux semi-circulaires et des ouvrages d'irrigation et d'enlèvement d'acacias au niveau des zones d'action des provinces de Kenitra, Sidi Kacem et Sidi Slimane",
+ "acheteur": "ORMVAG",
+ "procedure": null,
+ "categorie": "Travaux",
+ "date_limite_plis": "27/02/2025",
+ "lieu_ouverture": "siège de l'ORMVAG",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "11/04/2025",
+ "justification": "l'offre économiquement la plus avantageuse.",
+ "infructueux": false,
+ "attributaire": null,
+ "montant_attribue": null,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "T2RK, EL MOUKAOUIL CONSTRUCTION, ALBINAE",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "depose",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "GREEN, TECHNIQUE GENIE BAT, CH-TRA, BNKHALI, SODRETEC, MEKKA STRUCTURES.CO, AC WORK, STE MAROCAINES DES",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "depose",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "SERVICES ET GRAND TRAVAUX, TAGER SERVICES ET TRAVAUX et STAEG",
+   "montant_acte_engagement": 2154480.0,
+   "montant_apres_verification": null,
+   "autres_montants": [
+    2184480.0
+   ],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 3,
+ "alertes_ocr": [
+  "Attributaire non trouvé."
+ ],
+ "notes_ocr": [],
+ "qualite": "attribution"
+}

@@ -1,0 +1,124 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "922327",
+ "orgAcronyme": "s3z",
+ "reference_pv": null,
+ "nouveau": true,
+ "reference": null,
+ "objet": null,
+ "acheteur": "ARRONDISSEMENT DE BETTANA",
+ "procedure": null,
+ "categorie": "Travaux",
+ "date_limite_plis": "06/07/2025",
+ "lieu_ouverture": null,
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": null,
+ "justification": "-Dossier administratif et technique valable - Offre financière la plus avantageuse.",
+ "infructueux": false,
+ "attributaire": "SABER NOUR INVESTISSEMENT",
+ "montant_attribue": 408000.0,
+ "attributaires_par_lot": [
+  {
+   "lot": null,
+   "attributaire": "SABER NOUR INVESTISSEMENT",
+   "montant": 408000.0
+  },
+  {
+   "lot": null,
+   "attributaire": "YADAN SERVICES DIVERS SARL",
+   "montant": 396000.0
+  },
+  {
+   "lot": null,
+   "attributaire": "LOSERN SARL",
+   "montant": 384000.0
+  },
+  {
+   "lot": null,
+   "attributaire": "M.G2ZTRAVSARL la société M.G 2 Z TRAV SARL étant nouvellement créer n'a pas",
+   "montant": 386400.0
+  }
+ ],
+ "soumissionnaires": [
+  {
+   "nom": "LOSERN SARL",
+   "montant_acte_engagement": 384000.0,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "SONTAC SARL",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_dossier_administratif_technique",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "M.G2ZTRAVSARL la société M.G 2 Z TRAV SARL étant nouvellement créer n'a pas",
+   "montant_acte_engagement": 386400.0,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "SABER NOUR INVESTISSEMENT",
+   "montant_acte_engagement": 408000.0,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "DHD SARL AU e DIFAF SARL",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "depose",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "GENATR SARL AU e COGEMATRA SARL AU",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "depose",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "YADAN SERVICES DIVERS SARL",
+   "montant_acte_engagement": 396000.0,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "SARL",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "depose",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 8,
+ "alertes_ocr": [],
+ "notes_ocr": [],
+ "qualite": "attribution"
+}

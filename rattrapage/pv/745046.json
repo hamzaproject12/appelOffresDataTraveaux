@@ -1,0 +1,51 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "745046",
+ "orgAcronyme": "p8x",
+ "reference_pv": "02/ENSAM/2023",
+ "nouveau": true,
+ "reference": "02/ENSAM/2023",
+ "objet": "TRAVAUX D’AMENAGEMENT DES SALLES DE COURS A L’ENSAM RABAT",
+ "acheteur": "Le Directeur de L'ENSAM de Rabat",
+ "procedure": null,
+ "categorie": "Travaux",
+ "date_limite_plis": "04/09/2023",
+ "lieu_ouverture": "ENSAM de Rabat",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "13/09/2023",
+ "justification": "répond aux conditions du règlement de consultation etil est le moins disant.",
+ "infructueux": false,
+ "attributaire": "Sté",
+ "montant_attribue": 5295420.0,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "Sté. HARANI TRAVAUX",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_offre_financiere",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Sté",
+   "montant_acte_engagement": 5835462.0,
+   "montant_apres_verification": 6683088.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": true
+  }
+ ],
+ "nombre_soumissionnaires": 2,
+ "alertes_ocr": [],
+ "notes_ocr": [
+  "« Sté » : montant rectifié de 5 835 462.00 à 6 683 088.00 DH."
+ ],
+ "qualite": "attribution"
+}

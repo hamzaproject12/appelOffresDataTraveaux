@@ -1,0 +1,76 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "799019",
+ "orgAcronyme": "g3h",
+ "reference_pv": null,
+ "nouveau": true,
+ "reference": null,
+ "objet": null,
+ "acheteur": null,
+ "procedure": null,
+ "categorie": "Travaux",
+ "date_limite_plis": null,
+ "lieu_ouverture": null,
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "22/05/2024",
+ "justification": "L'offre la mieux disante.",
+ "infructueux": false,
+ "attributaire": "STE RENOVI SARL AU",
+ "montant_attribue": 4216862.4,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "STE MBI SCAVI SARL",
+   "montant_acte_engagement": 4878553.2,
+   "montant_apres_verification": 4878553.2,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_offre_financiere",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "GROUPEMENT HM CONSTRUCTION/ BATI BUILDING SARL AU",
+   "montant_acte_engagement": 498784.4,
+   "montant_apres_verification": 4498784.4,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_offre_financiere",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "STE WINARUS ING SARL",
+   "montant_acte_engagement": 4704958.8,
+   "montant_apres_verification": 4704958.8,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_offre_financiere",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "STE RENOVI SARL AU",
+   "montant_acte_engagement": 4216862.4,
+   "montant_apres_verification": 4216862.4,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 4,
+ "alertes_ocr": [
+  "« STE MBI SCAVI SARL » absent de la liste des plis déposés (nom mal lu ?).",
+  "« GROUPEMENT HM CONSTRUCTION/ BATI BUILDING SARL AU » absent de la liste des plis déposés (nom mal lu ?).",
+  "« STE WINARUS ING SARL » absent de la liste des plis déposés (nom mal lu ?).",
+  "« STE RENOVI SARL AU » absent de la liste des plis déposés (nom mal lu ?).",
+  "« GROUPEMENT HM CONSTRUCTION/ BATI BUILDING SARL AU » : écart anormal entre montant initial et vérifié (lecture à vérifier)."
+ ],
+ "notes_ocr": [
+  "« GROUPEMENT HM CONSTRUCTION/ BATI BUILDING SARL AU » : montant rectifié de 498 784.40 à 4 498 784.40 DH.",
+  "Maître d'ouvrage absent du PV (utiliser l'acheteur public du portail)."
+ ],
+ "qualite": "complet"
+}

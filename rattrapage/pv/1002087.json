@@ -1,0 +1,62 @@
+{
+ "source": "extrait_docx",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "1002087",
+ "orgAcronyme": "j8k",
+ "reference_pv": null,
+ "nouveau": true,
+ "reference": null,
+ "objet": "La réalisation des travaux de construction T.C.E de l'opération immobilière AL MANAR FOUNTY, en deux lots LOT N° 01 : Construction TCE de l’opération AL MANAR FOUNTY, tranche 01 à Agadir LOT N° 02 : Construction TCE de l’opération AL MANAR FOUNTY, tranche 02 à Agadir",
+ "acheteur": null,
+ "procedure": "appel d'offres ouvert",
+ "categorie": "Travaux",
+ "date_limite_plis": "06/05/2026",
+ "lieu_ouverture": "Division des Marchés de la Société Al omrane souss Massa",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "11/05/2026",
+ "justification": "Concurrent représentant l’offre la plus avantageuse. Concurrent représentant l’offre la plus avantageuse.",
+ "infructueux": false,
+ "attributaire": "Sté BENELHOU FRERES",
+ "montant_attribue": 208617813.04,
+ "attributaires_par_lot": [
+  {
+   "lot": null,
+   "attributaire": "Sté BENELHOU FRERES",
+   "montant": 208617813.04
+  },
+  {
+   "lot": null,
+   "attributaire": "Groupement conjoint SICATRA & SAMA GEC",
+   "montant": 308412298.08
+  }
+ ],
+ "soumissionnaires": [
+  {
+   "nom": "Sté BENELHOU FRERES",
+   "montant_acte_engagement": 208617813.04,
+   "montant_apres_verification": 208617813.04,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Groupement conjoint SICATRA & SAMA GEC",
+   "montant_acte_engagement": 308412298.08,
+   "montant_apres_verification": 308412298.08,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 2,
+ "alertes_ocr": [],
+ "notes_ocr": [
+  "Maître d'ouvrage absent du PV (utiliser l'acheteur public du portail)."
+ ],
+ "qualite": "attribution"
+}

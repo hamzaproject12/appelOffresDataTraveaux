@@ -1,0 +1,45 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "886289",
+ "orgAcronyme": "g3h",
+ "reference_pv": "10/2025/SDL3TD",
+ "nouveau": true,
+ "reference": "10/2025/SDL3TD",
+ "objet": null,
+ "acheteur": null,
+ "procedure": "appel d'offres ouvert",
+ "categorie": "Travaux",
+ "date_limite_plis": "09/04/2025",
+ "lieu_ouverture": "Salle de réunion de la société de développement local TANGER TETOUAN TRAVAUX DE DISTRIBUTION SA",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "10/04/2025",
+ "justification": "Offres moins disantes conformes aux critères d'attribution prévues par le règlement particulier de l'appel d'offres et le règlement des marchés de la SDL 3TD.",
+ "infructueux": false,
+ "attributaire": "RAMTEC",
+ "montant_attribue": 18357912.0,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "RAMTEC",
+   "montant_acte_engagement": 15298260.0,
+   "montant_apres_verification": 18357912.0,
+   "autres_montants": [],
+   "lots": [
+    "2"
+   ],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 1,
+ "alertes_ocr": [],
+ "notes_ocr": [
+  "« RAMTEC » : montant rectifié de 15 298 260.00 à 18 357 912.00 DH.",
+  "Maître d'ouvrage absent du PV (utiliser l'acheteur public du portail)."
+ ],
+ "qualite": "attribution"
+}

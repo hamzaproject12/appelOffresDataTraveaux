@@ -1,0 +1,124 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "734339",
+ "orgAcronyme": "g3h",
+ "reference_pv": "54/2023/S2A",
+ "nouveau": true,
+ "reference": "54/2023/S2A",
+ "objet": "TRAVAUX DE CONSTRUCTION DU PALAIS DE JUSTICE AGADIR - INEZGANE LOT N°2 : GROS-ŒUVRE, ETANCHEITE, REVETEMENTS, FAUX PLAFONDS PEINTURE ET AMENAGEMENTS EXTERIEURS",
+ "acheteur": null,
+ "procedure": "appel d'offres ouvert",
+ "categorie": "Travaux",
+ "date_limite_plis": null,
+ "lieu_ouverture": null,
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": null,
+ "justification": null,
+ "infructueux": false,
+ "attributaire": "SOCIETE TRACOM",
+ "montant_attribue": 122816952.6,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "SOCIETE BENLHOU FRERES",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": true
+  },
+  {
+   "nom": "SOCIETE IGASER",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": true
+  },
+  {
+   "nom": "SOCIETE ROUANDI",
+   "montant_acte_engagement": 129251876.4,
+   "montant_apres_verification": 129251876.4,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "SOCIETE TRACOM",
+   "montant_acte_engagement": 122816952.6,
+   "montant_apres_verification": 122816952.6,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "SOCIETE URBAGEC",
+   "montant_acte_engagement": 130902803.4,
+   "montant_apres_verification": 130902803.4,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "SOCIETE SOTAMAC",
+   "montant_acte_engagement": 130087762.8,
+   "montant_apres_verification": 130087762.8,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "SOCIETE EMB",
+   "montant_acte_engagement": 139999294.8,
+   "montant_apres_verification": 139999294.8,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "ENTREPRISE MOHCINE",
+   "montant_acte_engagement": 134454199.8,
+   "montant_apres_verification": 134454199.8,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "SOCIETE JET CONTRACTORS",
+   "montant_acte_engagement": 133671852.0,
+   "montant_apres_verification": 133671852.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 9,
+ "alertes_ocr": [
+  "« SOCIETE ROUANDI » absent de la liste des plis déposés (nom mal lu ?).",
+  "« SOCIETE TRACOM » absent de la liste des plis déposés (nom mal lu ?).",
+  "« SOCIETE URBAGEC » absent de la liste des plis déposés (nom mal lu ?).",
+  "« SOCIETE SOTAMAC » absent de la liste des plis déposés (nom mal lu ?).",
+  "« SOCIETE EMB » absent de la liste des plis déposés (nom mal lu ?).",
+  "« ENTREPRISE MOHCINE » absent de la liste des plis déposés (nom mal lu ?).",
+  "« SOCIETE JET CONTRACTORS » absent de la liste des plis déposés (nom mal lu ?)."
+ ],
+ "notes_ocr": [
+  "« SOCIETE BENLHOU FRERES » absent de la liste des plis déposés (nom mal lu ?).",
+  "« SOCIETE IGASER » absent de la liste des plis déposés (nom mal lu ?).",
+  "Maître d'ouvrage absent du PV (utiliser l'acheteur public du portail)."
+ ],
+ "qualite": "complet"
+}

@@ -1,0 +1,49 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "776458",
+ "orgAcronyme": "g8e",
+ "reference_pv": "9/2023/DRI",
+ "nouveau": true,
+ "reference": "9/2023/DRI",
+ "objet": "La réalisation des travaux de remplacement de deux ascenseurs au niveau de l'immeuble des impôts sis boulevard Bordeaux à Casablanca, (en lot unique)",
+ "acheteur": "Direction Régionale des Impôts de Casablanca",
+ "procedure": "appel d'offres ouvert national",
+ "categorie": "Travaux",
+ "date_limite_plis": "23/01/2024",
+ "lieu_ouverture": "Salle de réunion 3ème étage, 6 Bd Rachidi",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "22/02/2024",
+ "justification": "Offres la mieux disante par rapport au prix de référence.",
+ "infructueux": false,
+ "attributaire": "Société HORUS ASCENSEUR",
+ "montant_attribue": 1010880.0,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "Société HORUS ASCENSEUR",
+   "montant_acte_engagement": 1010880.0,
+   "montant_apres_verification": 1010880.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Société RELAX ASCENSEURS",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_offre_financiere",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 2,
+ "alertes_ocr": [],
+ "notes_ocr": [],
+ "qualite": "attribution"
+}

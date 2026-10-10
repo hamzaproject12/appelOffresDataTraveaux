@@ -1,0 +1,110 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "1030610",
+ "orgAcronyme": "g3h",
+ "reference_pv": "090/2026/EP",
+ "nouveau": true,
+ "reference": "090/2026/EP",
+ "objet": null,
+ "acheteur": null,
+ "procedure": null,
+ "categorie": "Travaux",
+ "date_limite_plis": "18/06/2026",
+ "lieu_ouverture": "Salle de réunion de la Société Régionale Multiservices Tanger-Tétouan-Al Hoceima « SRM-TTA »",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "05/08/2026",
+ "justification": "Offre moins-disante conforme avec une attribution maximale de 2 lots par attributaire. L'attribution des lots se fait selon la combinaison la plus économique pour la SRM-TTA, conformément aux critères d'attribution prévues par le règlement de consultation de l'appel d'offres. |",
+ "infructueux": false,
+ "attributaire": "EOT 2 SIEER",
+ "montant_attribue": 19341279.22,
+ "attributaires_par_lot": [
+  {
+   "lot": "1",
+   "attributaire": "EOT 2 SIEER",
+   "montant": 19341279.22
+  },
+  {
+   "lot": "4",
+   "attributaire": "PE ns",
+   "montant": 3181459.43
+  }
+ ],
+ "soumissionnaires": [
+  {
+   "nom": "ALTATRAV ALTATRAV SMEER ALTATRAV AMANOR SMEER",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "HOLDING AL",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [
+    "2"
+   ],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "MED TPH",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [
+    "2"
+   ],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "L SMEER",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "depose",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "EOT 2 SIEER",
+   "montant_acte_engagement": 19341279.22,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [
+    "1"
+   ],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "PE ns",
+   "montant_acte_engagement": 3181459.43,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [
+    "4"
+   ],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 6,
+ "alertes_ocr": [
+  "« EOT 2 SIEER » absent de la liste des plis déposés (nom mal lu ?).",
+  "« PE ns » absent de la liste des plis déposés (nom mal lu ?)."
+ ],
+ "notes_ocr": [
+  "Marché alloti (3 lots).",
+  "Maître d'ouvrage absent du PV (utiliser l'acheteur public du portail)."
+ ],
+ "qualite": "attribution"
+}

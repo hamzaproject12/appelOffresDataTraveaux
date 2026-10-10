@@ -1,0 +1,80 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "811109",
+ "orgAcronyme": "o8p",
+ "reference_pv": "AO/36/ANEPCEST/2024",
+ "nouveau": true,
+ "reference": "AO/36/ANEPCEST/2024",
+ "objet": "« TRAVAUX DE MISE A NIVEAU DES CENTRES DE SOIN DES AMOATI - CENTRE DE CENTRE DE SANTE CSU1 DOKKARAT - CENTRE DE SANTE CSU1 HAJ TA]",
+ "acheteur": null,
+ "procedure": "appel d'offres ouvert international",
+ "categorie": "Travaux",
+ "date_limite_plis": "24/06/2024",
+ "lieu_ouverture": "le burea Prestigia, Champs de Course Publics du Centre Est sis au N°8 espace Rayan 2 Lotissement City Center",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "01/06/2024",
+ "justification": "l'offre économiquement la plus avantageuse Ld",
+ "infructueux": false,
+ "attributaire": "STE HAMDAOUI ALI CONSTRUCTION SARL AU",
+ "montant_attribue": null,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "STE ATTOURATE SARL",
+   "montant_acte_engagement": 14296938.0,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "STET.G.CISARL",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_offre_financiere",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "STE MESKI DES TRAVAUX DIVERS SARL 7",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "STE FILS LAMHAMDI BELHADJ SARL AU",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "depose",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "STE HAMDAOUI ALI CONSTRUCTION SARL AU",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 5,
+ "alertes_ocr": [
+  "Montant de l'attributaire « STE HAMDAOUI ALI CONSTRUCTION SARL AU » non trouvé."
+ ],
+ "notes_ocr": [
+  "Maître d'ouvrage absent du PV (utiliser l'acheteur public du portail)."
+ ],
+ "qualite": "attribution"
+}

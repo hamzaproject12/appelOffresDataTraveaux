@@ -1,0 +1,88 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "774703",
+ "orgAcronyme": "d4q",
+ "reference_pv": "106/DR3/2023",
+ "nouveau": true,
+ "reference": "106/DR3/2023",
+ "objet": "",
+ "acheteur": null,
+ "procedure": "appel d'offres ouvert",
+ "categorie": "Travaux",
+ "date_limite_plis": "28/12/2023",
+ "lieu_ouverture": "au Siège de la Direction Régionale du Centre (DR3) Boulevard Mohamed VI, Quartier Administratif - Khouribga - Maroc",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "14/02/2024",
+ "justification": "Moins-disant",
+ "infructueux": false,
+ "attributaire": "FORAGES ET TUBAGES",
+ "montant_attribue": 1197960.0,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "base COTRATEC",
+   "montant_acte_engagement": 1420200.0,
+   "montant_apres_verification": null,
+   "autres_montants": [
+    1420200.0
+   ],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "FORAGES ET TUBAGES",
+   "montant_acte_engagement": 1197960.0,
+   "montant_apres_verification": null,
+   "autres_montants": [
+    1197960.0
+   ],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "OMNIUM HYDROLIQUE ET ELECTRIQUE - Offre",
+   "montant_acte_engagement": 1438560.0,
+   "montant_apres_verification": null,
+   "autres_montants": [
+    1438560.0
+   ],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "SEIPIA (Ex TOURNAGE SOUSS) - Offre de",
+   "montant_acte_engagement": 1244276.88,
+   "montant_apres_verification": null,
+   "autres_montants": [
+    1244276.88
+   ],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "STE LAMO MAROC",
+   "montant_acte_engagement": 1420740.0,
+   "montant_apres_verification": null,
+   "autres_montants": [
+    1420740.0
+   ],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 5,
+ "alertes_ocr": [],
+ "notes_ocr": [
+  "Maître d'ouvrage absent du PV (utiliser l'acheteur public du portail)."
+ ],
+ "qualite": "complet"
+}

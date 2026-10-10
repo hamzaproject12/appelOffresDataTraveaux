@@ -1,0 +1,74 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "793042",
+ "orgAcronyme": "g3h",
+ "reference_pv": "31/2024/S2A",
+ "nouveau": true,
+ "reference": "31/2024/S2A",
+ "objet": "AMENAGEMENT DU BARREAU EST-OUEST A LA VILLE D’AGADIR. ACHEVEMENT DES TRAVAUX D’AMENAGEMENT DEVANT UNIVERSIAPOLIS ET FACULTE DE MEDECINE TRAVAUX DE PLANTATION ET GENIE CIVIL",
+ "acheteur": null,
+ "procedure": "appel d'offres ouvert",
+ "categorie": "Travaux",
+ "date_limite_plis": null,
+ "lieu_ouverture": null,
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": null,
+ "justification": null,
+ "infructueux": false,
+ "attributaire": "SOCIETE AMESVERT",
+ "montant_attribue": 899568.0,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "SOCIETE SUD JARDIN TRAVAUX",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_offre_technique",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "SOCIETE ASDIVE",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_offre_technique",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "SOCIETE MAROCAINE DE JARDINAGE ET CONSTRUCTION",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_offre_technique",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "SOCIETE AMESVERT",
+   "montant_acte_engagement": 899568.0,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 4,
+ "alertes_ocr": [
+  "« SOCIETE AMESVERT » absent de la liste des plis déposés (nom mal lu ?)."
+ ],
+ "notes_ocr": [
+  "« SOCIETE SUD JARDIN TRAVAUX » absent de la liste des plis déposés (nom mal lu ?).",
+  "« SOCIETE ASDIVE » absent de la liste des plis déposés (nom mal lu ?).",
+  "« SOCIETE MAROCAINE DE JARDINAGE ET CONSTRUCTION » absent de la liste des plis déposés (nom mal lu ?).",
+  "Maître d'ouvrage absent du PV (utiliser l'acheteur public du portail)."
+ ],
+ "qualite": "attribution"
+}

@@ -1,0 +1,84 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "697690",
+ "orgAcronyme": "d4q",
+ "reference_pv": null,
+ "nouveau": true,
+ "reference": null,
+ "objet": "Travaux d'aménagement du nouveau local de l'Agence des Services BOUJNIBA",
+ "acheteur": null,
+ "procedure": null,
+ "categorie": "Travaux",
+ "date_limite_plis": "31/01/2023",
+ "lieu_ouverture": "siège de la Direction Régionale de Béni Mellal",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": null,
+ "justification": "moins disant conforme.",
+ "infructueux": false,
+ "attributaire": "Sté ALGERIENELEC",
+ "montant_attribue": 220675.5,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "Sté ANIR PRO, Sté MIYA ELEC BUSINESS PRO, Sté ALGERIENELEC, Sté MAP TP",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "depose",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Sté ASMAE ALI NEGOCE et Sté DECOTRAP",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_dossier_administratif_technique",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Sté ALGERIENELEC",
+   "montant_acte_engagement": 232290.0,
+   "montant_apres_verification": 220675.5,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Sté APROS",
+   "montant_acte_engagement": 226614.0,
+   "montant_apres_verification": 226614.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Sté ANIR PRO",
+   "montant_acte_engagement": 242880.0,
+   "montant_apres_verification": 242880.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 5,
+ "alertes_ocr": [
+  "« Sté ALGERIENELEC » absent de la liste des plis déposés (nom mal lu ?).",
+  "« Sté APROS » absent de la liste des plis déposés (nom mal lu ?).",
+  "« Sté ANIR PRO » absent de la liste des plis déposés (nom mal lu ?)."
+ ],
+ "notes_ocr": [
+  "« Sté ALGERIENELEC » : montant rectifié de 232 290.00 à 220 675.50 DH.",
+  "Maître d'ouvrage absent du PV (utiliser l'acheteur public du portail).",
+  "Montants exprimés hors taxes (HT)."
+ ],
+ "qualite": "complet"
+}

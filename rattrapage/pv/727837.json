@@ -1,0 +1,114 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "727837",
+ "orgAcronyme": "q0x",
+ "reference_pv": "93/AREPDT/2023",
+ "nouveau": true,
+ "reference": "93/AREPDT/2023",
+ "objet": "Programme National pour l'Approvisionnement en Eau Potable et d’Irrigation : Travaux d'alimentation en eau potable de la population rurale de la commune Tinzouline à partir du Barrage AGDEZ - Province de",
+ "acheteur": null,
+ "procedure": "appel d'offres ouvert",
+ "categorie": "Travaux",
+ "date_limite_plis": "13/06/2023",
+ "lieu_ouverture": null,
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": null,
+ "justification": null,
+ "infructueux": false,
+ "attributaire": "STE SMYBAM",
+ "montant_attribue": 14571660.0,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "STE HS INFRA",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_offre_financiere",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "STE SMYBAM",
+   "montant_acte_engagement": 14571660.0,
+   "montant_apres_verification": 14571660.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "STE OUMOUJANE TRAVAUX",
+   "montant_acte_engagement": 15531768.0,
+   "montant_apres_verification": 15531768.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "STE GTMT",
+   "montant_acte_engagement": 16109700.0,
+   "montant_apres_verification": 16109700.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "STE ATLAS BOUGAFER",
+   "montant_acte_engagement": 16443952.8,
+   "montant_apres_verification": 16443952.8,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "STE SOCHTRAP",
+   "montant_acte_engagement": 16853760.0,
+   "montant_apres_verification": 16853760.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "STE SOUTHYDRAULIC",
+   "montant_acte_engagement": 17159820.0,
+   "montant_apres_verification": 17159820.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "STE SELTRA",
+   "montant_acte_engagement": 19647120.0,
+   "montant_apres_verification": 19647120.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 8,
+ "alertes_ocr": [
+  "« STE SMYBAM » absent de la liste des plis déposés (nom mal lu ?).",
+  "« STE OUMOUJANE TRAVAUX » absent de la liste des plis déposés (nom mal lu ?).",
+  "« STE GTMT » absent de la liste des plis déposés (nom mal lu ?).",
+  "« STE ATLAS BOUGAFER » absent de la liste des plis déposés (nom mal lu ?).",
+  "« STE SOCHTRAP » absent de la liste des plis déposés (nom mal lu ?).",
+  "« STE SOUTHYDRAULIC » absent de la liste des plis déposés (nom mal lu ?).",
+  "« STE SELTRA » absent de la liste des plis déposés (nom mal lu ?)."
+ ],
+ "notes_ocr": [
+  "« STE HS INFRA » absent de la liste des plis déposés (nom mal lu ?).",
+  "Maître d'ouvrage absent du PV (utiliser l'acheteur public du portail)."
+ ],
+ "qualite": "complet"
+}

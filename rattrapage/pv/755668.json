@@ -1,0 +1,60 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "755668",
+ "orgAcronyme": "a1z",
+ "reference_pv": "12/CN/2023",
+ "nouveau": true,
+ "reference": "12/CN/2023",
+ "objet": "CONSTRUCTION DE DEUX TERRAINS DE SPORT DE PROXIMITE À LA COMMUNE DE NOUACEUR",
+ "acheteur": "Commune Nouaceur",
+ "procedure": null,
+ "categorie": "Travaux",
+ "date_limite_plis": "26/09/2023",
+ "lieu_ouverture": "Bureau du Président de la Commune de Nouaceur > Publication",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "02/11/2023",
+ "justification": "Concurrents Montant des actes d’engagement de l’attributaire + Groupement HTSM et SFTGC e 3 401 172,00 DHS L'offre la plus avantageuse",
+ "infructueux": false,
+ "attributaire": null,
+ "montant_attribue": null,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "Groupement HTSM et SFTGC",
+   "montant_acte_engagement": 3401172.0,
+   "montant_apres_verification": 3401172.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "STE TIHFOUZ s.a.r.i AU",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_offre_technique",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "AL SAFEWA TRAVAUX ET CONSTRUCTION",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_dossier_administratif_technique",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 3,
+ "alertes_ocr": [
+  "Attributaire non trouvé."
+ ],
+ "notes_ocr": [],
+ "qualite": "attribution"
+}

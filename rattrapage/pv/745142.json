@@ -1,0 +1,93 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "745142",
+ "orgAcronyme": "d4q",
+ "reference_pv": "65/DR6/C/2023",
+ "nouveau": true,
+ "reference": "65/DR6/C/2023",
+ "objet": "Travaux de recherche et réparation des fuites au niveau des centres relevant de la direction provinciale de Berkane (A l’exception des centres de Berkane et Saidia)",
+ "acheteur": null,
+ "procedure": "appel d'offres ouvert",
+ "categorie": "Travaux",
+ "date_limite_plis": "29/08/2023",
+ "lieu_ouverture": "au Siège de la Direction Régionale de l'Oriental (DR6) Place 18 Mars 2003 - Oujda - Maroc",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "05/10/2023",
+ "justification": "Moins-disant",
+ "infructueux": false,
+ "attributaire": "Devise MontantTTC Montant TTCenkettres",
+ "montant_attribue": 650820.0,
+ "attributaires_par_lot": [
+  {
+   "lot": null,
+   "attributaire": "Devise MontantTTC Montant TTCenkettres",
+   "montant": 650820.0
+  },
+  {
+   "lot": null,
+   "attributaire": "AFFAIR OF THE WATER (AFW) - Offre",
+   "montant": 650820.0
+  }
+ ],
+ "soumissionnaires": [
+  {
+   "nom": "AFFAIR OF THE WATER (AFW) - Offre",
+   "montant_acte_engagement": 650820.0,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "GREEN CODE MAROC",
+   "montant_acte_engagement": 896640.0,
+   "montant_apres_verification": null,
+   "autres_montants": [
+    896640.0
+   ],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "GROUP SMAT /GENERALE D'ENERGIES Dossier Administratif",
+   "montant_acte_engagement": 941040.0,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_dossier_administratif_technique",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "STE ENTREPRISE DES ACTIVITES UTILES Dossier Administratif",
+   "montant_acte_engagement": 844356.0,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_dossier_administratif_technique",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Devise MontantTTC Montant TTCenkettres",
+   "montant_acte_engagement": 650820.0,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 5,
+ "alertes_ocr": [
+  "« Devise MontantTTC Montant TTCenkettres » absent de la liste des plis déposés (nom mal lu ?)."
+ ],
+ "notes_ocr": [
+  "Maître d'ouvrage absent du PV (utiliser l'acheteur public du portail)."
+ ],
+ "qualite": "complet"
+}

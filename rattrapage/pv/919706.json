@@ -1,0 +1,102 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "919706",
+ "orgAcronyme": "o8p",
+ "reference_pv": "TA/14/2025",
+ "nouveau": true,
+ "reference": "TA/14/2025",
+ "objet": null,
+ "acheteur": "DIRECTION PROVINCIA",
+ "procedure": null,
+ "categorie": "Travaux",
+ "date_limite_plis": "10/07/2025",
+ "lieu_ouverture": "Le Siège De La Direction Provinciale De L'équipement Et De L’eau De Taourirt",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": null,
+ "justification": "l’offre la mieux disante a été retenue es travaux de la commission le 24/07/2025",
+ "infructueux": false,
+ "attributaire": "STE LA LIGNE BLANCHE",
+ "montant_attribue": 2738688.0,
+ "attributaires_par_lot": [
+  {
+   "lot": null,
+   "attributaire": "STE LA LIGNE BLANCHE",
+   "montant": 2738688.0
+  },
+  {
+   "lot": null,
+   "attributaire": "STE CHAMAL SIGNALISATION",
+   "montant": 3026112.0
+  },
+  {
+   "lot": null,
+   "attributaire": "STE INJAZ WORKS",
+   "montant": 2665512.0
+  },
+  {
+   "lot": null,
+   "attributaire": "STE TSDA",
+   "montant": 2691120.0
+  },
+  {
+   "lot": null,
+   "attributaire": "STE PINTAPLANA",
+   "montant": 3013311.28
+  }
+ ],
+ "soumissionnaires": [
+  {
+   "nom": "STE LA LIGNE BLANCHE",
+   "montant_acte_engagement": 2738688.0,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "STE CHAMAL SIGNALISATION",
+   "montant_acte_engagement": 3026112.0,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "STE INJAZ WORKS",
+   "montant_acte_engagement": 2665512.0,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "STE TSDA",
+   "montant_acte_engagement": 2691120.0,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "STE PINTAPLANA",
+   "montant_acte_engagement": 3013311.28,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": true
+  }
+ ],
+ "nombre_soumissionnaires": 5,
+ "alertes_ocr": [],
+ "notes_ocr": [],
+ "qualite": "attribution"
+}

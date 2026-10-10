@@ -1,0 +1,55 @@
+{
+ "source": "extrait_docx",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "926130",
+ "orgAcronyme": "l1f",
+ "reference_pv": "30/RTTA/2025",
+ "nouveau": true,
+ "reference": "30/RTTA/2025",
+ "objet": "Construction et la réhabilitation de bâtiment d’occupation du Projet SLEC « Service Local Énergie Climat » Dans la Région Tanger – Tétouan- Al Hoceima (Lot : Commune Melloussa)",
+ "acheteur": null,
+ "procedure": "appel d'offres ouvert simplifié",
+ "categorie": "Travaux",
+ "date_limite_plis": "22/07/2025",
+ "lieu_ouverture": "Le bureau de la Région à Tanger",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": null,
+ "justification": null,
+ "infructueux": false,
+ "attributaire": null,
+ "montant_attribue": null,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "Société AGHARASCOM Sarl à Tanger",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Société Salvat Travaux et Solutions de construction Sarl à Tanger",
+   "montant_acte_engagement": 624349.51,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 2,
+ "alertes_ocr": [
+  "« Société Salvat Travaux et Solutions de construction Sarl à Tanger » absent de la liste des plis déposés (nom mal lu ?).",
+  "Attributaire non trouvé."
+ ],
+ "notes_ocr": [
+  "« Société AGHARASCOM Sarl à Tanger » absent de la liste des plis déposés (nom mal lu ?).",
+  "Maître d'ouvrage absent du PV (utiliser l'acheteur public du portail)."
+ ],
+ "qualite": "attribution"
+}

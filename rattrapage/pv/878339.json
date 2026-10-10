@@ -1,0 +1,80 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "878339",
+ "orgAcronyme": "d4q",
+ "reference_pv": null,
+ "nouveau": true,
+ "reference": null,
+ "objet": null,
+ "acheteur": null,
+ "procedure": null,
+ "categorie": "Travaux",
+ "date_limite_plis": "14/11/2024",
+ "lieu_ouverture": "Errachidia",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": null,
+ "justification": "classé moins disant. > L'offre du concurrent GRITEL SARL AU classé moins disant s’écarte de 18,32% par rapport au montant de l'estimation qui s'élève à 581 268,74 DH-HTVA.",
+ "infructueux": false,
+ "attributaire": "GRITEL SARL AU",
+ "montant_attribue": 687770.0,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "FATM SARL, GRITEL SARL AU et EMARELEC SARL AU",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "GRITEL SARL AU",
+   "montant_acte_engagement": 687770.0,
+   "montant_apres_verification": null,
+   "autres_montants": [
+    687770.0
+   ],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "FATM SARL",
+   "montant_acte_engagement": 696696.0,
+   "montant_apres_verification": null,
+   "autres_montants": [
+    694056.0
+   ],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "EMARELEC SARL AU",
+   "montant_acte_engagement": 694200.0,
+   "montant_apres_verification": null,
+   "autres_montants": [
+    694200.0
+   ],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 4,
+ "alertes_ocr": [
+  "« GRITEL SARL AU » absent de la liste des plis déposés (nom mal lu ?).",
+  "« FATM SARL » absent de la liste des plis déposés (nom mal lu ?).",
+  "« EMARELEC SARL AU » absent de la liste des plis déposés (nom mal lu ?)."
+ ],
+ "notes_ocr": [
+  "Maître d'ouvrage absent du PV (utiliser l'acheteur public du portail).",
+  "Montants exprimés hors taxes (HT)."
+ ],
+ "qualite": "complet"
+}

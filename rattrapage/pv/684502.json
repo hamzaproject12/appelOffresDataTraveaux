@@ -1,0 +1,60 @@
+{
+ "source": "extrait_docx",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "684502",
+ "orgAcronyme": "j8k",
+ "reference_pv": "08/2022/SAOT",
+ "nouveau": true,
+ "reference": "08/2022/SAOT",
+ "objet": null,
+ "acheteur": "Al Omrane Tamesna Al Omrane Tamesna",
+ "procedure": "appel d'offres ouvert",
+ "categorie": "Travaux",
+ "date_limite_plis": "03/10/2022",
+ "lieu_ouverture": "Siège d’Al Omrane Rabat-Salé-Kénitra Siège d’Al Omrane Rabat-Salé-Kénitra",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "14/10/2022",
+ "justification": "L’offre la plus avantageuse.",
+ "infructueux": false,
+ "attributaire": "SUP CONSTRUCTION/IMLIL PROJET",
+ "montant_attribue": 881422.8,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "LE GROUPEMENT",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "BATI BUILDING",
+   "montant_acte_engagement": 1144104.0,
+   "montant_apres_verification": 1144104.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "SUP CONSTRUCTION/IMLIL PROJET",
+   "montant_acte_engagement": 881422.8,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 3,
+ "alertes_ocr": [
+  "« SUP CONSTRUCTION/IMLIL PROJET » absent de la liste des plis déposés (nom mal lu ?)."
+ ],
+ "notes_ocr": [],
+ "qualite": "complet"
+}

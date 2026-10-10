@@ -1,0 +1,54 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "932048",
+ "orgAcronyme": "o8p",
+ "reference_pv": "25T032/PLGV",
+ "nouveau": true,
+ "reference": "25T032/PLGV",
+ "objet": "de .. k . . | |",
+ "acheteur": "M. le Directeur Equipements ferroviaires du Pole Projets LGV",
+ "procedure": "appel d'offres ouvert",
+ "categorie": "Travaux",
+ "date_limite_plis": "11/09/2025",
+ "lieu_ouverture": "Institut de Formation et de Développement de Compétences l'ONCF",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": null,
+ "justification": null,
+ "infructueux": false,
+ "attributaire": "Groupement conjoint COLAS RAIL/ COLAS RAIL MAROC de PHINT",
+ "montant_attribue": null,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "Groupement COLAS RAIL/COLAS RAIL MAROC",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": true
+  },
+  {
+   "nom": "Groupement conjoint COLAS RAIL/ COLAS RAIL MAROC de PHINT",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 2,
+ "alertes_ocr": [
+  "« Groupement conjoint COLAS RAIL/ COLAS RAIL MAROC de PHINT » absent de la liste des plis déposés (nom mal lu ?).",
+  "Montant de l'attributaire « Groupement conjoint COLAS RAIL/ COLAS RAIL MAROC de PHINT » non trouvé."
+ ],
+ "notes_ocr": [
+  "Montants exprimés hors taxes (HT)."
+ ],
+ "qualite": "participants"
+}

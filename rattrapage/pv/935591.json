@@ -1,0 +1,53 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "935591",
+ "orgAcronyme": "d0q",
+ "reference_pv": "20/2025/BP",
+ "nouveau": true,
+ "reference": "20/2025/BP",
+ "objet": "travaux d'aménagement de la voie d’accès à l'hôpital Ibn Rochd à Taza Al Oulya — Ville de Taza -Province de Taza",
+ "acheteur": "Le Président du conseil provincial de Taza",
+ "procedure": "appel d'offres ouvert national",
+ "categorie": "Travaux",
+ "date_limite_plis": "24/09/2025",
+ "lieu_ouverture": "Les bureaux du conseil provincial de Taza",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "30/09/2025",
+ "justification": "l’offre économiquement la plus avantageuse. q",
+ "infructueux": false,
+ "attributaire": "i SOCIETE HEM CHEKA SARL-TAZA + Î",
+ "montant_attribue": 901268.0,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "SOCIETE SOHAZATRAV SARL AU -RABAT",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_offre_financiere",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "i SOCIETE HEM CHEKA SARL-TAZA + Î",
+   "montant_acte_engagement": 901268.0,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 2,
+ "alertes_ocr": [
+  "« i SOCIETE HEM CHEKA SARL-TAZA + Î » absent de la liste des plis déposés (nom mal lu ?)."
+ ],
+ "notes_ocr": [
+  "« SOCIETE SOHAZATRAV SARL AU -RABAT » absent de la liste des plis déposés (nom mal lu ?)."
+ ],
+ "qualite": "attribution"
+}

@@ -1,0 +1,65 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "1040905",
+ "orgAcronyme": "g3h",
+ "reference_pv": "16/2026/INDH/PS",
+ "nouveau": true,
+ "reference": "16/2026/INDH/PS",
+ "objet": "Travaux de construction de la piste reliant la RP5053 au douar Lmdaoud à la commune Ighezrane relevant de la province de sefrou",
+ "acheteur": null,
+ "procedure": "appel d'offres ouvert national",
+ "categorie": "Travaux",
+ "date_limite_plis": "03/09/2026",
+ "lieu_ouverture": "la salle de réunions de l’annexe du Secrétariat Général de la Province de Sefrou",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "18/09/2026",
+ "justification": null,
+ "infructueux": false,
+ "attributaire": null,
+ "montant_attribue": null,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "SOCIETE HINATRA",
+   "montant_acte_engagement": 2279072.4,
+   "montant_apres_verification": 2279072.4,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "SOCIETE NEW WOY TRAV",
+   "montant_acte_engagement": 2416284.0,
+   "montant_apres_verification": 2416284.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "règlement de consultation",
+   "montant_acte_engagement": 2304132.3,
+   "montant_apres_verification": 2304132.3,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 3,
+ "alertes_ocr": [
+  "« SOCIETE HINATRA » absent de la liste des plis déposés (nom mal lu ?).",
+  "« SOCIETE NEW WOY TRAV » absent de la liste des plis déposés (nom mal lu ?).",
+  "« règlement de consultation » absent de la liste des plis déposés (nom mal lu ?).",
+  "Attributaire non trouvé."
+ ],
+ "notes_ocr": [
+  "Maître d'ouvrage absent du PV (utiliser l'acheteur public du portail)."
+ ],
+ "qualite": "complet"
+}

@@ -1,0 +1,108 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "742370",
+ "orgAcronyme": "q9t",
+ "reference_pv": "05/2023/DRSPS",
+ "nouveau": true,
+ "reference": "05/2023/DRSPS",
+ "objet": null,
+ "acheteur": "Direction Régionale de la santé et de la protection sociale BMK",
+ "procedure": null,
+ "categorie": "Travaux",
+ "date_limite_plis": "15/05/2023",
+ "lieu_ouverture": "Siège de la Direction Régionale de la Santé et de la protection sociale à BENI-MELLAL",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": null,
+ "justification": null,
+ "infructueux": false,
+ "attributaire": null,
+ "montant_attribue": null,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "STE EAU RESEAU",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_dossier_administratif_technique",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "STE MANASSA TRV SARL AU",
+   "montant_acte_engagement": 1941918.0,
+   "montant_apres_verification": 1941918.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "STE GOOD UP SARL",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_dossier_administratif_technique",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "STE TOZAW TRAVAUX",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_dossier_administratif_technique",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "STE GLTRA SARL",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "STE MAGOUNI TRAVAUX SARL",
+   "montant_acte_engagement": 1807566.0,
+   "montant_apres_verification": 1897266.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": true
+  },
+  {
+   "nom": "STE M4 BRODERS SARL AU",
+   "montant_acte_engagement": 2039136.0,
+   "montant_apres_verification": 2039136.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "STE GLIRA SARL",
+   "montant_acte_engagement": 2050986.0,
+   "montant_apres_verification": 2050986.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 8,
+ "alertes_ocr": [
+  "« STE GLIRA SARL » absent de la liste des plis déposés (nom mal lu ?).",
+  "Attributaire non trouvé."
+ ],
+ "notes_ocr": [
+  "« STE MAGOUNI TRAVAUX SARL » : montant rectifié de 1 807 566.00 à 1 897 266.00 DH."
+ ],
+ "qualite": "complet"
+}

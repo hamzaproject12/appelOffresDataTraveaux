@@ -1,0 +1,54 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "675500",
+ "orgAcronyme": "d4q",
+ "reference_pv": null,
+ "nouveau": true,
+ "reference": null,
+ "objet": null,
+ "acheteur": null,
+ "procedure": "appel d'offres ouvert",
+ "categorie": "Travaux",
+ "date_limite_plis": "21/09/2022",
+ "lieu_ouverture": "Siège de l'ONEE-BE à Casablanca",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": null,
+ "justification": "Offre avantageuse.",
+ "infructueux": false,
+ "attributaire": "en /HTVA | en /TVAC SORULEC",
+ "montant_attribue": 2207718.94,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "SORULEC - BO TECHNOLOGY",
+   "montant_acte_engagement": 2888051.04,
+   "montant_apres_verification": 2891051.04,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "en /HTVA | en /TVAC SORULEC",
+   "montant_acte_engagement": 2207718.94,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 2,
+ "alertes_ocr": [
+  "« en /HTVA | en /TVAC SORULEC » absent de la liste des plis déposés (nom mal lu ?)."
+ ],
+ "notes_ocr": [
+  "« SORULEC - BO TECHNOLOGY » : montant rectifié de 2 888 051.04 à 2 891 051.04 DH.",
+  "Maître d'ouvrage absent du PV (utiliser l'acheteur public du portail)."
+ ],
+ "qualite": "complet"
+}

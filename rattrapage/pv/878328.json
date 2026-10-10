@@ -1,0 +1,71 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "878328",
+ "orgAcronyme": "g3h",
+ "reference_pv": "06/2025",
+ "nouveau": true,
+ "reference": "06/2025",
+ "objet": "Travaux de restauration et de réhabilitation des murailles historiques de la médina de Meknès,",
+ "acheteur": null,
+ "procedure": "appel d'offres ouvert",
+ "categorie": "Travaux",
+ "date_limite_plis": "04/03/2025",
+ "lieu_ouverture": "Antenne de l'ADER-Fès à Meknès",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "11/03/2025",
+ "justification": "Le concurrent ayant présenté l’offre financière la plus avantageuse et la moins disante.",
+ "infructueux": false,
+ "attributaire": "Société SOBINMA SARL AU",
+ "montant_attribue": 11370000.0,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "Société BERRAHO ABDELMALKI SARL AU",
+   "montant_acte_engagement": 6945600.0,
+   "montant_apres_verification": 13891200.0,
+   "autres_montants": [
+    13891200.0
+   ],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Société SOBINMA SARL AU",
+   "montant_acte_engagement": 5685000.0,
+   "montant_apres_verification": 11370000.0,
+   "autres_montants": [
+    11370000.0
+   ],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": true
+  },
+  {
+   "nom": "Société CLUTCH SARL AU",
+   "montant_acte_engagement": 6800100.0,
+   "montant_apres_verification": 600200.0,
+   "autres_montants": [
+    13600200.0
+   ],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": true
+  }
+ ],
+ "nombre_soumissionnaires": 3,
+ "alertes_ocr": [
+  "« Société CLUTCH SARL AU » : écart anormal entre montant initial et vérifié (lecture à vérifier)."
+ ],
+ "notes_ocr": [
+  "« Société BERRAHO ABDELMALKI SARL AU » : montant rectifié de 6 945 600.00 à 13 891 200.00 DH.",
+  "« Société SOBINMA SARL AU » : montant rectifié de 5 685 000.00 à 11 370 000.00 DH.",
+  "« Société CLUTCH SARL AU » : montant rectifié de 6 800 100.00 à 600 200.00 DH.",
+  "Maître d'ouvrage absent du PV (utiliser l'acheteur public du portail)."
+ ],
+ "qualite": "complet"
+}

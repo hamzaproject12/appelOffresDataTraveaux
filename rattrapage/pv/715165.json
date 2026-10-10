@@ -1,0 +1,78 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "715165",
+ "orgAcronyme": "q1s",
+ "reference_pv": "38/2023/0RSM",
+ "nouveau": true,
+ "reference": "38/2023/0RSM",
+ "objet": "Assistance technique pour la réalisation des équipements communs relatifs aux projets de reconversion collective, au profit des Associations des Usagers d'Eau Agricoles dans la zone d'action de l'ORMVA SOUSS MASSA",
+ "acheteur": "ORMVA/SM",
+ "procedure": "appel d'offres ouvert",
+ "categorie": "Travaux",
+ "date_limite_plis": "06/04/2023",
+ "lieu_ouverture": "Salle de réunion de la direction de l'ORMVA/SM",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "10/05/2023",
+ "justification": "offre la plus avantageuse de la société BTP CONSULTING",
+ "infructueux": false,
+ "attributaire": "BTP CONSULTING",
+ "montant_attribue": 817200.0,
+ "attributaires_par_lot": [
+  {
+   "lot": null,
+   "attributaire": "BTP CONSULTING",
+   "montant": 817200.0
+  },
+  {
+   "lot": null,
+   "attributaire": "SETARYA INGENIERIE",
+   "montant": 896400.0
+  }
+ ],
+ "soumissionnaires": [
+  {
+   "nom": "BTP CONSULTING",
+   "montant_acte_engagement": 817200.0,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "SETARYA INGENIERIE",
+   "montant_acte_engagement": 896400.0,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "ADI RABAT",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "depose",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "BETD KASRI BENI MELLAL",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 4,
+ "alertes_ocr": [],
+ "notes_ocr": [],
+ "qualite": "attribution"
+}

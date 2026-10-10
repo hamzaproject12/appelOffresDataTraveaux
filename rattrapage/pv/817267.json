@@ -1,0 +1,63 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "817267",
+ "orgAcronyme": "q1s",
+ "reference_pv": "05/DPA/TT/2024",
+ "nouveau": true,
+ "reference": "05/DPA/TT/2024",
+ "objet": "Gros travaux d'entretien et de réparation de logements administratifs de la",
+ "acheteur": "Directeur Provincial de l'Agriculture de TanTan",
+ "procedure": "appel d'offres ouvert simplifié",
+ "categorie": "Travaux",
+ "date_limite_plis": "16/07/2024",
+ "lieu_ouverture": null,
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": null,
+ "justification": "Offre mieux disante æ Société qualifiée dans le domaine æ Date d'achèvement des travaux de la commission : 23/07/2024 à 13h00mn",
+ "infructueux": false,
+ "attributaire": "Société RIT-TRAV sarl",
+ "montant_attribue": 100132.8,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "Société HAMROU TRAVAUX sarl",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_dossier_administratif_technique",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Société RIT-TRAV sarl",
+   "montant_acte_engagement": 100132.8,
+   "montant_apres_verification": 100132.8,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Société MOTCHO STAR TRAVAUX DIVERS sarl",
+   "montant_acte_engagement": 98349.0,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_dossier_administratif_technique",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 3,
+ "alertes_ocr": [
+  "« Société RIT-TRAV sarl » absent de la liste des plis déposés (nom mal lu ?).",
+  "« Société MOTCHO STAR TRAVAUX DIVERS sarl » absent de la liste des plis déposés (nom mal lu ?)."
+ ],
+ "notes_ocr": [
+  "« Société HAMROU TRAVAUX sarl » absent de la liste des plis déposés (nom mal lu ?)."
+ ],
+ "qualite": "complet"
+}

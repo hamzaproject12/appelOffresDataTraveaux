@@ -1,0 +1,68 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "748116",
+ "orgAcronyme": "g3h",
+ "reference_pv": "85/2023",
+ "nouveau": true,
+ "reference": "85/2023",
+ "objet": "Travaux de consolidation. de restauration et de réhabilitation de la mosquée Derb Bouhaj et de ses voisinages dans la médina de Fès, ville de Fès. en lot unique",
+ "acheteur": null,
+ "procedure": "appel d'offres ouvert",
+ "categorie": "Travaux",
+ "date_limite_plis": "09/10/2023",
+ "lieu_ouverture": "Siège de l’ADER-Fès",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "18/10/2023",
+ "justification": "Le concurrent ayant présenté l'offre la plus avantageuse et la moins disante.",
+ "infructueux": false,
+ "attributaire": "Société GUENNOUN TRAVAUX DIVERS SARL AU",
+ "montant_attribue": 1973370.0,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "Société GEROA SARL",
+   "montant_acte_engagement": 2180853.6,
+   "montant_apres_verification": 4038343.2,
+   "autres_montants": [
+    4038343.2
+   ],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Société LMARWA LILOMRANE SARL",
+   "montant_acte_engagement": 2076112.8,
+   "montant_apres_verification": null,
+   "autres_montants": [
+    3994497.6
+   ],
+   "lots": [],
+   "statut": "ecarte_offre_financiere",
+   "admis_avec_reserve": true
+  },
+  {
+   "nom": "Société GUENNOUN TRAVAUX DIVERS SARL AU",
+   "montant_acte_engagement": 1973370.0,
+   "montant_apres_verification": 3789060.0,
+   "autres_montants": [
+    3789060.0
+   ],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 3,
+ "alertes_ocr": [],
+ "notes_ocr": [
+  "« Société GEROA SARL » : montant rectifié de 2 180 853.60 à 4 038 343.20 DH.",
+  "« Société GUENNOUN TRAVAUX DIVERS SARL AU » : montant rectifié de 1 973 370.00 à 3 789 060.00 DH.",
+  "Maître d'ouvrage absent du PV (utiliser l'acheteur public du portail)."
+ ],
+ "qualite": "complet"
+}

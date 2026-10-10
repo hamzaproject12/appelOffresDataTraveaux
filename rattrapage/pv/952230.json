@@ -1,0 +1,72 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "952230",
+ "orgAcronyme": "o8p",
+ "reference_pv": "06/A0/2025/STADES",
+ "nouveau": true,
+ "reference": "06/A0/2025/STADES",
+ "objet": "TRAVAUX DE CONSTRUCTION DU STADE D’'ATHLETISME AU COMPLEXE SPORTIF PRINCE MOULAY ABDELLAH A RABAT. LOT: EXTENSION ECRANS D'AFFICHAGE",
+ "acheteur": null,
+ "procedure": "appel d'offres ouvert international",
+ "categorie": "Travaux",
+ "date_limite_plis": "13/10/2025",
+ "lieu_ouverture": "Salle de réunions de l'Agence Nationale des Equipements Publics, Hay Nahda 2 à Rabat",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "22/10/2034",
+ "justification": null,
+ "infructueux": false,
+ "attributaire": "Soclété CEGELEC 42 RA",
+ "montant_attribue": 4754.51,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "Société CEGELEC",
+   "montant_acte_engagement": 42634758.53,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Société DDM",
+   "montant_acte_engagement": 46585356.0,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Société CEGELEC A2 RAA fini",
+   "montant_acte_engagement": 42644754.51,
+   "montant_apres_verification": 42644754.51,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Soclété CEGELEC 42 RA",
+   "montant_acte_engagement": 4754.51,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 4,
+ "alertes_ocr": [
+  "« Société CEGELEC A2 RAA fini » absent de la liste des plis déposés (nom mal lu ?).",
+  "« Soclété CEGELEC 42 RA » absent de la liste des plis déposés (nom mal lu ?)."
+ ],
+ "notes_ocr": [
+  "Maître d'ouvrage absent du PV (utiliser l'acheteur public du portail)."
+ ],
+ "qualite": "complet"
+}

@@ -1,0 +1,113 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "700112",
+ "orgAcronyme": "g3h",
+ "reference_pv": "11/2023",
+ "nouveau": true,
+ "reference": "11/2023",
+ "objet": null,
+ "acheteur": null,
+ "procedure": "appel d'offres ouvert",
+ "categorie": "Travaux",
+ "date_limite_plis": "21/02/2023",
+ "lieu_ouverture": "Siège de l’ADER-Fès",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "13/03/2023",
+ "justification": null,
+ "infructueux": false,
+ "attributaire": "Société TOURATE ISTITMAR",
+ "montant_attribue": 1595715.6,
+ "attributaires_par_lot": [
+  {
+   "lot": null,
+   "attributaire": "Société TOURATE ISTITMAR",
+   "montant": 1595715.6
+  },
+  {
+   "lot": null,
+   "attributaire": "Société ZETGI SARL",
+   "montant": 1910697.6
+  }
+ ],
+ "soumissionnaires": [
+  {
+   "nom": "Société DELTA TARMIM",
+   "montant_acte_engagement": 1659652.8,
+   "montant_apres_verification": 3306820.8,
+   "autres_montants": [
+    3306820.8
+   ],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Société TOURATE ISTITMAR",
+   "montant_acte_engagement": 1595715.6,
+   "montant_apres_verification": 3170623.2,
+   "autres_montants": [
+    3170623.2
+   ],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Société ZETGI SARL",
+   "montant_acte_engagement": 1386564.0,
+   "montant_apres_verification": 2764804.8,
+   "autres_montants": [
+    2764804.8
+   ],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Société RESTORE PLUS SARL AU",
+   "montant_acte_engagement": 1679702.4,
+   "montant_apres_verification": 3331660.8,
+   "autres_montants": [
+    3331660.8
+   ],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Groupement ALMEDINA HUB SARL et la Société SOGORET SARL AU",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_dossier_administratif_technique",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Société RACHAD ISTITMAR SARL",
+   "montant_acte_engagement": 1642872.0,
+   "montant_apres_verification": 3270484.8,
+   "autres_montants": [
+    3270484.8
+   ],
+   "lots": [],
+   "statut": "ecarte_offre_financiere",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 6,
+ "alertes_ocr": [],
+ "notes_ocr": [
+  "« Société DELTA TARMIM » : montant rectifié de 1 659 652.80 à 3 306 820.80 DH.",
+  "« Société TOURATE ISTITMAR » : montant rectifié de 1 595 715.60 à 3 170 623.20 DH.",
+  "« Société ZETGI SARL » : montant rectifié de 1 386 564.00 à 2 764 804.80 DH.",
+  "« Société RESTORE PLUS SARL AU » : montant rectifié de 1 679 702.40 à 3 331 660.80 DH.",
+  "« Société RACHAD ISTITMAR SARL » : montant rectifié de 1 642 872.00 à 3 270 484.80 DH.",
+  "Maître d'ouvrage absent du PV (utiliser l'acheteur public du portail)."
+ ],
+ "qualite": "complet"
+}

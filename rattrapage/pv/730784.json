@@ -1,0 +1,146 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "730784",
+ "orgAcronyme": "g3h",
+ "reference_pv": "34/2023/FDR",
+ "nouveau": true,
+ "reference": "34/2023/FDR",
+ "objet": "Travaux d'aménagement de [a liaison reliant Ait Oughayne et Tichki à la commune Tighdouine￾Province d'Al Haouz",
+ "acheteur": null,
+ "procedure": "appel d'offres ouvert",
+ "categorie": "Travaux",
+ "date_limite_plis": null,
+ "lieu_ouverture": "Salle des réunions de la province A1 Haouz",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": null,
+ "justification": "Offre la moins distante jugée avantageuse pour 1'administration.",
+ "infructueux": false,
+ "attributaire": "STE OUATRAP 5 3s0",
+ "montant_attribue": null,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "STE TINNAGH TRAVAUX",
+   "montant_acte_engagement": 5370498.0,
+   "montant_apres_verification": 5370498.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "STE SONOTRAP",
+   "montant_acte_engagement": 7438569.6,
+   "montant_apres_verification": 7438569.6,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "STE GESTRAD",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "depose",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "STE NOUVEAUX CHANTIERS MAROCATNS",
+   "montant_acte_engagement": 59760.0,
+   "montant_apres_verification": 7169760.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "STE AJMAR",
+   "montant_acte_engagement": 5772045.6,
+   "montant_apres_verification": 5772045.6,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "STE NOGICO SUD",
+   "montant_acte_engagement": 5735724.0,
+   "montant_apres_verification": 5735724.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "STE OUATRAP",
+   "montant_acte_engagement": 5350860.0,
+   "montant_apres_verification": 350860.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "STE OBH TRAVAUX",
+   "montant_acte_engagement": 5921424.0,
+   "montant_apres_verification": 5927424.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "STE MWKC",
+   "montant_acte_engagement": 7075044.0,
+   "montant_apres_verification": 7075044.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "STE EGETP",
+   "montant_acte_engagement": 6305736.0,
+   "montant_apres_verification": 6305736.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "STE OUATRAP 5 3s0",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 11,
+ "alertes_ocr": [
+  "« STE AJMAR » absent de la liste des plis déposés (nom mal lu ?).",
+  "« STE NOGICO SUD » absent de la liste des plis déposés (nom mal lu ?).",
+  "« STE OUATRAP » absent de la liste des plis déposés (nom mal lu ?).",
+  "« STE OBH TRAVAUX » absent de la liste des plis déposés (nom mal lu ?).",
+  "« STE MWKC » absent de la liste des plis déposés (nom mal lu ?).",
+  "« STE EGETP » absent de la liste des plis déposés (nom mal lu ?).",
+  "« STE OUATRAP 5 3s0 » absent de la liste des plis déposés (nom mal lu ?).",
+  "« STE NOUVEAUX CHANTIERS MAROCATNS » : écart anormal entre montant initial et vérifié (lecture à vérifier).",
+  "« STE OUATRAP » : écart anormal entre montant initial et vérifié (lecture à vérifier).",
+  "Montant de l'attributaire « STE OUATRAP 5 3s0 » non trouvé."
+ ],
+ "notes_ocr": [
+  "« STE NOUVEAUX CHANTIERS MAROCATNS » : montant rectifié de 59 760.00 à 7 169 760.00 DH.",
+  "« STE OUATRAP » : montant rectifié de 5 350 860.00 à 350 860.00 DH.",
+  "« STE OBH TRAVAUX » : montant rectifié de 5 921 424.00 à 5 927 424.00 DH.",
+  "Maître d'ouvrage absent du PV (utiliser l'acheteur public du portail)."
+ ],
+ "qualite": "complet"
+}

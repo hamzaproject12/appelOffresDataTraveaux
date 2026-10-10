@@ -1,0 +1,203 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "882261",
+ "orgAcronyme": "g3h",
+ "reference_pv": "525/2025/CAN-VOIRIES-TRAV-L1",
+ "nouveau": true,
+ "reference": "525/2025/CAN-VOIRIES-TRAV-L1",
+ "objet": "Programme d'aménagement des voiries à l’intérieur de la ville de Casablanca : Lots 1 à 6",
+ "acheteur": "Société CASABLANCA AMÉNAGEMENT",
+ "procedure": "appel d'offres ouvert",
+ "categorie": "Travaux",
+ "date_limite_plis": "04/03/2025",
+ "lieu_ouverture": "Salle de réunion de CASABLANCA AMÉNAGEMENT S.A",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "26/03/2025",
+ "justification": "Y_ L'attribution des lots sur la base de la meilleure combinaison des offres permettant au maître d'ouvrage de retenir l'offre globale la plus avantageuse pour l’ensemble des lots. Il est à préciser aussi qu’un même concurrent ne peut être attributaire de plus de (2) lots.",
+ "infructueux": false,
+ "attributaire": "Société GTR",
+ "montant_attribue": 111784089.78,
+ "attributaires_par_lot": [
+  {
+   "lot": null,
+   "attributaire": "Société GTR",
+   "montant": 111784089.78
+  },
+  {
+   "lot": null,
+   "attributaire": "Société VIAS",
+   "montant": 75745274.4
+  },
+  {
+   "lot": null,
+   "attributaire": "Société GCR",
+   "montant": 70392209.28
+  }
+ ],
+ "soumissionnaires": [
+  {
+   "nom": "Société GCR 1 Société GCR 1 Société GCR",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [
+    "1"
+   ],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Société VIAS 2 Société VIAS 2 Société VIAS",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [
+    "1"
+   ],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Société GTR 3 Société GTR 3 Société GTR",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [
+    "1"
+   ],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Société Groupe MOJAZINE",
+   "montant_acte_engagement": 80723402.4,
+   "montant_apres_verification": null,
+   "autres_montants": [
+    80723402.4,
+    75408289.2,
+    48274336.8
+   ],
+   "lots": [
+    "1",
+    "3",
+    "4",
+    "6"
+   ],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Société NGE 5 Société NGE 5 Société SSMT",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [
+    "1"
+   ],
+   "statut": "depose",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Société SSMT 5 Société SSMT",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [
+    "1"
+   ],
+   "statut": "depose",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Société NGE",
+   "montant_acte_engagement": 47833095.6,
+   "montant_apres_verification": null,
+   "autres_montants": [
+    47833095.6
+   ],
+   "lots": [
+    "1",
+    "6"
+   ],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Société VIAS",
+   "montant_acte_engagement": 126465891.6,
+   "montant_apres_verification": null,
+   "autres_montants": [
+    126465891.6,
+    104459335.01,
+    75745274.4,
+    72198414.0,
+    127366340.4,
+    49983745.2
+   ],
+   "lots": [
+    "1",
+    "2",
+    "3",
+    "4",
+    "5",
+    "6"
+   ],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Société GTR",
+   "montant_acte_engagement": 111784089.78,
+   "montant_apres_verification": null,
+   "autres_montants": [
+    111784089.78,
+    91889536.48,
+    71625420.3,
+    67737387.9,
+    124967862.0,
+    45718301.22
+   ],
+   "lots": [
+    "1",
+    "2",
+    "3",
+    "4",
+    "5",
+    "6"
+   ],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Société GCR",
+   "montant_acte_engagement": 78861219.6,
+   "montant_apres_verification": null,
+   "autres_montants": [
+    78861219.6,
+    70392209.28,
+    46591404.0
+   ],
+   "lots": [
+    "3",
+    "4",
+    "6"
+   ],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 10,
+ "alertes_ocr": [
+  "« Société VIAS » absent de la liste des plis déposés (nom mal lu ?).",
+  "« Société GTR » absent de la liste des plis déposés (nom mal lu ?).",
+  "« Société GCR » absent de la liste des plis déposés (nom mal lu ?)."
+ ],
+ "notes_ocr": [
+  "Marché alloti (6 lots)."
+ ],
+ "qualite": "complet"
+}

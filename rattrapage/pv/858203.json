@@ -1,0 +1,88 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "858203",
+ "orgAcronyme": "f9f",
+ "reference_pv": "59/2024",
+ "nouveau": true,
+ "reference": "59/2024",
+ "objet": null,
+ "acheteur": "Région Souss Massa",
+ "procedure": "appel d'offres ouvert national",
+ "categorie": "Travaux",
+ "date_limite_plis": "11/11/2024",
+ "lieu_ouverture": "Siège du Conseil Régional Souss Massa",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": null,
+ "justification": "Offre jugée la plus avantageuse. t -Y üü'1 1, APPEL D'OFFRES OUVERT NATIONAI N\" :59/2O24 Région Souss Massa I oolrr,nlravaux d'alimemation en eau potable au niveau de la Société OMITI I^",
+ "infructueux": false,
+ "attributaire": "Société ANIRAt",
+ "montant_attribue": 2458.0,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "Société AGADIR BTP",
+   "montant_acte_engagement": 2301466.8,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Société ANIRAL",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Société OMITI",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": true
+  },
+  {
+   "nom": "Société ALINA TRAVAUX ROUTIERS",
+   "montant_acte_engagement": 2510539.2,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Société ANIRAt 2",
+   "montant_acte_engagement": 28440.2,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Société ANIRAt",
+   "montant_acte_engagement": 2458.0,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 6,
+ "alertes_ocr": [
+  "« Société ANIRAt 2 » absent de la liste des plis déposés (nom mal lu ?).",
+  "« Société ANIRAt » absent de la liste des plis déposés (nom mal lu ?)."
+ ],
+ "notes_ocr": [],
+ "qualite": "complet"
+}

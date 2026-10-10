@@ -1,0 +1,70 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "724242",
+ "orgAcronyme": "g3h",
+ "reference_pv": "08/WRLSH/BG/2023",
+ "nouveau": true,
+ "reference": "08/WRLSH/BG/2023",
+ "objet": "TRAVAUX D’AMENAGEMENT DES ANNEXES ADMINISTRATIVES A LA VILLE DE LAAYOUNE",
+ "acheteur": "Province de Laayoune",
+ "procedure": "appel d'offres ouvert",
+ "categorie": "Travaux",
+ "date_limite_plis": "06/06/2023",
+ "lieu_ouverture": "la salle des réunions de la Province de Laayoune :ournaux avant publié avis de publicité",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "23/06/2023",
+ "justification": "l'offre la plus intéressante",
+ "infructueux": false,
+ "attributaire": "SOCIETE OUKHINTE TRAVAUX SARL AU",
+ "montant_attribue": 776580.0,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "SOCIETE IBRAHIM ALKHALIL SARL",
+   "montant_acte_engagement": 939402.0,
+   "montant_apres_verification": 939402.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "STE MD SAHARA",
+   "montant_acte_engagement": 797040.0,
+   "montant_apres_verification": 797040.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "ENTREPRISE QUAFICO DE CONSTRUCTION SARL",
+   "montant_acte_engagement": 784038.0,
+   "montant_apres_verification": 784038.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "SOCIETE OUKHINTE TRAVAUX SARL AU",
+   "montant_acte_engagement": 776580.0,
+   "montant_apres_verification": 776580.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 4,
+ "alertes_ocr": [
+  "« ENTREPRISE QUAFICO DE CONSTRUCTION SARL » absent de la liste des plis déposés (nom mal lu ?).",
+  "« SOCIETE OUKHINTE TRAVAUX SARL AU » absent de la liste des plis déposés (nom mal lu ?)."
+ ],
+ "notes_ocr": [],
+ "qualite": "complet"
+}

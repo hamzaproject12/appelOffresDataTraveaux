@@ -1,0 +1,51 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "1013961",
+ "orgAcronyme": "d0q",
+ "reference_pv": null,
+ "nouveau": true,
+ "reference": null,
+ "objet": "Réalisation des travaux d'aménagement d’une station de taxis au centre de Bouarous à la commune de Bouarous",
+ "acheteur": "Le président de la commune de BOUAROUS",
+ "procedure": "appel d'offres ouvert simplifié",
+ "categorie": "Travaux",
+ "date_limite_plis": "04/06/2026",
+ "lieu_ouverture": "Bureau du président de la commune",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "15/06/2026",
+ "justification": "Offre économiquement la plus avantageuse",
+ "infructueux": false,
+ "attributaire": "Sté TRAVAUX ACCENT SARL",
+ "montant_attribue": null,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "Sté TRAVAUX ACCENT SARL",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Sté surveillance REDA",
+   "montant_acte_engagement": 365100.0,
+   "montant_apres_verification": 365100.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 2,
+ "alertes_ocr": [
+  "Montant de l'attributaire « Sté TRAVAUX ACCENT SARL » non trouvé."
+ ],
+ "notes_ocr": [],
+ "qualite": "attribution"
+}

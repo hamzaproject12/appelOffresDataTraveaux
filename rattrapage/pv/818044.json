@@ -1,0 +1,83 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "818044",
+ "orgAcronyme": "h5r",
+ "reference_pv": "01/Saamna/2024",
+ "nouveau": true,
+ "reference": "01/Saamna/2024",
+ "objet": "Travaux d'alimentation en eau potable por branchements Individuels du douar Coopérative Forsia {2) relevant de la Commune de Saamna -Province de Settat-, Moître d'ouvrage",
+ "acheteur": null,
+ "procedure": "appel d'offres ouvert",
+ "categorie": "Travaux",
+ "date_limite_plis": "18/07/2024",
+ "lieu_ouverture": "des lis + Commune Sgamna",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "25/07/2024",
+ "justification": null,
+ "infructueux": false,
+ "attributaire": "STE TENYA TRAVAUX SARL AU",
+ "montant_attribue": 194113.15,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "Dote: 18/07/2024 10:38, Entreprise: ICE",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "depose",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "STE LA BONNE PISTE SARL AU",
+   "montant_acte_engagement": 192414.48,
+   "montant_apres_verification": 192414.48,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "STE TENYA TRAVAUX SARL AU",
+   "montant_acte_engagement": 194113.15,
+   "montant_apres_verification": 194113.15,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "SOCIETE GOODRON TRAVAUX SARL AU",
+   "montant_acte_engagement": 191700.48,
+   "montant_apres_verification": 191700.48,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "SOCIETE SAHLI TRAVAUX SARL AU",
+   "montant_acte_engagement": 207663.55,
+   "montant_apres_verification": 207663.55,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 5,
+ "alertes_ocr": [
+  "« STE LA BONNE PISTE SARL AU » absent de la liste des plis déposés (nom mal lu ?).",
+  "« STE TENYA TRAVAUX SARL AU » absent de la liste des plis déposés (nom mal lu ?).",
+  "« SOCIETE GOODRON TRAVAUX SARL AU » absent de la liste des plis déposés (nom mal lu ?).",
+  "« SOCIETE SAHLI TRAVAUX SARL AU » absent de la liste des plis déposés (nom mal lu ?)."
+ ],
+ "notes_ocr": [
+  "Maître d'ouvrage absent du PV (utiliser l'acheteur public du portail)."
+ ],
+ "qualite": "complet"
+}

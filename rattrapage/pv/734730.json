@@ -1,0 +1,74 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "734730",
+ "orgAcronyme": "q1s",
+ "reference_pv": "65/2023/0RSM",
+ "nouveau": true,
+ "reference": "65/2023/0RSM",
+ "objet": "Travaux d'aménagement de Petite et Moyenne Hydraulique des périmètres relevant des Communes Territoriales Imilmais, Imoulass et Ouneine dans la province Taroudant",
+ "acheteur": "ORMVA/SM",
+ "procedure": "appel d'offres ouvert",
+ "categorie": "Travaux",
+ "date_limite_plis": "26/07/2023",
+ "lieu_ouverture": "Salle de réunion de la direction de lORMVA/SM",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "02/08/2023",
+ "justification": "offre la plus avantageuse de la société SITMAX DE TRAVAUX DIVERS.",
+ "infructueux": false,
+ "attributaire": "TRAHAQA",
+ "montant_attribue": 1284798.0,
+ "attributaires_par_lot": [
+  {
+   "lot": null,
+   "attributaire": "TRAHAQA",
+   "montant": 1284798.0
+  },
+  {
+   "lot": null,
+   "attributaire": "L&M DE CONSTRUCTION ET D'APPROVISIONNEMENT",
+   "montant": 1064676.0
+  },
+  {
+   "lot": null,
+   "attributaire": "SARHANE ET FAROUK",
+   "montant": 1160211.6
+  }
+ ],
+ "soumissionnaires": [
+  {
+   "nom": "SARHANE ET FAROUK",
+   "montant_acte_engagement": 1160211.6,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "TRAHAQA",
+   "montant_acte_engagement": 1284798.0,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "L&M DE CONSTRUCTION ET D'APPROVISIONNEMENT",
+   "montant_acte_engagement": 1064676.0,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 3,
+ "alertes_ocr": [],
+ "notes_ocr": [],
+ "qualite": "attribution"
+}

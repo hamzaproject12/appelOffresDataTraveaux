@@ -1,0 +1,54 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "860463",
+ "orgAcronyme": "d4q",
+ "reference_pv": null,
+ "nouveau": true,
+ "reference": null,
+ "objet": "Travaux sur réseau de distribution aux centres Bni Ounjel,Tafraout,Fenassa Bab Lhet et Tamedet-Province Taounate",
+ "acheteur": null,
+ "procedure": "appel d'offres ouvert",
+ "categorie": "Travaux",
+ "date_limite_plis": "21/11/2024",
+ "lieu_ouverture": "au Siège de la Direction Régionale du Centre Nord (DR5) —-88 rue du Soudan, Ville nouvelle - Fès - Maroc",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "17/12/2024",
+ "justification": "Moins-disant",
+ "infructueux": false,
+ "attributaire": "CHAHBOUNE ABDELMOUMAN - Offre de",
+ "montant_attribue": 298164.0,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "fin ncières",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_dossier_administratif_technique",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "CHAHBOUNE ABDELMOUMAN - Offre de",
+   "montant_acte_engagement": 298164.0,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 2,
+ "alertes_ocr": [
+  "« CHAHBOUNE ABDELMOUMAN - Offre de » absent de la liste des plis déposés (nom mal lu ?)."
+ ],
+ "notes_ocr": [
+  "« fin ncières » absent de la liste des plis déposés (nom mal lu ?).",
+  "Maître d'ouvrage absent du PV (utiliser l'acheteur public du portail)."
+ ],
+ "qualite": "attribution"
+}

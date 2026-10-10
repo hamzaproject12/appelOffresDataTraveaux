@@ -1,0 +1,144 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "688229",
+ "orgAcronyme": "q1s",
+ "reference_pv": null,
+ "nouveau": true,
+ "reference": null,
+ "objet": null,
+ "acheteur": "DIRECTION PROVINCIALE DE L'AGRICULTURE DE KHENIFRA",
+ "procedure": null,
+ "categorie": "Travaux",
+ "date_limite_plis": "08/11/2022",
+ "lieu_ouverture": "_* SALLE DE REUNION DE LA DIRECTION PROVINCIALE DE L'AGRICULTURE DE KHENIFRA",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "24/11/2022",
+ "justification": null,
+ "infructueux": false,
+ "attributaire": null,
+ "montant_attribue": null,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "Annulé pour vice de procédure",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [
+    "01"
+   ],
+   "statut": "depose",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "VILLE",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [
+    "01"
+   ],
+   "statut": "ecarte_dossier_administratif_technique",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "AMRHON TRANS SARL AZILAL",
+   "montant_acte_engagement": 563706.0,
+   "montant_apres_verification": 563706.0,
+   "autres_montants": [],
+   "lots": [
+    "01"
+   ],
+   "statut": "ecarte_dossier_administratif_technique",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "SFNGTRAV SARL AU",
+   "montant_acte_engagement": 553200.0,
+   "montant_apres_verification": 553200.0,
+   "autres_montants": [],
+   "lots": [
+    "01"
+   ],
+   "statut": "ecarte_dossier_administratif_technique",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "S.N.G.C.C SARL RICH",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [
+    "01"
+   ],
+   "statut": "ecarte_dossier_administratif_technique",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "LASTE EL BOUSHABIA SARL RICH",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_dossier_administratif_technique",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "BOSTA TRAVAUX SARL AU",
+   "montant_acte_engagement": 510066.0,
+   "montant_apres_verification": 510066.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_dossier_administratif_technique",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "AYOUR LOGISTIC SARL AU",
+   "montant_acte_engagement": 497226.0,
+   "montant_apres_verification": 497226.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_dossier_administratif_technique",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "MGME TRAVAUX SARL ZAGORA",
+   "montant_acte_engagement": 575013.6,
+   "montant_apres_verification": 575013.6,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_dossier_administratif_technique",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "I LA STE S.N.G.C.C SARL AU",
+   "montant_acte_engagement": 471626.0,
+   "montant_apres_verification": 471626.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "EL BOUSHABIA SARL",
+   "montant_acte_engagement": 529593.6,
+   "montant_apres_verification": 529593.6,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 11,
+ "alertes_ocr": [
+  "« I LA STE S.N.G.C.C SARL AU » absent de la liste des plis déposés (nom mal lu ?).",
+  "« EL BOUSHABIA SARL » absent de la liste des plis déposés (nom mal lu ?).",
+  "Attributaire non trouvé."
+ ],
+ "notes_ocr": [],
+ "qualite": "complet"
+}

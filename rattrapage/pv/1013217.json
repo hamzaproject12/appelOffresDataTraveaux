@@ -1,0 +1,74 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "1013217",
+ "orgAcronyme": "g3h",
+ "reference_pv": "93/2026",
+ "nouveau": true,
+ "reference": "93/2026",
+ "objet": null,
+ "acheteur": "Société Régionale Multiservices Fès Meknès « SRM-FM »",
+ "procedure": null,
+ "categorie": "Travaux",
+ "date_limite_plis": "21/04/2026",
+ "lieu_ouverture": "Siège de la SRM-FM",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "02/06/2026",
+ "justification": "L’offre la plus avantageuse.",
+ "infructueux": false,
+ "attributaire": "ALLRESEAUX",
+ "montant_attribue": 5837180.0,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "TIEC",
+   "montant_acte_engagement": 9863000.0,
+   "montant_apres_verification": null,
+   "autres_montants": [
+    11835600.0
+   ],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "AMANOR",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_dossier_administratif_technique",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "ALLRESEAUX",
+   "montant_acte_engagement": 8365600.0,
+   "montant_apres_verification": 7004616.0,
+   "autres_montants": [
+    10038720.0
+   ],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "WATEGA",
+   "montant_acte_engagement": 7239840.0,
+   "montant_apres_verification": 8687808.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 4,
+ "alertes_ocr": [],
+ "notes_ocr": [
+  "« ALLRESEAUX » : montant rectifié de 8 365 600.00 à 7 004 616.00 DH.",
+  "« WATEGA » : montant rectifié de 7 239 840.00 à 8 687 808.00 DH."
+ ],
+ "qualite": "complet"
+}

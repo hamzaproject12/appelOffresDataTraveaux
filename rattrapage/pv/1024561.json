@@ -1,0 +1,62 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "1024561",
+ "orgAcronyme": "j8k",
+ "reference_pv": null,
+ "nouveau": true,
+ "reference": null,
+ "objet": null,
+ "acheteur": "AL OMRANE MARRAKECH-SAFI",
+ "procedure": null,
+ "categorie": "Travaux",
+ "date_limite_plis": null,
+ "lieu_ouverture": null,
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": null,
+ "justification": null,
+ "infructueux": false,
+ "attributaire": "SePt",
+ "montant_attribue": 9158887.01,
+ "attributaires_par_lot": [
+  {
+   "lot": null,
+   "attributaire": "SePt",
+   "montant": 9158887.01
+  },
+  {
+   "lot": null,
+   "attributaire": "J ustillcation u choix de I'Attributaire",
+   "montant": null
+  }
+ ],
+ "soumissionnaires": [
+  {
+   "nom": "SePt",
+   "montant_acte_engagement": 9158887.01,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "J ustillcation u choix de I'Attributaire",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 2,
+ "alertes_ocr": [
+  "Montant de l'attributaire « J ustillcation u choix de I'Attributaire » non trouvé."
+ ],
+ "notes_ocr": [],
+ "qualite": "attribution"
+}

@@ -1,0 +1,75 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "788661",
+ "orgAcronyme": "j0w",
+ "reference_pv": "062024",
+ "nouveau": true,
+ "reference": "062024",
+ "objet": null,
+ "acheteur": null,
+ "procedure": "appel d'offres ouvert national",
+ "categorie": "Travaux",
+ "date_limite_plis": null,
+ "lieu_ouverture": "la salle des réunions de la commune Ait Imour",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "17/04/2024",
+ "justification": "l'offre la plus avantageuse.",
+ "infructueux": false,
+ "attributaire": null,
+ "montant_attribue": null,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "[ln FrELE = a = es. = Es) ss. sn",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_offre_financiere",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Es __ -SOCIETE HR DES | Î",
+   "montant_acte_engagement": 687600.0,
+   "montant_apres_verification": 687600.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "L_ EQUIPEMENTS ET TRAVAUX (Este __ -SOCIETESIBER eu",
+   "montant_acte_engagement": 688080.0,
+   "montant_apres_verification": 688080.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "CA = =SOCIETE NOUVSCON Su",
+   "montant_acte_engagement": 691820.0,
+   "montant_apres_verification": 691820.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 4,
+ "alertes_ocr": [
+  "« Es __ -SOCIETE HR DES | Î » absent de la liste des plis déposés (nom mal lu ?).",
+  "« L_ EQUIPEMENTS ET TRAVAUX (Este __ -SOCIETESIBER eu » absent de la liste des plis déposés (nom mal lu ?).",
+  "« CA = =SOCIETE NOUVSCON Su » absent de la liste des plis déposés (nom mal lu ?).",
+  "Attributaire non trouvé."
+ ],
+ "notes_ocr": [
+  "« [ln FrELE = a = es. = Es) ss. sn » absent de la liste des plis déposés (nom mal lu ?).",
+  "Maître d'ouvrage absent du PV (utiliser l'acheteur public du portail)."
+ ],
+ "qualite": "complet"
+}

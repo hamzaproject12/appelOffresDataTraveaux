@@ -1,0 +1,67 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "1022348",
+ "orgAcronyme": "j8k",
+ "reference_pv": "53/2026",
+ "nouveau": true,
+ "reference": "53/2026",
+ "objet": "ACHEVEMENT DES TRAVAUX DE RESTRUCTURATION DES QUARTIERS SOUS EQUIPES ET AMENAGEMENT DES PLACES",
+ "acheteur": "SOCIETE AL OMRANE DRAA-TAFILALET",
+ "procedure": "appel d'offres ouvert",
+ "categorie": "Travaux",
+ "date_limite_plis": null,
+ "lieu_ouverture": "SOCIETE AL OMRANE DRAÂA-TAFILALET",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": null,
+ "justification": "l'offre la mieux disante par rapport au prix de référence.",
+ "infructueux": false,
+ "attributaire": "SADIKI TRAV",
+ "montant_attribue": 1303061.76,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "NEWVERT",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_offre_technique",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "SADIKI TRAV",
+   "montant_acte_engagement": 1303061.76,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "SATH",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_dossier_administratif_technique",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "GRP AIT OUKHALI ET ATLAS BABA",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_offre_technique",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 4,
+ "alertes_ocr": [],
+ "notes_ocr": [],
+ "qualite": "attribution"
+}

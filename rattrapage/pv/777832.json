@@ -1,0 +1,53 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "777832",
+ "orgAcronyme": "f8y",
+ "reference_pv": "O1/2024IBP",
+ "nouveau": true,
+ "reference": "O1/2024IBP",
+ "objet": "travaux de réhabilitation et d'aménagement du site de la petite mine de Jerada et création",
+ "acheteur": "le Président du Conseil de la Province de Jerada",
+ "procedure": "appel d'offres ouvert",
+ "categorie": "Travaux",
+ "date_limite_plis": "22/02/2024",
+ "lieu_ouverture": "bureaux du conseil de la Province de Jerada",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "29/02/2024",
+ "justification": "le concurrent ayant présenté l'offre la plus avantageuse a produit, par voie électronique, les pièces du dossier administratif visées à l'alinéa 2 du paragraphe A de l'article 5 du règlement de consultation du présent appel d'offres, et la commission les a jugé acceptables.",
+ "infructueux": false,
+ "attributaire": "SOCIETE SEMIBAT - MARRAKECH",
+ "montant_attribue": 1797360.0,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "r SOCIETE IMXTRAL -MIDELT",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_dossier_administratif_technique",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "SOCIETE SEMIBAT - MARRAKECH",
+   "montant_acte_engagement": 795920.0,
+   "montant_apres_verification": 795920.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 2,
+ "alertes_ocr": [
+  "« SOCIETE SEMIBAT - MARRAKECH » absent de la liste des plis déposés (nom mal lu ?)."
+ ],
+ "notes_ocr": [
+  "« r SOCIETE IMXTRAL -MIDELT » absent de la liste des plis déposés (nom mal lu ?)."
+ ],
+ "qualite": "attribution"
+}

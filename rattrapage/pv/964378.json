@@ -1,0 +1,93 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "964378",
+ "orgAcronyme": "j0w",
+ "reference_pv": "28/2025/AA",
+ "nouveau": true,
+ "reference": "28/2025/AA",
+ "objet": "TRAVAUX D'AMENAGEMENT DES ESPACES VERTS",
+ "acheteur": "Arrondissement Annakhil",
+ "procedure": null,
+ "categorie": "Travaux",
+ "date_limite_plis": "04/12/2025",
+ "lieu_ouverture": "Bureau du président de l’Arrondissement",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "15/12/2025",
+ "justification": "l’offre économique la mieux disante",
+ "infructueux": false,
+ "attributaire": "STE DAHA VERTE SARL AU",
+ "montant_attribue": 191532.0,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "STE DAHA VERTE SARL AU",
+   "montant_acte_engagement": 191532.0,
+   "montant_apres_verification": 191532.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "STE WAWSHKI TRAVAUX SARL AU",
+   "montant_acte_engagement": 220740.0,
+   "montant_apres_verification": 220740.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "& STE LUMERGIN SARL AU",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_dossier_administratif_technique",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "&, STE RACINE JARDIN SARL",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_dossier_administratif_technique",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "& STE DE L’ETUDIANT SARL AU",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_dossier_administratif_technique",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "& STE SAADANI SERVICE SARL AU",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_dossier_administratif_technique",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 6,
+ "alertes_ocr": [
+  "« STE DAHA VERTE SARL AU » absent de la liste des plis déposés (nom mal lu ?).",
+  "« STE WAWSHKI TRAVAUX SARL AU » absent de la liste des plis déposés (nom mal lu ?)."
+ ],
+ "notes_ocr": [
+  "« & STE LUMERGIN SARL AU » absent de la liste des plis déposés (nom mal lu ?).",
+  "« &, STE RACINE JARDIN SARL » absent de la liste des plis déposés (nom mal lu ?).",
+  "« & STE DE L’ETUDIANT SARL AU » absent de la liste des plis déposés (nom mal lu ?).",
+  "« & STE SAADANI SERVICE SARL AU » absent de la liste des plis déposés (nom mal lu ?)."
+ ],
+ "qualite": "complet"
+}

@@ -1,0 +1,51 @@
+{
+ "source": "extrait_docx",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "1016193",
+ "orgAcronyme": "h5r",
+ "reference_pv": "22/CS/2026",
+ "nouveau": true,
+ "reference": "22/CS/2026",
+ "objet": "GROS TRAVAUX DE MAINTENANCE DE VOIRIES DE LA COMMUNE DE SETTAT (LOT 2)- PROVINCE DE SETTAT",
+ "acheteur": "COMMUNE DE SETTAT",
+ "procedure": null,
+ "categorie": "Travaux",
+ "date_limite_plis": "21/05/2026",
+ "lieu_ouverture": "les bureaux de Madame la Présidente",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "23/06/2026",
+ "justification": "le concurrent ayant présenté l’offre la plus avantageuse par rapport au prix de référence.",
+ "infructueux": false,
+ "attributaire": "ENTREPRISE 3F DE REVETEMENT ROUTIER ET TRAVAUX DIVERS (TR3F)",
+ "montant_attribue": 2802000.0,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "STE ECBT",
+   "montant_acte_engagement": 2741700.0,
+   "montant_apres_verification": 2741700.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_offre_financiere",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "ENTREPRISE 3F DE REVETEMENT ROUTIER ET TRAVAUX DIVERS (TR3F)",
+   "montant_acte_engagement": 2802000.0,
+   "montant_apres_verification": 2741700.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 2,
+ "alertes_ocr": [],
+ "notes_ocr": [
+  "« ENTREPRISE 3F DE REVETEMENT ROUTIER ET TRAVAUX DIVERS (TR3F) » : montant rectifié de 2 802 000.00 à 2 741 700.00 DH."
+ ],
+ "qualite": "complet"
+}

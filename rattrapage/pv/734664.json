@@ -1,0 +1,156 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "734664",
+ "orgAcronyme": "a1t",
+ "reference_pv": null,
+ "nouveau": true,
+ "reference": null,
+ "objet": null,
+ "acheteur": null,
+ "procedure": null,
+ "categorie": "Travaux",
+ "date_limite_plis": null,
+ "lieu_ouverture": null,
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "07/08/2023",
+ "justification": "En conclusion, la commission a décidé de proposer au Directeur Général l'offre la moins disante de la société OKTI TRAVAUX avec un montant de : - en lettre : VINGT MILLIONS CENT QUATRE VINGT SEPT MILLE CENT QUARANTE QUATRE DIRHAMS TOUTES TAXES COMPRISES. - en chiffre : 20 187 144.00 DHS TTC.",
+ "infructueux": false,
+ "attributaire": null,
+ "montant_attribue": null,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "GEROA sarl",
+   "montant_acte_engagement": 21876378.0,
+   "montant_apres_verification": 22668378.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": true
+  },
+  {
+   "nom": "SCOTIM",
+   "montant_acte_engagement": 24786102.0,
+   "montant_apres_verification": 24786102.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": true
+  },
+  {
+   "nom": "TAFILAL ET TRAVAUX",
+   "montant_acte_engagement": 23284231.68,
+   "montant_apres_verification": 23284231.68,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": true
+  },
+  {
+   "nom": "BATIHALIM",
+   "montant_acte_engagement": 20596608.0,
+   "montant_apres_verification": 20596608.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": true
+  },
+  {
+   "nom": "KIM BUIDING",
+   "montant_acte_engagement": 20935026.0,
+   "montant_apres_verification": 20935026.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": true
+  },
+  {
+   "nom": "SOBATAGOUMI",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_dossier_administratif_technique",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "LES ATELIERS HAMMA",
+   "montant_acte_engagement": 25017033.0,
+   "montant_apres_verification": 25017033.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "McG",
+   "montant_acte_engagement": 25785210.0,
+   "montant_apres_verification": 25785210.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "OKTI TRAVAUX",
+   "montant_acte_engagement": 20187144.0,
+   "montant_apres_verification": 20187144.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "ENTREPRISE RIAD",
+   "montant_acte_engagement": 22054113.0,
+   "montant_apres_verification": 22054113.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "COPREF sarl",
+   "montant_acte_engagement": 21673686.0,
+   "montant_apres_verification": 21673686.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "BORA CONSTRUCTION",
+   "montant_acte_engagement": 24518052.0,
+   "montant_apres_verification": 24518052.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 12,
+ "alertes_ocr": [
+  "« GEROA sarl » absent de la liste des plis déposés (nom mal lu ?).",
+  "« SCOTIM » absent de la liste des plis déposés (nom mal lu ?).",
+  "« TAFILAL ET TRAVAUX » absent de la liste des plis déposés (nom mal lu ?).",
+  "« BATIHALIM » absent de la liste des plis déposés (nom mal lu ?).",
+  "« KIM BUIDING » absent de la liste des plis déposés (nom mal lu ?).",
+  "« LES ATELIERS HAMMA » absent de la liste des plis déposés (nom mal lu ?).",
+  "« McG » absent de la liste des plis déposés (nom mal lu ?).",
+  "« OKTI TRAVAUX » absent de la liste des plis déposés (nom mal lu ?).",
+  "« ENTREPRISE RIAD » absent de la liste des plis déposés (nom mal lu ?).",
+  "« COPREF sarl » absent de la liste des plis déposés (nom mal lu ?).",
+  "« BORA CONSTRUCTION » absent de la liste des plis déposés (nom mal lu ?).",
+  "Attributaire non trouvé."
+ ],
+ "notes_ocr": [
+  "« SOBATAGOUMI » absent de la liste des plis déposés (nom mal lu ?).",
+  "« GEROA sarl » : montant rectifié de 21 876 378.00 à 22 668 378.00 DH.",
+  "Maître d'ouvrage absent du PV (utiliser l'acheteur public du portail)."
+ ],
+ "qualite": "complet"
+}

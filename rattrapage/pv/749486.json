@@ -1,0 +1,81 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "749486",
+ "orgAcronyme": "q1s",
+ "reference_pv": null,
+ "nouveau": true,
+ "reference": null,
+ "objet": "la réalisation des travaux de mise à niveau des équipements frigorifiques au niveau de la halle au poisson de V'ONP à Laëyoune et de l'entrepôt frigorifique d'Agadir », en deux lots",
+ "acheteur": "OFFICE NATIONAL DES PECHES",
+ "procedure": null,
+ "categorie": "Travaux",
+ "date_limite_plis": "04/10/2023",
+ "lieu_ouverture": "Office National des Pêches, sis 15, rue du Lieutenant Mohamed Mahroud à Casablanca",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "25/10/2023",
+ "justification": "l'offre la moins distante.",
+ "infructueux": false,
+ "attributaire": "GF BUSINESS",
+ "montant_attribue": 404220.0,
+ "attributaires_par_lot": [
+  {
+   "lot": "1",
+   "attributaire": "GF BUSINESS",
+   "montant": 404220.0
+  },
+  {
+   "lot": "2",
+   "attributaire": "MARINE INDUSTRIE CHIMIE",
+   "montant": 369600.0
+  }
+ ],
+ "soumissionnaires": [
+  {
+   "nom": "MARINE INDUSTRIE CHIMIE",
+   "montant_acte_engagement": 488496.0,
+   "montant_apres_verification": null,
+   "autres_montants": [
+    488496.0,
+    369600.0
+   ],
+   "lots": [
+    "1",
+    "2"
+   ],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "GF BUSINESS",
+   "montant_acte_engagement": 404220.0,
+   "montant_apres_verification": null,
+   "autres_montants": [
+    404220.0
+   ],
+   "lots": [
+    "1"
+   ],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "AJMO TRAV",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_dossier_administratif_technique",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 3,
+ "alertes_ocr": [],
+ "notes_ocr": [
+  "Marché alloti (2 lots)."
+ ],
+ "qualite": "attribution"
+}

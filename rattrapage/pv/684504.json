@@ -1,0 +1,82 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "684504",
+ "orgAcronyme": "d4q",
+ "reference_pv": "37/2022/ABHT",
+ "nouveau": true,
+ "reference": "37/2022/ABHT",
+ "objet": "TRAVAUX DE REALISATION DE FORAGES DE RECONNAISSANCE DAN LES PROVINCES D'AL HAOUZ, CHICHAOUA, ESSAOUIRA, RHAMNA, KELAA DES SRAGHNAS ET LA PREFECTURE DE MARRAKECH",
+ "acheteur": "Agence du Bassin Hydraulique du Tensift",
+ "procedure": null,
+ "categorie": "Travaux",
+ "date_limite_plis": "07/12/2022",
+ "lieu_ouverture": "Agence du Bassin Hydraulique du Tensift",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "14/12/2022",
+ "justification": "le moins disant",
+ "infructueux": false,
+ "attributaire": "GLOBAL TRAVAUX EXPRESS",
+ "montant_attribue": 2828400.0,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "YOUNA TRAVAUX",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_dossier_administratif_technique",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "FORAGE ZOUHOUR",
+   "montant_acte_engagement": 3031920.0,
+   "montant_apres_verification": 3031920.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "GLOBAL TRAVAUX EXPRESS",
+   "montant_acte_engagement": 2828.0,
+   "montant_apres_verification": 2828400.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "IMISYB",
+   "montant_acte_engagement": 3489.0,
+   "montant_apres_verification": 3489960.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "EGBF",
+   "montant_acte_engagement": 3373440.0,
+   "montant_apres_verification": 3373440.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 5,
+ "alertes_ocr": [
+  "« GLOBAL TRAVAUX EXPRESS » : écart anormal entre montant initial et vérifié (lecture à vérifier).",
+  "« IMISYB » : écart anormal entre montant initial et vérifié (lecture à vérifier)."
+ ],
+ "notes_ocr": [
+  "« GLOBAL TRAVAUX EXPRESS » : montant rectifié de 2 828.00 à 2 828 400.00 DH.",
+  "« IMISYB » : montant rectifié de 3 489.00 à 3 489 960.00 DH."
+ ],
+ "qualite": "complet"
+}

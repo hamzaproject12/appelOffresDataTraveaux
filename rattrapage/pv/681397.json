@@ -1,0 +1,49 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "681397",
+ "orgAcronyme": "g3h",
+ "reference_pv": "126/2022",
+ "nouveau": true,
+ "reference": "126/2022",
+ "objet": null,
+ "acheteur": "Régie Autonome Multi-Services d’Agadir",
+ "procedure": null,
+ "categorie": "Travaux",
+ "date_limite_plis": "16/11/2022",
+ "lieu_ouverture": "Siège de la RAMSA",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "29/11/2022",
+ "justification": "offre la plus avantageuse.",
+ "infructueux": false,
+ "attributaire": "RECOS",
+ "montant_attribue": 2471280.0,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "ENIRAP",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_dossier_administratif_technique",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "RECOS",
+   "montant_acte_engagement": 2471280.0,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 2,
+ "alertes_ocr": [],
+ "notes_ocr": [],
+ "qualite": "attribution"
+}

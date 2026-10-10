@@ -1,0 +1,135 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "757137",
+ "orgAcronyme": "g3h",
+ "reference_pv": "06/FDRZM/2023",
+ "nouveau": true,
+ "reference": "06/FDRZM/2023",
+ "objet": "Travaux de réhabilitation de la RP 7065 reliant la RP 7058 et Sebaa Ayoune -Province d’El-Hajeb",
+ "acheteur": "PROVINCE D’EL-HAJEB",
+ "procedure": "appel d'offres ouvert national",
+ "categorie": "Travaux",
+ "date_limite_plis": "09/11/2023",
+ "lieu_ouverture": "Siège de la Province d’El-Hajeb",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "16/11/2023",
+ "justification": "l'Offre économiquement la plus avantageuse.",
+ "infructueux": false,
+ "attributaire": "Sté. FILALI TRAVAUX PUBLICS ET REBOISEMENT SARL de Rabat",
+ "montant_attribue": 7185786.0,
+ "attributaires_par_lot": [
+  {
+   "lot": null,
+   "attributaire": "Sté. FILALI TRAVAUX PUBLICS ET REBOISEMENT SARL de Rabat",
+   "montant": 7185786.0
+  },
+  {
+   "lot": null,
+   "attributaire": "SARL de Rabat",
+   "montant": null
+  }
+ ],
+ "soumissionnaires": [
+  {
+   "nom": "Sté. « SONOTRAP » Sarl Au de Meknès",
+   "montant_acte_engagement": 8117853.0,
+   "montant_apres_verification": 8117853.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Sté. SARATRAD SARL AU de Meknès",
+   "montant_acte_engagement": 8212549.2,
+   "montant_apres_verification": 8212549.2,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Sté. Sté. ISMAILIENNE DE TRAVAUX DIVERS SARL de Meknès",
+   "montant_acte_engagement": 7173417.6,
+   "montant_apres_verification": 7173417.6,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Sté. ENTRAMA SARL de Fés",
+   "montant_acte_engagement": 8052451.2,
+   "montant_apres_verification": 8052451.2,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Sté. BNIFORT SARL de Fés",
+   "montant_acte_engagement": 7716378.0,
+   "montant_apres_verification": 7716378.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Sté. MELATRA de Casablanca",
+   "montant_acte_engagement": 7587247.8,
+   "montant_apres_verification": 7587247.8,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Sté. AMAZIDAR SARL de Guersif",
+   "montant_acte_engagement": 7181953.2,
+   "montant_apres_verification": 7181953.2,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Sté. Société de Construction ZAOUA SARL d’Agadir",
+   "montant_acte_engagement": 7180983.6,
+   "montant_apres_verification": 7180983.6,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Sté. FILALI TRAVAUX PUBLICS ET REBOISEMENT SARL de Rabat",
+   "montant_acte_engagement": 7185786.0,
+   "montant_apres_verification": 7185786.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "SARL de Rabat",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 10,
+ "alertes_ocr": [
+  "« SARL de Rabat » absent de la liste des plis déposés (nom mal lu ?).",
+  "Montant de l'attributaire « SARL de Rabat » non trouvé."
+ ],
+ "notes_ocr": [],
+ "qualite": "complet"
+}

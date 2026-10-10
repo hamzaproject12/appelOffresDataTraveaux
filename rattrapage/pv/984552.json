@@ -1,0 +1,63 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "984552",
+ "orgAcronyme": "g3h",
+ "reference_pv": "06/2026/ND/DEPOT-CB-1e",
+ "nouveau": true,
+ "reference": "06/2026/ND/DEPOT-CB-1e",
+ "objet": "Travaux de construction d’un dépôt et de fourniture des équipements pour des réseaux de communication et systèmes de vidéo-surveillance au siège de la commune de Bouskoura",
+ "acheteur": "La Commune de Bouskoura",
+ "procedure": "appel d'offres ouvert",
+ "categorie": "Travaux",
+ "date_limite_plis": null,
+ "lieu_ouverture": null,
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "12/03/2026",
+ "justification": "la société ayant la meilleure offre (économiquement A plus avantageuse). |",
+ "infructueux": false,
+ "attributaire": "HEST SARL",
+ "montant_attribue": 1723735.08,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "DFSTSARL",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "DFST SARL",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "HEST SARL",
+   "montant_acte_engagement": 1723735.08,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 3,
+ "alertes_ocr": [
+  "« HEST SARL » absent de la liste des plis déposés (nom mal lu ?)."
+ ],
+ "notes_ocr": [
+  "« DFSTSARL » absent de la liste des plis déposés (nom mal lu ?).",
+  "« DFST SARL » absent de la liste des plis déposés (nom mal lu ?)."
+ ],
+ "qualite": "attribution"
+}

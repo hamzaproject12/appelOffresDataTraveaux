@@ -1,0 +1,135 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "750180",
+ "orgAcronyme": "q1s",
+ "reference_pv": null,
+ "nouveau": true,
+ "reference": null,
+ "objet": "la réalisation des travaux de mise à niveau des halles au poisson, PDA et VDP de l'Office National des Pêches », en cinq lots",
+ "acheteur": "OFFICE NATIONAL DES PECHES",
+ "procedure": null,
+ "categorie": "Travaux",
+ "date_limite_plis": "11/10/2023",
+ "lieu_ouverture": "Office National des Pêches, sis 15, rue du Lieutenant Mohamed Mahroud à Casablanca",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "26/10/2023",
+ "justification": "l’offre la moins distante.",
+ "infructueux": false,
+ "attributaire": "RAOUAH",
+ "montant_attribue": 304944.0,
+ "attributaires_par_lot": [
+  {
+   "lot": "1",
+   "attributaire": "RAOUAH",
+   "montant": 304944.0
+  },
+  {
+   "lot": "3",
+   "attributaire": "RAOUAH",
+   "montant": 294895.2
+  },
+  {
+   "lot": "4",
+   "attributaire": "CONSAMECO",
+   "montant": 642687.6
+  },
+  {
+   "lot": "5",
+   "attributaire": "ANBDOU",
+   "montant": 676440.0
+  }
+ ],
+ "soumissionnaires": [
+  {
+   "nom": "RAOUAH",
+   "montant_acte_engagement": 304944.0,
+   "montant_apres_verification": null,
+   "autres_montants": [
+    304944.0,
+    176064.0,
+    294895.2,
+    20300.0
+   ],
+   "lots": [
+    "1",
+    "2",
+    "3"
+   ],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "ANBDOU",
+   "montant_acte_engagement": 676440.0,
+   "montant_apres_verification": null,
+   "autres_montants": [
+    676440.0
+   ],
+   "lots": [
+    "3",
+    "5"
+   ],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "CONSAMECO",
+   "montant_acte_engagement": 859998.0,
+   "montant_apres_verification": null,
+   "autres_montants": [
+    859998.0
+   ],
+   "lots": [
+    "3",
+    "4"
+   ],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "INMA HIGH TECH",
+   "montant_acte_engagement": 183300.0,
+   "montant_apres_verification": null,
+   "autres_montants": [
+    183300.0
+   ],
+   "lots": [
+    "2"
+   ],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "GF BUSINESS",
+   "montant_acte_engagement": 680418.0,
+   "montant_apres_verification": null,
+   "autres_montants": [
+    680418.0
+   ],
+   "lots": [
+    "3"
+   ],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "INDELEC {lots n°1, 2, 3 et 5)",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 6,
+ "alertes_ocr": [],
+ "notes_ocr": [
+  "Marché alloti (5 lots)."
+ ],
+ "qualite": "complet"
+}

@@ -1,0 +1,97 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "923872",
+ "orgAcronyme": "m8x",
+ "reference_pv": "16/BP/2025",
+ "nouveau": true,
+ "reference": "16/BP/2025",
+ "objet": "L'EXTENSION RESEAU ELECTRIQUE 1ERE CATEGORIE AUX DOUARS TIZOUNINE ET IGDI, COMMUNE DE TIZOUNINE PROVINCE DE TATA",
+ "acheteur": "Conseil provincial de Tata",
+ "procedure": null,
+ "categorie": "Travaux",
+ "date_limite_plis": null,
+ "lieu_ouverture": null,
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "02/06/2025",
+ "justification": null,
+ "infructueux": false,
+ "attributaire": "STE SKO RID SARL",
+ "montant_attribue": 519888.0,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "STE ELEC BOURICHE S.A.R.L",
+   "montant_acte_engagement": 474019.2,
+   "montant_apres_verification": null,
+   "autres_montants": [
+    474019.2
+   ],
+   "lots": [],
+   "statut": "ecarte_offre_financiere",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "STE SKO RID SARL",
+   "montant_acte_engagement": 519888.0,
+   "montant_apres_verification": null,
+   "autres_montants": [
+    519888.0
+   ],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "SOCIETE TRAVAUX & D'INGENIERIE SARL",
+   "montant_acte_engagement": 514674.0,
+   "montant_apres_verification": null,
+   "autres_montants": [
+    514674.0
+   ],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "STE MAGHRIB DES RESEAUX ELECTRIQUE SARL AU",
+   "montant_acte_engagement": 507932.4,
+   "montant_apres_verification": null,
+   "autres_montants": [
+    507932.4
+   ],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "STE MONDIAL RESEAU SARL",
+   "montant_acte_engagement": 600276.0,
+   "montant_apres_verification": null,
+   "autres_montants": [
+    600276.0
+   ],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": true
+  },
+  {
+   "nom": "STE SPINELEC SARL",
+   "montant_acte_engagement": 593810.4,
+   "montant_apres_verification": null,
+   "autres_montants": [
+    593810.4
+   ],
+   "lots": [],
+   "statut": "ecarte_offre_financiere",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 6,
+ "alertes_ocr": [],
+ "notes_ocr": [],
+ "qualite": "complet"
+}

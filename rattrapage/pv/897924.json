@@ -1,0 +1,55 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "897924",
+ "orgAcronyme": "g3h",
+ "reference_pv": "09/2025/BG",
+ "nouveau": true,
+ "reference": "09/2025/BG",
+ "objet": null,
+ "acheteur": "Province d'Es-semara",
+ "procedure": "appel d'offres ouvert",
+ "categorie": "Travaux",
+ "date_limite_plis": "13/05/2025",
+ "lieu_ouverture": null,
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "20/05/2025",
+ "justification": "l'offre la plus avantageuse",
+ "infructueux": false,
+ "attributaire": null,
+ "montant_attribue": null,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "EL2 STE CHAJAA",
+   "montant_acte_engagement": 282756.0,
+   "montant_apres_verification": null,
+   "autres_montants": [
+    282756.0
+   ],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "EL3 STE GACHBA TRAVAUX",
+   "montant_acte_engagement": 282450.0,
+   "montant_apres_verification": null,
+   "autres_montants": [
+    282450.0
+   ],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 2,
+ "alertes_ocr": [
+  "Attributaire non trouvé."
+ ],
+ "notes_ocr": [],
+ "qualite": "complet"
+}

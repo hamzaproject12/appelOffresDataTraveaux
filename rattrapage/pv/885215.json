@@ -1,0 +1,81 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "885215",
+ "orgAcronyme": "g3h",
+ "reference_pv": "11/2025",
+ "nouveau": true,
+ "reference": "11/2025",
+ "objet": "Fourniture et pose des auvents en bois de cèdre pour les boutiques de la Place Lahdim dans la ville de Meknès, en lot unique",
+ "acheteur": null,
+ "procedure": "appel d'offres ouvert",
+ "categorie": "Travaux",
+ "date_limite_plis": "25/03/2025",
+ "lieu_ouverture": "Antenne de l’ADER-Fès à Meknès",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "08/04/2025",
+ "justification": "Le concurrent ayant présenté l'offre financière la plus avantageuse et la moins disante.",
+ "infructueux": false,
+ "attributaire": "Société SOBIK SARL",
+ "montant_attribue": 574200.0,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "Société BENSMAIL ET CIE SARL AU",
+   "montant_acte_engagement": 667440.0,
+   "montant_apres_verification": 6340.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Société CHENNOUF PLNT SARL",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_dossier_administratif_technique",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Société SAMA BUSINESS SARL AU",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_dossier_administratif_technique",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Société RENOVENT SARL",
+   "montant_acte_engagement": 637200.0,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Société SOBIK SARL",
+   "montant_acte_engagement": 574200.0,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": true
+  }
+ ],
+ "nombre_soumissionnaires": 5,
+ "alertes_ocr": [
+  "« Société BENSMAIL ET CIE SARL AU » : écart anormal entre montant initial et vérifié (lecture à vérifier)."
+ ],
+ "notes_ocr": [
+  "« Société BENSMAIL ET CIE SARL AU » : montant rectifié de 667 440.00 à 6 340.00 DH.",
+  "Maître d'ouvrage absent du PV (utiliser l'acheteur public du portail)."
+ ],
+ "qualite": "complet"
+}

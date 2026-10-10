@@ -1,0 +1,60 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "761231",
+ "orgAcronyme": "q1s",
+ "reference_pv": "75/2023/0RSM",
+ "nouveau": true,
+ "reference": "75/2023/0RSM",
+ "objet": "Travaux de réhabilitation et d'équipement au club de l'ORMVA du Souss-Massa, Préfecture d’AGADIR IDA OUTANANE",
+ "acheteur": "ORMVA/SM",
+ "procedure": "appel d'offres ouvert",
+ "categorie": "Travaux",
+ "date_limite_plis": "17/10/2023",
+ "lieu_ouverture": "Salle de réunion de la direction de l'ORMVA/SM",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "20/11/2023",
+ "justification": "offre la plus avantageuse de la société SSTCO.",
+ "infructueux": false,
+ "attributaire": "Gt. ISTRADA TRAVAUX/SUDAF",
+ "montant_attribue": 3639404.4,
+ "attributaires_par_lot": [
+  {
+   "lot": null,
+   "attributaire": "Gt. ISTRADA TRAVAUX/SUDAF",
+   "montant": 3639404.4
+  },
+  {
+   "lot": null,
+   "attributaire": "SSTCO",
+   "montant": 3024369.6
+  }
+ ],
+ "soumissionnaires": [
+  {
+   "nom": "Gt. ISTRADA TRAVAUX/SUDAF",
+   "montant_acte_engagement": 3639404.4,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "SSTCO",
+   "montant_acte_engagement": 3024369.6,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 2,
+ "alertes_ocr": [],
+ "notes_ocr": [],
+ "qualite": "attribution"
+}

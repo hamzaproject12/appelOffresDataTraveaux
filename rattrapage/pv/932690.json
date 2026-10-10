@@ -1,0 +1,76 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "932690",
+ "orgAcronyme": "j8k",
+ "reference_pv": "118/2025",
+ "nouveau": true,
+ "reference": "118/2025",
+ "objet": "TRAVAUX D’ALIMENTATION EN EAU POTABLE DU LOTISSEMENT HAMRA SIS A LA NOUVELLE VILLE DE TAMANSOURT",
+ "acheteur": "AL OMRANE MARRAKECH-SAFTI",
+ "procedure": "appel d'offres ouvert",
+ "categorie": "Travaux",
+ "date_limite_plis": "08/09/2025",
+ "lieu_ouverture": "AL OMRANE MARRAKECH-SAFI",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "18/09/2025",
+ "justification": "Moins-disant",
+ "infructueux": false,
+ "attributaire": "MAROC TIDAR",
+ "montant_attribue": 1000499.04,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "MAROC TIDAR",
+   "montant_acte_engagement": 1000499.04,
+   "montant_apres_verification": 1000499.04,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "STE STA FORT.BTP",
+   "montant_acte_engagement": 1528540.2,
+   "montant_apres_verification": 1528540.2,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "ABBEAUX TRAVAUX",
+   "montant_acte_engagement": 1264519.62,
+   "montant_apres_verification": 1264519.62,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "MAGIC WORKS",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_dossier_administratif_technique",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "GRPMT ADILAM / WADEP TRAVAUX",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_dossier_administratif_technique",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 5,
+ "alertes_ocr": [],
+ "notes_ocr": [],
+ "qualite": "complet"
+}

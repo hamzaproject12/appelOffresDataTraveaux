@@ -1,0 +1,60 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "918289",
+ "orgAcronyme": "j0w",
+ "reference_pv": null,
+ "nouveau": true,
+ "reference": null,
+ "objet": "Travaux de déplacement du réseau électrique MT et BT dans le cadre de l'aménagement de la route Inara",
+ "acheteur": "Commune de Marrakech",
+ "procedure": "appel d'offres ouvert national",
+ "categorie": "Travaux",
+ "date_limite_plis": "07/07/2025",
+ "lieu_ouverture": "L'annexe de la Commune de Marrakech sis à I'Avenue Mohamed VI fournal ou journaux ayant publié I'avis de publicité : o Asahara Al Maghribia no12136 du t3/06/2025",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "22/07/2025",
+ "justification": "son offre est l’offre économiquement la plus avantageuse conformément à l’article 43 du décret n°2-22-431 du 08/03/2023 relatif aux marchés public.",
+ "infructueux": false,
+ "attributaire": "SOCIETE O02E ENERGIE",
+ "montant_attribue": 5463660.0,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "SOCIETEOZE ENERGIE",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "SOCIETEAKACHELEC",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_offre_technique",
+   "admis_avec_reserve": true
+  },
+  {
+   "nom": "SOCIETE O02E ENERGIE",
+   "montant_acte_engagement": 5463660.0,
+   "montant_apres_verification": 5463660.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 3,
+ "alertes_ocr": [
+  "« SOCIETE O02E ENERGIE » absent de la liste des plis déposés (nom mal lu ?)."
+ ],
+ "notes_ocr": [],
+ "qualite": "attribution"
+}

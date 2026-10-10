@@ -1,0 +1,74 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "1035526",
+ "orgAcronyme": "j8k",
+ "reference_pv": "70/26",
+ "nouveau": true,
+ "reference": "70/26",
+ "objet": "TRAVAUX DE CONSTRUCTION DE LA MOSQUEE SISE AU LOTISSEMENT JNANE LAAMOUR, COMMUNE DE FDALATE, PROVINCE DE BENSLIMANE",
+ "acheteur": null,
+ "procedure": "appel d'offres ouvert",
+ "categorie": "Travaux",
+ "date_limite_plis": "06/08/2026",
+ "lieu_ouverture": "AI Omane Casablanca — Settat",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "17/08/2026",
+ "justification": null,
+ "infructueux": false,
+ "attributaire": "MATRANEG",
+ "montant_attribue": 10489710.0,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "MATRANEG",
+   "montant_acte_engagement": 10489710.0,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Ix£ »S CO c e ac fr »< de naccati | archés",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "ab, EXTRAIT DU PV RM",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "N° : 70/26 Page 2 Sur 2",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 4,
+ "alertes_ocr": [
+  "« MATRANEG » absent de la liste des plis déposés (nom mal lu ?)."
+ ],
+ "notes_ocr": [
+  "« Ix£ »S CO c e ac fr »< de naccati | archés » absent de la liste des plis déposés (nom mal lu ?).",
+  "« ab, EXTRAIT DU PV RM » absent de la liste des plis déposés (nom mal lu ?).",
+  "« N° : 70/26 Page 2 Sur 2 » absent de la liste des plis déposés (nom mal lu ?).",
+  "Maître d'ouvrage absent du PV (utiliser l'acheteur public du portail)."
+ ],
+ "qualite": "attribution"
+}

@@ -1,0 +1,60 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "940938",
+ "orgAcronyme": "a1t",
+ "reference_pv": "71/2025/ADHA",
+ "nouveau": true,
+ "reference": "71/2025/ADHA",
+ "objet": null,
+ "acheteur": "L'AGENCE DE DEVELOPPEMNT DU HAUT ATLAS",
+ "procedure": null,
+ "categorie": "Travaux",
+ "date_limite_plis": "29/09/2025",
+ "lieu_ouverture": "Salle de réunions de la DIRECTION PROVINCIALE DE L'AGRICULTURE MARRAKECH",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": null,
+ "justification": null,
+ "infructueux": false,
+ "attributaire": "BENAMRANE DU COMMERCE ET D'ENTREPRISE",
+ "montant_attribue": 2011820.4,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "HIRIFSARL.",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "BENAMRANE DU COMMERCE ET D'ENTREPRISE",
+   "montant_acte_engagement": 2011820.4,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "HIRIF SARL",
+   "montant_acte_engagement": 1931118.6,
+   "montant_apres_verification": 1931118.6,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 3,
+ "alertes_ocr": [
+  "« HIRIF SARL » absent de la liste des plis déposés (nom mal lu ?)."
+ ],
+ "notes_ocr": [],
+ "qualite": "complet"
+}

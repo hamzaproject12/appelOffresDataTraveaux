@@ -1,0 +1,69 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "774894",
+ "orgAcronyme": "d4q",
+ "reference_pv": null,
+ "nouveau": true,
+ "reference": null,
+ "objet": "Electrification MT/BT de 20 villages dans le cadre du PERG IV (PROVINCES DE FQUIH BEN SALAH et",
+ "acheteur": null,
+ "procedure": null,
+ "categorie": "Travaux",
+ "date_limite_plis": "10/01/2024",
+ "lieu_ouverture": "Siège ONEE/BE",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "14/02/2024",
+ "justification": "Moins-disant conforme",
+ "infructueux": false,
+ "attributaire": "ENTEG (Maroc)",
+ "montant_attribue": 13604014.64,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "HS INFRA (Maroc)",
+   "montant_acte_engagement": 13809173.0,
+   "montant_apres_verification": null,
+   "autres_montants": [
+    13809173.0,
+    13809173.0,
+    16571007.6
+   ],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "ENTEG (Maroc)",
+   "montant_acte_engagement": 13604014.64,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [
+    "unique"
+   ],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "O2E ENERGIE (MAROC)",
+   "montant_acte_engagement": 14988159.0,
+   "montant_apres_verification": null,
+   "autres_montants": [
+    14988159.0,
+    17985790.8
+   ],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 3,
+ "alertes_ocr": [],
+ "notes_ocr": [
+  "Maître d'ouvrage absent du PV (utiliser l'acheteur public du portail)."
+ ],
+ "qualite": "complet"
+}

@@ -1,0 +1,70 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "871892",
+ "orgAcronyme": "d4q",
+ "reference_pv": null,
+ "nouveau": true,
+ "reference": null,
+ "objet": null,
+ "acheteur": null,
+ "procedure": "appel d'offres ouvert",
+ "categorie": "Travaux",
+ "date_limite_plis": "26/12/2024",
+ "lieu_ouverture": "au siège de la Direction Régionale du Centre (DR3) Boulevard Mohamed VI, Quartier Administratif - Khouribga - Maroc",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "13/02/2025",
+ "justification": "Moins-disant",
+ "infructueux": false,
+ "attributaire": "GROUP HYDRAULIQUE DES CANAUX / MOUZHIR",
+ "montant_attribue": 5905698.0,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "ESAFRIC MAROC",
+   "montant_acte_engagement": 6720000.0,
+   "montant_apres_verification": 6720000.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "GROUP HYDRAULIQUE DES CANAUX / MOUZHIR",
+   "montant_acte_engagement": 5905698.0,
+   "montant_apres_verification": 5905698.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "ELEC - Offre de hase OUSSAMA",
+   "montant_acte_engagement": 5941339.2,
+   "montant_apres_verification": 5941339.2,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "RMC MAROC",
+   "montant_acte_engagement": 6091920.0,
+   "montant_apres_verification": 6082320.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 4,
+ "alertes_ocr": [],
+ "notes_ocr": [
+  "« RMC MAROC » : montant rectifié de 6 091 920.00 à 6 082 320.00 DH.",
+  "Maître d'ouvrage absent du PV (utiliser l'acheteur public du portail)."
+ ],
+ "qualite": "complet"
+}

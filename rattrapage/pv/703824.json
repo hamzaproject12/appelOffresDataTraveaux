@@ -1,0 +1,60 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "703824",
+ "orgAcronyme": "e5w",
+ "reference_pv": "01/2023",
+ "nouveau": true,
+ "reference": "01/2023",
+ "objet": "Travaux d'entretien des espaces verts",
+ "acheteur": "Président du conseil de l’Arrondissement Saiss",
+ "procedure": null,
+ "categorie": "Travaux",
+ "date_limite_plis": "16/03/2023",
+ "lieu_ouverture": "Salle des réunions de 1",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "29/03/2023",
+ "justification": "Offre la moins disante.",
+ "infructueux": false,
+ "attributaire": "STE SATEV",
+ "montant_attribue": 903097.24,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "STE VERDURA",
+   "montant_acte_engagement": 899782.56,
+   "montant_apres_verification": 899782.56,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "STE DAHA VERTE",
+   "montant_acte_engagement": 846893.24,
+   "montant_apres_verification": 1041293.62,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "STE SATEV",
+   "montant_acte_engagement": 903097.24,
+   "montant_apres_verification": 903097.24,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 3,
+ "alertes_ocr": [],
+ "notes_ocr": [
+  "« STE DAHA VERTE » : montant rectifié de 846 893.24 à 1 041 293.62 DH."
+ ],
+ "qualite": "complet"
+}

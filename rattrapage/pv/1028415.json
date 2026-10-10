@@ -1,0 +1,89 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "1028415",
+ "orgAcronyme": "p8x",
+ "reference_pv": null,
+ "nouveau": true,
+ "reference": null,
+ "objet": "Travaux d’aménagement et de réhabilitation des murs de clôture aux établissements scolaire relevant de la direction provinciale de Marrakech en deux lots séparés",
+ "acheteur": "Le directeur provincial de Marrakech",
+ "procedure": "appel d'offres ouvert",
+ "categorie": "Travaux",
+ "date_limite_plis": "24/07/2026",
+ "lieu_ouverture": "La salle des réunions à la Direction Provinciale de Marrakech",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "29/07/2026",
+ "justification": "Concurrent ayant présenté l’offre économiquement la plus avantageuse.",
+ "infructueux": false,
+ "attributaire": "STE OUBNITRA SARL",
+ "montant_attribue": 661802.98,
+ "attributaires_par_lot": [
+  {
+   "lot": null,
+   "attributaire": "STE OUBNITRA SARL",
+   "montant": 661802.98
+  },
+  {
+   "lot": null,
+   "attributaire": "STE SOLANOUR SARL",
+   "montant": 499626.5
+  }
+ ],
+ "soumissionnaires": [
+  {
+   "nom": "STE SOLANOUR SARL",
+   "montant_acte_engagement": 657669.17,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "ETS HBAYOU Lots :1,2",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "STE OUBNITRA SARL",
+   "montant_acte_engagement": 661802.98,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "STE F.D. BUILDING SARL Lots :1",
+   "montant_acte_engagement": 787195.15,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "ETS HBAYOU",
+   "montant_acte_engagement": 660621.89,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 5,
+ "alertes_ocr": [
+  "« ETS HBAYOU » absent de la liste des plis déposés (nom mal lu ?)."
+ ],
+ "notes_ocr": [],
+ "qualite": "complet"
+}

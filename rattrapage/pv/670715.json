@@ -1,0 +1,87 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "670715",
+ "orgAcronyme": "o8p",
+ "reference_pv": "37/AREF/2022/ANEPCO",
+ "nouveau": true,
+ "reference": "37/AREF/2022/ANEPCO",
+ "objet": "TRAVAUX DE REMPLACEMENT DE (30) TRENTE SALLES DE CLASSE PREFABRIQUEES PAR DES SALLES DE CLASSE EN DUR ET CONSTRUCTION DE (04) QUATRE BLOCS SANITAIRES AUX ECOLES SUIVANTES :REMPLACEMENT DE (01) UNE SALLE DE CLASSE PRÉFABRIQUÉE PAR UNE SALLE DE",
+ "acheteur": null,
+ "procedure": "appel d'offres ouvert",
+ "categorie": "Travaux",
+ "date_limite_plis": "11/10/2022",
+ "lieu_ouverture": "ANEP CENTRE OUEST > Assaahraa Almaghibia du 31/08/2022 > Le Matin du 31/08/2022",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "17/10/2022",
+ "justification": "L'offre avantageuse est l'offre la moins disante.",
+ "infructueux": false,
+ "attributaire": "BITMAR",
+ "montant_attribue": 8159844.0,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "ENTC",
+   "montant_acte_engagement": 8503914.0,
+   "montant_apres_verification": null,
+   "autres_montants": [
+    8503914.0
+   ],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "SUP CONSTRUCTIONS",
+   "montant_acte_engagement": 8890392.0,
+   "montant_apres_verification": null,
+   "autres_montants": [
+    8890392.0
+   ],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "STE MANASSA TRV/EXPERT CONSTRUCTION",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_dossier_administratif_technique",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "STE Z2K BUILDING",
+   "montant_acte_engagement": 9681144.0,
+   "montant_apres_verification": null,
+   "autres_montants": [
+    9681144.0
+   ],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "BITMAR",
+   "montant_acte_engagement": 8159844.0,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 5,
+ "alertes_ocr": [
+  "« STE Z2K BUILDING » absent de la liste des plis déposés (nom mal lu ?).",
+  "« BITMAR » absent de la liste des plis déposés (nom mal lu ?)."
+ ],
+ "notes_ocr": [
+  "Maître d'ouvrage absent du PV (utiliser l'acheteur public du portail)."
+ ],
+ "qualite": "complet"
+}

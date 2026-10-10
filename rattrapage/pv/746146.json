@@ -1,0 +1,60 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "746146",
+ "orgAcronyme": "q1s",
+ "reference_pv": "41/2023/0RH/SGRID",
+ "nouveau": true,
+ "reference": "41/2023/0RH/SGRID",
+ "objet": "ENTRETIEN DU RESEAU D'IRRIGATION EN CANAUX PORTES AU PERIMETRES DE LA TESSAOUT AMONT",
+ "acheteur": null,
+ "procedure": null,
+ "categorie": "Travaux",
+ "date_limite_plis": "12/09/2023",
+ "lieu_ouverture": "Siège de l'Office Régional de Mise en Valeur Agricole du Haouz",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "10/10/2023",
+ "justification": "l'Offre la plus avantageuse est présentée par la société CCGT.",
+ "infructueux": false,
+ "attributaire": "CCGT",
+ "montant_attribue": 6000000.0,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "CCGT",
+   "montant_acte_engagement": 6000000.0,
+   "montant_apres_verification": 188175.0,
+   "autres_montants": [
+    12000000.0
+   ],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "SNCE",
+   "montant_acte_engagement": 6000000.0,
+   "montant_apres_verification": 220237.25,
+   "autres_montants": [
+    12000000.0
+   ],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 2,
+ "alertes_ocr": [
+  "« CCGT » : écart anormal entre montant initial et vérifié (lecture à vérifier).",
+  "« SNCE » : écart anormal entre montant initial et vérifié (lecture à vérifier)."
+ ],
+ "notes_ocr": [
+  "« CCGT » : montant rectifié de 6 000 000.00 à 188 175.00 DH.",
+  "« SNCE » : montant rectifié de 6 000 000.00 à 220 237.25 DH.",
+  "Maître d'ouvrage absent du PV (utiliser l'acheteur public du portail)."
+ ],
+ "qualite": "complet"
+}

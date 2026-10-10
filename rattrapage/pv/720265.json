@@ -1,0 +1,82 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "720265",
+ "orgAcronyme": "j0w",
+ "reference_pv": "15/2023/BR",
+ "nouveau": true,
+ "reference": "15/2023/BR",
+ "objet": "TRAVAUX DE CREUSEMENT DE FORAGE AU DOUAR NAKHLA A LA COMMUNE TERRITORIALE OULED KHELLOUF A LA PROVINCE D’EL KELAA DES SRAGHNAS",
+ "acheteur": "LA REGION MARRAKECH-SAFI",
+ "procedure": "appel d'offres ouvert",
+ "categorie": "Travaux",
+ "date_limite_plis": "18/05/2023",
+ "lieu_ouverture": "LE CONSEIL DE LA REGION MARRAKECH SAFI",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": null,
+ "justification": null,
+ "infructueux": false,
+ "attributaire": "Socièté SHEVAN MA FORAGE",
+ "montant_attribue": 855600.0,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "Socièté H.B DRILING",
+   "montant_acte_engagement": 962400.0,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Socièté AMAR TRAVAUX ET SERVICES",
+   "montant_acte_engagement": 890880.0,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Socièté SHEVAN MA FORAGE",
+   "montant_acte_engagement": 855600.0,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Socièté GLOBAL TRAVAUX EXPRESS",
+   "montant_acte_engagement": 893880.0,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Socièté TAOUADA TRAVAUX",
+   "montant_acte_engagement": 988320.0,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 5,
+ "alertes_ocr": [
+  "« Socièté H.B DRILING » absent de la liste des plis déposés (nom mal lu ?).",
+  "« Socièté AMAR TRAVAUX ET SERVICES » absent de la liste des plis déposés (nom mal lu ?).",
+  "« Socièté SHEVAN MA FORAGE » absent de la liste des plis déposés (nom mal lu ?).",
+  "« Socièté GLOBAL TRAVAUX EXPRESS » absent de la liste des plis déposés (nom mal lu ?).",
+  "« Socièté TAOUADA TRAVAUX » absent de la liste des plis déposés (nom mal lu ?)."
+ ],
+ "notes_ocr": [],
+ "qualite": "complet"
+}

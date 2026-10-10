@@ -1,0 +1,53 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "1038211",
+ "orgAcronyme": "g3h",
+ "reference_pv": "15/2026/INDH/PS",
+ "nouveau": true,
+ "reference": "15/2026/INDH/PS",
+ "objet": "Travaux d’installation de panneaux photovoltaïques au niveau de la plateforme des jeunes à la ville de Sefrou - Province de Sefrou",
+ "acheteur": "Le gouverneur de la province de sefrou",
+ "procedure": "appel d'offres ouvert national",
+ "categorie": "Travaux",
+ "date_limite_plis": "03/09/2026",
+ "lieu_ouverture": "la salle de réunions de l’annexe du Secrétariat Général de la Province de Sefrou",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "09/09/2026",
+ "justification": null,
+ "infructueux": false,
+ "attributaire": null,
+ "montant_attribue": null,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "SOCIETE ELECTRICITE LEZAR EL FARDAOUI",
+   "montant_acte_engagement": 348894.9,
+   "montant_apres_verification": 348894.9,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "règlement de consultation",
+   "montant_acte_engagement": 343512.45,
+   "montant_apres_verification": 343512.45,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 2,
+ "alertes_ocr": [
+  "« SOCIETE ELECTRICITE LEZAR EL FARDAOUI » absent de la liste des plis déposés (nom mal lu ?).",
+  "« règlement de consultation » absent de la liste des plis déposés (nom mal lu ?).",
+  "Attributaire non trouvé."
+ ],
+ "notes_ocr": [],
+ "qualite": "complet"
+}

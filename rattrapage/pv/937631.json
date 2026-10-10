@@ -1,0 +1,55 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "937631",
+ "orgAcronyme": "q9t",
+ "reference_pv": "071/2025/CHUIRC",
+ "nouveau": true,
+ "reference": "071/2025/CHUIRC",
+ "objet": "TRAVAUX DE RENFORCEMENT DU SYSTEME DE DESENFUMAGE AU SERVICE DE PSYCHIATRIE A L’'HIR",
+ "acheteur": "LE CENTRE HOSPITALO-UNIVERSITAIRE IBN ROCHD DE CASABLANCA",
+ "procedure": "appel d'offres ouvert national",
+ "categorie": "Travaux",
+ "date_limite_plis": "10/07/2025",
+ "lieu_ouverture": "Direction du Centre Hospitalo-Universitaire Ibn Rochd",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "07/10/2025",
+ "justification": "offre économiquement la plus avantageuse.",
+ "infructueux": false,
+ "attributaire": "TFC (TRAVAUX DE FLUIDE DE CASABLANCA)",
+ "montant_attribue": 1359180.0,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "TFC (TRAVAUX DE FLUIDE DE CASABLANCA)",
+   "montant_acte_engagement": 1359180.0,
+   "montant_apres_verification": 46200.0,
+   "autres_montants": [
+    46200.0
+   ],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "BAUENER",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_dossier_administratif_technique",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 2,
+ "alertes_ocr": [
+  "« TFC (TRAVAUX DE FLUIDE DE CASABLANCA) » : écart anormal entre montant initial et vérifié (lecture à vérifier)."
+ ],
+ "notes_ocr": [
+  "« TFC (TRAVAUX DE FLUIDE DE CASABLANCA) » : montant rectifié de 1 359 180.00 à 46 200.00 DH."
+ ],
+ "qualite": "attribution"
+}

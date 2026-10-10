@@ -1,0 +1,54 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "671866",
+ "orgAcronyme": "d4q",
+ "reference_pv": null,
+ "nouveau": true,
+ "reference": null,
+ "objet": "Création d’une boucle HTA entre les départs à 22KV « Douiyet — Sebaa Rouadi » et « Driss 1er Aïn Kansara »",
+ "acheteur": null,
+ "procedure": "appel d'offres ouvert",
+ "categorie": "Travaux",
+ "date_limite_plis": "06/09/2022",
+ "lieu_ouverture": "Siège de la Direction Régionale Distribution FES",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": null,
+ "justification": "Offre moins disante.",
+ "infructueux": false,
+ "attributaire": "en /HTVA en /TVAC IMADELEC",
+ "montant_attribue": 876140.0,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "ELECTRO TAFOGHALT",
+   "montant_acte_engagement": 1057230.0,
+   "montant_apres_verification": 1078830.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "en /HTVA en /TVAC IMADELEC",
+   "montant_acte_engagement": 876140.0,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 2,
+ "alertes_ocr": [
+  "« en /HTVA en /TVAC IMADELEC » absent de la liste des plis déposés (nom mal lu ?)."
+ ],
+ "notes_ocr": [
+  "« ELECTRO TAFOGHALT » : montant rectifié de 1 057 230.00 à 1 078 830.00 DH.",
+  "Maître d'ouvrage absent du PV (utiliser l'acheteur public du portail)."
+ ],
+ "qualite": "complet"
+}

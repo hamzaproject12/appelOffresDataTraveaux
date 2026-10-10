@@ -1,0 +1,147 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "1043349",
+ "orgAcronyme": "p8x",
+ "reference_pv": null,
+ "nouveau": true,
+ "reference": null,
+ "objet": "Travaux d’aménagement et de réhabilitation des écoles primaires relevant de la direction provinciale de Marrakech en deux lots séparés",
+ "acheteur": null,
+ "procedure": "appel d'offres ouvert",
+ "categorie": "Travaux",
+ "date_limite_plis": "14/09/2026",
+ "lieu_ouverture": "La salle des réunions à la Direction Provinciale de Marrakech",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "22/09/2026",
+ "justification": "Concurrent ayant présenté l’offre économiquement la plus avantageuse.",
+ "infructueux": false,
+ "attributaire": "STE BAIDIR SARL",
+ "montant_attribue": 718020.0,
+ "attributaires_par_lot": [
+  {
+   "lot": null,
+   "attributaire": "STE BAIDIR SARL",
+   "montant": 718020.0
+  },
+  {
+   "lot": null,
+   "attributaire": "STE SAMY GENIE CIVIL SARL",
+   "montant": 482599.2
+  }
+ ],
+ "soumissionnaires": [
+  {
+   "nom": "STE SAMY GENIE CIVIL SARL",
+   "montant_acte_engagement": 717793.2,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "STE LIRAJ TRAVAUX SARL AU Lots :1",
+   "montant_acte_engagement": 716820.0,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "STE MENUISERIE ELARGOUBI Lots :1",
+   "montant_acte_engagement": 716788.8,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "STE BAIDIR SARL Lots :1",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "STE NOVABNI Lots :1,2",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "depose",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "STE EQUIPEMENT STAF Lots :2",
+   "montant_acte_engagement": 575368.8,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "STE VITANOV TRAVAUX",
+   "montant_acte_engagement": 825552.0,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "STE GROUPE BELICHA Lots :1",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "STE BAIDIR SARL",
+   "montant_acte_engagement": 718020.0,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "STE NOVABNI",
+   "montant_acte_engagement": 830641.2,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "STE GROUPE BELICHA",
+   "montant_acte_engagement": 741015.6,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 11,
+ "alertes_ocr": [
+  "« STE BAIDIR SARL » absent de la liste des plis déposés (nom mal lu ?).",
+  "« STE NOVABNI » absent de la liste des plis déposés (nom mal lu ?).",
+  "« STE GROUPE BELICHA » absent de la liste des plis déposés (nom mal lu ?)."
+ ],
+ "notes_ocr": [
+  "Maître d'ouvrage absent du PV (utiliser l'acheteur public du portail)."
+ ],
+ "qualite": "complet"
+}

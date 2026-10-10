@@ -1,0 +1,86 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "807906",
+ "orgAcronyme": "d4q",
+ "reference_pv": "40/DR1/CA/2024",
+ "nouveau": true,
+ "reference": "40/DR1/CA/2024",
+ "objet": "relatif à",
+ "acheteur": null,
+ "procedure": "appel d'offres ouvert",
+ "categorie": "Travaux",
+ "date_limite_plis": "20/05/2024",
+ "lieu_ouverture": "au Siège de la Direction Régionale du Sud (DR1) - Rue 18 Novembre Quartier Industriel - Agadir - Maroc",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "24/06/2024",
+ "justification": "Moins-disant",
+ "infructueux": false,
+ "attributaire": "GROUP SOLATREP (STE LACHKAR DE TRAVAUX D'EAU MAROC - MAROC",
+ "montant_attribue": 495672.0,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "ENTR IGGOUT MAROC",
+   "montant_acte_engagement": 640026.0,
+   "montant_apres_verification": null,
+   "autres_montants": [
+    640026.0
+   ],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "GROUP ANIAAMA SOUSS/ MOBILE WORKS MAROC - MAROC",
+   "montant_acte_engagement": 504610.8,
+   "montant_apres_verification": null,
+   "autres_montants": [
+    504610.8
+   ],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "GROUP SOLATREP (STE LACHKAR DE TRAVAUX D'EAU MAROC - MAROC",
+   "montant_acte_engagement": 495672.0,
+   "montant_apres_verification": null,
+   "autres_montants": [
+    495672.0
+   ],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "POTABLE) / EL FAID SERVICE",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "depose",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "MEGA TRAITEMENT MAROC",
+   "montant_acte_engagement": 643344.0,
+   "montant_apres_verification": null,
+   "autres_montants": [
+    643344.0
+   ],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 5,
+ "alertes_ocr": [],
+ "notes_ocr": [
+  "Maître d'ouvrage absent du PV (utiliser l'acheteur public du portail)."
+ ],
+ "qualite": "complet"
+}

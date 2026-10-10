@@ -1,0 +1,60 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "882687",
+ "orgAcronyme": "e5w",
+ "reference_pv": null,
+ "nouveau": true,
+ "reference": null,
+ "objet": "travaux de construction d’un château d'eau au voisinage du darih sidi Bouali au douar ait amer ouchaou, commune Ras Tabouda, Province de Sefrou. -LOT UNIQUE-",
+ "acheteur": "le président de la commune de Ras Tabouda",
+ "procedure": null,
+ "categorie": "Travaux",
+ "date_limite_plis": "06/03/2025",
+ "lieu_ouverture": "siège de la commune de Ras Tabouda",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "26/03/2025",
+ "justification": "L’offre économiquement la plus avantageuse présenté par la Sté AMINWORK SARL dépasse les crédits budgétaires alloués au marché.",
+ "infructueux": false,
+ "attributaire": null,
+ "montant_attribue": null,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "STE ITCANAT SARL",
+   "montant_acte_engagement": 1183638.0,
+   "montant_apres_verification": 1183638.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": true
+  },
+  {
+   "nom": "STE imxtral- s .a.r.l",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_dossier_administratif_technique",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "STE AMINWORK SARL",
+   "montant_acte_engagement": 1080000.0,
+   "montant_apres_verification": 1080000.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": true
+  }
+ ],
+ "nombre_soumissionnaires": 3,
+ "alertes_ocr": [
+  "Attributaire non trouvé."
+ ],
+ "notes_ocr": [],
+ "qualite": "complet"
+}

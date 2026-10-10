@@ -1,0 +1,57 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "855759",
+ "orgAcronyme": "j8k",
+ "reference_pv": "28/BM/2024",
+ "nouveau": true,
+ "reference": "28/BM/2024",
+ "objet": "TRAVAUX DE GENIE CIVIL ET EQUIPEMENT DE LA STATION DE REPRISE DE 2500 M3 DU POLE URBAIN DIYAR AL MOSTAKBAL A BENI MELLAL",
+ "acheteur": null,
+ "procedure": "appel d'offres ouvert",
+ "categorie": "Travaux",
+ "date_limite_plis": null,
+ "lieu_ouverture": null,
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": null,
+ "justification": null,
+ "infructueux": false,
+ "attributaire": null,
+ "montant_attribue": null,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "Sté UBAC",
+   "montant_acte_engagement": 16821642.0,
+   "montant_apres_verification": null,
+   "autres_montants": [
+    16821642.0
+   ],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Sté CANDET CONSTRUCTION",
+   "montant_acte_engagement": 16009874.4,
+   "montant_apres_verification": null,
+   "autres_montants": [
+    16009874.4
+   ],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 2,
+ "alertes_ocr": [
+  "Attributaire non trouvé."
+ ],
+ "notes_ocr": [
+  "Maître d'ouvrage absent du PV (utiliser l'acheteur public du portail)."
+ ],
+ "qualite": "complet"
+}

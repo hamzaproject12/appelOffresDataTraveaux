@@ -1,0 +1,82 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "687779",
+ "orgAcronyme": "d4q",
+ "reference_pv": null,
+ "nouveau": true,
+ "reference": null,
+ "objet": null,
+ "acheteur": null,
+ "procedure": null,
+ "categorie": "Travaux",
+ "date_limite_plis": "08/12/2022",
+ "lieu_ouverture": "ONEE-BE / Siège Direction Régionale Distribution Agadir",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": null,
+ "justification": "L'offre proposée par le soumissionnaire « SOCIETE OUHAFID TRAVAUX » s’écarte d’un taux acceptable de +17,96% par rapport à l'estimation.",
+ "infructueux": false,
+ "attributaire": "SOCIETE OUHAFID TRAVAUX",
+ "montant_attribue": 2208375.6,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "SOCIETE OUHAFID TRAVAUX",
+   "montant_acte_engagement": 2208375.6,
+   "montant_apres_verification": 2208375.6,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "DIVERS, SOCIETE ELEC BOURICHE et SOCIETE MONDIAL RESEAU",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "SOCIETE MSSIOUA TRAVAUX DIVERS",
+   "montant_acte_engagement": 2215248.0,
+   "montant_apres_verification": 2215248.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "SOCIETE ELEC BOURICHE",
+   "montant_acte_engagement": 2238129.0,
+   "montant_apres_verification": 2238129.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "SOCIETE MONDIAL RESEAU",
+   "montant_acte_engagement": 2244534.0,
+   "montant_apres_verification": 2244534.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 5,
+ "alertes_ocr": [
+  "« SOCIETE MSSIOUA TRAVAUX DIVERS » absent de la liste des plis déposés (nom mal lu ?).",
+  "« SOCIETE ELEC BOURICHE » absent de la liste des plis déposés (nom mal lu ?).",
+  "« SOCIETE MONDIAL RESEAU » absent de la liste des plis déposés (nom mal lu ?)."
+ ],
+ "notes_ocr": [
+  "Maître d'ouvrage absent du PV (utiliser l'acheteur public du portail)."
+ ],
+ "qualite": "complet"
+}

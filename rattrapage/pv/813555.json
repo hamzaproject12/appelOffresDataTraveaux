@@ -1,0 +1,104 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "813555",
+ "orgAcronyme": "g3h",
+ "reference_pv": null,
+ "nouveau": true,
+ "reference": null,
+ "objet": "Travaux d'aménagement de l’agence commerciale Deroua",
+ "acheteur": "Régie Autonome de Distribution d'Eau et d’Electricité de la Chaouia",
+ "procedure": null,
+ "categorie": "Travaux",
+ "date_limite_plis": "30/05/2024",
+ "lieu_ouverture": "Les bureaux de la RADEEC sise au quartier administratif, Bd Mohammed V- Settat",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "13/06/2024",
+ "justification": "L'offre économiquement la plus avantageuse",
+ "infructueux": false,
+ "attributaire": "SINASAR",
+ "montant_attribue": 1783440.0,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "LE SAUTOIR",
+   "montant_acte_engagement": 1498835.0,
+   "montant_apres_verification": null,
+   "autres_montants": [
+    1798602.0
+   ],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "EL BAZ TRAVAUX",
+   "montant_acte_engagement": 1781052.0,
+   "montant_apres_verification": null,
+   "autres_montants": [
+    1781052.0
+   ],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "MOURAD TRAITEMENT",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_offre_financiere",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "HACHIM ABDELTEF",
+   "montant_acte_engagement": 1900890.0,
+   "montant_apres_verification": null,
+   "autres_montants": [
+    1900890.0
+   ],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "EMCV 11 ISQUARE",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "depose",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "CONCEPT DESIGN DEVELOP 12 AM RENNOVATION",
+   "montant_acte_engagement": 1837932.0,
+   "montant_apres_verification": null,
+   "autres_montants": [
+    1837932.0
+   ],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "SINASAR",
+   "montant_acte_engagement": 1783440.0,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 7,
+ "alertes_ocr": [
+  "« SINASAR » absent de la liste des plis déposés (nom mal lu ?)."
+ ],
+ "notes_ocr": [],
+ "qualite": "complet"
+}

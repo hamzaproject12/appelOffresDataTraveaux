@@ -1,0 +1,114 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "797814",
+ "orgAcronyme": "q1s",
+ "reference_pv": "01/2024/CRRAE",
+ "nouveau": true,
+ "reference": "01/2024/CRRAE",
+ "objet": "Travaux d’approfondissement et équipement de Trois puits au Domaine Expérimental de Zagora, relevant du Centre Régional de la Recherche Agronomique Errachidia",
+ "acheteur": "Centre Régional de la Recherche Agronomique Errachidia",
+ "procedure": "appel d'offres ouvert national",
+ "categorie": "Travaux",
+ "date_limite_plis": "26/04/2024",
+ "lieu_ouverture": "La salle des réunions du centre régional de la Recherche Agronomique de Meknès, sis km 10, Route Haj Kaddour, Meknès,",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "20/05/2024",
+ "justification": "l’offre la plus avantageuse",
+ "infructueux": false,
+ "attributaire": "STE DE CRUSEMENT DES PUITS",
+ "montant_attribue": 415800.0,
+ "attributaires_par_lot": [
+  {
+   "lot": null,
+   "attributaire": "STE DE CRUSEMENT DES PUITS",
+   "montant": 415800.0
+  },
+  {
+   "lot": null,
+   "attributaire": "RABIB TRAV",
+   "montant": 404340.0
+  }
+ ],
+ "soumissionnaires": [
+  {
+   "nom": "DAKKOR",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_dossier_administratif_technique",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "SODENIR",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_dossier_administratif_technique",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "STE DE CRUSEMENT DES PUITS",
+   "montant_acte_engagement": 415800.0,
+   "montant_apres_verification": 415800.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": true
+  },
+  {
+   "nom": "STE IRRAGRI",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_dossier_administratif_technique",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "BELGHERISSI ALI",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_dossier_administratif_technique",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "STE TIZINTE FARKHINE",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_dossier_administratif_technique",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "RABIB TRAV",
+   "montant_acte_engagement": 404340.0,
+   "montant_apres_verification": 404340.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": true
+  },
+  {
+   "nom": "HAJ DOUIRI SOHADU",
+   "montant_acte_engagement": 464040.0,
+   "montant_apres_verification": 464040.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": true
+  }
+ ],
+ "nombre_soumissionnaires": 8,
+ "alertes_ocr": [],
+ "notes_ocr": [],
+ "qualite": "complet"
+}

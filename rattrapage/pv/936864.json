@@ -1,0 +1,53 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "936864",
+ "orgAcronyme": "z9k",
+ "reference_pv": "13/coy/2025",
+ "nouveau": true,
+ "reference": "13/coy/2025",
+ "objet": "Mise à niveau du souk hebdomadaire JMAA à la commune territoriale Ouled Yaich Province Beni Mellal",
+ "acheteur": "commune ouled yaich",
+ "procedure": "appel d'offres ouvert simplifié",
+ "categorie": "Travaux",
+ "date_limite_plis": "11/09/2025",
+ "lieu_ouverture": "salle des réunions",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "22/09/2025",
+ "justification": "l'offre la plus avantageuse",
+ "infructueux": false,
+ "attributaire": "GROUPEMENT STE SOURIBAK TRAVAUX SARL ET STE GENETRA SARL AU",
+ "montant_attribue": 4624.0,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "STE BOOSTER TRAVAUX",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_dossier_administratif_technique",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "GROUPEMENT STE SOURIBAK TRAVAUX SARL ET STE GENETRA SARL AU",
+   "montant_acte_engagement": 7040694.0,
+   "montant_apres_verification": 4624.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 2,
+ "alertes_ocr": [
+  "« GROUPEMENT STE SOURIBAK TRAVAUX SARL ET STE GENETRA SARL AU » : écart anormal entre montant initial et vérifié (lecture à vérifier)."
+ ],
+ "notes_ocr": [
+  "« GROUPEMENT STE SOURIBAK TRAVAUX SARL ET STE GENETRA SARL AU » : montant rectifié de 7 040 694.00 à 4 624.00 DH."
+ ],
+ "qualite": "attribution"
+}

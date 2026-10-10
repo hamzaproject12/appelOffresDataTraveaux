@@ -1,0 +1,77 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "1004064",
+ "orgAcronyme": "j0w",
+ "reference_pv": null,
+ "nouveau": true,
+ "reference": null,
+ "objet": "Travaux de construction de la piste reliant entre la RN7 et Douar Ait Messaoud sur une longueur d'environ 0.80 km à la commune territoriale Harbil à la préfecture de Marrakech",
+ "acheteur": "Conseil Préfectoral de Marrakech",
+ "procedure": "appel d'offres ouvert national",
+ "categorie": "Travaux",
+ "date_limite_plis": "28/04/2026",
+ "lieu_ouverture": "La salle des réunions au siège du Conseil Préfectoral de Marrakech",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "14/05/2026",
+ "justification": "offre la plus avantageuse, la mieux disante par rapport au prix de réference 994190,80",
+ "infructueux": false,
+ "attributaire": "SALMARINAS TRAVAUX",
+ "montant_attribue": 977563.2,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "Manque la part revenant à chaque membre au",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_offre_financiere",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Groupemen conjoint FORALIA et TIFAOUINEINO atvhte de d'aste d'idenecéest",
+   "montant_acte_engagement": 999705.6,
+   "montant_apres_verification": null,
+   "autres_montants": [
+    999705.6
+   ],
+   "lots": [],
+   "statut": "ecarte_offre_financiere",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "SALMARINAS TRAVAUX",
+   "montant_acte_engagement": 977563.2,
+   "montant_apres_verification": null,
+   "autres_montants": [
+    977563.2
+   ],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Groupemen conjoint TASUTA TRAVAUX et SODIMATRA",
+   "montant_acte_engagement": 1056280.0,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 4,
+ "alertes_ocr": [
+  "« Groupemen conjoint FORALIA et TIFAOUINEINO atvhte de d'aste d'idenecéest » absent de la liste des plis déposés (nom mal lu ?).",
+  "« SALMARINAS TRAVAUX » absent de la liste des plis déposés (nom mal lu ?).",
+  "« Groupemen conjoint TASUTA TRAVAUX et SODIMATRA » absent de la liste des plis déposés (nom mal lu ?)."
+ ],
+ "notes_ocr": [
+  "« Manque la part revenant à chaque membre au » absent de la liste des plis déposés (nom mal lu ?)."
+ ],
+ "qualite": "complet"
+}

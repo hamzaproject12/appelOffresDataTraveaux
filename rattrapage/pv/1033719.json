@@ -1,0 +1,144 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "1033719",
+ "orgAcronyme": "g3h",
+ "reference_pv": null,
+ "nouveau": true,
+ "reference": null,
+ "objet": null,
+ "acheteur": null,
+ "procedure": null,
+ "categorie": "Travaux",
+ "date_limite_plis": null,
+ "lieu_ouverture": null,
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": null,
+ "justification": "L'Offre la plus avantageuse. Ty me, ile d'achèvement des travaux de la commission : 17/08/2026",
+ "infructueux": false,
+ "attributaire": "AMANE VERT",
+ "montant_attribue": 619872.0,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "SOT ITRANE",
+   "montant_acte_engagement": 619620.0,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_offre_financiere",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "ANFIFA TRAVAUX",
+   "montant_acte_engagement": 619212.0,
+   "montant_apres_verification": 619212.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "STE BIXATRA SARL",
+   "montant_acte_engagement": 620184.0,
+   "montant_apres_verification": 620184.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "AMANE VERT",
+   "montant_acte_engagement": 619872.0,
+   "montant_apres_verification": 619872.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "SOTRAI AND",
+   "montant_acte_engagement": 619056.0,
+   "montant_apres_verification": 619056.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "INFRAC ONSTRUCTION",
+   "montant_acte_engagement": 619068.0,
+   "montant_apres_verification": 619068.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "RNA TRAVAUX",
+   "montant_acte_engagement": 619536.0,
+   "montant_apres_verification": 619536.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "DAIFOI LAH SARL AU",
+   "montant_acte_engagement": 619056.0,
+   "montant_apres_verification": 619056.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "DHNT SARL",
+   "montant_acte_engagement": 621012.0,
+   "montant_apres_verification": 621012.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "TRATICTRA",
+   "montant_acte_engagement": 630996.0,
+   "montant_apres_verification": 630996.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "STE BI MACONNERIE GENERALE SARL",
+   "montant_acte_engagement": 620772.0,
+   "montant_apres_verification": 620772.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 11,
+ "alertes_ocr": [
+  "« SOT ITRANE » absent de la liste des plis déposés (nom mal lu ?).",
+  "« ANFIFA TRAVAUX » absent de la liste des plis déposés (nom mal lu ?).",
+  "« STE BIXATRA SARL » absent de la liste des plis déposés (nom mal lu ?).",
+  "« AMANE VERT » absent de la liste des plis déposés (nom mal lu ?).",
+  "« SOTRAI AND » absent de la liste des plis déposés (nom mal lu ?).",
+  "« INFRAC ONSTRUCTION » absent de la liste des plis déposés (nom mal lu ?).",
+  "« RNA TRAVAUX » absent de la liste des plis déposés (nom mal lu ?).",
+  "« DAIFOI LAH SARL AU » absent de la liste des plis déposés (nom mal lu ?).",
+  "« DHNT SARL » absent de la liste des plis déposés (nom mal lu ?).",
+  "« TRATICTRA » absent de la liste des plis déposés (nom mal lu ?).",
+  "« STE BI MACONNERIE GENERALE SARL » absent de la liste des plis déposés (nom mal lu ?)."
+ ],
+ "notes_ocr": [
+  "Maître d'ouvrage absent du PV (utiliser l'acheteur public du portail)."
+ ],
+ "qualite": "complet"
+}

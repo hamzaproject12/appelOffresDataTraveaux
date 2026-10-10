@@ -1,0 +1,129 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "751610",
+ "orgAcronyme": "d4q",
+ "reference_pv": null,
+ "nouveau": true,
+ "reference": null,
+ "objet": "Entretier et exploitation du réseau d'assainissement du centre Zaouit Echeikh",
+ "acheteur": null,
+ "procedure": "appel d'offres ouvert",
+ "categorie": "Travaux",
+ "date_limite_plis": null,
+ "lieu_ouverture": "au Siège de la Direction Régionale du Centre (DR3) Boulevard Mohämed VI, Quartier Administratif - Khouribga - Maroc",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": null,
+ "justification": "Moins-disant",
+ "infructueux": false,
+ "attributaire": "RASYL TRAV",
+ "montant_attribue": 250000.8,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "pr nee LI ___——— - RER ns",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "depose",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "l | CONCURRENT | SPANSE TEEN UNE",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "depose",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "D 7 DRM TRAVAUX",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "depose",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "ENTR ABDELLAOUI INDUSTRIELLE - Offre de",
+   "montant_acte_engagement": 268218.0,
+   "montant_apres_verification": 7268218.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "7 ENVERDEAU. MAROC",
+   "montant_acte_engagement": 282780.0,
+   "montant_apres_verification": 2382780.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "GESERVEAU MAROC",
+   "montant_acte_engagement": 290364.0,
+   "montant_apres_verification": 290364.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "F TT RASYL TRAV MAROC CL",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "depose",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "SOMAEPAL MAROC",
+   "montant_acte_engagement": 359268.0,
+   "montant_apres_verification": 359268.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "SO.MAK TRAVAUX",
+   "montant_acte_engagement": 294120.0,
+   "montant_apres_verification": 294120.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "RASYL TRAV",
+   "montant_acte_engagement": 250000.8,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 10,
+ "alertes_ocr": [
+  "« RASYL TRAV » absent de la liste des plis déposés (nom mal lu ?).",
+  "« ENTR ABDELLAOUI INDUSTRIELLE - Offre de » : écart anormal entre montant initial et vérifié (lecture à vérifier).",
+  "« 7 ENVERDEAU. MAROC » : écart anormal entre montant initial et vérifié (lecture à vérifier)."
+ ],
+ "notes_ocr": [
+  "« ENTR ABDELLAOUI INDUSTRIELLE - Offre de » : montant rectifié de 268 218.00 à 7 268 218.00 DH.",
+  "« 7 ENVERDEAU. MAROC » : montant rectifié de 282 780.00 à 2 382 780.00 DH.",
+  "Maître d'ouvrage absent du PV (utiliser l'acheteur public du portail)."
+ ],
+ "qualite": "complet"
+}

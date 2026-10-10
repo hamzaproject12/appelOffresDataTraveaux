@@ -1,0 +1,94 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "719507",
+ "orgAcronyme": "g3h",
+ "reference_pv": "44/2023/S2A",
+ "nouveau": true,
+ "reference": "44/2023/S2A",
+ "objet": "TRAVAUX D'AMENAGEMENT DU STADE ESSALAM DANS LA VILLE D’AGADIR TRAVAUX D’AMENAGEMENT, JEUX D’ENFANTS ET EQUIPEMENTS SPORTIFS, PLANTATION, SYSTEME D'ARROSAGE ET ENTRETIEN",
+ "acheteur": null,
+ "procedure": "appel d'offres ouvert",
+ "categorie": "Travaux",
+ "date_limite_plis": null,
+ "lieu_ouverture": null,
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": null,
+ "justification": null,
+ "infructueux": false,
+ "attributaire": "SOCIETE MP PROJECT",
+ "montant_attribue": 4967628.0,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "SOCIETE FIFA VERT",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": true
+  },
+  {
+   "nom": "SOCIETE VERVETA",
+   "montant_acte_engagement": 5913624.0,
+   "montant_apres_verification": 5913624.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "SOCIETE MP PROJECT",
+   "montant_acte_engagement": 4967628.0,
+   "montant_apres_verification": 4967628.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "SOCIETE TAMESNA VERT",
+   "montant_acte_engagement": 5999275.24,
+   "montant_apres_verification": 5999275.24,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "SOCIETE KALIFA PLANTE",
+   "montant_acte_engagement": 5223288.0,
+   "montant_apres_verification": 5223288.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "SOCIETE ALMO JARDIN",
+   "montant_acte_engagement": 5248056.0,
+   "montant_apres_verification": 5248056.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 6,
+ "alertes_ocr": [
+  "« SOCIETE VERVETA » absent de la liste des plis déposés (nom mal lu ?).",
+  "« SOCIETE MP PROJECT » absent de la liste des plis déposés (nom mal lu ?).",
+  "« SOCIETE TAMESNA VERT » absent de la liste des plis déposés (nom mal lu ?).",
+  "« SOCIETE KALIFA PLANTE » absent de la liste des plis déposés (nom mal lu ?).",
+  "« SOCIETE ALMO JARDIN » absent de la liste des plis déposés (nom mal lu ?)."
+ ],
+ "notes_ocr": [
+  "« SOCIETE FIFA VERT » absent de la liste des plis déposés (nom mal lu ?).",
+  "Maître d'ouvrage absent du PV (utiliser l'acheteur public du portail)."
+ ],
+ "qualite": "complet"
+}

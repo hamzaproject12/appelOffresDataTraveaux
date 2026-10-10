@@ -1,0 +1,53 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "737882",
+ "orgAcronyme": "d4q",
+ "reference_pv": null,
+ "nouveau": true,
+ "reference": null,
+ "objet": "Aménagement et remise en état des réseaux basse tension dégradés aux différentes localités relevant des communes TADRART, AQUESRI, IMOUZAR, TIQQH, DRARGA, AMSKROUD, IDMINE et AGADIR {Préfecture Agadir Ida Outanane)",
+ "acheteur": null,
+ "procedure": null,
+ "categorie": "Travaux",
+ "date_limite_plis": "13/07/2023",
+ "lieu_ouverture": "Siège de la Direction Régionale Distribution Agadir",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "24/08/2023",
+ "justification": "L’offre proposée par le soumissionnaire « Sté CARTAG TRAVAUX » s'écarte d’un taux acceptable de +12,09 % par rapport à l'estimation",
+ "infructueux": false,
+ "attributaire": "Société CARTAG TRAVAUX",
+ "montant_attribue": 6560304.6,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "Société D’ELECTRICITE CHOUAIB",
+   "montant_acte_engagement": 6992404.8,
+   "montant_apres_verification": 6992404.8,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Société CARTAG TRAVAUX",
+   "montant_acte_engagement": 6560304.6,
+   "montant_apres_verification": 6560304.6,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 2,
+ "alertes_ocr": [
+  "« Société CARTAG TRAVAUX » absent de la liste des plis déposés (nom mal lu ?)."
+ ],
+ "notes_ocr": [
+  "Maître d'ouvrage absent du PV (utiliser l'acheteur public du portail)."
+ ],
+ "qualite": "complet"
+}

@@ -1,0 +1,69 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "976825",
+ "orgAcronyme": "j0w",
+ "reference_pv": null,
+ "nouveau": true,
+ "reference": null,
+ "objet": "TRAVAUX DE CONSTRUCTION DE LA PISTE RELIANT DOUAR OULAD ZIR ET LA PISTE NON CLASSE RELINAT LA RP2001 ET DOUAR OULAD ABDELLAH MBAREK SUR UNE LONGEUR DE 0.9 KM",
+ "acheteur": "COMMUNE D'OULED EL MOUMNA",
+ "procedure": null,
+ "categorie": "Travaux",
+ "date_limite_plis": "02/02/2026",
+ "lieu_ouverture": "SALLE DE REUNION DE LA COMMUNE",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "11/02/2026",
+ "justification": "L'Offre la plus avantageuse",
+ "infructueux": false,
+ "attributaire": "AIT OUMMAD SARL",
+ "montant_attribue": 780193.2,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "Concurrent GROUPEMENT CONJOINT",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "depose",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "STE YAHYA STAR SARL",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_dossier_administratif_technique",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Concurrent AIT OUMMAD SARL",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "AIT OUMMAD SARL",
+   "montant_acte_engagement": 780193.2,
+   "montant_apres_verification": 780193.2,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 4,
+ "alertes_ocr": [
+  "« AIT OUMMAD SARL » absent de la liste des plis déposés (nom mal lu ?)."
+ ],
+ "notes_ocr": [],
+ "qualite": "attribution"
+}

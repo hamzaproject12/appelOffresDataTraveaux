@@ -1,0 +1,78 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "716804",
+ "orgAcronyme": "t5y",
+ "reference_pv": "05/2023",
+ "nouveau": true,
+ "reference": "05/2023",
+ "objet": "TRAVAUX D’AMENAGEMENT DU CENTRE REGIONAL D’ARCHIVE DE MEKNES EN LOT UNIQUE",
+ "acheteur": "Le Ministre de la justice représenté par Mr Mohamed Bahbibi le sous-directeur régional auprès de la cour d’appel de Meknès",
+ "procedure": "appel d'offres ouvert",
+ "categorie": "Travaux",
+ "date_limite_plis": "09/05/2023",
+ "lieu_ouverture": "la bibliothèque de la Cour d’Appel de Meknès",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "17/05/2023",
+ "justification": "Offre conforme aux exigences du règlement de la consultation et la plus avantageuse",
+ "infructueux": false,
+ "attributaire": "GL – TRA SARL BENI MELLAL",
+ "montant_attribue": 3380700.0,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "HAMDAOUI ALI CONSTRUSTION SARL AU MEKNES",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_offre_financiere",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "GL – TRA SARL BENI MELLAL",
+   "montant_acte_engagement": 3380700.0,
+   "montant_apres_verification": 3380700.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "MAG PROJECT SARL TEMARA 3",
+   "montant_acte_engagement": 870180.0,
+   "montant_apres_verification": 870180.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "DMRENOV SARL MEKNES",
+   "montant_acte_engagement": 3940680.0,
+   "montant_apres_verification": 3940680.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "SARL AU MEKNES",
+   "montant_acte_engagement": 4377240.0,
+   "montant_apres_verification": 4377240.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 5,
+ "alertes_ocr": [
+  "« SARL AU MEKNES » absent de la liste des plis déposés (nom mal lu ?)."
+ ],
+ "notes_ocr": [],
+ "qualite": "complet"
+}

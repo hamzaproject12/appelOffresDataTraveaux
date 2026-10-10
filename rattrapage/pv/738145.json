@@ -1,0 +1,66 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "738145",
+ "orgAcronyme": "d4q",
+ "reference_pv": "31/DRC/CE/2023",
+ "nouveau": true,
+ "reference": "31/DRC/CE/2023",
+ "objet": "",
+ "acheteur": null,
+ "procedure": "appel d'offres ouvert",
+ "categorie": "Travaux",
+ "date_limite_plis": "22/06/2023",
+ "lieu_ouverture": "au Siège de la Direction Régionale de ia Côte Atlantique (DRC) - 6 bis, rue Patrice Lumumba, Rabat - Maroc",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "24/08/2023",
+ "justification": "Moins-disant",
+ "infructueux": false,
+ "attributaire": "SULZER MAROC",
+ "montant_attribue": 1080000.0,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "KSB POMPE ET ROBINETTERIE - Offre de",
+   "montant_acte_engagement": 1296001.2,
+   "montant_apres_verification": null,
+   "autres_montants": [
+    1116001.2
+   ],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "NAREP SARL MAROC",
+   "montant_acte_engagement": 1200000.0,
+   "montant_apres_verification": null,
+   "autres_montants": [
+    1200000.0
+   ],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "SULZER MAROC",
+   "montant_acte_engagement": 1080000.0,
+   "montant_apres_verification": null,
+   "autres_montants": [
+    1080000.0
+   ],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 3,
+ "alertes_ocr": [],
+ "notes_ocr": [
+  "Maître d'ouvrage absent du PV (utiliser l'acheteur public du portail)."
+ ],
+ "qualite": "complet"
+}

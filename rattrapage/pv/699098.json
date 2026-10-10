@@ -1,0 +1,71 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "699098",
+ "orgAcronyme": "j8k",
+ "reference_pv": "10/2022/T-TRA",
+ "nouveau": true,
+ "reference": "10/2022/T-TRA",
+ "objet": null,
+ "acheteur": "Al Omrane Rabat-Rabat-Salé",
+ "procedure": "appel d'offres ouvert",
+ "categorie": "Travaux",
+ "date_limite_plis": "18/05/2022",
+ "lieu_ouverture": "Siège d’AI Omrane Rabat-Salé-Kénitra",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "08/06/2022",
+ "justification": "Moins disant.",
+ "infructueux": false,
+ "attributaire": "BATRAF",
+ "montant_attribue": 69332262.0,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "ETIJTRAD",
+   "montant_acte_engagement": 77392836.0,
+   "montant_apres_verification": 77392836.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_offre_financiere",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "BATRAF",
+   "montant_acte_engagement": 69332262.0,
+   "montant_apres_verification": 69332262.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "SOKETRADOZ",
+   "montant_acte_engagement": 79793370.0,
+   "montant_apres_verification": 79805970.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_offre_financiere",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "COPREF",
+   "montant_acte_engagement": 74614556.1,
+   "montant_apres_verification": 74615300.1,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 4,
+ "alertes_ocr": [],
+ "notes_ocr": [
+  "« SOKETRADOZ » : montant rectifié de 79 793 370.00 à 79 805 970.00 DH.",
+  "« COPREF » : montant rectifié de 74 614 556.10 à 74 615 300.10 DH.",
+  "Montants exprimés hors taxes (HT)."
+ ],
+ "qualite": "complet"
+}

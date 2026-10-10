@@ -1,0 +1,98 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "690324",
+ "orgAcronyme": "o8p",
+ "reference_pv": "ER/18/2022",
+ "nouveau": true,
+ "reference": "ER/18/2022",
+ "objet": null,
+ "acheteur": "Monsieur le Directeur Provincial de l'Equipement, du Transport, de la Logistique et de l'Eau d’Errachidia",
+ "procedure": "appel d'offres ouvert",
+ "categorie": "Travaux",
+ "date_limite_plis": "24/11/2022",
+ "lieu_ouverture": "Le bureau du Directeur provincial de l'Equipement et du",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": null,
+ "justification": null,
+ "infructueux": false,
+ "attributaire": null,
+ "montant_attribue": null,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "STE BOUARGA ROUTIER",
+   "montant_acte_engagement": 13291618.8,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "STE ROUTE AUTOROUTE DES TRAVAUX PUBLIQUE",
+   "montant_acte_engagement": 16018694.4,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "STE BELMEKKI HASSAN ET FILS",
+   "montant_acte_engagement": 15989841.6,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "STE SALBI",
+   "montant_acte_engagement": 14619978.6,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "GROUPEMENT STE SMATRI ET EMACOTRA SARL",
+   "montant_acte_engagement": 14758480.8,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "GROUPEMENT STE ENTRETIENT BATIMENT ET",
+   "montant_acte_engagement": 12337229.4,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "STE BNTP TRAVAUX DIVERS",
+   "montant_acte_engagement": 14657907.6,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 7,
+ "alertes_ocr": [
+  "« GROUPEMENT STE ENTRETIENT BATIMENT ET » absent de la liste des plis déposés (nom mal lu ?).",
+  "« STE BNTP TRAVAUX DIVERS » absent de la liste des plis déposés (nom mal lu ?).",
+  "Attributaire non trouvé."
+ ],
+ "notes_ocr": [],
+ "qualite": "complet"
+}

@@ -1,0 +1,55 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "906908",
+ "orgAcronyme": "q1s",
+ "reference_pv": null,
+ "nouveau": true,
+ "reference": null,
+ "objet": "ENTRETIEN ET REPARATION DES EQUIPEMENTS HYDROMECANIQUE DU CANAL DE ROCADE, CANAL DU N'FIS ET CANAL T2 DE L'OFFICE DU HAOUZ",
+ "acheteur": "l’Office Régional de Mise en Valeur Agricole du Haouz",
+ "procedure": null,
+ "categorie": "Travaux",
+ "date_limite_plis": "03/06/2025",
+ "lieu_ouverture": "Siège de l’Office Régional de Mise en Valeur Agricole du Haouz",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "17/06/2025",
+ "justification": "l’Offre la plus avantageuse est présentée par la société SIDEN",
+ "infructueux": false,
+ "attributaire": "SIDEN",
+ "montant_attribue": 495000.0,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "SIDEN",
+   "montant_acte_engagement": 495000.0,
+   "montant_apres_verification": 1952467.22,
+   "autres_montants": [
+    990000.0
+   ],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "KVM INDUSTRIES EQUIPEMENTS",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_offre_technique",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 2,
+ "alertes_ocr": [
+  "« SIDEN » : écart anormal entre montant initial et vérifié (lecture à vérifier)."
+ ],
+ "notes_ocr": [
+  "« SIDEN » : montant rectifié de 495 000.00 à 1 952 467.22 DH."
+ ],
+ "qualite": "attribution"
+}

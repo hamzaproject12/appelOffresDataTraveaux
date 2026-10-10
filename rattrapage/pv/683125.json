@@ -1,0 +1,75 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "683125",
+ "orgAcronyme": "o8p",
+ "reference_pv": null,
+ "nouveau": true,
+ "reference": null,
+ "objet": "pRDTS : Travaux de renouvellement de la couche de surface en enrobés coulés à froid (ECF) de la RP6021 du PK 58+300 au PK 65+500",
+ "acheteur": null,
+ "procedure": null,
+ "categorie": "Travaux",
+ "date_limite_plis": null,
+ "lieu_ouverture": "le siège de la Direction Provinciale de l'Équipement, du Transport, de la Logistique et de l'Eau Oujda-Angad",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "08/12/2022",
+ "justification": "l’offre la moins disante et la plus avantageuse a été retenue",
+ "infructueux": false,
+ "attributaire": "STE BIOUI TRAVAUX",
+ "montant_attribue": null,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "STE BIOUI TRAV4UX........... . OUJDA",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "STE GTR. ....FES",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "rlrrrrr D CASARLANCÀ",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "STE BIOUI TRAVAUX",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 4,
+ "alertes_ocr": [
+  "« STE BIOUI TRAVAUX » absent de la liste des plis déposés (nom mal lu ?).",
+  "Montant de l'attributaire « STE BIOUI TRAVAUX » non trouvé."
+ ],
+ "notes_ocr": [
+  "« STE BIOUI TRAV4UX........... . OUJDA » absent de la liste des plis déposés (nom mal lu ?).",
+  "« STE GTR. ....FES » absent de la liste des plis déposés (nom mal lu ?).",
+  "« rlrrrrr D CASARLANCÀ » absent de la liste des plis déposés (nom mal lu ?).",
+  "Maître d'ouvrage absent du PV (utiliser l'acheteur public du portail)."
+ ],
+ "qualite": "participants"
+}

@@ -1,0 +1,88 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "1002920",
+ "orgAcronyme": "g3h",
+ "reference_pv": "59/2026",
+ "nouveau": true,
+ "reference": "59/2026",
+ "objet": null,
+ "acheteur": "Société Régionale Multiservices Fès Meknès « SRM-FM »",
+ "procedure": null,
+ "categorie": "Travaux",
+ "date_limite_plis": "14/04/2026",
+ "lieu_ouverture": "Siège de la SRM-FM",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "05/05/2026",
+ "justification": "L’offre la plus avantageuse.",
+ "infructueux": false,
+ "attributaire": null,
+ "montant_attribue": null,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "ROUTE SAKA",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_dossier_administratif_technique",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "TELSEL",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": true
+  },
+  {
+   "nom": "ALOUSS",
+   "montant_acte_engagement": 2858000.0,
+   "montant_apres_verification": 3429600.0,
+   "autres_montants": [
+    3429600.0
+   ],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "MARGA ELECTRICITE",
+   "montant_acte_engagement": 3264792.5,
+   "montant_apres_verification": 3917751.0,
+   "autres_montants": [
+    3917751.0
+   ],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "SOCHAITEL",
+   "montant_acte_engagement": 3400500.0,
+   "montant_apres_verification": 4080600.0,
+   "autres_montants": [
+    4080600.0
+   ],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 5,
+ "alertes_ocr": [
+  "Attributaire non trouvé."
+ ],
+ "notes_ocr": [
+  "« ALOUSS » : montant rectifié de 2 858 000.00 à 3 429 600.00 DH.",
+  "« MARGA ELECTRICITE » : montant rectifié de 3 264 792.50 à 3 917 751.00 DH.",
+  "« SOCHAITEL » : montant rectifié de 3 400 500.00 à 4 080 600.00 DH."
+ ],
+ "qualite": "complet"
+}

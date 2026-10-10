@@ -1,0 +1,69 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "738321",
+ "orgAcronyme": "a1z",
+ "reference_pv": null,
+ "nouveau": true,
+ "reference": null,
+ "objet": null,
+ "acheteur": null,
+ "procedure": null,
+ "categorie": "Travaux",
+ "date_limite_plis": "16/08/2023",
+ "lieu_ouverture": "la Salle de Réunion à L'ANNEXE AL AZHAR de l'ARRONDISSEMENT HAY HASSANI sise à Avenue Aziz Bilal Cité AL Azhar Oulfa Casablanca",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "25/08/2023",
+ "justification": "L’attributaire a présenté l’offre la plus avantageuse « La moins disante »",
+ "infructueux": false,
+ "attributaire": "PLANTAFLEUR SARL AU",
+ "montant_attribue": 1109652.0,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "DEMAIN VERT SARL",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_dossier_administratif_technique",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "PLANTAFLEUR SARL AU",
+   "montant_acte_engagement": 1109652.0,
+   "montant_apres_verification": 1109652.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "SOCIETE SUD JARDIN TRAVAUX SARL",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_dossier_administratif_technique",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "VIE VERTE SARL",
+   "montant_acte_engagement": 1364478.0,
+   "montant_apres_verification": 1364478.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_offre_financiere",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 4,
+ "alertes_ocr": [],
+ "notes_ocr": [
+  "Maître d'ouvrage absent du PV (utiliser l'acheteur public du portail)."
+ ],
+ "qualite": "complet"
+}

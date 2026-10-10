@@ -1,0 +1,64 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "723821",
+ "orgAcronyme": "o4d",
+ "reference_pv": "55/2023",
+ "nouveau": true,
+ "reference": "55/2023",
+ "objet": null,
+ "acheteur": "Direction des Achats et Logistique",
+ "procedure": "appel d'offres ouvert",
+ "categorie": "Travaux",
+ "date_limite_plis": "30/05/2023",
+ "lieu_ouverture": "Siège de la CNSS 649 Bd Mohammed V Casa, salle des réunions de la Direction des Achats et Siège de la CNSS 649 Bd Mohammed V Casa, salle des réunions de la Direction des Achats et Logistique",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "21/06/2023",
+ "justification": null,
+ "infructueux": false,
+ "attributaire": null,
+ "montant_attribue": null,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "FRETEL",
+   "montant_acte_engagement": 836520.0,
+   "montant_apres_verification": null,
+   "autres_montants": [
+    42600.0
+   ],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": true
+  },
+  {
+   "nom": "BENDRELEC",
+   "montant_acte_engagement": 776400.0,
+   "montant_apres_verification": null,
+   "autres_montants": [
+    66000.0
+   ],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": true
+  },
+  {
+   "nom": "TECHELEC",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_offre_technique",
+   "admis_avec_reserve": true
+  }
+ ],
+ "nombre_soumissionnaires": 3,
+ "alertes_ocr": [
+  "Attributaire non trouvé."
+ ],
+ "notes_ocr": [],
+ "qualite": "complet"
+}

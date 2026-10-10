@@ -1,0 +1,44 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "704388",
+ "orgAcronyme": "g3h",
+ "reference_pv": "04/2023/ND/CSPC",
+ "nouveau": true,
+ "reference": "04/2023/ND/CSPC",
+ "objet": "TRAVAUX DE CONSTRUCTION D’UN CENTRE DE SECOURS DE LA PROTECTION CIVILE A OULAD SALEHI",
+ "acheteur": null,
+ "procedure": "appel d'offres ouvert",
+ "categorie": "Travaux",
+ "date_limite_plis": null,
+ "lieu_ouverture": null,
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "03/04/2023",
+ "justification": "la société ayant la meilleure offre (moins disante).",
+ "infructueux": false,
+ "attributaire": "OPTIMACO",
+ "montant_attribue": 11246231.52,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "OPTIMACO",
+   "montant_acte_engagement": 11246231.52,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 1,
+ "alertes_ocr": [
+  "« OPTIMACO » absent de la liste des plis déposés (nom mal lu ?)."
+ ],
+ "notes_ocr": [
+  "Maître d'ouvrage absent du PV (utiliser l'acheteur public du portail)."
+ ],
+ "qualite": "attribution"
+}

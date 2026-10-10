@@ -1,0 +1,53 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "876800",
+ "orgAcronyme": "j8k",
+ "reference_pv": null,
+ "nouveau": true,
+ "reference": null,
+ "objet": "TRAVAUX D'ASSAINISSEMENT LIQUIDE TRANCHE 1 DU CENTRE CHEF LIEU DE LA COMMUNE D'IKNIOUEN SIS A LA",
+ "acheteur": "SOCIETE AL OMRANE DRÂA-TAFILALET",
+ "procedure": "appel d'offres ouvert",
+ "categorie": "Travaux",
+ "date_limite_plis": "21/02/2025",
+ "lieu_ouverture": "SOCIETE AL OMRANE DRÂA-TAFILALET",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": null,
+ "justification": "l'offre la mieux disante par rapport au prix de référence après tirage au sort.",
+ "infructueux": false,
+ "attributaire": "GRP TOUNA VERDURE & J.COMME JARDIN",
+ "montant_attribue": 9263469.6,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "ETABLISSEMENT ESSAKINI",
+   "montant_acte_engagement": 9906240.96,
+   "montant_apres_verification": null,
+   "autres_montants": [
+    9906240.96
+   ],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "GRP TOUNA VERDURE & J.COMME JARDIN",
+   "montant_acte_engagement": 9263469.6,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 2,
+ "alertes_ocr": [
+  "« GRP TOUNA VERDURE & J.COMME JARDIN » absent de la liste des plis déposés (nom mal lu ?)."
+ ],
+ "notes_ocr": [],
+ "qualite": "complet"
+}

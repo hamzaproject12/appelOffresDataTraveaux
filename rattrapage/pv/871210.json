@@ -1,0 +1,75 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "871210",
+ "orgAcronyme": "f8y",
+ "reference_pv": "31/2024",
+ "nouveau": true,
+ "reference": "31/2024",
+ "objet": "travaux d’aménagement des voies de la ville de Nador, pour le compte de la commune de Nador, Province de Nador », Maître c ouvrage : Le Présicent ce a commune ce Nacor",
+ "acheteur": null,
+ "procedure": "appel d'offres ouvert",
+ "categorie": "Travaux",
+ "date_limite_plis": null,
+ "lieu_ouverture": null,
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": null,
+ "justification": "l'offre la plus avantageuse obtenue Date c'acièvement ces travaux ce a commission : _ /02/2025",
+ "infructueux": false,
+ "attributaire": null,
+ "montant_attribue": null,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "GROUPEMENT CONJOINT DE LA STÉ ADIMPRO SARL DE FES ET LA STÉ SOURCE",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_offre_financiere",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "BLEUE GRANDS PROJETS SBGP SARL DE FES, STÉ AVANZA TRAVAUX SARL DE",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_dossier_administratif_technique",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "TANGER ET LA STÉ SLASELEC SARL DE TAOUNATE",
+   "montant_acte_engagement": 16856460.0,
+   "montant_apres_verification": 16856460.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_offre_financiere",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "SARL DE FÈS, STÉ AVANZA TRAVAUX SARL DE TANGER",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_offre_financiere",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 4,
+ "alertes_ocr": [
+  "« TANGER ET LA STÉ SLASELEC SARL DE TAOUNATE » absent de la liste des plis déposés (nom mal lu ?).",
+  "Attributaire non trouvé."
+ ],
+ "notes_ocr": [
+  "« GROUPEMENT CONJOINT DE LA STÉ ADIMPRO SARL DE FES ET LA STÉ SOURCE » absent de la liste des plis déposés (nom mal lu ?).",
+  "« BLEUE GRANDS PROJETS SBGP SARL DE FES, STÉ AVANZA TRAVAUX SARL DE » absent de la liste des plis déposés (nom mal lu ?).",
+  "« SARL DE FÈS, STÉ AVANZA TRAVAUX SARL DE TANGER » absent de la liste des plis déposés (nom mal lu ?).",
+  "Maître d'ouvrage absent du PV (utiliser l'acheteur public du portail)."
+ ],
+ "qualite": "attribution"
+}

@@ -1,0 +1,51 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "922530",
+ "orgAcronyme": "d4q",
+ "reference_pv": "11/DR3/2025",
+ "nouveau": true,
+ "reference": "11/DR3/2025",
+ "objet": "relatif à",
+ "acheteur": null,
+ "procedure": "appel d'offres ouvert",
+ "categorie": "Travaux",
+ "date_limite_plis": "15/05/2025",
+ "lieu_ouverture": "au siège de ia Direction Régionale du Centre (DR3) Boulevard Mohamed VI, Quartier Administratif - Khouribga - Maroc",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "07/08/2025",
+ "justification": "Moins-disant",
+ "infructueux": false,
+ "attributaire": "lTMEE (TECHNIQUES ET MAITRISE D'EAU 6 ENERGIE) L MAROC",
+ "montant_attribue": 1419588.0,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "ENERGIE) SMEÉEPIA",
+   "montant_acte_engagement": 1439749.68,
+   "montant_apres_verification": 1439749.68,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_dossier_administratif_technique",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "lTMEE (TECHNIQUES ET MAITRISE D'EAU 6 ENERGIE) L MAROC",
+   "montant_acte_engagement": 1419588.0,
+   "montant_apres_verification": 1419588.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 2,
+ "alertes_ocr": [],
+ "notes_ocr": [
+  "Maître d'ouvrage absent du PV (utiliser l'acheteur public du portail)."
+ ],
+ "qualite": "complet"
+}

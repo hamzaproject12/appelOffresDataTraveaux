@@ -1,0 +1,61 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "732674",
+ "orgAcronyme": "o8p",
+ "reference_pv": "04/2023-AO",
+ "nouveau": true,
+ "reference": "04/2023-AO",
+ "objet": "(PC 2023) TRAVAUX DE TRAITEMENT DE L’ENVIRONNEMENT DE LA RR103 DANS LA PROVINCE DE TAN-TAN",
+ "acheteur": "DPETL TAN-TAN",
+ "procedure": "appel d'offres ouvert",
+ "categorie": "Travaux",
+ "date_limite_plis": "18/07/2023",
+ "lieu_ouverture": "DPETL TAN-TAN",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "27/07/2023",
+ "justification": "Les éléments contenus dans son dossier administratif et technique et ses",
+ "infructueux": false,
+ "attributaire": "Société FDS",
+ "montant_attribue": 324166.5,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "TEMR SPORTS ET TRAVAUX DIVERS",
+   "montant_acte_engagement": 443492.76,
+   "montant_apres_verification": 443492.76,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "ETS ESSBAAI MOHAMED SALEM",
+   "montant_acte_engagement": 365611.99,
+   "montant_apres_verification": 365611.99,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Société FDS",
+   "montant_acte_engagement": 324166.5,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 3,
+ "alertes_ocr": [
+  "« ETS ESSBAAI MOHAMED SALEM » absent de la liste des plis déposés (nom mal lu ?).",
+  "« Société FDS » absent de la liste des plis déposés (nom mal lu ?)."
+ ],
+ "notes_ocr": [],
+ "qualite": "complet"
+}

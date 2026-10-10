@@ -1,0 +1,132 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "935618",
+ "orgAcronyme": "j8k",
+ "reference_pv": "101/25",
+ "nouveau": true,
+ "reference": "101/25",
+ "objet": "de lot",
+ "acheteur": "Al Omrane Casablanca - Settat Indication de lot",
+ "procedure": "appel d'offres ouvert",
+ "categorie": "Travaux",
+ "date_limite_plis": null,
+ "lieu_ouverture": "Al Omrane Casablanca - Settat",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": null,
+ "justification": "Offre financière la plus avantageuse",
+ "infructueux": false,
+ "attributaire": "AU LOGEMENT (SECTEUR (A) DE 23",
+ "montant_attribue": null,
+ "attributaires_par_lot": [
+  {
+   "lot": "Unique",
+   "attributaire": "AU LOGEMENT (SECTEUR (A) DE 23",
+   "montant": null
+  },
+  {
+   "lot": "Unique",
+   "attributaire": "DANS LE CADRE DU NOUVEAU PROGRAMME AIDE AU LOGEMENT (SECTEUR TRANCHE A.1",
+   "montant": null
+  }
+ ],
+ "soumissionnaires": [
+  {
+   "nom": "SOBAY",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "JOURNAUX",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "depose",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "PARUTION",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "depose",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "LE MATIN",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "depose",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "ASSAHRAE AL MAGHRIBIYA",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "depose",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "ql omrqne",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "depose",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Casut lartca - ,Scta<r",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "depose",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "AU LOGEMENT (SECTEUR (A) DE 23",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [
+    "Unique"
+   ],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "DANS LE CADRE DU NOUVEAU PROGRAMME AIDE AU LOGEMENT (SECTEUR TRANCHE A.1",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [
+    "Unique"
+   ],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 9,
+ "alertes_ocr": [
+  "« AU LOGEMENT (SECTEUR (A) DE 23 » absent de la liste des plis déposés (nom mal lu ?).",
+  "« DANS LE CADRE DU NOUVEAU PROGRAMME AIDE AU LOGEMENT (SECTEUR TRANCHE A.1 » absent de la liste des plis déposés (nom mal lu ?).",
+  "Montant de l'attributaire « AU LOGEMENT (SECTEUR (A) DE 23 » non trouvé.",
+  "Montant de l'attributaire « DANS LE CADRE DU NOUVEAU PROGRAMME AIDE AU LOGEMENT (SECTEUR TRANCHE A.1 » non trouvé."
+ ],
+ "notes_ocr": [],
+ "qualite": "participants"
+}

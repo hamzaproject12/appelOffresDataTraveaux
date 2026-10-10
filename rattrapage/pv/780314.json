@@ -1,0 +1,219 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "780314",
+ "orgAcronyme": "m8x",
+ "reference_pv": "86/2023/AREP-GON-N",
+ "nouveau": true,
+ "reference": "86/2023/AREP-GON-N",
+ "objet": "TRAVAUX D'AMÉNAGEMENT DES TERRAINS DE PROXIMITÉ OMHISPORT TYPE -E- DANS LA RÉGION GUELMIM OUED NOUN. (MARCHE ALLOTI EN 10 LOTS)",
+ "acheteur": "AREP Guelmim Oued Noun",
+ "procedure": "appel d'offres ouvert",
+ "categorie": "Travaux",
+ "date_limite_plis": "23/01/2024",
+ "lieu_ouverture": "AREP Guelmim Oued Noun",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "08/03/2024",
+ "justification": null,
+ "infructueux": true,
+ "attributaire": "HTTC",
+ "montant_attribue": 6430.0,
+ "attributaires_par_lot": [
+  {
+   "lot": null,
+   "attributaire": "HTTC",
+   "montant": 6430.0
+  },
+  {
+   "lot": null,
+   "attributaire": "SSTCO",
+   "montant": 6283.0
+  },
+  {
+   "lot": null,
+   "attributaire": "ENTC",
+   "montant": 9946735.21
+  },
+  {
+   "lot": null,
+   "attributaire": "ELTRAPU",
+   "montant": 6722.0
+  }
+ ],
+ "soumissionnaires": [
+  {
+   "nom": "BELID DE CONSTRUCTION",
+   "montant_acte_engagement": 6569980.8,
+   "montant_apres_verification": null,
+   "autres_montants": [
+    8205576.0,
+    9891465.6
+   ],
+   "lots": [
+    "1",
+    "5",
+    "6"
+   ],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "SYAM ATLAS",
+   "montant_acte_engagement": 8252772.0,
+   "montant_apres_verification": 8252772.0,
+   "autres_montants": [
+    8290332.0
+   ],
+   "lots": [
+    "10",
+    "9"
+   ],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "ENNASR BTP",
+   "montant_acte_engagement": 7591683.6,
+   "montant_apres_verification": 7591.0,
+   "autres_montants": [],
+   "lots": [
+    "9"
+   ],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "H2E TRAVAUX",
+   "montant_acte_engagement": 668102.4,
+   "montant_apres_verification": 8102.4,
+   "autres_montants": [
+    8264370.0
+   ],
+   "lots": [
+    "2",
+    "3"
+   ],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "ENTC",
+   "montant_acte_engagement": 8288946.0,
+   "montant_apres_verification": 8283946.0,
+   "autres_montants": [
+    9945735.2,
+    8285346.0
+   ],
+   "lots": [
+    "10",
+    "3",
+    "6",
+    "9"
+   ],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "ELTRAPU",
+   "montant_acte_engagement": 6722238.0,
+   "montant_apres_verification": 6722.0,
+   "autres_montants": [
+    6719706.0
+   ],
+   "lots": [
+    "10",
+    "9"
+   ],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "HTTC",
+   "montant_acte_engagement": 6430012.8,
+   "montant_apres_verification": 6430012.8,
+   "autres_montants": [
+    516516.0,
+    7811197.2,
+    8037648.0,
+    8111436.0,
+    9721723.2,
+    7855597.2,
+    8118876.0,
+    8030856.0
+   ],
+   "lots": [
+    "1",
+    "10",
+    "2",
+    "3",
+    "4",
+    "5",
+    "7",
+    "8",
+    "9"
+   ],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "SSTCO",
+   "montant_acte_engagement": 283065.6,
+   "montant_apres_verification": 6283065.6,
+   "autres_montants": [
+    7828932.0,
+    7740492.0,
+    9313718.4
+   ],
+   "lots": [
+    "2",
+    "3",
+    "4",
+    "6",
+    "9"
+   ],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Groupement RAONE TRAVAUX & SONAROUZ",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "depose",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Groupement YMT SUD & SLH BATIMENT",
+   "montant_acte_engagement": 645441.6,
+   "montant_apres_verification": 6645441.6,
+   "autres_montants": [],
+   "lots": [
+    "2"
+   ],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 10,
+ "alertes_ocr": [
+  "« ENNASR BTP » : écart anormal entre montant initial et vérifié (lecture à vérifier).",
+  "« H2E TRAVAUX » : écart anormal entre montant initial et vérifié (lecture à vérifier).",
+  "« ELTRAPU » : écart anormal entre montant initial et vérifié (lecture à vérifier).",
+  "« SSTCO » : écart anormal entre montant initial et vérifié (lecture à vérifier).",
+  "« Groupement YMT SUD & SLH BATIMENT » : écart anormal entre montant initial et vérifié (lecture à vérifier)."
+ ],
+ "notes_ocr": [
+  "« ENNASR BTP » : montant rectifié de 7 591 683.60 à 7 591.00 DH.",
+  "« H2E TRAVAUX » : montant rectifié de 668 102.40 à 8 102.40 DH.",
+  "« ENTC » : montant rectifié de 8 288 946.00 à 8 283 946.00 DH.",
+  "« ELTRAPU » : montant rectifié de 6 722 238.00 à 6 722.00 DH.",
+  "« SSTCO » : montant rectifié de 283 065.60 à 6 283 065.60 DH.",
+  "« Groupement YMT SUD & SLH BATIMENT » : montant rectifié de 645 441.60 à 6 645 441.60 DH.",
+  "Marché alloti (10 lots)."
+ ],
+ "qualite": "complet"
+}

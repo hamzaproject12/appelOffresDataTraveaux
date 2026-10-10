@@ -1,0 +1,63 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "881963",
+ "orgAcronyme": "d4q",
+ "reference_pv": "23/A/2025",
+ "nouveau": true,
+ "reference": "23/A/2025",
+ "objet": "Travaux de réhabilitation et de mise à niveau du réseau d’assainissement liquide",
+ "acheteur": "RADEE.TA",
+ "procedure": null,
+ "categorie": "Travaux",
+ "date_limite_plis": "18/03/2025",
+ "lieu_ouverture": "Siège de la RADEETA",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "25/03/2025",
+ "justification": "- Dossiers administratif et technique conforme. - Offre avantageuse répondant aux critères d'évaluation oney |",
+ "infructueux": false,
+ "attributaire": "Société TPVRD",
+ "montant_attribue": 3845976.0,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "techniques sans réserve 3. Société KHANFIROU ET FILS",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Société CASTEL Majoration",
+   "montant_acte_engagement": 4307493.0,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Société TPVRD",
+   "montant_acte_engagement": 3845976.0,
+   "montant_apres_verification": null,
+   "autres_montants": [
+    3845976.0
+   ],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 3,
+ "alertes_ocr": [
+  "« Société CASTEL Majoration » absent de la liste des plis déposés (nom mal lu ?).",
+  "« Société TPVRD » absent de la liste des plis déposés (nom mal lu ?)."
+ ],
+ "notes_ocr": [],
+ "qualite": "complet"
+}

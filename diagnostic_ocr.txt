@@ -1,0 +1,41 @@
+diagnostic du 09/10/2026 à 12:09
+====================================================================
+L'INSTALLATION
+====================================================================
+  système        : Windows-10-10.0.22621-SP0
+  python         : 3.11.3
+  processeurs    : 12
+  mémoire totale : 34.0 Go, libre 19.1 Go
+  cv2            : 5.0.0
+  pypdfium2      : ?
+  pytesseract    : 0.3.13
+  PIL            : 12.2.0
+
+  TESSERACT
+    exécutable   : tesseract
+    TESSDATA_PREFIX : (non défini)
+    version      : ÉCHEC — FileNotFoundError: [WinError 2] The system cannot find the file specified
+    langues      : ÉCHEC — FileNotFoundError: [WinError 2] The system cannot find the file specified
+
+====================================================================
+LA LECTURE, DOCUMENT PAR DOCUMENT
+====================================================================
+  6 documents, un seul à la fois (pas de parallélisme ici)
+
+  document        Ko     mode      méthode   mots    sec  verdict
+  1000007        593        4          ocr      0      7  insuffisant
+  1000007        593        6          ocr      0      7  insuffisant
+  1000007        593        3          ocr      0      7  insuffisant
+  1000054        171        4          ocr      0      2  insuffisant
+  1000054        171        6          ocr      0      2  insuffisant
+  1000054        171        3          ocr      0      2  insuffisant
+  1000055        373        4       native    374      0  complet
+  1000080        839        4       native    534      4  participants
+  1000085        100        4          ocr      0      6  insuffisant
+  1000085        100        6          ocr      0      6  insuffisant
+  1000085        100        3          ocr      0      7  insuffisant
+  1000092       1409        4       native    847      5  complet
+
+  « mots » est le chiffre décisif. Au-dessus de 150, l'OCR a fait son travail et
+  c'est la lecture qui échoue. En dessous de 50, c'est l'OCR qui ne rend rien,
+  et la cause est dans l'installation ci-dessus — pas dans les documents.

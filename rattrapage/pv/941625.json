@@ -1,0 +1,51 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "941625",
+ "orgAcronyme": "g3h",
+ "reference_pv": "33/FA/DAAFL/DTV",
+ "nouveau": true,
+ "reference": "33/FA/DAAFL/DTV",
+ "objet": "Travaux de construction des bâtiments administratifs à la câserne du 10'GMM Ait Melloul, en lot unique tous corps d'état",
+ "acheteur": "INSPECTION GENERALE DES FORCES AUXILIAIRES ZONE SUD",
+ "procedure": null,
+ "categorie": "Travaux",
+ "date_limite_plis": "15/10/2025",
+ "lieu_ouverture": "dee plis : Salle de réunion de I'lnspection Générale des Forces Auxiliaires Zone Agadir",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "17/10/2025",
+ "justification": null,
+ "infructueux": false,
+ "attributaire": "Sociéte « BITMAR SARL AU",
+ "montant_attribue": 5108.0,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "CONCUTTCNt 10",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "depose",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Sociéte « BITMAR SARL AU",
+   "montant_acte_engagement": 5108.0,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 2,
+ "alertes_ocr": [
+  "« Sociéte « BITMAR SARL AU » absent de la liste des plis déposés (nom mal lu ?)."
+ ],
+ "notes_ocr": [],
+ "qualite": "attribution"
+}

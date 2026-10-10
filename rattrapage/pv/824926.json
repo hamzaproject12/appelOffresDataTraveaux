@@ -1,0 +1,52 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "824926",
+ "orgAcronyme": "o8p",
+ "reference_pv": null,
+ "nouveau": true,
+ "reference": null,
+ "objet": null,
+ "acheteur": "CONSEIL COMMUNAL DE SIDI HAHJAJ OUED HASSAR",
+ "procedure": "appel d'offres ouvert",
+ "categorie": "Travaux",
+ "date_limite_plis": "19/08/2024",
+ "lieu_ouverture": "BUREAUX D’ADM PROJET A PROXIMITE DE L’ECHANGEUR DE CASAPORT SUR L'AUTOROUTE DU CONTOURNEMENT DE CASABLANCA",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "23/08/2024",
+ "justification": "Offre la mieux-disante.",
+ "infructueux": false,
+ "attributaire": "STE DAHMANE DE CONSTRUCTION ET TRAVAUX DIVERS",
+ "montant_attribue": 5618942.0,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "MOGC",
+   "montant_acte_engagement": 5836448.4,
+   "montant_apres_verification": 5836448.4,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "STE DAHMANE DE CONSTRUCTION ET TRAVAUX DIVERS",
+   "montant_acte_engagement": 5618942.0,
+   "montant_apres_verification": 5618942.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 2,
+ "alertes_ocr": [
+  "« MOGC » absent de la liste des plis déposés (nom mal lu ?).",
+  "« STE DAHMANE DE CONSTRUCTION ET TRAVAUX DIVERS » absent de la liste des plis déposés (nom mal lu ?)."
+ ],
+ "notes_ocr": [],
+ "qualite": "complet"
+}

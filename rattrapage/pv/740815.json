@@ -1,0 +1,69 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "740815",
+ "orgAcronyme": "g3h",
+ "reference_pv": null,
+ "nouveau": true,
+ "reference": null,
+ "objet": "« TRAVAUX D’AMENAGEMENT DES TROTTOIRS DES AVENUES DE LA PREFECTURE SKHIRATE TEMARA - TRANCHE 2 -» Avec une estimation de 12.700.000,00 DH TTC",
+ "acheteur": "Société SKHIRATE TEMARA AMENAGEMENT ET DEVELOPPEMENT SA",
+ "procedure": "appel d'offres ouvert",
+ "categorie": "Travaux",
+ "date_limite_plis": "04/09/2023",
+ "lieu_ouverture": "Salle de réunion de la société sise à lotissement Almostakbel immeuble 22 Témara Maroc. ,",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "06/09/2023",
+ "justification": null,
+ "infructueux": false,
+ "attributaire": "STE BENNANI HAFID",
+ "montant_attribue": 10697640.0,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "STE BENNANI HAFID",
+   "montant_acte_engagement": 10697640.0,
+   "montant_apres_verification": 10697640.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "STE ALTATRAV",
+   "montant_acte_engagement": 11940000.0,
+   "montant_apres_verification": 11940000.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "STECTR",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_offre_financiere",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "STE CTR",
+   "montant_acte_engagement": 10789380.0,
+   "montant_apres_verification": 10789380.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 4,
+ "alertes_ocr": [
+  "« STE CTR » absent de la liste des plis déposés (nom mal lu ?)."
+ ],
+ "notes_ocr": [],
+ "qualite": "complet"
+}

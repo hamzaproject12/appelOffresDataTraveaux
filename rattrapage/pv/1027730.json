@@ -1,0 +1,42 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "1027730",
+ "orgAcronyme": "s3d",
+ "reference_pv": "05/2026/SONARGES",
+ "nouveau": true,
+ "reference": "05/2026/SONARGES",
+ "objet": null,
+ "acheteur": "Société Nationale de Réalisation et de Gestion des Equipements Sportifs (SONARGES)",
+ "procedure": "appel d'offres ouvert",
+ "categorie": "Travaux",
+ "date_limite_plis": "17/07/2026",
+ "lieu_ouverture": "Siège de la SONARGES",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "27/07/2026",
+ "justification": "offre financière la plus avantageuse (la moins disante)",
+ "infructueux": false,
+ "attributaire": null,
+ "montant_attribue": null,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "Sté TRAVAUX FOURNITURES SUD EST",
+   "montant_acte_engagement": 318096.0,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 1,
+ "alertes_ocr": [
+  "Attributaire non trouvé."
+ ],
+ "notes_ocr": [],
+ "qualite": "attribution"
+}

@@ -1,0 +1,60 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "1047144",
+ "orgAcronyme": "o3f",
+ "reference_pv": "45/SMIT/2026",
+ "nouveau": true,
+ "reference": "45/SMIT/2026",
+ "objet": "Travaux d'aménagement, fourniture et installation des équipements touristiques au niveau du village rurale Ain Tizgha - province de Benslimane",
+ "acheteur": "Société Marocaine d'Ingénierie Touristique",
+ "procedure": null,
+ "categorie": "Travaux",
+ "date_limite_plis": "08/09/2026",
+ "lieu_ouverture": "Salle de réunion de la Société Marocaine d'ingénierie Touristique à Rabat",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "06/10/2026",
+ "justification": "L'offre la moins disante.",
+ "infructueux": false,
+ "attributaire": "STE BATI HALIM",
+ "montant_attribue": null,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "SATIMED",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "STE BATI HALIM",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "NEWERACOM",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "depose",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 3,
+ "alertes_ocr": [
+  "Montant de l'attributaire « STE BATI HALIM » non trouvé."
+ ],
+ "notes_ocr": [],
+ "qualite": "participants"
+}

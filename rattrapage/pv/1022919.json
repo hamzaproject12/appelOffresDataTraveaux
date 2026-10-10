@@ -1,0 +1,74 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "1022919",
+ "orgAcronyme": "g3h",
+ "reference_pv": "266/2126",
+ "nouveau": true,
+ "reference": "266/2126",
+ "objet": null,
+ "acheteur": "Société Régionale Multiservices Fès Meknès « SRM-FM »",
+ "procedure": null,
+ "categorie": "Travaux",
+ "date_limite_plis": "02/07/2026",
+ "lieu_ouverture": "Siège de la SRM-FM",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "02/07/2026",
+ "justification": "L’offre la plus avantageuse.",
+ "infructueux": false,
+ "attributaire": "YELETRAD",
+ "montant_attribue": 2400000.0,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "YELETRAD",
+   "montant_acte_engagement": 2400000.0,
+   "montant_apres_verification": 2880000.0,
+   "autres_montants": [
+    2880000.0
+   ],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "CGTS",
+   "montant_acte_engagement": 2857500.0,
+   "montant_apres_verification": 3429000.0,
+   "autres_montants": [
+    3429000.0
+   ],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "RAMTEC SERVICE",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "COMPETENCES CONSEIL",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_dossier_administratif_technique",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 4,
+ "alertes_ocr": [],
+ "notes_ocr": [
+  "« YELETRAD » : montant rectifié de 2 400 000.00 à 2 880 000.00 DH.",
+  "« CGTS » : montant rectifié de 2 857 500.00 à 3 429 000.00 DH."
+ ],
+ "qualite": "complet"
+}

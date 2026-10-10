@@ -1,0 +1,78 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "690563",
+ "orgAcronyme": "o8p",
+ "reference_pv": "DPARNI1/17/2022/CFR",
+ "nouveau": true,
+ "reference": "DPARNI1/17/2022/CFR",
+ "objet": "« ACHEVEMENT DES TRAVAUX DE REALISATION DE LA VOIE EXPRESS TIZNIT LAAYOUNE SECTION : TIZNIT-GUELMIM LOT N°2: DU PK 37+00AU PK 76+000»",
+ "acheteur": null,
+ "procedure": "marché négocié",
+ "categorie": "Travaux",
+ "date_limite_plis": "03/12/2022",
+ "lieu_ouverture": null,
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "19/01/2023",
+ "justification": "l’offre la moins disante.",
+ "infructueux": false,
+ "attributaire": "GROUPE MOJAZINE",
+ "montant_attribue": 373350247.28,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "Groupement GTR/SBAYOU",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_dossier_administratif_technique",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "SSMT",
+   "montant_acte_engagement": 373602438.04,
+   "montant_apres_verification": 373602438.04,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "GROUPE MOJAZINE",
+   "montant_acte_engagement": 373350247.28,
+   "montant_apres_verification": 373350247.28,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "BIOUI TRAVAUX",
+   "montant_acte_engagement": 378682251.98,
+   "montant_apres_verification": 378682251.98,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "STAPORT",
+   "montant_acte_engagement": 403378315.2,
+   "montant_apres_verification": 403378315.2,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 5,
+ "alertes_ocr": [],
+ "notes_ocr": [
+  "Maître d'ouvrage absent du PV (utiliser l'acheteur public du portail)."
+ ],
+ "qualite": "complet"
+}

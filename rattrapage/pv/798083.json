@@ -1,0 +1,80 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "798083",
+ "orgAcronyme": "g3h",
+ "reference_pv": "SAPSB/05/2024",
+ "nouveau": true,
+ "reference": "SAPSB/05/2024",
+ "objet": "TRAVAUX DE REHABILITATION ET DE RÉAMÉNAGEMENT DE LA DECHARGE D'EL OUALIDIA — PROVINCE DE SIDI BENNOUR -—",
+ "acheteur": null,
+ "procedure": "appel d'offres ouvert",
+ "categorie": "Travaux",
+ "date_limite_plis": "13/05/2024",
+ "lieu_ouverture": "_: Locaux de la société Aménagement de la province SIDI BENNOUR",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "20/05/2024",
+ "justification": "Offre économiquement la plus avantageuse",
+ "infructueux": false,
+ "attributaire": "LGC sarl",
+ "montant_attribue": 13922137.2,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "SSMT sarl",
+   "montant_acte_engagement": 14603340.0,
+   "montant_apres_verification": 14603340.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "SOS NDD sarl",
+   "montant_acte_engagement": 19701928.14,
+   "montant_apres_verification": 19701928.14,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_offre_financiere",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "SNTRO sarl",
+   "montant_acte_engagement": 16318000.0,
+   "montant_apres_verification": 16218000.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "GROUPEMENT DU SAHEL ET SAHARA sarl.au/ MONAR sarl.au",
+   "montant_acte_engagement": 13818000.0,
+   "montant_apres_verification": 13818000.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "LGC sarl",
+   "montant_acte_engagement": 13922130.0,
+   "montant_apres_verification": 13922137.2,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 5,
+ "alertes_ocr": [],
+ "notes_ocr": [
+  "« SNTRO sarl » : montant rectifié de 16 318 000.00 à 16 218 000.00 DH.",
+  "« LGC sarl » : montant rectifié de 13 922 130.00 à 13 922 137.20 DH.",
+  "Maître d'ouvrage absent du PV (utiliser l'acheteur public du portail)."
+ ],
+ "qualite": "complet"
+}

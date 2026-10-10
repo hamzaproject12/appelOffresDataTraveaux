@@ -1,0 +1,60 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "745235",
+ "orgAcronyme": "s3z",
+ "reference_pv": "42/23/AREP/RRSK",
+ "nouveau": true,
+ "reference": "42/23/AREP/RRSK",
+ "objet": "TRAVAUX D’ALIMENTATION EN EAU POTABLE PAR BORNES FONTAINES DES CENTRES ET DES DOUARS DE LA COMMUNE DE TIDDAS, PROVINCE DE KHEMISSET DANS LE CADRE DU PROGRAMME PNAEPI 2020-2027- LOT- UNIQUE",
+ "acheteur": "Agence Régionale d’Exécution des projets de la Région de Rabat Salé-Kénitra",
+ "procedure": null,
+ "categorie": "Travaux",
+ "date_limite_plis": null,
+ "lieu_ouverture": "Bureaux de l’Agence Régionale d’Exécution des Projets de la Région de Rabat Salé Kenitra, sis 50, avenue Moulay Ismail, Hassan-Rabat",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "06/10/2023",
+ "justification": "Offre financière moins disante .",
+ "infructueux": false,
+ "attributaire": "UBAC SARL",
+ "montant_attribue": 8529261.6,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "UBACSARL",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "SOUTHYDRAULIC SARL SA",
+   "montant_acte_engagement": 8637890.4,
+   "montant_apres_verification": 8637890.4,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "UBAC SARL",
+   "montant_acte_engagement": 8529261.6,
+   "montant_apres_verification": 8529261.6,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 3,
+ "alertes_ocr": [
+  "« UBAC SARL » absent de la liste des plis déposés (nom mal lu ?)."
+ ],
+ "notes_ocr": [],
+ "qualite": "complet"
+}

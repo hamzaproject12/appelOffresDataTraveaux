@@ -1,0 +1,42 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "873895",
+ "orgAcronyme": "b1d",
+ "reference_pv": "07/2025",
+ "nouveau": true,
+ "reference": "07/2025",
+ "objet": "TRAVAUX D'ASSAINISSEMENT LIQUIDE DE LA VILLE D’EL MARSA : COMPOSANTE 1",
+ "acheteur": "Commune d’El Marsa",
+ "procedure": "marché négocié",
+ "categorie": "Travaux",
+ "date_limite_plis": "03/02/2025",
+ "lieu_ouverture": "Bureau du président du conseil communal d'El Marsa Avis publié dans les quotidiens suivants",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "03/02/2025",
+ "justification": "appel d'offre infructueux (montant dépasse le crédit). +",
+ "infructueux": true,
+ "attributaire": null,
+ "montant_attribue": null,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "Société MEDLEAU",
+   "montant_acte_engagement": 42720264.0,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 1,
+ "alertes_ocr": [
+  "« Société MEDLEAU » absent de la liste des plis déposés (nom mal lu ?)."
+ ],
+ "notes_ocr": [],
+ "qualite": "attribution"
+}

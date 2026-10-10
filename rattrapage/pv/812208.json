@@ -1,0 +1,44 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "812208",
+ "orgAcronyme": "a1z",
+ "reference_pv": null,
+ "nouveau": true,
+ "reference": null,
+ "objet": "Travaux D’équipement de la signalisation verticale",
+ "acheteur": null,
+ "procedure": null,
+ "categorie": "Travaux",
+ "date_limite_plis": "04/04/2024",
+ "lieu_ouverture": "la salle des réunions de la Commune de",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "23/04/2024",
+ "justification": "l’offre la plus avantageuse. LT Le",
+ "infructueux": false,
+ "attributaire": "ATELIERS INDUSTRIELS CHERIFIENS -AIC",
+ "montant_attribue": 24012840.0,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "ATELIERS INDUSTRIELS CHERIFIENS -AIC",
+   "montant_acte_engagement": 24012840.0,
+   "montant_apres_verification": 24012840.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 1,
+ "alertes_ocr": [
+  "« ATELIERS INDUSTRIELS CHERIFIENS -AIC » absent de la liste des plis déposés (nom mal lu ?)."
+ ],
+ "notes_ocr": [
+  "Maître d'ouvrage absent du PV (utiliser l'acheteur public du portail)."
+ ],
+ "qualite": "attribution"
+}

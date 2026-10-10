@@ -1,0 +1,58 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "897159",
+ "orgAcronyme": "g3h",
+ "reference_pv": "10000370",
+ "nouveau": true,
+ "reference": "10000370",
+ "objet": "Entretien et maintenance du réseau de distribution au centre BELFAA, Ait Milk et Douars, Province de Chtouka Ait Baha",
+ "acheteur": "Société Régionale Multiservices Souss Massa « SRM-SM » Société Anonyme (S.A.)",
+ "procedure": null,
+ "categorie": "Travaux",
+ "date_limite_plis": "26/03/2025",
+ "lieu_ouverture": "les bureaux de la SRM-SM, sis au 3ème étage — rue 18 Novembre Q.I AGADIR",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "15/05/2025",
+ "justification": "offre la moins-disante 15 MAI 2075",
+ "infructueux": false,
+ "attributaire": "NOUTRAVEQ DE TRAVAUX ET D'EQUIPEMENT",
+ "montant_attribue": 475440.0,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "SEPAGEC",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_offre_financiere",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "INMA HIGH TECH",
+   "montant_acte_engagement": 480120.0,
+   "montant_apres_verification": 480120.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "NOUTRAVEQ DE TRAVAUX ET D'EQUIPEMENT",
+   "montant_acte_engagement": 475440.0,
+   "montant_apres_verification": 475440.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": true
+  }
+ ],
+ "nombre_soumissionnaires": 3,
+ "alertes_ocr": [],
+ "notes_ocr": [],
+ "qualite": "complet"
+}

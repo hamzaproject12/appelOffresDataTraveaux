@@ -1,0 +1,104 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "775544",
+ "orgAcronyme": "a1z",
+ "reference_pv": "09/ASB/2023",
+ "nouveau": true,
+ "reference": "09/ASB/2023",
+ "objet": "Travaux d'aménagement des espaces verts de l'arrondissement sidi belyout",
+ "acheteur": "La présidente de l'arrondissement sidi belyout",
+ "procedure": null,
+ "categorie": "Travaux",
+ "date_limite_plis": "18/01/2024",
+ "lieu_ouverture": "La salle des réunions au siège de l'arrondissement sidi belyout",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": null,
+ "justification": null,
+ "infructueux": false,
+ "attributaire": "ENERGIE TRAVAUX VERT SARL AU",
+ "montant_attribue": 799680.0,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "ENERGIE TRAVAUX VERT SARL AU",
+   "montant_acte_engagement": 799680.0,
+   "montant_apres_verification": 799680.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "JARDINAGE TRADITIONNEL SARL",
+   "montant_acte_engagement": 791522.4,
+   "montant_apres_verification": 791522.4,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "GROUPEMENT : CORIAM SARL ET FIFA VERT SARL AU",
+   "montant_acte_engagement": 946101.6,
+   "montant_apres_verification": 949101.6,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Sté SUD JARDIN TRAVAUX SARL",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_dossier_administratif_technique",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "BAKIWORK SARL AU",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_offre_technique",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "VERVETA SARL",
+   "montant_acte_engagement": 792780.0,
+   "montant_apres_verification": 792780.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "DAHA VERTE SARL AU oo",
+   "montant_acte_engagement": 773052.0,
+   "montant_apres_verification": 773052.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 7,
+ "alertes_ocr": [
+  "« ENERGIE TRAVAUX VERT SARL AU » absent de la liste des plis déposés (nom mal lu ?).",
+  "« JARDINAGE TRADITIONNEL SARL » absent de la liste des plis déposés (nom mal lu ?).",
+  "« GROUPEMENT : CORIAM SARL ET FIFA VERT SARL AU » absent de la liste des plis déposés (nom mal lu ?).",
+  "« VERVETA SARL » absent de la liste des plis déposés (nom mal lu ?).",
+  "« DAHA VERTE SARL AU oo » absent de la liste des plis déposés (nom mal lu ?)."
+ ],
+ "notes_ocr": [
+  "« Sté SUD JARDIN TRAVAUX SARL » absent de la liste des plis déposés (nom mal lu ?).",
+  "« BAKIWORK SARL AU » absent de la liste des plis déposés (nom mal lu ?).",
+  "« GROUPEMENT : CORIAM SARL ET FIFA VERT SARL AU » : montant rectifié de 946 101.60 à 949 101.60 DH."
+ ],
+ "qualite": "complet"
+}

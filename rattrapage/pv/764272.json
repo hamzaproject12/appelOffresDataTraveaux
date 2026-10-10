@@ -1,0 +1,111 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "764272",
+ "orgAcronyme": "o8p",
+ "reference_pv": "36/A00/DRAN-ANP/2023",
+ "nouveau": true,
+ "reference": "36/A00/DRAN-ANP/2023",
+ "objet": "TRAVAUX D'ENTRETIEN DES RESEAUX D'ASSAINISSEMENT AUX PORTS DE KENITRA ET MEHDIA",
+ "acheteur": "Agence Nationale des Ports : Direction régionale Atlantique Nord et Direction du Port de Mohammedia",
+ "procedure": "appel d'offres ouvert",
+ "categorie": "Travaux",
+ "date_limite_plis": "30/10/2023",
+ "lieu_ouverture": "ANP/DRAN/DPM Conformément à l'avis publié : Désignation journaux Langue Date de parution",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "14/12/2023",
+ "justification": null,
+ "infructueux": false,
+ "attributaire": "AL ITFAI ASPAR",
+ "montant_attribue": null,
+ "attributaires_par_lot": [
+  {
+   "lot": null,
+   "attributaire": "AL ITFAI ASPAR",
+   "montant": null
+  },
+  {
+   "lot": null,
+   "attributaire": "AL ITFAI",
+   "montant": 219600.0
+  },
+  {
+   "lot": null,
+   "attributaire": "DEEP CLEANING",
+   "montant": 224100.0
+  }
+ ],
+ "soumissionnaires": [
+  {
+   "nom": "Attestations de référence",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_dossier_administratif_technique",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "conforme)",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_dossier_administratif_technique",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "AL ITFAI ASPAR",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "PUS",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_offre_technique",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "AL ITFAI",
+   "montant_acte_engagement": 219600.0,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "DEEP CLEANING",
+   "montant_acte_engagement": 224100.0,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 6,
+ "alertes_ocr": [
+  "« AL ITFAI ASPAR » absent de la liste des plis déposés (nom mal lu ?).",
+  "« AL ITFAI » absent de la liste des plis déposés (nom mal lu ?).",
+  "« DEEP CLEANING » absent de la liste des plis déposés (nom mal lu ?).",
+  "Montant de l'attributaire « AL ITFAI ASPAR » non trouvé."
+ ],
+ "notes_ocr": [
+  "« Attestations de référence » absent de la liste des plis déposés (nom mal lu ?).",
+  "« conforme) » absent de la liste des plis déposés (nom mal lu ?).",
+  "« PUS » absent de la liste des plis déposés (nom mal lu ?).",
+  "Montants exprimés hors taxes (HT)."
+ ],
+ "qualite": "attribution"
+}

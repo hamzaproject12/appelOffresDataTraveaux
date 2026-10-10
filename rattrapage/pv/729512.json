@@ -1,0 +1,119 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "729512",
+ "orgAcronyme": "q1s",
+ "reference_pv": "28/2023/0RSM",
+ "nouveau": true,
+ "reference": "28/2023/0RSM",
+ "objet": "Travaux d'aménagements des réseaux de distribution internes aux blocs d'irrigation du périmètre G1 relatifs aux",
+ "acheteur": "ORMVA/SM",
+ "procedure": "appel d'offres ouvert",
+ "categorie": "Travaux",
+ "date_limite_plis": "22/03/2023",
+ "lieu_ouverture": "Salle de réunion de la direction de l'ORMVA/SM",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "05/07/2023",
+ "justification": "-Offre la plus avantageuse de la société CMGP pour le lot n°4-1; -Offre la plus avantageuse de la société ERI-SER pour le lot n°4-2. -Offre la plus avantageuse de la société ATNER pour le lot n°4-3.",
+ "infructueux": false,
+ "attributaire": "CMGP",
+ "montant_attribue": 65740322.4,
+ "attributaires_par_lot": [
+  {
+   "lot": "4",
+   "attributaire": "CMGP",
+   "montant": 65740322.4
+  },
+  {
+   "lot": "4",
+   "attributaire": "ATNER",
+   "montant": 66968673.6
+  },
+  {
+   "lot": "4",
+   "attributaire": "EGCA",
+   "montant": 53586393.6
+  }
+ ],
+ "soumissionnaires": [
+  {
+   "nom": "IRRI SYS AIT MELLOUL",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "depose",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "CMGP",
+   "montant_acte_engagement": 65740322.4,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [
+    "4"
+   ],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "ERI-SER AIT MELLOUL",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "depose",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "SOCHTRAP",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_dossier_administratif_technique",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "SNTM",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "ATNER",
+   "montant_acte_engagement": 66968673.6,
+   "montant_apres_verification": null,
+   "autres_montants": [
+    55579375.2,
+    51266623.2
+   ],
+   "lots": [
+    "4"
+   ],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "EGCA",
+   "montant_acte_engagement": 53586393.6,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [
+    "4"
+   ],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 7,
+ "alertes_ocr": [],
+ "notes_ocr": [],
+ "qualite": "attribution"
+}

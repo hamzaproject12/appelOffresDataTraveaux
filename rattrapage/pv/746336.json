@@ -1,0 +1,87 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "746336",
+ "orgAcronyme": "o8p",
+ "reference_pv": "25/2023-N",
+ "nouveau": true,
+ "reference": "25/2023-N",
+ "objet": "Travaux d’aménagement de l’intersection entre la Route Nationale 11 (PK392+480) et la pénétrante de la future zone franche. Préfecture d’Agadir Ida-Outanane",
+ "acheteur": "DPETLE Agadir Ida-outanane",
+ "procedure": "appel d'offres ouvert",
+ "categorie": "Travaux",
+ "date_limite_plis": "21/09/2023",
+ "lieu_ouverture": "DPETLE Agadir Ida-outanane",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "04/10/2023",
+ "justification": "Les éléments contenus dans son dossier administratif, technique et ses justifications.",
+ "infructueux": false,
+ "attributaire": "Sté. SSMT",
+ "montant_attribue": 10000003.2,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "Sté. SSMT",
+   "montant_acte_engagement": 10000003.2,
+   "montant_apres_verification": 10000003.2,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Sté. ALEQ RABAT",
+   "montant_acte_engagement": 8861002.8,
+   "montant_apres_verification": 8861002.8,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_offre_financiere",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "GROUPEMENT",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Sté. AMAZI DAR GUERCIF",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_offre_financiere",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Sté. W. ANAS GUERCIF",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_offre_financiere",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Sté. W. ANAS",
+   "montant_acte_engagement": 7036841.71,
+   "montant_apres_verification": 7036841.71,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 6,
+ "alertes_ocr": [
+  "« Sté. W. ANAS » absent de la liste des plis déposés (nom mal lu ?)."
+ ],
+ "notes_ocr": [],
+ "qualite": "complet"
+}

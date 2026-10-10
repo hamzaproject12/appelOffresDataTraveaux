@@ -1,0 +1,75 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "925248",
+ "orgAcronyme": "g3h",
+ "reference_pv": "57/2025",
+ "nouveau": true,
+ "reference": "57/2025",
+ "objet": "Travaux d'intervention d'urgence et de démolition dans le Bâti Menaçant Ruine au sein de la médina de Sefrou EI Kalaa- lère tranche. en lot unique",
+ "acheteur": null,
+ "procedure": "appel d'offres ouvert",
+ "categorie": "Travaux",
+ "date_limite_plis": "11/08/2025",
+ "lieu_ouverture": "Siège de l'ADER-Fès",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "19/08/2025",
+ "justification": "Le concurrent ayant présenté une offre financière avantageuse NX 5929",
+ "infructueux": false,
+ "attributaire": "Société GUIDE BTP SARL",
+ "montant_attribue": 327684.0,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "Société SOKAMETRAV SARL AU",
+   "montant_acte_engagement": 343242.0,
+   "montant_apres_verification": 685404.0,
+   "autres_montants": [
+    685404.0
+   ],
+   "lots": [],
+   "statut": "ecarte_offre_financiere",
+   "admis_avec_reserve": true
+  },
+  {
+   "nom": "Société GUIDE BTP SARL",
+   "montant_acte_engagement": 327684.0,
+   "montant_apres_verification": 655368.0,
+   "autres_montants": [
+    655368.0
+   ],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": true
+  },
+  {
+   "nom": "Société BATRASAFIA SARL AU",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_dossier_administratif_technique",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Société NAWRUZ SARL",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_dossier_administratif_technique",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 4,
+ "alertes_ocr": [],
+ "notes_ocr": [
+  "« Société SOKAMETRAV SARL AU » : montant rectifié de 343 242.00 à 685 404.00 DH.",
+  "« Société GUIDE BTP SARL » : montant rectifié de 327 684.00 à 655 368.00 DH.",
+  "Maître d'ouvrage absent du PV (utiliser l'acheteur public du portail)."
+ ],
+ "qualite": "complet"
+}

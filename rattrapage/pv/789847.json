@@ -1,0 +1,76 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "789847",
+ "orgAcronyme": "o8p",
+ "reference_pv": "DPARNI1/04/2024/CFR",
+ "nouveau": true,
+ "reference": "DPARNI1/04/2024/CFR",
+ "objet": "«LOT N°1 : ACHEVEMENT DES TRAVAUX DE SIGNALISATION VERTICALE ET DISPOSITIFS DE SECURITE DE LA VOIE EXPRESS TIZNIT-LAAYOUNE : SECTION GUELMIM-OUED DRAA :GUELMIM RASS OUMLIL DU PK 1081 AU PK",
+ "acheteur": null,
+ "procedure": null,
+ "categorie": "Travaux",
+ "date_limite_plis": "18/04/2024",
+ "lieu_ouverture": null,
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "19/04/2024",
+ "justification": "l'offre la plus avantageuse.",
+ "infructueux": false,
+ "attributaire": "ATELIERS INDUSTRIELS CHERIFIEN",
+ "montant_attribue": 20037840.0,
+ "attributaires_par_lot": [
+  {
+   "lot": null,
+   "attributaire": "ATELIERS INDUSTRIELS CHERIFIEN",
+   "montant": 20037840.0
+  },
+  {
+   "lot": "02",
+   "attributaire": "ATELIERS INDUSTRIELS CHERIFIEN",
+   "montant": 31867344.0
+  }
+ ],
+ "soumissionnaires": [
+  {
+   "nom": "PINTAPLANA MAROC",
+   "montant_acte_engagement": 22298791.2,
+   "montant_apres_verification": 22298791.2,
+   "autres_montants": [],
+   "lots": [
+    "01"
+   ],
+   "statut": "ecarte_offre_financiere",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "ATELIERS INDUSTRIELS CHERIFIEN",
+   "montant_acte_engagement": 20037840.0,
+   "montant_apres_verification": 20037840.0,
+   "autres_montants": [],
+   "lots": [
+    "02"
+   ],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "INJAZ WORKS",
+   "montant_acte_engagement": 20779932.0,
+   "montant_apres_verification": 20779932.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 3,
+ "alertes_ocr": [],
+ "notes_ocr": [
+  "Marché alloti (2 lots).",
+  "Maître d'ouvrage absent du PV (utiliser l'acheteur public du portail)."
+ ],
+ "qualite": "complet"
+}

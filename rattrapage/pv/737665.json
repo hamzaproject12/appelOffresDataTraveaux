@@ -1,0 +1,91 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "737665",
+ "orgAcronyme": "o8p",
+ "reference_pv": null,
+ "nouveau": true,
+ "reference": null,
+ "objet": "Travaux de construction d’un ouvrage d'art et les deux culées du 2ème OA y compris les accès sur Oued Nfifikh au PK 331+200 de la RN1 dans la province de Benslimane._",
+ "acheteur": "Ministère de l'Equipement et de l'Eau",
+ "procedure": "appel d'offres ouvert",
+ "categorie": "Travaux",
+ "date_limite_plis": "03/08/2023",
+ "lieu_ouverture": "Direction Provinciale de BENSLIMANE",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "17/08/2023",
+ "justification": "conformément aux critères figurant au règlement de la consultation :",
+ "infructueux": false,
+ "attributaire": "SEEG SARL",
+ "montant_attribue": 34560288.0,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "SEEG SARL",
+   "montant_acte_engagement": 34560288.0,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "UNIVERS BAT SARL 7",
+   "montant_acte_engagement": 38125476.0,
+   "montant_apres_verification": 34560288.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Le Groupe Mojazine SA",
+   "montant_acte_engagement": 37893030.6,
+   "montant_apres_verification": 37893.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "MAGHREBINE D'ETUDES ET DE GENIE CIVIL « MEGEC » SA",
+   "montant_acte_engagement": 37972098.12,
+   "montant_apres_verification": 37972098.12,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "d'exploitation des procèdes Boussiron « SEPROB » SA L- es",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "MEGEC » SA",
+   "montant_acte_engagement": 37972098.12,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 6,
+ "alertes_ocr": [
+  "« MEGEC » SA » absent de la liste des plis déposés (nom mal lu ?).",
+  "« Le Groupe Mojazine SA » : écart anormal entre montant initial et vérifié (lecture à vérifier)."
+ ],
+ "notes_ocr": [
+  "« UNIVERS BAT SARL 7 » : montant rectifié de 38 125 476.00 à 34 560 288.00 DH.",
+  "« Le Groupe Mojazine SA » : montant rectifié de 37 893 030.60 à 37 893.00 DH."
+ ],
+ "qualite": "complet"
+}

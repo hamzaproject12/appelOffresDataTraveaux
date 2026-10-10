@@ -1,0 +1,51 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "979632",
+ "orgAcronyme": "j8k",
+ "reference_pv": null,
+ "nouveau": true,
+ "reference": null,
+ "objet": "TRAVAUX DE CONSTRUCTION TCE D'UN CENTRE SOCIO-SPORTIF SP22 SIS AU QUARTIER LAMZABIYINE NORD PR.EFECTIIRE D'ARRONDISSEMENT AIN CHOCK-LOT UNIQUE (MARCHE AU FORFAIT CLEF EN MAIN AU RABAIS OU MAJORATION)",
+ "acheteur": "AI Omrane Casablanca - Settat",
+ "procedure": "appel d'offres ouvert",
+ "categorie": "Travaux",
+ "date_limite_plis": null,
+ "lieu_ouverture": "Al Omrane Casablanca - Settat",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "10/02/2026",
+ "justification": "Offre financière la plus avantageuse",
+ "infructueux": false,
+ "attributaire": "SEAT",
+ "montant_attribue": 4107000.0,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "AZIERTA TRAVAUX",
+   "montant_acte_engagement": 4356750.0,
+   "montant_apres_verification": 4356750.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "SEAT",
+   "montant_acte_engagement": 4107000.0,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 2,
+ "alertes_ocr": [
+  "« SEAT » absent de la liste des plis déposés (nom mal lu ?)."
+ ],
+ "notes_ocr": [],
+ "qualite": "complet"
+}

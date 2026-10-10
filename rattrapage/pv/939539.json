@@ -1,0 +1,106 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "939539",
+ "orgAcronyme": "g3h",
+ "reference_pv": null,
+ "nouveau": true,
+ "reference": null,
+ "objet": null,
+ "acheteur": null,
+ "procedure": null,
+ "categorie": "Travaux",
+ "date_limite_plis": "09/09/2025",
+ "lieu_ouverture": null,
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "13/10/2025",
+ "justification": null,
+ "infructueux": false,
+ "attributaire": "ASSIF CONSEIL",
+ "montant_attribue": 1837860.0,
+ "attributaires_par_lot": [
+  {
+   "lot": null,
+   "attributaire": "ASSIF CONSEIL",
+   "montant": 1837860.0
+  },
+  {
+   "lot": null,
+   "attributaire": "AL ITFAI",
+   "montant": 423000.0
+  },
+  {
+   "lot": null,
+   "attributaire": "AHMED MARIOUCH",
+   "montant": 1072560.0
+  }
+ ],
+ "soumissionnaires": [
+  {
+   "nom": "ASSIF CONSEIL",
+   "montant_acte_engagement": 1837860.0,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "DEEP CLEANING",
+   "montant_acte_engagement": 1634112.0,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_offre_financiere",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "WORLD CLASS WORK",
+   "montant_acte_engagement": 457800.0,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_dossier_administratif_technique",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "ENTREPRISE DES ACTIVITES UTILES",
+   "montant_acte_engagement": 432000.0,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "AL ITFAI",
+   "montant_acte_engagement": 423000.0,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "AHMED MARIOUCH",
+   "montant_acte_engagement": 1072560.0,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 6,
+ "alertes_ocr": [
+  "« AL ITFAI » absent de la liste des plis déposés (nom mal lu ?).",
+  "« AHMED MARIOUCH » absent de la liste des plis déposés (nom mal lu ?)."
+ ],
+ "notes_ocr": [
+  "Maître d'ouvrage absent du PV (utiliser l'acheteur public du portail)."
+ ],
+ "qualite": "complet"
+}

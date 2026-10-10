@@ -1,0 +1,99 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "765318",
+ "orgAcronyme": "o8p",
+ "reference_pv": null,
+ "nouveau": true,
+ "reference": null,
+ "objet": "Travaux de reconstruction de l’ouvrage d'assainissement type dalot au PK12+367 de la RP5402",
+ "acheteur": "DPETL DE TAZA",
+ "procedure": "appel d'offres ouvert simplifié",
+ "categorie": "Travaux",
+ "date_limite_plis": "27/11/2023",
+ "lieu_ouverture": "Bureau de la DPETL de TAZA",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "07/12/2023",
+ "justification": "Offre mieux-disante TR",
+ "infructueux": false,
+ "attributaire": "r$ ÉHRIDUACH STAR",
+ "montant_attribue": 907893.6,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "éèute-s STE EDS",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "depose",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "ST E SBBTR",
+   "montant_acte_engagement": 906627.6,
+   "montant_apres_verification": 906627.6,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_dossier_administratif_technique",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "STE DRIOUACH STAR 907 ste fes",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_dossier_administratif_technique",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "STE EDS: à",
+   "montant_acte_engagement": 870504.6,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "STE OUVRAROUTE",
+   "montant_acte_engagement": 991294.8,
+   "montant_apres_verification": 991294.8,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "STE F.",
+   "montant_acte_engagement": 8870504.6,
+   "montant_apres_verification": 8870504.6,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "r$ ÉHRIDUACH STAR",
+   "montant_acte_engagement": 907893.6,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 7,
+ "alertes_ocr": [
+  "« STE EDS: à » absent de la liste des plis déposés (nom mal lu ?).",
+  "« STE OUVRAROUTE » absent de la liste des plis déposés (nom mal lu ?).",
+  "« STE F. » absent de la liste des plis déposés (nom mal lu ?).",
+  "« r$ ÉHRIDUACH STAR » absent de la liste des plis déposés (nom mal lu ?)."
+ ],
+ "notes_ocr": [],
+ "qualite": "complet"
+}

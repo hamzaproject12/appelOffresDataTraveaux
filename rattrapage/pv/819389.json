@@ -1,0 +1,110 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "819389",
+ "orgAcronyme": "p8x",
+ "reference_pv": "50/2024/AREF/FM",
+ "nouveau": true,
+ "reference": "50/2024/AREF/FM",
+ "objet": "Travaux d'achèvement de construction de suivantes : CR TIGRIGRA, CR TIMAHDIT, CR DAYET provinciale d'IFRANE",
+ "acheteur": "AREF FES-MEKNES",
+ "procedure": "appel d'offres ouvert",
+ "categorie": "Travaux",
+ "date_limite_plis": "04/07/2024",
+ "lieu_ouverture": "bureaux de l’Académie Publication de l’avis de l’appel d’offre",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "18/07/2024",
+ "justification": null,
+ "infructueux": false,
+ "attributaire": null,
+ "montant_attribue": null,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "STE STAWIL SARL",
+   "montant_acte_engagement": 1561020.0,
+   "montant_apres_verification": 1561020.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "STE ASIZIL SARL AU",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "STE OUMAMI FRÈRES SARL",
+   "montant_acte_engagement": 1561020.0,
+   "montant_apres_verification": 1561020.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "STE LES ROUTES DE TASSAOUT SARL AU",
+   "montant_acte_engagement": 1592400.0,
+   "montant_apres_verification": 1592400.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": true
+  },
+  {
+   "nom": "STE ZAOUIA CONSTRUCTION SARL",
+   "montant_acte_engagement": 1591284.0,
+   "montant_apres_verification": 1591.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "STE CTR SARL AU",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "STE ASIZIL SARL AU LE LS",
+   "montant_acte_engagement": 1593360.0,
+   "montant_apres_verification": 1593360.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "STE CTR SARL AU | TT 7",
+   "montant_acte_engagement": 1599.0,
+   "montant_apres_verification": 1599.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 8,
+ "alertes_ocr": [
+  "« STE ASIZIL SARL AU LE LS » absent de la liste des plis déposés (nom mal lu ?).",
+  "« STE CTR SARL AU | TT 7 » absent de la liste des plis déposés (nom mal lu ?).",
+  "Attributaire non trouvé.",
+  "« STE ZAOUIA CONSTRUCTION SARL » : écart anormal entre montant initial et vérifié (lecture à vérifier)."
+ ],
+ "notes_ocr": [
+  "« STE ZAOUIA CONSTRUCTION SARL » : montant rectifié de 1 591 284.00 à 1 591.00 DH."
+ ],
+ "qualite": "complet"
+}

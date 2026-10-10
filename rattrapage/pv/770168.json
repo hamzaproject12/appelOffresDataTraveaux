@@ -1,0 +1,93 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "770168",
+ "orgAcronyme": "a1z",
+ "reference_pv": null,
+ "nouveau": true,
+ "reference": null,
+ "objet": null,
+ "acheteur": "Le président de l’ Arrondissement Aïn Sebaa",
+ "procedure": null,
+ "categorie": "Travaux",
+ "date_limite_plis": "10/04/2023",
+ "lieu_ouverture": null,
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "04/05/2023",
+ "justification": "son offre est la moins disante",
+ "infructueux": false,
+ "attributaire": "AL ANBARIA",
+ "montant_attribue": 2551992.0,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "AL ANBARIA",
+   "montant_acte_engagement": 2551992.0,
+   "montant_apres_verification": 2551992.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "SOCIETE BOURANIME",
+   "montant_acte_engagement": 3485812.8,
+   "montant_apres_verification": 3485812.8,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "EXTRAIT DU PV",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": true
+  },
+  {
+   "nom": "SOCIETE SOCATO LE DEPOT NON ELECTRONIQUE DE LA CAUTION",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_dossier_administratif_technique",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "SOCIETE MJ TARGET PROVISOIRE",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_offre_financiere",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "SOCIETE SOCATO",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_offre_financiere",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 6,
+ "alertes_ocr": [
+  "« AL ANBARIA » absent de la liste des plis déposés (nom mal lu ?).",
+  "« SOCIETE BOURANIME » absent de la liste des plis déposés (nom mal lu ?)."
+ ],
+ "notes_ocr": [
+  "« EXTRAIT DU PV » absent de la liste des plis déposés (nom mal lu ?).",
+  "« SOCIETE SOCATO LE DEPOT NON ELECTRONIQUE DE LA CAUTION » absent de la liste des plis déposés (nom mal lu ?).",
+  "« SOCIETE MJ TARGET PROVISOIRE » absent de la liste des plis déposés (nom mal lu ?).",
+  "« SOCIETE SOCATO » absent de la liste des plis déposés (nom mal lu ?)."
+ ],
+ "qualite": "complet"
+}

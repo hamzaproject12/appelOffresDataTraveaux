@@ -1,0 +1,94 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "1041768",
+ "orgAcronyme": "j0w",
+ "reference_pv": "32/BP/2026",
+ "nouveau": true,
+ "reference": "32/BP/2026",
+ "objet": "CONSTRUCTION DE LA PISTE RELIANT LA ROUTE NATIONALE ( R.N N11) ET DOUAR AZIB EL MAKHZANE A LA COMMUNE DE LAMZOUDIA SUR UNE LONGUEUR DE 2.5 KM",
+ "acheteur": null,
+ "procedure": "appel d'offres ouvert national",
+ "categorie": "Travaux",
+ "date_limite_plis": null,
+ "lieu_ouverture": null,
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": null,
+ "justification": null,
+ "infructueux": false,
+ "attributaire": "GRP CONJ",
+ "montant_attribue": 2397882.0,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "GRP CONJ",
+   "montant_acte_engagement": 2397882.0,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "STE MEJOT DES TRAVAUX GENERALES",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_dossier_administratif_technique",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "STE WESTRAD",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_dossier_administratif_technique",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "STE S.G.T. LINE MAROC SARL A.U",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_dossier_administratif_technique",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "STE ISDAL TRAVAUX SARL",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_dossier_administratif_technique",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "STE UNIVERS TRAVAUX ROUTIERS",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_dossier_administratif_technique",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 6,
+ "alertes_ocr": [
+  "« GRP CONJ » absent de la liste des plis déposés (nom mal lu ?)."
+ ],
+ "notes_ocr": [
+  "« STE MEJOT DES TRAVAUX GENERALES » absent de la liste des plis déposés (nom mal lu ?).",
+  "« STE WESTRAD » absent de la liste des plis déposés (nom mal lu ?).",
+  "« STE S.G.T. LINE MAROC SARL A.U » absent de la liste des plis déposés (nom mal lu ?).",
+  "« STE ISDAL TRAVAUX SARL » absent de la liste des plis déposés (nom mal lu ?).",
+  "« STE UNIVERS TRAVAUX ROUTIERS » absent de la liste des plis déposés (nom mal lu ?).",
+  "Maître d'ouvrage absent du PV (utiliser l'acheteur public du portail)."
+ ],
+ "qualite": "attribution"
+}

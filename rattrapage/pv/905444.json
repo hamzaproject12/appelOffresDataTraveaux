@@ -1,0 +1,78 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "905444",
+ "orgAcronyme": "p8x",
+ "reference_pv": "14/2025/CH/INV",
+ "nouveau": true,
+ "reference": "14/2025/CH/INV",
+ "objet": null,
+ "acheteur": null,
+ "procedure": "appel d'offres ouvert simplifié",
+ "categorie": "Travaux",
+ "date_limite_plis": null,
+ "lieu_ouverture": null,
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": null,
+ "justification": " Candidats ayant de bonnes références techniques, administratives et financières.  Les prix sont avantageux pour l’Administration, les offres financières ont été jugées les plus intéressantes par la commission chargée de l’ouverture des plis.  Date d’achèvement des travaux de la commission : 11/06/2025 à 16h30mn.",
+ "infructueux": false,
+ "attributaire": "Sté Eward Service sarl - Marrakech",
+ "montant_attribue": 60734.54,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "Sté Constrav Power sarl Chichaoua",
+   "montant_acte_engagement": 72000.0,
+   "montant_apres_verification": 72000.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Sté Abdou Qassraoui sarl - Marrakech",
+   "montant_acte_engagement": 64201.2,
+   "montant_apres_verification": 64201.2,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": true
+  },
+  {
+   "nom": "Sté Eward Service sarl - Marrakech",
+   "montant_acte_engagement": 60734.54,
+   "montant_apres_verification": 60734.54,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Sté Omega Perfect Works sarl - Taroudant",
+   "montant_acte_engagement": 68179.8,
+   "montant_apres_verification": 68179.8,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Sté Drip Kech sarl - Errachidia",
+   "montant_acte_engagement": 60441.6,
+   "montant_apres_verification": 60441.6,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 5,
+ "alertes_ocr": [],
+ "notes_ocr": [
+  "Maître d'ouvrage absent du PV (utiliser l'acheteur public du portail)."
+ ],
+ "qualite": "complet"
+}

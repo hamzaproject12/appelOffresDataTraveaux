@@ -1,0 +1,70 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "777256",
+ "orgAcronyme": "g3h",
+ "reference_pv": null,
+ "nouveau": true,
+ "reference": null,
+ "objet": "« PROJET DE CONSTRUCTION D’UN CENTRE D’ACCEUIL DES ENFANTS EN SITUATION D'HANDICAP MENTAL A LA COMMUNE DE AIN AOUDA PREFECTURE SKHIRATE TEMARA - REGION RABAT SALE KENITRA »",
+ "acheteur": "Société SKHIRATE TEMARA AMENAGEMENT ET DEVELOPPEMENT SA",
+ "procedure": "appel d'offres ouvert",
+ "categorie": "Travaux",
+ "date_limite_plis": "09/02/2024",
+ "lieu_ouverture": "Salle de réunion de la société sise à lotissement Almostakbel immeuble 22 Témara Maroc",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "26/02/2024",
+ "justification": "L'offre la mieux disante.",
+ "infructueux": false,
+ "attributaire": null,
+ "montant_attribue": null,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "STE MBI SCAVI SARL",
+   "montant_acte_engagement": 5996868.0,
+   "montant_apres_verification": 5996868.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_offre_financiere",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "GROUPEMENT STE CLUTCH SARL AU/ STE ATALY SARL",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "STE JOHAR SARL",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_dossier_administratif_technique",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "ATALY SARL",
+   "montant_acte_engagement": 5018904.0,
+   "montant_apres_verification": 5018904.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 4,
+ "alertes_ocr": [
+  "« ATALY SARL » absent de la liste des plis déposés (nom mal lu ?).",
+  "Attributaire non trouvé."
+ ],
+ "notes_ocr": [],
+ "qualite": "complet"
+}

@@ -1,0 +1,114 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "683993",
+ "orgAcronyme": "s3z",
+ "reference_pv": null,
+ "nouveau": true,
+ "reference": null,
+ "objet": "«Travaux D’élargissement Et Renforcement De La RR705 Dans La Province De Sidi Slimane (marché alloti)",
+ "acheteur": "Agence Régionale d’Exécution des projets de la Région de Rabat- Salé Kénitra",
+ "procedure": null,
+ "categorie": "Travaux",
+ "date_limite_plis": null,
+ "lieu_ouverture": "Bureaux de l’Agence Régionale d’Exécution des Projets de la Région de Rabat Salé Kenitra, sis 50, avenue Moulay Ismail, Hassan-Rabat",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "13/12/2022",
+ "justification": "Meilleure combinaison",
+ "infructueux": false,
+ "attributaire": "LABERAGA TRAVAUX SARL AU",
+ "montant_attribue": 17274614.4,
+ "attributaires_par_lot": [
+  {
+   "lot": null,
+   "attributaire": "LABERAGA TRAVAUX SARL AU",
+   "montant": 17274614.4
+  },
+  {
+   "lot": null,
+   "attributaire": "SORTRAC SARL",
+   "montant": 13467932.76
+  }
+ ],
+ "soumissionnaires": [
+  {
+   "nom": "FOREFIL SARL AU",
+   "montant_acte_engagement": 18500292.0,
+   "montant_apres_verification": 18500292.0,
+   "autres_montants": [
+    17742968.64
+   ],
+   "lots": [
+    "1",
+    "2"
+   ],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "SBTP SARL AU",
+   "montant_acte_engagement": 18700044.0,
+   "montant_apres_verification": 18700044.0,
+   "autres_montants": [],
+   "lots": [
+    "1",
+    "2"
+   ],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "LABERAGA TRAVAUX SARL AU",
+   "montant_acte_engagement": 17274614.4,
+   "montant_apres_verification": 17274614.4,
+   "autres_montants": [],
+   "lots": [
+    "2"
+   ],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "GFTR SARL AU",
+   "montant_acte_engagement": 18950079.6,
+   "montant_apres_verification": 18950079.6,
+   "autres_montants": [],
+   "lots": [
+    "2"
+   ],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "SORTRAC SARL",
+   "montant_acte_engagement": 17590496.4,
+   "montant_apres_verification": 17590496.4,
+   "autres_montants": [],
+   "lots": [
+    "2"
+   ],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "SOZRA SARL",
+   "montant_acte_engagement": 18251874.0,
+   "montant_apres_verification": 18251874.0,
+   "autres_montants": [],
+   "lots": [
+    "2"
+   ],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 6,
+ "alertes_ocr": [],
+ "notes_ocr": [
+  "Marché alloti (2 lots)."
+ ],
+ "qualite": "complet"
+}

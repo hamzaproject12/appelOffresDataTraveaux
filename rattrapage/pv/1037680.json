@@ -1,0 +1,81 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "1037680",
+ "orgAcronyme": "o8p",
+ "reference_pv": null,
+ "nouveau": true,
+ "reference": null,
+ "objet": null,
+ "acheteur": "Direction du ports de Safi et Région",
+ "procedure": null,
+ "categorie": "Travaux",
+ "date_limite_plis": null,
+ "lieu_ouverture": "Direction du ports de Safi et Région",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "07/09/2026",
+ "justification": null,
+ "infructueux": false,
+ "attributaire": "SOCADELEG SARL AU",
+ "montant_attribue": 5822600.0,
+ "attributaires_par_lot": [
+  {
+   "lot": null,
+   "attributaire": "SOCADELEG SARL AU",
+   "montant": 5822600.0
+  },
+  {
+   "lot": null,
+   "attributaire": "ENTREPRISE BOUALI DE TRAVAUX SARL",
+   "montant": 5691800.0
+  }
+ ],
+ "soumissionnaires": [
+  {
+   "nom": "N° SECTOB SARL",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "depose",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "TECNITAS",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "depose",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "SOCADELEG SARL AU",
+   "montant_acte_engagement": 5822600.0,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "ENTREPRISE BOUALI DE TRAVAUX SARL",
+   "montant_acte_engagement": 5691800.0,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 4,
+ "alertes_ocr": [
+  "« SOCADELEG SARL AU » absent de la liste des plis déposés (nom mal lu ?).",
+  "« ENTREPRISE BOUALI DE TRAVAUX SARL » absent de la liste des plis déposés (nom mal lu ?)."
+ ],
+ "notes_ocr": [],
+ "qualite": "attribution"
+}

@@ -1,0 +1,87 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "992184",
+ "orgAcronyme": "g3h",
+ "reference_pv": "01/2025/DAR",
+ "nouveau": true,
+ "reference": "01/2025/DAR",
+ "objet": "Travaux de prolongement de la RP2129 à partir de la RP2135 vers lotissement EL FATH commune FRAITA province EL KELAA DES SRAGHNA-LOT UNIQUE",
+ "acheteur": "LE GOUVERNEUR DE LA PROVINCE D'EL KELAA DES SRAGHNA",
+ "procedure": "appel d'offres ouvert national",
+ "categorie": "Travaux",
+ "date_limite_plis": "15/01/2025",
+ "lieu_ouverture": "SECRETARIAT GENERAL DE LA PROVINCE D'EL KELAA DES SRAGHNA (SALLE AIT ABDEL MOULA ABDELOUAHAB)",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "21/01/2026",
+ "justification": null,
+ "infructueux": false,
+ "attributaire": "R.2.J PRO",
+ "montant_attribue": 1131960.0,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "R.2.J FRO",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "depose",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "STE SJ2T",
+   "montant_acte_engagement": 1178940.0,
+   "montant_apres_verification": 1178940.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "STE MENARA VAC TRAV",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_dossier_administratif_technique",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "MENARA AMENAGEMENT",
+   "montant_acte_engagement": 1258860.0,
+   "montant_apres_verification": 1258860.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "MASSO TRAV",
+   "montant_acte_engagement": 1272960.0,
+   "montant_apres_verification": 1272960.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "R.2.J PRO",
+   "montant_acte_engagement": 1131960.0,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 6,
+ "alertes_ocr": [
+  "« R.2.J PRO » absent de la liste des plis déposés (nom mal lu ?)."
+ ],
+ "notes_ocr": [],
+ "qualite": "complet"
+}

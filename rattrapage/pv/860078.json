@@ -1,0 +1,62 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "860078",
+ "orgAcronyme": "b1d",
+ "reference_pv": "78/CL/2024",
+ "nouveau": true,
+ "reference": "78/CL/2024",
+ "objet": "TRAVAUX D'ENTRETIEN ET REFECTION DES VOIRIES DÉGRADÉS À LA COMMUNE DE LAAYOUNE-PROVINCE DE LAAYOUNE-. TRANCHE N°2 -",
+ "acheteur": null,
+ "procedure": "appel d'offres ouvert simplifié",
+ "categorie": "Travaux",
+ "date_limite_plis": "25/11/2024",
+ "lieu_ouverture": "La Salle De Réunion De L’annexe De La Commune De Laayoune",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": null,
+ "justification": "l'offre le mieux disant.",
+ "infructueux": false,
+ "attributaire": "SOCIÉTÉ FDS S.A.R.L",
+ "montant_attribue": 756000.0,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "SOCIÉTÉ FDS SARL",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "depose",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "SOCIÉTÉ LES ENTREPRISE KHOUJANI SARL",
+   "montant_acte_engagement": 740040.0,
+   "montant_apres_verification": 740040.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_offre_financiere",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "SOCIÉTÉ FDS S.A.R.L",
+   "montant_acte_engagement": 756000.0,
+   "montant_apres_verification": 756000.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 3,
+ "alertes_ocr": [
+  "« SOCIÉTÉ FDS S.A.R.L » absent de la liste des plis déposés (nom mal lu ?)."
+ ],
+ "notes_ocr": [
+  "Maître d'ouvrage absent du PV (utiliser l'acheteur public du portail)."
+ ],
+ "qualite": "complet"
+}

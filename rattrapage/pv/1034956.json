@@ -1,0 +1,64 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "1034956",
+ "orgAcronyme": "j0w",
+ "reference_pv": "25/BP/2026",
+ "nouveau": true,
+ "reference": "25/BP/2026",
+ "objet": "TRAVAUX D’ AMENAGEMENT DE LA TRAVERSEE RELIANT LA ROUTE PROVINCIALE (R.P) 2040 AU COMPLEXE SOCIO-EDUCATIF DE LA COMMUNE DE TIMEZGADIOUINE",
+ "acheteur": null,
+ "procedure": "appel d'offres ouvert national",
+ "categorie": "Travaux",
+ "date_limite_plis": null,
+ "lieu_ouverture": null,
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": null,
+ "justification": null,
+ "infructueux": false,
+ "attributaire": "SOCIETE AFRICAINE DES SOLUTIONS DURABLES SASD SARL",
+ "montant_attribue": 2888237.62,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "GRP CONJ",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_dossier_administratif_technique",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "SOCIETE AFRICAINE DES SOLUTIONS DURABLES SASD SARL",
+   "montant_acte_engagement": 2888237.62,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "GUW SARL + SOCIETE AFRICAINE DES",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_dossier_administratif_technique",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 3,
+ "alertes_ocr": [
+  "« SOCIETE AFRICAINE DES SOLUTIONS DURABLES SASD SARL » absent de la liste des plis déposés (nom mal lu ?)."
+ ],
+ "notes_ocr": [
+  "« GRP CONJ » absent de la liste des plis déposés (nom mal lu ?).",
+  "« GUW SARL + SOCIETE AFRICAINE DES » absent de la liste des plis déposés (nom mal lu ?).",
+  "Maître d'ouvrage absent du PV (utiliser l'acheteur public du portail)."
+ ],
+ "qualite": "attribution"
+}

@@ -1,0 +1,61 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "930823",
+ "orgAcronyme": "q0x",
+ "reference_pv": null,
+ "nouveau": true,
+ "reference": null,
+ "objet": "BRANCHEMENT 2° CATEGORIE AERO SOU ON DU COMPLEXE ARTISANAL Sl DE TRANSFORMATI",
+ "acheteur": null,
+ "procedure": "appel d'offres ouvert",
+ "categorie": "Travaux",
+ "date_limite_plis": "05/08/2025",
+ "lieu_ouverture": "SALLE DER EUNION DU",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "15/09/2025",
+ "justification": "offre la plus avantageuse",
+ "infructueux": false,
+ "attributaire": "STE BOLIGAM",
+ "montant_attribue": 372704.53,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "STE ORTIC",
+   "montant_acte_engagement": 380120.62,
+   "montant_apres_verification": 380120.62,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "STE BOLIGAM",
+   "montant_acte_engagement": 372704.53,
+   "montant_apres_verification": 372704.53,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "STE GREEN ELEC",
+   "montant_acte_engagement": 380815.33,
+   "montant_apres_verification": 380813.27,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 3,
+ "alertes_ocr": [],
+ "notes_ocr": [
+  "« STE GREEN ELEC » : montant rectifié de 380 815.33 à 380 813.27 DH.",
+  "Maître d'ouvrage absent du PV (utiliser l'acheteur public du portail)."
+ ],
+ "qualite": "complet"
+}

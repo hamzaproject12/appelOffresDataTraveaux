@@ -1,0 +1,51 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "824193",
+ "orgAcronyme": "q1s",
+ "reference_pv": "03/2024/DPA/39/SAHA",
+ "nouveau": true,
+ "reference": "03/2024/DPA/39/SAHA",
+ "objet": "Travaux d’aménagement des infrastructures hydro-agricoles des périmètres irrigués relevant de la province de Taounate",
+ "acheteur": "Direction Provinciale de l'Agriculture de Taounate",
+ "procedure": null,
+ "categorie": "Travaux",
+ "date_limite_plis": "12/08/2024",
+ "lieu_ouverture": null,
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "19/08/2024",
+ "justification": null,
+ "infructueux": false,
+ "attributaire": null,
+ "montant_attribue": null,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "IBNELHAFIDZ ABDELLAH",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_dossier_administratif_technique",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "STE ENTREPRISE TAOUNATE",
+   "montant_acte_engagement": 1406460.0,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 2,
+ "alertes_ocr": [
+  "Attributaire non trouvé."
+ ],
+ "notes_ocr": [],
+ "qualite": "attribution"
+}

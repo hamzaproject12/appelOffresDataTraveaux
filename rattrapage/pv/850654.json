@@ -1,0 +1,54 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "850654",
+ "orgAcronyme": "a1z",
+ "reference_pv": "49/24",
+ "nouveau": true,
+ "reference": "49/24",
+ "objet": "Lot : Climatisation et Désenfumage du Complexe Culturel Touria Sekkat A Casablanca",
+ "acheteur": null,
+ "procedure": null,
+ "categorie": "Travaux",
+ "date_limite_plis": "04/07/2024",
+ "lieu_ouverture": "la salle des réunions de la Commune de Casablanca, sise place Mohamed V, Avenue Hassan II, 2ème étage, bureau 38",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "09/07/2024",
+ "justification": "offre économiquement la plus avantageuse.",
+ "infructueux": false,
+ "attributaire": "STE BAUENER",
+ "montant_attribue": 1134060.0,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "STE EFNOR",
+   "montant_acte_engagement": 1987200.0,
+   "montant_apres_verification": 1987200.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "STE BAUENER",
+   "montant_acte_engagement": 1865105.63,
+   "montant_apres_verification": 1865105.62,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 2,
+ "alertes_ocr": [
+  "« STE EFNOR » absent de la liste des plis déposés (nom mal lu ?).",
+  "« STE BAUENER » absent de la liste des plis déposés (nom mal lu ?)."
+ ],
+ "notes_ocr": [
+  "Maître d'ouvrage absent du PV (utiliser l'acheteur public du portail)."
+ ],
+ "qualite": "complet"
+}

@@ -1,0 +1,70 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "900708",
+ "orgAcronyme": "j8k",
+ "reference_pv": "26/25",
+ "nouveau": true,
+ "reference": "26/25",
+ "objet": null,
+ "acheteur": null,
+ "procedure": "consultation architecturale",
+ "categorie": "Travaux",
+ "date_limite_plis": "07/05/2025",
+ "lieu_ouverture": "AI Omrane Casablanca — Settat",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "22/05/2025",
+ "justification": "Offre Technico- financière la plus avantageuse",
+ "infructueux": false,
+ "attributaire": "GRP : TIRA TRAVAUX / INGTELMA",
+ "montant_attribue": 12631741.68,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "GRP : TIRA TRAVAUX / INGTELMA",
+   "montant_acte_engagement": 12641029.68,
+   "montant_apres_verification": 12631741.68,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "FOR.PS.S3. 26",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "depose",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "DNA",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "depose",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "a omrane",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "depose",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 4,
+ "alertes_ocr": [],
+ "notes_ocr": [
+  "« GRP : TIRA TRAVAUX / INGTELMA » : montant rectifié de 12 641 029.68 à 12 631 741.68 DH.",
+  "Maître d'ouvrage absent du PV (utiliser l'acheteur public du portail)."
+ ],
+ "qualite": "attribution"
+}

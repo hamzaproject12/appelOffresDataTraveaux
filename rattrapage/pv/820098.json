@@ -1,0 +1,51 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "820098",
+ "orgAcronyme": "g3h",
+ "reference_pv": "73/2024",
+ "nouveau": true,
+ "reference": "73/2024",
+ "objet": "Travaux d'aménagement de l’espace vert de « Bab Guissa » dans la ville de Fès. en lot unique",
+ "acheteur": null,
+ "procedure": "appel d'offres ouvert",
+ "categorie": "Travaux",
+ "date_limite_plis": "23/07/2024",
+ "lieu_ouverture": "Siège de l'ADER-Fès",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "02/08/2024",
+ "justification": "Le concurrent ayant présenté l'offre la plus avantageuse et la moins disante.",
+ "infructueux": false,
+ "attributaire": "Société TILGUI FLOWER SARL AU",
+ "montant_attribue": 2477844.0,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "Société LEADER GARDEN SARL AU",
+   "montant_acte_engagement": 2579010.0,
+   "montant_apres_verification": 2579010.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Société TILGUI FLOWER SARL AU",
+   "montant_acte_engagement": 2477844.0,
+   "montant_apres_verification": 2477844.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 2,
+ "alertes_ocr": [],
+ "notes_ocr": [
+  "Maître d'ouvrage absent du PV (utiliser l'acheteur public du portail)."
+ ],
+ "qualite": "complet"
+}

@@ -1,0 +1,428 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "1032691",
+ "orgAcronyme": "o8p",
+ "reference_pv": null,
+ "nouveau": true,
+ "reference": null,
+ "objet": "Travaux d'entretien des bâtiments de différents aéroports Lot n° 1 : Aéroport Rabat/Salé, Lot n° 2 : Aéroport d'Ouarzazate,",
+ "acheteur": "l'OFFICE NATIONAL DES AEROPORTS",
+ "procedure": null,
+ "categorie": "Travaux",
+ "date_limite_plis": "07/07/2026",
+ "lieu_ouverture": "La salle de réunion de la Direction des Achaïs et de la Logistique",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "11/08/2026",
+ "justification": "L'offre la plus avantageuse.",
+ "infructueux": true,
+ "attributaire": "BH RESEAU ET TECHNOLOGIE",
+ "montant_attribue": 958596.0,
+ "attributaires_par_lot": [
+  {
+   "lot": "2",
+   "attributaire": "BH RESEAU ET TECHNOLOGIE",
+   "montant": 958596.0
+  },
+  {
+   "lot": "3",
+   "attributaire": "STE GF BUSINESS",
+   "montant": 1617600.0
+  },
+  {
+   "lot": "4",
+   "attributaire": "STE WEST ATLANTIC CONTRACTORS",
+   "montant": 894726.0
+  }
+ ],
+ "soumissionnaires": [
+  {
+   "nom": "MAROC'ARCHI",
+   "montant_acte_engagement": 3270084.0,
+   "montant_apres_verification": 3270084.0,
+   "autres_montants": [
+    3270084.0
+   ],
+   "lots": [
+    "1"
+   ],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "COMPRISE/AN COMPRISE/AN",
+   "montant_acte_engagement": 3846691.2,
+   "montant_apres_verification": 3846667.2,
+   "autres_montants": [
+    3846691.2,
+    3086958.0,
+    958596.0,
+    216180.8,
+    894726.0,
+    1123134.0,
+    279512.0
+   ],
+   "lots": [
+    "1",
+    "2",
+    "4"
+   ],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "PROJETIS MAROC",
+   "montant_acte_engagement": 3254340.0,
+   "montant_apres_verification": 3254340.0,
+   "autres_montants": [
+    3254340.0
+   ],
+   "lots": [
+    "1"
+   ],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "SOCIETE DES TRAVAUX DE CONSTRUCTION ET D'AMENAGEMENT DU BATIMENT",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [
+    "1"
+   ],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "STE SALAHDIN BTP",
+   "montant_acte_engagement": 1198332.0,
+   "montant_apres_verification": 1198332.0,
+   "autres_montants": [],
+   "lots": [
+    "1"
+   ],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "BH RESEAU ET TECHNOLOGIE",
+   "montant_acte_engagement": 202880.0,
+   "montant_apres_verification": 958596.0,
+   "autres_montants": [
+    1202880.0
+   ],
+   "lots": [
+    "1",
+    "2",
+    "5"
+   ],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "STE TARGUTE TRAVAUX",
+   "montant_acte_engagement": 143516.0,
+   "montant_apres_verification": 1202880.0,
+   "autres_montants": [
+    1143516.0
+   ],
+   "lots": [
+    "1",
+    "2"
+   ],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "ZENIAWORKS",
+   "montant_acte_engagement": 1143516.0,
+   "montant_apres_verification": 1143516.0,
+   "autres_montants": [],
+   "lots": [
+    "1"
+   ],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "ELMD TRAVAUX en",
+   "montant_acte_engagement": 1216180.8,
+   "montant_apres_verification": 1216180.8,
+   "autres_montants": [],
+   "lots": [
+    "1"
+   ],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "SOCIETE BEN ZAID BTP",
+   "montant_acte_engagement": 837680.0,
+   "montant_apres_verification": 1881900.0,
+   "autres_montants": [
+    1837680.0
+   ],
+   "lots": [
+    "1",
+    "3"
+   ],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "EDISKA WORK",
+   "montant_acte_engagement": 1837680.0,
+   "montant_apres_verification": 1837680.0,
+   "autres_montants": [],
+   "lots": [
+    "1"
+   ],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "STE NEWTECH SAHARA",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [
+    "1",
+    "3"
+   ],
+   "statut": "ecarte_offre_financiere",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "STE GF BUSINESS",
+   "montant_acte_engagement": 1617600.0,
+   "montant_apres_verification": 1617600.0,
+   "autres_montants": [],
+   "lots": [
+    "1",
+    "3"
+   ],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "STETIFRAZAL",
+   "montant_acte_engagement": 1815840.0,
+   "montant_apres_verification": 1815840.0,
+   "autres_montants": [],
+   "lots": [
+    "1"
+   ],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "STE WEST ATLANTIC CONTRACTORS",
+   "montant_acte_engagement": 894726.0,
+   "montant_apres_verification": 894726.0,
+   "autres_montants": [],
+   "lots": [
+    "1",
+    "4"
+   ],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "STE ATLAS TRAVAUX CONSTRUCTA MAROC",
+   "montant_acte_engagement": 1330320.0,
+   "montant_apres_verification": 1330320.0,
+   "autres_montants": [
+    1330320.0
+   ],
+   "lots": [
+    "1",
+    "4"
+   ],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "TIHIYA",
+   "montant_acte_engagement": 1123134.0,
+   "montant_apres_verification": 1123134.0,
+   "autres_montants": [],
+   "lots": [
+    "1",
+    "4"
+   ],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "ORTIS MAROC",
+   "montant_acte_engagement": 1279512.0,
+   "montant_apres_verification": 1279512.0,
+   "autres_montants": [],
+   "lots": [
+    "1",
+    "4"
+   ],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "ALL PROJECTS",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [
+    "1"
+   ],
+   "statut": "ecarte_dossier_administratif_technique",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "STE EL HENYNY SUD",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [
+    "2",
+    "3",
+    "5"
+   ],
+   "statut": "ecarte_dossier_administratif_technique",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "yéolt Gljlo",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [
+    "5"
+   ],
+   "statut": "ecarte_offre_financiere",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "ee d'engagements Bordereaux des prix",
+   "montant_acte_engagement": 198332.0,
+   "montant_apres_verification": null,
+   "autres_montants": [
+    1198332.0,
+    960480.0
+   ],
+   "lots": [
+    "2",
+    "5"
+   ],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "ELMD TRAVAUX COMPRISE COMPRISÉ/AN yéoll Gllo",
+   "montant_acte_engagement": 881900.0,
+   "montant_apres_verification": null,
+   "autres_montants": [
+    1881900.0
+   ],
+   "lots": [
+    "3"
+   ],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "De RES COMPRISE COMPRISE/AN",
+   "montant_acte_engagement": 675380.0,
+   "montant_apres_verification": null,
+   "autres_montants": [
+    1675380.0,
+    815840.0
+   ],
+   "lots": [
+    "3"
+   ],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "DE SSNERI PENSE COMPRISE COMPRISE/AN",
+   "montant_acte_engagement": 617600.0,
+   "montant_apres_verification": null,
+   "autres_montants": [
+    1617600.0
+   ],
+   "lots": [
+    "3"
+   ],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "CNRS MARQUE, COMPRISE/AN COMPRISE/AN FPE ENERUE",
+   "montant_acte_engagement": 1000956.0,
+   "montant_apres_verification": null,
+   "autres_montants": [
+    1000956.0
+   ],
+   "lots": [
+    "4"
+   ],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "CONSTRUCTION ET D'AMENAGEMENT DU",
+   "montant_acte_engagement": 3086958.0,
+   "montant_apres_verification": 3086958.0,
+   "autres_montants": [],
+   "lots": [
+    "1",
+    "4"
+   ],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 27,
+ "alertes_ocr": [
+  "« MAROC'ARCHI » absent de la liste des plis déposés (nom mal lu ?).",
+  "« COMPRISE/AN COMPRISE/AN » absent de la liste des plis déposés (nom mal lu ?).",
+  "« PROJETIS MAROC » absent de la liste des plis déposés (nom mal lu ?).",
+  "« STE SALAHDIN BTP » absent de la liste des plis déposés (nom mal lu ?).",
+  "« BH RESEAU ET TECHNOLOGIE » absent de la liste des plis déposés (nom mal lu ?).",
+  "« STE TARGUTE TRAVAUX » absent de la liste des plis déposés (nom mal lu ?).",
+  "« ZENIAWORKS » absent de la liste des plis déposés (nom mal lu ?).",
+  "« ELMD TRAVAUX en » absent de la liste des plis déposés (nom mal lu ?).",
+  "« SOCIETE BEN ZAID BTP » absent de la liste des plis déposés (nom mal lu ?).",
+  "« EDISKA WORK » absent de la liste des plis déposés (nom mal lu ?).",
+  "« STE GF BUSINESS » absent de la liste des plis déposés (nom mal lu ?).",
+  "« STETIFRAZAL » absent de la liste des plis déposés (nom mal lu ?).",
+  "« STE WEST ATLANTIC CONTRACTORS » absent de la liste des plis déposés (nom mal lu ?).",
+  "« STE ATLAS TRAVAUX CONSTRUCTA MAROC » absent de la liste des plis déposés (nom mal lu ?).",
+  "« TIHIYA » absent de la liste des plis déposés (nom mal lu ?).",
+  "« ORTIS MAROC » absent de la liste des plis déposés (nom mal lu ?).",
+  "« ee d'engagements Bordereaux des prix » absent de la liste des plis déposés (nom mal lu ?).",
+  "« ELMD TRAVAUX COMPRISE COMPRISÉ/AN yéoll Gllo » absent de la liste des plis déposés (nom mal lu ?).",
+  "« De RES COMPRISE COMPRISE/AN » absent de la liste des plis déposés (nom mal lu ?).",
+  "« DE SSNERI PENSE COMPRISE COMPRISE/AN » absent de la liste des plis déposés (nom mal lu ?).",
+  "« CNRS MARQUE, COMPRISE/AN COMPRISE/AN FPE ENERUE » absent de la liste des plis déposés (nom mal lu ?).",
+  "« CONSTRUCTION ET D'AMENAGEMENT DU » absent de la liste des plis déposés (nom mal lu ?).",
+  "« BH RESEAU ET TECHNOLOGIE » : écart anormal entre montant initial et vérifié (lecture à vérifier).",
+  "« STE TARGUTE TRAVAUX » : écart anormal entre montant initial et vérifié (lecture à vérifier)."
+ ],
+ "notes_ocr": [
+  "« SOCIETE DES TRAVAUX DE CONSTRUCTION ET D'AMENAGEMENT DU BATIMENT » absent de la liste des plis déposés (nom mal lu ?).",
+  "« STE NEWTECH SAHARA » absent de la liste des plis déposés (nom mal lu ?).",
+  "« ALL PROJECTS » absent de la liste des plis déposés (nom mal lu ?).",
+  "« STE EL HENYNY SUD » absent de la liste des plis déposés (nom mal lu ?).",
+  "« yéolt Gljlo » absent de la liste des plis déposés (nom mal lu ?).",
+  "« COMPRISE/AN COMPRISE/AN » : montant rectifié de 3 846 691.20 à 3 846 667.20 DH.",
+  "« BH RESEAU ET TECHNOLOGIE » : montant rectifié de 202 880.00 à 958 596.00 DH.",
+  "« STE TARGUTE TRAVAUX » : montant rectifié de 143 516.00 à 1 202 880.00 DH.",
+  "« SOCIETE BEN ZAID BTP » : montant rectifié de 837 680.00 à 1 881 900.00 DH.",
+  "Marché alloti (5 lots)."
+ ],
+ "qualite": "complet"
+}

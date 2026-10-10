@@ -1,0 +1,56 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "967654",
+ "orgAcronyme": "u9g",
+ "reference_pv": "125/2025",
+ "nouveau": true,
+ "reference": "125/2025",
+ "objet": "de d' offres l'Education-Formation",
+ "acheteur": null,
+ "procedure": null,
+ "categorie": "Travaux",
+ "date_limite_plis": "22/12/2025",
+ "lieu_ouverture": "Siège de la Fondation",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": null,
+ "justification": null,
+ "infructueux": false,
+ "attributaire": "INFRUCTUEUX",
+ "montant_attribue": null,
+ "attributaires_par_lot": [
+  {
+   "lot": null,
+   "attributaire": "INFRUCTUEUX",
+   "montant": null
+  },
+  {
+   "lot": null,
+   "attributaire": "Appel d'offres Infructueux",
+   "montant": null
+  }
+ ],
+ "soumissionnaires": [
+  {
+   "nom": "Appel d'offres Infructueux",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 1,
+ "alertes_ocr": [
+  "Montant de l'attributaire « INFRUCTUEUX » non trouvé.",
+  "Montant de l'attributaire « Appel d'offres Infructueux » non trouvé."
+ ],
+ "notes_ocr": [
+  "Maître d'ouvrage absent du PV (utiliser l'acheteur public du portail)."
+ ],
+ "qualite": "participants"
+}

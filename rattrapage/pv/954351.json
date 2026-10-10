@@ -1,0 +1,52 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "954351",
+ "orgAcronyme": "z9k",
+ "reference_pv": "14/2025/CD",
+ "nouveau": true,
+ "reference": "14/2025/CD",
+ "objet": "Aménagement des voies urbaines",
+ "acheteur": "Commune de Demnate représentée par le président du conseil communal de Demnate",
+ "procedure": null,
+ "categorie": "Travaux",
+ "date_limite_plis": "11/11/2025",
+ "lieu_ouverture": "la salle de réunion sise au siège de la commune de Demnate",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "17/11/2025",
+ "justification": null,
+ "infructueux": false,
+ "attributaire": "Société GROUPE DIHEQUIPEMENT",
+ "montant_attribue": 2155258.8,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "Société ENDICOTRA",
+   "montant_acte_engagement": 2241336.0,
+   "montant_apres_verification": 2241336.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Société GROUPE DIHEQUIPEMENT",
+   "montant_acte_engagement": 2155258.8,
+   "montant_apres_verification": 2155258.8,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 2,
+ "alertes_ocr": [
+  "« Société ENDICOTRA » absent de la liste des plis déposés (nom mal lu ?).",
+  "« Société GROUPE DIHEQUIPEMENT » absent de la liste des plis déposés (nom mal lu ?)."
+ ],
+ "notes_ocr": [],
+ "qualite": "complet"
+}

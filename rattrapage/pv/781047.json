@@ -1,0 +1,84 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "781047",
+ "orgAcronyme": "j8k",
+ "reference_pv": "03/2024",
+ "nouveau": true,
+ "reference": "03/2024",
+ "objet": "ACHEVEMENT DES TRAVAUX DE PLANTATION ET DE CONSTRUCTION D'UN MUR DE SOUTENEMENT RIAD ERRACHIDIA",
+ "acheteur": "SOCIETE AL OMRANE DRÂA-TAFILALET",
+ "procedure": "appel d'offres ouvert",
+ "categorie": "Travaux",
+ "date_limite_plis": "13/02/2024",
+ "lieu_ouverture": "SOCIETE AL OMRANE DRÂA-TAFILALET",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": null,
+ "justification": null,
+ "infructueux": false,
+ "attributaire": "NEW VERT",
+ "montant_attribue": 901923.0,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "AMANE VERT",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_dossier_administratif_technique",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "JARDIN TRAVAUX",
+   "montant_acte_engagement": 1184954.0,
+   "montant_apres_verification": null,
+   "autres_montants": [
+    1185954.0
+   ],
+   "lots": [],
+   "statut": "ecarte_dossier_administratif_technique",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "MEJOT DES TRAVAUX GENERALE",
+   "montant_acte_engagement": 1006566.0,
+   "montant_apres_verification": null,
+   "autres_montants": [
+    1006566.0
+   ],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "SUPERINNOV",
+   "montant_acte_engagement": 867042.0,
+   "montant_apres_verification": null,
+   "autres_montants": [
+    867042.0
+   ],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "NEW VERT",
+   "montant_acte_engagement": 901923.0,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 5,
+ "alertes_ocr": [
+  "« NEW VERT » absent de la liste des plis déposés (nom mal lu ?)."
+ ],
+ "notes_ocr": [],
+ "qualite": "complet"
+}

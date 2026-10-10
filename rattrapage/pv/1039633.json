@@ -1,0 +1,51 @@
+{
+ "source": "extrait_docx",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "1039633",
+ "orgAcronyme": "g3h",
+ "reference_pv": "SAPSB/08/2026",
+ "nouveau": true,
+ "reference": "SAPSB/08/2026",
+ "objet": "TRAVAUX DE CONSTRUCTION EN BICOUCHE DE 4 PISTES TOTALISANT UN LINEAIRE DE 5.89 KM DANS LA COMMUNE DE LAAMRIA SIS PROVINCE DE SIDI BENNOUR",
+ "acheteur": null,
+ "procedure": "appel d'offres ouvert",
+ "categorie": "Travaux",
+ "date_limite_plis": "15/09/2026",
+ "lieu_ouverture": "Locaux de la société Aménagement de la province SIDI BENNOUR",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "15/09/2026",
+ "justification": "Offre économiquement la plus avantageuse",
+ "infructueux": false,
+ "attributaire": "ARSENAL MAROCAIN DE GENIE CIVIL -ARGECI-SARL",
+ "montant_attribue": 10320000.0,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "CAH sarl",
+   "montant_acte_engagement": 10402735.2,
+   "montant_apres_verification": 10402735.2,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "ARSENAL MAROCAIN DE GENIE CIVIL -ARGECI-SARL",
+   "montant_acte_engagement": 10320000.0,
+   "montant_apres_verification": 10320000.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 2,
+ "alertes_ocr": [],
+ "notes_ocr": [
+  "Maître d'ouvrage absent du PV (utiliser l'acheteur public du portail)."
+ ],
+ "qualite": "complet"
+}

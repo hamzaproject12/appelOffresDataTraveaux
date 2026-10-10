@@ -1,0 +1,94 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "742425",
+ "orgAcronyme": "a1z",
+ "reference_pv": null,
+ "nouveau": true,
+ "reference": null,
+ "objet": "TRAVAUX D'ENTRETIEN COURANT DE hosel Az TROTTOIRS, DES RUES ET GIRATOIRES EN PAVES",
+ "acheteur": null,
+ "procedure": null,
+ "categorie": "Travaux",
+ "date_limite_plis": "22/05/2023",
+ "lieu_ouverture": "Bureau de Mr le président de l’Arrondissement",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "05/06/2023",
+ "justification": null,
+ "infructueux": false,
+ "attributaire": "Société SOUSS LIGHTING",
+ "montant_attribue": 3564000.0,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "Société BOURANIME SARL",
+   "montant_acte_engagement": 4008000.0,
+   "montant_apres_verification": 4008000.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Société SOUSS LIGHTING",
+   "montant_acte_engagement": 3564000.0,
+   "montant_apres_verification": 3564000.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Société CO RIAM",
+   "montant_acte_engagement": 4068000.0,
+   "montant_apres_verification": 4068000.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Société GESTRAD",
+   "montant_acte_engagement": 4188000.0,
+   "montant_apres_verification": 4188000.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Société AUGUST",
+   "montant_acte_engagement": 5066400.0,
+   "montant_apres_verification": 5066400.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Société KHALIFA PLANTE",
+   "montant_acte_engagement": 4704000.0,
+   "montant_apres_verification": 4704000.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 6,
+ "alertes_ocr": [
+  "« Société BOURANIME SARL » absent de la liste des plis déposés (nom mal lu ?).",
+  "« Société SOUSS LIGHTING » absent de la liste des plis déposés (nom mal lu ?).",
+  "« Société CO RIAM » absent de la liste des plis déposés (nom mal lu ?).",
+  "« Société GESTRAD » absent de la liste des plis déposés (nom mal lu ?).",
+  "« Société AUGUST » absent de la liste des plis déposés (nom mal lu ?).",
+  "« Société KHALIFA PLANTE » absent de la liste des plis déposés (nom mal lu ?)."
+ ],
+ "notes_ocr": [
+  "Maître d'ouvrage absent du PV (utiliser l'acheteur public du portail)."
+ ],
+ "qualite": "complet"
+}

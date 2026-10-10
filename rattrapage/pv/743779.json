@@ -1,0 +1,67 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "743779",
+ "orgAcronyme": "q0x",
+ "reference_pv": "02/2023",
+ "nouveau": true,
+ "reference": "02/2023",
+ "objet": "du marché : Travaux d'aménagement des ruelles au centre Ain Jemaa",
+ "acheteur": "Commune Ain Jemaa, Préfecture de Meknès",
+ "procedure": "appel d'offres ouvert",
+ "categorie": "Travaux",
+ "date_limite_plis": "05/09/2023",
+ "lieu_ouverture": "Bureau du président de la commune",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "22/09/2023",
+ "justification": "Le moins disant",
+ "infructueux": false,
+ "attributaire": "Société ABMB sarl",
+ "montant_attribue": 1145160.0,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "Société TIRA TRAVAUX sarl",
+   "montant_acte_engagement": 1213800.0,
+   "montant_apres_verification": 1213800.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Société ABMB sarl",
+   "montant_acte_engagement": 1145160.0,
+   "montant_apres_verification": 1145160.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": true
+  },
+  {
+   "nom": "Groupement : Société AIN JERRY INVEST sarl AU et Société SALAMA CARRELAGE sarl",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_dossier_administratif_technique",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Société ENTIB DE TRAVAUX sarl AU",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_dossier_administratif_technique",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 4,
+ "alertes_ocr": [],
+ "notes_ocr": [],
+ "qualite": "complet"
+}

@@ -1,0 +1,96 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "898153",
+ "orgAcronyme": "o8p",
+ "reference_pv": null,
+ "nouveau": true,
+ "reference": null,
+ "objet": null,
+ "acheteur": "Direction du ports de Safi et Région",
+ "procedure": null,
+ "categorie": "Travaux",
+ "date_limite_plis": null,
+ "lieu_ouverture": "Direction du ports de Safi et Région",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "16/05/2025",
+ "justification": null,
+ "infructueux": false,
+ "attributaire": "SIGNIALISATION ROUTIERE MARRAKECH",
+ "montant_attribue": 522100.0,
+ "attributaires_par_lot": [
+  {
+   "lot": null,
+   "attributaire": "SIGNIALISATION ROUTIERE MARRAKECH",
+   "montant": 522100.0
+  },
+  {
+   "lot": null,
+   "attributaire": "LIBERATION",
+   "montant": 522100.0
+  },
+  {
+   "lot": null,
+   "attributaire": "PUBLICITE DE L’AVIS D’APPEL",
+   "montant": 619560.0
+  }
+ ],
+ "soumissionnaires": [
+  {
+   "nom": "SECTOB SARL",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "depose",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "TECNITAS",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "depose",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "SIGNIALISATION ROUTIERE MARRAKECH",
+   "montant_acte_engagement": 522100.0,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "LIBERATION",
+   "montant_acte_engagement": 522100.0,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "PUBLICITE DE L’AVIS D’APPEL",
+   "montant_acte_engagement": 619560.0,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 5,
+ "alertes_ocr": [
+  "« SIGNIALISATION ROUTIERE MARRAKECH » absent de la liste des plis déposés (nom mal lu ?).",
+  "« LIBERATION » absent de la liste des plis déposés (nom mal lu ?).",
+  "« PUBLICITE DE L’AVIS D’APPEL » absent de la liste des plis déposés (nom mal lu ?)."
+ ],
+ "notes_ocr": [],
+ "qualite": "attribution"
+}

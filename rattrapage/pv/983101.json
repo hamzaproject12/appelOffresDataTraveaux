@@ -1,0 +1,81 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "983101",
+ "orgAcronyme": "g3h",
+ "reference_pv": "10003541",
+ "nouveau": true,
+ "reference": "10003541",
+ "objet": "Réhabilitation du réseau d'eau potable des Douars et Centres des Communes relevant des Provinces de FIGUIG et de JERADA Lot 1 : Province de FIGUIG",
+ "acheteur": null,
+ "procedure": null,
+ "categorie": "Travaux",
+ "date_limite_plis": "06/01/2026",
+ "lieu_ouverture": "Siège de la SRM-ORI",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": null,
+ "justification": "offre moins disante oar lot (l'attribution pour chaoue concurrent n'est pas limitee).",
+ "infructueux": false,
+ "attributaire": "SMYBAM",
+ "montant_attribue": 6906496.8,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "SMYBAM",
+   "montant_acte_engagement": 6906496.8,
+   "montant_apres_verification": null,
+   "autres_montants": [
+    8184247.2,
+    6906496.8
+   ],
+   "lots": [
+    "1",
+    "2"
+   ],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "HOLDING AL BARAKA",
+   "montant_acte_engagement": 7766546.4,
+   "montant_apres_verification": null,
+   "autres_montants": [
+    7766546.4
+   ],
+   "lots": [
+    "1",
+    "2"
+   ],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "OUÙUJDA CHAUFFAGE",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_dossier_administratif_technique",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "ENTREPRISE AZLOU DE TRAVAUX ET D’EQUIPEMENT",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "depose",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 4,
+ "alertes_ocr": [],
+ "notes_ocr": [
+  "Marché alloti (2 lots).",
+  "Maître d'ouvrage absent du PV (utiliser l'acheteur public du portail)."
+ ],
+ "qualite": "complet"
+}

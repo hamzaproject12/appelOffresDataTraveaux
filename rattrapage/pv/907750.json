@@ -1,0 +1,81 @@
+{
+ "source": "extrait_docx",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "907750",
+ "orgAcronyme": "g3h",
+ "reference_pv": null,
+ "nouveau": true,
+ "reference": null,
+ "objet": "Travaux d’aménagement des pistes a travers les communes d’Ouled Tayeb et Ain Baida a la Préfecture de Fès",
+ "acheteur": "Préfecture de Fès",
+ "procedure": "appel d'offres ouvert national",
+ "categorie": "Travaux",
+ "date_limite_plis": "02/06/2025",
+ "lieu_ouverture": "La Préfecture de Fès salle de réunions : La Préfecture de Fès salle de réunions",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "17/06/2025",
+ "justification": "L’Offre la plus avantageuse.",
+ "infructueux": false,
+ "attributaire": "Société SERGHINA TRAVAUX",
+ "montant_attribue": 1112080.62,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "Société DEVELOPPEMENT DE TRAVAUX DIVERS",
+   "montant_acte_engagement": 184738.88,
+   "montant_apres_verification": 184738.88,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Société TRAVAUX.FGR",
+   "montant_acte_engagement": 168453.2,
+   "montant_apres_verification": 184738.88,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Société SERGHINA TRAVAUX",
+   "montant_acte_engagement": 112080.62,
+   "montant_apres_verification": 168453.2,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Société ELFAKIR DE CONSTRUCTION ET TRAVAUX",
+   "montant_acte_engagement": 319088.72,
+   "montant_apres_verification": 112080.62,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Société HINATRA",
+   "montant_acte_engagement": 264433.4,
+   "montant_apres_verification": 319088.72,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_offre_financiere",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 5,
+ "alertes_ocr": [],
+ "notes_ocr": [
+  "« Société TRAVAUX.FGR » : montant rectifié de 168 453.20 à 184 738.88 DH.",
+  "« Société SERGHINA TRAVAUX » : montant rectifié de 112 080.62 à 168 453.20 DH.",
+  "« Société ELFAKIR DE CONSTRUCTION ET TRAVAUX » : montant rectifié de 319 088.72 à 112 080.62 DH.",
+  "« Société HINATRA » : montant rectifié de 264 433.40 à 319 088.72 DH."
+ ],
+ "qualite": "complet"
+}

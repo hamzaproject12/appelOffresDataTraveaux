@@ -1,0 +1,125 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "875981",
+ "orgAcronyme": "g3h",
+ "reference_pv": "526/2025/CAN-RF-L1",
+ "nouveau": true,
+ "reference": "526/2025/CAN-RF-L1",
+ "objet": "Travaux de ravalement de façades au niveau de la ville de Casablanca — Loti — Lot2",
+ "acheteur": "Société CASABLANCA AMÉNAGEMENT",
+ "procedure": null,
+ "categorie": "Travaux",
+ "date_limite_plis": "13/02/2025",
+ "lieu_ouverture": "Salle de réunion de CASABLANCA AMÉNAGEMENT S.A",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "03/03/2025",
+ "justification": "Ÿ La meilleure combinaison des offres permettant au maître d'ouvrage de retenir l'offre globale la plus avantageuse pour l’ensemble des lots.",
+ "infructueux": false,
+ "attributaire": "Société ZAMANE EL KHEIR",
+ "montant_attribue": 5202000.0,
+ "attributaires_par_lot": [
+  {
+   "lot": "1",
+   "attributaire": "Société ZAMANE EL KHEIR",
+   "montant": 5202000.0
+  },
+  {
+   "lot": "2",
+   "attributaire": "Société ENTC",
+   "montant": 4497600.0
+  }
+ ],
+ "soumissionnaires": [
+  {
+   "nom": "Société HUB DE GENIE CIVIL 1 Société HARANITRAV",
+   "montant_acte_engagement": 6447720.0,
+   "montant_apres_verification": null,
+   "autres_montants": [
+    6447720.0
+   ],
+   "lots": [
+    "1"
+   ],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Société NIZAOUI TRAVAUX 2 Société NIZAOUI TRAVAUX",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [
+    "1"
+   ],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Société ZAMANE EL KHEIR",
+   "montant_acte_engagement": 5202000.0,
+   "montant_apres_verification": null,
+   "autres_montants": [
+    5202000.0,
+    3851880.0
+   ],
+   "lots": [
+    "1",
+    "2"
+   ],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Société ENTC 4 Société ENTC",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [
+    "1"
+   ],
+   "statut": "depose",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Société MATRANEG",
+   "montant_acte_engagement": 5923200.0,
+   "montant_apres_verification": null,
+   "autres_montants": [
+    5923200.0
+   ],
+   "lots": [
+    "1",
+    "2"
+   ],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Société ENTC",
+   "montant_acte_engagement": 6485880.0,
+   "montant_apres_verification": null,
+   "autres_montants": [
+    6485880.0,
+    4497600.0
+   ],
+   "lots": [
+    "1",
+    "2"
+   ],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 6,
+ "alertes_ocr": [
+  "« Société ENTC » absent de la liste des plis déposés (nom mal lu ?)."
+ ],
+ "notes_ocr": [
+  "Marché alloti (2 lots)."
+ ],
+ "qualite": "complet"
+}

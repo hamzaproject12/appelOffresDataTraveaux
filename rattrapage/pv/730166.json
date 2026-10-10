@@ -1,0 +1,54 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "730166",
+ "orgAcronyme": "d4q",
+ "reference_pv": "78/DR1/D/2021",
+ "nouveau": true,
+ "reference": "78/DR1/D/2021",
+ "objet": "site DN 400 mm entre l’adduction Aoulouz et le futur réservoir 2000 m3 - Date et heure d'ouverture des plis : 27/09/2021 10:00 (Ouverture en un seul temps) - Lieu d'ouverture des plis : au Siège de la Direction Régionale du Sud (DR1) - Rue 18",
+ "acheteur": null,
+ "procedure": "appel d'offres ouvert",
+ "categorie": "Travaux",
+ "date_limite_plis": "27/09/2021",
+ "lieu_ouverture": "au Siège de la Direction Régionale du Sud (DR1) - Rue 18 Novembre Quartier Industriel - Agadir - Maroc EGCA",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "03/01/2022",
+ "justification": "Moins-disant",
+ "infructueux": false,
+ "attributaire": null,
+ "montant_attribue": null,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "site DN 400 mm entre l’adduction Aoulouz et le futur réservoir 2000 m3",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "depose",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "SOCIETE NOUVELLE TRAVAUX MAROC (SNTM)",
+   "montant_acte_engagement": 25767000.0,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 2,
+ "alertes_ocr": [
+  "« SOCIETE NOUVELLE TRAVAUX MAROC (SNTM) » absent de la liste des plis déposés (nom mal lu ?).",
+  "Attributaire non trouvé."
+ ],
+ "notes_ocr": [
+  "Maître d'ouvrage absent du PV (utiliser l'acheteur public du portail)."
+ ],
+ "qualite": "attribution"
+}

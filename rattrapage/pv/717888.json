@@ -1,0 +1,69 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "717888",
+ "orgAcronyme": "g3h",
+ "reference_pv": "A/016/23",
+ "nouveau": true,
+ "reference": "A/016/23",
+ "objet": "Travaux de réalisation de l'unité de séchage solaire des boues issues de la STEP de Kenitra",
+ "acheteur": "Régie Autonome Intercommunale de Distribution d'Eau, D'Electricité et d'Assainissement Liquide de la Province de KENITRA (RAK)",
+ "procedure": "appel d'offres ouvert",
+ "categorie": "Travaux",
+ "date_limite_plis": "04/04/2023",
+ "lieu_ouverture": "Siège RAK - KENITRA",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "30/05/2023",
+ "justification": "- Dossiers administratif, technique et offre technique conformes aux exigences du dossier d'appel d'offres. - Offre avantageuse répondant aux critères d'évaluation du règlement de la consultation et du Règlement relatif aux marchés publics de la RAK.",
+ "infructueux": false,
+ "attributaire": "ENVIRONMENT AND ENERGY TECHNOLOGIES INC",
+ "montant_attribue": 99180000.0,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "Groupement : NGE CONTRACTING/WATER LEAU/THERMO SYSTEM",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_dossier_administratif_technique",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Groupement :SAHEL ET SAHARA/REDCO PROCESS ENVIRONMENT AND ENERGY TECHNOLOGIES",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Groupement : ATNER/LES GRANDS TRAVAUX ROUTIERS",
+   "montant_acte_engagement": 121509646.8,
+   "montant_apres_verification": 121509646.8,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "ENVIRONMENT AND ENERGY TECHNOLOGIES INC",
+   "montant_acte_engagement": 99180000.0,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 4,
+ "alertes_ocr": [
+  "« ENVIRONMENT AND ENERGY TECHNOLOGIES INC » absent de la liste des plis déposés (nom mal lu ?)."
+ ],
+ "notes_ocr": [],
+ "qualite": "complet"
+}

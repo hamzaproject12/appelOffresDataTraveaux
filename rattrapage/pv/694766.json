@@ -1,0 +1,53 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "694766",
+ "orgAcronyme": "j8k",
+ "reference_pv": null,
+ "nouveau": true,
+ "reference": null,
+ "objet": "de lot d’ouverture d’achèvement retenu l'offre retenue des plis des travaux (TTC) de la",
+ "acheteur": null,
+ "procedure": "appel d'offres ouvert",
+ "categorie": "Travaux",
+ "date_limite_plis": "16/01/2023",
+ "lieu_ouverture": "AI Omane Casablanca -— Settat",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "24/01/2023",
+ "justification": "Offre financière la plus avantageuse",
+ "infructueux": false,
+ "attributaire": "NAPCO SARL",
+ "montant_attribue": 192602.4,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "NAPCO SARL - G.R.C.T",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "NAPCO SARL",
+   "montant_acte_engagement": 192602.4,
+   "montant_apres_verification": 192602.4,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 2,
+ "alertes_ocr": [
+  "« NAPCO SARL » absent de la liste des plis déposés (nom mal lu ?)."
+ ],
+ "notes_ocr": [
+  "Maître d'ouvrage absent du PV (utiliser l'acheteur public du portail)."
+ ],
+ "qualite": "attribution"
+}

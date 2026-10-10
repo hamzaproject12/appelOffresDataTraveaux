@@ -1,0 +1,93 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "1043920",
+ "orgAcronyme": "s3z",
+ "reference_pv": "10/2026",
+ "nouveau": true,
+ "reference": "10/2026",
+ "objet": "Travaux d'entretien et de réalisation de la signalisation routière à la commune Ain Attig",
+ "acheteur": "commune d’Ain attig",
+ "procedure": "appel d'offres ouvert national",
+ "categorie": "Travaux",
+ "date_limite_plis": "07/09/2026",
+ "lieu_ouverture": "la salle de réunion de la commune d’Ain Attig",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "22/09/2026",
+ "justification": "L'offre présentée par la société PEARL WORKS SARL AU est l'offre la plus avantageuse.",
+ "infructueux": false,
+ "attributaire": "STE PEARL WORKS SARL AU",
+ "montant_attribue": 619558.8,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "LA LIGNE BLANCHE SA",
+   "montant_acte_engagement": 743527.2,
+   "montant_apres_verification": 743527.2,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "PROFESSIONNELLE DE",
+   "montant_acte_engagement": 605616.0,
+   "montant_apres_verification": 605616.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "SIGNALISATION SA",
+   "montant_acte_engagement": 611556.0,
+   "montant_apres_verification": 611556.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "STE PEARL WORKS SARL AU",
+   "montant_acte_engagement": 619558.8,
+   "montant_apres_verification": 619558.8,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "VIADOR SARL",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_dossier_administratif_technique",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "OUMLIL LINE SARL",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_dossier_administratif_technique",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 6,
+ "alertes_ocr": [
+  "« LA LIGNE BLANCHE SA » absent de la liste des plis déposés (nom mal lu ?).",
+  "« PROFESSIONNELLE DE » absent de la liste des plis déposés (nom mal lu ?).",
+  "« SIGNALISATION SA » absent de la liste des plis déposés (nom mal lu ?).",
+  "« STE PEARL WORKS SARL AU » absent de la liste des plis déposés (nom mal lu ?)."
+ ],
+ "notes_ocr": [
+  "« VIADOR SARL » absent de la liste des plis déposés (nom mal lu ?).",
+  "« OUMLIL LINE SARL » absent de la liste des plis déposés (nom mal lu ?)."
+ ],
+ "qualite": "complet"
+}

@@ -1,0 +1,95 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "681861",
+ "orgAcronyme": "d4q",
+ "reference_pv": "84DR3/2022",
+ "nouveau": true,
+ "reference": "84DR3/2022",
+ "objet": null,
+ "acheteur": null,
+ "procedure": null,
+ "categorie": "Travaux",
+ "date_limite_plis": null,
+ "lieu_ouverture": "Direction régionale du Centre - Khouribga",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": null,
+ "justification": null,
+ "infructueux": false,
+ "attributaire": "ONEE – Branche Eau",
+ "montant_attribue": null,
+ "attributaires_par_lot": [
+  {
+   "lot": null,
+   "attributaire": "ONEE – Branche Eau",
+   "montant": null
+  },
+  {
+   "lot": null,
+   "attributaire": "EXTRAIT DU PROCES VERBAL DES SEANCES DE L’APPEL D’OFFRES",
+   "montant": null
+  },
+  {
+   "lot": null,
+   "attributaire": "Lieu d’ouverture des plis Direction régionale du Centre - Khouribga",
+   "montant": null
+  },
+  {
+   "lot": null,
+   "attributaire": "Journaux ayant publié l’avis de publicité Le Matin",
+   "montant": null
+  }
+ ],
+ "soumissionnaires": [
+  {
+   "nom": "ONEE – Branche Eau",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "EXTRAIT DU PROCES VERBAL DES SEANCES DE L’APPEL D’OFFRES",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Lieu d’ouverture des plis Direction régionale du Centre - Khouribga",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Journaux ayant publié l’avis de publicité Le Matin",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 4,
+ "alertes_ocr": [
+  "Montant de l'attributaire « ONEE – Branche Eau » non trouvé.",
+  "Montant de l'attributaire « EXTRAIT DU PROCES VERBAL DES SEANCES DE L’APPEL D’OFFRES » non trouvé.",
+  "Montant de l'attributaire « Lieu d’ouverture des plis Direction régionale du Centre - Khouribga » non trouvé.",
+  "Montant de l'attributaire « Journaux ayant publié l’avis de publicité Le Matin » non trouvé."
+ ],
+ "notes_ocr": [
+  "Maître d'ouvrage absent du PV (utiliser l'acheteur public du portail)."
+ ],
+ "qualite": "participants"
+}

@@ -1,0 +1,63 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "707271",
+ "orgAcronyme": "d4q",
+ "reference_pv": "16/A/2023",
+ "nouveau": true,
+ "reference": "16/A/2023",
+ "objet": "Achèvement des travaux d'assainissement liquide du centre SIDI ALI I BOURAKBA",
+ "acheteur": "s RADEE.TA",
+ "procedure": null,
+ "categorie": "Travaux",
+ "date_limite_plis": "12/04/2023",
+ "lieu_ouverture": "Siège de la RADEE.TA",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": null,
+ "justification": "Offres jugée excessive",
+ "infructueux": true,
+ "attributaire": null,
+ "montant_attribue": null,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "3, CAH",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "depose",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Société SADE CGTH",
+   "montant_acte_engagement": 13585270.08,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "R.I.B AWB. succursal entreprise Hassan II Taza",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 3,
+ "alertes_ocr": [
+  "« R.I.B AWB. succursal entreprise Hassan II Taza » : montant illisible (7 690 000 944 700 000 DH)  écarté.",
+  "« Société SADE CGTH » absent de la liste des plis déposés (nom mal lu ?)."
+ ],
+ "notes_ocr": [
+  "« R.I.B AWB. succursal entreprise Hassan II Taza » absent de la liste des plis déposés (nom mal lu ?)."
+ ],
+ "qualite": "attribution"
+}

@@ -1,0 +1,80 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "926866",
+ "orgAcronyme": "g3h",
+ "reference_pv": "04/25/ASST/R",
+ "nouveau": true,
+ "reference": "04/25/ASST/R",
+ "objet": "Mise à niveau et normalisation des stations de pompage. -Lieu d’exécution : préfecture de Marrakech",
+ "acheteur": "SRM-MS",
+ "procedure": "appel d'offres ouvert",
+ "categorie": "Travaux",
+ "date_limite_plis": "24/06/2025",
+ "lieu_ouverture": "Siège de la SRM-MS Boulevard Mohamed VI MARRAKECH",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": null,
+ "justification": "Offre la moins disante. \\ |",
+ "infructueux": false,
+ "attributaire": "HYDROSYSTEMES",
+ "montant_attribue": 9873414.0,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "UBAC",
+   "montant_acte_engagement": 11112978.0,
+   "montant_apres_verification": null,
+   "autres_montants": [
+    11112978.0
+   ],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "ART BINAV",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_dossier_administratif_technique",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "ALOUSS",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "depose",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "SEHI",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_dossier_administratif_technique",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "HYDROSYSTEMES",
+   "montant_acte_engagement": 9873414.0,
+   "montant_apres_verification": null,
+   "autres_montants": [
+    9873414.0
+   ],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 5,
+ "alertes_ocr": [],
+ "notes_ocr": [],
+ "qualite": "complet"
+}

@@ -1,0 +1,84 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "770943",
+ "orgAcronyme": "p8x",
+ "reference_pv": "32/TS/2023",
+ "nouveau": true,
+ "reference": "32/TS/2023",
+ "objet": "Travaux de Construction d’une Partie des Murs de Clôture des établissements Scolaires relevant de la Direction Provinciale de Salé : Collèges : « HALIMA ASSAADIA » - «AL BOUSTANE » à H’ssain et « OKBA IBNOU NAFIAA » à Lamrissa - Préfecture de Salé, en lot",
+ "acheteur": "Le Directeur Provinciale de Sale",
+ "procedure": "appel d'offres ouvert",
+ "categorie": "Travaux",
+ "date_limite_plis": "06/12/2023",
+ "lieu_ouverture": "les bureaux de la Direction Provinciale de Salé, Sise à Rue Al madariss Rmel »",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": null,
+ "justification": null,
+ "infructueux": false,
+ "attributaire": null,
+ "montant_attribue": null,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "VRDINGTRANS SARL",
+   "montant_acte_engagement": 314310.0,
+   "montant_apres_verification": 314310.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "GREENWOODS CONSTRUCTION SARL AU",
+   "montant_acte_engagement": 323304.0,
+   "montant_apres_verification": 323304.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Sté. BATEV SARL AU",
+   "montant_acte_engagement": 310775.2,
+   "montant_apres_verification": 310775.2,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "SEBB SARL",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_dossier_administratif_technique",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "SARL AU",
+   "montant_acte_engagement": 341754.0,
+   "montant_apres_verification": 341754.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 5,
+ "alertes_ocr": [
+  "« VRDINGTRANS SARL » absent de la liste des plis déposés (nom mal lu ?).",
+  "« GREENWOODS CONSTRUCTION SARL AU » absent de la liste des plis déposés (nom mal lu ?).",
+  "« Sté. BATEV SARL AU » absent de la liste des plis déposés (nom mal lu ?).",
+  "« SARL AU » absent de la liste des plis déposés (nom mal lu ?).",
+  "Attributaire non trouvé."
+ ],
+ "notes_ocr": [
+  "« SEBB SARL » absent de la liste des plis déposés (nom mal lu ?)."
+ ],
+ "qualite": "complet"
+}

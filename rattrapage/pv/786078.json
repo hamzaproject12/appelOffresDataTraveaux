@@ -1,0 +1,185 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "786078",
+ "orgAcronyme": "q1s",
+ "reference_pv": null,
+ "nouveau": true,
+ "reference": null,
+ "objet": "la réalisation des études techniques et suivi des travaux de construction des marchés de détail au poisson à Sidi Slimane Chra'a (Berkane), Oujda, Essaouira, Dakhla et Guelmim, en cinq (5) lots séparés",
+ "acheteur": "OFFICE NATIONAL DES PECHES",
+ "procedure": null,
+ "categorie": "Travaux",
+ "date_limite_plis": "20/03/2024",
+ "lieu_ouverture": "Office National des Pêches, sis 15, rue du Lieutenant Mohamed Mahroud à Casablanca",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "08/04/2024",
+ "justification": "l'offre la moins disante.",
+ "infructueux": false,
+ "attributaire": "RENGYTECH",
+ "montant_attribue": 75015.0,
+ "attributaires_par_lot": [
+  {
+   "lot": "1",
+   "attributaire": "RENGYTECH",
+   "montant": 75015.0
+  },
+  {
+   "lot": "2",
+   "attributaire": "RENGYTECH",
+   "montant": 52515.0
+  },
+  {
+   "lot": "3",
+   "attributaire": "Monsieur Abdelhamid DEBBAGH",
+   "montant": 75600.0
+  },
+  {
+   "lot": "4",
+   "attributaire": "BACET",
+   "montant": 49980.0
+  },
+  {
+   "lot": "5",
+   "attributaire": "EXPERT ETUDES ET INGENIERIE",
+   "montant": 69600.0
+  }
+ ],
+ "soumissionnaires": [
+  {
+   "nom": "Monsieur Abdelhamid DEBBAGH",
+   "montant_acte_engagement": 95880.0,
+   "montant_apres_verification": null,
+   "autres_montants": [
+    95880.0,
+    82800.0,
+    75600.0,
+    82200.0,
+    93600.0
+   ],
+   "lots": [
+    "1",
+    "2",
+    "3",
+    "4",
+    "5"
+   ],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "BACET",
+   "montant_acte_engagement": 49980.0,
+   "montant_apres_verification": null,
+   "autres_montants": [
+    49980.0,
+    69996.0
+   ],
+   "lots": [
+    "4",
+    "5"
+   ],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "RENGYTECH",
+   "montant_acte_engagement": 75015.0,
+   "montant_apres_verification": null,
+   "autres_montants": [
+    75015.0,
+    52515.0,
+    79200.0,
+    82800.0,
+    75200.0
+   ],
+   "lots": [
+    "1",
+    "2",
+    "3",
+    "4",
+    "5"
+   ],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "GOLD PROJECTS",
+   "montant_acte_engagement": 76120.0,
+   "montant_apres_verification": null,
+   "autres_montants": [
+    75120.0
+   ],
+   "lots": [
+    "1"
+   ],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "ROC SOL INGENIERIE",
+   "montant_acte_engagement": 109980.0,
+   "montant_apres_verification": null,
+   "autres_montants": [
+    109980.0,
+    144960.0
+   ],
+   "lots": [
+    "4",
+    "5"
+   ],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "EXPERT ETUDES ET INGENIERIE",
+   "montant_acte_engagement": 69600.0,
+   "montant_apres_verification": null,
+   "autres_montants": [
+    69600.0
+   ],
+   "lots": [
+    "5"
+   ],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "GROUPEMENT NORTH AFRICA STUDIES ET OBTEL",
+   "montant_acte_engagement": 96000.0,
+   "montant_apres_verification": null,
+   "autres_montants": [
+    896000.0
+   ],
+   "lots": [
+    "1"
+   ],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "LEAD ENGINEERING",
+   "montant_acte_engagement": 119023.81,
+   "montant_apres_verification": null,
+   "autres_montants": [
+    119023.81,
+    83323.82
+   ],
+   "lots": [
+    "1",
+    "2"
+   ],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 8,
+ "alertes_ocr": [],
+ "notes_ocr": [
+  "Marché alloti (5 lots)."
+ ],
+ "qualite": "complet"
+}

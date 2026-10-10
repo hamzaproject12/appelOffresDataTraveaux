@@ -1,0 +1,97 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "733726",
+ "orgAcronyme": "y5l",
+ "reference_pv": "02/CR-RABAT/2023",
+ "nouveau": true,
+ "reference": "02/CR-RABAT/2023",
+ "objet": "Travaux d'aménagement du siège de la coordination régionale de l’Entraide Nationale à Rabat (lot unique)",
+ "acheteur": "Coordination Régionale de l’Entraide Nationale de la Région à Rabat",
+ "procedure": "appel d'offres ouvert",
+ "categorie": "Travaux",
+ "date_limite_plis": "27/07/2023",
+ "lieu_ouverture": "Siège de la Coordination Régionale de l’Entraide Nationale de la Région de Rabat Salé Kenitra sise : 3 Rue Abou Fariss AI Marini Place Chili Hassan- Rabat",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "02/08/2023",
+ "justification": "Il s’agit de l’offre le moins disante et la plus intéressante par la commission d'appel d’offres.",
+ "infructueux": false,
+ "attributaire": "Sté HGMT",
+ "montant_attribue": 575364.0,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "ABDEI CONSTRUCTION SARL",
+   "montant_acte_engagement": 598966.8,
+   "montant_apres_verification": null,
+   "autres_montants": [
+    598966.8
+   ],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": true
+  },
+  {
+   "nom": "Ste SOUTH ETUDE ET TRAVAUX",
+   "montant_acte_engagement": 682220.4,
+   "montant_apres_verification": null,
+   "autres_montants": [
+    682220.4
+   ],
+   "lots": [],
+   "statut": "ecarte_offre_financiere",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Ste GLOB TRAVAUX DIVERS (soumission électronique)",
+   "montant_acte_engagement": 623000.4,
+   "montant_apres_verification": null,
+   "autres_montants": [
+    623000.4
+   ],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Ste RABAT BETON SARL (soumission électronique)",
+   "montant_acte_engagement": 636114.0,
+   "montant_apres_verification": null,
+   "autres_montants": [
+    636114.0
+   ],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Ste TRAVAUX TASSA ASGAOUR SARL (soumission électronique)",
+   "montant_acte_engagement": 617200.8,
+   "montant_apres_verification": null,
+   "autres_montants": [
+    617200.8
+   ],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Sté HGMT",
+   "montant_acte_engagement": 575364.0,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 6,
+ "alertes_ocr": [
+  "« Sté HGMT » absent de la liste des plis déposés (nom mal lu ?)."
+ ],
+ "notes_ocr": [],
+ "qualite": "complet"
+}

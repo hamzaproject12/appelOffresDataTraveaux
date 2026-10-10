@@ -1,0 +1,122 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "692306",
+ "orgAcronyme": "d4q",
+ "reference_pv": null,
+ "nouveau": true,
+ "reference": null,
+ "objet": "Renforcement d’AEP des douars relevant des Communes de Isly et Ahl Angad — Préfecture Oujda Angad",
+ "acheteur": null,
+ "procedure": "appel d'offres ouvert",
+ "categorie": "Travaux",
+ "date_limite_plis": "27/12/2022",
+ "lieu_ouverture": "au Siège de la Direction Régionale de l'Oriental (DR6) Place 18 Mars 2003 - Oujda - Maroc",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "02/02/2023",
+ "justification": "Moins-disant",
+ "infructueux": false,
+ "attributaire": "INEW",
+ "montant_attribue": 607320.0,
+ "attributaires_par_lot": [
+  {
+   "lot": null,
+   "attributaire": "INEW",
+   "montant": 607320.0
+  },
+  {
+   "lot": null,
+   "attributaire": "à 1 & fe ste è it » Fa",
+   "montant": null
+  }
+ ],
+ "soumissionnaires": [
+  {
+   "nom": "ABB EAUX TRAVAUX 5 MAROC",
+   "montant_acte_engagement": 819000.0,
+   "montant_apres_verification": null,
+   "autres_montants": [
+    819000.0
+   ],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "EL HOURIA HOLDING MAROC à",
+   "montant_acte_engagement": 679999.2,
+   "montant_apres_verification": null,
+   "autres_montants": [
+    679999.2
+   ],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "INEW",
+   "montant_acte_engagement": 607320.0,
+   "montant_apres_verification": null,
+   "autres_montants": [
+    607320.0
+   ],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "IPH MAROC",
+   "montant_acte_engagement": 739440.0,
+   "montant_apres_verification": null,
+   "autres_montants": [
+    739440.0
+   ],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "JELLOULI MOSTAPHA MAROC",
+   "montant_acte_engagement": 679800.0,
+   "montant_apres_verification": null,
+   "autres_montants": [
+    679800.0
+   ],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "OUJDA CHAUFFAGE MAROC",
+   "montant_acte_engagement": 616200.0,
+   "montant_apres_verification": null,
+   "autres_montants": [
+    616200.0
+   ],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "à 1 & fe ste è it » Fa",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 7,
+ "alertes_ocr": [
+  "« à 1 & fe ste è it » Fa » absent de la liste des plis déposés (nom mal lu ?).",
+  "Montant de l'attributaire « à 1 & fe ste è it » Fa » non trouvé."
+ ],
+ "notes_ocr": [
+  "Maître d'ouvrage absent du PV (utiliser l'acheteur public du portail)."
+ ],
+ "qualite": "complet"
+}

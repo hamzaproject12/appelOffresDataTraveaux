@@ -1,0 +1,69 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "733249",
+ "orgAcronyme": "s3d",
+ "reference_pv": "07/2023",
+ "nouveau": true,
+ "reference": "07/2023",
+ "objet": "Travaux d'aménagement du centre d'accueil AL MAGHREB AL ARABI d'Oujda relevant de la",
+ "acheteur": null,
+ "procedure": "appel d'offres ouvert",
+ "categorie": "Travaux",
+ "date_limite_plis": null,
+ "lieu_ouverture": "SIEGE DE LA DIRECTION REGIONALE DU LA JEUNESSE, DE L'ORIENTAL",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": null,
+ "justification": "L'Offre la moins-disant de montant 2 368 396.79 DHS",
+ "infructueux": false,
+ "attributaire": "Ste BENZI",
+ "montant_attribue": 2368396.79,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "Ste BHGC",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_dossier_administratif_technique",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Ste BENZI",
+   "montant_acte_engagement": 2368396.79,
+   "montant_apres_verification": 2368396.79,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "STE SONTRAP",
+   "montant_acte_engagement": 2288569.92,
+   "montant_apres_verification": 2288569.92,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_dossier_administratif_technique",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Ste LANWAR",
+   "montant_acte_engagement": 2649532.96,
+   "montant_apres_verification": 2649532.96,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 4,
+ "alertes_ocr": [],
+ "notes_ocr": [
+  "Maître d'ouvrage absent du PV (utiliser l'acheteur public du portail)."
+ ],
+ "qualite": "complet"
+}

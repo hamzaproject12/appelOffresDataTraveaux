@@ -1,0 +1,58 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "953738",
+ "orgAcronyme": "z7x",
+ "reference_pv": "05/2025/FMPO",
+ "nouveau": true,
+ "reference": "05/2025/FMPO",
+ "objet": "Travaux d'aménagement pour le laboratoire de biochimie de la faculté de médecine et de pharmacie d’Oujda en lot unique",
+ "acheteur": "Le Doyen de la faculté de médecine et de pharmacie d’Oujda",
+ "procedure": null,
+ "categorie": "Travaux",
+ "date_limite_plis": "10/11/2025",
+ "lieu_ouverture": "La salle de réunion de la faculté de médecine et de pharmacie d’Oujda",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "19/11/2025",
+ "justification": "Offre la mieux disante.",
+ "infructueux": false,
+ "attributaire": "Société PARA BAT",
+ "montant_attribue": 346089.6,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "Société BARTHOLDINNOV",
+   "montant_acte_engagement": 316800.0,
+   "montant_apres_verification": 316800.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Société PARA BAT",
+   "montant_acte_engagement": 346089.6,
+   "montant_apres_verification": 346089.6,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Société LATIFA TRAVAUX DIVERS",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_dossier_administratif_technique",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 3,
+ "alertes_ocr": [],
+ "notes_ocr": [],
+ "qualite": "complet"
+}

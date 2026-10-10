@@ -1,0 +1,60 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "984463",
+ "orgAcronyme": "f9f",
+ "reference_pv": "02/2025",
+ "nouveau": true,
+ "reference": "02/2025",
+ "objet": "Construction d’un réservoir d'eau (100 m°} au douar Tihouna et d’un réservoir d'eau [90 m°) au douar Ait Moussa Oulahcen à la commune de Sidi Boushab",
+ "acheteur": "Commune de SIDI BOUSHAB",
+ "procedure": "appel d'offres ouvert national",
+ "categorie": "Travaux",
+ "date_limite_plis": "06/01/2026",
+ "lieu_ouverture": "Salle des réunions au siège de la commune de Sidi Boushab",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "30/01/2026",
+ "justification": "Offre jugée économiquement la plus avantageuse.",
+ "infructueux": false,
+ "attributaire": "EL RHICHEM BABA",
+ "montant_attribue": 814801.2,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "STE SOUBARGHM",
+   "montant_acte_engagement": 882835.2,
+   "montant_apres_verification": 882835.2,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "O.C TRAVAUX",
+   "montant_acte_engagement": 783120.0,
+   "montant_apres_verification": 783120.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": true
+  },
+  {
+   "nom": "EL RHICHEM BABA",
+   "montant_acte_engagement": 814801.2,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 3,
+ "alertes_ocr": [
+  "« EL RHICHEM BABA » absent de la liste des plis déposés (nom mal lu ?)."
+ ],
+ "notes_ocr": [],
+ "qualite": "complet"
+}

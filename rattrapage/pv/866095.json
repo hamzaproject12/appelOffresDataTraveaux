@@ -1,0 +1,52 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "866095",
+ "orgAcronyme": "e5w",
+ "reference_pv": "112AREP-FM/2024",
+ "nouveau": true,
+ "reference": "112AREP-FM/2024",
+ "objet": "TRAVAUX DE CONSTRUCTION D'UN TERRAIN DE FOOT A TIMAZGANA, PROVINCE DE TAOUNATE, REGION FES-MEKNES - TRANCHE 2 : TERRAIN DE FOOT- EN LOT UNIQUE",
+ "acheteur": "Le Directeur de l’Agence Régionale d’Exécution des Projets de la Région Fès Meknès",
+ "procedure": "appel d'offres ouvert national",
+ "categorie": "Travaux",
+ "date_limite_plis": "24/12/2024",
+ "lieu_ouverture": "Salle des réunions de l’Agence Régionale d’Exécution des Projets de la Région Fès-Meknès, N° 01, Angle Avenue les Nations Unies et Rue Ferhat Hachad —-VN Meknès",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "15/01/2025",
+ "justification": null,
+ "infructueux": false,
+ "attributaire": null,
+ "montant_attribue": null,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "STE ECOGEO SARL",
+   "montant_acte_engagement": 4673670.0,
+   "montant_apres_verification": 4673670.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_offre_financiere",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "STEECOGEO SARL . ER à",
+   "montant_acte_engagement": 673670.0,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 2,
+ "alertes_ocr": [
+  "« STEECOGEO SARL . ER à » absent de la liste des plis déposés (nom mal lu ?).",
+  "Attributaire non trouvé."
+ ],
+ "notes_ocr": [],
+ "qualite": "complet"
+}

@@ -1,0 +1,86 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "723190",
+ "orgAcronyme": "q0x",
+ "reference_pv": null,
+ "nouveau": true,
+ "reference": null,
+ "objet": null,
+ "acheteur": null,
+ "procedure": null,
+ "categorie": "Travaux",
+ "date_limite_plis": null,
+ "lieu_ouverture": null,
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "15/06/2023",
+ "justification": "La commission déclare l'assel d'offres infructeux car a seule offre 5résentée est jugée non accetable au regard des dispositions du décret des marchés oublics et des critères fixés au règlement de consultation.",
+ "infructueux": false,
+ "attributaire": "Groupement Ste JIRONA-IDIS",
+ "montant_attribue": 1505820.0,
+ "attributaires_par_lot": [
+  {
+   "lot": null,
+   "attributaire": "Groupement Ste JIRONA-IDIS",
+   "montant": 1505820.0
+  },
+  {
+   "lot": null,
+   "attributaire": "SARL (EL1) 2es",
+   "montant": null
+  }
+ ],
+ "soumissionnaires": [
+  {
+   "nom": "Groupement Ste JIRONA-IDIS",
+   "montant_acte_engagement": 1505820.0,
+   "montant_apres_verification": 1505820.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "\\léant",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_dossier_administratif_technique",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Groupement Sie JIRONA-IDIS SARL",
+   "montant_acte_engagement": 1505820.0,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "SARL (EL1) 2es",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 4,
+ "alertes_ocr": [
+  "« Groupement Ste JIRONA-IDIS » absent de la liste des plis déposés (nom mal lu ?).",
+  "« Groupement Sie JIRONA-IDIS SARL » absent de la liste des plis déposés (nom mal lu ?).",
+  "« SARL (EL1) 2es » absent de la liste des plis déposés (nom mal lu ?).",
+  "Montant de l'attributaire « SARL (EL1) 2es » non trouvé."
+ ],
+ "notes_ocr": [
+  "« \\léant » absent de la liste des plis déposés (nom mal lu ?).",
+  "Maître d'ouvrage absent du PV (utiliser l'acheteur public du portail)."
+ ],
+ "qualite": "complet"
+}

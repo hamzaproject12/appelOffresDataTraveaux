@@ -1,0 +1,53 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "992549",
+ "orgAcronyme": "q0x",
+ "reference_pv": null,
+ "nouveau": true,
+ "reference": null,
+ "objet": null,
+ "acheteur": "Commune de N’ZALAT BENI AMMAR",
+ "procedure": null,
+ "categorie": "Travaux",
+ "date_limite_plis": "31/03/2026",
+ "lieu_ouverture": "Bureau du Président de la Commune de N'ZALAT BENI AMMAR",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": null,
+ "justification": null,
+ "infructueux": false,
+ "attributaire": "STE AIN JERRY INVEST SARL.AU",
+ "montant_attribue": 697740.0,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "STE AIN JERRY INVEST SARL.AU",
+   "montant_acte_engagement": 697740.0,
+   "montant_apres_verification": null,
+   "autres_montants": [
+    697740.0
+   ],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "STE BSTP SARL.AU",
+   "montant_acte_engagement": 739080.0,
+   "montant_apres_verification": null,
+   "autres_montants": [
+    739080.0
+   ],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 2,
+ "alertes_ocr": [],
+ "notes_ocr": [],
+ "qualite": "complet"
+}

@@ -1,0 +1,63 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "912634",
+ "orgAcronyme": "d4q",
+ "reference_pv": "44/2025/ABHGZR",
+ "nouveau": true,
+ "reference": "44/2025/ABHGZR",
+ "objet": "Travaux d’aménagement de la section de mesure au niveau des stations hydrologiques de Foum Tillicht dans la province de Midelt et Ait Boujjane dans la province de Tinghir",
+ "acheteur": "Directeur de l'Agence du Bassin Hydraulique de GUIR-ZIZ-RHERIS",
+ "procedure": "appel d'offres ouvert",
+ "categorie": "Travaux",
+ "date_limite_plis": "12/06/2025",
+ "lieu_ouverture": "La salle de réunion de l’Agence du Bassin Hydraulique de Guir-Ziz-Rheris",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "03/07/2025",
+ "justification": "l'offre la plus avantageuse.",
+ "infructueux": false,
+ "attributaire": "GROUPEMENT (HBS EQUIPEMENT SARL/ EXEQUA SARL AU)",
+ "montant_attribue": 1780891.64,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "STE SENOTP SARL",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_offre_financiere",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "GROUPEMENT (HBS EQUIPEMENT SARL/ EXEQUA SARL AU)",
+   "montant_acte_engagement": 1780891.64,
+   "montant_apres_verification": 1780891.64,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "GROUPEMENT (DIHYA SARL/ BOOSTER TRAVAUX SARL)",
+   "montant_acte_engagement": 1921601.24,
+   "montant_apres_verification": 1921601.24,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 3,
+ "alertes_ocr": [
+  "« GROUPEMENT (HBS EQUIPEMENT SARL/ EXEQUA SARL AU) » absent de la liste des plis déposés (nom mal lu ?).",
+  "« GROUPEMENT (DIHYA SARL/ BOOSTER TRAVAUX SARL) » absent de la liste des plis déposés (nom mal lu ?)."
+ ],
+ "notes_ocr": [
+  "« STE SENOTP SARL » absent de la liste des plis déposés (nom mal lu ?)."
+ ],
+ "qualite": "complet"
+}

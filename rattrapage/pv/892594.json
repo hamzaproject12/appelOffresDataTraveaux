@@ -1,0 +1,87 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "892594",
+ "orgAcronyme": "g3h",
+ "reference_pv": "548/2025/CAN-VOIRIES-TRAV-L5",
+ "nouveau": true,
+ "reference": "548/2025/CAN-VOIRIES-TRAV-L5",
+ "objet": "Programme d'aménagement des voiries à l’intérieur de la ville de Casablanca : Lot 5",
+ "acheteur": "Société CASABLANCA AMÉNAGEMENT",
+ "procedure": null,
+ "categorie": "Travaux",
+ "date_limite_plis": "18/04/2025",
+ "lieu_ouverture": "Salle de réunion de CASABLANCA AMÉNAGEMENT S.A",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "30/04/2025",
+ "justification": "YŸ_ L'offre la moins disante.",
+ "infructueux": false,
+ "attributaire": "Société GCR",
+ "montant_attribue": 58177448.16,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "Société GROUPE MOJAZINE",
+   "montant_acte_engagement": 61993205.4,
+   "montant_apres_verification": 61993205.4,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Groupement STAM & VIAS",
+   "montant_acte_engagement": 61928900.4,
+   "montant_apres_verification": 61928900.4,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Société SOUSS MASSA DES TRAVAUX (SSMT)",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_dossier_administratif_technique",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Groupement GTR & MYH EXCAVATION ET TRAVAUX DE CONSTRUCTION",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Société GCR",
+   "montant_acte_engagement": 58177448.16,
+   "montant_apres_verification": 58177448.16,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Groupement GTR & MYH",
+   "montant_acte_engagement": 58260496.08,
+   "montant_apres_verification": 58260496.08,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 6,
+ "alertes_ocr": [
+  "« Groupement GTR & MYH » absent de la liste des plis déposés (nom mal lu ?)."
+ ],
+ "notes_ocr": [],
+ "qualite": "complet"
+}

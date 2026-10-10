@@ -1,0 +1,172 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "728212",
+ "orgAcronyme": "q1s",
+ "reference_pv": null,
+ "nouveau": true,
+ "reference": null,
+ "objet": "Travaux de mise à niveau des Marchés de Gros au Poisson de Meknès, Marrakech et Casablanca, en trois (03) lots",
+ "acheteur": "OFFICE NATIONAL DES PECHES",
+ "procedure": null,
+ "categorie": "Travaux",
+ "date_limite_plis": "14/06/2023",
+ "lieu_ouverture": "Office National des Pêches, sis 15, rue du Lieutenant Mohamed Mahroud à Casablanca",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "11/07/2023",
+ "justification": "l'offre la moins disante.",
+ "infructueux": false,
+ "attributaire": "AMENAGIA",
+ "montant_attribue": 299976.0,
+ "attributaires_par_lot": [
+  {
+   "lot": "1",
+   "attributaire": "AMENAGIA",
+   "montant": 299976.0
+  },
+  {
+   "lot": "2",
+   "attributaire": "AMENAGIA",
+   "montant": 258864.0
+  },
+  {
+   "lot": "3",
+   "attributaire": "GOLDWAY SOLUTIONS",
+   "montant": 796890.0
+  }
+ ],
+ "soumissionnaires": [
+  {
+   "nom": "INDELEC",
+   "montant_acte_engagement": 915540.0,
+   "montant_apres_verification": null,
+   "autres_montants": [
+    915540.0,
+    394080.0,
+    1059360.0
+   ],
+   "lots": [
+    "1",
+    "2",
+    "3"
+   ],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "GOLDWAY SOLUTIONS",
+   "montant_acte_engagement": 307020.0,
+   "montant_apres_verification": null,
+   "autres_montants": [
+    307020.0,
+    796890.0
+   ],
+   "lots": [
+    "1",
+    "3"
+   ],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "AMENAGIA",
+   "montant_acte_engagement": 299976.0,
+   "montant_apres_verification": null,
+   "autres_montants": [
+    299976.0,
+    258744.0
+   ],
+   "lots": [
+    "1",
+    "2"
+   ],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "CONSAMECO",
+   "montant_acte_engagement": 418920.0,
+   "montant_apres_verification": null,
+   "autres_montants": [
+    418920.0,
+    340512.0,
+    877980.0
+   ],
+   "lots": [
+    "1",
+    "2",
+    "3"
+   ],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "AQUAPLANETE",
+   "montant_acte_engagement": 950280.0,
+   "montant_apres_verification": null,
+   "autres_montants": [
+    950280.0
+   ],
+   "lots": [
+    "3"
+   ],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "LA & KA BTP",
+   "montant_acte_engagement": 339960.0,
+   "montant_apres_verification": null,
+   "autres_montants": [
+    339960.0,
+    915840.0
+   ],
+   "lots": [
+    "2",
+    "3"
+   ],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "SOFERTRA",
+   "montant_acte_engagement": 1000020.0,
+   "montant_apres_verification": null,
+   "autres_montants": [
+    1000020.0
+   ],
+   "lots": [
+    "3"
+   ],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "RETSOL",
+   "montant_acte_engagement": 425244.0,
+   "montant_apres_verification": null,
+   "autres_montants": [
+    425244.0,
+    327600.0,
+    20300.0,
+    876360.0
+   ],
+   "lots": [
+    "1",
+    "2",
+    "3"
+   ],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 8,
+ "alertes_ocr": [],
+ "notes_ocr": [
+  "Marché alloti (3 lots)."
+ ],
+ "qualite": "complet"
+}

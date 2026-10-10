@@ -1,0 +1,115 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "866720",
+ "orgAcronyme": "p1v",
+ "reference_pv": "13/2024",
+ "nouveau": true,
+ "reference": "13/2024",
+ "objet": "entretien et réparation courants Ce réseaux et insta ation c’éectricité Jour e comte ce a commune mou. Jergui > Maitre c’ouvrage : présicent commune de Moul Bergui",
+ "acheteur": null,
+ "procedure": "appel d'offres ouvert simplifié",
+ "categorie": "Travaux",
+ "date_limite_plis": null,
+ "lieu_ouverture": null,
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": null,
+ "justification": null,
+ "infructueux": false,
+ "attributaire": "$Sté ABDA DER CEAGE LABKHATI SAFI SEE 37",
+ "montant_attribue": null,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "Sté BAMOUSSA EQUIPEMENTS TAROUDANT 58.",
+   "montant_acte_engagement": 58080.0,
+   "montant_apres_verification": 58080.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": true
+  },
+  {
+   "nom": "Sté SBLMM sar CHEMAIA 7) 696, O0",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": true
+  },
+  {
+   "nom": "$Sté ABDA DER CEAGE LABKHATI SAFI SEE 37",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": true
+  },
+  {
+   "nom": "Sté ELECONS YOUSOUFIA ns RE EU",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": true
+  },
+  {
+   "nom": "Sté LUMIERE ELEC SAFI",
+   "montant_acte_engagement": 52320.0,
+   "montant_apres_verification": 52320.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": true
+  },
+  {
+   "nom": "Sté SBLMM sarl CHEMAIA",
+   "montant_acte_engagement": 57696.0,
+   "montant_apres_verification": 57696.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Sté DIVERSAS GROS SAFI",
+   "montant_acte_engagement": 62400.0,
+   "montant_apres_verification": 62400.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Sté MASTER SOMMY sarl ESSAOUIRA",
+   "montant_acte_engagement": 57648.0,
+   "montant_apres_verification": 57648.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 8,
+ "alertes_ocr": [
+  "« Sté BAMOUSSA EQUIPEMENTS TAROUDANT 58. » absent de la liste des plis déposés (nom mal lu ?).",
+  "« $Sté ABDA DER CEAGE LABKHATI SAFI SEE 37 » absent de la liste des plis déposés (nom mal lu ?).",
+  "« Sté LUMIERE ELEC SAFI » absent de la liste des plis déposés (nom mal lu ?).",
+  "« Sté SBLMM sarl CHEMAIA » absent de la liste des plis déposés (nom mal lu ?).",
+  "« Sté DIVERSAS GROS SAFI » absent de la liste des plis déposés (nom mal lu ?).",
+  "« Sté MASTER SOMMY sarl ESSAOUIRA » absent de la liste des plis déposés (nom mal lu ?).",
+  "Montant de l'attributaire « $Sté ABDA DER CEAGE LABKHATI SAFI SEE 37 » non trouvé."
+ ],
+ "notes_ocr": [
+  "« Sté SBLMM sar CHEMAIA 7) 696, O0 » absent de la liste des plis déposés (nom mal lu ?).",
+  "« Sté ELECONS YOUSOUFIA ns RE EU » absent de la liste des plis déposés (nom mal lu ?).",
+  "Maître d'ouvrage absent du PV (utiliser l'acheteur public du portail)."
+ ],
+ "qualite": "complet"
+}

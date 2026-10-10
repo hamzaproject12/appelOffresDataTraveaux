@@ -1,0 +1,165 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "965930",
+ "orgAcronyme": "g3h",
+ "reference_pv": "138/25/EAU",
+ "nouveau": true,
+ "reference": "138/25/EAU",
+ "objet": "Travaux de renouvellement de réseau d’eau potable de la ville de Safi",
+ "acheteur": "SRM-MS",
+ "procedure": "appel d'offres ouvert",
+ "categorie": "Travaux",
+ "date_limite_plis": "07/10/2025",
+ "lieu_ouverture": "Siège de la SRM-MS Bou",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": null,
+ "justification": "Offre la moins disante est la combinaison la plus économique pour la SRM ñ",
+ "infructueux": false,
+ "attributaire": "CANAL'O",
+ "montant_attribue": 9772161.6,
+ "attributaires_par_lot": [
+  {
+   "lot": "1",
+   "attributaire": "CANAL'O",
+   "montant": 9772161.6
+  },
+  {
+   "lot": "2",
+   "attributaire": "STE ESIM DE CONSTRUCTION ET TRAVAUX DIVERS & GOUMAN",
+   "montant": 3358668.0
+  }
+ ],
+ "soumissionnaires": [
+  {
+   "nom": "levard Mohamed VI MARRAKECH",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "depose",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "HOLDING AL BARAKA",
+   "montant_acte_engagement": 12050970.0,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [
+    "1"
+   ],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "STE BREIJA ENERGIE",
+   "montant_acte_engagement": 10541400.0,
+   "montant_apres_verification": null,
+   "autres_montants": [
+    3808200.0
+   ],
+   "lots": [
+    "1",
+    "2"
+   ],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "ALLRESEAUX",
+   "montant_acte_engagement": 9897183.36,
+   "montant_apres_verification": null,
+   "autres_montants": [
+    3733116.0
+   ],
+   "lots": [
+    "1",
+    "2"
+   ],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "CANAL'O",
+   "montant_acte_engagement": 9772161.6,
+   "montant_apres_verification": null,
+   "autres_montants": [
+    3550630.8
+   ],
+   "lots": [
+    "1",
+    "2"
+   ],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "STE ESIM DE CONSTRUCTION ET TRAVAUX DIVERS & GOUMAN",
+   "montant_acte_engagement": 3358668.0,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [
+    "1",
+    "2"
+   ],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "& GOUMAN TRAVAUX",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [
+    "1",
+    "2"
+   ],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "ELECTRO-MOFI",
+   "montant_acte_engagement": 4468380.0,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [
+    "1",
+    "2"
+   ],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "EL HOURIA HOLDING",
+   "montant_acte_engagement": 3587664.0,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [
+    "1",
+    "2"
+   ],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Group PROSTER et IMMAM TRAV",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [
+    "1"
+   ],
+   "statut": "ecarte_dossier_administratif_technique",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 10,
+ "alertes_ocr": [],
+ "notes_ocr": [
+  "Marché alloti (2 lots)."
+ ],
+ "qualite": "complet"
+}

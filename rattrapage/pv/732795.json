@@ -1,0 +1,99 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "732795",
+ "orgAcronyme": "j8k",
+ "reference_pv": "63/2022",
+ "nouveau": true,
+ "reference": "63/2022",
+ "objet": "TRAVAUX DE CONFORTEMENT, DE CONSOLIDATION ET DEMOLITION DES CONSTRUCTIONS MENAÇANT RUINE DANS LE TISSU ANCIEN (MARCHE ALLOTI) A LA VILLE DE MARRAKECH",
+ "acheteur": "AL OMRANE MARRAKECH-SAFTI",
+ "procedure": "appel d'offres ouvert",
+ "categorie": "Travaux",
+ "date_limite_plis": "18/07/2023",
+ "lieu_ouverture": "Siège de la société AI Omrane Marrakech-Safi",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "27/07/2023",
+ "justification": "Moins disant",
+ "infructueux": false,
+ "attributaire": "STE SOBINMA",
+ "montant_attribue": 20708352.0,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "STE TOURATE FES NEANT STE SOBINMA",
+   "montant_acte_engagement": 29030400.0,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [
+    "1"
+   ],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "STE SOBINMA",
+   "montant_acte_engagement": 20708352.0,
+   "montant_apres_verification": 20708352.0,
+   "autres_montants": [],
+   "lots": [
+    "1"
+   ],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "NOMIDES CONCURRENTS EE PRESS PRE RE RAC RSR REV EI FER ES RES ARSURE EE",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": true
+  },
+  {
+   "nom": "EE SOUSSE OR S DES ELEMENTS",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_offre_financiere",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "STE TOURATE FES Offre excessive",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_offre_financiere",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "STE ARTFAC",
+   "montant_acte_engagement": 24944640.0,
+   "montant_apres_verification": 24944640.0,
+   "autres_montants": [],
+   "lots": [
+    "1"
+   ],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 6,
+ "alertes_ocr": [
+  "« STE TOURATE FES NEANT STE SOBINMA » absent de la liste des plis déposés (nom mal lu ?).",
+  "« STE SOBINMA » absent de la liste des plis déposés (nom mal lu ?).",
+  "« STE ARTFAC » absent de la liste des plis déposés (nom mal lu ?)."
+ ],
+ "notes_ocr": [
+  "« NOMIDES CONCURRENTS EE PRESS PRE RE RAC RSR REV EI FER ES RES ARSURE EE » absent de la liste des plis déposés (nom mal lu ?).",
+  "« EE SOUSSE OR S DES ELEMENTS » absent de la liste des plis déposés (nom mal lu ?).",
+  "« STE TOURATE FES Offre excessive » absent de la liste des plis déposés (nom mal lu ?)."
+ ],
+ "qualite": "complet"
+}

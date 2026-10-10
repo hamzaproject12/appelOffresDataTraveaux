@@ -1,0 +1,93 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "937266",
+ "orgAcronyme": "j0w",
+ "reference_pv": "03/CSF/2025",
+ "nouveau": true,
+ "reference": "03/CSF/2025",
+ "objet": "TRAVAUX DE DALLAGE DES ACCES ET RUELLES AUX DOUARS AWRIR, TAGADIRT, IKRI NAIT HAMOU,",
+ "acheteur": "Commune SETI FADMA",
+ "procedure": null,
+ "categorie": "Travaux",
+ "date_limite_plis": "22/09/2025",
+ "lieu_ouverture": "siège de la Commune SETI FADMA",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "04/10/2025",
+ "justification": "Classement par cffre la plus avantageuse, et le candidat la plus avantageuse ayant répondu, favorablement aux conditions exigées.",
+ "infructueux": false,
+ "attributaire": "STE 3DC SARL",
+ "montant_attribue": 1080000.0,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "STE 3DC SARL",
+   "montant_acte_engagement": 1080000.0,
+   "montant_apres_verification": 1080000.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "STE BOUSSAGAI DE TRAVAUX ET LOGISTIQUE SARL AU",
+   "montant_acte_engagement": 1082400.0,
+   "montant_apres_verification": 1082400.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "STE AIT YAHYA SERVICES SARL",
+   "montant_acte_engagement": 1075200.0,
+   "montant_apres_verification": 1075200.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "STE TOUT PUISSANT DE TRAVAUX PUBLICS SARL AU",
+   "montant_acte_engagement": 1084800.0,
+   "montant_apres_verification": 1084800.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "STE MOHNNA FRERE SARL AU",
+   "montant_acte_engagement": 1094400.0,
+   "montant_apres_verification": 1094400.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "STE SOHAZATRAV SARL AU",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_dossier_administratif_technique",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 6,
+ "alertes_ocr": [
+  "« STE 3DC SARL » absent de la liste des plis déposés (nom mal lu ?).",
+  "« STE BOUSSAGAI DE TRAVAUX ET LOGISTIQUE SARL AU » absent de la liste des plis déposés (nom mal lu ?).",
+  "« STE AIT YAHYA SERVICES SARL » absent de la liste des plis déposés (nom mal lu ?).",
+  "« STE TOUT PUISSANT DE TRAVAUX PUBLICS SARL AU » absent de la liste des plis déposés (nom mal lu ?).",
+  "« STE MOHNNA FRERE SARL AU » absent de la liste des plis déposés (nom mal lu ?)."
+ ],
+ "notes_ocr": [
+  "« STE SOHAZATRAV SARL AU » absent de la liste des plis déposés (nom mal lu ?)."
+ ],
+ "qualite": "complet"
+}

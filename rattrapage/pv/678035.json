@@ -1,0 +1,84 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "678035",
+ "orgAcronyme": "q1s",
+ "reference_pv": "30/2022/DPA/G",
+ "nouveau": true,
+ "reference": "30/2022/DPA/G",
+ "objet": "Travaux d’entretien des plantations de palmier dattier aux palmeraies relevant de la province de Guelmim Le Maitre d'ouvrage : Directeur Provincial de l'Agriculture de Guelmim",
+ "acheteur": null,
+ "procedure": "appel d'offres ouvert",
+ "categorie": "Travaux",
+ "date_limite_plis": "17/10/2022",
+ "lieu_ouverture": null,
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "16/11/2022",
+ "justification": "° Le concurrent ayant présenté l'offre la moins-disante conformément à l’article 15 du règlement de consultation.",
+ "infructueux": false,
+ "attributaire": "Société MAKHCHOUNI NEGOCE (S.A.R.L)",
+ "montant_attribue": 445980.0,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "Société JALBAKH (S.A.R.L)",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Société BOU ABSSA (S.A.R.L)",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Etablissement BOURHIMI (S.A.R.L)",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Société MAKHCHOUNI NEGOCE (S.A.R.L)",
+   "montant_acte_engagement": 445980.0,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "l'attestation de référence présentée",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_dossier_administratif_technique",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 5,
+ "alertes_ocr": [
+  "« Société MAKHCHOUNI NEGOCE (S.A.R.L) » absent de la liste des plis déposés (nom mal lu ?)."
+ ],
+ "notes_ocr": [
+  "« Société JALBAKH (S.A.R.L) » absent de la liste des plis déposés (nom mal lu ?).",
+  "« Société BOU ABSSA (S.A.R.L) » absent de la liste des plis déposés (nom mal lu ?).",
+  "« Etablissement BOURHIMI (S.A.R.L) » absent de la liste des plis déposés (nom mal lu ?).",
+  "« l'attestation de référence présentée » absent de la liste des plis déposés (nom mal lu ?).",
+  "Maître d'ouvrage absent du PV (utiliser l'acheteur public du portail)."
+ ],
+ "qualite": "attribution"
+}

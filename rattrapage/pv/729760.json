@@ -1,0 +1,42 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "729760",
+ "orgAcronyme": "q0x",
+ "reference_pv": null,
+ "nouveau": true,
+ "reference": null,
+ "objet": "TRAVAUX D’AMENAGEMENT DU SIÈGE ADMINISTRATIF DE LA COMMUNE DE BOUFEKRANE",
+ "acheteur": "Commune Boufekrane",
+ "procedure": null,
+ "categorie": "Travaux",
+ "date_limite_plis": "18/07/2023",
+ "lieu_ouverture": "la salle de réunion de la commune Boufekrane",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "18/07/2023",
+ "justification": "Attributaire ayant présenté une offre moins disant.",
+ "infructueux": false,
+ "attributaire": "SOCIÉTÉ LYTRAV SARL",
+ "montant_attribue": 308100.0,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "SOCIÉTÉ LYTRAV SARL",
+   "montant_acte_engagement": 308100.0,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 1,
+ "alertes_ocr": [
+  "« SOCIÉTÉ LYTRAV SARL » absent de la liste des plis déposés (nom mal lu ?)."
+ ],
+ "notes_ocr": [],
+ "qualite": "attribution"
+}

@@ -1,0 +1,49 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "1000403",
+ "orgAcronyme": "q0x",
+ "reference_pv": "05/2026",
+ "nouveau": true,
+ "reference": "05/2026",
+ "objet": "TRAVAUX DE MAINTENANCE DU RESEAU D’ECLAIRAGE PUBLIC AU CENTRE VILLE SABAA AIYOUN ; Bd. HASSAN II ; QUARTIER EL MOUJAHID ET AIT DAOUD A LA COMMUNE DE SABAA AIYOUN",
+ "acheteur": "Président de la Commune de Sabaa Aiyoun",
+ "procedure": "appel d'offres ouvert simplifié",
+ "categorie": "Travaux",
+ "date_limite_plis": "22/04/2026",
+ "lieu_ouverture": "Bureau du Président de la Commune de Sabaa Aiyoun",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "04/05/2026",
+ "justification": "L’attributaire du marché a été choisi suite à l’évaluation des dossiers administratifs et techniques et des offres financières présentées, conformément aux critères du règlement de consultation joint au dossier de consultation et aux dispositions du décret N° 2-22- 431 relatif aux marchés publics.",
+ "infructueux": false,
+ "attributaire": "EL3 Société CONSAMAR SARL AU",
+ "montant_attribue": 616812.0,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "EL1 Société ANJJA MULTISERVICES SARL",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_offre_technique",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "EL3 Société CONSAMAR SARL AU",
+   "montant_acte_engagement": 616812.0,
+   "montant_apres_verification": 616812.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 2,
+ "alertes_ocr": [],
+ "notes_ocr": [],
+ "qualite": "attribution"
+}

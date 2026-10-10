@@ -1,0 +1,104 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "863282",
+ "orgAcronyme": "a1z",
+ "reference_pv": "23/AMR/2024",
+ "nouveau": true,
+ "reference": "23/AMR/2024",
+ "objet": "travaux d'aménagement des espaces verts à l’Arrondissement : Moulay Rachid",
+ "acheteur": "Arrondissement Moulay Rachid",
+ "procedure": "appel d'offres ouvert national",
+ "categorie": "Travaux",
+ "date_limite_plis": "24/12/2024",
+ "lieu_ouverture": "bureau de Mr le président de l'Arrondissement Moulay Rachid",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "26/12/2024",
+ "justification": "son offre économiquement la plus avantageuse",
+ "infructueux": false,
+ "attributaire": null,
+ "montant_attribue": null,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "RABAT VERDURE",
+   "montant_acte_engagement": 2287800.0,
+   "montant_apres_verification": 2287800.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "STE RIAD JARDINS",
+   "montant_acte_engagement": 2653440.0,
+   "montant_apres_verification": 2653440.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "ADEME MULTISERVICES",
+   "montant_acte_engagement": 2270760.0,
+   "montant_apres_verification": 2270760.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "FLUX VERT",
+   "montant_acte_engagement": 2592000.0,
+   "montant_apres_verification": 2592000.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "STE FIFA VERT",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "STE VERVETA",
+   "montant_acte_engagement": 3151920.0,
+   "montant_apres_verification": 3151920.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_offre_financiere",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "ARD VERTE",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_dossier_administratif_technique",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 7,
+ "alertes_ocr": [
+  "« RABAT VERDURE » absent de la liste des plis déposés (nom mal lu ?).",
+  "« STE RIAD JARDINS » absent de la liste des plis déposés (nom mal lu ?).",
+  "« ADEME MULTISERVICES » absent de la liste des plis déposés (nom mal lu ?).",
+  "« FLUX VERT » absent de la liste des plis déposés (nom mal lu ?).",
+  "« STE VERVETA » absent de la liste des plis déposés (nom mal lu ?).",
+  "Attributaire non trouvé."
+ ],
+ "notes_ocr": [
+  "« STE FIFA VERT » absent de la liste des plis déposés (nom mal lu ?).",
+  "« ARD VERTE » absent de la liste des plis déposés (nom mal lu ?)."
+ ],
+ "qualite": "complet"
+}

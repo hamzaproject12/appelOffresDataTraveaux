@@ -1,0 +1,69 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "685310",
+ "orgAcronyme": "o8p",
+ "reference_pv": null,
+ "nouveau": true,
+ "reference": null,
+ "objet": null,
+ "acheteur": null,
+ "procedure": "appel d'offres ouvert",
+ "categorie": "Travaux",
+ "date_limite_plis": "21/10/2022",
+ "lieu_ouverture": "Direction Régionale Méditerranée",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": null,
+ "justification": "Offre moins disante. L > A KO Lo & F ji NA PT: de Meder À } 1e \\ JE",
+ "infructueux": false,
+ "attributaire": "CATER SA",
+ "montant_attribue": 116720605.0,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "S.G.T.M - CATERSA",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "S.G.T.M",
+   "montant_acte_engagement": 121455299.77,
+   "montant_apres_verification": null,
+   "autres_montants": [
+    121455299.77
+   ],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "CATER SA",
+   "montant_acte_engagement": 116720605.0,
+   "montant_apres_verification": null,
+   "autres_montants": [
+    116720605.0
+   ],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 3,
+ "alertes_ocr": [
+  "« S.G.T.M » absent de la liste des plis déposés (nom mal lu ?).",
+  "« CATER SA » absent de la liste des plis déposés (nom mal lu ?)."
+ ],
+ "notes_ocr": [
+  "« S.G.T.M - CATERSA » absent de la liste des plis déposés (nom mal lu ?).",
+  "Maître d'ouvrage absent du PV (utiliser l'acheteur public du portail).",
+  "Montants exprimés hors taxes (HT)."
+ ],
+ "qualite": "complet"
+}

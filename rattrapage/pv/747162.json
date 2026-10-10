@@ -1,0 +1,96 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "747162",
+ "orgAcronyme": "g3h",
+ "reference_pv": "5/DAT/2023",
+ "nouveau": true,
+ "reference": "5/DAT/2023",
+ "objet": "Travaux d'aménagement au niveau du siège de I'annexe administrative Lahraouiyine",
+ "acheteur": null,
+ "procedure": null,
+ "categorie": "Travaux",
+ "date_limite_plis": "03/10/2023",
+ "lieu_ouverture": "Secrétariat Général Annexe",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "11/10/2023",
+ "justification": "la plus avantageuse",
+ "infructueux": false,
+ "attributaire": "STE TOUKSLANE TRAVAUX",
+ "montant_attribue": 269400.0,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "/ STE SOCOTRACEM r' STE RASABAT / STE ENTREPRISE WELAD MRAH D'ETANCHIETE SARL / STE TOUKSLANE TRAVAUX",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "/ STE FOR CONCEPT",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_dossier_administratif_technique",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "STE RASABAT",
+   "montant_acte_engagement": 296994.0,
+   "montant_apres_verification": 296994.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "STE WLAD MRAH D'ETANCHIETE",
+   "montant_acte_engagement": 318366.0,
+   "montant_apres_verification": 318366.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "STE TOUKSLANE TRAVAUX",
+   "montant_acte_engagement": 269400.0,
+   "montant_apres_verification": 269400.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "/ STE SOCOTRAGEM / STE RASABAT / STE ENTREPRISE WELAD MRAH D'ETANCHIETE SARL",
+   "montant_acte_engagement": 283536.0,
+   "montant_apres_verification": 3536.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 6,
+ "alertes_ocr": [
+  "« STE RASABAT » absent de la liste des plis déposés (nom mal lu ?).",
+  "« STE WLAD MRAH D'ETANCHIETE » absent de la liste des plis déposés (nom mal lu ?).",
+  "« STE TOUKSLANE TRAVAUX » absent de la liste des plis déposés (nom mal lu ?).",
+  "« / STE SOCOTRAGEM / STE RASABAT / STE ENTREPRISE WELAD MRAH D'ETANCHIETE SARL » absent de la liste des plis déposés (nom mal lu ?).",
+  "« / STE SOCOTRAGEM / STE RASABAT / STE ENTREPRISE WELAD MRAH D'ETANCHIETE SARL » : écart anormal entre montant initial et vérifié (lecture à vérifier)."
+ ],
+ "notes_ocr": [
+  "« / STE SOCOTRACEM r' STE RASABAT / STE ENTREPRISE WELAD MRAH D'ETANCHIETE SARL / STE TOUKSLANE TRAVAUX » absent de la liste des plis déposés (nom mal lu ?).",
+  "« / STE FOR CONCEPT » absent de la liste des plis déposés (nom mal lu ?).",
+  "« / STE SOCOTRAGEM / STE RASABAT / STE ENTREPRISE WELAD MRAH D'ETANCHIETE SARL » : montant rectifié de 283 536.00 à 3 536.00 DH.",
+  "Maître d'ouvrage absent du PV (utiliser l'acheteur public du portail)."
+ ],
+ "qualite": "complet"
+}

@@ -1,0 +1,64 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "713308",
+ "orgAcronyme": "q0x",
+ "reference_pv": "77/AREPDT/2023",
+ "nouveau": true,
+ "reference": "77/AREPDT/2023",
+ "objet": "Programme de valorisation territoriale et paysagère des zones de montagnes de la région Drâa-Tafilalet : Travaux de construction de l'ouvrage de franchissement à Ait Ouallou relevant de la Commune Territoriale de Sidi",
+ "acheteur": null,
+ "procedure": "appel d'offres ouvert",
+ "categorie": "Travaux",
+ "date_limite_plis": "03/05/2023",
+ "lieu_ouverture": null,
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": null,
+ "justification": null,
+ "infructueux": false,
+ "attributaire": "ATLAS HANDASSA",
+ "montant_attribue": 6997190.4,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "ATLAS HANDASSA",
+   "montant_acte_engagement": 6997190.4,
+   "montant_apres_verification": 6997190.4,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": true
+  },
+  {
+   "nom": "SOUTHYDRAULIC",
+   "montant_acte_engagement": 7472467.2,
+   "montant_apres_verification": 7472467.2,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "ATLAS GC",
+   "montant_acte_engagement": 7491025.2,
+   "montant_apres_verification": 7491025.2,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 3,
+ "alertes_ocr": [
+  "« ATLAS HANDASSA » absent de la liste des plis déposés (nom mal lu ?).",
+  "« SOUTHYDRAULIC » absent de la liste des plis déposés (nom mal lu ?).",
+  "« ATLAS GC » absent de la liste des plis déposés (nom mal lu ?)."
+ ],
+ "notes_ocr": [
+  "Maître d'ouvrage absent du PV (utiliser l'acheteur public du portail)."
+ ],
+ "qualite": "complet"
+}

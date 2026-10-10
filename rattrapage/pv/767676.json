@@ -1,0 +1,105 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "767676",
+ "orgAcronyme": "f9f",
+ "reference_pv": null,
+ "nouveau": true,
+ "reference": null,
+ "objet": null,
+ "acheteur": "Commune d’Ouarzazate",
+ "procedure": "appel d'offres ouvert simplifié",
+ "categorie": "Travaux",
+ "date_limite_plis": "25/12/2023",
+ "lieu_ouverture": null,
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "28/12/2023",
+ "justification": "L'offre économiquement la plus avantageuse.",
+ "infructueux": false,
+ "attributaire": "Sté. ANKOURI GROUPE Sarl AU",
+ "montant_attribue": 700224.0,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "Sté. SURETRAM Sarl",
+   "montant_acte_engagement": 775992.0,
+   "montant_apres_verification": 775992.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Sté. ANKOURI GROUPE Sarl AU",
+   "montant_acte_engagement": 700224.0,
+   "montant_apres_verification": 700224.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Sté. ELMD TRAVAUX Sarl",
+   "montant_acte_engagement": 752208.0,
+   "montant_apres_verification": 752208.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Groupement. Sté JOUSSOUR PREFA Sarl et Sté ISSINGRI TRANSPORT Sarl AU",
+   "montant_acte_engagement": 714402.0,
+   "montant_apres_verification": 714402.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Sté. OUIAKOUB Sarl",
+   "montant_acte_engagement": 794760.0,
+   "montant_apres_verification": 794760.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Sté. SBBTR Sarl",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Groupement. Sté MAKIMORA BATIMENT Sarl AU et Sté SOZAFTRA Sarl AU",
+   "montant_acte_engagement": 783168.0,
+   "montant_apres_verification": 783168.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Sté. §BBIrR Sarl",
+   "montant_acte_engagement": 764160.0,
+   "montant_apres_verification": 764160.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 8,
+ "alertes_ocr": [
+  "« Sté. §BBIrR Sarl » absent de la liste des plis déposés (nom mal lu ?)."
+ ],
+ "notes_ocr": [],
+ "qualite": "complet"
+}

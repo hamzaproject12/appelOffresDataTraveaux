@@ -1,0 +1,51 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "857170",
+ "orgAcronyme": "d4q",
+ "reference_pv": "54/E/2024",
+ "nouveau": true,
+ "reference": "54/E/2024",
+ "objet": ", . ou d’eau potable (production et distribution)",
+ "acheteur": "RADEE.TA",
+ "procedure": null,
+ "categorie": "Travaux",
+ "date_limite_plis": "07/11/2024",
+ "lieu_ouverture": "Siège de la RADEE.TA",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": null,
+ "justification": null,
+ "infructueux": false,
+ "attributaire": "Société TEH",
+ "montant_attribue": 2101968.0,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "offre 2. Société TEH",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "depose",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Société TEH",
+   "montant_acte_engagement": 2101968.0,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 2,
+ "alertes_ocr": [
+  "« Société TEH » absent de la liste des plis déposés (nom mal lu ?)."
+ ],
+ "notes_ocr": [],
+ "qualite": "attribution"
+}

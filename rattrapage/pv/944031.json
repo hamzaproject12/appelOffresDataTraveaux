@@ -1,0 +1,73 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "944031",
+ "orgAcronyme": "g8e",
+ "reference_pv": "1060/2028",
+ "nouveau": true,
+ "reference": "1060/2028",
+ "objet": "TRAVAUX D'AMENAGEMENT D'UN TERRAIN DE FOOTBALL EN GAZON SYNTHETIQUE A LA COMMUNE",
+ "acheteur": "Agence Régionale d'IExécution des Projets Région Héni Mellal-Khénifra",
+ "procedure": null,
+ "categorie": "Travaux",
+ "date_limite_plis": "15/10/2025",
+ "lieu_ouverture": null,
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "23/10/2025",
+ "justification": "L'offre économiquement la plus avantageuse",
+ "infructueux": false,
+ "attributaire": "FADRIK SUD",
+ "montant_attribue": 3452400.0,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "UGCF",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "FADRIK SUD",
+   "montant_acte_engagement": 3452400.0,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "ORTIS MAROC",
+   "montant_acte_engagement": 3534600.0,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "L. UGCF dé",
+   "montant_acte_engagement": 3671640.0,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 4,
+ "alertes_ocr": [
+  "« FADRIK SUD » absent de la liste des plis déposés (nom mal lu ?).",
+  "« ORTIS MAROC » absent de la liste des plis déposés (nom mal lu ?).",
+  "« L. UGCF dé » absent de la liste des plis déposés (nom mal lu ?)."
+ ],
+ "notes_ocr": [
+  "« UGCF » absent de la liste des plis déposés (nom mal lu ?)."
+ ],
+ "qualite": "complet"
+}

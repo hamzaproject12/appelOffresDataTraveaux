@@ -1,0 +1,63 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "778103",
+ "orgAcronyme": "a1z",
+ "reference_pv": "25/CB/2023",
+ "nouveau": true,
+ "reference": "25/CB/2023",
+ "objet": "Remise à niveau et entretien des jardins : parc Prefectoral Sidi Othmane et Parc Sportif AI Qodbs Sidi Bernoussi",
+ "acheteur": "CASABLANCA BAIA",
+ "procedure": "appel d'offres ouvert",
+ "categorie": "Travaux",
+ "date_limite_plis": "22/01/2024",
+ "lieu_ouverture": "SIEGE DE LA SOCIETE CASABLANCA BAIA",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "20/02/2024",
+ "justification": "l’offre la plus avantageuse",
+ "infructueux": false,
+ "attributaire": "SOCIETE KALIFA PLANTES",
+ "montant_attribue": 21275604.0,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "SOCIETE KALIFA PLANTES",
+   "montant_acte_engagement": 21275604.0,
+   "montant_apres_verification": 21275604.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "GROUPEMENT VERVETA/PETIT ATLAS",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_offre_technique",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "SOCIETE ALMO JARDIN",
+   "montant_acte_engagement": 21603366.0,
+   "montant_apres_verification": 21603366.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 3,
+ "alertes_ocr": [
+  "« SOCIETE KALIFA PLANTES » absent de la liste des plis déposés (nom mal lu ?).",
+  "« SOCIETE ALMO JARDIN » absent de la liste des plis déposés (nom mal lu ?)."
+ ],
+ "notes_ocr": [
+  "« GROUPEMENT VERVETA/PETIT ATLAS » absent de la liste des plis déposés (nom mal lu ?)."
+ ],
+ "qualite": "complet"
+}

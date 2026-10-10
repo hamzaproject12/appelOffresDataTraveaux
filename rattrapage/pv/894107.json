@@ -1,0 +1,63 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "894107",
+ "orgAcronyme": "g8e",
+ "reference_pv": "50/2023",
+ "nouveau": true,
+ "reference": "50/2023",
+ "objet": "TRAVAUX DE REALISATION DES FORAGES (RECONNAISSANCE ET EXPLOITATION) AUX CERCLES RELEVANT DE LA PROVINCE D'AZILAL -EN TROIS LOTS-LOT 02 : CERCLES FETOUAKA ET",
+ "acheteur": "Agence Régionale d'Exécution des Projets Région Béni Mellal- Khénifra",
+ "procedure": "appel d'offres ouvert",
+ "categorie": "Travaux",
+ "date_limite_plis": "14/03/2025",
+ "lieu_ouverture": "Salle de réunion de l'AREP région Beni Mellal Khénifra, Sis Bd Med V lotissement lala Hayat immeuble n°3, 4é\"e et 5€\" étage Béni Mellal",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "06/05/2025",
+ "justification": null,
+ "infructueux": false,
+ "attributaire": "STE FORAGE ZOUHOUR",
+ "montant_attribue": 5631300.0,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "STE FORAGE ZOUHOUR",
+   "montant_acte_engagement": 5631300.0,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "STE GLOBAL TRAVAUX EXPRESS",
+   "montant_acte_engagement": 5187600.0,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Bd Med V lotissement lala Hayat immeuble n°3, 4f\"et 5\" étage Béni Mellal",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_dossier_administratif_technique",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 3,
+ "alertes_ocr": [
+  "« STE FORAGE ZOUHOUR » absent de la liste des plis déposés (nom mal lu ?).",
+  "« STE GLOBAL TRAVAUX EXPRESS » absent de la liste des plis déposés (nom mal lu ?)."
+ ],
+ "notes_ocr": [
+  "« Bd Med V lotissement lala Hayat immeuble n°3, 4f\"et 5\" étage Béni Mellal » absent de la liste des plis déposés (nom mal lu ?)."
+ ],
+ "qualite": "complet"
+}

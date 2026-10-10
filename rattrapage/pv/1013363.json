@@ -1,0 +1,89 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "1013363",
+ "orgAcronyme": "d4q",
+ "reference_pv": "08/2026/ABHOER",
+ "nouveau": true,
+ "reference": "08/2026/ABHOER",
+ "objet": "Travaux de réalisation de sondages de reconnaissance des eaux souterraines dans les nappes montagnes (Réservé)",
+ "acheteur": "Agence du Bassin Hydraulique de l’Oum Er-Rbia. T ”",
+ "procedure": null,
+ "categorie": "Travaux",
+ "date_limite_plis": "31/03/2026",
+ "lieu_ouverture": "Siège de l’Agence du Bassin Hydraulique de l’Oum Er-Rbia à Béni Mellal f",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "10/04/2026",
+ "justification": "L'offre la plus avantageuse.",
+ "infructueux": false,
+ "attributaire": "Société IMISYB MAROC",
+ "montant_attribue": 7170000.0,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "Société SJS MAROC",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_dossier_administratif_technique",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Entreprise Ghrar Brahim de Forage (EGBF)",
+   "montant_acte_engagement": 6996000.0,
+   "montant_apres_verification": 6996000.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Société GEO SONDA BARHDADI",
+   "montant_acte_engagement": 5841000.0,
+   "montant_apres_verification": 5841000.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Société FORAGE ZOUHOUR PA",
+   "montant_acte_engagement": 7278000.0,
+   "montant_apres_verification": 7278000.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Société AIT OUKHALI TRAVAUX",
+   "montant_acte_engagement": 8697360.0,
+   "montant_apres_verification": 8697360.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Société IMISYB MAROC",
+   "montant_acte_engagement": 7170000.0,
+   "montant_apres_verification": 7170000.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 6,
+ "alertes_ocr": [
+  "« Société FORAGE ZOUHOUR PA » absent de la liste des plis déposés (nom mal lu ?).",
+  "« Société AIT OUKHALI TRAVAUX » absent de la liste des plis déposés (nom mal lu ?).",
+  "« Société IMISYB MAROC » absent de la liste des plis déposés (nom mal lu ?)."
+ ],
+ "notes_ocr": [],
+ "qualite": "complet"
+}

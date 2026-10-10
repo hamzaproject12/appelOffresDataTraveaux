@@ -1,0 +1,61 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "1024283",
+ "orgAcronyme": "p1v",
+ "reference_pv": null,
+ "nouveau": true,
+ "reference": null,
+ "objet": "Travaux de restructuration des quartiers à la ville de BIR JDID",
+ "acheteur": "la commune de BIR JDID",
+ "procedure": null,
+ "categorie": "Travaux",
+ "date_limite_plis": "04/06/2026",
+ "lieu_ouverture": "la salle des réunions de la commune de BIR JDID",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "10/07/2026",
+ "justification": "présentation de l'offre la plus avantageuse.",
+ "infructueux": false,
+ "attributaire": "Groupement conjoint Société ANETRA.SARL et Société DRAA",
+ "montant_attribue": 10077876.0,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "SARL et société SOURCE BLEUE GRANDS PROJETS SARL",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Groupement conjoint Société ANETRA.SARL et Société DRAA",
+   "montant_acte_engagement": 10077876.0,
+   "montant_apres_verification": 10077876.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Groupement conjoint société MESKI DES TRAVAUX DIVERS",
+   "montant_acte_engagement": 10439748.0,
+   "montant_apres_verification": 10439748.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 3,
+ "alertes_ocr": [
+  "« Groupement conjoint Société ANETRA.SARL et Société DRAA » absent de la liste des plis déposés (nom mal lu ?).",
+  "« Groupement conjoint société MESKI DES TRAVAUX DIVERS » absent de la liste des plis déposés (nom mal lu ?)."
+ ],
+ "notes_ocr": [],
+ "qualite": "complet"
+}

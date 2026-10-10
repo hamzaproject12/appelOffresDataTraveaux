@@ -1,0 +1,74 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "695119",
+ "orgAcronyme": "q1s",
+ "reference_pv": "13/2023/0RSM",
+ "nouveau": true,
+ "reference": "13/2023/0RSM",
+ "objet": "Travaux de creusement des sondages de reconnaissance et transformation des sondages de reconnaissance en forage d'exploitation dans le cadre du projet de l'intensification et de développement de l'Amandier et de l'Ail",
+ "acheteur": "ORMVAI/SM",
+ "procedure": "appel d'offres ouvert",
+ "categorie": "Travaux",
+ "date_limite_plis": "14/12/2022",
+ "lieu_ouverture": "salle de réunion de la direction de l'ORMVA/SM",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "27/01/2023",
+ "justification": null,
+ "infructueux": false,
+ "attributaire": "LBIR FORAGE ET FONDATION",
+ "montant_attribue": 2131200.0,
+ "attributaires_par_lot": [
+  {
+   "lot": null,
+   "attributaire": "LBIR FORAGE ET FONDATION",
+   "montant": 2131200.0
+  },
+  {
+   "lot": null,
+   "attributaire": "FORAGE ZOUHOUR",
+   "montant": 2242800.0
+  },
+  {
+   "lot": null,
+   "attributaire": "IMISYB",
+   "montant": 2452920.0
+  }
+ ],
+ "soumissionnaires": [
+  {
+   "nom": "LBIR FORAGE ET FONDATION",
+   "montant_acte_engagement": 2131200.0,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "FORAGE ZOUHOUR",
+   "montant_acte_engagement": 2242800.0,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "IMISYB",
+   "montant_acte_engagement": 2452920.0,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 3,
+ "alertes_ocr": [],
+ "notes_ocr": [],
+ "qualite": "attribution"
+}

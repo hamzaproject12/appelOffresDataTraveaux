@@ -1,0 +1,51 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "1032063",
+ "orgAcronyme": "a1z",
+ "reference_pv": "6/AS0/2026",
+ "nouveau": true,
+ "reference": "6/AS0/2026",
+ "objet": "TRAVAUX D’AMENAGEMENT DES TERRAINS DE PROXIMITE",
+ "acheteur": "Président de l’Arrondissement Sidi Othmane",
+ "procedure": "appel d'offres ouvert national",
+ "categorie": "Travaux",
+ "date_limite_plis": "04/08/2026",
+ "lieu_ouverture": "Bureau de Mr le Président de l’Arrondissement",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": null,
+ "justification": null,
+ "infructueux": false,
+ "attributaire": null,
+ "montant_attribue": null,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "Sté BINADIC",
+   "montant_acte_engagement": 3975942.0,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Sté MENARA RABOTAGE",
+   "montant_acte_engagement": 4190412.0,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 2,
+ "alertes_ocr": [
+  "Attributaire non trouvé."
+ ],
+ "notes_ocr": [],
+ "qualite": "complet"
+}

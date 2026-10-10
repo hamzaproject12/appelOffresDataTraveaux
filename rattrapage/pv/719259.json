@@ -1,0 +1,133 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "719259",
+ "orgAcronyme": "o4d",
+ "reference_pv": "03/2023",
+ "nouveau": true,
+ "reference": "03/2023",
+ "objet": "l’Acquisition et installation des stores et cloisonnement pour la division contrôle et la perception en deux (02) lots distincts,",
+ "acheteur": "CNSS Direction régionale d'Agadir",
+ "procedure": "appel d'offres ouvert",
+ "categorie": "Travaux",
+ "date_limite_plis": "22/05/2023",
+ "lieu_ouverture": null,
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "02/06/2023",
+ "justification": "° Lot 1:Offre la plus avantageuse (moins disante). ° Lot 2: Offre la plus avantageuse (moins disante).",
+ "infructueux": false,
+ "attributaire": "Sté B2 NEGOCE",
+ "montant_attribue": 29988.0,
+ "attributaires_par_lot": [
+  {
+   "lot": "1",
+   "attributaire": "Sté B2 NEGOCE",
+   "montant": 29988.0
+  },
+  {
+   "lot": "2",
+   "attributaire": "Sté B2 NEGOCE",
+   "montant": 159886.8
+  }
+ ],
+ "soumissionnaires": [
+  {
+   "nom": "Sté PLOMBERIE INTER-RAP",
+   "montant_acte_engagement": 32680.8,
+   "montant_apres_verification": 32680.8,
+   "autres_montants": [],
+   "lots": [
+    "1"
+   ],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Sté STIL",
+   "montant_acte_engagement": 33120.0,
+   "montant_apres_verification": 33120.0,
+   "autres_montants": [
+    167664.0
+   ],
+   "lots": [
+    "1",
+    "2"
+   ],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Sté FTCM",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [
+    "1"
+   ],
+   "statut": "depose",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Sté 361 BUILDING",
+   "montant_acte_engagement": 43140.0,
+   "montant_apres_verification": 43140.0,
+   "autres_montants": [
+    252780.0
+   ],
+   "lots": [
+    "1",
+    "2"
+   ],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Sté B2 NEGOCE",
+   "montant_acte_engagement": 29988.0,
+   "montant_apres_verification": 29988.0,
+   "autres_montants": [
+    159886.8
+   ],
+   "lots": [
+    "1",
+    "2"
+   ],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Sté BEN DAWD INVEST ET NEGOCE (Soumission électronique via le portail des marchés",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [
+    "1",
+    "2"
+   ],
+   "statut": "ecarte_dossier_administratif_technique",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Sté EL GHAIT",
+   "montant_acte_engagement": 35564.4,
+   "montant_apres_verification": 35564.4,
+   "autres_montants": [],
+   "lots": [
+    "1"
+   ],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 7,
+ "alertes_ocr": [
+  "« Sté EL GHAIT » absent de la liste des plis déposés (nom mal lu ?)."
+ ],
+ "notes_ocr": [
+  "Marché alloti (2 lots)."
+ ],
+ "qualite": "complet"
+}

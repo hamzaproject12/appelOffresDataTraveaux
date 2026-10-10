@@ -1,0 +1,106 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "1001459",
+ "orgAcronyme": "g3h",
+ "reference_pv": null,
+ "nouveau": true,
+ "reference": null,
+ "objet": "travaux de réhabilitation du réseau d'assainissement liquide dans la ville d'Oujda en trois (3) lots : . LOT 1 : QUARTIER OULED CHRIF JAWHARA",
+ "acheteur": null,
+ "procedure": null,
+ "categorie": "Travaux",
+ "date_limite_plis": null,
+ "lieu_ouverture": "Siège de la SRM-ORI",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": null,
+ "justification": "est du choix de I'attributaire : offre moins-disante_conforme par lot (l,attritrution pour chaque rimitée à un maximum d'un (0I) seur rot seron Pordre chronotogique)",
+ "infructueux": true,
+ "attributaire": null,
+ "montant_attribue": null,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "LK INTERIM",
+   "montant_acte_engagement": 4662360.0,
+   "montant_apres_verification": 4662360.0,
+   "autres_montants": [],
+   "lots": [
+    "2"
+   ],
+   "statut": "admis",
+   "admis_avec_reserve": true
+  },
+  {
+   "nom": "SODR - STEPAG (Lots I et 2)",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "depose",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "SMYBAM",
+   "montant_acte_engagement": 3971640.0,
+   "montant_apres_verification": 3971640.0,
+   "autres_montants": [],
+   "lots": [
+    "3"
+   ],
+   "statut": "ecarte_dossier_administratif_technique",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "STE STEPAG",
+   "montant_acte_engagement": 3936312.0,
+   "montant_apres_verification": 3936312.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "SIGMA 4T",
+   "montant_acte_engagement": 4086063.0,
+   "montant_apres_verification": 4086063.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "STE RELANCE TRAVAUX",
+   "montant_acte_engagement": 4706460.0,
+   "montant_apres_verification": 4706460.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "STE EL HORE MOHAMMED",
+   "montant_acte_engagement": 4893434.82,
+   "montant_apres_verification": 4893434.82,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 7,
+ "alertes_ocr": [
+  "« STE STEPAG » absent de la liste des plis déposés (nom mal lu ?).",
+  "« SIGMA 4T » absent de la liste des plis déposés (nom mal lu ?).",
+  "« STE RELANCE TRAVAUX » absent de la liste des plis déposés (nom mal lu ?).",
+  "« STE EL HORE MOHAMMED » absent de la liste des plis déposés (nom mal lu ?)."
+ ],
+ "notes_ocr": [
+  "Marché alloti (2 lots).",
+  "Maître d'ouvrage absent du PV (utiliser l'acheteur public du portail)."
+ ],
+ "qualite": "complet"
+}

@@ -1,0 +1,71 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "964030",
+ "orgAcronyme": "o8p",
+ "reference_pv": "52/2025/TAO",
+ "nouveau": true,
+ "reference": "52/2025/TAO",
+ "objet": "Travaux de signalisation verticale et dispositifs de sécurité de la route nationale N°8 du PK 805+000 au PK 789+000 sur 16 km, Province de Taounate",
+ "acheteur": null,
+ "procedure": "appel d'offres ouvert",
+ "categorie": "Travaux",
+ "date_limite_plis": "11/12/2025",
+ "lieu_ouverture": "la salle de réunion à la Direction Provinciale de l'Equipement, du Transport et de la Logistique de Taounate, Bd Mohamed V Taounate Centre",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "15/12/2025",
+ "justification": "Rempli les conditions demandées par le dossier d’appel d’offre.",
+ "infructueux": false,
+ "attributaire": "PS STE AIC RENDRA ee",
+ "montant_attribue": 1320968.0,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "STE LA LIGNE BLANCHE -SKHIRAT",
+   "montant_acte_engagement": 11581680.0,
+   "montant_apres_verification": 11581680.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "s STE AIC -KENITRA",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "STE URBAN ELECTRONICS -SKHIRAT",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_dossier_administratif_technique",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "PS STE AIC RENDRA ee",
+   "montant_acte_engagement": 1320968.0,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 4,
+ "alertes_ocr": [
+  "« PS STE AIC RENDRA ee » absent de la liste des plis déposés (nom mal lu ?)."
+ ],
+ "notes_ocr": [
+  "Maître d'ouvrage absent du PV (utiliser l'acheteur public du portail)."
+ ],
+ "qualite": "complet"
+}

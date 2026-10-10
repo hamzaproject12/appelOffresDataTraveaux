@@ -1,0 +1,64 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "764410",
+ "orgAcronyme": "d4q",
+ "reference_pv": "33/2023/ABHSHOD",
+ "nouveau": true,
+ "reference": "33/2023/ABHSHOD",
+ "objet": "TRAVAUX DERÉALISATION DES PIÉZOMÈTRES POUR LE SUIVI DES NAPPES DANS LA RÉGION DE LAÂYOUNE SAKIA EL HAMRA - Maître d'ouvrage : Agence du Bassin hydraulique de Sakia El Hamra et Oued Eddahab",
+ "acheteur": "Agence du Bassin hydraulique de Sakia El Hamra et Oued Eddahab",
+ "procedure": "appel d'offres ouvert simplifié",
+ "categorie": "Travaux",
+ "date_limite_plis": "12/12/2023",
+ "lieu_ouverture": "Salle de réunion de l’ Agence du Bassin Hydraulique de Sakia El Hamra et Oued Eddahab, Quartier Administratif, Place Dcheira- Laâyoune",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "13/12/2023",
+ "justification": null,
+ "infructueux": false,
+ "attributaire": "SOCIETE FORAGE ZOUHOUR",
+ "montant_attribue": 1234800.0,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "UNIVERS PHYTO",
+   "montant_acte_engagement": 1123569.6,
+   "montant_apres_verification": null,
+   "autres_montants": [
+    1123569.6
+   ],
+   "lots": [],
+   "statut": "ecarte_offre_financiere",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "SOCIETE EGBF",
+   "montant_acte_engagement": 1317120.0,
+   "montant_apres_verification": null,
+   "autres_montants": [
+    1317120.0
+   ],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "SOCIETE FORAGE ZOUHOUR",
+   "montant_acte_engagement": 1234800.0,
+   "montant_apres_verification": null,
+   "autres_montants": [
+    1234800.0
+   ],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 3,
+ "alertes_ocr": [],
+ "notes_ocr": [],
+ "qualite": "complet"
+}

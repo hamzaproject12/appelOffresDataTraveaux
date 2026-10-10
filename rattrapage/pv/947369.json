@@ -1,0 +1,102 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "947369",
+ "orgAcronyme": "e5w",
+ "reference_pv": "04/2025/Commune",
+ "nouveau": true,
+ "reference": "04/2025/Commune",
+ "objet": "l’appel d’offres ouvert sur offres des prix N° 04/2025 /Commune de Sidi.Harazem Obi et : TRAVAUX DE PROTECTION CONTRE LES INONDATIONS DU CENTRE DE SIDI HARAZEM",
+ "acheteur": "le Président de la commune de Sidi Harazem",
+ "procedure": "appel d'offres ouvert",
+ "categorie": "Travaux",
+ "date_limite_plis": "21/10/2025",
+ "lieu_ouverture": "la salle de réunion de la commune de Sidi Harazem",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": null,
+ "justification": null,
+ "infructueux": false,
+ "attributaire": null,
+ "montant_attribue": null,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "Sté: SNTA SARL",
+   "montant_acte_engagement": 5386645.2,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Sté: HACHLAF DE CONSTRUCTION SARL",
+   "montant_acte_engagement": 5416410.0,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Sté : SNTRO SARL",
+   "montant_acte_engagement": 6397188.0,
+   "montant_apres_verification": null,
+   "autres_montants": [
+    6397188.0
+   ],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Sté: SMARTI SARL",
+   "montant_acte_engagement": 5680748.4,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Sté: LGBI SARL",
+   "montant_acte_engagement": 5878668.0,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Sté: SADECOM SARL",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "depose",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Sté : SMARTI SARL 5",
+   "montant_acte_engagement": 5751931.92,
+   "montant_apres_verification": null,
+   "autres_montants": [
+    5414752.8,
+    5583342.36
+   ],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 7,
+ "alertes_ocr": [
+  "« Sté : SMARTI SARL 5 » absent de la liste des plis déposés (nom mal lu ?).",
+  "Attributaire non trouvé."
+ ],
+ "notes_ocr": [],
+ "qualite": "complet"
+}

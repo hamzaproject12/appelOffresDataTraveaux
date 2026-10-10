@@ -1,0 +1,86 @@
+{
+ "source": "extrait_docx",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "1009793",
+ "orgAcronyme": "o8p",
+ "reference_pv": "SE/03/2026/CFR",
+ "nouveau": true,
+ "reference": "SE/03/2026/CFR",
+ "objet": "Travaux d'élargissement et de renforcement de la RP 3608 du PK 12+725 au PK 19+600 (Province de Settat)",
+ "acheteur": "Caisse pour le Financement Routier (CFR) Caisse pour le Financement Routier (CFR)",
+ "procedure": null,
+ "categorie": "Travaux",
+ "date_limite_plis": "21/05/2026",
+ "lieu_ouverture": "Siège de la Caisse pour le Financement Routier (CFR) Siège de la Caisse pour le Financement Routier (CFR)",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "04/06/2026",
+ "justification": "l'offre économiquement la plus avantageuse a été retenue",
+ "infructueux": false,
+ "attributaire": "STE GRAMAGEC",
+ "montant_attribue": 10342824.54,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "STE GRAMAGEC",
+   "montant_acte_engagement": 10342824.54,
+   "montant_apres_verification": 10342824.54,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "GROUPEMENT STE GFTR ET STE FBK",
+   "montant_acte_engagement": 10600255.49,
+   "montant_apres_verification": 10342824.54,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "STE SBTP",
+   "montant_acte_engagement": 10999990.46,
+   "montant_apres_verification": 10600255.49,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "STE FOREFIL",
+   "montant_acte_engagement": 10500082.81,
+   "montant_apres_verification": 10999990.46,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "STE GHOYOUM SAHARA TRAVAUX",
+   "montant_acte_engagement": 11106037.86,
+   "montant_apres_verification": 10500082.81,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 5,
+ "alertes_ocr": [
+  "« GROUPEMENT STE GFTR ET STE FBK » absent de la liste des plis déposés (nom mal lu ?).",
+  "« STE SBTP » absent de la liste des plis déposés (nom mal lu ?).",
+  "« STE FOREFIL » absent de la liste des plis déposés (nom mal lu ?).",
+  "« STE GHOYOUM SAHARA TRAVAUX » absent de la liste des plis déposés (nom mal lu ?)."
+ ],
+ "notes_ocr": [
+  "« GROUPEMENT STE GFTR ET STE FBK » : montant rectifié de 10 600 255.49 à 10 342 824.54 DH.",
+  "« STE SBTP » : montant rectifié de 10 999 990.46 à 10 600 255.49 DH.",
+  "« STE FOREFIL » : montant rectifié de 10 500 082.81 à 10 999 990.46 DH.",
+  "« STE GHOYOUM SAHARA TRAVAUX » : montant rectifié de 11 106 037.86 à 10 500 082.81 DH."
+ ],
+ "qualite": "complet"
+}

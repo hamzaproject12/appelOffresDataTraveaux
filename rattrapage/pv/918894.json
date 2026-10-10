@@ -1,0 +1,58 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "918894",
+ "orgAcronyme": "f9f",
+ "reference_pv": "01/2025",
+ "nouveau": true,
+ "reference": "01/2025",
+ "objet": "Travaux de transfert d’une ligne HTA aérienne à 22 KV sise au douar takad commune sidi bibi",
+ "acheteur": "Commune SIDI BIBI",
+ "procedure": "appel d'offres ouvert",
+ "categorie": "Travaux",
+ "date_limite_plis": "08/04/2025",
+ "lieu_ouverture": "Commune Sidi bibi",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "21/05/2025",
+ "justification": "l'offre économiquement la plus avantageuse.",
+ "infructueux": false,
+ "attributaire": "Société des TRAVAUX GENIE ELECTRONIQUE SARL",
+ "montant_attribue": 144987.72,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "Société ELEC BOURICHE SARL",
+   "montant_acte_engagement": 151096.32,
+   "montant_apres_verification": 151096.32,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Société SPINELEC",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_offre_financiere",
+   "admis_avec_reserve": true
+  },
+  {
+   "nom": "Société des TRAVAUX GENIE ELECTRONIQUE SARL",
+   "montant_acte_engagement": 144987.72,
+   "montant_apres_verification": 144987.72,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 3,
+ "alertes_ocr": [],
+ "notes_ocr": [],
+ "qualite": "complet"
+}

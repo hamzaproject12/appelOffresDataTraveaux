@@ -1,0 +1,60 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "895754",
+ "orgAcronyme": "f8y",
+ "reference_pv": null,
+ "nouveau": true,
+ "reference": null,
+ "objet": "APPEL D'OFFRE N° 02/2025 TRAVAUX DE BRANCHEMENT MT DE 22 KV DU PT 50 KVA DE L'UNITE D'ELEVAGE APICOLE PRODUCTION ET PROMOTION DU MIEL A LA COMMUNE",
+ "acheteur": "COMMUNE DE BOUMERIEM",
+ "procedure": null,
+ "categorie": "Travaux",
+ "date_limite_plis": "08/05/2025",
+ "lieu_ouverture": "Siege De La Commune Boumeriem",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "08/05/2025",
+ "justification": null,
+ "infructueux": false,
+ "attributaire": null,
+ "montant_attribue": null,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "/ BENDOUZ ELEC",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_dossier_administratif_technique",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "\u0014 CHAIMAE DES TRAVAUX D'ELECTRIC",
+   "montant_acte_engagement": 540882.0,
+   "montant_apres_verification": 540882.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "STE JOBELEC",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_dossier_administratif_technique",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 3,
+ "alertes_ocr": [
+  "Attributaire non trouvé."
+ ],
+ "notes_ocr": [],
+ "qualite": "attribution"
+}

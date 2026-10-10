@@ -1,0 +1,62 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "806270",
+ "orgAcronyme": "q0x",
+ "reference_pv": "59/AREPDT/2024",
+ "nouveau": true,
+ "reference": "59/AREPDT/2024",
+ "objet": null,
+ "acheteur": "Agence Régionale d’Exécution des Projets Drâa-Tafilalet, ▪",
+ "procedure": "appel d'offres ouvert",
+ "categorie": "Travaux",
+ "date_limite_plis": null,
+ "lieu_ouverture": null,
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": null,
+ "justification": null,
+ "infructueux": false,
+ "attributaire": "DIHYA",
+ "montant_attribue": 3358416.0,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "GRP AIT OUKHALI TRAVAUX ET ATLAS INFRA",
+   "montant_acte_engagement": 3230820.0,
+   "montant_apres_verification": 3230820.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_offre_financiere",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "DIHYA",
+   "montant_acte_engagement": 3358416.0,
+   "montant_apres_verification": 3358416.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "VANORD",
+   "montant_acte_engagement": 3471318.0,
+   "montant_apres_verification": 3471318.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 3,
+ "alertes_ocr": [
+  "« GRP AIT OUKHALI TRAVAUX ET ATLAS INFRA » absent de la liste des plis déposés (nom mal lu ?).",
+  "« DIHYA » absent de la liste des plis déposés (nom mal lu ?).",
+  "« VANORD » absent de la liste des plis déposés (nom mal lu ?)."
+ ],
+ "notes_ocr": [],
+ "qualite": "complet"
+}

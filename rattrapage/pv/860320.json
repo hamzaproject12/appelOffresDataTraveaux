@@ -1,0 +1,52 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "860320",
+ "orgAcronyme": "g3h",
+ "reference_pv": "109/INDH/T/2024",
+ "nouveau": true,
+ "reference": "109/INDH/T/2024",
+ "objet": "Travaux de construction de sept unités préscolaires aux communes relevant du territoire de la Province de Settat (TRANCHE 9)",
+ "acheteur": "La Province de Settat",
+ "procedure": "appel d'offres restreint",
+ "categorie": "Travaux",
+ "date_limite_plis": null,
+ "lieu_ouverture": "La Division du Budget, des Marchés et des ressources humaines / Province de Settat",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "16/12/2024",
+ "justification": "L'offre financière proposée par l’attributaire est la mieux-disante, elle est la plus proche du prix de référence par excès et ce conformément aux dispositions de l'article 44 du Décret n°2-22-431 du 15 chaabane 1444 (8 mars 2023) relatif aux marchés publics.",
+ "infructueux": false,
+ "attributaire": "Société ABDERRAHMAN LABRAR",
+ "montant_attribue": 2010696.0,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "Elf Société MAROC TRADIV",
+   "montant_acte_engagement": 1923423.0,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_offre_financiere",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Société ABDERRAHMAN LABRAR",
+   "montant_acte_engagement": 2010696.0,
+   "montant_apres_verification": 2010696.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 2,
+ "alertes_ocr": [
+  "« Elf Société MAROC TRADIV » absent de la liste des plis déposés (nom mal lu ?).",
+  "« Société ABDERRAHMAN LABRAR » absent de la liste des plis déposés (nom mal lu ?)."
+ ],
+ "notes_ocr": [],
+ "qualite": "complet"
+}

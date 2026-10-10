@@ -1,0 +1,125 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "694893",
+ "orgAcronyme": "h5r",
+ "reference_pv": null,
+ "nouveau": true,
+ "reference": null,
+ "objet": null,
+ "acheteur": null,
+ "procedure": null,
+ "categorie": "Travaux",
+ "date_limite_plis": null,
+ "lieu_ouverture": null,
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": null,
+ "justification": null,
+ "infructueux": false,
+ "attributaire": null,
+ "montant_attribue": null,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "GROUPEMENT",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": true
+  },
+  {
+   "nom": "SOCIETE MASTRAV S.A.R.L TINGHIR",
+   "montant_acte_engagement": 2423124.0,
+   "montant_apres_verification": 2423124.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": true
+  },
+  {
+   "nom": "SOCIETE PROPISTE S.A.R.L EL KELAA DES SRAGHNA",
+   "montant_acte_engagement": 1967538.0,
+   "montant_apres_verification": 1967538.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": true
+  },
+  {
+   "nom": "SOCIETE ECBT S.A.R.L MIDELT",
+   "montant_acte_engagement": 2669234.7,
+   "montant_apres_verification": 2669234.7,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": true
+  },
+  {
+   "nom": "SOCIETE OBH TRAVAUX S.A.R.L.AU AIT OURIR AL HAOUZ MARRAKECH",
+   "montant_acte_engagement": 2396191.2,
+   "montant_apres_verification": 2396191.2,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": true
+  },
+  {
+   "nom": "SOCIETE ZAMANE EL KHEIR S.A.R.L EL JADIDA",
+   "montant_acte_engagement": 1957225.2,
+   "montant_apres_verification": 1957225.2,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": true
+  },
+  {
+   "nom": "SOCIETE KYMG TRAVAUX S.A.R.L.AU BENI MELLAL",
+   "montant_acte_engagement": 2136788.4,
+   "montant_apres_verification": 2136788.4,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": true
+  },
+  {
+   "nom": "SOCIETE EL AMAL DES TRAVAUX PUBLIC SELTRAP S.A.R.L MARRAKECH",
+   "montant_acte_engagement": 1971895.2,
+   "montant_apres_verification": 1971895.2,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": true
+  },
+  {
+   "nom": "SOCIETE GALEON BTP S.A.R.L CASABLANCA",
+   "montant_acte_engagement": 1937130.0,
+   "montant_apres_verification": 1937130.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": true
+  }
+ ],
+ "nombre_soumissionnaires": 9,
+ "alertes_ocr": [
+  "« SOCIETE MASTRAV S.A.R.L TINGHIR » absent de la liste des plis déposés (nom mal lu ?).",
+  "« SOCIETE PROPISTE S.A.R.L EL KELAA DES SRAGHNA » absent de la liste des plis déposés (nom mal lu ?).",
+  "« SOCIETE ECBT S.A.R.L MIDELT » absent de la liste des plis déposés (nom mal lu ?).",
+  "« SOCIETE OBH TRAVAUX S.A.R.L.AU AIT OURIR AL HAOUZ MARRAKECH » absent de la liste des plis déposés (nom mal lu ?).",
+  "« SOCIETE ZAMANE EL KHEIR S.A.R.L EL JADIDA » absent de la liste des plis déposés (nom mal lu ?).",
+  "« SOCIETE KYMG TRAVAUX S.A.R.L.AU BENI MELLAL » absent de la liste des plis déposés (nom mal lu ?).",
+  "« SOCIETE EL AMAL DES TRAVAUX PUBLIC SELTRAP S.A.R.L MARRAKECH » absent de la liste des plis déposés (nom mal lu ?).",
+  "« SOCIETE GALEON BTP S.A.R.L CASABLANCA » absent de la liste des plis déposés (nom mal lu ?).",
+  "Attributaire non trouvé."
+ ],
+ "notes_ocr": [
+  "« GROUPEMENT » absent de la liste des plis déposés (nom mal lu ?).",
+  "Maître d'ouvrage absent du PV (utiliser l'acheteur public du portail)."
+ ],
+ "qualite": "complet"
+}

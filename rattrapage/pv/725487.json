@@ -1,0 +1,54 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "725487",
+ "orgAcronyme": "g3h",
+ "reference_pv": "06/WRLSH/BG/2023",
+ "nouveau": true,
+ "reference": "06/WRLSH/BG/2023",
+ "objet": "TRAVAUX DE CONSTRUCTION DU SIÈGE DE LA 2°\" ANNEXE ADMINISTRATIVE À LA PROVINCE DE",
+ "acheteur": "Province de Laayoune",
+ "procedure": "appel d'offres ouvert",
+ "categorie": "Travaux",
+ "date_limite_plis": "07/06/2023",
+ "lieu_ouverture": "la salle des réunions de la Province de Laayoune _ournaux ayant publié l’avis de publicité",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "28/06/2023",
+ "justification": null,
+ "infructueux": true,
+ "attributaire": null,
+ "montant_attribue": null,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "STE KOURITO",
+   "montant_acte_engagement": 3656712.0,
+   "montant_apres_verification": 3690192.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_offre_financiere",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "ENTREPRISE BOUTAZARTE SARL",
+   "montant_acte_engagement": 4504182.0,
+   "montant_apres_verification": 4504182.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 2,
+ "alertes_ocr": [
+  "« STE KOURITO » absent de la liste des plis déposés (nom mal lu ?).",
+  "« ENTREPRISE BOUTAZARTE SARL » absent de la liste des plis déposés (nom mal lu ?)."
+ ],
+ "notes_ocr": [
+  "« STE KOURITO » : montant rectifié de 3 656 712.00 à 3 690 192.00 DH."
+ ],
+ "qualite": "complet"
+}

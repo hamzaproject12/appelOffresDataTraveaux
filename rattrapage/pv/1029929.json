@@ -1,0 +1,104 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "1029929",
+ "orgAcronyme": "s3z",
+ "reference_pv": "09/2026",
+ "nouveau": true,
+ "reference": "09/2026",
+ "objet": "Travaux d'aménagement et renforcement des voies de la commune Ain Attig, préfecture Skhirat-Témara",
+ "acheteur": "Commune d’Ain Attig",
+ "procedure": "appel d'offres ouvert national",
+ "categorie": "Travaux",
+ "date_limite_plis": "23/07/2026",
+ "lieu_ouverture": "La salle de réunion de la commune d’Ain Attig",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": null,
+ "justification": "L'offre présentée par la société ENTREPRISE DE REVETEMENT «TR3F » SARL est l’offre la plus avantageuse.",
+ "infructueux": false,
+ "attributaire": "Atributaire: ENTREPRISE DE REVETEMENT Ce",
+ "montant_attribue": null,
+ "attributaires_par_lot": [
+  {
+   "lot": null,
+   "attributaire": "Atributaire: ENTREPRISE DE REVETEMENT Ce",
+   "montant": null
+  },
+  {
+   "lot": null,
+   "attributaire": "ROUTIER ET TRAVAUX DIVERS « TR3F SARL",
+   "montant": null
+  }
+ ],
+ "soumissionnaires": [
+  {
+   "nom": "ROUTIER ET TRAVAUX DIVERS « TR3F SARL",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "ENTREPRISE DE REVETEMENT ROUTIER ET TRAVAUX",
+   "montant_acte_engagement": 2086932.0,
+   "montant_apres_verification": 2086932.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "LABERAGA TRAVAUX SARL AU",
+   "montant_acte_engagement": 2120880.0,
+   "montant_apres_verification": 2120880.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "ETABLISSEMENT ASSREM NEGOCE» S.A.R.L",
+   "montant_acte_engagement": 2104800.0,
+   "montant_apres_verification": 2104800.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "MENARA VRD « SARL AU",
+   "montant_acte_engagement": 2141040.0,
+   "montant_apres_verification": 2141040.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Atributaire: ENTREPRISE DE REVETEMENT Ce",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 6,
+ "alertes_ocr": [
+  "« ENTREPRISE DE REVETEMENT ROUTIER ET TRAVAUX » absent de la liste des plis déposés (nom mal lu ?).",
+  "« LABERAGA TRAVAUX SARL AU » absent de la liste des plis déposés (nom mal lu ?).",
+  "« ETABLISSEMENT ASSREM NEGOCE» S.A.R.L » absent de la liste des plis déposés (nom mal lu ?).",
+  "« MENARA VRD « SARL AU » absent de la liste des plis déposés (nom mal lu ?).",
+  "« Atributaire: ENTREPRISE DE REVETEMENT Ce » absent de la liste des plis déposés (nom mal lu ?).",
+  "Montant de l'attributaire « Atributaire: ENTREPRISE DE REVETEMENT Ce » non trouvé.",
+  "Montant de l'attributaire « ROUTIER ET TRAVAUX DIVERS « TR3F SARL » non trouvé."
+ ],
+ "notes_ocr": [],
+ "qualite": "complet"
+}

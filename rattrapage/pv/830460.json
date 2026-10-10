@@ -1,0 +1,49 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "830460",
+ "orgAcronyme": "o8p",
+ "reference_pv": "31/A00/DPTR-ANP/2024",
+ "nouveau": true,
+ "reference": "31/A00/DPTR-ANP/2024",
+ "objet": null,
+ "acheteur": "Direction du Port de Tanger et Région",
+ "procedure": null,
+ "categorie": "Travaux",
+ "date_limite_plis": "28/08/2024",
+ "lieu_ouverture": "DPTR- Port de Tanger",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "05/09/2024",
+ "justification": null,
+ "infructueux": false,
+ "attributaire": "SOMAGEC DUMEZ MAROC",
+ "montant_attribue": 17594660.0,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "SOMAGEC",
+   "montant_acte_engagement": 21413688.0,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "SOMAGEC DUMEZ MAROC",
+   "montant_acte_engagement": 21113592.0,
+   "montant_apres_verification": 21113592.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 2,
+ "alertes_ocr": [],
+ "notes_ocr": [],
+ "qualite": "complet"
+}

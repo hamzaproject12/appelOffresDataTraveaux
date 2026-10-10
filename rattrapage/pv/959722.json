@@ -1,0 +1,189 @@
+{
+ "source": "extrait_docx",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "959722",
+ "orgAcronyme": "j0w",
+ "reference_pv": null,
+ "nouveau": true,
+ "reference": null,
+ "objet": null,
+ "acheteur": "ARRONDISSEMENT MENARA",
+ "procedure": null,
+ "categorie": "Travaux",
+ "date_limite_plis": "24/11/2025",
+ "lieu_ouverture": "Bureau de Mr le président de l’Arrondissement Menara situé AV Hassan II Route d’ESSAOUIRA Marrakech",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "01/12/2025",
+ "justification": "offre économiquement la plus avantageuse. 1918335295275",
+ "infructueux": false,
+ "attributaire": "STE GROUPE L.M ROUTIER",
+ "montant_attribue": 708600.0,
+ "attributaires_par_lot": [
+  {
+   "lot": "1",
+   "attributaire": "STE GROUPE L.M ROUTIER",
+   "montant": 708600.0
+  },
+  {
+   "lot": "2",
+   "attributaire": "STE LOGISTIQUE AZZITI",
+   "montant": 709560.0
+  },
+  {
+   "lot": "3",
+   "attributaire": "STE NOUR AL MASSAR",
+   "montant": 714480.0
+  }
+ ],
+ "soumissionnaires": [
+  {
+   "nom": "STE SAKITRA (3lots)",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "STE le palier",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_offre_financiere",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "STE SOFIDRO (3lots)",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "STE COSOB (3lots)",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "STE ET QUALITE",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [
+    "1"
+   ],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "STE ESPACE V.R.D TRAVAUX",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [
+    "1"
+   ],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "STE ZOULATI TRAVAUX",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [
+    "1"
+   ],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "STE GROUPE L.M ROUTIER",
+   "montant_acte_engagement": 708600.0,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [
+    "1",
+    "2"
+   ],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "STE LOGISTIQUE AZZITI",
+   "montant_acte_engagement": 709560.0,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [
+    "1",
+    "2",
+    "3"
+   ],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "STE LMOVENYAZ",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [
+    "1",
+    "2",
+    "3"
+   ],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "STE NOUR AL MASSAR",
+   "montant_acte_engagement": 703680.0,
+   "montant_apres_verification": 703680.0,
+   "autres_montants": [
+    709080.0,
+    718080.0
+   ],
+   "lots": [
+    "1",
+    "2",
+    "3"
+   ],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "STE SAKITRA",
+   "montant_acte_engagement": 699900.0,
+   "montant_apres_verification": 699900.0,
+   "autres_montants": [
+    707280.0
+   ],
+   "lots": [
+    "1",
+    "2",
+    "3"
+   ],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 12,
+ "alertes_ocr": [
+  "« STE SAKITRA » absent de la liste des plis déposés (nom mal lu ?)."
+ ],
+ "notes_ocr": [
+  "Marché alloti (3 lots)."
+ ],
+ "qualite": "complet"
+}

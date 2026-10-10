@@ -1,0 +1,64 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "777088",
+ "orgAcronyme": "o8p",
+ "reference_pv": "N-EXTRAIT",
+ "nouveau": true,
+ "reference": "N-EXTRAIT",
+ "objet": "TRAVAUX DE CONFORTEMENT DE LA DIGUE PRINCIPALE DU PORT DE SKHIRAT",
+ "acheteur": "Agence Nationale des ports / Direction du Port de Mohammedia Et Région",
+ "procedure": "appel d'offres ouvert",
+ "categorie": "Travaux",
+ "date_limite_plis": "15/02/2024",
+ "lieu_ouverture": "ANP/DPMR/DPM Conformément à l'avis publié : Désignation Date de parution",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "26/02/2024",
+ "justification": null,
+ "infructueux": false,
+ "attributaire": "CATER S.A",
+ "montant_attribue": 22801900.0,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "CATER S.A",
+   "montant_acte_engagement": 22801900.0,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "ELIMINES",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_dossier_administratif_technique",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "SOMAGEC S.A",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_dossier_administratif_technique",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 3,
+ "alertes_ocr": [
+  "« CATER S.A » absent de la liste des plis déposés (nom mal lu ?)."
+ ],
+ "notes_ocr": [
+  "« ELIMINES » absent de la liste des plis déposés (nom mal lu ?).",
+  "« SOMAGEC S.A » absent de la liste des plis déposés (nom mal lu ?).",
+  "Montants exprimés hors taxes (HT)."
+ ],
+ "qualite": "attribution"
+}

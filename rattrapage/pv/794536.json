@@ -1,0 +1,60 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "794536",
+ "orgAcronyme": "q1s",
+ "reference_pv": "13/2024/0RH/SEHA",
+ "nouveau": true,
+ "reference": "13/2024/0RH/SEHA",
+ "objet": "Travaux de réhabilitation cles pistes cans les périmètres ce l’'ORMVA cu Haouz (Exercice 2024)",
+ "acheteur": "l'Office Régional de Mise en Valeur Agricole du Haouz",
+ "procedure": null,
+ "categorie": "Travaux",
+ "date_limite_plis": "30/04/2024",
+ "lieu_ouverture": "Siège de l'Office Régional de Mise en Valeur Agricole du Haouz",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "07/03/2024",
+ "justification": "l'Offre la plus avantageuse est présentée r igseciété SNTRO",
+ "infructueux": false,
+ "attributaire": "SNTRO",
+ "montant_attribue": 1380120.0,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "ETABLISSEMENT L'ENTENTE D'EQUIPEMENT ET DE CONSTRUCTION",
+   "montant_acte_engagement": 1513800.0,
+   "montant_apres_verification": 1513800.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "SNTRO",
+   "montant_acte_engagement": 1380120.0,
+   "montant_apres_verification": 1380120.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "ETABLISSEMENT L'ENTENTE E D'EQUIPEMENT",
+   "montant_acte_engagement": 1513800.0,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 3,
+ "alertes_ocr": [
+  "« ETABLISSEMENT L'ENTENTE E D'EQUIPEMENT » absent de la liste des plis déposés (nom mal lu ?)."
+ ],
+ "notes_ocr": [],
+ "qualite": "complet"
+}

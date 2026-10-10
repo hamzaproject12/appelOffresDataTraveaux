@@ -1,0 +1,67 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "760636",
+ "orgAcronyme": "g3h",
+ "reference_pv": null,
+ "nouveau": true,
+ "reference": null,
+ "objet": "Travaux de renouvellement du réseau d’eau potable de la ville de KSAR EL KEBIR et du centre AOUAMRA",
+ "acheteur": "RADEEL",
+ "procedure": null,
+ "categorie": "Travaux",
+ "date_limite_plis": "26/10/2023",
+ "lieu_ouverture": "salle de réunion de la RADEEL",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "30/11/2023",
+ "justification": null,
+ "infructueux": false,
+ "attributaire": "INJAZ PROJETS",
+ "montant_attribue": 4263120.0,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "BOUICHOU HADOU - ENARU",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_dossier_administratif_technique",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "SRTHYG-BTP",
+   "montant_acte_engagement": 4530600.0,
+   "montant_apres_verification": 4530600.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_offre_financiere",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "INJAZ PROJETS",
+   "montant_acte_engagement": 4263120.0,
+   "montant_apres_verification": 4263120.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "SOBOUWAT",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_dossier_administratif_technique",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 4,
+ "alertes_ocr": [],
+ "notes_ocr": [],
+ "qualite": "complet"
+}

@@ -1,0 +1,58 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "931683",
+ "orgAcronyme": "g3h",
+ "reference_pv": "17/S",
+ "nouveau": true,
+ "reference": "17/S",
+ "objet": null,
+ "acheteur": "Société Rabat Animation et Développement S.D. S.A",
+ "procedure": null,
+ "categorie": "Travaux",
+ "date_limite_plis": "12/10/2023",
+ "lieu_ouverture": "salle des réunions de la société Rabat Animation et Développement S.D SA",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "19/10/2023",
+ "justification": "L'offre la plus avantageuse.",
+ "infructueux": false,
+ "attributaire": "FACILITY PROPERTY MANAGEMENT",
+ "montant_attribue": 322800.0,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "BALU ELECTRICITE",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_dossier_administratif_technique",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "TECH ELEC",
+   "montant_acte_engagement": 375420.0,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "FACILITY PROPERTY MANAGEMENT",
+   "montant_acte_engagement": 322800.0,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 3,
+ "alertes_ocr": [],
+ "notes_ocr": [],
+ "qualite": "complet"
+}

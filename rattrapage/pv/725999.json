@@ -1,0 +1,70 @@
+{
+ "source": "extrait_docx",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "725999",
+ "orgAcronyme": "s3z",
+ "reference_pv": null,
+ "nouveau": true,
+ "reference": null,
+ "objet": "* ENTRETIEN COURANT DES VOIES A TEMARA",
+ "acheteur": "Commune de Temara",
+ "procedure": null,
+ "categorie": "Travaux",
+ "date_limite_plis": "13/06/2023",
+ "lieu_ouverture": "La salle de réunion au siège de la Commune de Temara",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "26/06/2023",
+ "justification": "l’offre la plus avantageuse .",
+ "infructueux": false,
+ "attributaire": "Société CAMPEZO, RABAT",
+ "montant_attribue": 1817184.0,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "Enveloppe 1",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "depose",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Personne",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_dossier_administratif_technique",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Société CAMPEZO, RABAT",
+   "montant_acte_engagement": 817184.0,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Société T.R.3.F ,Temara",
+   "montant_acte_engagement": 938720.0,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 4,
+ "alertes_ocr": [
+  "« Société CAMPEZO, RABAT » absent de la liste des plis déposés (nom mal lu ?).",
+  "« Société T.R.3.F ,Temara » absent de la liste des plis déposés (nom mal lu ?)."
+ ],
+ "notes_ocr": [],
+ "qualite": "complet"
+}

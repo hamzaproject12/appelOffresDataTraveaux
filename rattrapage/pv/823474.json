@@ -1,0 +1,63 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "823474",
+ "orgAcronyme": "q9t",
+ "reference_pv": "02/2024",
+ "nouveau": true,
+ "reference": "02/2024",
+ "objet": null,
+ "acheteur": "Délégation de la santé et de la protection sociale à la province Fahs Anjra",
+ "procedure": "appel d'offres ouvert national",
+ "categorie": "Travaux",
+ "date_limite_plis": "08/08/2024",
+ "lieu_ouverture": "Salle de réunion de la délégation de la santé et de la protection sociale Fahs Anjra",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "16/08/2024",
+ "justification": "l’offre économiquement la plus avantageuse.",
+ "infructueux": false,
+ "attributaire": "SERSAM sarl",
+ "montant_attribue": 10483744.8,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "Travaux de fluide de Casablanca (TFC)",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_offre_financiere",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "ACHRAF Clim",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "SERSAM sarl",
+   "montant_acte_engagement": 10483744.8,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 3,
+ "alertes_ocr": [
+  "« SERSAM sarl » absent de la liste des plis déposés (nom mal lu ?)."
+ ],
+ "notes_ocr": [
+  "« Travaux de fluide de Casablanca (TFC) » absent de la liste des plis déposés (nom mal lu ?).",
+  "« ACHRAF Clim » absent de la liste des plis déposés (nom mal lu ?)."
+ ],
+ "qualite": "attribution"
+}

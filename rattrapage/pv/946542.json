@@ -1,0 +1,76 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "946542",
+ "orgAcronyme": "g3h",
+ "reference_pv": "10001773",
+ "nouveau": true,
+ "reference": "10001773",
+ "objet": "Travaux d'injection de nouveaux postes de transformation HTA/BT en trois lots Lot N°1 : Préfecture OUJDA - ANGAD Lot N°2 : Province de JERADA",
+ "acheteur": null,
+ "procedure": null,
+ "categorie": "Travaux",
+ "date_limite_plis": "26/08/2025",
+ "lieu_ouverture": "Siège de la SRM-ORI",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": null,
+ "justification": "Offre moins-disante conforme. {|",
+ "infructueux": false,
+ "attributaire": "STE. EXTRADIS",
+ "montant_attribue": 1422084.0,
+ "attributaires_par_lot": [
+  {
+   "lot": null,
+   "attributaire": "STE. EXTRADIS",
+   "montant": 1422084.0
+  },
+  {
+   "lot": "2",
+   "attributaire": "STE. SEGMO",
+   "montant": 767521.2
+  }
+ ],
+ "soumissionnaires": [
+  {
+   "nom": "SEGMO et EXTRADIS",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "STE. EXTRADIS",
+   "montant_acte_engagement": 1422084.0,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "STE. SEGMO",
+   "montant_acte_engagement": 767521.2,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [
+    "2"
+   ],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 3,
+ "alertes_ocr": [
+  "« STE. EXTRADIS » absent de la liste des plis déposés (nom mal lu ?).",
+  "« STE. SEGMO » absent de la liste des plis déposés (nom mal lu ?)."
+ ],
+ "notes_ocr": [
+  "Maître d'ouvrage absent du PV (utiliser l'acheteur public du portail)."
+ ],
+ "qualite": "attribution"
+}

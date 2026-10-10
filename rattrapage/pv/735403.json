@@ -1,0 +1,51 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "735403",
+ "orgAcronyme": "f9f",
+ "reference_pv": "04/2023/BC",
+ "nouveau": true,
+ "reference": "04/2023/BC",
+ "objet": "TRAVAUX D'ELECTRIFICATION 1°/2° CATEGORIE DES FOYERS NON ELECTRIFIER RELEVANT DES DOUARS DE LA COMMUNE TERRITORIALE TNINE AGLOU, PROVINCE DE TIZNIT",
+ "acheteur": "COMMUNE DE TNINE AGLOU",
+ "procedure": null,
+ "categorie": "Travaux",
+ "date_limite_plis": "25/07/2023",
+ "lieu_ouverture": "BUREAU DU PRESIDENT DE LA COMMUNE",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "04/08/2023",
+ "justification": "OFFRE UNIQUE.",
+ "infructueux": false,
+ "attributaire": "Sté ELEC BOURICHE sarl",
+ "montant_attribue": null,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "N° D'ORDRE NOM ET RAISON SOCIAL DU SOUMMISSIONNAIRE",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Sté ELEC BOURICHE sarl",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 2,
+ "alertes_ocr": [
+  "Montant de l'attributaire « Sté ELEC BOURICHE sarl » non trouvé."
+ ],
+ "notes_ocr": [],
+ "qualite": "participants"
+}

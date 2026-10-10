@@ -1,0 +1,64 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "989405",
+ "orgAcronyme": "f9f",
+ "reference_pv": "01/2026/C.T.A",
+ "nouveau": true,
+ "reference": "01/2026/C.T.A",
+ "objet": "Travaux de réparation des MTFTA des douars : AGUERD OULMA - TIZI OUZMOUR. - AIT ALI OUALI. Commune AOUGUENZ province CHTOUKA AIT BAHA",
+ "acheteur": "Commune territoriale Aouguenz",
+ "procedure": "appel d'offres ouvert national",
+ "categorie": "Travaux",
+ "date_limite_plis": "05/03/2026",
+ "lieu_ouverture": "siège du la Commune territoriale Aouguenz",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "11/03/2026",
+ "justification": "l'offre économiquement la plus avantageuse.",
+ "infructueux": false,
+ "attributaire": "IKIDO TRAVAUX",
+ "montant_attribue": null,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "TAHA PROJECTS",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "IKIDO TRAVAUX",
+   "montant_acte_engagement": 815612.0,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "STE YASAMA",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 3,
+ "alertes_ocr": [
+  "« IKIDO TRAVAUX » absent de la liste des plis déposés (nom mal lu ?).",
+  "Montant de l'attributaire « IKIDO TRAVAUX » non trouvé."
+ ],
+ "notes_ocr": [
+  "« TAHA PROJECTS » absent de la liste des plis déposés (nom mal lu ?).",
+  "« STE YASAMA » absent de la liste des plis déposés (nom mal lu ?)."
+ ],
+ "qualite": "attribution"
+}

@@ -1,0 +1,53 @@
+{
+ "source": "extrait_docx",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "926799",
+ "orgAcronyme": "l1f",
+ "reference_pv": "37/RTTA/2025",
+ "nouveau": true,
+ "reference": "37/RTTA/2025",
+ "objet": "Construction et la réhabilitation de bâtiment d’occupation du Projet SLEC « Service Local Énergie Climat » Dans la Région Tanger – Tétouan- Al Hoceima (Lot : Commune ALHOCEIMA)",
+ "acheteur": null,
+ "procedure": "appel d'offres ouvert simplifié",
+ "categorie": "Travaux",
+ "date_limite_plis": "04/08/2025",
+ "lieu_ouverture": "Le bureau de la Région à Tanger",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": null,
+ "justification": null,
+ "infructueux": false,
+ "attributaire": null,
+ "montant_attribue": null,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "Société FORGA FER Sarl à Tétouan",
+   "montant_acte_engagement": 1152285.24,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Société VOJRA TRAVAUX Sarl à Tanger",
+   "montant_acte_engagement": 1058310.28,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 2,
+ "alertes_ocr": [
+  "Attributaire non trouvé."
+ ],
+ "notes_ocr": [
+  "Maître d'ouvrage absent du PV (utiliser l'acheteur public du portail)."
+ ],
+ "qualite": "complet"
+}

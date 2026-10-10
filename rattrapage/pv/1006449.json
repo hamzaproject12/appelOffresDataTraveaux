@@ -1,0 +1,55 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "1006449",
+ "orgAcronyme": "d4q",
+ "reference_pv": null,
+ "nouveau": true,
+ "reference": null,
+ "objet": "du lot Date Date Concurrent retenu Part Part d'ouverture … d'achèvement en en des plis des travaux de DH /HT €",
+ "acheteur": null,
+ "procedure": null,
+ "categorie": "Travaux",
+ "date_limite_plis": "22/05/2025",
+ "lieu_ouverture": "Direction Approvisionnements et Marchés (DAM)",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": null,
+ "justification": "Moins disante.",
+ "infructueux": false,
+ "attributaire": "FLM (FOURE LAGADEC MAROC) et FL SAS (FOURE LAGADEC)",
+ "montant_attribue": 1540000.0,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "FLM (FOURE LAGADEC MAROC) et FL SAS (FOURE LAGADEC)",
+   "montant_acte_engagement": 1540000.0,
+   "montant_apres_verification": 1000000.0,
+   "autres_montants": [
+    1000000.0
+   ],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "LAGADEC), QUIRI, BREMBANA & ROLLE et STRYUF",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "depose",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 2,
+ "alertes_ocr": [],
+ "notes_ocr": [
+  "« FLM (FOURE LAGADEC MAROC) et FL SAS (FOURE LAGADEC) » : montant rectifié de 1 540 000.00 à 1 000 000.00 DH.",
+  "Maître d'ouvrage absent du PV (utiliser l'acheteur public du portail).",
+  "Montants exprimés hors taxes (HT)."
+ ],
+ "qualite": "attribution"
+}

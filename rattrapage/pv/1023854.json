@@ -1,0 +1,108 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "1023854",
+ "orgAcronyme": "q0x",
+ "reference_pv": "0712026",
+ "nouveau": true,
+ "reference": "0712026",
+ "objet": "' Travaux de construction et d'lnstallatioll de barrières de protection aux bords des",
+ "acheteur": null,
+ "procedure": null,
+ "categorie": "Travaux",
+ "date_limite_plis": null,
+ "lieu_ouverture": null,
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": null,
+ "justification": null,
+ "infructueux": false,
+ "attributaire": "STE INFRA FUTURE",
+ "montant_attribue": 992366.62,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "STE SOCIETE DE TRAVAUX PUBLICS ET MAINTENANCE DE STRUCTURES",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "depose",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "STE SABER NOUR INVESTISSEMENT",
+   "montant_acte_engagement": 588054.0,
+   "montant_apres_verification": 588054.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_dossier_administratif_technique",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "STE VIADOR",
+   "montant_acte_engagement": 587418.0,
+   "montant_apres_verification": 987418.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_dossier_administratif_technique",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "STE ACHGHAL ALYOUSSER",
+   "montant_acte_engagement": 589069.2,
+   "montant_apres_verification": 589069.2,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_dossier_administratif_technique",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "STE MAROTENTE",
+   "montant_acte_engagement": 588017.91,
+   "montant_apres_verification": 588017.91,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_dossier_administratif_technique",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "STE INFRA FUTURE",
+   "montant_acte_engagement": 592366.62,
+   "montant_apres_verification": 592366.62,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "STE ATIR BUILDING",
+   "montant_acte_engagement": 597657.6,
+   "montant_apres_verification": 597657.6,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_dossier_administratif_technique",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "STE SOLOTRA",
+   "montant_acte_engagement": 676333.2,
+   "montant_apres_verification": 676333.2,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 8,
+ "alertes_ocr": [
+  "« STE SOLOTRA » absent de la liste des plis déposés (nom mal lu ?)."
+ ],
+ "notes_ocr": [
+  "« STE VIADOR » : montant rectifié de 587 418.00 à 987 418.00 DH.",
+  "Maître d'ouvrage absent du PV (utiliser l'acheteur public du portail)."
+ ],
+ "qualite": "complet"
+}

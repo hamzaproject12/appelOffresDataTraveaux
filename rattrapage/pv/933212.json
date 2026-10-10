@@ -1,0 +1,53 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "933212",
+ "orgAcronyme": "g3h",
+ "reference_pv": "10/2025/BG",
+ "nouveau": true,
+ "reference": "10/2025/BG",
+ "objet": null,
+ "acheteur": "Préfecture d'Inezgane Aït Melloul",
+ "procedure": "appel d'offres ouvert national",
+ "categorie": "Travaux",
+ "date_limite_plis": "17/07/2025",
+ "lieu_ouverture": "Secrétariat Général de la Préfecture d'Inezgane Aït Melloul",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "22/07/2025",
+ "justification": "- Le concurrent a justifié les capacités juridiques et techniques demandées. - Le concurrent a présenté une offre économiquement la plus avantageuse au vu du règlement de la consultation.",
+ "infructueux": false,
+ "attributaire": "Société SORDYM - TRAV SARL AU",
+ "montant_attribue": 1403600.4,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "Socièté GENERAL CIVIL ENGINEERING SERVICES SARL 1.408.718 40",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_dossier_administratif_technique",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Société SORDYM - TRAV SARL AU",
+   "montant_acte_engagement": 1403600.4,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 2,
+ "alertes_ocr": [
+  "« Société SORDYM - TRAV SARL AU » absent de la liste des plis déposés (nom mal lu ?)."
+ ],
+ "notes_ocr": [
+  "« Socièté GENERAL CIVIL ENGINEERING SERVICES SARL 1.408.718 40 » absent de la liste des plis déposés (nom mal lu ?)."
+ ],
+ "qualite": "attribution"
+}

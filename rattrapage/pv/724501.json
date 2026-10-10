@@ -1,0 +1,54 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "724501",
+ "orgAcronyme": "o8p",
+ "reference_pv": "05/2023",
+ "nouveau": true,
+ "reference": "05/2023",
+ "objet": "Travaux de traitement de la chaussée des routes suivantes |'sur sections discontinues) : - la RN 8 du PK 835+000 au PK 905+000 - la RP 5202 du PK 0+000 au PK 26+000 - la RP 5204 du PK 0+000 au PK 85+000 Province d'Al Hoceima",
+ "acheteur": null,
+ "procedure": null,
+ "categorie": "Travaux",
+ "date_limite_plis": "11/04/2023",
+ "lieu_ouverture": "Direction Provinciale de l’Equipement et de l'Eau d’AL HOCEIMA",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "25/05/2023",
+ "justification": "L'offre la moins cisante.",
+ "infructueux": false,
+ "attributaire": "Sté EL HATILAOUI 3761.:84.,00 4°",
+ "montant_attribue": null,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "Sté EL HATTAOUI",
+   "montant_acte_engagement": 3761184.0,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_dossier_administratif_technique",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Sté EL HATILAOUI 3761.:84.,00 4°",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 2,
+ "alertes_ocr": [
+  "« Sté EL HATILAOUI 3761.:84.,00 4° » absent de la liste des plis déposés (nom mal lu ?).",
+  "Montant de l'attributaire « Sté EL HATILAOUI 3761.:84.,00 4° » non trouvé."
+ ],
+ "notes_ocr": [
+  "Maître d'ouvrage absent du PV (utiliser l'acheteur public du portail)."
+ ],
+ "qualite": "attribution"
+}

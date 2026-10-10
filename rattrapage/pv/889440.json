@@ -1,0 +1,74 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "889440",
+ "orgAcronyme": "w7t",
+ "reference_pv": "14/2025/DRANEF-FM",
+ "nouveau": true,
+ "reference": "14/2025/DRANEF-FM",
+ "objet": "à L’exécution des travaux de régénération dans les périmètres relevant de la",
+ "acheteur": "Le Directeur Régional de l'Agence Nationale des Eaux et Forêts de Fès-Meknès, sous",
+ "procedure": null,
+ "categorie": "Travaux",
+ "date_limite_plis": "08/04/2025",
+ "lieu_ouverture": "La Direction Régionale de l'Agence Nationale des Eaux et Forêts de Fès-Meknès.1, Avenue Hassan II Fès",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "17/04/2025",
+ "justification": "Offres économiquement les plus avantageuses",
+ "infructueux": false,
+ "attributaire": "STE BOUDRISS AMIS -STE LAMA G.T -NEANT",
+ "montant_attribue": 1059462.0,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "STE BOUDRISS AMIS -STE LAMA G.T -NEANT",
+   "montant_acte_engagement": 1059462.0,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [
+    "04"
+   ],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "STE SMOUY DE TRAVAUX DIVERS -ENTREPRENEUR LAHCINI",
+   "montant_acte_engagement": 20000.0,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [
+    "04"
+   ],
+   "statut": "ecarte_offre_financiere",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "STE MANAL PLANTATION SARL",
+   "montant_acte_engagement": 1693965.6,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "STE LAMA G.T",
+   "montant_acte_engagement": 1357840.8,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 4,
+ "alertes_ocr": [
+  "« STE MANAL PLANTATION SARL » absent de la liste des plis déposés (nom mal lu ?).",
+  "« STE LAMA G.T » absent de la liste des plis déposés (nom mal lu ?)."
+ ],
+ "notes_ocr": [],
+ "qualite": "complet"
+}

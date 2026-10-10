@@ -1,0 +1,87 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "999432",
+ "orgAcronyme": "g3h",
+ "reference_pv": "14/26/EAU",
+ "nouveau": true,
+ "reference": "14/26/EAU",
+ "objet": "Travaux de Branchement Eau Potable Petits Calibres -Préfecture de Marrakech —",
+ "acheteur": "SRM-MS",
+ "procedure": "appel d'offres ouvert",
+ "categorie": "Travaux",
+ "date_limite_plis": "18/03/2026",
+ "lieu_ouverture": "Siège de la SRM-MS Boulevard Mohamed VI MARRAKECH",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": null,
+ "justification": "la combinaison la plus économique pour la SRM, AN le soumissionnaire ne peut se voir attribuer plus d’un lot.",
+ "infructueux": false,
+ "attributaire": "ALLRESEAUX",
+ "montant_attribue": 3145708.26,
+ "attributaires_par_lot": [
+  {
+   "lot": "1",
+   "attributaire": "ALLRESEAUX",
+   "montant": 3145708.26
+  },
+  {
+   "lot": "2",
+   "attributaire": "GUISSI TRAVAUX EAUX ET PROJETS",
+   "montant": 3236652.0
+  }
+ ],
+ "soumissionnaires": [
+  {
+   "nom": "ALLRESEAUX",
+   "montant_acte_engagement": 3145708.26,
+   "montant_apres_verification": null,
+   "autres_montants": [
+    3145708.26
+   ],
+   "lots": [
+    "1",
+    "2"
+   ],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "GUISSI TRAVAUX EAUX ET PROJETS",
+   "montant_acte_engagement": 3236652.0,
+   "montant_apres_verification": null,
+   "autres_montants": [
+    3236.0
+   ],
+   "lots": [
+    "1",
+    "2"
+   ],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "GERAB",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [
+    "1"
+   ],
+   "statut": "ecarte_offre_technique",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 3,
+ "alertes_ocr": [
+  "« ALLRESEAUX » absent de la liste des plis déposés (nom mal lu ?).",
+  "« GUISSI TRAVAUX EAUX ET PROJETS » absent de la liste des plis déposés (nom mal lu ?)."
+ ],
+ "notes_ocr": [
+  "« GERAB » absent de la liste des plis déposés (nom mal lu ?).",
+  "Marché alloti (2 lots)."
+ ],
+ "qualite": "attribution"
+}

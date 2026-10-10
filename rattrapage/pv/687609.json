@@ -1,0 +1,135 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "687609",
+ "orgAcronyme": "f9f",
+ "reference_pv": null,
+ "nouveau": true,
+ "reference": null,
+ "objet": null,
+ "acheteur": null,
+ "procedure": "appel d'offres ouvert",
+ "categorie": "Travaux",
+ "date_limite_plis": null,
+ "lieu_ouverture": null,
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": null,
+ "justification": null,
+ "infructueux": false,
+ "attributaire": null,
+ "montant_attribue": null,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "Sté ENTREPRISE DE TRAVAUX D’INGENIERIE D’AGADIR SARL",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Sté PETIT ATLAS DES TRAVAUX SARL",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "De Développement Touristique Souss Massa SDR",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Groupement SOCOROUISSI SARL et TARTEL SARL pour motif de",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "références exigées au niveau du RC",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Sté RAGUIG DES TRAVAUX SARL pour motif de",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "provisoire",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Sté SOCIETE NOUVELLE DES TRAVAUX ROUTIERS ET OUVRAGES SARL",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "SARL. d’un montant de",
+   "montant_acte_engagement": 8380370.4,
+   "montant_apres_verification": 8380370.4,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "CA LE:",
+   "montant_acte_engagement": 21500000.0,
+   "montant_apres_verification": 21500000.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 10,
+ "alertes_ocr": [
+  "« SARL. d’un montant de » absent de la liste des plis déposés (nom mal lu ?).",
+  "« CA LE: » absent de la liste des plis déposés (nom mal lu ?).",
+  "Attributaire non trouvé."
+ ],
+ "notes_ocr": [
+  "« Sté ENTREPRISE DE TRAVAUX D’INGENIERIE D’AGADIR SARL » absent de la liste des plis déposés (nom mal lu ?).",
+  "« Sté PETIT ATLAS DES TRAVAUX SARL » absent de la liste des plis déposés (nom mal lu ?).",
+  "« De Développement Touristique Souss Massa SDR » absent de la liste des plis déposés (nom mal lu ?).",
+  "« Groupement SOCOROUISSI SARL et TARTEL SARL pour motif de » absent de la liste des plis déposés (nom mal lu ?).",
+  "« références exigées au niveau du RC » absent de la liste des plis déposés (nom mal lu ?).",
+  "« Sté RAGUIG DES TRAVAUX SARL pour motif de » absent de la liste des plis déposés (nom mal lu ?).",
+  "« provisoire » absent de la liste des plis déposés (nom mal lu ?).",
+  "« Sté SOCIETE NOUVELLE DES TRAVAUX ROUTIERS ET OUVRAGES SARL » absent de la liste des plis déposés (nom mal lu ?).",
+  "Maître d'ouvrage absent du PV (utiliser l'acheteur public du portail)."
+ ],
+ "qualite": "complet"
+}

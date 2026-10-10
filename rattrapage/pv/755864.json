@@ -1,0 +1,55 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "755864",
+ "orgAcronyme": "g3h",
+ "reference_pv": "106/23/ELEC",
+ "nouveau": true,
+ "reference": "106/23/ELEC",
+ "objet": "Travaux de branchement basse tension pour immeubles",
+ "acheteur": "Régie Autonome de Distribution d’Eauct d’Electricité de MARRAKECH",
+ "procedure": "appel d'offres ouvert",
+ "categorie": "Travaux",
+ "date_limite_plis": "25/09/2023",
+ "lieu_ouverture": "au Siège de la RADEEMA Boulevard Mohamed VI MARRAKECH",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "26/10/2023",
+ "justification": "l’offre la plus avantageuse",
+ "infructueux": false,
+ "attributaire": "ELEC TRIMAROC",
+ "montant_attribue": 3511528.0,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "O2E ENERGIE",
+   "montant_acte_engagement": 3571150.0,
+   "montant_apres_verification": null,
+   "autres_montants": [
+    4285380.09
+   ],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "ELEC TRIMAROC",
+   "montant_acte_engagement": 3511528.0,
+   "montant_apres_verification": null,
+   "autres_montants": [
+    4213833.6
+   ],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 2,
+ "alertes_ocr": [],
+ "notes_ocr": [
+  "Montants exprimés hors taxes (HT)."
+ ],
+ "qualite": "complet"
+}

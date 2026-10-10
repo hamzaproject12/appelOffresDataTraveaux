@@ -1,0 +1,94 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "719088",
+ "orgAcronyme": "q1s",
+ "reference_pv": "31/2023/OR/OZ-N",
+ "nouveau": true,
+ "reference": "31/2023/OR/OZ-N",
+ "objet": "Achat et installation de matériel de manutention , pesage , sécurité et de laboratoire au profit des unités de conditionnement et d’entreposage frigorifique des pommes en 2 lots séparés",
+ "acheteur": "OFFICE REGIONAL DE MISE EN VALEUR AGRICOLE DE OUARZAZATE",
+ "procedure": "appel d'offres ouvert",
+ "categorie": "Travaux",
+ "date_limite_plis": null,
+ "lieu_ouverture": "Salle des réunions de l'OFFICE REGIONAL DE MISE EN VALEUR AGRICOLE DE OUARZAZATE",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "25/04/2023",
+ "justification": "Offre moins disante Justification du choix de l'attributaire: Offre moins disante",
+ "infructueux": false,
+ "attributaire": "SOCIETE AQETRA SARL Concurrent retenu",
+ "montant_attribue": null,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "SOCIETE AQETRA SARL",
+   "montant_acte_engagement": 1846800.0,
+   "montant_apres_verification": 1846800.0,
+   "autres_montants": [
+    2043000.0
+   ],
+   "lots": [
+    "1",
+    "2"
+   ],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": " SOCIETE ECO TANK SARL",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [
+    "1",
+    "2"
+   ],
+   "statut": "ecarte_dossier_administratif_technique",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": " COMPTOIR AGRICOLE AL FADILA SARL",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [
+    "1",
+    "2"
+   ],
+   "statut": "ecarte_dossier_administratif_technique",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": " SOCIETE CANALCO SARL",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [
+    "2"
+   ],
+   "statut": "ecarte_dossier_administratif_technique",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "SOCIETE AQETRA SARL Concurrent retenu",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 5,
+ "alertes_ocr": [
+  "« SOCIETE AQETRA SARL Concurrent retenu » absent de la liste des plis déposés (nom mal lu ?).",
+  "Montant de l'attributaire « SOCIETE AQETRA SARL Concurrent retenu » non trouvé."
+ ],
+ "notes_ocr": [
+  "Marché alloti (2 lots)."
+ ],
+ "qualite": "attribution"
+}

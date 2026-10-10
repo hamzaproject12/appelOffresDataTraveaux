@@ -1,0 +1,83 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "703096",
+ "orgAcronyme": "q1s",
+ "reference_pv": "22/2023/0RSM",
+ "nouveau": true,
+ "reference": "22/2023/0RSM",
+ "objet": "Travaux de curage d’un puits au Centre d’Adaptation des Techniques de Vulgarisation (C.A.T.V) de l'ORMVA du Souss Massa, Province de Chtouka — Ait Baha",
+ "acheteur": "ORMVA/SM",
+ "procedure": "appel d'offres ouvert",
+ "categorie": "Travaux",
+ "date_limite_plis": "01/03/2023",
+ "lieu_ouverture": "salle de réunion de la direction de l'ORMVA/SM",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "22/03/2023",
+ "justification": "offre la plus avantageuse de la socièté UNION RAKARTE.",
+ "infructueux": false,
+ "attributaire": "LBIR FORAGE ET FONDATION",
+ "montant_attribue": 608400.0,
+ "attributaires_par_lot": [
+  {
+   "lot": null,
+   "attributaire": "LBIR FORAGE ET FONDATION",
+   "montant": 608400.0
+  },
+  {
+   "lot": null,
+   "attributaire": "AIT OUKHALI TRAVAUX",
+   "montant": 546000.0
+  },
+  {
+   "lot": null,
+   "attributaire": "UNION RAKARTE",
+   "montant": 463200.0
+  }
+ ],
+ "soumissionnaires": [
+  {
+   "nom": "LBIR FORAGE ET FONDATION",
+   "montant_acte_engagement": 608400.0,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "AIT OUKHALI TRAVAUX",
+   "montant_acte_engagement": 546000.0,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "UNION RAKARTE",
+   "montant_acte_engagement": 463200.0,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "DAXTRAV TAN TAN",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "depose",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 4,
+ "alertes_ocr": [],
+ "notes_ocr": [],
+ "qualite": "attribution"
+}

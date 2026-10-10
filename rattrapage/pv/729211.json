@@ -1,0 +1,51 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "729211",
+ "orgAcronyme": "o8p",
+ "reference_pv": "T5760-PS",
+ "nouveau": true,
+ "reference": "T5760-PS",
+ "objet": "Travaux d'aménagement, d'entretien et mise en place des équipements de Signalétique de la plage",
+ "acheteur": null,
+ "procedure": null,
+ "categorie": "Travaux",
+ "date_limite_plis": "21/06/2023",
+ "lieu_ouverture": "Journaux de publication",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "12/07/2023",
+ "justification": "Offre la moins disante.",
+ "infructueux": false,
+ "attributaire": "SOTRAGEMA",
+ "montant_attribue": 1339896.0,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "SOTRAGEMA",
+   "montant_acte_engagement": 1363896.0,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "ENTREPRENEUR OUKACHA BOUAZZA",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "depose",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 2,
+ "alertes_ocr": [],
+ "notes_ocr": [
+  "Maître d'ouvrage absent du PV (utiliser l'acheteur public du portail)."
+ ],
+ "qualite": "attribution"
+}

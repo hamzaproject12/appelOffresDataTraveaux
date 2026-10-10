@@ -1,0 +1,67 @@
+{
+ "source": "extrait_docx",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "672943",
+ "orgAcronyme": "s3z",
+ "reference_pv": "03/2022",
+ "nouveau": true,
+ "reference": "03/2022",
+ "objet": "ENTRETIEN COURANT DES VOIES A LA COMMUNE DE KHEMISSET",
+ "acheteur": "Commune de Khémisset",
+ "procedure": null,
+ "categorie": "Travaux",
+ "date_limite_plis": "21/10/2022",
+ "lieu_ouverture": "Commune de Khémisset",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "02/11/2022",
+ "justification": null,
+ "infructueux": false,
+ "attributaire": "Sté ETABLISSEMENT ASSREM NEGOCE",
+ "montant_attribue": 1273800.0,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "Sté BELMEKKI HASSAN ET FILS",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Sté FTPR",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Sté LINA TRA",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Sté ETABLISSEMENT ASSREM NEGOCE",
+   "montant_acte_engagement": 341840.0,
+   "montant_apres_verification": 341840.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 4,
+ "alertes_ocr": [],
+ "notes_ocr": [],
+ "qualite": "attribution"
+}

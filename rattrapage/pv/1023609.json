@@ -1,0 +1,97 @@
+{
+ "source": "extrait_docx",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "1023609",
+ "orgAcronyme": "p8x",
+ "reference_pv": "18/I.TIZ/2026",
+ "nouveau": true,
+ "reference": "18/I.TIZ/2026",
+ "objet": "TRAVAUX D’AMENAGEMENT ET DE REHABILITATION DE SEPT ETABLISSEMENTS SCOLAIRES PIONNIERS RELEVANT DE LA DIRECTION PROVINCIALE DE L’AREF SOUSS MASSA A TIZNIT-PROVINCE DE TIZNIT, EN QUATRE LOTS (TRANCHE 1)",
+ "acheteur": "LA DIRECTION PROVINCIALE DE L’ACADEMIE REGIONALE DE L’EDUCATION ET DE LA FORMATION SOUSS MASSA A TIZNIT",
+ "procedure": "appel d'offres ouvert national",
+ "categorie": "Travaux",
+ "date_limite_plis": "06/05/2026",
+ "lieu_ouverture": "LA SALLE DE REUNIONS LA DIRECTION PROVINCIALE DE L’ACADEMIE REGIONALE DE L’EDUCATION ET DE LA FORMATION SOUSS MASSA A TIZNIT",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "15/05/2026",
+ "justification": "Les offres présentées par les candidats sont les plus avantageuses pour l’administration",
+ "infructueux": false,
+ "attributaire": "STE SALPIC SARL",
+ "montant_attribue": 653794.8,
+ "attributaires_par_lot": [
+  {
+   "lot": null,
+   "attributaire": "STE SALPIC SARL",
+   "montant": 653794.8
+  },
+  {
+   "lot": null,
+   "attributaire": "STE ETS AFAK SOUSS",
+   "montant": 697465.2
+  }
+ ],
+ "soumissionnaires": [
+  {
+   "nom": "STE TIZ BUSINESS SARL",
+   "montant_acte_engagement": 698182.8,
+   "montant_apres_verification": 698182.8,
+   "autres_montants": [],
+   "lots": [
+    "4"
+   ],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "STE ETS AFAK SOUSS",
+   "montant_acte_engagement": 238137.2,
+   "montant_apres_verification": 238137.2,
+   "autres_montants": [],
+   "lots": [
+    "4"
+   ],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "STE SMTCO SARL",
+   "montant_acte_engagement": 190223.6,
+   "montant_apres_verification": 190223.6,
+   "autres_montants": [],
+   "lots": [
+    "4"
+   ],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "STE SALPIC SARL",
+   "montant_acte_engagement": 207777.2,
+   "montant_apres_verification": 207777.2,
+   "autres_montants": [],
+   "lots": [
+    "4"
+   ],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "ENERGIE SOLAIRE IMD POWER",
+   "montant_acte_engagement": 189564.8,
+   "montant_apres_verification": 189564.8,
+   "autres_montants": [],
+   "lots": [
+    "4"
+   ],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 5,
+ "alertes_ocr": [],
+ "notes_ocr": [],
+ "qualite": "complet"
+}

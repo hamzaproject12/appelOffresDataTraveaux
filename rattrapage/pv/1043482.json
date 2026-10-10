@@ -1,0 +1,73 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "1043482",
+ "orgAcronyme": "j0w",
+ "reference_pv": "02/CAHY/2026",
+ "nouveau": true,
+ "reference": "02/CAHY/2026",
+ "objet": "de Fensou Commune Ait Haddou Youssef (Lot UNIQUE)",
+ "acheteur": "Commune Aït Haddou Youssef",
+ "procedure": "appel d'offres ouvert simplifié",
+ "categorie": "Travaux",
+ "date_limite_plis": "15/09/2026",
+ "lieu_ouverture": "cercle Imintanout cercle Imintanout",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": null,
+ "justification": "l’attributaire",
+ "infructueux": false,
+ "attributaire": "EN CHIFFRE",
+ "montant_attribue": 257018.4,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "EN LETTRE",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "SIGATER TRAVAUX",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_dossier_administratif_technique",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "h EL2",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_dossier_administratif_technique",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "EN CHIFFRE",
+   "montant_acte_engagement": 257018.4,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 4,
+ "alertes_ocr": [
+  "« EN CHIFFRE » absent de la liste des plis déposés (nom mal lu ?)."
+ ],
+ "notes_ocr": [
+  "« EN LETTRE » absent de la liste des plis déposés (nom mal lu ?).",
+  "« SIGATER TRAVAUX » absent de la liste des plis déposés (nom mal lu ?).",
+  "« h EL2 » absent de la liste des plis déposés (nom mal lu ?)."
+ ],
+ "qualite": "attribution"
+}

@@ -1,0 +1,53 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "741293",
+ "orgAcronyme": "d4q",
+ "reference_pv": null,
+ "nouveau": true,
+ "reference": null,
+ "objet": "Travaux de la remise en état du silencieux de la chaudière n°4 de la centrale thermique Mohammedia",
+ "acheteur": null,
+ "procedure": null,
+ "categorie": "Travaux",
+ "date_limite_plis": "05/07/2023",
+ "lieu_ouverture": "Direction Exploitation Mohammedia (DXM)",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": null,
+ "justification": "moins disant conforme",
+ "infructueux": false,
+ "attributaire": "RAMSTEEL SARL Lot",
+ "montant_attribue": 531547.13,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "SYNA INDUSTRIE",
+   "montant_acte_engagement": 531720.0,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "RAMSTEEL SARL Lot",
+   "montant_acte_engagement": 531547.13,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 2,
+ "alertes_ocr": [
+  "« RAMSTEEL SARL Lot » absent de la liste des plis déposés (nom mal lu ?)."
+ ],
+ "notes_ocr": [
+  "Maître d'ouvrage absent du PV (utiliser l'acheteur public du portail)."
+ ],
+ "qualite": "complet"
+}

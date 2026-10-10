@@ -1,0 +1,60 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "974122",
+ "orgAcronyme": "b1d",
+ "reference_pv": "20/2024",
+ "nouveau": true,
+ "reference": "20/2024",
+ "objet": "Appel d’offre sur offre des prix n°20/2024 relatif à |’ Aménagement des Places Publiques à Hay Elouda à la Ville de Boujdour",
+ "acheteur": "Commune de Boujdour",
+ "procedure": null,
+ "categorie": "Travaux",
+ "date_limite_plis": null,
+ "lieu_ouverture": "Salle de réunion de la commune de Boujdour",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "22/10/2024",
+ "justification": null,
+ "infructueux": false,
+ "attributaire": "Société SOLUTION SERVICES SARL",
+ "montant_attribue": null,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "Etablissement FAARASSE SARL",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "depose",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Société SANITAIRE BOUJDOUR SARL",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "depose",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Société SOLUTION SERVICES SARL",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 3,
+ "alertes_ocr": [
+  "Montant de l'attributaire « Société SOLUTION SERVICES SARL » non trouvé."
+ ],
+ "notes_ocr": [],
+ "qualite": "participants"
+}

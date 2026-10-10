@@ -1,0 +1,45 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "1002435",
+ "orgAcronyme": "l1f",
+ "reference_pv": "17/2026",
+ "nouveau": true,
+ "reference": "17/2026",
+ "objet": "Travaux de diagnostique et d'installation des plaques de l'Energie solaire pour les bâtiments administratifs de la Commune de Chefchaoue n",
+ "acheteur": null,
+ "procedure": null,
+ "categorie": "Travaux",
+ "date_limite_plis": null,
+ "lieu_ouverture": "des vis S'êge de la Commune de Chefchaoue LU bks| CC L",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": null,
+ "justification": null,
+ "infructueux": false,
+ "attributaire": null,
+ "montant_attribue": null,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "RENOVATE CI FAN ENFRGY MAROC SARL",
+   "montant_acte_engagement": 512160.0,
+   "montant_apres_verification": 512160.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 1,
+ "alertes_ocr": [
+  "Attributaire non trouvé."
+ ],
+ "notes_ocr": [
+  "Maître d'ouvrage absent du PV (utiliser l'acheteur public du portail).",
+  "Montants exprimés hors taxes (HT)."
+ ],
+ "qualite": "attribution"
+}

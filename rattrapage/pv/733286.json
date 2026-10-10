@@ -1,0 +1,92 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "733286",
+ "orgAcronyme": "q1s",
+ "reference_pv": "6/2023",
+ "nouveau": true,
+ "reference": "6/2023",
+ "objet": "TRAVAUX D'AMENAGENEMENT DE MOSQUEE, LES SALLES DE COURS, SALLE DE FORMATION, SALLE",
+ "acheteur": "DIRECTRICE DE L'INSTITUT DES TECHNICIENS SPECIALISES EN MECANIQUE AGRICOLE ET EQUIPEMENT RURAL DE BOUKNADEL",
+ "procedure": null,
+ "categorie": "Travaux",
+ "date_limite_plis": "17/07/2023",
+ "lieu_ouverture": "la salle des réunions de l’Institut",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "26/07/2023",
+ "justification": null,
+ "infructueux": false,
+ "attributaire": "STE MULTIPOSE RAKIB",
+ "montant_attribue": 566845.2,
+ "attributaires_par_lot": [
+  {
+   "lot": null,
+   "attributaire": "STE MULTIPOSE RAKIB",
+   "montant": 566845.2
+  },
+  {
+   "lot": null,
+   "attributaire": "STE HAYTHAM GLOBAL SARL AU",
+   "montant": 667422.0
+  },
+  {
+   "lot": null,
+   "attributaire": "STE SEJJELEC SARL",
+   "montant": 585566.4
+  }
+ ],
+ "soumissionnaires": [
+  {
+   "nom": "STE MULTIPOSE RAKIB",
+   "montant_acte_engagement": 566845.2,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "STE HAYTHAM GLOBAL SARL AU",
+   "montant_acte_engagement": 667422.0,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "STE SEJJELEC SARL",
+   "montant_acte_engagement": 585566.4,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "STE ABDIE CONSTRUCTION",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_dossier_administratif_technique",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "STE SOREMEKTRA",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_dossier_administratif_technique",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 5,
+ "alertes_ocr": [],
+ "notes_ocr": [],
+ "qualite": "attribution"
+}

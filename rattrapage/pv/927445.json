@@ -1,0 +1,51 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "927445",
+ "orgAcronyme": "f9f",
+ "reference_pv": null,
+ "nouveau": true,
+ "reference": null,
+ "objet": "Travaux de transfert du réseau basse tension aux Douars de la commune Ait El Farsi Province Tinghir",
+ "acheteur": "Commune Territoriale Aït El Farsi",
+ "procedure": null,
+ "categorie": "Travaux",
+ "date_limite_plis": "15/08/2025",
+ "lieu_ouverture": "salle de réunion au sein de la commune Ait El Farsi",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "26/08/2025",
+ "justification": "- Le concurrent ayant présenté l’offre la plus avantageuse.",
+ "infructueux": false,
+ "attributaire": "ELREEROSSMAR",
+ "montant_attribue": 198000.0,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "ELECTRO ASMAE",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "ELREEROSSMAR",
+   "montant_acte_engagement": 198000.0,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 2,
+ "alertes_ocr": [
+  "« ELREEROSSMAR » absent de la liste des plis déposés (nom mal lu ?)."
+ ],
+ "notes_ocr": [],
+ "qualite": "attribution"
+}

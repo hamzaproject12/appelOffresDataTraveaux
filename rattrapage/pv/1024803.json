@@ -1,0 +1,64 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "1024803",
+ "orgAcronyme": "m8x",
+ "reference_pv": "13/2026/C.S",
+ "nouveau": true,
+ "reference": "13/2026/C.S",
+ "objet": "TRAVAUX D'AMENAGEMENT DES PLACES PUBLIQUE 01, 02, 03, 04 ET 05 AU QUARTIER ES SALAM A LA VILLE D’ES-SEMARA -PROVINCE D'ES-SEMARA: EN -10- DIX LOTS Lot N° 06 : TRAVAUX D'AMENAGEMENT DE LA PLACE 04 AU QUARTIER ES -SALAM A LA VILLE D'ES-",
+ "acheteur": null,
+ "procedure": "appel d'offres ouvert simplifié",
+ "categorie": "Travaux",
+ "date_limite_plis": null,
+ "lieu_ouverture": "salle de réunion- siège de la commune",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "07/06/2026",
+ "justification": null,
+ "infructueux": false,
+ "attributaire": "STE IZIC GSA SARL",
+ "montant_attribue": 878514.0,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "STE INJAZ SAHARA TRAVAUX",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_dossier_administratif_technique",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "STE SARIO SER-TRAV",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_dossier_administratif_technique",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "STE IZIC GSA SARL",
+   "montant_acte_engagement": 878514.0,
+   "montant_apres_verification": 878514.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 3,
+ "alertes_ocr": [
+  "« STE IZIC GSA SARL » absent de la liste des plis déposés (nom mal lu ?)."
+ ],
+ "notes_ocr": [
+  "« STE INJAZ SAHARA TRAVAUX » absent de la liste des plis déposés (nom mal lu ?).",
+  "« STE SARIO SER-TRAV » absent de la liste des plis déposés (nom mal lu ?).",
+  "Maître d'ouvrage absent du PV (utiliser l'acheteur public du portail)."
+ ],
+ "qualite": "attribution"
+}

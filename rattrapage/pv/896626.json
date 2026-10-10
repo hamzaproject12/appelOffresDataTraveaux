@@ -1,0 +1,58 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "896626",
+ "orgAcronyme": "g3h",
+ "reference_pv": "05/25S/ASST",
+ "nouveau": true,
+ "reference": "05/25S/ASST",
+ "objet": "Travaux de branchements et d'extension du réscau d'assainissement",
+ "acheteur": "société régionale multiservices Marrakech Safi « SRM-MS »",
+ "procedure": "appel d'offres ouvert",
+ "categorie": "Travaux",
+ "date_limite_plis": "14/04/2028",
+ "lieu_ouverture": "au Siège de la SRM-MS MARRAKECH",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "14/05/2025",
+ "justification": null,
+ "infructueux": false,
+ "attributaire": "GERAB",
+ "montant_attribue": 6960000.0,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "GERAB",
+   "montant_acte_engagement": 6960000.0,
+   "montant_apres_verification": 6960000.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "STE GENIE CIVIL DE MEKNES LOT 1",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_dossier_administratif_technique",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "DRIO-TRAV NEGOCE",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_dossier_administratif_technique",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 3,
+ "alertes_ocr": [],
+ "notes_ocr": [],
+ "qualite": "attribution"
+}

@@ -1,0 +1,78 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "968792",
+ "orgAcronyme": "b5j",
+ "reference_pv": null,
+ "nouveau": true,
+ "reference": null,
+ "objet": "Travaux de viabilisation des lotissements OSAMAC 2È\"* tranche de la 1#° phase lotissement \"Annour à Meknès lot : électrification, éclairage public et desserte téléphonique",
+ "acheteur": "Agence de Logements et d’Equipements Militaires",
+ "procedure": null,
+ "categorie": "Travaux",
+ "date_limite_plis": "19/12/2025",
+ "lieu_ouverture": "Salle des réunions de l’ALEM",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "06/01/2026",
+ "justification": "offre la plus avantageuse.",
+ "infructueux": false,
+ "attributaire": "INGTELMA",
+ "montant_attribue": 46373412.0,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "PROTECTION ELECTYRIQUE ET ELECTRONIQUE « PROTELEC",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_offre_financiere",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "GROUPEMENT NETELEC & BRAZER INGENIERIE",
+   "montant_acte_engagement": 45002299.2,
+   "montant_apres_verification": 45002299.2,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": true
+  },
+  {
+   "nom": "SETRONIC",
+   "montant_acte_engagement": 46200030.0,
+   "montant_apres_verification": 46200030.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "GROUPEMENT ALOUSS & NEWERACOM",
+   "montant_acte_engagement": 53569552.02,
+   "montant_apres_verification": 53569686.79,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "INGTELMA",
+   "montant_acte_engagement": 46373412.0,
+   "montant_apres_verification": 46373412.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 5,
+ "alertes_ocr": [],
+ "notes_ocr": [
+  "« GROUPEMENT ALOUSS & NEWERACOM » : montant rectifié de 53 569 552.02 à 53 569 686.79 DH."
+ ],
+ "qualite": "complet"
+}

@@ -1,0 +1,90 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "757633",
+ "orgAcronyme": "g3h",
+ "reference_pv": "22/WRLSH/BG/2023",
+ "nouveau": true,
+ "reference": "22/WRLSH/BG/2023",
+ "objet": null,
+ "acheteur": "Province de Laayoune",
+ "procedure": "appel d'offres ouvert",
+ "categorie": "Travaux",
+ "date_limite_plis": "14/11/2023",
+ "lieu_ouverture": "la salle des réunions de la Province de Laayoune",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "21/11/2023",
+ "justification": "loffre économiquement la plus avantageuse",
+ "infructueux": false,
+ "attributaire": "STE CENTRO NIKOS SARL",
+ "montant_attribue": 2001400.8,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "OUAFICO DE CONSTRUCTION S.ARL",
+   "montant_acte_engagement": 2162668.2,
+   "montant_apres_verification": 2162668.2,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "STE ANBDOU SARL",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "depose",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "STE CENTRO NIKOS SARL",
+   "montant_acte_engagement": 2001.0,
+   "montant_apres_verification": 2001400.8,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "STE GRAND TRAVAUX SAHARA SARL/AU",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_dossier_administratif_technique",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "STE GIDITAL SARL AU",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_dossier_administratif_technique",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "STE ZAGORA DE CONSTRUCTION \"SOZACOS",
+   "montant_acte_engagement": 2451274.8,
+   "montant_apres_verification": 2451274.8,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 6,
+ "alertes_ocr": [
+  "« STE ZAGORA DE CONSTRUCTION \"SOZACOS » absent de la liste des plis déposés (nom mal lu ?).",
+  "« STE CENTRO NIKOS SARL » : écart anormal entre montant initial et vérifié (lecture à vérifier)."
+ ],
+ "notes_ocr": [
+  "« STE CENTRO NIKOS SARL » : montant rectifié de 2 001.00 à 2 001 400.80 DH."
+ ],
+ "qualite": "complet"
+}

@@ -1,0 +1,80 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "1033144",
+ "orgAcronyme": "g8e",
+ "reference_pv": "14672026",
+ "nouveau": true,
+ "reference": "14672026",
+ "objet": "TRAVAUX D'EQUIPEMENT DES FORAGES PAR POMPES ET SYSTEMES PHOTOVOLTAIQUES À LA REGION DE BENI MEIIAL-KHENIFRA-EN DEUX LOTS : LOT O1: PROVINCES BENI MFILAL ET AZILAL",
+ "acheteur": "Agence Régionale d'Executon des Projets Région Béni Meilai-Kheénifra Lé",
+ "procedure": null,
+ "categorie": "Travaux",
+ "date_limite_plis": null,
+ "lieu_ouverture": null,
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": null,
+ "justification": "1 offre économiquement la plus avantageuse L'offre économiquement la plus avantageuse",
+ "infructueux": false,
+ "attributaire": "STE TCHOUIR SAHARA",
+ "montant_attribue": 7631640.9,
+ "attributaires_par_lot": [
+  {
+   "lot": null,
+   "attributaire": "STE TCHOUIR SAHARA",
+   "montant": 7631640.9
+  },
+  {
+   "lot": null,
+   "attributaire": "STE LAMDA TECHNOLOGY",
+   "montant": 6983732.4
+  }
+ ],
+ "soumissionnaires": [
+  {
+   "nom": "STE LAMDA TECHNOLOGY",
+   "montant_acte_engagement": 7941948.0,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "GR.STE SELFIM ET VIVA AQUA",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_dossier_administratif_technique",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "STE CAGP INVEST",
+   "montant_acte_engagement": 7986600.0,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "STE TCHOUIR SAHARA",
+   "montant_acte_engagement": 7631640.0,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 4,
+ "alertes_ocr": [
+  "« STE TCHOUIR SAHARA » absent de la liste des plis déposés (nom mal lu ?)."
+ ],
+ "notes_ocr": [],
+ "qualite": "complet"
+}

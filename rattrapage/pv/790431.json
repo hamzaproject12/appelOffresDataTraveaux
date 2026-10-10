@@ -1,0 +1,84 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "790431",
+ "orgAcronyme": "j8k",
+ "reference_pv": "22/24",
+ "nouveau": true,
+ "reference": "22/24",
+ "objet": null,
+ "acheteur": "A1 Omrane Casablanca - Settat",
+ "procedure": "appel d'offres ouvert",
+ "categorie": "Travaux",
+ "date_limite_plis": "04/03/2024",
+ "lieu_ouverture": "AI Omrane Casablanca — Settat",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "15/03/2024",
+ "justification": "Offre financière la plus avantageuse",
+ "infructueux": false,
+ "attributaire": "URBANISA 8",
+ "montant_attribue": null,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "URBANISA 8",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "i | FOR.PS.S3, 26",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Vas",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "7 > EXTRAIT DU PV _7RFSion 08",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "a oïirane",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 5,
+ "alertes_ocr": [
+  "« URBANISA 8 » absent de la liste des plis déposés (nom mal lu ?).",
+  "Montant de l'attributaire « URBANISA 8 » non trouvé."
+ ],
+ "notes_ocr": [
+  "« i | FOR.PS.S3, 26 » absent de la liste des plis déposés (nom mal lu ?).",
+  "« Vas » absent de la liste des plis déposés (nom mal lu ?).",
+  "« 7 > EXTRAIT DU PV _7RFSion 08 » absent de la liste des plis déposés (nom mal lu ?).",
+  "« a oïirane » absent de la liste des plis déposés (nom mal lu ?)."
+ ],
+ "qualite": "participants"
+}

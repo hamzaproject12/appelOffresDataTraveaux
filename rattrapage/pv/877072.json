@@ -1,0 +1,62 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "877072",
+ "orgAcronyme": "g8e",
+ "reference_pv": null,
+ "nouveau": true,
+ "reference": null,
+ "objet": "TRAVAUX DE CONSTRUCTION D'UN LYCEE COLLEGIAL IBN TACHAFINE A LA CT TANOUGHA RELEVANT DE LA PROVINCE DE BENI MELLAL-LOT UNIQUE-,",
+ "acheteur": null,
+ "procedure": null,
+ "categorie": "Travaux",
+ "date_limite_plis": null,
+ "lieu_ouverture": null,
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "06/03/2025",
+ "justification": "I'Offre Economiquement la plus avantageuse.",
+ "infructueux": false,
+ "attributaire": "STE MESTRAV",
+ "montant_attribue": 10898917.92,
+ "attributaires_par_lot": [
+  {
+   "lot": null,
+   "attributaire": "STE MESTRAV",
+   "montant": 10898917.92
+  },
+  {
+   "lot": null,
+   "attributaire": "Bd Med V lotissement lala Hayat immeuble n°3, 4eme et 5eme étage Béni Mellal",
+   "montant": 9910274.4
+  }
+ ],
+ "soumissionnaires": [
+  {
+   "nom": "STE MESTRAV",
+   "montant_acte_engagement": 10898917.92,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Bd Med V lotissement lala Hayat immeuble n°3, 4eme et 5eme étage Béni Mellal",
+   "montant_acte_engagement": 9910274.4,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 2,
+ "alertes_ocr": [],
+ "notes_ocr": [
+  "Maître d'ouvrage absent du PV (utiliser l'acheteur public du portail)."
+ ],
+ "qualite": "attribution"
+}

@@ -1,0 +1,55 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "906953",
+ "orgAcronyme": "o8p",
+ "reference_pv": "12/A00/DPMR-ANP/2025",
+ "nouveau": true,
+ "reference": "12/A00/DPMR-ANP/2025",
+ "objet": "« TRAVAUX DE RENOVATION D'UN APPONTEMENT FLOTTANT AU PORT DE MOHAMMEDIA»",
+ "acheteur": "Agence Nationale des ports : Direction du Port de Mohammedia et Région",
+ "procedure": "appel d'offres ouvert",
+ "categorie": "Travaux",
+ "date_limite_plis": "29/05/2025",
+ "lieu_ouverture": "ANP/DPMR Conformément à l'avis publié dans : Désignation journaux Langue PSE Eee #e",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": null,
+ "justification": null,
+ "infructueux": false,
+ "attributaire": null,
+ "montant_attribue": null,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "CALYPSO TRAVAUX SOUS MARINE",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_offre_technique",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "SCAPHMAR",
+   "montant_acte_engagement": 787900.0,
+   "montant_apres_verification": 787900.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_offre_technique",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 2,
+ "alertes_ocr": [
+  "« SCAPHMAR » absent de la liste des plis déposés (nom mal lu ?).",
+  "Attributaire non trouvé."
+ ],
+ "notes_ocr": [
+  "« CALYPSO TRAVAUX SOUS MARINE » absent de la liste des plis déposés (nom mal lu ?).",
+  "Montants exprimés hors taxes (HT)."
+ ],
+ "qualite": "attribution"
+}

@@ -1,0 +1,98 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "917394",
+ "orgAcronyme": "i1t",
+ "reference_pv": "03/2024",
+ "nouveau": true,
+ "reference": "03/2024",
+ "objet": "Travaux d’aménagement de la piste en bicouche reliant la RP 4561 vers la RN 13 par douar Ouled Mahyou à la commune de AIN DFALI , Province de SIDI KACEM, =En lot Unique=  Maître d’ouvrage : Président de la Commune Ain Dfali",
+ "acheteur": null,
+ "procedure": "appel d'offres ouvert",
+ "categorie": "Travaux",
+ "date_limite_plis": null,
+ "lieu_ouverture": null,
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "13/01/2021",
+ "justification": "dont l’offre la plus avantageuse.",
+ "infructueux": false,
+ "attributaire": " STE MOUNIR TRA sarl .AU de Fès",
+ "montant_attribue": 1858800.0,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": " STE BARA SSO sarl. AU de Taza",
+   "montant_acte_engagement": 1848000.0,
+   "montant_apres_verification": 1848000.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_offre_financiere",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": " STE MOUNIR TRA sarl .AU de Fès",
+   "montant_acte_engagement": 1858800.0,
+   "montant_apres_verification": 1858800.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": " STE EL FAKIR DE CONSTRUCTION ET TRAVAUX DIVERS sarl de Menés",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_offre_financiere",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": " STE MESKCON sarl de Kenitra",
+   "montant_acte_engagement": 1864680.0,
+   "montant_apres_verification": 1864680.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_offre_financiere",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": " STE AFRICAINE DE TRAVAUX PUBLIC STR de Fès",
+   "montant_acte_engagement": 1865880.0,
+   "montant_apres_verification": 1865880.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_offre_financiere",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": " STE TRAVAUX FGR sarl de Fès",
+   "montant_acte_engagement": 1877040.0,
+   "montant_apres_verification": 1877040.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_offre_financiere",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "sarl de Menés",
+   "montant_acte_engagement": 1862400.0,
+   "montant_apres_verification": 1862400.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 7,
+ "alertes_ocr": [
+  "« sarl de Menés » absent de la liste des plis déposés (nom mal lu ?)."
+ ],
+ "notes_ocr": [
+  "Maître d'ouvrage absent du PV (utiliser l'acheteur public du portail)."
+ ],
+ "qualite": "complet"
+}

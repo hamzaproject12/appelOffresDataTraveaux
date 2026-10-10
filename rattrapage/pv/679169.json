@@ -1,0 +1,84 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "679169",
+ "orgAcronyme": "l1f",
+ "reference_pv": "06/2022",
+ "nouveau": true,
+ "reference": "06/2022",
+ "objet": "TRAVAUX D'AMENAGEMENT DE LA FOURRIERE DE LA COMMUNE RELEVAIIT BATIMAI\\T ADMIIYISTRATIF A LA COMMUNE ZINAT",
+ "acheteur": "COMMUNE DE ZINAT",
+ "procedure": "appel d'offres ouvert",
+ "categorie": "Travaux",
+ "date_limite_plis": "02/11/2022",
+ "lieu_ouverture": "Ie siège de la commun e zinat",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "15/11/2022",
+ "justification": null,
+ "infructueux": false,
+ "attributaire": "Sté PROGENIE ROAD sarl",
+ "montant_attribue": null,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "Sté SGGTR",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Sté PROGENIE ROAD sarl",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Sté ETYMOL NORI)",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Sté BELAGHRISSI ALI",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Sté ARWA EST TP",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 5,
+ "alertes_ocr": [
+  "« Sté PROGENIE ROAD sarl » absent de la liste des plis déposés (nom mal lu ?).",
+  "Montant de l'attributaire « Sté PROGENIE ROAD sarl » non trouvé."
+ ],
+ "notes_ocr": [
+  "« Sté SGGTR » absent de la liste des plis déposés (nom mal lu ?).",
+  "« Sté ETYMOL NORI) » absent de la liste des plis déposés (nom mal lu ?).",
+  "« Sté BELAGHRISSI ALI » absent de la liste des plis déposés (nom mal lu ?).",
+  "« Sté ARWA EST TP » absent de la liste des plis déposés (nom mal lu ?)."
+ ],
+ "qualite": "participants"
+}

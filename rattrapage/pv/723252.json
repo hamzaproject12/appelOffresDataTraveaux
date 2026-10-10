@@ -1,0 +1,88 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "723252",
+ "orgAcronyme": "o8p",
+ "reference_pv": "10/2023",
+ "nouveau": true,
+ "reference": "10/2023",
+ "objet": null,
+ "acheteur": null,
+ "procedure": "appel d'offres ouvert",
+ "categorie": "Travaux",
+ "date_limite_plis": null,
+ "lieu_ouverture": null,
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": null,
+ "justification": "- M. AIT M’BAREK OUSSAMA, Chef de service Infrastructure: - M. NACIRI MARWANE, Technicien au service Infrastructure (membre);",
+ "infructueux": false,
+ "attributaire": null,
+ "montant_attribue": null,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "Groupement (Sté. ATLAS GC & Sté. BOUARGA ROUTIERE -SBTR-) à MARRAKECH (format électronique)",
+   "montant_acte_engagement": 6877556.16,
+   "montant_apres_verification": 6877556.16,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_offre_financiere",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Groupement (Sté. ATLAS HANDASSA & Sté. KARMO-TRAV) à MEKNES (format électronique)",
+   "montant_acte_engagement": 7362460.8,
+   "montant_apres_verification": 7362.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_offre_financiere",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Groupement (Sté POLE DE CONSTRUCTION ET",
+   "montant_acte_engagement": 7779700.8,
+   "montant_apres_verification": 7779700.8,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_offre_financiere",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "PUBLICS) à TEMARA (format électronique)",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_offre_financiere",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Groupement (Sté. STAPORT & Sté. ENPR) à CASA",
+   "montant_acte_engagement": 8262540.0,
+   "montant_apres_verification": 8262506.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_offre_financiere",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 5,
+ "alertes_ocr": [
+  "« Groupement (Sté. ATLAS GC & Sté. BOUARGA ROUTIERE -SBTR-) à MARRAKECH (format électronique) » absent de la liste des plis déposés (nom mal lu ?).",
+  "« Groupement (Sté. ATLAS HANDASSA & Sté. KARMO-TRAV) à MEKNES (format électronique) » absent de la liste des plis déposés (nom mal lu ?).",
+  "« Groupement (Sté POLE DE CONSTRUCTION ET » absent de la liste des plis déposés (nom mal lu ?).",
+  "« Groupement (Sté. STAPORT & Sté. ENPR) à CASA » absent de la liste des plis déposés (nom mal lu ?).",
+  "Attributaire non trouvé.",
+  "« Groupement (Sté. ATLAS HANDASSA & Sté. KARMO-TRAV) à MEKNES (format électronique) » : écart anormal entre montant initial et vérifié (lecture à vérifier)."
+ ],
+ "notes_ocr": [
+  "« PUBLICS) à TEMARA (format électronique) » absent de la liste des plis déposés (nom mal lu ?).",
+  "« Groupement (Sté. ATLAS HANDASSA & Sté. KARMO-TRAV) à MEKNES (format électronique) » : montant rectifié de 7 362 460.80 à 7 362.00 DH.",
+  "« Groupement (Sté. STAPORT & Sté. ENPR) à CASA » : montant rectifié de 8 262 540.00 à 8 262 506.00 DH.",
+  "Maître d'ouvrage absent du PV (utiliser l'acheteur public du portail)."
+ ],
+ "qualite": "complet"
+}

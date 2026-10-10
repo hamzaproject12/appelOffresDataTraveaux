@@ -1,0 +1,53 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "766073",
+ "orgAcronyme": "o8p",
+ "reference_pv": "10/DAGS/2023",
+ "nouveau": true,
+ "reference": "10/DAGS/2023",
+ "objet": "Travaux d'aménagement des locaux sociaux et travaux d'aménagement et de fournitures divers du centre logistique SNTL de Mohammedia",
+ "acheteur": "SNTL",
+ "procedure": null,
+ "categorie": "Travaux",
+ "date_limite_plis": "12/12/2023",
+ "lieu_ouverture": "Siège SNTL Rabat",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "20/12/2023",
+ "justification": null,
+ "infructueux": false,
+ "attributaire": "SOMEDNAIT",
+ "montant_attribue": 469416.0,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "NEMATRA",
+   "montant_acte_engagement": 468114.0,
+   "montant_apres_verification": null,
+   "autres_montants": [
+    478842.0
+   ],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "SOMEDNAIT",
+   "montant_acte_engagement": 469176.0,
+   "montant_apres_verification": null,
+   "autres_montants": [
+    469416.0
+   ],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 2,
+ "alertes_ocr": [],
+ "notes_ocr": [],
+ "qualite": "complet"
+}

@@ -1,0 +1,88 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "913210",
+ "orgAcronyme": "a1t",
+ "reference_pv": "36/2025/ADHA",
+ "nouveau": true,
+ "reference": "36/2025/ADHA",
+ "objet": "TRAVAUX DE REPARATION DES OUVRAGES D'ART IMPACTES PAR LE SEISME D’AL HAOUZ (LOT 1} -PROVINCE D’AL HAOUZ",
+ "acheteur": "DIRECTEUR GENERAL DE L'AGENCE DE DVELLOPEMNT DU HAUT ATLAS",
+ "procedure": null,
+ "categorie": "Travaux",
+ "date_limite_plis": "17/06/2025",
+ "lieu_ouverture": "salle de réunion de la Direction Provinciale de l'Agriculture Marrakech",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": null,
+ "justification": null,
+ "infructueux": false,
+ "attributaire": "ENPR sarl",
+ "montant_attribue": 2577432.0,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "OUVRAROUTE sarl JET",
+   "montant_acte_engagement": 2557752.0,
+   "montant_apres_verification": 2557752.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "2 VANORD sarl",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "depose",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "ENPR sarl",
+   "montant_acte_engagement": 2577432.0,
+   "montant_apres_verification": 2577432.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "4 SENOTP sarl",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "depose",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "VANORD sarl",
+   "montant_acte_engagement": 2829882.0,
+   "montant_apres_verification": 2829882.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "SENOTP sarl",
+   "montant_acte_engagement": 2816964.0,
+   "montant_apres_verification": 2816964.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 6,
+ "alertes_ocr": [
+  "« VANORD sarl » absent de la liste des plis déposés (nom mal lu ?).",
+  "« SENOTP sarl » absent de la liste des plis déposés (nom mal lu ?)."
+ ],
+ "notes_ocr": [],
+ "qualite": "complet"
+}

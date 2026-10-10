@@ -1,0 +1,73 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "998741",
+ "orgAcronyme": "o8p",
+ "reference_pv": "26T005/PLGV",
+ "nouveau": true,
+ "reference": "26T005/PLGV",
+ "objet": "du lot du lot d'ouverture travaux de la retenu retenue des plis commission",
+ "acheteur": "M. le Directeur Equipements ferroviaires du Pole Projets LGV",
+ "procedure": "appel d'offres ouvert",
+ "categorie": "Travaux",
+ "date_limite_plis": "23/04/2026",
+ "lieu_ouverture": "Institut de Formation et de Développement de Compétences l'ONCF",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "28/04/2026",
+ "justification": null,
+ "infructueux": false,
+ "attributaire": "ICOMEL SARL",
+ "montant_attribue": 6741637.45,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "ICOMEL SARL - ELECTOMAR SARL AU - ALOUSS S.A.R.L AU",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "depose",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "ICOMEL SARL",
+   "montant_acte_engagement": 6741637.45,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "ELECTOMAR SARL AU",
+   "montant_acte_engagement": 7633619.4,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "ALOUSS S.A.R.L AU",
+   "montant_acte_engagement": 7887492.86,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 4,
+ "alertes_ocr": [
+  "« ICOMEL SARL » absent de la liste des plis déposés (nom mal lu ?).",
+  "« ELECTOMAR SARL AU » absent de la liste des plis déposés (nom mal lu ?).",
+  "« ALOUSS S.A.R.L AU » absent de la liste des plis déposés (nom mal lu ?)."
+ ],
+ "notes_ocr": [
+  "Montants exprimés hors taxes (HT)."
+ ],
+ "qualite": "complet"
+}

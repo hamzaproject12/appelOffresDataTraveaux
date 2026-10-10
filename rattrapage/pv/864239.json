@@ -1,0 +1,80 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "864239",
+ "orgAcronyme": "s3z",
+ "reference_pv": "42/24/AREP/RRSK",
+ "nouveau": true,
+ "reference": "42/24/AREP/RRSK",
+ "objet": "« TRAVAUX DE CONSTRUCTION DES TERRAINS DE PROXIMITE EN GAZON SYNTHETIQUE. ALLOTI EN 3 LOTS: Lot 1 : Provinces de Sidi Slimane et Sidi Kacem",
+ "acheteur": "Agence Régionale d’Exécution des projets de la Région de Rabat- Salé Kénitra",
+ "procedure": "appel d'offres ouvert national",
+ "categorie": "Travaux",
+ "date_limite_plis": "19/12/2024",
+ "lieu_ouverture": "Bureaux de l’Agence Régionale d’Exécution des Projets de la Région de Rabat Salé Kenitra, sis 50, avenue Moulay Ismail, Hassan-Rabat",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "06/01/2025",
+ "justification": "Offre économiquement la plus avantageuse. -__ Résultat de l’Appel d'Offres pour : o Le Lot 1 est déclaré infructueux o Le Lot 2 est déclaré infructueux ne",
+ "infructueux": true,
+ "attributaire": "EPIC PROJECT SARL AU",
+ "montant_attribue": 9122815.2,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "ECOGEO SARL",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [
+    "1"
+   ],
+   "statut": "ecarte_offre_technique",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "SOCIETE GAZON SYNTHETIQUE DU MAROC SARL",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [
+    "1",
+    "2"
+   ],
+   "statut": "ecarte_offre_technique",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "SOCIETE ORIONIS SARL",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [
+    "1",
+    "2"
+   ],
+   "statut": "ecarte_dossier_administratif_technique",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "EPIC PROJECT SARL AU",
+   "montant_acte_engagement": 9122815.2,
+   "montant_apres_verification": 9122815.2,
+   "autres_montants": [],
+   "lots": [
+    "1",
+    "3"
+   ],
+   "statut": "attributaire",
+   "admis_avec_reserve": true
+  }
+ ],
+ "nombre_soumissionnaires": 4,
+ "alertes_ocr": [],
+ "notes_ocr": [
+  "Marché alloti (3 lots)."
+ ],
+ "qualite": "attribution"
+}

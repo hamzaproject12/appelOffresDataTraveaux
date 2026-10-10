@@ -1,0 +1,87 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "986643",
+ "orgAcronyme": "o8p",
+ "reference_pv": "3/2026",
+ "nouveau": true,
+ "reference": "3/2026",
+ "objet": "Travaux d'élargissement et de renforcement de la RP 2331 du PK 0+000 au PK 9+750 (Province de Safi) Région Marrakech-Safi",
+ "acheteur": "la Direction Provinciale de l'équipement, du transport et de la logistique de Safi (représenté par son Directeur Provincial)",
+ "procedure": "appel d'offres ouvert",
+ "categorie": "Travaux",
+ "date_limite_plis": "10/03/2026",
+ "lieu_ouverture": "la Direction Provinciale de l'équipement, du transport et de la logistique de Safi",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "19/03/2026",
+ "justification": "offre économiquement la plus avantageuse pour l'administration",
+ "infructueux": false,
+ "attributaire": "ZAMANE EL KHEIR",
+ "montant_attribue": 13737594.0,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "TRAQUASS",
+   "montant_acte_engagement": 15509650.8,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_offre_financiere",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "TIRA TRAVAUX",
+   "montant_acte_engagement": 15378236.4,
+   "montant_apres_verification": 15378236.4,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "ZAMANE EL KHEIR",
+   "montant_acte_engagement": 13737594.0,
+   "montant_apres_verification": 13737594.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": true
+  },
+  {
+   "nom": "EDICA",
+   "montant_acte_engagement": 14126092.8,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Goupement : ECA EL MARAH 8 MENARA AMENAGEMENT",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "AMENAGEMENT BATIKAB",
+   "montant_acte_engagement": 13736646.4,
+   "montant_apres_verification": 13736646.6,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 6,
+ "alertes_ocr": [],
+ "notes_ocr": [
+  "« AMENAGEMENT BATIKAB » : montant rectifié de 13 736 646.40 à 13 736 646.60 DH."
+ ],
+ "qualite": "complet"
+}

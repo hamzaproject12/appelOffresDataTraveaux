@@ -1,0 +1,83 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "946343",
+ "orgAcronyme": "o8p",
+ "reference_pv": null,
+ "nouveau": true,
+ "reference": null,
+ "objet": null,
+ "acheteur": "Service de l'Equipement du Transport et de la Logistique de Rhamna",
+ "procedure": null,
+ "categorie": "Travaux",
+ "date_limite_plis": "20/10/2025",
+ "lieu_ouverture": "la salle de réunion du service de L’Equipement, du Transport et de la logistique de Rhamna",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "29/10/2025",
+ "justification": "Offre la plus avantageuse.",
+ "infructueux": false,
+ "attributaire": "OH PROJET",
+ "montant_attribue": 1984894.8,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "SONATIS",
+   "montant_acte_engagement": 2188321.2,
+   "montant_apres_verification": 2188321.2,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "OH PROJET",
+   "montant_acte_engagement": 1984894.8,
+   "montant_apres_verification": 1984894.8,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "GROUPEMENT : AIT YAHYA SERVICES +GREEN",
+   "montant_acte_engagement": 2119105.2,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": true
+  },
+  {
+   "nom": "HXHAEE | HCHOLS",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": true
+  },
+  {
+   "nom": "Fo£olsO+ 1 Celle À LE dl",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": true
+  }
+ ],
+ "nombre_soumissionnaires": 5,
+ "alertes_ocr": [
+  "« SONATIS » absent de la liste des plis déposés (nom mal lu ?).",
+  "« OH PROJET » absent de la liste des plis déposés (nom mal lu ?).",
+  "« GROUPEMENT : AIT YAHYA SERVICES +GREEN » absent de la liste des plis déposés (nom mal lu ?)."
+ ],
+ "notes_ocr": [
+  "« HXHAEE | HCHOLS » absent de la liste des plis déposés (nom mal lu ?).",
+  "« Fo£olsO+ 1 Celle À LE dl » absent de la liste des plis déposés (nom mal lu ?)."
+ ],
+ "qualite": "complet"
+}

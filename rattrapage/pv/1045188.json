@@ -1,0 +1,88 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "1045188",
+ "orgAcronyme": "d4q",
+ "reference_pv": null,
+ "nouveau": true,
+ "reference": null,
+ "objet": null,
+ "acheteur": null,
+ "procedure": "appel d'offres ouvert",
+ "categorie": "Travaux",
+ "date_limite_plis": "09/09/2026",
+ "lieu_ouverture": "à la Salle d'ouverture de l'Immeuble G - Avenue Mohamed Belhassan El Ouazzani - Rabat",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "01/10/2026",
+ "justification": "Moins-disant",
+ "infructueux": false,
+ "attributaire": "ATNER (ATLAS ENERGIE) - Offre de",
+ "montant_attribue": 92053701.6,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "ATNER (ATLAS ENERGIE) - Offre de",
+   "montant_acte_engagement": 92053701.6,
+   "montant_apres_verification": null,
+   "autres_montants": [
+    92053701.6
+   ],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "GROUP CEGELEC / CTHM MAROC - MAROC",
+   "montant_acte_engagement": 105296956.8,
+   "montant_apres_verification": null,
+   "autres_montants": [
+    105296956.8
+   ],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "SNCE MAROC",
+   "montant_acte_engagement": 103472380.8,
+   "montant_apres_verification": null,
+   "autres_montants": [
+    103472380.8
+   ],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "SOGEA MAROC MAROC",
+   "montant_acte_engagement": 96041226.0,
+   "montant_apres_verification": null,
+   "autres_montants": [
+    96041226.0
+   ],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "SOGETRAMA GLS MAROC",
+   "montant_acte_engagement": 86991973.2,
+   "montant_apres_verification": null,
+   "autres_montants": [
+    86991973.2
+   ],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 5,
+ "alertes_ocr": [],
+ "notes_ocr": [
+  "Maître d'ouvrage absent du PV (utiliser l'acheteur public du portail)."
+ ],
+ "qualite": "complet"
+}

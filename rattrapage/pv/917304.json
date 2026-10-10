@@ -1,0 +1,52 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "917304",
+ "orgAcronyme": "o8p",
+ "reference_pv": "19/2025/DPETL",
+ "nouveau": true,
+ "reference": "19/2025/DPETL",
+ "objet": "Travaux de construction de 3 dalot triple (3,00X3,00) au PK7+776 et 2 dalot triple (3,00X3,00) au PK 13+925 sur la RP3632 (Province de Settat)",
+ "acheteur": "Direction Provinciale de l'Equipement du Transport et de la Logistique à Settat",
+ "procedure": "appel d'offres ouvert international",
+ "categorie": "Travaux",
+ "date_limite_plis": "09/07/2025",
+ "lieu_ouverture": "DPETL Settat",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "18/07/2025",
+ "justification": "la commission juge que l'offre présentée par la Société TOUITRAV est l'offre économiquement la plus avantageuse.",
+ "infructueux": false,
+ "attributaire": "Sté TOUITRAV",
+ "montant_attribue": 4155812.4,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "Sté AMAL SALAM TRAVAUX",
+   "montant_acte_engagement": 4185165.0,
+   "montant_apres_verification": 4185165.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Sté TOUITRAV",
+   "montant_acte_engagement": 4155812.4,
+   "montant_apres_verification": 4155812.4,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 2,
+ "alertes_ocr": [
+  "« Sté AMAL SALAM TRAVAUX » absent de la liste des plis déposés (nom mal lu ?).",
+  "« Sté TOUITRAV » absent de la liste des plis déposés (nom mal lu ?)."
+ ],
+ "notes_ocr": [],
+ "qualite": "complet"
+}

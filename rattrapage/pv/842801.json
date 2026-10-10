@@ -1,0 +1,100 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "842801",
+ "orgAcronyme": "j8k",
+ "reference_pv": null,
+ "nouveau": true,
+ "reference": null,
+ "objet": "La réalisation des travaux de construction T.C.E des opérations suivantes – LOT N° 01 : opération AL JAWHAR ex (tiguemi tranche 09) – LOT N° 02 : opération TIFAWT ex (tiguemi tranche 02)",
+ "acheteur": null,
+ "procedure": "appel d'offres ouvert",
+ "categorie": "Travaux",
+ "date_limite_plis": "24/10/2024",
+ "lieu_ouverture": "Division des Marchés de la Société Al Omrane souss Massa",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "29/10/2024",
+ "justification": "Concurrent représentant l’offre la plus avantageuse. LOT N° 02 : opération TIFAWT ex (tiguemi tranche 02) Concurrent représentant l’offre la plus avantageuse. LOT N° 03 : opération TAMOUNT ex (tiguemi tranche 08) Concurrent représentant l’offre la plus avantageuse.",
+ "infructueux": false,
+ "attributaire": "SICATRA",
+ "montant_attribue": 24347411.73,
+ "attributaires_par_lot": [
+  {
+   "lot": null,
+   "attributaire": "SICATRA",
+   "montant": 24347411.73
+  },
+  {
+   "lot": null,
+   "attributaire": "SOTAMAC",
+   "montant": 29220460.32
+  },
+  {
+   "lot": null,
+   "attributaire": "ZAMAROS",
+   "montant": 33096277.8
+  }
+ ],
+ "soumissionnaires": [
+  {
+   "nom": "ENHAFRAG - SICATRA - SOTAMAC",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "ENHAFRAG - SOTAMAC - ZAMAROS",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "SICATRA",
+   "montant_acte_engagement": 24347411.73,
+   "montant_apres_verification": 24347411.73,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "SOTAMAC",
+   "montant_acte_engagement": 25036989.84,
+   "montant_apres_verification": 25036989.84,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "ZAMAROS",
+   "montant_acte_engagement": 29724261.36,
+   "montant_apres_verification": 29724261.36,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 5,
+ "alertes_ocr": [
+  "« SICATRA » absent de la liste des plis déposés (nom mal lu ?).",
+  "« SOTAMAC » absent de la liste des plis déposés (nom mal lu ?).",
+  "« ZAMAROS » absent de la liste des plis déposés (nom mal lu ?)."
+ ],
+ "notes_ocr": [
+  "« ENHAFRAG - SICATRA - SOTAMAC » absent de la liste des plis déposés (nom mal lu ?).",
+  "« ENHAFRAG - SOTAMAC - ZAMAROS » absent de la liste des plis déposés (nom mal lu ?).",
+  "Maître d'ouvrage absent du PV (utiliser l'acheteur public du portail)."
+ ],
+ "qualite": "attribution"
+}

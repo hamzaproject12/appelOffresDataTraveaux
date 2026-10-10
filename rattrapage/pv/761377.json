@@ -1,0 +1,53 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "761377",
+ "orgAcronyme": "o8p",
+ "reference_pv": "15/AOO/DI/DG/ANP/2023",
+ "nouveau": true,
+ "reference": "15/AOO/DI/DG/ANP/2023",
+ "objet": null,
+ "acheteur": "DIRECTION DES INFRASTRUCTURES",
+ "procedure": "appel d'offres ouvert",
+ "categorie": "Travaux",
+ "date_limite_plis": "21/11/2023",
+ "lieu_ouverture": "Direction Générale de l’Agence Nationale des Ports, sise à MANDARONA 300 Lot n° 8 — Sidi Maârouf — Casablanca",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "04/12/2023",
+ "justification": "la société ATLANTIC DREGING MAROC a présenté l’offre la plus avantageuse. …",
+ "infructueux": false,
+ "attributaire": "ATLANTIC DREGING MAROC MIN",
+ "montant_attribue": 22460000.0,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "Publics : SOMAGEC, ATLANTIC DREGING MAROC",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "depose",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "ATLANTIC DREGING MAROC MIN",
+   "montant_acte_engagement": 22460000.0,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 2,
+ "alertes_ocr": [
+  "« ATLANTIC DREGING MAROC MIN » absent de la liste des plis déposés (nom mal lu ?)."
+ ],
+ "notes_ocr": [
+  "Montants exprimés hors taxes (HT)."
+ ],
+ "qualite": "attribution"
+}

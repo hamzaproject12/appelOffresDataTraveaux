@@ -1,0 +1,75 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "839969",
+ "orgAcronyme": "d4q",
+ "reference_pv": null,
+ "nouveau": true,
+ "reference": null,
+ "objet": "du lot : des travaux de du lot d'ouverture . retenu . la Commission",
+ "acheteur": null,
+ "procedure": null,
+ "categorie": "Travaux",
+ "date_limite_plis": "17/10/2023",
+ "lieu_ouverture": "Casablanca",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": null,
+ "justification": "L'offre la plus avantageuse {ayant le LCOE le moins cher).",
+ "infructueux": false,
+ "attributaire": null,
+ "montant_attribue": null,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "Groupement « CHINA ENERGY ENGINEERING CORP",
+   "montant_acte_engagement": 204407314.48,
+   "montant_apres_verification": 204407314.48,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Groupement “GENERAL ELECTRIC GLOBAL SERVICES",
+   "montant_acte_engagement": 210644200.0,
+   "montant_apres_verification": 176774217.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Groupement « CHINA ENERGY Construction",
+   "montant_acte_engagement": 383075644.18,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "INTERNATIONAL GROUP LIMITED” _ Maintenance",
+   "montant_acte_engagement": 38460800.0,
+   "montant_apres_verification": 38460800.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 4,
+ "alertes_ocr": [
+  "« Groupement « CHINA ENERGY Construction » absent de la liste des plis déposés (nom mal lu ?).",
+  "« INTERNATIONAL GROUP LIMITED” _ Maintenance » absent de la liste des plis déposés (nom mal lu ?).",
+  "Attributaire non trouvé."
+ ],
+ "notes_ocr": [
+  "« Groupement “GENERAL ELECTRIC GLOBAL SERVICES » : montant rectifié de 210 644 200.00 à 176 774 217.00 DH.",
+  "Maître d'ouvrage absent du PV (utiliser l'acheteur public du portail).",
+  "Montants exprimés hors taxes (HT)."
+ ],
+ "qualite": "complet"
+}

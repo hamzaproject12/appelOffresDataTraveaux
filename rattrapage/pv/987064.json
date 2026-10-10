@@ -1,0 +1,55 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "987064",
+ "orgAcronyme": "m8x",
+ "reference_pv": "02/2026/c.s",
+ "nouveau": true,
+ "reference": "02/2026/c.s",
+ "objet": "TRAVAUX DE RENOUVELLEMENT DU RESEAU D'ECLAIRAGE PUBLIC DE LA VILLE D'ES-SEMARA -PROVINCE D'ES-SEMARA",
+ "acheteur": "COMMUNE D'’ES- SEMARA",
+ "procedure": "appel d'offres ouvert",
+ "categorie": "Travaux",
+ "date_limite_plis": "12/02/2026",
+ "lieu_ouverture": "Salle de réunion siège de la commune d’es- semara",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "12/02/2026",
+ "justification": null,
+ "infructueux": false,
+ "attributaire": "SOCIETE ECLAIRAGE SAHARA D’ELECTRICITE SARL",
+ "montant_attribue": 5149053.12,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "NAROVA SARL AU",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_dossier_administratif_technique",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "SOCIETE ECLAIRAGE SAHARA D’ELECTRICITE SARL",
+   "montant_acte_engagement": 5149053.12,
+   "montant_apres_verification": 5149.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 2,
+ "alertes_ocr": [
+  "« SOCIETE ECLAIRAGE SAHARA D’ELECTRICITE SARL » absent de la liste des plis déposés (nom mal lu ?).",
+  "« SOCIETE ECLAIRAGE SAHARA D’ELECTRICITE SARL » : écart anormal entre montant initial et vérifié (lecture à vérifier)."
+ ],
+ "notes_ocr": [
+  "« NAROVA SARL AU » absent de la liste des plis déposés (nom mal lu ?).",
+  "« SOCIETE ECLAIRAGE SAHARA D’ELECTRICITE SARL » : montant rectifié de 5 149 053.12 à 5 149.00 DH."
+ ],
+ "qualite": "attribution"
+}

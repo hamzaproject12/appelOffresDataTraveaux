@@ -1,0 +1,55 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "983525",
+ "orgAcronyme": "d4q",
+ "reference_pv": "49/DRC/CD/2025",
+ "nouveau": true,
+ "reference": "49/DRC/CD/2025",
+ "objet": "",
+ "acheteur": null,
+ "procedure": "appel d'offres ouvert",
+ "categorie": "Travaux",
+ "date_limite_plis": "12/02/2026",
+ "lieu_ouverture": "au siège de la Direction Régionale Casablanca-Settat (DRC) - 6 bis, rue Patrice Lumumba, Rabat - Maroc",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "10/03/2026",
+ "justification": "Moins-disant",
+ "infructueux": false,
+ "attributaire": "EAU RESEAU",
+ "montant_attribue": 1123200.0,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "EAU RESEAU",
+   "montant_acte_engagement": 1123200.0,
+   "montant_apres_verification": null,
+   "autres_montants": [
+    1123200.0
+   ],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "HYDROSYSTEMES MAROC",
+   "montant_acte_engagement": 1282800.0,
+   "montant_apres_verification": null,
+   "autres_montants": [
+    1282800.0
+   ],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 2,
+ "alertes_ocr": [],
+ "notes_ocr": [
+  "Maître d'ouvrage absent du PV (utiliser l'acheteur public du portail)."
+ ],
+ "qualite": "complet"
+}

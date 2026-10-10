@@ -1,0 +1,55 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "759777",
+ "orgAcronyme": "o8p",
+ "reference_pv": "04/2023/ABKG",
+ "nouveau": true,
+ "reference": "04/2023/ABKG",
+ "objet": "Travaux de reconstruction du réseau électrique moyen tension traversant la retenu du barrage KHENG GROU – Commune BANI TADJITE - Province de FIGUIG",
+ "acheteur": null,
+ "procedure": "appel d'offres ouvert",
+ "categorie": "Travaux",
+ "date_limite_plis": "28/11/2023",
+ "lieu_ouverture": "Les bureaux de la Direction Provinciale de l’Equipement, du Transport de la Logistique et de l’Eau à Bouarfa - Province de FIGUIG",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "29/11/2023",
+ "justification": null,
+ "infructueux": false,
+ "attributaire": null,
+ "montant_attribue": null,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "Sté ELEC TRIMAROC",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Sté MEBA CONSTRUCTION",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_dossier_administratif_technique",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 2,
+ "alertes_ocr": [
+  "Attributaire non trouvé."
+ ],
+ "notes_ocr": [
+  "« Sté ELEC TRIMAROC » absent de la liste des plis déposés (nom mal lu ?).",
+  "« Sté MEBA CONSTRUCTION » absent de la liste des plis déposés (nom mal lu ?).",
+  "Maître d'ouvrage absent du PV (utiliser l'acheteur public du portail)."
+ ],
+ "qualite": "participants"
+}

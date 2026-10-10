@@ -1,0 +1,54 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "810779",
+ "orgAcronyme": "s3z",
+ "reference_pv": "05/2024",
+ "nouveau": true,
+ "reference": "05/2024",
+ "objet": "Achèvement des travaux d'aménagement de la piscine municipale à la Commune da Rommanl",
+ "acheteur": "Commune de Rommant",
+ "procedure": "appel d'offres ouvert national",
+ "categorie": "Travaux",
+ "date_limite_plis": "24/06/2024",
+ "lieu_ouverture": "Bureau du Président de la Commune",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "01/07/2024",
+ "justification": "L'offre la plus avantageuse",
+ "infructueux": false,
+ "attributaire": "STE HIRTRA SARL AU",
+ "montant_attribue": 939936.0,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "STE EB TRAVAUX CONSTRUCTION MAROC SARL",
+   "montant_acte_engagement": 959690.4,
+   "montant_apres_verification": 959690.4,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_dossier_administratif_technique",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "STE HIRTRA SARL AU",
+   "montant_acte_engagement": 939816.0,
+   "montant_apres_verification": 939936.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 2,
+ "alertes_ocr": [
+  "« STE EB TRAVAUX CONSTRUCTION MAROC SARL » absent de la liste des plis déposés (nom mal lu ?).",
+  "« STE HIRTRA SARL AU » absent de la liste des plis déposés (nom mal lu ?)."
+ ],
+ "notes_ocr": [
+  "« STE HIRTRA SARL AU » : montant rectifié de 939 816.00 à 939 936.00 DH."
+ ],
+ "qualite": "complet"
+}

@@ -1,0 +1,78 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "732962",
+ "orgAcronyme": "j8k",
+ "reference_pv": null,
+ "nouveau": true,
+ "reference": null,
+ "objet": "TRAVAUX D’ELECTRIFICATION 2°/1° CATEGORIE, D’ECLAIRAGE PUBLIC ET DU RESEAU",
+ "acheteur": "AL OMRANE MARRAKECH-SAFI",
+ "procedure": "appel d'offres ouvert",
+ "categorie": "Travaux",
+ "date_limite_plis": "19/07/2023",
+ "lieu_ouverture": "SIEGE DE LA SOCIETE AL OMRANE MARRAKECH-SAFI",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "28/07/2023",
+ "justification": "Moins disant après tirage au sort",
+ "infructueux": false,
+ "attributaire": "CHIC re tC IN Montant dell'acte d'envagiement",
+ "montant_attribue": 1378088.88,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "SEREA",
+   "montant_acte_engagement": 1378088.88,
+   "montant_apres_verification": 1378088.88,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "CONSAMAR",
+   "montant_acte_engagement": 1539354.6,
+   "montant_apres_verification": 1539354.6,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "ALPHA GTP",
+   "montant_acte_engagement": 1378088.88,
+   "montant_apres_verification": 1378088.88,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": true
+  },
+  {
+   "nom": "ELECTROMAR",
+   "montant_acte_engagement": 1612657.2,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_offre_financiere",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "CHIC re tC IN Montant dell'acte d'envagiement",
+   "montant_acte_engagement": 1378088.88,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 5,
+ "alertes_ocr": [
+  "« CHIC re tC IN Montant dell'acte d'envagiement » absent de la liste des plis déposés (nom mal lu ?)."
+ ],
+ "notes_ocr": [],
+ "qualite": "complet"
+}

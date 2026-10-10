@@ -1,0 +1,88 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "915621",
+ "orgAcronyme": "d4q",
+ "reference_pv": null,
+ "nouveau": true,
+ "reference": null,
+ "objet": null,
+ "acheteur": null,
+ "procedure": "appel d'offres ouvert",
+ "categorie": "Travaux",
+ "date_limite_plis": "03/06/2025",
+ "lieu_ouverture": "au siège de la Direction Régionale du Centre (DR3) Boulevard Mohamed VI, Quartier Administratif - Khouribga - Maroc",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "15/07/2025",
+ "justification": "Moins-disant",
+ "infructueux": false,
+ "attributaire": "reconductible pour année (s) RESOFIL",
+ "montant_attribue": 375348.0,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "CHIHABI DE TRAVAUX DIVERS - Offre de",
+   "montant_acte_engagement": 398971.2,
+   "montant_apres_verification": null,
+   "autres_montants": [
+    398971.2
+   ],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "EAU RESEAU MAROC",
+   "montant_acte_engagement": 578178.0,
+   "montant_apres_verification": null,
+   "autres_montants": [
+    578178.0
+   ],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "GESERVEAU MAROC",
+   "montant_acte_engagement": 486516.6,
+   "montant_apres_verification": null,
+   "autres_montants": [
+    486516.6
+   ],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "reconductible pour année (s) RESOFIL",
+   "montant_acte_engagement": 375348.0,
+   "montant_apres_verification": null,
+   "autres_montants": [
+    375348.0
+   ],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "TOGADER",
+   "montant_acte_engagement": 589244.4,
+   "montant_apres_verification": null,
+   "autres_montants": [
+    589244.4
+   ],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 5,
+ "alertes_ocr": [],
+ "notes_ocr": [
+  "Maître d'ouvrage absent du PV (utiliser l'acheteur public du portail)."
+ ],
+ "qualite": "complet"
+}

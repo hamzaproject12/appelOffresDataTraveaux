@@ -1,0 +1,103 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "731959",
+ "orgAcronyme": "q1s",
+ "reference_pv": "17/2023/DPA/36",
+ "nouveau": true,
+ "reference": "17/2023/DPA/36",
+ "objet": "Construction de quatre (4) citernes enterrées de 100 m3 chacune destinée a l’abreuvement",
+ "acheteur": "Directeur Provincial de l’Agriculture d’Essaouira",
+ "procedure": "appel d'offres ouvert",
+ "categorie": "Travaux",
+ "date_limite_plis": "17/07/2023",
+ "lieu_ouverture": "la Directeur Provinciale de l’Agriculture d’Essaouira",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "25/07/2023",
+ "justification": "L’offre proposée par le concurrent est la plus avantageuse.",
+ "infructueux": false,
+ "attributaire": "STE LAJIAR GLOBAL",
+ "montant_attribue": 479950.08,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "STE ANJJA MULTISERVICES",
+   "montant_acte_engagement": 508103.11,
+   "montant_apres_verification": 508103.11,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "STE MONTY SERVICES",
+   "montant_acte_engagement": 546488.09,
+   "montant_apres_verification": 546488.09,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "STE LAJIAR GLOBAL",
+   "montant_acte_engagement": 479950.08,
+   "montant_apres_verification": 479950.08,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "STE RUCHE BETON",
+   "montant_acte_engagement": 499869.0,
+   "montant_apres_verification": 499869.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "STE O.C TRAVAUX",
+   "montant_acte_engagement": 488745.17,
+   "montant_apres_verification": 488745.17,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "STE AGAINDIR",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_dossier_administratif_technique",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "demandé",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_dossier_administratif_technique",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 7,
+ "alertes_ocr": [
+  "« STE ANJJA MULTISERVICES » absent de la liste des plis déposés (nom mal lu ?).",
+  "« STE MONTY SERVICES » absent de la liste des plis déposés (nom mal lu ?).",
+  "« STE LAJIAR GLOBAL » absent de la liste des plis déposés (nom mal lu ?).",
+  "« STE RUCHE BETON » absent de la liste des plis déposés (nom mal lu ?).",
+  "« STE O.C TRAVAUX » absent de la liste des plis déposés (nom mal lu ?)."
+ ],
+ "notes_ocr": [
+  "« STE AGAINDIR » absent de la liste des plis déposés (nom mal lu ?).",
+  "« demandé » absent de la liste des plis déposés (nom mal lu ?)."
+ ],
+ "qualite": "complet"
+}

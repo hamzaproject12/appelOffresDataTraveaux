@@ -1,0 +1,80 @@
+{
+ "source": "extrait_docx",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "978605",
+ "orgAcronyme": "a1t",
+ "reference_pv": "22/2026/ADHA",
+ "nouveau": true,
+ "reference": "22/2026/ADHA",
+ "objet": "TRAVAUX DE RECONSTRUCTION DES ETABLISSEMENTS SCOLAIRES RELEVANT DE LA PROVINCE D’AL HAOUZ",
+ "acheteur": "L’AGENCE DE DEVELOPPEMNT DU HAUT ATLAS",
+ "procedure": null,
+ "categorie": "Travaux",
+ "date_limite_plis": "16/02/2026",
+ "lieu_ouverture": "Salle de réunions de l’ADHA, CHWITER",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "18/02/2026",
+ "justification": null,
+ "infructueux": false,
+ "attributaire": "Sté JHS TRAVAUX SARL",
+ "montant_attribue": 15304858.98,
+ "attributaires_par_lot": [
+  {
+   "lot": null,
+   "attributaire": "Sté JHS TRAVAUX SARL",
+   "montant": 15304858.98
+  },
+  {
+   "lot": null,
+   "attributaire": "Sté OUVRAGE CONTRACTOR SARL AU",
+   "montant": 6743328.0
+  }
+ ],
+ "soumissionnaires": [
+  {
+   "nom": "Sté JHS TRAVAUX SARL",
+   "montant_acte_engagement": 15304858.98,
+   "montant_apres_verification": 15304858.98,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "INFRUCTUEUX",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "depose",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Sté TOUZDIT SARL",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_dossier_administratif_technique",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Sté OUVRAGE CONTRACTOR SARL AU",
+   "montant_acte_engagement": 6743328.0,
+   "montant_apres_verification": 7272000.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 4,
+ "alertes_ocr": [],
+ "notes_ocr": [
+  "« Sté OUVRAGE CONTRACTOR SARL AU » : montant rectifié de 6 743 328.00 à 7 272 000.00 DH."
+ ],
+ "qualite": "attribution"
+}

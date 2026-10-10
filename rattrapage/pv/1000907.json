@@ -1,0 +1,101 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "1000907",
+ "orgAcronyme": "f4g",
+ "reference_pv": "08/DH/BG/2025",
+ "nouveau": true,
+ "reference": "08/DH/BG/2025",
+ "objet": "Travaux de construction du complexe religieux et culturel des Habous à Jerada — Travaux : revêtement sols et",
+ "acheteur": "Directeur des Habous",
+ "procedure": "appel d'offres ouvert international",
+ "categorie": "Travaux",
+ "date_limite_plis": "25/11/2025",
+ "lieu_ouverture": "le Bureau du Chef de la Division de la Construction et des Investissements sis à : Angle Rue Angola et Rue Mali, Océan Rabat",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "10/04/2026",
+ "justification": "le concurrent ayant présenté l'offre économiquement la plus avantageuse.",
+ "infructueux": false,
+ "attributaire": "Société ANGADS LITAAMIR S.A.R.L",
+ "montant_attribue": 46905688.68,
+ "attributaires_par_lot": [
+  {
+   "lot": null,
+   "attributaire": "Société ANGADS LITAAMIR S.A.R.L",
+   "montant": 46905688.68
+  },
+  {
+   "lot": null,
+   "attributaire": "Société SCOTIM S.A.R.L d'Associé Unique",
+   "montant": 48741727.76
+  },
+  {
+   "lot": null,
+   "attributaire": "Groupement (Sté. STE MED 4 DES TRAVAUX SARL & Sté. LHGT SARL A.U)",
+   "montant": 42253427.04
+  }
+ ],
+ "soumissionnaires": [
+  {
+   "nom": "Société ANGADS LITAAMIR S.A.R.L",
+   "montant_acte_engagement": 46905688.68,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": true
+  },
+  {
+   "nom": "Société SCOTIM S.A.R.L d'Associé Unique",
+   "montant_acte_engagement": 48741727.76,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Société ENTREPRISE RIAD",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_offre_financiere",
+   "admis_avec_reserve": true
+  },
+  {
+   "nom": "Société IMILCHIL DE TRAVAUX DIVERS ET FOURNITURES SARL",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_offre_financiere",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Groupement (Sté. MIA TRAVAUX SARL & Sté. KHATIB ET FADIL TRAVAUX SARL AU)",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_dossier_administratif_technique",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Groupement (Sté. STE MED 4 DES TRAVAUX SARL & Sté. LHGT SARL A.U)",
+   "montant_acte_engagement": 41796217.44,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": true
+  }
+ ],
+ "nombre_soumissionnaires": 6,
+ "alertes_ocr": [],
+ "notes_ocr": [],
+ "qualite": "attribution"
+}

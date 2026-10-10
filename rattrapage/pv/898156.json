@@ -1,0 +1,126 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "898156",
+ "orgAcronyme": "o8p",
+ "reference_pv": null,
+ "nouveau": true,
+ "reference": null,
+ "objet": null,
+ "acheteur": "Direction du ports de Safi et Région",
+ "procedure": null,
+ "categorie": "Travaux",
+ "date_limite_plis": null,
+ "lieu_ouverture": "Direction du ports de Safi et Région",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "19/05/2025",
+ "justification": null,
+ "infructueux": false,
+ "attributaire": "TOUT PROPRETE",
+ "montant_attribue": 280200.0,
+ "attributaires_par_lot": [
+  {
+   "lot": null,
+   "attributaire": "TOUT PROPRETE",
+   "montant": 280200.0
+  },
+  {
+   "lot": null,
+   "attributaire": "ALITFAI",
+   "montant": 310775.0
+  },
+  {
+   "lot": null,
+   "attributaire": "BIO HYGIENE SERVICES",
+   "montant": 337490.0
+  },
+  {
+   "lot": null,
+   "attributaire": "LIBERATION",
+   "montant": 337490.0
+  },
+  {
+   "lot": null,
+   "attributaire": "PUBLICITE DE L’AVIS D’APPEL D’OFFRES AUX JOURNAUX",
+   "montant": 216380.0
+  }
+ ],
+ "soumissionnaires": [
+  {
+   "nom": "SECTOB SARL",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "depose",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "TECNITAS",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "depose",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "TOUT PROPRETE",
+   "montant_acte_engagement": 280200.0,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "ALITFAI",
+   "montant_acte_engagement": 310775.0,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "BIO HYGIENE SERVICES",
+   "montant_acte_engagement": 337490.0,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "LIBERATION",
+   "montant_acte_engagement": 337490.0,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "PUBLICITE DE L’AVIS D’APPEL D’OFFRES AUX JOURNAUX",
+   "montant_acte_engagement": 216380.0,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 7,
+ "alertes_ocr": [
+  "« TOUT PROPRETE » absent de la liste des plis déposés (nom mal lu ?).",
+  "« ALITFAI » absent de la liste des plis déposés (nom mal lu ?).",
+  "« BIO HYGIENE SERVICES » absent de la liste des plis déposés (nom mal lu ?).",
+  "« LIBERATION » absent de la liste des plis déposés (nom mal lu ?).",
+  "« PUBLICITE DE L’AVIS D’APPEL D’OFFRES AUX JOURNAUX » absent de la liste des plis déposés (nom mal lu ?)."
+ ],
+ "notes_ocr": [],
+ "qualite": "attribution"
+}

@@ -1,0 +1,74 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "859250",
+ "orgAcronyme": "o8p",
+ "reference_pv": null,
+ "nouveau": true,
+ "reference": null,
+ "objet": "Trovoux de construction de locoux pour le personnel des services de lo novigolion oérienne à l'oéroporl",
+ "acheteur": null,
+ "procedure": "appel d'offres ouvert",
+ "categorie": "Travaux",
+ "date_limite_plis": null,
+ "lieu_ouverture": "Lo solle de réunion de lo Direction des Achois et de lo Logisiique",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "11/12/2024",
+ "justification": "L'offre la plus avantageuse.",
+ "infructueux": false,
+ "attributaire": "ORTIS MAROC",
+ "montant_attribue": 3771584.64,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "EDI MAROC",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_dossier_administratif_technique",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "ORTIS MAROC",
+   "montant_acte_engagement": 3771584.64,
+   "montant_apres_verification": 3771584.64,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "D LES ATELIERS HAMMA",
+   "montant_acte_engagement": 4851034.8,
+   "montant_apres_verification": 4851034.8,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "ETAB TRAVAUX",
+   "montant_acte_engagement": 4943833.92,
+   "montant_apres_verification": 4943833.92,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 4,
+ "alertes_ocr": [
+  "« ORTIS MAROC » absent de la liste des plis déposés (nom mal lu ?).",
+  "« D LES ATELIERS HAMMA » absent de la liste des plis déposés (nom mal lu ?).",
+  "« ETAB TRAVAUX » absent de la liste des plis déposés (nom mal lu ?)."
+ ],
+ "notes_ocr": [
+  "« EDI MAROC » absent de la liste des plis déposés (nom mal lu ?).",
+  "Maître d'ouvrage absent du PV (utiliser l'acheteur public du portail)."
+ ],
+ "qualite": "complet"
+}

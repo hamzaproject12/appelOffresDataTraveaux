@@ -1,0 +1,60 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "1009767",
+ "orgAcronyme": "g3h",
+ "reference_pv": null,
+ "nouveau": true,
+ "reference": null,
+ "objet": "Travaux de peinture de la façade extérieure et travaux d'aménagement des",
+ "acheteur": "Centre Régional d'investissement de la Région Beni Mellal-Khénifra",
+ "procedure": null,
+ "categorie": "Travaux",
+ "date_limite_plis": "26/05/2026",
+ "lieu_ouverture": "Siège du Centre Régional d’Investissement Beni Mellal-Khénifra sis au Bd Beyrouth Qt Administratif Béni-Mellal",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "04/06/2026",
+ "justification": "l'offre financière la mieux-disante par rapport au prix de référence.",
+ "infructueux": false,
+ "attributaire": "MINES SARL AU",
+ "montant_attribue": 77997.6,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "Société ASH TRAVAUX SARL",
+   "montant_acte_engagement": 76875.6,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_offre_financiere",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Société PUR SANG DES CONSTRUCTIONS ET DES MINES SARL AU",
+   "montant_acte_engagement": 77637.6,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "MINES SARL AU",
+   "montant_acte_engagement": 77997.6,
+   "montant_apres_verification": 77997.6,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 3,
+ "alertes_ocr": [
+  "« MINES SARL AU » absent de la liste des plis déposés (nom mal lu ?)."
+ ],
+ "notes_ocr": [],
+ "qualite": "complet"
+}

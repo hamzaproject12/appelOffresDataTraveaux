@@ -1,0 +1,61 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "685135",
+ "orgAcronyme": "z7x",
+ "reference_pv": null,
+ "nouveau": true,
+ "reference": null,
+ "objet": "TRAVAUX D'AMENAGEMENT DES LOCAUX DES ETABLISSEMENTS RELEVANT DE L'UNIVERSITE MOHAMMED PREMIER D'OUJDA, EN LOT UNIQUE",
+ "acheteur": "La Présidence de l'Université Mohammed Premier",
+ "procedure": null,
+ "categorie": "Travaux",
+ "date_limite_plis": "09/12/2022",
+ "lieu_ouverture": "La salle de réunion de la Présidence de l’Université Mohammed Premier, sise Hay El Qods, Oujda",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "15/12/2022",
+ "justification": null,
+ "infructueux": false,
+ "attributaire": "CONSTRUCTION EURO CATALONIA SARL",
+ "montant_attribue": 11185212.0,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "OTRADI SARL",
+   "montant_acte_engagement": 11967156.0,
+   "montant_apres_verification": 11967156.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "POLE DE CONSTRUCTION ET D'INGENIERIE SARL",
+   "montant_acte_engagement": 13870440.0,
+   "montant_apres_verification": 13870440.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "CONSTRUCTION EURO CATALONIA SARL",
+   "montant_acte_engagement": 11185212.0,
+   "montant_apres_verification": 11185212.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 3,
+ "alertes_ocr": [
+  "« POLE DE CONSTRUCTION ET D'INGENIERIE SARL » absent de la liste des plis déposés (nom mal lu ?).",
+  "« CONSTRUCTION EURO CATALONIA SARL » absent de la liste des plis déposés (nom mal lu ?)."
+ ],
+ "notes_ocr": [],
+ "qualite": "complet"
+}

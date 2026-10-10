@@ -1,0 +1,64 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "760593",
+ "orgAcronyme": "q1s",
+ "reference_pv": "48/2023/DGR",
+ "nouveau": true,
+ "reference": "48/2023/DGR",
+ "objet": "travaux de remise en état des réseaux d'irrigation gravitaire du périmètre du Gharb",
+ "acheteur": "ORMVAG",
+ "procedure": null,
+ "categorie": "Travaux",
+ "date_limite_plis": "14/11/2023",
+ "lieu_ouverture": "Siège de l'ORMVAG Supports de publication de l'avis d’appel d'offres : ” LE MATIN n° 17845 du 23/10/2023",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "30/11/2023",
+ "justification": "l'offre économiquement |a PIUS aVantageuse.",
+ "infructueux": false,
+ "attributaire": "M-AMTM, CCGT, SNCE et 2E2A",
+ "montant_attribue": null,
+ "attributaires_par_lot": [
+  {
+   "lot": null,
+   "attributaire": "M-AMTM, CCGT, SNCE et 2E2A",
+   "montant": null
+  },
+  {
+   "lot": null,
+   "attributaire": "[a société CCGT",
+   "montant": null
+  }
+ ],
+ "soumissionnaires": [
+  {
+   "nom": "M-AMTM, CCGT, SNCE et 2E2A",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "[a société CCGT",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 2,
+ "alertes_ocr": [
+  "« [a société CCGT » absent de la liste des plis déposés (nom mal lu ?).",
+  "Montant de l'attributaire « M-AMTM, CCGT, SNCE et 2E2A » non trouvé.",
+  "Montant de l'attributaire « [a société CCGT » non trouvé."
+ ],
+ "notes_ocr": [],
+ "qualite": "participants"
+}

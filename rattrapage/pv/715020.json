@@ -1,0 +1,65 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "715020",
+ "orgAcronyme": "f9f",
+ "reference_pv": "CT/SM/03/2023",
+ "nouveau": true,
+ "reference": "CT/SM/03/2023",
+ "objet": "TRAVAUX DE CONSTRUCTION D'UN CENTRE D'ACCUEIL ET D'HEBERGEMENT AU PARC DISTRACTION A LA COMMUNE DE TINGHIR PROVINCE DE TINGHIR",
+ "acheteur": "Commune de Tinghir",
+ "procedure": "appel d'offres ouvert",
+ "categorie": "Travaux",
+ "date_limite_plis": "04/05/2023",
+ "lieu_ouverture": "Salle des réunions à la commune de Tinghir",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "15/05/2023",
+ "justification": "l’offre le plus avantageux (Le moins disant)",
+ "infructueux": false,
+ "attributaire": "Groupement Société SELTRA SARL AU - Société GEA PLUS SARL",
+ "montant_attribue": null,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "Société ICHICHIE SARL",
+   "montant_acte_engagement": 6898594.8,
+   "montant_apres_verification": null,
+   "autres_montants": [
+    6898594.8
+   ],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Groupement Société SELTRA SARL AU - Société GEA PLUS SARL",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Groupement Société SELTRA SARL AU",
+   "montant_acte_engagement": 5766343.2,
+   "montant_apres_verification": null,
+   "autres_montants": [
+    5766343.2
+   ],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 3,
+ "alertes_ocr": [
+  "« Groupement Société SELTRA SARL AU » absent de la liste des plis déposés (nom mal lu ?).",
+  "Montant de l'attributaire « Groupement Société SELTRA SARL AU - Société GEA PLUS SARL » non trouvé."
+ ],
+ "notes_ocr": [],
+ "qualite": "complet"
+}

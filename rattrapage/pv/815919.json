@@ -1,0 +1,97 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "815919",
+ "orgAcronyme": "h5r",
+ "reference_pv": null,
+ "nouveau": true,
+ "reference": null,
+ "objet": "du Marché et Objectifs",
+ "acheteur": "Commune d’Oued-Zem",
+ "procedure": "appel d'offres ouvert simplifié",
+ "categorie": "Travaux",
+ "date_limite_plis": "15/07/2024",
+ "lieu_ouverture": null,
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "18/07/2024",
+ "justification": "les critères de sélection des concurrents devront être l'offre financière la mieux disante. Ÿ L'offre qu'il a présentée est la mieux disante. Oued-Zem le : 18/09/2024 Après l'examen de dossier de l'appel d'offre et le complément de dossier administratif, la commission a accepté l'offre les plus avantageuses.",
+ "infructueux": false,
+ "attributaire": "Société 2A NZ TRAVAUX s.a.r.l",
+ "montant_attribue": null,
+ "attributaires_par_lot": [
+  {
+   "lot": null,
+   "attributaire": "Société 2A NZ TRAVAUX s.a.r.l",
+   "montant": null
+  },
+  {
+   "lot": null,
+   "attributaire": "Moyens alloués au projet",
+   "montant": null
+  },
+  {
+   "lot": null,
+   "attributaire": "SOCIETE 2A NZ TRAVAUX à Casablanca",
+   "montant": 251358.0
+  }
+ ],
+ "soumissionnaires": [
+  {
+   "nom": "SOCIETE 2A NZ TRAVAUX à Casablanca",
+   "montant_acte_engagement": 251358.0,
+   "montant_apres_verification": 251358.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "SOCIETE AZZURI GROUPE SARL à Casablanca",
+   "montant_acte_engagement": 289950.0,
+   "montant_apres_verification": 289950.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "SOCIETE AMISIBA SARL à Boujaad",
+   "montant_acte_engagement": 250110.0,
+   "montant_apres_verification": 250110.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Société 2A NZ TRAVAUX s.a.r.l",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Moyens alloués au projet",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 5,
+ "alertes_ocr": [
+  "« Société 2A NZ TRAVAUX s.a.r.l » absent de la liste des plis déposés (nom mal lu ?).",
+  "« Moyens alloués au projet » absent de la liste des plis déposés (nom mal lu ?).",
+  "Montant de l'attributaire « Société 2A NZ TRAVAUX s.a.r.l » non trouvé.",
+  "Montant de l'attributaire « Moyens alloués au projet » non trouvé."
+ ],
+ "notes_ocr": [],
+ "qualite": "complet"
+}

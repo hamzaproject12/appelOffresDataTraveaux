@@ -1,0 +1,67 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "1007803",
+ "orgAcronyme": "q0x",
+ "reference_pv": "01/2026/CTT",
+ "nouveau": true,
+ "reference": "01/2026/CTT",
+ "objet": null,
+ "acheteur": "commune territoriale de Tadighoust",
+ "procedure": "appel d'offres ouvert simplifié",
+ "categorie": "Travaux",
+ "date_limite_plis": "05/05/2026",
+ "lieu_ouverture": "bureau du président au siège de la commune de Tadighoust",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "13/05/2024",
+ "justification": "offre la plus avantageuse",
+ "infructueux": false,
+ "attributaire": "Société PERLA GESTION TRAVAUX Sarl AU",
+ "montant_attribue": 225480.0,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "ELI1 : Société GTCG SARL AU",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "depose",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Société BOURICONS Sarl",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "depose",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Société STE A.M.B.S.Y SARL au",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "depose",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Société PERLA GESTION TRAVAUX Sarl AU",
+   "montant_acte_engagement": 225480.0,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 4,
+ "alertes_ocr": [],
+ "notes_ocr": [],
+ "qualite": "attribution"
+}

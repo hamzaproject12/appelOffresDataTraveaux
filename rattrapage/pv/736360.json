@@ -1,0 +1,111 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "736360",
+ "orgAcronyme": "q1s",
+ "reference_pv": "12/2023/DRARSK/DIAEA",
+ "nouveau": true,
+ "reference": "12/2023/DRARSK/DIAEA",
+ "objet": "Travaux d’équipement d’un forage en pompage solaire y compris ouvrages annexes pour l’abreuvement du cheptel, commune de Bougachmir, province de Khémisset (Lot unique)",
+ "acheteur": null,
+ "procedure": "appel d'offres ouvert",
+ "categorie": "Travaux",
+ "date_limite_plis": "08/08/2023",
+ "lieu_ouverture": "Direction Régionale de l'Agriculture de Rabat-Salé-Kénitra",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "16/08/2023",
+ "justification": "l'offre financière la moins disante la plus avantageuse",
+ "infructueux": false,
+ "attributaire": "GROUPE EXCELLENCE TRAVAUX AMENAGEMENT",
+ "montant_attribue": 393480.0,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "MAGIC WORKS SARL",
+   "montant_acte_engagement": 545340.0,
+   "montant_apres_verification": 545340.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "ALASKA PICINE",
+   "montant_acte_engagement": 11419640.0,
+   "montant_apres_verification": 419640.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": true
+  },
+  {
+   "nom": "PROFONDA SARL AU",
+   "montant_acte_engagement": 1524400.0,
+   "montant_apres_verification": 524400.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "RASAMI TRAVAUX SARL AU",
+   "montant_acte_engagement": 400800.0,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "BETONRICH TRAVAUX SARL",
+   "montant_acte_engagement": 1420000.0,
+   "montant_apres_verification": 1420000.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "GROUPE EXCELLENCE TRAVAUX AMENAGEMENT",
+   "montant_acte_engagement": 393480.0,
+   "montant_apres_verification": 393480.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "LORRAINE TRAVAUX SARL",
+   "montant_acte_engagement": 427426.5,
+   "montant_apres_verification": 427426.5,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "GREENSYS SARL AU",
+   "montant_acte_engagement": 1465000.0,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 8,
+ "alertes_ocr": [
+  "« LORRAINE TRAVAUX SARL » absent de la liste des plis déposés (nom mal lu ?).",
+  "« GREENSYS SARL AU » absent de la liste des plis déposés (nom mal lu ?).",
+  "« ALASKA PICINE » : écart anormal entre montant initial et vérifié (lecture à vérifier)."
+ ],
+ "notes_ocr": [
+  "« ALASKA PICINE » : montant rectifié de 11 419 640.00 à 419 640.00 DH.",
+  "« PROFONDA SARL AU » : montant rectifié de 1 524 400.00 à 524 400.00 DH.",
+  "Maître d'ouvrage absent du PV (utiliser l'acheteur public du portail)."
+ ],
+ "qualite": "complet"
+}

@@ -1,0 +1,80 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "780715",
+ "orgAcronyme": "j8k",
+ "reference_pv": "18/24",
+ "nouveau": true,
+ "reference": "18/24",
+ "objet": null,
+ "acheteur": "AI Omrane Casablanca - Settat",
+ "procedure": "appel d'offres ouvert",
+ "categorie": "Travaux",
+ "date_limite_plis": "29/02/2024",
+ "lieu_ouverture": "AI Omrane Casablanca — Settat",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "29/02/2024",
+ "justification": "Offre financière la plus avantageuse",
+ "infructueux": false,
+ "attributaire": "Maitre d’ouvrage TRAVAUX DE CONSTRUCTION D'UN CENTRE SOCIO SPORTIF SP22",
+ "montant_attribue": 3391500.0,
+ "attributaires_par_lot": [
+  {
+   "lot": null,
+   "attributaire": "Maitre d’ouvrage TRAVAUX DE CONSTRUCTION D'UN CENTRE SOCIO SPORTIF SP22",
+   "montant": 3391500.0
+  },
+  {
+   "lot": null,
+   "attributaire": "Sté : MY GREEN NEGOCE",
+   "montant": 3391500.0
+  }
+ ],
+ "soumissionnaires": [
+  {
+   "nom": "Sté : MY GREEN NEGOCE",
+   "montant_acte_engagement": 3391500.0,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "h Lo Page 2 Sur 2",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "depose",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "a omrane 18/24 8",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "depose",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Maitre d’ouvrage TRAVAUX DE CONSTRUCTION D'UN CENTRE SOCIO SPORTIF SP22",
+   "montant_acte_engagement": 3391500.0,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 4,
+ "alertes_ocr": [
+  "« Maitre d’ouvrage TRAVAUX DE CONSTRUCTION D'UN CENTRE SOCIO SPORTIF SP22 » absent de la liste des plis déposés (nom mal lu ?)."
+ ],
+ "notes_ocr": [],
+ "qualite": "attribution"
+}

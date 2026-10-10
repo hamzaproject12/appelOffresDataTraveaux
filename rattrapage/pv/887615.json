@@ -1,0 +1,53 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "887615",
+ "orgAcronyme": "z9k",
+ "reference_pv": null,
+ "nouveau": true,
+ "reference": null,
+ "objet": "TRAVAUX DE CONSTRUCTION D'UN NOUVEAU SOUXK A LA CT BNI AYAT PROVINCE D’AZILAL- 1 ERE TRANCHE Maître c'ouvrage: COMMUNE DE BNI AYAT",
+ "acheteur": null,
+ "procedure": null,
+ "categorie": "Travaux",
+ "date_limite_plis": null,
+ "lieu_ouverture": null,
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "15/04/2025",
+ "justification": "Offre avantageuse pour l’administration et conforme aux critères de choix exigés par le règlement de consultation .",
+ "infructueux": false,
+ "attributaire": "STE HS INFRA / ENTIB DE TRAVAUX SARL - AU",
+ "montant_attribue": null,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "STE QWERTY TRAVAUX",
+   "montant_acte_engagement": 7544874.0,
+   "montant_apres_verification": 7544874.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "STE HS INFRA / ENTIB DE TRAVAUX SARL - AU",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 2,
+ "alertes_ocr": [
+  "Montant de l'attributaire « STE HS INFRA / ENTIB DE TRAVAUX SARL - AU » non trouvé."
+ ],
+ "notes_ocr": [
+  "Maître d'ouvrage absent du PV (utiliser l'acheteur public du portail)."
+ ],
+ "qualite": "attribution"
+}

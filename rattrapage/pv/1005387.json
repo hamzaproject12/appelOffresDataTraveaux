@@ -1,0 +1,58 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "1005387",
+ "orgAcronyme": "g3h",
+ "reference_pv": "19/DPJ-2026",
+ "nouveau": true,
+ "reference": "19/DPJ-2026",
+ "objet": null,
+ "acheteur": "SRM-CS DP EL JADIDA",
+ "procedure": "appel d'offres ouvert",
+ "categorie": "Travaux",
+ "date_limite_plis": "29/04/2026",
+ "lieu_ouverture": "Direction Provinciale El Jadida",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "19/05/2026",
+ "justification": "Offre la plus avantageuse.",
+ "infructueux": false,
+ "attributaire": "UBAC",
+ "montant_attribue": 19724553.0,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "UBAC",
+   "montant_acte_engagement": 19724553.0,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "AGOUDI DAYS BTP",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_dossier_administratif_technique",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "ENTREPRISE BOUFARESS DRISS HERITIERS DE TRAVAUX",
+   "montant_acte_engagement": 19800000.0,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 3,
+ "alertes_ocr": [],
+ "notes_ocr": [],
+ "qualite": "complet"
+}

@@ -1,0 +1,86 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "786000",
+ "orgAcronyme": "d4q",
+ "reference_pv": "62/DRD/CE/2023",
+ "nouveau": true,
+ "reference": "62/DRD/CE/2023",
+ "objet": "Equipement et raccordement d'un nouveau forage au système d'AEP existant au centre de Tazarine. (Province de Zagora) - Lot : Equipements",
+ "acheteur": null,
+ "procedure": "appel d'offres ouvert",
+ "categorie": "Travaux",
+ "date_limite_plis": "06/12/2023",
+ "lieu_ouverture": "Siège de la Direction Régionale Daraa-Tafilalet (DRD) Avenue Mohamed VI - Azemmour J'did - Errachidia",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "04/04/2024",
+ "justification": "Moins-disant",
+ "infructueux": false,
+ "attributaire": "TRAVAUX DIVERS)",
+ "montant_attribue": 748224.0,
+ "attributaires_par_lot": [
+  {
+   "lot": null,
+   "attributaire": "TRAVAUX DIVERS)",
+   "montant": 748224.0
+  },
+  {
+   "lot": null,
+   "attributaire": "SOTITRAD (SOCIETE TIZGUINE DES TRAVAUX MAROC",
+   "montant": 748224.0
+  }
+ ],
+ "soumissionnaires": [
+  {
+   "nom": "SOTITRAD (SOCIETE TIZGUINE DES TRAVAUX MAROC",
+   "montant_acte_engagement": 748224.0,
+   "montant_apres_verification": null,
+   "autres_montants": [
+    748224.0
+   ],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "TRAVAUX DIVERS)",
+   "montant_acte_engagement": 748224.0,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "STE NOUR AMZOU MAROC",
+   "montant_acte_engagement": 1029343.2,
+   "montant_apres_verification": null,
+   "autres_montants": [
+    1029343.2
+   ],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "TMEE (TECHNIQUES ET MAITRISE D'EAU & ENERGIE) MAROC",
+   "montant_acte_engagement": 850296.0,
+   "montant_apres_verification": null,
+   "autres_montants": [
+    850296.0
+   ],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 4,
+ "alertes_ocr": [],
+ "notes_ocr": [
+  "Maître d'ouvrage absent du PV (utiliser l'acheteur public du portail)."
+ ],
+ "qualite": "complet"
+}

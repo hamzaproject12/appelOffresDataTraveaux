@@ -1,0 +1,58 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "965916",
+ "orgAcronyme": "q0x",
+ "reference_pv": null,
+ "nouveau": true,
+ "reference": null,
+ "objet": "/: Fourniture de panneaux signalisation verticale dans la ville d’Ifrane",
+ "acheteur": "Commune d’Ifrane",
+ "procedure": null,
+ "categorie": "Travaux",
+ "date_limite_plis": "23/10/2025",
+ "lieu_ouverture": "Siège de la Commune d’Ifrane",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "21/11/2025",
+ "justification": null,
+ "infructueux": false,
+ "attributaire": "SOCIETE ATELIERS INDUSTRIELS CHERIFIEN « AIC » S.A -KENITRA",
+ "montant_attribue": 650472.0,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "Y SOCIETE URBAN ELECTRONICS S.A -SKHIRAT",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "depose",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "SOCIETE LA LIGNE BLANCHE S.A -SKHIRAT",
+   "montant_acte_engagement": 710316.0,
+   "montant_apres_verification": 710316.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_offre_financiere",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "SOCIETE ATELIERS INDUSTRIELS CHERIFIEN « AIC » S.A -KENITRA",
+   "montant_acte_engagement": 650472.0,
+   "montant_apres_verification": 650472.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 3,
+ "alertes_ocr": [],
+ "notes_ocr": [],
+ "qualite": "complet"
+}

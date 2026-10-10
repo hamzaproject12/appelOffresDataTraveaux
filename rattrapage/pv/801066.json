@@ -1,0 +1,71 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "801066",
+ "orgAcronyme": "j8k",
+ "reference_pv": "23/2024",
+ "nouveau": true,
+ "reference": "23/2024",
+ "objet": "Travaux d'entretien et maintenance des opérations de construction à la ville nouvelle de Tamansourt - Marché cadre. Maitre d'ouvrage : AL OMRANE MARRAKECH-SAFI",
+ "acheteur": null,
+ "procedure": "appel d'offres ouvert",
+ "categorie": "Travaux",
+ "date_limite_plis": "20/05/2024",
+ "lieu_ouverture": "SIEGE AL OMRANE MARRAKECH-SAFTI",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "27/05/2024",
+ "justification": "Offre avantageuse.",
+ "infructueux": false,
+ "attributaire": null,
+ "montant_attribue": null,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "STRADIM",
+   "montant_acte_engagement": 1304445.6,
+   "montant_apres_verification": 1304445.6,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "AL MIAAMAR DE CONSTRUCTION",
+   "montant_acte_engagement": 1536347.04,
+   "montant_apres_verification": 1536347.04,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "NOUR BETON",
+   "montant_acte_engagement": 1413149.4,
+   "montant_apres_verification": 1413149.4,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "TOUNA SERVICE",
+   "montant_acte_engagement": 1666791.6,
+   "montant_apres_verification": 1666791.6,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 4,
+ "alertes_ocr": [
+  "Attributaire non trouvé."
+ ],
+ "notes_ocr": [
+  "Maître d'ouvrage absent du PV (utiliser l'acheteur public du portail)."
+ ],
+ "qualite": "complet"
+}

@@ -1,0 +1,90 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "700043",
+ "orgAcronyme": "o8p",
+ "reference_pv": "04/2020",
+ "nouveau": true,
+ "reference": "04/2020",
+ "objet": "TRAvAUX DE LA sIGNALISATToN HoRTZoNTALE suR LES RourES sI-iIVANTES",
+ "acheteur": null,
+ "procedure": null,
+ "categorie": "Travaux",
+ "date_limite_plis": null,
+ "lieu_ouverture": null,
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "10/03/2020",
+ "justification": "Offre la moins disante.",
+ "infructueux": false,
+ "attributaire": "LA LIGNE BLANCHE",
+ "montant_attribue": 132720.0,
+ "attributaires_par_lot": [
+  {
+   "lot": null,
+   "attributaire": "LA LIGNE BLANCHE",
+   "montant": 132720.0
+  },
+  {
+   "lot": null,
+   "attributaire": "CORIAM",
+   "montant": 96960.0
+  },
+  {
+   "lot": null,
+   "attributaire": "ATELIER TEI]LI",
+   "montant": 2120.0
+  },
+  {
+   "lot": null,
+   "attributaire": ") conrelr",
+   "montant": 96960.0
+  }
+ ],
+ "soumissionnaires": [
+  {
+   "nom": "LA LIGNE BLANCHE",
+   "montant_acte_engagement": 132720.0,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "CORIAM",
+   "montant_acte_engagement": 96960.0,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "ATELIER TEI]LI",
+   "montant_acte_engagement": 2120.0,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": ") conrelr",
+   "montant_acte_engagement": 96960.0,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 4,
+ "alertes_ocr": [],
+ "notes_ocr": [
+  "Maître d'ouvrage absent du PV (utiliser l'acheteur public du portail)."
+ ],
+ "qualite": "attribution"
+}

@@ -1,0 +1,51 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "884643",
+ "orgAcronyme": "o8p",
+ "reference_pv": "04/A00/DPTR-ANP/2025",
+ "nouveau": true,
+ "reference": "04/A00/DPTR-ANP/2025",
+ "objet": null,
+ "acheteur": "Direction du Port de Tanger et Région",
+ "procedure": null,
+ "categorie": "Travaux",
+ "date_limite_plis": "25/03/2025",
+ "lieu_ouverture": "DPTR- Port de Tanger",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "03/04/2025",
+ "justification": null,
+ "infructueux": false,
+ "attributaire": null,
+ "montant_attribue": null,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "CATER MAJOR STRUCTURAL BUILD",
+   "montant_acte_engagement": 4911805.2,
+   "montant_apres_verification": 4911805.2,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "MANSOURI VRD",
+   "montant_acte_engagement": 3539658.0,
+   "montant_apres_verification": 3539658.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 2,
+ "alertes_ocr": [
+  "Attributaire non trouvé."
+ ],
+ "notes_ocr": [],
+ "qualite": "complet"
+}

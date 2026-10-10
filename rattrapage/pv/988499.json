@@ -1,0 +1,106 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "988499",
+ "orgAcronyme": "o8p",
+ "reference_pv": null,
+ "nouveau": true,
+ "reference": null,
+ "objet": null,
+ "acheteur": "Direction du ports de Safi et Région",
+ "procedure": null,
+ "categorie": "Travaux",
+ "date_limite_plis": null,
+ "lieu_ouverture": "Direction du ports de Safi et Région",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "24/03/2026",
+ "justification": null,
+ "infructueux": false,
+ "attributaire": "BK-ELEC",
+ "montant_attribue": 486164.75,
+ "attributaires_par_lot": [
+  {
+   "lot": null,
+   "attributaire": "BK-ELEC",
+   "montant": 486164.75
+  },
+  {
+   "lot": null,
+   "attributaire": "Quantité du prix n°18 érronée (20 au lieu de 02)",
+   "montant": 490999.2
+  },
+  {
+   "lot": null,
+   "attributaire": "QUATRE CENT QUATRE VINGT DIX MILLE NEUF CENT QUATRE",
+   "montant": 483817.4
+  }
+ ],
+ "soumissionnaires": [
+  {
+   "nom": "N° SECTOB SARL",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "depose",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "TECNITAS",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "depose",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "STE OKELEC AMPEREDIS",
+   "montant_acte_engagement": 572260.0,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "BK-ELEC",
+   "montant_acte_engagement": 486164.75,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Quantité du prix n°18 érronée (20 au lieu de 02)",
+   "montant_acte_engagement": 490999.2,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "QUATRE CENT QUATRE VINGT DIX MILLE NEUF CENT QUATRE",
+   "montant_acte_engagement": 483817.4,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 6,
+ "alertes_ocr": [
+  "« STE OKELEC AMPEREDIS » absent de la liste des plis déposés (nom mal lu ?).",
+  "« BK-ELEC » absent de la liste des plis déposés (nom mal lu ?).",
+  "« Quantité du prix n°18 érronée (20 au lieu de 02) » absent de la liste des plis déposés (nom mal lu ?).",
+  "« QUATRE CENT QUATRE VINGT DIX MILLE NEUF CENT QUATRE » absent de la liste des plis déposés (nom mal lu ?)."
+ ],
+ "notes_ocr": [],
+ "qualite": "complet"
+}

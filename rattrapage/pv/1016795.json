@@ -1,0 +1,72 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "1016795",
+ "orgAcronyme": "f9f",
+ "reference_pv": "14/2026/C.I",
+ "nouveau": true,
+ "reference": "14/2026/C.I",
+ "objet": "FOURNITURE ET POSE DE RALENTISSEUR DE VITESSE A LA VILLE D'INEZGANE",
+ "acheteur": "la Commune d'Inezgane",
+ "procedure": "appel d'offres ouvert national",
+ "categorie": "Travaux",
+ "date_limite_plis": "21/05/2026",
+ "lieu_ouverture": "salle de réunion à la division des affaires techniques et études",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": null,
+ "justification": null,
+ "infructueux": false,
+ "attributaire": "Sté AOUADA TRAVAUX sarl au",
+ "montant_attribue": 471624.0,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "Sté DES EXPERTS EN VRD sarl",
+   "montant_acte_engagement": 471192.0,
+   "montant_apres_verification": 471192.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Sté AVEA PROJETS sarl",
+   "montant_acte_engagement": 478080.0,
+   "montant_apres_verification": 478080.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Sté CHADLI ECO CONSTRUCTION sarl",
+   "montant_acte_engagement": 508800.0,
+   "montant_apres_verification": 508800.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Sté AOUADA TRAVAUX sarl au",
+   "montant_acte_engagement": 471624.0,
+   "montant_apres_verification": 471624.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 4,
+ "alertes_ocr": [
+  "« Sté DES EXPERTS EN VRD sarl » absent de la liste des plis déposés (nom mal lu ?).",
+  "« Sté AVEA PROJETS sarl » absent de la liste des plis déposés (nom mal lu ?).",
+  "« Sté CHADLI ECO CONSTRUCTION sarl » absent de la liste des plis déposés (nom mal lu ?).",
+  "« Sté AOUADA TRAVAUX sarl au » absent de la liste des plis déposés (nom mal lu ?)."
+ ],
+ "notes_ocr": [],
+ "qualite": "complet"
+}

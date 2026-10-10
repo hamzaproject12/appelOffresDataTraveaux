@@ -1,0 +1,51 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "683003",
+ "orgAcronyme": "z9k",
+ "reference_pv": "06/2022",
+ "nouveau": true,
+ "reference": "06/2022",
+ "objet": "la réalisation de réseaux d'éclairage public par énergie solaire à la commune Ouled M'Barek, province Beni Mellal",
+ "acheteur": "Commune Ouled M'Barek",
+ "procedure": "appel d'offres ouvert",
+ "categorie": "Travaux",
+ "date_limite_plis": "28/11/2022",
+ "lieu_ouverture": "Salle des réunions Commune Ouled M'Barek ,",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "07/12/2022",
+ "justification": "Concurrent ayant présenté une offre av antageuse.",
+ "infructueux": false,
+ "attributaire": "Sté FIBRAOUAN sari",
+ "montant_attribue": 877920.0,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "Sté ALGERIENELEC sarl",
+   "montant_acte_engagement": 907680.0,
+   "montant_apres_verification": 907680.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Sté FIBRAOUAN sari",
+   "montant_acte_engagement": 877920.0,
+   "montant_apres_verification": 877920.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 2,
+ "alertes_ocr": [
+  "« Sté FIBRAOUAN sari » absent de la liste des plis déposés (nom mal lu ?)."
+ ],
+ "notes_ocr": [],
+ "qualite": "complet"
+}

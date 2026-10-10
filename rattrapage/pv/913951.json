@@ -1,0 +1,60 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "913951",
+ "orgAcronyme": "o8p",
+ "reference_pv": "KE/18/2025/CFR",
+ "nouveau": true,
+ "reference": "KE/18/2025/CFR",
+ "objet": null,
+ "acheteur": null,
+ "procedure": "appel d'offres ouvert national",
+ "categorie": "Travaux",
+ "date_limite_plis": "03/07/2025",
+ "lieu_ouverture": null,
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "09/07/2025",
+ "justification": "il a présenté l’offre économiquement la plus avantageuse répondant aux critères et conditions de l’appel d’offres.",
+ "infructueux": false,
+ "attributaire": "INJAZ ET TOTAL VEGETAL",
+ "montant_attribue": 4189596.0,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "SOBLTRAV",
+   "montant_acte_engagement": 4788354.0,
+   "montant_apres_verification": 4788354.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "INJAZ ET TOTAL VEGETAL",
+   "montant_acte_engagement": 4189596.0,
+   "montant_apres_verification": 4189596.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "STE NEW WOY TRAV",
+   "montant_acte_engagement": 4122310.8,
+   "montant_apres_verification": 4122310.8,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 3,
+ "alertes_ocr": [],
+ "notes_ocr": [
+  "Maître d'ouvrage absent du PV (utiliser l'acheteur public du portail)."
+ ],
+ "qualite": "complet"
+}

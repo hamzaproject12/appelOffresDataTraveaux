@@ -1,0 +1,60 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "718755",
+ "orgAcronyme": "m8x",
+ "reference_pv": "16/2023/AREP-GON-N",
+ "nouveau": true,
+ "reference": "16/2023/AREP-GON-N",
+ "objet": "PROJET REALISE DANS LE CADRE DU PROGRAMME NATIONAL D’APPROVISIONNEMENT EN EAU POTABLE ET D’IRRIGATION 2020-2027 (PNAEPI): TRAVAUX DE CONSTRUCTION DU BARRAGE TAROURAST",
+ "acheteur": "AREP Guelmim Oued Noun",
+ "procedure": "appel d'offres ouvert",
+ "categorie": "Travaux",
+ "date_limite_plis": "17/05/2023",
+ "lieu_ouverture": "AREP Guelmim Oued Noun",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "01/06/2023",
+ "justification": null,
+ "infructueux": false,
+ "attributaire": "STE SNTRO",
+ "montant_attribue": 128122584.0,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "STE STAM",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "STE SOUTHHYDRAULIC",
+   "montant_acte_engagement": 135000816.0,
+   "montant_apres_verification": 128122584.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "STE SNTRO",
+   "montant_acte_engagement": 128122584.0,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 3,
+ "alertes_ocr": [],
+ "notes_ocr": [
+  "« STE SOUTHHYDRAULIC » : montant rectifié de 135 000 816.00 à 128 122 584.00 DH."
+ ],
+ "qualite": "complet"
+}

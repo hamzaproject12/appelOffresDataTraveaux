@@ -1,0 +1,53 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "984238",
+ "orgAcronyme": "d4q",
+ "reference_pv": null,
+ "nouveau": true,
+ "reference": null,
+ "objet": "Réalisation du poste 400/225 KV de FES EST et les travaux d'extension 400 KV et 225 KV au poste 400/225kV de OUALILI et d'extension 400 KV au poste 400/225 kV de BOURDIM",
+ "acheteur": null,
+ "procedure": null,
+ "categorie": "Travaux",
+ "date_limite_plis": "21/01/2026",
+ "lieu_ouverture": "Siège ONEF/BE",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "11/03/2026",
+ "justification": "offre moins-disante, conforme",
+ "infructueux": false,
+ "attributaire": "CEGELEC",
+ "montant_attribue": 391599999.01,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "CEGELEC",
+   "montant_acte_engagement": 391599999.01,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [
+    "unique"
+   ],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "SGEE",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 2,
+ "alertes_ocr": [],
+ "notes_ocr": [
+  "Maître d'ouvrage absent du PV (utiliser l'acheteur public du portail)."
+ ],
+ "qualite": "attribution"
+}

@@ -1,0 +1,71 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "680480",
+ "orgAcronyme": "e5w",
+ "reference_pv": "88/AREP-FM/2022",
+ "nouveau": true,
+ "reference": "88/AREP-FM/2022",
+ "objet": "TRAVAUX DE CONSTRUCTION DE CINQ TERRAINS DE PROXIMITE DANS LA PROVINCE DE BOULEMANE -EN LOT UNIQUE,",
+ "acheteur": "Le Directeur de l'Agence Régionale d’Exécution des Projets de la Région Fès-Meknès",
+ "procedure": "appel d'offres ouvert",
+ "categorie": "Travaux",
+ "date_limite_plis": "27/10/2022",
+ "lieu_ouverture": "Salle des réunions de l’Agence Régionale d’Exécution des Projets de la Région Fès-Meknès, N° 01, Angle Avenue les Nations Unies et Rue Ferhat Hachad — VN Meknès",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "24/11/2022",
+ "justification": "Le concurrent ayant l’offre la plus avantageuse.",
+ "infructueux": false,
+ "attributaire": "GROUPEMENT STE UGCF SARL & STE COFRACO SARL AU",
+ "montant_attribue": 4492440.0,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "STE GCCR SARL",
+   "montant_acte_engagement": 4654.0,
+   "montant_apres_verification": 4654992.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "STE DRAA INJAZ SARL AU",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_offre_technique",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "STE SHIMA SPORT ITALIA SARL AU",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_offre_technique",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "GROUPEMENT STE UGCF SARL & STE COFRACO SARL AU",
+   "montant_acte_engagement": 4492440.0,
+   "montant_apres_verification": 4492440.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 4,
+ "alertes_ocr": [
+  "« STE GCCR SARL » : écart anormal entre montant initial et vérifié (lecture à vérifier)."
+ ],
+ "notes_ocr": [
+  "« STE GCCR SARL » : montant rectifié de 4 654.00 à 4 654 992.00 DH."
+ ],
+ "qualite": "complet"
+}

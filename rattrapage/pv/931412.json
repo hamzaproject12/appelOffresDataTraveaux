@@ -1,0 +1,42 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "931412",
+ "orgAcronyme": "g3h",
+ "reference_pv": "17/BG/2025",
+ "nouveau": true,
+ "reference": "17/BG/2025",
+ "objet": "ACHEVEMENT DES TRAVAUX D’AMENAGEMENT AU SIEGE DE LA PROVINCE DE CHICHAOUA",
+ "acheteur": null,
+ "procedure": null,
+ "categorie": "Travaux",
+ "date_limite_plis": "03/09/2025",
+ "lieu_ouverture": null,
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": null,
+ "justification": null,
+ "infructueux": false,
+ "attributaire": "STE BENALLA DES TRAVAUX",
+ "montant_attribue": 595967.04,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "STE BENALLA DES TRAVAUX",
+   "montant_acte_engagement": 595967.04,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 1,
+ "alertes_ocr": [],
+ "notes_ocr": [
+  "Maître d'ouvrage absent du PV (utiliser l'acheteur public du portail)."
+ ],
+ "qualite": "attribution"
+}

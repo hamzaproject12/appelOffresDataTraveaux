@@ -1,0 +1,75 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "959373",
+ "orgAcronyme": "q1s",
+ "reference_pv": null,
+ "nouveau": true,
+ "reference": null,
+ "objet": "Réalisation d’une chambre froide positive au niveau de la halle au poisson de la pêche artisanale d'Agadir, en lot unique",
+ "acheteur": "OFFICE NATIONAL DES PECHES",
+ "procedure": null,
+ "categorie": "Travaux",
+ "date_limite_plis": "20/11/2025",
+ "lieu_ouverture": "Office National des Pêches, sis 15, rue du Lieutenant Mohamed Mahroud à Casablanca",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "02/12/2025",
+ "justification": "l'offre économiquement la plus avantageuse (l'offre financière la mieux disante par rapport au prix de référence).",
+ "infructueux": false,
+ "attributaire": "STE TECHNICAL SERVICE IMPORT «TECSERIM",
+ "montant_attribue": 301050.0,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "STE AIDES AUX SCIENCES ET TECHNOLOGIES AVANCEES «SCAITEC",
+   "montant_acte_engagement": 278718.0,
+   "montant_apres_verification": null,
+   "autres_montants": [
+    278718.0
+   ],
+   "lots": [],
+   "statut": "ecarte_offre_financiere",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "STE TECHNICAL SERVICE IMPORT «TECSERIM",
+   "montant_acte_engagement": 301050.0,
+   "montant_apres_verification": null,
+   "autres_montants": [
+    301050.0
+   ],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "STE É.E.Z EQUIPEMENTS",
+   "montant_acte_engagement": 330456.0,
+   "montant_apres_verification": null,
+   "autres_montants": [
+    330456.0
+   ],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "STE RIMOBAS TRAVAUX",
+   "montant_acte_engagement": 313380.0,
+   "montant_apres_verification": null,
+   "autres_montants": [
+    313380.0
+   ],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 4,
+ "alertes_ocr": [],
+ "notes_ocr": [],
+ "qualite": "complet"
+}

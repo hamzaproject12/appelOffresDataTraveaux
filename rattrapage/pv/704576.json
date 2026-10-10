@@ -1,0 +1,99 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "704576",
+ "orgAcronyme": "j8k",
+ "reference_pv": "12/2023",
+ "nouveau": true,
+ "reference": "12/2023",
+ "objet": "TRAVAUX D’AMENAGEMENT DU GIRATOIRE AU KM 8 EL GHEZOUA - PROVINCE D’ESSAOUIRA",
+ "acheteur": "AL OMRANE MARRAKECH-SAFI",
+ "procedure": "appel d'offres ouvert",
+ "categorie": "Travaux",
+ "date_limite_plis": "29/03/2023",
+ "lieu_ouverture": "SIEGE DE LA SOCIETE AL OMRANE MARRAKECH-SAFI",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "29/03/2022",
+ "justification": "Infructueux.",
+ "infructueux": false,
+ "attributaire": "oh HTC (EN",
+ "montant_attribue": null,
+ "attributaires_par_lot": [
+  {
+   "lot": null,
+   "attributaire": "oh HTC (EN",
+   "montant": null
+  },
+  {
+   "lot": "unique",
+   "attributaire": "TRAVAUX D’AMENAGEMENT DU GIRATOIRE AU KM 8",
+   "montant": null
+  },
+  {
+   "lot": "unique",
+   "attributaire": "EL GHEZOUA - PROVINCE D’ESSAOUIRA",
+   "montant": null
+  },
+  {
+   "lot": "unique",
+   "attributaire": "Cachet du maitre d’ouvrage Infructueux",
+   "montant": null
+  }
+ ],
+ "soumissionnaires": [
+  {
+   "nom": "oh HTC (EN",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "TRAVAUX D’AMENAGEMENT DU GIRATOIRE AU KM 8",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [
+    "unique"
+   ],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "EL GHEZOUA - PROVINCE D’ESSAOUIRA",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [
+    "unique"
+   ],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Cachet du maitre d’ouvrage Infructueux",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [
+    "unique"
+   ],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 4,
+ "alertes_ocr": [
+  "Montant de l'attributaire « oh HTC (EN » non trouvé.",
+  "Montant de l'attributaire « TRAVAUX D’AMENAGEMENT DU GIRATOIRE AU KM 8 » non trouvé.",
+  "Montant de l'attributaire « EL GHEZOUA - PROVINCE D’ESSAOUIRA » non trouvé.",
+  "Montant de l'attributaire « Cachet du maitre d’ouvrage Infructueux » non trouvé."
+ ],
+ "notes_ocr": [],
+ "qualite": "participants"
+}

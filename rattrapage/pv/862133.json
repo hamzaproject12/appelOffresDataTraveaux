@@ -1,0 +1,55 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "862133",
+ "orgAcronyme": "d4q",
+ "reference_pv": null,
+ "nouveau": true,
+ "reference": null,
+ "objet": "AEP des douars relevant de la commune Oued Jemaa à partir du barrage Idriss ler (2ème tranche) - Lot Equipement x",
+ "acheteur": null,
+ "procedure": "appel d'offres ouvert",
+ "categorie": "Travaux",
+ "date_limite_plis": "05/11/2024",
+ "lieu_ouverture": "au Siège de la Direction Régionale du Centre Nord (DR5) —- 88 rue du Soudan, Ville nouvelle Fès - Maroc",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "24/12/2024",
+ "justification": "Moins-disant",
+ "infructueux": false,
+ "attributaire": "STE AUTELEB - Offre de",
+ "montant_attribue": 2577669.6,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "STE AUTELEB MAROC",
+   "montant_acte_engagement": 2578620.0,
+   "montant_apres_verification": null,
+   "autres_montants": [
+    2577669.6
+   ],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "STE AUTELEB - Offre de",
+   "montant_acte_engagement": 2577669.6,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 2,
+ "alertes_ocr": [
+  "« STE AUTELEB - Offre de » absent de la liste des plis déposés (nom mal lu ?)."
+ ],
+ "notes_ocr": [
+  "Maître d'ouvrage absent du PV (utiliser l'acheteur public du portail)."
+ ],
+ "qualite": "complet"
+}

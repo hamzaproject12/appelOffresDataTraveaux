@@ -1,0 +1,100 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "770342",
+ "orgAcronyme": "q9t",
+ "reference_pv": "27/INO/2023",
+ "nouveau": true,
+ "reference": "27/INO/2023",
+ "objet": "La fourniture et l’installation des climatiseurs split au profit l'Institut National d'Oncologie (INO) Sidi Mohamed Ben Abdellah",
+ "acheteur": "L’Institut National d’Oncologie Sidi Mohamed Ben Abdellah",
+ "procedure": "appel d'offres ouvert simplifié",
+ "categorie": "Travaux",
+ "date_limite_plis": "09/11/2023",
+ "lieu_ouverture": "la Direction du Centre Hospitalo-universitaire Ibn Sina,RueMfadel Cherkaoui, Rabat Institut",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "30/11/2023",
+ "justification": "la conformité technique et L'offre économiquement la plus avantageuse. |",
+ "infructueux": false,
+ "attributaire": "VELSATIS TRAV",
+ "montant_attribue": 125568.0,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "EXPERT ECONERGY e Les documents présentées ne",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_dossier_administratif_technique",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "VELSATIS TRAV",
+   "montant_acte_engagement": 125568.0,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [
+    "UNIQUE"
+   ],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "STE MUNALO",
+   "montant_acte_engagement": 127680.0,
+   "montant_apres_verification": null,
+   "autres_montants": [
+    132600.0
+   ],
+   "lots": [
+    "UNIQUE"
+   ],
+   "statut": "ecarte_offre_financiere",
+   "admis_avec_reserve": true
+  },
+  {
+   "nom": "TOP ELECTRICITE SARL",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_dossier_administratif_technique",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "STE CETNF NEGOCE",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": true
+  },
+  {
+   "nom": "GHALI POWER",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "depose",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "ATLAS FS",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_dossier_administratif_technique",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 7,
+ "alertes_ocr": [],
+ "notes_ocr": [],
+ "qualite": "complet"
+}

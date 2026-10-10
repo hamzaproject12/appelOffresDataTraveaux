@@ -1,0 +1,72 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "1029167",
+ "orgAcronyme": "o8p",
+ "reference_pv": "19/AOO/DPLR-ANP/2026",
+ "nouveau": true,
+ "reference": "19/AOO/DPLR-ANP/2026",
+ "objet": "TRAVAUX DE SIGNALISATION VERTICALE AUX PORTS DE LAAYOUNE, TARFAYA ET BOUJDOUR",
+ "acheteur": "Agence Nationale des Ports - Direction du Port de Laâyoune et Région",
+ "procedure": "appel d'offres ouvert national",
+ "categorie": "Travaux",
+ "date_limite_plis": "17/07/2026",
+ "lieu_ouverture": "Salle de réunion de la Direction du Port de Laâyoune et Région",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "29/07/2026",
+ "justification": null,
+ "infructueux": false,
+ "attributaire": "OUMLIL LINE",
+ "montant_attribue": null,
+ "attributaires_par_lot": [
+  {
+   "lot": null,
+   "attributaire": "OUMLIL LINE",
+   "montant": null
+  },
+  {
+   "lot": null,
+   "attributaire": "Comprises)",
+   "montant": 797460.0
+  }
+ ],
+ "soumissionnaires": [
+  {
+   "nom": "OUMLIL LINE",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "ADDAWHITE",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Comprises)",
+   "montant_acte_engagement": 797460.0,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 3,
+ "alertes_ocr": [
+  "« Comprises) » absent de la liste des plis déposés (nom mal lu ?).",
+  "Montant de l'attributaire « OUMLIL LINE » non trouvé."
+ ],
+ "notes_ocr": [],
+ "qualite": "attribution"
+}

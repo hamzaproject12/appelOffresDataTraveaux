@@ -1,0 +1,53 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "834256",
+ "orgAcronyme": "f8y",
+ "reference_pv": "5412024/AREPO",
+ "nouveau": true,
+ "reference": "5412024/AREPO",
+ "objet": "Travaux d'aménagement et construction du souk de Talsint province de Figuig",
+ "acheteur": "Agence Régionale d'Exécution des Projets de la Région de l'Oriental",
+ "procedure": null,
+ "categorie": "Travaux",
+ "date_limite_plis": null,
+ "lieu_ouverture": "Siège de l'Agence Régionale d'Exécution des Projets de la Région de l'Oriental",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "02/10/2024",
+ "justification": "l’attributaire a présenté l’offre la mieux disante.",
+ "infructueux": false,
+ "attributaire": "SOCIETE MOUNOUARA BAT S.A.R.L",
+ "montant_attribue": 7184113.2,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "SOCIETE MOUNOUARA BAT S.A.R.L",
+   "montant_acte_engagement": 7184113.2,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "SOCIETE ENTREPRISE EL FOULLILI TRAVAUX SARL 96841 0",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_offre_financiere",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 2,
+ "alertes_ocr": [
+  "« SOCIETE MOUNOUARA BAT S.A.R.L » absent de la liste des plis déposés (nom mal lu ?)."
+ ],
+ "notes_ocr": [
+  "« SOCIETE ENTREPRISE EL FOULLILI TRAVAUX SARL 96841 0 » absent de la liste des plis déposés (nom mal lu ?)."
+ ],
+ "qualite": "attribution"
+}

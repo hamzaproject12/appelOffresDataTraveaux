@@ -1,0 +1,115 @@
+{
+ "source": "extrait_docx",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "669167",
+ "orgAcronyme": "q0x",
+ "reference_pv": "09/2022/SM",
+ "nouveau": true,
+ "reference": "09/2022/SM",
+ "objet": null,
+ "acheteur": null,
+ "procedure": "appel d'offres ouvert",
+ "categorie": "Travaux",
+ "date_limite_plis": null,
+ "lieu_ouverture": null,
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": null,
+ "justification": null,
+ "infructueux": false,
+ "attributaire": null,
+ "montant_attribue": null,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "STE CHAFELEC SARL A KHOURIBGA",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "STE ENERGIE AHLAF SARL A TAOURIRT",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "STE RESEAUX ELECTRICITE SARL A CASABLANCA",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "STE BOSPHORE SARL A CASABLANCA",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "TAHA LEBETIOU A IFRANE",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "STE STRA ELEC SARL A MEKNES",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "STE CHAIMAE DES TRAVAUX D ELECTRICITE SARL (SOCHAITEL) A FES",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "STE NOVOLIGHT SARL A CASABLANCA",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 8,
+ "alertes_ocr": [
+  "Attributaire non trouvé."
+ ],
+ "notes_ocr": [
+  "« STE CHAFELEC SARL A KHOURIBGA » absent de la liste des plis déposés (nom mal lu ?).",
+  "« STE ENERGIE AHLAF SARL A TAOURIRT » absent de la liste des plis déposés (nom mal lu ?).",
+  "« STE RESEAUX ELECTRICITE SARL A CASABLANCA » absent de la liste des plis déposés (nom mal lu ?).",
+  "« STE BOSPHORE SARL A CASABLANCA » absent de la liste des plis déposés (nom mal lu ?).",
+  "« TAHA LEBETIOU A IFRANE » absent de la liste des plis déposés (nom mal lu ?).",
+  "« STE STRA ELEC SARL A MEKNES » absent de la liste des plis déposés (nom mal lu ?).",
+  "« STE CHAIMAE DES TRAVAUX D ELECTRICITE SARL (SOCHAITEL) A FES » absent de la liste des plis déposés (nom mal lu ?).",
+  "« STE NOVOLIGHT SARL A CASABLANCA » absent de la liste des plis déposés (nom mal lu ?).",
+  "Maître d'ouvrage absent du PV (utiliser l'acheteur public du portail)."
+ ],
+ "qualite": "participants"
+}

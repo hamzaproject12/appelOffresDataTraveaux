@@ -1,0 +1,112 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "686399",
+ "orgAcronyme": "q1s",
+ "reference_pv": "115/2022/OR/OZ",
+ "nouveau": true,
+ "reference": "115/2022/OR/OZ",
+ "objet": null,
+ "acheteur": "SOCIETE SOVATRAM SARL SOCIETE SOVATRAM SARL SOCIETE AOM2H SARL",
+ "procedure": "appel d'offres ouvert",
+ "categorie": "Travaux",
+ "date_limite_plis": null,
+ "lieu_ouverture": "Date ouverture des plis",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "13/12/2022",
+ "justification": "Offre moins disante",
+ "infructueux": false,
+ "attributaire": "SOCIETE AOM2H SARL",
+ "montant_attribue": 255588.0,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "SOCIETE SODDALI SARL",
+   "montant_acte_engagement": 236388.0,
+   "montant_apres_verification": 236388.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_offre_financiere",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "SOCIETE TOUZDIYI SARL",
+   "montant_acte_engagement": 240168.0,
+   "montant_apres_verification": 240168.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_offre_financiere",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "SOCIETE SOVATRAM SARL",
+   "montant_acte_engagement": 289820.4,
+   "montant_apres_verification": 289820.4,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "SOCIETE AOM2H SARL",
+   "montant_acte_engagement": 255588.0,
+   "montant_apres_verification": 255588.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "SOCIETE NPRO SARL",
+   "montant_acte_engagement": 289630.8,
+   "montant_apres_verification": 289630.8,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "SOCIETE MGME TRVAUX SARL",
+   "montant_acte_engagement": 267674.4,
+   "montant_apres_verification": 267674.4,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "SOCIETE ASSISCOP SARL",
+   "montant_acte_engagement": 293988.0,
+   "montant_apres_verification": 293988.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "SOCIETE TIZZA TRAVAUX SARL",
+   "montant_acte_engagement": 304812.0,
+   "montant_apres_verification": 304812.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 8,
+ "alertes_ocr": [
+  "« SOCIETE SODDALI SARL » absent de la liste des plis déposés (nom mal lu ?).",
+  "« SOCIETE TOUZDIYI SARL » absent de la liste des plis déposés (nom mal lu ?).",
+  "« SOCIETE SOVATRAM SARL » absent de la liste des plis déposés (nom mal lu ?).",
+  "« SOCIETE AOM2H SARL » absent de la liste des plis déposés (nom mal lu ?).",
+  "« SOCIETE NPRO SARL » absent de la liste des plis déposés (nom mal lu ?).",
+  "« SOCIETE MGME TRVAUX SARL » absent de la liste des plis déposés (nom mal lu ?).",
+  "« SOCIETE ASSISCOP SARL » absent de la liste des plis déposés (nom mal lu ?).",
+  "« SOCIETE TIZZA TRAVAUX SARL » absent de la liste des plis déposés (nom mal lu ?)."
+ ],
+ "notes_ocr": [],
+ "qualite": "complet"
+}

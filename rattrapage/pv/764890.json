@@ -1,0 +1,67 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "764890",
+ "orgAcronyme": "k2q",
+ "reference_pv": "80/2023/DAH",
+ "nouveau": true,
+ "reference": "80/2023/DAH",
+ "objet": "CONSTRUCTION DU BARRAGE BOU KHEMIS DANS LA PROVINCE DE KHEMISSET",
+ "acheteur": "Direction Générale de l’Hydrauliques",
+ "procedure": "appel d'offres ouvert international",
+ "categorie": "Travaux",
+ "date_limite_plis": "04/12/2023",
+ "lieu_ouverture": "Les bureaux de la Direction des Aménagements Hydrauliques",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "15/12/2023",
+ "justification": "Offre économiquement la plus avantageuse pour le Maître d’Ouvrage.",
+ "infructueux": false,
+ "attributaire": "BIOUI TRAVAUX",
+ "montant_attribue": 1256323044.48,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "STAM",
+   "montant_acte_engagement": 1271342514.0,
+   "montant_apres_verification": 1271342514.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "BIOUI TRAVAUX",
+   "montant_acte_engagement": 1256323044.48,
+   "montant_apres_verification": 1256323044.48,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "JET CONTRACTORS",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_dossier_administratif_technique",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "GROUPE MOJAZINE",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "depose",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 4,
+ "alertes_ocr": [],
+ "notes_ocr": [],
+ "qualite": "complet"
+}

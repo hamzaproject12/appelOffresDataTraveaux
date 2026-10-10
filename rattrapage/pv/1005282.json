@@ -1,0 +1,80 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "1005282",
+ "orgAcronyme": "o8p",
+ "reference_pv": null,
+ "nouveau": true,
+ "reference": null,
+ "objet": "TRAVAUX D’ENTRETIEN ET DE REMPLACEMENT DES EQUIPEMENTS DE L’ANP MIS A LA DISPOSITION DE LA PLAGE D'ESSAOUIRA « OPÉRATION PLAGES PROPRES 2026 » 321 480,00",
+ "acheteur": "Direction du ports de Safi et Région",
+ "procedure": null,
+ "categorie": "Travaux",
+ "date_limite_plis": null,
+ "lieu_ouverture": "Direction du ports de Safi et Région",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "19/05/2026",
+ "justification": null,
+ "infructueux": false,
+ "attributaire": "STE WIMIL TRAV",
+ "montant_attribue": 382700.0,
+ "attributaires_par_lot": [
+  {
+   "lot": null,
+   "attributaire": "STE WIMIL TRAV",
+   "montant": 382700.0
+  },
+  {
+   "lot": null,
+   "attributaire": "INMA HIGH TECH",
+   "montant": 329600.0
+  }
+ ],
+ "soumissionnaires": [
+  {
+   "nom": "N° SECTOB SARL",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "depose",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "TECNITAS",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "depose",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "STE WIMIL TRAV",
+   "montant_acte_engagement": 382700.0,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "INMA HIGH TECH",
+   "montant_acte_engagement": 329600.0,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 4,
+ "alertes_ocr": [
+  "« STE WIMIL TRAV » absent de la liste des plis déposés (nom mal lu ?).",
+  "« INMA HIGH TECH » absent de la liste des plis déposés (nom mal lu ?)."
+ ],
+ "notes_ocr": []
+}

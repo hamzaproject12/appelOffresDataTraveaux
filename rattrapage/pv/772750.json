@@ -1,0 +1,85 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "772750",
+ "orgAcronyme": "a1z",
+ "reference_pv": "07/2023/AH",
+ "nouveau": true,
+ "reference": "07/2023/AH",
+ "objet": null,
+ "acheteur": null,
+ "procedure": "appel d'offres ouvert",
+ "categorie": "Travaux",
+ "date_limite_plis": null,
+ "lieu_ouverture": null,
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "24/05/2023",
+ "justification": "L'offre la moins cisant est l'offre présentée jpar la société LABERAGA TRAVAUX SARL AU |",
+ "infructueux": false,
+ "attributaire": null,
+ "montant_attribue": null,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "A Conde (Liires les concirrens (op . SOCIETE LA3ERAGA TRAVAUX SARL AU 1",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_dossier_administratif_technique",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "007 | EL ABLISSEMENT ASSREM NEGOCE SARL",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_dossier_administratif_technique",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Ok | SOLIETIE MAJ TRAVAUX SARL",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_dossier_administratif_technique",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "TS “ a Concirrert retenu | Mounier delacte d'engagciient",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_dossier_administratif_technique",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "SOCLETE LAB£RAGA TRAVAUX SARL AU",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_dossier_administratif_technique",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 5,
+ "alertes_ocr": [
+  "Attributaire non trouvé."
+ ],
+ "notes_ocr": [
+  "« A Conde (Liires les concirrens (op . SOCIETE LA3ERAGA TRAVAUX SARL AU 1 » absent de la liste des plis déposés (nom mal lu ?).",
+  "« 007 | EL ABLISSEMENT ASSREM NEGOCE SARL » absent de la liste des plis déposés (nom mal lu ?).",
+  "« Ok | SOLIETIE MAJ TRAVAUX SARL » absent de la liste des plis déposés (nom mal lu ?).",
+  "« TS “ a Concirrert retenu | Mounier delacte d'engagciient » absent de la liste des plis déposés (nom mal lu ?).",
+  "« SOCLETE LAB£RAGA TRAVAUX SARL AU » absent de la liste des plis déposés (nom mal lu ?).",
+  "Maître d'ouvrage absent du PV (utiliser l'acheteur public du portail)."
+ ],
+ "qualite": "participants"
+}

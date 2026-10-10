@@ -1,0 +1,77 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "766232",
+ "orgAcronyme": "f9f",
+ "reference_pv": "27/2023",
+ "nouveau": true,
+ "reference": "27/2023",
+ "objet": null,
+ "acheteur": "Commune d'Agadir",
+ "procedure": "appel d'offres ouvert",
+ "categorie": "Travaux",
+ "date_limite_plis": "26/06/2023",
+ "lieu_ouverture": "Salle des réunions, Commune d'Agadir",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "08/08/2023",
+ "justification": "(Moins disant)",
+ "infructueux": false,
+ "attributaire": null,
+ "montant_attribue": null,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "Sté GCCR SARL AU",
+   "montant_acte_engagement": 7348348.8,
+   "montant_apres_verification": null,
+   "autres_montants": [
+    7209210.0,
+    7348348.8,
+    7209210.0
+   ],
+   "lots": [
+    "1",
+    "2"
+   ],
+   "statut": "ecarte_offre_technique",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Sté ALLIANCE PROGRESSE SOLUTION& SERVICE AP2S SARL",
+   "montant_acte_engagement": 7339626.0,
+   "montant_apres_verification": null,
+   "autres_montants": [
+    7339626.0
+   ],
+   "lots": [
+    "1"
+   ],
+   "statut": "ecarte_offre_technique",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Sté EPIC DES TRAVAUX DIVERS",
+   "montant_acte_engagement": 7347810.0,
+   "montant_apres_verification": null,
+   "autres_montants": [
+    7347810.0
+   ],
+   "lots": [
+    "1"
+   ],
+   "statut": "ecarte_offre_technique",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 3,
+ "alertes_ocr": [
+  "Attributaire non trouvé."
+ ],
+ "notes_ocr": [
+  "Marché alloti (2 lots)."
+ ],
+ "qualite": "complet"
+}

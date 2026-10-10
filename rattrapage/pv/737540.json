@@ -1,0 +1,64 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "737540",
+ "orgAcronyme": "o8p",
+ "reference_pv": "16/DRPC-ANP/2023",
+ "nouveau": true,
+ "reference": "16/DRPC-ANP/2023",
+ "objet": "Travaux d'achèvement de l'aménagement d’un bâtiment de sécurité du port de Casablanca",
+ "acheteur": "AGENCE NATIONALE DES PORTS, DIRECTION REGIONALE DU PORT DE CASABLANCA",
+ "procedure": null,
+ "categorie": "Travaux",
+ "date_limite_plis": "01/08/2023",
+ "lieu_ouverture": "DIRECTION REGIONALE DU PORT DE CASABLANCA",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "22/08/2023",
+ "justification": null,
+ "infructueux": false,
+ "attributaire": "HARANITRAV- Groupement SOUDURE DE SUD &",
+ "montant_attribue": 7394824.0,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "HARANITRAV- Groupement SOUDURE DE SUD &",
+   "montant_acte_engagement": 7394824.0,
+   "montant_apres_verification": null,
+   "autres_montants": [
+    8873788.8
+   ],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "SOMIDATRA- Groupement CARONYX & TRAMADA",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "depose",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Groupement CARONYX &",
+   "montant_acte_engagement": 8537577.0,
+   "montant_apres_verification": null,
+   "autres_montants": [
+    10245092.4
+   ],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 3,
+ "alertes_ocr": [
+  "« Groupement CARONYX & » absent de la liste des plis déposés (nom mal lu ?)."
+ ],
+ "notes_ocr": [],
+ "qualite": "complet"
+}

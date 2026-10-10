@@ -1,0 +1,53 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "1016487",
+ "orgAcronyme": "d4q",
+ "reference_pv": "15/2026",
+ "nouveau": true,
+ "reference": "15/2026",
+ "objet": "« TRAVAUX DE REPARATION DU REVETEMENT DES POSTES DE SECTIONNEMENT »",
+ "acheteur": "ONHYM MIDSTREAM CO - OMCo SA",
+ "procedure": null,
+ "categorie": "Travaux",
+ "date_limite_plis": "15/06/2026",
+ "lieu_ouverture": "Salle de réunion au siège d'OMCo, sis au 5, Avenue Moulay Hassan, Rabat",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "23/06/2026",
+ "justification": "L'offre économiquement la plus avantageuse.",
+ "infructueux": false,
+ "attributaire": "MANTENIMIENTO Y MONTAIJES INDUSTRIALES",
+ "montant_attribue": 571275.36,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "MANTENIMIENTO Y MONTAIJES INDUSTRIALES",
+   "montant_acte_engagement": 571275.36,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "et techniques, CPS et RC",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_dossier_administratif_technique",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 2,
+ "alertes_ocr": [
+  "« MANTENIMIENTO Y MONTAIJES INDUSTRIALES » absent de la liste des plis déposés (nom mal lu ?)."
+ ],
+ "notes_ocr": [
+  "« et techniques, CPS et RC » absent de la liste des plis déposés (nom mal lu ?)."
+ ],
+ "qualite": "attribution"
+}

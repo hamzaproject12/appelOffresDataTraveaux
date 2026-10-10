@@ -1,0 +1,53 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "1024003",
+ "orgAcronyme": "j8k",
+ "reference_pv": "67/26",
+ "nouveau": true,
+ "reference": "67/26",
+ "objet": "TRAVAUX D’ACHEVEMENT DE LA VOIRIE, D'ASSAINISSEMENT, AEP, ELECTRIFICATION, ECLAIRAGE PUBLIC ET EQUIPEMENTS TELEPHONIQUES RELATIFS AU PROJET DE LOTISSEMENT AMAL LITTORAL -SECTEUR N°1-SIS A LA",
+ "acheteur": "AI Omrane Casablanca - Settat",
+ "procedure": "appel d'offres ouvert",
+ "categorie": "Travaux",
+ "date_limite_plis": "09/07/2026",
+ "lieu_ouverture": "AI Omane Casablanca — Settat",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "14/07/2026",
+ "justification": null,
+ "infructueux": false,
+ "attributaire": "TOUNA VERDURE",
+ "montant_attribue": 13550700.0,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "TOUNA VERDURE",
+   "montant_acte_engagement": 13550700.0,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "À af, N°",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 2,
+ "alertes_ocr": [
+  "« TOUNA VERDURE » absent de la liste des plis déposés (nom mal lu ?)."
+ ],
+ "notes_ocr": [
+  "« À af, N° » absent de la liste des plis déposés (nom mal lu ?)."
+ ],
+ "qualite": "attribution"
+}

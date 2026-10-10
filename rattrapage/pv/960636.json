@@ -1,0 +1,87 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "960636",
+ "orgAcronyme": "f9f",
+ "reference_pv": "05/2024",
+ "nouveau": true,
+ "reference": "05/2024",
+ "objet": "TRAVAUX DE CONSTRUCTION D'UNE SALLE A L'INTERIEUR DU CENTRE DE LA SALLE MULT FONCTIONNELLE TABOUYDANTE ET UNE SALLE DE PUITS A TIKHNIZITE A OUSSIKISS A LA COMMUNE DE MSEMRIR",
+ "acheteur": "COMMUNE DE DE M'SEMRIR",
+ "procedure": "appel d'offres ouvert simplifié",
+ "categorie": "Travaux",
+ "date_limite_plis": "10/11/2025",
+ "lieu_ouverture": "Bureau de président de la Commune > CONFORMEMENT A L'AVIS PUBLIE DANS",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "10/11/2025",
+ "justification": "e_ Offre la plus avantageuse pour le maître d'ouvrage (L'offre Le Mieux disant).",
+ "infructueux": false,
+ "attributaire": "STE IDICHL SARL",
+ "montant_attribue": 200808.0,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "STE IDICHL SARL",
+   "montant_acte_engagement": 200808.0,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "STE GROUPE FAROSS TRADING SARL AU",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "STE WES-TUPH TRAVAUX DIVERS SARL",
+   "montant_acte_engagement": 207494.4,
+   "montant_apres_verification": null,
+   "autres_montants": [
+    207494.4
+   ],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "STE IDICHL SARL Retenue (L'offre",
+   "montant_acte_engagement": 198648.0,
+   "montant_apres_verification": null,
+   "autres_montants": [
+    200808.0
+   ],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "STE GROUPE FAROSS",
+   "montant_acte_engagement": 37708.0,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 5,
+ "alertes_ocr": [
+  "« STE IDICHL SARL » absent de la liste des plis déposés (nom mal lu ?).",
+  "« STE WES-TUPH TRAVAUX DIVERS SARL » absent de la liste des plis déposés (nom mal lu ?).",
+  "« STE IDICHL SARL Retenue (L'offre » absent de la liste des plis déposés (nom mal lu ?).",
+  "« STE GROUPE FAROSS » absent de la liste des plis déposés (nom mal lu ?)."
+ ],
+ "notes_ocr": [
+  "« STE GROUPE FAROSS TRADING SARL AU » absent de la liste des plis déposés (nom mal lu ?)."
+ ],
+ "qualite": "complet"
+}

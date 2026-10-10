@@ -1,0 +1,90 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "940835",
+ "orgAcronyme": "d4q",
+ "reference_pv": "47/DR3/2025",
+ "nouveau": true,
+ "reference": "47/DR3/2025",
+ "objet": "- Date et heure d'ouverture des plis : 18/09/2025 10:00 (Ouverture en un seul temps)",
+ "acheteur": null,
+ "procedure": "appel d'offres ouvert",
+ "categorie": "Travaux",
+ "date_limite_plis": "18/09/2025",
+ "lieu_ouverture": "au siège de 1a Direction Régionale du Centre (DR3) Boulevärd Mohamed VI, Quartier Administratif - Khouribga - Maroc",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "16/10/2025",
+ "justification": "Moins-disant",
+ "infructueux": false,
+ "attributaire": "NAPCO",
+ "montant_attribue": 520837.2,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "CORÉDRREE dé",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "depose",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "EEE ENTREPRISE GOUBAR os di -sodE MAROC 7 À",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "depose",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "LL 7 NAPCO a TT MAROC",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "depose",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "RESOFIL",
+   "montant_acte_engagement": 603660.0,
+   "montant_apres_verification": 603660.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "ENTREPRISE GOUBAR",
+   "montant_acte_engagement": 545940.0,
+   "montant_apres_verification": 545940.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "NAPCO",
+   "montant_acte_engagement": 520837.2,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 6,
+ "alertes_ocr": [
+  "« ENTREPRISE GOUBAR » absent de la liste des plis déposés (nom mal lu ?).",
+  "« NAPCO » absent de la liste des plis déposés (nom mal lu ?)."
+ ],
+ "notes_ocr": [
+  "Maître d'ouvrage absent du PV (utiliser l'acheteur public du portail)."
+ ],
+ "qualite": "complet"
+}

@@ -1,0 +1,84 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "922011",
+ "orgAcronyme": "q1s",
+ "reference_pv": "24/2025/DPA/36",
+ "nouveau": true,
+ "reference": "24/2025/DPA/36",
+ "objet": "TRAVAUX D'AMENAGEMENT DE DEUX LOGEMENTS DE FONCTION RELEVANT DE LA",
+ "acheteur": "Directeur Provincial de l’Agriculture d’Essaouira",
+ "procedure": "appel d'offres ouvert",
+ "categorie": "Travaux",
+ "date_limite_plis": "31/07/2025",
+ "lieu_ouverture": "la Direction Provinciale de l’Agriculture d’Essaouira",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "06/08/2025",
+ "justification": "L’offre proposée par le concurrent est la plus avantageuse.",
+ "infructueux": false,
+ "attributaire": "STE BALAW",
+ "montant_attribue": 468163.88,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "STE BSSR DIVERS PRESTATIONS",
+   "montant_acte_engagement": 471434.7,
+   "montant_apres_verification": 471434.7,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_offre_financiere",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "STE HAUT FORT",
+   "montant_acte_engagement": 464478.77,
+   "montant_apres_verification": 464879.22,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "STE ENERGIE SOLAIRE IMD POWER",
+   "montant_acte_engagement": 480239.43,
+   "montant_apres_verification": 480239.43,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "STE BALAW",
+   "montant_acte_engagement": 468163.88,
+   "montant_apres_verification": 468163.88,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "STE AIT MOUNTASSIR",
+   "montant_acte_engagement": 502166.83,
+   "montant_apres_verification": 502166.83,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 5,
+ "alertes_ocr": [
+  "« STE BSSR DIVERS PRESTATIONS » absent de la liste des plis déposés (nom mal lu ?).",
+  "« STE HAUT FORT » absent de la liste des plis déposés (nom mal lu ?).",
+  "« STE ENERGIE SOLAIRE IMD POWER » absent de la liste des plis déposés (nom mal lu ?).",
+  "« STE BALAW » absent de la liste des plis déposés (nom mal lu ?).",
+  "« STE AIT MOUNTASSIR » absent de la liste des plis déposés (nom mal lu ?)."
+ ],
+ "notes_ocr": [
+  "« STE HAUT FORT » : montant rectifié de 464 478.77 à 464 879.22 DH."
+ ],
+ "qualite": "complet"
+}

@@ -1,0 +1,51 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "829921",
+ "orgAcronyme": "d4q",
+ "reference_pv": "21/DR3/2024",
+ "nouveau": true,
+ "reference": "21/DR3/2024",
+ "objet": "relatif à",
+ "acheteur": null,
+ "procedure": "appel d'offres ouvert",
+ "categorie": "Travaux",
+ "date_limite_plis": "11/06/2024",
+ "lieu_ouverture": "au Siège de la Direction Régionale du Centre (DR3) Boulevard Mohamed VI, Quartier Administratif - Khouribga - Maroc",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "19/09/2024",
+ "justification": "Moins-disant",
+ "infructueux": false,
+ "attributaire": "ENVERDEAU MAROC",
+ "montant_attribue": 249679.99,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "L EAU RESEAU on MAROC",
+   "montant_acte_engagement": 297980.0,
+   "montant_apres_verification": 297980.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "ENVERDEAU MAROC",
+   "montant_acte_engagement": 249679.99,
+   "montant_apres_verification": 249679.99,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 2,
+ "alertes_ocr": [],
+ "notes_ocr": [
+  "Maître d'ouvrage absent du PV (utiliser l'acheteur public du portail)."
+ ],
+ "qualite": "complet"
+}

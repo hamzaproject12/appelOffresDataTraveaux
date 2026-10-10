@@ -1,0 +1,88 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "686082",
+ "orgAcronyme": "d4q",
+ "reference_pv": "32/DRG/D/2022",
+ "nouveau": true,
+ "reference": "32/DRG/D/2022",
+ "objet": "- Date et heure d'ouverture des plis : 06/10/2022 10:00 (Ouverture en un seul temps)",
+ "acheteur": null,
+ "procedure": "appel d'offres ouvert",
+ "categorie": "Travaux",
+ "date_limite_plis": "06/10/2022",
+ "lieu_ouverture": "Siège de la Direction Régionale Guelmim Oued Noun (DRG) Quartier administratif, Bd Al Fida, Imm C, 2ème étage - Guelmim - Maroc",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "21/12/2022",
+ "justification": "Moins-disant",
+ "infructueux": false,
+ "attributaire": null,
+ "montant_attribue": null,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "AVENIR SYSTEME",
+   "montant_acte_engagement": 2010600.0,
+   "montant_apres_verification": null,
+   "autres_montants": [
+    2010600.0
+   ],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "COGETERE",
+   "montant_acte_engagement": 2094318.0,
+   "montant_apres_verification": null,
+   "autres_montants": [
+    2094318.0
+   ],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "ELECTRO ANADIF MAROC",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_dossier_administratif_technique",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "INGENIEROS DEL NORTE MAROC",
+   "montant_acte_engagement": 2203154.16,
+   "montant_apres_verification": null,
+   "autres_montants": [
+    2203154.16
+   ],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "TIDILI CONSTRELEC MAROC",
+   "montant_acte_engagement": 101482.0,
+   "montant_apres_verification": null,
+   "autres_montants": [
+    2373642.0
+   ],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 5,
+ "alertes_ocr": [
+  "Attributaire non trouvé."
+ ],
+ "notes_ocr": [
+  "Maître d'ouvrage absent du PV (utiliser l'acheteur public du portail)."
+ ],
+ "qualite": "complet"
+}

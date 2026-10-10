@@ -1,0 +1,137 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "959798",
+ "orgAcronyme": "p8x",
+ "reference_pv": null,
+ "nouveau": true,
+ "reference": null,
+ "objet": "Travaux de construction des salles de classe aux établissements scolaires relevant de la direction provinciale de Marrakech en deux lots séparés",
+ "acheteur": "Le directeur provincial de Marrakech",
+ "procedure": "appel d'offres ouvert national",
+ "categorie": "Travaux",
+ "date_limite_plis": "17/11/2025",
+ "lieu_ouverture": "La salle des réunions à la Direction Provinciale de Marrakech",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "03/12/2025",
+ "justification": "Concurrent ayant présenté l’offre économiquement la plus avantageuse.",
+ "infructueux": false,
+ "attributaire": "STE CRTRA SARL",
+ "montant_attribue": 2846596.83,
+ "attributaires_par_lot": [
+  {
+   "lot": null,
+   "attributaire": "STE CRTRA SARL",
+   "montant": 2846596.83
+  },
+  {
+   "lot": null,
+   "attributaire": "ENTREPRISE YOUBOU BUILDING SARL AU",
+   "montant": 1476908.4
+  }
+ ],
+ "soumissionnaires": [
+  {
+   "nom": "STE MAGDAZ TRAVAUX SARL L2",
+   "montant_acte_engagement": 1528600.19,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "STE OAABDI CONSTRUCTION SARL L1-L2",
+   "montant_acte_engagement": 2933367.53,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "ENTREPRISE YOUBOU BUILDING SARL AU",
+   "montant_acte_engagement": 2849187.0,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "STE SACOTRAD SARL L1",
+   "montant_acte_engagement": 3056400.6,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "STE CRTRA SARL L1",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "STE POWER ATLANTIC SARL L2",
+   "montant_acte_engagement": 1568208.19,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "STE AIT OUHSAIN TRAVAUX SARL L1",
+   "montant_acte_engagement": 2959269.23,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "STE SOFIDRO SARL L1-L2",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "STE CRTRA SARL",
+   "montant_acte_engagement": 2846596.83,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "STE SOFIDRO SARL",
+   "montant_acte_engagement": 2952793.8,
+   "montant_apres_verification": 1530614.16,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 10,
+ "alertes_ocr": [
+  "« STE CRTRA SARL » absent de la liste des plis déposés (nom mal lu ?).",
+  "« STE SOFIDRO SARL » absent de la liste des plis déposés (nom mal lu ?)."
+ ],
+ "notes_ocr": [
+  "« STE SOFIDRO SARL » : montant rectifié de 2 952 793.80 à 1 530 614.16 DH."
+ ],
+ "qualite": "complet"
+}

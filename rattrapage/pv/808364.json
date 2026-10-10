@@ -1,0 +1,54 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "808364",
+ "orgAcronyme": "d4q",
+ "reference_pv": "30/AMG/3/2024",
+ "nouveau": true,
+ "reference": "30/AMG/3/2024",
+ "objet": "l’AMG/3 - Date et heure d'ouverture des plis : 04/06/2024 10:00 (Ouverture en un seul temps) - Lieu d'ouverture des plis : Siège de la Direction Régionale Guelmim Oued Noun (DRG) -",
+ "acheteur": null,
+ "procedure": "appel d'offres ouvert",
+ "categorie": "Travaux",
+ "date_limite_plis": "04/06/2024",
+ "lieu_ouverture": "Siège de la Direction Régionale Guelmim Oued Noun (DRG) Quartier administratif, Bd Al Fida, Imm C, 2ème étage - Guelmim - Maroc SHTG (SOCIETE HAFIDI DES TRAVAUX GUELMIM)",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "26/06/2024",
+ "justification": "Moins-disant",
+ "infructueux": false,
+ "attributaire": null,
+ "montant_attribue": null,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "l’AMG/3",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "depose",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "SHTG (SOCIETE HAFIDI DES TRAVAUX GUELMIM) ZAFRA",
+   "montant_acte_engagement": 619440.0,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 2,
+ "alertes_ocr": [
+  "« SHTG (SOCIETE HAFIDI DES TRAVAUX GUELMIM) ZAFRA » absent de la liste des plis déposés (nom mal lu ?).",
+  "Attributaire non trouvé."
+ ],
+ "notes_ocr": [
+  "Maître d'ouvrage absent du PV (utiliser l'acheteur public du portail)."
+ ],
+ "qualite": "attribution"
+}

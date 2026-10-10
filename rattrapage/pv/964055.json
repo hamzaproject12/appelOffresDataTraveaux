@@ -1,0 +1,62 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "964055",
+ "orgAcronyme": "j0w",
+ "reference_pv": "05/2025",
+ "nouveau": true,
+ "reference": "05/2025",
+ "objet": null,
+ "acheteur": "Commune Rurale Skoura Elhadra",
+ "procedure": "appel d'offres ouvert",
+ "categorie": "Travaux",
+ "date_limite_plis": "04/12/2025",
+ "lieu_ouverture": "Bureau du président de la C. T Skoura El Hadra Annexe Skhour Rhamna",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "16/12/2025",
+ "justification": "L'offre financière la plus avantageuse.",
+ "infructueux": false,
+ "attributaire": "STÉ BEST SOLUTIONS ELEC SARL AU",
+ "montant_attribue": 2107467.49,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "STÉ ANJJA MULTISERVICES SARL",
+   "montant_acte_engagement": 2000000.0,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_offre_financiere",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "STÉ ELECTOMAR SARL AU",
+   "montant_acte_engagement": 2266531.09,
+   "montant_apres_verification": 2266531.09,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "STÉ BEST SOLUTIONS ELEC SARL AU",
+   "montant_acte_engagement": 2107467.49,
+   "montant_apres_verification": 2107467.49,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 3,
+ "alertes_ocr": [
+  "« STÉ ANJJA MULTISERVICES SARL » absent de la liste des plis déposés (nom mal lu ?).",
+  "« STÉ ELECTOMAR SARL AU » absent de la liste des plis déposés (nom mal lu ?).",
+  "« STÉ BEST SOLUTIONS ELEC SARL AU » absent de la liste des plis déposés (nom mal lu ?)."
+ ],
+ "notes_ocr": [],
+ "qualite": "complet"
+}

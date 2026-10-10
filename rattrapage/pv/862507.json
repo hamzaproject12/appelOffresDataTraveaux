@@ -1,0 +1,104 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "862507",
+ "orgAcronyme": "s3z",
+ "reference_pv": null,
+ "nouveau": true,
+ "reference": null,
+ "objet": "t L,ENTRETTEN COURANT DE VOTES (Travaux de Revêtement en pové autobloquant à Hay Moulay tsmail secteur -2 tranche 7) *Arrondissement de Bettana*. (Lot IJnique)",
+ "acheteur": "ARRONDISSEMENT DE BETTANA' g",
+ "procedure": null,
+ "categorie": "Travaux",
+ "date_limite_plis": null,
+ "lieu_ouverture": null,
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": null,
+ "justification": "-Dossier administratif et technique valable - Offre financière la plus avantageuse.",
+ "infructueux": false,
+ "attributaire": "CHAHD TRAVAUX",
+ "montant_attribue": 4217340.0,
+ "attributaires_par_lot": [
+  {
+   "lot": null,
+   "attributaire": "CHAHD TRAVAUX",
+   "montant": 4217340.0
+  },
+  {
+   "lot": null,
+   "attributaire": "TOUNA BATIMENT SARL",
+   "montant": 4223400.0
+  }
+ ],
+ "soumissionnaires": [
+  {
+   "nom": "Néont",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_offre_technique",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "d'engogement qvont",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_offre_technique",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "rectificotions en(",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_offre_technique",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Montont des octes d'engogement",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_offre_technique",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "CHAHD TRAVAUX",
+   "montant_acte_engagement": 4217340.0,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "TOUNA BATIMENT SARL",
+   "montant_acte_engagement": 4223400.0,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 6,
+ "alertes_ocr": [
+  "« CHAHD TRAVAUX » absent de la liste des plis déposés (nom mal lu ?).",
+  "« TOUNA BATIMENT SARL » absent de la liste des plis déposés (nom mal lu ?)."
+ ],
+ "notes_ocr": [
+  "« Néont » absent de la liste des plis déposés (nom mal lu ?).",
+  "« d'engogement qvont » absent de la liste des plis déposés (nom mal lu ?).",
+  "« rectificotions en( » absent de la liste des plis déposés (nom mal lu ?).",
+  "« Montont des octes d'engogement » absent de la liste des plis déposés (nom mal lu ?)."
+ ],
+ "qualite": "attribution"
+}

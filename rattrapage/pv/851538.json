@@ -1,0 +1,92 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "851538",
+ "orgAcronyme": "d0q",
+ "reference_pv": null,
+ "nouveau": true,
+ "reference": null,
+ "objet": null,
+ "acheteur": null,
+ "procedure": "appel d'offres ouvert",
+ "categorie": "Travaux",
+ "date_limite_plis": null,
+ "lieu_ouverture": "Pre : 30/10/2024",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": null,
+ "justification": "offre lo mieux disonte.",
+ "infructueux": false,
+ "attributaire": "STE AMMASSINE. TRAV",
+ "montant_attribue": 626064.0,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "STE ASOMAR TRAV SARL",
+   "montant_acte_engagement": 662412.0,
+   "montant_apres_verification": 629848.8,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "STE NJ GENERATION",
+   "montant_acte_engagement": 622648.8,
+   "montant_apres_verification": 713472.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "STE AMMASSINE. TRAV",
+   "montant_acte_engagement": 626064.0,
+   "montant_apres_verification": 677328.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "STE TOP TRAVAUX ADIDOUR",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "depose",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "STE B.3.D TRADIV",
+   "montant_acte_engagement": 622656.0,
+   "montant_apres_verification": 639792.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "STE SABER NOUR INVESTISSEMENT",
+   "montant_acte_engagement": 617076.0,
+   "montant_apres_verification": 620664.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 6,
+ "alertes_ocr": [],
+ "notes_ocr": [
+  "« STE ASOMAR TRAV SARL » : montant rectifié de 662 412.00 à 629 848.80 DH.",
+  "« STE NJ GENERATION » : montant rectifié de 622 648.80 à 713 472.00 DH.",
+  "« STE AMMASSINE. TRAV » : montant rectifié de 626 064.00 à 677 328.00 DH.",
+  "« STE B.3.D TRADIV » : montant rectifié de 622 656.00 à 639 792.00 DH.",
+  "« STE SABER NOUR INVESTISSEMENT » : montant rectifié de 617 076.00 à 620 664.00 DH.",
+  "Maître d'ouvrage absent du PV (utiliser l'acheteur public du portail)."
+ ],
+ "qualite": "complet"
+}

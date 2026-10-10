@@ -1,0 +1,103 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "818264",
+ "orgAcronyme": "f9f",
+ "reference_pv": null,
+ "nouveau": true,
+ "reference": null,
+ "objet": "TRAVAUX DE REHABILITATION DE LA SALLE POLYVALENTE D’INEZGANE",
+ "acheteur": "la Commune d'Inezgane",
+ "procedure": "appel d'offres ouvert",
+ "categorie": "Travaux",
+ "date_limite_plis": "18/07/2024",
+ "lieu_ouverture": "Bureaux de Mr Le Président de la Commune d'Inezgane",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": null,
+ "justification": null,
+ "infructueux": false,
+ "attributaire": "GROUPEMENT DE SOCIETE ENDICOTRA SARL ET SOCIETE PEINTURIAL sarl",
+ "montant_attribue": 3649494.0,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "STE BRAMOC SARL",
+   "montant_acte_engagement": 3633262.8,
+   "montant_apres_verification": 3633262.8,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "GROUPEMENT DE SOCIETE ENDICOTRA SARL ET SOCIETE PEINTURIAL sarl",
+   "montant_acte_engagement": 3649494.0,
+   "montant_apres_verification": 3649494.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "STE MALOUMI SARL",
+   "montant_acte_engagement": 3805814.4,
+   "montant_apres_verification": 3805814.4,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "STE ODIMIUM SARL",
+   "montant_acte_engagement": 3629568.0,
+   "montant_apres_verification": 3629568.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "GROUPEMENT DE SOCIETE GENERAL CIVIL ENGINEERING SERVICES sarl ET",
+   "montant_acte_engagement": 3644931.6,
+   "montant_apres_verification": 3644931.6,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "SOCIETE SETRAGED sarl",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "STE TOUNA SERVICES SARL AU",
+   "montant_acte_engagement": 3945308.4,
+   "montant_apres_verification": 3945308.4,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 7,
+ "alertes_ocr": [
+  "« STE BRAMOC SARL » absent de la liste des plis déposés (nom mal lu ?).",
+  "« GROUPEMENT DE SOCIETE ENDICOTRA SARL ET SOCIETE PEINTURIAL sarl » absent de la liste des plis déposés (nom mal lu ?).",
+  "« STE MALOUMI SARL » absent de la liste des plis déposés (nom mal lu ?).",
+  "« STE ODIMIUM SARL » absent de la liste des plis déposés (nom mal lu ?).",
+  "« GROUPEMENT DE SOCIETE GENERAL CIVIL ENGINEERING SERVICES sarl ET » absent de la liste des plis déposés (nom mal lu ?).",
+  "« STE TOUNA SERVICES SARL AU » absent de la liste des plis déposés (nom mal lu ?)."
+ ],
+ "notes_ocr": [
+  "« SOCIETE SETRAGED sarl » absent de la liste des plis déposés (nom mal lu ?)."
+ ],
+ "qualite": "complet"
+}

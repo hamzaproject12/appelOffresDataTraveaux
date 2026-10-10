@@ -1,0 +1,99 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "955835",
+ "orgAcronyme": "a1t",
+ "reference_pv": "107/2025/ADHA",
+ "nouveau": true,
+ "reference": "107/2025/ADHA",
+ "objet": null,
+ "acheteur": "L'AGENCE DE DEVELOPPEMNT DU HAUT ATLAS",
+ "procedure": null,
+ "categorie": "Travaux",
+ "date_limite_plis": "05/11/2025",
+ "lieu_ouverture": "Salle de réunions de la DIRECTION PROVINCIALE DE L'AGRICULTURE MARRAKECH",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": null,
+ "justification": null,
+ "infructueux": false,
+ "attributaire": "GROUPEMENT LBZD ET SOKITRABIN",
+ "montant_attribue": 1305696.0,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "ON Nomdesconcurrenmts",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "depose",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "INPLADECOR",
+   "montant_acte_engagement": 1299180.0,
+   "montant_apres_verification": 1299.18,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "AL LAMYA ATHLANTIQUE",
+   "montant_acte_engagement": 1290990.0,
+   "montant_apres_verification": 1290990.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "EDATRAV",
+   "montant_acte_engagement": 1364880.0,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_offre_financiere",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "GROUPEMENT LBZD ET SOKITRABIN",
+   "montant_acte_engagement": 1305696.0,
+   "montant_apres_verification": 1305696.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "BENOU MATERIAUX",
+   "montant_acte_engagement": 1300986.0,
+   "montant_apres_verification": 1300986.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "SOFIDRO",
+   "montant_acte_engagement": 1479900.0,
+   "montant_apres_verification": 1529040.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 7,
+ "alertes_ocr": [
+  "« INPLADECOR » : écart anormal entre montant initial et vérifié (lecture à vérifier)."
+ ],
+ "notes_ocr": [
+  "« INPLADECOR » : montant rectifié de 1 299 180.00 à 1 299.18 DH.",
+  "« SOFIDRO » : montant rectifié de 1 479 900.00 à 1 529 040.00 DH."
+ ],
+ "qualite": "complet"
+}

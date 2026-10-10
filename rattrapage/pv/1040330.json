@@ -1,0 +1,58 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "1040330",
+ "orgAcronyme": "g3h",
+ "reference_pv": "30/SKAD/2026",
+ "nouveau": true,
+ "reference": "30/SKAD/2026",
+ "objet": "TRAVAUX DE CONSTRUCTION DU CENTRE DE FORMATION PAR APPRENTISSAGE SIDI TAIBI = Maître d'ouvrage : la Société Kénitra Aménagement et Développement ;",
+ "acheteur": "la Société Kénitra Aménagement et Développement",
+ "procedure": "appel d'offres ouvert national",
+ "categorie": "Travaux",
+ "date_limite_plis": "09/09/2026",
+ "lieu_ouverture": "Siege de la Société Kénitra Aménagement et Développement",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "15/09/2026",
+ "justification": "offre économiquement la plus avantageuse (la mieux-disante).",
+ "infructueux": false,
+ "attributaire": "Société SOLVED SARL de Kénitra",
+ "montant_attribue": 7603980.0,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "Société Entreprise FADIL De Génie Civil de Errachidia",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_dossier_administratif_technique",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Société SOLVED SARL de Kénitra",
+   "montant_acte_engagement": 7603980.0,
+   "montant_apres_verification": 7603980.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Société AGOUDI DAYS BTP SARL De Azilal",
+   "montant_acte_engagement": 7893048.0,
+   "montant_apres_verification": 7893048.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 3,
+ "alertes_ocr": [],
+ "notes_ocr": [],
+ "qualite": "complet"
+}

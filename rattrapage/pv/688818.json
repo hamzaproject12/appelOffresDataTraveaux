@@ -1,0 +1,73 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "688818",
+ "orgAcronyme": "d4q",
+ "reference_pv": null,
+ "nouveau": true,
+ "reference": null,
+ "objet": "Injection de 06 Postes HTA/BT et création des départs BT aux Postes de Transformation relevant de la Province Essaouira",
+ "acheteur": null,
+ "procedure": null,
+ "categorie": "Travaux",
+ "date_limite_plis": "16/11/2022",
+ "lieu_ouverture": "Commission Centrale (DISTRIBUTION/DAM) à Casablanca",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": null,
+ "justification": "conforme",
+ "infructueux": false,
+ "attributaire": "OUHAFID TRAVAUX",
+ "montant_attribue": 2873829.78,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "STE OUEST APLICATION",
+   "montant_acte_engagement": 2723992.0,
+   "montant_apres_verification": 2723992.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "OUHAFID TRAVAUX",
+   "montant_acte_engagement": 2394994.11,
+   "montant_apres_verification": 2394858.15,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "SOCIETE MEGA ELECTRO LUMIERE",
+   "montant_acte_engagement": 2547056.5,
+   "montant_apres_verification": 2547056.5,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "GROUPEMENT AMAF",
+   "montant_acte_engagement": 2641392.75,
+   "montant_apres_verification": 2641392.75,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 4,
+ "alertes_ocr": [
+  "« SOCIETE MEGA ELECTRO LUMIERE » absent de la liste des plis déposés (nom mal lu ?).",
+  "« GROUPEMENT AMAF » absent de la liste des plis déposés (nom mal lu ?)."
+ ],
+ "notes_ocr": [
+  "« OUHAFID TRAVAUX » : montant rectifié de 2 394 994.11 à 2 394 858.15 DH.",
+  "Maître d'ouvrage absent du PV (utiliser l'acheteur public du portail)."
+ ],
+ "qualite": "complet"
+}

@@ -1,0 +1,62 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "869359",
+ "orgAcronyme": "g3h",
+ "reference_pv": "12/INDH/T/2025",
+ "nouveau": true,
+ "reference": "12/INDH/T/2025",
+ "objet": "Travaux de construction de dar al oumouma a la commune Loulad-Province de Settat",
+ "acheteur": "La province de Settat",
+ "procedure": "appel d'offres restreint",
+ "categorie": "Travaux",
+ "date_limite_plis": "03/02/2024",
+ "lieu_ouverture": "la Division du Budget Marches et Ressource Humaines / Province de Settat",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": null,
+ "justification": null,
+ "infructueux": true,
+ "attributaire": null,
+ "montant_attribue": null,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "Société «EBAMCO» / RABAT",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_dossier_administratif_technique",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Société «SOTATEL» / LAAYOUNE",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_dossier_administratif_technique",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Appel d'offre infructueux",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_dossier_administratif_technique",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 3,
+ "alertes_ocr": [],
+ "notes_ocr": [
+  "« Société «EBAMCO» / RABAT » absent de la liste des plis déposés (nom mal lu ?).",
+  "« Société «SOTATEL» / LAAYOUNE » absent de la liste des plis déposés (nom mal lu ?).",
+  "« Appel d'offre infructueux » absent de la liste des plis déposés (nom mal lu ?)."
+ ],
+ "qualite": "participants"
+}

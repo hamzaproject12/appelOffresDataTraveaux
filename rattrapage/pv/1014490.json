@@ -1,0 +1,60 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "1014490",
+ "orgAcronyme": "e5w",
+ "reference_pv": "60/AREP-FM/2026",
+ "nouveau": true,
+ "reference": "60/AREP-FM/2026",
+ "objet": "TRAVAUX DE CONSTRUCTION DE PISTES DANS LES PROVINCES DE TAZA ET TAOUNATE, REGION FES-MEKNES -EN LOT UNIQUE-",
+ "acheteur": "Le Directeur de l’Agence Régionale d’Exécution des Projets de la Région Fès Meknès",
+ "procedure": "appel d'offres ouvert international",
+ "categorie": "Travaux",
+ "date_limite_plis": "03/06/2026",
+ "lieu_ouverture": "Salle des réunions de l’Agence Régionale d’Exécution des Projets de la Région Fès-Meknès, N° 01, Angle Avenue les Nations Unies et Rue Ferhat Hachad -VN Meknès",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "18/06/2026",
+ "justification": "Le concurrent ayant l’offre économiquement la plus avantageuse.",
+ "infructueux": false,
+ "attributaire": "STE SONOTRAP",
+ "montant_attribue": 17828634.0,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "STE SORTRAC",
+   "montant_acte_engagement": 19539234.0,
+   "montant_apres_verification": 19539234.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "STE SONOTRAP",
+   "montant_acte_engagement": 17828634.0,
+   "montant_apres_verification": 17828634.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "STE SORTRAC oo oo",
+   "montant_acte_engagement": 19539234.0,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 3,
+ "alertes_ocr": [
+  "« STE SORTRAC oo oo » absent de la liste des plis déposés (nom mal lu ?)."
+ ],
+ "notes_ocr": [],
+ "qualite": "complet"
+}

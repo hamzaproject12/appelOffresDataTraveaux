@@ -1,0 +1,109 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "829407",
+ "orgAcronyme": "o8p",
+ "reference_pv": "22/AOO/DPJR-ANP/2024",
+ "nouveau": true,
+ "reference": "22/AOO/DPJR-ANP/2024",
+ "objet": null,
+ "acheteur": "Direction du Port de Jorf Lasfar et Région",
+ "procedure": "appel d'offres ouvert",
+ "categorie": "Travaux",
+ "date_limite_plis": "29/08/2024",
+ "lieu_ouverture": "Direction du Port de Jorf Lasfar et Région",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "10/09/2024",
+ "justification": "CRTD a présenté la meilleure offre conforme soit un montant de : 379 452, 48 :{ Trois Cent Soixante-Dix-Neuf Mille Quatre Cent Cinquante-Deux Dirhams, Quarante Huit Centimes Hors Taxes)",
+ "infructueux": false,
+ "attributaire": "CRTD",
+ "montant_attribue": 379452.48,
+ "attributaires_par_lot": [
+  {
+   "lot": null,
+   "attributaire": "CRTD",
+   "montant": 379452.48
+  },
+  {
+   "lot": null,
+   "attributaire": "URBAIN GC",
+   "montant": 466137.76
+  },
+  {
+   "lot": null,
+   "attributaire": "STKS TRAVAUX",
+   "montant": 467455.76
+  },
+  {
+   "lot": null,
+   "attributaire": "ISO JARDIN",
+   "montant": 481715.4
+  }
+ ],
+ "soumissionnaires": [
+  {
+   "nom": "CRTD",
+   "montant_acte_engagement": 379452.48,
+   "montant_apres_verification": 379452.48,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "ZIDANET SERVICE COTIER",
+   "montant_acte_engagement": 469591.48,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "URBAIN GC",
+   "montant_acte_engagement": 466137.76,
+   "montant_apres_verification": 466137.76,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "GREEN EXPERT",
+   "montant_acte_engagement": 406872.48,
+   "montant_apres_verification": 406872.48,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_offre_financiere",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "STKS TRAVAUX",
+   "montant_acte_engagement": 467455.82,
+   "montant_apres_verification": 467455.76,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "ISO JARDIN",
+   "montant_acte_engagement": 481715.4,
+   "montant_apres_verification": 481715.4,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 6,
+ "alertes_ocr": [],
+ "notes_ocr": [
+  "« STKS TRAVAUX » : montant rectifié de 467 455.82 à 467 455.76 DH.",
+  "Montants exprimés hors taxes (HT)."
+ ],
+ "qualite": "complet"
+}

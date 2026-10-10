@@ -1,0 +1,153 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "783916",
+ "orgAcronyme": "g3h",
+ "reference_pv": "02/A/2024",
+ "nouveau": true,
+ "reference": "02/A/2024",
+ "objet": "Travaux de réalisation du réseau d'assainissement liquide du Centre Chouihia relevant de la commune rurale Chouihia -province de Berkane",
+ "acheteur": null,
+ "procedure": null,
+ "categorie": "Travaux",
+ "date_limite_plis": null,
+ "lieu_ouverture": "salle de réunion de la RADEEO",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "27/03/2021",
+ "justification": null,
+ "infructueux": false,
+ "attributaire": "Société ROUTEST",
+ "montant_attribue": 3281964.0,
+ "attributaires_par_lot": [
+  {
+   "lot": "1",
+   "attributaire": "Société ROUTEST",
+   "montant": 3281964.0
+  },
+  {
+   "lot": "2",
+   "attributaire": "Société GREEN CODE",
+   "montant": 6996699.9
+  }
+ ],
+ "soumissionnaires": [
+  {
+   "nom": "Société UBAC",
+   "montant_acte_engagement": 3707355.0,
+   "montant_apres_verification": 3707355.0,
+   "autres_montants": [],
+   "lots": [
+    "1"
+   ],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Société ROUTEST",
+   "montant_acte_engagement": 3281964.0,
+   "montant_apres_verification": 3281964.0,
+   "autres_montants": [],
+   "lots": [
+    "1"
+   ],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Société IMA",
+   "montant_acte_engagement": 3262867.5,
+   "montant_apres_verification": 3262867.5,
+   "autres_montants": [],
+   "lots": [
+    "1"
+   ],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Société GREEN CODE",
+   "montant_acte_engagement": 3127875.0,
+   "montant_apres_verification": 3127875.0,
+   "autres_montants": [
+    6996699.9
+   ],
+   "lots": [
+    "1",
+    "2"
+   ],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Société EL HORE MOHAMMED",
+   "montant_acte_engagement": 7454512.98,
+   "montant_apres_verification": 7454512.98,
+   "autres_montants": [],
+   "lots": [
+    "1",
+    "2"
+   ],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Société JH STRUCTURE BERKANE",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [
+    "1",
+    "2"
+   ],
+   "statut": "ecarte_dossier_administratif_technique",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Société UBAC MAJORATION",
+   "montant_acte_engagement": 3707355.0,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [
+    "1"
+   ],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Société ROUTEST RABAIS",
+   "montant_acte_engagement": 3281964.0,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [
+    "1"
+   ],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Société IMA RABAIS",
+   "montant_acte_engagement": 3262867.5,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [
+    "1"
+   ],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 9,
+ "alertes_ocr": [
+  "« Société UBAC MAJORATION » absent de la liste des plis déposés (nom mal lu ?).",
+  "« Société ROUTEST RABAIS » absent de la liste des plis déposés (nom mal lu ?).",
+  "« Société IMA RABAIS » absent de la liste des plis déposés (nom mal lu ?)."
+ ],
+ "notes_ocr": [
+  "Marché alloti (2 lots).",
+  "Maître d'ouvrage absent du PV (utiliser l'acheteur public du portail)."
+ ],
+ "qualite": "complet"
+}

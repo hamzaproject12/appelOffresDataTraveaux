@@ -1,0 +1,93 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "1046130",
+ "orgAcronyme": "j0w",
+ "reference_pv": "IL-INI",
+ "nouveau": true,
+ "reference": "IL-INI",
+ "objet": null,
+ "acheteur": null,
+ "procedure": null,
+ "categorie": "Travaux",
+ "date_limite_plis": null,
+ "lieu_ouverture": "bureau du président au siège de la commune",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": null,
+ "justification": "le concurrent qui a présenté l'offre économiquement la plus avantageuse ( la mieux disante )",
+ "infructueux": false,
+ "attributaire": "ANT ADMINISTARTION SARL",
+ "montant_attribue": 334330.2,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "STE PROPISTE SARL",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_dossier_administratif_technique",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "STE EL ABBOUBI TRANS SARL",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_dossier_administratif_technique",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "STE AFRICAN COMPANY FOR TARADE ANT ADMINISTARTION SARL",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "STE. META FORCE",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_dossier_administratif_technique",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "STE A-Z SOLAIRE SARL A.U",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_dossier_administratif_technique",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "ANT ADMINISTARTION SARL",
+   "montant_acte_engagement": 334330.2,
+   "montant_apres_verification": 334330.2,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 6,
+ "alertes_ocr": [
+  "« ANT ADMINISTARTION SARL » absent de la liste des plis déposés (nom mal lu ?)."
+ ],
+ "notes_ocr": [
+  "« STE PROPISTE SARL » absent de la liste des plis déposés (nom mal lu ?).",
+  "« STE EL ABBOUBI TRANS SARL » absent de la liste des plis déposés (nom mal lu ?).",
+  "« STE AFRICAN COMPANY FOR TARADE ANT ADMINISTARTION SARL » absent de la liste des plis déposés (nom mal lu ?).",
+  "« STE. META FORCE » absent de la liste des plis déposés (nom mal lu ?).",
+  "« STE A-Z SOLAIRE SARL A.U » absent de la liste des plis déposés (nom mal lu ?).",
+  "Maître d'ouvrage absent du PV (utiliser l'acheteur public du portail)."
+ ]
+}

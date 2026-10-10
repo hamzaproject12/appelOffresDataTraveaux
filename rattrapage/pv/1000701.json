@@ -1,0 +1,53 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "1000701",
+ "orgAcronyme": "f8y",
+ "reference_pv": "04/2026",
+ "nouveau": true,
+ "reference": "04/2026",
+ "objet": "« Travaux d'entretien courant des voies de la ville de Nador, Pour le compte de la commune de Nador, Province de Nador »",
+ "acheteur": null,
+ "procedure": "appel d'offres ouvert",
+ "categorie": "Travaux",
+ "date_limite_plis": null,
+ "lieu_ouverture": null,
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": null,
+ "justification": "‘offre a 3 us avantageuse otenue. Date c'acièvement ces travaux ce a commission : 06/05/2026 7ait à Nacor, e ere Le pré. #1 | Prési dent, PES \\ 7 0) f RE Pb > Si Une : de es",
+ "infructueux": false,
+ "attributaire": null,
+ "montant_attribue": null,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "s STE ADIMPRO SARL DE FES",
+   "montant_acte_engagement": 19704924.0,
+   "montant_apres_verification": 19704924.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "s STE ETABLISSEMENT ASSREM NEGOCE SARL DE SALÉ",
+   "montant_acte_engagement": 19378860.0,
+   "montant_apres_verification": 19378860.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 2,
+ "alertes_ocr": [
+  "Attributaire non trouvé."
+ ],
+ "notes_ocr": [
+  "Maître d'ouvrage absent du PV (utiliser l'acheteur public du portail)."
+ ],
+ "qualite": "complet"
+}

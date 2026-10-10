@@ -1,0 +1,53 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "931335",
+ "orgAcronyme": "z9k",
+ "reference_pv": "09/2025/CD",
+ "nouveau": true,
+ "reference": "09/2025/CD",
+ "objet": "Gros travaux ce maintenance ces poteaux et câ 2 age",
+ "acheteur": "Commune de Demnate représentée par le président du conseil communal de Demnate",
+ "procedure": null,
+ "categorie": "Travaux",
+ "date_limite_plis": "16/09/2025",
+ "lieu_ouverture": "la salle de réunion sise au siège de la commune de Demnate",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "16/09/2025",
+ "justification": null,
+ "infructueux": false,
+ "attributaire": "IRELECA dépasse es crédits alloués",
+ "montant_attribue": null,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "Société IRELECA",
+   "montant_acte_engagement": 461052.0,
+   "montant_apres_verification": 461052.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "IRELECA dépasse es crédits alloués",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 2,
+ "alertes_ocr": [
+  "« Société IRELECA » absent de la liste des plis déposés (nom mal lu ?).",
+  "« IRELECA dépasse es crédits alloués » absent de la liste des plis déposés (nom mal lu ?).",
+  "Montant de l'attributaire « IRELECA dépasse es crédits alloués » non trouvé."
+ ],
+ "notes_ocr": [],
+ "qualite": "attribution"
+}

@@ -1,0 +1,60 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "832438",
+ "orgAcronyme": "g3h",
+ "reference_pv": "112/2024",
+ "nouveau": true,
+ "reference": "112/2024",
+ "objet": "L’achèvement des travaux de consolidation, de restauration et de réhabilitation de Draz",
+ "acheteur": null,
+ "procedure": "marché négocié",
+ "categorie": "Travaux",
+ "date_limite_plis": "20/09/2024",
+ "lieu_ouverture": "Siège de l’ADER-Fès",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "26/09/2024",
+ "justification": "Le concurrent ayant présenté une offre financière avantageuse après négociation.",
+ "infructueux": false,
+ "attributaire": "Société GHARB RESEAUX SARL",
+ "montant_attribue": 1904844.0,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "Société AMANHA WORLD TRADING SARL",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_dossier_administratif_technique",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Société GHARB RESEAUX SARL",
+   "montant_acte_engagement": 1904844.0,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Société RENOVENT SARL",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_dossier_administratif_technique",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 3,
+ "alertes_ocr": [],
+ "notes_ocr": [
+  "Maître d'ouvrage absent du PV (utiliser l'acheteur public du portail)."
+ ],
+ "qualite": "attribution"
+}

@@ -1,0 +1,106 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "954904",
+ "orgAcronyme": "q0x",
+ "reference_pv": null,
+ "nouveau": true,
+ "reference": null,
+ "objet": "Aménagement de la piscine communale",
+ "acheteur": "Commune de Khénifra",
+ "procedure": "appel d'offres ouvert national",
+ "categorie": "Travaux",
+ "date_limite_plis": "19/11/2025",
+ "lieu_ouverture": "Bureau du Président",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": null,
+ "justification": null,
+ "infructueux": false,
+ "attributaire": null,
+ "montant_attribue": null,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "SROUCARRIERE RIMSUD",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "RIMSUD",
+   "montant_acte_engagement": 823942.74,
+   "montant_apres_verification": 1825442.74,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "STE SOMEVTRA SARL",
+   "montant_acte_engagement": 1830661.61,
+   "montant_apres_verification": 1830661.61,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "BATIRENO & EQUIPEMENT SARL",
+   "montant_acte_engagement": 1825365.72,
+   "montant_apres_verification": 1825365.72,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "STE VOIRIES MODERNES SARL",
+   "montant_acte_engagement": 1848342.06,
+   "montant_apres_verification": 1848342.06,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "STE TAMZAOURT SROUCARRIERE",
+   "montant_acte_engagement": 822436.14,
+   "montant_apres_verification": 2058624.77,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "INFRACONSTRUCTION -DA non signé",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_dossier_administratif_technique",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 7,
+ "alertes_ocr": [
+  "« RIMSUD » absent de la liste des plis déposés (nom mal lu ?).",
+  "« STE SOMEVTRA SARL » absent de la liste des plis déposés (nom mal lu ?).",
+  "« BATIRENO & EQUIPEMENT SARL » absent de la liste des plis déposés (nom mal lu ?).",
+  "« STE VOIRIES MODERNES SARL » absent de la liste des plis déposés (nom mal lu ?).",
+  "« STE TAMZAOURT SROUCARRIERE » absent de la liste des plis déposés (nom mal lu ?).",
+  "Attributaire non trouvé."
+ ],
+ "notes_ocr": [
+  "« SROUCARRIERE RIMSUD » absent de la liste des plis déposés (nom mal lu ?).",
+  "« INFRACONSTRUCTION -DA non signé » absent de la liste des plis déposés (nom mal lu ?).",
+  "« RIMSUD » : montant rectifié de 823 942.74 à 1 825 442.74 DH.",
+  "« STE TAMZAOURT SROUCARRIERE » : montant rectifié de 822 436.14 à 2 058 624.77 DH."
+ ],
+ "qualite": "complet"
+}

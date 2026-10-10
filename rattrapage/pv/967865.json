@@ -1,0 +1,71 @@
+{
+ "source": "extrait_docx",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "967865",
+ "orgAcronyme": "s3z",
+ "reference_pv": "25/2025",
+ "nouveau": true,
+ "reference": "25/2025",
+ "objet": "TRAVAUX D’AMENAGEMENT DE L’AVENUE SAHRAE AL MAGHRIBIA DESSERVANT LES QUARTIERS SOUS EQUIPES A LA COMMUNE DE KHEMISSET",
+ "acheteur": "Commune de Khémisset",
+ "procedure": "appel d'offres ouvert national",
+ "categorie": "Travaux",
+ "date_limite_plis": "03/12/2025",
+ "lieu_ouverture": "Commune de Khémisset",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "04/12/2025",
+ "justification": "offre économiquement la plus avantageuse.",
+ "infructueux": false,
+ "attributaire": "STE ETABLISSEMENT ASSREM NEGOC",
+ "montant_attribue": 6354120.0,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "STE ABMB",
+   "montant_acte_engagement": 6337260.0,
+   "montant_apres_verification": 6337260.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "STE LOGIFOR",
+   "montant_acte_engagement": 6731760.0,
+   "montant_apres_verification": 6337260.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "GLOBALE TRAVAUX PUBLICS",
+   "montant_acte_engagement": 6740340.0,
+   "montant_apres_verification": 6731760.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "STE ETABLISSEMENT ASSREM NEGOC",
+   "montant_acte_engagement": 6354120.0,
+   "montant_apres_verification": 6740340.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 4,
+ "alertes_ocr": [],
+ "notes_ocr": [
+  "« STE LOGIFOR » : montant rectifié de 6 731 760.00 à 6 337 260.00 DH.",
+  "« GLOBALE TRAVAUX PUBLICS » : montant rectifié de 6 740 340.00 à 6 731 760.00 DH.",
+  "« STE ETABLISSEMENT ASSREM NEGOC » : montant rectifié de 6 354 120.00 à 6 740 340.00 DH."
+ ],
+ "qualite": "complet"
+}

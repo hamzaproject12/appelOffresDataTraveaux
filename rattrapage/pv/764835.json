@@ -1,0 +1,74 @@
+{
+ "source": "extrait_docx",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "764835",
+ "orgAcronyme": "j8k",
+ "reference_pv": null,
+ "nouveau": true,
+ "reference": null,
+ "objet": "La réalisation des travaux de raccordement au réseau 2ème catégorie du poste de transformation électrique de livraison du Grand Théâtre d’Agadir, sis à la Commune Territoriale d’Agadir, Préfecture d’Agadir Ida Outanane",
+ "acheteur": null,
+ "procedure": "appel d'offres ouvert",
+ "categorie": "Travaux",
+ "date_limite_plis": "13/12/2023",
+ "lieu_ouverture": "Division des Marchés de la Société Al Omrane Souss Massa",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "15/12/2023",
+ "justification": "Concurrent représentant l’offre la plus avantageuse.",
+ "infructueux": false,
+ "attributaire": "ELECTRIKLIM",
+ "montant_attribue": 686130.48,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "Numéro",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "CCRE",
+   "montant_acte_engagement": 703177.2,
+   "montant_apres_verification": 703177.2,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "ALPHA GTP",
+   "montant_acte_engagement": 731588.4,
+   "montant_apres_verification": 731588.4,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "ELECTRIKLIM",
+   "montant_acte_engagement": 686130.48,
+   "montant_apres_verification": 686130.48,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 4,
+ "alertes_ocr": [
+  "« CCRE » absent de la liste des plis déposés (nom mal lu ?).",
+  "« ALPHA GTP » absent de la liste des plis déposés (nom mal lu ?).",
+  "« ELECTRIKLIM » absent de la liste des plis déposés (nom mal lu ?)."
+ ],
+ "notes_ocr": [
+  "« Numéro » absent de la liste des plis déposés (nom mal lu ?).",
+  "Maître d'ouvrage absent du PV (utiliser l'acheteur public du portail)."
+ ],
+ "qualite": "complet"
+}

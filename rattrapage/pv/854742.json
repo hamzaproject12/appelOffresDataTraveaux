@@ -1,0 +1,56 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "854742",
+ "orgAcronyme": "q9t",
+ "reference_pv": "179/2024/CHUIRC",
+ "nouveau": true,
+ "reference": "179/2024/CHUIRC",
+ "objet": null,
+ "acheteur": "CENTRE HOSPITALO UNIVERSITAIRE IBN ROCHD",
+ "procedure": null,
+ "categorie": "Travaux",
+ "date_limite_plis": "19/09/2024",
+ "lieu_ouverture": "Direction du Centre Hospitalo-Universitaire Ibn Rochd",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "28/11/2024",
+ "justification": "offre économiquement la plus avantageuse selon les critères de jugement cités dans le règlement de la consultation.",
+ "infructueux": false,
+ "attributaire": null,
+ "montant_attribue": null,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "ACQUISITION MAINTENANCE BARAGAS 4",
+   "montant_acte_engagement": 86400.0,
+   "montant_apres_verification": 10800.0,
+   "autres_montants": [
+    10800.0
+   ],
+   "lots": [],
+   "statut": "ecarte_offre_financiere",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "SOUSS RELATION LOURDS 4",
+   "montant_acte_engagement": 68400.0,
+   "montant_apres_verification": 68400.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_dossier_administratif_technique",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 2,
+ "alertes_ocr": [
+  "Attributaire non trouvé.",
+  "« ACQUISITION MAINTENANCE BARAGAS 4 » : écart anormal entre montant initial et vérifié (lecture à vérifier)."
+ ],
+ "notes_ocr": [
+  "« ACQUISITION MAINTENANCE BARAGAS 4 » : montant rectifié de 86 400.00 à 10 800.00 DH."
+ ],
+ "qualite": "complet"
+}

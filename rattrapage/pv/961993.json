@@ -1,0 +1,109 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "961993",
+ "orgAcronyme": "g3h",
+ "reference_pv": "04/2025/FDR",
+ "nouveau": true,
+ "reference": "04/2025/FDR",
+ "objet": "Travaux d'entretien de la route non classé reliant Srou et Taskart à la commune Lebhri (1ére tranche)",
+ "acheteur": "Le Gouverneur de la Province de Khénifra",
+ "procedure": "appel d'offres ouvert simplifié",
+ "categorie": "Travaux",
+ "date_limite_plis": "28/11/2025",
+ "lieu_ouverture": "Bureau de Monsieur le Secrétaire Général de la Province de Khénifra",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "08/12/2025",
+ "justification": "offre économiquement la plus avantageuse.",
+ "infructueux": false,
+ "attributaire": "Sté DEPAVE SARL-AU , Imm 7 rue Moulay Rachid Appt n° 10 4ème etage Hassan Rabat",
+ "montant_attribue": 450606.0,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "Sté JOUDITRAV SARL AU, Quartier AI Amal Aghbalou Azilal",
+   "montant_acte_engagement": 449256.0,
+   "montant_apres_verification": 449256.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Sté GALAXY NORD (SARL), AV Sanhaja rue AI Khawarizmi Res Sabour N°",
+   "montant_acte_engagement": 34465.0,
+   "montant_apres_verification": 34465715.2,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Sté HAMMANI MULTI TRAVAUX, 59 Av Mly Abdeaziz residence My Abdelaziz rue 4 Khenifra",
+   "montant_acte_engagement": 450513.08,
+   "montant_apres_verification": 450513.08,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Sté MTM STAR SARL , App n° 52 Etg 1 Lot Montazah TR/2 S/2 Meknes",
+   "montant_acte_engagement": 452232.0,
+   "montant_apres_verification": 452232.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Sté DEPAVE SARL-AU , Imm 7 rue Moulay Rachid Appt n° 10 4ème etage Hassan Rabat",
+   "montant_acte_engagement": 450606.0,
+   "montant_apres_verification": 450606.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Sté ZAY ANE JARDINE FR, rue 17 N 34 la scierie Khenifra",
+   "montant_acte_engagement": 453000.0,
+   "montant_apres_verification": 453000.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Sté AAH CIVIL ENGINEERING SARL AU",
+   "montant_acte_engagement": 450633.6,
+   "montant_apres_verification": 8450633.6,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_offre_financiere",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Sté VITRAD SARL, Lot Annasr Imm 106 appartement 09 Temara",
+   "montant_acte_engagement": 450192.0,
+   "montant_apres_verification": 450192.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 8,
+ "alertes_ocr": [
+  "« Sté GALAXY NORD (SARL), AV Sanhaja rue AI Khawarizmi Res Sabour N° » : écart anormal entre montant initial et vérifié (lecture à vérifier).",
+  "« Sté AAH CIVIL ENGINEERING SARL AU » : écart anormal entre montant initial et vérifié (lecture à vérifier)."
+ ],
+ "notes_ocr": [
+  "« Sté GALAXY NORD (SARL)  AV Sanhaja rue AI Khawarizmi Res Sabour N° » : montant rectifié de 34 465.00 à 34 465 715.20 DH.",
+  "« Sté AAH CIVIL ENGINEERING SARL AU » : montant rectifié de 450 633.60 à 8 450 633.60 DH."
+ ],
+ "qualite": "complet"
+}

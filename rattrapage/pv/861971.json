@@ -1,0 +1,60 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "861971",
+ "orgAcronyme": "b1d",
+ "reference_pv": "104/CL/2024",
+ "nouveau": true,
+ "reference": "104/CL/2024",
+ "objet": null,
+ "acheteur": "LA COMMUNE DE LAAYOUNE",
+ "procedure": null,
+ "categorie": "Travaux",
+ "date_limite_plis": "20/12/2024",
+ "lieu_ouverture": "La Salle De Réunion De L'annexe De La Commune De Lasyoune",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": null,
+ "justification": "l’offre le mieux disant.",
+ "infructueux": false,
+ "attributaire": "SURRAT SARL",
+ "montant_attribue": 2855678.4,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "SURBAT SARL",
+   "montant_acte_engagement": 2855678.4,
+   "montant_apres_verification": 2855678.4,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "AL IKHIASS SERVICES SARL",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "depose",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "SURRAT SARL",
+   "montant_acte_engagement": 2855678.4,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 3,
+ "alertes_ocr": [
+  "« SURRAT SARL » absent de la liste des plis déposés (nom mal lu ?)."
+ ],
+ "notes_ocr": [],
+ "qualite": "complet"
+}

@@ -1,0 +1,60 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "965791",
+ "orgAcronyme": "e5w",
+ "reference_pv": null,
+ "nouveau": true,
+ "reference": null,
+ "objet": null,
+ "acheteur": "Arroncissement AGDAL",
+ "procedure": "appel d'offres ouvert national",
+ "categorie": "Travaux",
+ "date_limite_plis": "26/11/2025",
+ "lieu_ouverture": "la salle de réunion en réz de chaussé de l’Arrondissement Agdal Conformément à l'avis publié dans le Portail des marchés Publics en date du 31/10/2025",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "08/12/2025",
+ "justification": "L'offre économiquement la plus avantageuse par rapport au prix de référence.",
+ "infructueux": false,
+ "attributaire": "Sté ABMB",
+ "montant_attribue": 1161000.0,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "Sté ABMB",
+   "montant_acte_engagement": 1161000.0,
+   "montant_apres_verification": 1161000.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Sté GRANDE LIGNE ROUTIERE",
+   "montant_acte_engagement": 1170000.0,
+   "montant_apres_verification": 1105200.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Sté MEDI EXPO",
+   "montant_acte_engagement": 1205400.0,
+   "montant_apres_verification": 1205400.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 3,
+ "alertes_ocr": [],
+ "notes_ocr": [
+  "« Sté GRANDE LIGNE ROUTIERE » : montant rectifié de 1 170 000.00 à 1 105 200.00 DH."
+ ],
+ "qualite": "complet"
+}

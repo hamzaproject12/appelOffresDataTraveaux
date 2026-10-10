@@ -1,0 +1,88 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "766567",
+ "orgAcronyme": "o8p",
+ "reference_pv": "T5778/PIC",
+ "nouveau": true,
+ "reference": "T5778/PIC",
+ "objet": "du lot k des du lot d'ouverture retenu Retenue | travaux de la",
+ "acheteur": null,
+ "procedure": "appel d'offres ouvert",
+ "categorie": "Travaux",
+ "date_limite_plis": "01/11/2023",
+ "lieu_ouverture": "Institut de Formation et de Développement de Compétences l’'ONCF wwWw.oncf.ma Site institutionnel ONCF",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "20/12/2023",
+ "justification": null,
+ "infructueux": false,
+ "attributaire": null,
+ "montant_attribue": null,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "DIMENSION DIGITALE MAROC (DDM) (lots n° 1, 2 et 3) BO TECHNOLOGY",
+   "montant_acte_engagement": 7135122.0,
+   "montant_apres_verification": null,
+   "autres_montants": [
+    4137918.0,
+    5694086.4
+   ],
+   "lots": [
+    "1"
+   ],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "TRAVAUX ELECTRIQUES ET REALISATION (TER) LUMIERES ET TECHNOLOGIES",
+   "montant_acte_engagement": 9807501.3,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [
+    "1"
+   ],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "ABC INTEL (lots n° 1, 2 et 3) AXIOMS SOLUTIONS MAROC",
+   "montant_acte_engagement": 5417564.41,
+   "montant_apres_verification": null,
+   "autres_montants": [
+    3311148.66,
+    4358054.74
+   ],
+   "lots": [
+    "1"
+   ],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "INGENIERIA Y CONTROL FERROVIARIO (ICF)",
+   "montant_acte_engagement": 7181863.44,
+   "montant_apres_verification": null,
+   "autres_montants": [
+    3077922.0,
+    3717984.0
+   ],
+   "lots": [
+    "1"
+   ],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 4,
+ "alertes_ocr": [
+  "Attributaire non trouvé."
+ ],
+ "notes_ocr": [
+  "Maître d'ouvrage absent du PV (utiliser l'acheteur public du portail)."
+ ],
+ "qualite": "complet"
+}

@@ -1,0 +1,157 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "923705",
+ "orgAcronyme": "q1s",
+ "reference_pv": "19/25/DPA1F",
+ "nouveau": true,
+ "reference": "19/25/DPA1F",
+ "objet": "Travaux de création et équipement des points d’eau à travers Cercle de Lakhssas, Province de Sidi Ifni. (2 Lots)",
+ "acheteur": "DPA SIDI IFNI",
+ "procedure": "appel d'offres ouvert",
+ "categorie": "Travaux",
+ "date_limite_plis": null,
+ "lieu_ouverture": "la salle de réunion de la DPA de Sidi Ifni",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "04/07/2025",
+ "justification": null,
+ "infructueux": false,
+ "attributaire": "STE HR DES EQUIPEMENT SARL",
+ "montant_attribue": 359400.0,
+ "attributaires_par_lot": [
+  {
+   "lot": "2",
+   "attributaire": "STE HR DES EQUIPEMENT SARL",
+   "montant": 359400.0
+  },
+  {
+   "lot": "2",
+   "attributaire": "SOCIETE RIAF SARL SLT \\E",
+   "montant": null
+  }
+ ],
+ "soumissionnaires": [
+  {
+   "nom": "STE PENEDO SARL",
+   "montant_acte_engagement": 363480.0,
+   "montant_apres_verification": null,
+   "autres_montants": [
+    363480.0
+   ],
+   "lots": [
+    "1",
+    "2"
+   ],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "STE AYSURVE SECURITE SARL",
+   "montant_acte_engagement": 324480.0,
+   "montant_apres_verification": null,
+   "autres_montants": [
+    324480.0
+   ],
+   "lots": [
+    "1",
+    "2"
+   ],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "STE RIAF SARL",
+   "montant_acte_engagement": 363120.0,
+   "montant_apres_verification": null,
+   "autres_montants": [
+    363120.0,
+    357210.0
+   ],
+   "lots": [
+    "1",
+    "2"
+   ],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "STE HR DES EQUIPEMENT SARL",
+   "montant_acte_engagement": 359400.0,
+   "montant_apres_verification": null,
+   "autres_montants": [
+    359400.0
+   ],
+   "lots": [
+    "1",
+    "2"
+   ],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "STE S.T.S PROJETS SARL",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [
+    "1",
+    "2"
+   ],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "STE MONAPOWER SARL",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [
+    "1",
+    "2"
+   ],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "\\ Ye « CŸA",
+   "montant_acte_engagement": 352200.0,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [
+    "1"
+   ],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "SOCIETE RIAF SARL SLT \\E",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [
+    "2"
+   ],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 8,
+ "alertes_ocr": [
+  "« STE PENEDO SARL » absent de la liste des plis déposés (nom mal lu ?).",
+  "« STE AYSURVE SECURITE SARL » absent de la liste des plis déposés (nom mal lu ?).",
+  "« STE RIAF SARL » absent de la liste des plis déposés (nom mal lu ?).",
+  "« STE HR DES EQUIPEMENT SARL » absent de la liste des plis déposés (nom mal lu ?).",
+  "« \\ Ye « CŸA » absent de la liste des plis déposés (nom mal lu ?).",
+  "« SOCIETE RIAF SARL SLT \\E » absent de la liste des plis déposés (nom mal lu ?).",
+  "Montant de l'attributaire « SOCIETE RIAF SARL SLT \\E » non trouvé."
+ ],
+ "notes_ocr": [
+  "« STE S.T.S PROJETS SARL » absent de la liste des plis déposés (nom mal lu ?).",
+  "« STE MONAPOWER SARL » absent de la liste des plis déposés (nom mal lu ?).",
+  "Marché alloti (2 lots)."
+ ],
+ "qualite": "complet"
+}

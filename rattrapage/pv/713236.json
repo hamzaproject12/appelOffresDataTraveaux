@@ -1,0 +1,58 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "713236",
+ "orgAcronyme": "p1v",
+ "reference_pv": "02/CTKRIDID/2023",
+ "nouveau": true,
+ "reference": "02/CTKRIDID/2023",
+ "objet": "Travaux de Construction d'une délimitation des places des vendeurs des poulailles au souk hebdomadaire à Sebt LAMAARIF",
+ "acheteur": "Commune KRIDID «<",
+ "procedure": "appel d'offres ouvert",
+ "categorie": "Travaux",
+ "date_limite_plis": null,
+ "lieu_ouverture": "salle de réunion au siège de la Commune KRIDID",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "03/05/2023",
+ "justification": "l'offre la moins disante et la plus intéressante.",
+ "infructueux": false,
+ "attributaire": "Ste ZIN 2M TRAV",
+ "montant_attribue": 40386.6,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "Ste NG BTP",
+   "montant_acte_engagement": 49572.0,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Ste ZIN 2M TRAV",
+   "montant_acte_engagement": 40386.6,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": true
+  },
+  {
+   "nom": "Ste KAIDI TRAVAUX",
+   "montant_acte_engagement": 49596.6,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": true
+  }
+ ],
+ "nombre_soumissionnaires": 3,
+ "alertes_ocr": [],
+ "notes_ocr": [],
+ "qualite": "complet"
+}

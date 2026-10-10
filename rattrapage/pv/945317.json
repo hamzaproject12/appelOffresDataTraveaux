@@ -1,0 +1,94 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "945317",
+ "orgAcronyme": "g3h",
+ "reference_pv": "11/BG/2025",
+ "nouveau": true,
+ "reference": "11/BG/2025",
+ "objet": "TRAVAUX D'AMÉNAGEMENT DES POSTES DE COMMANDEMENT (CAIDAT AIT OUDRIM ET CAIDAT IDA OUGNIDIF) RELEVANT DE LA PROVINCE CHTOUKA AIT BAHA",
+ "acheteur": "PROVINCE DE CHTOUKA AIT BAHA",
+ "procedure": "appel d'offres ouvert simplifié",
+ "categorie": "Travaux",
+ "date_limite_plis": "21/10/2025",
+ "lieu_ouverture": "À la division des Affaires Financières de la Province de Chtouka Ait Baha. au Bureau n° 21",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": null,
+ "justification": null,
+ "infructueux": false,
+ "attributaire": null,
+ "montant_attribue": null,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "STE SECOMATOS SARL",
+   "montant_acte_engagement": 516356.4,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "STE RAHA GROUP SARL AU",
+   "montant_acte_engagement": 565182.0,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "STE EL JAIRA EL ARABIA DES TRAVAUX SARL AU",
+   "montant_acte_engagement": 517669.2,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "STE HATOPRI SARL",
+   "montant_acte_engagement": 520239.6,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "STE VELACEM",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_dossier_administratif_technique",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "CTS ). di",
+   "montant_acte_engagement": 520239.6,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 6,
+ "alertes_ocr": [
+  "« STE SECOMATOS SARL » absent de la liste des plis déposés (nom mal lu ?).",
+  "« STE RAHA GROUP SARL AU » absent de la liste des plis déposés (nom mal lu ?).",
+  "« STE EL JAIRA EL ARABIA DES TRAVAUX SARL AU » absent de la liste des plis déposés (nom mal lu ?).",
+  "« STE HATOPRI SARL » absent de la liste des plis déposés (nom mal lu ?).",
+  "« CTS ). di » absent de la liste des plis déposés (nom mal lu ?).",
+  "Attributaire non trouvé."
+ ],
+ "notes_ocr": [
+  "« STE VELACEM » absent de la liste des plis déposés (nom mal lu ?)."
+ ],
+ "qualite": "complet"
+}

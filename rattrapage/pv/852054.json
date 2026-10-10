@@ -1,0 +1,64 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "852054",
+ "orgAcronyme": "p8x",
+ "reference_pv": "64/AOO-INV/2024",
+ "nouveau": true,
+ "reference": "64/AOO-INV/2024",
+ "objet": null,
+ "acheteur": null,
+ "procedure": "appel d'offres ouvert",
+ "categorie": "Travaux",
+ "date_limite_plis": "01/11/2024",
+ "lieu_ouverture": "La salle de réunion à la Direction Provinciale à Tinghir sise à rue Mohamed V à Tinghir La salle de réunion à la Direction Provinciale à Tinghir sise à rue Mohamed V à Tinghir",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "05/11/2024",
+ "justification": "L'OFFRE LA PLUS AVANTAGEUSE",
+ "infructueux": false,
+ "attributaire": "(en ) T.TC",
+ "montant_attribue": 730662.0,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "STE S.T.Q",
+   "montant_acte_engagement": 737376.0,
+   "montant_apres_verification": 737376.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "STE ASBG CONSTRUCTION SARL",
+   "montant_acte_engagement": 735108.0,
+   "montant_apres_verification": 735108.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "(en ) T.TC",
+   "montant_acte_engagement": 730662.0,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 3,
+ "alertes_ocr": [
+  "« STE S.T.Q » absent de la liste des plis déposés (nom mal lu ?).",
+  "« STE ASBG CONSTRUCTION SARL » absent de la liste des plis déposés (nom mal lu ?).",
+  "« (en ) T.TC » absent de la liste des plis déposés (nom mal lu ?)."
+ ],
+ "notes_ocr": [
+  "Maître d'ouvrage absent du PV (utiliser l'acheteur public du portail)."
+ ],
+ "qualite": "complet"
+}

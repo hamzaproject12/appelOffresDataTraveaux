@@ -1,0 +1,62 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "932569",
+ "orgAcronyme": "z9k",
+ "reference_pv": "05/2025/CD",
+ "nouveau": true,
+ "reference": "05/2025/CD",
+ "objet": "Gros travaux de maintenance du réseau d’assainissement",
+ "acheteur": "Commune de Demnate représentée par le président du conseil communal de Demnate",
+ "procedure": null,
+ "categorie": "Travaux",
+ "date_limite_plis": "16/07/2025",
+ "lieu_ouverture": "la salle de réunion sise au siège de la commune de Demnate",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": null,
+ "justification": null,
+ "infructueux": true,
+ "attributaire": null,
+ "montant_attribue": null,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "Société SORAMETE DE TRAVAUX",
+   "montant_acte_engagement": 1835742.96,
+   "montant_apres_verification": 1835742.96,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Société MIRA BRIQUE",
+   "montant_acte_engagement": 1827891.48,
+   "montant_apres_verification": 1827891.48,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": true
+  },
+  {
+   "nom": "Société GEBOUT-SERVICE",
+   "montant_acte_engagement": 1813440.12,
+   "montant_apres_verification": 1813440.12,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": true
+  }
+ ],
+ "nombre_soumissionnaires": 3,
+ "alertes_ocr": [
+  "« Société SORAMETE DE TRAVAUX » absent de la liste des plis déposés (nom mal lu ?).",
+  "« Société MIRA BRIQUE » absent de la liste des plis déposés (nom mal lu ?).",
+  "« Société GEBOUT-SERVICE » absent de la liste des plis déposés (nom mal lu ?)."
+ ],
+ "notes_ocr": [],
+ "qualite": "complet"
+}

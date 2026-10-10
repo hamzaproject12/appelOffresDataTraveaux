@@ -1,0 +1,71 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "890568",
+ "orgAcronyme": "g3h",
+ "reference_pv": "AO/0525",
+ "nouveau": true,
+ "reference": "AO/0525",
+ "objet": "Travaux de revêtement en dalles moquettes des espaces bureaux au sein du siège du FEC",
+ "acheteur": null,
+ "procedure": "appel d'offres ouvert",
+ "categorie": "Travaux",
+ "date_limite_plis": "25/03/2025",
+ "lieu_ouverture": "Siège du FEC",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": null,
+ "justification": "MAÇONIX est le concurrent le moins disant. pate d'achèvement des travaux de la commission d'appel d'offres : 24/04/2025 dé Rabat, le LSANROAS Paurie Go eur feu 2e | TER 1/1 Hassan RAHMANI Espace Oudayas, angle avenue Annakhil et avenue Ben Barka — B.P, 2175 Ha A ay Ry ad — Rabat BU — au (2 2175 mue + Sy Ge EU 9 CE Ju 91 5 dla st pa à",
+ "infructueux": false,
+ "attributaire": "l MAÇONIX",
+ "montant_attribue": 117600.0,
+ "attributaires_par_lot": [
+  {
+   "lot": null,
+   "attributaire": "l MAÇONIX",
+   "montant": 117600.0
+  },
+  {
+   "lot": null,
+   "attributaire": "BE MAÇONIX",
+   "montant": 113748.0
+  }
+ ],
+ "soumissionnaires": [
+  {
+   "nom": "SEPARATOR",
+   "montant_acte_engagement": 125280.0,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "BE MAÇONIX",
+   "montant_acte_engagement": 117600.0,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "GREENWOODS CONSTRUCI ION",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_dossier_administratif_technique",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 3,
+ "alertes_ocr": [],
+ "notes_ocr": [
+  "Maître d'ouvrage absent du PV (utiliser l'acheteur public du portail)."
+ ],
+ "qualite": "complet"
+}

@@ -1,0 +1,84 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "864890",
+ "orgAcronyme": "j8k",
+ "reference_pv": null,
+ "nouveau": true,
+ "reference": null,
+ "objet": "La réalisation des Travaux de génie-civil de la desserte téléphonique du projet Al Manar Founty sis à la commune territoriale d’Agadir, préfecture d’Agadir Ida Outanane",
+ "acheteur": null,
+ "procedure": "appel d'offres ouvert",
+ "categorie": "Travaux",
+ "date_limite_plis": "03/01/2025",
+ "lieu_ouverture": "Division des Marchés de la Société Al Omrane souss Massa",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "09/01/2025",
+ "justification": "Concurrent représentant l’offre la plus avantageuse.",
+ "infructueux": false,
+ "attributaire": "STE DSBS",
+ "montant_attribue": 580383.96,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "CENTRALE D’INGENIERIE ET SERVICES (CIS)",
+   "montant_acte_engagement": 654279.0,
+   "montant_apres_verification": 654279.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "GALA INSTATION ET AUTOMATE TECH (GIAT)",
+   "montant_acte_engagement": 654279.0,
+   "montant_apres_verification": 654279.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "PERFORMANCE TECHNOLOGY",
+   "montant_acte_engagement": 608094.6,
+   "montant_apres_verification": 608094.6,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "ALPHA GTP",
+   "montant_acte_engagement": 661976.4,
+   "montant_apres_verification": 661976.4,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "STE DSBS",
+   "montant_acte_engagement": 580383.96,
+   "montant_apres_verification": 580383.96,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 5,
+ "alertes_ocr": [
+  "« CENTRALE D’INGENIERIE ET SERVICES (CIS) » absent de la liste des plis déposés (nom mal lu ?).",
+  "« GALA INSTATION ET AUTOMATE TECH (GIAT) » absent de la liste des plis déposés (nom mal lu ?).",
+  "« PERFORMANCE TECHNOLOGY » absent de la liste des plis déposés (nom mal lu ?).",
+  "« ALPHA GTP » absent de la liste des plis déposés (nom mal lu ?).",
+  "« STE DSBS » absent de la liste des plis déposés (nom mal lu ?)."
+ ],
+ "notes_ocr": [
+  "Maître d'ouvrage absent du PV (utiliser l'acheteur public du portail)."
+ ],
+ "qualite": "complet"
+}

@@ -1,0 +1,54 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "1017393",
+ "orgAcronyme": "g3h",
+ "reference_pv": "003/2025/AS",
+ "nouveau": true,
+ "reference": "003/2025/AS",
+ "objet": null,
+ "acheteur": null,
+ "procedure": null,
+ "categorie": "Travaux",
+ "date_limite_plis": "15/01/2026",
+ "lieu_ouverture": "Salle de réunion de la Société Régionale Multiservices Tanger-Tétouan-Al Hoceima « SRM-TTA »",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "06/06/2076",
+ "justification": "L'offre la plus avantageuse ayant obtenue la note globale la plus élevée, conforme aux critères d'attribution prévues par le règlement de consultation de l'appel d'offres.",
+ "infructueux": false,
+ "attributaire": null,
+ "montant_attribue": null,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "GROUPEMENT (ATNER/ARGINTA), SNCE, GROUPEMENT (CIRCEAULAIR/EKOPAK), GROUPEMENT (WATEC/BIOWORKS), GROUPEMENT (WATERLEAU/NGE CONTRACTING)",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "depose",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "GROUP/NGE CONTRACTING)",
+   "montant_acte_engagement": 495010224.0,
+   "montant_apres_verification": 495010224.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 2,
+ "alertes_ocr": [
+  "« GROUP/NGE CONTRACTING) » absent de la liste des plis déposés (nom mal lu ?).",
+  "Attributaire non trouvé."
+ ],
+ "notes_ocr": [
+  "Maître d'ouvrage absent du PV (utiliser l'acheteur public du portail)."
+ ],
+ "qualite": "attribution"
+}

@@ -1,0 +1,299 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "965457",
+ "orgAcronyme": "o8p",
+ "reference_pv": "192-25-AOO",
+ "nouveau": true,
+ "reference": "192-25-AOO",
+ "objet": "Travaux de mise à niveau des murs de clôture, d'assainissement, chemins de ronde, et autres travaux divers aux différents aéroports",
+ "acheteur": "l'OFFICE NATIONAL DES AEROPORTS",
+ "procedure": "appel d'offres ouvert",
+ "categorie": "Travaux",
+ "date_limite_plis": "04/12/2025",
+ "lieu_ouverture": "La salle de réunion de la Direction des Achaïs et de la Logistique",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "18/12/2025",
+ "justification": "L'offre la plus avantageuse.",
+ "infructueux": false,
+ "attributaire": "GROUPEMENT TOROXK / SOBATAGOUMI",
+ "montant_attribue": 59260080.0,
+ "attributaires_par_lot": [
+  {
+   "lot": "1",
+   "attributaire": "GROUPEMENT TOROXK / SOBATAGOUMI",
+   "montant": 59260080.0
+  },
+  {
+   "lot": "2",
+   "attributaire": "STE EM2TR",
+   "montant": 5475360.0
+  },
+  {
+   "lot": "3",
+   "attributaire": "SOCIETE ETABLISSEMENT GENERAL DE REVETEMENTS lE.G.R",
+   "montant": 5686500.0
+  },
+  {
+   "lot": "4",
+   "attributaire": "D'EXECUTION DES TRAVAUX ROUTIERE ET OUVRAGE (SETRO)",
+   "montant": 16030020.0
+  }
+ ],
+ "soumissionnaires": [
+  {
+   "nom": "GROUPEMENT TOROXK / SOBATAGOUMI",
+   "montant_acte_engagement": 59260080.0,
+   "montant_apres_verification": 59260080.0,
+   "autres_montants": [],
+   "lots": [
+    "1"
+   ],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "STE MBI SCAVI",
+   "montant_acte_engagement": 63001320.0,
+   "montant_apres_verification": 63001320.0,
+   "autres_montants": [
+    63001320.0,
+    5774400.0,
+    6450600.0
+   ],
+   "lots": [
+    "1",
+    "2",
+    "3"
+   ],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "GROUPEMENT ALTATRAV / EMACOTRA",
+   "montant_acte_engagement": 70965600.0,
+   "montant_apres_verification": null,
+   "autres_montants": [
+    70965600.0
+   ],
+   "lots": [
+    "1"
+   ],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "GROUPEMENT ALEQ / CAP TP",
+   "montant_acte_engagement": 68916154.8,
+   "montant_apres_verification": 68916154.8,
+   "autres_montants": [
+    68916154.8
+   ],
+   "lots": [
+    "1"
+   ],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "ALEQ",
+   "montant_acte_engagement": 6310255.2,
+   "montant_apres_verification": 6310255.2,
+   "autres_montants": [
+    6310255.2
+   ],
+   "lots": [
+    "1",
+    "2",
+    "3"
+   ],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "STE EM2TR",
+   "montant_acte_engagement": 5475360.0,
+   "montant_apres_verification": 5475360.0,
+   "autres_montants": [
+    5475360.0,
+    6112380.0
+   ],
+   "lots": [
+    "1",
+    "2",
+    "3"
+   ],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "MELATRA",
+   "montant_acte_engagement": 6683340.0,
+   "montant_apres_verification": 6683340.0,
+   "autres_montants": [
+    6683340.0
+   ],
+   "lots": [
+    "1",
+    "3",
+    "4"
+   ],
+   "statut": "ecarte_dossier_administratif_technique",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "SOCIETE KAOUAFIL TRAVAUX",
+   "montant_acte_engagement": 6037800.0,
+   "montant_apres_verification": 6037800.0,
+   "autres_montants": [
+    6037800.0
+   ],
+   "lots": [
+    "1",
+    "3"
+   ],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "SOCIETE BNTP",
+   "montant_acte_engagement": 6367500.0,
+   "montant_apres_verification": 6367500.0,
+   "autres_montants": [
+    6367500.0
+   ],
+   "lots": [
+    "1",
+    "3"
+   ],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "SOCIETE ETABLISSEMENT GENERAL DE REVETEMENTS lE.G.R",
+   "montant_acte_engagement": 5686500.0,
+   "montant_apres_verification": 5686500.0,
+   "autres_montants": [],
+   "lots": [
+    "1",
+    "3"
+   ],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "GROUPEMENT BATIHALIM / NORD BATIMENT",
+   "montant_acte_engagement": 18367080.0,
+   "montant_apres_verification": 18367080.0,
+   "autres_montants": [
+    18367080.0
+   ],
+   "lots": [
+    "1",
+    "4"
+   ],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "uéoll Gljlso",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [
+    "3"
+   ],
+   "statut": "admis",
+   "admis_avec_reserve": true
+  },
+  {
+   "nom": "EXTRAIT DU PROCES VERBAL D'APPEL D'OFFRES OUVERT N° éventuelles",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [
+    "3",
+    "4"
+   ],
+   "statut": "admis",
+   "admis_avec_reserve": true
+  },
+  {
+   "nom": "D'EXECUTION DES TRAVAUX ROUTIERE ET OUVRAGE (SETRO)",
+   "montant_acte_engagement": 16030020.0,
+   "montant_apres_verification": 16030020.0,
+   "autres_montants": [
+    16030020.0
+   ],
+   "lots": [
+    "4"
+   ],
+   "statut": "attributaire",
+   "admis_avec_reserve": true
+  },
+  {
+   "nom": "ROUTIERE ET OUVRAGE COMPRISE COMPRISE (SETRO) / STE ITTO TRAVAUX",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [
+    "4"
+   ],
+   "statut": "admis",
+   "admis_avec_reserve": true
+  },
+  {
+   "nom": "GROUPEMENT TORCXK",
+   "montant_acte_engagement": 59260080.0,
+   "montant_apres_verification": null,
+   "autres_montants": [
+    59260080.0
+   ],
+   "lots": [
+    "1"
+   ],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "ER LL REVEDEMENTS",
+   "montant_acte_engagement": 5686500.0,
+   "montant_apres_verification": null,
+   "autres_montants": [
+    5686500.0
+   ],
+   "lots": [
+    "3"
+   ],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 17,
+ "alertes_ocr": [
+  "« GROUPEMENT TOROXK / SOBATAGOUMI » absent de la liste des plis déposés (nom mal lu ?).",
+  "« STE MBI SCAVI » absent de la liste des plis déposés (nom mal lu ?).",
+  "« GROUPEMENT ALTATRAV / EMACOTRA » absent de la liste des plis déposés (nom mal lu ?).",
+  "« GROUPEMENT ALEQ / CAP TP » absent de la liste des plis déposés (nom mal lu ?).",
+  "« ALEQ » absent de la liste des plis déposés (nom mal lu ?).",
+  "« STE EM2TR » absent de la liste des plis déposés (nom mal lu ?).",
+  "« MELATRA » absent de la liste des plis déposés (nom mal lu ?).",
+  "« SOCIETE KAOUAFIL TRAVAUX » absent de la liste des plis déposés (nom mal lu ?).",
+  "« SOCIETE BNTP » absent de la liste des plis déposés (nom mal lu ?).",
+  "« SOCIETE ETABLISSEMENT GENERAL DE REVETEMENTS lE.G.R » absent de la liste des plis déposés (nom mal lu ?).",
+  "« GROUPEMENT BATIHALIM / NORD BATIMENT » absent de la liste des plis déposés (nom mal lu ?).",
+  "« D'EXECUTION DES TRAVAUX ROUTIERE ET OUVRAGE (SETRO) » absent de la liste des plis déposés (nom mal lu ?).",
+  "« GROUPEMENT TORCXK » absent de la liste des plis déposés (nom mal lu ?).",
+  "« ER LL REVEDEMENTS » absent de la liste des plis déposés (nom mal lu ?)."
+ ],
+ "notes_ocr": [
+  "« uéoll Gljlso » absent de la liste des plis déposés (nom mal lu ?).",
+  "« EXTRAIT DU PROCES VERBAL D'APPEL D'OFFRES OUVERT N° éventuelles » absent de la liste des plis déposés (nom mal lu ?).",
+  "« ROUTIERE ET OUVRAGE COMPRISE COMPRISE (SETRO) / STE ITTO TRAVAUX » absent de la liste des plis déposés (nom mal lu ?).",
+  "Marché alloti (4 lots)."
+ ],
+ "qualite": "complet"
+}

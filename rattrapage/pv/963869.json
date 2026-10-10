@@ -1,0 +1,64 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "963869",
+ "orgAcronyme": "j8k",
+ "reference_pv": "88/2025",
+ "nouveau": true,
+ "reference": "88/2025",
+ "objet": "TRAVAUX D'ELECTRIFICATION 2°/1° CATEGORIE DE LA ZONE D'ACTIVITÉ ECONOMIQUE DE TINEJDAD POUR LE",
+ "acheteur": "SOCIETE AL OMRANE DRAA-TAFILALET",
+ "procedure": "appel d'offres ouvert",
+ "categorie": "Travaux",
+ "date_limite_plis": "25/11/2025",
+ "lieu_ouverture": "SOCIETE AL OMRANE DRAA-TAFILALET",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": null,
+ "justification": null,
+ "infructueux": false,
+ "attributaire": "DAREL",
+ "montant_attribue": 10736377.25,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "ALPHA GTP",
+   "montant_acte_engagement": 11471880.79,
+   "montant_apres_verification": null,
+   "autres_montants": [
+    11471880.79
+   ],
+   "lots": [],
+   "statut": "ecarte_dossier_administratif_technique",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "DAREL",
+   "montant_acte_engagement": 10736377.25,
+   "montant_apres_verification": null,
+   "autres_montants": [
+    10736377.25
+   ],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "ELECTROU",
+   "montant_acte_engagement": 11649586.34,
+   "montant_apres_verification": null,
+   "autres_montants": [
+    11649586.34
+   ],
+   "lots": [],
+   "statut": "ecarte_dossier_administratif_technique",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 3,
+ "alertes_ocr": [],
+ "notes_ocr": [],
+ "qualite": "complet"
+}

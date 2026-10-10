@@ -1,0 +1,60 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "841142",
+ "orgAcronyme": "o8p",
+ "reference_pv": "56/2024",
+ "nouveau": true,
+ "reference": "56/2024",
+ "objet": "TRAVAUX DE CONSTRUCTION DU CENTRE HOSPITALIER PROVINCIAL DE OUAZZANE LOT : TRANSPORT PNEUMATIQUE. -Maître d'ouvrage Délégué : Direction Régionale de l'Agence Nationale des Equipements Publics",
+ "acheteur": null,
+ "procedure": "appel d'offres ouvert",
+ "categorie": "Travaux",
+ "date_limite_plis": "14/10/2024",
+ "lieu_ouverture": "Direction Régionale de l'Agence Nationale des Equipements Publics de Tanger Tétouan Al Hoceima, au Centre Hospitalier Universitaire de Tanger- km 17- Route de Rabat -Tanger,",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "23/10/2024",
+ "justification": null,
+ "infructueux": false,
+ "attributaire": "RAPIBAT",
+ "montant_attribue": 2668956.0,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "BINARIOS",
+   "montant_acte_engagement": 3029730.0,
+   "montant_apres_verification": 3029730.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "RAPIBAT",
+   "montant_acte_engagement": 2668956.0,
+   "montant_apres_verification": 2668956.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "MEDICAR",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "depose",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 3,
+ "alertes_ocr": [],
+ "notes_ocr": [
+  "Maître d'ouvrage absent du PV (utiliser l'acheteur public du portail)."
+ ],
+ "qualite": "complet"
+}

@@ -1,0 +1,81 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "901434",
+ "orgAcronyme": "e5w",
+ "reference_pv": "39/AREP-FM/2025",
+ "nouveau": true,
+ "reference": "39/AREP-FM/2025",
+ "objet": "TRAVAUX DE CONSTRUCTION DE LA PISTE RELIANT KAF AL/GHAR AU DOUAR OULAD BRAHIM COMMUNE DE KAF AL GHAR (2EME TRANCHE) PROVINCE DE TAZA REGION FES-MEKNES-EN LOT UNIQUE",
+ "acheteur": "Le Directeur de l’Agence Régionale d’Exécution des Projets de la Région | Fès-Meknès",
+ "procedure": "appel d'offres ouvert national",
+ "categorie": "Travaux",
+ "date_limite_plis": "06/05/2025",
+ "lieu_ouverture": "Salle des réunions de l’Agence Régionale d’Exécution des Projets de la Région Fès-Meknès, N° 01, Angle Avenue les Nations Unids et Rue Ferhat Hachad — VN Meknès",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "28/05/2025",
+ "justification": "Le concurrent ayant l’offre économiquement la plus avantageuse.",
+ "infructueux": false,
+ "attributaire": "STE OSOFORAGE SARL",
+ "montant_attribue": 12122794.8,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "STE ENTRAMA SARL AU",
+   "montant_acte_engagement": 12987165.2,
+   "montant_apres_verification": 12982165.2,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "STE ALIAT EL HOUCINE",
+   "montant_acte_engagement": 12110373.0,
+   "montant_apres_verification": 2110373.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "STE OSOFORAGE SARL",
+   "montant_acte_engagement": 12122794.8,
+   "montant_apres_verification": 12122794.8,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "GROUPEMENT STE DRIOUACH STAR ET STE SMAT RI SARL",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_offre_technique",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "STE NEW WOY TRAV SARL AU",
+   "montant_acte_engagement": 14280973.2,
+   "montant_apres_verification": 14280973.2,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 5,
+ "alertes_ocr": [
+  "« STE ALIAT EL HOUCINE » : écart anormal entre montant initial et vérifié (lecture à vérifier)."
+ ],
+ "notes_ocr": [
+  "« STE ENTRAMA SARL AU » : montant rectifié de 12 987 165.20 à 12 982 165.20 DH.",
+  "« STE ALIAT EL HOUCINE » : montant rectifié de 12 110 373.00 à 2 110 373.00 DH."
+ ],
+ "qualite": "complet"
+}

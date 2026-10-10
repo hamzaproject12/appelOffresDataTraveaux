@@ -1,0 +1,60 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "922227",
+ "orgAcronyme": "g8e",
+ "reference_pv": "A104/RRA/2025",
+ "nouveau": true,
+ "reference": "A104/RRA/2025",
+ "objet": "TRAVAUX DE CONSTRUCTION D'UN CENTRE D'EPANOUISSEMENT DES JEUNES A LA COMMUNE DE SIDI TAIEBI",
+ "acheteur": null,
+ "procedure": null,
+ "categorie": "Travaux",
+ "date_limite_plis": null,
+ "lieu_ouverture": "Bureau de la Société Rabat Région Aménagement au 9, Place AI Joulane — Rabat",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "06/08/2025",
+ "justification": "Offre conforme aux exigences du Règlement de la consultation et l'offre la plus avantageuses",
+ "infructueux": false,
+ "attributaire": "NCIRI",
+ "montant_attribue": 11946253.32,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "COPREF",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_offre_technique",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "NCIRI",
+   "montant_acte_engagement": 11946253.32,
+   "montant_apres_verification": 11946253.32,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "OKTI TRAVAUX",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_offre_technique",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 3,
+ "alertes_ocr": [],
+ "notes_ocr": [
+  "Maître d'ouvrage absent du PV (utiliser l'acheteur public du portail)."
+ ],
+ "qualite": "attribution"
+}

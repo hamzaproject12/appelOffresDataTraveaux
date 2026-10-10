@@ -1,0 +1,55 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "971835",
+ "orgAcronyme": "o4d",
+ "reference_pv": "02DT/2025",
+ "nouveau": true,
+ "reference": "02DT/2025",
+ "objet": "TRAVAUX D'AMENAGEMENTS DE CINQ ESPACES EMPLOI POUR LE COMPTE DE L'ANAPEC AU NIVEAU DE LA REGION DRAA-TAFILALET",
+ "acheteur": null,
+ "procedure": null,
+ "categorie": "Travaux",
+ "date_limite_plis": "24/11/2025",
+ "lieu_ouverture": "siège de l'ANAPEC",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": null,
+ "justification": null,
+ "infructueux": false,
+ "attributaire": "STE OLIGEC SARL",
+ "montant_attribue": null,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "SEN",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "STE OLIGEC SARL",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 2,
+ "alertes_ocr": [
+  "« STE OLIGEC SARL » absent de la liste des plis déposés (nom mal lu ?).",
+  "Montant de l'attributaire « STE OLIGEC SARL » non trouvé."
+ ],
+ "notes_ocr": [
+  "« SEN » absent de la liste des plis déposés (nom mal lu ?).",
+  "Maître d'ouvrage absent du PV (utiliser l'acheteur public du portail)."
+ ],
+ "qualite": "participants"
+}

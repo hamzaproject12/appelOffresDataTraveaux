@@ -1,0 +1,53 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "926626",
+ "orgAcronyme": "f9f",
+ "reference_pv": "31/2025/CI",
+ "nouveau": true,
+ "reference": "31/2025/CI",
+ "objet": "l'Aménagement d’une place et espace vert à la rive droite d’oued Souss",
+ "acheteur": "la Commune d’Inezgane",
+ "procedure": "appel d'offres ouvert national",
+ "categorie": "Travaux",
+ "date_limite_plis": "07/08/2025",
+ "lieu_ouverture": "Bureaux de Mr Le Président de la Commune d’Inezgane",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": null,
+ "justification": null,
+ "infructueux": false,
+ "attributaire": "STE GENERAL BUSINES BUILDING (GBB) sarl",
+ "montant_attribue": 11426540.0,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "STE GENERAL BUSINES BUILDING (GBB) sarl",
+   "montant_acte_engagement": 11426540.0,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "(GBB) sarl",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_offre_financiere",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 2,
+ "alertes_ocr": [
+  "« STE GENERAL BUSINES BUILDING (GBB) sarl » absent de la liste des plis déposés (nom mal lu ?)."
+ ],
+ "notes_ocr": [
+  "« (GBB) sarl » absent de la liste des plis déposés (nom mal lu ?)."
+ ],
+ "qualite": "attribution"
+}

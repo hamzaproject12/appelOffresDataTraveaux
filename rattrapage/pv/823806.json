@@ -1,0 +1,80 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "823806",
+ "orgAcronyme": "d0q",
+ "reference_pv": null,
+ "nouveau": true,
+ "reference": null,
+ "objet": "Travaux d’amenagement et de renforcement de la voirie à Hay Al amal (Tranche N° :01) Commune de Taza ;Province de Taza ;Regian Fes-Meknes",
+ "acheteur": "Commune de T'aza",
+ "procedure": "appel d'offres ouvert",
+ "categorie": "Travaux",
+ "date_limite_plis": null,
+ "lieu_ouverture": "Bd Moulay youssef siege de l’ex-communauté urbaine de Taza",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": null,
+ "justification": "L’offre la plus avantageuse : ny",
+ "infructueux": false,
+ "attributaire": "Sté ABDELLAOUI NEGOCE ET TRAVAUX (ANETRA)",
+ "montant_attribue": 12367428.0,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "Sté MBI SCAVI SARL",
+   "montant_acte_engagement": 12568260.0,
+   "montant_apres_verification": null,
+   "autres_montants": [
+    12568260.0
+   ],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Sté ABDELLAOUI NEGOCE ET TRAVAUX (ANETRA)",
+   "montant_acte_engagement": 12367428.0,
+   "montant_apres_verification": null,
+   "autres_montants": [
+    12367428.0
+   ],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Sté SOZRA SARL",
+   "montant_acte_engagement": 12547134.0,
+   "montant_apres_verification": null,
+   "autres_montants": [
+    12547134.0
+   ],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Sté BNTP SARL",
+   "montant_acte_engagement": 12600060.0,
+   "montant_apres_verification": null,
+   "autres_montants": [
+    12600060.0
+   ],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 4,
+ "alertes_ocr": [
+  "« Sté MBI SCAVI SARL » absent de la liste des plis déposés (nom mal lu ?).",
+  "« Sté ABDELLAOUI NEGOCE ET TRAVAUX (ANETRA) » absent de la liste des plis déposés (nom mal lu ?).",
+  "« Sté SOZRA SARL » absent de la liste des plis déposés (nom mal lu ?).",
+  "« Sté BNTP SARL » absent de la liste des plis déposés (nom mal lu ?)."
+ ],
+ "notes_ocr": [],
+ "qualite": "complet"
+}

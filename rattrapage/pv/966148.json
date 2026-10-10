@@ -1,0 +1,74 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "966148",
+ "orgAcronyme": "g3h",
+ "reference_pv": null,
+ "nouveau": true,
+ "reference": null,
+ "objet": "Travaux de réhabilitation du réseau d'assainissement liquide dans la villc d'Oujda en trois (3) lots : Lot l: QUARTIER OULED CHRIF JAWHARA",
+ "acheteur": null,
+ "procedure": null,
+ "categorie": "Travaux",
+ "date_limite_plis": null,
+ "lieu_ouverture": null,
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": null,
+ "justification": "offre moins disante par lot",
+ "infructueux": false,
+ "attributaire": "RELANCE TRAVAUX",
+ "montant_attribue": 7604408.46,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "STEPAG (lots I et 2)",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "depose",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "TRAVAUX SODR",
+   "montant_acte_engagement": 8188089.24,
+   "montant_apres_verification": 8188089.24,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "ENTREPRISE EL HORE MOHAMMED TRAVAUX",
+   "montant_acte_engagement": 4148637.0,
+   "montant_apres_verification": 4260.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "RELANCE TRAVAUX",
+   "montant_acte_engagement": 7604408.46,
+   "montant_apres_verification": 7604408.46,
+   "autres_montants": [],
+   "lots": [
+    "3"
+   ],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 4,
+ "alertes_ocr": [
+  "« ENTREPRISE EL HORE MOHAMMED TRAVAUX » : écart anormal entre montant initial et vérifié (lecture à vérifier)."
+ ],
+ "notes_ocr": [
+  "« ENTREPRISE EL HORE MOHAMMED TRAVAUX » : montant rectifié de 4 148 637.00 à 4 260.00 DH.",
+  "Maître d'ouvrage absent du PV (utiliser l'acheteur public du portail)."
+ ],
+ "qualite": "complet"
+}

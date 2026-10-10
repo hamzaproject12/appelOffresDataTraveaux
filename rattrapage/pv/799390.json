@@ -1,0 +1,72 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "799390",
+ "orgAcronyme": "j8k",
+ "reference_pv": null,
+ "nouveau": true,
+ "reference": null,
+ "objet": "TRAVAUX D’AMENAGEMENT ET D’AGRANDISSEMENT DE LA SALLE DE GYMNASE AU COMPLEXE 20 AOUT SIS À LA COMMUNE DE MEKNES - PREFECTURE DE MEKNES",
+ "acheteur": "AL Omrane Fès-Meknès",
+ "procedure": "appel d'offres ouvert",
+ "categorie": "Travaux",
+ "date_limite_plis": "06/05/2024",
+ "lieu_ouverture": "AL Omrane Fès-Meknès",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "23/05/2024",
+ "justification": "l’offre la moins disante",
+ "infructueux": false,
+ "attributaire": "STE GOVAT",
+ "montant_attribue": 3331061.84,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "EL1 STE GOVAT",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "depose",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "EL2 STE SOBIK",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "depose",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "STE GOVAT",
+   "montant_acte_engagement": 3331061.84,
+   "montant_apres_verification": 3331061.84,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "STE SOBIK",
+   "montant_acte_engagement": 3432102.23,
+   "montant_apres_verification": 3435728.33,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 4,
+ "alertes_ocr": [
+  "« STE GOVAT » absent de la liste des plis déposés (nom mal lu ?).",
+  "« STE SOBIK » absent de la liste des plis déposés (nom mal lu ?)."
+ ],
+ "notes_ocr": [
+  "« STE SOBIK » : montant rectifié de 3 432 102.23 à 3 435 728.33 DH."
+ ],
+ "qualite": "complet"
+}

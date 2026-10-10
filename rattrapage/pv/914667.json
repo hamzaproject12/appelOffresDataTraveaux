@@ -1,0 +1,69 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "914667",
+ "orgAcronyme": "j0w",
+ "reference_pv": null,
+ "nouveau": true,
+ "reference": null,
+ "objet": "Travaux de Constru Imizar , Azouaoud et Ait Chaouk",
+ "acheteur": null,
+ "procedure": null,
+ "categorie": "Travaux",
+ "date_limite_plis": "01/07/2025",
+ "lieu_ouverture": "d",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "11/07/2025",
+ "justification": "L'offre la plus avantageuse ; 11H 30mn. Montant de l'acte d'engagement 530.764,80",
+ "infructueux": false,
+ "attributaire": "Sté TRABIB SARL (AU)",
+ "montant_attribue": 530764.8,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "Sté AFLAB SARL (AU)",
+   "montant_acte_engagement": 538339.2,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "æ Sté LUSTY TEEM STERN",
+   "montant_acte_engagement": 531004.8,
+   "montant_apres_verification": 531004.8,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Sté TRABIB SARL (AU)",
+   "montant_acte_engagement": 530764.8,
+   "montant_apres_verification": 530764.8,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": true
+  },
+  {
+   "nom": "Sté MOGANOUR TRAVAUX",
+   "montant_acte_engagement": 530792.16,
+   "montant_apres_verification": 530792.16,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 4,
+ "alertes_ocr": [],
+ "notes_ocr": [
+  "Maître d'ouvrage absent du PV (utiliser l'acheteur public du portail)."
+ ],
+ "qualite": "complet"
+}

@@ -1,0 +1,65 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "912293",
+ "orgAcronyme": "e5w",
+ "reference_pv": "16/RFM/2025",
+ "nouveau": true,
+ "reference": "16/RFM/2025",
+ "objet": "D'APPEL D'OFFRES ASCENSEURS",
+ "acheteur": null,
+ "procedure": null,
+ "categorie": "Travaux",
+ "date_limite_plis": "01/07/2025",
+ "lieu_ouverture": "L'ANNEXE DU CONSEIL REGION FES MEKNES",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "04/07/2025",
+ "justification": "Offre économiquement la plus avantageuse.",
+ "infructueux": false,
+ "attributaire": "STE AGADIR LIFT SARL",
+ "montant_attribue": 644999.99,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "STE BARAGAS SARL",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": true
+  },
+  {
+   "nom": "STE AGADIR LIFT SARL",
+   "montant_acte_engagement": 720000.0,
+   "montant_apres_verification": 644999.99,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": true
+  },
+  {
+   "nom": "STE RELAX ASCENSEURS SARL",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": true
+  }
+ ],
+ "nombre_soumissionnaires": 3,
+ "alertes_ocr": [
+  "« STE AGADIR LIFT SARL » absent de la liste des plis déposés (nom mal lu ?)."
+ ],
+ "notes_ocr": [
+  "« STE BARAGAS SARL » absent de la liste des plis déposés (nom mal lu ?).",
+  "« STE RELAX ASCENSEURS SARL » absent de la liste des plis déposés (nom mal lu ?).",
+  "« STE AGADIR LIFT SARL » : montant rectifié de 720 000.00 à 644 999.99 DH.",
+  "Maître d'ouvrage absent du PV (utiliser l'acheteur public du portail)."
+ ],
+ "qualite": "attribution"
+}

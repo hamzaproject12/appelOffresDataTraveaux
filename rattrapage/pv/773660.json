@@ -1,0 +1,103 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "773660",
+ "orgAcronyme": "d4q",
+ "reference_pv": null,
+ "nouveau": true,
+ "reference": null,
+ "objet": null,
+ "acheteur": null,
+ "procedure": null,
+ "categorie": "Travaux",
+ "date_limite_plis": "03/01/2002",
+ "lieu_ouverture": "Casablanca",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "07/02/2024",
+ "justification": null,
+ "infructueux": false,
+ "attributaire": "L'offre du concurrent TECH ELEC SARL est moins disante",
+ "montant_attribue": 5144984.57,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "GAMAF SARL, TECH ELEC SARL, ELECTROU SARL et",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "ELECPHONE SARL",
+   "montant_acte_engagement": 5824954.0,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "TECH ELEC SARL",
+   "montant_acte_engagement": 5421890.0,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "HS INFRA SARL",
+   "montant_acte_engagement": 5901529.75,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "GAMAF SARL",
+   "montant_acte_engagement": 5966503.24,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "ELECTROU SARL",
+   "montant_acte_engagement": 6042126.0,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "L'offre du concurrent TECH ELEC SARL est moins disante",
+   "montant_acte_engagement": 5144984.57,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 7,
+ "alertes_ocr": [
+  "« TECH ELEC SARL » absent de la liste des plis déposés (nom mal lu ?).",
+  "« HS INFRA SARL » absent de la liste des plis déposés (nom mal lu ?).",
+  "« GAMAF SARL » absent de la liste des plis déposés (nom mal lu ?).",
+  "« ELECTROU SARL » absent de la liste des plis déposés (nom mal lu ?).",
+  "« L'offre du concurrent TECH ELEC SARL est moins disante » absent de la liste des plis déposés (nom mal lu ?)."
+ ],
+ "notes_ocr": [
+  "Maître d'ouvrage absent du PV (utiliser l'acheteur public du portail).",
+  "Montants exprimés hors taxes (HT)."
+ ],
+ "qualite": "complet"
+}

@@ -1,0 +1,58 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "819472",
+ "orgAcronyme": "u6i",
+ "reference_pv": "16/2024",
+ "nouveau": true,
+ "reference": "16/2024",
+ "objet": "LA REALISATION DES TRAVAUX D'ENTRETIEN ET DE CARENAGE DU NAVIRE CHARIF AL IDRISSI APPARTENANT A L'INSTITUT NATIONAL DE RECHERCHE HALIEUTIQUE (INRH)",
+ "acheteur": "Institut Nationale de Recherche Halieutique",
+ "procedure": "appel d'offres ouvert",
+ "categorie": "Travaux",
+ "date_limite_plis": "45/07/2024",
+ "lieu_ouverture": "Salle de Réunion de l’Institut Nationale de Recherche Halieutique BD Sidi Abderrahmane - Casablanca",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": null,
+ "justification": "l’offre économiquement la plus avantageuse",
+ "infructueux": false,
+ "attributaire": "MOTORES ABC MARRUECOS",
+ "montant_attribue": 2516700.0,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "MOTORES ABC MARRUECOS",
+   "montant_acte_engagement": 2516700.0,
+   "montant_apres_verification": 2516700.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "URM",
+   "montant_acte_engagement": 2279508.0,
+   "montant_apres_verification": 2279508.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "TEKNI MAR",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_dossier_administratif_technique",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 3,
+ "alertes_ocr": [],
+ "notes_ocr": [],
+ "qualite": "complet"
+}

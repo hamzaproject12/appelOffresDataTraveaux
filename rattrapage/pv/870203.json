@@ -1,0 +1,118 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "870203",
+ "orgAcronyme": "i1t",
+ "reference_pv": "27/2024",
+ "nouveau": true,
+ "reference": "27/2024",
+ "objet": "travaux d'entretien Courant de la voirie de la commune de Kénitra (Marché Cadre) ° Indication du lot : lot unique",
+ "acheteur": null,
+ "procedure": "appel d'offres ouvert national",
+ "categorie": "Travaux",
+ "date_limite_plis": "28/01/2025",
+ "lieu_ouverture": "Le bureau de Madame la Préside nte de la commune de Kenitra",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "04/02/2025",
+ "justification": "Offre économiquement la plus avantageuse.",
+ "infructueux": false,
+ "attributaire": "ARFOUD",
+ "montant_attribue": null,
+ "attributaires_par_lot": [
+  {
+   "lot": null,
+   "attributaire": "ARFOUD",
+   "montant": null
+  },
+  {
+   "lot": null,
+   "attributaire": "SOCIETE ENTRETIENT DE BATIMENT ET OUVRAGES",
+   "montant": 4017720.0
+  },
+  {
+   "lot": null,
+   "attributaire": "Quatre",
+   "montant": 2145024.0
+  }
+ ],
+ "soumissionnaires": [
+  {
+   "nom": "SOCIETE ENTRETIENT DE BATIMENT ET OUVRAGES",
+   "montant_acte_engagement": 4017720.0,
+   "montant_apres_verification": 4017720.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "(EX.BELHASSANE OMAR) SARL AU",
+   "montant_acte_engagement": 2145024.0,
+   "montant_apres_verification": 2145024.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "ARFOUD",
+   "montant_acte_engagement": 4017720.0,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "ETABLISSEMENT ASSREM NEGOCE SARL -SALE",
+   "montant_acte_engagement": 2145024.0,
+   "montant_apres_verification": 2157000.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "SOCIETE MEDI EXPO SARL AU -FES",
+   "montant_acte_engagement": 2180480.0,
+   "montant_apres_verification": 4068000.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "SOCIETE ABMB SARL -FES",
+   "montant_acte_engagement": 2216376.0,
+   "montant_apres_verification": 4142760.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Quatre",
+   "montant_acte_engagement": 2145024.0,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 7,
+ "alertes_ocr": [
+  "« Quatre » absent de la liste des plis déposés (nom mal lu ?).",
+  "Montant de l'attributaire « ARFOUD » non trouvé."
+ ],
+ "notes_ocr": [
+  "« ETABLISSEMENT ASSREM NEGOCE SARL -SALE » : montant rectifié de 2 145 024.00 à 2 157 000.00 DH.",
+  "« SOCIETE MEDI EXPO SARL AU -FES » : montant rectifié de 2 180 480.00 à 4 068 000.00 DH.",
+  "« SOCIETE ABMB SARL -FES » : montant rectifié de 2 216 376.00 à 4 142 760.00 DH.",
+  "Maître d'ouvrage absent du PV (utiliser l'acheteur public du portail)."
+ ],
+ "qualite": "complet"
+}

@@ -1,0 +1,75 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "725425",
+ "orgAcronyme": "o8p",
+ "reference_pv": "12/2023",
+ "nouveau": true,
+ "reference": "12/2023",
+ "objet": null,
+ "acheteur": null,
+ "procedure": "appel d'offres ouvert",
+ "categorie": "Travaux",
+ "date_limite_plis": null,
+ "lieu_ouverture": null,
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": null,
+ "justification": "- M. AIT M'BAREK OUSSAMA, Chef de service Infrastructure; - Mme. AMRAOUI YOUSSRA, Technicienne au service Infrastructure.",
+ "infructueux": false,
+ "attributaire": null,
+ "montant_attribue": null,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "STE. ATELIER TEULI à RABAT (format électronique) Délai de validité de qualifications expirée",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_offre_financiere",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "STE. LA LIGNE BLANCHE à SKHIRAT",
+   "montant_acte_engagement": 192202.28,
+   "montant_apres_verification": 192202.28,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_offre_financiere",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "format électronique",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_offre_financiere",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "STE. CHAMAL SIGNALISATION à CHEFCHAOUEN (format électronique)",
+   "montant_acte_engagement": 179513.82,
+   "montant_apres_verification": 179513.82,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_offre_financiere",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 4,
+ "alertes_ocr": [
+  "« STE. LA LIGNE BLANCHE à SKHIRAT » absent de la liste des plis déposés (nom mal lu ?).",
+  "« STE. CHAMAL SIGNALISATION à CHEFCHAOUEN (format électronique) » absent de la liste des plis déposés (nom mal lu ?).",
+  "Attributaire non trouvé."
+ ],
+ "notes_ocr": [
+  "« STE. ATELIER TEULI à RABAT (format électronique) Délai de validité de qualifications expirée » absent de la liste des plis déposés (nom mal lu ?).",
+  "« format électronique » absent de la liste des plis déposés (nom mal lu ?).",
+  "Maître d'ouvrage absent du PV (utiliser l'acheteur public du portail)."
+ ],
+ "qualite": "complet"
+}

@@ -1,0 +1,88 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "863214",
+ "orgAcronyme": "m1w",
+ "reference_pv": null,
+ "nouveau": true,
+ "reference": null,
+ "objet": null,
+ "acheteur": "Barid Al Maghrib S.A",
+ "procedure": null,
+ "categorie": "Travaux",
+ "date_limite_plis": "18/12/2024",
+ "lieu_ouverture": "Direction Achats, sise au 8, rue Dayet Erroumi, Agdal – Rabat",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "30/12/2024",
+ "justification": "Offre la moins disante.",
+ "infructueux": false,
+ "attributaire": "ABDEI CONSTRUCTION",
+ "montant_attribue": 165660.0,
+ "attributaires_par_lot": [
+  {
+   "lot": "1",
+   "attributaire": "ABDEI CONSTRUCTION",
+   "montant": 165660.0
+  },
+  {
+   "lot": "2",
+   "attributaire": "ABDEI CONSTRUCTION",
+   "montant": 900934.0
+  }
+ ],
+ "soumissionnaires": [
+  {
+   "nom": "Soumissions physiques Soumissions électroniques",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "depose",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "ABDEI CONSTRUCTION",
+   "montant_acte_engagement": 165660.0,
+   "montant_apres_verification": null,
+   "autres_montants": [
+    900934.0,
+    165660.0
+   ],
+   "lots": [
+    "01",
+    "1",
+    "2"
+   ],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "HELEC-SOHAL TRAVAUX-SADIKRE-SNTT-URBAN",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "depose",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "TRAG-HARMONY TRAVAUX-PREFA STEEL-SOTANBA￾YWK CONS",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "depose",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 4,
+ "alertes_ocr": [],
+ "notes_ocr": [
+  "Marché alloti (3 lots).",
+  "Montants exprimés hors taxes (HT)."
+ ],
+ "qualite": "attribution"
+}

@@ -1,0 +1,63 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "944036",
+ "orgAcronyme": "g8e",
+ "reference_pv": "1497/2028",
+ "nouveau": true,
+ "reference": "1497/2028",
+ "objet": "TRAVAUX D'ACHEVEMENT DE CONSTRUCTION DE LA ROUTE RELIANT TABAROUCHT, LE PONT AFDANOUS ET LA MINE DE CUIVRE -CT TABAROUCHT, PROVINCE D'AZILAL -LOT UNIQUE",
+ "acheteur": "Agence Régionale d'Exéeution des Projets Région Déni Mellal-Khénifra",
+ "procedure": null,
+ "categorie": "Travaux",
+ "date_limite_plis": "14/10/2028",
+ "lieu_ouverture": "Salle de réunion de l'AREP région Beni Mellal Khénifra Sis Bd Med V lotissement lala Hayat immeuble n°3, 4%\" et 5%\" étage Béni Mellal",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": null,
+ "justification": "L'offre économiquement la plus avantageuse ë Date d'achèvement des travaux de la commission : 23/10/2025 à 13 heures 15 min",
+ "infructueux": false,
+ "attributaire": "STE STDAFCO",
+ "montant_attribue": 20357.0,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "STE STDAFCO",
+   "montant_acte_engagement": 20357880.0,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "STE SOGEVA",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_offre_technique",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "STE SOCASSELEC",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_offre_technique",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 3,
+ "alertes_ocr": [
+  "« STE STDAFCO » absent de la liste des plis déposés (nom mal lu ?)."
+ ],
+ "notes_ocr": [
+  "« STE SOGEVA » absent de la liste des plis déposés (nom mal lu ?).",
+  "« STE SOCASSELEC » absent de la liste des plis déposés (nom mal lu ?)."
+ ],
+ "qualite": "attribution"
+}

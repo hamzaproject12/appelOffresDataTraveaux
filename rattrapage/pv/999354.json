@@ -1,0 +1,76 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "999354",
+ "orgAcronyme": "f9f",
+ "reference_pv": "07/2026",
+ "nouveau": true,
+ "reference": "07/2026",
+ "objet": "Transfert d'une ligne MT desservant le PT du lotissement ASSULTANE",
+ "acheteur": "Commune de Tiznit",
+ "procedure": "appel d'offres ouvert simplifié",
+ "categorie": "Travaux",
+ "date_limite_plis": "20/04/2026",
+ "lieu_ouverture": "le bureau du Président du conseil Communal de Tiznit",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "30/04/2026",
+ "justification": "l’offre financière la mieux–disante par rapport au prix de référence.",
+ "infructueux": false,
+ "attributaire": "➢ STE MAGHREB DES RESEAUX ELECTRIQUE SARL AU",
+ "montant_attribue": 362906.4,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "➢ STE IHSSANE DECH SARL",
+   "montant_acte_engagement": 326700.0,
+   "montant_apres_verification": 326700.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_offre_financiere",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "➢ STE TRAVAUX DELEC SARL",
+   "montant_acte_engagement": 364540.8,
+   "montant_apres_verification": 364540.8,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "➢ STE BOUSSIK D'ELECTRICITE SARL",
+   "montant_acte_engagement": 378290.4,
+   "montant_apres_verification": 378290.4,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "➢ STE MAGHREB DES RESEAUX ELECTRIQUE SARL AU",
+   "montant_acte_engagement": 362906.4,
+   "montant_apres_verification": 362906.4,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "➢ STE DES TRAVAUX GÉNIE ELECTRIQUE SARL AU",
+   "montant_acte_engagement": 380906.4,
+   "montant_apres_verification": 380906.4,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 5,
+ "alertes_ocr": [],
+ "notes_ocr": [],
+ "qualite": "complet"
+}

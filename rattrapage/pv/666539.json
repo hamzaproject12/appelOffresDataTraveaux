@@ -1,0 +1,78 @@
+{
+ "source": "extrait_docx",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "666539",
+ "orgAcronyme": "d4q",
+ "reference_pv": "56/DR4/2022",
+ "nouveau": true,
+ "reference": "56/DR4/2022",
+ "objet": "Entretien du réseau d'eau potable au niveau des centres d'Ait Mimoune, Sidi Allal Lamsadar, antennes rurales et douars",
+ "acheteur": null,
+ "procedure": "appel d'offres ouvert",
+ "categorie": "Travaux",
+ "date_limite_plis": "13/09/2022",
+ "lieu_ouverture": "Siège de la Direction Régionale de l'Ouest (DR4) Lotissement Al Qods - Kénitra - Maroc",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "11/10/2022",
+ "justification": "Moins-disant",
+ "infructueux": false,
+ "attributaire": "GROUP STE ENTREPRISE HIMI SARL / HILEC",
+ "montant_attribue": 278784.0,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "GROUP HADDAGI MOHAMED/MORADEC",
+   "montant_acte_engagement": 295050.0,
+   "montant_apres_verification": 295050.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_dossier_administratif_technique",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "MAROC - MAROC",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "depose",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "GROUP STE ENTREPRISE HIMI SARL / HILEC",
+   "montant_acte_engagement": 278784.0,
+   "montant_apres_verification": 278784.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "TOGADER",
+   "montant_acte_engagement": 278784.0,
+   "montant_apres_verification": 278784.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "MAROC",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "depose",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 5,
+ "alertes_ocr": [],
+ "notes_ocr": [
+  "Maître d'ouvrage absent du PV (utiliser l'acheteur public du portail)."
+ ],
+ "qualite": "complet"
+}

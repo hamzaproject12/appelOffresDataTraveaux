@@ -1,0 +1,90 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "757091",
+ "orgAcronyme": "o8p",
+ "reference_pv": "24/2023",
+ "nouveau": true,
+ "reference": "24/2023",
+ "objet": "ACHEVEMENT DES TRAVAUX D'ELARGISSEMENT ET DE RENFORCEMENT DE LA RR509 ENTRE LAKHLALFA ET ISSAGUEN SUR 53KM --DANS LA PROVINCE D'AL HOCEIMA— 2ème TRANCHE : DU PK 20+000 AU PK 35+300",
+ "acheteur": null,
+ "procedure": null,
+ "categorie": "Travaux",
+ "date_limite_plis": "26/09/2023",
+ "lieu_ouverture": "Direction Provinciale de l'Equipement et de l’Eau d’AL HOCEIMA",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "20/11/2023",
+ "justification": "L'offre la plus avantageuse | moins disant.",
+ "infructueux": false,
+ "attributaire": "Sté SONM TTRAV",
+ "montant_attribue": 79278407.57,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "Sté 22 IFIAIILAONUT",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "depose",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Sté SONM TTRAV",
+   "montant_acte_engagement": 79278407.57,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Sté 225$ GRANDS TRAVAUX ROUTIERS",
+   "montant_acte_engagement": 100997415.17,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Sté SN RO",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "depose",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Sté 11 =A AO",
+   "montant_acte_engagement": 89865057.56,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Sté SN\".",
+   "montant_acte_engagement": 313504.34,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 6,
+ "alertes_ocr": [
+  "« Sté 11 =A AO » absent de la liste des plis déposés (nom mal lu ?).",
+  "« Sté SN\". » absent de la liste des plis déposés (nom mal lu ?)."
+ ],
+ "notes_ocr": [
+  "Maître d'ouvrage absent du PV (utiliser l'acheteur public du portail)."
+ ],
+ "qualite": "complet"
+}

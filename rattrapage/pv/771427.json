@@ -1,0 +1,101 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "771427",
+ "orgAcronyme": "d4q",
+ "reference_pv": null,
+ "nouveau": true,
+ "reference": null,
+ "objet": null,
+ "acheteur": null,
+ "procedure": "appel d'offres ouvert",
+ "categorie": "Travaux",
+ "date_limite_plis": "19/12/2023",
+ "lieu_ouverture": "Siège de la Direction Régionale Guelmim Oued Noun (DRG) Quartier administratif, Bd Al Fida, Imm C, 2ème étage - Guelmim - Maroc",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": null,
+ "justification": null,
+ "infructueux": false,
+ "attributaire": null,
+ "montant_attribue": null,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "DEEP CLEANING",
+   "montant_acte_engagement": 721440.0,
+   "montant_apres_verification": null,
+   "autres_montants": [
+    721440.0
+   ],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "ENTR AHMED MARIOUCH MAROC",
+   "montant_acte_engagement": 686040.0,
+   "montant_apres_verification": null,
+   "autres_montants": [
+    686040.0
+   ],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "LABEL COLLECT SERVICE D'ASSAINISSEMENT MAROC",
+   "montant_acte_engagement": 688080.0,
+   "montant_apres_verification": null,
+   "autres_montants": [
+    688080.0
+   ],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "MEGA TRAITEMENT MAROC",
+   "montant_acte_engagement": 770880.0,
+   "montant_apres_verification": null,
+   "autres_montants": [
+    770880.0
+   ],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "SANI ASSAINISSEMENT MAROC",
+   "montant_acte_engagement": 955776.0,
+   "montant_apres_verification": null,
+   "autres_montants": [
+    955776.0
+   ],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "SOTRACOAS MAROC",
+   "montant_acte_engagement": 780192.0,
+   "montant_apres_verification": null,
+   "autres_montants": [
+    780192.0
+   ],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 6,
+ "alertes_ocr": [
+  "Attributaire non trouvé."
+ ],
+ "notes_ocr": [
+  "Maître d'ouvrage absent du PV (utiliser l'acheteur public du portail)."
+ ],
+ "qualite": "complet"
+}

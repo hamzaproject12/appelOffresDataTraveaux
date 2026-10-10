@@ -1,0 +1,118 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "882848",
+ "orgAcronyme": "w7t",
+ "reference_pv": "07/2025/DRANEF-FM",
+ "nouveau": true,
+ "reference": "07/2025/DRANEF-FM",
+ "objet": "de lAppel d'Offres : L’exécution des travaux de régénération dans les périmètres relevant de la",
+ "acheteur": null,
+ "procedure": null,
+ "categorie": "Travaux",
+ "date_limite_plis": "10/03/2025",
+ "lieu_ouverture": "La Direction Régionale de 1 Avenue Hassan II Fès",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": null,
+ "justification": null,
+ "infructueux": false,
+ "attributaire": "ETS RGUIBI MOHAMED - ENTREPRISE OUENZAR",
+ "montant_attribue": 6468758.4,
+ "attributaires_par_lot": [
+  {
+   "lot": "9",
+   "attributaire": "ETS RGUIBI MOHAMED - ENTREPRISE OUENZAR",
+   "montant": 6468758.4
+  },
+  {
+   "lot": "14",
+   "attributaire": "BOUMGHAZEL SAID - BOUMGHAZEL SAID",
+   "montant": 4361310.0
+  },
+  {
+   "lot": "14",
+   "attributaire": "LAHMIDI KHALID - LAHMIDI KHALID - BOUMGHAZEL SAID",
+   "montant": null
+  },
+  {
+   "lot": "14",
+   "attributaire": "BOUMGHAZEL SAID",
+   "montant": 4361310.0
+  }
+ ],
+ "soumissionnaires": [
+  {
+   "nom": "LAHMIDI KHALID - LAHMIDI KHALID - BOUMGHAZEL SAID",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [
+    "13",
+    "14"
+   ],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "BOUMGHAZEL SAID",
+   "montant_acte_engagement": 4361310.0,
+   "montant_apres_verification": null,
+   "autres_montants": [
+    3744168.0,
+    2434560.0
+   ],
+   "lots": [
+    "13",
+    "14"
+   ],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "ETS RGUIBI MOHAMED - ENTREPRISE OUENZAR",
+   "montant_acte_engagement": 6468758.4,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [
+    "9"
+   ],
+   "statut": "attributaire",
+   "admis_avec_reserve": true
+  },
+  {
+   "nom": "N° du ETS RGUIBI MOHAMED",
+   "montant_acte_engagement": 5195272.8,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "NASYR MOHAMED Un",
+   "montant_acte_engagement": 6351695.76,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 5,
+ "alertes_ocr": [
+  "« LAHMIDI KHALID - LAHMIDI KHALID - BOUMGHAZEL SAID » absent de la liste des plis déposés (nom mal lu ?).",
+  "« BOUMGHAZEL SAID » absent de la liste des plis déposés (nom mal lu ?).",
+  "« ETS RGUIBI MOHAMED - ENTREPRISE OUENZAR » absent de la liste des plis déposés (nom mal lu ?).",
+  "« N° du ETS RGUIBI MOHAMED » absent de la liste des plis déposés (nom mal lu ?).",
+  "« NASYR MOHAMED Un » absent de la liste des plis déposés (nom mal lu ?).",
+  "Montant de l'attributaire « LAHMIDI KHALID - LAHMIDI KHALID - BOUMGHAZEL SAID » non trouvé."
+ ],
+ "notes_ocr": [
+  "Marché alloti (3 lots).",
+  "Maître d'ouvrage absent du PV (utiliser l'acheteur public du portail)."
+ ],
+ "qualite": "complet"
+}

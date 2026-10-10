@@ -1,0 +1,62 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "913453",
+ "orgAcronyme": "d4q",
+ "reference_pv": null,
+ "nouveau": true,
+ "reference": null,
+ "objet": null,
+ "acheteur": null,
+ "procedure": "appel d'offres ouvert",
+ "categorie": "Travaux",
+ "date_limite_plis": "27/05/2025",
+ "lieu_ouverture": "au siège de l'Institut internationnal de l'Eau et l'Assainissement (IEA) - Avenue Mohamed Belhassan El Ouazzani - code postal : 10220 - Rabat - Maroc",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "08/07/2025",
+ "justification": "Moins-disant",
+ "infructueux": true,
+ "attributaire": null,
+ "montant_attribue": null,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "HUB DE GENIE CIVIL MAROC",
+   "montant_acte_engagement": 420162.0,
+   "montant_apres_verification": 418646.4,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "TECHNOCE",
+   "montant_acte_engagement": 377700.0,
+   "montant_apres_verification": 377700.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_dossier_administratif_technique",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "WASTE WATER",
+   "montant_acte_engagement": 425724.0,
+   "montant_apres_verification": 431724.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_dossier_administratif_technique",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 3,
+ "alertes_ocr": [],
+ "notes_ocr": [
+  "« HUB DE GENIE CIVIL MAROC » : montant rectifié de 420 162.00 à 418 646.40 DH.",
+  "« WASTE WATER » : montant rectifié de 425 724.00 à 431 724.00 DH.",
+  "Maître d'ouvrage absent du PV (utiliser l'acheteur public du portail)."
+ ],
+ "qualite": "complet"
+}

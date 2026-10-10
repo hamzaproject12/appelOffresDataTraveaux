@@ -1,0 +1,75 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "724267",
+ "orgAcronyme": "g3h",
+ "reference_pv": "2247/MOD1/AS/2023",
+ "nouveau": true,
+ "reference": "2247/MOD1/AS/2023",
+ "objet": "TRAVAUX D’ASSAINISSEMENT LIQUIDE DU CENTRE BOUMIA Ière TRANCHE TRAVAUX IN-SITE Lot 1 : Rive Nord du centre Boumia",
+ "acheteur": "RÉGIE AUTONOME DE DISTRIBUTION D'EAU ET D'ELECTRICITÉ DE MEKNÈS",
+ "procedure": "appel d'offres ouvert",
+ "categorie": "Travaux",
+ "date_limite_plis": "27/04/2023",
+ "lieu_ouverture": null,
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "21/06/2023",
+ "justification": null,
+ "infructueux": false,
+ "attributaire": null,
+ "montant_attribue": null,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "NOUV EAU",
+   "montant_acte_engagement": 24771573.6,
+   "montant_apres_verification": null,
+   "autres_montants": [
+    17718060.0,
+    24777573.6,
+    17718060.0
+   ],
+   "lots": [
+    "1",
+    "2"
+   ],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "GROUPEMENT D’ETUÜUDE",
+   "montant_acte_engagement": 30701286.09,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [
+    "1"
+   ],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "5 e GROUPEMENT D’ETUDE",
+   "montant_acte_engagement": 30701286.0,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [
+    "1"
+   ],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 3,
+ "alertes_ocr": [
+  "« GROUPEMENT D’ETUÜUDE » absent de la liste des plis déposés (nom mal lu ?).",
+  "« 5 e GROUPEMENT D’ETUDE » absent de la liste des plis déposés (nom mal lu ?).",
+  "Attributaire non trouvé."
+ ],
+ "notes_ocr": [
+  "Marché alloti (2 lots)."
+ ],
+ "qualite": "complet"
+}

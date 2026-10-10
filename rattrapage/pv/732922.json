@@ -1,0 +1,96 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "732922",
+ "orgAcronyme": "g3h",
+ "reference_pv": "08/BG/2023",
+ "nouveau": true,
+ "reference": "08/BG/2023",
+ "objet": "TRAVAUX D'AMENAGEMENT DES LOGEMENTS DE FONCTION RELEVANT DE LA PROVINCE DE TINGHIR",
+ "acheteur": "Province de Tinghir",
+ "procedure": null,
+ "categorie": "Travaux",
+ "date_limite_plis": "08/06/2023",
+ "lieu_ouverture": "Bureaux du Secrétariat Général de la Province de Tinghir",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": null,
+ "justification": "fixés dans le règlement de consultation.",
+ "infructueux": false,
+ "attributaire": null,
+ "montant_attribue": null,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "STE MYEGUYE SARL",
+   "montant_acte_engagement": 379344.0,
+   "montant_apres_verification": 379344.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "STE JAN TRAVAUX SARL",
+   "montant_acte_engagement": 476208.0,
+   "montant_apres_verification": 476208.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_dossier_administratif_technique",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "STE SAGHRO MULTISERVICE S ARL Attestations de références non similaires",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_dossier_administratif_technique",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "STE OUCHARMOUH SARL",
+   "montant_acte_engagement": 421560.0,
+   "montant_apres_verification": 421560.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "STE ILE SUD-EST POUR TRAVAUX SARL",
+   "montant_acte_engagement": 430572.0,
+   "montant_apres_verification": 430572.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "STE BEST SOLUTION SARL",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_dossier_administratif_technique",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "STE MBAYOUSS SARL",
+   "montant_acte_engagement": 459714.0,
+   "montant_apres_verification": 459714.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 7,
+ "alertes_ocr": [
+  "Attributaire non trouvé."
+ ],
+ "notes_ocr": [],
+ "qualite": "complet"
+}

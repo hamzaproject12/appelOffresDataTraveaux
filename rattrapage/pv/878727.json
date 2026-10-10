@@ -1,0 +1,99 @@
+{
+ "source": "extrait_docx",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "878727",
+ "orgAcronyme": "s3z",
+ "reference_pv": "26/2024",
+ "nouveau": true,
+ "reference": "26/2024",
+ "objet": "Gros Travaux de Maintenance de Poteaux et Câblages à la commune de khemisset",
+ "acheteur": "Commune de Khémisset",
+ "procedure": "appel d'offres ouvert national",
+ "categorie": "Travaux",
+ "date_limite_plis": "25/02/2025",
+ "lieu_ouverture": "Commune de Khémisset",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "12/03/2025",
+ "justification": "Offre économiquement la plus avantageuse.",
+ "infructueux": false,
+ "attributaire": "ALLIANCE CEI",
+ "montant_attribue": 3070500.0,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "ALLIANCE CEI",
+   "montant_acte_engagement": 3070500.0,
+   "montant_apres_verification": 3070500.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "GMT NEW LIGHTING",
+   "montant_acte_engagement": 3082752.0,
+   "montant_apres_verification": 3070500.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "COMPAGNIE GENERALE DU LUMINAIR",
+   "montant_acte_engagement": 3070080.0,
+   "montant_apres_verification": 3082752.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "ENES",
+   "montant_acte_engagement": 3047700.0,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_offre_financiere",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "U ECLAIRAGE",
+   "montant_acte_engagement": 3064536.0,
+   "montant_apres_verification": 3070080.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "STE ITRENE ELEC SARL",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_dossier_administratif_technique",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "BUILDDIS TECH",
+   "montant_acte_engagement": 3051616.0,
+   "montant_apres_verification": 3064536.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 7,
+ "alertes_ocr": [],
+ "notes_ocr": [
+  "« GMT NEW LIGHTING » : montant rectifié de 3 082 752.00 à 3 070 500.00 DH.",
+  "« COMPAGNIE GENERALE DU LUMINAIR » : montant rectifié de 3 070 080.00 à 3 082 752.00 DH.",
+  "« U ECLAIRAGE » : montant rectifié de 3 064 536.00 à 3 070 080.00 DH.",
+  "« BUILDDIS TECH » : montant rectifié de 3 051 616.00 à 3 064 536.00 DH."
+ ],
+ "qualite": "complet"
+}

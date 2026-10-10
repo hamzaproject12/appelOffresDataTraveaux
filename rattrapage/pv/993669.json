@@ -1,0 +1,62 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "993669",
+ "orgAcronyme": "q1s",
+ "reference_pv": "34/DAIL",
+ "nouveau": true,
+ "reference": "34/DAIL",
+ "objet": "L’EXECUTION DES TRAVAUX DE CHANGEMENT DE LA COUVERTURE D’UN HANGAR DU CENTRE REGIONAL DE LA SONACOS A MEKNES - HAMRIYA",
+ "acheteur": "SONACOS",
+ "procedure": "appel d'offres ouvert",
+ "categorie": "Travaux",
+ "date_limite_plis": "02/04/2026",
+ "lieu_ouverture": "les bureaux de l’annexe de la SONACOS, sise au 33 Rue Moulay Ahmed Loukili-Rabat",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "13/04/2026",
+ "justification": "Ÿ Dossiers administratif et technique conformes aux stipulations du Cahier des charges. Ÿ_ Offre financière la plus avantageuse.",
+ "infructueux": false,
+ "attributaire": "AFRINOX II",
+ "montant_attribue": 597600.0,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "VIA -ATD",
+   "montant_acte_engagement": 698400.0,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "AFRINOX II",
+   "montant_acte_engagement": 597600.0,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "NAMED MER SERV",
+   "montant_acte_engagement": 629400.0,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 3,
+ "alertes_ocr": [
+  "« VIA -ATD » absent de la liste des plis déposés (nom mal lu ?).",
+  "« AFRINOX II » absent de la liste des plis déposés (nom mal lu ?).",
+  "« NAMED MER SERV » absent de la liste des plis déposés (nom mal lu ?)."
+ ],
+ "notes_ocr": [],
+ "qualite": "complet"
+}

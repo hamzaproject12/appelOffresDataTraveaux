@@ -1,0 +1,104 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "1013329",
+ "orgAcronyme": "j8k",
+ "reference_pv": "55/26",
+ "nouveau": true,
+ "reference": "55/26",
+ "objet": "TRAVAUX D'AMENGEMENT DES ESPACES VERTS, CHEMINS PIETONS ET TROTTOIRS OPERATION DE LOTISSEMENT QODS EXTENSION SIS A LA COMMUNE BENSLIMANE - PROVINCE BENSLIMANE",
+ "acheteur": null,
+ "procedure": "appel d'offres ouvert",
+ "categorie": "Travaux",
+ "date_limite_plis": "03/04/2026",
+ "lieu_ouverture": "AI Omrane Casablanca — Settat",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "01/06/2026",
+ "justification": "Offre financière la plus avantageuse",
+ "infructueux": false,
+ "attributaire": "QODS EXTENSION",
+ "montant_attribue": 1625400.0,
+ "attributaires_par_lot": [
+  {
+   "lot": "Unique",
+   "attributaire": "QODS EXTENSION",
+   "montant": 1625400.0
+  },
+  {
+   "lot": null,
+   "attributaire": "SUD JARDIN TRAVAUX",
+   "montant": 1625400.0
+  }
+ ],
+ "soumissionnaires": [
+  {
+   "nom": "SMJC - FLUX VERT- J.COMME JARDIN - GRP STE",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "TIRA TRAVAUX ET OUTRA VERT - GRP LEADER GARDEN ET GAMA AMENAGEMENT - SUD",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "depose",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "JARDIN TRAVAUX - GRP AGATIA TRAVAUX ET TOUNA VERDURE - TIZGZAOUINE SERVICE",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "depose",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "GRP STE TIRA TRAVAUX ET OUTRA VERT",
+   "montant_acte_engagement": 1717200.0,
+   "montant_apres_verification": 1717200.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "QODS EXTENSION",
+   "montant_acte_engagement": 1625400.0,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [
+    "Unique"
+   ],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "SUD JARDIN TRAVAUX",
+   "montant_acte_engagement": 1625400.0,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 6,
+ "alertes_ocr": [
+  "« GRP STE TIRA TRAVAUX ET OUTRA VERT » absent de la liste des plis déposés (nom mal lu ?).",
+  "« QODS EXTENSION » absent de la liste des plis déposés (nom mal lu ?).",
+  "« SUD JARDIN TRAVAUX » absent de la liste des plis déposés (nom mal lu ?)."
+ ],
+ "notes_ocr": [
+  "Maître d'ouvrage absent du PV (utiliser l'acheteur public du portail)."
+ ],
+ "qualite": "complet"
+}

@@ -1,0 +1,40 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "780017",
+ "orgAcronyme": "s3z",
+ "reference_pv": "02/24/CR",
+ "nouveau": true,
+ "reference": "02/24/CR",
+ "objet": null,
+ "acheteur": "la Commune de Rabat",
+ "procedure": "appel d'offres ouvert simplifié",
+ "categorie": "Travaux",
+ "date_limite_plis": "11/03/2024",
+ "lieu_ouverture": "Salle des Réunions au siège de la Commune de Rabat",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "11/03/2024",
+ "justification": "Appel d’Offres déclaré infructueux.",
+ "infructueux": true,
+ "attributaire": null,
+ "montant_attribue": null,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "STE BEST LABOR SARL",
+   "montant_acte_engagement": 983688.0,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 1,
+ "alertes_ocr": [],
+ "notes_ocr": [],
+ "qualite": "attribution"
+}

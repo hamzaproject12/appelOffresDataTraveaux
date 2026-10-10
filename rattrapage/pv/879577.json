@@ -1,0 +1,73 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "879577",
+ "orgAcronyme": "b5j",
+ "reference_pv": null,
+ "nouveau": true,
+ "reference": null,
+ "objet": "Travaux de construction d'une brigade et 14 logements de fonction au profit de la Gendarmerie Royale de Mkansa - Région de Taounate en lot unique",
+ "acheteur": "Agence de Logements et d'Equipements Militaires",
+ "procedure": null,
+ "categorie": "Travaux",
+ "date_limite_plis": "04/03/2025",
+ "lieu_ouverture": "Salle des réunions de l'ALEM",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "17/03/2025",
+ "justification": "offre la plus avantageuse.",
+ "infructueux": false,
+ "attributaire": "ABR AFRICA BUILDING & ROAD",
+ "montant_attribue": 3043676.0,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "ATLAS BATIMAR",
+   "montant_acte_engagement": 13470198.0,
+   "montant_apres_verification": 13470198.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "ONSSAR",
+   "montant_acte_engagement": 13900000.8,
+   "montant_apres_verification": 3889140.8,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": true
+  },
+  {
+   "nom": "ABR AFRICA BUILDING & ROAD",
+   "montant_acte_engagement": 43676.0,
+   "montant_apres_verification": 3043676.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "AIT FRAH DES TRAVAUX DIVERS",
+   "montant_acte_engagement": 13718130.0,
+   "montant_apres_verification": 13718130.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 4,
+ "alertes_ocr": [
+  "« ONSSAR » : écart anormal entre montant initial et vérifié (lecture à vérifier).",
+  "« ABR AFRICA BUILDING & ROAD » : écart anormal entre montant initial et vérifié (lecture à vérifier)."
+ ],
+ "notes_ocr": [
+  "« ONSSAR » : montant rectifié de 13 900 000.80 à 3 889 140.80 DH.",
+  "« ABR AFRICA BUILDING & ROAD » : montant rectifié de 43 676.00 à 3 043 676.00 DH."
+ ],
+ "qualite": "complet"
+}

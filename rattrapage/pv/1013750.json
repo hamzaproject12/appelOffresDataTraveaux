@@ -1,0 +1,71 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "1013750",
+ "orgAcronyme": "g3h",
+ "reference_pv": "15/2026/INDH",
+ "nouveau": true,
+ "reference": "15/2026/INDH",
+ "objet": "Travaux d'aménagement de la piste Slouitan menant vers Douar Ighmarin Boutmitte et Ait Akka à la commune Sidi Amer - Province de Khénifra",
+ "acheteur": "Le Gouverneur de la Province de Khénifra",
+ "procedure": "appel d'offres ouvert",
+ "categorie": "Travaux",
+ "date_limite_plis": "04/06/2026",
+ "lieu_ouverture": "Bureau de Monsieur le Secrétaire Général de la Province de Khénifra",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "15/06/2026",
+ "justification": "offre économiquement la plus avantageuse.",
+ "infructueux": false,
+ "attributaire": "Sté ZAYANE JARDINE FR, rue 17 N°34 La Scierie, Khénifra",
+ "montant_attribue": 713712.0,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "Sté ZAYANE JARDINE FR, rue 17 N°34 La Scierie, Khénifra",
+   "montant_acte_engagement": 713712.0,
+   "montant_apres_verification": 713712.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Sté BOUTAHIR BUILDING, 1er étage N°853 El manzeh3 boufekrane, Meknès",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "depose",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Sté MOUAZ NEGOTRAV SARL, Qr Riyad, Missour",
+   "montant_acte_engagement": 168537.6,
+   "montant_apres_verification": 768537.6,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Sté GEMALTRA SARL, N°11 rue Aziz Bellal Etg 5 Maarif, Casablanca",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "depose",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 4,
+ "alertes_ocr": [
+  "« Sté MOUAZ NEGOTRAV SARL, Qr Riyad, Missour » : écart anormal entre montant initial et vérifié (lecture à vérifier)."
+ ],
+ "notes_ocr": [
+  "« Sté MOUAZ NEGOTRAV SARL  Qr Riyad  Missour » : montant rectifié de 168 537.60 à 768 537.60 DH."
+ ],
+ "qualite": "complet"
+}

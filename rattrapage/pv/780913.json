@@ -1,0 +1,80 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "780913",
+ "orgAcronyme": "o8p",
+ "reference_pv": "07/2024-N",
+ "nouveau": true,
+ "reference": "07/2024-N",
+ "objet": "Travaux de construction de l’hôpital de proximité Oulad Berhil à Taroudant Lot : Gros œuvre et Etanchéité",
+ "acheteur": null,
+ "procedure": "appel d'offres ouvert international",
+ "categorie": "Travaux",
+ "date_limite_plis": "27/02/2024",
+ "lieu_ouverture": "Bureau de Monsieur le Directeur Régional de l’ Agence Nationale des Equipements",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "15/03/2024",
+ "justification": "Les éléments contenus dans son dossier administratif et technique, son offre technique et son offre financière.",
+ "infructueux": false,
+ "attributaire": "Société ESE OUKHAF DE CONSTRUCTION sarl",
+ "montant_attribue": 57783928.8,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "Société SOTAMAC sarl",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_dossier_administratif_technique",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Société COS CONSTRUCTIONS sarl",
+   "montant_acte_engagement": 61789564.8,
+   "montant_apres_verification": 61789564.8,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_offre_technique",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Société IGASER sarl",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_dossier_administratif_technique",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Société ESE OUKHAF DE CONSTRUCTION sarl",
+   "montant_acte_engagement": 57783928.8,
+   "montant_apres_verification": 57783928.8,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Société AHMA sarl au",
+   "montant_acte_engagement": 57937456.8,
+   "montant_apres_verification": 57937456.8,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 5,
+ "alertes_ocr": [
+  "« Société AHMA sarl au » absent de la liste des plis déposés (nom mal lu ?)."
+ ],
+ "notes_ocr": [
+  "Maître d'ouvrage absent du PV (utiliser l'acheteur public du portail)."
+ ],
+ "qualite": "complet"
+}

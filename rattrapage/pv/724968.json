@@ -1,0 +1,85 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "724968",
+ "orgAcronyme": "o8p",
+ "reference_pv": "08/2023",
+ "nouveau": true,
+ "reference": "08/2023",
+ "objet": null,
+ "acheteur": null,
+ "procedure": "appel d'offres ouvert",
+ "categorie": "Travaux",
+ "date_limite_plis": null,
+ "lieu_ouverture": null,
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": null,
+ "justification": null,
+ "infructueux": false,
+ "attributaire": null,
+ "montant_attribue": null,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "Sté. SORTRAC SARL à MEKNES",
+   "montant_acte_engagement": 18416620.2,
+   "montant_apres_verification": 18416620.2,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_offre_financiere",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Sté. GRANDS TRAVAUX ROUTIERS CHOUROUK SARL à FES (format électronique)",
+   "montant_acte_engagement": 18893096.4,
+   "montant_apres_verification": 18893096.4,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_offre_financiere",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Sté. ANETRA SARL à KHENIFRA",
+   "montant_acte_engagement": 18832278.6,
+   "montant_apres_verification": 18832278.6,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_offre_financiere",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "ENT. BOUALI DE TRAVAUX SARL à GOULMIMA (format électronique)",
+   "montant_acte_engagement": 19085994.0,
+   "montant_apres_verification": 19085994.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_offre_financiere",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "ENT. GENERAL ROUTES ET DES TRAVAUX PUBLICS (GRTP SA) à CASA (format électronique)",
+   "montant_acte_engagement": 21278685.6,
+   "montant_apres_verification": 21278685.6,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_offre_financiere",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 5,
+ "alertes_ocr": [
+  "« Sté. SORTRAC SARL à MEKNES » absent de la liste des plis déposés (nom mal lu ?).",
+  "« Sté. GRANDS TRAVAUX ROUTIERS CHOUROUK SARL à FES (format électronique) » absent de la liste des plis déposés (nom mal lu ?).",
+  "« Sté. ANETRA SARL à KHENIFRA » absent de la liste des plis déposés (nom mal lu ?).",
+  "« ENT. BOUALI DE TRAVAUX SARL à GOULMIMA (format électronique) » absent de la liste des plis déposés (nom mal lu ?).",
+  "« ENT. GENERAL ROUTES ET DES TRAVAUX PUBLICS (GRTP SA) à CASA (format électronique) » absent de la liste des plis déposés (nom mal lu ?).",
+  "Attributaire non trouvé."
+ ],
+ "notes_ocr": [
+  "Maître d'ouvrage absent du PV (utiliser l'acheteur public du portail)."
+ ],
+ "qualite": "complet"
+}

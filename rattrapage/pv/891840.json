@@ -1,0 +1,80 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "891840",
+ "orgAcronyme": "o8p",
+ "reference_pv": "06/2025",
+ "nouveau": true,
+ "reference": "06/2025",
+ "objet": "Travaux d’élargissement et d’amélioration du tracé de la Route Nationale 1 du PK 787+145",
+ "acheteur": "DPETL Agadir Ida-outanane",
+ "procedure": "appel d'offres ouvert international",
+ "categorie": "Travaux",
+ "date_limite_plis": "22/04/2025",
+ "lieu_ouverture": "DPETLE Agadir Ida-outanane",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "29/04/2025",
+ "justification": "Offre la plus avantageuse",
+ "infructueux": false,
+ "attributaire": "Sté. SNL TRAVAUX",
+ "montant_attribue": 46403074.8,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "Sté. SICATRA CASABLANCA",
+   "montant_acte_engagement": 45040507.2,
+   "montant_apres_verification": 45040507.2,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Sté. SNL TRAVAUX",
+   "montant_acte_engagement": 46748146.8,
+   "montant_apres_verification": 46403074.8,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Sté. SSMT TAROUDANNT",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Sté. ALEQ RABAT",
+   "montant_acte_engagement": 49996309.2,
+   "montant_apres_verification": 49996309.2,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_offre_financiere",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Sté. SSMT",
+   "montant_acte_engagement": 47100030.0,
+   "montant_apres_verification": 47100030.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 5,
+ "alertes_ocr": [
+  "« Sté. SSMT » absent de la liste des plis déposés (nom mal lu ?)."
+ ],
+ "notes_ocr": [
+  "« Sté. SNL TRAVAUX » : montant rectifié de 46 748 146.80 à 46 403 074.80 DH."
+ ],
+ "qualite": "complet"
+}

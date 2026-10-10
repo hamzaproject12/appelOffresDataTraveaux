@@ -1,0 +1,74 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "1029527",
+ "orgAcronyme": "s3z",
+ "reference_pv": "36/CS/2026",
+ "nouveau": true,
+ "reference": "36/CS/2026",
+ "objet": "Travaux d'éclairage public de la voie côtière << 1è'\" Tranche r»",
+ "acheteur": "le président de la commune de salé",
+ "procedure": null,
+ "categorie": "Travaux",
+ "date_limite_plis": "21/07/2026",
+ "lieu_ouverture": "commune de salé Conformément à l'avis publié dans le journaux suivant: LE MATIN : n'l8509 du 25/06/2026",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "03/08/2026",
+ "justification": "le concurrent a présenté l'offre la plus avantageuse",
+ "infructueux": false,
+ "attributaire": null,
+ "montant_attribue": null,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "Société LUMINOVA SARL",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_dossier_administratif_technique",
+   "admis_avec_reserve": true
+  },
+  {
+   "nom": "Société ELEC TRIMAROC",
+   "montant_acte_engagement": 310209.6,
+   "montant_apres_verification": 310209.6,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_dossier_administratif_technique",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Société KANJELEK SARL AU",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_dossier_administratif_technique",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Société GMT NEW LIGHTING SARL",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_dossier_administratif_technique",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 4,
+ "alertes_ocr": [
+  "« Société ELEC TRIMAROC » absent de la liste des plis déposés (nom mal lu ?).",
+  "Attributaire non trouvé."
+ ],
+ "notes_ocr": [
+  "« Société LUMINOVA SARL » absent de la liste des plis déposés (nom mal lu ?).",
+  "« Société KANJELEK SARL AU » absent de la liste des plis déposés (nom mal lu ?).",
+  "« Société GMT NEW LIGHTING SARL » absent de la liste des plis déposés (nom mal lu ?)."
+ ],
+ "qualite": "attribution"
+}

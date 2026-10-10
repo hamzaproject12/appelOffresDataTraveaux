@@ -1,0 +1,72 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "700428",
+ "orgAcronyme": "g3h",
+ "reference_pv": null,
+ "nouveau": true,
+ "reference": null,
+ "objet": null,
+ "acheteur": "la Régie Autonome Intercommunale de Distribution d’Eau et d’Électricité de SAFI (RADEES)",
+ "procedure": "appel d'offres ouvert",
+ "categorie": "Travaux",
+ "date_limite_plis": "02/03/2023",
+ "lieu_ouverture": "salle de réunion de la RADEES sis à Avenue Idriss ler B.P:218 SAFI",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "15/03/2023",
+ "justification": "La Commission d’appel d’offres se base dans le choix des dossiers retenus sur l’exhaustivité du dossier administratif, sur la conformité technique et l'avantage de l’offre financière.",
+ "infructueux": false,
+ "attributaire": "CANAL’O",
+ "montant_attribue": 5262692.4,
+ "attributaires_par_lot": [
+  {
+   "lot": null,
+   "attributaire": "CANAL’O",
+   "montant": 5262692.4
+  },
+  {
+   "lot": null,
+   "attributaire": "RAZ TRAVAUX",
+   "montant": 1720800.0
+  }
+ ],
+ "soumissionnaires": [
+  {
+   "nom": "CANAL’O (lots 1 et 2) -HOLDING EL BARAKA (lots 1 et 2) - RAZ TRAVAUX et NAPCO",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "CANAL’O",
+   "montant_acte_engagement": 5262692.4,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "RAZ TRAVAUX",
+   "montant_acte_engagement": 1720800.0,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 3,
+ "alertes_ocr": [
+  "« CANAL’O » absent de la liste des plis déposés (nom mal lu ?).",
+  "« RAZ TRAVAUX » absent de la liste des plis déposés (nom mal lu ?)."
+ ],
+ "notes_ocr": [],
+ "qualite": "attribution"
+}

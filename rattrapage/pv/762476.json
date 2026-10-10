@@ -1,0 +1,55 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "762476",
+ "orgAcronyme": "d4q",
+ "reference_pv": null,
+ "nouveau": true,
+ "reference": null,
+ "objet": null,
+ "acheteur": "Agence du Bassin hydraulique de Sakia El Hamra et Oued Eddahab",
+ "procedure": null,
+ "categorie": "Travaux",
+ "date_limite_plis": "17/11/2023",
+ "lieu_ouverture": "Salle de réunion de l’Agence du Bassin Hydraulique de Sakia EI Hamra et Oued Eddahab, Quartier Administratif, Place Dcheira- Laâyoune",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "07/12/2023",
+ "justification": null,
+ "infructueux": false,
+ "attributaire": null,
+ "montant_attribue": null,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "SOCIETE LBIR FORAGE ET FONDATION (SARL)",
+   "montant_acte_engagement": 2393400.0,
+   "montant_apres_verification": null,
+   "autres_montants": [
+    2393400.0
+   ],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "SOCIETE IMISYB MAROC (SARL-AU)",
+   "montant_acte_engagement": 2433600.0,
+   "montant_apres_verification": null,
+   "autres_montants": [
+    2433600.0
+   ],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 2,
+ "alertes_ocr": [
+  "Attributaire non trouvé."
+ ],
+ "notes_ocr": [],
+ "qualite": "complet"
+}

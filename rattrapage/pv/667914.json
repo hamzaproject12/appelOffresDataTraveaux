@@ -1,0 +1,60 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "667914",
+ "orgAcronyme": "g3h",
+ "reference_pv": "2-2-2849",
+ "nouveau": true,
+ "reference": "2-2-2849",
+ "objet": null,
+ "acheteur": "la Régie Autonome Intercommunale de Distribution d’Eau et d’Électricité de SAFI (RADEES)",
+ "procedure": "appel d'offres ouvert",
+ "categorie": "Travaux",
+ "date_limite_plis": "06/09/2022",
+ "lieu_ouverture": "salle de réunion de la RADEES sis à Avenue Idriss 1er B.P:218 SAFI",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "14/10/2022",
+ "justification": "La Commission d’appel d’offres se base dans le choix des dossiers retenus sur l’exhaustivité du dossier administratif, sur la conformité technique et l'avantage de l’offre financière.",
+ "infructueux": false,
+ "attributaire": "CANAL’O",
+ "montant_attribue": 4135011.6,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "GPT ER3R ET LAZIZE DE CONSTRUCTION ET D’EQUIPEMENT URBAIN",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_dossier_administratif_technique",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "AGOTRA et CANAL’O",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "CANAL’O",
+   "montant_acte_engagement": 4135011.6,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 3,
+ "alertes_ocr": [
+  "« CANAL’O » absent de la liste des plis déposés (nom mal lu ?)."
+ ],
+ "notes_ocr": [],
+ "qualite": "attribution"
+}

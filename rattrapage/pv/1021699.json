@@ -1,0 +1,60 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "1021699",
+ "orgAcronyme": "d4q",
+ "reference_pv": "16/DAM/E/2026",
+ "nouveau": true,
+ "reference": "16/DAM/E/2026",
+ "objet": "relatif à",
+ "acheteur": null,
+ "procedure": "appel d'offres ouvert",
+ "categorie": "Travaux",
+ "date_limite_plis": "03/06/2026",
+ "lieu_ouverture": "à la Salle d'ouverture de l'Immeuble G - Avenue Mohamed Belhassan El Ouazzani - Rabat",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "08/07/2026",
+ "justification": "Moins-disant",
+ "infructueux": false,
+ "attributaire": "IMISYB MAROC",
+ "montant_attribue": 7169418.0,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "IMISYB MAROC",
+   "montant_acte_engagement": 7169418.0,
+   "montant_apres_verification": 7169418.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "LBIR FORAGE ET FONDATION - Offre de",
+   "montant_acte_engagement": 7169418.0,
+   "montant_apres_verification": 7169418.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "SOCHTRAP MAROC",
+   "montant_acte_engagement": 7488792.0,
+   "montant_apres_verification": 7488792.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 3,
+ "alertes_ocr": [],
+ "notes_ocr": [
+  "Maître d'ouvrage absent du PV (utiliser l'acheteur public du portail)."
+ ],
+ "qualite": "complet"
+}

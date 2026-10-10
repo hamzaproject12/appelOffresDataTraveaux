@@ -1,0 +1,65 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "962778",
+ "orgAcronyme": "s3z",
+ "reference_pv": "61lCS/2025",
+ "nouveau": true,
+ "reference": "61lCS/2025",
+ "objet": "ActtEvEMENT DE I'AMENAGEMENT D'uN posrE DE poltcE A L,ARRoNDISSEMENT UfuTYAYDA.IOT UNIQUE",
+ "acheteur": null,
+ "procedure": "appel d'offres ouvert simplifié",
+ "categorie": "Travaux",
+ "date_limite_plis": null,
+ "lieu_ouverture": null,
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": null,
+ "justification": "le concurrent a présenté l'offre la plus avantageuse",
+ "infructueux": false,
+ "attributaire": "Q N Den",
+ "montant_attribue": null,
+ "attributaires_par_lot": [
+  {
+   "lot": null,
+   "attributaire": "Q N Den",
+   "montant": null
+  },
+  {
+   "lot": null,
+   "attributaire": "Société Musee Sonvou",
+   "montant": null
+  }
+ ],
+ "soumissionnaires": [
+  {
+   "nom": "Q N Den",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Société Musee Sonvou",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 2,
+ "alertes_ocr": [
+  "Montant de l'attributaire « Q N Den » non trouvé.",
+  "Montant de l'attributaire « Société Musee Sonvou » non trouvé."
+ ],
+ "notes_ocr": [
+  "Maître d'ouvrage absent du PV (utiliser l'acheteur public du portail)."
+ ],
+ "qualite": "participants"
+}

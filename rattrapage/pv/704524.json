@@ -1,0 +1,92 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "704524",
+ "orgAcronyme": "q1s",
+ "reference_pv": "16/2023/OR/OZ",
+ "nouveau": true,
+ "reference": "16/2023/OR/OZ",
+ "objet": null,
+ "acheteur": "SOCIETE OUZNAG SARL SOCIETE OUZNAG SARL SOCIETE HORIZON CLAIRE SARL",
+ "procedure": "appel d'offres ouvert",
+ "categorie": "Travaux",
+ "date_limite_plis": null,
+ "lieu_ouverture": "Date ouverture des plis",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "27/03/2023",
+ "justification": "Offre moins disante",
+ "infructueux": false,
+ "attributaire": "GROUPEMENT SOCIETE MECO BUILDING SARL ET SOCIETE ATLAS BOUGAFER SARL",
+ "montant_attribue": 2388648.0,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "SOCIETE TRAHAQA SARL",
+   "montant_acte_engagement": 2296440.0,
+   "montant_apres_verification": 2296440.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_offre_financiere",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "SOCIETE OUZNAG SARL",
+   "montant_acte_engagement": 2731668.0,
+   "montant_apres_verification": 2731668.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "SOCIETE HORIZON CLAIRE SARL",
+   "montant_acte_engagement": 2550810.0,
+   "montant_apres_verification": 2550810.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "SOCIETE T.Q.S SARL",
+   "montant_acte_engagement": 2417640.0,
+   "montant_apres_verification": 2417640.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "GROUPEMENT SOCIETE MECO BUILDING SARL ET SOCIETE ATLAS BOUGAFER SARL",
+   "montant_acte_engagement": 2388648.0,
+   "montant_apres_verification": 2388648.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "SOCIETE SADECOM SARL",
+   "montant_acte_engagement": 2397918.0,
+   "montant_apres_verification": 2397918.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 6,
+ "alertes_ocr": [
+  "« SOCIETE TRAHAQA SARL » absent de la liste des plis déposés (nom mal lu ?).",
+  "« SOCIETE OUZNAG SARL » absent de la liste des plis déposés (nom mal lu ?).",
+  "« SOCIETE HORIZON CLAIRE SARL » absent de la liste des plis déposés (nom mal lu ?).",
+  "« SOCIETE T.Q.S SARL » absent de la liste des plis déposés (nom mal lu ?).",
+  "« GROUPEMENT SOCIETE MECO BUILDING SARL ET SOCIETE ATLAS BOUGAFER SARL » absent de la liste des plis déposés (nom mal lu ?).",
+  "« SOCIETE SADECOM SARL » absent de la liste des plis déposés (nom mal lu ?)."
+ ],
+ "notes_ocr": [],
+ "qualite": "complet"
+}

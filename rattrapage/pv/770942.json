@@ -1,0 +1,84 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "770942",
+ "orgAcronyme": "p8x",
+ "reference_pv": "27/TS/2023",
+ "nouveau": true,
+ "reference": "27/TS/2023",
+ "objet": "Travaux d'Aménagement et Réhabilitation des Terrains de Sports dans les Etablissements",
+ "acheteur": "Le Directeur Provinciale de Sale",
+ "procedure": "appel d'offres ouvert",
+ "categorie": "Travaux",
+ "date_limite_plis": "05/12/2023",
+ "lieu_ouverture": "les bureaux de la Direction Provinciale de Salé, Sise à Rue AI madariss Rmel »",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": null,
+ "justification": null,
+ "infructueux": false,
+ "attributaire": null,
+ "montant_attribue": null,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "JUSKA SARL",
+   "montant_acte_engagement": 899184.0,
+   "montant_apres_verification": 899184.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Sté. SOGENIMATRA SARL",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "GREENWOODS CONSTRUCTION SARL AU",
+   "montant_acte_engagement": 907350.0,
+   "montant_apres_verification": 907350.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "BENHAMMOU SERVICE SARL",
+   "montant_acte_engagement": 904380.75,
+   "montant_apres_verification": 904380.75,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "SARL AU",
+   "montant_acte_engagement": 895032.0,
+   "montant_apres_verification": 895032.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 5,
+ "alertes_ocr": [
+  "« JUSKA SARL » absent de la liste des plis déposés (nom mal lu ?).",
+  "« GREENWOODS CONSTRUCTION SARL AU » absent de la liste des plis déposés (nom mal lu ?).",
+  "« BENHAMMOU SERVICE SARL » absent de la liste des plis déposés (nom mal lu ?).",
+  "« SARL AU » absent de la liste des plis déposés (nom mal lu ?).",
+  "Attributaire non trouvé."
+ ],
+ "notes_ocr": [
+  "« Sté. SOGENIMATRA SARL » absent de la liste des plis déposés (nom mal lu ?)."
+ ],
+ "qualite": "complet"
+}

@@ -1,0 +1,58 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "953658",
+ "orgAcronyme": "q1s",
+ "reference_pv": "68/2025/SMG",
+ "nouveau": true,
+ "reference": "68/2025/SMG",
+ "objet": "Travaux de Réaménagement du Réseau Électrique des entités du Siege | L'Office Régional de Mise en Valeur Agricole Du Tadla sis à Fquih Ben Salah. ” L — =",
+ "acheteur": "ORMVA du Tadla Représenté par le Chef du SMG",
+ "procedure": "appel d'offres ouvert national",
+ "categorie": "Travaux",
+ "date_limite_plis": "07/11/2025",
+ "lieu_ouverture": "Salle de réunions du siège de l'ORMVA du Tadla",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "17/11/2025",
+ "justification": "offre la plus avantageuse",
+ "infructueux": false,
+ "attributaire": "STE AMPEREDIS",
+ "montant_attribue": 719064.0,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "STE SIGMA POWER",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_offre_financiere",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "STE SENETRELEC",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_dossier_administratif_technique",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "STE AMPEREDIS",
+   "montant_acte_engagement": 719064.0,
+   "montant_apres_verification": 719064.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 3,
+ "alertes_ocr": [],
+ "notes_ocr": [],
+ "qualite": "attribution"
+}

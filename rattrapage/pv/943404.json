@@ -1,0 +1,73 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "943404",
+ "orgAcronyme": "g3h",
+ "reference_pv": "13/2025",
+ "nouveau": true,
+ "reference": "13/2025",
+ "objet": "Travaux d'installation d’un système d'extinction aux bâtiments administratifs du Ministère de l’intérieur (lot unique)",
+ "acheteur": "Ministère de l'Intérieur",
+ "procedure": "appel d'offres ouvert national",
+ "categorie": "Travaux",
+ "date_limite_plis": "14/10/2025",
+ "lieu_ouverture": "la Direction des Affaires Administratives (Division des Marchés du Ministère de l'Intérieur)",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "22/10/2025",
+ "justification": "l’offre économiquement la plus avantageuse ;",
+ "infructueux": false,
+ "attributaire": "Sté. UNISYSTEM GROUP SA",
+ "montant_attribue": 4208550.0,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "Concurrent 1 Sté. UNISYSTEM GROUP SA",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Concurrent 2 Sté. FULL SPECTRUM SYSTEMS SA",
+   "montant_acte_engagement": 4431162.0,
+   "montant_apres_verification": null,
+   "autres_montants": [
+    4431162.0
+   ],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Concurrent 3 Sté. EDET SARL AU",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "depose",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Sté. UNISYSTEM GROUP SA",
+   "montant_acte_engagement": 4208550.0,
+   "montant_apres_verification": null,
+   "autres_montants": [
+    4208550.0
+   ],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 4,
+ "alertes_ocr": [
+  "« Sté. UNISYSTEM GROUP SA » absent de la liste des plis déposés (nom mal lu ?)."
+ ],
+ "notes_ocr": [],
+ "qualite": "complet"
+}

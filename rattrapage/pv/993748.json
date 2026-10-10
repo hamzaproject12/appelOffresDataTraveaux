@@ -1,0 +1,79 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "993748",
+ "orgAcronyme": "g3h",
+ "reference_pv": "05/2026/B.G",
+ "nouveau": true,
+ "reference": "05/2026/B.G",
+ "objet": "Travaux d'aménagement au siège de la Province Fahs Anjra - Eclairage extérieur",
+ "acheteur": "Province Fahs-Anjra",
+ "procedure": "appel d'offres ouvert",
+ "categorie": "Travaux",
+ "date_limite_plis": "26/03/2026",
+ "lieu_ouverture": "bureau n° 31 (D.B.M) du siège de la Province Fahs-Anjra",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "02/04/2026",
+ "justification": "- Offre la mieux disante avec des prix raisonnables.",
+ "infructueux": false,
+ "attributaire": "nm Sté. « BOWASMA/SARL",
+ "montant_attribue": 579792.0,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "sn Sté. « AGA LUD/SARL",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_dossier_administratif_technique",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "mn Sté. « SOTRAM/SARL",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_dossier_administratif_technique",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "nm Sté. « BOWASMA/SARL",
+   "montant_acte_engagement": 579792.0,
+   "montant_apres_verification": 579792.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Sté. « AGA LUD/SARL",
+   "montant_acte_engagement": 584700.0,
+   "montant_apres_verification": 584700.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Sté. « SOTRAM/SARL",
+   "montant_acte_engagement": 596820.0,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 5,
+ "alertes_ocr": [
+  "« Sté. « AGA LUD/SARL » absent de la liste des plis déposés (nom mal lu ?).",
+  "« Sté. « SOTRAM/SARL » absent de la liste des plis déposés (nom mal lu ?)."
+ ],
+ "notes_ocr": [],
+ "qualite": "complet"
+}

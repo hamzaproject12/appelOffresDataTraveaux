@@ -1,0 +1,63 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "863247",
+ "orgAcronyme": "b1d",
+ "reference_pv": "108/CL/2024",
+ "nouveau": true,
+ "reference": "108/CL/2024",
+ "objet": "TRAVAUX D'ERADICATION DES POINTS NOIRS ET DES DEPOTOIRS SAUVAGES A DOMINANCE DES GRAVATS A LA COMMUNE DE LAAYOUNE, PROVINCE DE LAAYOUNE",
+ "acheteur": "LA COMMUNE DE LAAYOUNE",
+ "procedure": null,
+ "categorie": "Travaux",
+ "date_limite_plis": "24/12/2024",
+ "lieu_ouverture": "La Salle De Réunion De L’annexe De La Commune De Laayoune",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": null,
+ "justification": "l’offre le mieux disant.",
+ "infructueux": false,
+ "attributaire": "STE BOUSSAKSSOU DE CONSTRUCTION S.A.R.",
+ "montant_attribue": 11004000.0,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "STE BOUSSAKSSOU DE CONSTRUCTION S.A.R.",
+   "montant_acte_engagement": 11004000.0,
+   "montant_apres_verification": 11004000.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "SOCIETE NOUVELLE DES TRAVAUX ROUTIERS ET OUVRAGES",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": true
+  },
+  {
+   "nom": "SARL(SNTRO)",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": true
+  }
+ ],
+ "nombre_soumissionnaires": 3,
+ "alertes_ocr": [
+  "« STE BOUSSAKSSOU DE CONSTRUCTION S.A.R. » absent de la liste des plis déposés (nom mal lu ?)."
+ ],
+ "notes_ocr": [
+  "« SOCIETE NOUVELLE DES TRAVAUX ROUTIERS ET OUVRAGES » absent de la liste des plis déposés (nom mal lu ?).",
+  "« SARL(SNTRO) » absent de la liste des plis déposés (nom mal lu ?)."
+ ],
+ "qualite": "attribution"
+}

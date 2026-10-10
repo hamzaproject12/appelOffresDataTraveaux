@@ -1,0 +1,58 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "904480",
+ "orgAcronyme": "f9f",
+ "reference_pv": "11/2025",
+ "nouveau": true,
+ "reference": "11/2025",
+ "objet": "Travaux d'extension du réseau électrique basse tension pour raccordement des logements aux différents quartiers de la commune de Tafraout, Province de Tiznit, Région Souss Massa",
+ "acheteur": "Commune de Tafraout",
+ "procedure": "appel d'offres ouvert simplifié",
+ "categorie": "Travaux",
+ "date_limite_plis": "26/05/2025",
+ "lieu_ouverture": "la salle des réunions de la commune de Tafraout = + 4",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "28/05/2025",
+ "justification": null,
+ "infructueux": false,
+ "attributaire": "STE ELEC BOURICH",
+ "montant_attribue": 248822.78,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "STE ELEC BOURICH",
+   "montant_acte_engagement": 248822.18,
+   "montant_apres_verification": 248822.18,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "STE BOUSSIK D'ELECTRICITE",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_dossier_administratif_technique",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "MSSIOUA TRAVAUX DIVERS",
+   "montant_acte_engagement": 257822.38,
+   "montant_apres_verification": 257822.38,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 3,
+ "alertes_ocr": [],
+ "notes_ocr": [],
+ "qualite": "complet"
+}

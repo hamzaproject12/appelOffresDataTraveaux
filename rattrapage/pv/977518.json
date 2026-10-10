@@ -1,0 +1,74 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "977518",
+ "orgAcronyme": "g3h",
+ "reference_pv": "16/2026/S2A",
+ "nouveau": true,
+ "reference": "16/2026/S2A",
+ "objet": "TRAVAUX DE REALISATION DE L’ECOLE AL BAYROUNI SIS A LA COMMUNE D’AIT IZZA RELEVANT DE LA PROVINCE DE TAROUDANT￾PROGRAMME 2024- ▪ Date d’ouverture des plis : Vendredi 30 janvier 2026 à 10h",
+ "acheteur": null,
+ "procedure": "appel d'offres ouvert",
+ "categorie": "Travaux",
+ "date_limite_plis": null,
+ "lieu_ouverture": null,
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": null,
+ "justification": null,
+ "infructueux": false,
+ "attributaire": "SOCIETE IMSAADEN (ESE)",
+ "montant_attribue": 7800753.0,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "SOCIETE IMSAADEN (ESE)",
+   "montant_acte_engagement": 7800753.0,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": true
+  },
+  {
+   "nom": "SOCIETE SOGECTA",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": true
+  },
+  {
+   "nom": "SOCIETE EBEP",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": true
+  },
+  {
+   "nom": "SOCIETE SOGUAMAC",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": true
+  }
+ ],
+ "nombre_soumissionnaires": 4,
+ "alertes_ocr": [
+  "« SOCIETE IMSAADEN (ESE) » absent de la liste des plis déposés (nom mal lu ?)."
+ ],
+ "notes_ocr": [
+  "« SOCIETE SOGECTA » absent de la liste des plis déposés (nom mal lu ?).",
+  "« SOCIETE EBEP » absent de la liste des plis déposés (nom mal lu ?).",
+  "« SOCIETE SOGUAMAC » absent de la liste des plis déposés (nom mal lu ?).",
+  "Maître d'ouvrage absent du PV (utiliser l'acheteur public du portail)."
+ ],
+ "qualite": "attribution"
+}

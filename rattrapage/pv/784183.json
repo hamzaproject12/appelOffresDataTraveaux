@@ -1,0 +1,80 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "784183",
+ "orgAcronyme": "u9g",
+ "reference_pv": "03/2024",
+ "nouveau": true,
+ "reference": "03/2024",
+ "objet": "Travaux de construction d’un club de sport de la Fondation Mohammed VI de Promotion des Œuvres Sociales de l’Education-Formation à Oujda. Lot n°7 : Achèvement électricité",
+ "acheteur": ", l'Education-Formation",
+ "procedure": null,
+ "categorie": "Travaux",
+ "date_limite_plis": "04/03/2024",
+ "lieu_ouverture": "Siège de la Fondation",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "27/03/2024",
+ "justification": "offre la moins disante.",
+ "infructueux": false,
+ "attributaire": "SORALEC",
+ "montant_attribue": 9699400.0,
+ "attributaires_par_lot": [
+  {
+   "lot": null,
+   "attributaire": "SORALEC",
+   "montant": 9699400.0
+  },
+  {
+   "lot": null,
+   "attributaire": "TRAVAUX ELECTRICITE ET REALISATION T.E.R",
+   "montant": 10774355.0
+  }
+ ],
+ "soumissionnaires": [
+  {
+   "nom": "SORALEC",
+   "montant_acte_engagement": 9699400.0,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "ELECLEF",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_offre_technique",
+   "admis_avec_reserve": true
+  },
+  {
+   "nom": "TRAVAUX ELECTRICITE ET REALISATION T.E.R",
+   "montant_acte_engagement": 10774355.0,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": true
+  },
+  {
+   "nom": "REBITECH",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_dossier_administratif_technique",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 4,
+ "alertes_ocr": [],
+ "notes_ocr": [
+  "Montants exprimés hors taxes (HT)."
+ ],
+ "qualite": "attribution"
+}

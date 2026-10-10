@@ -1,0 +1,51 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "876589",
+ "orgAcronyme": "d4q",
+ "reference_pv": "82/DR4/C/2024",
+ "nouveau": true,
+ "reference": "82/DR4/C/2024",
+ "objet": "- Date et heure d'ouverture des plis : 24/12/2024 09:00 (Ouverture en un seul temps) - Lieu d'ouverture des plis : au siège de la Direction Régionale de l'Ouest (DR4) - Lotissement Al Qods - Kénitra - Maroc",
+ "acheteur": null,
+ "procedure": "appel d'offres ouvert",
+ "categorie": "Travaux",
+ "date_limite_plis": "24/12/2024",
+ "lieu_ouverture": "au siège de la Direction Régionale de l'Ouest (DR4) Lotissement Al Qods - Kénitra - Maroc",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "04/03/2025",
+ "justification": "Moins-disant",
+ "infructueux": false,
+ "attributaire": "STE RACHID",
+ "montant_attribue": 74692.8,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "INFOLAMALIF",
+   "montant_acte_engagement": 39000.0,
+   "montant_apres_verification": 39000.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_dossier_administratif_technique",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "STE RACHID",
+   "montant_acte_engagement": 74692.8,
+   "montant_apres_verification": 74692.8,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 2,
+ "alertes_ocr": [],
+ "notes_ocr": [
+  "Maître d'ouvrage absent du PV (utiliser l'acheteur public du portail)."
+ ],
+ "qualite": "complet"
+}

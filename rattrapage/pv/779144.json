@@ -1,0 +1,75 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "779144",
+ "orgAcronyme": "g3h",
+ "reference_pv": "11/PB/DE/PRDTS/FDR-ZM/2023",
+ "nouveau": true,
+ "reference": "11/PB/DE/PRDTS/FDR-ZM/2023",
+ "objet": "TRAVAUX DE CONSTRUCTION DE LA PISTE RELIANT IMHAJARNE ET AIT HMAD OUAMAR COMMUNE TALZEMT -PROVINCE DE BOULEMANE",
+ "acheteur": null,
+ "procedure": null,
+ "categorie": "Travaux",
+ "date_limite_plis": "23/05/2023",
+ "lieu_ouverture": null,
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": null,
+ "justification": null,
+ "infructueux": false,
+ "attributaire": null,
+ "montant_attribue": null,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "SOCIETE BERRAHO ABDELMALKI",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "SOCIETE ROUF ENGINEERING",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "GROUPEMENT : SOCIETE SUPERFLOR et SOCIETE TECSOM",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "GROUPEMENT : SOCIETE EBYR et SOCIETE MATED CLASSE",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 4,
+ "alertes_ocr": [
+  "Attributaire non trouvé."
+ ],
+ "notes_ocr": [
+  "« SOCIETE BERRAHO ABDELMALKI » absent de la liste des plis déposés (nom mal lu ?).",
+  "« SOCIETE ROUF ENGINEERING » absent de la liste des plis déposés (nom mal lu ?).",
+  "« GROUPEMENT : SOCIETE SUPERFLOR et SOCIETE TECSOM » absent de la liste des plis déposés (nom mal lu ?).",
+  "« GROUPEMENT : SOCIETE EBYR et SOCIETE MATED CLASSE » absent de la liste des plis déposés (nom mal lu ?).",
+  "Maître d'ouvrage absent du PV (utiliser l'acheteur public du portail)."
+ ],
+ "qualite": "participants"
+}

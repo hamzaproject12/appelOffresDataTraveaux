@@ -1,0 +1,96 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "775560",
+ "orgAcronyme": "a1z",
+ "reference_pv": null,
+ "nouveau": true,
+ "reference": null,
+ "objet": "TRAVAUX D'ENTRETIEN DE BATIMENTS ADMINISTRATIFS DE LA COMMUNE DE CASABLANCA",
+ "acheteur": null,
+ "procedure": null,
+ "categorie": "Travaux",
+ "date_limite_plis": "22/11/2023",
+ "lieu_ouverture": "la salle des réunions de la Commune de",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "29/11/2023",
+ "justification": "l’offre la plus avantageuse.",
+ "infructueux": false,
+ "attributaire": "STE BOURANIME",
+ "montant_attribue": 4268700.0,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "STE MATRANEG SARL",
+   "montant_acte_engagement": 4301880.0,
+   "montant_apres_verification": 4301880.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "ENTREPRISE DE CONSTRUCTION EL KHEIR",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "STE BOURANIME",
+   "montant_acte_engagement": 4268700.0,
+   "montant_apres_verification": 4268700.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "TRAVAUX FC ET Z SAR",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "ETAB TRAVAUX",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "s al âcles",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 6,
+ "alertes_ocr": [
+  "« s al âcles » : montant illisible (212 522 422 929 DH)  écarté.",
+  "« s al âcles » : montant illisible (212 522 422 929 DH)  écarté.",
+  "« STE MATRANEG SARL » absent de la liste des plis déposés (nom mal lu ?).",
+  "« STE BOURANIME » absent de la liste des plis déposés (nom mal lu ?)."
+ ],
+ "notes_ocr": [
+  "« ENTREPRISE DE CONSTRUCTION EL KHEIR » absent de la liste des plis déposés (nom mal lu ?).",
+  "« TRAVAUX FC ET Z SAR » absent de la liste des plis déposés (nom mal lu ?).",
+  "« ETAB TRAVAUX » absent de la liste des plis déposés (nom mal lu ?).",
+  "« s al âcles » absent de la liste des plis déposés (nom mal lu ?).",
+  "Maître d'ouvrage absent du PV (utiliser l'acheteur public du portail)."
+ ],
+ "qualite": "complet"
+}

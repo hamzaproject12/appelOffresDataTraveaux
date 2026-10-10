@@ -1,0 +1,105 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "989206",
+ "orgAcronyme": "g8e",
+ "reference_pv": "1/2026/DRI",
+ "nouveau": true,
+ "reference": "1/2026/DRI",
+ "objet": "Travaux d’Aménagement au niveau de l’immeuble de la direction inter préfectorale des",
+ "acheteur": "Direction Régionale des Impôts de Casablanca",
+ "procedure": null,
+ "categorie": "Travaux",
+ "date_limite_plis": "27/03/2026",
+ "lieu_ouverture": "Salle de réunion 3ème étage, 6 Bd Rachidi",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": null,
+ "justification": null,
+ "infructueux": false,
+ "attributaire": null,
+ "montant_attribue": null,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "MJ ALU MAROC",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_offre_financiere",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": " 2SS BTP SARL",
+   "montant_acte_engagement": 2531640.0,
+   "montant_apres_verification": 2531640.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": " ENTC SARL",
+   "montant_acte_engagement": 2578800.0,
+   "montant_apres_verification": 2578800.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": " BATIHALIM SARL",
+   "montant_acte_engagement": 3005700.0,
+   "montant_apres_verification": 3005700.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": " FIDAT SARL AU",
+   "montant_acte_engagement": 2690700.0,
+   "montant_apres_verification": 2694300.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": " KPLG TRAVAUX SARL AU",
+   "montant_acte_engagement": 2544000.0,
+   "montant_apres_verification": 2544000.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": " AIT IKEN SARL AU",
+   "montant_acte_engagement": 2564880.0,
+   "montant_apres_verification": 2564880.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 7,
+ "alertes_ocr": [
+  "«  2SS BTP SARL » absent de la liste des plis déposés (nom mal lu ?).",
+  "«  ENTC SARL » absent de la liste des plis déposés (nom mal lu ?).",
+  "«  BATIHALIM SARL » absent de la liste des plis déposés (nom mal lu ?).",
+  "«  FIDAT SARL AU » absent de la liste des plis déposés (nom mal lu ?).",
+  "«  KPLG TRAVAUX SARL AU » absent de la liste des plis déposés (nom mal lu ?).",
+  "«  AIT IKEN SARL AU » absent de la liste des plis déposés (nom mal lu ?).",
+  "Attributaire non trouvé."
+ ],
+ "notes_ocr": [
+  "« MJ ALU MAROC » absent de la liste des plis déposés (nom mal lu ?).",
+  "«  FIDAT SARL AU » : montant rectifié de 2 690 700.00 à 2 694 300.00 DH."
+ ],
+ "qualite": "complet"
+}

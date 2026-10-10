@@ -1,0 +1,56 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "1002919",
+ "orgAcronyme": "g3h",
+ "reference_pv": null,
+ "nouveau": true,
+ "reference": null,
+ "objet": null,
+ "acheteur": "Société Régionale Multiservices Fès Meknès « SRM-FM »",
+ "procedure": null,
+ "categorie": "Travaux",
+ "date_limite_plis": "16/04/2026",
+ "lieu_ouverture": "Siège de la SRM-FM",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "05/05/2026",
+ "justification": "L’offre la plus avantageuse.",
+ "infructueux": false,
+ "attributaire": "SIWERGY MAROC",
+ "montant_attribue": 5636000.0,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "SIWERGY MAROC",
+   "montant_acte_engagement": 5636000.0,
+   "montant_apres_verification": 6763200.0,
+   "autres_montants": [
+    6763200.0
+   ],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "GRID BUILDING",
+   "montant_acte_engagement": 7151900.0,
+   "montant_apres_verification": 8582280.0,
+   "autres_montants": [
+    8582280.0
+   ],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 2,
+ "alertes_ocr": [],
+ "notes_ocr": [
+  "« SIWERGY MAROC » : montant rectifié de 5 636 000.00 à 6 763 200.00 DH.",
+  "« GRID BUILDING » : montant rectifié de 7 151 900.00 à 8 582 280.00 DH."
+ ],
+ "qualite": "complet"
+}

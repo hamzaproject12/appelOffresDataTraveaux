@@ -1,0 +1,78 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "882215",
+ "orgAcronyme": "i1t",
+ "reference_pv": "05/2025",
+ "nouveau": true,
+ "reference": "05/2025",
+ "objet": "Construction d’une nouvelle fourrière municipale à Kénitra",
+ "acheteur": "Commune de Kenitra",
+ "procedure": "appel d'offres ouvert national",
+ "categorie": "Travaux",
+ "date_limite_plis": "11/03/2025",
+ "lieu_ouverture": "Le bureau de Madame la Présidente de la commune de Kenitra",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "25/03/2025",
+ "justification": "Offre économiquement la plus avantageuse.",
+ "infructueux": false,
+ "attributaire": "Société MEMOBAT sarl - Kenitra",
+ "montant_attribue": 2719474.8,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "Société MEMOBAT sarl - Kenitra",
+   "montant_acte_engagement": 2719474.8,
+   "montant_apres_verification": 2911498.8,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Entreprise BAKADDOURI TRAVAUX - Meknès",
+   "montant_acte_engagement": 3571857.6,
+   "montant_apres_verification": 3571857.6,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_offre_financiere",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Société SOCOFOURI sarl - Khémisset",
+   "montant_acte_engagement": 2911498.8,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Société ENTRETIENT DE BATIMENT ET",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "OUVRAGES EX BELHASSANE OMAR sarl - Arfoud",
+   "montant_acte_engagement": 2873340.0,
+   "montant_apres_verification": 2873340.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 5,
+ "alertes_ocr": [],
+ "notes_ocr": [
+  "« Société MEMOBAT sarl - Kenitra » : montant rectifié de 2 719 474.80 à 2 911 498.80 DH."
+ ],
+ "qualite": "complet"
+}

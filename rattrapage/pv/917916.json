@@ -1,0 +1,75 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "917916",
+ "orgAcronyme": "q1s",
+ "reference_pv": "28/2025",
+ "nouveau": true,
+ "reference": "28/2025",
+ "objet": "Travaux d’aménagement hydro-agricole au niveau de la commune territoriale Zaouite Ahensal, Cercle d’Azilal, Province d’Azilal",
+ "acheteur": "Directeur Provincial de l’Agriculture d’Azilal",
+ "procedure": "appel d'offres ouvert national",
+ "categorie": "Travaux",
+ "date_limite_plis": null,
+ "lieu_ouverture": "la salle de réunions de la Direction Provinciale de l’Agriculture d’Azilal",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "17/07/2025",
+ "justification": "L’offre la plus avantageuse.",
+ "infructueux": false,
+ "attributaire": "STE TQS",
+ "montant_attribue": 2388792.0,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "STE RICANIER STE SARHANE ET FAROUK",
+   "montant_acte_engagement": 2377704.0,
+   "montant_apres_verification": null,
+   "autres_montants": [
+    2373084.0
+   ],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "STE TQS STE WAY PROJET",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "STE COMPLEXE BATIMENT ET TRAVAUX PUBLIC STE ENTREPRISE SALMI OMAR",
+   "montant_acte_engagement": 2377260.0,
+   "montant_apres_verification": null,
+   "autres_montants": [
+    2449428.0
+   ],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "STE TQS",
+   "montant_acte_engagement": 2388792.0,
+   "montant_apres_verification": null,
+   "autres_montants": [
+    2659680.0
+   ],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 4,
+ "alertes_ocr": [
+  "« STE TQS » absent de la liste des plis déposés (nom mal lu ?)."
+ ],
+ "notes_ocr": [],
+ "qualite": "complet"
+}

@@ -1,0 +1,104 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "707250",
+ "orgAcronyme": "f9f",
+ "reference_pv": null,
+ "nouveau": true,
+ "reference": null,
+ "objet": null,
+ "acheteur": "Le Couseil Provincial de Ouarzazate",
+ "procedure": null,
+ "categorie": "Travaux",
+ "date_limite_plis": null,
+ "lieu_ouverture": "des pIis : Le Bureau du Monsieur Le Piesident du Conseil Provincial Joumaux avant Dubli6 I;avis de Dublicit6 : Le Matin 22 Fさv血er 2023",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": null,
+ "justification": null,
+ "infructueux": false,
+ "attributaire": "GROUPEMENT SOCIETE CITE ZINE SARL ET SOCIETE SOFUT SARL",
+ "montant_attribue": 2584315.2,
+ "attributaires_par_lot": [
+  {
+   "lot": null,
+   "attributaire": "GROUPEMENT SOCIETE CITE ZINE SARL ET SOCIETE SOFUT SARL",
+   "montant": 2584315.2
+  },
+  {
+   "lot": null,
+   "attributaire": "GROUPEMENT SOCIETE POWER ATLANTIC SARL ET SOCIETE NOGICO SUD SARL AU",
+   "montant": 3239160.0
+  }
+ ],
+ "soumissionnaires": [
+  {
+   "nom": "SOCIETE IKEFRANE ENTREPRISE DE TRAVAUX SARL",
+   "montant_acte_engagement": 3333054.0,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "GROUPEMENT SOCIETE CITE ZINE SARL ET SOCIETE SOFUT SARL",
+   "montant_acte_engagement": 2584315.2,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "GROUPEMENT SOCIETE POWER ATLANTIC SARL ET SOCIETE NOGICO SUD SARL AU",
+   "montant_acte_engagement": 3239160.0,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "SOCIETE NAJMA SUD DE TRAVAUX SARL AU",
+   "montant_acte_engagement": 3578653.2,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "N6ant",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "SUD SARL AU",
+   "montant_acte_engagement": 3239160.0,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 6,
+ "alertes_ocr": [
+  "« SOCIETE IKEFRANE ENTREPRISE DE TRAVAUX SARL » absent de la liste des plis déposés (nom mal lu ?).",
+  "« GROUPEMENT SOCIETE CITE ZINE SARL ET SOCIETE SOFUT SARL » absent de la liste des plis déposés (nom mal lu ?).",
+  "« GROUPEMENT SOCIETE POWER ATLANTIC SARL ET SOCIETE NOGICO SUD SARL AU » absent de la liste des plis déposés (nom mal lu ?).",
+  "« SOCIETE NAJMA SUD DE TRAVAUX SARL AU » absent de la liste des plis déposés (nom mal lu ?).",
+  "« SUD SARL AU » absent de la liste des plis déposés (nom mal lu ?)."
+ ],
+ "notes_ocr": [
+  "« N6ant » absent de la liste des plis déposés (nom mal lu ?)."
+ ],
+ "qualite": "complet"
+}

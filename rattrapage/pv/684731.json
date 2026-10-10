@@ -1,0 +1,94 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "684731",
+ "orgAcronyme": "g3h",
+ "reference_pv": "1241/22",
+ "nouveau": true,
+ "reference": "1241/22",
+ "objet": "Travaux d'aménagement et amélioration de l'hygiène et la sécurité des locaux et agences de la RAK -tranche 1 : LOT 3 : COMPLEXE HYDRAULIQUE MAAMORA",
+ "acheteur": "Régie Autonome Intercommunale de Distribution d'Eau, D'Electricité et d'Assainissement Liquide de la Province de KENITRA (RAK)",
+ "procedure": "appel d'offres ouvert",
+ "categorie": "Travaux",
+ "date_limite_plis": "15/11/2022",
+ "lieu_ouverture": "Siège RAK - KENITRA/",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "14/12/2022",
+ "justification": "- Dossiers administratif, technique conformes aux exigences du dossier d'appel d'offres. - Offre avantageuse répondant aux critères d'évaluation du règlement de la consultation et du Règlement relatif aux marchés publics de la RAK.",
+ "infructueux": false,
+ "attributaire": "BOUKHREISS LAHCEN",
+ "montant_attribue": 257604.0,
+ "attributaires_par_lot": [
+  {
+   "lot": null,
+   "attributaire": "BOUKHREISS LAHCEN",
+   "montant": 257604.0
+  },
+  {
+   "lot": null,
+   "attributaire": "NH CONSTRUCTION",
+   "montant": 281592.0
+  },
+  {
+   "lot": null,
+   "attributaire": "IFTEWGEN",
+   "montant": 351120.0
+  },
+  {
+   "lot": null,
+   "attributaire": "MJ BATI",
+   "montant": 348552.0
+  }
+ ],
+ "soumissionnaires": [
+  {
+   "nom": "BOUKHREISS LAHCEN",
+   "montant_acte_engagement": 3257604.0,
+   "montant_apres_verification": 264084.0,
+   "autres_montants": [],
+   "lots": [
+    "3"
+   ],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "NH CONSTRUCTION",
+   "montant_acte_engagement": 281592.0,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "IFTEWGEN",
+   "montant_acte_engagement": 351120.0,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": true
+  },
+  {
+   "nom": "MJ BATI",
+   "montant_acte_engagement": 348552.0,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": true
+  }
+ ],
+ "nombre_soumissionnaires": 4,
+ "alertes_ocr": [
+  "« BOUKHREISS LAHCEN » : écart anormal entre montant initial et vérifié (lecture à vérifier)."
+ ],
+ "notes_ocr": [
+  "« BOUKHREISS LAHCEN » : montant rectifié de 3 257 604.00 à 264 084.00 DH."
+ ],
+ "qualite": "attribution"
+}

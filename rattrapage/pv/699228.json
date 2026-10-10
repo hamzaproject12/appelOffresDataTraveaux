@@ -1,0 +1,79 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "699228",
+ "orgAcronyme": "g8e",
+ "reference_pv": null,
+ "nouveau": true,
+ "reference": null,
+ "objet": "Dépollution du bassin de Bouregreg Opérationnalisation du projet ait Ikkou, Brachoua, Houderrane, Laghoualem, Tarmilet, Tiddas et Aïn Sbit : travaux de réalisation des stations d'épuration en deux lot sépares et non cumulables",
+ "acheteur": null,
+ "procedure": null,
+ "categorie": "Travaux",
+ "date_limite_plis": "25/01/2023",
+ "lieu_ouverture": "Bureau de la Société Rabat Région Aménagement au 9, Place Al Joulane — Rabat",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": null,
+ "justification": null,
+ "infructueux": true,
+ "attributaire": null,
+ "montant_attribue": null,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "GROUPEMENT CIRGEC ET HYDROSYSTEMES",
+   "montant_acte_engagement": 21158236.8,
+   "montant_apres_verification": null,
+   "autres_montants": [
+    21158236.8
+   ],
+   "lots": [
+    "1"
+   ],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Société VALTECH",
+   "montant_acte_engagement": 30426882.0,
+   "montant_apres_verification": null,
+   "autres_montants": [
+    23004954.0,
+    30426882.0,
+    23904954.0
+   ],
+   "lots": [
+    "1"
+   ],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Société ATNER",
+   "montant_acte_engagement": 35449230.0,
+   "montant_apres_verification": null,
+   "autres_montants": [
+    28782780.0,
+    35449230.0,
+    28782780.0
+   ],
+   "lots": [
+    "1"
+   ],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 3,
+ "alertes_ocr": [
+  "« Société VALTECH » absent de la liste des plis déposés (nom mal lu ?).",
+  "« Société ATNER » absent de la liste des plis déposés (nom mal lu ?)."
+ ],
+ "notes_ocr": [
+  "Maître d'ouvrage absent du PV (utiliser l'acheteur public du portail)."
+ ],
+ "qualite": "complet"
+}

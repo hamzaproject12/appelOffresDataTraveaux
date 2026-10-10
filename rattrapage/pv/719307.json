@@ -1,0 +1,73 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "719307",
+ "orgAcronyme": "d0q",
+ "reference_pv": "11/2023/SAT",
+ "nouveau": true,
+ "reference": "11/2023/SAT",
+ "objet": null,
+ "acheteur": null,
+ "procedure": "appel d'offres ouvert",
+ "categorie": "Travaux",
+ "date_limite_plis": "09/05/2023",
+ "lieu_ouverture": "Bureau du président du conseil communal de Taza sis à l'ex Le quotidien : AL BAYANE n° : 14488 du 17/04/2023 :12413 du 17/04/2023",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": null,
+ "justification": "L'offre unique. 06 JUL 202",
+ "infructueux": false,
+ "attributaire": "Sté BETOCOST sarl — Rabat",
+ "montant_attribue": 545589.6,
+ "attributaires_par_lot": [
+  {
+   "lot": null,
+   "attributaire": "Sté BETOCOST sarl — Rabat",
+   "montant": 545589.6
+  },
+  {
+   "lot": null,
+   "attributaire": "Sté SIMO FOR - Taza",
+   "montant": 361584.0
+  }
+ ],
+ "soumissionnaires": [
+  {
+   "nom": "Sté BETOCOST sarl — Rabat",
+   "montant_acte_engagement": 545589.6,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Sté EL BRIHI CTP- Taza",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Sté SIMO FOR - Taza",
+   "montant_acte_engagement": 361584.0,
+   "montant_apres_verification": null,
+   "autres_montants": [
+    361584.0
+   ],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 3,
+ "alertes_ocr": [],
+ "notes_ocr": [
+  "Maître d'ouvrage absent du PV (utiliser l'acheteur public du portail)."
+ ],
+ "qualite": "attribution"
+}

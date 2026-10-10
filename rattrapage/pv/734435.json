@@ -1,0 +1,74 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "734435",
+ "orgAcronyme": "g3h",
+ "reference_pv": "08/2023/INDH",
+ "nouveau": true,
+ "reference": "08/2023/INDH",
+ "objet": "Travaux d'alimentation en eau potable par branchement individuel du douar Ain Ounsar à la commune Melloussa - Province Fahs Anjra",
+ "acheteur": "Province Fahs-Anjra",
+ "procedure": "appel d'offres ouvert",
+ "categorie": "Travaux",
+ "date_limite_plis": "22/06/2023",
+ "lieu_ouverture": "_: bureau de Mr. le Secrétaire Général {Salle de réunion)",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "26/07/2023",
+ "justification": "- Offre avantageuse et raisonnable.",
+ "infructueux": false,
+ "attributaire": "Groupement. « Sté. ATLAS BOUGAFER/SARL AU et Sté. S.A.L TRAVAUX/SARL",
+ "montant_attribue": 5244482.4,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "Groupement. « Sté. SOGERCOS/SARL et Sté. PEGASE TRAVAUX/SARL",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_dossier_administratif_technique",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Groupement. « Sté. ATLAS BOUGAFER/SARL AU et Sté. S.A.L TRAVAUX/SARL",
+   "montant_acte_engagement": 5244482.4,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Groupement. «Sté",
+   "montant_acte_engagement": 4574426.4,
+   "montant_apres_verification": null,
+   "autres_montants": [
+    4574426.4
+   ],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Groupement. « Sté. ATLAS",
+   "montant_acte_engagement": 5244482.4,
+   "montant_apres_verification": null,
+   "autres_montants": [
+    5244482.4
+   ],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 4,
+ "alertes_ocr": [
+  "« Groupement. «Sté » absent de la liste des plis déposés (nom mal lu ?).",
+  "« Groupement. « Sté. ATLAS » absent de la liste des plis déposés (nom mal lu ?)."
+ ],
+ "notes_ocr": [],
+ "qualite": "complet"
+}

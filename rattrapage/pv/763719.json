@@ -1,0 +1,51 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "763719",
+ "orgAcronyme": "p8x",
+ "reference_pv": "43/2023/CH/INV",
+ "nouveau": true,
+ "reference": "43/2023/CH/INV",
+ "objet": null,
+ "acheteur": null,
+ "procedure": "appel d'offres ouvert",
+ "categorie": "Travaux",
+ "date_limite_plis": null,
+ "lieu_ouverture": null,
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": null,
+ "justification": " Candidat ayant de bonnes références techniques, administratives et financières.  Les prix sont avantageux pour l’Administration, l’offre financière a été jugée la plus intéressante par la commission chargée de l’ouverture des plis.  Date d’achèvement des travaux de la commission : 13/12/2023 à 09h10mn.",
+ "infructueux": false,
+ "attributaire": "Sté SOT ITRANE sarl - Chichaoua",
+ "montant_attribue": 43320.0,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "Sté Ait Maazouz Construction sarl - Marrakech",
+   "montant_acte_engagement": 38400.0,
+   "montant_apres_verification": 38400.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Sté SOT ITRANE sarl - Chichaoua",
+   "montant_acte_engagement": 43320.0,
+   "montant_apres_verification": 43320.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 2,
+ "alertes_ocr": [],
+ "notes_ocr": [
+  "Maître d'ouvrage absent du PV (utiliser l'acheteur public du portail)."
+ ],
+ "qualite": "complet"
+}

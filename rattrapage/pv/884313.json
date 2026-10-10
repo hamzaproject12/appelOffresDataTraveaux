@@ -1,0 +1,90 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "884313",
+ "orgAcronyme": "g3h",
+ "reference_pv": "2489/E/2025",
+ "nouveau": true,
+ "reference": "2489/E/2025",
+ "objet": "ELECTRIFICATION DU MARCHÉ PERMANENT JMILIA SIS À L'ANCIENNE MÉDINA PARTIE N°1 (Travaux de branchement de 272 magasins)",
+ "acheteur": "RÉGIE AUTONOME DE DISTRIBUTION EAU ET ÉLECTRICITÉ DE MEKNÈS",
+ "procedure": "appel d'offres ouvert simplifié",
+ "categorie": "Travaux",
+ "date_limite_plis": "13/03/2025",
+ "lieu_ouverture": "Siège de la RADEM",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "03/04/2025",
+ "justification": "l'offre économiquement la plus avantageuse. *",
+ "infructueux": false,
+ "attributaire": "STE R.A.C.H.I.D",
+ "montant_attribue": 641676.0,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "ORTIC",
+   "montant_acte_engagement": 800201.0,
+   "montant_apres_verification": 800201.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "STER.A.CH.I.D",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "COMPANY GENERALE DE TRAVAUX ET SERVICES",
+   "montant_acte_engagement": 796929.6,
+   "montant_apres_verification": 8925.8,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "MOROCCAN ELECTRIC POWER COMPANY (MEPC)",
+   "montant_acte_engagement": 800330.4,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_offre_financiere",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "STE SEVIELEC",
+   "montant_acte_engagement": 800123.7,
+   "montant_apres_verification": 800123.7,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "STE R.A.C.H.I.D",
+   "montant_acte_engagement": 641676.0,
+   "montant_apres_verification": 641676.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 6,
+ "alertes_ocr": [
+  "« STE R.A.C.H.I.D » absent de la liste des plis déposés (nom mal lu ?).",
+  "« COMPANY GENERALE DE TRAVAUX ET SERVICES » : écart anormal entre montant initial et vérifié (lecture à vérifier)."
+ ],
+ "notes_ocr": [
+  "« COMPANY GENERALE DE TRAVAUX ET SERVICES » : montant rectifié de 796 929.60 à 8 925.80 DH."
+ ],
+ "qualite": "complet"
+}

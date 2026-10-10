@@ -1,0 +1,64 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "1042975",
+ "orgAcronyme": "d4q",
+ "reference_pv": null,
+ "nouveau": true,
+ "reference": null,
+ "objet": "l’Acquisition de poste transformateur de 400 KVA pour la SR2 du système",
+ "acheteur": null,
+ "procedure": "appel d'offres ouvert",
+ "categorie": "Travaux",
+ "date_limite_plis": "06/08/2026",
+ "lieu_ouverture": "au siège de la Direction Régionale Béni Mellal-Khénifra (DR3) - Boulevard Mohamed VI, Quartier Administratif - Khouribga - Maroc",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "25/09/2026",
+ "justification": "Moins-disant",
+ "infructueux": false,
+ "attributaire": "ELECTRO BOBINAGE ENNOUR - Offre de",
+ "montant_attribue": 379740.0,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "ELECTRO BOBINAGE ENNOUR - Offre de",
+   "montant_acte_engagement": 379740.0,
+   "montant_apres_verification": null,
+   "autres_montants": [
+    379740.0
+   ],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "ENERGIE 3000 MAROC",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "depose",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "LINFRA MAROC MAROC",
+   "montant_acte_engagement": 383595.0,
+   "montant_apres_verification": null,
+   "autres_montants": [
+    383595.0
+   ],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 3,
+ "alertes_ocr": [],
+ "notes_ocr": [
+  "Maître d'ouvrage absent du PV (utiliser l'acheteur public du portail)."
+ ],
+ "qualite": "complet"
+}

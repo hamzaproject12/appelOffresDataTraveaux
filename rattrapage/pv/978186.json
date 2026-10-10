@@ -1,0 +1,106 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "978186",
+ "orgAcronyme": "a1t",
+ "reference_pv": "17/2026/ADHA",
+ "nouveau": true,
+ "reference": "17/2026/ADHA",
+ "objet": null,
+ "acheteur": "L’AGENCE DE DEVELOPPEMNT DU HAUT ATLAS",
+ "procedure": null,
+ "categorie": "Travaux",
+ "date_limite_plis": "11/02/2026",
+ "lieu_ouverture": "Salle de réunions de l’ADHA, CHWITER",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "17/02/2026",
+ "justification": null,
+ "infructueux": false,
+ "attributaire": "Groupement Sté NARAVAS SARL AU et Sté AIT YHYA SERVICES SARL",
+ "montant_attribue": 6828259.62,
+ "attributaires_par_lot": [
+  {
+   "lot": null,
+   "attributaire": "Groupement Sté NARAVAS SARL AU et Sté AIT YHYA SERVICES SARL",
+   "montant": 6828259.62
+  },
+  {
+   "lot": null,
+   "attributaire": "Sté TOUZDIT SARL",
+   "montant": 14164185.6
+  },
+  {
+   "lot": null,
+   "attributaire": "Sté JHLLAN TRAVAUX SARL",
+   "montant": 2800620.0
+  },
+  {
+   "lot": null,
+   "attributaire": "Sté KHLFI SET SARL",
+   "montant": 13580865.6
+  }
+ ],
+ "soumissionnaires": [
+  {
+   "nom": "Groupement Sté NARAVAS SARL AU et Sté AIT YHYA SERVICES SARL",
+   "montant_acte_engagement": 6828259.62,
+   "montant_apres_verification": 6828259.62,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Groupement Sté SNTRO SARL et STE GRANDS BATISSEURS INNOVANTS « LGBI",
+   "montant_acte_engagement": 8048539.2,
+   "montant_apres_verification": 8048539.2,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Sté TOUZDIT SARL",
+   "montant_acte_engagement": 14164185.6,
+   "montant_apres_verification": 14164185.6,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Sté JHLLAN TRAVAUX SARL",
+   "montant_acte_engagement": 2800620.0,
+   "montant_apres_verification": 2800620.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Sté ELITEDAR SARL",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "depose",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Sté KHLFI SET SARL",
+   "montant_acte_engagement": 13580865.6,
+   "montant_apres_verification": 13580865.6,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 6,
+ "alertes_ocr": [],
+ "notes_ocr": [],
+ "qualite": "complet"
+}

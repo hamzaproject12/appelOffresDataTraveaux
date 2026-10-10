@@ -1,0 +1,45 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "822548",
+ "orgAcronyme": "o8p",
+ "reference_pv": "14/AO0O0/DPMR-ANP/2024",
+ "nouveau": true,
+ "reference": "14/AO0O0/DPMR-ANP/2024",
+ "objet": null,
+ "acheteur": "Agence Nationale des ports / Direction du Port de Mohammedia Et Région",
+ "procedure": "appel d'offres ouvert",
+ "categorie": "Travaux",
+ "date_limite_plis": "18/07/2024",
+ "lieu_ouverture": "ANP/DPMR/DPM Conformément à l'avis publié",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": null,
+ "justification": null,
+ "infructueux": false,
+ "attributaire": null,
+ "montant_attribue": null,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "STE ITINERA MAROC",
+   "montant_acte_engagement": 3350000.0,
+   "montant_apres_verification": 3350000.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 1,
+ "alertes_ocr": [
+  "« STE ITINERA MAROC » absent de la liste des plis déposés (nom mal lu ?).",
+  "Attributaire non trouvé."
+ ],
+ "notes_ocr": [
+  "Montants exprimés hors taxes (HT)."
+ ],
+ "qualite": "attribution"
+}

@@ -1,0 +1,95 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "782520",
+ "orgAcronyme": "j8k",
+ "reference_pv": null,
+ "nouveau": true,
+ "reference": null,
+ "objet": "la Réalisation des travaux de voirie et d'aménagement des chemins piétons du lotissement Talaint I, sis à la commune Territoriale de lqliaa – préfecture d’Inezgane Ait Melloul",
+ "acheteur": null,
+ "procedure": "appel d'offres ouvert",
+ "categorie": "Travaux",
+ "date_limite_plis": "18/03/2024",
+ "lieu_ouverture": "Division des Marchés de la Société Al Omrane souss Massa",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "22/03/2024",
+ "justification": "Concurrent représentant l’offre la plus avantageuse.",
+ "infructueux": false,
+ "attributaire": "SICATRA",
+ "montant_attribue": 15914077.34,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "ENTREPRISE DE TRAVAUX ET D’INGENIERIE D’AGADIR (ETIA)",
+   "montant_acte_engagement": 16727865.39,
+   "montant_apres_verification": 16727865.39,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "ALAM EQUIPEMENT (ALEQ)",
+   "montant_acte_engagement": 18727975.57,
+   "montant_apres_verification": 18727975.57,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Groupement SETRAGED & GOUDAD AFFAIRE - PERFORMANCE MATERIEL - SAKITRA",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_offre_technique",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "SICATRA",
+   "montant_acte_engagement": 15914077.34,
+   "montant_apres_verification": 15914077.34,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "ETABLISSEMENT ESSAKINI",
+   "montant_acte_engagement": 18301188.95,
+   "montant_apres_verification": 18301188.95,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "SNTRO",
+   "montant_acte_engagement": 18522568.8,
+   "montant_apres_verification": 18521815.93,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 6,
+ "alertes_ocr": [
+  "« ENTREPRISE DE TRAVAUX ET D’INGENIERIE D’AGADIR (ETIA) » absent de la liste des plis déposés (nom mal lu ?).",
+  "« ALAM EQUIPEMENT (ALEQ) » absent de la liste des plis déposés (nom mal lu ?).",
+  "« SICATRA » absent de la liste des plis déposés (nom mal lu ?).",
+  "« ETABLISSEMENT ESSAKINI » absent de la liste des plis déposés (nom mal lu ?).",
+  "« SNTRO » absent de la liste des plis déposés (nom mal lu ?)."
+ ],
+ "notes_ocr": [
+  "« Groupement SETRAGED & GOUDAD AFFAIRE - PERFORMANCE MATERIEL - SAKITRA » absent de la liste des plis déposés (nom mal lu ?).",
+  "« SNTRO » : montant rectifié de 18 522 568.80 à 18 521 815.93 DH.",
+  "Maître d'ouvrage absent du PV (utiliser l'acheteur public du portail)."
+ ],
+ "qualite": "complet"
+}

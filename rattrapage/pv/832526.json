@@ -1,0 +1,58 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "832526",
+ "orgAcronyme": "d4q",
+ "reference_pv": null,
+ "nouveau": true,
+ "reference": null,
+ "objet": null,
+ "acheteur": null,
+ "procedure": "appel d'offres ouvert",
+ "categorie": "Travaux",
+ "date_limite_plis": "06/04/2023",
+ "lieu_ouverture": "Siège de la Direction Régionale Distribution Casablanca",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": null,
+ "justification": "Offre avantageuse.",
+ "infructueux": false,
+ "attributaire": "BOUNOUAR SIGNALISATION",
+ "montant_attribue": 66209.0,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "BOUNOUAR SIGNALISATION",
+   "montant_acte_engagement": 66209.0,
+   "montant_apres_verification": null,
+   "autres_montants": [
+    66200.0,
+    79440.0
+   ],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "et INSTALEQUIP",
+   "montant_acte_engagement": 93800.0,
+   "montant_apres_verification": null,
+   "autres_montants": [
+    93800.0,
+    112560.0
+   ],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 2,
+ "alertes_ocr": [],
+ "notes_ocr": [
+  "Maître d'ouvrage absent du PV (utiliser l'acheteur public du portail).",
+  "Montants exprimés hors taxes (HT)."
+ ],
+ "qualite": "complet"
+}

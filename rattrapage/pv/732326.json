@@ -1,0 +1,49 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "732326",
+ "orgAcronyme": "t5y",
+ "reference_pv": null,
+ "nouveau": true,
+ "reference": null,
+ "objet": null,
+ "acheteur": "la Sous-Direction Régionale près de la Cour d'Appel d'Oujda",
+ "procedure": null,
+ "categorie": "Travaux",
+ "date_limite_plis": "13/07/2023",
+ "lieu_ouverture": "la Sous Direction Régionale près de la Cour d'Appel d'Oujda",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "27/07/2023",
+ "justification": null,
+ "infructueux": false,
+ "attributaire": "STE BATIMENT VILLE DE DEMAIN SARL",
+ "montant_attribue": 6005052.0,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "STE BATIMENT VILLE DE DEMAIN SARL",
+   "montant_acte_engagement": 6005052.0,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "STE OPERA TRAVAUX SARL",
+   "montant_acte_engagement": 6537420.0,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 2,
+ "alertes_ocr": [],
+ "notes_ocr": [],
+ "qualite": "complet"
+}

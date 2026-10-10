@@ -1,0 +1,61 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "1022748",
+ "orgAcronyme": "a1t",
+ "reference_pv": "125/2026/ADHA",
+ "nouveau": true,
+ "reference": "125/2026/ADHA",
+ "objet": "TRAVAUX DE CONSTRUCTION D'UN CENTRE DE SANTE RURAL (CSR NIVEAU 2) - PROVINCE DE CHICHAOUA",
+ "acheteur": "L'AGENCE DE DEVELOPPEMENT DU HAUT ATLAS",
+ "procedure": null,
+ "categorie": "Travaux",
+ "date_limite_plis": "07/07/2026",
+ "lieu_ouverture": "Salle de réunion de l'Agence de Développement du Haut Atlas",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "09/07/2026",
+ "justification": null,
+ "infructueux": false,
+ "attributaire": "Sté ATLAS BATIMAR SARL AU",
+ "montant_attribue": 19429386.12,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "Sté STDH SARL AU",
+   "montant_acte_engagement": 19755555.96,
+   "montant_apres_verification": 19771395.96,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_offre_financiere",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Sté TOUZDIT SARL",
+   "montant_acte_engagement": 19427293.8,
+   "montant_apres_verification": 19435933.8,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Sté ATLAS BATIMAR SARL AU",
+   "montant_acte_engagement": 19429386.12,
+   "montant_apres_verification": 19429386.12,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 3,
+ "alertes_ocr": [],
+ "notes_ocr": [
+  "« Sté STDH SARL AU » : montant rectifié de 19 755 555.96 à 19 771 395.96 DH.",
+  "« Sté TOUZDIT SARL » : montant rectifié de 19 427 293.80 à 19 435 933.80 DH."
+ ],
+ "qualite": "complet"
+}

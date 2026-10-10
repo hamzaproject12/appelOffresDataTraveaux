@@ -1,0 +1,53 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "787834",
+ "orgAcronyme": "d4q",
+ "reference_pv": "13/DAM/EE/2024",
+ "nouveau": true,
+ "reference": "13/DAM/EE/2024",
+ "objet": "relatif à",
+ "acheteur": null,
+ "procedure": "appel d'offres ouvert",
+ "categorie": "Travaux",
+ "date_limite_plis": "27/03/2024",
+ "lieu_ouverture": "à la Salle d'ouverture de l1'Immeuble G - Avenue Mohamed Belhassan El Ouazzani - Rabat",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "15/04/2024",
+ "justification": "Moins-disant",
+ "infructueux": false,
+ "attributaire": "GEOSPEC",
+ "montant_attribue": 3559680.0,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "GEOSPEC",
+   "montant_acte_engagement": 3559680.0,
+   "montant_apres_verification": null,
+   "autres_montants": [
+    3559680.0
+   ],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "MAROC",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "depose",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 2,
+ "alertes_ocr": [],
+ "notes_ocr": [
+  "Maître d'ouvrage absent du PV (utiliser l'acheteur public du portail)."
+ ],
+ "qualite": "attribution"
+}

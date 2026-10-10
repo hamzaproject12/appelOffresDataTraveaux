@@ -1,0 +1,55 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "873291",
+ "orgAcronyme": "o8p",
+ "reference_pv": "39/A00/DPMR-ANP/2024",
+ "nouveau": true,
+ "reference": "39/A00/DPMR-ANP/2024",
+ "objet": "« TRAVAUX DE SURELEVATION DES PLATEFORMES EN BETON ET D'UN CAVALIER DE PROTECTION AU PORT DE SKHIRAT»",
+ "acheteur": "Agence Nationale de",
+ "procedure": "appel d'offres ouvert",
+ "categorie": "Travaux",
+ "date_limite_plis": "06/02/2025",
+ "lieu_ouverture": "ANP/DPMR Conformément à l'avis publié dans : S ports : Direction du Port de Mohammedia et Région",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "18/02/2025",
+ "justification": null,
+ "infructueux": false,
+ "attributaire": null,
+ "montant_attribue": null,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "GLOBAL BUILDERS SARL",
+   "montant_acte_engagement": 4158500.0,
+   "montant_apres_verification": 4158500.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Ste MOKHTAR POLY SERVICE SARL",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_dossier_administratif_technique",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 2,
+ "alertes_ocr": [
+  "« GLOBAL BUILDERS SARL » absent de la liste des plis déposés (nom mal lu ?).",
+  "Attributaire non trouvé."
+ ],
+ "notes_ocr": [
+  "« Ste MOKHTAR POLY SERVICE SARL » absent de la liste des plis déposés (nom mal lu ?).",
+  "Montants exprimés hors taxes (HT)."
+ ],
+ "qualite": "attribution"
+}

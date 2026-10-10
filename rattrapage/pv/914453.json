@@ -1,0 +1,97 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "914453",
+ "orgAcronyme": "o8p",
+ "reference_pv": "KE/22/2025",
+ "nouveau": true,
+ "reference": "KE/22/2025",
+ "objet": null,
+ "acheteur": null,
+ "procedure": "appel d'offres ouvert national",
+ "categorie": "Travaux",
+ "date_limite_plis": "18/06/2025",
+ "lieu_ouverture": null,
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "24/06/2025",
+ "justification": "il a présenté l’offre économiquement la plus avantageuse répondant aux critères et conditions de l’appel d’offres.",
+ "infructueux": false,
+ "attributaire": "FULCRUM",
+ "montant_attribue": 2435856.0,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "MASSO TRAV",
+   "montant_acte_engagement": 2392713.6,
+   "montant_apres_verification": 2392713.6,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "SOZRA",
+   "montant_acte_engagement": 2688715.2,
+   "montant_apres_verification": 2688715.2,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "FULCRUM",
+   "montant_acte_engagement": 2435856.0,
+   "montant_apres_verification": 2435856.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "STE ETABLISSEMENT ASSREM NEGOC",
+   "montant_acte_engagement": 2735428.8,
+   "montant_apres_verification": 2735428.8,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Groupement DIRECTROUTE et STE AFRICAINE DES TRAVAUX PUBLICS",
+   "montant_acte_engagement": 2822260.8,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_offre_financiere",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "STE LOURIKI TRAVAUX",
+   "montant_acte_engagement": 2799331.2,
+   "montant_apres_verification": 2895331.2,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_offre_financiere",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "FILALI TRAVAUX PUBLICS ET REBO",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_dossier_administratif_technique",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 7,
+ "alertes_ocr": [],
+ "notes_ocr": [
+  "« STE LOURIKI TRAVAUX » : montant rectifié de 2 799 331.20 à 2 895 331.20 DH.",
+  "Maître d'ouvrage absent du PV (utiliser l'acheteur public du portail)."
+ ],
+ "qualite": "complet"
+}

@@ -1,0 +1,58 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "1005359",
+ "orgAcronyme": "g3h",
+ "reference_pv": "22/DPJ-2026",
+ "nouveau": true,
+ "reference": "22/DPJ-2026",
+ "objet": null,
+ "acheteur": "SRM-CS DP EL JADIDA",
+ "procedure": "appel d'offres ouvert",
+ "categorie": "Travaux",
+ "date_limite_plis": "28/04/2026",
+ "lieu_ouverture": "Direction Provinciale El Jadida",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "19/05/2026",
+ "justification": "Offre la plus avantageuse.",
+ "infructueux": false,
+ "attributaire": "BIGINCEP",
+ "montant_attribue": 1062720.0,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "IRC MAROC",
+   "montant_acte_engagement": 1318064.4,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "BIGINCEP",
+   "montant_acte_engagement": 1062720.0,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "AGOUDI DAYS",
+   "montant_acte_engagement": 1345056.0,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 3,
+ "alertes_ocr": [],
+ "notes_ocr": [],
+ "qualite": "complet"
+}

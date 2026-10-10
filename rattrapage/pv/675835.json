@@ -1,0 +1,69 @@
+{
+ "source": "extrait_docx",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "675835",
+ "orgAcronyme": "g3h",
+ "reference_pv": "11/SAP/SPIM/2022",
+ "nouveau": true,
+ "reference": "11/SAP/SPIM/2022",
+ "objet": "LA FOURNITURE ET L’INSTALLATION DU PRE-CABLAGE DU RESEAU INFORMATIQUE AU COMMISSARIAT DE CIRCONSCRIPTION DE MRIRT, PROVINCE DE KHENIFRA.-LOT UNIQUE",
+ "acheteur": "Préfecture de Police de Béni Mellal",
+ "procedure": "appel d'offres ouvert",
+ "categorie": "Travaux",
+ "date_limite_plis": "27/10/2022",
+ "lieu_ouverture": "Siège de la Préfecture de Police de Béni Mellal",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "09/11/2022",
+ "justification": "offre la plus avantageuse pour l’administration.",
+ "infructueux": false,
+ "attributaire": "Sté PREMIUM TELECOM & CUSTOMER SERVICES",
+ "montant_attribue": 236124.0,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "Sté ATLAS RESEAUX sarl de Beni Mellal ayant déposé sous forme papier",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_dossier_administratif_technique",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Sté NEURONES TECHNOLOGIES de Rabat ayant déposé par voie électronique",
+   "montant_acte_engagement": 240565.2,
+   "montant_apres_verification": 240565.2,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Sté PREMIUM TELECOM & CUSTOMER SERVICES",
+   "montant_acte_engagement": 236124.0,
+   "montant_apres_verification": 236124.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Sté INTEGRANET",
+   "montant_acte_engagement": 262009.2,
+   "montant_apres_verification": 262009.2,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 4,
+ "alertes_ocr": [
+  "« Sté INTEGRANET » absent de la liste des plis déposés (nom mal lu ?)."
+ ],
+ "notes_ocr": [],
+ "qualite": "complet"
+}

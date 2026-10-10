@@ -1,0 +1,52 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "938728",
+ "orgAcronyme": "e5w",
+ "reference_pv": "1/CSR/DAAFE/SDF/2025",
+ "nouveau": true,
+ "reference": "1/CSR/DAAFE/SDF/2025",
+ "objet": "Achèvement des travaux de construction de 03 classes de l'enseignement préscolaire a coopérative Nahda, Douar Tghat À Ain SKhoun et coopérative Mastoura 2 - Commune Sebaa Rouadi, Province Moulay-Y'acoub (lot unique)",
+ "acheteur": "Le Président de la commune SEBAA ROUADI",
+ "procedure": "appel d'offres ouvert simplifié",
+ "categorie": "Travaux",
+ "date_limite_plis": "23/06/2025",
+ "lieu_ouverture": "siège de l'administration communale de Sebaa Rouadi Conformément à l'avis publié dans",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "25/06/2025",
+ "justification": "offre économiquement la plus avantageuse.",
+ "infructueux": false,
+ "attributaire": "Coneurrent 1",
+ "montant_attribue": 220572.0,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "STE MAROC KHALIL SARL",
+   "montant_acte_engagement": 347202.0,
+   "montant_apres_verification": 347202.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_offre_financiere",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Coneurrent 1",
+   "montant_acte_engagement": 220572.0,
+   "montant_apres_verification": 220572.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 2,
+ "alertes_ocr": [
+  "« STE MAROC KHALIL SARL » absent de la liste des plis déposés (nom mal lu ?).",
+  "« Coneurrent 1 » absent de la liste des plis déposés (nom mal lu ?)."
+ ],
+ "notes_ocr": [],
+ "qualite": "complet"
+}

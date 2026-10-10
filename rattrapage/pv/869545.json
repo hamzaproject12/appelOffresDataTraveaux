@@ -1,0 +1,89 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "869545",
+ "orgAcronyme": "q1s",
+ "reference_pv": "24/2024/DP",
+ "nouveau": true,
+ "reference": "24/2024/DP",
+ "objet": "Travaux de plantation du Câprier sur une superficie de 100 Ha dans la province de",
+ "acheteur": null,
+ "procedure": null,
+ "categorie": "Travaux",
+ "date_limite_plis": "09/09/2024",
+ "lieu_ouverture": null,
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "20/09/2024",
+ "justification": "L'offre la plus avantageuse _, L'offre la plus avantageuse",
+ "infructueux": false,
+ "attributaire": "BOUDA MARBRE",
+ "montant_attribue": 329088.0,
+ "attributaires_par_lot": [
+  {
+   "lot": null,
+   "attributaire": "BOUDA MARBRE",
+   "montant": 329088.0
+  },
+  {
+   "lot": null,
+   "attributaire": "JADAFRERES",
+   "montant": 328800.0
+  }
+ ],
+ "soumissionnaires": [
+  {
+   "nom": "DZ-MD TRAVAUX",
+   "montant_acte_engagement": 333000.0,
+   "montant_apres_verification": 333000.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "BOUDA MARBRE",
+   "montant_acte_engagement": 329088.0,
+   "montant_apres_verification": 329088.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "JADAFRERES",
+   "montant_acte_engagement": 328800.0,
+   "montant_apres_verification": 328800.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "SOTRADOUK",
+   "montant_acte_engagement": 332040.0,
+   "montant_apres_verification": 332040.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "FORIKS",
+   "montant_acte_engagement": 336000.0,
+   "montant_apres_verification": 336000.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 5,
+ "alertes_ocr": [],
+ "notes_ocr": [
+  "Maître d'ouvrage absent du PV (utiliser l'acheteur public du portail)."
+ ],
+ "qualite": "complet"
+}

@@ -1,0 +1,63 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "1015858",
+ "orgAcronyme": "o8p",
+ "reference_pv": "26T001/PLGV",
+ "nouveau": true,
+ "reference": "26T001/PLGV",
+ "objet": "Etudes et construction de passerelles métalliques pour piétons sur voies ferrées",
+ "acheteur": "M. le Directeur Equipements Ferroviaires du Pole Projets LGV",
+ "procedure": null,
+ "categorie": "Travaux",
+ "date_limite_plis": "11/06/2026",
+ "lieu_ouverture": "Institut de Formation et de Développement de Compétences l’ONCF",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "22/06/2026",
+ "justification": "Offre moins disante conforme.",
+ "infructueux": false,
+ "attributaire": "AIC METALLURGIE",
+ "montant_attribue": 95520534.25,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "AIC METALLURGIE",
+   "montant_acte_engagement": 95520534.25,
+   "montant_apres_verification": null,
+   "autres_montants": [
+    94559510.4,
+    107459490.0
+   ],
+   "lots": [
+    "1"
+   ],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "GROUPE MOJAZINE",
+   "montant_acte_engagement": 114757000.0,
+   "montant_apres_verification": null,
+   "autres_montants": [
+    114739000.0,
+    117208000.0
+   ],
+   "lots": [
+    "1"
+   ],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 2,
+ "alertes_ocr": [
+  "« GROUPE MOJAZINE » absent de la liste des plis déposés (nom mal lu ?)."
+ ],
+ "notes_ocr": [
+  "Montants exprimés hors taxes (HT)."
+ ],
+ "qualite": "complet"
+}

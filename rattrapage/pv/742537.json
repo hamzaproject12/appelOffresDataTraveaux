@@ -1,0 +1,290 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "742537",
+ "orgAcronyme": "t5y",
+ "reference_pv": "12/2023",
+ "nouveau": true,
+ "reference": "12/2023",
+ "objet": "TRAVAUX D’AMENAGEMENT DES JURIDICTIONS DU RESSORT DE LA COUR D’APPEL DE MEKNES EN QUATRE LOTS SEPARES",
+ "acheteur": "Le Ministre de la justice représenté par Mr Mohamed Bahbibi le sous directeur régional auprès de la cour d’appel de Meknès",
+ "procedure": "appel d'offres ouvert",
+ "categorie": "Travaux",
+ "date_limite_plis": "02/08/2023",
+ "lieu_ouverture": null,
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "16/08/2023",
+ "justification": "Les offres des sociétés ci-dessus proposées au MO en tant qu’attributaires des Lot 1, lot2 lot 3 sont conformes aux exigences du règlement de la consultation et les plus avantageuse Les offres du Lot 4 ont été toutes écartées conformément à l’article 13 du règlement de consultation Le lot 4 a été déclaré infructueux. 2",
+ "infructueux": true,
+ "attributaire": "BADINASR SARL-MEKNES",
+ "montant_attribue": 2847360.0,
+ "attributaires_par_lot": [
+  {
+   "lot": "1",
+   "attributaire": "BADINASR SARL-MEKNES",
+   "montant": 2847360.0
+  },
+  {
+   "lot": "2",
+   "attributaire": "STE ROBWAVERT SARL MEKNES",
+   "montant": 1609752.0
+  },
+  {
+   "lot": "3",
+   "attributaire": "MABITRI TRAV- MEKNES",
+   "montant": 557304.0
+  }
+ ],
+ "soumissionnaires": [
+  {
+   "nom": "HGMT SARL-RABAT",
+   "montant_acte_engagement": 901576.0,
+   "montant_apres_verification": 901576.0,
+   "autres_montants": [
+    1912392.0
+   ],
+   "lots": [
+    "1",
+    "2"
+   ],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "STE URBAMENA TRAV SARL -fes",
+   "montant_acte_engagement": 3381948.0,
+   "montant_apres_verification": 3381948.0,
+   "autres_montants": [
+    2138712.0
+   ],
+   "lots": [
+    "1",
+    "2"
+   ],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "NATION TP SRAL- FES",
+   "montant_acte_engagement": 3115968.0,
+   "montant_apres_verification": 3115968.0,
+   "autres_montants": [],
+   "lots": [
+    "1"
+   ],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "SABITRAV SARL OUARZAZATE",
+   "montant_acte_engagement": 2968656.0,
+   "montant_apres_verification": 1846008.0,
+   "autres_montants": [
+    1846008.0
+   ],
+   "lots": [
+    "1",
+    "2"
+   ],
+   "statut": "ecarte_offre_financiere",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "RHOUDIR SARL- MEKNES générée électroniquement",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [
+    "2",
+    "3"
+   ],
+   "statut": "ecarte_dossier_administratif_technique",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "AUGUST SARLAU-RABAT",
+   "montant_acte_engagement": 2522400.0,
+   "montant_apres_verification": 2522400.0,
+   "autres_montants": [],
+   "lots": [
+    "2"
+   ],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "PRODITRAV TRAVAUX DIVERS SARL",
+   "montant_acte_engagement": 1709748.0,
+   "montant_apres_verification": 1709748.0,
+   "autres_montants": [],
+   "lots": [
+    "2"
+   ],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "PERWORK SARLAU -MEKNES",
+   "montant_acte_engagement": 1769304.0,
+   "montant_apres_verification": 1769304.0,
+   "autres_montants": [
+    450480.0,
+    405588.0
+   ],
+   "lots": [
+    "2",
+    "3",
+    "4"
+   ],
+   "statut": "ecarte_offre_financiere",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "MABITRI TRAV- MEKNES",
+   "montant_acte_engagement": 448360.0,
+   "montant_apres_verification": 448360.0,
+   "autres_montants": [
+    557304.0,
+    550104.0
+   ],
+   "lots": [
+    "2",
+    "3",
+    "4"
+   ],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "STE BONNE DIRECTION MEKNES Attestation de qualification non",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [
+    "3"
+   ],
+   "statut": "ecarte_dossier_administratif_technique",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "BADINASR SARL-MEKNES",
+   "montant_acte_engagement": 2487360.0,
+   "montant_apres_verification": 2847360.0,
+   "autres_montants": [
+    1791336.0,
+    431928.0
+   ],
+   "lots": [
+    "1",
+    "2",
+    "4"
+   ],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "ALKHIBRA Investissement SARL-FES",
+   "montant_acte_engagement": 2888580.0,
+   "montant_apres_verification": 3061140.0,
+   "autres_montants": [],
+   "lots": [
+    "1"
+   ],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "SLH BATIMENT SARL OUARZAZATE ET GMW",
+   "montant_acte_engagement": 3400212.0,
+   "montant_apres_verification": 3400212.0,
+   "autres_montants": [],
+   "lots": [
+    "1"
+   ],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "DMRENOV SARL -MEKNES",
+   "montant_acte_engagement": 4717656.0,
+   "montant_apres_verification": 17656.0,
+   "autres_montants": [
+    2714664.0
+   ],
+   "lots": [
+    "1",
+    "2"
+   ],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "STE ROBWAVERT SARL MEKNES",
+   "montant_acte_engagement": 1609752.0,
+   "montant_apres_verification": 1609752.0,
+   "autres_montants": [],
+   "lots": [
+    "2"
+   ],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "SNTT SARL AU MARRAKECH",
+   "montant_acte_engagement": 1989288.0,
+   "montant_apres_verification": 1989288.0,
+   "autres_montants": [],
+   "lots": [
+    "2"
+   ],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "STE SUDEST TRAV FES",
+   "montant_acte_engagement": 1593360.0,
+   "montant_apres_verification": 2288064.0,
+   "autres_montants": [],
+   "lots": [
+    "2"
+   ],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "SOREMEKTRA SARLAU -MEKNES",
+   "montant_acte_engagement": 1943112.0,
+   "montant_apres_verification": 1943112.0,
+   "autres_montants": [],
+   "lots": [
+    "2"
+   ],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 18,
+ "alertes_ocr": [
+  "« BADINASR SARL-MEKNES » absent de la liste des plis déposés (nom mal lu ?).",
+  "« ALKHIBRA Investissement SARL-FES » absent de la liste des plis déposés (nom mal lu ?).",
+  "« SLH BATIMENT SARL OUARZAZATE ET GMW » absent de la liste des plis déposés (nom mal lu ?).",
+  "« DMRENOV SARL -MEKNES » absent de la liste des plis déposés (nom mal lu ?).",
+  "« STE ROBWAVERT SARL MEKNES » absent de la liste des plis déposés (nom mal lu ?).",
+  "« SNTT SARL AU MARRAKECH » absent de la liste des plis déposés (nom mal lu ?).",
+  "« STE SUDEST TRAV FES » absent de la liste des plis déposés (nom mal lu ?).",
+  "« SOREMEKTRA SARLAU -MEKNES » absent de la liste des plis déposés (nom mal lu ?).",
+  "« DMRENOV SARL -MEKNES » : écart anormal entre montant initial et vérifié (lecture à vérifier)."
+ ],
+ "notes_ocr": [
+  "« SABITRAV SARL OUARZAZATE » : montant rectifié de 2 968 656.00 à 1 846 008.00 DH.",
+  "« BADINASR SARL-MEKNES » : montant rectifié de 2 487 360.00 à 2 847 360.00 DH.",
+  "« ALKHIBRA Investissement SARL-FES » : montant rectifié de 2 888 580.00 à 3 061 140.00 DH.",
+  "« DMRENOV SARL -MEKNES » : montant rectifié de 4 717 656.00 à 17 656.00 DH.",
+  "« STE SUDEST TRAV FES » : montant rectifié de 1 593 360.00 à 2 288 064.00 DH.",
+  "Marché alloti (4 lots)."
+ ],
+ "qualite": "complet"
+}

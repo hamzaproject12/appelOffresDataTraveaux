@@ -1,0 +1,102 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "719006",
+ "orgAcronyme": "q1s",
+ "reference_pv": "35/2023/OR/OZ",
+ "nouveau": true,
+ "reference": "35/2023/OR/OZ",
+ "objet": null,
+ "acheteur": "SOCIETE T.Q.S SARL SOCIETE T.Q.S SARL SOCIETE AOM2H SARL",
+ "procedure": "appel d'offres ouvert",
+ "categorie": "Travaux",
+ "date_limite_plis": null,
+ "lieu_ouverture": "Date ouverture des plis",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "15/05/2023",
+ "justification": "Offre moins disante",
+ "infructueux": false,
+ "attributaire": "SOCIETE T.Q.S SARL",
+ "montant_attribue": 1759872.0,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "GROUPEMENT SOCIETE H.2L.S.Y SARL ET SOCIETE CITE ZINE SARL",
+   "montant_acte_engagement": 1695360.0,
+   "montant_apres_verification": 1695360.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_offre_financiere",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "SOCIETE T.Q.S SARL",
+   "montant_acte_engagement": 1759872.0,
+   "montant_apres_verification": 1759872.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "SOCIETE AOM2H SARL",
+   "montant_acte_engagement": 1842240.0,
+   "montant_apres_verification": 1842240.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "OUAKHDOU MOHAMED",
+   "montant_acte_engagement": 2153760.0,
+   "montant_apres_verification": 2153760.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "IBNELHAFIDZ ABDELLAH",
+   "montant_acte_engagement": 1786560.0,
+   "montant_apres_verification": 1786560.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "SOCIETE TRAHAQA SARL",
+   "montant_acte_engagement": 1794408.0,
+   "montant_apres_verification": 1794408.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "GROUPEMENT SOCIETE SADECOM SARL ET SOCIETE DIHYA SARL",
+   "montant_acte_engagement": 2058000.0,
+   "montant_apres_verification": 2058000.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 7,
+ "alertes_ocr": [
+  "« GROUPEMENT SOCIETE H.2L.S.Y SARL ET SOCIETE CITE ZINE SARL » absent de la liste des plis déposés (nom mal lu ?).",
+  "« SOCIETE T.Q.S SARL » absent de la liste des plis déposés (nom mal lu ?).",
+  "« SOCIETE AOM2H SARL » absent de la liste des plis déposés (nom mal lu ?).",
+  "« OUAKHDOU MOHAMED » absent de la liste des plis déposés (nom mal lu ?).",
+  "« IBNELHAFIDZ ABDELLAH » absent de la liste des plis déposés (nom mal lu ?).",
+  "« SOCIETE TRAHAQA SARL » absent de la liste des plis déposés (nom mal lu ?).",
+  "« GROUPEMENT SOCIETE SADECOM SARL ET SOCIETE DIHYA SARL » absent de la liste des plis déposés (nom mal lu ?)."
+ ],
+ "notes_ocr": [],
+ "qualite": "complet"
+}

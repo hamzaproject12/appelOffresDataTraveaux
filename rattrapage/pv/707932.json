@@ -1,0 +1,81 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "707932",
+ "orgAcronyme": "o8p",
+ "reference_pv": "DPARN1/07/2023/CFR",
+ "nouveau": true,
+ "reference": "DPARN1/07/2023/CFR",
+ "objet": "ACHEVEMENT DES TRAVAUX DE REALISATION DE LA VOIE EXPRESS TIZNIT LAAYOUNE : TRAVAUX DE CONSTRUCTION D’UN OUVRAGE D’ART SUR OUED BOUSSAFEN AU PK 1114+970",
+ "acheteur": null,
+ "procedure": "marché négocié",
+ "categorie": "Travaux",
+ "date_limite_plis": "04/04/2023",
+ "lieu_ouverture": null,
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "14/04/2023",
+ "justification": "l’offre la moins disante.",
+ "infructueux": false,
+ "attributaire": "SMP",
+ "montant_attribue": 40878398.25,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "STEP",
+   "montant_acte_engagement": 43658232.04,
+   "montant_apres_verification": 43658232.02,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Groupe MOJAZINE",
+   "montant_acte_engagement": 47459658.53,
+   "montant_apres_verification": 42971380.7,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "MEGEC",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_dossier_administratif_technique",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "SMP",
+   "montant_acte_engagement": 42237425.11,
+   "montant_apres_verification": 40878398.25,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "GROUPEMENT IGOUDAR/ATLAS INFRA",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_dossier_administratif_technique",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 5,
+ "alertes_ocr": [],
+ "notes_ocr": [
+  "« STEP » : montant rectifié de 43 658 232.04 à 43 658 232.02 DH.",
+  "« Groupe MOJAZINE » : montant rectifié de 47 459 658.53 à 42 971 380.70 DH.",
+  "« SMP » : montant rectifié de 42 237 425.11 à 40 878 398.25 DH.",
+  "Maître d'ouvrage absent du PV (utiliser l'acheteur public du portail)."
+ ],
+ "qualite": "complet"
+}

@@ -1,0 +1,43 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "725006",
+ "orgAcronyme": "d4q",
+ "reference_pv": null,
+ "nouveau": true,
+ "reference": null,
+ "objet": "Date et heure Date d'achèvement Concurrent retenu Montant de | d'ouverture des des travaux de la l'offre retenue | plis Commission (DH/HT)",
+ "acheteur": null,
+ "procedure": null,
+ "categorie": "Travaux",
+ "date_limite_plis": "19/04/2023",
+ "lieu_ouverture": "Casablanca",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": null,
+ "justification": "seul soumissionnaire",
+ "infructueux": false,
+ "attributaire": "G.C.E.S",
+ "montant_attribue": 1494100.0,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "G.C.E.S",
+   "montant_acte_engagement": 1494100.0,
+   "montant_apres_verification": 1494100.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": true
+  }
+ ],
+ "nombre_soumissionnaires": 1,
+ "alertes_ocr": [],
+ "notes_ocr": [
+  "Maître d'ouvrage absent du PV (utiliser l'acheteur public du portail).",
+  "Montants exprimés hors taxes (HT)."
+ ],
+ "qualite": "attribution"
+}

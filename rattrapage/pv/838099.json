@@ -1,0 +1,194 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "838099",
+ "orgAcronyme": "z7x",
+ "reference_pv": null,
+ "nouveau": true,
+ "reference": null,
+ "objet": null,
+ "acheteur": null,
+ "procedure": null,
+ "categorie": "Travaux",
+ "date_limite_plis": null,
+ "lieu_ouverture": "ta Presidence de I'Université Abdelmalek Essaâdi",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": null,
+ "justification": "le mieux disant Date d'achèvernent des travaux de la commission (ou du jury) : le Lundi 14 Octobrc 2024. La présiden de la commission s.. cÉ ÊLHêDRi loI : z=:-",
+ "infructueux": false,
+ "attributaire": "Société TIFAR ETANCHEITE",
+ "montant_attribue": 2250120.0,
+ "attributaires_par_lot": [
+  {
+   "lot": "1",
+   "attributaire": "Société TIFAR ETANCHEITE",
+   "montant": 2250120.0
+  },
+  {
+   "lot": null,
+   "attributaire": "Société TIFAR ETANCHEITE",
+   "montant": 3906396.0
+  },
+  {
+   "lot": null,
+   "attributaire": "Société HARANITRAV SARIÂU",
+   "montant": 2647488.0
+  }
+ ],
+ "soumissionnaires": [
+  {
+   "nom": "Société MMOUM SERVICE",
+   "montant_acte_engagement": 3397192.8,
+   "montant_apres_verification": 3397192.8,
+   "autres_montants": [],
+   "lots": [
+    "2"
+   ],
+   "statut": "ecarte_offre_financiere",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Société TIFAR ETANCHEITE",
+   "montant_acte_engagement": 2250120.0,
+   "montant_apres_verification": 3906396.0,
+   "autres_montants": [],
+   "lots": [
+    "1"
+   ],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Société HARANITRAV SARIÂU",
+   "montant_acte_engagement": 7488.0,
+   "montant_apres_verification": 2647488.0,
+   "autres_montants": [
+    3333648.0
+   ],
+   "lots": [
+    "2"
+   ],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Société ENTC SARI AU",
+   "montant_acte_engagement": 2197920.0,
+   "montant_apres_verification": 2197920.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Société POIYSOt 3",
+   "montant_acte_engagement": 2116608.0,
+   "montant_apres_verification": 2116608.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Société SOGETREL",
+   "montant_acte_engagement": 3207.0,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [
+    "2"
+   ],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Société FII-S IÂMHAMDI BETHADJ",
+   "montant_acte_engagement": 2222736.0,
+   "montant_apres_verification": 222736.0,
+   "autres_montants": [
+    3305.0
+   ],
+   "lots": [
+    "2"
+   ],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "TETOUAN",
+   "montant_acte_engagement": 539979316.0,
+   "montant_apres_verification": 979151.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_offre_financiere",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Société ENTC SARL AU",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [
+    "2"
+   ],
+   "statut": "ecarte_offre_financiere",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Campus Tétouan (lÂ FACUTTE DES SCIENCES ET lÂ FACULTE DÊS TETTRES ET DES SCIENCES HUMAINES",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_offre_financiere",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Société POLYSOt",
+   "montant_acte_engagement": 2115.0,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Roy\"o-. du Maroc",
+   "montant_acte_engagement": 3292.0,
+   "montant_apres_verification": 3292.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 12,
+ "alertes_ocr": [
+  "« Société MMOUM SERVICE » absent de la liste des plis déposés (nom mal lu ?).",
+  "« Société TIFAR ETANCHEITE » absent de la liste des plis déposés (nom mal lu ?).",
+  "« Société HARANITRAV SARIÂU » absent de la liste des plis déposés (nom mal lu ?).",
+  "« Société ENTC SARI AU » absent de la liste des plis déposés (nom mal lu ?).",
+  "« Société POIYSOt 3 » absent de la liste des plis déposés (nom mal lu ?).",
+  "« Société SOGETREL » absent de la liste des plis déposés (nom mal lu ?).",
+  "« Société FII-S IÂMHAMDI BETHADJ » absent de la liste des plis déposés (nom mal lu ?).",
+  "« TETOUAN » absent de la liste des plis déposés (nom mal lu ?).",
+  "« Société POLYSOt » absent de la liste des plis déposés (nom mal lu ?).",
+  "« Roy\"o-. du Maroc » absent de la liste des plis déposés (nom mal lu ?).",
+  "« Société HARANITRAV SARIÂU » : écart anormal entre montant initial et vérifié (lecture à vérifier).",
+  "« Société FII-S IÂMHAMDI BETHADJ » : écart anormal entre montant initial et vérifié (lecture à vérifier).",
+  "« TETOUAN » : écart anormal entre montant initial et vérifié (lecture à vérifier)."
+ ],
+ "notes_ocr": [
+  "« Société ENTC SARL AU » absent de la liste des plis déposés (nom mal lu ?).",
+  "« Campus Tétouan (lÂ FACUTTE DES SCIENCES ET lÂ FACULTE DÊS TETTRES ET DES SCIENCES HUMAINES » absent de la liste des plis déposés (nom mal lu ?).",
+  "« Société TIFAR ETANCHEITE » : montant rectifié de 2 250 120.00 à 3 906 396.00 DH.",
+  "« Société HARANITRAV SARIÂU » : montant rectifié de 7 488.00 à 2 647 488.00 DH.",
+  "« Société FII-S IÂMHAMDI BETHADJ » : montant rectifié de 2 222 736.00 à 222 736.00 DH.",
+  "« TETOUAN » : montant rectifié de 539 979 316.00 à 979 151.00 DH.",
+  "Marché alloti (2 lots).",
+  "Maître d'ouvrage absent du PV (utiliser l'acheteur public du portail)."
+ ],
+ "qualite": "complet"
+}

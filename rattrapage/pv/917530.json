@@ -1,0 +1,170 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "917530",
+ "orgAcronyme": "w7t",
+ "reference_pv": "45/2025/DRANEF-FM",
+ "nouveau": true,
+ "reference": "45/2025/DRANEF-FM",
+ "objet": null,
+ "acheteur": "Le Directeur Régional de l’Agenc ordonnateur, agissant au nom du Directeur Général de ]",
+ "procedure": null,
+ "categorie": "Travaux",
+ "date_limite_plis": "03/07/2025",
+ "lieu_ouverture": "La Direction Meknès.1, Avenue Hassan II Fès",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": null,
+ "justification": null,
+ "infructueux": false,
+ "attributaire": "STE BETRAVART SARL AU STE BETRAVART SARL AU",
+ "montant_attribue": 768960.0,
+ "attributaires_par_lot": [
+  {
+   "lot": "01",
+   "attributaire": "STE BETRAVART SARL AU STE BETRAVART SARL AU",
+   "montant": 768960.0
+  },
+  {
+   "lot": "01",
+   "attributaire": "STE HOLDING TRAVAUX AMENAGEMENT - STE HOLDING TRAVAUX AMENAGEMENT",
+   "montant": null
+  },
+  {
+   "lot": "01",
+   "attributaire": "ET AGENCEMENT SARL AU ET AGENCEMENT SARL AU",
+   "montant": null
+  },
+  {
+   "lot": "01",
+   "attributaire": "STE DJOUZ FRERES SARL ET AGENCEMENT SARL AU",
+   "montant": 765600.0
+  },
+  {
+   "lot": "01",
+   "attributaire": "ENTREPRISE BENI ATIG DE TRAVAUX SARL",
+   "montant": 844800.0
+  }
+ ],
+ "soumissionnaires": [
+  {
+   "nom": "Nationale des Eaux et Forêts de Fès-Meknès, sous",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "depose",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "STE BETRAVART SARL AU STE BETRAVART SARL AU",
+   "montant_acte_engagement": 768960.0,
+   "montant_apres_verification": null,
+   "autres_montants": [
+    386040.0
+   ],
+   "lots": [
+    "01"
+   ],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "STE HOLDING TRAVAUX AMENAGEMENT STE BETRAVART SARL AU",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "depose",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "ET AGENCEMENT SARL AU - STE HOLDING TRAVAUX AMENAGEMENT",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "depose",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "STE DJOUZ FRERES SARL ET AGENCEMENT SARL AU",
+   "montant_acte_engagement": 765600.0,
+   "montant_apres_verification": null,
+   "autres_montants": [
+    382800.0
+   ],
+   "lots": [
+    "01"
+   ],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "ENTREPRISE BENI ATIG DE TRAVAUX SARL",
+   "montant_acte_engagement": 844800.0,
+   "montant_apres_verification": null,
+   "autres_montants": [
+    422400.0
+   ],
+   "lots": [
+    "01"
+   ],
+   "statut": "attributaire",
+   "admis_avec_reserve": true
+  },
+  {
+   "nom": "STE SINA AHRAM SARL AU",
+   "montant_acte_engagement": 768000.0,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [
+    "01"
+   ],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "STE ACTIVE TOOLS SARL",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_dossier_administratif_technique",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "STE HOLDING TRAVAUX AMENAGEMENT - STE HOLDING TRAVAUX AMENAGEMENT",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [
+    "01"
+   ],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "ET AGENCEMENT SARL AU ET AGENCEMENT SARL AU",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [
+    "01"
+   ],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 10,
+ "alertes_ocr": [
+  "« STE HOLDING TRAVAUX AMENAGEMENT - STE HOLDING TRAVAUX AMENAGEMENT » absent de la liste des plis déposés (nom mal lu ?).",
+  "« ET AGENCEMENT SARL AU ET AGENCEMENT SARL AU » absent de la liste des plis déposés (nom mal lu ?).",
+  "Montant de l'attributaire « STE HOLDING TRAVAUX AMENAGEMENT - STE HOLDING TRAVAUX AMENAGEMENT » non trouvé.",
+  "Montant de l'attributaire « ET AGENCEMENT SARL AU ET AGENCEMENT SARL AU » non trouvé."
+ ],
+ "notes_ocr": [],
+ "qualite": "complet"
+}

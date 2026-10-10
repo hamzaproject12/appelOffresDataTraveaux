@@ -1,0 +1,53 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "870503",
+ "orgAcronyme": "d4q",
+ "reference_pv": "76/DRC/CE/2024",
+ "nouveau": true,
+ "reference": "76/DRC/CE/2024",
+ "objet": "- Concurrent attributaire",
+ "acheteur": null,
+ "procedure": "appel d'offres ouvert",
+ "categorie": "Travaux",
+ "date_limite_plis": "16/01/2025",
+ "lieu_ouverture": "au siège de la Direction Régionale de la Côte Atlantique (DRC) - 6 bis, rue Patrice Lumumba, Rabat - Maroc",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "06/02/2025",
+ "justification": "Moins-disant",
+ "infructueux": false,
+ "attributaire": "SASSA TRAVAUX DIVERS (S.T.D) - Offre de",
+ "montant_attribue": 1739395.2,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "GROUP LAFABRICA/ HYDROZONE MAROC - MAROC",
+   "montant_acte_engagement": 3509429.76,
+   "montant_apres_verification": null,
+   "autres_montants": [
+    3509430.96
+   ],
+   "lots": [],
+   "statut": "ecarte_dossier_administratif_technique",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "SASSA TRAVAUX DIVERS (S.T.D) - Offre de",
+   "montant_acte_engagement": 1739395.2,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 2,
+ "alertes_ocr": [],
+ "notes_ocr": [
+  "Maître d'ouvrage absent du PV (utiliser l'acheteur public du portail)."
+ ],
+ "qualite": "complet"
+}

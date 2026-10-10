@@ -1,0 +1,87 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "724193",
+ "orgAcronyme": "s3z",
+ "reference_pv": "13/BP/2028",
+ "nouveau": true,
+ "reference": "13/BP/2028",
+ "objet": "TRAVAUX D'AMENAGEMENT DE VOIRIES A LA PREFECTURE DE SALE - OUTAT HSSAINE RP 4029- LOT UNIQUE -",
+ "acheteur": "Conseil préfectoral de Salé",
+ "procedure": "appel d'offres ouvert",
+ "categorie": "Travaux",
+ "date_limite_plis": "13/06/2023",
+ "lieu_ouverture": "La salle de réunion du Conseil préfectoral de Salé",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": null,
+ "justification": "La Société YOU-MUS SARL qui a l'offre la moins distante et la plus avantageuse. Pour un montant de : QUATRE MILLION SEPT CENT CINQUANTE MILLE CINQ CENT SOIXANTE dhs TTC ( 4 750 560.00 dhs Trc).",
+ "infructueux": false,
+ "attributaire": null,
+ "montant_attribue": null,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "Groupement Sté DHW MATTRISE et Sté TRAINVERST",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_dossier_administratif_technique",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Sté TIRA TRAVAUX",
+   "montant_acte_engagement": 4865340.0,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "k Sté YOU-MUS",
+   "montant_acte_engagement": 4750560.0,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": true
+  },
+  {
+   "nom": "Sté ALAM EQUIPEMENT (ALEQ)",
+   "montant_acte_engagement": 4687104.0,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Sté Groupement Sté GESTRAD et Sté SAKITRA",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_dossier_administratif_technique",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Sté FILALI TRAVAUX PUBLIC ET REBOISEMENT",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_dossier_administratif_technique",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 6,
+ "alertes_ocr": [
+  "Attributaire non trouvé."
+ ],
+ "notes_ocr": [],
+ "qualite": "complet"
+}

@@ -1,0 +1,82 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "754474",
+ "orgAcronyme": "a1t",
+ "reference_pv": "DCT/CONFORTEMENT-HMR-MTAMER/TR2/MEDINA/TET/263-23",
+ "nouveau": true,
+ "reference": "DCT/CONFORTEMENT-HMR-MTAMER/TR2/MEDINA/TET/263-23",
+ "objet": "TRAVAUX DE CONFORTEMENT ET DE TRAITEMENT DE L'HABITAT MENACANT RUINE AU QUARTIER MTAMER A LA MEDINA DE TETOUAN - 2ème TRANCHE En Deux lots",
+ "acheteur": "L'Agence pour la promotion et le développement économique et social des préfectures et provinces du Nord,",
+ "procedure": null,
+ "categorie": "Travaux",
+ "date_limite_plis": null,
+ "lieu_ouverture": "siège de l'APDN",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "10/11/2023",
+ "justification": "l'offre la plus avantageuse.",
+ "infructueux": false,
+ "attributaire": "EL BRIHI DE CTP",
+ "montant_attribue": 2548608.0,
+ "attributaires_par_lot": [
+  {
+   "lot": "1",
+   "attributaire": "EL BRIHI DE CTP",
+   "montant": 2548608.0
+  },
+  {
+   "lot": "2",
+   "attributaire": "EL BRIHI DE CTP",
+   "montant": 2549988.0
+  }
+ ],
+ "soumissionnaires": [
+  {
+   "nom": "ERRAHMANI MOHA",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [
+    "1",
+    "2"
+   ],
+   "statut": "ecarte_dossier_administratif_technique",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "ZAHRAT ALMAJD",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [
+    "1",
+    "2"
+   ],
+   "statut": "ecarte_dossier_administratif_technique",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "EL BRIHI DE CTP",
+   "montant_acte_engagement": 2548608.0,
+   "montant_apres_verification": 2548608.0,
+   "autres_montants": [
+    2549988.0
+   ],
+   "lots": [
+    "1",
+    "2"
+   ],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 3,
+ "alertes_ocr": [],
+ "notes_ocr": [
+  "Marché alloti (2 lots)."
+ ],
+ "qualite": "attribution"
+}

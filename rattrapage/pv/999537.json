@@ -1,0 +1,88 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "999537",
+ "orgAcronyme": "g3h",
+ "reference_pv": "75/2126",
+ "nouveau": true,
+ "reference": "75/2126",
+ "objet": null,
+ "acheteur": "Société Régionale Multiservices Fès Meknès « SRM-FM »",
+ "procedure": null,
+ "categorie": "Travaux",
+ "date_limite_plis": "19/03/2026",
+ "lieu_ouverture": "Siège de la SRM-FM",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "28/04/2026",
+ "justification": "L'offre la plus avantageuse.",
+ "infructueux": false,
+ "attributaire": "RAZ TRAVAUX",
+ "montant_attribue": 1782500.0,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "LA REGIONALE DES EAUX (2 Lots)",
+   "montant_acte_engagement": 3005200.0,
+   "montant_apres_verification": 3606240.0,
+   "autres_montants": [
+    3606240.0
+   ],
+   "lots": [
+    "2"
+   ],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "KSBID",
+   "montant_acte_engagement": 3564200.0,
+   "montant_apres_verification": 4277040.0,
+   "autres_montants": [
+    4277040.0
+   ],
+   "lots": [
+    "2"
+   ],
+   "statut": "admis",
+   "admis_avec_reserve": true
+  },
+  {
+   "nom": "INMA HIGH TECH",
+   "montant_acte_engagement": 2135100.0,
+   "montant_apres_verification": 2562120.0,
+   "autres_montants": [
+    2562120.0
+   ],
+   "lots": [
+    "2"
+   ],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "RAZ TRAVAUX",
+   "montant_acte_engagement": 2997200.0,
+   "montant_apres_verification": 2139000.0,
+   "autres_montants": [
+    3596640.0
+   ],
+   "lots": [
+    "2"
+   ],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 4,
+ "alertes_ocr": [],
+ "notes_ocr": [
+  "« LA REGIONALE DES EAUX (2 Lots) » : montant rectifié de 3 005 200.00 à 3 606 240.00 DH.",
+  "« KSBID » : montant rectifié de 3 564 200.00 à 4 277 040.00 DH.",
+  "« INMA HIGH TECH » : montant rectifié de 2 135 100.00 à 2 562 120.00 DH.",
+  "« RAZ TRAVAUX » : montant rectifié de 2 997 200.00 à 2 139 000.00 DH."
+ ],
+ "qualite": "complet"
+}

@@ -1,0 +1,54 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "959421",
+ "orgAcronyme": "d4q",
+ "reference_pv": "67/DR3/2025",
+ "nouveau": true,
+ "reference": "67/DR3/2025",
+ "objet": "Réparation des appareils Scientifiques du laboratoire relevant de la Direc tion",
+ "acheteur": null,
+ "procedure": "appel d'offres ouvert",
+ "categorie": "Travaux",
+ "date_limite_plis": "28/10/2025",
+ "lieu_ouverture": "jer Administratif - Khouribga - Maroc jer Administratif - Khouribga - Maroc (DR3) - Boulevard Mohamed VI, Quart",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "02/12/2025",
+ "justification": "Moins-disant",
+ "infructueux": false,
+ "attributaire": "MEASUREMENT CONTROL CENTER (MCC)",
+ "montant_attribue": 141600.0,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "MEASUREMENT CONTROL CENTER (MCC)",
+   "montant_acte_engagement": 141600.0,
+   "montant_apres_verification": 1141600.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "MAROC",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "depose",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 2,
+ "alertes_ocr": [
+  "« MEASUREMENT CONTROL CENTER (MCC) » : écart anormal entre montant initial et vérifié (lecture à vérifier)."
+ ],
+ "notes_ocr": [
+  "« MEASUREMENT CONTROL CENTER (MCC) » : montant rectifié de 141 600.00 à 1 141 600.00 DH.",
+  "Maître d'ouvrage absent du PV (utiliser l'acheteur public du portail)."
+ ],
+ "qualite": "attribution"
+}

@@ -1,0 +1,83 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "1011777",
+ "orgAcronyme": "z9k",
+ "reference_pv": "10/2026/CD",
+ "nouveau": true,
+ "reference": "10/2026/CD",
+ "objet": "Travaux de la signalisation horizontale du réseau routier relevant de la commune de Demnate",
+ "acheteur": "Commune de Demnate représentée par le président du conseil communal de Demnate",
+ "procedure": null,
+ "categorie": "Travaux",
+ "date_limite_plis": "04/06/2026",
+ "lieu_ouverture": "la salle de réunion sise au siège de la commune de Demnate",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "10/06/2026",
+ "justification": null,
+ "infructueux": false,
+ "attributaire": null,
+ "montant_attribue": null,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "Société la ligne blanche",
+   "montant_acte_engagement": 199398.0,
+   "montant_apres_verification": 199398.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Société Ateliers Industriels Chérifien (A.I.C)",
+   "montant_acte_engagement": 197293.2,
+   "montant_apres_verification": 197293.2,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Société VARF SARL AU",
+   "montant_acte_engagement": 217605.0,
+   "montant_apres_verification": 217605.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Société A.I.M.D Hamzaoui",
+   "montant_acte_engagement": 190884.0,
+   "montant_apres_verification": 190884.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_offre_financiere",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Société H.G.M.S Travaux",
+   "montant_acte_engagement": 162000.0,
+   "montant_apres_verification": 162000.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 5,
+ "alertes_ocr": [
+  "« Société la ligne blanche » absent de la liste des plis déposés (nom mal lu ?).",
+  "« Société Ateliers Industriels Chérifien (A.I.C) » absent de la liste des plis déposés (nom mal lu ?).",
+  "« Société VARF SARL AU » absent de la liste des plis déposés (nom mal lu ?).",
+  "« Société A.I.M.D Hamzaoui » absent de la liste des plis déposés (nom mal lu ?).",
+  "« Société H.G.M.S Travaux » absent de la liste des plis déposés (nom mal lu ?).",
+  "Attributaire non trouvé."
+ ],
+ "notes_ocr": [],
+ "qualite": "complet"
+}

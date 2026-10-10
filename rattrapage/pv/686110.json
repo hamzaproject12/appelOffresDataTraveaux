@@ -1,0 +1,216 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "686110",
+ "orgAcronyme": "o8p",
+ "reference_pv": "24/DAGS/2022",
+ "nouveau": true,
+ "reference": "24/DAGS/2022",
+ "objet": "Travaux d'aménagement du patrimoine de la SNTL en 9 lots Lot 1 : DR SNTL Casablanca",
+ "acheteur": "SNTL",
+ "procedure": null,
+ "categorie": "Travaux",
+ "date_limite_plis": "05/12/2022",
+ "lieu_ouverture": "Siège SNTL Rabat",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "20/12/2022",
+ "justification": null,
+ "infructueux": false,
+ "attributaire": "Sté MAZZA ET BELHAD",
+ "montant_attribue": 599856.0,
+ "attributaires_par_lot": [
+  {
+   "lot": "1",
+   "attributaire": "Sté MAZZA ET BELHAD",
+   "montant": 599856.0
+  },
+  {
+   "lot": "2",
+   "attributaire": "SOBDITRAD",
+   "montant": 620029.44
+  },
+  {
+   "lot": "4",
+   "attributaire": "Sté MAZZA ET BELHAD",
+   "montant": 647124.0
+  },
+  {
+   "lot": "5",
+   "attributaire": "BSD",
+   "montant": 788394.0
+  },
+  {
+   "lot": "6",
+   "attributaire": "Société PETRAC sarl",
+   "montant": 113700.0
+  },
+  {
+   "lot": "7",
+   "attributaire": "Société PETRAC sarl",
+   "montant": 156600.0
+  },
+  {
+   "lot": "8",
+   "attributaire": "Société PETRAC sarl",
+   "montant": 863022.0
+  },
+  {
+   "lot": "9",
+   "attributaire": "Société PETRAC sarl",
+   "montant": 199554.0
+  }
+ ],
+ "soumissionnaires": [
+  {
+   "nom": "AIT ALLAM",
+   "montant_acte_engagement": 565908.0,
+   "montant_apres_verification": 565908.0,
+   "autres_montants": [],
+   "lots": [
+    "3"
+   ],
+   "statut": "admis",
+   "admis_avec_reserve": true
+  },
+  {
+   "nom": "SOBDITRAD",
+   "montant_acte_engagement": 619957.44,
+   "montant_apres_verification": 620029.44,
+   "autres_montants": [
+    879654.0,
+    914508.0
+   ],
+   "lots": [
+    "2",
+    "5",
+    "8"
+   ],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Société PETRAC sarl",
+   "montant_acte_engagement": 661584.0,
+   "montant_apres_verification": 661584.0,
+   "autres_montants": [
+    784598.4,
+    568008.0,
+    770910.0,
+    894936.0,
+    113700.0,
+    156600.0,
+    863022.0,
+    199554.0
+   ],
+   "lots": [
+    "1",
+    "2",
+    "3",
+    "4",
+    "5",
+    "6",
+    "7",
+    "8",
+    "9"
+   ],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Sté TOP SERVICES TRAVAUX",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_dossier_administratif_technique",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "SOLVED",
+   "montant_acte_engagement": 718161.6,
+   "montant_apres_verification": 718161.6,
+   "autres_montants": [
+    846336.0,
+    968556.0
+   ],
+   "lots": [
+    "2",
+    "5",
+    "8"
+   ],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Sté MAZZA ET BELHAD",
+   "montant_acte_engagement": 599856.0,
+   "montant_apres_verification": 599856.0,
+   "autres_montants": [
+    715856.64,
+    647124.0,
+    833832.0,
+    905922.0
+   ],
+   "lots": [
+    "1",
+    "2",
+    "3",
+    "4",
+    "5",
+    "8"
+   ],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "SOBETRALUX",
+   "montant_acte_engagement": 562716.0,
+   "montant_apres_verification": 561876.0,
+   "autres_montants": [
+    663360.0
+   ],
+   "lots": [
+    "3",
+    "4"
+   ],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "BSD",
+   "montant_acte_engagement": 788394.0,
+   "montant_apres_verification": 788394.0,
+   "autres_montants": [],
+   "lots": [
+    "5"
+   ],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "SENALAT",
+   "montant_acte_engagement": 121920.0,
+   "montant_apres_verification": 121920.0,
+   "autres_montants": [
+    158124.0
+   ],
+   "lots": [
+    "6",
+    "7"
+   ],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 9,
+ "alertes_ocr": [],
+ "notes_ocr": [
+  "« SOBDITRAD » : montant rectifié de 619 957.44 à 620 029.44 DH.",
+  "« SOBETRALUX » : montant rectifié de 562 716.00 à 561 876.00 DH.",
+  "Marché alloti (9 lots)."
+ ],
+ "qualite": "complet"
+}

@@ -1,0 +1,90 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "775207",
+ "orgAcronyme": "q1s",
+ "reference_pv": "17/2023/1909",
+ "nouveau": true,
+ "reference": "17/2023/1909",
+ "objet": "«Travaux d'aménagement des points d' Tétouan»",
+ "acheteur": "la Direction Provinciale de l'Agriculture de Tétouan",
+ "procedure": "appel d'offres ouvert",
+ "categorie": "Travaux",
+ "date_limite_plis": "26/04/2023",
+ "lieu_ouverture": null,
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "10/05/2023",
+ "justification": null,
+ "infructueux": false,
+ "attributaire": "SOCIETE AWRACH TADLA",
+ "montant_attribue": 521898.0,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "eaux dans le parcours collectif BETARA-EL OUADIENNE-Commune EL HAMRA, provinc: de",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "depose",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "ADRAF TRAVAUX",
+   "montant_acte_engagement": 584760.0,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "STE 3DM",
+   "montant_acte_engagement": 739416.0,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "STE TANOUTRA",
+   "montant_acte_engagement": 827229.0,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "ENTREPRISE SALMI OMAR",
+   "montant_acte_engagement": 664710.0,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "SOCIETE AWRACH TADLA",
+   "montant_acte_engagement": 521898.0,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 6,
+ "alertes_ocr": [
+  "« STE 3DM » absent de la liste des plis déposés (nom mal lu ?).",
+  "« STE TANOUTRA » absent de la liste des plis déposés (nom mal lu ?).",
+  "« ENTREPRISE SALMI OMAR » absent de la liste des plis déposés (nom mal lu ?).",
+  "« SOCIETE AWRACH TADLA » absent de la liste des plis déposés (nom mal lu ?)."
+ ],
+ "notes_ocr": [],
+ "qualite": "complet"
+}

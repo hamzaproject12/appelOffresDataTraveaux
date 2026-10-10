@@ -1,0 +1,135 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "882699",
+ "orgAcronyme": "d4q",
+ "reference_pv": null,
+ "nouveau": true,
+ "reference": null,
+ "objet": "Renforcement de la production du centre Ahfir à partir d'un nouveau forage sis à Sidi Azouz (FR 4/624) - Lot 2 Equipement",
+ "acheteur": null,
+ "procedure": "appel d'offres ouvert national",
+ "categorie": "Travaux",
+ "date_limite_plis": "04/03/2025",
+ "lieu_ouverture": null,
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "27/03/2025",
+ "justification": null,
+ "infructueux": false,
+ "attributaire": "STE LAMO MAROC",
+ "montant_attribue": null,
+ "attributaires_par_lot": [
+  {
+   "lot": null,
+   "attributaire": "STE LAMO MAROC",
+   "montant": null
+  },
+  {
+   "lot": null,
+   "attributaire": "ns proto bas SA 5 be ph nat dE ce Branche Eire vai get",
+   "montant": null
+  },
+  {
+   "lot": null,
+   "attributaire": "STE",
+   "montant": 2361192.0
+  }
+ ],
+ "soumissionnaires": [
+  {
+   "nom": "bi PTE",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "depose",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "INDUS POMPES (OUJDA) MAROC il",
+   "montant_acte_engagement": 2464362.0,
+   "montant_apres_verification": null,
+   "autres_montants": [
+    2464362.0
+   ],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "7 7 STE AUTELEB MAROC",
+   "montant_acte_engagement": 2472240.0,
+   "montant_apres_verification": null,
+   "autres_montants": [
+    2472240.0
+   ],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "STE LAMO MAROC",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "VIMAGI",
+   "montant_acte_engagement": 2770020.0,
+   "montant_apres_verification": null,
+   "autres_montants": [
+    2770020.0
+   ],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "STE LAMO AQUA DEMINE",
+   "montant_acte_engagement": 2439300.0,
+   "montant_apres_verification": null,
+   "autres_montants": [
+    2390514.0
+   ],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "ns proto bas SA 5 be ph nat dE ce Branche Eire vai get",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "STE",
+   "montant_acte_engagement": 2361192.0,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 8,
+ "alertes_ocr": [
+  "« STE LAMO AQUA DEMINE » absent de la liste des plis déposés (nom mal lu ?).",
+  "« ns proto bas SA 5 be ph nat dE ce Branche Eire vai get » absent de la liste des plis déposés (nom mal lu ?).",
+  "« STE » absent de la liste des plis déposés (nom mal lu ?).",
+  "Montant de l'attributaire « STE LAMO MAROC » non trouvé.",
+  "Montant de l'attributaire « ns proto bas SA 5 be ph nat dE ce Branche Eire vai get » non trouvé."
+ ],
+ "notes_ocr": [
+  "Maître d'ouvrage absent du PV (utiliser l'acheteur public du portail)."
+ ],
+ "qualite": "complet"
+}

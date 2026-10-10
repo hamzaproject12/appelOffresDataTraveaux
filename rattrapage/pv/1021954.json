@@ -1,0 +1,64 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "1021954",
+ "orgAcronyme": "g3h",
+ "reference_pv": "53/2026/S2A",
+ "nouveau": true,
+ "reference": "53/2026/S2A",
+ "objet": "PROGRAMME DE RECONSTRUCTION ET DE REMISE EN ÉTAT DES SOUKS ET ABATTOIRS IMPACTÉS PAR LE SÉISME D’AL HAOUZ DANS LE RESSORT DE LA PROVINCE DE TAROUDANNT – TRAVAUX DE RECONSTRUCTION DU SOUK",
+ "acheteur": null,
+ "procedure": "appel d'offres ouvert",
+ "categorie": "Travaux",
+ "date_limite_plis": null,
+ "lieu_ouverture": null,
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": null,
+ "justification": null,
+ "infructueux": false,
+ "attributaire": "SOCIETE HOME NEW CLEAN SERVICE",
+ "montant_attribue": 6551586.0,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "SOCIETE TITRACOUP TRAVAUX",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": true
+  },
+  {
+   "nom": "SOCIETE IMSAADEN",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": true
+  },
+  {
+   "nom": "SOCIETE HOME NEW CLEAN SERVICE",
+   "montant_acte_engagement": 6551586.0,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 3,
+ "alertes_ocr": [
+  "« SOCIETE HOME NEW CLEAN SERVICE » absent de la liste des plis déposés (nom mal lu ?)."
+ ],
+ "notes_ocr": [
+  "« SOCIETE TITRACOUP TRAVAUX » absent de la liste des plis déposés (nom mal lu ?).",
+  "« SOCIETE IMSAADEN » absent de la liste des plis déposés (nom mal lu ?).",
+  "Maître d'ouvrage absent du PV (utiliser l'acheteur public du portail)."
+ ],
+ "qualite": "attribution"
+}

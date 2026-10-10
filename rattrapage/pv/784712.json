@@ -1,0 +1,148 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "784712",
+ "orgAcronyme": "w7t",
+ "reference_pv": "11/2023/DRANEF-FM",
+ "nouveau": true,
+ "reference": "11/2023/DRANEF-FM",
+ "objet": "Achat de fours améliorés aux profits des Directions Provinciales relevant de la Direction",
+ "acheteur": "Le Directeur Régional de l’ Agence Nationale des Eaux et Forêts de Fès-Meknès,",
+ "procedure": null,
+ "categorie": "Travaux",
+ "date_limite_plis": "31/10/2023",
+ "lieu_ouverture": "La Direction Régionale de l’Agence Nationale des Eaux et Forêts de Fès Meknès.1, Avenue Hassan II Fès",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "08/12/2023",
+ "justification": "Offres les plus avantageuses.",
+ "infructueux": false,
+ "attributaire": "Sté TAMAZTRAV Sarl 2- Sté AFRAE-SECU 2- Sté AFRAE-SECU",
+ "montant_attribue": 5312160.0,
+ "attributaires_par_lot": [
+  {
+   "lot": null,
+   "attributaire": "Sté TAMAZTRAV Sarl 2- Sté AFRAE-SECU 2- Sté AFRAE-SECU",
+   "montant": 5312160.0
+  },
+  {
+   "lot": null,
+   "attributaire": "p) Etablissement FARES Mohamed",
+   "montant": 925764.0
+  },
+  {
+   "lot": null,
+   "attributaire": "RGUIBI Mohamed",
+   "montant": 657600.0
+  }
+ ],
+ "soumissionnaires": [
+  {
+   "nom": "Entreprise CHAOUKI Hassan 1- Entreprise CHAOUKI Hassan 1- Entreprise CHAOUKI Hassan",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [
+    "1"
+   ],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Sté TAMAZTRAV Sarl 2- Sté AFRAE-SECU 2- Sté AFRAE-SECU",
+   "montant_acte_engagement": 5312160.0,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [
+    "1"
+   ],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Ste PLAZA CATALONIA 3- NAIM HAKIM",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [
+    "1"
+   ],
+   "statut": "depose",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Sté TAMAZTRAV Sarl 4- Sté MOUINE Travaux divers",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [
+    "1"
+   ],
+   "statut": "depose",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "p) Etablissement FARES Mohamed",
+   "montant_acte_engagement": 925764.0,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [
+    "1"
+   ],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Sté FOROMAR 3- Sté FOROMAR",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [
+    "1"
+   ],
+   "statut": "depose",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Ste PLAZA CATALONIA 4- Sté TAMAZTRAV Sarl",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [
+    "1"
+   ],
+   "statut": "ecarte_dossier_administratif_technique",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "RGUIBI Mohamed",
+   "montant_acte_engagement": 657600.0,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [
+    "1"
+   ],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "CHAOUKI Hassan Sarl FARES Mohamed Mohamed",
+   "montant_acte_engagement": 5232000.0,
+   "montant_apres_verification": null,
+   "autres_montants": [
+    5312160.0
+   ],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 9,
+ "alertes_ocr": [
+  "« CHAOUKI Hassan Sarl FARES Mohamed Mohamed » absent de la liste des plis déposés (nom mal lu ?)."
+ ],
+ "notes_ocr": [],
+ "qualite": "complet"
+}

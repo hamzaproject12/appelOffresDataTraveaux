@@ -1,0 +1,73 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "816529",
+ "orgAcronyme": "o8p",
+ "reference_pv": null,
+ "nouveau": true,
+ "reference": null,
+ "objet": null,
+ "acheteur": "Service de l'Equipement du Transport et de la Logistique de Rhamna",
+ "procedure": null,
+ "categorie": "Travaux",
+ "date_limite_plis": "16/07/2024",
+ "lieu_ouverture": "la salle de réunion du service de L’Equipement, du Transport et de la logistique de Rhamna",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "19/07/2024",
+ "justification": "Offre la plus avantageuse.",
+ "infructueux": false,
+ "attributaire": "SOMLAKO",
+ "montant_attribue": 50628811.2,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "GRTP",
+   "montant_acte_engagement": 52485379.2,
+   "montant_apres_verification": 52485379.2,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "SOMLAKO",
+   "montant_acte_engagement": 50628811.2,
+   "montant_apres_verification": 50628811.2,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "TR3F",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_dossier_administratif_technique",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "SNL TRAVAUX",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_dossier_administratif_technique",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 4,
+ "alertes_ocr": [
+  "« GRTP » absent de la liste des plis déposés (nom mal lu ?).",
+  "« SOMLAKO » absent de la liste des plis déposés (nom mal lu ?)."
+ ],
+ "notes_ocr": [
+  "« TR3F » absent de la liste des plis déposés (nom mal lu ?).",
+  "« SNL TRAVAUX » absent de la liste des plis déposés (nom mal lu ?)."
+ ],
+ "qualite": "complet"
+}

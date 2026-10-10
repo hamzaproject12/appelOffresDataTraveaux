@@ -1,0 +1,53 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "926037",
+ "orgAcronyme": "g3h",
+ "reference_pv": "27/2025/SDR",
+ "nouveau": true,
+ "reference": "27/2025/SDR",
+ "objet": "CONSTRUCTION DU BARRAGE MAHROUG DANS LA PROVINCE DE FIGUIG",
+ "acheteur": "le directeur général de La société de développement régional services-s. a",
+ "procedure": "appel d'offres ouvert international",
+ "categorie": "Travaux",
+ "date_limite_plis": "04/08/2025",
+ "lieu_ouverture": "La société de développement régional services-s. À",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": null,
+ "justification": "le concurrent retenu est SNTRO qui a eu offre financière la mieux disant.",
+ "infructueux": false,
+ "attributaire": null,
+ "montant_attribue": null,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "HOUAR",
+   "montant_acte_engagement": 91717545.0,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "SNTRO",
+   "montant_acte_engagement": 86974873.2,
+   "montant_apres_verification": null,
+   "autres_montants": [
+    86974873.2
+   ],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 2,
+ "alertes_ocr": [
+  "Attributaire non trouvé."
+ ],
+ "notes_ocr": [],
+ "qualite": "complet"
+}

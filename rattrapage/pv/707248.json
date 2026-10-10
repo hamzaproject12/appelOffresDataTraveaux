@@ -1,0 +1,89 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "707248",
+ "orgAcronyme": "o8p",
+ "reference_pv": "28/2023",
+ "nouveau": true,
+ "reference": "28/2023",
+ "objet": "Travaux d'aménagement des établissments de soins de santé primaires de la Région Draa Tafilalet",
+ "acheteur": null,
+ "procedure": "appel d'offres ouvert",
+ "categorie": "Travaux",
+ "date_limite_plis": "31/03/2023",
+ "lieu_ouverture": "Bureau de Monsieur le Directeur Régional de [Agence Nationale des Equipements",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "13/04/2023",
+ "justification": "Les éléments contenus dans son dossier administratif et technique, son offre financière et ses justifications.",
+ "infructueux": false,
+ "attributaire": "Société SELTRA sarl",
+ "montant_attribue": 15816489.6,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "Société AIT BEN ITTOU DE TRAVAUX ET D'EQUIPEMENT sarl",
+   "montant_acte_engagement": 16374001.2,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_offre_financiere",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Société AMIHAS DES TRAVAUX ET DE CONSTRUCTION sarl",
+   "montant_acte_engagement": 16364272.8,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Groupement Société KIKOVA sarl & Société SETRO sarl",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Groupement Société SOSALIZ TRAVAUX sarl & Société DIHYA sarl",
+   "montant_acte_engagement": 16079563.2,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Société SELTRA sarl",
+   "montant_acte_engagement": 15816489.6,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Groupement Société FILS LAMHAMDI BELHADJ sarl & Société",
+   "montant_acte_engagement": 16148335.2,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 6,
+ "alertes_ocr": [
+  "« Groupement Société FILS LAMHAMDI BELHADJ sarl & Société » absent de la liste des plis déposés (nom mal lu ?)."
+ ],
+ "notes_ocr": [
+  "Maître d'ouvrage absent du PV (utiliser l'acheteur public du portail)."
+ ],
+ "qualite": "complet"
+}

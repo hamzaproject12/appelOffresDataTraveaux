@@ -1,0 +1,107 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "912859",
+ "orgAcronyme": "d0q",
+ "reference_pv": "06/2025/SAT",
+ "nouveau": true,
+ "reference": "06/2025/SAT",
+ "objet": "Travaux d’entretien du marché de",
+ "acheteur": "Commune de Taza",
+ "procedure": "appel d'offres ouvert simplifié",
+ "categorie": "Travaux",
+ "date_limite_plis": "28/06/2025",
+ "lieu_ouverture": "Bd Moulay youssef siege de l’ex",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": null,
+ "justification": "L’offre la plus avantaceuse",
+ "infructueux": false,
+ "attributaire": "STE AIDOUNI TP SARL AU (Nador)",
+ "montant_attribue": 499878.0,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "STE MOHAALI TRAV SARL (Nador)",
+   "montant_acte_engagement": 503928.0,
+   "montant_apres_verification": null,
+   "autres_montants": [
+    503928.0
+   ],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "STE AIDOUNI TP SARL AU (Nador)",
+   "montant_acte_engagement": 499878.0,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "STE REDITH TRAVAUX PUBLICS SARL AU (Tanger)",
+   "montant_acte_engagement": 449464.0,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "STE F.A CONSTRA SARL AU (Taza)",
+   "montant_acte_engagement": 507084.0,
+   "montant_apres_verification": null,
+   "autres_montants": [
+    507084.0
+   ],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "gros Commune de Taza, Province de Taza, Région Fès-Meknès",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": true
+  },
+  {
+   "nom": "Communauté urbaine de Taza",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": true
+  },
+  {
+   "nom": "STE COGENEG SARL",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_offre_financiere",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 7,
+ "alertes_ocr": [
+  "« STE MOHAALI TRAV SARL (Nador) » absent de la liste des plis déposés (nom mal lu ?).",
+  "« STE AIDOUNI TP SARL AU (Nador) » absent de la liste des plis déposés (nom mal lu ?).",
+  "« STE REDITH TRAVAUX PUBLICS SARL AU (Tanger) » absent de la liste des plis déposés (nom mal lu ?).",
+  "« STE F.A CONSTRA SARL AU (Taza) » absent de la liste des plis déposés (nom mal lu ?)."
+ ],
+ "notes_ocr": [
+  "« gros Commune de Taza, Province de Taza, Région Fès-Meknès » absent de la liste des plis déposés (nom mal lu ?).",
+  "« Communauté urbaine de Taza » absent de la liste des plis déposés (nom mal lu ?).",
+  "« STE COGENEG SARL » absent de la liste des plis déposés (nom mal lu ?)."
+ ],
+ "qualite": "complet"
+}

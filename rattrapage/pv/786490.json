@@ -1,0 +1,49 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "786490",
+ "orgAcronyme": "g3h",
+ "reference_pv": "437/2024/VOIRIES-IS-TRAV",
+ "nouveau": true,
+ "reference": "437/2024/VOIRIES-IS-TRAV",
+ "objet": "Travaux de réaménagement du Bd. Ibn Sina au niveau de l'arrondissement de Maarif à Casablanca",
+ "acheteur": "Société CASABLANCA AMÉNAGEMENT",
+ "procedure": "appel d'offres ouvert",
+ "categorie": "Travaux",
+ "date_limite_plis": "22/03/2024",
+ "lieu_ouverture": "Salle de réunion de CASABLANCA AMÉNAGEMENT S.A",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "04/04/2024",
+ "justification": "Ÿ_ L'offre la moins disante.",
+ "infructueux": false,
+ "attributaire": "Société VIAS",
+ "montant_attribue": 14287345.87,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "Société VIAS",
+   "montant_acte_engagement": 14287345.87,
+   "montant_apres_verification": 14287345.87,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Société GTR",
+   "montant_acte_engagement": 14488197.06,
+   "montant_apres_verification": 14488197.06,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_offre_technique",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 2,
+ "alertes_ocr": [],
+ "notes_ocr": [],
+ "qualite": "complet"
+}

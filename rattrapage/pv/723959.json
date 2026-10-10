@@ -1,0 +1,53 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "723959",
+ "orgAcronyme": "o8p",
+ "reference_pv": "T5751/PS",
+ "nouveau": true,
+ "reference": "T5751/PS",
+ "objet": "Travaux de construction des locaux pour groupes électrogènes y compris prestations associées",
+ "acheteur": "M. le Directeur du Pôle Service",
+ "procedure": null,
+ "categorie": "Travaux",
+ "date_limite_plis": "17/05/2023",
+ "lieu_ouverture": "Institut de Formation et de Développement de Compétences l’'ONCF",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "21/06/2023",
+ "justification": null,
+ "infructueux": false,
+ "attributaire": null,
+ "montant_attribue": null,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "OUKACHA BOUAZZA - ESPACE IMMOBILIERE MODERNE - BEST SOLUTIONS ELEC",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "depose",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "TECHNOCE - FC SERVICE - SGIP",
+   "montant_acte_engagement": 723264.0,
+   "montant_apres_verification": null,
+   "autres_montants": [
+    554940.0
+   ],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 2,
+ "alertes_ocr": [
+  "Attributaire non trouvé."
+ ],
+ "notes_ocr": [],
+ "qualite": "attribution"
+}

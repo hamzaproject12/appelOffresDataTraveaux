@@ -1,0 +1,85 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "767200",
+ "orgAcronyme": "j0w",
+ "reference_pv": "31/2023/ASYBA",
+ "nouveau": true,
+ "reference": "31/2023/ASYBA",
+ "objet": "Travaux de réaménagement du jardin Sidi Youssef Ben Ali",
+ "acheteur": "Arrondissement Sidi Youssef Ben Ali",
+ "procedure": "appel d'offres ouvert",
+ "categorie": "Travaux",
+ "date_limite_plis": "30/11/2023",
+ "lieu_ouverture": null,
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "12/12/2023",
+ "justification": "Offre la plus proche au prix de référence qui est de 962.103,00Dhs",
+ "infructueux": false,
+ "attributaire": "Société ENERGIE TRAVAUX VERT sarl",
+ "montant_attribue": 909024.0,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "Société AMANE VERT sarl -Marrakech",
+   "montant_acte_engagement": 22064.0,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Société WE VERT sarl -Temara",
+   "montant_acte_engagement": 1082304.0,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Société ENERGIE TRAVAUX VERT sarl",
+   "montant_acte_engagement": 909024.0,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Société TALENT des Travaux et services sarl -Errachidia",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "depose",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Société JARDINAGE Traditionnel sarl -Casablanca",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Société BINADIC sarl -Casablanca",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "depose",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 6,
+ "alertes_ocr": [],
+ "notes_ocr": [],
+ "qualite": "complet"
+}

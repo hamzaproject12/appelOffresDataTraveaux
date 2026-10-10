@@ -1,0 +1,169 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "685147",
+ "orgAcronyme": "q1s",
+ "reference_pv": "10/2022/DPA/24/SMOPFPA",
+ "nouveau": true,
+ "reference": "10/2022/DPA/24/SMOPFPA",
+ "objet": null,
+ "acheteur": null,
+ "procedure": null,
+ "categorie": "Travaux",
+ "date_limite_plis": "24/03/2022",
+ "lieu_ouverture": "La Direction Provinciale de l'Agriculture de Nador _",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "01/04/2022",
+ "justification": "Une offre financière avantageuse pour l'administration",
+ "infructueux": false,
+ "attributaire": "Sté SONATRAP",
+ "montant_attribue": 328800.0,
+ "attributaires_par_lot": [
+  {
+   "lot": null,
+   "attributaire": "Sté SONATRAP",
+   "montant": 328800.0
+  },
+  {
+   "lot": null,
+   "attributaire": "! | Sté ADRFAT > ee",
+   "montant": 185856.0
+  }
+ ],
+ "soumissionnaires": [
+  {
+   "nom": "Sté ISSAMETAL",
+   "montant_acte_engagement": 394680.0,
+   "montant_apres_verification": 394680.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_dossier_administratif_technique",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Sté AGRO ELEC",
+   "montant_acte_engagement": 446160.0,
+   "montant_apres_verification": 446160.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Mr. TATHNOUT HASSAN",
+   "montant_acte_engagement": 384000.0,
+   "montant_apres_verification": 384000.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Sté NADA PRODUCTION",
+   "montant_acte_engagement": 566400.0,
+   "montant_apres_verification": 2726400.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Sté SONATRAP",
+   "montant_acte_engagement": 328800.0,
+   "montant_apres_verification": 328800.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Sté EL HELALI AGRICULTURE",
+   "montant_acte_engagement": 576000.0,
+   "montant_apres_verification": 576000.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Sté ADRFAT",
+   "montant_acte_engagement": 342672.0,
+   "montant_apres_verification": 342672.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Sté KOSSIMA SAMARANE",
+   "montant_acte_engagement": 501600.0,
+   "montant_apres_verification": 501600.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "ENTREPRISE OUENZAR",
+   "montant_acte_engagement": 484800.0,
+   "montant_apres_verification": 484800.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Sté EXPERTISE AGRICOLE AGROBENZ",
+   "montant_acte_engagement": 365904.0,
+   "montant_apres_verification": 365904.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Sté ADMN",
+   "montant_acte_engagement": 426240.0,
+   "montant_apres_verification": 426240.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Sté FRAUMANE",
+   "montant_acte_engagement": 460800.0,
+   "montant_apres_verification": 460800.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "! | Sté ADRFAT > ee",
+   "montant_acte_engagement": 185856.0,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 13,
+ "alertes_ocr": [
+  "« ENTREPRISE OUENZAR » absent de la liste des plis déposés (nom mal lu ?).",
+  "« Sté EXPERTISE AGRICOLE AGROBENZ » absent de la liste des plis déposés (nom mal lu ?).",
+  "« Sté ADMN » absent de la liste des plis déposés (nom mal lu ?).",
+  "« Sté FRAUMANE » absent de la liste des plis déposés (nom mal lu ?).",
+  "« ! | Sté ADRFAT > ee » absent de la liste des plis déposés (nom mal lu ?).",
+  "« Sté NADA PRODUCTION » : écart anormal entre montant initial et vérifié (lecture à vérifier)."
+ ],
+ "notes_ocr": [
+  "« Sté NADA PRODUCTION » : montant rectifié de 566 400.00 à 2 726 400.00 DH.",
+  "Maître d'ouvrage absent du PV (utiliser l'acheteur public du portail)."
+ ],
+ "qualite": "complet"
+}

@@ -1,0 +1,51 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "721742",
+ "orgAcronyme": "m8x",
+ "reference_pv": "O1/AKKA/2023",
+ "nouveau": true,
+ "reference": "O1/AKKA/2023",
+ "objet": "Réalisation d’un forage équipé par une pompe Immergée et plaques solaires au douar Oum Elaaleg à la commune d’Akka Province de Tata",
+ "acheteur": "Commune AKKA",
+ "procedure": "appel d'offres ouvert",
+ "categorie": "Travaux",
+ "date_limite_plis": "16/05/2023",
+ "lieu_ouverture": "Siège de la Commune d’AKKA",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "14/06/2023",
+ "justification": "l'offre la plus avantageuse.",
+ "infructueux": false,
+ "attributaire": "Sté BETENR sarl",
+ "montant_attribue": 157716.0,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "Sté BETENR sarl",
+   "montant_acte_engagement": 157716.0,
+   "montant_apres_verification": 157716.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Sté GREENCOM sarl",
+   "montant_acte_engagement": 140960.0,
+   "montant_apres_verification": 140960.63,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 2,
+ "alertes_ocr": [],
+ "notes_ocr": [
+  "« Sté GREENCOM sarl » : montant rectifié de 140 960.00 à 140 960.63 DH."
+ ],
+ "qualite": "complet"
+}

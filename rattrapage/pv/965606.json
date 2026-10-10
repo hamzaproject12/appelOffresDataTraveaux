@@ -1,0 +1,67 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "965606",
+ "orgAcronyme": "o8p",
+ "reference_pv": null,
+ "nouveau": true,
+ "reference": null,
+ "objet": "Travaux de Signalisation verticale et équipements de sécurité de la RN 4 du PK 172+859 au PK 184+259 (Province de Sefrou)",
+ "acheteur": "DPETL Sefrou",
+ "procedure": "appel d'offres ouvert national",
+ "categorie": "Travaux",
+ "date_limite_plis": "09/10/2025",
+ "lieu_ouverture": "DPETL Sefrou",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "15/10/2025",
+ "justification": ".c’est la plus avantageuse",
+ "infructueux": false,
+ "attributaire": "Société CHANTIES DES TRAVAUX DIVERS (SARL)",
+ "montant_attribue": 1234800.0,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "Société INJAZ WORKS (SARL) Certificat de qualification et classification est expirée",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_dossier_administratif_technique",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Société PINTAPLANA MAROC (SARL)",
+   "montant_acte_engagement": 1371096.0,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Société CHANTIES DES TRAVAUX DIVERS (SARL)",
+   "montant_acte_engagement": 1234800.0,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Société GIRODAFRICA (SARL)",
+   "montant_acte_engagement": 1371096.0,
+   "montant_apres_verification": 1371096.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 4,
+ "alertes_ocr": [],
+ "notes_ocr": [],
+ "qualite": "complet"
+}

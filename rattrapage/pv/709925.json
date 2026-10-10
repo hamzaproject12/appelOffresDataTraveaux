@@ -1,0 +1,109 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "709925",
+ "orgAcronyme": "d4q",
+ "reference_pv": null,
+ "nouveau": true,
+ "reference": null,
+ "objet": null,
+ "acheteur": null,
+ "procedure": null,
+ "categorie": "Travaux",
+ "date_limite_plis": "23/02/2023",
+ "lieu_ouverture": "Direction Approvisionnements et Marchés (DAM) : 65, Rue Othman Ben Affan 20000 Casablanca",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": null,
+ "justification": "Moins disant conforme",
+ "infructueux": false,
+ "attributaire": "ORTIS MAROC",
+ "montant_attribue": 5936376.0,
+ "attributaires_par_lot": [
+  {
+   "lot": null,
+   "attributaire": "ORTIS MAROC",
+   "montant": 5936376.0
+  },
+  {
+   "lot": null,
+   "attributaire": "PROXI INDUSTRIE",
+   "montant": 6830488.8
+  },
+  {
+   "lot": null,
+   "attributaire": "MELATRA",
+   "montant": 6927510.0
+  },
+  {
+   "lot": null,
+   "attributaire": "HIMATECH",
+   "montant": 7644669.6
+  },
+  {
+   "lot": null,
+   "attributaire": "rectifications éventuelles ORTIS MAROC",
+   "montant": 5936376.0
+  }
+ ],
+ "soumissionnaires": [
+  {
+   "nom": "ORTIS MAROC, PROXI INDUSTRIE, MELATRA et HIMATECH",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "ORTIS MAROC",
+   "montant_acte_engagement": 5936376.0,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "PROXI INDUSTRIE",
+   "montant_acte_engagement": 6830488.8,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "MELATRA",
+   "montant_acte_engagement": 6927510.0,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "HIMATECH",
+   "montant_acte_engagement": 7644669.6,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 5,
+ "alertes_ocr": [
+  "« ORTIS MAROC » absent de la liste des plis déposés (nom mal lu ?).",
+  "« PROXI INDUSTRIE » absent de la liste des plis déposés (nom mal lu ?).",
+  "« MELATRA » absent de la liste des plis déposés (nom mal lu ?).",
+  "« HIMATECH » absent de la liste des plis déposés (nom mal lu ?)."
+ ],
+ "notes_ocr": [
+  "Maître d'ouvrage absent du PV (utiliser l'acheteur public du portail)."
+ ],
+ "qualite": "attribution"
+}

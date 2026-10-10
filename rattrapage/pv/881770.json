@@ -1,0 +1,51 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "881770",
+ "orgAcronyme": "q1s",
+ "reference_pv": "13/2025/DPA/52",
+ "nouveau": true,
+ "reference": "13/2025/DPA/52",
+ "objet": "TRAVAUX DE CONSTRUCTION DE TROIS UNITES DE TRITURATION DES OLIVES DANS LA PROVINCE DE FIGUIG",
+ "acheteur": "Directeur provincial de l'agriculture de figuig à bouarfa",
+ "procedure": "appel d'offres ouvert",
+ "categorie": "Travaux",
+ "date_limite_plis": "27/02/2025",
+ "lieu_ouverture": "la salle de réunion de la DPA de figuig à bouarfa",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "11/03/2025",
+ "justification": null,
+ "infructueux": false,
+ "attributaire": null,
+ "montant_attribue": null,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "STE FRAM BATIMENT",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_dossier_administratif_technique",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "STE BTP IRRIGA",
+   "montant_acte_engagement": 3093861.6,
+   "montant_apres_verification": 3093861.6,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_dossier_administratif_technique",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 2,
+ "alertes_ocr": [
+  "Attributaire non trouvé."
+ ],
+ "notes_ocr": [],
+ "qualite": "attribution"
+}

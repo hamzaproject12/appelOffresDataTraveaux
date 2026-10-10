@@ -1,0 +1,85 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "837398",
+ "orgAcronyme": "q1s",
+ "reference_pv": "66/024/DAM",
+ "nouveau": true,
+ "reference": "66/024/DAM",
+ "objet": "Exécution des travaux d'aménagement et d'équipement des points d'eau dans la zone d'action de",
+ "acheteur": "ORMV A du Gharb,",
+ "procedure": "appel d'offres ouvert national",
+ "categorie": "Travaux",
+ "date_limite_plis": "24/09/2024",
+ "lieu_ouverture": "Siège de l'ORMVA du Gharb,",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": null,
+ "justification": null,
+ "infructueux": false,
+ "attributaire": "ALBI TRAVAUX DIVERS ET NEGOCE",
+ "montant_attribue": 551340.0,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "ALBI TRAVAUX DIVERS ET NEGOCE",
+   "montant_acte_engagement": 464460.0,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [
+    "1",
+    "2"
+   ],
+   "statut": "attributaire",
+   "admis_avec_reserve": true
+  },
+  {
+   "nom": "CIEL SAGHRA",
+   "montant_acte_engagement": 591340.0,
+   "montant_apres_verification": null,
+   "autres_montants": [
+    8450.0
+   ],
+   "lots": [
+    "2"
+   ],
+   "statut": "admis",
+   "admis_avec_reserve": true
+  },
+  {
+   "nom": "SIBER",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "depose",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "AREJDAL EL HOUSSAIXE",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "HYDRAULIQUE NAHDA",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "depose",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 5,
+ "alertes_ocr": [],
+ "notes_ocr": [
+  "Marché alloti (2 lots)."
+ ],
+ "qualite": "complet"
+}

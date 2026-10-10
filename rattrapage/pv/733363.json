@@ -1,0 +1,52 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "733363",
+ "orgAcronyme": "d0q",
+ "reference_pv": "08/2023",
+ "nouveau": true,
+ "reference": "08/2023",
+ "objet": "d’Appel d’offres : Travaux d’Electrification 1°Catégorie de groupe de logement à la commune de Bni lent de Bni lent, Province de Taza(Tranchel)",
+ "acheteur": "Commune de Bni lent province de Taza",
+ "procedure": "appel d'offres ouvert",
+ "categorie": "Travaux",
+ "date_limite_plis": "06/06/2023",
+ "lieu_ouverture": "Bureau du président de la commune de Bni lent",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": null,
+ "justification": null,
+ "infructueux": false,
+ "attributaire": null,
+ "montant_attribue": null,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "Sté NHARED SARL à Taza",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "tée par la STE NHARED",
+   "montant_acte_engagement": 593220.0,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 2,
+ "alertes_ocr": [
+  "« tée par la STE NHARED » absent de la liste des plis déposés (nom mal lu ?).",
+  "Attributaire non trouvé."
+ ],
+ "notes_ocr": [],
+ "qualite": "attribution"
+}

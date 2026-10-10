@@ -1,0 +1,53 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "827711",
+ "orgAcronyme": "a1z",
+ "reference_pv": "13/AMR/2024",
+ "nouveau": true,
+ "reference": "13/AMR/2024",
+ "objet": "Travaux d'aménagement des terrains de sport au territoire de l’Arrondissement Moulay Rachid",
+ "acheteur": "Arrondissement Moulay Rachid",
+ "procedure": "appel d'offres ouvert national",
+ "categorie": "Travaux",
+ "date_limite_plis": "25/07/2024",
+ "lieu_ouverture": "bureau de Mr le président de l'Arrondissement Moulay Rachid",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "02/08/2024",
+ "justification": "son offre économiquement la plus avantageuse",
+ "infructueux": false,
+ "attributaire": null,
+ "montant_attribue": null,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "GROUPEMENT SOCIETE TOTAL VEGETAL SARL ET STE MASSOTRAV SARL",
+   "montant_acte_engagement": 6462000.0,
+   "montant_apres_verification": 6462000.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "GROUPEMENT SOCIETE ECOGEO ET STE GECI DREAM SARL",
+   "montant_acte_engagement": 5691840.0,
+   "montant_apres_verification": 5691840.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 2,
+ "alertes_ocr": [
+  "« GROUPEMENT SOCIETE TOTAL VEGETAL SARL ET STE MASSOTRAV SARL » absent de la liste des plis déposés (nom mal lu ?).",
+  "« GROUPEMENT SOCIETE ECOGEO ET STE GECI DREAM SARL » absent de la liste des plis déposés (nom mal lu ?).",
+  "Attributaire non trouvé."
+ ],
+ "notes_ocr": [],
+ "qualite": "complet"
+}

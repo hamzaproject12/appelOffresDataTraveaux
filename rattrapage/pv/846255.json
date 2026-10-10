@@ -1,0 +1,114 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "846255",
+ "orgAcronyme": "o8p",
+ "reference_pv": null,
+ "nouveau": true,
+ "reference": null,
+ "objet": null,
+ "acheteur": null,
+ "procedure": "appel d'offres ouvert",
+ "categorie": "Travaux",
+ "date_limite_plis": "08/10/2024",
+ "lieu_ouverture": "Direction du Port de Nador et Région",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": null,
+ "justification": "L’offre la moins-disante.",
+ "infructueux": false,
+ "attributaire": "C.G.T.M.P",
+ "montant_attribue": 264648.0,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "AMEXS e C.G.T.M.P. e NADOTIC",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "DATA PROCESS e SUBSTANCIUM",
+   "montant_acte_engagement": 324300.0,
+   "montant_apres_verification": null,
+   "autres_montants": [
+    324300.0
+   ],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "NORD EST ELECTRONIQUE e TECHNOLOGICA",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_dossier_administratif_technique",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "AMEXS",
+   "montant_acte_engagement": 768360.0,
+   "montant_apres_verification": null,
+   "autres_montants": [
+    768360.0
+   ],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "C.G.T.M.P",
+   "montant_acte_engagement": 264648.0,
+   "montant_apres_verification": null,
+   "autres_montants": [
+    264648.0
+   ],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "SUBSTANCIUM",
+   "montant_acte_engagement": 352896.0,
+   "montant_apres_verification": null,
+   "autres_montants": [
+    352896.0
+   ],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "NADOTIC",
+   "montant_acte_engagement": 288864.0,
+   "montant_apres_verification": null,
+   "autres_montants": [
+    288864.0
+   ],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 7,
+ "alertes_ocr": [
+  "« DATA PROCESS e SUBSTANCIUM » absent de la liste des plis déposés (nom mal lu ?).",
+  "« AMEXS » absent de la liste des plis déposés (nom mal lu ?).",
+  "« C.G.T.M.P » absent de la liste des plis déposés (nom mal lu ?).",
+  "« SUBSTANCIUM » absent de la liste des plis déposés (nom mal lu ?).",
+  "« NADOTIC » absent de la liste des plis déposés (nom mal lu ?)."
+ ],
+ "notes_ocr": [
+  "« AMEXS e C.G.T.M.P. e NADOTIC » absent de la liste des plis déposés (nom mal lu ?).",
+  "« NORD EST ELECTRONIQUE e TECHNOLOGICA » absent de la liste des plis déposés (nom mal lu ?).",
+  "Maître d'ouvrage absent du PV (utiliser l'acheteur public du portail)."
+ ],
+ "qualite": "complet"
+}

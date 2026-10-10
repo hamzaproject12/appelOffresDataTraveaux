@@ -1,0 +1,53 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "987788",
+ "orgAcronyme": "g3h",
+ "reference_pv": "14/OLT/2025",
+ "nouveau": true,
+ "reference": "14/OLT/2025",
+ "objet": "TRAVAUX DE MISE A NIVEAU DE LA PISCINE MUNICIPALE D'OUJDA",
+ "acheteur": null,
+ "procedure": "appel d'offres ouvert national",
+ "categorie": "Travaux",
+ "date_limite_plis": "04/06/2025",
+ "lieu_ouverture": "les bureaux de la société de développement & OUJDA LI TAHYIAA » SA situés à Wilaya de la Région de l'Oriental — Bd. Hassan Il - Oujda",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "17/06/2025",
+ "justification": "l'offre économiquement la plus avantageuse est l'offre la moins-disante, celle de la société TRAORI SARL AU.",
+ "infructueux": false,
+ "attributaire": null,
+ "montant_attribue": null,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "TRAORI SARL AU",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "INCON CONTRACTOR SARL AU",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 2,
+ "alertes_ocr": [
+  "Attributaire non trouvé."
+ ],
+ "notes_ocr": [
+  "Maître d'ouvrage absent du PV (utiliser l'acheteur public du portail)."
+ ],
+ "qualite": "participants"
+}

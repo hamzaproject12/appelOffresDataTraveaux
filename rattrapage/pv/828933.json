@@ -1,0 +1,64 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "828933",
+ "orgAcronyme": "g3h",
+ "reference_pv": "39/INDH/2024",
+ "nouveau": true,
+ "reference": "39/INDH/2024",
+ "objet": "TRAVAUX D'AMENAGEMENT EXTERIEUR DU CENTRE DES HANDICAPES A LA COMMUNE SIDI TIJJI. LA PROVINCE DE SAFI, WILAYA DE LA REGION MARRAKECH SAFI",
+ "acheteur": "Province de Safi",
+ "procedure": "appel d'offres ouvert simplifié",
+ "categorie": "Travaux",
+ "date_limite_plis": "27/08/2024",
+ "lieu_ouverture": "Salle de réunion sis au Secrétariat General de la Province de Safi",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": null,
+ "justification": null,
+ "infructueux": false,
+ "attributaire": "IDICHL",
+ "montant_attribue": null,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "GT QUATRE ET DOUZE",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "COMPADO SARL",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_dossier_administratif_technique",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "IDICHL",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 3,
+ "alertes_ocr": [
+  "« IDICHL » absent de la liste des plis déposés (nom mal lu ?).",
+  "Montant de l'attributaire « IDICHL » non trouvé."
+ ],
+ "notes_ocr": [
+  "« GT QUATRE ET DOUZE » absent de la liste des plis déposés (nom mal lu ?).",
+  "« COMPADO SARL » absent de la liste des plis déposés (nom mal lu ?)."
+ ],
+ "qualite": "participants"
+}

@@ -1,0 +1,123 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "846912",
+ "orgAcronyme": "q1s",
+ "reference_pv": null,
+ "nouveau": true,
+ "reference": null,
+ "objet": "Travaux d'aménagement des halles au poisson au niveau des villages de pêche de N'tireft et Imoutlane, en deux lots",
+ "acheteur": "OFFICE NATIONAL DES PECHES",
+ "procedure": null,
+ "categorie": "Travaux",
+ "date_limite_plis": "30/10/2024",
+ "lieu_ouverture": "Office National des Pêches, sis 45, rue du Lieutenant Mohamed Mahroud à Casablanca",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": null,
+ "justification": "l'offre économiquement la plus avantageuse (offre financière la mieux disante par rapport au prix de référence par défaut).",
+ "infructueux": false,
+ "attributaire": "STE HITRACOS",
+ "montant_attribue": 1881432.0,
+ "attributaires_par_lot": [
+  {
+   "lot": "1",
+   "attributaire": "STE HITRACOS",
+   "montant": 1881432.0
+  },
+  {
+   "lot": "2",
+   "attributaire": "TGX SAHARA",
+   "montant": 1382172.0
+  }
+ ],
+ "soumissionnaires": [
+  {
+   "nom": "TGX SAHARA",
+   "montant_acte_engagement": 1870536.0,
+   "montant_apres_verification": null,
+   "autres_montants": [
+    1870536.0
+   ],
+   "lots": [
+    "2"
+   ],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "STE HITRACOS",
+   "montant_acte_engagement": 1881432.0,
+   "montant_apres_verification": null,
+   "autres_montants": [
+    1881432.0
+   ],
+   "lots": [
+    "1"
+   ],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "SEMADIV (lots n° 1 et n°2)",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "STE SOLIDAK",
+   "montant_acte_engagement": 1879200.0,
+   "montant_apres_verification": null,
+   "autres_montants": [
+    1879200.0
+   ],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "GAMAT RAGE (lots n° 1 et n°2)",
+   "montant_acte_engagement": 1554732.0,
+   "montant_apres_verification": null,
+   "autres_montants": [
+    1554732.0
+   ],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "ELECTRO PROTECT",
+   "montant_acte_engagement": 2302824.0,
+   "montant_apres_verification": null,
+   "autres_montants": [
+    2302824.0
+   ],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "STE ADIF TRAVAUX",
+   "montant_acte_engagement": 1926540.0,
+   "montant_apres_verification": null,
+   "autres_montants": [
+    1926540.0
+   ],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 7,
+ "alertes_ocr": [],
+ "notes_ocr": [
+  "Marché alloti (2 lots)."
+ ],
+ "qualite": "complet"
+}

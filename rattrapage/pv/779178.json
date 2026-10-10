@@ -1,0 +1,65 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "779178",
+ "orgAcronyme": "g3h",
+ "reference_pv": "25/PB/DE/INDH/2023",
+ "nouveau": true,
+ "reference": "25/PB/DE/INDH/2023",
+ "objet": "TRAVAUX D'ALIMENTATION EN EAU POTABLE AU DOUAR INAQUIOUN A SIDI MAHYOU RELEVANT DE LA COMMUNE DE SKOURA M DAZ ; PROVINCE DE BOULEMANE Les concurrents ayant déposé leurs plis",
+ "acheteur": null,
+ "procedure": null,
+ "categorie": "Travaux",
+ "date_limite_plis": "27/06/2023",
+ "lieu_ouverture": null,
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": null,
+ "justification": null,
+ "infructueux": false,
+ "attributaire": null,
+ "montant_attribue": null,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "SOCIETE SAMCHIR SARL - TINJDAD",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "SOCIETE SAFIMRA SARL AU MISSOUR",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "SOCIETE IMXTRAL SARL - MIDELT",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 3,
+ "alertes_ocr": [
+  "Attributaire non trouvé."
+ ],
+ "notes_ocr": [
+  "« SOCIETE SAMCHIR SARL - TINJDAD » absent de la liste des plis déposés (nom mal lu ?).",
+  "« SOCIETE SAFIMRA SARL AU MISSOUR » absent de la liste des plis déposés (nom mal lu ?).",
+  "« SOCIETE IMXTRAL SARL - MIDELT » absent de la liste des plis déposés (nom mal lu ?).",
+  "Maître d'ouvrage absent du PV (utiliser l'acheteur public du portail)."
+ ],
+ "qualite": "participants"
+}

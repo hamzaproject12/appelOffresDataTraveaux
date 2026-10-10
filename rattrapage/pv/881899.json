@@ -1,0 +1,104 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "881899",
+ "orgAcronyme": "q0x",
+ "reference_pv": "14/AREPDT/2025",
+ "nouveau": true,
+ "reference": "14/AREPDT/2025",
+ "objet": "Programme de l’Eau Potable : Travaux d'alimentation en eau potable de la population rurale de la commune Afella N’Dra à partir du Barrage AGDEZ - Province de Zagora Lot N°2– Génie civil",
+ "acheteur": null,
+ "procedure": "appel d'offres ouvert",
+ "categorie": "Travaux",
+ "date_limite_plis": null,
+ "lieu_ouverture": null,
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": null,
+ "justification": null,
+ "infructueux": false,
+ "attributaire": "SONAROUZ",
+ "montant_attribue": 4939098.0,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "▪ GRP AXE INFRATECH ET STE MAGISTAR",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_offre_financiere",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "SONAROUZ",
+   "montant_acte_engagement": 4939098.0,
+   "montant_apres_verification": 4939098.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "GRP CTG ATLAS ET ENTREPRISE AIT HADDOU",
+   "montant_acte_engagement": 4922100.0,
+   "montant_apres_verification": 4922100.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "GRP IMSAADEN ET TEGEMAR",
+   "montant_acte_engagement": 4890426.0,
+   "montant_apres_verification": 4890426.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "GRP ENTREPRISE AZLOU DE TRAVAUX ET STE SLH BATIMENT",
+   "montant_acte_engagement": 979442.0,
+   "montant_apres_verification": 979442.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "GRP KADOMAR PRO ET SOMSO",
+   "montant_acte_engagement": 5074830.0,
+   "montant_apres_verification": 5074830.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "C.T.E.G TRAVAUX",
+   "montant_acte_engagement": 5290812.0,
+   "montant_apres_verification": 5290812.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 7,
+ "alertes_ocr": [
+  "« SONAROUZ » absent de la liste des plis déposés (nom mal lu ?).",
+  "« GRP CTG ATLAS ET ENTREPRISE AIT HADDOU » absent de la liste des plis déposés (nom mal lu ?).",
+  "« GRP IMSAADEN ET TEGEMAR » absent de la liste des plis déposés (nom mal lu ?).",
+  "« GRP ENTREPRISE AZLOU DE TRAVAUX ET STE SLH BATIMENT » absent de la liste des plis déposés (nom mal lu ?).",
+  "« GRP KADOMAR PRO ET SOMSO » absent de la liste des plis déposés (nom mal lu ?).",
+  "« C.T.E.G TRAVAUX » absent de la liste des plis déposés (nom mal lu ?)."
+ ],
+ "notes_ocr": [
+  "« ▪ GRP AXE INFRATECH ET STE MAGISTAR » absent de la liste des plis déposés (nom mal lu ?).",
+  "Maître d'ouvrage absent du PV (utiliser l'acheteur public du portail)."
+ ],
+ "qualite": "complet"
+}

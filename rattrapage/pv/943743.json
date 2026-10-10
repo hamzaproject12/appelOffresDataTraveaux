@@ -1,0 +1,58 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "943743",
+ "orgAcronyme": "j8k",
+ "reference_pv": "164/2025",
+ "nouveau": true,
+ "reference": "164/2025",
+ "objet": null,
+ "acheteur": "AL OMRANE MARRAKECH-SAFI",
+ "procedure": "appel d'offres ouvert",
+ "categorie": "Travaux",
+ "date_limite_plis": "10/09/2025",
+ "lieu_ouverture": "Siège de la société AI Omrane Marrakech-Safi",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "20/10/2025",
+ "justification": "Moins-disant.",
+ "infructueux": false,
+ "attributaire": "MASKRT TRAVAUX",
+ "montant_attribue": 38871187.73,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "TRAVAUX OMS",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_offre_technique",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "MASKRT TRAVAUX",
+   "montant_acte_engagement": 38871187.73,
+   "montant_apres_verification": 38871187.73,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "MOTIFS DES ÉLIMINATIONS DETAILLEES",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_offre_technique",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 3,
+ "alertes_ocr": [],
+ "notes_ocr": [],
+ "qualite": "attribution"
+}

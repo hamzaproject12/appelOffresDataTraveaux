@@ -1,0 +1,62 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "770456",
+ "orgAcronyme": "o8p",
+ "reference_pv": "05/SAPT/2023",
+ "nouveau": true,
+ "reference": "05/SAPT/2023",
+ "objet": null,
+ "acheteur": "Société d'Aménagement pour la reconversion de la zone Portuaire de Tanger ville-SAPT SA",
+ "procedure": null,
+ "categorie": "Travaux",
+ "date_limite_plis": "09/01/2024",
+ "lieu_ouverture": "Bureaux de la Société SAPT sis à 50, avenue Mohamed Tazi, Merchane, Tanger",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "19/01/2024",
+ "justification": "Offre conforme aux exigences du Règlement de la consultation et moins disante ;",
+ "infructueux": false,
+ "attributaire": "moins disante",
+ "montant_attribue": 8816657.83,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "des entreprises ACIZA et INJAZATE PROJET",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_dossier_administratif_technique",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "TGN Société de travaux divers",
+   "montant_acte_engagement": 8816657.83,
+   "montant_apres_verification": 8816657.83,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "moins disante",
+   "montant_acte_engagement": 8816657.83,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 3,
+ "alertes_ocr": [
+  "« moins disante » absent de la liste des plis déposés (nom mal lu ?)."
+ ],
+ "notes_ocr": [
+  "Montants exprimés hors taxes (HT)."
+ ],
+ "qualite": "complet"
+}

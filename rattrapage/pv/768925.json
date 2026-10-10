@@ -1,0 +1,64 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "768925",
+ "orgAcronyme": "o8p",
+ "reference_pv": "AO/173/ANEPCEST/2023",
+ "nouveau": true,
+ "reference": "AO/173/ANEPCEST/2023",
+ "objet": "« TRAVAUX D'EXTENSION DE SALLES DE CLASSE DU LYCÉE OMAR IBN LKHATTAB COMMUNE FRITISSA, PROVINCE BOULMANE »",
+ "acheteur": null,
+ "procedure": "appel d'offres ouvert national",
+ "categorie": "Travaux",
+ "date_limite_plis": "08/12/2023",
+ "lieu_ouverture": "le bureau du Directeur Régional de l’Agence Nationale des Equipements",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "14/12/2023",
+ "justification": "l'offre économiquement la plus avantageuse",
+ "infructueux": false,
+ "attributaire": "STE SOTRACOUVAR SARL",
+ "montant_attribue": 1329264.0,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "STE HAMOUNATE SARL AU",
+   "montant_acte_engagement": 1544148.0,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "STE SOTRACOUVAR SARL",
+   "montant_acte_engagement": 1329264.0,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "STE SANOTRAV SARL",
+   "montant_acte_engagement": 1394724.0,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 3,
+ "alertes_ocr": [
+  "« STE HAMOUNATE SARL AU » absent de la liste des plis déposés (nom mal lu ?).",
+  "« STE SOTRACOUVAR SARL » absent de la liste des plis déposés (nom mal lu ?).",
+  "« STE SANOTRAV SARL » absent de la liste des plis déposés (nom mal lu ?)."
+ ],
+ "notes_ocr": [
+  "Maître d'ouvrage absent du PV (utiliser l'acheteur public du portail)."
+ ],
+ "qualite": "complet"
+}

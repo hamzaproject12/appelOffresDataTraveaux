@@ -1,0 +1,60 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "672914",
+ "orgAcronyme": "j0w",
+ "reference_pv": "14/2022/AG",
+ "nouveau": true,
+ "reference": "14/2022/AG",
+ "objet": "Travaux d'entretien des locaux techniques des puits et réseaux d'arrosage",
+ "acheteur": "Arrondissement Guéliz",
+ "procedure": null,
+ "categorie": "Travaux",
+ "date_limite_plis": "21/10/2022",
+ "lieu_ouverture": "Arrondissement Guéliz à l’Avenue Mohamed VI",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "01/11/2022",
+ "justification": "Offre plus avantageuse est la moins disante.",
+ "infructueux": false,
+ "attributaire": "Sté TEMICAS",
+ "montant_attribue": 61065.6,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "Sté SMART OPTIONS A SIDI ABDELLAH GHIAT COMMUNE AT OURIR EL HAOUZ",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_dossier_administratif_technique",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Sté TEMICAS A MARRAKECH",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "depose",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Sté TEMICAS",
+   "montant_acte_engagement": 61065.6,
+   "montant_apres_verification": 61065.6,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 3,
+ "alertes_ocr": [
+  "« Sté TEMICAS » absent de la liste des plis déposés (nom mal lu ?)."
+ ],
+ "notes_ocr": [],
+ "qualite": "attribution"
+}

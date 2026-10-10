@@ -1,0 +1,67 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "1028186",
+ "orgAcronyme": "g8e",
+ "reference_pv": "122/2026",
+ "nouveau": true,
+ "reference": "122/2026",
+ "objet": "Date et heure d’achèvement Concurrent Montant de l’offre",
+ "acheteur": "Agence Régionale d’Exécution des Projets Région Béni Mellal-Khénifra",
+ "procedure": null,
+ "categorie": "Travaux",
+ "date_limite_plis": "09/07/2026",
+ "lieu_ouverture": "Salle de réunion de l’AREP région Beni Mellal Khéñnifra Sis Bd Med V lotissement lala Hayat immeuble n°3, 4\" et 5\"° étage Béni Mellal",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "28/07/2026",
+ "justification": "L'offre économiquement la plus avantageuse",
+ "infructueux": false,
+ "attributaire": "STE ARBAT MAROC",
+ "montant_attribue": 8956896.0,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "STE ARBAT MAROC",
+   "montant_acte_engagement": 8956896.0,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "STE NICE TRAVAUX",
+   "montant_acte_engagement": 10904589.6,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_offre_financiere",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "STE EDICA",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_dossier_administratif_technique",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "STE ROUF ENGINEERING",
+   "montant_acte_engagement": 10204656.0,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 4,
+ "alertes_ocr": [],
+ "notes_ocr": [],
+ "qualite": "complet"
+}

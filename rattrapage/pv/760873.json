@@ -1,0 +1,63 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "760873",
+ "orgAcronyme": "q1s",
+ "reference_pv": "23/2023/DRATTH/DIAEA",
+ "nouveau": true,
+ "reference": "23/2023/DRATTH/DIAEA",
+ "objet": "Travaux de construction d'une station d'épuration pour le traitement des eaux usées de l'abattoir de Tétouan",
+ "acheteur": "DIRECTION REGIONALE DE L'AGRICULTURE DE TANGER-TETOUAN AL HOCEIMA",
+ "procedure": "appel d'offres ouvert national",
+ "categorie": "Travaux",
+ "date_limite_plis": "22/11/2023",
+ "lieu_ouverture": "Salle de réunion de la DIRECTION REGIONALE DE L'AGRICULTURE DE TANGER-TETOUAN-AL HOCEIMA",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "30/11/2023",
+ "justification": "Offre la plus avantageuse.",
+ "infructueux": false,
+ "attributaire": "UBAC SARL",
+ "montant_attribue": 11466246.0,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "UBAC SARL",
+   "montant_acte_engagement": 11466246.0,
+   "montant_apres_verification": 11466246.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "SOCIETE MAROCAINE D'EAU ET DE DEVELOPPEMENT DURABLE SARL (SME2D)",
+   "montant_acte_engagement": 11927688.0,
+   "montant_apres_verification": 11927688.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "GROUPEMENT SMEER SARL AU / NEW WATER SARL AU",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_dossier_administratif_technique",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 3,
+ "alertes_ocr": [
+  "« UBAC SARL » absent de la liste des plis déposés (nom mal lu ?).",
+  "« SOCIETE MAROCAINE D'EAU ET DE DEVELOPPEMENT DURABLE SARL (SME2D) » absent de la liste des plis déposés (nom mal lu ?)."
+ ],
+ "notes_ocr": [
+  "« GROUPEMENT SMEER SARL AU / NEW WATER SARL AU » absent de la liste des plis déposés (nom mal lu ?)."
+ ],
+ "qualite": "complet"
+}

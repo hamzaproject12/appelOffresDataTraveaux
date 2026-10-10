@@ -1,0 +1,78 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "902731",
+ "orgAcronyme": "f9f",
+ "reference_pv": "01/2025/CT",
+ "nouveau": true,
+ "reference": "01/2025/CT",
+ "objet": "TRAVAUX D'ENTRETIEN COURANT DES VOIES A LA COMMUNE TEMSIA",
+ "acheteur": "Commune de Temsia represenatant par Monsieur le president de la commune",
+ "procedure": "appel d'offres ouvert simplifié",
+ "categorie": "Travaux",
+ "date_limite_plis": "27/05/2025",
+ "lieu_ouverture": "Salle de réunion sise au siège de la commune Temsia",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "02/06/2025",
+ "justification": "admis sur la base de l’offre économiquement la plus avantageuse et la mieux-disante",
+ "infructueux": false,
+ "attributaire": "STE MED SOUSS AMENAGEMENT SARL A.U",
+ "montant_attribue": 180960.0,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "STE KABEL CONSTRUCTIONS WORK S.A.R.L A.U",
+   "montant_acte_engagement": 182250.0,
+   "montant_apres_verification": 182250.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": true
+  },
+  {
+   "nom": "STE AOUADA TRAVAUX SARL A.U",
+   "montant_acte_engagement": 183060.0,
+   "montant_apres_verification": 183060.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "STE EXTRA PUBLIC SARL",
+   "montant_acte_engagement": 192000.0,
+   "montant_apres_verification": 192000.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "STE MED SOUSS AMENAGEMENT SARL A.U",
+   "montant_acte_engagement": 180960.0,
+   "montant_apres_verification": 180960.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "STE EFFICACITE PROJETS NORD SUD SARL",
+   "montant_acte_engagement": 179840.0,
+   "montant_apres_verification": 179839.8,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": true
+  }
+ ],
+ "nombre_soumissionnaires": 5,
+ "alertes_ocr": [],
+ "notes_ocr": [
+  "« STE EFFICACITE PROJETS NORD SUD SARL » : montant rectifié de 179 840.00 à 179 839.80 DH."
+ ],
+ "qualite": "complet"
+}

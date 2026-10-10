@@ -1,0 +1,60 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "881592",
+ "orgAcronyme": "a1t",
+ "reference_pv": null,
+ "nouveau": true,
+ "reference": null,
+ "objet": "La réalisation des travaux de scénographie de lexposition permanente du musée de la culture juive à Fès",
+ "acheteur": "La Fondation Nationale des Musées",
+ "procedure": null,
+ "categorie": "Travaux",
+ "date_limite_plis": "07/03/2025",
+ "lieu_ouverture": "La salle de réunion de la Fondation Nationale des Musées",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "24/03/2025",
+ "justification": "Concurrent a présenté l’offre économiquement la plus avantageuse par rapport au prix de référence.",
+ "infructueux": false,
+ "attributaire": "LINED",
+ "montant_attribue": 9574800.0,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "SONEFAM - LINED",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "DESIGN AU - UTOPIA STUDIO",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_dossier_administratif_technique",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "LINED",
+   "montant_acte_engagement": 9574800.0,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 3,
+ "alertes_ocr": [
+  "« LINED » absent de la liste des plis déposés (nom mal lu ?)."
+ ],
+ "notes_ocr": [],
+ "qualite": "attribution"
+}

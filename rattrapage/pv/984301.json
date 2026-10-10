@@ -1,0 +1,75 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "984301",
+ "orgAcronyme": "d4q",
+ "reference_pv": null,
+ "nouveau": true,
+ "reference": null,
+ "objet": null,
+ "acheteur": null,
+ "procedure": "appel d'offres ouvert",
+ "categorie": "Travaux",
+ "date_limite_plis": "19/02/2026",
+ "lieu_ouverture": "au siège de la Direction Régionale Casablanca-Settat (DRC) - 6 bis, rue Patrice Lumumba, Rabat - Maroc",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "12/03/2026",
+ "justification": "Moins-disant",
+ "infructueux": false,
+ "attributaire": "EXCEL INDUSTRIE",
+ "montant_attribue": 2908309.2,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "EXCEL INDUSTRIE",
+   "montant_acte_engagement": 2908309.2,
+   "montant_apres_verification": null,
+   "autres_montants": [
+    2908309.2
+   ],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "MAROC",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "depose",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "IMADELEC MAROC",
+   "montant_acte_engagement": 3062143.2,
+   "montant_apres_verification": null,
+   "autres_montants": [
+    3062143.2
+   ],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "MARGA ELECTRICITE MAROC",
+   "montant_acte_engagement": 3104400.0,
+   "montant_apres_verification": null,
+   "autres_montants": [
+    3104400.0
+   ],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 4,
+ "alertes_ocr": [],
+ "notes_ocr": [
+  "Maître d'ouvrage absent du PV (utiliser l'acheteur public du portail)."
+ ],
+ "qualite": "complet"
+}

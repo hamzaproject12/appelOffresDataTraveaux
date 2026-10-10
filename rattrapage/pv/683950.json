@@ -1,0 +1,74 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "683950",
+ "orgAcronyme": "k2q",
+ "reference_pv": "64/2022/DAH",
+ "nouveau": true,
+ "reference": "64/2022/DAH",
+ "objet": null,
+ "acheteur": "Direction des Aménagements Hydrauliques",
+ "procedure": "appel d'offres ouvert",
+ "categorie": "Travaux",
+ "date_limite_plis": "30/11/2022",
+ "lieu_ouverture": "Direction des Aménagements Hydrauliques",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": null,
+ "justification": "L'offre de la Société d’entreprise HOUAR S.A. a été retenue étant donné qu'elle répond aux conditions techniques du présent marché et qu’elle est la moins disante.",
+ "infructueux": false,
+ "attributaire": "d'entreprise HOUAR S.A",
+ "montant_attribue": 486576414.0,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "(e] La Société BIOUI Travaux (e] La Société d’entreprise HOUAR S.A",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "STAM",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": true
+  },
+  {
+   "nom": "BIOUI Travaux",
+   "montant_acte_engagement": 522343738.44,
+   "montant_apres_verification": 522366910.56,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "d'entreprise HOUAR S.A",
+   "montant_acte_engagement": 486576414.0,
+   "montant_apres_verification": 486576414.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 4,
+ "alertes_ocr": [
+  "« BIOUI Travaux » absent de la liste des plis déposés (nom mal lu ?).",
+  "« d'entreprise HOUAR S.A » absent de la liste des plis déposés (nom mal lu ?)."
+ ],
+ "notes_ocr": [
+  "« (e] La Société BIOUI Travaux (e] La Société d’entreprise HOUAR S.A » absent de la liste des plis déposés (nom mal lu ?).",
+  "« STAM » absent de la liste des plis déposés (nom mal lu ?).",
+  "« BIOUI Travaux » : montant rectifié de 522 343 738.44 à 522 366 910.56 DH."
+ ],
+ "qualite": "complet"
+}

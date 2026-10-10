@@ -1,0 +1,54 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "809853",
+ "orgAcronyme": "a1z",
+ "reference_pv": "25/2024",
+ "nouveau": true,
+ "reference": "25/2024",
+ "objet": "Travaux de Marquage Routier",
+ "acheteur": null,
+ "procedure": null,
+ "categorie": "Travaux",
+ "date_limite_plis": "01/04/2024",
+ "lieu_ouverture": "la salle des réunions de la Commune de",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "23/04/2024",
+ "justification": "l’offre la plus avantageuse. |",
+ "infructueux": false,
+ "attributaire": "SOCIÉTÉ PROFESSIONNELLE DE SIGNALISATION",
+ "montant_attribue": 9739200.0,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "PINTAPLANA MAROC",
+   "montant_acte_engagement": 11502000.0,
+   "montant_apres_verification": 11502000.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "SOCIÉTÉ PROFESSIONNELLE DE SIGNALISATION",
+   "montant_acte_engagement": 9739200.0,
+   "montant_apres_verification": 9739200.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 2,
+ "alertes_ocr": [
+  "« PINTAPLANA MAROC » absent de la liste des plis déposés (nom mal lu ?).",
+  "« SOCIÉTÉ PROFESSIONNELLE DE SIGNALISATION » absent de la liste des plis déposés (nom mal lu ?)."
+ ],
+ "notes_ocr": [
+  "Maître d'ouvrage absent du PV (utiliser l'acheteur public du portail)."
+ ],
+ "qualite": "complet"
+}

@@ -1,0 +1,69 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "741648",
+ "orgAcronyme": "g3h",
+ "reference_pv": "07/BG/2023",
+ "nouveau": true,
+ "reference": "07/BG/2023",
+ "objet": "TRAVAUX DE MISE A NIVEAU DU POSTE DE TRANSFORMATION ELECTRIQUE DU SIEGE DE LA PROVINCE D'OUARZAZATE",
+ "acheteur": "Gouverneur de la province d’Ouarzazate",
+ "procedure": "appel d'offres ouvert",
+ "categorie": "Travaux",
+ "date_limite_plis": "31/08/2023",
+ "lieu_ouverture": "Secrétariat Général de la Province d’Ouarzazate (salle des réunions)",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "11/09/2023",
+ "justification": "offre plus avantageuse pour l’administration.",
+ "infructueux": false,
+ "attributaire": null,
+ "montant_attribue": null,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "STE INCHAELEC SARL",
+   "montant_acte_engagement": 849468.0,
+   "montant_apres_verification": 849468.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_offre_financiere",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "STE TECH ELEC SARL",
+   "montant_acte_engagement": 836292.0,
+   "montant_apres_verification": 836292.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "STE DAR ELEC SARL",
+   "montant_acte_engagement": 836256.0,
+   "montant_apres_verification": 836256.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "STE AIT BAABI MOHAMED SARL AU",
+   "montant_acte_engagement": 814029.6,
+   "montant_apres_verification": 814029.6,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 4,
+ "alertes_ocr": [
+  "Attributaire non trouvé."
+ ],
+ "notes_ocr": [],
+ "qualite": "complet"
+}

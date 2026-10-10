@@ -1,0 +1,126 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "762610",
+ "orgAcronyme": "q1s",
+ "reference_pv": "02/2023/SER/ORMVAM",
+ "nouveau": true,
+ "reference": "02/2023/SER/ORMVAM",
+ "objet": "Travaux d'exécution des forages d'exploitation dans la province de Nador en trois lots",
+ "acheteur": "ORMVA de la Moulouya",
+ "procedure": null,
+ "categorie": "Travaux",
+ "date_limite_plis": "26/05/2023",
+ "lieu_ouverture": "Salle des réunions de l'ORMVAM",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "28/08/2023",
+ "justification": "l’offre présentée par la société AIT AISSA FOURAGE, GEO SONDA BAGHDADI et HAJ DOUIRI SOHADU est l'offre la plus avantageuse.",
+ "infructueux": false,
+ "attributaire": "AIT AISSA FOURAGE",
+ "montant_attribue": 2584680.0,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "FORAGE MODERNE DU MAROC",
+   "montant_acte_engagement": 2902230.0,
+   "montant_apres_verification": null,
+   "autres_montants": [
+    2902230.0,
+    1005300.0
+   ],
+   "lots": [
+    "1",
+    "2"
+   ],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "MULTI GENERATION",
+   "montant_acte_engagement": 991848.0,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [
+    "2",
+    "3"
+   ],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "EASY GARDEN",
+   "montant_acte_engagement": 733080.0,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [
+    "2",
+    "3"
+   ],
+   "statut": "ecarte_offre_financiere",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "AIT AISSA FOURAGE",
+   "montant_acte_engagement": 2584680.0,
+   "montant_apres_verification": null,
+   "autres_montants": [
+    2726820.0,
+    799080.0
+   ],
+   "lots": [
+    "1",
+    "2"
+   ],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "GEO SONDA BAGHDADI",
+   "montant_acte_engagement": 2538180.0,
+   "montant_apres_verification": null,
+   "autres_montants": [
+    2445540.0,
+    932280.0
+   ],
+   "lots": [
+    "1",
+    "2",
+    "3"
+   ],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "HAJ DOUIRI SOHADU",
+   "montant_acte_engagement": 2689500.0,
+   "montant_apres_verification": null,
+   "autres_montants": [
+    2675100.0,
+    840480.0
+   ],
+   "lots": [
+    "1",
+    "2",
+    "3"
+   ],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 6,
+ "alertes_ocr": [
+  "« FORAGE MODERNE DU MAROC » absent de la liste des plis déposés (nom mal lu ?).",
+  "« MULTI GENERATION » absent de la liste des plis déposés (nom mal lu ?).",
+  "« EASY GARDEN » absent de la liste des plis déposés (nom mal lu ?).",
+  "« AIT AISSA FOURAGE » absent de la liste des plis déposés (nom mal lu ?).",
+  "« GEO SONDA BAGHDADI » absent de la liste des plis déposés (nom mal lu ?).",
+  "« HAJ DOUIRI SOHADU » absent de la liste des plis déposés (nom mal lu ?)."
+ ],
+ "notes_ocr": [
+  "Marché alloti (3 lots)."
+ ],
+ "qualite": "complet"
+}

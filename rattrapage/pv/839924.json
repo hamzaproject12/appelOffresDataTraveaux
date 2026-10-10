@@ -1,0 +1,97 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "839924",
+ "orgAcronyme": "g3h",
+ "reference_pv": "03/2024/SDL3TD",
+ "nouveau": true,
+ "reference": "03/2024/SDL3TD",
+ "objet": null,
+ "acheteur": null,
+ "procedure": null,
+ "categorie": "Travaux",
+ "date_limite_plis": "07/10/2024",
+ "lieu_ouverture": "Salle de réunion de la société de développement local TANGER TETOUAN TRAVAUX DE DISTRIBUTION SA",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "18/10/2024",
+ "justification": "Offres moins disantes conformes aux critères d'attribution prévues par le règlement particulier de l'appel d'offre et le règlement des marchés de la SDL 3TD.",
+ "infructueux": false,
+ "attributaire": "LOTI INOVATRAV",
+ "montant_attribue": 5309578.0,
+ "attributaires_par_lot": [
+  {
+   "lot": null,
+   "attributaire": "LOTI INOVATRAV",
+   "montant": 5309578.0
+  },
+  {
+   "lot": "2",
+   "attributaire": "AMANOR",
+   "montant": 5587664.0
+  },
+  {
+   "lot": "3",
+   "attributaire": "HYDRO300",
+   "montant": 5567960.0
+  }
+ ],
+ "soumissionnaires": [
+  {
+   "nom": "MED TPH",
+   "montant_acte_engagement": 7382701.0,
+   "montant_apres_verification": 7109784.0,
+   "autres_montants": [],
+   "lots": [
+    "1"
+   ],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "LOTI INOVATRAV",
+   "montant_acte_engagement": 5309578.0,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "AMANOR",
+   "montant_acte_engagement": 5587664.0,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [
+    "2"
+   ],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "HYDRO300",
+   "montant_acte_engagement": 5567960.0,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [
+    "3"
+   ],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 4,
+ "alertes_ocr": [
+  "« LOTI INOVATRAV » absent de la liste des plis déposés (nom mal lu ?).",
+  "« AMANOR » absent de la liste des plis déposés (nom mal lu ?).",
+  "« HYDRO300 » absent de la liste des plis déposés (nom mal lu ?)."
+ ],
+ "notes_ocr": [
+  "« MED TPH » : montant rectifié de 7 382 701.00 à 7 109 784.00 DH.",
+  "Marché alloti (3 lots).",
+  "Maître d'ouvrage absent du PV (utiliser l'acheteur public du portail)."
+ ],
+ "qualite": "complet"
+}

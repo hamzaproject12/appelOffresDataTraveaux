@@ -1,0 +1,52 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "915487",
+ "orgAcronyme": "s3z",
+ "reference_pv": "03/2025",
+ "nouveau": true,
+ "reference": "03/2025",
+ "objet": "L'électrification HTA/BT du Donar OULED BOUALLOU 2 à LAGHOUALEM, province de khémisset",
+ "acheteur": "commune de Laghoualem",
+ "procedure": "appel d'offres ouvert",
+ "categorie": "Travaux",
+ "date_limite_plis": "03/07/2025",
+ "lieu_ouverture": "bureau du président de la commune de Laghoualem",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "11/07/2025",
+ "justification": "offre mieux -disante",
+ "infructueux": false,
+ "attributaire": "Sté. TRCOM SARL",
+ "montant_attribue": 1269295.68,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "Sté. ACTARIS SARL",
+   "montant_acte_engagement": 1303731.3,
+   "montant_apres_verification": 1414611.3,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_offre_financiere",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Sté. TRCOM SARL",
+   "montant_acte_engagement": 1301836.44,
+   "montant_apres_verification": 1269295.68,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 2,
+ "alertes_ocr": [],
+ "notes_ocr": [
+  "« Sté. ACTARIS SARL » : montant rectifié de 1 303 731.30 à 1 414 611.30 DH.",
+  "« Sté. TRCOM SARL » : montant rectifié de 1 301 836.44 à 1 269 295.68 DH."
+ ],
+ "qualite": "complet"
+}

@@ -1,0 +1,54 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "753876",
+ "orgAcronyme": "o8p",
+ "reference_pv": "30/AOO/DRAN-ANP/2023",
+ "nouveau": true,
+ "reference": "30/AOO/DRAN-ANP/2023",
+ "objet": "TRAVAUX D'ENTRETIEN DES ESPACES VERTS AU PORT DE MOHAMMEDIA",
+ "acheteur": "Agence Nationale des ports",
+ "procedure": "appel d'offres ouvert",
+ "categorie": "Travaux",
+ "date_limite_plis": "24/10/2023",
+ "lieu_ouverture": "ANP/DRAN/DPM Conformément à l'avis publié : Désignation journaux |",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": null,
+ "justification": null,
+ "infructueux": false,
+ "attributaire": "SOCIETE SOLATRAVIT",
+ "montant_attribue": 660150.0,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "SOCIETE SOLATRAVIT",
+   "montant_acte_engagement": 660150.0,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "SOCIETE ORBIT VERT",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_dossier_administratif_technique",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 2,
+ "alertes_ocr": [
+  "« SOCIETE SOLATRAVIT » absent de la liste des plis déposés (nom mal lu ?)."
+ ],
+ "notes_ocr": [
+  "« SOCIETE ORBIT VERT » absent de la liste des plis déposés (nom mal lu ?).",
+  "Montants exprimés hors taxes (HT)."
+ ],
+ "qualite": "attribution"
+}

@@ -1,0 +1,85 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "715909",
+ "orgAcronyme": "g3h",
+ "reference_pv": "37/2023",
+ "nouveau": true,
+ "reference": "37/2023",
+ "objet": "Travaux de menuiserie en aluminium des bâtiments administratifs du Ministère de l’intérieur (service central et annexe) à Rabat (lot unique)",
+ "acheteur": "Ministère de l'Intérieur",
+ "procedure": "appel d'offres ouvert",
+ "categorie": "Travaux",
+ "date_limite_plis": "08/05/2023",
+ "lieu_ouverture": "la Direction des Affaires Administratives (Division des Marchés du Ministère de l'Intérieur)",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "22/05/2023",
+ "justification": "l’offre jugée la moins disante ;",
+ "infructueux": false,
+ "attributaire": "Sté. NEW NICE",
+ "montant_attribue": 4597800.0,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "Sté. NEW NICE",
+   "montant_acte_engagement": 4597800.0,
+   "montant_apres_verification": null,
+   "autres_montants": [
+    4597800.0
+   ],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Sté. MONDIALUB",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_dossier_administratif_technique",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Sté. COMEFAL",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_dossier_administratif_technique",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Sté. HTIRAF CONSTRUCTION ET DIVERS \"HTCD",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_dossier_administratif_technique",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Sté. LAZRAK INDUSTRIE & MENUISERIE \"LIM",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_offre_technique",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 5,
+ "alertes_ocr": [
+  "« Sté. NEW NICE » absent de la liste des plis déposés (nom mal lu ?)."
+ ],
+ "notes_ocr": [
+  "« Sté. MONDIALUB » absent de la liste des plis déposés (nom mal lu ?).",
+  "« Sté. COMEFAL » absent de la liste des plis déposés (nom mal lu ?).",
+  "« Sté. HTIRAF CONSTRUCTION ET DIVERS \"HTCD » absent de la liste des plis déposés (nom mal lu ?).",
+  "« Sté. LAZRAK INDUSTRIE & MENUISERIE \"LIM » absent de la liste des plis déposés (nom mal lu ?)."
+ ],
+ "qualite": "attribution"
+}

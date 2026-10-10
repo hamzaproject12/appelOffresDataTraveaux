@@ -1,0 +1,72 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "749857",
+ "orgAcronyme": "d4q",
+ "reference_pv": null,
+ "nouveau": true,
+ "reference": null,
+ "objet": null,
+ "acheteur": null,
+ "procedure": "appel d'offres ouvert",
+ "categorie": "Travaux",
+ "date_limite_plis": "08/06/2023",
+ "lieu_ouverture": "au Siège de la Direction Régionale du Centre (DR3) Boulevard Mohamed VI, Quartier Administratif - Khouribga - Maroc",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "26/10/2023",
+ "justification": "Moins-disant",
+ "infructueux": false,
+ "attributaire": "D FORAGES ET TUBAGES CO MAROC",
+ "montant_attribue": 294948.0,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "D FORAGES ET TUBAGES CO MAROC",
+   "montant_acte_engagement": 294948.0,
+   "montant_apres_verification": 7294948.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "LOTFI MERIANE MAROC",
+   "montant_acte_engagement": 349920.0,
+   "montant_apres_verification": 349920.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "MABEC MAROC",
+   "montant_acte_engagement": 323280.0,
+   "montant_apres_verification": 323280.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "SYTA EQUIPEMENT MAROC",
+   "montant_acte_engagement": 333600.0,
+   "montant_apres_verification": 333600.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 4,
+ "alertes_ocr": [
+  "« D FORAGES ET TUBAGES CO MAROC » : écart anormal entre montant initial et vérifié (lecture à vérifier)."
+ ],
+ "notes_ocr": [
+  "« D FORAGES ET TUBAGES CO MAROC » : montant rectifié de 294 948.00 à 7 294 948.00 DH.",
+  "Maître d'ouvrage absent du PV (utiliser l'acheteur public du portail)."
+ ],
+ "qualite": "complet"
+}

@@ -1,0 +1,73 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "768298",
+ "orgAcronyme": "d4q",
+ "reference_pv": null,
+ "nouveau": true,
+ "reference": null,
+ "objet": null,
+ "acheteur": null,
+ "procedure": null,
+ "categorie": "Travaux",
+ "date_limite_plis": "25/10/2023",
+ "lieu_ouverture": "Siège ONEE-Branche Electricité",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "03/01/2024",
+ "justification": "L’offre proposée par le soumissionnaire « SOCIETE O2E ENERGIE » s'écarte d’un taux acceptable de -6,93% par rapport à l'estimation.",
+ "infructueux": false,
+ "attributaire": "SOCIETE O2E ENERGIE",
+ "montant_attribue": 11912415.0,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "SOCIETE O2E ENERGIE",
+   "montant_acte_engagement": 11912415.0,
+   "montant_apres_verification": 11912415.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "SOCIETE D'ELECTRICITE CHOUAIB",
+   "montant_acte_engagement": 12789037.2,
+   "montant_apres_verification": 12789037.2,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "SOCIETE OUHAFID TRAVAUX",
+   "montant_acte_engagement": 12742080.84,
+   "montant_apres_verification": 12742080.84,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "SOCIETE BO TECHNOLOGY",
+   "montant_acte_engagement": 13663979.4,
+   "montant_apres_verification": 13612979.4,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 4,
+ "alertes_ocr": [
+  "« SOCIETE OUHAFID TRAVAUX » absent de la liste des plis déposés (nom mal lu ?).",
+  "« SOCIETE BO TECHNOLOGY » absent de la liste des plis déposés (nom mal lu ?)."
+ ],
+ "notes_ocr": [
+  "« SOCIETE BO TECHNOLOGY » : montant rectifié de 13 663 979.40 à 13 612 979.40 DH.",
+  "Maître d'ouvrage absent du PV (utiliser l'acheteur public du portail)."
+ ],
+ "qualite": "complet"
+}

@@ -1,0 +1,64 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "755499",
+ "orgAcronyme": "g3h",
+ "reference_pv": "109/23/ELEC",
+ "nouveau": true,
+ "reference": "109/23/ELEC",
+ "objet": "Travaux de raccordement moyenne tension hors site des grands projets",
+ "acheteur": "Régie Autonome de Distribution d’Eau et d’Electricité de MARRAKECH",
+ "procedure": "appel d'offres ouvert",
+ "categorie": "Travaux",
+ "date_limite_plis": "25/09/2023",
+ "lieu_ouverture": "au Siège de la RADEEMA Boulevard Mohamed VI MARRAKECH",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "26/10/2023",
+ "justification": "l’offre la plus avantageuse",
+ "infructueux": false,
+ "attributaire": "DAREL",
+ "montant_attribue": 3705750.0,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "DAREL",
+   "montant_acte_engagement": 3705750.0,
+   "montant_apres_verification": null,
+   "autres_montants": [
+    4446900.0
+   ],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "O2E ENERGIE",
+   "montant_acte_engagement": 4716500.0,
+   "montant_apres_verification": null,
+   "autres_montants": [
+    5659800.0
+   ],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "ELEC TRIMAROC",
+   "montant_acte_engagement": 4591890.0,
+   "montant_apres_verification": null,
+   "autres_montants": [
+    5510268.0
+   ],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 3,
+ "alertes_ocr": [],
+ "notes_ocr": [],
+ "qualite": "complet"
+}

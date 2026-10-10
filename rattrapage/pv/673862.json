@@ -1,0 +1,55 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "673862",
+ "orgAcronyme": "o8p",
+ "reference_pv": "01/SAPT/2022",
+ "nouveau": true,
+ "reference": "01/SAPT/2022",
+ "objet": null,
+ "acheteur": "Société d'Aménagement pourlareconversion de lazone Portuaire de Tanger ville-S APT SA",
+ "procedure": null,
+ "categorie": "Travaux",
+ "date_limite_plis": "27/10/2021",
+ "lieu_ouverture": "Bureaux de la Société SAPT sis à 50, avenue MohamedTaz, Merchane, Tanger",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "04/11/2022",
+ "justification": "Offre conforme aux exigences du Règlement de la consultation et moins disante :",
+ "infructueux": false,
+ "attributaire": null,
+ "montant_attribue": null,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "ZINELEC sarl",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "depose",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "ZINELEC sarl Maximal",
+   "montant_acte_engagement": 443483.0,
+   "montant_apres_verification": 280843.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 2,
+ "alertes_ocr": [
+  "« ZINELEC sarl Maximal » absent de la liste des plis déposés (nom mal lu ?).",
+  "Attributaire non trouvé."
+ ],
+ "notes_ocr": [
+  "« ZINELEC sarl Maximal » : montant rectifié de 443 483.00 à 280 843.00 DH.",
+  "Montants exprimés hors taxes (HT)."
+ ],
+ "qualite": "attribution"
+}

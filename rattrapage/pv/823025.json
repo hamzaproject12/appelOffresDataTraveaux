@@ -1,0 +1,63 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "823025",
+ "orgAcronyme": "g8e",
+ "reference_pv": "07/2024/DRI/AG",
+ "nouveau": true,
+ "reference": "07/2024/DRI/AG",
+ "objet": "TRAVAUX D’AMENAGEMENT ET DE RENOVATION AU PROFIT DU SIEGE DE LA DRI D’AGADIR ET LES LOCAUX ADMINSITRATIFS ABRITANT LES SERVICES FISCAUX D’INEZGANE (LOT UNIQUE)",
+ "acheteur": "La Direction Régionale des Impôts d'Agadir",
+ "procedure": "appel d'offres ouvert national",
+ "categorie": "Travaux",
+ "date_limite_plis": "22/07/2024",
+ "lieu_ouverture": "La salle de réunion du siège de la Direction Régionale des Impôts à Agadir",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "26/07/2024",
+ "justification": "l’offre économiquement la plus avantageuse.",
+ "infructueux": false,
+ "attributaire": "Société RIT-TRAV",
+ "montant_attribue": 1000602.36,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "Groupement Conjoint",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_offre_financiere",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "FADIL DE GENIE CIVIL et Société",
+   "montant_acte_engagement": 892415.4,
+   "montant_apres_verification": 909695.4,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Société RIT-TRAV",
+   "montant_acte_engagement": 1000602.36,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 3,
+ "alertes_ocr": [
+  "« FADIL DE GENIE CIVIL et Société » absent de la liste des plis déposés (nom mal lu ?).",
+  "« Société RIT-TRAV » absent de la liste des plis déposés (nom mal lu ?)."
+ ],
+ "notes_ocr": [
+  "« FADIL DE GENIE CIVIL et Société » : montant rectifié de 892 415.40 à 909 695.40 DH."
+ ],
+ "qualite": "complet"
+}

@@ -1,0 +1,100 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "1040688",
+ "orgAcronyme": "y5l",
+ "reference_pv": "C01/INDH-DR-BENIMELLAL/2026",
+ "nouveau": true,
+ "reference": "C01/INDH-DR-BENIMELLAL/2026",
+ "objet": "Travaux d'aménagement des centres sociaux relevant de la Direction régionale de l’Entraide Nationale à la région de Béni Mellal khénifra (alloti en 2 lots)",
+ "acheteur": "Direction régionale de l’Entraide Nationale à la région de Béni Mellal",
+ "procedure": "appel d'offres ouvert national",
+ "categorie": "Travaux",
+ "date_limite_plis": "03/09/2026",
+ "lieu_ouverture": "La salle de réunion de la Direction régionale de l’Entraide",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "17/09/2026",
+ "justification": "Après examen du dossier administratif et technique ainsi que l’offre financière voire le complément du dossier administratif, l'offre de la société BELHACHMI SMART SARL est celle la plus avantageuse.",
+ "infructueux": false,
+ "attributaire": "STE BELHACHMI SMART SARL (offre excessive)",
+ "montant_attribue": 2172.0,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "STE BK MEK SARL AU",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_dossier_administratif_technique",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "STE MANGEO TRAVAUX",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_dossier_administratif_technique",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "STE BELHACHMI SMART SARL (offre excessive)",
+   "montant_acte_engagement": 2172.0,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "STEIZZIANE LU pégionsle",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "depose",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Société BELHACHMI Lot N°",
+   "montant_acte_engagement": 1293013.6,
+   "montant_apres_verification": 1293013.6,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "SMAR SARL",
+   "montant_acte_engagement": 2772611.72,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "SMART SARL",
+   "montant_acte_engagement": 772611.72,
+   "montant_apres_verification": 772611.72,
+   "autres_montants": [],
+   "lots": [
+    "02"
+   ],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 7,
+ "alertes_ocr": [
+  "« Société BELHACHMI Lot N° » absent de la liste des plis déposés (nom mal lu ?).",
+  "« SMAR SARL » absent de la liste des plis déposés (nom mal lu ?).",
+  "« SMART SARL » absent de la liste des plis déposés (nom mal lu ?)."
+ ],
+ "notes_ocr": [],
+ "qualite": "complet"
+}

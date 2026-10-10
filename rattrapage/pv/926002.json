@@ -1,0 +1,51 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "926002",
+ "orgAcronyme": "g3h",
+ "reference_pv": "82/25/EAU",
+ "nouveau": true,
+ "reference": "82/25/EAU",
+ "objet": "Travaux de maintenance et d’entretien du réseau secondaire et tertiaire d’eau potable. -Préfecture Marrakech",
+ "acheteur": "SRM-MS",
+ "procedure": "appel d'offres ouvert",
+ "categorie": "Travaux",
+ "date_limite_plis": "21/07/2025",
+ "lieu_ouverture": "Siège de la SRM-MS Boulevard Mohamed VI MARRAKECH",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "25/08/2025",
+ "justification": "-Pour le LOT 1 et le LOT 2 le soumissionnaire ne peut se voir attribuer plus d’un lot. L’attribution des lots se fera selon la combinaison la plus économique pour la SRM-MS.",
+ "infructueux": true,
+ "attributaire": "HYDROLO",
+ "montant_attribue": 2060640.0,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "HYDROLO (Lot1)",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_offre_financiere",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "HYDROLO",
+   "montant_acte_engagement": 2060640.0,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 2,
+ "alertes_ocr": [
+  "« HYDROLO » absent de la liste des plis déposés (nom mal lu ?)."
+ ],
+ "notes_ocr": [],
+ "qualite": "attribution"
+}

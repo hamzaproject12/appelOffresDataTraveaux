@@ -1,0 +1,52 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "1044000",
+ "orgAcronyme": "a1z",
+ "reference_pv": "07/CN/2026",
+ "nouveau": true,
+ "reference": "07/CN/2026",
+ "objet": "Gros Travaux De Maintenance Du Réseau D'’éclairage Public Aux Quartiers Et Douars Relevant De La Commune De Nouaceur, Province De Nouaceur",
+ "acheteur": "Commune Nouaceur",
+ "procedure": "appel d'offres ouvert national",
+ "categorie": "Travaux",
+ "date_limite_plis": "23/07/2026",
+ "lieu_ouverture": "_ : Bureau du Président de la Commune de Nouaceur > Publication",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "22/09/2026",
+ "justification": "son offre répond aux critères et conditions de l’appel d'offres et elle est économiquement la plus avantageuse.",
+ "infructueux": false,
+ "attributaire": null,
+ "montant_attribue": null,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "Sté ENES SARL",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Sté ENES s.a.r.l",
+   "montant_acte_engagement": 4843896.0,
+   "montant_apres_verification": 4843896.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 2,
+ "alertes_ocr": [
+  "« Sté ENES s.a.r.l » absent de la liste des plis déposés (nom mal lu ?).",
+  "Attributaire non trouvé."
+ ],
+ "notes_ocr": [],
+ "qualite": "attribution"
+}

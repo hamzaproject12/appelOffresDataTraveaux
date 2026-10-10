@@ -1,0 +1,52 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "738323",
+ "orgAcronyme": "a1z",
+ "reference_pv": null,
+ "nouveau": true,
+ "reference": null,
+ "objet": "Travaux d’Entretien des installations sportives à l’Arrondissement Hay Hassani",
+ "acheteur": "Arrondissement Hay Hassani",
+ "procedure": null,
+ "categorie": "Travaux",
+ "date_limite_plis": "16/08/2023",
+ "lieu_ouverture": "la Salle de Réunion à L'ANNEXE AL AZHAR de l'ARRONDISSEMENT HAY HASSANI sise à Avenue Aziz Bilal Cité AL Azhar Oulfa Casablanca",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "16/08/2023",
+ "justification": null,
+ "infructueux": false,
+ "attributaire": "budgétaires alloués au marché",
+ "montant_attribue": null,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "TIHFOUZ SARL AU",
+   "montant_acte_engagement": 3199320.0,
+   "montant_apres_verification": 3199320.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_offre_financiere",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "budgétaires alloués au marché",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 2,
+ "alertes_ocr": [
+  "« budgétaires alloués au marché » absent de la liste des plis déposés (nom mal lu ?).",
+  "Montant de l'attributaire « budgétaires alloués au marché » non trouvé."
+ ],
+ "notes_ocr": [],
+ "qualite": "attribution"
+}

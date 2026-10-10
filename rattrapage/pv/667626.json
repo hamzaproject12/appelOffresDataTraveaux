@@ -1,0 +1,62 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "667626",
+ "orgAcronyme": "o8p",
+ "reference_pv": "34/2022",
+ "nouveau": true,
+ "reference": "34/2022",
+ "objet": "Travaux de signalisation horizontale et verticale de la RN 29 (Voie Express Taza Kassita). Province de Taza",
+ "acheteur": null,
+ "procedure": null,
+ "categorie": "Travaux",
+ "date_limite_plis": "13/10/2022",
+ "lieu_ouverture": "DPEE DE TAZA",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "13/10/2022",
+ "justification": null,
+ "infructueux": false,
+ "attributaire": null,
+ "montant_attribue": null,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "STE ATELIER TELLI",
+   "montant_acte_engagement": 1147920.0,
+   "montant_apres_verification": 1147920.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_offre_financiere",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "STE LA LIGNE BLANCHE",
+   "montant_acte_engagement": 1282140.0,
+   "montant_apres_verification": 1282140.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_offre_financiere",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "STE INJAZ WORKS",
+   "montant_acte_engagement": 1554480.0,
+   "montant_apres_verification": 1554480.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_offre_financiere",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 3,
+ "alertes_ocr": [
+  "Attributaire non trouvé."
+ ],
+ "notes_ocr": [
+  "Maître d'ouvrage absent du PV (utiliser l'acheteur public du portail)."
+ ],
+ "qualite": "complet"
+}

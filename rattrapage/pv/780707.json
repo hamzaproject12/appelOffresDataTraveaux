@@ -1,0 +1,62 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "780707",
+ "orgAcronyme": "d4q",
+ "reference_pv": null,
+ "nouveau": true,
+ "reference": null,
+ "objet": "Îl ss du lot d'ouverture de la retenu En DH/TTC des plis Commission",
+ "acheteur": null,
+ "procedure": null,
+ "categorie": "Travaux",
+ "date_limite_plis": "22/02/2024",
+ "lieu_ouverture": "Bureaux de la Direction Approvisionnements et Marchés (DAM) : 65, Rue OTHMAN BEN AFFAN 20 000 CASABLANCA",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "14/03/2024",
+ "justification": "moins disant conforme.",
+ "infructueux": false,
+ "attributaire": "SERF Région de MEKNES, SEBAA AIOUN",
+ "montant_attribue": 20221860.0,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "SERF",
+   "montant_acte_engagement": 16851550.0,
+   "montant_apres_verification": 16851550.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "LUMAFRIC",
+   "montant_acte_engagement": 18623525.0,
+   "montant_apres_verification": 18623525.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "SERF Région de MEKNES, SEBAA AIOUN",
+   "montant_acte_engagement": 20221860.0,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 3,
+ "alertes_ocr": [
+  "« SERF Région de MEKNES, SEBAA AIOUN » absent de la liste des plis déposés (nom mal lu ?)."
+ ],
+ "notes_ocr": [
+  "Maître d'ouvrage absent du PV (utiliser l'acheteur public du portail)."
+ ],
+ "qualite": "complet"
+}

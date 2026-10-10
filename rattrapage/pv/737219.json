@@ -1,0 +1,83 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "737219",
+ "orgAcronyme": "s3z",
+ "reference_pv": null,
+ "nouveau": true,
+ "reference": null,
+ "objet": null,
+ "acheteur": "Commune de Rommani",
+ "procedure": null,
+ "categorie": "Travaux",
+ "date_limite_plis": "08/08/2023",
+ "lieu_ouverture": "Bureau du Président de la Commune",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": null,
+ "justification": "- Dossier Administratif, et Technique conformes. _ Offre financière le moins disant.",
+ "infructueux": false,
+ "attributaire": "Sté TPMAR SARL",
+ "montant_attribue": 518220.0,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "VYULOIITIC OVEL VWOIITIVLOIITICI",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": true
+  },
+  {
+   "nom": "Sté ALEMOU NOUGHOU TRAVAUX SARL",
+   "montant_acte_engagement": 523020.0,
+   "montant_apres_verification": 523020.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_dossier_administratif_technique",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Sté EMISTAN SARL",
+   "montant_acte_engagement": 545100.0,
+   "montant_apres_verification": 545100.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_dossier_administratif_technique",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Sté TPMAR SARL",
+   "montant_acte_engagement": 518220.0,
+   "montant_apres_verification": 518220.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Sté NG BTP",
+   "montant_acte_engagement": 592920.0,
+   "montant_apres_verification": 592920.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_dossier_administratif_technique",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 5,
+ "alertes_ocr": [
+  "« Sté ALEMOU NOUGHOU TRAVAUX SARL » absent de la liste des plis déposés (nom mal lu ?).",
+  "« Sté EMISTAN SARL » absent de la liste des plis déposés (nom mal lu ?).",
+  "« Sté TPMAR SARL » absent de la liste des plis déposés (nom mal lu ?).",
+  "« Sté NG BTP » absent de la liste des plis déposés (nom mal lu ?)."
+ ],
+ "notes_ocr": [
+  "« VYULOIITIC OVEL VWOIITIVLOIITICI » absent de la liste des plis déposés (nom mal lu ?)."
+ ],
+ "qualite": "complet"
+}

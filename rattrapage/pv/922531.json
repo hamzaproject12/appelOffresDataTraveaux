@@ -1,0 +1,45 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "922531",
+ "orgAcronyme": "d4q",
+ "reference_pv": "19/DR3/2025",
+ "nouveau": true,
+ "reference": "19/DR3/2025",
+ "objet": "Electrification des ouvrages techniques:lot electrification réservoir 2500 m3",
+ "acheteur": null,
+ "procedure": "appel d'offres ouvert",
+ "categorie": "Travaux",
+ "date_limite_plis": "12/06/2025",
+ "lieu_ouverture": "au siège de la Direction Régionale du Centre (DR3) Boulevard Mohamed VI, Quartier Administratif - Khouribga - Maroc",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "07/08/2025",
+ "justification": "Moins-disant",
+ "infructueux": false,
+ "attributaire": "DOUZIN-ENERGIE",
+ "montant_attribue": 223052.4,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "DOUZIN-ENERGIE",
+   "montant_acte_engagement": 7223052.4,
+   "montant_apres_verification": 223052.4,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 1,
+ "alertes_ocr": [
+  "« DOUZIN-ENERGIE » : écart anormal entre montant initial et vérifié (lecture à vérifier)."
+ ],
+ "notes_ocr": [
+  "« DOUZIN-ENERGIE » : montant rectifié de 7 223 052.40 à 223 052.40 DH.",
+  "Maître d'ouvrage absent du PV (utiliser l'acheteur public du portail)."
+ ],
+ "qualite": "attribution"
+}

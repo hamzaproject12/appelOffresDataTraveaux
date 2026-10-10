@@ -1,0 +1,105 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "816438",
+ "orgAcronyme": "g3h",
+ "reference_pv": "75/E/24",
+ "nouveau": true,
+ "reference": "75/E/24",
+ "objet": "Travaux d'assainissement liquide des collecteurs des eaux pluviales et eaux usées du centre Had Boumoussa (2ème tranche)",
+ "acheteur": null,
+ "procedure": "appel d'offres ouvert",
+ "categorie": "Travaux",
+ "date_limite_plis": "03/07/2024",
+ "lieu_ouverture": null,
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "17/07/2024",
+ "justification": "- Offre mieux disante",
+ "infructueux": false,
+ "attributaire": null,
+ "montant_attribue": null,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "Société MATITRAVE",
+   "montant_acte_engagement": 9091490.45,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": true
+  },
+  {
+   "nom": "Société GERAB",
+   "montant_acte_engagement": 10148480.5,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Société OUZNAG",
+   "montant_acte_engagement": 8754354.49,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Société AZDOUR",
+   "montant_acte_engagement": 8609007.61,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Société ERI-SER",
+   "montant_acte_engagement": 8772415.34,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Société GHADDACH TRAVAUX TRANSPORT ET NEGOCE",
+   "montant_acte_engagement": 8541924.43,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Société SIGMA 4T",
+   "montant_acte_engagement": 9993673.17,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 7,
+ "alertes_ocr": [
+  "« Société MATITRAVE » absent de la liste des plis déposés (nom mal lu ?).",
+  "« Société GERAB » absent de la liste des plis déposés (nom mal lu ?).",
+  "« Société OUZNAG » absent de la liste des plis déposés (nom mal lu ?).",
+  "« Société AZDOUR » absent de la liste des plis déposés (nom mal lu ?).",
+  "« Société ERI-SER » absent de la liste des plis déposés (nom mal lu ?).",
+  "« Société GHADDACH TRAVAUX TRANSPORT ET NEGOCE » absent de la liste des plis déposés (nom mal lu ?).",
+  "« Société SIGMA 4T » absent de la liste des plis déposés (nom mal lu ?).",
+  "Attributaire non trouvé."
+ ],
+ "notes_ocr": [
+  "Maître d'ouvrage absent du PV (utiliser l'acheteur public du portail)."
+ ],
+ "qualite": "complet"
+}

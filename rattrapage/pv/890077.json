@@ -1,0 +1,128 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "890077",
+ "orgAcronyme": "g3h",
+ "reference_pv": "02/2025/INDH",
+ "nouveau": true,
+ "reference": "02/2025/INDH",
+ "objet": null,
+ "acheteur": "Province d'Es-semara",
+ "procedure": "appel d'offres ouvert",
+ "categorie": "Travaux",
+ "date_limite_plis": "14/04/2025",
+ "lieu_ouverture": null,
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "23/04/2025",
+ "justification": "l'offre la plus avantageuse",
+ "infructueux": false,
+ "attributaire": "EL2 QTH",
+ "montant_attribue": 386289.6,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "EL1 SBAI DRILLING COMPANY",
+   "montant_acte_engagement": 376296.0,
+   "montant_apres_verification": null,
+   "autres_montants": [
+    376296.0
+   ],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "EL2 QTH",
+   "montant_acte_engagement": 386289.6,
+   "montant_apres_verification": null,
+   "autres_montants": [
+    386289.6
+   ],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "EL3 STE AHEL BADDAD",
+   "montant_acte_engagement": 446436.0,
+   "montant_apres_verification": null,
+   "autres_montants": [
+    446436.0
+   ],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "EL4 FS GLORIAS",
+   "montant_acte_engagement": 381979.2,
+   "montant_apres_verification": null,
+   "autres_montants": [
+    381979.2
+   ],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "ELS STE BALAW LE",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "depose",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "EL6 IKIDO TRAVAUX",
+   "montant_acte_engagement": 396432.0,
+   "montant_apres_verification": null,
+   "autres_montants": [
+    396432.0
+   ],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "EL7 STE BADR GROUPE",
+   "montant_acte_engagement": 385560.0,
+   "montant_apres_verification": null,
+   "autres_montants": [
+    385560.0
+   ],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "v sn",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "depose",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "EL5 STE BALAW",
+   "montant_acte_engagement": 381516.0,
+   "montant_apres_verification": null,
+   "autres_montants": [
+    381516.0
+   ],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 9,
+ "alertes_ocr": [
+  "« EL5 STE BALAW » absent de la liste des plis déposés (nom mal lu ?)."
+ ],
+ "notes_ocr": [],
+ "qualite": "complet"
+}

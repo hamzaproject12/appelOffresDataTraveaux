@@ -1,0 +1,67 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "1043657",
+ "orgAcronyme": "g3h",
+ "reference_pv": "10008469",
+ "nouveau": true,
+ "reference": "10008469",
+ "objet": "Mise à niveau des stations de reprise d'Eau Potable relevant de la Direction Provinciale d’Ouarzazate",
+ "acheteur": "Société Régionale Multiservices Drâa Tafilalet « SRM-DT » Société Anonyme (S.A)",
+ "procedure": null,
+ "categorie": "Travaux",
+ "date_limite_plis": "23/07/2026",
+ "lieu_ouverture": "Siège de la SRM-DT",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "28/09/2026",
+ "justification": "Offre économiquement la plus avantageuse.",
+ "infructueux": false,
+ "attributaire": "ATEAG SARL",
+ "montant_attribue": 1643556.0,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "ENGINEERING HYDRAULIQUE ET TECHNOLOGIQUE SARL",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_dossier_administratif_technique",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "VIMAGI SARL AU",
+   "montant_acte_engagement": 1938600.0,
+   "montant_apres_verification": 1938600.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": true
+  },
+  {
+   "nom": "ATEAG SARL",
+   "montant_acte_engagement": 1643556.0,
+   "montant_apres_verification": 1643556.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "SEIPIA SARL AU",
+   "montant_acte_engagement": 1868442.0,
+   "montant_apres_verification": 1868442.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 4,
+ "alertes_ocr": [],
+ "notes_ocr": [],
+ "qualite": "complet"
+}

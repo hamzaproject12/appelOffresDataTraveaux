@@ -1,0 +1,90 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "746366",
+ "orgAcronyme": "g3h",
+ "reference_pv": "80/2023",
+ "nouveau": true,
+ "reference": "80/2023",
+ "objet": "Travaux d'étayage et d'interventions d'urgence dans le Bâti Menaçant Ruine au sein de la médina de",
+ "acheteur": null,
+ "procedure": "appel d'offres ouvert",
+ "categorie": "Travaux",
+ "date_limite_plis": "02/10/2023",
+ "lieu_ouverture": "Siège de l'ADER-Fès",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "10/10/2023",
+ "justification": "Le concurrent ayant présenté l'offre la plus avantageuse et la moins disante.",
+ "infructueux": false,
+ "attributaire": "Société TALAINI PLANETE",
+ "montant_attribue": 709536.0,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "Société ABDELHADI LILBINAE SARL AU",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_dossier_administratif_technique",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Société GUENNOUN TRAVAUX DIVERS SARL AU",
+   "montant_acte_engagement": 790620.0,
+   "montant_apres_verification": 1581240.0,
+   "autres_montants": [
+    1581240.0
+   ],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Société 3A2S SARL",
+   "montant_acte_engagement": 786288.0,
+   "montant_apres_verification": 1572576.0,
+   "autres_montants": [
+    1572576.0
+   ],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Société TALAINI PLANETE",
+   "montant_acte_engagement": 709536.0,
+   "montant_apres_verification": 1419072.0,
+   "autres_montants": [
+    1419072.0
+   ],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Société GEROA SARL",
+   "montant_acte_engagement": 943743.0,
+   "montant_apres_verification": 1887468.0,
+   "autres_montants": [
+    1887468.0
+   ],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 5,
+ "alertes_ocr": [],
+ "notes_ocr": [
+  "« Société GUENNOUN TRAVAUX DIVERS SARL AU » : montant rectifié de 790 620.00 à 1 581 240.00 DH.",
+  "« Société 3A2S SARL » : montant rectifié de 786 288.00 à 1 572 576.00 DH.",
+  "« Société TALAINI PLANETE » : montant rectifié de 709 536.00 à 1 419 072.00 DH.",
+  "« Société GEROA SARL » : montant rectifié de 943 743.00 à 1 887 468.00 DH.",
+  "Maître d'ouvrage absent du PV (utiliser l'acheteur public du portail)."
+ ],
+ "qualite": "complet"
+}

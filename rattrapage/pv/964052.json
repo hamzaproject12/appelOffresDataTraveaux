@@ -1,0 +1,70 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "964052",
+ "orgAcronyme": "p8x",
+ "reference_pv": "18/2025/INV",
+ "nouveau": true,
+ "reference": "18/2025/INV",
+ "objet": null,
+ "acheteur": "Directeur de l’AREF SM",
+ "procedure": null,
+ "categorie": "Travaux",
+ "date_limite_plis": "21/11/2025",
+ "lieu_ouverture": "service des achats et marchés de l’A.R.E.F. S.M",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "15/12/2025",
+ "justification": "Au vu des critères fixés dans le règlement de la consultation l’attributaire retenu est celui ayant présenté l’offre économiquement la plus avantageuse.",
+ "infructueux": false,
+ "attributaire": "Sté. ZINA MARKETING NEGOCE",
+ "montant_attribue": 1453992.0,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "o1 Sté. STDMCO",
+   "montant_acte_engagement": 1395624.0,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Sté. ZINA MARKETING NEGOCE",
+   "montant_acte_engagement": 1438650.0,
+   "montant_apres_verification": 1439250.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Sté. STDMCO",
+   "montant_acte_engagement": 1481838.0,
+   "montant_apres_verification": 1400262.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_offre_financiere",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Sté. STDMCO /S s RS EN",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "depose",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 4,
+ "alertes_ocr": [],
+ "notes_ocr": [
+  "« Sté. ZINA MARKETING NEGOCE » : montant rectifié de 1 438 650.00 à 1 439 250.00 DH.",
+  "« Sté. STDMCO » : montant rectifié de 1 481 838.00 à 1 400 262.00 DH."
+ ],
+ "qualite": "complet"
+}

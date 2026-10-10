@@ -1,0 +1,123 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "894684",
+ "orgAcronyme": "h5r",
+ "reference_pv": "01-2025",
+ "nouveau": true,
+ "reference": "01-2025",
+ "objet": "construction des ponceaux",
+ "acheteur": "Commune Ain Tizgha",
+ "procedure": "appel d'offres ouvert simplifié",
+ "categorie": "Travaux",
+ "date_limite_plis": null,
+ "lieu_ouverture": null,
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": null,
+ "justification": "Offre la plus avantageuse. Y Date d’achevement des travaux de la commission : 25/04/2025 POUR LE PB ET PAR DÉU € DENT | 2éme Vice en ON SIGNE : LE PRESIDENT ATOUANI MA GED",
+ "infructueux": false,
+ "attributaire": "Société SMTG SARL SARL",
+ "montant_attribue": 180751.8,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "Société AFDAM TRAVAUX SARL",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_dossier_administratif_technique",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Société TARSOL SARL SARL",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_dossier_administratif_technique",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Société ECO BUILD ECO SARL",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_dossier_administratif_technique",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Société SOTIMAT TRAVAUX SARL AU",
+   "montant_acte_engagement": 213422.0,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_dossier_administratif_technique",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Société SMTG SARL SARL",
+   "montant_acte_engagement": 180751.8,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Société MESKCON SARL",
+   "montant_acte_engagement": 197313.0,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_dossier_administratif_technique",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Société NEOTRVOIS SARL",
+   "montant_acte_engagement": 184159.2,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_dossier_administratif_technique",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "(Absence non présentation de l'Attestation du",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_offre_financiere",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "chiffre d'affaire et l'Attestation de la CNSS)",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_offre_financiere",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 9,
+ "alertes_ocr": [
+  "« Société SOTIMAT TRAVAUX SARL AU » absent de la liste des plis déposés (nom mal lu ?).",
+  "« Société SMTG SARL SARL » absent de la liste des plis déposés (nom mal lu ?).",
+  "« Société MESKCON SARL » absent de la liste des plis déposés (nom mal lu ?).",
+  "« Société NEOTRVOIS SARL » absent de la liste des plis déposés (nom mal lu ?)."
+ ],
+ "notes_ocr": [
+  "« Société AFDAM TRAVAUX SARL » absent de la liste des plis déposés (nom mal lu ?).",
+  "« Société TARSOL SARL SARL » absent de la liste des plis déposés (nom mal lu ?).",
+  "« Société ECO BUILD ECO SARL » absent de la liste des plis déposés (nom mal lu ?).",
+  "« (Absence non présentation de l'Attestation du » absent de la liste des plis déposés (nom mal lu ?).",
+  "« chiffre d'affaire et l'Attestation de la CNSS) » absent de la liste des plis déposés (nom mal lu ?)."
+ ],
+ "qualite": "complet"
+}

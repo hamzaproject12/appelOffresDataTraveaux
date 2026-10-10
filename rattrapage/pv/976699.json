@@ -1,0 +1,58 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "976699",
+ "orgAcronyme": "g3h",
+ "reference_pv": "245/25/ASST",
+ "nouveau": true,
+ "reference": "245/25/ASST",
+ "objet": "Travaux de fourniture et installation des pompes à la station de pompage SP4 -Préfecture de Marrakech. /",
+ "acheteur": "SRM-MS",
+ "procedure": null,
+ "categorie": "Travaux",
+ "date_limite_plis": "09/12/2025",
+ "lieu_ouverture": "Siège de la SRM-MS Boulevard Mohamed VI MARRAKECH >",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "03/02/2026",
+ "justification": "Offre la moins disante. f| À",
+ "infructueux": false,
+ "attributaire": "AQUA DEMINE",
+ "montant_attribue": 2175840.0,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "ART BINAV",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_offre_technique",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "AQUA DEMINE",
+   "montant_acte_engagement": 2175840.0,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "STE MAGHREB D'ELECTRICITE ET D'ENERGIES RENOUVELLABLES (SMEER)",
+   "montant_acte_engagement": 2319674.4,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 3,
+ "alertes_ocr": [],
+ "notes_ocr": [],
+ "qualite": "complet"
+}

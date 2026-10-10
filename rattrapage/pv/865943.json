@@ -1,0 +1,84 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "865943",
+ "orgAcronyme": "m8x",
+ "reference_pv": "10/BP/2024",
+ "nouveau": true,
+ "reference": "10/BP/2024",
+ "objet": "TRAVAUX DE REHABILITATION DU RESEAU D’AEP AU DOUAR EL AINE , COMMUNE AGUINANE A LA PROVINCE DE TATA",
+ "acheteur": "Conseil provincial de Tata",
+ "procedure": null,
+ "categorie": "Travaux",
+ "date_limite_plis": null,
+ "lieu_ouverture": null,
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "12/09/2024",
+ "justification": null,
+ "infructueux": false,
+ "attributaire": "STE STABL MULTISERVICES SARL AU",
+ "montant_attribue": 409554.0,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "STE SARAKAM SARL AU",
+   "montant_acte_engagement": 392622.0,
+   "montant_apres_verification": null,
+   "autres_montants": [
+    392622.0
+   ],
+   "lots": [],
+   "statut": "ecarte_offre_financiere",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "STE STABL MULTISERVICES SARL AU",
+   "montant_acte_engagement": 409554.0,
+   "montant_apres_verification": null,
+   "autres_montants": [
+    409554.0
+   ],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "STE GIR LAND SARL",
+   "montant_acte_engagement": 478842.0,
+   "montant_apres_verification": null,
+   "autres_montants": [
+    478842.0
+   ],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "STE CREUSEMENT DES PUITS SARL",
+   "montant_acte_engagement": 420312.0,
+   "montant_apres_verification": null,
+   "autres_montants": [
+    420312.0
+   ],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "STE SOUSS DE CONSTRUCTION ET TRAVAUX DERIVES SARL",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_dossier_administratif_technique",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 5,
+ "alertes_ocr": [],
+ "notes_ocr": [],
+ "qualite": "complet"
+}

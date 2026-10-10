@@ -1,0 +1,150 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "978381",
+ "orgAcronyme": "q1s",
+ "reference_pv": "04/2026/SER",
+ "nouveau": true,
+ "reference": "04/2026/SER",
+ "objet": "Travaux d'exécution de forages d’exploitation dans les provinces de Nador Berkane et Taourirt en trois lots",
+ "acheteur": "ORMVA de la Moulouya",
+ "procedure": null,
+ "categorie": "Travaux",
+ "date_limite_plis": "29/01/2026",
+ "lieu_ouverture": "Salle des réunions de l'ORMVAM",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "18/02/2026",
+ "justification": "Les offres présentées par les concurrents sont les offres les mieux disantes : e Lot n° 1 : GEO SONDA BARHDADI e Lot n°2: DIHYA e Lot n° 3 : GEO SONDA BARHDADI",
+ "infructueux": false,
+ "attributaire": "GEO SONDA BARHDADI",
+ "montant_attribue": 1455864.0,
+ "attributaires_par_lot": [
+  {
+   "lot": "1",
+   "attributaire": "GEO SONDA BARHDADI",
+   "montant": 1455864.0
+  },
+  {
+   "lot": "2",
+   "attributaire": "DIHYA",
+   "montant": 1175760.0
+  },
+  {
+   "lot": "3",
+   "attributaire": "GEO SONDA BARHDADI",
+   "montant": 1751328.0
+  }
+ ],
+ "soumissionnaires": [
+  {
+   "nom": "GEO SONDA BARHDADI",
+   "montant_acte_engagement": 1455864.0,
+   "montant_apres_verification": 1455864.0,
+   "autres_montants": [
+    1164672.0,
+    1751328.0
+   ],
+   "lots": [
+    "1",
+    "2",
+    "3"
+   ],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "IMISYB MAROC",
+   "montant_acte_engagement": 1704216.0,
+   "montant_apres_verification": 1704216.0,
+   "autres_montants": [
+    1380960.0,
+    2062440.0
+   ],
+   "lots": [
+    "1",
+    "2"
+   ],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "STAVAN",
+   "montant_acte_engagement": 1427520.0,
+   "montant_apres_verification": 1427520.0,
+   "autres_montants": [
+    1174320.0,
+    1736100.0
+   ],
+   "lots": [
+    "1",
+    "2",
+    "3"
+   ],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "AIT AISSA FOURAGE LIL FILAHA",
+   "montant_acte_engagement": 1683108.0,
+   "montant_apres_verification": 1683108.0,
+   "autres_montants": [
+    1256304.0,
+    1877940.0
+   ],
+   "lots": [
+    "1",
+    "2",
+    "3"
+   ],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "DIHYA",
+   "montant_acte_engagement": 1435800.0,
+   "montant_apres_verification": 1435800.0,
+   "autres_montants": [
+    1175760.0,
+    1740600.0
+   ],
+   "lots": [
+    "1",
+    "2",
+    "3"
+   ],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "HAJ DUIRI SOHADU",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [
+    "1"
+   ],
+   "statut": "ecarte_dossier_administratif_technique",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "AMENAGEMENT ET TRAVAUX PUBLICS DU MAROC",
+   "montant_acte_engagement": 1349088.0,
+   "montant_apres_verification": 1349088.0,
+   "autres_montants": [],
+   "lots": [
+    "1"
+   ],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 7,
+ "alertes_ocr": [],
+ "notes_ocr": [
+  "Marché alloti (3 lots)."
+ ],
+ "qualite": "complet"
+}

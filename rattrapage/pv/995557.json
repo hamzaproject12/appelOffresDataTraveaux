@@ -1,0 +1,95 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "995557",
+ "orgAcronyme": "f9f",
+ "reference_pv": "05/2026/CI-OBIET",
+ "nouveau": true,
+ "reference": "05/2026/CI-OBIET",
+ "objet": "TRAVAUX D'AMENAGEMENT URBAIN À LA VILLE D'INEZGANE : VOIE IN132",
+ "acheteur": "la Commune d'Inezgane",
+ "procedure": "appel d'offres ouvert international",
+ "categorie": "Travaux",
+ "date_limite_plis": "07/04/2026",
+ "lieu_ouverture": "Bureau de Mr Le Président de la Commune d'Inezgane",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": null,
+ "justification": null,
+ "infructueux": false,
+ "attributaire": "GROUPEMENT DE STÉ ENTREPRISE DE TRAVAUX Concurrent ayant présenté l'offre",
+ "montant_attribue": null,
+ "attributaires_par_lot": [
+  {
+   "lot": null,
+   "attributaire": "GROUPEMENT DE STÉ ENTREPRISE DE TRAVAUX Concurrent ayant présenté l'offre",
+   "montant": null
+  },
+  {
+   "lot": null,
+   "attributaire": "D'INGENIERIE D'AGADIR (ETIA) sarl et sté NATURE ELEC économiquement la plus avantageuse sarl",
+   "montant": 12813433.2
+  }
+ ],
+ "soumissionnaires": [
+  {
+   "nom": "STE NAÏT ELKHALFAOUI TRAVAUX Sarl Au",
+   "montant_acte_engagement": 12946048.8,
+   "montant_apres_verification": 12946048.8,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Y. GROUPEMENT DE STÉ ENTREPRISE DE TRAVAUX D’INGENIERIE D’AGADIR (ETIA) sarl et sté",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "NATURE ELEC sarl",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "D'INGENIERIE D'AGADIR (ETIA) sarl et sté NATURE ELEC économiquement la plus avantageuse sarl",
+   "montant_acte_engagement": 12813433.2,
+   "montant_apres_verification": 12813433.2,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "GROUPEMENT DE STÉ ENTREPRISE DE TRAVAUX Concurrent ayant présenté l'offre",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 5,
+ "alertes_ocr": [
+  "« STE NAÏT ELKHALFAOUI TRAVAUX Sarl Au » absent de la liste des plis déposés (nom mal lu ?).",
+  "« D'INGENIERIE D'AGADIR (ETIA) sarl et sté NATURE ELEC économiquement la plus avantageuse sarl » absent de la liste des plis déposés (nom mal lu ?).",
+  "« GROUPEMENT DE STÉ ENTREPRISE DE TRAVAUX Concurrent ayant présenté l'offre » absent de la liste des plis déposés (nom mal lu ?).",
+  "Montant de l'attributaire « GROUPEMENT DE STÉ ENTREPRISE DE TRAVAUX Concurrent ayant présenté l'offre » non trouvé."
+ ],
+ "notes_ocr": [
+  "« Y. GROUPEMENT DE STÉ ENTREPRISE DE TRAVAUX D’INGENIERIE D’AGADIR (ETIA) sarl et sté » absent de la liste des plis déposés (nom mal lu ?).",
+  "« NATURE ELEC sarl » absent de la liste des plis déposés (nom mal lu ?)."
+ ],
+ "qualite": "complet"
+}

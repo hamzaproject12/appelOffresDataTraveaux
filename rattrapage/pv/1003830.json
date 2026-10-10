@@ -1,0 +1,94 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "1003830",
+ "orgAcronyme": "g3h",
+ "reference_pv": "63/26/EAU",
+ "nouveau": true,
+ "reference": "63/26/EAU",
+ "objet": "Travaux curatifs du réseau secondaire et tertiaire d'eau potable de la préfecture de Marrakech",
+ "acheteur": "SRM-MS",
+ "procedure": "appel d'offres ouvert",
+ "categorie": "Travaux",
+ "date_limite_plis": "17/04/2026",
+ "lieu_ouverture": "Siège de la SRM-MS Boulevard Mohamed VI MARRAKECH",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": null,
+ "justification": "la combinaison la plus économique pour la SRM, le soumissionnaire ne peut se voir attribuer plus d’un lot.",
+ "infructueux": false,
+ "attributaire": "Cütitanrenis Montants des ES A MRAeNRenE GC-TRA",
+ "montant_attribue": 3193800.0,
+ "attributaires_par_lot": [
+  {
+   "lot": "1",
+   "attributaire": "Cütitanrenis Montants des ES A MRAeNRenE GC-TRA",
+   "montant": 3193800.0
+  },
+  {
+   "lot": "2",
+   "attributaire": "HYDROLO",
+   "montant": 3253200.0
+  }
+ ],
+ "soumissionnaires": [
+  {
+   "nom": "Cütitanrenis Montants des ES A MRAeNRenE GC-TRA",
+   "montant_acte_engagement": 3193800.0,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [
+    "1"
+   ],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "GERAB",
+   "montant_acte_engagement": 3937800.0,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [
+    "1"
+   ],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "HYDROLO",
+   "montant_acte_engagement": 3253200.0,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [
+    "1",
+    "2"
+   ],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "GERAB 5",
+   "montant_acte_engagement": 3979800.0,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [
+    "2"
+   ],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 4,
+ "alertes_ocr": [
+  "« Cütitanrenis Montants des ES A MRAeNRenE GC-TRA » absent de la liste des plis déposés (nom mal lu ?).",
+  "« GERAB » absent de la liste des plis déposés (nom mal lu ?).",
+  "« HYDROLO » absent de la liste des plis déposés (nom mal lu ?).",
+  "« GERAB 5 » absent de la liste des plis déposés (nom mal lu ?)."
+ ],
+ "notes_ocr": [
+  "Marché alloti (2 lots)."
+ ],
+ "qualite": "complet"
+}

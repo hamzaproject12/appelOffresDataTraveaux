@@ -1,0 +1,100 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "871121",
+ "orgAcronyme": "g3h",
+ "reference_pv": "07/2024",
+ "nouveau": true,
+ "reference": "07/2024",
+ "objet": null,
+ "acheteur": null,
+ "procedure": "appel d'offres ouvert",
+ "categorie": "Travaux",
+ "date_limite_plis": null,
+ "lieu_ouverture": "les bureaux de la « Société Fès Région ménagement »",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": null,
+ "justification": "l’offre la plus avantageuse pour l’ Administration Date de l’achèvement des travaux de la commission : le 31 Janvier 2025,",
+ "infructueux": false,
+ "attributaire": "Ste BOPAYESAGE SARL à Tanger",
+ "montant_attribue": 31753878.0,
+ "attributaires_par_lot": [
+  {
+   "lot": "1",
+   "attributaire": "Ste BOPAYESAGE SARL à Tanger",
+   "montant": 31753878.0
+  },
+  {
+   "lot": "2",
+   "attributaire": "STE MP PROJECT SARL à Temarra",
+   "montant": 24037704.0
+  }
+ ],
+ "soumissionnaires": [
+  {
+   "nom": "Ste BOPAYESAGE SARL à Tanger",
+   "montant_acte_engagement": 31753878.0,
+   "montant_apres_verification": 31753878.0,
+   "autres_montants": [],
+   "lots": [
+    "1"
+   ],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "STE TAMESNA SARL",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [
+    "2"
+   ],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "STE MP PROJECT SARL à Temarra",
+   "montant_acte_engagement": 24037704.0,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [
+    "2"
+   ],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Groupement ATELIER VERT ET RAVAUX et ATELIER CONCEPTION, REALISATION",
+   "montant_acte_engagement": 27557458.8,
+   "montant_apres_verification": 27557458.8,
+   "autres_montants": [],
+   "lots": [
+    "2"
+   ],
+   "statut": "ecarte_offre_financiere",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "JARDINS, ESPACES VERTS",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [
+    "2"
+   ],
+   "statut": "ecarte_offre_financiere",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 5,
+ "alertes_ocr": [],
+ "notes_ocr": [
+  "Marché alloti (2 lots).",
+  "Maître d'ouvrage absent du PV (utiliser l'acheteur public du portail)."
+ ],
+ "qualite": "complet"
+}

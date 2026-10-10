@@ -1,0 +1,87 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "736780",
+ "orgAcronyme": "g8e",
+ "reference_pv": null,
+ "nouveau": true,
+ "reference": null,
+ "objet": "Opérationnalisation du projet ait ikkou, brachoua, merchouch, houderrane, laghoualem,",
+ "acheteur": null,
+ "procedure": null,
+ "categorie": "Travaux",
+ "date_limite_plis": "13/07/2023",
+ "lieu_ouverture": "Bureau de la Société Rabat Région Aménagement au 9, Place Al Joulane — Rabat",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "16/08/2023",
+ "justification": "Offre conforme aux exigences du Règlement de la consultation et moins disante",
+ "infructueux": false,
+ "attributaire": "Société VALTECH",
+ "montant_attribue": 30876709.2,
+ "attributaires_par_lot": [
+  {
+   "lot": "1",
+   "attributaire": "Société VALTECH",
+   "montant": 30876709.2
+  },
+  {
+   "lot": "2",
+   "attributaire": "GROUPEMENT CIRGEC ET HYDROSYSTEMES",
+   "montant": 32570236.8
+  }
+ ],
+ "soumissionnaires": [
+  {
+   "nom": "oumissionnaires ee",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "depose",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "GROUPEMENT CIRGEC ET HYDROSYSTEMES",
+   "montant_acte_engagement": 29988682.8,
+   "montant_apres_verification": null,
+   "autres_montants": [
+    32570236.8,
+    29988682.8,
+    32570236.8
+   ],
+   "lots": [
+    "1",
+    "2"
+   ],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Société VALTECH",
+   "montant_acte_engagement": 30876709.2,
+   "montant_apres_verification": null,
+   "autres_montants": [
+    33659551.2,
+    30876709.2,
+    33659551.2
+   ],
+   "lots": [
+    "1"
+   ],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 3,
+ "alertes_ocr": [
+  "« Société VALTECH » absent de la liste des plis déposés (nom mal lu ?)."
+ ],
+ "notes_ocr": [
+  "Marché alloti (2 lots).",
+  "Maître d'ouvrage absent du PV (utiliser l'acheteur public du portail)."
+ ],
+ "qualite": "attribution"
+}

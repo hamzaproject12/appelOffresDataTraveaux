@@ -1,0 +1,55 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "965111",
+ "orgAcronyme": "j0w",
+ "reference_pv": "47/BP/2025",
+ "nouveau": true,
+ "reference": "47/BP/2025",
+ "objet": "Travaux de construction de la piste reliant Chaouf Sghira et Chaouf Lkbira en traversant douar",
+ "acheteur": "Conseil Préfectoral de Marrakech",
+ "procedure": "appel d'offres ouvert national",
+ "categorie": "Travaux",
+ "date_limite_plis": "04/12/2025",
+ "lieu_ouverture": "La salle des réunions au siège du Conseil Préfectoral de Marrakech",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "18/12/2025",
+ "justification": "offre la plus avantageuse, la mieux disante par rapport au prix de référence.",
+ "infructueux": false,
+ "attributaire": "Groupement conjoint SGR BTP et SJ2T",
+ "montant_attribue": 2727932.8,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "Groupement conjoint SGR BTP et SJ2T",
+   "montant_acte_engagement": 2727932.8,
+   "montant_apres_verification": null,
+   "autres_montants": [
+    2708576.42
+   ],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "pneu Re MARI BE EMRREES",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_dossier_administratif_technique",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 2,
+ "alertes_ocr": [
+  "« Groupement conjoint SGR BTP et SJ2T » absent de la liste des plis déposés (nom mal lu ?)."
+ ],
+ "notes_ocr": [
+  "« pneu Re MARI BE EMRREES » absent de la liste des plis déposés (nom mal lu ?)."
+ ],
+ "qualite": "attribution"
+}

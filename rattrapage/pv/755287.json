@@ -1,0 +1,78 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "755287",
+ "orgAcronyme": "q1s",
+ "reference_pv": "53/2023/0RH/SM",
+ "nouveau": true,
+ "reference": "53/2023/0RH/SM",
+ "objet": "ENTRETIEN ET RÉABILITATION DU RÉSEAU ÉLECTRIQUE DES BATIMENTS ADMINISTRATIFS AU NIVEAU DU SIÈGE ORMVAH : IER ETAGE BATIMENT SAF",
+ "acheteur": null,
+ "procedure": null,
+ "categorie": "Travaux",
+ "date_limite_plis": "26/10/2023",
+ "lieu_ouverture": "Siège de l'Office Régional de Mise en Valeur Agricole du Haouz",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "14/11/2023",
+ "justification": "l'Offre la plus avantageuse est présentée par la société NOUR BETON SARL - AU.",
+ "infructueux": false,
+ "attributaire": "NOUR BETON SARL - AU",
+ "montant_attribue": 139668.0,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "BS PROJECT",
+   "montant_acte_engagement": 130452.0,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_offre_financiere",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "CHISRA TRAVAUX",
+   "montant_acte_engagement": 182244.0,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "NOUR BETON SARL - AU",
+   "montant_acte_engagement": 139668.0,
+   "montant_apres_verification": 139668.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "BALU ELECTRICITE",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_dossier_administratif_technique",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "SACT",
+   "montant_acte_engagement": 185400.0,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 5,
+ "alertes_ocr": [],
+ "notes_ocr": [
+  "Maître d'ouvrage absent du PV (utiliser l'acheteur public du portail)."
+ ],
+ "qualite": "complet"
+}

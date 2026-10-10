@@ -1,0 +1,66 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "836089",
+ "orgAcronyme": "j8k",
+ "reference_pv": "38/2024",
+ "nouveau": true,
+ "reference": "38/2024",
+ "objet": "TRAVAUX DE REVETEMENT EN ENROBE BITUMINEUX ET AMENAGEMENT DES ABORDS DU LOTISSEMENT AL MAJD TR3 A LA COMMUNE TERRITORIALE DE TINGHIR PROVINCE DE TINGHIR",
+ "acheteur": "SOCIETE AL OMRANE DRAA-TAFILALET",
+ "procedure": "appel d'offres ouvert",
+ "categorie": "Travaux",
+ "date_limite_plis": "30/09/2024",
+ "lieu_ouverture": "SOCIETE AL OMRANE DRAA-TAFILALET",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": null,
+ "justification": "l'offre la plus avantageuse.",
+ "infructueux": false,
+ "attributaire": "ETABLISSEMENT ESSAKINI",
+ "montant_attribue": 26257481.28,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "SICATRA",
+   "montant_acte_engagement": 27952506.48,
+   "montant_apres_verification": null,
+   "autres_montants": [
+    27952506.48
+   ],
+   "lots": [],
+   "statut": "ecarte_dossier_administratif_technique",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "SAKITRA",
+   "montant_acte_engagement": 26904672.72,
+   "montant_apres_verification": null,
+   "autres_montants": [
+    26904672.72
+   ],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "ETABLISSEMENT ESSAKINI",
+   "montant_acte_engagement": 26257481.28,
+   "montant_apres_verification": null,
+   "autres_montants": [
+    26257481.28
+   ],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 3,
+ "alertes_ocr": [
+  "« ETABLISSEMENT ESSAKINI » absent de la liste des plis déposés (nom mal lu ?)."
+ ],
+ "notes_ocr": [],
+ "qualite": "complet"
+}

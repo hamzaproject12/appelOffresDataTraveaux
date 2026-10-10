@@ -1,0 +1,54 @@
+{
+ "source": "extrait_docx",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "727645",
+ "orgAcronyme": "d4q",
+ "reference_pv": null,
+ "nouveau": true,
+ "reference": null,
+ "objet": "Travaux d'entretien des équipements de réseau de distribution aux niveaux des centres benguerir et skhour Rhamna (province de Rhamna )",
+ "acheteur": null,
+ "procedure": "appel d'offres ouvert",
+ "categorie": "Travaux",
+ "date_limite_plis": "26/01/2023",
+ "lieu_ouverture": "au Siège de la Direction Régionale du Tensift (DR2) Boulevard Mohamed V, Angle Rue Badr, Gueliz - Marrakech - Maroc",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "21/04/2023",
+ "justification": "Moins-disant",
+ "infructueux": false,
+ "attributaire": "GROUP BOUAACHRIN / WADAM TRAVAUX",
+ "montant_attribue": 875038.8,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "GROUP BOUAACHRIN / WADAM TRAVAUX",
+   "montant_acte_engagement": 873114.0,
+   "montant_apres_verification": 873114.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "OMNIUM HYDROLIQUE ET ELECTRIQUE",
+   "montant_acte_engagement": 875038.8,
+   "montant_apres_verification": 875038.8,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 2,
+ "alertes_ocr": [
+  "« GROUP BOUAACHRIN / WADAM TRAVAUX » absent de la liste des plis déposés (nom mal lu ?).",
+  "« OMNIUM HYDROLIQUE ET ELECTRIQUE » absent de la liste des plis déposés (nom mal lu ?)."
+ ],
+ "notes_ocr": [
+  "Maître d'ouvrage absent du PV (utiliser l'acheteur public du portail)."
+ ],
+ "qualite": "complet"
+}

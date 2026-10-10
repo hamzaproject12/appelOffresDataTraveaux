@@ -1,0 +1,72 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "984879",
+ "orgAcronyme": "i1t",
+ "reference_pv": "01/2026/CTO",
+ "nouveau": true,
+ "reference": "01/2026/CTO",
+ "objet": "TRAVAUX DE CONSTRUCTION DU BUREAU DE L'ÉTAT CIVIL DE LA COMMUNE D'OUNNANA, PROVINCE DE OUEZZANE",
+ "acheteur": "Commune d'OUNNANA",
+ "procedure": "appel d'offres ouvert simplifié",
+ "categorie": "Travaux",
+ "date_limite_plis": "04/03/2026",
+ "lieu_ouverture": "La salle de réunion de l’annexe administrative de Mghirès, sise au centre de la Commune d'Ounnana # TOURNAUX AYANT PUBLIE L’AVIS DE PUBLICITE",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "11/03/2026",
+ "justification": "+ Le dossier administratif et technique de l’entreprise est conforme aux exigences du Règlement de Consultation (ROC) ; * Les offres ont été évaluées conformément aux dispositions du Règlement de Consultation ; + L'offre présentée par la société FANHER a été classée première parmi les offres recevables ; + Les pièces complémentaires du dossier administratif demandées ont été transmises via la plat",
+ "infructueux": false,
+ "attributaire": "FANHER",
+ "montant_attribue": 808831.92,
+ "attributaires_par_lot": [
+  {
+   "lot": null,
+   "attributaire": "FANHER",
+   "montant": 808831.92
+  },
+  {
+   "lot": null,
+   "attributaire": "STE JAD H3 SARL AU",
+   "montant": 859810.86
+  }
+ ],
+ "soumissionnaires": [
+  {
+   "nom": "STEJADH3SARLAU 04/03/2026 à",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "depose",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "FANHER",
+   "montant_acte_engagement": 808831.92,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "STE JAD H3 SARL AU",
+   "montant_acte_engagement": 859810.86,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 3,
+ "alertes_ocr": [
+  "« FANHER » absent de la liste des plis déposés (nom mal lu ?).",
+  "« STE JAD H3 SARL AU » absent de la liste des plis déposés (nom mal lu ?)."
+ ],
+ "notes_ocr": [],
+ "qualite": "attribution"
+}

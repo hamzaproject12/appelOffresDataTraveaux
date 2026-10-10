@@ -1,0 +1,54 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "798961",
+ "orgAcronyme": "d4q",
+ "reference_pv": null,
+ "nouveau": true,
+ "reference": null,
+ "objet": null,
+ "acheteur": null,
+ "procedure": null,
+ "categorie": "Travaux",
+ "date_limite_plis": "27/03/2024",
+ "lieu_ouverture": "Siège ONEE-Branche Electricité",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "22/05/2024",
+ "justification": "L'offre proposée par le soumissionnaire « Société HS INFRA » est moins disant et s’écarte d’un taux acceptable de +9,26% par rapport à l'estimation",
+ "infructueux": false,
+ "attributaire": "Sté HS INFRA",
+ "montant_attribue": 7659145.2,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "Société CARTAG TRAVAUX et Société HS INFRA",
+   "montant_acte_engagement": 8399157.31,
+   "montant_apres_verification": 8399157.31,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Sté HS INFRA",
+   "montant_acte_engagement": 7654945.2,
+   "montant_apres_verification": 7659145.2,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 2,
+ "alertes_ocr": [
+  "« Sté HS INFRA » absent de la liste des plis déposés (nom mal lu ?)."
+ ],
+ "notes_ocr": [
+  "« Sté HS INFRA » : montant rectifié de 7 654 945.20 à 7 659 145.20 DH.",
+  "Maître d'ouvrage absent du PV (utiliser l'acheteur public du portail)."
+ ],
+ "qualite": "complet"
+}

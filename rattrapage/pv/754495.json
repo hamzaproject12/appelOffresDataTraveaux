@@ -1,0 +1,51 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "754495",
+ "orgAcronyme": "o8p",
+ "reference_pv": "57/2023-N",
+ "nouveau": true,
+ "reference": "57/2023-N",
+ "objet": "CONSTRUCTION D'UN HOPITAL LOCAL A RISSANI, PROVINCE D'ERRACHIDIA LOT : ELECTRICITÉ - COURANTS FORTS - COURANTS FAIBLES",
+ "acheteur": null,
+ "procedure": "appel d'offres ouvert",
+ "categorie": "Travaux",
+ "date_limite_plis": "19/10/2023",
+ "lieu_ouverture": "Bureau de Monsieur le Directeur Régional de l'Agence Nationale des",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "13/11/2023",
+ "justification": "Les éléments contenus dans son dossier administratif, technique, son offre technique, son offre financière et ses justifications.",
+ "infructueux": false,
+ "attributaire": "Société SORALEC sarl",
+ "montant_attribue": 11322942.0,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "Société SORALEC sarl",
+   "montant_acte_engagement": 11322942.0,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Société ELECTOMAR sarl au",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_offre_technique",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 2,
+ "alertes_ocr": [],
+ "notes_ocr": [
+  "Maître d'ouvrage absent du PV (utiliser l'acheteur public du portail)."
+ ],
+ "qualite": "attribution"
+}

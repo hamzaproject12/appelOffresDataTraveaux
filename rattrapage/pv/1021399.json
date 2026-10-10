@@ -1,0 +1,103 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "1021399",
+ "orgAcronyme": "q1s",
+ "reference_pv": "10/2026/DPA/36",
+ "nouveau": true,
+ "reference": "10/2026/DPA/36",
+ "objet": "TRAVAUX D’APPRFONDISSEMENT D’UN FORAGE AU PERIMETRE IRRIGUE KORIMAT A LA COMMUNE KORIMAT DANS LA PROVINCE D’ESSAOUIRA",
+ "acheteur": "Directeur Provincial de l’Agriculture d’Essaouira",
+ "procedure": "appel d'offres ouvert",
+ "categorie": "Travaux",
+ "date_limite_plis": null,
+ "lieu_ouverture": "la Direction Provinciale de l’Agriculture d’Essaouira",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "07/07/2026",
+ "justification": "L’offre proposée par le concurrent est la plus avantageuse.",
+ "infructueux": false,
+ "attributaire": "STE TIZINTE FARKHINE SARL AU",
+ "montant_attribue": 436590.0,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "STE GHADIL",
+   "montant_acte_engagement": 456132.0,
+   "montant_apres_verification": 456132.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "STE TIZINTE FARKHINE SARL AU",
+   "montant_acte_engagement": 436590.0,
+   "montant_apres_verification": 436590.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "STE ESPACE INDUSTRIE PLAST DU SUD",
+   "montant_acte_engagement": 445392.0,
+   "montant_apres_verification": 445392.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "STE HAJ DUIRI SOHADU",
+   "montant_acte_engagement": 437280.0,
+   "montant_apres_verification": 437280.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_offre_financiere",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "STE FORATION PROFOND",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_dossier_administratif_technique",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "STE UNION RAKARTE",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_dossier_administratif_technique",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "STE QUALITY FOR",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_dossier_administratif_technique",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 7,
+ "alertes_ocr": [
+  "« STE GHADIL » absent de la liste des plis déposés (nom mal lu ?).",
+  "« STE TIZINTE FARKHINE SARL AU » absent de la liste des plis déposés (nom mal lu ?).",
+  "« STE ESPACE INDUSTRIE PLAST DU SUD » absent de la liste des plis déposés (nom mal lu ?).",
+  "« STE HAJ DUIRI SOHADU » absent de la liste des plis déposés (nom mal lu ?)."
+ ],
+ "notes_ocr": [
+  "« STE FORATION PROFOND » absent de la liste des plis déposés (nom mal lu ?).",
+  "« STE UNION RAKARTE » absent de la liste des plis déposés (nom mal lu ?).",
+  "« STE QUALITY FOR » absent de la liste des plis déposés (nom mal lu ?)."
+ ],
+ "qualite": "complet"
+}

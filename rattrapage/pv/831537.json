@@ -1,0 +1,74 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "831537",
+ "orgAcronyme": "o8p",
+ "reference_pv": "T035/PLGV",
+ "nouveau": true,
+ "reference": "T035/PLGV",
+ "objet": "Ligne Tanger/Fès : Construction d’un pont- rail au PK 16+164 avec rectification de tracé de la voie ferrée",
+ "acheteur": "M. le Directeur Technique du Pole Projets LGV",
+ "procedure": null,
+ "categorie": "Travaux",
+ "date_limite_plis": "29/08/2024",
+ "lieu_ouverture": "Institut de Formation et de Développement de Compétences l’'ONCF",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "19/09/2024",
+ "justification": null,
+ "infructueux": false,
+ "attributaire": null,
+ "montant_attribue": null,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "GRPT CONJOINT ALTATRAV/ CONSTRUCTION ET TRAVAUX",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "depose",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "ROUTIERS - GROUPE MOJAZINE - NGE CONTRACTING- GRPT SOLIDAIRE CHINA RAILWAY TUNNEL GROUP/SNL",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "depose",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "TRAVAUX- GRPT CONJOINT SOCIETE MAROCAINE DES PONTS/SSMT",
+   "montant_acte_engagement": 128437896.0,
+   "montant_apres_verification": null,
+   "autres_montants": [
+    128437896.0
+   ],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "GROUPE MOJAZINE",
+   "montant_acte_engagement": 109790694.0,
+   "montant_apres_verification": null,
+   "autres_montants": [
+    109790694.0
+   ],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 4,
+ "alertes_ocr": [
+  "« GROUPE MOJAZINE » absent de la liste des plis déposés (nom mal lu ?).",
+  "Attributaire non trouvé."
+ ],
+ "notes_ocr": [],
+ "qualite": "complet"
+}

@@ -1,0 +1,76 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "772392",
+ "orgAcronyme": "o8p",
+ "reference_pv": "42/AREF/2023/ANEPMS",
+ "nouveau": true,
+ "reference": "42/AREF/2023/ANEPMS",
+ "objet": "TRAVAUX DE CONSTRUCTION DE 19 UNITES DE P ECOLES PRIMAIRES RELEVANT DE LA DIRECTION PRO LOT 2",
+ "acheteur": "Ministère de l'éducation nationale du préscolaire et des sports académie régionale d'éducation et de formation de Marrakech -Safi",
+ "procedure": "appel d'offres ouvert",
+ "categorie": "Travaux",
+ "date_limite_plis": "11/07/2023",
+ "lieu_ouverture": "DIRECTION REGIONALE DU MARRAKECH SAFI",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "11/08/2023",
+ "justification": "financière le plus avantageuse,",
+ "infructueux": false,
+ "attributaire": "Groupement VAMOS & SONITRAV",
+ "montant_attribue": null,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "BITMAR",
+   "montant_acte_engagement": 7582446.0,
+   "montant_apres_verification": null,
+   "autres_montants": [
+    7582446.0
+   ],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Groupement VAMOS & SONITRAV",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "SOGETRACOF",
+   "montant_acte_engagement": 7229232.48,
+   "montant_apres_verification": null,
+   "autres_montants": [
+    7229232.48
+   ],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Groupement VAMOS &",
+   "montant_acte_engagement": 7080699.6,
+   "montant_apres_verification": null,
+   "autres_montants": [
+    7080699.6
+   ],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 4,
+ "alertes_ocr": [
+  "« Groupement VAMOS & » absent de la liste des plis déposés (nom mal lu ?).",
+  "Montant de l'attributaire « Groupement VAMOS & SONITRAV » non trouvé."
+ ],
+ "notes_ocr": [],
+ "qualite": "complet"
+}

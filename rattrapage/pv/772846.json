@@ -1,0 +1,95 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "772846",
+ "orgAcronyme": "o8p",
+ "reference_pv": "60/2023/DPETLM",
+ "nouveau": true,
+ "reference": "60/2023/DPETLM",
+ "objet": "TRAVAUX DE REPARATION DE L’OA AU PK 5+600 DE LA RP7071 RELEVANT DE LA DPETL DE MEKNES",
+ "acheteur": "le Directeur Provincial de l’Équipement du Transport et de la Logistique de Meknes",
+ "procedure": null,
+ "categorie": "Travaux",
+ "date_limite_plis": "18/01/2024",
+ "lieu_ouverture": "Salle des réunions de la Direction Provincial l’Équipement du Transport et de la Logistique de Meknès",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "25/01/2024",
+ "justification": "Offre la mieux-disante",
+ "infructueux": false,
+ "attributaire": "STE ENPR SARL A CASABLANCA",
+ "montant_attribue": 405174.0,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "STE ATLAS HANDASSA SARL MEKNES",
+   "montant_acte_engagement": 402780.0,
+   "montant_apres_verification": null,
+   "autres_montants": [
+    402780.0
+   ],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": " STE OUVRAROUTE SARL A TEMARA",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": " STE TOP ROUT SARL A TEMARA",
+   "montant_acte_engagement": 520338.0,
+   "montant_apres_verification": null,
+   "autres_montants": [
+    520338.0
+   ],
+   "lots": [],
+   "statut": "ecarte_offre_financiere",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": " STE DE CONSTRUCTION ZAOUA SARL A AGADIR",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "STE ENPR SARL A CASABLANCA",
+   "montant_acte_engagement": 405174.0,
+   "montant_apres_verification": null,
+   "autres_montants": [
+    405174.0
+   ],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "ZAOUA SARL A AGADIR",
+   "montant_acte_engagement": 401730.0,
+   "montant_apres_verification": null,
+   "autres_montants": [
+    401730.0
+   ],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 6,
+ "alertes_ocr": [
+  "« ZAOUA SARL A AGADIR » absent de la liste des plis déposés (nom mal lu ?)."
+ ],
+ "notes_ocr": [],
+ "qualite": "complet"
+}

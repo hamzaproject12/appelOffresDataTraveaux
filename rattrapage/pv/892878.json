@@ -1,0 +1,63 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "892878",
+ "orgAcronyme": "f8y",
+ "reference_pv": "03/2025/BP/PFG",
+ "nouveau": true,
+ "reference": "03/2025/BP/PFG",
+ "objet": "«TRAVAUX DE PROTECTION CONTRE LES INONDATIONS DELA VILLE DE BOUARFA (PROVINCE DE FIGUIG) »",
+ "acheteur": "Conseil Provincial de Figuig",
+ "procedure": "appel d'offres ouvert",
+ "categorie": "Travaux",
+ "date_limite_plis": "13/03/2025",
+ "lieu_ouverture": null,
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": null,
+ "justification": null,
+ "infructueux": false,
+ "attributaire": null,
+ "montant_attribue": null,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "POLE DE CONSTRUCTION ET D’INGE",
+   "montant_acte_engagement": 17388060.6,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_dossier_administratif_technique",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "BABA MOHAMMED",
+   "montant_acte_engagement": 16071456.04,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_dossier_administratif_technique",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "SNTRO",
+   "montant_acte_engagement": 17212430.93,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_dossier_administratif_technique",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 3,
+ "alertes_ocr": [
+  "« POLE DE CONSTRUCTION ET D’INGE » absent de la liste des plis déposés (nom mal lu ?).",
+  "« BABA MOHAMMED » absent de la liste des plis déposés (nom mal lu ?).",
+  "« SNTRO » absent de la liste des plis déposés (nom mal lu ?).",
+  "Attributaire non trouvé."
+ ],
+ "notes_ocr": [],
+ "qualite": "complet"
+}

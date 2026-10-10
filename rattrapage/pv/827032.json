@@ -1,0 +1,58 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "827032",
+ "orgAcronyme": "g3h",
+ "reference_pv": "15/INDH/2024",
+ "nouveau": true,
+ "reference": "15/INDH/2024",
+ "objet": "Travaux d’équipement en Kits Photovoltaïques de 09 unités préscolaires et de branchement",
+ "acheteur": "PROVINCE D’EL-HAJEB",
+ "procedure": "appel d'offres ouvert",
+ "categorie": "Travaux",
+ "date_limite_plis": "28/08/2024",
+ "lieu_ouverture": "Siège de la Province d’El-Hajeb",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "05/09/2024",
+ "justification": "l’offre économiquement la plus avantageuse.",
+ "infructueux": false,
+ "attributaire": "Sté. REUSSITE TELECOM de Fès",
+ "montant_attribue": 234600.0,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "Sté. REUSSITE TELECOM de Fès",
+   "montant_acte_engagement": 234600.0,
+   "montant_apres_verification": 234600.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Sté. BOUDITRAV de Meknès",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_dossier_administratif_technique",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Sté. DALIA ZMAM de Beni-Tadijit",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "depose",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 3,
+ "alertes_ocr": [],
+ "notes_ocr": [],
+ "qualite": "attribution"
+}

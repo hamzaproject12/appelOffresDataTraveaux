@@ -1,0 +1,67 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "765422",
+ "orgAcronyme": "p8x",
+ "reference_pv": "24/2023/INV",
+ "nouveau": true,
+ "reference": "24/2023/INV",
+ "objet": null,
+ "acheteur": "AREF SM",
+ "procedure": "appel d'offres ouvert simplifié",
+ "categorie": "Travaux",
+ "date_limite_plis": "06/12/2023",
+ "lieu_ouverture": "service des achats et marchés de l’A.R.E.F. S.M",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "13/12/2023",
+ "justification": "Au vu des critères fixés dans le règlement de la consultation l’attributaire retenu est celui ayant présenté l'offre la plus avantageuse.",
+ "infructueux": false,
+ "attributaire": "Sté. DAXTRAV",
+ "montant_attribue": 525897.6,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "Sté. FASOFT",
+   "montant_acte_engagement": 524028.0,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Sté. DAXTRAV",
+   "montant_acte_engagement": 525897.6,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": true
+  },
+  {
+   "nom": "Sté. SMART HORIZON",
+   "montant_acte_engagement": 512022.0,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": true
+  },
+  {
+   "nom": "Sté. SCOPIA",
+   "montant_acte_engagement": 543318.0,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": true
+  }
+ ],
+ "nombre_soumissionnaires": 4,
+ "alertes_ocr": [],
+ "notes_ocr": [],
+ "qualite": "complet"
+}

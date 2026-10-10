@@ -1,0 +1,60 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "907767",
+ "orgAcronyme": "f8y",
+ "reference_pv": "08/2025",
+ "nouveau": true,
+ "reference": "08/2025",
+ "objet": "Travaux d'aménagement des Ronds-points",
+ "acheteur": "Commune d'El Aioun Sidi Mellouk",
+ "procedure": "appel d'offres ouvert",
+ "categorie": "Travaux",
+ "date_limite_plis": "10/06/2025",
+ "lieu_ouverture": "Commune d'El Aioun Sidi Mellouk",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "08/06/2025",
+ "justification": "L'offre économiquement la plus avantageuse.",
+ "infructueux": false,
+ "attributaire": "STE B.3.D TRADIV SARL AU, MAG N°03 DOUAR MAALA AIN CHKEF FES",
+ "montant_attribue": 1280172.0,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "SABR BUILDING SARL.AU, Ksar Hbibat A.S.Z Erfoud",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_dossier_administratif_technique",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "STE B.3.D TRADIV SARL AU, MAG N°03 DOUAR MAALA AIN CHKEF FES",
+   "montant_acte_engagement": 1280172.0,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "STEB.3D TRADIV SARL AU, MAG N°03 DOUAR",
+   "montant_acte_engagement": 1280712.0,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 3,
+ "alertes_ocr": [
+  "« STEB.3D TRADIV SARL AU, MAG N°03 DOUAR » absent de la liste des plis déposés (nom mal lu ?)."
+ ],
+ "notes_ocr": [],
+ "qualite": "complet"
+}

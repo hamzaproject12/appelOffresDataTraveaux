@@ -1,0 +1,105 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "784289",
+ "orgAcronyme": "g3h",
+ "reference_pv": null,
+ "nouveau": true,
+ "reference": null,
+ "objet": "Travaux de renouvellement du réseau d’eau potable de la ville de Safi Lot I : zone sud Lot IT : zone centre",
+ "acheteur": "la Régie Autonome Intercommunale de Distribution d’Eau et d’Électricité de la Province de SAFI (RADEES)",
+ "procedure": "appel d'offres ouvert national",
+ "categorie": "Travaux",
+ "date_limite_plis": "15/03/2024",
+ "lieu_ouverture": "Siège de la RADEES",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "27/03/2024",
+ "justification": "Offre la plus avantageuse.",
+ "infructueux": false,
+ "attributaire": "BREIJA ENERGIE (lots1 et 2) -IPH(lot1) - STE SODRIWCHAT(lot2) -ER3R",
+ "montant_attribue": 4020300.0,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "BREIJA ENERGIE (lots1 et 2) -IPH(lot1) - STE SODRIWCHAT(lot2) -ER3R",
+   "montant_acte_engagement": 2929740.0,
+   "montant_apres_verification": null,
+   "autres_montants": [
+    4020300.0
+   ],
+   "lots": [
+    "1",
+    "2"
+   ],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "STE SDBTP(lot1) - CANAL’O (lots1 et 2) - INMA HIGH TECH (lotsi et 2) et RAZ",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "TRAVAUX (lots1 et 2) et STE JAD BTP SARL",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "depose",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "STE ER3R",
+   "montant_acte_engagement": 2843518.37,
+   "montant_apres_verification": null,
+   "autres_montants": [
+    3983031.11
+   ],
+   "lots": [
+    "1",
+    "2"
+   ],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "STE SDBTP",
+   "montant_acte_engagement": 2903022.0,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [
+    "1"
+   ],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "STE SODRIWCHAT",
+   "montant_acte_engagement": 3940860.0,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [
+    "2"
+   ],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 6,
+ "alertes_ocr": [
+  "« STE ER3R » absent de la liste des plis déposés (nom mal lu ?).",
+  "« STE SDBTP » absent de la liste des plis déposés (nom mal lu ?).",
+  "« STE SODRIWCHAT » absent de la liste des plis déposés (nom mal lu ?)."
+ ],
+ "notes_ocr": [
+  "Marché alloti (2 lots)."
+ ],
+ "qualite": "complet"
+}

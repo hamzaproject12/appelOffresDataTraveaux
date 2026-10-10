@@ -1,0 +1,72 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "819343",
+ "orgAcronyme": "o8p",
+ "reference_pv": "11/2024",
+ "nouveau": true,
+ "reference": "11/2024",
+ "objet": "Travaux de reconstruction d'un ouvrage d’art au PK 29+950 de la RR210",
+ "acheteur": "Direction Provinciale de l'Equipement du Transport et de La logistique D’El Kelaa des Sraghna",
+ "procedure": "appel d'offres ouvert national",
+ "categorie": "Travaux",
+ "date_limite_plis": "23/07/2024",
+ "lieu_ouverture": "la Direction Provinciale de l'Equipement du Transport et de la Logistique d’El Kelaa des Sraghna",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": null,
+ "justification": "l’offre économiquement la plus avantageuse",
+ "infructueux": false,
+ "attributaire": "STE ATLAS GC",
+ "montant_attribue": 8776010.4,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "% STE ARGECI",
+   "montant_acte_engagement": 9010080.0,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_offre_financiere",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "% STE ATLAS HANDASSA",
+   "montant_acte_engagement": 9320868.0,
+   "montant_apres_verification": 9320868.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "% STE SNTRO",
+   "montant_acte_engagement": 9551750.4,
+   "montant_apres_verification": 9551750.4,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "STE ATLAS GC",
+   "montant_acte_engagement": 8776010.4,
+   "montant_apres_verification": 8776010.4,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 4,
+ "alertes_ocr": [
+  "« % STE ARGECI » absent de la liste des plis déposés (nom mal lu ?).",
+  "« % STE ATLAS HANDASSA » absent de la liste des plis déposés (nom mal lu ?).",
+  "« % STE SNTRO » absent de la liste des plis déposés (nom mal lu ?).",
+  "« STE ATLAS GC » absent de la liste des plis déposés (nom mal lu ?)."
+ ],
+ "notes_ocr": [],
+ "qualite": "complet"
+}

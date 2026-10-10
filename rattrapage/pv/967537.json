@@ -1,0 +1,91 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "967537",
+ "orgAcronyme": "j8k",
+ "reference_pv": "96/2025",
+ "nouveau": true,
+ "reference": "96/2025",
+ "objet": "TRAVAUX DE CONSTRUCTION DU RESERVOIR DE 6000M3 POUR L'ALIMENTATION EN EAU POTABLE DU LOTISSEMENT ZAOUIATE SIDI OTMANE SIS À LA COMMUNE DE TARMIGTE-PROVINCE D'OUARZAZATE",
+ "acheteur": "SOCIETE AL OMRANE DRAA-TAFILALET YŸ",
+ "procedure": "appel d'offres ouvert",
+ "categorie": "Travaux",
+ "date_limite_plis": null,
+ "lieu_ouverture": "SOCIETE AL OMRANE DRÂA-TAFILALET",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": null,
+ "justification": "l'offre la mieux disante par rapport au prix de référence.",
+ "infructueux": false,
+ "attributaire": "GRP AQUAGEC & OUMOUJANE",
+ "montant_attribue": 31017307.2,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "GRP SONAROUZ & AMRAD",
+   "montant_acte_engagement": 33837062.4,
+   "montant_apres_verification": null,
+   "autres_montants": [
+    33837062.4
+   ],
+   "lots": [],
+   "statut": "ecarte_dossier_administratif_technique",
+   "admis_avec_reserve": true
+  },
+  {
+   "nom": "GRP SMYBAM & AIT KALLAL",
+   "montant_acte_engagement": 33481068.31,
+   "montant_apres_verification": null,
+   "autres_montants": [
+    33481068.31
+   ],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "AGOUDI DAYS BTP",
+   "montant_acte_engagement": 34390439.36,
+   "montant_apres_verification": null,
+   "autres_montants": [
+    34390439.36
+   ],
+   "lots": [],
+   "statut": "ecarte_dossier_administratif_technique",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "GRP AQUAGEC & OUMOUJANE",
+   "montant_acte_engagement": 31017307.2,
+   "montant_apres_verification": null,
+   "autres_montants": [
+    31017307.2
+   ],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": true
+  },
+  {
+   "nom": "GRP WATEGA & UBAC",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_dossier_administratif_technique",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 5,
+ "alertes_ocr": [
+  "« GRP SONAROUZ & AMRAD » absent de la liste des plis déposés (nom mal lu ?).",
+  "« GRP SMYBAM & AIT KALLAL » absent de la liste des plis déposés (nom mal lu ?).",
+  "« AGOUDI DAYS BTP » absent de la liste des plis déposés (nom mal lu ?).",
+  "« GRP AQUAGEC & OUMOUJANE » absent de la liste des plis déposés (nom mal lu ?)."
+ ],
+ "notes_ocr": [
+  "« GRP WATEGA & UBAC » absent de la liste des plis déposés (nom mal lu ?)."
+ ],
+ "qualite": "complet"
+}

@@ -1,0 +1,86 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "817697",
+ "orgAcronyme": "o8p",
+ "reference_pv": "02/2024/ANEPCO",
+ "nouveau": true,
+ "reference": "02/2024/ANEPCO",
+ "objet": "TRAVAUX DE RECONSTRUCTION DE LA MOSQUEE ZENATA PROVINCE DE MOHAMMEDIA",
+ "acheteur": "Ministère des habous Et des affaires islamiques",
+ "procedure": "appel d'offres ouvert national",
+ "categorie": "Travaux",
+ "date_limite_plis": "05/06/2024",
+ "lieu_ouverture": "ANEP CENTRE OUEST",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "23/07/2024",
+ "justification": "L'offre avantageuse est l’offre la mieux disante par rapport au prix de référence",
+ "infructueux": false,
+ "attributaire": "GROUPEMENT EXPERT CONSTRUCTION / SRGC",
+ "montant_attribue": 5193873.38,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "MOGC",
+   "montant_acte_engagement": 6003599.5,
+   "montant_apres_verification": null,
+   "autres_montants": [
+    6003599.85
+   ],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "DBICHATE NEGOCE",
+   "montant_acte_engagement": 5038111.91,
+   "montant_apres_verification": null,
+   "autres_montants": [
+    5038126.92
+   ],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": true
+  },
+  {
+   "nom": "TANSIFT CONTRACTOR",
+   "montant_acte_engagement": 6119373.9,
+   "montant_apres_verification": null,
+   "autres_montants": [
+    6115392.55
+   ],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "GROUPEMENT EXPERT CONSTRUCTION / SRGC",
+   "montant_acte_engagement": 5348594.98,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "GROUPEMENT EXPERT",
+   "montant_acte_engagement": 5193865.84,
+   "montant_apres_verification": null,
+   "autres_montants": [
+    5193873.38
+   ],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 5,
+ "alertes_ocr": [
+  "« GROUPEMENT EXPERT » absent de la liste des plis déposés (nom mal lu ?)."
+ ],
+ "notes_ocr": [],
+ "qualite": "complet"
+}

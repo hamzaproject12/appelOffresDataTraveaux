@@ -1,0 +1,51 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "1046181",
+ "orgAcronyme": "m8x",
+ "reference_pv": "24/BR/RGON/2026",
+ "nouveau": true,
+ "reference": "24/BR/RGON/2026",
+ "objet": "TRAVAUX DE MISE A NIVEAU DE LA VOIE MENANT A LA ZONE D'ACTIVITE ECONOMIQUE AU STADE DE TIHOUNA EST ET A LA ROUTE DE FAM EL HISN",
+ "acheteur": "Conseil de la Région de Guelmim-Oued Noun",
+ "procedure": "appel d'offres ouvert",
+ "categorie": "Travaux",
+ "date_limite_plis": "04/08/2026",
+ "lieu_ouverture": "la salle de réunion n01 au siège de la Région de Guelmim-Oued Noun",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "12/08/2026",
+ "justification": "POffre la plus avantageuse.",
+ "infructueux": false,
+ "attributaire": "STE HTSM",
+ "montant_attribue": null,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "STE HTSM",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "STE WINE SAKOUR",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": true
+  }
+ ],
+ "nombre_soumissionnaires": 2,
+ "alertes_ocr": [
+  "Montant de l'attributaire « STE HTSM » non trouvé."
+ ],
+ "notes_ocr": [],
+ "qualite": "participants"
+}

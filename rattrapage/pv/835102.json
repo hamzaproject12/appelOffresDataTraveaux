@@ -1,0 +1,165 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "835102",
+ "orgAcronyme": "o4d",
+ "reference_pv": "07/2024",
+ "nouveau": true,
+ "reference": "07/2024",
+ "objet": "Travaux de peinture interne de la Direction Régionale Orient et les agences CNSS Oujda Chouhadaa et Berkane, en lot unique",
+ "acheteur": "Direction Régionale de la CNSS Orient",
+ "procedure": null,
+ "categorie": "Travaux",
+ "date_limite_plis": "18/09/2024",
+ "lieu_ouverture": "La salle de réunion, à la Direction Régionale de la CNSS Orient",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "04/10/2024",
+ "justification": "Offre la plus avantageuse par rapport au prix de référence : 87 162.00 DHS",
+ "infructueux": false,
+ "attributaire": "SOCIETE SAP ESTUDIOS",
+ "montant_attribue": 86880.0,
+ "attributaires_par_lot": [
+  {
+   "lot": null,
+   "attributaire": "SOCIETE SAP ESTUDIOS",
+   "montant": 86880.0
+  },
+  {
+   "lot": null,
+   "attributaire": "SOCIETE YOUNES DIVERS",
+   "montant": 91926.0
+  },
+  {
+   "lot": null,
+   "attributaire": "SOCIETE PARA BAT",
+   "montant": 85578.0
+  },
+  {
+   "lot": null,
+   "attributaire": "SOCIETE HAJAR RESSOURCES",
+   "montant": 87139.2
+  },
+  {
+   "lot": null,
+   "attributaire": "SOCIETE GST WORK",
+   "montant": 86862.0
+  },
+  {
+   "lot": null,
+   "attributaire": "SOCIETE CDR AMENAGEMENT",
+   "montant": 87246.0
+  },
+  {
+   "lot": null,
+   "attributaire": "SOCIETE GRANDS PROJETS DU",
+   "montant": 86056.8
+  }
+ ],
+ "soumissionnaires": [
+  {
+   "nom": "SOCIETE CONTRAFORES",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_dossier_administratif_technique",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "SOCIETE SAP ESTUDIOS",
+   "montant_acte_engagement": 86880.0,
+   "montant_apres_verification": 86880.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "SOCIETE YOUNES DIVERS",
+   "montant_acte_engagement": 90918.0,
+   "montant_apres_verification": 91926.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "SOCIETE RENOV-WEST",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_dossier_administratif_technique",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "SOCIETE MAHJOURI TRAV",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_dossier_administratif_technique",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "SOCIETE PARA BAT",
+   "montant_acte_engagement": 85578.0,
+   "montant_apres_verification": 85578.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "SOCIETE HAJAR RESSOURCES",
+   "montant_acte_engagement": 87139.2,
+   "montant_apres_verification": 87139.2,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "SOCIETE GST WORK",
+   "montant_acte_engagement": 86862.0,
+   "montant_apres_verification": 86862.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "SOCIETE CDR AMENAGEMENT",
+   "montant_acte_engagement": 87246.0,
+   "montant_apres_verification": 87246.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "SOCIETE GRANDS PROJETS DU",
+   "montant_acte_engagement": 86056.8,
+   "montant_apres_verification": 86056.8,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 10,
+ "alertes_ocr": [
+  "« SOCIETE PARA BAT » absent de la liste des plis déposés (nom mal lu ?).",
+  "« SOCIETE HAJAR RESSOURCES » absent de la liste des plis déposés (nom mal lu ?).",
+  "« SOCIETE GST WORK » absent de la liste des plis déposés (nom mal lu ?).",
+  "« SOCIETE CDR AMENAGEMENT » absent de la liste des plis déposés (nom mal lu ?).",
+  "« SOCIETE GRANDS PROJETS DU » absent de la liste des plis déposés (nom mal lu ?)."
+ ],
+ "notes_ocr": [
+  "« SOCIETE YOUNES DIVERS » : montant rectifié de 90 918.00 à 91 926.00 DH."
+ ],
+ "qualite": "attribution"
+}

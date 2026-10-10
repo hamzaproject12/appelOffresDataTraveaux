@@ -1,0 +1,115 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "684530",
+ "orgAcronyme": "p8x",
+ "reference_pv": "45/2022",
+ "nouveau": true,
+ "reference": "45/2022",
+ "objet": null,
+ "acheteur": null,
+ "procedure": "appel d'offres ouvert",
+ "categorie": "Travaux",
+ "date_limite_plis": null,
+ "lieu_ouverture": null,
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": null,
+ "justification": null,
+ "infructueux": false,
+ "attributaire": null,
+ "montant_attribue": null,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "H.T.S NEGO sarl",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_dossier_administratif_technique",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "AHEL CHAMAL TRAVAUX ET SERVICES sarl",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_dossier_administratif_technique",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "TACHMAMOT TRAD sarl",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_dossier_administratif_technique",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "CERAMICAL sarl au",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_dossier_administratif_technique",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "MOKHTAR POLY SERVICE sarl",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_dossier_administratif_technique",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "ARIBEN TRAV sarl",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_dossier_administratif_technique",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "UNION MB CONSTRUCTION sarl",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_dossier_administratif_technique",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "TRAVAUX D’EXTENSION DU LYCEE ABI BAKR ERRAZI A LA COMMUNE SKHIRAT PREFCTURE SKHIRAT - TEMARA EN LOT",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_dossier_administratif_technique",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 8,
+ "alertes_ocr": [
+  "Attributaire non trouvé."
+ ],
+ "notes_ocr": [
+  "« H.T.S NEGO sarl » absent de la liste des plis déposés (nom mal lu ?).",
+  "« AHEL CHAMAL TRAVAUX ET SERVICES sarl » absent de la liste des plis déposés (nom mal lu ?).",
+  "« TACHMAMOT TRAD sarl » absent de la liste des plis déposés (nom mal lu ?).",
+  "« CERAMICAL sarl au » absent de la liste des plis déposés (nom mal lu ?).",
+  "« MOKHTAR POLY SERVICE sarl » absent de la liste des plis déposés (nom mal lu ?).",
+  "« ARIBEN TRAV sarl » absent de la liste des plis déposés (nom mal lu ?).",
+  "« UNION MB CONSTRUCTION sarl » absent de la liste des plis déposés (nom mal lu ?).",
+  "« TRAVAUX D’EXTENSION DU LYCEE ABI BAKR ERRAZI A LA COMMUNE SKHIRAT PREFCTURE SKHIRAT - TEMARA EN LOT » absent de la liste des plis déposés (nom mal lu ?).",
+  "Maître d'ouvrage absent du PV (utiliser l'acheteur public du portail)."
+ ],
+ "qualite": "participants"
+}

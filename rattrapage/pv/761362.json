@@ -1,0 +1,51 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "761362",
+ "orgAcronyme": "d4q",
+ "reference_pv": "81/DR3/2023",
+ "nouveau": true,
+ "reference": "81/DR3/2023",
+ "objet": "relatif à",
+ "acheteur": null,
+ "procedure": "appel d'offres ouvert",
+ "categorie": "Travaux",
+ "date_limite_plis": "03/10/2023",
+ "lieu_ouverture": "au Siège de la Direction Régionale du Centre (DR3) Boulevard Mohamed VI, Quartier Administratif - Khouribga - Maroc ‘",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "05/12/2023",
+ "justification": "Moins-disant",
+ "infructueux": false,
+ "attributaire": "LPEE",
+ "montant_attribue": 517776.0,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "nu — CE — y ÿ — PAYS ee",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "depose",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "LPEE",
+   "montant_acte_engagement": 517776.0,
+   "montant_apres_verification": 517776.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 2,
+ "alertes_ocr": [],
+ "notes_ocr": [
+  "Maître d'ouvrage absent du PV (utiliser l'acheteur public du portail)."
+ ],
+ "qualite": "attribution"
+}

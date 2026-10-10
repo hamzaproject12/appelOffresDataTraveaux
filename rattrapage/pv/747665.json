@@ -1,0 +1,88 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "747665",
+ "orgAcronyme": "g3h",
+ "reference_pv": "59/2023",
+ "nouveau": true,
+ "reference": "59/2023",
+ "objet": "Travaux d'aménagement des espaces verts du siège du Ministère de l'Intérieur à Rabat (lot unique)",
+ "acheteur": "Ministère de l'Intérieur",
+ "procedure": null,
+ "categorie": "Travaux",
+ "date_limite_plis": "09/10/2023",
+ "lieu_ouverture": "la Direction des Affaires Administratives (Division des Marchés du Ministère de l'Intérieur)",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "17/10/2023",
+ "justification": "l’offre jugée la moins disante ;",
+ "infructueux": false,
+ "attributaire": "Sté. MP PROJECT",
+ "montant_attribue": null,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "L - Sté. Total VEGETAL",
+   "montant_acte_engagement": 3598068.0,
+   "montant_apres_verification": null,
+   "autres_montants": [
+    3598068.0
+   ],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Sté. SOMECOTRAD",
+   "montant_acte_engagement": 3528000.0,
+   "montant_apres_verification": null,
+   "autres_montants": [
+    3528000.0
+   ],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "AOO",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Sté. Total VEGETAL modèle",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": true
+  },
+  {
+   "nom": "Sté. MP PROJECT",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 5,
+ "alertes_ocr": [
+  "« L - Sté. Total VEGETAL » absent de la liste des plis déposés (nom mal lu ?).",
+  "« Sté. SOMECOTRAD » absent de la liste des plis déposés (nom mal lu ?).",
+  "« Sté. MP PROJECT » absent de la liste des plis déposés (nom mal lu ?).",
+  "Montant de l'attributaire « Sté. MP PROJECT » non trouvé."
+ ],
+ "notes_ocr": [
+  "« AOO » absent de la liste des plis déposés (nom mal lu ?).",
+  "« Sté. Total VEGETAL modèle » absent de la liste des plis déposés (nom mal lu ?)."
+ ],
+ "qualite": "complet"
+}

@@ -1,0 +1,73 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "862014",
+ "orgAcronyme": "f9f",
+ "reference_pv": "22/2024",
+ "nouveau": true,
+ "reference": "22/2024",
+ "objet": null,
+ "acheteur": "Commune Dcheira EI Jihadia",
+ "procedure": "appel d'offres ouvert national",
+ "categorie": "Travaux",
+ "date_limite_plis": "10/09/2024",
+ "lieu_ouverture": null,
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": null,
+ "justification": null,
+ "infructueux": false,
+ "attributaire": "tqqcts ll_ll 4lB_Açll",
+ "montant_attribue": 813180.0,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "Commune Dcheira Jihadia Tel/fax",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_dossier_administratif_technique",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "El.l,C1'Rt('l'l'li Irll)ll- DLI MAROC' t SF.l",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_dossier_administratif_technique",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "I Société Ri I'RAM",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_dossier_administratif_technique",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "tqqcts ll_ll 4lB_Açll",
+   "montant_acte_engagement": 813180.0,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 4,
+ "alertes_ocr": [
+  "« tqqcts ll_ll 4lB_Açll » absent de la liste des plis déposés (nom mal lu ?)."
+ ],
+ "notes_ocr": [
+  "« Commune Dcheira Jihadia Tel/fax » absent de la liste des plis déposés (nom mal lu ?).",
+  "« El.l,C1'Rt('l'l'li Irll)ll- DLI MAROC' t SF.l » absent de la liste des plis déposés (nom mal lu ?).",
+  "« I Société Ri I'RAM » absent de la liste des plis déposés (nom mal lu ?)."
+ ],
+ "qualite": "attribution"
+}

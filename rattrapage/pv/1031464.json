@@ -1,0 +1,153 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "1031464",
+ "orgAcronyme": "j0w",
+ "reference_pv": "22/202/AREP-MS",
+ "nouveau": true,
+ "reference": "22/202/AREP-MS",
+ "objet": null,
+ "acheteur": null,
+ "procedure": "appel d'offres ouvert",
+ "categorie": "Travaux",
+ "date_limite_plis": "31/07/2026",
+ "lieu_ouverture": "SIEGE DE L'AGENCE REGIONALE D’EXECUTION DES PROJETS MARRAKECH SAFI",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": null,
+ "justification": null,
+ "infructueux": false,
+ "attributaire": "STE SODIMINE",
+ "montant_attribue": 16194480.0,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "STE ATLAS BOUGAFER",
+   "montant_acte_engagement": 16059768.0,
+   "montant_apres_verification": 16059768.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "GR STE BOULMANE TERRASSEMENT ET STE FOUZA METAL",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_dossier_administratif_technique",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "GR STE SONAROUZ ET STE REFORMAN",
+   "montant_acte_engagement": 16048008.0,
+   "montant_apres_verification": 16048008.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "GR STE SONARAM ET STE SONOCIC",
+   "montant_acte_engagement": 16543456.8,
+   "montant_apres_verification": 16543456.8,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "STE IMISYB MAROC",
+   "montant_acte_engagement": 17859180.0,
+   "montant_apres_verification": 17859180.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "STE SMYBAM OA",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "depose",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "STE SODIMINE",
+   "montant_acte_engagement": 16194480.0,
+   "montant_apres_verification": 16194480.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "STE SAGERA",
+   "montant_acte_engagement": 16880100.0,
+   "montant_apres_verification": 16880100.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "GR STE AZDOUR ET STE CTG ATLAS",
+   "montant_acte_engagement": 16087692.0,
+   "montant_apres_verification": 16087692.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "STE MOGABUILDING",
+   "montant_acte_engagement": 18857856.0,
+   "montant_apres_verification": 18857856.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_offre_financiere",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "STE AOM2H",
+   "montant_acte_engagement": 16118940.0,
+   "montant_apres_verification": 16118940.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "STE SMYBAM",
+   "montant_acte_engagement": 16794414.0,
+   "montant_apres_verification": 16794414.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "GR STE SONASIA ET STE HYDROSPHERE",
+   "montant_acte_engagement": 16168754.4,
+   "montant_apres_verification": 16168754.4,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 13,
+ "alertes_ocr": [
+  "« STE SMYBAM » absent de la liste des plis déposés (nom mal lu ?).",
+  "« GR STE SONASIA ET STE HYDROSPHERE » absent de la liste des plis déposés (nom mal lu ?)."
+ ],
+ "notes_ocr": [
+  "Maître d'ouvrage absent du PV (utiliser l'acheteur public du portail)."
+ ],
+ "qualite": "complet"
+}

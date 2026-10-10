@@ -1,0 +1,74 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "733157",
+ "orgAcronyme": "g3h",
+ "reference_pv": null,
+ "nouveau": true,
+ "reference": null,
+ "objet": "TRAVAUX DE CoNSTRUCTION DU PACFIALIK DE LA VILLE DE BEN TAIEB ET DU LOGEMENT DE FONCTION DU PACHA",
+ "acheteur": "la Province de DRIOUCH, représentée par Mr. I-e Gouverneur",
+ "procedure": null,
+ "categorie": "Travaux",
+ "date_limite_plis": "20/07/2023",
+ "lieu_ouverture": "Secrétariat Général de Ia Province de DRIOUCH",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "31/07/2023",
+ "justification": "L'offre la moins üsante.",
+ "infructueux": false,
+ "attributaire": null,
+ "montant_attribue": null,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "STE MIDASCO SARL",
+   "montant_acte_engagement": 3801354.0,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "STE PROJET BATIMENT SARL",
+   "montant_acte_engagement": 4193594.0,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "STE CHOUARI SÂRL",
+   "montant_acte_engagement": 3492000.0,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "concurrenr r.rcrÏéant",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_offre_financiere",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 4,
+ "alertes_ocr": [
+  "« STE MIDASCO SARL » absent de la liste des plis déposés (nom mal lu ?).",
+  "« STE PROJET BATIMENT SARL » absent de la liste des plis déposés (nom mal lu ?).",
+  "« STE CHOUARI SÂRL » absent de la liste des plis déposés (nom mal lu ?).",
+  "Attributaire non trouvé."
+ ],
+ "notes_ocr": [
+  "« concurrenr r.rcrÏéant » absent de la liste des plis déposés (nom mal lu ?)."
+ ],
+ "qualite": "complet"
+}

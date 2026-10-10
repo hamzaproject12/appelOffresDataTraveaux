@@ -1,0 +1,62 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "961846",
+ "orgAcronyme": "o8p",
+ "reference_pv": "44/SNTL/2025",
+ "nouveau": true,
+ "reference": "44/SNTL/2025",
+ "objet": "Travaux de remise en état des fumidômes du centre logistique SNTL de Mohammadia",
+ "acheteur": "SNTL",
+ "procedure": null,
+ "categorie": "Travaux",
+ "date_limite_plis": "05/12/2025",
+ "lieu_ouverture": "Siège SNTL Rabat",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "08/12/2025",
+ "justification": null,
+ "infructueux": false,
+ "attributaire": "ECOFIRE",
+ "montant_attribue": 642470.4,
+ "attributaires_par_lot": [
+  {
+   "lot": null,
+   "attributaire": "ECOFIRE",
+   "montant": 642470.4
+  },
+  {
+   "lot": null,
+   "attributaire": "ECOFIRE est retenue",
+   "montant": 642470.4
+  }
+ ],
+ "soumissionnaires": [
+  {
+   "nom": "ECOFIRE",
+   "montant_acte_engagement": 642470.4,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": true
+  },
+  {
+   "nom": "ECOFIRE est retenue",
+   "montant_acte_engagement": 642470.4,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 2,
+ "alertes_ocr": [
+  "« ECOFIRE est retenue » absent de la liste des plis déposés (nom mal lu ?)."
+ ],
+ "notes_ocr": [],
+ "qualite": "attribution"
+}

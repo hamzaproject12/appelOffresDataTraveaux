@@ -1,0 +1,59 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "968044",
+ "orgAcronyme": "o8p",
+ "reference_pv": "44/DPCR-ANP/2025",
+ "nouveau": true,
+ "reference": "44/DPCR-ANP/2025",
+ "objet": "Travaux d’entretien préventif, systématique et curatif de l’éclairage public et des installations électriques des bâtiments et magasins du port de Casablanca",
+ "acheteur": "AGENCE NATIONALE DES PORTS, DIRECTION DU PORT DE CASABLANCA ET REGION",
+ "procedure": null,
+ "categorie": "Travaux",
+ "date_limite_plis": "04/12/2025",
+ "lieu_ouverture": "DIRECTION DU PORT DE CASABLANCA ET REGION",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "30/12/2025",
+ "justification": null,
+ "infructueux": false,
+ "attributaire": null,
+ "montant_attribue": null,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "EMPEGEC-LES GRANDS ATELIER DE",
+   "montant_acte_engagement": 1290628.71,
+   "montant_apres_verification": null,
+   "autres_montants": [
+    1548754.45,
+    2456767.42,
+    2948120.9
+   ],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "MAINTENANCE EMPEGEC",
+   "montant_acte_engagement": 1358325.0,
+   "montant_apres_verification": null,
+   "autres_montants": [
+    1629990.0,
+    2609950.0,
+    3131940.0
+   ],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 2,
+ "alertes_ocr": [
+  "Attributaire non trouvé."
+ ],
+ "notes_ocr": [],
+ "qualite": "complet"
+}

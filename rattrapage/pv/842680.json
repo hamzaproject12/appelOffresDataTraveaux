@@ -1,0 +1,103 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "842680",
+ "orgAcronyme": "q1s",
+ "reference_pv": "14/DPA/TT/2024",
+ "nouveau": true,
+ "reference": "14/DPA/TT/2024",
+ "objet": "Gros travaux d'entretien et de réparation de bâtiments administratifs de la Direction Provinciale de l’Agriculture de TanTan",
+ "acheteur": "Directeur Provincial de l'Agriculture de TanTan",
+ "procedure": "appel d'offres ouvert simplifié",
+ "categorie": "Travaux",
+ "date_limite_plis": "24/10/2024",
+ "lieu_ouverture": "Salle de réunion de la DPA de TanTan",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "28/10/2024",
+ "justification": "% Société qualifiée dans le domaine - T Offre mieux disante",
+ "infructueux": false,
+ "attributaire": "Société EL HERD TRAVAUX DE CONSTRUCTION sarl",
+ "montant_attribue": 94056.0,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "Société TATANO DIMA sarl",
+   "montant_acte_engagement": 104760.0,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_offre_financiere",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Société HOPE SAHARA sarl",
+   "montant_acte_engagement": 90000.0,
+   "montant_apres_verification": 90000.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Société ATARF sarl.au",
+   "montant_acte_engagement": 79332.0,
+   "montant_apres_verification": 79332.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "æ Société IKRAGAR sarl.au",
+   "montant_acte_engagement": 112740.0,
+   "montant_apres_verification": 112740.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Société BALAW sarl",
+   "montant_acte_engagement": 94344.0,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_offre_financiere",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Société EL HERD TRAVAUX DE CONSTRUCTION sarl",
+   "montant_acte_engagement": 94056.0,
+   "montant_apres_verification": 94056.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": true
+  },
+  {
+   "nom": "Société HAMROU TRAVAUX sarl.au",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_dossier_administratif_technique",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 7,
+ "alertes_ocr": [
+  "« Société TATANO DIMA sarl » absent de la liste des plis déposés (nom mal lu ?).",
+  "« Société HOPE SAHARA sarl » absent de la liste des plis déposés (nom mal lu ?).",
+  "« Société ATARF sarl.au » absent de la liste des plis déposés (nom mal lu ?).",
+  "« æ Société IKRAGAR sarl.au » absent de la liste des plis déposés (nom mal lu ?).",
+  "« Société BALAW sarl » absent de la liste des plis déposés (nom mal lu ?).",
+  "« Société EL HERD TRAVAUX DE CONSTRUCTION sarl » absent de la liste des plis déposés (nom mal lu ?)."
+ ],
+ "notes_ocr": [
+  "« Société HAMROU TRAVAUX sarl.au » absent de la liste des plis déposés (nom mal lu ?)."
+ ],
+ "qualite": "complet"
+}

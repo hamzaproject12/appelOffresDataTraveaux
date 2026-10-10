@@ -1,0 +1,98 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "749998",
+ "orgAcronyme": "q1s",
+ "reference_pv": "10/2023/SER",
+ "nouveau": true,
+ "reference": "10/2023/SER",
+ "objet": "TRAVAUX DE REALISATION DES CONDUITES DE RACCORDEMENT ET DU GENIE CIVIL DES PRISES D'IRRIGATION Y COMPRIS LA FOURNITURE ET POSE DE LEURS EQUIPEMENTS AINSI QUE LE REMPLACEMENT DE CERTAINS TRONÇONS DES CONDUITES PRINCIPALES DANS LES SECTEURS 1 ET 2 DU",
+ "acheteur": "ORMVA de la Moulouya",
+ "procedure": null,
+ "categorie": "Travaux",
+ "date_limite_plis": "04/07/2023",
+ "lieu_ouverture": "Salle des réunions de l'ORMVAM",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "01/08/2023",
+ "justification": "L'offre présentée par les sociétés SOCHTRAP et GROUPEMENT CAPEP ET SOTRADEMA sont les offres les plus avantageuses.",
+ "infructueux": false,
+ "attributaire": "GROUPEMENT CAPEP ET SOTRADEMA",
+ "montant_attribue": null,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "SNCE",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "GROUPEMENT CAPEP ET SOTRADEMA",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [
+    "1"
+   ],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "STAM",
+   "montant_acte_engagement": 94312466.4,
+   "montant_apres_verification": null,
+   "autres_montants": [
+    129928801.2
+   ],
+   "lots": [
+    "1",
+    "2"
+   ],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "SOCIETE NOUVELLE DES",
+   "montant_acte_engagement": 93842958.0,
+   "montant_apres_verification": null,
+   "autres_montants": [
+    133252578.0
+   ],
+   "lots": [
+    "2"
+   ],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "GROUPEMENT CAPEP ET",
+   "montant_acte_engagement": 93048432.77,
+   "montant_apres_verification": null,
+   "autres_montants": [
+    126725438.4
+   ],
+   "lots": [
+    "1",
+    "2"
+   ],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 5,
+ "alertes_ocr": [
+  "« SOCIETE NOUVELLE DES » absent de la liste des plis déposés (nom mal lu ?).",
+  "« GROUPEMENT CAPEP ET » absent de la liste des plis déposés (nom mal lu ?).",
+  "Montant de l'attributaire « GROUPEMENT CAPEP ET SOTRADEMA » non trouvé."
+ ],
+ "notes_ocr": [
+  "Marché alloti (2 lots)."
+ ],
+ "qualite": "complet"
+}

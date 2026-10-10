@@ -1,0 +1,76 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "724530",
+ "orgAcronyme": "a1z",
+ "reference_pv": "02/2023/CM/DT",
+ "nouveau": true,
+ "reference": "02/2023/CM/DT",
+ "objet": "TRAVAUX D'ENTRETIEN DE LA PISCINE COMMUNALE DE MOHAMMEDIA",
+ "acheteur": "Président du Conseil Communal de la ville de Mohammedia",
+ "procedure": "appel d'offres ouvert",
+ "categorie": "Travaux",
+ "date_limite_plis": "13/06/2023",
+ "lieu_ouverture": "La grande salle de réunion de l'hôtel de ville",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "26/06/2023",
+ "justification": "offre avantageuse",
+ "infructueux": false,
+ "attributaire": "Société A.O.R.K IMMOBILIER",
+ "montant_attribue": 276000.0,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "Société PLOMO CHAUFF",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_dossier_administratif_technique",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Société A.O.R.K IMMOBILIER",
+   "montant_acte_engagement": 276000.0,
+   "montant_apres_verification": 276000.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Société METRA",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_dossier_administratif_technique",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Société AQUAPLANETE",
+   "montant_acte_engagement": 333960.0,
+   "montant_apres_verification": 333960.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_offre_financiere",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Société IKHLAS ELEC",
+   "montant_acte_engagement": 285480.0,
+   "montant_apres_verification": 285480.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_offre_financiere",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 5,
+ "alertes_ocr": [],
+ "notes_ocr": [],
+ "qualite": "complet"
+}

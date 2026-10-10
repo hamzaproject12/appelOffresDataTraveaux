@@ -1,0 +1,78 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "704873",
+ "orgAcronyme": "h5r",
+ "reference_pv": "10-2022",
+ "nouveau": true,
+ "reference": "10-2022",
+ "objet": "Construction des routes (chemins vicinaux et pistes) aux différents douars de la commune",
+ "acheteur": "Commune Ain Tizgha YŸ”",
+ "procedure": "appel d'offres ouvert",
+ "categorie": "Travaux",
+ "date_limite_plis": null,
+ "lieu_ouverture": null,
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "03/04/2023",
+ "justification": null,
+ "infructueux": false,
+ "attributaire": "SOCIETE GENERAL CHANTIERS SARL",
+ "montant_attribue": 532083.6,
+ "attributaires_par_lot": [
+  {
+   "lot": null,
+   "attributaire": "SOCIETE GENERAL CHANTIERS SARL",
+   "montant": 532083.6
+  },
+  {
+   "lot": null,
+   "attributaire": "SOCIETE TP MAR SARL",
+   "montant": 570628.8
+  }
+ ],
+ "soumissionnaires": [
+  {
+   "nom": "SOCIETE ALEMOU NOUGHOU TRAVAUX SARL",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_dossier_administratif_technique",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "SOCIETE GENERAL CHANTIERS SARL",
+   "montant_acte_engagement": 532083.6,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "SOCIETE SDN SARL",
+   "montant_acte_engagement": 490186.8,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_offre_financiere",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "SOCIETE TP MAR SARL",
+   "montant_acte_engagement": 570628.8,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 4,
+ "alertes_ocr": [],
+ "notes_ocr": [],
+ "qualite": "complet"
+}

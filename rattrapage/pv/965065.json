@@ -1,0 +1,90 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "965065",
+ "orgAcronyme": "q0x",
+ "reference_pv": null,
+ "nouveau": true,
+ "reference": null,
+ "objet": null,
+ "acheteur": null,
+ "procedure": null,
+ "categorie": "Travaux",
+ "date_limite_plis": "77/12/2025",
+ "lieu_ouverture": "salle de réunion de la commune de M'rirt'",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "17/12/2025",
+ "justification": null,
+ "infructueux": false,
+ "attributaire": "DTVERS ET NEGOCE",
+ "montant_attribue": 302280.0,
+ "attributaires_par_lot": [
+  {
+   "lot": null,
+   "attributaire": "DTVERS ET NEGOCE",
+   "montant": 302280.0
+  },
+  {
+   "lot": null,
+   "attributaire": "STE SWANI TRAVAUX DIVERS ET NEGOCE SARL AU",
+   "montant": 301932.0
+  },
+  {
+   "lot": null,
+   "attributaire": "TERPEGEO",
+   "montant": 325200.0
+  }
+ ],
+ "soumissionnaires": [
+  {
+   "nom": "TERPEGEO",
+   "montant_acte_engagement": 325200.0,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "AZULTRA",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_offre_financiere",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "STE SWANI TRAVAUX DIVERS ET NEGOCE SARL AU",
+   "montant_acte_engagement": 301932.0,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "DTVERS ET NEGOCE",
+   "montant_acte_engagement": 302280.0,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 4,
+ "alertes_ocr": [
+  "« TERPEGEO » absent de la liste des plis déposés (nom mal lu ?).",
+  "« STE SWANI TRAVAUX DIVERS ET NEGOCE SARL AU » absent de la liste des plis déposés (nom mal lu ?).",
+  "« DTVERS ET NEGOCE » absent de la liste des plis déposés (nom mal lu ?)."
+ ],
+ "notes_ocr": [
+  "« AZULTRA » absent de la liste des plis déposés (nom mal lu ?).",
+  "Maître d'ouvrage absent du PV (utiliser l'acheteur public du portail)."
+ ],
+ "qualite": "attribution"
+}

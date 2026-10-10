@@ -1,0 +1,94 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "850784",
+ "orgAcronyme": "a1z",
+ "reference_pv": "56/24",
+ "nouveau": true,
+ "reference": "56/24",
+ "objet": "Entretien des Plages",
+ "acheteur": null,
+ "procedure": null,
+ "categorie": "Travaux",
+ "date_limite_plis": "09/07/2024",
+ "lieu_ouverture": "la salle des réunions de la Commune de Casablanca, sise place Mohamed V, Avenue Hassan II, 2ème étage, bureau 38",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "17/07/2024",
+ "justification": "l’offre économiquement la plus avantageuse.",
+ "infructueux": false,
+ "attributaire": "STE PALAIS NEGOCE",
+ "montant_attribue": 1134060.0,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "STE DECOARTISA",
+   "montant_acte_engagement": 1123500.0,
+   "montant_apres_verification": 1123500.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "STE ALBOUNYANE INGENIERIE MAROC",
+   "montant_acte_engagement": 1170180.0,
+   "montant_apres_verification": 1170180.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "STE MERY BAT",
+   "montant_acte_engagement": 1170540.0,
+   "montant_apres_verification": 1170540.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "STE PALAIS NEGOCE",
+   "montant_acte_engagement": 1134060.0,
+   "montant_apres_verification": 1134060.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "STE VISION SPORT",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_dossier_administratif_technique",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "STE SWISS TRAVAUX ET SERVICES",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_dossier_administratif_technique",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 6,
+ "alertes_ocr": [
+  "« STE DECOARTISA » absent de la liste des plis déposés (nom mal lu ?).",
+  "« STE ALBOUNYANE INGENIERIE MAROC » absent de la liste des plis déposés (nom mal lu ?).",
+  "« STE MERY BAT » absent de la liste des plis déposés (nom mal lu ?).",
+  "« STE PALAIS NEGOCE » absent de la liste des plis déposés (nom mal lu ?)."
+ ],
+ "notes_ocr": [
+  "« STE VISION SPORT » absent de la liste des plis déposés (nom mal lu ?).",
+  "« STE SWISS TRAVAUX ET SERVICES » absent de la liste des plis déposés (nom mal lu ?).",
+  "Maître d'ouvrage absent du PV (utiliser l'acheteur public du portail)."
+ ],
+ "qualite": "complet"
+}

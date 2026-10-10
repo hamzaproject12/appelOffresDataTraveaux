@@ -1,0 +1,91 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "929670",
+ "orgAcronyme": "f9f",
+ "reference_pv": "05/2025/BC",
+ "nouveau": true,
+ "reference": "05/2025/BC",
+ "objet": "TRAVAUX D'AMENAGEMENT DE L'ACCES RELIANT LA RR 104 ET DOUAR AIT ADI O'MESSAOUD SUR UNE LONGUEUR DE 0+600 KM , COMMUNE DE TIZOUGHRANE, PROVINCE DE TIZNIT, REGION DE SOUS MASSA",
+ "acheteur": "COMMUNE DE TIZOUGHRANE",
+ "procedure": null,
+ "categorie": "Travaux",
+ "date_limite_plis": "08/09/2025",
+ "lieu_ouverture": "la salle de réunions au siège de la Commune de Tizoughrane",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "11/09/2025",
+ "justification": "Poffre économiquement la plus avantageuse",
+ "infructueux": false,
+ "attributaire": "SOCIETE BATIMENT ROUTIER DU SUD",
+ "montant_attribue": 538533.0,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "L.SOCIETE GROS CHANTIERS DU MAROC",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_dossier_administratif_technique",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "SOCIETE GROUND UP BTP",
+   "montant_acte_engagement": 535809.0,
+   "montant_apres_verification": null,
+   "autres_montants": [
+    535809.0
+   ],
+   "lots": [],
+   "statut": "ecarte_dossier_administratif_technique",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "SOCIETE RIVERBETON SARL",
+   "montant_acte_engagement": 613797.0,
+   "montant_apres_verification": null,
+   "autres_montants": [
+    613797.0
+   ],
+   "lots": [],
+   "statut": "ecarte_dossier_administratif_technique",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "SOCIETE BATIMENT ROUTIER DU SUD",
+   "montant_acte_engagement": 538533.0,
+   "montant_apres_verification": null,
+   "autres_montants": [
+    538533.0
+   ],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "5OCIETE GROS CHANTIERS DU MAROC",
+   "montant_acte_engagement": 578343.0,
+   "montant_apres_verification": null,
+   "autres_montants": [
+    578343.0
+   ],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 5,
+ "alertes_ocr": [
+  "« SOCIETE GROUND UP BTP » absent de la liste des plis déposés (nom mal lu ?).",
+  "« SOCIETE RIVERBETON SARL » absent de la liste des plis déposés (nom mal lu ?).",
+  "« SOCIETE BATIMENT ROUTIER DU SUD » absent de la liste des plis déposés (nom mal lu ?).",
+  "« 5OCIETE GROS CHANTIERS DU MAROC » absent de la liste des plis déposés (nom mal lu ?)."
+ ],
+ "notes_ocr": [
+  "« L.SOCIETE GROS CHANTIERS DU MAROC » absent de la liste des plis déposés (nom mal lu ?)."
+ ],
+ "qualite": "complet"
+}

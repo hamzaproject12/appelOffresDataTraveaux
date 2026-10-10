@@ -1,0 +1,120 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "865948",
+ "orgAcronyme": "a1z",
+ "reference_pv": "13/2024/AHM",
+ "nouveau": true,
+ "reference": "13/2024/AHM",
+ "objet": null,
+ "acheteur": "Le président de arrondissement Hay Mohammadi",
+ "procedure": "appel d'offres ouvert national",
+ "categorie": "Travaux",
+ "date_limite_plis": null,
+ "lieu_ouverture": null,
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "19/09/2024",
+ "justification": "son offre e",
+ "infructueux": false,
+ "attributaire": "&. SOCIETE SONABOTRA SARL",
+ "montant_attribue": 539520.0,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "SOCIETE TAKEN TRAV SARL Non production du CPS ct RC",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "depose",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "SOCIETE DRAA INJAZ SARL AU",
+   "montant_acte_engagement": 543360.0,
+   "montant_apres_verification": 83360.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "SOCIETE OALI TRAVAUX SARL AU",
+   "montant_acte_engagement": 544584.0,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "SOCIETE URBAN GC SARL",
+   "montant_acte_engagement": 494280.0,
+   "montant_apres_verification": 494280.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "&. SOCIETE SONABOTRA SARL",
+   "montant_acte_engagement": 39520.0,
+   "montant_apres_verification": 539520.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "SOCIETE CONSTRANE SARL AU",
+   "montant_acte_engagement": 543165.6,
+   "montant_apres_verification": 43165.6,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "T SOCIETE CORIAM SARL",
+   "montant_acte_engagement": 1528540.0,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "SOCIETE SOGCTR SARL AU",
+   "montant_acte_engagement": 556050.0,
+   "montant_apres_verification": 556050.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "SOCIETE AZER TYBAT SARL AU",
+   "montant_acte_engagement": 544560.0,
+   "montant_apres_verification": 544560.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 9,
+ "alertes_ocr": [
+  "« SOCIETE DRAA INJAZ SARL AU » : écart anormal entre montant initial et vérifié (lecture à vérifier).",
+  "« &. SOCIETE SONABOTRA SARL » : écart anormal entre montant initial et vérifié (lecture à vérifier).",
+  "« SOCIETE CONSTRANE SARL AU » : écart anormal entre montant initial et vérifié (lecture à vérifier)."
+ ],
+ "notes_ocr": [
+  "« SOCIETE DRAA INJAZ SARL AU » : montant rectifié de 543 360.00 à 83 360.00 DH.",
+  "« &. SOCIETE SONABOTRA SARL » : montant rectifié de 39 520.00 à 539 520.00 DH.",
+  "« SOCIETE CONSTRANE SARL AU » : montant rectifié de 543 165.60 à 43 165.60 DH."
+ ],
+ "qualite": "complet"
+}

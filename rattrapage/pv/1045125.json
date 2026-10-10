@@ -1,0 +1,69 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "1045125",
+ "orgAcronyme": "g3h",
+ "reference_pv": "17/DBM/INDH/2026",
+ "nouveau": true,
+ "reference": "17/DBM/INDH/2026",
+ "objet": "travaux de construction de la piste reliant la RN6 et le centre d'accueil Charayaa à la commune Mestegmer, dans le cadre de l’INDH - Province Taourirt, Région de l’Oriental",
+ "acheteur": "Province de Taourirt",
+ "procedure": "appel d'offres ouvert national",
+ "categorie": "Travaux",
+ "date_limite_plis": "28/09/2026",
+ "lieu_ouverture": "Salle de réunion sise au siège de la Province de Taourirt",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "01/10/2026",
+ "justification": "le candidat retenu a présenté les capacités techniques et financières suffisantes et son offre est avantageuse.",
+ "infructueux": false,
+ "attributaire": "Société W.ANAS SARL",
+ "montant_attribue": 2551380.0,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "Société OTHMAN",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": true
+  },
+  {
+   "nom": "Société W.ANAS SARL",
+   "montant_acte_engagement": 2551380.0,
+   "montant_apres_verification": 2551380.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": true
+  },
+  {
+   "nom": "Société SGTBO SARL",
+   "montant_acte_engagement": 3169752.0,
+   "montant_apres_verification": 3169752.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_offre_financiere",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "CONSTRUCTION DU BATIMENT",
+   "montant_acte_engagement": 2780340.0,
+   "montant_apres_verification": 2780340.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 4,
+ "alertes_ocr": [
+  "« CONSTRUCTION DU BATIMENT » absent de la liste des plis déposés (nom mal lu ?)."
+ ],
+ "notes_ocr": [],
+ "qualite": "complet"
+}

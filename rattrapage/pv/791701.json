@@ -1,0 +1,78 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "791701",
+ "orgAcronyme": "l1f",
+ "reference_pv": "01/2024",
+ "nouveau": true,
+ "reference": "01/2024",
+ "objet": "TRAVAUX DE RECONSTRUCTION DE SIEGE DE LA COMMUNE (FlNlTlON )",
+ "acheteur": "Commune Ksar Bjir",
+ "procedure": "appel d'offres ouvert national",
+ "categorie": "Travaux",
+ "date_limite_plis": null,
+ "lieu_ouverture": "bureau de président de la commune de KSAR BJIR",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": null,
+ "justification": "L' OFFRE LA PLUS AVANT",
+ "infructueux": false,
+ "attributaire": "SOCIETE SOJAWADRI TRAVAUX DIVERS NEGOCE",
+ "montant_attribue": 1398798.0,
+ "attributaires_par_lot": [
+  {
+   "lot": null,
+   "attributaire": "SOCIETE SOJAWADRI TRAVAUX DIVERS NEGOCE",
+   "montant": 1398798.0
+  },
+  {
+   "lot": null,
+   "attributaire": "SOCIETE KPITRAV",
+   "montant": 1421070.0
+  }
+ ],
+ "soumissionnaires": [
+  {
+   "nom": "SOCIETE SOJAWADRI TRAVAUX DIVERS NEGOCE",
+   "montant_acte_engagement": 1398798.0,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": true
+  },
+  {
+   "nom": "SOCIETE JDSCONSTRUCTION",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_dossier_administratif_technique",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "SOCIETE DYNOBAT",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_dossier_administratif_technique",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "SOCIETE KPITRAV",
+   "montant_acte_engagement": 1421070.0,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 4,
+ "alertes_ocr": [],
+ "notes_ocr": [],
+ "qualite": "attribution"
+}

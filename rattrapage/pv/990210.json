@@ -1,0 +1,63 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "990210",
+ "orgAcronyme": "s3z",
+ "reference_pv": "01/ST/2026/LAA",
+ "nouveau": true,
+ "reference": "01/ST/2026/LAA",
+ "objet": "\" (ENTRETIEN DES VOIES ET DES RUES DEGRADEES À L'ARRONDISSEMENT LAAYAYDA)\" ,",
+ "acheteur": "ARRONDISSEMENT LAAYAYDA",
+ "procedure": "appel d'offres ouvert",
+ "categorie": "Travaux",
+ "date_limite_plis": "25/03/2026",
+ "lieu_ouverture": null,
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "25/03/2026",
+ "justification": null,
+ "infructueux": true,
+ "attributaire": null,
+ "montant_attribue": null,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "GROUPEMENT ( SA AMI TP (sarl au) - ETABLISSEMENT ASSREM NEGOCE (sarl)",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_offre_financiere",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "DEGRADEES A L’ARRONDISSEMENT LAAYAYDA) INFRUCTUEUX",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_offre_financiere",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "GROUPEMENT ( SA AMI TP (sarl au) ( Garou)",
+   "montant_acte_engagement": 2053548.0,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 3,
+ "alertes_ocr": [
+  "« GROUPEMENT ( SA AMI TP (sarl au) ( Garou) » absent de la liste des plis déposés (nom mal lu ?)."
+ ],
+ "notes_ocr": [
+  "« GROUPEMENT ( SA AMI TP (sarl au) - ETABLISSEMENT ASSREM NEGOCE (sarl) » absent de la liste des plis déposés (nom mal lu ?).",
+  "« DEGRADEES A L’ARRONDISSEMENT LAAYAYDA) INFRUCTUEUX » absent de la liste des plis déposés (nom mal lu ?)."
+ ],
+ "qualite": "attribution"
+}

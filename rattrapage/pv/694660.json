@@ -1,0 +1,90 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "694660",
+ "orgAcronyme": "d4q",
+ "reference_pv": null,
+ "nouveau": true,
+ "reference": null,
+ "objet": null,
+ "acheteur": null,
+ "procedure": null,
+ "categorie": "Travaux",
+ "date_limite_plis": "01/02/2023",
+ "lieu_ouverture": "Siège ONEF/BE",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "15/02/2023",
+ "justification": "moins disante",
+ "infructueux": false,
+ "attributaire": "SERF (Maroc)",
+ "montant_attribue": 23613870.5,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "ELECTRICITE BELLET (Maroc)",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "depose",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "ENTEG (Maroc)",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "depose",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "REMAPTEL (Maroc)",
+   "montant_acte_engagement": 25763531.0,
+   "montant_apres_verification": null,
+   "autres_montants": [
+    25763531.0,
+    25763531.0,
+    30916237.2
+   ],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "LUMAFRIC (Maroc)",
+   "montant_acte_engagement": 24677290.0,
+   "montant_apres_verification": null,
+   "autres_montants": [
+    24677290.0,
+    24677290.0,
+    29612748.0
+   ],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "SERF (Maroc)",
+   "montant_acte_engagement": 23955870.5,
+   "montant_apres_verification": null,
+   "autres_montants": [
+    23613870.5,
+    23613870.5,
+    28336644.6
+   ],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 5,
+ "alertes_ocr": [],
+ "notes_ocr": [
+  "Maître d'ouvrage absent du PV (utiliser l'acheteur public du portail)."
+ ],
+ "qualite": "complet"
+}

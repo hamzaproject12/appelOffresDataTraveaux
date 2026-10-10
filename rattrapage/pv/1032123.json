@@ -1,0 +1,70 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "1032123",
+ "orgAcronyme": "g3h",
+ "reference_pv": "10007316",
+ "nouveau": true,
+ "reference": "10007316",
+ "objet": "Fourniture et installation des équipements de la station de pompage SP1 de la ville d'Oujda",
+ "acheteur": null,
+ "procedure": null,
+ "categorie": "Travaux",
+ "date_limite_plis": "06/05/2026",
+ "lieu_ouverture": "Siège de la SRM-ORI",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": null,
+ "justification": "offre moins-disante conforme.",
+ "infructueux": false,
+ "attributaire": "STE AUTELEB",
+ "montant_attribue": 1709160.0,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "STE AUTELEB",
+   "montant_acte_engagement": 1709160.0,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "PLATINIUM PROJET MAROC",
+   "montant_acte_engagement": 1714836.0,
+   "montant_apres_verification": 1714936.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": true
+  },
+  {
+   "nom": "STE ALOUSS",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "BOUCHTI BRAHIM (MIMOUNA TRAVAUX)",
+   "montant_acte_engagement": 1705950.0,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_offre_financiere",
+   "admis_avec_reserve": true
+  }
+ ],
+ "nombre_soumissionnaires": 4,
+ "alertes_ocr": [],
+ "notes_ocr": [
+  "« PLATINIUM PROJET MAROC » : montant rectifié de 1 714 836.00 à 1 714 936.00 DH.",
+  "Maître d'ouvrage absent du PV (utiliser l'acheteur public du portail)."
+ ],
+ "qualite": "complet"
+}

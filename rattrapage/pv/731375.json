@@ -1,0 +1,58 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "731375",
+ "orgAcronyme": "h5r",
+ "reference_pv": "03/2023",
+ "nouveau": true,
+ "reference": "03/2023",
+ "objet": "TRAVAUX DE MISE A NIVEAU DES QUARTIERS RELEVANT DU CENTRE DE GUISSER(QUARTIER PAM 2) A LA COMMUNE DE GUISSER -PROVINCE DE SETTAT",
+ "acheteur": "Commune de Guisser",
+ "procedure": "appel d'offres ouvert",
+ "categorie": "Travaux",
+ "date_limite_plis": "04/07/2023",
+ "lieu_ouverture": "siège de la Commune de Guisser",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "04/07/2023",
+ "justification": "offre avantageuse",
+ "infructueux": false,
+ "attributaire": "Groupement SFTGC et TRAINVEST",
+ "montant_attribue": 6983400.0,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "Groupement ECBT et LABERAGA",
+   "montant_acte_engagement": 7075884.0,
+   "montant_apres_verification": 7075884.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_offre_financiere",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Groupement SFTGC et TRAINVEST",
+   "montant_acte_engagement": 6983400.0,
+   "montant_apres_verification": 6983400.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "STE SOCADELEG",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_offre_technique",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 3,
+ "alertes_ocr": [],
+ "notes_ocr": [],
+ "qualite": "complet"
+}

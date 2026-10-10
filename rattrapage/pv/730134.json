@@ -1,0 +1,101 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "730134",
+ "orgAcronyme": "p8x",
+ "reference_pv": "12/DPRT/2023",
+ "nouveau": true,
+ "reference": "12/DPRT/2023",
+ "objet": "« TRAVAUX DE MISE À NIVEAU DE L'ÉCOLE DAKHLA À L'ARRONDISSEMENT YAAKOUB AL MANSOUR À RABAT EN LOT UNIQUE »",
+ "acheteur": "la Direction Provinciale de Rabat",
+ "procedure": "appel d'offres ouvert",
+ "categorie": "Travaux",
+ "date_limite_plis": "10/07/2023",
+ "lieu_ouverture": "les bureaux de la Direction Provinciale de Rabat",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": null,
+ "justification": null,
+ "infructueux": false,
+ "attributaire": "Ste MENAMIR Sarl",
+ "montant_attribue": 2619206.4,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "l Ste MENAMIR Sarl À EM",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Ste AJIAL CONSTRUCTION Sarl",
+   "montant_acte_engagement": 2823624.0,
+   "montant_apres_verification": null,
+   "autres_montants": [
+    2823824.0
+   ],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Ste ONSSAR Sarl Tu",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Ste BATIVERT Sarl",
+   "montant_acte_engagement": 2948516.4,
+   "montant_apres_verification": null,
+   "autres_montants": [
+    2948516.4
+   ],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Ste MENAMIR Sarl",
+   "montant_acte_engagement": 2619206.4,
+   "montant_apres_verification": null,
+   "autres_montants": [
+    2619206.4
+   ],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Ste ONSSAR Sarl",
+   "montant_acte_engagement": 2782915.2,
+   "montant_apres_verification": null,
+   "autres_montants": [
+    2928943.2
+   ],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 6,
+ "alertes_ocr": [
+  "« Ste AJIAL CONSTRUCTION Sarl » absent de la liste des plis déposés (nom mal lu ?).",
+  "« Ste BATIVERT Sarl » absent de la liste des plis déposés (nom mal lu ?).",
+  "« Ste MENAMIR Sarl » absent de la liste des plis déposés (nom mal lu ?).",
+  "« Ste ONSSAR Sarl » absent de la liste des plis déposés (nom mal lu ?)."
+ ],
+ "notes_ocr": [
+  "« l Ste MENAMIR Sarl À EM » absent de la liste des plis déposés (nom mal lu ?).",
+  "« Ste ONSSAR Sarl Tu » absent de la liste des plis déposés (nom mal lu ?)."
+ ],
+ "qualite": "complet"
+}

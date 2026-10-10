@@ -1,0 +1,93 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "843380",
+ "orgAcronyme": "q1s",
+ "reference_pv": null,
+ "nouveau": true,
+ "reference": null,
+ "objet": "TRAVAUX D'AMENAGEMENT LT DE REHABILITATION DES SEGUIAS DU PERIMETRE SIDI ABDELLAH BEN TAAZIZT (2 KM), COMMUNE SIDI ABDELLAH EL KHAYAT, PREFECTURE DE MEKNES",
+ "acheteur": "_a ciefie ce Service ces Aménagements =ycro Agrico.e",
+ "procedure": null,
+ "categorie": "Travaux",
+ "date_limite_plis": "24/10/2024",
+ "lieu_ouverture": "Salle de réunion de la DPA de Meknès",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "29/10/2024",
+ "justification": "Possédant des références techniques et son offre est plus intéressante.",
+ "infructueux": false,
+ "attributaire": null,
+ "montant_attribue": null,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "Concurrent 8: STE ELYOUFRERES SARL A TAZA",
+   "montant_acte_engagement": 999560.4,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Concurrent 15: STE CHGN IRRIGATION SARL A ERRACHIDIA",
+   "montant_acte_engagement": 1007592.38,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "STE 1DM SARL AU À AZILAL",
+   "montant_acte_engagement": 150614.0,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "STE AYOUR LOGISTIC SARL À AZILAL",
+   "montant_acte_engagement": 28946.0,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Concurrent? . STE IMMATRICULATION FONCIERE MAROC SARL A TANGER",
+   "montant_acte_engagement": 997625.4,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "STE TRAMYS SARL A MISSOUR",
+   "montant_acte_engagement": 999985.8,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 6,
+ "alertes_ocr": [
+  "« STE 1DM SARL AU À AZILAL » absent de la liste des plis déposés (nom mal lu ?).",
+  "« STE AYOUR LOGISTIC SARL À AZILAL » absent de la liste des plis déposés (nom mal lu ?).",
+  "« Concurrent? . STE IMMATRICULATION FONCIERE MAROC SARL A TANGER » absent de la liste des plis déposés (nom mal lu ?).",
+  "« STE TRAMYS SARL A MISSOUR » absent de la liste des plis déposés (nom mal lu ?).",
+  "Attributaire non trouvé."
+ ],
+ "notes_ocr": [
+  "Montants exprimés hors taxes (HT)."
+ ],
+ "qualite": "complet"
+}

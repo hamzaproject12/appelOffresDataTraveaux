@@ -1,0 +1,88 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "1017659",
+ "orgAcronyme": "w6x",
+ "reference_pv": "17-2026",
+ "nouveau": true,
+ "reference": "17-2026",
+ "objet": null,
+ "acheteur": null,
+ "procedure": "appel d'offres ouvert national",
+ "categorie": "Travaux",
+ "date_limite_plis": "11/06/2026",
+ "lieu_ouverture": null,
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": null,
+ "justification": "L'offre du concurrent est la mieux disante par rapport au prix de référence ET",
+ "infructueux": false,
+ "attributaire": null,
+ "montant_attribue": null,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "TAWAKOL D'AMENAGEMENT",
+   "montant_acte_engagement": 11175553.2,
+   "montant_apres_verification": null,
+   "autres_montants": [
+    11175553.2
+   ],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "ONSSAR",
+   "montant_acte_engagement": 10257876.0,
+   "montant_apres_verification": null,
+   "autres_montants": [
+    10257876.0
+   ],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "SLASSI DE TRAVAUX DIVERS",
+   "montant_acte_engagement": 10565604.0,
+   "montant_apres_verification": null,
+   "autres_montants": [
+    10565604.0
+   ],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "ETS FADIL DE GENIE CIVIL",
+   "montant_acte_engagement": 10479744.0,
+   "montant_apres_verification": null,
+   "autres_montants": [
+    10479744.0
+   ],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "AIT NASSER",
+   "montant_acte_engagement": 11366214.0,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 5,
+ "alertes_ocr": [
+  "Attributaire non trouvé."
+ ],
+ "notes_ocr": [
+  "Maître d'ouvrage absent du PV (utiliser l'acheteur public du portail)."
+ ],
+ "qualite": "complet"
+}

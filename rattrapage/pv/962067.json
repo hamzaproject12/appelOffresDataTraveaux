@@ -1,0 +1,69 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "962067",
+ "orgAcronyme": "f9f",
+ "reference_pv": null,
+ "nouveau": true,
+ "reference": null,
+ "objet": "TRAVAUX DE RENFORCEMENT DU SYSTEME D’APPROVISIONNEMENT EN EAU POTABLE AU DOUAR AIT ARITANE CT TOUDGHA AL OULIA PROVINCE DE TINGHIR REGION DRAA TAFILALTE",
+ "acheteur": "CONSEIL PROVINCIAL DE TINGHIR",
+ "procedure": null,
+ "categorie": "Travaux",
+ "date_limite_plis": "02/12/2025",
+ "lieu_ouverture": "Bureaux du Conseil Provincial de Tinghir",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "04/12/2025",
+ "justification": "Son offre est la plus proche du prix de référence par défaut.",
+ "infructueux": false,
+ "attributaire": null,
+ "montant_attribue": null,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "Sté COMPETENCES A.M.I SARL AU",
+   "montant_acte_engagement": 403113.6,
+   "montant_apres_verification": 403113.6,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Sté ASNOMI SARL",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_dossier_administratif_technique",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Sté KA-NASSIR SARL",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Sté LESYMD SARL AU",
+   "montant_acte_engagement": 420655.2,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 4,
+ "alertes_ocr": [
+  "Attributaire non trouvé."
+ ],
+ "notes_ocr": [],
+ "qualite": "complet"
+}

@@ -1,0 +1,78 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "857005",
+ "orgAcronyme": "o8p",
+ "reference_pv": "31/2024/DPETL",
+ "nouveau": true,
+ "reference": "31/2024/DPETL",
+ "objet": "Travaux de réparation de dégâts de crues de la RP 3618 du PK 30+000 au PK 30+680 (Province de Settat)",
+ "acheteur": "Direction Provinciale de l'Equipement du Transport et de la Logistique à Settat",
+ "procedure": "appel d'offres ouvert national",
+ "categorie": "Travaux",
+ "date_limite_plis": "03/12/2024",
+ "lieu_ouverture": "DPETL Settat",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "04/12/2024",
+ "justification": "la commission juge que l'offre présentée par la Sté Infrastructures Routiers Du Maroc à Kénitra est l'offre économiquement la plus avantageuse.",
+ "infructueux": false,
+ "attributaire": "Sté Infrastructures Routiers Du Maroc",
+ "montant_attribue": 452382.0,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "ELA :Sté HYDRO TECA Sarl: Rue AROUGOU N° 34 KHENIFRA",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "depose",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Sté VITRAD",
+   "montant_acte_engagement": 465455.04,
+   "montant_apres_verification": 465455.04,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Sté Infrastructures Routiers Du Maroc",
+   "montant_acte_engagement": 452382.0,
+   "montant_apres_verification": 452382.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "ELA :Sté TRANSINFRA: HAY EL HAJARI RUE EL HARAMAYNE N° 76 LAAYOUNE",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "depose",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Sté TRANSINFRA",
+   "montant_acte_engagement": 459490.8,
+   "montant_apres_verification": 459490.8,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 5,
+ "alertes_ocr": [
+  "« Sté TRANSINFRA » absent de la liste des plis déposés (nom mal lu ?)."
+ ],
+ "notes_ocr": [],
+ "qualite": "complet"
+}

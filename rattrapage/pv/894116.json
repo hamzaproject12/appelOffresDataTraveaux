@@ -1,0 +1,246 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "894116",
+ "orgAcronyme": "q1s",
+ "reference_pv": null,
+ "nouveau": true,
+ "reference": null,
+ "objet": null,
+ "acheteur": "L'Office Régional de Mise en Valeur Agricole du Loukkos",
+ "procedure": "appel d'offres ouvert",
+ "categorie": "Travaux",
+ "date_limite_plis": "09/12/2024",
+ "lieu_ouverture": "Siège de L'Office Régional de Mise en Valeur Agricole du Loukkos à Ksar El Kébir",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "12/12/2024",
+ "justification": "L offre la plus avantageuse",
+ "infructueux": false,
+ "attributaire": "ADMN",
+ "montant_attribue": 5764200.0,
+ "attributaires_par_lot": [
+  {
+   "lot": null,
+   "attributaire": "ADMN",
+   "montant": 5764200.0
+  },
+  {
+   "lot": null,
+   "attributaire": "A L Y TRAVAUX",
+   "montant": 3880800.0
+  }
+ ],
+ "soumissionnaires": [
+  {
+   "nom": "STE MAROCAINE DES SERVICES ET",
+   "montant_acte_engagement": 3841200.0,
+   "montant_apres_verification": 3841200.0,
+   "autres_montants": [],
+   "lots": [
+    "2"
+   ],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "A-TAMZ",
+   "montant_acte_engagement": 6006600.0,
+   "montant_apres_verification": 6006600.0,
+   "autres_montants": [
+    4052400.0
+   ],
+   "lots": [
+    "1",
+    "2"
+   ],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "HS INFRA",
+   "montant_acte_engagement": 3880800.0,
+   "montant_apres_verification": 5908800.0,
+   "autres_montants": [],
+   "lots": [
+    "1",
+    "2"
+   ],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "AGDAL BETON",
+   "montant_acte_engagement": 3986400.0,
+   "montant_apres_verification": 3986400.0,
+   "autres_montants": [],
+   "lots": [
+    "2"
+   ],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "LAGOS BTP",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_dossier_administratif_technique",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "ENTREPRENEUR MOUSSA OUADIE",
+   "montant_acte_engagement": 356000.0,
+   "montant_apres_verification": 4356000.0,
+   "autres_montants": [],
+   "lots": [
+    "2"
+   ],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "STE ACHBAROU TRAVAUX",
+   "montant_acte_engagement": 3952080.0,
+   "montant_apres_verification": 3952080.0,
+   "autres_montants": [],
+   "lots": [
+    "2"
+   ],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "STE BOURAF TRAVAUX",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_dossier_administratif_technique",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "TRA DU TRAD",
+   "montant_acte_engagement": 5904000.0,
+   "montant_apres_verification": 5904000.0,
+   "autres_montants": [
+    4356000.0
+   ],
+   "lots": [
+    "1",
+    "2"
+   ],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "A L Y TRAVAUX",
+   "montant_acte_engagement": 5859360.0,
+   "montant_apres_verification": 5859360.0,
+   "autres_montants": [
+    3880800.0
+   ],
+   "lots": [
+    "1",
+    "2"
+   ],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "YOCIKA TRAVAUX",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_dossier_administratif_technique",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "BNITRA",
+   "montant_acte_engagement": 5877600.0,
+   "montant_apres_verification": 5877600.0,
+   "autres_montants": [
+    3880800.0
+   ],
+   "lots": [
+    "1",
+    "2"
+   ],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "ST.DE TRAVAUX PUBLICS ET ASSAI",
+   "montant_acte_engagement": 3867600.0,
+   "montant_apres_verification": 3867600.0,
+   "autres_montants": [],
+   "lots": [
+    "2"
+   ],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "SININE",
+   "montant_acte_engagement": 5858160.0,
+   "montant_apres_verification": 5858160.0,
+   "autres_montants": [
+    3841200.0
+   ],
+   "lots": [
+    "1",
+    "2"
+   ],
+   "statut": "ecarte_offre_financiere",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "STE VICTORIA MANAGEMENT",
+   "montant_acte_engagement": 3907200.0,
+   "montant_apres_verification": 3907200.0,
+   "autres_montants": [],
+   "lots": [
+    "2"
+   ],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "ADMN",
+   "montant_acte_engagement": 5764200.0,
+   "montant_apres_verification": 5764200.0,
+   "autres_montants": [
+    4171200.0
+   ],
+   "lots": [
+    "1",
+    "2"
+   ],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "RHAL+ | H.rO:e",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "depose",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 17,
+ "alertes_ocr": [
+  "« ENTREPRENEUR MOUSSA OUADIE » : écart anormal entre montant initial et vérifié (lecture à vérifier)."
+ ],
+ "notes_ocr": [
+  "« HS INFRA » : montant rectifié de 3 880 800.00 à 5 908 800.00 DH.",
+  "« ENTREPRENEUR MOUSSA OUADIE » : montant rectifié de 356 000.00 à 4 356 000.00 DH.",
+  "Marché alloti (2 lots)."
+ ],
+ "qualite": "complet"
+}

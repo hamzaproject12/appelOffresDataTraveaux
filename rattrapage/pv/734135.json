@@ -1,0 +1,167 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "734135",
+ "orgAcronyme": "o8p",
+ "reference_pv": "032-23-AOO",
+ "nouveau": true,
+ "reference": "032-23-AOO",
+ "objet": "Travaux d'entretien des bâtiments de différents aéroports Lot 1 : Aéroport Nador/El Aroui, Lot 2 : Aéroport Tanger/lbn Batouta, Lot 3 : Aéroport Al Hoceima/Chérif El Idrissi, Lot 4 : Aéroport Bouarfa",
+ "acheteur": "l'OFFICE NATIONAL DES AEROPORTS",
+ "procedure": "appel d'offres ouvert",
+ "categorie": "Travaux",
+ "date_limite_plis": "11/07/2023",
+ "lieu_ouverture": "la salle de réunion de la Direction des Achats et de la Logistique",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "03/08/2023",
+ "justification": "Moins-disant conforme.",
+ "infructueux": true,
+ "attributaire": "NADSAK BATIMENT",
+ "montant_attribue": 1673580.0,
+ "attributaires_par_lot": [
+  {
+   "lot": null,
+   "attributaire": "NADSAK BATIMENT",
+   "montant": 1673580.0
+  },
+  {
+   "lot": null,
+   "attributaire": "PARA BAT",
+   "montant": 783144.0
+  },
+  {
+   "lot": null,
+   "attributaire": "FACILITY PROPERTY MANAGEMENT",
+   "montant": 1204128.0
+  }
+ ],
+ "soumissionnaires": [
+  {
+   "nom": "NADSAK BATIMENT",
+   "montant_acte_engagement": 673580.0,
+   "montant_apres_verification": 1673580.0,
+   "autres_montants": [
+    1673580.0,
+    168622.0
+   ],
+   "lots": [
+    "1",
+    "4"
+   ],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "ORTIS MAROC",
+   "montant_acte_engagement": 2406180.0,
+   "montant_apres_verification": 2406180.0,
+   "autres_montants": [],
+   "lots": [
+    "1",
+    "3"
+   ],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "PARA BAT",
+   "montant_acte_engagement": 2168622.0,
+   "montant_apres_verification": 2168622.0,
+   "autres_montants": [],
+   "lots": [
+    "1",
+    "3"
+   ],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "FACILITY PROPERTY MANAGEMENT",
+   "montant_acte_engagement": 2222220.0,
+   "montant_apres_verification": 2222220.0,
+   "autres_montants": [
+    2222220.0,
+    1105200.0,
+    1204128.0
+   ],
+   "lots": [
+    "1",
+    "3",
+    "4"
+   ],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "LES aff Liu J PS ES",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [
+    "1"
+   ],
+   "statut": "ecarte_dossier_administratif_technique",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "EXTRAIT DU PROCES VERBAL D'APPEL D'OFFRES ouvert N°",
+   "montant_acte_engagement": 168236.0,
+   "montant_apres_verification": null,
+   "autres_montants": [
+    1168236.0
+   ],
+   "lots": [
+    "1",
+    "3",
+    "4"
+   ],
+   "statut": "ecarte_dossier_administratif_technique",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "TASTAOUTE",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [
+    "4"
+   ],
+   "statut": "ecarte_dossier_administratif_technique",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "ORTIS MAROC COMPRISE/AN COMPRISE/AN",
+   "montant_acte_engagement": 406180.0,
+   "montant_apres_verification": null,
+   "autres_montants": [
+    2406180.0,
+    783144.0
+   ],
+   "lots": [
+    "1",
+    "3"
+   ],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 8,
+ "alertes_ocr": [
+  "« NADSAK BATIMENT » absent de la liste des plis déposés (nom mal lu ?).",
+  "« ORTIS MAROC » absent de la liste des plis déposés (nom mal lu ?).",
+  "« PARA BAT » absent de la liste des plis déposés (nom mal lu ?).",
+  "« FACILITY PROPERTY MANAGEMENT » absent de la liste des plis déposés (nom mal lu ?).",
+  "« EXTRAIT DU PROCES VERBAL D'APPEL D'OFFRES ouvert N° » absent de la liste des plis déposés (nom mal lu ?).",
+  "« ORTIS MAROC COMPRISE/AN COMPRISE/AN » absent de la liste des plis déposés (nom mal lu ?)."
+ ],
+ "notes_ocr": [
+  "« LES aff Liu J PS ES » absent de la liste des plis déposés (nom mal lu ?).",
+  "« TASTAOUTE » absent de la liste des plis déposés (nom mal lu ?).",
+  "« NADSAK BATIMENT » : montant rectifié de 673 580.00 à 1 673 580.00 DH.",
+  "Marché alloti (3 lots)."
+ ],
+ "qualite": "complet"
+}

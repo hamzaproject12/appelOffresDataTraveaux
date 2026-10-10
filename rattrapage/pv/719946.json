@@ -1,0 +1,76 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "719946",
+ "orgAcronyme": "a1z",
+ "reference_pv": null,
+ "nouveau": true,
+ "reference": null,
+ "objet": "du marché : Travaux d'entretien des trottoirs",
+ "acheteur": "La présidente de l’Arrondissement Sidi Belyout",
+ "procedure": null,
+ "categorie": "Travaux",
+ "date_limite_plis": "18/05/2023",
+ "lieu_ouverture": "La salle des réunions au siège de l’arrondissement sidi beiyout",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "08/06/2023",
+ "justification": "La société BOURANIME SARL a présenté l'offre la plus Avantageuse (Moins disante)",
+ "infructueux": false,
+ "attributaire": "BOURANIME SARL",
+ "montant_attribue": 2995800.0,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "Publics et sur support papier",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "depose",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "BOURANIME SARL",
+   "montant_acte_engagement": 2995800.0,
+   "montant_apres_verification": 2995800.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "CORIAM SARL",
+   "montant_acte_engagement": 3051300.0,
+   "montant_apres_verification": 3051300.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "COS CONSTRUCTION SARL",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_dossier_administratif_technique",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "MEDI EXPO SARE",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_dossier_administratif_technique",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 5,
+ "alertes_ocr": [],
+ "notes_ocr": [],
+ "qualite": "complet"
+}

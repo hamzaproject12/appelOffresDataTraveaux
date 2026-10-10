@@ -1,0 +1,42 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "687996",
+ "orgAcronyme": "p8x",
+ "reference_pv": "21/2022/AREFDT",
+ "nouveau": true,
+ "reference": "21/2022/AREFDT",
+ "objet": "L’APPEL D’OFFRES OUVERT 5",
+ "acheteur": null,
+ "procedure": "appel d'offres ouvert",
+ "categorie": "Travaux",
+ "date_limite_plis": null,
+ "lieu_ouverture": null,
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "14/12/2022",
+ "justification": null,
+ "infructueux": false,
+ "attributaire": "$ STE OUMAMI FRERES SARL",
+ "montant_attribue": 1957500.0,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "$ STE OUMAMI FRERES SARL",
+   "montant_acte_engagement": 1957500.0,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 1,
+ "alertes_ocr": [],
+ "notes_ocr": [
+  "Maître d'ouvrage absent du PV (utiliser l'acheteur public du portail)."
+ ],
+ "qualite": "attribution"
+}

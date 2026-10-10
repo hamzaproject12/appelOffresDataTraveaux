@@ -1,0 +1,92 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "742017",
+ "orgAcronyme": "h5j",
+ "reference_pv": "58/2023/BAT",
+ "nouveau": true,
+ "reference": "58/2023/BAT",
+ "objet": null,
+ "acheteur": "Délégation Générale à l'Administration Pénitentiaire et à la Réinsertion",
+ "procedure": "appel d'offres ouvert",
+ "categorie": "Travaux",
+ "date_limite_plis": "18/07/2023",
+ "lieu_ouverture": "Siège de la Délégation Générale à l'Administration Pénitentiaire et à la Réinsertion à Angle Avenue AL Araar et Rue AI Jaouz, Hay Riad-Rabat — 1°\" étage",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": null,
+ "justification": "Offre la plus avantageuse",
+ "infructueux": false,
+ "attributaire": "Groupement société ENTC SARL et La société HICTRAV SARL AU",
+ "montant_attribue": 8624340.0,
+ "attributaires_par_lot": [
+  {
+   "lot": null,
+   "attributaire": "Groupement société ENTC SARL et La société HICTRAV SARL AU",
+   "montant": 8624340.0
+  },
+  {
+   "lot": null,
+   "attributaire": "ENTC SARL",
+   "montant": 7719600.0
+  }
+ ],
+ "soumissionnaires": [
+  {
+   "nom": "Groupement société SOALHA CONSTRUCTIONS SARL et la société",
+   "montant_acte_engagement": 8515800.0,
+   "montant_apres_verification": null,
+   "autres_montants": [
+    7684380.0,
+    7455552.0
+   ],
+   "lots": [
+    "1",
+    "2",
+    "3"
+   ],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "ASSAMR DE CONSTRUCTION SARL et la société ENDICOTRA SARL",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [
+    "1",
+    "2"
+   ],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Groupement société ENTC SARL et La société HICTRAV SARL AU",
+   "montant_acte_engagement": 8624340.0,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "ENTC SARL",
+   "montant_acte_engagement": 7719600.0,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [
+    "3"
+   ],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 4,
+ "alertes_ocr": [],
+ "notes_ocr": [
+  "Marché alloti (3 lots)."
+ ],
+ "qualite": "complet"
+}

@@ -1,0 +1,104 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "716709",
+ "orgAcronyme": "o8p",
+ "reference_pv": "02/OA-DRE/2023",
+ "nouveau": true,
+ "reference": "02/OA-DRE/2023",
+ "objet": null,
+ "acheteur": "Direction Régionale de l’équipement, du Transport et de la Logistique de Casablanca-Settat",
+ "procedure": "appel d'offres ouvert",
+ "categorie": "Travaux",
+ "date_limite_plis": "04/05/2023",
+ "lieu_ouverture": "BUREAUX D’ADM PROJET SIS 58, RUE CAPITAINE ABDESSLAM ELMOUEDEN, OLM – SOUISSI-RABAT",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "24/05/2023",
+ "justification": "les offres les plus avantageuses (Combinaison la moins-disante).",
+ "infructueux": false,
+ "attributaire": "ALTATRAV",
+ "montant_attribue": 48577056.0,
+ "attributaires_par_lot": [
+  {
+   "lot": "1",
+   "attributaire": "ALTATRAV",
+   "montant": 48577056.0
+  },
+  {
+   "lot": "2",
+   "attributaire": "EL HALLAOUI",
+   "montant": 40819608.0
+  }
+ ],
+ "soumissionnaires": [
+  {
+   "nom": "BIOUI TRAVAUX",
+   "montant_acte_engagement": 52551597.6,
+   "montant_apres_verification": 52551597.6,
+   "autres_montants": [],
+   "lots": [
+    "1"
+   ],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "GROUPE MOJAZINE",
+   "montant_acte_engagement": 53880300.0,
+   "montant_apres_verification": 53880300.0,
+   "autres_montants": [],
+   "lots": [
+    "1"
+   ],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "EL HALLAOUI",
+   "montant_acte_engagement": 52158576.0,
+   "montant_apres_verification": 52158576.0,
+   "autres_montants": [],
+   "lots": [
+    "1",
+    "2"
+   ],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "ALTATRAV",
+   "montant_acte_engagement": 48577056.0,
+   "montant_apres_verification": 48577056.0,
+   "autres_montants": [],
+   "lots": [
+    "1"
+   ],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "SEPROB",
+   "montant_acte_engagement": 53981187.6,
+   "montant_apres_verification": 53981187.6,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 5,
+ "alertes_ocr": [
+  "« BIOUI TRAVAUX » absent de la liste des plis déposés (nom mal lu ?).",
+  "« GROUPE MOJAZINE » absent de la liste des plis déposés (nom mal lu ?).",
+  "« EL HALLAOUI » absent de la liste des plis déposés (nom mal lu ?).",
+  "« ALTATRAV » absent de la liste des plis déposés (nom mal lu ?).",
+  "« SEPROB » absent de la liste des plis déposés (nom mal lu ?)."
+ ],
+ "notes_ocr": [
+  "Marché alloti (2 lots)."
+ ],
+ "qualite": "complet"
+}

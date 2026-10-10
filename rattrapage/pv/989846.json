@@ -1,0 +1,63 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "989846",
+ "orgAcronyme": "g3h",
+ "reference_pv": "23/BG/T/2026",
+ "nouveau": true,
+ "reference": "23/BG/T/2026",
+ "objet": "Travaux d'aménagement aux postes de commandements relevant de la Province de Settat (Tranche?)",
+ "acheteur": "La Province de Settat",
+ "procedure": "appel d'offres ouvert national",
+ "categorie": "Travaux",
+ "date_limite_plis": "26/03/2026",
+ "lieu_ouverture": "la Division du Budget, des Marchés et des ressources humaines de la Province de Settat",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "01/04/2026",
+ "justification": "o L'attributaire admis au niveau de l'examen du dossier administratif et technique ; o L'offre financière proposée par l’attributaire est la mieux-disante. Elle est la plus proche du prix de référence par défaut et ce conformément aux dispositions de l'article 44 du Décret n°2-22- 431 du 15 chaabane 1444 (8 mars 2023) relatif aux marchés publics: o Les prix unitaires principaux sont normaux o Le c",
+ "infructueux": false,
+ "attributaire": "MAJI SERV\" SARL",
+ "montant_attribue": null,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "EL11 BOUAICHA BATIMENT",
+   "montant_acte_engagement": 377640.0,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_offre_financiere",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "EL30 BATI CONSTRUCTION FARQOUCHE",
+   "montant_acte_engagement": 376170.93,
+   "montant_apres_verification": 376170.93,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "MAJI SERV\" SARL",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 3,
+ "alertes_ocr": [
+  "« EL11 BOUAICHA BATIMENT » absent de la liste des plis déposés (nom mal lu ?).",
+  "« EL30 BATI CONSTRUCTION FARQOUCHE » absent de la liste des plis déposés (nom mal lu ?).",
+  "« MAJI SERV\" SARL » absent de la liste des plis déposés (nom mal lu ?).",
+  "Montant de l'attributaire « MAJI SERV\" SARL » non trouvé."
+ ],
+ "notes_ocr": [],
+ "qualite": "complet"
+}

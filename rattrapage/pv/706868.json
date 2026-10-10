@@ -1,0 +1,51 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "706868",
+ "orgAcronyme": "o8p",
+ "reference_pv": "27/2023",
+ "nouveau": true,
+ "reference": "27/2023",
+ "objet": "Travaux d'aménagement des établissments de soins de santé primaires de la Région Draa Tafilalet",
+ "acheteur": null,
+ "procedure": "appel d'offres ouvert",
+ "categorie": "Travaux",
+ "date_limite_plis": "30/03/2023",
+ "lieu_ouverture": "Bureau de Monsieur le Directeur Régional de PAgence Nationale des Equipements",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "12/04/2023",
+ "justification": "Les éléments contenus dans son dossier administratif et technique, son offre financière et ses justifications.",
+ "infructueux": false,
+ "attributaire": "Société SCOTIM sarl",
+ "montant_attribue": 34883883.6,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "Société SCOTIM sarl",
+   "montant_acte_engagement": 34883883.6,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Société SALBI sarl",
+   "montant_acte_engagement": 28062088.8,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_offre_financiere",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 2,
+ "alertes_ocr": [],
+ "notes_ocr": [
+  "Maître d'ouvrage absent du PV (utiliser l'acheteur public du portail)."
+ ],
+ "qualite": "complet"
+}

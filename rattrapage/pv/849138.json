@@ -1,0 +1,83 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "849138",
+ "orgAcronyme": "o8p",
+ "reference_pv": "33/2024/IF.-Obiet",
+ "nouveau": true,
+ "reference": "33/2024/IF.-Obiet",
+ "objet": "TRAVAUX DE REALISATION DES SONDAGES DE RECONNAISSANCE ET FORAGES D'EXPLOITATION DANS LES COMMUNES DE LA PROVINCE D'IFRANE",
+ "acheteur": "Ministère de l'Equipement et de l'Eau représenté par le Directeur Provincial d'Ifrane",
+ "procedure": "appel d'offres ouvert national",
+ "categorie": "Travaux",
+ "date_limite_plis": "30/10/2024",
+ "lieu_ouverture": "Salle de réunions de la DPETL d'Ifrane",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "11/11/2024",
+ "justification": "Offre la plus avantageuse,",
+ "infructueux": false,
+ "attributaire": "Sté AIT OUKHALI TRAVAUX",
+ "montant_attribue": 2032441.2,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "1/ Sté YOUNA TRAVAUX",
+   "montant_acte_engagement": 2025241.0,
+   "montant_apres_verification": 2025240.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "2/ Sté HAJ DOUIRI SOHADU",
+   "montant_acte_engagement": 2034300.0,
+   "montant_apres_verification": 2034300.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Sté AIT OUKHALI TRAVAUX",
+   "montant_acte_engagement": 2032.0,
+   "montant_apres_verification": 2032441.2,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Sté LBIR FORAGE ET FONDATION",
+   "montant_acte_engagement": 2033401.0,
+   "montant_apres_verification": 2033400.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_offre_financiere",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "5/ Sté SHEVAN MA FORAGE",
+   "montant_acte_engagement": 2052961.0,
+   "montant_apres_verification": 2052960.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 5,
+ "alertes_ocr": [
+  "« Sté AIT OUKHALI TRAVAUX » : écart anormal entre montant initial et vérifié (lecture à vérifier)."
+ ],
+ "notes_ocr": [
+  "« 1/ Sté YOUNA TRAVAUX » : montant rectifié de 2 025 241.00 à 2 025 240.00 DH.",
+  "« Sté AIT OUKHALI TRAVAUX » : montant rectifié de 2 032.00 à 2 032 441.20 DH.",
+  "« Sté LBIR FORAGE ET FONDATION » : montant rectifié de 2 033 401.00 à 2 033 400.00 DH.",
+  "« 5/ Sté SHEVAN MA FORAGE » : montant rectifié de 2 052 961.00 à 2 052 960.00 DH."
+ ],
+ "qualite": "complet"
+}

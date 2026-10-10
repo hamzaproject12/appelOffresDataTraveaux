@@ -1,0 +1,58 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "1039388",
+ "orgAcronyme": "g3h",
+ "reference_pv": "10/2026/INDH/PG",
+ "nouveau": true,
+ "reference": "10/2026/INDH/PG",
+ "objet": "Travaux de construction de Dar Al Oumouma à la commune de Berkine -province de Guercif-",
+ "acheteur": "Le gouverneur de la province de Guercif",
+ "procedure": "appel d'offres ouvert national",
+ "categorie": "Travaux",
+ "date_limite_plis": "13/08/2026",
+ "lieu_ouverture": "Secrétariat général -province de Guercif",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "03/09/2026",
+ "justification": "Offre économiquement la mieux disante.",
+ "infructueux": false,
+ "attributaire": "Sté ITRAN AYA",
+ "montant_attribue": 1580262.0,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "Sté ITRAN AYA",
+   "montant_acte_engagement": 1580262.0,
+   "montant_apres_verification": 1580262.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Sté ILILAN",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_dossier_administratif_technique",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Sté MAROBEST",
+   "montant_acte_engagement": 1679214.0,
+   "montant_apres_verification": 1679214.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 3,
+ "alertes_ocr": [],
+ "notes_ocr": [],
+ "qualite": "complet"
+}

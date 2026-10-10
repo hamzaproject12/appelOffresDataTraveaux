@@ -1,0 +1,103 @@
+{
+ "source": "extrait_docx",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "1035772",
+ "orgAcronyme": "l1f",
+ "reference_pv": "01/HG/2026",
+ "nouveau": true,
+ "reference": "01/HG/2026",
+ "objet": "Gros travaux de de maintenance des voies a la Commune Had Al Gharbia",
+ "acheteur": "Commune Had Al gharbia",
+ "procedure": "appel d'offres ouvert national",
+ "categorie": "Travaux",
+ "date_limite_plis": "16/06/2026",
+ "lieu_ouverture": "salle de réunion de la commune",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "29/06/2026",
+ "justification": "offre économiquement plus avantageuse",
+ "infructueux": false,
+ "attributaire": "2RM TRAVAUX",
+ "montant_attribue": 1137828.0,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "BEND'S & MHK",
+   "montant_acte_engagement": 207578.0,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_offre_financiere",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "TAHIRI ATLAS",
+   "montant_acte_engagement": 143750.0,
+   "montant_apres_verification": 143750.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "ENTREPRISE TAHA TP",
+   "montant_acte_engagement": 154244.0,
+   "montant_apres_verification": 154244.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "SOHAZATRAV",
+   "montant_acte_engagement": 136766.0,
+   "montant_apres_verification": 136766.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "PALOMA PLUS",
+   "montant_acte_engagement": 140162.0,
+   "montant_apres_verification": 140162.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": true
+  },
+  {
+   "nom": "VILTRAD",
+   "montant_acte_engagement": 141956.0,
+   "montant_apres_verification": 141956.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": true
+  },
+  {
+   "nom": "YASMINE GENIE.SARL-TANGER",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_dossier_administratif_technique",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "2RM TRAVAUX",
+   "montant_acte_engagement": 137828.0,
+   "montant_apres_verification": 137828.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": true
+  }
+ ],
+ "nombre_soumissionnaires": 8,
+ "alertes_ocr": [],
+ "notes_ocr": [],
+ "qualite": "complet"
+}

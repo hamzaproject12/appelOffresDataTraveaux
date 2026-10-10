@@ -1,0 +1,42 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "993230",
+ "orgAcronyme": "d4q",
+ "reference_pv": "25-62",
+ "nouveau": true,
+ "reference": "25-62",
+ "objet": "Réhabilitation de la ligne 225 KV n° 25-62 « TAZART - ENNAKHIL » relevant de la Division Exploitation Transport Afourer",
+ "acheteur": null,
+ "procedure": null,
+ "categorie": "Travaux",
+ "date_limite_plis": "02/04/2026",
+ "lieu_ouverture": "Direction Approvisionnements et Marchés (DAM) : 65, Rue Othman Ben Affan 20000 Casablanca",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": null,
+ "justification": "AO Infructueux (offre financière excessive).",
+ "infructueux": true,
+ "attributaire": null,
+ "montant_attribue": null,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "OUHAFID TRAVAUX",
+   "montant_acte_engagement": 19159644.0,
+   "montant_apres_verification": 19159644.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_offre_financiere",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 1,
+ "alertes_ocr": [],
+ "notes_ocr": [
+  "Maître d'ouvrage absent du PV (utiliser l'acheteur public du portail)."
+ ],
+ "qualite": "attribution"
+}

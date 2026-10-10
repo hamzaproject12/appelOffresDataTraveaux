@@ -1,0 +1,60 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "1042716",
+ "orgAcronyme": "g8e",
+ "reference_pv": "08/2026/FOS-MEF",
+ "nouveau": true,
+ "reference": "08/2026/FOS-MEF",
+ "objet": "LA REALISATION DES TRAVAUX D'AMENAGEMENT DES TRAVAUX D'AMENAGEMENT DE LA RESIDENCE NARJISSE DE LA FONDATION DES ŒUVRES SOCIALES DU PERSONNEL DU MINISTERE DE L'ECONOMIE ET DES FINANCES SISE A",
+ "acheteur": null,
+ "procedure": "appel d'offres ouvert",
+ "categorie": "Travaux",
+ "date_limite_plis": null,
+ "lieu_ouverture": "La salle de réunion de la FOS MEF : Rue Ahmed Cherkaoui, Quartier Administratif Agdal, Rabat, BP : 8210",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "23/09/2026",
+ "justification": "L'offre la moins disante.",
+ "infructueux": false,
+ "attributaire": "WORK ET AM SARL",
+ "montant_attribue": 7122186.46,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "WORK ET AM SARL",
+   "montant_acte_engagement": 7122186.46,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "3 AMN DIVERS",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_dossier_administratif_technique",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "STE BENAISSI",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 3,
+ "alertes_ocr": [],
+ "notes_ocr": [
+  "Maître d'ouvrage absent du PV (utiliser l'acheteur public du portail)."
+ ],
+ "qualite": "attribution"
+}

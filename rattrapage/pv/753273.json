@@ -1,0 +1,73 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "753273",
+ "orgAcronyme": "p1v",
+ "reference_pv": "19/2023",
+ "nouveau": true,
+ "reference": "19/2023",
+ "objet": "TRAVAUX D’ENFOUISSEMENTS A LA DECHARGE INTERCOMMUNALE CONTROLEE DE MOULAY ABDELLAH POUR UNE PERIODE TRANSITOIRE (12 MOIS) ET LA REALISATION DES TRAVAUX DE CONSTRUCTION D’UN NOUVEAU CASIER",
+ "acheteur": "C/ Moulay Abdellah",
+ "procedure": null,
+ "categorie": "Travaux",
+ "date_limite_plis": "17/10/2023",
+ "lieu_ouverture": "Bureau de Mr le Président de la C/ T Moulay Abdellah",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "08/11/2023",
+ "justification": null,
+ "infructueux": false,
+ "attributaire": "Sté SNTRO SARL",
+ "montant_attribue": 13989888.0,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "composée de",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": true
+  },
+  {
+   "nom": "Sté IGAZER SARL",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_dossier_administratif_technique",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Société CAVO SARL",
+   "montant_acte_engagement": 17121024.0,
+   "montant_apres_verification": 17121024.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Sté SNTRO SARL",
+   "montant_acte_engagement": 13989888.0,
+   "montant_apres_verification": 13989888.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 4,
+ "alertes_ocr": [
+  "« Société CAVO SARL » absent de la liste des plis déposés (nom mal lu ?).",
+  "« Sté SNTRO SARL » absent de la liste des plis déposés (nom mal lu ?)."
+ ],
+ "notes_ocr": [
+  "« composée de » absent de la liste des plis déposés (nom mal lu ?).",
+  "« Sté IGAZER SARL » absent de la liste des plis déposés (nom mal lu ?)."
+ ],
+ "qualite": "complet"
+}

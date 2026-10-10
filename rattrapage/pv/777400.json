@@ -1,0 +1,118 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "777400",
+ "orgAcronyme": "d4q",
+ "reference_pv": null,
+ "nouveau": true,
+ "reference": null,
+ "objet": "Réhabilitation et protection des conduites d’AEP au niveau des traversées des Oueds aux centres de la Direction Provinciale Taourirt",
+ "acheteur": null,
+ "procedure": "appel d'offres ouvert",
+ "categorie": "Travaux",
+ "date_limite_plis": "30/11/2023",
+ "lieu_ouverture": "au Siège de la Direction Régionale de l'Oriental (DR6) Place 18 Mars 2003 - Oujda - Maroc",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "27/02/2024",
+ "justification": "Moins-disant",
+ "infructueux": false,
+ "attributaire": "Délai d'exécution",
+ "montant_attribue": 1115916.0,
+ "attributaires_par_lot": [
+  {
+   "lot": null,
+   "attributaire": "Délai d'exécution",
+   "montant": 1115916.0
+  },
+  {
+   "lot": null,
+   "attributaire": "RUES SC SEE P CASS",
+   "montant": 1115916.0
+  }
+ ],
+ "soumissionnaires": [
+  {
+   "nom": "ABB EAUX TRAVAUX MAROC",
+   "montant_acte_engagement": 1582200.0,
+   "montant_apres_verification": null,
+   "autres_montants": [
+    1582200.0
+   ],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "BTDF . MAROC",
+   "montant_acte_engagement": 1726464.0,
+   "montant_apres_verification": null,
+   "autres_montants": [
+    1726464.0
+   ],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "INEW MAROC",
+   "montant_acte_engagement": 1722000.0,
+   "montant_apres_verification": null,
+   "autres_montants": [
+    1722000.0
+   ],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "JELLOULI MOSTAPHA MAROC",
+   "montant_acte_engagement": 1710720.0,
+   "montant_apres_verification": null,
+   "autres_montants": [
+    1710720.0
+   ],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "MAROC",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "depose",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Délai d'exécution",
+   "montant_acte_engagement": 1115916.0,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "RUES SC SEE P CASS",
+   "montant_acte_engagement": 1115916.0,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 7,
+ "alertes_ocr": [
+  "« Délai d'exécution » absent de la liste des plis déposés (nom mal lu ?).",
+  "« RUES SC SEE P CASS » absent de la liste des plis déposés (nom mal lu ?)."
+ ],
+ "notes_ocr": [
+  "Maître d'ouvrage absent du PV (utiliser l'acheteur public du portail)."
+ ],
+ "qualite": "complet"
+}

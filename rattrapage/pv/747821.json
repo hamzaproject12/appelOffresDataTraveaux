@@ -1,0 +1,79 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "747821",
+ "orgAcronyme": "g8e",
+ "reference_pv": "145/2023",
+ "nouveau": true,
+ "reference": "145/2023",
+ "objet": "TRAVAUX DE CONSTRUCTION DES PISTES A LA CT BENI AYAT-PROVINCE AZILAL-LOT UNIQUE",
+ "acheteur": "Agence Régionale d’Exécution des Projets Région Béni Mellal- Khénifra",
+ "procedure": null,
+ "categorie": "Travaux",
+ "date_limite_plis": "14/09/2023",
+ "lieu_ouverture": "Salle de réunion de l'AREP région Beni Mellal Khénifra, Sis Bd Med V lotissement lala Hayat immeuble n°3, 4m et 56: étage Béni Mellal",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": null,
+ "justification": null,
+ "infructueux": false,
+ "attributaire": null,
+ "montant_attribue": null,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "STE FAKIR TRAVAUX",
+   "montant_acte_engagement": 3344640.0,
+   "montant_apres_verification": 3344640.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "GR.STE YAHYA STAR ET LA STE OBH TRAVAUX",
+   "montant_acte_engagement": 3912840.0,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "STETR3F",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "depose",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "STE PROCIVIL",
+   "montant_acte_engagement": 3798720.0,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "STE TR3F",
+   "montant_acte_engagement": 4753860.0,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 5,
+ "alertes_ocr": [
+  "« STE TR3F » absent de la liste des plis déposés (nom mal lu ?).",
+  "Attributaire non trouvé."
+ ],
+ "notes_ocr": [],
+ "qualite": "complet"
+}

@@ -1,0 +1,63 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "675189",
+ "orgAcronyme": "j0w",
+ "reference_pv": "22/2022",
+ "nouveau": true,
+ "reference": "22/2022",
+ "objet": "ENTRETIEN COURANT DES VOIES (ENTRETIEN DES CREVASSES)",
+ "acheteur": "Arrondissement Annakhil",
+ "procedure": "appel d'offres ouvert",
+ "categorie": "Travaux",
+ "date_limite_plis": "25/10/2022",
+ "lieu_ouverture": "Salle de réunion de l’ Arrondissement Annakhil",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": null,
+ "justification": "OFFRE PLUS AVANTAGEUSE",
+ "infructueux": false,
+ "attributaire": null,
+ "montant_attribue": null,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "STE IGOUDAR TRAVAUX SARL",
+   "montant_acte_engagement": 1314900.0,
+   "montant_apres_verification": 1314900.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "STE SAKITRA SARL",
+   "montant_acte_engagement": 1029900.0,
+   "montant_apres_verification": 1029900.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "STE MENARA AMENAGEMENT",
+   "montant_acte_engagement": 1317600.0,
+   "montant_apres_verification": 1317600.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 3,
+ "alertes_ocr": [
+  "« STE IGOUDAR TRAVAUX SARL » absent de la liste des plis déposés (nom mal lu ?).",
+  "« STE SAKITRA SARL » absent de la liste des plis déposés (nom mal lu ?).",
+  "« STE MENARA AMENAGEMENT » absent de la liste des plis déposés (nom mal lu ?).",
+  "Attributaire non trouvé."
+ ],
+ "notes_ocr": [],
+ "qualite": "complet"
+}

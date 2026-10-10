@@ -1,0 +1,69 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "762087",
+ "orgAcronyme": "l1f",
+ "reference_pv": "96/AREP/TTA/TT/2023",
+ "nouveau": true,
+ "reference": "96/AREP/TTA/TT/2023",
+ "objet": "TRAVAUX CONSTRUCTION DE LA ROUTE NON CLASSÉE RELIANT PK18 DE LA RP4704 (BGHAGHZA ET EL MNAZEL) AU CENTRE DE LA COMMUNE BNI HARCHEN DANS LA PROVINCE DE TETOUAN, REGION DE TANGER-TETOUAN-AL",
+ "acheteur": null,
+ "procedure": "appel d'offres ouvert",
+ "categorie": "Travaux",
+ "date_limite_plis": null,
+ "lieu_ouverture": null,
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": null,
+ "justification": null,
+ "infructueux": false,
+ "attributaire": "SATG",
+ "montant_attribue": 34092192.0,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "SNTRO",
+   "montant_acte_engagement": 37714423.2,
+   "montant_apres_verification": 37714423.2,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "STAM",
+   "montant_acte_engagement": 38312280.0,
+   "montant_apres_verification": 38312280.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "TOROK",
+   "montant_acte_engagement": 39269157.6,
+   "montant_apres_verification": 39269157.6,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "SATG",
+   "montant_acte_engagement": 34092192.0,
+   "montant_apres_verification": 34092192.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 4,
+ "alertes_ocr": [],
+ "notes_ocr": [
+  "Maître d'ouvrage absent du PV (utiliser l'acheteur public du portail)."
+ ],
+ "qualite": "complet"
+}

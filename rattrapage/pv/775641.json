@@ -1,0 +1,69 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "775641",
+ "orgAcronyme": "q1s",
+ "reference_pv": "24/2023/1909",
+ "nouveau": true,
+ "reference": "24/2023/1909",
+ "objet": "«LA REALISATION DES TRAVAUX D'AMENAGEMENT HYDRO-AGRICOLE DES PERIMETRES PMH IKHELFEN- COMMUNE OULAD ALI MANSOUR - PROVINCE DE TETOUAN »",
+ "acheteur": "la Direction Provinciale de l'Agriculture de Tétouan",
+ "procedure": "appel d'offres ouvert",
+ "categorie": "Travaux",
+ "date_limite_plis": "19/06/2023",
+ "lieu_ouverture": null,
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "21/06/2023",
+ "justification": null,
+ "infructueux": false,
+ "attributaire": "PROFESSIONNELS TRAVAUX DE CONSTRUCTION MAROC SARL",
+ "montant_attribue": 390808.8,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "JAOUHARY MOHAMED",
+   "montant_acte_engagement": 452918.0,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "PROFESSIONNELS TRAVAUX DE CONSTRUCTION MAROC SARL",
+   "montant_acte_engagement": 390808.8,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "IFM IMATRICULATION FONCIERE MAROC administratif et tect ique",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_dossier_administratif_technique",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "STE ALMOUGNI TD",
+   "montant_acte_engagement": 612219.6,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 4,
+ "alertes_ocr": [
+  "« STE ALMOUGNI TD » absent de la liste des plis déposés (nom mal lu ?)."
+ ],
+ "notes_ocr": [],
+ "qualite": "complet"
+}

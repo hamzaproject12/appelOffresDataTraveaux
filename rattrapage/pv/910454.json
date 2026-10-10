@@ -1,0 +1,104 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "910454",
+ "orgAcronyme": "q0x",
+ "reference_pv": "13/2025",
+ "nouveau": true,
+ "reference": "13/2025",
+ "objet": "Travaux de signalisation horizontale à la commune de Khénifra",
+ "acheteur": "Commune de Khénifra",
+ "procedure": "appel d'offres ouvert national",
+ "categorie": "Travaux",
+ "date_limite_plis": "24/06/2025",
+ "lieu_ouverture": "Bureau du Président",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": null,
+ "justification": null,
+ "infructueux": false,
+ "attributaire": null,
+ "montant_attribue": null,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "Sté PINTAPLANA, Tanger",
+   "montant_acte_engagement": 971280.0,
+   "montant_apres_verification": 971280.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Sté CHAMAL SIGNALISATION, Chefchaouen",
+   "montant_acte_engagement": 961932.0,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Sté INJAZ WORKS, Rabat",
+   "montant_acte_engagement": 981000.0,
+   "montant_apres_verification": 981000.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Sté URBAN ELECTRONICS, Skhirat",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_dossier_administratif_technique",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Sté ATELIER INDUSTRIEL CHERIFIEN, Kénitra",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_dossier_administratif_technique",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Sté LA LIGNE BLANCHE, Rabat",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_dossier_administratif_technique",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "CCCLELEREZLELLELECEELLIEZLLLL)",
+   "montant_acte_engagement": 981000.0,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 7,
+ "alertes_ocr": [
+  "« Sté PINTAPLANA, Tanger » absent de la liste des plis déposés (nom mal lu ?).",
+  "« Sté CHAMAL SIGNALISATION, Chefchaouen » absent de la liste des plis déposés (nom mal lu ?).",
+  "« Sté INJAZ WORKS, Rabat » absent de la liste des plis déposés (nom mal lu ?).",
+  "« CCCLELEREZLELLELECEELLIEZLLLL) » absent de la liste des plis déposés (nom mal lu ?).",
+  "Attributaire non trouvé."
+ ],
+ "notes_ocr": [
+  "« Sté URBAN ELECTRONICS, Skhirat » absent de la liste des plis déposés (nom mal lu ?).",
+  "« Sté ATELIER INDUSTRIEL CHERIFIEN, Kénitra » absent de la liste des plis déposés (nom mal lu ?).",
+  "« Sté LA LIGNE BLANCHE, Rabat » absent de la liste des plis déposés (nom mal lu ?)."
+ ],
+ "qualite": "complet"
+}

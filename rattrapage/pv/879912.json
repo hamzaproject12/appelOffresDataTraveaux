@@ -1,0 +1,51 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "879912",
+ "orgAcronyme": "q9t",
+ "reference_pv": "06/2025/SCP",
+ "nouveau": true,
+ "reference": "06/2025/SCP",
+ "objet": "Travaux et installation du réseau de fluides médicaux et d'air comprimé au Centre Hospitalo universitaire Hassan Il de Fès",
+ "acheteur": "Centre Hospitalo-universitaire Hassan Il de Fès",
+ "procedure": "appel d'offres ouvert national",
+ "categorie": "Travaux",
+ "date_limite_plis": "11/03/2025",
+ "lieu_ouverture": "Salle de réunion située au 1°\" étage de la Direction Générale du CHU Hassan Il de Fès",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "13/03/2025",
+ "justification": "Offre la mieux disante par rapport au prix de référence.",
+ "infructueux": false,
+ "attributaire": "OXAIR",
+ "montant_attribue": 123960.0,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "OXAIR",
+   "montant_acte_engagement": 123960.0,
+   "montant_apres_verification": 123960.0,
+   "autres_montants": [],
+   "lots": [
+    "Unique"
+   ],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "MCDOMAR GROUP",
+   "montant_acte_engagement": 123552.0,
+   "montant_apres_verification": 123552.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 2,
+ "alertes_ocr": [],
+ "notes_ocr": [],
+ "qualite": "complet"
+}

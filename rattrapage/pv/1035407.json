@@ -1,0 +1,72 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "1035407",
+ "orgAcronyme": "j0w",
+ "reference_pv": null,
+ "nouveau": true,
+ "reference": null,
+ "objet": "ENTRETIEN COURANT DES VOIES ET TROTTOIRS",
+ "acheteur": "Arrondissement Annakhil",
+ "procedure": null,
+ "categorie": "Travaux",
+ "date_limite_plis": "11/08/2026",
+ "lieu_ouverture": "Bureau du président de l’ Arrondissement",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "28/08/2026",
+ "justification": "l’offre économique la mieux disante",
+ "infructueux": false,
+ "attributaire": "STE SOPALMAR SARL AU",
+ "montant_attribue": 2338680.0,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "STE DRAAMATERIAUX SARL AU",
+   "montant_acte_engagement": 2680560.0,
+   "montant_apres_verification": 2680560.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "STE SJ2T SARL AU",
+   "montant_acte_engagement": 2298840.0,
+   "montant_apres_verification": 2298840.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "STE SOPALMAR SARL AU",
+   "montant_acte_engagement": 2338680.0,
+   "montant_apres_verification": 2338680.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "& STE MENARA RABOTAGE SARL AU",
+   "montant_acte_engagement": 2695800.0,
+   "montant_apres_verification": 2695800.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 4,
+ "alertes_ocr": [
+  "« STE DRAAMATERIAUX SARL AU » absent de la liste des plis déposés (nom mal lu ?).",
+  "« STE SJ2T SARL AU » absent de la liste des plis déposés (nom mal lu ?).",
+  "« STE SOPALMAR SARL AU » absent de la liste des plis déposés (nom mal lu ?).",
+  "« & STE MENARA RABOTAGE SARL AU » absent de la liste des plis déposés (nom mal lu ?)."
+ ],
+ "notes_ocr": [],
+ "qualite": "complet"
+}

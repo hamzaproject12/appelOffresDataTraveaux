@@ -1,0 +1,129 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "925012",
+ "orgAcronyme": "z9k",
+ "reference_pv": null,
+ "nouveau": true,
+ "reference": null,
+ "objet": null,
+ "acheteur": null,
+ "procedure": null,
+ "categorie": "Travaux",
+ "date_limite_plis": null,
+ "lieu_ouverture": null,
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "12/08/2025",
+ "justification": "l’offre la mieux disante",
+ "infructueux": false,
+ "attributaire": null,
+ "montant_attribue": null,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "LAURE",
+   "montant_acte_engagement": 2079252.0,
+   "montant_apres_verification": 2079252.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "SOA",
+   "montant_acte_engagement": 2073528.0,
+   "montant_apres_verification": 2073528.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "LRETUR MULTI TRAVAUX",
+   "montant_acte_engagement": 2330508.0,
+   "montant_apres_verification": 2330508.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "XAVAUX 2",
+   "montant_acte_engagement": 89736.0,
+   "montant_apres_verification": 89736.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "DELTAEN 20",
+   "montant_acte_engagement": 2368644.0,
+   "montant_apres_verification": 2387.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "SOUX.3AK< \"XAVAUX",
+   "montant_acte_engagement": 2270.0,
+   "montant_apres_verification": 2270.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "L'ASTUAOÛ",
+   "montant_acte_engagement": 2463.0,
+   "montant_apres_verification": 2463.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "LO*ANA DS TrAVAUX",
+   "montant_acte_engagement": 2063886.0,
+   "montant_apres_verification": 2063886.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "DIVERS JAN TRAVAUX",
+   "montant_acte_engagement": 2075640.0,
+   "montant_apres_verification": 2075.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "AIT VA GERNIE CIV.L",
+   "montant_acte_engagement": 2066082.0,
+   "montant_apres_verification": 2066082.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 10,
+ "alertes_ocr": [
+  "Attributaire non trouvé.",
+  "« DELTAEN 20 » : écart anormal entre montant initial et vérifié (lecture à vérifier).",
+  "« DIVERS JAN TRAVAUX » : écart anormal entre montant initial et vérifié (lecture à vérifier)."
+ ],
+ "notes_ocr": [
+  "« DELTAEN 20 » : montant rectifié de 2 368 644.00 à 2 387.00 DH.",
+  "« DIVERS JAN TRAVAUX » : montant rectifié de 2 075 640.00 à 2 075.00 DH.",
+  "Maître d'ouvrage absent du PV (utiliser l'acheteur public du portail)."
+ ],
+ "qualite": "complet"
+}

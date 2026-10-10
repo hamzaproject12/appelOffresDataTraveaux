@@ -1,0 +1,65 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "872240",
+ "orgAcronyme": "d4q",
+ "reference_pv": null,
+ "nouveau": true,
+ "reference": null,
+ "objet": "Travaux de libération de la ligne à structure 60 kV Usine TALAMBOTE-OUED LAOU (Province CHEFCHAOUEN)",
+ "acheteur": null,
+ "procedure": null,
+ "categorie": "Travaux",
+ "date_limite_plis": "29/01/2025",
+ "lieu_ouverture": "Siège de l'ONFE-Branche Electricité",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": null,
+ "justification": "AO déclaré infructueux.",
+ "infructueux": false,
+ "attributaire": "Montant d l'offre retenue . G ZÉ",
+ "montant_attribue": null,
+ "attributaires_par_lot": [
+  {
+   "lot": null,
+   "attributaire": "Montant d l'offre retenue . G ZÉ",
+   "montant": null
+  },
+  {
+   "lot": null,
+   "attributaire": "Î € ses {AO déclaré infructueux) Observations",
+   "montant": null
+  }
+ ],
+ "soumissionnaires": [
+  {
+   "nom": "Montant d l'offre retenue . G ZÉ",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Î € ses {AO déclaré infructueux) Observations",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 2,
+ "alertes_ocr": [
+  "Montant de l'attributaire « Montant d l'offre retenue . G ZÉ » non trouvé.",
+  "Montant de l'attributaire « Î € ses {AO déclaré infructueux) Observations » non trouvé."
+ ],
+ "notes_ocr": [
+  "Maître d'ouvrage absent du PV (utiliser l'acheteur public du portail)."
+ ],
+ "qualite": "participants"
+}

@@ -1,0 +1,64 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "997722",
+ "orgAcronyme": "g3h",
+ "reference_pv": "45/PB/DE/INDH/2024",
+ "nouveau": true,
+ "reference": "45/PB/DE/INDH/2024",
+ "objet": "Travaux d'aménagement au niveau de 11 UP sises aux commune de : Guigou Serghina, Almis Marmoucha, Ait el mane ,Enjil, Ksabi moulouya ,Ait bazza et El mers relevant Province de Boulemane",
+ "acheteur": null,
+ "procedure": "appel d'offres ouvert simplifié",
+ "categorie": "Travaux",
+ "date_limite_plis": "10/12/2024",
+ "lieu_ouverture": null,
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "13/12/2024",
+ "justification": "Offre économiquement la plus avantageuse.",
+ "infructueux": false,
+ "attributaire": "OUHERROU BATIMENT",
+ "montant_attribue": 535368.0,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "STE WATRAMA",
+   "montant_acte_engagement": 726414.0,
+   "montant_apres_verification": 726414.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "OUHERROU BATIMENT",
+   "montant_acte_engagement": 535368.0,
+   "montant_apres_verification": 535368.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": true
+  },
+  {
+   "nom": "GLM TRAVAUX",
+   "montant_acte_engagement": 540432.0,
+   "montant_apres_verification": 540432.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": true
+  }
+ ],
+ "nombre_soumissionnaires": 3,
+ "alertes_ocr": [
+  "« STE WATRAMA » absent de la liste des plis déposés (nom mal lu ?).",
+  "« OUHERROU BATIMENT » absent de la liste des plis déposés (nom mal lu ?).",
+  "« GLM TRAVAUX » absent de la liste des plis déposés (nom mal lu ?)."
+ ],
+ "notes_ocr": [
+  "Maître d'ouvrage absent du PV (utiliser l'acheteur public du portail)."
+ ],
+ "qualite": "complet"
+}

@@ -1,0 +1,79 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "675570",
+ "orgAcronyme": "g3h",
+ "reference_pv": null,
+ "nouveau": true,
+ "reference": null,
+ "objet": null,
+ "acheteur": "la Régie Autonome Intercommunale de Distribution d’Eau et d’Electricité de SAFI (RADEES)",
+ "procedure": "appel d'offres ouvert",
+ "categorie": "Travaux",
+ "date_limite_plis": "05/10/2022",
+ "lieu_ouverture": "salle de réunion de la RADEES sis à Avenue Idriss 1er B.P:218 SAFTI",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": null,
+ "justification": "La Commission d’appel d’offres se base dans le choix des dossiers retenus sur l’exhaustivité du dossier administratif, sur la conformité technique et l’avantage de l'offre financière.",
+ "infructueux": false,
+ "attributaire": "GPT SNTRO/NOVAQUA",
+ "montant_attribue": 25513284.0,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "GPT VIALES/OUMOUJANE-GPT EGCA/AITECO-SER SUD-TG BERRAHAL",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "depose",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "SNTM-CTR-VARDEP- HIBA WAF TRAVAUX- GPT SNTRO/NOVAQUA- GPT",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "depose",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Génie Marocaine des Travaux Publics(GMTP) /CASEP",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "depose",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "GPT SNTRO/NOVAQUA",
+   "montant_acte_engagement": 25513284.0,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "GPT GMTP/CASEP",
+   "montant_acte_engagement": 27493923.6,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 5,
+ "alertes_ocr": [
+  "« GPT SNTRO/NOVAQUA » absent de la liste des plis déposés (nom mal lu ?).",
+  "« GPT GMTP/CASEP » absent de la liste des plis déposés (nom mal lu ?)."
+ ],
+ "notes_ocr": [],
+ "qualite": "complet"
+}

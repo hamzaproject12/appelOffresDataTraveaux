@@ -1,0 +1,138 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "1038489",
+ "orgAcronyme": "d4q",
+ "reference_pv": "01/ABTOM/2026",
+ "nouveau": true,
+ "reference": "01/ABTOM/2026",
+ "objet": null,
+ "acheteur": "Chef d'Aménagement du Barrage Targa Ou Madi dans la Province de Guercif",
+ "procedure": "appel d'offres ouvert",
+ "categorie": "Travaux",
+ "date_limite_plis": "08/09/2026",
+ "lieu_ouverture": "Salle des réunions du chantier du barrage Targa Ou Madi dans la Province de Guercif, commune",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "10/09/2026",
+ "justification": "- L'offre la mieux disante.",
+ "infructueux": false,
+ "attributaire": "MONAPOWER",
+ "montant_attribue": 6498000.0,
+ "attributaires_par_lot": [
+  {
+   "lot": null,
+   "attributaire": "MONAPOWER",
+   "montant": 6498000.0
+  },
+  {
+   "lot": null,
+   "attributaire": "NIHOO-TRAV",
+   "montant": 6571080.0
+  },
+  {
+   "lot": null,
+   "attributaire": "MAATAWI TRAVAUX",
+   "montant": 5894760.0
+  },
+  {
+   "lot": null,
+   "attributaire": "STE BOURAF TRAVAUX",
+   "montant": 6536937.6
+  },
+  {
+   "lot": null,
+   "attributaire": "STE RISING CONTRACTOR SARL AU",
+   "montant": 6514257.54
+  }
+ ],
+ "soumissionnaires": [
+  {
+   "nom": "MONAPOWER",
+   "montant_acte_engagement": 6498000.0,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "NIHOO-TRAV",
+   "montant_acte_engagement": 6571080.0,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "STE MOHAMED ET MUSTAPHA DES TR",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_dossier_administratif_technique",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "MAATAWI TRAVAUX",
+   "montant_acte_engagement": 5894760.0,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "STE A-ETABLISSEMENT",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "STE BOURAF TRAVAUX",
+   "montant_acte_engagement": 6536937.6,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "STE SOMAGT SARL",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_dossier_administratif_technique",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "ATLANTIQUE DES TRAVAUX HYDRAUL",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_dossier_administratif_technique",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "STE RISING CONTRACTOR SARL AU",
+   "montant_acte_engagement": 6514257.54,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 9,
+ "alertes_ocr": [],
+ "notes_ocr": [],
+ "qualite": "attribution"
+}

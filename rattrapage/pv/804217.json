@@ -1,0 +1,153 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "804217",
+ "orgAcronyme": "o8p",
+ "reference_pv": "10/AOR/2024/STADES",
+ "nouveau": true,
+ "reference": "10/AOR/2024/STADES",
+ "objet": "Mise à niveau des stades de Casablanca, Marrakech, Agadir et Fès. Travaux d'électricité courant faible alloti en quatre lots",
+ "acheteur": null,
+ "procedure": "appel d'offres restreint",
+ "categorie": "Travaux",
+ "date_limite_plis": "04/06/2024",
+ "lieu_ouverture": "Salle de réunions de l'Agence Nationale des Equipements Publics, Hay Nahda 2 à Rabat Références des lettres circulaires : DAT/512 du 22/05/2024",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "10/06/2024",
+ "justification": "Conformément aux dispositions des articles 5 et 15 du règlement de la consultation.",
+ "infructueux": false,
+ "attributaire": "Société MAGHREBNET RTABI ET CIE",
+ "montant_attribue": 94176860.02,
+ "attributaires_par_lot": [
+  {
+   "lot": "1",
+   "attributaire": "Société MAGHREBNET RTABI ET CIE",
+   "montant": 94176860.02
+  },
+  {
+   "lot": "2",
+   "attributaire": "Société BUTEC ENERGIES ET SERVICES",
+   "montant": 109729962.0
+  },
+  {
+   "lot": "3",
+   "attributaire": "Société CEGELEC",
+   "montant": 107820351.6
+  },
+  {
+   "lot": "4",
+   "attributaire": "Société DDM",
+   "montant": 94577955.6
+  }
+ ],
+ "soumissionnaires": [
+  {
+   "nom": "Société ALOMRA GROUP INTERNATIONAL",
+   "montant_acte_engagement": 102414579.6,
+   "montant_apres_verification": 102414579.6,
+   "autres_montants": [
+    117759740.4,
+    108509594.4,
+    106759405.2
+   ],
+   "lots": [
+    "1",
+    "2",
+    "4"
+   ],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Société MAGHREBNET RTABI ET CIE",
+   "montant_acte_engagement": 94176860.02,
+   "montant_apres_verification": 94176860.02,
+   "autres_montants": [
+    102889684.34,
+    103138930.45,
+    95856963.38
+   ],
+   "lots": [
+    "1",
+    "2",
+    "4"
+   ],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Société CEGELEC",
+   "montant_acte_engagement": 104645268.0,
+   "montant_apres_verification": 104645268.0,
+   "autres_montants": [
+    118035367.2,
+    107820351.6,
+    107839848.0
+   ],
+   "lots": [
+    "1",
+    "2",
+    "3",
+    "4"
+   ],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Société BUTEC ENERGIES ET SERVICES",
+   "montant_acte_engagement": 109729962.0,
+   "montant_apres_verification": 9729962.0,
+   "autres_montants": [
+    107639451.6
+   ],
+   "lots": [
+    "2"
+   ],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Société DDM",
+   "montant_acte_engagement": 103307462.4,
+   "montant_apres_verification": 94577955.6,
+   "autres_montants": [
+    94577955.6
+   ],
+   "lots": [
+    "2",
+    "4"
+   ],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Société ALOMRA GROUP",
+   "montant_acte_engagement": 117759.0,
+   "montant_apres_verification": 117759.0,
+   "autres_montants": [],
+   "lots": [
+    "2"
+   ],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 6,
+ "alertes_ocr": [
+  "« Société CEGELEC » absent de la liste des plis déposés (nom mal lu ?).",
+  "« Société BUTEC ENERGIES ET SERVICES » absent de la liste des plis déposés (nom mal lu ?).",
+  "« Société DDM » absent de la liste des plis déposés (nom mal lu ?).",
+  "« Société ALOMRA GROUP » absent de la liste des plis déposés (nom mal lu ?).",
+  "« Société BUTEC ENERGIES ET SERVICES » : écart anormal entre montant initial et vérifié (lecture à vérifier)."
+ ],
+ "notes_ocr": [
+  "« Société BUTEC ENERGIES ET SERVICES » : montant rectifié de 109 729 962.00 à 9 729 962.00 DH.",
+  "« Société DDM » : montant rectifié de 103 307 462.40 à 94 577 955.60 DH.",
+  "Marché alloti (4 lots).",
+  "Maître d'ouvrage absent du PV (utiliser l'acheteur public du portail)."
+ ],
+ "qualite": "complet"
+}

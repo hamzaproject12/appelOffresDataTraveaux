@@ -1,0 +1,106 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "820957",
+ "orgAcronyme": "d4q",
+ "reference_pv": null,
+ "nouveau": true,
+ "reference": null,
+ "objet": null,
+ "acheteur": "RADEEJ",
+ "procedure": null,
+ "categorie": "Travaux",
+ "date_limite_plis": "13/06/2024",
+ "lieu_ouverture": "Siège RADEEJ à EL JADIDA",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "31/07/2024",
+ "justification": null,
+ "infructueux": false,
+ "attributaire": "LABEL COLLECT SERVICES",
+ "montant_attribue": 1654920.0,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "LABEL COLLECT SERVICES",
+   "montant_acte_engagement": 1654920.0,
+   "montant_apres_verification": null,
+   "autres_montants": [
+    2382420.0
+   ],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "SANI ASSAINISSEMENT",
+   "montant_acte_engagement": 1692000.0,
+   "montant_apres_verification": null,
+   "autres_montants": [
+    2349000.0
+   ],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "DEEP CLEANING",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_dossier_administratif_technique",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "ASSIF CONSEIL",
+   "montant_acte_engagement": 2013480.0,
+   "montant_apres_verification": null,
+   "autres_montants": [
+    2817870.0
+   ],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "SOTRACOAS",
+   "montant_acte_engagement": 1623600.0,
+   "montant_apres_verification": null,
+   "autres_montants": [
+    2319900.0
+   ],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "AHMEDMARIOUCH",
+   "montant_acte_engagement": 1715040.0,
+   "montant_apres_verification": null,
+   "autres_montants": [
+    2420160.0
+   ],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "ALITFAI",
+   "montant_acte_engagement": 1669680.0,
+   "montant_apres_verification": null,
+   "autres_montants": [
+    2378520.0
+   ],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 7,
+ "alertes_ocr": [],
+ "notes_ocr": [],
+ "qualite": "complet"
+}

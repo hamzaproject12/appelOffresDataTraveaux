@@ -1,0 +1,104 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "720102",
+ "orgAcronyme": "f8y",
+ "reference_pv": "482023/ARXPO",
+ "nouveau": true,
+ "reference": "482023/ARXPO",
+ "objet": "TRAVAUX DE CONSTRUCTION DE LA ROUTE NON CLASSEE RELIANT OULAD AISSA (RRsII) - OULAD MHAND (RR5O8) RELEVANT DE LA COMMUNE AIN ZOHRA. PROVINCE DRIOUCH",
+ "acheteur": null,
+ "procedure": null,
+ "categorie": "Travaux",
+ "date_limite_plis": "23/05/2023",
+ "lieu_ouverture": null,
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "06/06/2023",
+ "justification": "l’attributaire a présenté l’offre la moins disante.",
+ "infructueux": false,
+ "attributaire": "GROUPEMENT ENTRE SOCIETE BNTP SARL ET SOCIETE LABERAGA TRAVAUX SARIAU",
+ "montant_attribue": 21201922.8,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "GROUPEMENT ENTRE SOCIETE BNTP SARL ET SOCIETE LABERAGA TRAVAUX SARIAU",
+   "montant_acte_engagement": 21201922.8,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "SOCIETE UNIVERS BAT SARL",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "SOCIETE GRANDS TRAVAUX ROUTIERS CHOI.]ROUK SARL",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "SOCIETE LES GRANDS TRAVAUX ROUTIERS",
+   "montant_acte_engagement": 23806362.0,
+   "montant_apres_verification": 23806362.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "NI:ANT",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_dossier_administratif_technique",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "CHOUROUXK SARL",
+   "montant_acte_engagement": 23601637.2,
+   "montant_apres_verification": 23601637.2,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "SOCIETE LABERAGA TRAVAUX SARLAU FLA0L 22",
+   "montant_acte_engagement": 21201922.8,
+   "montant_apres_verification": 21201922.8,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 7,
+ "alertes_ocr": [
+  "« GROUPEMENT ENTRE SOCIETE BNTP SARL ET SOCIETE LABERAGA TRAVAUX SARIAU » absent de la liste des plis déposés (nom mal lu ?).",
+  "« SOCIETE LES GRANDS TRAVAUX ROUTIERS » absent de la liste des plis déposés (nom mal lu ?).",
+  "« CHOUROUXK SARL » absent de la liste des plis déposés (nom mal lu ?).",
+  "« SOCIETE LABERAGA TRAVAUX SARLAU FLA0L 22 » absent de la liste des plis déposés (nom mal lu ?)."
+ ],
+ "notes_ocr": [
+  "« SOCIETE UNIVERS BAT SARL » absent de la liste des plis déposés (nom mal lu ?).",
+  "« SOCIETE GRANDS TRAVAUX ROUTIERS CHOI.]ROUK SARL » absent de la liste des plis déposés (nom mal lu ?).",
+  "« NI:ANT » absent de la liste des plis déposés (nom mal lu ?).",
+  "Maître d'ouvrage absent du PV (utiliser l'acheteur public du portail)."
+ ],
+ "qualite": "complet"
+}

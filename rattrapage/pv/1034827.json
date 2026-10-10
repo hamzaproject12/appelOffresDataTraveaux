@@ -1,0 +1,60 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "1034827",
+ "orgAcronyme": "g3h",
+ "reference_pv": "10007514",
+ "nouveau": true,
+ "reference": "10007514",
+ "objet": "Réalisation des nouveaux branchements d’assainissement au niveau du centre Agdez - Province de Zagora",
+ "acheteur": "Société Régionale Multiservices Drâa Tafilalet « SRM-DT » Société Anonyme (S.A)",
+ "procedure": null,
+ "categorie": "Travaux",
+ "date_limite_plis": "19/06/2026",
+ "lieu_ouverture": "Siège de la SRM-DT",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "24/08/2026",
+ "justification": "offre économiquement la plus avantageuse.",
+ "infructueux": false,
+ "attributaire": "UTILES SARL AU",
+ "montant_attribue": 1087800.0,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "GLOBAL NASSIH EXPERTISE SARL AU",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_dossier_administratif_technique",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "ENTREPRISE DES ACTIVITES UTILE SARL AU",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "UTILES SARL AU",
+   "montant_acte_engagement": 1087800.0,
+   "montant_apres_verification": 1087800.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 3,
+ "alertes_ocr": [
+  "« UTILES SARL AU » absent de la liste des plis déposés (nom mal lu ?)."
+ ],
+ "notes_ocr": [],
+ "qualite": "attribution"
+}

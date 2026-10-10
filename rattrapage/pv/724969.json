@@ -1,0 +1,95 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "724969",
+ "orgAcronyme": "o8p",
+ "reference_pv": "09/2023",
+ "nouveau": true,
+ "reference": "09/2023",
+ "objet": null,
+ "acheteur": null,
+ "procedure": "appel d'offres ouvert",
+ "categorie": "Travaux",
+ "date_limite_plis": null,
+ "lieu_ouverture": null,
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": null,
+ "justification": "- M. AIT M’'BAREK OUSSAMA, Chef de service Infrastructure; - M. ANNAHLA YASSINE, Technicien au service Infrastructure (membre);",
+ "infructueux": false,
+ "attributaire": "Groupement (Sté. ANETRA SARL & Sté. ENARU SARL à KHENIFRA",
+ "montant_attribue": 23670909.6,
+ "attributaires_par_lot": [
+  {
+   "lot": null,
+   "attributaire": "Groupement (Sté. ANETRA SARL & Sté. ENARU SARL à KHENIFRA",
+   "montant": 23670909.6
+  },
+  {
+   "lot": null,
+   "attributaire": "ENT. GENERAL ROUTES ET DES TRAVAUX PUBLICS (GRTP SA) à CASA",
+   "montant": 29269366.8
+  },
+  {
+   "lot": null,
+   "attributaire": "ENT. BOUALI DE TRAVAUX SARL à GOULMIMA (format électronique) (format électronique) (format électronique) (format électronique) (format électronique)",
+   "montant": 23353892.4
+  },
+  {
+   "lot": null,
+   "attributaire": "Groupement (Sté. ANETRA SARL & Sté. ENARU SARL",
+   "montant": 23670909.6
+  }
+ ],
+ "soumissionnaires": [
+  {
+   "nom": "Sté. SOGORET SARL — AU à MEKNES",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_offre_financiere",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Groupement (Sté. ANETRA SARL & Sté. ENARU SARL",
+   "montant_acte_engagement": 23670909.6,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "ENT. GENERAL ROUTES ET DES TRAVAUX PUBLICS (GRTP SA) à CASA",
+   "montant_acte_engagement": 29269366.8,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "ENT. BOUALI DE TRAVAUX SARL à GOULMIMA (format électronique) (format électronique) (format électronique) (format électronique) (format électronique)",
+   "montant_acte_engagement": 23353892.4,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 4,
+ "alertes_ocr": [
+  "« Groupement (Sté. ANETRA SARL & Sté. ENARU SARL » absent de la liste des plis déposés (nom mal lu ?).",
+  "« ENT. GENERAL ROUTES ET DES TRAVAUX PUBLICS (GRTP SA) à CASA » absent de la liste des plis déposés (nom mal lu ?).",
+  "« ENT. BOUALI DE TRAVAUX SARL à GOULMIMA (format électronique) (format électronique) (format électronique) (format électronique) (format électronique) » absent de la liste des plis déposés (nom mal lu ?)."
+ ],
+ "notes_ocr": [
+  "« Sté. SOGORET SARL — AU à MEKNES » absent de la liste des plis déposés (nom mal lu ?).",
+  "Maître d'ouvrage absent du PV (utiliser l'acheteur public du portail)."
+ ],
+ "qualite": "attribution"
+}

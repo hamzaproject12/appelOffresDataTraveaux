@@ -1,0 +1,72 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "976064",
+ "orgAcronyme": "g3h",
+ "reference_pv": "176/2",
+ "nouveau": true,
+ "reference": "176/2",
+ "objet": "Fourniture et installation d'un Système de comptage au niveau des arrivées G60ky des postes sources de la SRM-MS",
+ "acheteur": "SRM-MS",
+ "procedure": "appel d'offres ouvert",
+ "categorie": "Travaux",
+ "date_limite_plis": "14/11/2025",
+ "lieu_ouverture": "Siège de la SRM-MS Boulevard Mohamed VI MARRAKECH",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "03/02/2026",
+ "justification": "L’attribution du Marché sera faite au soumissionnaire qui satisfait aux conditions fixées par le présent règlement de consultation qui aura obtenu la meilleure note Technico-Financière (NTE) par lot parmi celles des candidats retenus.",
+ "infructueux": false,
+ "attributaire": "KAZINOV",
+ "montant_attribue": 8137560.0,
+ "attributaires_par_lot": [
+  {
+   "lot": "1",
+   "attributaire": "KAZINOV",
+   "montant": 8137560.0
+  },
+  {
+   "lot": "2",
+   "attributaire": "KAZINOV",
+   "montant": 8101080.0
+  },
+  {
+   "lot": "3",
+   "attributaire": "KAZINOV",
+   "montant": 8176.0
+  },
+  {
+   "lot": "4",
+   "attributaire": "KAZINOV",
+   "montant": 9115.0
+  }
+ ],
+ "soumissionnaires": [
+  {
+   "nom": "KAZINOV",
+   "montant_acte_engagement": 8137560.0,
+   "montant_apres_verification": 8137560.0,
+   "autres_montants": [
+    8101080.0,
+    8176440.0,
+    9115248.0
+   ],
+   "lots": [
+    "1",
+    "2",
+    "3",
+    "4"
+   ],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 1,
+ "alertes_ocr": [],
+ "notes_ocr": [
+  "Marché alloti (4 lots)."
+ ],
+ "qualite": "attribution"
+}

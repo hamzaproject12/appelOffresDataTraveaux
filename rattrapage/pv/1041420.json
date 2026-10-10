@@ -1,0 +1,58 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "1041420",
+ "orgAcronyme": "o8p",
+ "reference_pv": "ER/28/2026",
+ "nouveau": true,
+ "reference": "ER/28/2026",
+ "objet": null,
+ "acheteur": "Monsieur le Directeur Provincial de l'Equipement, du Transport, de la Logistique d’Errachidia",
+ "procedure": "appel d'offres ouvert",
+ "categorie": "Travaux",
+ "date_limite_plis": "19/08/2026",
+ "lieu_ouverture": "Le bureau du Directeur provincial de l'Equipement et du Transport, de la logistique d’Errachidia (Avenue Moulay Ali Chérif - BP : 56, E‘rrachidia — 52 000)",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": null,
+ "justification": null,
+ "infructueux": false,
+ "attributaire": "REXCOLOR",
+ "montant_attribue": 256632.0,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "AGRGR Trav",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_offre_financiere",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "REXCOLOR",
+   "montant_acte_engagement": 256632.0,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "ASLLATEN",
+   "montant_acte_engagement": 259440.0,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 3,
+ "alertes_ocr": [],
+ "notes_ocr": [],
+ "qualite": "complet"
+}

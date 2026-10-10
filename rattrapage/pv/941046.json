@@ -1,0 +1,110 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "941046",
+ "orgAcronyme": "d4q",
+ "reference_pv": "l-04/DR5/2025",
+ "nouveau": true,
+ "reference": "l-04/DR5/2025",
+ "objet": "Entretien des espaces verts des stations de traitement Ourtzagh, Sebou, Mkansa et Ain Gdah - Province de Taounate",
+ "acheteur": null,
+ "procedure": null,
+ "categorie": "Travaux",
+ "date_limite_plis": null,
+ "lieu_ouverture": null,
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": null,
+ "justification": null,
+ "infructueux": false,
+ "attributaire": "rETE TAI,HAOUI D' ELECTROMECANIQUE",
+ "montant_attribue": null,
+ "attributaires_par_lot": [
+  {
+   "lot": null,
+   "attributaire": "rETE TAI,HAOUI D' ELECTROMECANIQUE",
+   "montant": null
+  },
+  {
+   "lot": null,
+   "attributaire": "TRAVAUX DIVERS",
+   "montant": null
+  },
+  {
+   "lot": null,
+   "attributaire": "commi s s ion VERIFTCATION",
+   "montant": null
+  },
+  {
+   "lot": null,
+   "attributaire": "D6lai d'ex6cution",
+   "montant": null
+  },
+  {
+   "lot": null,
+   "attributaire": "Pour Ie pr6sident de Ia",
+   "montant": null
+  }
+ ],
+ "soumissionnaires": [
+  {
+   "nom": "rETE TAI,HAOUI D' ELECTROMECANIQUE",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "TRAVAUX DIVERS",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "commi s s ion VERIFTCATION",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "D6lai d'ex6cution",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Pour Ie pr6sident de Ia",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 5,
+ "alertes_ocr": [
+  "Montant de l'attributaire « rETE TAI,HAOUI D' ELECTROMECANIQUE » non trouvé.",
+  "Montant de l'attributaire « TRAVAUX DIVERS » non trouvé.",
+  "Montant de l'attributaire « commi s s ion VERIFTCATION » non trouvé.",
+  "Montant de l'attributaire « D6lai d'ex6cution » non trouvé.",
+  "Montant de l'attributaire « Pour Ie pr6sident de Ia » non trouvé."
+ ],
+ "notes_ocr": [
+  "Maître d'ouvrage absent du PV (utiliser l'acheteur public du portail)."
+ ],
+ "qualite": "participants"
+}

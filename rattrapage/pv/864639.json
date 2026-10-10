@@ -1,0 +1,63 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "864639",
+ "orgAcronyme": "d4q",
+ "reference_pv": "65/A/2024",
+ "nouveau": true,
+ "reference": "65/A/2024",
+ "objet": null,
+ "acheteur": "RADEETA",
+ "procedure": null,
+ "categorie": "Travaux",
+ "date_limite_plis": "04/12/2024",
+ "lieu_ouverture": "Siège de la RADEE.TA",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": null,
+ "justification": "- Dossiers administratif et technique conformes. - Offre avantageuse répondant aux critères d'évaluation.",
+ "infructueux": false,
+ "attributaire": "Société S.LE.T-R Majoration",
+ "montant_attribue": 1202484.1,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "Siège social: 163, Avenue Allal Al fassi - Taza - B.P:",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_offre_financiere",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Site web: www.radee-ta.ma www.radee-ta.ma",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_offre_financiere",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Société S.LE.T-R Majoration",
+   "montant_acte_engagement": 1202484.1,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 3,
+ "alertes_ocr": [
+  "« Société S.LE.T-R Majoration » absent de la liste des plis déposés (nom mal lu ?)."
+ ],
+ "notes_ocr": [
+  "« Siège social: 163, Avenue Allal Al fassi - Taza - B.P: » absent de la liste des plis déposés (nom mal lu ?).",
+  "« Site web: www.radee-ta.ma www.radee-ta.ma » absent de la liste des plis déposés (nom mal lu ?)."
+ ],
+ "qualite": "attribution"
+}

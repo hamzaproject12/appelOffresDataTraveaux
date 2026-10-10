@@ -1,0 +1,51 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "741235",
+ "orgAcronyme": "f9f",
+ "reference_pv": "02-2023",
+ "nouveau": true,
+ "reference": "02-2023",
+ "objet": "Travaux d’aménagement du parc auto communal de Tanalt",
+ "acheteur": "Commune de TANALT",
+ "procedure": "appel d'offres ouvert",
+ "categorie": "Travaux",
+ "date_limite_plis": "15/08/2023",
+ "lieu_ouverture": "La salle de réunion au siège de la commune de TANALT",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "30/08/2023",
+ "justification": "offre avantageuse",
+ "infructueux": false,
+ "attributaire": null,
+ "montant_attribue": null,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "GRP DAHBANI ET BLAALIM",
+   "montant_acte_engagement": 240546.0,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "SOCIETE OUTOUF INDUSTRIE",
+   "montant_acte_engagement": 271374.0,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 2,
+ "alertes_ocr": [
+  "Attributaire non trouvé."
+ ],
+ "notes_ocr": [],
+ "qualite": "complet"
+}

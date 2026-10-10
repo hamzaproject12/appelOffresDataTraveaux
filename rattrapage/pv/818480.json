@@ -1,0 +1,95 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "818480",
+ "orgAcronyme": "p8x",
+ "reference_pv": "30/2024/CH/INV",
+ "nouveau": true,
+ "reference": "30/2024/CH/INV",
+ "objet": null,
+ "acheteur": null,
+ "procedure": "appel d'offres ouvert simplifié",
+ "categorie": "Travaux",
+ "date_limite_plis": null,
+ "lieu_ouverture": null,
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": null,
+ "justification": " Candidats ayant de bonnes références techniques, administratives et financières.  Les prix sont avantageux pour l’Administration, les offres financières ont été jugées les plus intéressantes par la commission chargée de l’ouverture des plis.  Date d’achèvement des travaux de la commission : 26/07/2024 à 16h10mn.",
+ "infructueux": false,
+ "attributaire": "Sté Apro Travaux sarl - Chichaoua",
+ "montant_attribue": 307353.6,
+ "attributaires_par_lot": [
+  {
+   "lot": null,
+   "attributaire": "Sté Apro Travaux sarl - Chichaoua",
+   "montant": 307353.6
+  },
+  {
+   "lot": null,
+   "attributaire": "Sté El Ghadouini Travaux sarl – Marrakech",
+   "montant": 313612.8
+  },
+  {
+   "lot": null,
+   "attributaire": "Sté Sot Itrane sarl - Chichaoua",
+   "montant": 313356.0
+  }
+ ],
+ "soumissionnaires": [
+  {
+   "nom": "Sté Sot Itrane sarl - Chichaoua",
+   "montant_acte_engagement": 329942.4,
+   "montant_apres_verification": 329942.4,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Sté El Ghadouini Travaux sarl – Marrakech",
+   "montant_acte_engagement": 325040.4,
+   "montant_apres_verification": 325040.4,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Sté Tinnagh Travaux sarl - Chichaoua",
+   "montant_acte_engagement": 304825.2,
+   "montant_apres_verification": 404995.2,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_offre_financiere",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Sté Apro Travaux sarl - Chichaoua",
+   "montant_acte_engagement": 307353.6,
+   "montant_apres_verification": 307353.6,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "relevant de la direction provinciale de CHICHAOUA, AREF – MS",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "depose",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 5,
+ "alertes_ocr": [],
+ "notes_ocr": [
+  "« Sté Tinnagh Travaux sarl - Chichaoua » : montant rectifié de 304 825.20 à 404 995.20 DH.",
+  "Maître d'ouvrage absent du PV (utiliser l'acheteur public du portail)."
+ ],
+ "qualite": "complet"
+}

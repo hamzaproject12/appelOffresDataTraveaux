@@ -1,0 +1,49 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "876242",
+ "orgAcronyme": "f8y",
+ "reference_pv": null,
+ "nouveau": true,
+ "reference": null,
+ "objet": "Entretien, réparation, maintenance et mise en service des Fontaines publiques de la ville d’Oujda",
+ "acheteur": "Commune d’Oujda",
+ "procedure": "appel d'offres ouvert simplifié",
+ "categorie": "Travaux",
+ "date_limite_plis": "19/02/2025",
+ "lieu_ouverture": "La salle des réunions de la commune d’Oujda sis Au boulevard Mohammed V",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "28/02/2025",
+ "justification": "L’offre économiquement la plus avantageuse.",
+ "infructueux": false,
+ "attributaire": "SOCIETE AMNEO SARL",
+ "montant_attribue": 544560.0,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "SOCIETE AMNEO SARL",
+   "montant_acte_engagement": 544560.0,
+   "montant_apres_verification": 544560.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "SOCIETE ELECTRO POMPE ORIENT SARL",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_dossier_administratif_technique",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 2,
+ "alertes_ocr": [],
+ "notes_ocr": [],
+ "qualite": "attribution"
+}

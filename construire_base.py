@@ -25,6 +25,7 @@ import sqlite3
 import sys
 import unicodedata
 from difflib import SequenceMatcher
+from html import unescape
 from pathlib import Path
 
 def _argument(nom: str, defaut=None):
@@ -93,7 +94,8 @@ CREATE TABLE marches (
   montants_ecartes INTEGER, estimation_ecartee INTEGER, date_douteuse INTEGER,
   montant_douteux INTEGER, versions INTEGER, principale INTEGER, groupe TEXT,
   source TEXT, montant_ocr REAL, divergence INTEGER, justification TEXT,
-  classes TEXT, mieux_disant TEXT, attributaire_mieux_disant INTEGER);
+  classes TEXT, mieux_disant TEXT, attributaire_mieux_disant INTEGER,
+  qualite TEXT);   -- complet | attribution | participants | infructueux, pour les PV lus par OCR
 CREATE TABLE concurrents (
   id INTEGER PRIMARY KEY, ref TEXT, nom TEXT, cle TEXT, montant_acte REAL, montant_verifie REAL,
   statut TEXT, lots TEXT, ecart REAL, source TEXT, rang INTEGER); -- ecart / estimation, rang / prix_reference
@@ -117,6 +119,7 @@ CREATE INDEX i_m_statut ON marches(statut);
 CREATE INDEX i_m_montant ON marches(montant);
 CREATE INDEX i_m_date ON marches(tri_date);
 CREATE INDEX i_m_ecart ON marches(ecart_attributaire);
+CREATE INDEX i_m_source ON marches(source, qualite);
 CREATE INDEX i_m_estimation ON marches(estimation);
 CREATE INDEX i_m_principale ON marches(principale);
 CREATE INDEX i_m_groupe ON marches(groupe);
@@ -168,11 +171,35 @@ def meme_marche(a: dict, b: dict) -> bool:
     return not oa or not ob or SequenceMatcher(None, oa, ob).ratio() > 0.7
 
 
+def rang_de_publication(m: dict) -> int:
+    """Un repère de date quand la date manque.
+
+    Le portail numérote ses annonces dans l'ordre où elles paraissent : un identifiant plus grand
+    est plus récent. C'est le seul repère disponible pour les marchés venus des extraits, dont
+    « publie_le » est toujours vide — sans lui, « à contenu égal la plus récente » ne départage
+    rien et la version retenue est tirée au hasard.
+    """
+    chiffres = re.sub(r"\D", "", str(m.get("ref") or ""))
+    return int(chiffres) if chiffres else 0
+
+
 def richesse(m: dict) -> tuple:
-    """Ce qu'une version apporte : un attributaire vaut mieux qu'un montant, qui vaut mieux qu'une liste."""
+    """Ce qu'une version apporte, par ordre d'importance.
+
+    D'abord ce qu'elle contient : un attributaire vaut mieux qu'un montant, qui vaut mieux qu'une
+    liste de concurrents. Ensuite COMBIEN de concurrents elle nomme — deux lectures du même
+    procès-verbal peuvent en donner 38 et 23, et c'est la plus fournie qui doit faire foi. En
+    dernier ressort la plus récente : une republication corrige celle qui la précède.
+    """
+    concurrents = m.get("concurrents") or []
     return ((m.get("attributaire") is not None) * 4 + (m.get("montant") is not None) * 2
-            + bool(m.get("concurrents")) + (m.get("statut") == "ok"),
-            jour(m.get("publie_le")) or datetime.date.min)
+            + bool(concurrents) + (m.get("statut") == "ok"),
+            sum(1 for c in concurrents if c.get("montant_acte") or c.get("montant_verifie")),
+            len(concurrents),
+            len(m.get("lots") or []),
+            int(m.get("estimation_portail") is not None),
+            jour(m.get("publie_le")) or datetime.date.min,
+            rang_de_publication(m))
 
 
 def marquer_versions(marches: list[dict]) -> int:
@@ -189,6 +216,24 @@ def marquer_versions(marches: list[dict]) -> int:
     for m in marches:
         ref = (m.get("reference") or "").strip().upper()
         (par_cle[(ref, m.get("acheteur"))] if ref else sans_reference).append(m)
+
+    # Un marché sur cinq n'a pas de référence lisible — l'OCR ne l'a pas trouvée dans le scan.
+    # Les regrouper par référence est donc impossible, et sans autre signature ils apparaîtraient
+    # deux fois et compteraient deux fois dans les totaux. Deux signatures les rattrapent : à
+    # acheteur égal, le même gagnant pour le même montant au centime, ou le même objet pour le
+    # même montant, désignent le même marché.
+    for m in sans_reference:
+        acheteur = cle_plate(m.get("acheteur"))[:26]
+        somme = montant(m.get("montant"))
+        gagnant = cle_nom(m["attributaire"]) if m.get("attributaire") else None
+        objet = _objet_nu(m.get("objet")) or ""
+        if acheteur and gagnant and somme:
+            par_cle[("~gagnant", acheteur, gagnant, round(somme, 2))].append(m)
+        elif acheteur and somme and len(objet) > 25:
+            par_cle[("~objet", acheteur, objet[:90], round(somme, 2))].append(m)
+        else:
+            par_cle[("~seul", id(m))].append(m)   # rien pour le reconnaître : il reste seul
+    sans_reference = []
 
     secondaires = 0
     for lot in par_cle.values():
@@ -231,7 +276,9 @@ def extraits_connus() -> dict[str, dict]:
             # Un marché sans PV n'a pas de référence d'annonce : on le range sous « c<consultation> ».
             cle_extrait = str(d.get("refConsultation_pv") or "c" + str(d.get("refConsultation_annonce")))
             out[cle_extrait] = d
-    print(f"{len(out)} extraits de PV lus dans {EXTRAITS} (données du portail, sans OCR)")
+    lus = sum(1 for e in out.values() if par_ocr(e))
+    print(f"{len(out)} extraits de PV lus dans {EXTRAITS} — {len(out) - lus} saisis sur le portail,"
+          f" {lus} lus par OCR ou dans un Word")
     return out
 
 
@@ -255,11 +302,22 @@ def marche_du_portail(e: dict) -> dict:
             "categorie": e.get("categorie"), "publie_le": None,
             "date_ouverture": (e.get("date_limite_plis") or "")[:10] or None,
             "numero_ao": None, "fichier": None,
-            "lien": (f"https://www.marchespublics.gov.ma/index.php?page=entreprise.ExtraitPV"
-                     f"&refConsultation={e.get('refConsultation_annonce')}"
-                     f"&orgAcronyme={e.get('orgAcronyme')}"),
+            # Deux pages différentes selon la provenance. Pour un PV saisi par l'acheteur, le
+            # contenu est sur « ExtraitPV ». Pour un PV lu par OCR, cette page-là est une coquille
+            # vide — 54 640 octets de menu et rien d'autre : le document est en pièce jointe de
+            # l'annonce. Y envoyer le visiteur ferait croire à une donnée inventée.
+            "lien": ("https://www.marchespublics.gov.ma/index.php?page="
+                     + ("entreprise.EntrepriseDetailConsultation" if par_ocr(e)
+                        else "entreprise.ExtraitPV")
+                     + f"&refConsultation={e.get('refConsultation_annonce')}"
+                     + f"&orgAcronyme={e.get('orgAcronyme')}"),
             "montant": None}
     return fusionner(vide, e)
+
+
+def par_ocr(e: dict) -> bool:
+    """Cet extrait vient-il d'un document lu (scan ou Word), et non de la saisie du portail ?"""
+    return (e.get("source") or "portail") != "portail"
 
 
 def fusionner(m: dict, e: dict) -> dict:
@@ -291,11 +349,15 @@ def fusionner(m: dict, e: dict) -> dict:
             "procedure": e.get("procedure") or m.get("procedure"),
             "objet": m.get("objet") or e.get("objet"),
             "justification": e.get("justification"),
-            "statut": "ok",              # lecture certaine : ce n'est plus une extraction d'image
-            "alertes": [],               # les avertissements de l'OCR ne s'appliquent plus
+            "statut": "ok",
+            # Un extrait tapé au clavier par l'acheteur est exact : ses chiffres ne portent aucun
+            # doute. Un extrait lu par OCR sur un scan en porte, et l'analyseur les a notés —
+            # effacer ces avertissements ferait passer une lecture d'image pour une saisie.
+            "alertes": [] if not par_ocr(e) else list(e.get("alertes_ocr") or []),
             "estimation_portail": e.get("estimation"),
             "caution_portail": e.get("caution_provisoire"),
-            "source": "portail"}
+            "source": e.get("source") or "portail",
+            "qualite": e.get("qualite")}
 
 
 PLAFOND = 5e9          # au-delà, c'est une erreur de lecture : on préfère ne pas afficher de montant
@@ -314,6 +376,56 @@ def _liste_json(valeur):
     except (ValueError, TypeError):
         return []
     return lu if isinstance(lu, list) else []
+
+
+CONSULTATIONS = ESTIMATIONS.parent / "consultations.csv"
+# « 06/10/2026  115/FLSHM/2026 - ... » : la référence du marché, dans le texte d'une ligne de liste.
+REFERENCE_DANS_TEXTE = re.compile(r"\d{2}/\d{2}/\d{4}\s+(.{2,40}?)\s+-\s+\.\.\.")
+ORG_DANS_LIEN = re.compile(r"orgAcronyme=([^&]+)")
+
+
+def cle_plate(t) -> str:
+    return re.sub(r"[^a-z0-9]", "", (t or "").lower())
+
+
+def cle_marche(m: dict):
+    """(acheteur, référence) d'un marché — l'identité qui vaut des deux côtés.
+
+    Un PV lu par OCR est rangé sous la référence de son ANNONCE D'EXTRAIT DE PV, tandis que les
+    estimations sont rangées sous celle de l'AVIS DE CONSULTATION. Les deux espaces
+    d'identifiants sont entièrement disjoints : aucune estimation ne se rattachait donc à un
+    marché lu par OCR — mesuré, zéro sur 31 048. L'acheteur et la référence du marché, eux,
+    désignent la même chose dans les deux listes.
+    """
+    o = ORG_DANS_LIEN.search(m.get("lien") or "")
+    if not (o and m.get("reference")):
+        return None
+    return cle_plate(o.group(1)), cle_plate(m["reference"])
+
+
+def estimations_par_marche(fiches: dict) -> dict:
+    """Les mêmes estimations, réindexées par (acheteur, référence du marché)."""
+    if not fiches or not CONSULTATIONS.exists():
+        return {}
+    csv.field_size_limit(10 ** 7)
+    identite = {}
+    with open(CONSULTATIONS, encoding="utf-8-sig", newline="") as f:
+        for l in csv.DictReader(f, delimiter=";"):
+            trouve = REFERENCE_DANS_TEXTE.search(unescape(l.get("texte") or ""))
+            if trouve:
+                identite[str(l.get("refConsultation") or "")] = (
+                    cle_plate(l.get("orgAcronyme")), cle_plate(trouve.group(1)))
+    out = {}
+    for cle, fiche in fiches.items():
+        if fiche.get("estimation") is None:
+            continue
+        annonce = cle[1:] if cle.startswith("c") else cle
+        k = identite.get(annonce)
+        if k:
+            out.setdefault(k, fiche)
+    print(f"{len(out)} estimations rattachables par (acheteur, référence) pour les marchés"
+          f" dont l'identifiant d'annonce ne correspond pas")
+    return out
 
 
 def estimations_connues() -> dict[str, dict]:
@@ -505,9 +617,6 @@ def main() -> None:
     db = sqlite3.connect(CIBLE)
     db.executescript(SCHEMA)
 
-    secondaires = marquer_versions(marches)
-    if secondaires:
-        print(f"{secondaires} annonces sont des republications : consultables depuis la fiche du marché")
     extraits = extraits_connus()
     if extraits:
         fusionnes = 0
@@ -522,8 +631,24 @@ def main() -> None:
                    if e.get("nouveau") and e.get("refConsultation_annonce")]
         if inedits:
             marches += inedits
-            print(f"{len(inedits)} marchés inédits ajoutés : connus du seul portail, sans PV ni OCR")
+            par_source: dict = {}
+            for m in inedits:
+                par_source[m.get("source") or "portail"] = par_source.get(m.get("source") or "portail", 0) + 1
+            detail = ", ".join(f"{n} {k}" for k, n in sorted(par_source.items(), key=lambda x: -x[1]))
+            print(f"{len(inedits)} marchés ajoutés depuis les extraits ({detail})")
+
+    # Le regroupement des republications se fait MAINTENANT, et non avant : les marchés venus des
+    # extraits n'existaient pas encore à ce moment-là. Le portail publie le même procès-verbal
+    # deux fois — une fois sur la page de la consultation, une fois en pièce jointe d'une annonce
+    # d'extrait, ou simplement deux fois parce que l'acheteur l'a corrigé. Rien n'est jeté : la
+    # version la plus complète devient la principale, celle qui compte dans les listes et les
+    # totaux, et les autres restent consultables depuis sa fiche.
+    secondaires = marquer_versions(marches)
+    if secondaires:
+        print(f"{secondaires} annonces sont des republications du même marché : la plus complète"
+              f" fait foi, les autres restent consultables depuis sa fiche")
     estimations = estimations_connues()
+    par_marche = estimations_par_marche(estimations)
     societes: dict[str, dict] = {}
     acheteurs: dict[str, dict] = {}
     societes_annee: dict[tuple, dict] = {}
@@ -536,7 +661,7 @@ def main() -> None:
 
         # Estimation du maître d'ouvrage et prix de référence
         cle_tri, date_douteuse = date_de_tri(m.get("date_ouverture"), m.get("publie_le"))
-        est = estimations.get(ref) or {}
+        est = estimations.get(ref) or par_marche.get(cle_marche(m)) or {}
         # Le portail donne parfois l'estimation dans l'extrait lui-même : elle vaut celle du CSV.
         e = {"estimation": est.get("estimation") or montant(m.get("estimation_portail")),
              "caution": est.get("caution") or montant(m.get("caution_portail")),
@@ -560,7 +685,7 @@ def main() -> None:
             (offre_de(c) for c in m.get("concurrents") or [] if c.get("statut") == "attributaire"), None)
 
         db.execute("INSERT OR REPLACE INTO marches VALUES (?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,"
-                   "?,?,?,?,?,?,?,?,?,?,?,?)", (
+                   "?,?,?,?,?,?,?,?,?,?,?,?,?)", (
             ref, m.get("reference"), m.get("acheteur"), m.get("maitre_ouvrage"), m.get("objet"),
             m.get("numero_ao"), m.get("procedure"), m.get("categorie"), m.get("publie_le"),
             m.get("date_ouverture"), cle_tri,
@@ -572,7 +697,8 @@ def main() -> None:
             date_douteuse, montant_hors_echelle(montant_attr, offres, reference), m.get("versions", 1),
             m.get("principale", 1), m.get("groupe") or ref, m.get("source", "ocr"),
             montant(m.get("montant_ocr")), int(bool(m.get("divergence"))), m.get("justification"),
-            ",".join(e.get("classes") or []) or None, mieux_disant, attributaire_mieux))
+            ",".join(e.get("classes") or []) or None, mieux_disant, attributaire_mieux,
+            m.get("qualite")))
 
         for q in e.get("qualifications") or []:
             db.execute("INSERT INTO qualifications VALUES (?,?,?,?,?,?)",
@@ -657,6 +783,12 @@ def main() -> None:
     principales = db.execute("SELECT COUNT(*) FROM marches WHERE principale = 1").fetchone()[0]
     du_portail = db.execute("SELECT COUNT(*) FROM marches WHERE source = 'portail'").fetchone()[0]
     divergents = db.execute("SELECT COUNT(*) FROM marches WHERE divergence = 1").fetchone()[0]
+    par_lecture = db.execute(
+        "SELECT source, COUNT(*), SUM(alertes <> '') FROM marches "
+        "WHERE source <> 'portail' GROUP BY source ORDER BY 2 DESC").fetchall()
+    par_qualite = db.execute(
+        "SELECT qualite, COUNT(*) FROM marches WHERE qualite IS NOT NULL "
+        "GROUP BY qualite ORDER BY 2 DESC").fetchall()
     db.commit()
     db.close()
     # La base part sur Railway dans Git : compressée, elle pèse trois fois moins.
@@ -667,9 +799,12 @@ def main() -> None:
     print(f"{archive} : {archive.stat().st_size / 1e6:.1f} Mo — c'est ce fichier qui part sur Railway")
     print(f"{CIBLE} : {principales} marchés ({len(marches)} annonces), {n_conc} concurrents, {len(societes)} sociétés, "
           f"{len(acheteurs)} acheteurs — {taille:.1f} Mo")
-    if du_portail:
-        print(f"   dont {du_portail} lus sur le portail (sans OCR)"
-              + (f" — {divergents} montants en désaccord avec l'OCR" if divergents else ""))
+    print(f"   dont {du_portail} saisis sur le portail (chiffres exacts)"
+          + (f" — {divergents} montants en désaccord avec l'OCR" if divergents else ""))
+    for provenance, n, avec_doute in par_lecture:
+        print(f"   dont {n} lus par « {provenance} » — {avec_doute or 0} portent un doute de lecture")
+    for qualite, n in par_qualite:
+        print(f"      {n:>6}  {qualite}")
     if estimations:
         print(f"   dont {n_ref} marchés avec un prix de référence "
               f"({100 * n_ref / max(1, len(marches)):.0f} %) — {n_hors} estimations hors d'échelle écartées")

@@ -1,0 +1,65 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "894979",
+ "orgAcronyme": "o8p",
+ "reference_pv": "N-EXTRAIT",
+ "nouveau": true,
+ "reference": "N-EXTRAIT",
+ "objet": "« TRAVAUX DE VOIRIE ET ASSAINISSEMENT AU PORT DE SKHIRAT»",
+ "acheteur": "Agence Nationale des ports : Direction du Port de Mohammedia et Région",
+ "procedure": "appel d'offres ouvert",
+ "categorie": "Travaux",
+ "date_limite_plis": "06/05/2025",
+ "lieu_ouverture": "ANP/DPMR Conformément à l’avis publié dans : Désignation journaux Langue Date de parution",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": null,
+ "justification": null,
+ "infructueux": false,
+ "attributaire": null,
+ "montant_attribue": null,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "Groupement VIABUILD SARL AU et KARMO TRAV AU",
+   "montant_acte_engagement": 3968400.0,
+   "montant_apres_verification": 3968400.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_dossier_administratif_technique",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "PIS",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": true
+  },
+  {
+   "nom": "travaux routiers",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_offre_technique",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 3,
+ "alertes_ocr": [
+  "« Groupement VIABUILD SARL AU et KARMO TRAV AU » absent de la liste des plis déposés (nom mal lu ?).",
+  "Attributaire non trouvé."
+ ],
+ "notes_ocr": [
+  "« PIS » absent de la liste des plis déposés (nom mal lu ?).",
+  "« travaux routiers » absent de la liste des plis déposés (nom mal lu ?).",
+  "Montants exprimés hors taxes (HT)."
+ ],
+ "qualite": "attribution"
+}

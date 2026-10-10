@@ -1,0 +1,55 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "1015424",
+ "orgAcronyme": "g3h",
+ "reference_pv": "31/2026",
+ "nouveau": true,
+ "reference": "31/2026",
+ "objet": "Travaux d'installation et de mise en service d’un système de contrôle d'accès au parking du Ministère de l'Intérieur à Rabat (lot unique)",
+ "acheteur": "Ministère de l'Intérieur",
+ "procedure": "appel d'offres ouvert national",
+ "categorie": "Travaux",
+ "date_limite_plis": "08/06/2026",
+ "lieu_ouverture": "la Direction des Affaires Administratives (Division des Marchés du Ministère de l’intérieur)",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "22/06/2026",
+ "justification": "l’offre jugée économiquement la plus avantageuse ;",
+ "infructueux": false,
+ "attributaire": "Sté. UNISYSTEM GROUP",
+ "montant_attribue": 1251000.0,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "Sté. CEGELEC",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_offre_technique",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Sté. UNISYSTEM GROUP",
+   "montant_acte_engagement": 1251000.0,
+   "montant_apres_verification": 1251000.0,
+   "autres_montants": [
+    1251000.0
+   ],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 2,
+ "alertes_ocr": [
+  "« Sté. UNISYSTEM GROUP » absent de la liste des plis déposés (nom mal lu ?)."
+ ],
+ "notes_ocr": [
+  "« Sté. CEGELEC » absent de la liste des plis déposés (nom mal lu ?)."
+ ],
+ "qualite": "attribution"
+}

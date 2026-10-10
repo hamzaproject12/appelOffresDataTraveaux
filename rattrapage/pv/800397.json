@@ -1,0 +1,63 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "800397",
+ "orgAcronyme": "q0x",
+ "reference_pv": null,
+ "nouveau": true,
+ "reference": null,
+ "objet": "de ‘appel d'offres onseil Provincial d'ifrane : bureaux du Conseil Provincial d ‘Ifrane",
+ "acheteur": "Monsieur le Président du C",
+ "procedure": "appel d'offres ouvert",
+ "categorie": "Travaux",
+ "date_limite_plis": null,
+ "lieu_ouverture": "osés leurs plis : osés leurs plis : Ÿ SOCIETES.A.L TRAVAUX SARL AU - OUARZAZATE -",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "18/03/2024",
+ "justification": "L’Offre la plus avantageuse.",
+ "infructueux": false,
+ "attributaire": "SOCIETE S.A.L TRAVAUX SARL AU - OUARZAZATE",
+ "montant_attribue": 954900.0,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "SOCIETE S.A.L TRAVAUX SARL AU - OUARZAZATE",
+   "montant_acte_engagement": 954900.0,
+   "montant_apres_verification": 954900.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "OUARZAZATE",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": true
+  },
+  {
+   "nom": "Mot} TITLES",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": true
+  }
+ ],
+ "nombre_soumissionnaires": 3,
+ "alertes_ocr": [
+  "« SOCIETE S.A.L TRAVAUX SARL AU - OUARZAZATE » absent de la liste des plis déposés (nom mal lu ?)."
+ ],
+ "notes_ocr": [
+  "« OUARZAZATE » absent de la liste des plis déposés (nom mal lu ?).",
+  "« Mot} TITLES » absent de la liste des plis déposés (nom mal lu ?)."
+ ],
+ "qualite": "attribution"
+}

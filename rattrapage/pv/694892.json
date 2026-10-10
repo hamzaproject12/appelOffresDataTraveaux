@@ -1,0 +1,73 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "694892",
+ "orgAcronyme": "a1z",
+ "reference_pv": "11/AMR/2022",
+ "nouveau": true,
+ "reference": "11/AMR/2022",
+ "objet": "L'entretien courant des voies dans le territoire de l’ Arrondissement Moulay Rachid",
+ "acheteur": "Arrondissement MOULAY RACHID",
+ "procedure": "appel d'offres ouvert",
+ "categorie": "Travaux",
+ "date_limite_plis": "14/12/2022",
+ "lieu_ouverture": "bureau de Mr le président de l'Arrondissement MOULAY RACHID",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "19/12/2022",
+ "justification": "l’offre la moins- disant",
+ "infructueux": false,
+ "attributaire": "LES DIVERS AOURACHS MAROCAINS",
+ "montant_attribue": 10013520.0,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "VIAS",
+   "montant_acte_engagement": 11582688.0,
+   "montant_apres_verification": 11582688.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "CAMPEZO",
+   "montant_acte_engagement": 10939968.0,
+   "montant_apres_verification": 10939968.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "LABERAGA TRAVAUX",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_offre_financiere",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "LES DIVERS AOURACHS MAROCAINS",
+   "montant_acte_engagement": 10013520.0,
+   "montant_apres_verification": 10013520.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 4,
+ "alertes_ocr": [
+  "« VIAS » absent de la liste des plis déposés (nom mal lu ?).",
+  "« CAMPEZO » absent de la liste des plis déposés (nom mal lu ?).",
+  "« LES DIVERS AOURACHS MAROCAINS » absent de la liste des plis déposés (nom mal lu ?)."
+ ],
+ "notes_ocr": [
+  "« LABERAGA TRAVAUX » absent de la liste des plis déposés (nom mal lu ?)."
+ ],
+ "qualite": "complet"
+}

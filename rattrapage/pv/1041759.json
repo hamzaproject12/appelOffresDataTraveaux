@@ -1,0 +1,64 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "1041759",
+ "orgAcronyme": "g3h",
+ "reference_pv": "51/DPJ-2026",
+ "nouveau": true,
+ "reference": "51/DPJ-2026",
+ "objet": null,
+ "acheteur": "SRM:-CS",
+ "procedure": null,
+ "categorie": "Travaux",
+ "date_limite_plis": "08/09/2026",
+ "lieu_ouverture": "DIRECTION PROVINCIALE D’EL JADIDA",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "21/09/2026",
+ "justification": null,
+ "infructueux": false,
+ "attributaire": "ELECTROMOPFI",
+ "montant_attribue": 6840000.0,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "ELECTROMOPFI",
+   "montant_acte_engagement": 6840000.0,
+   "montant_apres_verification": null,
+   "autres_montants": [
+    4264800.0
+   ],
+   "lots": [
+    "1"
+   ],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "GRID BUILDING",
+   "montant_acte_engagement": 4870824.0,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [
+    "1"
+   ],
+   "statut": "ecarte_dossier_administratif_technique",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "ELECTRO INDUSTRIE",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_dossier_administratif_technique",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 3,
+ "alertes_ocr": [],
+ "notes_ocr": [],
+ "qualite": "complet"
+}

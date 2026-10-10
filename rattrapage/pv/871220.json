@@ -1,0 +1,60 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "871220",
+ "orgAcronyme": "f9f",
+ "reference_pv": "09/COB/2024",
+ "nouveau": true,
+ "reference": "09/COB/2024",
+ "objet": "TRAVAUX DE PROTECTION CONTRE LES INONDATIONS AVEC TRAITEMENT ET AMENAGEMENT SAHEB JRABIAA, JARBOAAYATE CHOUATAT ET JARBOAAYATE OULED ABBOU -— 2EME TRANCHE - ET TRAVAUX D'AMÉNAGEMENT DES QUARTIERS SOUS EQUIPES ALA COMMUNE",
+ "acheteur": "Commune Territoriale Oulad Berhil",
+ "procedure": "appel d'offres ouvert",
+ "categorie": "Travaux",
+ "date_limite_plis": "22/01/2025",
+ "lieu_ouverture": "Bureau du Président de la commune Oulad Berhil",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "10/02/2025",
+ "justification": "Offre économiquement la plus avantageuse.",
+ "infructueux": false,
+ "attributaire": "Groupement : STE ETIA S.A.R.L, STE CONTYMA S.A.R.L ET STE",
+ "montant_attribue": 40894275.0,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "Groupement : STE ETIA S.A.R.L, STE CONTYMA S.A.R.L ET STE ELECTRIQUE 2002 TAGHZOUT (SARL)",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Groupement : STE SETRAGED SARL, STE d'électricité CHOUAIB SARL ET STE ARGEC SARL",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_offre_technique",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Groupement : STE ETIA S.A.R.L, STE CONTYMA S.A.R.L ET STE",
+   "montant_acte_engagement": 40894275.0,
+   "montant_apres_verification": 40894275.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 3,
+ "alertes_ocr": [
+  "« Groupement : STE ETIA S.A.R.L, STE CONTYMA S.A.R.L ET STE » absent de la liste des plis déposés (nom mal lu ?)."
+ ],
+ "notes_ocr": [],
+ "qualite": "attribution"
+}

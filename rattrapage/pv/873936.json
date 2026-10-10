@@ -1,0 +1,56 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "873936",
+ "orgAcronyme": "d4q",
+ "reference_pv": null,
+ "nouveau": true,
+ "reference": null,
+ "objet": "Sous-traitance de la gestion des installations d'alimentation en eau potable en milieu rural - Opération Nord-Est (Province Moulay Yacoub) -— Lot : Distribution",
+ "acheteur": null,
+ "procedure": "appel d'offres ouvert",
+ "categorie": "Travaux",
+ "date_limite_plis": "21/01/2025",
+ "lieu_ouverture": "au siège de la Direction Régionale du Centre Nord (DR5) - 88 rue du Soudan, Ville nouvelle - Fès - Maroc",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": null,
+ "justification": "Moins-disant _- pate d'achèvement des travaux de la commission : 20/02/2025",
+ "infructueux": false,
+ "attributaire": "STE HYDRAULIQUE DES CANAUX 5,932.171,20 1 année(s) reconductible pour (HYDRAUCAN)",
+ "montant_attribue": null,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "STE HYDRAULIQUE DES CANAUX (HYDRAUCAN) - Offre à",
+   "montant_acte_engagement": 932171.2,
+   "montant_apres_verification": null,
+   "autres_montants": [
+    5932171.2
+   ],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "STE HYDRAULIQUE DES CANAUX 5,932.171,20 1 année(s) reconductible pour (HYDRAUCAN)",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 2,
+ "alertes_ocr": [
+  "« STE HYDRAULIQUE DES CANAUX 5,932.171,20 1 année(s) reconductible pour (HYDRAUCAN) » absent de la liste des plis déposés (nom mal lu ?).",
+  "Montant de l'attributaire « STE HYDRAULIQUE DES CANAUX 5,932.171,20 1 année(s) reconductible pour (HYDRAUCAN) » non trouvé."
+ ],
+ "notes_ocr": [
+  "Maître d'ouvrage absent du PV (utiliser l'acheteur public du portail)."
+ ],
+ "qualite": "attribution"
+}

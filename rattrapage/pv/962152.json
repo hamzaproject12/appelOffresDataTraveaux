@@ -1,0 +1,84 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "962152",
+ "orgAcronyme": "g3h",
+ "reference_pv": "04/2025/INDH",
+ "nouveau": true,
+ "reference": "04/2025/INDH",
+ "objet": "ALIMENTATION EN EAU POTABLE DU HAOUMAT HSSIOUASS RELEVANT DE LA COMMUNE TERRITORIALE DAR CHAOUI POUR BRANCHEMENT INDIVIDUELS",
+ "acheteur": "Le Wali de la région Tanger Tétouan Al Houceima, Gouverneur de la Préfecture Tanger Assilah",
+ "procedure": "appel d'offres ouvert",
+ "categorie": "Travaux",
+ "date_limite_plis": "11/11/2025",
+ "lieu_ouverture": "Bureau des marchés relevant de la Préfecture Tanger Assilah,",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": null,
+ "justification": "économiquement la mieux disante qui est la plus proche du prix de référence par défaut : STE SETRAGC",
+ "infructueux": false,
+ "attributaire": null,
+ "montant_attribue": null,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "FS GLORIAS",
+   "montant_acte_engagement": 600312.0,
+   "montant_apres_verification": null,
+   "autres_montants": [
+    600312.0
+   ],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "SETRAGC",
+   "montant_acte_engagement": 601008.0,
+   "montant_apres_verification": null,
+   "autres_montants": [
+    601008.0
+   ],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "PROINFRA",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_offre_technique",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "ENTREPRISE TAHA T.P",
+   "montant_acte_engagement": 715488.0,
+   "montant_apres_verification": null,
+   "autres_montants": [
+    715488.0
+   ],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "STE RENOVA EXTRA SARL",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_offre_technique",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 5,
+ "alertes_ocr": [
+  "Attributaire non trouvé."
+ ],
+ "notes_ocr": [],
+ "qualite": "complet"
+}

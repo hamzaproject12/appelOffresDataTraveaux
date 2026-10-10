@@ -1,0 +1,84 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "749483",
+ "orgAcronyme": "s3z",
+ "reference_pv": "49/23/AREP/RRSK",
+ "nouveau": true,
+ "reference": "49/23/AREP/RRSK",
+ "objet": "TRAVAUX DE CONSTRUCTION, DES SERVICES DE SOUTIEN SOCIAL DES ECOLES, REALISES DANS LE CADRE DU PROJET DE CREATION D'ECOLES COMMUNAUTAIRES, A LA PROVINCE DE SIDI KACEM -(MARCHE ALLOTI EN DEUX LOTS)",
+ "acheteur": "Agence Régionale d’Exécution des projets de la Région de Rabat Salé-Kénitra",
+ "procedure": null,
+ "categorie": "Travaux",
+ "date_limite_plis": null,
+ "lieu_ouverture": "Bureaux de l’Agence Régionale d’Exécution des Projets de la Région de Rabat Salé Kenitra, sis 50, avenue Moulay Ismail, Hassan-Rabat",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "25/10/2023",
+ "justification": "Offre financière moins disante.",
+ "infructueux": false,
+ "attributaire": "TANSIFT CONTRACTOR SARL",
+ "montant_attribue": 4049643.6,
+ "attributaires_par_lot": [
+  {
+   "lot": null,
+   "attributaire": "TANSIFT CONTRACTOR SARL",
+   "montant": 4049643.6
+  },
+  {
+   "lot": null,
+   "attributaire": "STAMINE SARL",
+   "montant": 4500000.0
+  }
+ ],
+ "soumissionnaires": [
+  {
+   "nom": "RYAD AL BINAA SARL",
+   "montant_acte_engagement": 4531610.16,
+   "montant_apres_verification": null,
+   "autres_montants": [
+    4451023.74
+   ],
+   "lots": [
+    "1",
+    "2"
+   ],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "TANSIFT CONTRACTOR SARL",
+   "montant_acte_engagement": 4049676.84,
+   "montant_apres_verification": 4049643.6,
+   "autres_montants": [
+    4162637.34
+   ],
+   "lots": [
+    "1",
+    "2"
+   ],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "STAMINE SARL",
+   "montant_acte_engagement": 4500000.0,
+   "montant_apres_verification": 4500000.0,
+   "autres_montants": [],
+   "lots": [
+    "2"
+   ],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 3,
+ "alertes_ocr": [],
+ "notes_ocr": [
+  "« TANSIFT CONTRACTOR SARL » : montant rectifié de 4 049 676.84 à 4 049 643.60 DH.",
+  "Marché alloti (2 lots)."
+ ],
+ "qualite": "complet"
+}

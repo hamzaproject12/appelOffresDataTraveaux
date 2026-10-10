@@ -1,0 +1,52 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "928296",
+ "orgAcronyme": "d0q",
+ "reference_pv": "11/C.T/2025",
+ "nouveau": true,
+ "reference": "11/C.T/2025",
+ "objet": "Travaux de construction de quatre logements au centre de Tamedit, Commune Tamedit,Province de Taounate « lot unique »",
+ "acheteur": "PRESIDENT DE LA COMMUNE TAMEDIT",
+ "procedure": "appel d'offres ouvert national",
+ "categorie": "Travaux",
+ "date_limite_plis": "26/08/2025",
+ "lieu_ouverture": "siège de la commune Tamedit",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "03/09/2025",
+ "justification": "l’offre présentée par l’attributaire est unique économiquement la plus avantageuse.",
+ "infructueux": false,
+ "attributaire": null,
+ "montant_attribue": null,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "STE TASNIM SARL",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "depose",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "STE TASNIM TRAV",
+   "montant_acte_engagement": 1200102.96,
+   "montant_apres_verification": 1200102.96,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 2,
+ "alertes_ocr": [
+  "« STE TASNIM TRAV » absent de la liste des plis déposés (nom mal lu ?).",
+  "Attributaire non trouvé."
+ ],
+ "notes_ocr": [],
+ "qualite": "attribution"
+}

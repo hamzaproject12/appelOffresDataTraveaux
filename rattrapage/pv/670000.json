@@ -1,0 +1,58 @@
+{
+ "source": "extrait_docx",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "670000",
+ "orgAcronyme": "e5w",
+ "reference_pv": null,
+ "nouveau": true,
+ "reference": null,
+ "objet": null,
+ "acheteur": "Arrondissement de Fès Médina Arrondissement de Fès Médina",
+ "procedure": null,
+ "categorie": "Travaux",
+ "date_limite_plis": "12/10/2022",
+ "lieu_ouverture": "Bureau du Président de l'Arrondissement Bureau du Président de l'Arrondissement",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "21/10/2022",
+ "justification": "L’offre la moins disante",
+ "infructueux": false,
+ "attributaire": "Société Company Alaoui Général Sarl AU",
+ "montant_attribue": 345348.0,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "Société Company Alaoui Général Sarl AU",
+   "montant_acte_engagement": 345348.0,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Société F.H.S Construction Sarl",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Société Goloume Travaux Sarl",
+   "montant_acte_engagement": 345348.0,
+   "montant_apres_verification": 345348.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 3,
+ "alertes_ocr": [],
+ "notes_ocr": [],
+ "qualite": "complet"
+}

@@ -1,0 +1,93 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "872816",
+ "orgAcronyme": "s3z",
+ "reference_pv": "40/CS/2024",
+ "nouveau": true,
+ "reference": "40/CS/2024",
+ "objet": "travaux de signalisat",
+ "acheteur": "le président de la commune de salé",
+ "procedure": "appel d'offres ouvert",
+ "categorie": "Travaux",
+ "date_limite_plis": null,
+ "lieu_ouverture": "commune de salé",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "18/02/2025",
+ "justification": "le concurrent à présenté l'offre la mieux disante",
+ "infructueux": false,
+ "attributaire": "URBAIN ELECTRONIC SA",
+ "montant_attribue": 1413284.4,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "5 LA SOCIETE LA LIGNE BLANCHE SA",
+   "montant_acte_engagement": 1392588.0,
+   "montant_apres_verification": 1392588.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "L 2- LA SOCIETE ATELIER INDUSTRIELLE CHERIFFIENE SA (AIC).",
+   "montant_acte_engagement": 1640832.0,
+   "montant_apres_verification": 1640832.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "PINTAPLANA MAROC SARL",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "TSDA SARL",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "INJAZ WORKS SARL AU",
+   "montant_acte_engagement": 1648800.0,
+   "montant_apres_verification": 1648800.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "URBAIN ELECTRONIC SA",
+   "montant_acte_engagement": 1413284.4,
+   "montant_apres_verification": 1413284.4,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 6,
+ "alertes_ocr": [
+  "« 5 LA SOCIETE LA LIGNE BLANCHE SA » absent de la liste des plis déposés (nom mal lu ?).",
+  "« L 2- LA SOCIETE ATELIER INDUSTRIELLE CHERIFFIENE SA (AIC). » absent de la liste des plis déposés (nom mal lu ?).",
+  "« INJAZ WORKS SARL AU » absent de la liste des plis déposés (nom mal lu ?).",
+  "« URBAIN ELECTRONIC SA » absent de la liste des plis déposés (nom mal lu ?)."
+ ],
+ "notes_ocr": [
+  "« PINTAPLANA MAROC SARL » absent de la liste des plis déposés (nom mal lu ?).",
+  "« TSDA SARL » absent de la liste des plis déposés (nom mal lu ?)."
+ ],
+ "qualite": "complet"
+}

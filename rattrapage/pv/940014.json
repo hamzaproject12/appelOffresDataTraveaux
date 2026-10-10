@@ -1,0 +1,74 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "940014",
+ "orgAcronyme": "d0q",
+ "reference_pv": "13/2025RELATIF",
+ "nouveau": true,
+ "reference": "13/2025RELATIF",
+ "objet": "Travaux D'approfondissement De Quatre ( 04) Forages Pour Le Compte De La Commune De Guercif A La Ville De Guercif Province De Guercif",
+ "acheteur": "Commune de Guercif",
+ "procedure": "appel d'offres ouvert simplifié",
+ "categorie": "Travaux",
+ "date_limite_plis": "29/09/2025",
+ "lieu_ouverture": null,
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "13/10/2025",
+ "justification": null,
+ "infructueux": false,
+ "attributaire": null,
+ "montant_attribue": null,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "SOCIETE AIT DKIKRA TRAVAUX SARL AU DOUAR AIT DKIKRA TENDITE EL HAJ FRITISSA",
+   "montant_acte_engagement": 288000.0,
+   "montant_apres_verification": 288000.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_dossier_administratif_technique",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "SOCIETE BATIBROUM SARL AU DOUAR OULED BELLAHLOU TISSAF OUTAT EL HAJ",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_dossier_administratif_technique",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "HAJ OMAR AHMED QUARTIER AL BATMA MELK (TALT LABYAD)",
+   "montant_acte_engagement": 336960.0,
+   "montant_apres_verification": 336960.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_dossier_administratif_technique",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "HAJ FRITISSA",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_dossier_administratif_technique",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 4,
+ "alertes_ocr": [
+  "« SOCIETE AIT DKIKRA TRAVAUX SARL AU DOUAR AIT DKIKRA TENDITE EL HAJ FRITISSA » absent de la liste des plis déposés (nom mal lu ?).",
+  "« HAJ OMAR AHMED QUARTIER AL BATMA MELK (TALT LABYAD) » absent de la liste des plis déposés (nom mal lu ?).",
+  "Attributaire non trouvé."
+ ],
+ "notes_ocr": [
+  "« SOCIETE BATIBROUM SARL AU DOUAR OULED BELLAHLOU TISSAF OUTAT EL HAJ » absent de la liste des plis déposés (nom mal lu ?).",
+  "« HAJ FRITISSA » absent de la liste des plis déposés (nom mal lu ?)."
+ ],
+ "qualite": "complet"
+}

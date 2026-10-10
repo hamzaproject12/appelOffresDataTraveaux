@@ -1,0 +1,80 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "695182",
+ "orgAcronyme": "a1z",
+ "reference_pv": "15/ASB/2022",
+ "nouveau": true,
+ "reference": "15/ASB/2022",
+ "objet": "REVÊTEMENT DES TROTTOIRS EN CARRELAGE REPARTIE EN DEUX LOTS LOT N°01 : ARTERES DU QUARTIER GAUTHIER DE LA 4EME ANNEXE ADMINISTRATIVE",
+ "acheteur": "La présidente de l'arrondissement sidi belyout",
+ "procedure": null,
+ "categorie": "Travaux",
+ "date_limite_plis": "17/01/2023",
+ "lieu_ouverture": "La salle des réunions au siège de l'arrondissement sidi belyout",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "08/02/2023",
+ "justification": "La société CORIAM SARL 3 présenté l'offre la plus avantageuse Le GROUPEMENT DHW MAITRISE SARL ET Sté TRAINVEST SARL AU a présenté l'offre la plus avantageuse {Offre moins disante).",
+ "infructueux": false,
+ "attributaire": "GROUPEMENT DHW MAITRISE SARL ET LOT",
+ "montant_attribue": 3555000.0,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "AUTO ENTREPRENEUR EL MALAH MOHA -CORIAM SARL-BOURANIME SARL-GROUPEMENT DHW MAITRISE SARL ET",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_dossier_administratif_technique",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "CORIAM SARL -BOURANIME SARL-GROUPEMENT DHW MAITRISE SARL ET TRAINVEST SARL AU",
+   "montant_acte_engagement": 3555000.0,
+   "montant_apres_verification": 3555000.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "BOURANIME SARL",
+   "montant_acte_engagement": 5496960.0,
+   "montant_apres_verification": 5496960.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "GROUPEMENT DHW MAITRISE SARL ET LOT",
+   "montant_acte_engagement": 5055960.0,
+   "montant_apres_verification": 5055960.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "CORIAM SARL",
+   "montant_acte_engagement": 3561000.0,
+   "montant_apres_verification": 3561000.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 5,
+ "alertes_ocr": [
+  "« BOURANIME SARL » absent de la liste des plis déposés (nom mal lu ?).",
+  "« GROUPEMENT DHW MAITRISE SARL ET LOT » absent de la liste des plis déposés (nom mal lu ?).",
+  "« CORIAM SARL » absent de la liste des plis déposés (nom mal lu ?)."
+ ],
+ "notes_ocr": [],
+ "qualite": "complet"
+}

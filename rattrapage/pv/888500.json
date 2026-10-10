@@ -1,0 +1,80 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "888500",
+ "orgAcronyme": "g3h",
+ "reference_pv": "19/0A/2125",
+ "nouveau": true,
+ "reference": "19/0A/2125",
+ "objet": null,
+ "acheteur": null,
+ "procedure": null,
+ "categorie": "Travaux",
+ "date_limite_plis": null,
+ "lieu_ouverture": null,
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "18/04/2025",
+ "justification": null,
+ "infructueux": false,
+ "attributaire": "ace c’ergagemient",
+ "montant_attribue": null,
+ "attributaires_par_lot": [
+  {
+   "lot": null,
+   "attributaire": "ace c’ergagemient",
+   "montant": null
+  },
+  {
+   "lot": null,
+   "attributaire": "STE CLUTICIR | 1, 2,715 (ONDNCI.17N)",
+   "montant": null
+  },
+  {
+   "lot": null,
+   "attributaire": "jJusti'icaïion cu choix ce ‘’a‘ïtrioutaire",
+   "montant": null
+  }
+ ],
+ "soumissionnaires": [
+  {
+   "nom": "ace c’ergagemient",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "STE CLUTICIR | 1, 2,715 (ONDNCI.17N)",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "jJusti'icaïion cu choix ce ‘’a‘ïtrioutaire",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 3,
+ "alertes_ocr": [
+  "Montant de l'attributaire « ace c’ergagemient » non trouvé.",
+  "Montant de l'attributaire « STE CLUTICIR | 1, 2,715 (ONDNCI.17N) » non trouvé.",
+  "Montant de l'attributaire « jJusti'icaïion cu choix ce ‘’a‘ïtrioutaire » non trouvé."
+ ],
+ "notes_ocr": [
+  "Maître d'ouvrage absent du PV (utiliser l'acheteur public du portail)."
+ ],
+ "qualite": "participants"
+}

@@ -1,0 +1,106 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "784403",
+ "orgAcronyme": "g3h",
+ "reference_pv": "02/2024/INDH",
+ "nouveau": true,
+ "reference": "02/2024/INDH",
+ "objet": null,
+ "acheteur": "la Province de DRIOUCH, FEPrÉSEntÉE par Mr. Le Gouverneu”",
+ "procedure": null,
+ "categorie": "Travaux",
+ "date_limite_plis": null,
+ "lieu_ouverture": "Secrétariat Général de la pince de DRIOUCH®",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "28/03/2024",
+ "justification": null,
+ "infructueux": false,
+ "attributaire": "où STE ADIMPRO SARL. Ÿ 2 5 sé 320. 00",
+ "montant_attribue": null,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "STE ADIMPRO SARL",
+   "montant_acte_engagement": 2536320.0,
+   "montant_apres_verification": 2554320.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "eo STE WANASSARL.",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "STE PERFORMANCE MATERIEL SARL.",
+   "montant_acte_engagement": 2770740.0,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "ë FS",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": true
+  },
+  {
+   "nom": "STE W.ANAS SARL. &",
+   "montant_acte_engagement": 3440680.0,
+   "montant_apres_verification": 2440680.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "STE RERO MATERIEL",
+   "montant_acte_engagement": 2770.0,
+   "montant_apres_verification": 2770.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "où STE ADIMPRO SARL. Ÿ 2 5 sé 320. 00",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 7,
+ "alertes_ocr": [
+  "« STE ADIMPRO SARL » absent de la liste des plis déposés (nom mal lu ?).",
+  "« STE PERFORMANCE MATERIEL SARL. » absent de la liste des plis déposés (nom mal lu ?).",
+  "« STE W.ANAS SARL. & » absent de la liste des plis déposés (nom mal lu ?).",
+  "« STE RERO MATERIEL » absent de la liste des plis déposés (nom mal lu ?).",
+  "« où STE ADIMPRO SARL. Ÿ 2 5 sé 320. 00 » absent de la liste des plis déposés (nom mal lu ?).",
+  "Montant de l'attributaire « où STE ADIMPRO SARL. Ÿ 2 5 sé 320. 00 » non trouvé."
+ ],
+ "notes_ocr": [
+  "« eo STE WANASSARL. » absent de la liste des plis déposés (nom mal lu ?).",
+  "« ë FS » absent de la liste des plis déposés (nom mal lu ?).",
+  "« STE ADIMPRO SARL » : montant rectifié de 2 536 320.00 à 2 554 320.00 DH.",
+  "« STE W.ANAS SARL. & » : montant rectifié de 3 440 680.00 à 2 440 680.00 DH."
+ ],
+ "qualite": "complet"
+}

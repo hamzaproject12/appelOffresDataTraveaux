@@ -1,0 +1,52 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "968394",
+ "orgAcronyme": "j0w",
+ "reference_pv": "05/CSF/2025",
+ "nouveau": true,
+ "reference": "05/CSF/2025",
+ "objet": "EXTENSION DU RESEAU BT POUR L'ELECTRIFICATION DES FOYERS RELEVANT DES DIFFERENTS",
+ "acheteur": "Commune SETI FADMA",
+ "procedure": "appel d'offres ouvert national",
+ "categorie": "Travaux",
+ "date_limite_plis": "22/12/2025",
+ "lieu_ouverture": "siège de la Commune SETI FADMA",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "29/12/2025",
+ "justification": "Classement par offre la plus avantageuse, et le candidat la plus avantageuse ayant répondu, favorablement aux conditions exigées.",
+ "infructueux": false,
+ "attributaire": "STE ANJJA MULTISERVICES SARL",
+ "montant_attribue": 2378534.79,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "STE FORCE ELEC SOLUTION SARL",
+   "montant_acte_engagement": 2481507.42,
+   "montant_apres_verification": 2481507.42,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "STE ANJJA MULTISERVICES SARL",
+   "montant_acte_engagement": 2378534.79,
+   "montant_apres_verification": 2378534.79,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 2,
+ "alertes_ocr": [
+  "« STE FORCE ELEC SOLUTION SARL » absent de la liste des plis déposés (nom mal lu ?).",
+  "« STE ANJJA MULTISERVICES SARL » absent de la liste des plis déposés (nom mal lu ?)."
+ ],
+ "notes_ocr": [],
+ "qualite": "complet"
+}

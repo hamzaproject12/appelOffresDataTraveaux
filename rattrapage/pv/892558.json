@@ -1,0 +1,54 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "892558",
+ "orgAcronyme": "q0x",
+ "reference_pv": null,
+ "nouveau": true,
+ "reference": null,
+ "objet": null,
+ "acheteur": null,
+ "procedure": "appel d'offres ouvert international",
+ "categorie": "Travaux",
+ "date_limite_plis": null,
+ "lieu_ouverture": "siège de la commune de Meknès (siège principal) sis au Boulevard des F.A.R, Ville Nouvelle, Meknès, o Publication",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "02/05/2025",
+ "justification": "L'offre la mieux-disante par rapport au prix de référence et aux échantillons.",
+ "infructueux": false,
+ "attributaire": "NABILUM-SARL",
+ "montant_attribue": 25693320.0,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "NABILUM-SARL",
+   "montant_acte_engagement": 25693320.0,
+   "montant_apres_verification": 25693320.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "SOCADELEG-SARL/AU",
+   "montant_acte_engagement": 26108400.0,
+   "montant_apres_verification": 26108400.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 2,
+ "alertes_ocr": [
+  "« NABILUM-SARL » absent de la liste des plis déposés (nom mal lu ?).",
+  "« SOCADELEG-SARL/AU » absent de la liste des plis déposés (nom mal lu ?)."
+ ],
+ "notes_ocr": [
+  "Maître d'ouvrage absent du PV (utiliser l'acheteur public du portail)."
+ ],
+ "qualite": "complet"
+}

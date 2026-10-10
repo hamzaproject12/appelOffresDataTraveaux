@@ -1,0 +1,60 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "725722",
+ "orgAcronyme": "j0w",
+ "reference_pv": "02/2019/CBO",
+ "nouveau": true,
+ "reference": "02/2019/CBO",
+ "objet": "L'AMENAGEMNT DES CENTRES BOUROTA ET BOUYA OMAR A LA COMMUNE BOUYA OMAR",
+ "acheteur": "COMMUNE BOUYA OMAR & NA te",
+ "procedure": null,
+ "categorie": "Travaux",
+ "date_limite_plis": "03/05/2019",
+ "lieu_ouverture": "bureau de président Ses Ve",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "29/05/2019",
+ "justification": "selon l’article 15 du RC La commission attribuera le marché au concurrent ayant obtenu la note globale « Ng » la plus élevée parmi les",
+ "infructueux": false,
+ "attributaire": "STE STMAS SARL",
+ "montant_attribue": 4620734.67,
+ "attributaires_par_lot": [
+  {
+   "lot": null,
+   "attributaire": "STE STMAS SARL",
+   "montant": 4620734.67
+  },
+  {
+   "lot": null,
+   "attributaire": "STE EL MELLALIA DES TRAVAUX",
+   "montant": 4579734.78
+  }
+ ],
+ "soumissionnaires": [
+  {
+   "nom": "STE STMAS SARL",
+   "montant_acte_engagement": 4620734.67,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "STE EL MELLALIA DES TRAVAUX",
+   "montant_acte_engagement": 4579734.78,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": true
+  }
+ ],
+ "nombre_soumissionnaires": 2,
+ "alertes_ocr": [],
+ "notes_ocr": [],
+ "qualite": "attribution"
+}

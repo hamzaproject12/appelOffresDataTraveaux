@@ -1,0 +1,64 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "767167",
+ "orgAcronyme": "g3h",
+ "reference_pv": "110/2023/S2A",
+ "nouveau": true,
+ "reference": "110/2023/S2A",
+ "objet": "TRAVAUX DE CONSTRUCTION DES ETABLISSEMENTS SCOLAIRES–REGION SOUSS MASSA￾PROGRAMME 2022-TRANCHE 4-LOT N°10 PREFECTURE COMMUNE ETABLISSEMENT SCOLAIRE NATURE D’INTERVENTION",
+ "acheteur": null,
+ "procedure": "appel d'offres ouvert",
+ "categorie": "Travaux",
+ "date_limite_plis": null,
+ "lieu_ouverture": null,
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": null,
+ "justification": null,
+ "infructueux": false,
+ "attributaire": "GROUPEMENT VAROSSE/ SOCOTRAD",
+ "montant_attribue": 12074841.11,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "SOCIETE ENTREPRISE RAGUIG DES TRAVAUX",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": true
+  },
+  {
+   "nom": "CPS",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": true
+  },
+  {
+   "nom": "GROUPEMENT VAROSSE/ SOCOTRAD",
+   "montant_acte_engagement": 12074841.11,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 3,
+ "alertes_ocr": [
+  "« GROUPEMENT VAROSSE/ SOCOTRAD » absent de la liste des plis déposés (nom mal lu ?)."
+ ],
+ "notes_ocr": [
+  "« SOCIETE ENTREPRISE RAGUIG DES TRAVAUX » absent de la liste des plis déposés (nom mal lu ?).",
+  "« CPS » absent de la liste des plis déposés (nom mal lu ?).",
+  "Maître d'ouvrage absent du PV (utiliser l'acheteur public du portail)."
+ ],
+ "qualite": "attribution"
+}

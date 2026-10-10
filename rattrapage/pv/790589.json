@@ -1,0 +1,53 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "790589",
+ "orgAcronyme": "d4q",
+ "reference_pv": "17/E/2024-Travaux",
+ "nouveau": true,
+ "reference": "17/E/2024-Travaux",
+ "objet": null,
+ "acheteur": "s RADEE.TA",
+ "procedure": null,
+ "categorie": "Travaux",
+ "date_limite_plis": "03/04/2024",
+ "lieu_ouverture": "Siège de la RADEE.TA",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "24/04/2024",
+ "justification": "- Dossiers administratif, technique et offre , q technique. - Offre avantageuse répondant aux/Critères d'évaluation.",
+ "infructueux": false,
+ "attributaire": "Société SRTHYG-BTP",
+ "montant_attribue": 4916905.13,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "offre 2. HOLDING AL BARAKA",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "depose",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Société SRTHYG-BTP",
+   "montant_acte_engagement": 4118011.0,
+   "montant_apres_verification": null,
+   "autres_montants": [
+    4916905.13
+   ],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 2,
+ "alertes_ocr": [
+  "« Société SRTHYG-BTP » absent de la liste des plis déposés (nom mal lu ?)."
+ ],
+ "notes_ocr": [],
+ "qualite": "attribution"
+}

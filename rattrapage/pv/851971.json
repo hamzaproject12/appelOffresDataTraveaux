@@ -1,0 +1,53 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "851971",
+ "orgAcronyme": "g3h",
+ "reference_pv": "26/2024/B.G",
+ "nouveau": true,
+ "reference": "26/2024/B.G",
+ "objet": "Travaux de réhabilitation du poste MT/BT au siège de la Province Fahs Anijra",
+ "acheteur": "Province Fahs-Anijra",
+ "procedure": "appel d'offres ouvert simplifié",
+ "categorie": "Travaux",
+ "date_limite_plis": "07/11/2024",
+ "lieu_ouverture": "_: bureau n° 31 (D.B.M) du siège de la Province Fahs-Anjra",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "13/11/2024",
+ "justification": "Son offre est la mieux disante au regard du prix de référence.",
+ "infructueux": false,
+ "attributaire": "Sté. « FRETEL/SARL",
+ "montant_attribue": 414132.0,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "Sfé.« FRETEL/SARL",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "depose",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Sté. « FRETEL/SARL",
+   "montant_acte_engagement": 414132.0,
+   "montant_apres_verification": null,
+   "autres_montants": [
+    414132.0
+   ],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 2,
+ "alertes_ocr": [
+  "« Sté. « FRETEL/SARL » absent de la liste des plis déposés (nom mal lu ?)."
+ ],
+ "notes_ocr": [],
+ "qualite": "attribution"
+}

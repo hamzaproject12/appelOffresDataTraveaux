@@ -1,0 +1,61 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "831316",
+ "orgAcronyme": "q9t",
+ "reference_pv": "106/2024/C",
+ "nouveau": true,
+ "reference": "106/2024/C",
+ "objet": "ACQUISITION ET INSTALLATION DES EXTINCTEURS AU CHUIRC",
+ "acheteur": "CENTRE HOSPITALO UNIVERSITAIRE IBN ROCHD",
+ "procedure": "appel d'offres ouvert simplifié",
+ "categorie": "Travaux",
+ "date_limite_plis": "16/07/2024",
+ "lieu_ouverture": "Direction du Centre Hospitalo-Universitaire [ba l'ochd",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "19/09/2024",
+ "justification": "offre économiquemei! avantageuse selon les critères de jugement cités dans le règlement de la consultation.",
+ "infructueux": false,
+ "attributaire": null,
+ "montant_attribue": null,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "TELEPAC",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "depose",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "TECHNOLOGY / STE NORD PROTECTION / EMITECH / VALMECA arc",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "depose",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "STE NORD PROTECTION",
+   "montant_acte_engagement": 483024.0,
+   "montant_apres_verification": 483024.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 3,
+ "alertes_ocr": [
+  "« STE NORD PROTECTION » absent de la liste des plis déposés (nom mal lu ?).",
+  "Attributaire non trouvé."
+ ],
+ "notes_ocr": [],
+ "qualite": "attribution"
+}

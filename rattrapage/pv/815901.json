@@ -1,0 +1,53 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "815901",
+ "orgAcronyme": "g8e",
+ "reference_pv": null,
+ "nouveau": true,
+ "reference": null,
+ "objet": "Travaux de reconstruction de la cour de cassation - lot n°1bis : achèvement des travaux de terrassements généraux",
+ "acheteur": null,
+ "procedure": null,
+ "categorie": "Travaux",
+ "date_limite_plis": "10/07/2024",
+ "lieu_ouverture": "Bureau de la Société Rabat Région Aménagement au 9, Place À Joulane — Rabat",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "18/07/2024",
+ "justification": "Offre conforme aux exigences du Règlement de la consultation et moins disante.",
+ "infructueux": false,
+ "attributaire": "STE SOLSIF MAROC",
+ "montant_attribue": 2232000.0,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "ZAMANE EL KHEIR",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_offre_technique",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "STE SOLSIF MAROC",
+   "montant_acte_engagement": 2232000.0,
+   "montant_apres_verification": null,
+   "autres_montants": [
+    2232000.0
+   ],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 2,
+ "alertes_ocr": [],
+ "notes_ocr": [
+  "Maître d'ouvrage absent du PV (utiliser l'acheteur public du portail)."
+ ],
+ "qualite": "attribution"
+}

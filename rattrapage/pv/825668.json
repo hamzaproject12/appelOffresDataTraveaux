@@ -1,0 +1,67 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "825668",
+ "orgAcronyme": "d0q",
+ "reference_pv": "02/2024",
+ "nouveau": true,
+ "reference": "02/2024",
+ "objet": "AUX TRAVAUX DES FORAGES D EXPLOITATION AU DOUARS QULED DRAQOUI ET BOUMSAAD , COMMUNE HOUARA OULED RAHOU , PROVINCE DE GUERCIF,",
+ "acheteur": "Commune HOUARA OULED RAHOU",
+ "procedure": "appel d'offres ouvert simplifié",
+ "categorie": "Travaux",
+ "date_limite_plis": "19/08/2024",
+ "lieu_ouverture": "Salle de réunion de la Commune HOUARA OULED RAHOU",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": null,
+ "justification": "offre unique et économiquement la plus avantageuse",
+ "infructueux": false,
+ "attributaire": "AHMED HAJ OMAR PERSONNE PHYSIQUE",
+ "montant_attribue": 274320.0,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "STE HAJ DOUIRI SOHADU SARL",
+   "montant_acte_engagement": 343200.0,
+   "montant_apres_verification": 343200.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "AHMED HAJ OMAR PERSONNE PHYSIQUE",
+   "montant_acte_engagement": 274320.0,
+   "montant_apres_verification": 274320.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "STE SIBER SARL",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_dossier_administratif_technique",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "STE AIT DKIKRA TRAVAUX SARL",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_dossier_administratif_technique",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 4,
+ "alertes_ocr": [],
+ "notes_ocr": [],
+ "qualite": "complet"
+}

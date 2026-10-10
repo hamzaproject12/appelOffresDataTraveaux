@@ -1,0 +1,58 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "782892",
+ "orgAcronyme": "j8k",
+ "reference_pv": null,
+ "nouveau": true,
+ "reference": null,
+ "objet": null,
+ "acheteur": "Al Omrane Rabat-Rabat-Salé",
+ "procedure": "appel d'offres ouvert",
+ "categorie": "Travaux",
+ "date_limite_plis": "02/03/2023",
+ "lieu_ouverture": "Siège d'Al Omrane Rabat-Salé-Kénitra",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "08/03/2023",
+ "justification": "L'offre la plus avantageuse.",
+ "infructueux": false,
+ "attributaire": "CCRE",
+ "montant_attribue": 5499410.86,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "DAREL",
+   "montant_acte_engagement": 6715170.0,
+   "montant_apres_verification": 6715170.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "CCRE",
+   "montant_acte_engagement": 5499410.86,
+   "montant_apres_verification": 5499410.86,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "MULTI WORK CENTER",
+   "montant_acte_engagement": 6010535.78,
+   "montant_apres_verification": 6010535.78,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 3,
+ "alertes_ocr": [],
+ "notes_ocr": [],
+ "qualite": "complet"
+}

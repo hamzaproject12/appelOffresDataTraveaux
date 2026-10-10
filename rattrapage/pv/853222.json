@@ -1,0 +1,81 @@
+{
+ "source": "extrait_docx",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "853222",
+ "orgAcronyme": "g3h",
+ "reference_pv": null,
+ "nouveau": true,
+ "reference": null,
+ "objet": "Travaux de construction de Dar Talib à la Commune d’Ain Baida à la Préfecture de Fès en lot unique",
+ "acheteur": "Préfecture de Fès",
+ "procedure": null,
+ "categorie": "Travaux",
+ "date_limite_plis": "21/11/2024",
+ "lieu_ouverture": "La Préfecture de Fès salle de réunions : La Préfecture de Fès salle de réunions",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "25/11/2024",
+ "justification": "Offre plus avantageuse",
+ "infructueux": false,
+ "attributaire": "Société ALBINAE ALKAOUIM",
+ "montant_attribue": 1255740.0,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "Société SOGECIPA",
+   "montant_acte_engagement": 545060.0,
+   "montant_apres_verification": 545060.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_offre_financiere",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Société CHAHDI BETON",
+   "montant_acte_engagement": 324662.0,
+   "montant_apres_verification": 545060.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Société ALBINAE ALKAOUIM",
+   "montant_acte_engagement": 255740.0,
+   "montant_apres_verification": 313862.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Société BOUKADIDA OMAR",
+   "montant_acte_engagement": 335480.0,
+   "montant_apres_verification": 255740.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Société RENOV S.B",
+   "montant_acte_engagement": 431132.0,
+   "montant_apres_verification": 335480.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 5,
+ "alertes_ocr": [],
+ "notes_ocr": [
+  "« Société CHAHDI BETON » : montant rectifié de 324 662.00 à 545 060.00 DH.",
+  "« Société ALBINAE ALKAOUIM » : montant rectifié de 255 740.00 à 313 862.00 DH.",
+  "« Société BOUKADIDA OMAR » : montant rectifié de 335 480.00 à 255 740.00 DH.",
+  "« Société RENOV S.B » : montant rectifié de 431 132.00 à 335 480.00 DH."
+ ],
+ "qualite": "complet"
+}

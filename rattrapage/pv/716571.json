@@ -1,0 +1,58 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "716571",
+ "orgAcronyme": "q1s",
+ "reference_pv": "OL/EXP/2023",
+ "nouveau": true,
+ "reference": "OL/EXP/2023",
+ "objet": "Travaux du sol, d’ensemencement et de moisson des céréales d'automne sur une superficie de 125",
+ "acheteur": "Direction Provinciale de l’Agriculture de Marrakech",
+ "procedure": "appel d'offres ouvert",
+ "categorie": "Travaux",
+ "date_limite_plis": "15/05/2023",
+ "lieu_ouverture": "La Salle De Réunion De La Direction Provinciale De l’Agriculture De Marrakech, Sise Avenue Hassan II, Guèliz Marrakech",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "24/05/2023",
+ "justification": "% Moins disant conforme",
+ "infructueux": false,
+ "attributaire": "Sté : ITHZ sarl - AIT OURIR",
+ "montant_attribue": 297060.0,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "Sté RESTBAT sarl - MARRAKECH",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_dossier_administratif_technique",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Sté : ITHZ sarl - AIT OURIR",
+   "montant_acte_engagement": 297060.0,
+   "montant_apres_verification": 297060.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Ste PLAN AGRI sarl -MARRAKECH",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_dossier_administratif_technique",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 3,
+ "alertes_ocr": [],
+ "notes_ocr": [],
+ "qualite": "attribution"
+}

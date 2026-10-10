@@ -1,0 +1,64 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "921462",
+ "orgAcronyme": "f9f",
+ "reference_pv": "03/2025",
+ "nouveau": true,
+ "reference": "03/2025",
+ "objet": "TRAVAUX DE CONSTRUCTION DU RESERVOIR ENTERRE D'EAU POTABLE AU DOUAR AGUERGUEM À LA COMMUNE AIT M’ZAL",
+ "acheteur": "commune Aït M’zal",
+ "procedure": "appel d'offres ouvert simplifié",
+ "categorie": "Travaux",
+ "date_limite_plis": "14/07/2025",
+ "lieu_ouverture": "Salle des réunions de la commune Ait M'zal",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "04/08/2025",
+ "justification": "l'offre économiquement la plus avantageuse.",
+ "infructueux": false,
+ "attributaire": "STE ALANFOUKT TRAVAUX sarl",
+ "montant_attribue": 123180.0,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "STE 3F BTP sarl",
+   "montant_acte_engagement": 133441.2,
+   "montant_apres_verification": null,
+   "autres_montants": [
+    133441.2
+   ],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "STE ALANFOUKT TRAVAUX sarl",
+   "montant_acte_engagement": 123180.0,
+   "montant_apres_verification": null,
+   "autres_montants": [
+    123180.0
+   ],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "STE TRAVAZALN sarl au",
+   "montant_acte_engagement": 123279.6,
+   "montant_apres_verification": null,
+   "autres_montants": [
+    123279.6
+   ],
+   "lots": [],
+   "statut": "ecarte_offre_financiere",
+   "admis_avec_reserve": true
+  }
+ ],
+ "nombre_soumissionnaires": 3,
+ "alertes_ocr": [],
+ "notes_ocr": [],
+ "qualite": "complet"
+}

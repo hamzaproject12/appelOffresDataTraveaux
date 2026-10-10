@@ -1,0 +1,58 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "888008",
+ "orgAcronyme": "g3h",
+ "reference_pv": "10000251",
+ "nouveau": true,
+ "reference": "10000251",
+ "objet": "Travaux de branchements en réseaux d'eau potable au niveau de la Préfecture d'Inezgane Ait Melloul",
+ "acheteur": "Société Régionale Multiservices Souss Massa « SRM-SM » Société Anonyme (S.A.)",
+ "procedure": null,
+ "categorie": "Travaux",
+ "date_limite_plis": "04/03/2025",
+ "lieu_ouverture": "Les bureaux de la SRM-SM, sis au 3ème étage — rue 18 Novembre Q.I AGADIR",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "15/04/2025",
+ "justification": "offre la moins-disante",
+ "infructueux": false,
+ "attributaire": "PEGASE TRAVAUX",
+ "montant_attribue": 4507860.0,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "PEGASE TRAVAUX",
+   "montant_acte_engagement": 4507860.0,
+   "montant_apres_verification": 4507860.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Groupement TARIK EL AINOUSSI/ANOUAR DES TRAVAUX/GENERALE",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_dossier_administratif_technique",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Groupement ENIRAP/GOMETA",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_dossier_administratif_technique",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 3,
+ "alertes_ocr": [],
+ "notes_ocr": [],
+ "qualite": "attribution"
+}

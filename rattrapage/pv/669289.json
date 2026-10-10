@@ -1,0 +1,85 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "669289",
+ "orgAcronyme": "g8e",
+ "reference_pv": "20/2022/DGI",
+ "nouveau": true,
+ "reference": "20/2022/DGI",
+ "objet": "la réalisation des travaux de traitement de façades de l’immeuble A de la Direction Générale des Impôts (lot unique)",
+ "acheteur": "La Direction Générale des Impôts",
+ "procedure": "appel d'offres ouvert",
+ "categorie": "Travaux",
+ "date_limite_plis": "11/10/2022",
+ "lieu_ouverture": null,
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "20/10/2022",
+ "justification": "L’offre la moins disante.",
+ "infructueux": false,
+ "attributaire": "COMEFAL",
+ "montant_attribue": 3327786.0,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "CONFORAMA",
+   "montant_acte_engagement": 3747876.0,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "COMEFAL",
+   "montant_acte_engagement": 3327786.0,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "HTIRAF CONSTRUCTION ET DIVERS (HTCD)",
+   "montant_acte_engagement": 3499410.0,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "MESKI DES TRAVAUX DIVERS",
+   "montant_acte_engagement": 3676584.0,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "NEW NICE",
+   "montant_acte_engagement": 4777992.0,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_offre_financiere",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "ELECTRICITE ET TRAVAUX DIVERS DE BATIMENTS",
+   "montant_acte_engagement": 4075024.8,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": true
+  }
+ ],
+ "nombre_soumissionnaires": 6,
+ "alertes_ocr": [],
+ "notes_ocr": [],
+ "qualite": "complet"
+}

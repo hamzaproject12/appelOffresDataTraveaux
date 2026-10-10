@@ -1,0 +1,54 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "929724",
+ "orgAcronyme": "g3h",
+ "reference_pv": "18/2025/INDH",
+ "nouveau": true,
+ "reference": "18/2025/INDH",
+ "objet": "TRAVAUX D'AMENAGEMENT EXTERIEUR DU CENTRE LALLA AMINA POUR LA PRISE EN CHARGE DES ENFANTS À LA COMMUNE AIT MELLOUL",
+ "acheteur": null,
+ "procedure": "appel d'offres ouvert simplifié",
+ "categorie": "Travaux",
+ "date_limite_plis": "15/08/2025",
+ "lieu_ouverture": "Bureau de M. le Chef de la Division du Budget et Marchés de la Préfecture d’Inezgane Ait Melloul",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "18/08/2025",
+ "justification": null,
+ "infructueux": false,
+ "attributaire": "Société L.O.T TRAVAUX SARL AU",
+ "montant_attribue": 265692.0,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "DES TRAVAUX PUBLIC. détaillé estimatif",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_offre_financiere",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Société L.O.T TRAVAUX SARL AU",
+   "montant_acte_engagement": 265692.0,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 2,
+ "alertes_ocr": [
+  "« Société L.O.T TRAVAUX SARL AU » absent de la liste des plis déposés (nom mal lu ?)."
+ ],
+ "notes_ocr": [
+  "« DES TRAVAUX PUBLIC. détaillé estimatif » absent de la liste des plis déposés (nom mal lu ?).",
+  "Maître d'ouvrage absent du PV (utiliser l'acheteur public du portail)."
+ ],
+ "qualite": "attribution"
+}

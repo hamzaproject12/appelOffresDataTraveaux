@@ -1,0 +1,85 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "673333",
+ "orgAcronyme": "g3h",
+ "reference_pv": "04/2022/BG",
+ "nouveau": true,
+ "reference": "04/2022/BG",
+ "objet": "TRAVAUX D'AMENAGEMENT ET D'INSTALLATION DES BATIMENTS ADMINISTRATIFS A LA PREFECTURE INEZGANE AIT MELLOUL : ELECTRIFICATION DU SIEGE DE LA PREFECTURE EN ENERGIE SOLAIRE",
+ "acheteur": null,
+ "procedure": "appel d'offres ouvert",
+ "categorie": "Travaux",
+ "date_limite_plis": null,
+ "lieu_ouverture": null,
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": null,
+ "justification": null,
+ "infructueux": false,
+ "attributaire": null,
+ "montant_attribue": null,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "Société C.A.G.P SARL",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_dossier_administratif_technique",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Filtre Harmonique est non actif",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_dossier_administratif_technique",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": " SOCIETE ENERGY HANDLE SARL AU",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_dossier_administratif_technique",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": " SOCIETE NAIT ELKHALFAOUI TRAVAUX SARL",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_dossier_administratif_technique",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "consultation",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_dossier_administratif_technique",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 5,
+ "alertes_ocr": [
+  "Attributaire non trouvé."
+ ],
+ "notes_ocr": [
+  "« Société C.A.G.P SARL » absent de la liste des plis déposés (nom mal lu ?).",
+  "« Filtre Harmonique est non actif » absent de la liste des plis déposés (nom mal lu ?).",
+  "«  SOCIETE ENERGY HANDLE SARL AU » absent de la liste des plis déposés (nom mal lu ?).",
+  "«  SOCIETE NAIT ELKHALFAOUI TRAVAUX SARL » absent de la liste des plis déposés (nom mal lu ?).",
+  "« consultation » absent de la liste des plis déposés (nom mal lu ?).",
+  "Maître d'ouvrage absent du PV (utiliser l'acheteur public du portail)."
+ ],
+ "qualite": "participants"
+}

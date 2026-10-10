@@ -1,0 +1,73 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "714393",
+ "orgAcronyme": "f8y",
+ "reference_pv": "O2/2023ICF",
+ "nouveau": true,
+ "reference": "O2/2023ICF",
+ "objet": "Construction des accès pour relier I'oasis aux ksour dans le cadre de partenariat avec le Conseil Provincial et I'AIIDZOA",
+ "acheteur": "Commune de Figuig",
+ "procedure": null,
+ "categorie": "Travaux",
+ "date_limite_plis": null,
+ "lieu_ouverture": "Bureau des marchés de la commune de Figuig sis à la Cité Administratif, Figuig",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": null,
+ "justification": "L'offre moins disant Ltoffre retenue : . Société Z.F ELP,C SARL",
+ "infructueux": false,
+ "attributaire": "Société Z.F ELEC SARL",
+ "montant_attribue": null,
+ "attributaires_par_lot": [
+  {
+   "lot": null,
+   "attributaire": "Société Z.F ELEC SARL",
+   "montant": null
+  },
+  {
+   "lot": null,
+   "attributaire": "Société KADRAOUI TRAVAUX",
+   "montant": null
+  }
+ ],
+ "soumissionnaires": [
+  {
+   "nom": "Société Z.F ELEC SARL",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "I . Société V.R.D EL ARABI SARL/AU",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_dossier_administratif_technique",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Société KADRAOUI TRAVAUX",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 3,
+ "alertes_ocr": [
+  "« Société KADRAOUI TRAVAUX » absent de la liste des plis déposés (nom mal lu ?).",
+  "Montant de l'attributaire « Société Z.F ELEC SARL » non trouvé.",
+  "Montant de l'attributaire « Société KADRAOUI TRAVAUX » non trouvé."
+ ],
+ "notes_ocr": [],
+ "qualite": "participants"
+}

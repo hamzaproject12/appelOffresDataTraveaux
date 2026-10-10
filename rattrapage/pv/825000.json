@@ -1,0 +1,51 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "825000",
+ "orgAcronyme": "g3h",
+ "reference_pv": "33/2024/BG",
+ "nouveau": true,
+ "reference": "33/2024/BG",
+ "objet": "Travaux de construction du logement de fonction du secrétariat général de la Préfecture Tanger Assilah",
+ "acheteur": "Le Wali de la Région Tanger Tétouan Al Hoceima, Gouverneur de la Préfecture de Tanger Assilah",
+ "procedure": "appel d'offres ouvert",
+ "categorie": "Travaux",
+ "date_limite_plis": "07/08/2024",
+ "lieu_ouverture": "Bureau des marchés relevant de la Préfecture Tanger Asilah,",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "22/08/2024",
+ "justification": "la mieux disante qui est la plus proche de référence par défaut STE IP NOVA SARL ;",
+ "infructueux": false,
+ "attributaire": null,
+ "montant_attribue": null,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "IP NOVA SARL",
+   "montant_acte_engagement": 4838004.0,
+   "montant_apres_verification": 4838004.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "BAKADDOURI TRAVAUX",
+   "montant_acte_engagement": 5134296.0,
+   "montant_apres_verification": 5134296.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 2,
+ "alertes_ocr": [
+  "Attributaire non trouvé."
+ ],
+ "notes_ocr": [],
+ "qualite": "complet"
+}

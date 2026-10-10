@@ -1,0 +1,60 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "733546",
+ "orgAcronyme": "q1s",
+ "reference_pv": "02/2023/1PSM",
+ "nouveau": true,
+ "reference": "02/2023/1PSM",
+ "objet": "Travaux d'aménagement d’une salle de formation et de deux terrains de sport à l’Institut Prince Sidi Mohammed des Techniciens Spécialisés en Gestion et Commerce Agricole de Mohammedia",
+ "acheteur": "Directeur de l’'IPSMTSGCA",
+ "procedure": null,
+ "categorie": "Travaux",
+ "date_limite_plis": "31/07/2023",
+ "lieu_ouverture": "L'Institut Prince Sidi Mohammed des Techniciens Spécialisés en Gestion et P Commerce Agricole de Mohammedia",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "03/08/2023",
+ "justification": "Offre moins disante soit : La société F S BATGE SARL d’un montant de 842 070,29 Dhs T.T.C",
+ "infructueux": false,
+ "attributaire": null,
+ "montant_attribue": null,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "SOCIETE M.0.G.C SARL AU - MOHAMMEDIA",
+   "montant_acte_engagement": 859611.84,
+   "montant_apres_verification": 859611.84,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "SOCIETE AUGUST SARL - RABAT",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_dossier_administratif_technique",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "SOCIETE F.S BATGE SARL - CASABLANCA",
+   "montant_acte_engagement": 842070.29,
+   "montant_apres_verification": 842070.29,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 3,
+ "alertes_ocr": [
+  "Attributaire non trouvé."
+ ],
+ "notes_ocr": [],
+ "qualite": "complet"
+}

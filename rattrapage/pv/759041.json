@@ -1,0 +1,62 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "759041",
+ "orgAcronyme": "z7x",
+ "reference_pv": null,
+ "nouveau": true,
+ "reference": null,
+ "objet": "TRAVAUX D’AMENAGEMENT POUR LE LABORATOIRE DE BIOCHIMIE DE LA FACULTE DE MEDECINE ET DE PHARMACIE D’OUJDA EN LOT UNIQUE",
+ "acheteur": "Le Doyen de la faculté de médecine et de pharmacie d’Oujda",
+ "procedure": null,
+ "categorie": "Travaux",
+ "date_limite_plis": "27/11/2023",
+ "lieu_ouverture": "La salle de réunion de la faculté de médecine et de pharmacie",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "27/11/2023",
+ "justification": null,
+ "infructueux": false,
+ "attributaire": null,
+ "montant_attribue": null,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "Société CDEM PRO",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_dossier_administratif_technique",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Société STE PLATFORME DU BATIMENT ET TRAVAUX PUBLICS",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_dossier_administratif_technique",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Société DEUX STEEL",
+   "montant_acte_engagement": 1755156.0,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [
+    "UNIQUE"
+   ],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 3,
+ "alertes_ocr": [
+  "Attributaire non trouvé."
+ ],
+ "notes_ocr": [],
+ "qualite": "attribution"
+}

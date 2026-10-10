@@ -1,0 +1,62 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "1004108",
+ "orgAcronyme": "o8p",
+ "reference_pv": "14/2026",
+ "nouveau": true,
+ "reference": "14/2026",
+ "objet": "Travaux de reconstruction de l’ouvrage d’art au Pk98+100 de la RR201 (EX RR208 PK29+000) - Province d’EI Kelaa Des Sraghna",
+ "acheteur": "Direction Provinciale de l'Equipement du Transport et de La logistique D’EI Kelaa des Sraghna",
+ "procedure": "appel d'offres ouvert national",
+ "categorie": "Travaux",
+ "date_limite_plis": "12/05/2026",
+ "lieu_ouverture": "la Direction Provinciale de l'Equipement du Transport et de la Logistique D’El Kelaa des Sraghna",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "15/05/2026",
+ "justification": "l’offre économiquement la plus avantageuse",
+ "infructueux": false,
+ "attributaire": "STE TABAROC",
+ "montant_attribue": 7020000.0,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "STE TABAROC",
+   "montant_acte_engagement": 7020000.0,
+   "montant_apres_verification": 7020000.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "% STE OUKHINTE TRAVAUX",
+   "montant_acte_engagement": 7139115.6,
+   "montant_apres_verification": 7139115.6,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "% STE FIDE AMIS IMPORT EXPORT",
+   "montant_acte_engagement": 7842954.0,
+   "montant_apres_verification": 7842954.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 3,
+ "alertes_ocr": [
+  "« STE TABAROC » absent de la liste des plis déposés (nom mal lu ?).",
+  "« % STE OUKHINTE TRAVAUX » absent de la liste des plis déposés (nom mal lu ?).",
+  "« % STE FIDE AMIS IMPORT EXPORT » absent de la liste des plis déposés (nom mal lu ?)."
+ ],
+ "notes_ocr": [],
+ "qualite": "complet"
+}

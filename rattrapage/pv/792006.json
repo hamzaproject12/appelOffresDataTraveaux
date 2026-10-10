@@ -1,0 +1,86 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "792006",
+ "orgAcronyme": "s3z",
+ "reference_pv": null,
+ "nouveau": true,
+ "reference": null,
+ "objet": "l'entretien courant de bâtiments administratifs De Ia commune de sale- préfecture de sale ÿaitre d'ouvrage : président de la Commune de Salé Date d'ouverture des plis :16t0412024",
+ "acheteur": null,
+ "procedure": null,
+ "categorie": "Travaux",
+ "date_limite_plis": null,
+ "lieu_ouverture": "Commune de Salé",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": null,
+ "justification": null,
+ "infructueux": false,
+ "attributaire": null,
+ "montant_attribue": null,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "GROUPEMENT STE SOBEJAD ET STE SAM-TD SARL",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Sté DE TRAVAUX MODERNES",
+   "montant_acte_engagement": 495616.0,
+   "montant_apres_verification": 495616.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Sté DEUX STEEL SARL",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "sré D'AGENcEMENi ET DE coNsrRU",
+   "montant_acte_engagement": 451179.6,
+   "montant_apres_verification": 451179.6,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "sré DE rnavauxïooeane§",
+   "montant_acte_engagement": 485616.0,
+   "montant_apres_verification": 495616.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 5,
+ "alertes_ocr": [
+  "« Sté DE TRAVAUX MODERNES » absent de la liste des plis déposés (nom mal lu ?).",
+  "« sré D'AGENcEMENi ET DE coNsrRU » absent de la liste des plis déposés (nom mal lu ?).",
+  "« sré DE rnavauxïooeane§ » absent de la liste des plis déposés (nom mal lu ?).",
+  "Attributaire non trouvé."
+ ],
+ "notes_ocr": [
+  "« GROUPEMENT STE SOBEJAD ET STE SAM-TD SARL » absent de la liste des plis déposés (nom mal lu ?).",
+  "« Sté DEUX STEEL SARL » absent de la liste des plis déposés (nom mal lu ?).",
+  "« sré DE rnavauxïooeane§ » : montant rectifié de 485 616.00 à 495 616.00 DH.",
+  "Maître d'ouvrage absent du PV (utiliser l'acheteur public du portail)."
+ ],
+ "qualite": "complet"
+}

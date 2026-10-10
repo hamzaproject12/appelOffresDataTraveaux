@@ -1,0 +1,105 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "863850",
+ "orgAcronyme": "g3h",
+ "reference_pv": "A5/24TE",
+ "nouveau": true,
+ "reference": "A5/24TE",
+ "objet": null,
+ "acheteur": null,
+ "procedure": null,
+ "categorie": "Travaux",
+ "date_limite_plis": "11/11/2024",
+ "lieu_ouverture": null,
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": null,
+ "justification": null,
+ "infructueux": false,
+ "attributaire": "AMANOR",
+ "montant_attribue": 3251171.0,
+ "attributaires_par_lot": [
+  {
+   "lot": null,
+   "attributaire": "AMANOR",
+   "montant": 3251171.0
+  },
+  {
+   "lot": null,
+   "attributaire": "HS INFRA",
+   "montant": 3378262.23
+  },
+  {
+   "lot": null,
+   "attributaire": "Discordance constatée entre le",
+   "montant": 4222300.0
+  },
+  {
+   "lot": null,
+   "attributaire": "HIDA",
+   "montant": 3378262.23
+  },
+  {
+   "lot": null,
+   "attributaire": "MWKC",
+   "montant": 3926739.0
+  }
+ ],
+ "soumissionnaires": [
+  {
+   "nom": "AMANOR",
+   "montant_acte_engagement": 3251171.0,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "HS INFRA",
+   "montant_acte_engagement": 3378262.23,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Discordance constatée entre le",
+   "montant_acte_engagement": 4222300.0,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "HIDA",
+   "montant_acte_engagement": 3378262.23,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "MWKC",
+   "montant_acte_engagement": 3926739.0,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 5,
+ "alertes_ocr": [],
+ "notes_ocr": [
+  "Maître d'ouvrage absent du PV (utiliser l'acheteur public du portail).",
+  "Montants exprimés hors taxes (HT)."
+ ],
+ "qualite": "attribution"
+}

@@ -1,0 +1,51 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "857599",
+ "orgAcronyme": "g3h",
+ "reference_pv": "127/2024",
+ "nouveau": true,
+ "reference": "127/2024",
+ "objet": null,
+ "acheteur": "Régie Autonome de Distribution d'Eau et d’Electricité de Fès",
+ "procedure": null,
+ "categorie": "Travaux",
+ "date_limite_plis": "21/11/2024",
+ "lieu_ouverture": "Siège de la RADEEF",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "04/12/2024",
+ "justification": null,
+ "infructueux": false,
+ "attributaire": "eSLIRA TRAVAUX",
+ "montant_attribue": 9572890.0,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "eSLIRA TRAVAUX",
+   "montant_acte_engagement": 9572890.0,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "TRAVAUX FARDAOUI (ELECLEF)",
+   "montant_acte_engagement": 9572890.0,
+   "montant_apres_verification": null,
+   "autres_montants": [
+    9687840.0
+   ],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 2,
+ "alertes_ocr": [],
+ "notes_ocr": [],
+ "qualite": "complet"
+}

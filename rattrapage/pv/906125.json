@@ -1,0 +1,64 @@
+{
+ "source": "extrait_docx",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "906125",
+ "orgAcronyme": "f9f",
+ "reference_pv": null,
+ "nouveau": true,
+ "reference": null,
+ "objet": "travaux de construction d’une salle couverte de sport à la commune d’Inezgane",
+ "acheteur": "la Commune d’Inezgane",
+ "procedure": "appel d'offres ouvert",
+ "categorie": "Travaux",
+ "date_limite_plis": "15/05/2025",
+ "lieu_ouverture": "Bureaux de Mr Le Président de la Commune d’Inezgane",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": null,
+ "justification": null,
+ "infructueux": false,
+ "attributaire": "GROUPEMENT CONJOINT DES SOCIÉTÉS MA SOFT et LA SOCIÉTÉ CHARIKAT AL WIDAD SARL",
+ "montant_attribue": 12769248.0,
+ "attributaires_par_lot": [
+  {
+   "lot": null,
+   "attributaire": "GROUPEMENT CONJOINT DES SOCIÉTÉS MA SOFT et LA SOCIÉTÉ CHARIKAT AL WIDAD SARL",
+   "montant": 12769248.0
+  },
+  {
+   "lot": null,
+   "attributaire": "AL WIDAD SARL",
+   "montant": null
+  }
+ ],
+ "soumissionnaires": [
+  {
+   "nom": "GROUPEMENT CONJOINT DES SOCIÉTÉS MA SOFT et LA SOCIÉTÉ CHARIKAT AL WIDAD SARL",
+   "montant_acte_engagement": 12769248.0,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "AL WIDAD SARL",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 2,
+ "alertes_ocr": [
+  "« GROUPEMENT CONJOINT DES SOCIÉTÉS MA SOFT et LA SOCIÉTÉ CHARIKAT AL WIDAD SARL » absent de la liste des plis déposés (nom mal lu ?).",
+  "« AL WIDAD SARL » absent de la liste des plis déposés (nom mal lu ?).",
+  "Montant de l'attributaire « AL WIDAD SARL » non trouvé."
+ ],
+ "notes_ocr": [],
+ "qualite": "attribution"
+}

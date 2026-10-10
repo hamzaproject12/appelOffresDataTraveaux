@@ -1,0 +1,84 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "845476",
+ "orgAcronyme": "j8k",
+ "reference_pv": null,
+ "nouveau": true,
+ "reference": null,
+ "objet": "La réalisation des Travaux d’aménagement des centres inscrits dans le cadre de l’INDH, à la province de Taroudant",
+ "acheteur": null,
+ "procedure": "appel d'offres ouvert",
+ "categorie": "Travaux",
+ "date_limite_plis": "01/11/2024",
+ "lieu_ouverture": "Division des Marchés de la Société Al Omrane souss Massa",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "05/11/2024",
+ "justification": "Concurrent représentant l’offre la plus avantageuse.",
+ "infructueux": false,
+ "attributaire": "IMISKAR TRAVAUX",
+ "montant_attribue": 1065816.97,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "IMISKAR TRAVAUX",
+   "montant_acte_engagement": 1065816.97,
+   "montant_apres_verification": 1065816.97,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "ABAYNA TRAVAUX PIECES EXIGEES NON PRESENTES A SAVOIR LA DECLARATION SUR",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_dossier_administratif_technique",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "L’HONNEUR, LE CPS ET LE RC SIGNES",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_dossier_administratif_technique",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "SOCIETE ADAYACHE",
+   "montant_acte_engagement": 1083845.72,
+   "montant_apres_verification": 1083845.72,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "ARINAS BTP",
+   "montant_acte_engagement": 1078543.14,
+   "montant_apres_verification": 1078543.14,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 5,
+ "alertes_ocr": [
+  "« IMISKAR TRAVAUX » absent de la liste des plis déposés (nom mal lu ?).",
+  "« SOCIETE ADAYACHE » absent de la liste des plis déposés (nom mal lu ?).",
+  "« ARINAS BTP » absent de la liste des plis déposés (nom mal lu ?)."
+ ],
+ "notes_ocr": [
+  "« ABAYNA TRAVAUX PIECES EXIGEES NON PRESENTES A SAVOIR LA DECLARATION SUR » absent de la liste des plis déposés (nom mal lu ?).",
+  "« L’HONNEUR, LE CPS ET LE RC SIGNES » absent de la liste des plis déposés (nom mal lu ?).",
+  "Maître d'ouvrage absent du PV (utiliser l'acheteur public du portail)."
+ ],
+ "qualite": "complet"
+}

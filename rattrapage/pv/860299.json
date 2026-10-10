@@ -1,0 +1,61 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "860299",
+ "orgAcronyme": "o8p",
+ "reference_pv": "T58011/PIC",
+ "nouveau": true,
+ "reference": "T58011/PIC",
+ "objet": "TRAVAUX DE RENOUVELLEMENT DES INSTALLATIONS LIGNES CATENAIRES SUR LE PARCOURS DE LA",
+ "acheteur": "M. Le Directeur du Pôle Infrastructure et Circulation",
+ "procedure": null,
+ "categorie": "Travaux",
+ "date_limite_plis": "13/11/2024",
+ "lieu_ouverture": "Institut de Formation et de Développement de Compétences l’'ONCF",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "13/12/2024",
+ "justification": null,
+ "infructueux": false,
+ "attributaire": null,
+ "montant_attribue": null,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "Groupement QAMARI KARIM (KARIM GENERAL ENTREPRISE) et ULTRANET MULTIMEDIA",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Groupement COLAS RAIL MAROC et COLAS RAIL",
+   "montant_acte_engagement": 89216891.4,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Groupement KGE/ULTRANET MULTIMEDIA",
+   "montant_acte_engagement": 131033130.0,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 3,
+ "alertes_ocr": [
+  "« Groupement KGE/ULTRANET MULTIMEDIA » absent de la liste des plis déposés (nom mal lu ?).",
+  "Attributaire non trouvé."
+ ],
+ "notes_ocr": [],
+ "qualite": "complet"
+}

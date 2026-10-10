@@ -1,0 +1,67 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "902204",
+ "orgAcronyme": "f8y",
+ "reference_pv": "07/2025/BP",
+ "nouveau": true,
+ "reference": "07/2025/BP",
+ "objet": "travaux de construction du siège du Conseil de la Province de Jerada. (Achèvement)",
+ "acheteur": "le Président du Conseil de la Province de Jerada",
+ "procedure": "appel d'offres ouvert",
+ "categorie": "Travaux",
+ "date_limite_plis": "15/05/2025",
+ "lieu_ouverture": "bureaux du conseil de la Province de Jerada",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "02/06/2025",
+ "justification": "le concurrent retenu a produit, par voie électronique, les pièces du dossier administratif visées à l’alinéa 2 du paragraphe A de Particle 5 du règlement de consultation du présent appel d’offres et le sous détail justifiant le prix unitaire n° 51 jugé anormalement bas. La commission les a jugés acceptables.",
+ "infructueux": false,
+ "attributaire": "SOCIETE EL BRIHI DE CONSTRUCTION ET TRAVAUX PUBLICS -TAZA",
+ "montant_attribue": 2551008.0,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "SOCIETE Tsik -CASABLANCA",
+   "montant_acte_engagement": 2505984.0,
+   "montant_apres_verification": 2505984.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "SOCIETE DAHBI DES TRAVAUX AGRICOLES -OUJDA",
+   "montant_acte_engagement": 3062364.0,
+   "montant_apres_verification": 3062364.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "SOCIETE KISSI TRAVAUX -OUJDA",
+   "montant_acte_engagement": 2593080.0,
+   "montant_apres_verification": 2593080.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_offre_financiere",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "SOCIETE EL BRIHI DE CONSTRUCTION ET TRAVAUX PUBLICS -TAZA",
+   "montant_acte_engagement": 2551008.0,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 4,
+ "alertes_ocr": [],
+ "notes_ocr": [],
+ "qualite": "complet"
+}

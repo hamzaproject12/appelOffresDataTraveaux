@@ -1,0 +1,64 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "995378",
+ "orgAcronyme": "d0q",
+ "reference_pv": "3/2010",
+ "nouveau": true,
+ "reference": "3/2010",
+ "objet": null,
+ "acheteur": null,
+ "procedure": "appel d'offres ouvert",
+ "categorie": "Travaux",
+ "date_limite_plis": null,
+ "lieu_ouverture": null,
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": null,
+ "justification": null,
+ "infructueux": false,
+ "attributaire": "MOHAMED ELAJI agissant au nom de FRACHE ISKANE",
+ "montant_attribue": 325166.0,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "OULAD SADDIK ABDELHAMID entrepreneur de construction et travaux",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "ABDESLAM EL JAOUHARI entreprise de construction et travaux divers",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "MOHAMED ELAJI agissant au nom de FRACHE ISKANE",
+   "montant_acte_engagement": 325166.0,
+   "montant_apres_verification": 325166.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 3,
+ "alertes_ocr": [
+  "« MOHAMED ELAJI agissant au nom de FRACHE ISKANE » absent de la liste des plis déposés (nom mal lu ?)."
+ ],
+ "notes_ocr": [
+  "« OULAD SADDIK ABDELHAMID entrepreneur de construction et travaux » absent de la liste des plis déposés (nom mal lu ?).",
+  "« ABDESLAM EL JAOUHARI entreprise de construction et travaux divers » absent de la liste des plis déposés (nom mal lu ?).",
+  "Maître d'ouvrage absent du PV (utiliser l'acheteur public du portail)."
+ ],
+ "qualite": "attribution"
+}

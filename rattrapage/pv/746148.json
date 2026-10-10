@@ -1,0 +1,80 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "746148",
+ "orgAcronyme": "a1z",
+ "reference_pv": null,
+ "nouveau": true,
+ "reference": null,
+ "objet": null,
+ "acheteur": null,
+ "procedure": null,
+ "categorie": "Travaux",
+ "date_limite_plis": "19/09/2023",
+ "lieu_ouverture": "la Salle de Réunion à L'ANNEXE AL AZHAR de lARRONDISSEMENT HAY HASSANI sise à Avenue Aziz Bilal Cité AL Azhar",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "10/10/2023",
+ "justification": "L’attributaire a présenté l’offre la plus avantageuse « La moins disante » L” : Chaque concurrent ne peut bénéficier que d’un seul lot ; le conditions exigées par le règlement de consultation",
+ "infructueux": false,
+ "attributaire": "CORIAM SARL",
+ "montant_attribue": 4201740.0,
+ "attributaires_par_lot": [
+  {
+   "lot": null,
+   "attributaire": "CORIAM SARL",
+   "montant": 4201740.0
+  },
+  {
+   "lot": null,
+   "attributaire": "STE BOURANIME SARL",
+   "montant": 5048400.0
+  }
+ ],
+ "soumissionnaires": [
+  {
+   "nom": "CORIAM SARL",
+   "montant_acte_engagement": 4201740.0,
+   "montant_apres_verification": 4201740.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "STE BOURANIME SARL",
+   "montant_acte_engagement": 4853940.0,
+   "montant_apres_verification": 4853940.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "STE MESKI DES TRAVAUX DIVERS SARL",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "SOUSS LIGHTING SARL AU",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 4,
+ "alertes_ocr": [],
+ "notes_ocr": [
+  "Maître d'ouvrage absent du PV (utiliser l'acheteur public du portail)."
+ ],
+ "qualite": "attribution"
+}

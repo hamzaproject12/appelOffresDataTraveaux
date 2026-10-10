@@ -1,0 +1,83 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "1043520",
+ "orgAcronyme": "z9k",
+ "reference_pv": "27/2026/CBM",
+ "nouveau": true,
+ "reference": "27/2026/CBM",
+ "objet": "Travaux d'aménagement des boulevards : Abdel «rim El Khattaoi, Bayrout, Tamgnount et Driss Ben Zakri à la ville de Beni Mellal",
+ "acheteur": "La commune de Béni Mellal",
+ "procedure": null,
+ "categorie": "Travaux",
+ "date_limite_plis": "15/09/2026",
+ "lieu_ouverture": "| La salle des réunions de la commune de Béni Mellai",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "24/09/2026",
+ "justification": "- _ Jugé l'offre économiquement la plus avantageuse",
+ "infructueux": false,
+ "attributaire": "Société WATRAV SARL AU",
+ "montant_attribue": 14365200.0,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "GROUPEMENT SOCIETE MENARA RABOTAGE &SOCIETE DE CONSTRUCTION ET",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_dossier_administratif_technique",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "D'AMENAGEMENT ELMARAH SARL",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_dossier_administratif_technique",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Société STAPORT SA",
+   "montant_acte_engagement": 15928740.0,
+   "montant_apres_verification": 15928740.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Société ZAMANE EL KHEIR SARL",
+   "montant_acte_engagement": 14781948.0,
+   "montant_apres_verification": 14781948.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Société WATRAV SARL AU",
+   "montant_acte_engagement": 14365200.0,
+   "montant_apres_verification": 14365200.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 5,
+ "alertes_ocr": [
+  "« Société STAPORT SA » absent de la liste des plis déposés (nom mal lu ?).",
+  "« Société ZAMANE EL KHEIR SARL » absent de la liste des plis déposés (nom mal lu ?).",
+  "« Société WATRAV SARL AU » absent de la liste des plis déposés (nom mal lu ?)."
+ ],
+ "notes_ocr": [
+  "« GROUPEMENT SOCIETE MENARA RABOTAGE &SOCIETE DE CONSTRUCTION ET » absent de la liste des plis déposés (nom mal lu ?).",
+  "« D'AMENAGEMENT ELMARAH SARL » absent de la liste des plis déposés (nom mal lu ?)."
+ ],
+ "qualite": "complet"
+}

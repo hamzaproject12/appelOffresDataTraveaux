@@ -1,0 +1,69 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "943701",
+ "orgAcronyme": "d4q",
+ "reference_pv": "64/DRD/C/2025",
+ "nouveau": true,
+ "reference": "64/DRD/C/2025",
+ "objet": "relatif à",
+ "acheteur": null,
+ "procedure": "appel d'offres ouvert",
+ "categorie": "Travaux",
+ "date_limite_plis": "15/10/2025",
+ "lieu_ouverture": "au siège de la Direction Régionale Daraa-Tafilalet (DRD)",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "23/10/2025",
+ "justification": "Moins-disant",
+ "infructueux": false,
+ "attributaire": "LAMAT",
+ "montant_attribue": 288779.96,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "LAMAT",
+   "montant_acte_engagement": 288779.96,
+   "montant_apres_verification": 288779.96,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "MEGA TRAITEMENT MAROC",
+   "montant_acte_engagement": 349059.96,
+   "montant_apres_verification": 349059.96,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "NESOTRA MAROC",
+   "montant_acte_engagement": 309205.99,
+   "montant_apres_verification": 309205.99,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "SOHOTRA MAROC",
+   "montant_acte_engagement": 423871.99,
+   "montant_apres_verification": 423871.99,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 4,
+ "alertes_ocr": [],
+ "notes_ocr": [
+  "Maître d'ouvrage absent du PV (utiliser l'acheteur public du portail)."
+ ],
+ "qualite": "complet"
+}

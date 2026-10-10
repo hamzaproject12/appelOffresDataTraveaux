@@ -1,0 +1,80 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "809462",
+ "orgAcronyme": "o8p",
+ "reference_pv": "15/DPCR-ANP/2024",
+ "nouveau": true,
+ "reference": "15/DPCR-ANP/2024",
+ "objet": "Travaux de construction des blocs sanitaires au Port de Casablanca",
+ "acheteur": "AGENCE NATIONALE DES PORTS, DIRECTION DU PORT DE CASABLANCA ET REGION",
+ "procedure": null,
+ "categorie": "Travaux",
+ "date_limite_plis": "28/05/2024",
+ "lieu_ouverture": "DIRECTION DU PORT DE CASABLANCA ET REGION",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "25/06/2024",
+ "justification": null,
+ "infructueux": false,
+ "attributaire": "GLOBAL BUILDERS",
+ "montant_attribue": 531345.0,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "HILALI SAKANE- CONSORZIO STABILE HECOHABITA",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_dossier_administratif_technique",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "EL HILALI SAKANE- RYAD AL BINAA- TSLK- TIMODA CONSTRUCTION- H.M.K",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "depose",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "BATI- SOMAZOUM- TGC ENVIRONNEMENT- POWER ACTING COMPANY- GLOBAL",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "depose",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "BUILDERS- JADMAR TRAVAUX",
+   "montant_acte_engagement": 685725.0,
+   "montant_apres_verification": null,
+   "autres_montants": [
+    822870.0
+   ],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "GLOBAL BUILDERS",
+   "montant_acte_engagement": 531345.0,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 5,
+ "alertes_ocr": [
+  "« GLOBAL BUILDERS » absent de la liste des plis déposés (nom mal lu ?)."
+ ],
+ "notes_ocr": [],
+ "qualite": "complet"
+}

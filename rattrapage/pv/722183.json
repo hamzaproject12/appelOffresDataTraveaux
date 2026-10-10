@@ -1,0 +1,80 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "722183",
+ "orgAcronyme": "l1f",
+ "reference_pv": "13/2023",
+ "nouveau": true,
+ "reference": "13/2023",
+ "objet": "Travaux de signalisation horizontale et verticale à la commune de Tétouan (en deux lots)",
+ "acheteur": null,
+ "procedure": null,
+ "categorie": "Travaux",
+ "date_limite_plis": null,
+ "lieu_ouverture": null,
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": null,
+ "justification": null,
+ "infructueux": false,
+ "attributaire": "Pintaplana Maroc sarl",
+ "montant_attribue": null,
+ "attributaires_par_lot": [
+  {
+   "lot": null,
+   "attributaire": "Pintaplana Maroc sarl",
+   "montant": null
+  },
+  {
+   "lot": null,
+   "attributaire": "de la consultation",
+   "montant": null
+  },
+  {
+   "lot": null,
+   "attributaire": "Le moin disant",
+   "montant": null
+  }
+ ],
+ "soumissionnaires": [
+  {
+   "nom": "Pintaplana Maroc sarl",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "de la consultation",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Le moin disant",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 3,
+ "alertes_ocr": [
+  "Montant de l'attributaire « Pintaplana Maroc sarl » non trouvé.",
+  "Montant de l'attributaire « de la consultation » non trouvé.",
+  "Montant de l'attributaire « Le moin disant » non trouvé."
+ ],
+ "notes_ocr": [
+  "Maître d'ouvrage absent du PV (utiliser l'acheteur public du portail)."
+ ],
+ "qualite": "participants"
+}

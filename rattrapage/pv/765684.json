@@ -1,0 +1,60 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "765684",
+ "orgAcronyme": "f9f",
+ "reference_pv": "28/2023/T/N/CAM",
+ "nouveau": true,
+ "reference": "28/2023/T/N/CAM",
+ "objet": "travaux d'entretien de la pelouse du stade sportif au quartier al massira à la commune Aït Melloul préfecture Inzegane Aït Melloul",
+ "acheteur": "COMMUNE D’AIT MELLOUL",
+ "procedure": "appel d'offres ouvert national",
+ "categorie": "Travaux",
+ "date_limite_plis": "07/12/2023",
+ "lieu_ouverture": "salle de réunion au parc municipal sis au quartier industriel à Ait Melloul",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "19/12/2023",
+ "justification": "avantageuse en terme qualité prix",
+ "infructueux": false,
+ "attributaire": "DEVELOPPEMENT AGRICOLE (TIDA)",
+ "montant_attribue": 289345.76,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "SOCIETE TECHNIQUES D'IRRIGATION ET DEVELOPPEMENT AGRICOLE (TIDA)",
+   "montant_acte_engagement": 269345.76,
+   "montant_apres_verification": 269345.76,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "SOCIETE DECORA PLANTES",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_dossier_administratif_technique",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "DEVELOPPEMENT AGRICOLE (TIDA)",
+   "montant_acte_engagement": 289345.76,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 3,
+ "alertes_ocr": [
+  "« DEVELOPPEMENT AGRICOLE (TIDA) » absent de la liste des plis déposés (nom mal lu ?)."
+ ],
+ "notes_ocr": [],
+ "qualite": "complet"
+}

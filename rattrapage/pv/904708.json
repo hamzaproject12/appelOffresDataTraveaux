@@ -1,0 +1,69 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "904708",
+ "orgAcronyme": "i1t",
+ "reference_pv": "01/2025",
+ "nouveau": true,
+ "reference": "01/2025",
+ "objet": "Travaux d’aménagent de la piste reliant la RP 4512 vers mosqué Khtatba sise au douar Bni Sennana à la Commune Ain Dfali, Province de Sidi Kacem, =En lot Unique=",
+ "acheteur": "Président de la Commune Ain Dfali",
+ "procedure": "appel d'offres ouvert",
+ "categorie": "Travaux",
+ "date_limite_plis": "27/05/2025",
+ "lieu_ouverture": "Bureau du Président de la Commune Ain Dfali",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "10/06/2025",
+ "justification": "dont l'offre la plus avantageuse.",
+ "infructueux": false,
+ "attributaire": null,
+ "montant_attribue": null,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "STE MESKCON sarl de Kenitra",
+   "montant_acte_engagement": 945600.0,
+   "montant_apres_verification": 945600.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_dossier_administratif_technique",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "STE YOURAB sarl AU de Casa Blanca",
+   "montant_acte_engagement": 954480.0,
+   "montant_apres_verification": 954480.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_offre_financiere",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "STE BARA SSO SARL AU de TAZA",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_dossier_administratif_technique",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "STE AFRICAINE DE TRAVAUX PUBLIC STR de Fès",
+   "montant_acte_engagement": 951360.0,
+   "montant_apres_verification": 951360.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_offre_financiere",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 4,
+ "alertes_ocr": [
+  "Attributaire non trouvé."
+ ],
+ "notes_ocr": [],
+ "qualite": "complet"
+}

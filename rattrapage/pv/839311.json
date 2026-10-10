@@ -1,0 +1,60 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "839311",
+ "orgAcronyme": "t5y",
+ "reference_pv": "15/2024/SDRL",
+ "nouveau": true,
+ "reference": "15/2024/SDRL",
+ "objet": "Travaux de fixation des abris métalliques pour parking des voitures des bâtiments relevant de là circonscription judiciaire de Laâyoune en lot unique",
+ "acheteur": "Sous-direction régionale de la cour d'appel de Eaâyoune",
+ "procedure": "appel d'offres ouvert national",
+ "categorie": "Travaux",
+ "date_limite_plis": "11/10/2024",
+ "lieu_ouverture": "le bureau de Mr le Sous-Directeur (la Sous-Direction Régionale auprès de la Cour d'Appel de Laâyoune",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "17/10/2024",
+ "justification": "l'offre économiquement la plus avantageuse.",
+ "infructueux": false,
+ "attributaire": "STE NEOMOB",
+ "montant_attribue": 1217577.6,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "STE FASOFT",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_dossier_administratif_technique",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "STE SD PROJETS",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_dossier_administratif_technique",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "STE NEOMOB",
+   "montant_acte_engagement": 1217577.6,
+   "montant_apres_verification": null,
+   "autres_montants": [
+    1217577.6
+   ],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 3,
+ "alertes_ocr": [],
+ "notes_ocr": [],
+ "qualite": "attribution"
+}

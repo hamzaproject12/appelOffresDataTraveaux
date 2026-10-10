@@ -1,0 +1,78 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "902858",
+ "orgAcronyme": "f9f",
+ "reference_pv": "5/2025",
+ "nouveau": true,
+ "reference": "5/2025",
+ "objet": "de l'appel d'offre : Travaux de réhabilitation des espaces sportifs dproximi espace bouargane",
+ "acheteur": "Commune d'Agadir",
+ "procedure": "appel d'offres ouvert",
+ "categorie": "Travaux",
+ "date_limite_plis": "06/05/2025",
+ "lieu_ouverture": "Salle des réunions, Commune d'Agadir",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "13/05/2025",
+ "justification": "(l'offre avantageuse)",
+ "infructueux": false,
+ "attributaire": "Sté SSTCO SARL AU",
+ "montant_attribue": 12914280.0,
+ "attributaires_par_lot": [
+  {
+   "lot": null,
+   "attributaire": "Sté SSTCO SARL AU",
+   "montant": 12914280.0
+  },
+  {
+   "lot": null,
+   "attributaire": "Sté TAMOUNT DE MATERIEL DE CONSTRUCTION SOTAMAC SARL",
+   "montant": 15127626.0
+  }
+ ],
+ "soumissionnaires": [
+  {
+   "nom": "Sté SSTCO SARL AU",
+   "montant_acte_engagement": 12914280.0,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Sté CONFORAMA SARL",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "depose",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Sté TAMOUNT DE MATERIEL DE CONSTRUCTION SOTAMAC SARL",
+   "montant_acte_engagement": 15127626.0,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "CONSTRUCTION SOTAMAC SARL",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "depose",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 4,
+ "alertes_ocr": [],
+ "notes_ocr": [],
+ "qualite": "attribution"
+}

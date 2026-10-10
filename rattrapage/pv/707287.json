@@ -1,0 +1,71 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "707287",
+ "orgAcronyme": "d4q",
+ "reference_pv": "17/E/2023",
+ "nouveau": true,
+ "reference": "17/E/2023",
+ "objet": "potable en deux lots Lot n°1 : Zone AI Qods (Partiel) Lot n°2 : Zone AI Qods (Partie 2)- Taza Haut (Ancien Médina)",
+ "acheteur": "s RADEE.TA",
+ "procedure": null,
+ "categorie": "Travaux",
+ "date_limite_plis": "12/04/2023",
+ "lieu_ouverture": "Siège de la RADEE.TA",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": null,
+ "justification": null,
+ "infructueux": true,
+ "attributaire": null,
+ "montant_attribue": null,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "Société CTHM",
+   "montant_acte_engagement": 5608466.34,
+   "montant_apres_verification": 4116080.0,
+   "autres_montants": [
+    6015568.6
+   ],
+   "lots": [
+    "1",
+    "2"
+   ],
+   "statut": "ecarte_offre_financiere",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Siège social: 163, Avenue Allal Al Fassi - Taza - B.P",
+   "montant_acte_engagement": 137137.0,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "R.ILB AWB. succursal entreprise Hassan II Taza",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 3,
+ "alertes_ocr": [
+  "« R.ILB AWB. succursal entreprise Hassan II Taza » : montant illisible (7 690 000 944 700 000 DH)  écarté.",
+  "« Société CTHM » absent de la liste des plis déposés (nom mal lu ?).",
+  "« Siège social: 163, Avenue Allal Al Fassi - Taza - B.P » absent de la liste des plis déposés (nom mal lu ?)."
+ ],
+ "notes_ocr": [
+  "« R.ILB AWB. succursal entreprise Hassan II Taza » absent de la liste des plis déposés (nom mal lu ?).",
+  "« Société CTHM » : montant rectifié de 5 608 466.34 à 4 116 080.00 DH.",
+  "Marché alloti (2 lots)."
+ ],
+ "qualite": "complet"
+}

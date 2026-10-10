@@ -1,0 +1,97 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "1028766",
+ "orgAcronyme": "g3h",
+ "reference_pv": null,
+ "nouveau": true,
+ "reference": null,
+ "objet": null,
+ "acheteur": null,
+ "procedure": null,
+ "categorie": "Travaux",
+ "date_limite_plis": "17/06/2026",
+ "lieu_ouverture": "Salle de réunion de la Société Régionale Multiservices Tanger-Tétouan-Al Hoceima « SRM-TTA »",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "29/07/2026",
+ "justification": "Offre moins-disante conforme avec attribution maximale de 2 lots par attributaire. L'attribution des lots se fait selon la combinaison la plus économique pour la SRM-TTA, conformément aux critères d'attribution prévues par le règlement de consultation de l'appel d'offres.",
+ "infructueux": true,
+ "attributaire": "HS INFRA",
+ "montant_attribue": 19510827.84,
+ "attributaires_par_lot": [
+  {
+   "lot": "1",
+   "attributaire": "HS INFRA",
+   "montant": 19510827.84
+  },
+  {
+   "lot": "4",
+   "attributaire": "Infructueux Infructueux CAH",
+   "montant": 8787750.55
+  }
+ ],
+ "soumissionnaires": [
+  {
+   "nom": "MED TPH HS INFRA",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "depose",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "HS INFRA ALTATRAV SRareel nn - CAH",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "depose",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "ALTATRAV ALTATRAV",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "depose",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "HS INFRA",
+   "montant_acte_engagement": 19510827.84,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [
+    "1"
+   ],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Infructueux Infructueux CAH",
+   "montant_acte_engagement": 8787750.55,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [
+    "4"
+   ],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 5,
+ "alertes_ocr": [
+  "« HS INFRA » absent de la liste des plis déposés (nom mal lu ?).",
+  "« Infructueux Infructueux CAH » absent de la liste des plis déposés (nom mal lu ?)."
+ ],
+ "notes_ocr": [
+  "Marché alloti (2 lots).",
+  "Maître d'ouvrage absent du PV (utiliser l'acheteur public du portail)."
+ ],
+ "qualite": "attribution"
+}

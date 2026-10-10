@@ -1,0 +1,82 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "790594",
+ "orgAcronyme": "d4q",
+ "reference_pv": "12/A/2024",
+ "nouveau": true,
+ "reference": "12/A/2024",
+ "objet": "Travaux de transfert des effluents bruts de la ville de Taza vers le site de la STEP — LOT 3",
+ "acheteur": "s",
+ "procedure": null,
+ "categorie": "Travaux",
+ "date_limite_plis": null,
+ "lieu_ouverture": "Joutnaux ayant publié avis de publicité Joutnaux ayant publié avis de publicité RADEE.TA",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "24/04/2024",
+ "justification": "- Dossiers administratif, technique et offre technique. - Offre avantageuse répondant aux critères d’évaluation.",
+ "infructueux": false,
+ "attributaire": "Groupement SOUSALIO & SRTHYG-BTP",
+ "montant_attribue": 18361065.12,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "offte",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "depose",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Société CASEP",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Société CTR",
+   "montant_acte_engagement": 16277540.0,
+   "montant_apres_verification": null,
+   "autres_montants": [
+    19240052.28
+   ],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Groupement SOUSALIO & SRTHYG-BTP",
+   "montant_acte_engagement": 19533048.0,
+   "montant_apres_verification": null,
+   "autres_montants": [
+    18361065.12
+   ],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Société CASEP Rabais",
+   "montant_acte_engagement": 19532852.67,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 5,
+ "alertes_ocr": [
+  "« Société CASEP Rabais » absent de la liste des plis déposés (nom mal lu ?)."
+ ],
+ "notes_ocr": [],
+ "qualite": "complet"
+}

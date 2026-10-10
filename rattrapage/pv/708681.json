@@ -1,0 +1,42 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "708681",
+ "orgAcronyme": "g3h",
+ "reference_pv": "2/DAT/2023",
+ "nouveau": true,
+ "reference": "2/DAT/2023",
+ "objet": "Travaux de construction de L’Annexe Administrative Lalla Meriem, du District Urbain",
+ "acheteur": null,
+ "procedure": "appel d'offres ouvert",
+ "categorie": "Travaux",
+ "date_limite_plis": "05/04/2023",
+ "lieu_ouverture": "Secrétariat Général Annexe",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "20/04/2023",
+ "justification": "La plus avantageuse",
+ "infructueux": false,
+ "attributaire": "STE OUDOUR TRAVAUX",
+ "montant_attribue": 7440934.8,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "STE OUDOUR TRAVAUX",
+   "montant_acte_engagement": 7440934.8,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 1,
+ "alertes_ocr": [],
+ "notes_ocr": [
+  "Maître d'ouvrage absent du PV (utiliser l'acheteur public du portail)."
+ ],
+ "qualite": "attribution"
+}

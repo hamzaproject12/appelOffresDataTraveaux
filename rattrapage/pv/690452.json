@@ -1,0 +1,60 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "690452",
+ "orgAcronyme": "o8p",
+ "reference_pv": "35/2022",
+ "nouveau": true,
+ "reference": "35/2022",
+ "objet": "Travaux de réparation des Dégâts de crues situés au PK104+400 de la RR508 et au PK31+000 de la RP5404. Province de Taza",
+ "acheteur": null,
+ "procedure": null,
+ "categorie": "Travaux",
+ "date_limite_plis": "22/11/2022",
+ "lieu_ouverture": "DPETLE DE TAZA",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "19/01/2023",
+ "justification": "Offre moins disante",
+ "infructueux": false,
+ "attributaire": "STE LA SOURCE BLEU DE TRAVAUX",
+ "montant_attribue": 5127822.0,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "STE NORD BATIMENT",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_dossier_administratif_technique",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "GROUPEMENT STE LGBI ET STE SNTRO",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_dossier_administratif_technique",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "STE LA SOURCE BLEU DE TRAVAUX",
+   "montant_acte_engagement": 5127822.0,
+   "montant_apres_verification": 5127822.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 3,
+ "alertes_ocr": [],
+ "notes_ocr": [
+  "Maître d'ouvrage absent du PV (utiliser l'acheteur public du portail)."
+ ],
+ "qualite": "attribution"
+}

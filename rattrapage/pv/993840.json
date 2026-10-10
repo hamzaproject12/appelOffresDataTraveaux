@@ -1,0 +1,127 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "993840",
+ "orgAcronyme": "g8e",
+ "reference_pv": "A022/RRA/2026",
+ "nouveau": true,
+ "reference": "A022/RRA/2026",
+ "objet": "TRAVAUX D'AMENAGEMENT DES VOIES DANS LA COMMUNE DE SKHIRATE, PREFECTURE SKHIRATE-TEMARA, EN DEUX LOTS SEPARES NON CUMULATIFS",
+ "acheteur": null,
+ "procedure": null,
+ "categorie": "Travaux",
+ "date_limite_plis": "10/03/2026",
+ "lieu_ouverture": "Bureau de la Société Rabat Région Aménagement au 9, Place Al Joulane — Rabat",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "14/04/2026",
+ "justification": "Offre conforme aux exigences du Règlement de la consultation et l'offre la plus avantageuses",
+ "infructueux": false,
+ "attributaire": "SOCIETE GTR",
+ "montant_attribue": 80206464.0,
+ "attributaires_par_lot": [
+  {
+   "lot": null,
+   "attributaire": "SOCIETE GTR",
+   "montant": 80206464.0
+  },
+  {
+   "lot": null,
+   "attributaire": "SOCIETE ALEQ",
+   "montant": 74056972.8
+  }
+ ],
+ "soumissionnaires": [
+  {
+   "nom": "SOCIETE EL HALLAOUI",
+   "montant_acte_engagement": 85453086.0,
+   "montant_apres_verification": 79739637.6,
+   "autres_montants": [
+    79739637.6
+   ],
+   "lots": [
+    "1"
+   ],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "SOCIETE GROUPE MOJAZINE",
+   "montant_acte_engagement": 85865136.0,
+   "montant_apres_verification": 79441296.0,
+   "autres_montants": [
+    79441296.0
+   ],
+   "lots": [
+    "1"
+   ],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "SOCIETE EUROLOGISTIQE",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_offre_technique",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "SOCIETE CAMPEZO",
+   "montant_acte_engagement": 86182174.8,
+   "montant_apres_verification": 80503861.2,
+   "autres_montants": [
+    80503861.2
+   ],
+   "lots": [
+    "1"
+   ],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "SOCIETE GTR",
+   "montant_acte_engagement": 80206464.0,
+   "montant_apres_verification": 74289919.2,
+   "autres_montants": [
+    74289919.2
+   ],
+   "lots": [
+    "1"
+   ],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "SOCIETE ALEQ",
+   "montant_acte_engagement": 79161531.6,
+   "montant_apres_verification": 74056972.8,
+   "autres_montants": [
+    74056972.8
+   ],
+   "lots": [
+    "1"
+   ],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 6,
+ "alertes_ocr": [
+  "« SOCIETE CAMPEZO » absent de la liste des plis déposés (nom mal lu ?).",
+  "« SOCIETE GTR » absent de la liste des plis déposés (nom mal lu ?).",
+  "« SOCIETE ALEQ » absent de la liste des plis déposés (nom mal lu ?)."
+ ],
+ "notes_ocr": [
+  "« SOCIETE EL HALLAOUI » : montant rectifié de 85 453 086.00 à 79 739 637.60 DH.",
+  "« SOCIETE GROUPE MOJAZINE » : montant rectifié de 85 865 136.00 à 79 441 296.00 DH.",
+  "« SOCIETE CAMPEZO » : montant rectifié de 86 182 174.80 à 80 503 861.20 DH.",
+  "« SOCIETE GTR » : montant rectifié de 80 206 464.00 à 74 289 919.20 DH.",
+  "« SOCIETE ALEQ » : montant rectifié de 79 161 531.60 à 74 056 972.80 DH.",
+  "Maître d'ouvrage absent du PV (utiliser l'acheteur public du portail)."
+ ],
+ "qualite": "complet"
+}

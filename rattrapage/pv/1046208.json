@@ -1,0 +1,94 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "1046208",
+ "orgAcronyme": "m8x",
+ "reference_pv": null,
+ "nouveau": true,
+ "reference": null,
+ "objet": null,
+ "acheteur": null,
+ "procedure": null,
+ "categorie": "Travaux",
+ "date_limite_plis": null,
+ "lieu_ouverture": null,
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "01/10/2026",
+ "justification": "POffre la plus avantageuse.",
+ "infructueux": false,
+ "attributaire": "BAB SAHARA TRAVAUX DIVERS",
+ "montant_attribue": 404162.4,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "STE ELJANOUB ELJADID SARL",
+   "montant_acte_engagement": 473904.0,
+   "montant_apres_verification": 473904.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_offre_financiere",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "STE M.A.M NEGOCE",
+   "montant_acte_engagement": 411768.0,
+   "montant_apres_verification": 411768.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_offre_financiere",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "LIGNE BUILDING SARLAU",
+   "montant_acte_engagement": 416134.4,
+   "montant_apres_verification": 416134.4,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_offre_financiere",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "JIMAVARE",
+   "montant_acte_engagement": 412917.6,
+   "montant_apres_verification": 412917.6,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_offre_financiere",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "STE HYDROSPHERE SARL AU",
+   "montant_acte_engagement": 487166.4,
+   "montant_apres_verification": 487166.4,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "BAB SAHARA TRAVAUX DIVERS",
+   "montant_acte_engagement": 404162.4,
+   "montant_apres_verification": 404162.4,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 6,
+ "alertes_ocr": [
+  "« STE ELJANOUB ELJADID SARL » absent de la liste des plis déposés (nom mal lu ?).",
+  "« STE M.A.M NEGOCE » absent de la liste des plis déposés (nom mal lu ?).",
+  "« LIGNE BUILDING SARLAU » absent de la liste des plis déposés (nom mal lu ?).",
+  "« JIMAVARE » absent de la liste des plis déposés (nom mal lu ?).",
+  "« STE HYDROSPHERE SARL AU » absent de la liste des plis déposés (nom mal lu ?).",
+  "« BAB SAHARA TRAVAUX DIVERS » absent de la liste des plis déposés (nom mal lu ?)."
+ ],
+ "notes_ocr": [
+  "Maître d'ouvrage absent du PV (utiliser l'acheteur public du portail)."
+ ],
+ "qualite": "complet"
+}

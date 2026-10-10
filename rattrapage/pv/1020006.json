@@ -1,0 +1,107 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "1020006",
+ "orgAcronyme": "a1t",
+ "reference_pv": "100/2026/ADHA",
+ "nouveau": true,
+ "reference": "100/2026/ADHA",
+ "objet": null,
+ "acheteur": "L’AGENCE DE DEVELOPPEMNT DU HAUT ATLAS",
+ "procedure": null,
+ "categorie": "Travaux",
+ "date_limite_plis": "08/06/2026",
+ "lieu_ouverture": "Salle de réunions de l’ADHA, CHOUITER",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "15/06/2026",
+ "justification": null,
+ "infructueux": false,
+ "attributaire": "Sté JHS TRAVAUX SARL",
+ "montant_attribue": 3564840.0,
+ "attributaires_par_lot": [
+  {
+   "lot": null,
+   "attributaire": "Sté JHS TRAVAUX SARL",
+   "montant": 3564840.0
+  },
+  {
+   "lot": null,
+   "attributaire": "Sté CANTRA SARL",
+   "montant": 2060034.0
+  }
+ ],
+ "soumissionnaires": [
+  {
+   "nom": "Sté JHS TRAVAUX SARL",
+   "montant_acte_engagement": 3560040.0,
+   "montant_apres_verification": 3564840.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Sté CANTRA SARL",
+   "montant_acte_engagement": 2060034.0,
+   "montant_apres_verification": 2060034.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Sté SBBS TRAVAUX SARL",
+   "montant_acte_engagement": 2153208.0,
+   "montant_apres_verification": 2153208.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Sté BIWATRAV SARL AU",
+   "montant_acte_engagement": 2051994.0,
+   "montant_apres_verification": 2051994.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Sté SOKIDAM BTP SARL",
+   "montant_acte_engagement": 2102088.0,
+   "montant_apres_verification": 2102088.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Sté TABRIKT SARL",
+   "montant_acte_engagement": 3807168.0,
+   "montant_apres_verification": 3807168.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Sté W BATIMENT SARL AU",
+   "montant_acte_engagement": 3459642.0,
+   "montant_apres_verification": 3459642.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 7,
+ "alertes_ocr": [],
+ "notes_ocr": [
+  "« Sté JHS TRAVAUX SARL » : montant rectifié de 3 560 040.00 à 3 564 840.00 DH."
+ ],
+ "qualite": "complet"
+}

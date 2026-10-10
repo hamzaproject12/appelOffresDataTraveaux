@@ -1,0 +1,55 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "749018",
+ "orgAcronyme": "o8p",
+ "reference_pv": "11/AO00/DOSI/DG/ANP/2023",
+ "nouveau": true,
+ "reference": "11/AO00/DOSI/DG/ANP/2023",
+ "objet": null,
+ "acheteur": "Direction de Organisation et Systèmes d’Information",
+ "procedure": null,
+ "categorie": "Travaux",
+ "date_limite_plis": "10/10/2023",
+ "lieu_ouverture": "Direction Générale de l’ Agence Nationale des Ports, sise à MANDARONA 300 Lot n° 8 — Sidi Maârouf — Casablanca",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "23/10/2023",
+ "justification": "la société TECH ELEC à présenté l’offre la plus avantageuse.",
+ "infructueux": false,
+ "attributaire": "TECH ELEC",
+ "montant_attribue": 2393844.0,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "Groupement CHRONO TECH-EMPEGEC",
+   "montant_acte_engagement": 2514474.2,
+   "montant_apres_verification": null,
+   "autres_montants": [
+    2397474.2
+   ],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "TECH ELEC",
+   "montant_acte_engagement": 2393844.0,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 2,
+ "alertes_ocr": [
+  "« TECH ELEC » absent de la liste des plis déposés (nom mal lu ?)."
+ ],
+ "notes_ocr": [
+  "Montants exprimés hors taxes (HT)."
+ ],
+ "qualite": "complet"
+}

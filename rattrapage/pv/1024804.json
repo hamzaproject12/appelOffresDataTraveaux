@@ -1,0 +1,53 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "1024804",
+ "orgAcronyme": "m8x",
+ "reference_pv": null,
+ "nouveau": true,
+ "reference": null,
+ "objet": "TRAVAUX D'AMENAGEMENT DES PLACES PU BLIQUE 01, 02, 03, 04 ET 05 AU QUARTIER ES SALAM A LA VILLE D’ES-SEMARA -PROVINCE D'Es-semara- en -10- dix lots LOT N°07 : TRAVAUX D'AMENAGEMENT DE LA PLACE 04 AU QUARTIER ES -SALAM A LA VILLE",
+ "acheteur": "COMMUNE D’ES- SEMARA",
+ "procedure": "appel d'offres ouvert simplifié",
+ "categorie": "Travaux",
+ "date_limite_plis": "22/06/2026",
+ "lieu_ouverture": "Salle de réunion siège de la commune d’es- semara",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "07/07/2026",
+ "justification": null,
+ "infructueux": false,
+ "attributaire": "STE RIO AMENAGEMENT SARL",
+ "montant_attribue": 714000.0,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "STE SARIO SER-TRAV",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_dossier_administratif_technique",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "STE RIO AMENAGEMENT SARL",
+   "montant_acte_engagement": 714000.0,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 2,
+ "alertes_ocr": [
+  "« STE RIO AMENAGEMENT SARL » absent de la liste des plis déposés (nom mal lu ?)."
+ ],
+ "notes_ocr": [
+  "« STE SARIO SER-TRAV » absent de la liste des plis déposés (nom mal lu ?)."
+ ],
+ "qualite": "attribution"
+}

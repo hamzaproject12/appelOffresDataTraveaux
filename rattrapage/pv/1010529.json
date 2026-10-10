@@ -1,0 +1,74 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "1010529",
+ "orgAcronyme": "q0x",
+ "reference_pv": null,
+ "nouveau": true,
+ "reference": null,
+ "objet": "Travaux d’extension du réseau d'électricité 1° catégorie aux douars rattachés à la commune Dkhissa",
+ "acheteur": null,
+ "procedure": "appel d'offres ouvert",
+ "categorie": "Travaux",
+ "date_limite_plis": "25/05/2026",
+ "lieu_ouverture": "La salle de réunions de la Commune de DKHISSA",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "03/06/2026",
+ "justification": "vu que l'offre présenté par STE ELECTRO AMNAY SARL AU est le plus avantageuse, la commission décide de proposer au maitre d’ouvrage de retenir l’offre de la STE ELECTRO AMNAY SARL AU pour un montant de : Quatre cent Quatre Vingt-deux mille cent Quarante Cinq Dirhams et Quatre-vingt-trois Centimes (482 145,83 Dhs TTC).",
+ "infructueux": false,
+ "attributaire": "STE ELECTRO AMNAY SARL AU",
+ "montant_attribue": 482145.83,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "STE RAMI SOLUTIONS SARL AU",
+   "montant_acte_engagement": 448404.71,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "STE ELECTRO AMNAY SARL AU",
+   "montant_acte_engagement": 482145.83,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "STE ETED DIVERS SARL AU",
+   "montant_acte_engagement": 416575.56,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "néants",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": true
+  }
+ ],
+ "nombre_soumissionnaires": 4,
+ "alertes_ocr": [
+  "« STE RAMI SOLUTIONS SARL AU » absent de la liste des plis déposés (nom mal lu ?).",
+  "« STE ELECTRO AMNAY SARL AU » absent de la liste des plis déposés (nom mal lu ?).",
+  "« STE ETED DIVERS SARL AU » absent de la liste des plis déposés (nom mal lu ?)."
+ ],
+ "notes_ocr": [
+  "« néants » absent de la liste des plis déposés (nom mal lu ?).",
+  "Maître d'ouvrage absent du PV (utiliser l'acheteur public du portail)."
+ ],
+ "qualite": "complet"
+}

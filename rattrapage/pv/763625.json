@@ -1,0 +1,78 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "763625",
+ "orgAcronyme": "o8p",
+ "reference_pv": "2/A00/DPEDNPSZ/DG/ANP/2023",
+ "nouveau": true,
+ "reference": "2/A00/DPEDNPSZ/DG/ANP/2023",
+ "objet": null,
+ "acheteur": "DEPARTEMENT PROJET D'EXTENSION DE LA DESSERTE NORD DU PORT DE CASABLANCA ET D'AMENAGEMENT DU PORT SEC DE ZENATA",
+ "procedure": null,
+ "categorie": "Travaux",
+ "date_limite_plis": "29/11/2023",
+ "lieu_ouverture": "Direction Générale de l’Agence Nationale des Ports, sise à MANDARONA 300 Lot n° 8 — Sidi Maârouf — Casablanca |",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "12/12/2023",
+ "justification": "la société ALTATRAV a présenté l’offre la plus avantageuse Pod onal",
+ "infructueux": false,
+ "attributaire": "ALTATRAV GROUPEMENT STPRD - GTRC",
+ "montant_attribue": 30259591.0,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "ALTATRAV GROUPEMENT STPRD - GTRC",
+   "montant_acte_engagement": 30259591.0,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "GROUPEMENT SOLID-ALEQ GROUPEMENT STAPORT- SEPROB",
+   "montant_acte_engagement": 34670403.0,
+   "montant_apres_verification": null,
+   "autres_montants": [
+    34670403.0
+   ],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "GROUPEMENT STAPORT- SEPROB",
+   "montant_acte_engagement": 40670168.4,
+   "montant_apres_verification": null,
+   "autres_montants": [
+    40670168.4
+   ],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "GROUPEMENT STPRD- GTRC",
+   "montant_acte_engagement": 33933054.0,
+   "montant_apres_verification": null,
+   "autres_montants": [
+    33933054.0
+   ],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 4,
+ "alertes_ocr": [
+  "« GROUPEMENT STAPORT- SEPROB » absent de la liste des plis déposés (nom mal lu ?).",
+  "« GROUPEMENT STPRD- GTRC » absent de la liste des plis déposés (nom mal lu ?)."
+ ],
+ "notes_ocr": [
+  "Montants exprimés hors taxes (HT)."
+ ],
+ "qualite": "complet"
+}

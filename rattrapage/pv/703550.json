@@ -1,0 +1,114 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "703550",
+ "orgAcronyme": "q0x",
+ "reference_pv": null,
+ "nouveau": true,
+ "reference": null,
+ "objet": null,
+ "acheteur": null,
+ "procedure": null,
+ "categorie": "Travaux",
+ "date_limite_plis": null,
+ "lieu_ouverture": null,
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "01/11/2022",
+ "justification": "L’Offre la moins disante.",
+ "infructueux": false,
+ "attributaire": "SOCIETE NECOTRA SARL -AZROU",
+ "montant_attribue": 342552.0,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "SOCIETE ASKIL TODAY SARL -AIN TAOUJDATE",
+   "montant_acte_engagement": 303732.0,
+   "montant_apres_verification": 303732.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_offre_financiere",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "marocain",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_offre_financiere",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "SOCIETE NECOTRA SARL -AZROU",
+   "montant_acte_engagement": 342552.0,
+   "montant_apres_verification": 342552.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "SOCIETE TAHA LEBETIOU -JFRANE",
+   "montant_acte_engagement": 348120.0,
+   "montant_apres_verification": 348120.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "SOCIETE SINAN ISKANE SARL - BENI MELLAL",
+   "montant_acte_engagement": 427200.0,
+   "montant_apres_verification": 427200.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "SOCIETE SABER NOUR INVESTISSEMENT SARL - FES",
+   "montant_acte_engagement": 360012.0,
+   "montant_apres_verification": 360012.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "SOCIETE DHAIBA ABDELAZIZ ENTREPRISE DE TRAVAUX DIVERS MEKNES",
+   "montant_acte_engagement": 361872.0,
+   "montant_apres_verification": 361872.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "SOCIETE EL FAKIR DE CONSTRUCTION ET TRAVAUX DIVERS SARL MEKNES",
+   "montant_acte_engagement": 445500.0,
+   "montant_apres_verification": 445500.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 8,
+ "alertes_ocr": [
+  "« SOCIETE ASKIL TODAY SARL -AIN TAOUJDATE » absent de la liste des plis déposés (nom mal lu ?).",
+  "« SOCIETE NECOTRA SARL -AZROU » absent de la liste des plis déposés (nom mal lu ?).",
+  "« SOCIETE TAHA LEBETIOU -JFRANE » absent de la liste des plis déposés (nom mal lu ?).",
+  "« SOCIETE SINAN ISKANE SARL - BENI MELLAL » absent de la liste des plis déposés (nom mal lu ?).",
+  "« SOCIETE SABER NOUR INVESTISSEMENT SARL - FES » absent de la liste des plis déposés (nom mal lu ?).",
+  "« SOCIETE DHAIBA ABDELAZIZ ENTREPRISE DE TRAVAUX DIVERS MEKNES » absent de la liste des plis déposés (nom mal lu ?).",
+  "« SOCIETE EL FAKIR DE CONSTRUCTION ET TRAVAUX DIVERS SARL MEKNES » absent de la liste des plis déposés (nom mal lu ?)."
+ ],
+ "notes_ocr": [
+  "« marocain » absent de la liste des plis déposés (nom mal lu ?).",
+  "Maître d'ouvrage absent du PV (utiliser l'acheteur public du portail)."
+ ],
+ "qualite": "complet"
+}

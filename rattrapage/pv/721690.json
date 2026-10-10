@@ -1,0 +1,135 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "721690",
+ "orgAcronyme": "q1s",
+ "reference_pv": "05/2023/CRRAE",
+ "nouveau": true,
+ "reference": "05/2023/CRRAE",
+ "objet": "Travaux de creusement et équipement de forage et puits au centre régional de la recherche agronomique d’Errachidia, en deux lots",
+ "acheteur": "Centre régional de la recherche agronomique d’Errachidia",
+ "procedure": null,
+ "categorie": "Travaux",
+ "date_limite_plis": "16/05/2023",
+ "lieu_ouverture": "la salle de réunions du siège du Centre Régional de la Recherche Agronomique d’Errachidia (CRRAE), sis à Avenue de la marche verte Errachidia",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "14/06/2023",
+ "justification": "les offres les plus avantageuses",
+ "infructueux": true,
+ "attributaire": "Sté ATLAS ONE SARL",
+ "montant_attribue": 1591920.0,
+ "attributaires_par_lot": [
+  {
+   "lot": "2",
+   "attributaire": "Sté ATLAS ONE SARL",
+   "montant": 1591920.0
+  },
+  {
+   "lot": "1",
+   "attributaire": "Sté ATLAS ONE SARL",
+   "montant": 1591920.0
+  }
+ ],
+ "soumissionnaires": [
+  {
+   "nom": "Sté INFAD SARL",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_dossier_administratif_technique",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Sté LASETRA SARL",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_dossier_administratif_technique",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Sté SUPERINNOV SARL",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_dossier_administratif_technique",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Sté MINKANOR",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_dossier_administratif_technique",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Sté JIRMINI TRAVAUX",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_dossier_administratif_technique",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Sté CANALCO SARL",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_dossier_administratif_technique",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Sté ATLAS ONE SARL",
+   "montant_acte_engagement": 1591920.0,
+   "montant_apres_verification": 1591920.0,
+   "autres_montants": [],
+   "lots": [
+    "1",
+    "2"
+   ],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Sté EL WAHID DE CONSTRUCTION SARL",
+   "montant_acte_engagement": 1814880.0,
+   "montant_apres_verification": 1814880.0,
+   "autres_montants": [],
+   "lots": [
+    "1"
+   ],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Sté BOTTOU TRAVAUX SARL",
+   "montant_acte_engagement": 1153080.0,
+   "montant_apres_verification": 182400.0,
+   "autres_montants": [],
+   "lots": [
+    "2"
+   ],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 9,
+ "alertes_ocr": [
+  "« Sté BOTTOU TRAVAUX SARL » : écart anormal entre montant initial et vérifié (lecture à vérifier)."
+ ],
+ "notes_ocr": [
+  "« Sté BOTTOU TRAVAUX SARL » : montant rectifié de 1 153 080.00 à 182 400.00 DH.",
+  "Marché alloti (2 lots)."
+ ],
+ "qualite": "complet"
+}

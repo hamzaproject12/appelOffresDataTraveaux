@@ -1,0 +1,105 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "976765",
+ "orgAcronyme": "a1t",
+ "reference_pv": "10/2026/ADHA",
+ "nouveau": true,
+ "reference": "10/2026/ADHA",
+ "objet": null,
+ "acheteur": "L’AGENCE DE DEVELOPPEMNT DU HAUT ATLAS",
+ "procedure": null,
+ "categorie": "Travaux",
+ "date_limite_plis": "05/02/2026",
+ "lieu_ouverture": "Salle de réunions de l’ADHA, CHWITER",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "10/02/2026",
+ "justification": null,
+ "infructueux": false,
+ "attributaire": "Sté FARTOUN DES TRAVAUX DIVERS",
+ "montant_attribue": 3138798.0,
+ "attributaires_par_lot": [
+  {
+   "lot": null,
+   "attributaire": "Sté FARTOUN DES TRAVAUX DIVERS",
+   "montant": 3138798.0
+  },
+  {
+   "lot": null,
+   "attributaire": "Sté ARIHI TRAVAUX",
+   "montant": 6044196.0
+  }
+ ],
+ "soumissionnaires": [
+  {
+   "nom": "Sté FARTOUN DES TRAVAUX DIVERS",
+   "montant_acte_engagement": 3138798.0,
+   "montant_apres_verification": 3138798.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Sté OUAHIKI CONS SARL AU",
+   "montant_acte_engagement": 3327456.0,
+   "montant_apres_verification": 3327456.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Sté ARIHI TRAVAUX",
+   "montant_acte_engagement": 3379128.0,
+   "montant_apres_verification": 3379128.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Sté ACP3 SARL AU",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_offre_financiere",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Sté MOVENYAZ SARL",
+   "montant_acte_engagement": 3498912.0,
+   "montant_apres_verification": 3498912.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Sté SOUSS TRAVAUX SARL",
+   "montant_acte_engagement": 3551761.2,
+   "montant_apres_verification": 3551761.2,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "INFRUCTUEUX",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "depose",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 7,
+ "alertes_ocr": [],
+ "notes_ocr": [],
+ "qualite": "complet"
+}

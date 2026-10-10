@@ -1,0 +1,62 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "769927",
+ "orgAcronyme": "s5z",
+ "reference_pv": "07/TRAV/DRCDT/2023",
+ "nouveau": true,
+ "reference": "07/TRAV/DRCDT/2023",
+ "objet": "TRAVAUX D’INSTALLATION DES ÉQUIPEMENTS TECHNIQUES DU CENTRE CULTUREL DE TINGHIR, PROVINCE DE TINGHIR. (LOT UNIQUE)",
+ "acheteur": "Direction Régionale du ministère de la culture Région Drâa Tafilalet d’Errachidia",
+ "procedure": "appel d'offres ouvert",
+ "categorie": "Travaux",
+ "date_limite_plis": "05/10/2023",
+ "lieu_ouverture": "les bureaux de la Direction Régionale du Ministère de la Jeunesse, de la Culture et de la Communication — département de la Culture- Région Drâa Tafilalet",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": null,
+ "justification": null,
+ "infructueux": false,
+ "attributaire": "STE 3GCOM",
+ "montant_attribue": 4109280.0,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "STE DDM",
+   "montant_acte_engagement": 4223865.6,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "STE FINATECH SYSTEMS",
+   "montant_acte_engagement": 4584578.4,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "STE 3GCOM",
+   "montant_acte_engagement": 4109280.0,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 3,
+ "alertes_ocr": [
+  "« STE DDM » absent de la liste des plis déposés (nom mal lu ?).",
+  "« STE FINATECH SYSTEMS » absent de la liste des plis déposés (nom mal lu ?).",
+  "« STE 3GCOM » absent de la liste des plis déposés (nom mal lu ?)."
+ ],
+ "notes_ocr": [],
+ "qualite": "complet"
+}

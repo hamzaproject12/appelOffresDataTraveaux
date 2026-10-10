@@ -1,0 +1,64 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "704209",
+ "orgAcronyme": "q1s",
+ "reference_pv": "05/2023/CRRA/TADLA",
+ "nouveau": true,
+ "reference": "05/2023/CRRA/TADLA",
+ "objet": "de l’Appel d'Offre",
+ "acheteur": "INRA/Centre Régional de la Recherche Agronomique de Tadla Beni-Mellal INRA/Centre Régional de la Recherche Agronomique de Tadla Beni-Mellal",
+ "procedure": null,
+ "categorie": "Travaux",
+ "date_limite_plis": "13/03/2023",
+ "lieu_ouverture": "La salle des réunions au siège de l’Institut National de la Recherche Agronomique, sis à avenue de la Victoire",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "31/03/2023",
+ "justification": "l'offre la plus avantageuse",
+ "infructueux": false,
+ "attributaire": "ROUIRI CONSTRUCTION",
+ "montant_attribue": 785010.0,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "HAJ DOUIRI SOHADU",
+   "montant_acte_engagement": 859440.0,
+   "montant_apres_verification": 859440.0,
+   "autres_montants": [
+    859440.0
+   ],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "NOUVSCON",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_dossier_administratif_technique",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "ROUIRI CONSTRUCTION",
+   "montant_acte_engagement": 785010.0,
+   "montant_apres_verification": 785010.0,
+   "autres_montants": [
+    785010.0
+   ],
+   "lots": [
+    "unique"
+   ],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 3,
+ "alertes_ocr": [],
+ "notes_ocr": [],
+ "qualite": "complet"
+}

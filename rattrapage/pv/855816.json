@@ -1,0 +1,108 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "855816",
+ "orgAcronyme": "d4q",
+ "reference_pv": "61/2024/ABHGZR",
+ "nouveau": true,
+ "reference": "61/2024/ABHGZR",
+ "objet": "Entretien et maintenance des équipements hydromécaniques et électromécaniques des barrages gérés par L'agence du Bassin Hydraulique Guir-Ziz- Rheris",
+ "acheteur": "Directeur de l'Agence du Bassin Hydraulique de GUIR-ZIZ-RHERIS",
+ "procedure": "appel d'offres ouvert",
+ "categorie": "Travaux",
+ "date_limite_plis": "25/11/2024",
+ "lieu_ouverture": "La salle de réunion de l’Agence du Bassin Hydraulique de Guir-Ziz-Rheris",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "02/12/2024",
+ "justification": "l'offre la plus avantageuse.",
+ "infructueux": false,
+ "attributaire": "STE EXPER ENERGY SARL",
+ "montant_attribue": 498360.0,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "STE ALOUSS SARL",
+   "montant_acte_engagement": 543240.0,
+   "montant_apres_verification": 1082820.0,
+   "autres_montants": [
+    1082820.0
+   ],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "STE EXPER ENERGY SARL",
+   "montant_acte_engagement": 988320.0,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": true
+  },
+  {
+   "nom": "STE GENERALE DES ACIERS SA",
+   "montant_acte_engagement": 670008.0,
+   "montant_apres_verification": 1335516.0,
+   "autres_montants": [
+    1335516.0
+   ],
+   "lots": [],
+   "statut": "ecarte_offre_financiere",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "STE SAMAHA SUD SARL",
+   "montant_acte_engagement": 505680.0,
+   "montant_apres_verification": 1008600.0,
+   "autres_montants": [
+    1008600.0
+   ],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "STE HEC-ER SARL SARL",
+   "montant_acte_engagement": 507216.0,
+   "montant_apres_verification": 1004472.0,
+   "autres_montants": [
+    1004472.0
+   ],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "STE IRELECA SARL AU",
+   "montant_acte_engagement": 507611.4,
+   "montant_apres_verification": 1010782.8,
+   "autres_montants": [
+    1010782.8
+   ],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 6,
+ "alertes_ocr": [
+  "« STE ALOUSS SARL » absent de la liste des plis déposés (nom mal lu ?).",
+  "« STE EXPER ENERGY SARL » absent de la liste des plis déposés (nom mal lu ?).",
+  "« STE GENERALE DES ACIERS SA » absent de la liste des plis déposés (nom mal lu ?).",
+  "« STE SAMAHA SUD SARL » absent de la liste des plis déposés (nom mal lu ?).",
+  "« STE HEC-ER SARL SARL » absent de la liste des plis déposés (nom mal lu ?).",
+  "« STE IRELECA SARL AU » absent de la liste des plis déposés (nom mal lu ?)."
+ ],
+ "notes_ocr": [
+  "« STE ALOUSS SARL » : montant rectifié de 543 240.00 à 1 082 820.00 DH.",
+  "« STE GENERALE DES ACIERS SA » : montant rectifié de 670 008.00 à 1 335 516.00 DH.",
+  "« STE SAMAHA SUD SARL » : montant rectifié de 505 680.00 à 1 008 600.00 DH.",
+  "« STE HEC-ER SARL SARL » : montant rectifié de 507 216.00 à 1 004 472.00 DH.",
+  "« STE IRELECA SARL AU » : montant rectifié de 507 611.40 à 1 010 782.80 DH."
+ ],
+ "qualite": "complet"
+}

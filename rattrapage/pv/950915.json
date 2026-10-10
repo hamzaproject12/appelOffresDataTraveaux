@@ -1,0 +1,142 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "950915",
+ "orgAcronyme": "d4q",
+ "reference_pv": "79/2025",
+ "nouveau": true,
+ "reference": "79/2025",
+ "objet": "LOT N°1 : AMENAGEMENT DES LOCAUX DE L’'ONHYM A RABAT",
+ "acheteur": "ONHYM",
+ "procedure": null,
+ "categorie": "Travaux",
+ "date_limite_plis": "28/10/2025",
+ "lieu_ouverture": "Bureau ONHYM - 34, Avenue AL FADILA CYM RABAT",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "11/11/2025",
+ "justification": "Offres conformes et mieux-distantes",
+ "infructueux": false,
+ "attributaire": "BUILDEX TRAVAUX",
+ "montant_attribue": 880824.0,
+ "attributaires_par_lot": [
+  {
+   "lot": "2",
+   "attributaire": "BUILDEX TRAVAUX",
+   "montant": 880824.0
+  },
+  {
+   "lot": "2",
+   "attributaire": "SOCIETE MOUKHABIR TRAVAUX",
+   "montant": 284681.28
+  }
+ ],
+ "soumissionnaires": [
+  {
+   "nom": "ACONIX",
+   "montant_acte_engagement": 727120.0,
+   "montant_apres_verification": 872544.0,
+   "autres_montants": [
+    145424.0,
+    872544.0,
+    269125.0
+   ],
+   "lots": [
+    "1",
+    "2"
+   ],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "ARSOROM",
+   "montant_acte_engagement": 782530.0,
+   "montant_apres_verification": 939036.0,
+   "autres_montants": [
+    156506.0,
+    939036.0,
+    250330.0
+   ],
+   "lots": [
+    "1",
+    "2"
+   ],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "BUILDEX TRAVAUX",
+   "montant_acte_engagement": 734020.0,
+   "montant_apres_verification": 880824.0,
+   "autres_montants": [
+    146804.0,
+    880824.0,
+    233880.0
+   ],
+   "lots": [
+    "1",
+    "2"
+   ],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "ARTOSUD",
+   "montant_acte_engagement": 231470.0,
+   "montant_apres_verification": 277764.0,
+   "autres_montants": [
+    46294.0,
+    277764.0
+   ],
+   "lots": [
+    "2"
+   ],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "AFRINOX II",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_dossier_administratif_technique",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "SOCIETE MOUKHABIR TRAVAUX",
+   "montant_acte_engagement": 237234.4,
+   "montant_apres_verification": 284681.28,
+   "autres_montants": [],
+   "lots": [
+    "2"
+   ],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "DIVERS ET NEGOCE",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [
+    "2"
+   ],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 7,
+ "alertes_ocr": [],
+ "notes_ocr": [
+  "« ACONIX » : montant rectifié de 727 120.00 à 872 544.00 DH.",
+  "« ARSOROM » : montant rectifié de 782 530.00 à 939 036.00 DH.",
+  "« BUILDEX TRAVAUX » : montant rectifié de 734 020.00 à 880 824.00 DH.",
+  "« ARTOSUD » : montant rectifié de 231 470.00 à 277 764.00 DH.",
+  "« SOCIETE MOUKHABIR TRAVAUX » : montant rectifié de 237 234.40 à 284 681.28 DH.",
+  "Marché alloti (2 lots)."
+ ],
+ "qualite": "complet"
+}

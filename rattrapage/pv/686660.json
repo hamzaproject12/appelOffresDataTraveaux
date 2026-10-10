@@ -1,0 +1,49 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "686660",
+ "orgAcronyme": "o8p",
+ "reference_pv": "36/DAGS/2022",
+ "nouveau": true,
+ "reference": "36/DAGS/2022",
+ "objet": "Fourniture et travaux d'installation de rayonnage fixe au sein du centre logistique SNTL à Mohammedia pour le compte de la Direction des Services",
+ "acheteur": "SNTL",
+ "procedure": null,
+ "categorie": "Travaux",
+ "date_limite_plis": "14/12/2022",
+ "lieu_ouverture": "Siège SNTL Rabat",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "22/12/2022",
+ "justification": null,
+ "infructueux": false,
+ "attributaire": "LINK RAYONNAGE MAROC",
+ "montant_attribue": 2607120.0,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "LINK RAYONNAGE MAROC",
+   "montant_acte_engagement": 2607120.0,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "FENIE BROSSETTE",
+   "montant_acte_engagement": 611920.0,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": true
+  }
+ ],
+ "nombre_soumissionnaires": 2,
+ "alertes_ocr": [],
+ "notes_ocr": [],
+ "qualite": "complet"
+}

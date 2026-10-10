@@ -1,0 +1,60 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "894551",
+ "orgAcronyme": "j8k",
+ "reference_pv": "14/025",
+ "nouveau": true,
+ "reference": "14/025",
+ "objet": null,
+ "acheteur": null,
+ "procedure": "consultation architecturale",
+ "categorie": "Travaux",
+ "date_limite_plis": "16/04/2025",
+ "lieu_ouverture": "AI Omrane Casablanca — Settat",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "02/05/2025",
+ "justification": "Offre financière la plus avantageuse",
+ "infructueux": false,
+ "attributaire": "URBANISA",
+ "montant_attribue": 30622932.0,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "URBANISA",
+   "montant_acte_engagement": 30622932.0,
+   "montant_apres_verification": 30622932.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "BATIMENT/STAPORT - TIRA TRAVAUX - GRP",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "EL MARAH - CTR",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 3,
+ "alertes_ocr": [],
+ "notes_ocr": [
+  "Maître d'ouvrage absent du PV (utiliser l'acheteur public du portail)."
+ ],
+ "qualite": "attribution"
+}

@@ -1,0 +1,66 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "873884",
+ "orgAcronyme": "d4q",
+ "reference_pv": null,
+ "nouveau": true,
+ "reference": null,
+ "objet": "« Entretien bâtiments techniques au niveau des centres relevant de DR5 »",
+ "acheteur": null,
+ "procedure": "appel d'offres ouvert",
+ "categorie": "Travaux",
+ "date_limite_plis": "28/01/2025",
+ "lieu_ouverture": "au siège de la Direction Régionale du Centre Nord (DR5) 88 rue du Soudan, Ville nouvelle - Fès - Maroc",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "20/02/2025",
+ "justification": "Moins-disant",
+ "infructueux": false,
+ "attributaire": "NEGOCE ALIMENT MAROC",
+ "montant_attribue": 691044.0,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "ASMAE ALI NEGOCE MAROC",
+   "montant_acte_engagement": 821493.6,
+   "montant_apres_verification": null,
+   "autres_montants": [
+    821493.6
+   ],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "NEGOCE ALIMENT MAROC",
+   "montant_acte_engagement": 691044.0,
+   "montant_apres_verification": null,
+   "autres_montants": [
+    691044.0
+   ],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "SODISTRAV MAROC",
+   "montant_acte_engagement": 769086.0,
+   "montant_apres_verification": null,
+   "autres_montants": [
+    769086.0
+   ],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 3,
+ "alertes_ocr": [],
+ "notes_ocr": [
+  "Maître d'ouvrage absent du PV (utiliser l'acheteur public du portail)."
+ ],
+ "qualite": "complet"
+}

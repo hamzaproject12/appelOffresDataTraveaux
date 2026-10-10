@@ -1,0 +1,119 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "712360",
+ "orgAcronyme": "d4q",
+ "reference_pv": null,
+ "nouveau": true,
+ "reference": null,
+ "objet": null,
+ "acheteur": null,
+ "procedure": "appel d'offres ouvert",
+ "categorie": "Travaux",
+ "date_limite_plis": "29/12/2022",
+ "lieu_ouverture": "au Siège de la Direction Régionale du Centre Re md ” h Boulevard Mohamed VI, Quartier Administratif + Khouribqa - Maroc",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "09/05/2023",
+ "justification": "Moins-disant",
+ "infructueux": false,
+ "attributaire": "GROUP GECOMAR/NOVAQUA - Offre de",
+ "montant_attribue": 12093792.0,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "/ _SOTOTRACOM",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_dossier_administratif_technique",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "ï STE AL JANOUB INJAZATE",
+   "montant_acte_engagement": 13237416.0,
+   "montant_apres_verification": 13237416.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_dossier_administratif_technique",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "GROUP GECOMAR/NOVAQUA - Offre de",
+   "montant_acte_engagement": 12093792.0,
+   "montant_apres_verification": 12093192.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "ARTIBATEL",
+   "montant_acte_engagement": 12600210.0,
+   "montant_apres_verification": 12600210.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "VALTECH",
+   "montant_acte_engagement": 12658296.0,
+   "montant_apres_verification": 12658296.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "7 GROUP ENARU/ ANETRR",
+   "montant_acte_engagement": 12881676.0,
+   "montant_apres_verification": 12881676.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "TT TT NOUV-EAU = offre de base 7 [77",
+   "montant_acte_engagement": 12933960.0,
+   "montant_apres_verification": 712933960.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Te | SOTOTRACOH - “offre ‘de base 7",
+   "montant_acte_engagement": 15985188.0,
+   "montant_apres_verification": 77715.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 8,
+ "alertes_ocr": [
+  "« ï STE AL JANOUB INJAZATE » absent de la liste des plis déposés (nom mal lu ?).",
+  "« GROUP GECOMAR/NOVAQUA - Offre de » absent de la liste des plis déposés (nom mal lu ?).",
+  "« ARTIBATEL » absent de la liste des plis déposés (nom mal lu ?).",
+  "« VALTECH » absent de la liste des plis déposés (nom mal lu ?).",
+  "« 7 GROUP ENARU/ ANETRR » absent de la liste des plis déposés (nom mal lu ?).",
+  "« TT TT NOUV-EAU = offre de base 7 [77 » absent de la liste des plis déposés (nom mal lu ?).",
+  "« Te | SOTOTRACOH - “offre ‘de base 7 » absent de la liste des plis déposés (nom mal lu ?).",
+  "« TT TT NOUV-EAU = offre de base 7 [77 » : écart anormal entre montant initial et vérifié (lecture à vérifier).",
+  "« Te | SOTOTRACOH - “offre ‘de base 7 » : écart anormal entre montant initial et vérifié (lecture à vérifier)."
+ ],
+ "notes_ocr": [
+  "« / _SOTOTRACOM » absent de la liste des plis déposés (nom mal lu ?).",
+  "« GROUP GECOMAR/NOVAQUA - Offre de » : montant rectifié de 12 093 792.00 à 12 093 192.00 DH.",
+  "« TT TT NOUV-EAU = offre de base 7 [77 » : montant rectifié de 12 933 960.00 à 712 933 960.00 DH.",
+  "« Te | SOTOTRACOH - “offre ‘de base 7 » : montant rectifié de 15 985 188.00 à 77 715.00 DH.",
+  "Maître d'ouvrage absent du PV (utiliser l'acheteur public du portail)."
+ ],
+ "qualite": "complet"
+}

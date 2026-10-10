@@ -1,0 +1,49 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "684251",
+ "orgAcronyme": "g3h",
+ "reference_pv": "114/2022",
+ "nouveau": true,
+ "reference": "114/2022",
+ "objet": null,
+ "acheteur": "Régie Autonome de Distribution d'Eau et d’Electricité de Fès",
+ "procedure": "appel d'offres ouvert",
+ "categorie": "Travaux",
+ "date_limite_plis": "17/11/2022",
+ "lieu_ouverture": "Siège de la RADEEF",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "09/12/2022",
+ "justification": "offre la plus avantageuse",
+ "infructueux": false,
+ "attributaire": "GROUPEMENT BENVEC & SEEG",
+ "montant_attribue": 5478665.0,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "s UBAC",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_offre_financiere",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "GROUPEMENT BENVEC & SEEG",
+   "montant_acte_engagement": 5478665.0,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 2,
+ "alertes_ocr": [],
+ "notes_ocr": [],
+ "qualite": "attribution"
+}

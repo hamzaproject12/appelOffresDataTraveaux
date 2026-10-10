@@ -1,0 +1,65 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "832536",
+ "orgAcronyme": "d4q",
+ "reference_pv": null,
+ "nouveau": true,
+ "reference": null,
+ "objet": "Rernise en état des réseaux de Distribution relevant de la Direction Provinciale Distribution d’El Jadida, suite incident imprévisibles dues aux forces majeurs —« Marché Cadre » == Lot Unique ==",
+ "acheteur": null,
+ "procedure": null,
+ "categorie": "Travaux",
+ "date_limite_plis": "25/08/2022",
+ "lieu_ouverture": "Siège de la Direction Régionale Distribution Casablanca",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": null,
+ "justification": "Offre avantageuse.",
+ "infructueux": false,
+ "attributaire": "IMAVITEL et ERALEC",
+ "montant_attribue": null,
+ "attributaires_par_lot": [
+  {
+   "lot": null,
+   "attributaire": "IMAVITEL et ERALEC",
+   "montant": null
+  },
+  {
+   "lot": null,
+   "attributaire": "en /HTVA | en /TVAC PMAVITEE",
+   "montant": 236352.5
+  }
+ ],
+ "soumissionnaires": [
+  {
+   "nom": "IMAVITEL et ERALEC",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "en /HTVA | en /TVAC PMAVITEE",
+   "montant_acte_engagement": 236352.5,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 2,
+ "alertes_ocr": [
+  "« en /HTVA | en /TVAC PMAVITEE » absent de la liste des plis déposés (nom mal lu ?).",
+  "Montant de l'attributaire « IMAVITEL et ERALEC » non trouvé."
+ ],
+ "notes_ocr": [
+  "Maître d'ouvrage absent du PV (utiliser l'acheteur public du portail)."
+ ],
+ "qualite": "attribution"
+}

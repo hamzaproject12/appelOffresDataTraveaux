@@ -1,0 +1,67 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "990275",
+ "orgAcronyme": "d4q",
+ "reference_pv": "59/DR6/C/2025",
+ "nouveau": true,
+ "reference": "59/DR6/C/2025",
+ "objet": "ACQUISITION DE PIECES D E RECHANGE ELECTRIQUES POUR LES STATIONS DE PRODUCTION D'EAU POTABLE RELEVANT",
+ "acheteur": null,
+ "procedure": "appel d'offres ouvert",
+ "categorie": "Travaux",
+ "date_limite_plis": "04/12/2025",
+ "lieu_ouverture": "au siège de la Direction Régionale l'Oriental (DR6) — Place 18 Mars 2003 - Oujda - Maroc",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "02/04/2026",
+ "justification": "Moins-disant",
+ "infructueux": false,
+ "attributaire": "STE LAMO MAROC",
+ "montant_attribue": 1423200.0,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "L INDUS POMPES (OUJDA) L ” MAROC",
+   "montant_acte_engagement": 1429056.0,
+   "montant_apres_verification": null,
+   "autres_montants": [
+    1429056.0
+   ],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "STE LAMO MAROC",
+   "montant_acte_engagement": 1423200.0,
+   "montant_apres_verification": null,
+   "autres_montants": [
+    1423200.0
+   ],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "SYTA EQUIPEMENT MAROC",
+   "montant_acte_engagement": 1380000.0,
+   "montant_apres_verification": null,
+   "autres_montants": [
+    1380000.0
+   ],
+   "lots": [],
+   "statut": "ecarte_dossier_administratif_technique",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 3,
+ "alertes_ocr": [],
+ "notes_ocr": [
+  "Maître d'ouvrage absent du PV (utiliser l'acheteur public du portail).",
+  "Montants exprimés hors taxes (HT)."
+ ],
+ "qualite": "complet"
+}

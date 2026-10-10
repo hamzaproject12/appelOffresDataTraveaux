@@ -1,0 +1,84 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "934188",
+ "orgAcronyme": "j8k",
+ "reference_pv": null,
+ "nouveau": true,
+ "reference": null,
+ "objet": "TRAVAUX D’ALIMENTATION EN EAU POTABLE DU SITE D'ACCUEIL DU DOUAR IGALOIANE SIS À LA COMMUNE DE TIDILI MESFIOUA - POVINCE AL HAOUZ",
+ "acheteur": "AL OMRANE MARRAKECH-SAFI",
+ "procedure": "appel d'offres ouvert",
+ "categorie": "Travaux",
+ "date_limite_plis": "19/09/2025",
+ "lieu_ouverture": "SIÈGE DE LA SOCIETE AL OMRANE MARRAKECH-SAFI",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "24/09/2025",
+ "justification": "L'offre la plus avantageuse au vu des dispositions des articles 43 et 44 du décret N° 2-22-431 relatif aux marches publics du 15 Chaabane 1444 (8 mars 2023).",
+ "infructueux": false,
+ "attributaire": null,
+ "montant_attribue": null,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "MAROC TIDAR",
+   "montant_acte_engagement": 1184326.68,
+   "montant_apres_verification": 1184326.68,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "ELIMINES",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_dossier_administratif_technique",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "MOTIFS DES ÉLIMINATIONS DETAILLES",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_dossier_administratif_technique",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "CONCURRENTS:E \\ MOTIES'DES E INATIONS'DETAILLES",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_offre_technique",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Mille Trois Cent Vingt-Six et soixante-huit",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_offre_financiere",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 5,
+ "alertes_ocr": [
+  "« MAROC TIDAR » absent de la liste des plis déposés (nom mal lu ?).",
+  "Attributaire non trouvé."
+ ],
+ "notes_ocr": [
+  "« ELIMINES » absent de la liste des plis déposés (nom mal lu ?).",
+  "« MOTIFS DES ÉLIMINATIONS DETAILLES » absent de la liste des plis déposés (nom mal lu ?).",
+  "« CONCURRENTS:E \\ MOTIES'DES E INATIONS'DETAILLES » absent de la liste des plis déposés (nom mal lu ?).",
+  "« Mille Trois Cent Vingt-Six et soixante-huit » absent de la liste des plis déposés (nom mal lu ?)."
+ ],
+ "qualite": "attribution"
+}

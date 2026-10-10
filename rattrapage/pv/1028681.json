@@ -1,0 +1,55 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "1028681",
+ "orgAcronyme": "j0w",
+ "reference_pv": "19/2026/AREP-MS",
+ "nouveau": true,
+ "reference": "19/2026/AREP-MS",
+ "objet": null,
+ "acheteur": "AGENCE REGIONALE D'EXECUTION DES PROJETS MARRAKECH-SAFI. >",
+ "procedure": "appel d'offres ouvert international",
+ "categorie": "Travaux",
+ "date_limite_plis": "27/07/2026",
+ "lieu_ouverture": "SIEGE DE L'AGENCE REGIONALE D'EXECUTION DES PROJETS MARRAKECH SAFI",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": null,
+ "justification": "Après examen des pièces du dossier administratif et technique et de l'offre financière, la commission a décidé de proposer à l'autorité compétente de retenir l'offre économiquement La plus avantageuse présentée par la société GRAMAGEC SARL AU, pour un montant de 22.016.348, 64 Dhs TTC (Vingt-deux millions seize mille trois cent quarante- huit Dirhams et soixante- auSire Centimes Toutes Taxes Compr",
+ "infructueux": false,
+ "attributaire": "STE GRAMAGEC",
+ "montant_attribue": 22016348.64,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "STE TRAVAUX ET CARRIERRES DU SUD",
+   "montant_acte_engagement": 24925488.96,
+   "montant_apres_verification": 24925.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "STE GRAMAGEC",
+   "montant_acte_engagement": 22016348.64,
+   "montant_apres_verification": 22016.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 2,
+ "alertes_ocr": [
+  "« STE TRAVAUX ET CARRIERRES DU SUD » : écart anormal entre montant initial et vérifié (lecture à vérifier).",
+  "« STE GRAMAGEC » : écart anormal entre montant initial et vérifié (lecture à vérifier)."
+ ],
+ "notes_ocr": [
+  "« STE TRAVAUX ET CARRIERRES DU SUD » : montant rectifié de 24 925 488.96 à 24 925.00 DH.",
+  "« STE GRAMAGEC » : montant rectifié de 22 016 348.64 à 22 016.00 DH."
+ ],
+ "qualite": "complet"
+}

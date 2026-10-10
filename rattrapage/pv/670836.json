@@ -1,0 +1,63 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "670836",
+ "orgAcronyme": "q1s",
+ "reference_pv": "58/2022/0RH/SGRID",
+ "nouveau": true,
+ "reference": "58/2022/0RH/SGRID",
+ "objet": "ENTRETIEN DES SFATIONS DE FILTRATION DANS LE PERIMETRE IRRIGUE DE LA TESSAOUT AMONT",
+ "acheteur": null,
+ "procedure": null,
+ "categorie": "Travaux",
+ "date_limite_plis": "27/09/2022",
+ "lieu_ouverture": "Siège de l'Office Régional de Mise en Valeur Agricole du Haouz",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "25/10/2022",
+ "justification": "l'Offre la plus avantageuse est présentée par la société HELPY PROJECTS.",
+ "infructueux": false,
+ "attributaire": "HELPY PROJECTS",
+ "montant_attribue": 400000.0,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "TECHNOPOLE INDUSTRIE",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_dossier_administratif_technique",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "RIEGONOR",
+   "montant_acte_engagement": 712503.26,
+   "montant_apres_verification": 712503.26,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "HELPY PROJECTS",
+   "montant_acte_engagement": 400000.0,
+   "montant_apres_verification": 366290.0,
+   "autres_montants": [
+    800000.06
+   ],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 3,
+ "alertes_ocr": [],
+ "notes_ocr": [
+  "« HELPY PROJECTS » : montant rectifié de 400 000.00 à 366 290.00 DH.",
+  "Maître d'ouvrage absent du PV (utiliser l'acheteur public du portail)."
+ ],
+ "qualite": "complet"
+}

@@ -1,0 +1,51 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "901491",
+ "orgAcronyme": "f8y",
+ "reference_pv": "2-22-431",
+ "nouveau": true,
+ "reference": "2-22-431",
+ "objet": "Fourniture et installation d'équipements électriques pour éclairage public à la commune Mrija",
+ "acheteur": "La commune Mrija",
+ "procedure": null,
+ "categorie": "Travaux",
+ "date_limite_plis": "18/03/2025",
+ "lieu_ouverture": "Le bureau du service technique à la commune Mrija",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "27/03/2025",
+ "justification": "e Prix de référence : 140.984.,00 dhs e Dossiers administratif et technique respectant les dispositions du RC ; e La société LEDVANCE MAROC a présenté l'offre la plus avantageuse.",
+ "infructueux": false,
+ "attributaire": null,
+ "montant_attribue": null,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "LEDVANCE MAROC",
+   "montant_acte_engagement": 140400.0,
+   "montant_apres_verification": 140400.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "DARINARA",
+   "montant_acte_engagement": 135648.0,
+   "montant_apres_verification": 135648.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_offre_financiere",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 2,
+ "alertes_ocr": [
+  "Attributaire non trouvé."
+ ],
+ "notes_ocr": [],
+ "qualite": "complet"
+}

@@ -1,0 +1,110 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "859698",
+ "orgAcronyme": "o8p",
+ "reference_pv": "76/2024",
+ "nouveau": true,
+ "reference": "76/2024",
+ "objet": null,
+ "acheteur": null,
+ "procedure": "appel d'offres ouvert national",
+ "categorie": "Travaux",
+ "date_limite_plis": "29/11/2024",
+ "lieu_ouverture": "Direction Régionale de l'Agence Nationale des Equipements Publics de Tanger Tétouan Al Hoceima, au Centre Hospitalier Universitaire de Tanger- km 17- Route de Rabat -Tanger",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": null,
+ "justification": "Offre la mieux disante”",
+ "infructueux": false,
+ "attributaire": "ISSAM TRAVAUX",
+ "montant_attribue": 10194733.2,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "NOTRACO",
+   "montant_acte_engagement": 9996.0,
+   "montant_apres_verification": 9996049.2,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "ISSAM TRAVAUX",
+   "montant_acte_engagement": 10194733.2,
+   "montant_apres_verification": 10194733.2,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "CHEKKORIBAT",
+   "montant_acte_engagement": 10299500.4,
+   "montant_apres_verification": 10299500.4,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "JNAN NICH",
+   "montant_acte_engagement": 11515.0,
+   "montant_apres_verification": 11515562.4,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "DAHMANE DE CONSTRUCTION ET TRAVAUX DIVERS",
+   "montant_acte_engagement": 10757535.6,
+   "montant_apres_verification": 10757535.6,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "BATIMENT KDIDER DU NORD",
+   "montant_acte_engagement": 10264983.6,
+   "montant_apres_verification": 10264983.6,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "GROUPEMENT DES SOCIETES GOSBAT ET GOVAT",
+   "montant_acte_engagement": 10035730.8,
+   "montant_apres_verification": 10035730.8,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Au jrali 4<ta slllg je",
+   "montant_acte_engagement": 8159.0,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 8,
+ "alertes_ocr": [
+  "« NOTRACO » : écart anormal entre montant initial et vérifié (lecture à vérifier).",
+  "« JNAN NICH » : écart anormal entre montant initial et vérifié (lecture à vérifier)."
+ ],
+ "notes_ocr": [
+  "« NOTRACO » : montant rectifié de 9 996.00 à 9 996 049.20 DH.",
+  "« JNAN NICH » : montant rectifié de 11 515.00 à 11 515 562.40 DH.",
+  "Maître d'ouvrage absent du PV (utiliser l'acheteur public du portail)."
+ ],
+ "qualite": "complet"
+}

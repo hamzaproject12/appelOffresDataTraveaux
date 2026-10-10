@@ -1,0 +1,144 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "997731",
+ "orgAcronyme": "g3h",
+ "reference_pv": "34/PB/DE/INDH/2025",
+ "nouveau": true,
+ "reference": "34/PB/DE/INDH/2025",
+ "objet": "travaux d'aménagement du",
+ "acheteur": null,
+ "procedure": "appel d'offres ouvert",
+ "categorie": "Travaux",
+ "date_limite_plis": "07/11/2025",
+ "lieu_ouverture": null,
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "20/11/2025",
+ "justification": "offre économiquement la plus avantageuse.",
+ "infructueux": false,
+ "attributaire": "STE AYOURAM",
+ "montant_attribue": 358558.8,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "STE OSBIR FRERES SARL",
+   "montant_acte_engagement": 362422.8,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "STE ETABLISSEMENT AL IRTIKAE",
+   "montant_acte_engagement": 357447.6,
+   "montant_apres_verification": 357447.6,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "STE MYA2 SARL AU",
+   "montant_acte_engagement": 359835.6,
+   "montant_apres_verification": 359835.6,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "SRBR",
+   "montant_acte_engagement": 360469.2,
+   "montant_apres_verification": 360469.2,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "STE TRAVAUX AGNI TAZARIN SARL",
+   "montant_acte_engagement": 360555.6,
+   "montant_apres_verification": 360555.6,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "STE AYOURAM",
+   "montant_acte_engagement": 358558.8,
+   "montant_apres_verification": 358558.8,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "STE 1.M.3",
+   "montant_acte_engagement": 360830.4,
+   "montant_apres_verification": 360830.4,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "BATIRENO & EQUIPEMENT SARL",
+   "montant_acte_engagement": 362245.2,
+   "montant_apres_verification": 362245.2,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "SOTRA CONSTRUCTION",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "GECMAR",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "STE I.M.3",
+   "montant_acte_engagement": 360830.4,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 11,
+ "alertes_ocr": [
+  "« STE OSBIR FRERES SARL » absent de la liste des plis déposés (nom mal lu ?).",
+  "« STE ETABLISSEMENT AL IRTIKAE » absent de la liste des plis déposés (nom mal lu ?).",
+  "« STE MYA2 SARL AU » absent de la liste des plis déposés (nom mal lu ?).",
+  "« SRBR » absent de la liste des plis déposés (nom mal lu ?).",
+  "« STE TRAVAUX AGNI TAZARIN SARL » absent de la liste des plis déposés (nom mal lu ?).",
+  "« STE AYOURAM » absent de la liste des plis déposés (nom mal lu ?).",
+  "« STE 1.M.3 » absent de la liste des plis déposés (nom mal lu ?).",
+  "« BATIRENO & EQUIPEMENT SARL » absent de la liste des plis déposés (nom mal lu ?).",
+  "« STE I.M.3 » absent de la liste des plis déposés (nom mal lu ?)."
+ ],
+ "notes_ocr": [
+  "« SOTRA CONSTRUCTION » absent de la liste des plis déposés (nom mal lu ?).",
+  "« GECMAR » absent de la liste des plis déposés (nom mal lu ?).",
+  "Maître d'ouvrage absent du PV (utiliser l'acheteur public du portail)."
+ ],
+ "qualite": "complet"
+}

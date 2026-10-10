@@ -1,0 +1,62 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "685834",
+ "orgAcronyme": "d4q",
+ "reference_pv": "69/2022",
+ "nouveau": true,
+ "reference": "69/2022",
+ "objet": "TRAVAUX DE CONNEXION DU PUITS MKL-110 » - Maitre d’ouvrage : ONHYM",
+ "acheteur": "ONHYM",
+ "procedure": null,
+ "categorie": "Travaux",
+ "date_limite_plis": "01/11/2022",
+ "lieu_ouverture": "Bureau ONHYM - 34, Avenue AL FADILA CYM RABAT",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "14/12/2022",
+ "justification": "Seule offre conforme moins-disante",
+ "infructueux": false,
+ "attributaire": "AIC METTALURGIE ET",
+ "montant_attribue": null,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "AIC METTALURGIE ET",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "COMPAGNIE EURAFRICAINE DE REALISATION",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "INDUSTRIELLE » CERI",
+   "montant_acte_engagement": 2999800.46,
+   "montant_apres_verification": 3599760.55,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 3,
+ "alertes_ocr": [
+  "Montant de l'attributaire « AIC METTALURGIE ET » non trouvé."
+ ],
+ "notes_ocr": [
+  "« INDUSTRIELLE » CERI » : montant rectifié de 2 999 800.46 à 3 599 760.55 DH."
+ ],
+ "qualite": "attribution"
+}

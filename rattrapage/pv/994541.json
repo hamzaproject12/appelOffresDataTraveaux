@@ -1,0 +1,75 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "994541",
+ "orgAcronyme": "d4q",
+ "reference_pv": "1/DRC/CI/2026",
+ "nouveau": true,
+ "reference": "1/DRC/CI/2026",
+ "objet": "relatif à",
+ "acheteur": null,
+ "procedure": "appel d'offres ouvert",
+ "categorie": "Travaux",
+ "date_limite_plis": "12/03/2026",
+ "lieu_ouverture": "au siège de la Direction Régionale Casablanca-Settat (DRC) - 6 bis, rue Patrice Lumumba, Rabat - Maroc",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "16/04/2026",
+ "justification": "Moins-disant",
+ "infructueux": false,
+ "attributaire": "NEGOCE ALIMENT",
+ "montant_attribue": 647628.0,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "MOURAD TRAITEMENT MAROC",
+   "montant_acte_engagement": 669480.0,
+   "montant_apres_verification": null,
+   "autres_montants": [
+    669480.0
+   ],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "NEGOCE ALIMENT",
+   "montant_acte_engagement": 647628.0,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "SOTEPNOV MAROC",
+   "montant_acte_engagement": 662220.0,
+   "montant_apres_verification": null,
+   "autres_montants": [
+    662220.0
+   ],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "TMEE (TECHNIQUES ET MAITRISE D'EAU &",
+   "montant_acte_engagement": 729360.0,
+   "montant_apres_verification": null,
+   "autres_montants": [
+    7729360.0
+   ],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 4,
+ "alertes_ocr": [],
+ "notes_ocr": [
+  "Maître d'ouvrage absent du PV (utiliser l'acheteur public du portail)."
+ ],
+ "qualite": "complet"
+}

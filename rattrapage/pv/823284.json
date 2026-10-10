@@ -1,0 +1,57 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "823284",
+ "orgAcronyme": "g3h",
+ "reference_pv": null,
+ "nouveau": true,
+ "reference": null,
+ "objet": null,
+ "acheteur": null,
+ "procedure": "appel d'offres ouvert",
+ "categorie": "Travaux",
+ "date_limite_plis": "06/08/2024",
+ "lieu_ouverture": "Siège de l'ADER-Fès",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "15/08/2024",
+ "justification": "Le concurrent ayant présenté l'offre la plus avantageuse et la moins disante.",
+ "infructueux": true,
+ "attributaire": "Société MA EVOLUTION",
+ "montant_attribue": 2013057.0,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "Société TARMIM EL TOURATE SARL AU",
+   "montant_acte_engagement": 2030208.0,
+   "montant_apres_verification": 4050816.0,
+   "autres_montants": [
+    4050816.0
+   ],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Société MA EVOLUTION",
+   "montant_acte_engagement": 2013057.0,
+   "montant_apres_verification": 4016514.0,
+   "autres_montants": [
+    4016514.0
+   ],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 2,
+ "alertes_ocr": [],
+ "notes_ocr": [
+  "« Société TARMIM EL TOURATE SARL AU » : montant rectifié de 2 030 208.00 à 4 050 816.00 DH.",
+  "« Société MA EVOLUTION » : montant rectifié de 2 013 057.00 à 4 016 514.00 DH.",
+  "Maître d'ouvrage absent du PV (utiliser l'acheteur public du portail)."
+ ],
+ "qualite": "complet"
+}

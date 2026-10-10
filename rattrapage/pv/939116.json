@@ -1,0 +1,79 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "939116",
+ "orgAcronyme": "a1t",
+ "reference_pv": "74/2025/ADHA",
+ "nouveau": true,
+ "reference": "74/2025/ADHA",
+ "objet": null,
+ "acheteur": "DIRECTEUR GENERAL DE L'AGENCE DE DEVELOPPEMNT DU HAUT ATLAS",
+ "procedure": null,
+ "categorie": "Travaux",
+ "date_limite_plis": "01/10/2025",
+ "lieu_ouverture": "Salle de réunions de la DIRECTION PROVINCIALE DE L'AGRICULTURE MARRAKECH",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "03/10/2025",
+ "justification": null,
+ "infructueux": false,
+ "attributaire": "Sté TOP ROUT SORA ONZE MILLE",
+ "montant_attribue": null,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "MEGEC",
+   "montant_acte_engagement": 2592180.0,
+   "montant_apres_verification": 2592180.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "VANORD",
+   "montant_acte_engagement": 2529810.0,
+   "montant_apres_verification": 2529810.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "TOP ROUT",
+   "montant_acte_engagement": 1971000.0,
+   "montant_apres_verification": 1971000.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "SENOTP",
+   "montant_acte_engagement": 2274720.0,
+   "montant_apres_verification": 2274720.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Sté TOP ROUT SORA ONZE MILLE",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 5,
+ "alertes_ocr": [
+  "« Sté TOP ROUT SORA ONZE MILLE » absent de la liste des plis déposés (nom mal lu ?).",
+  "Montant de l'attributaire « Sté TOP ROUT SORA ONZE MILLE » non trouvé."
+ ],
+ "notes_ocr": [],
+ "qualite": "complet"
+}

@@ -1,0 +1,60 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "673092",
+ "orgAcronyme": "o8p",
+ "reference_pv": "27/2022/DPETLE",
+ "nouveau": true,
+ "reference": "27/2022/DPETLE",
+ "objet": "Travaux de signalisation horizontale, verticale de la RR305 du PK98+846 au PK115+229 et",
+ "acheteur": "Direction Provinciale de l'Equipement du Transport et de la Logistique et de l'Eau à Settat",
+ "procedure": "appel d'offres ouvert",
+ "categorie": "Travaux",
+ "date_limite_plis": "19/10/2022",
+ "lieu_ouverture": "DPETLE Settat",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "31/10/2022",
+ "justification": "la sous commission juge que les arguments fournis par la société INJAZ WORKS sont acceptables",
+ "infructueux": false,
+ "attributaire": "Sté INJAZ WORKS",
+ "montant_attribue": 620832.0,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "Sté LA LIGNE BLANCHE",
+   "montant_acte_engagement": 683544.0,
+   "montant_apres_verification": 683544.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Sté INJAZ WORKS",
+   "montant_acte_engagement": 620832.0,
+   "montant_apres_verification": 620832.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Sté ATELIER TEULI",
+   "montant_acte_engagement": 652440.0,
+   "montant_apres_verification": 652440.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 3,
+ "alertes_ocr": [
+  "« Sté ATELIER TEULI » absent de la liste des plis déposés (nom mal lu ?)."
+ ],
+ "notes_ocr": [],
+ "qualite": "complet"
+}

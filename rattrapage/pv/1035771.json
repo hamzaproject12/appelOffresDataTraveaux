@@ -1,0 +1,69 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "1035771",
+ "orgAcronyme": "g3h",
+ "reference_pv": null,
+ "nouveau": true,
+ "reference": null,
+ "objet": null,
+ "acheteur": "Préfecture de Salé",
+ "procedure": null,
+ "categorie": "Travaux",
+ "date_limite_plis": "27/08/2026",
+ "lieu_ouverture": "Préfecture de Salé",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "28/08/2026",
+ "justification": "Offre la plus avantageuse pour l'administration.",
+ "infructueux": false,
+ "attributaire": "l- STE FIDARAB SARL",
+ "montant_attribue": 3884467.2,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "l- STE FIDARAB SARL",
+   "montant_acte_engagement": 3884467.2,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "STE TRAVAUX MODERNES SARL AU",
+   "montant_acte_engagement": 3915116.4,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "STE AL ANSARI MODENE BUILDING SARL AU",
+   "montant_acte_engagement": 3970713.6,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "STE YAZICOTRA SARL AU",
+   "montant_acte_engagement": 4628521.2,
+   "montant_apres_verification": 4645921.2,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_offre_financiere",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 4,
+ "alertes_ocr": [],
+ "notes_ocr": [
+  "« STE YAZICOTRA SARL AU » : montant rectifié de 4 628 521.20 à 4 645 921.20 DH."
+ ],
+ "qualite": "complet"
+}

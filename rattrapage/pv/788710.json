@@ -1,0 +1,80 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "788710",
+ "orgAcronyme": "j8k",
+ "reference_pv": "14/2024",
+ "nouveau": true,
+ "reference": "14/2024",
+ "objet": "du lot d’ouverture des plis Travaux d'évacuation des gravats, démolition et",
+ "acheteur": "AL OMRANE MARRAKECH-SAFI",
+ "procedure": null,
+ "categorie": "Travaux",
+ "date_limite_plis": "15/04/2024",
+ "lieu_ouverture": "SIEGE AL OMRANE MARRAKECH-SAFI",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "15/04/2024",
+ "justification": null,
+ "infructueux": false,
+ "attributaire": "T.T.C (EN INFRUCTUEUX",
+ "montant_attribue": null,
+ "attributaires_par_lot": [
+  {
+   "lot": null,
+   "attributaire": "T.T.C (EN INFRUCTUEUX",
+   "montant": null
+  },
+  {
+   "lot": null,
+   "attributaire": "à, EXTRAIT DU PROCES VERBAL",
+   "montant": null
+  },
+  {
+   "lot": "1",
+   "attributaire": "S'anrane D'APPEL D'OFFRES OUVERT FR-05-PS-AMG",
+   "montant": null
+  }
+ ],
+ "soumissionnaires": [
+  {
+   "nom": "T.T.C (EN INFRUCTUEUX",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "à, EXTRAIT DU PROCES VERBAL",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "S'anrane D'APPEL D'OFFRES OUVERT FR-05-PS-AMG",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [
+    "1"
+   ],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 3,
+ "alertes_ocr": [
+  "Montant de l'attributaire « T.T.C (EN INFRUCTUEUX » non trouvé.",
+  "Montant de l'attributaire « à, EXTRAIT DU PROCES VERBAL » non trouvé.",
+  "Montant de l'attributaire « S'anrane D'APPEL D'OFFRES OUVERT FR-05-PS-AMG » non trouvé."
+ ],
+ "notes_ocr": [],
+ "qualite": "participants"
+}

@@ -1,0 +1,71 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "852828",
+ "orgAcronyme": "p8x",
+ "reference_pv": null,
+ "nouveau": true,
+ "reference": null,
+ "objet": null,
+ "acheteur": "La direction provinciale auprès de l'AREF DT à Tinghir represéntée par Mr le Directeur Provincial",
+ "procedure": null,
+ "categorie": "Travaux",
+ "date_limite_plis": "01/11/2024",
+ "lieu_ouverture": "La salle de réunion à la Direction Provinciale à Tinghir sise à rue Mohamed V à Tinghir La salle de réunion à la Direction Provinciale à Tinghir sise à rue Mohamed V à Tinghir",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": null,
+ "justification": "L'OFFRE LA PLUS AVANTAGEUSE",
+ "infructueux": false,
+ "attributaire": "(en ).T.TC",
+ "montant_attribue": 1338273.0,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "STE EL AADIM SARL PARTICIPATION ELECTRONIQUE",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "depose",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "STE S.T.Q",
+   "montant_acte_engagement": 1350792.0,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "STE EL AADIM SARL",
+   "montant_acte_engagement": 1337916.0,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "(en ).T.TC",
+   "montant_acte_engagement": 1338273.0,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 4,
+ "alertes_ocr": [
+  "« STE S.T.Q » absent de la liste des plis déposés (nom mal lu ?).",
+  "« STE EL AADIM SARL » absent de la liste des plis déposés (nom mal lu ?).",
+  "« (en ).T.TC » absent de la liste des plis déposés (nom mal lu ?)."
+ ],
+ "notes_ocr": [],
+ "qualite": "complet"
+}

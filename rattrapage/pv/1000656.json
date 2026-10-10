@@ -1,0 +1,67 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "1000656",
+ "orgAcronyme": "g3h",
+ "reference_pv": "26/2126",
+ "nouveau": true,
+ "reference": "26/2126",
+ "objet": null,
+ "acheteur": "Société Régionale Multiservices Fès Meknès « SRM-FM »",
+ "procedure": null,
+ "categorie": "Travaux",
+ "date_limite_plis": "24/03/2026",
+ "lieu_ouverture": "Siège de la SRM-FM",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "30/04/2026",
+ "justification": "L’offre la plus avantageuse.",
+ "infructueux": false,
+ "attributaire": "EAMAR DE GENIE CIVIL",
+ "montant_attribue": 11560570.0,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "SNAT",
+   "montant_acte_engagement": 10415361.0,
+   "montant_apres_verification": null,
+   "autres_montants": [
+    12498433.2
+   ],
+   "lots": [],
+   "statut": "ecarte_offre_financiere",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "SMYBAM",
+   "montant_acte_engagement": 12614135.0,
+   "montant_apres_verification": 15135378.0,
+   "autres_montants": [
+    15136962.0
+   ],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "EAMAR DE GENIE CIVIL",
+   "montant_acte_engagement": 11560570.0,
+   "montant_apres_verification": 13872684.0,
+   "autres_montants": [
+    13872684.0
+   ],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 3,
+ "alertes_ocr": [],
+ "notes_ocr": [
+  "« SMYBAM » : montant rectifié de 12 614 135.00 à 15 135 378.00 DH.",
+  "« EAMAR DE GENIE CIVIL » : montant rectifié de 11 560 570.00 à 13 872 684.00 DH."
+ ],
+ "qualite": "complet"
+}

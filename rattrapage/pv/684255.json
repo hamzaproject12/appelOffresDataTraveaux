@@ -1,0 +1,60 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "684255",
+ "orgAcronyme": "g3h",
+ "reference_pv": "116/2022",
+ "nouveau": true,
+ "reference": "116/2022",
+ "objet": null,
+ "acheteur": "Régie Autonome de Distribution d’I",
+ "procedure": "appel d'offres ouvert",
+ "categorie": "Travaux",
+ "date_limite_plis": "17/11/2022",
+ "lieu_ouverture": "Siège de la RADEEF",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "09/12/2022",
+ "justification": "offre la plus avantageuse",
+ "infructueux": false,
+ "attributaire": "ECTE",
+ "montant_attribue": 11694000.0,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "ELECPHONE",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_dossier_administratif_technique",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "ECTE",
+   "montant_acte_engagement": 11694000.0,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Groupement YASSELMEC & ELECNAY",
+   "montant_acte_engagement": 11694000.0,
+   "montant_apres_verification": null,
+   "autres_montants": [
+    12235827.0
+   ],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 3,
+ "alertes_ocr": [],
+ "notes_ocr": [],
+ "qualite": "complet"
+}

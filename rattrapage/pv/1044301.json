@@ -1,0 +1,53 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "1044301",
+ "orgAcronyme": "h5r",
+ "reference_pv": "02/C",
+ "nouveau": true,
+ "reference": "02/C",
+ "objet": "Travaux d'am6nagement des piste en (M C R) i la commune Mrizigue",
+ "acheteur": "Commune Mrizigue",
+ "procedure": null,
+ "categorie": "Travaux",
+ "date_limite_plis": null,
+ "lieu_ouverture": "bureau du president de la commune Mrizigue",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": null,
+ "justification": "l'offre 6conomiquement la plus avantageuse Date d'achdvement des travaux du jury de la consultalion :2510912026",
+ "infructueux": false,
+ "attributaire": "STE BONNE PISTE sarl",
+ "montant_attribue": 2988240.0,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "STE BONNE PISTE sarl",
+   "montant_acte_engagement": 2988240.0,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "N6ant",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 2,
+ "alertes_ocr": [
+  "« STE BONNE PISTE sarl » absent de la liste des plis déposés (nom mal lu ?)."
+ ],
+ "notes_ocr": [
+  "« N6ant » absent de la liste des plis déposés (nom mal lu ?)."
+ ],
+ "qualite": "attribution"
+}

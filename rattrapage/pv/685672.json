@@ -1,0 +1,135 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "685672",
+ "orgAcronyme": "p8x",
+ "reference_pv": "49/2022",
+ "nouveau": true,
+ "reference": "49/2022",
+ "objet": null,
+ "acheteur": null,
+ "procedure": "appel d'offres ouvert",
+ "categorie": "Travaux",
+ "date_limite_plis": null,
+ "lieu_ouverture": null,
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": null,
+ "justification": null,
+ "infructueux": false,
+ "attributaire": "CRONOVET sarl",
+ "montant_attribue": null,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "SECTRA",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_dossier_administratif_technique",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "TIZOUDA TRAVAUX MAROC sarl",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_dossier_administratif_technique",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "BATIVERT sarl",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_dossier_administratif_technique",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "CRONOVET sarl",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "SUDTEKTRAV",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_dossier_administratif_technique",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "AHEL CHAMAL Travaux et Service sarl",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_dossier_administratif_technique",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "BINAA WA ITKAAN sarl",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_dossier_administratif_technique",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "OULAD ABDELHALIM sarl",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_dossier_administratif_technique",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "TRAVAUX D’AMENAGEMENT ET DE REHABILITATION DU CENTRE PROVINCIAL DU PARCOURT (SPORTS ET ETUDES) AU",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_dossier_administratif_technique",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "COLLEGE ALKHAWARIZMI A LA COMMUNE TEMARA - PREFECTURE SKHIRAT - TEMARA - EN LOT UNIQUE",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_dossier_administratif_technique",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 10,
+ "alertes_ocr": [
+  "« CRONOVET sarl » absent de la liste des plis déposés (nom mal lu ?).",
+  "Montant de l'attributaire « CRONOVET sarl » non trouvé."
+ ],
+ "notes_ocr": [
+  "« SECTRA » absent de la liste des plis déposés (nom mal lu ?).",
+  "« TIZOUDA TRAVAUX MAROC sarl » absent de la liste des plis déposés (nom mal lu ?).",
+  "« BATIVERT sarl » absent de la liste des plis déposés (nom mal lu ?).",
+  "« SUDTEKTRAV » absent de la liste des plis déposés (nom mal lu ?).",
+  "« AHEL CHAMAL Travaux et Service sarl » absent de la liste des plis déposés (nom mal lu ?).",
+  "« BINAA WA ITKAAN sarl » absent de la liste des plis déposés (nom mal lu ?).",
+  "« OULAD ABDELHALIM sarl » absent de la liste des plis déposés (nom mal lu ?).",
+  "« TRAVAUX D’AMENAGEMENT ET DE REHABILITATION DU CENTRE PROVINCIAL DU PARCOURT (SPORTS ET ETUDES) AU » absent de la liste des plis déposés (nom mal lu ?).",
+  "« COLLEGE ALKHAWARIZMI A LA COMMUNE TEMARA - PREFECTURE SKHIRAT - TEMARA - EN LOT UNIQUE » absent de la liste des plis déposés (nom mal lu ?).",
+  "Maître d'ouvrage absent du PV (utiliser l'acheteur public du portail)."
+ ],
+ "qualite": "participants"
+}

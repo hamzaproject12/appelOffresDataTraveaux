@@ -1,0 +1,88 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "812630",
+ "orgAcronyme": "s3z",
+ "reference_pv": null,
+ "nouveau": true,
+ "reference": null,
+ "objet": "entretien courant des voies « Commune de Salé «",
+ "acheteur": "le président de la Commune de Salé",
+ "procedure": null,
+ "categorie": "Travaux",
+ "date_limite_plis": null,
+ "lieu_ouverture": "Commune de Salé",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": null,
+ "justification": "le concurrent a présenté l'offre la plus avantageuse | N €",
+ "infructueux": false,
+ "attributaire": null,
+ "montant_attribue": null,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "F Société ETABLISSEMENT ASSREM NEGOCE SARL",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "D Société LABERAGA TRAVAUX SARL SA",
+   "montant_acte_engagement": 9449220.0,
+   "montant_apres_verification": 9449220.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": true
+  },
+  {
+   "nom": "Société KOUFACHA ROUTIERS SARL",
+   "montant_acte_engagement": 9170325.96,
+   "montant_apres_verification": 9170325.96,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Société ETS 3F REVETEMENT ROUTIERE SARL",
+   "montant_acte_engagement": 9381300.0,
+   "montant_apres_verification": 9381300.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Société LES GRANDS TRAVAUX ROUTIER SA",
+   "montant_acte_engagement": 9263400.0,
+   "montant_apres_verification": 9263400.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "SOCiCIE EÎNBLISSEMENT ASSREM NEGOCE SARL",
+   "montant_acte_engagement": 9257460.0,
+   "montant_apres_verification": 9257460.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 6,
+ "alertes_ocr": [
+  "« SOCiCIE EÎNBLISSEMENT ASSREM NEGOCE SARL » absent de la liste des plis déposés (nom mal lu ?).",
+  "Attributaire non trouvé."
+ ],
+ "notes_ocr": [],
+ "qualite": "complet"
+}

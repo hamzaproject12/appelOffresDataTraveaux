@@ -1,0 +1,125 @@
+{
+ "source": "extrait_docx",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "675028",
+ "orgAcronyme": "a1z",
+ "reference_pv": null,
+ "nouveau": true,
+ "reference": null,
+ "objet": "Travaux d'étanchéité des théâtres,",
+ "acheteur": null,
+ "procedure": null,
+ "categorie": "Travaux",
+ "date_limite_plis": "06/09/2022",
+ "lieu_ouverture": "la salle des réunions de la Commune de Casablanca, sise place Mohamed V, Avenue Hassan II, 2éme étage, bureau 55",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "06/10/2022",
+ "justification": "l’offre la plus avantageuse.",
+ "infructueux": false,
+ "attributaire": "Société GIGA-MED",
+ "montant_attribue": 1540800.0,
+ "attributaires_par_lot": [
+  {
+   "lot": null,
+   "attributaire": "Société GIGA-MED",
+   "montant": 1540800.0
+  },
+  {
+   "lot": "unique",
+   "attributaire": "Société GIGA-MED",
+   "montant": 1540800.0
+  }
+ ],
+ "soumissionnaires": [
+  {
+   "nom": "Société MESKI DE TRAVAUX DIVERS",
+   "montant_acte_engagement": 1668840.0,
+   "montant_apres_verification": 1668840.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Société SOALHA CONSTRUCTIONS",
+   "montant_acte_engagement": 1810800.0,
+   "montant_apres_verification": 1668840.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Société SOZATRAD",
+   "montant_acte_engagement": 2170884.0,
+   "montant_apres_verification": 1810800.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Société CASAETANCHE",
+   "montant_acte_engagement": 1719120.0,
+   "montant_apres_verification": 2170884.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Société GIGA-MED",
+   "montant_acte_engagement": 1540800.0,
+   "montant_apres_verification": 1719120.0,
+   "autres_montants": [],
+   "lots": [
+    "unique"
+   ],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Société TIFAR ETANCHEITE",
+   "montant_acte_engagement": 1492320.0,
+   "montant_apres_verification": 1540800.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_offre_financiere",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Société POLYSOL",
+   "montant_acte_engagement": 1626840.0,
+   "montant_apres_verification": 1492320.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Société BOURANIME",
+   "montant_acte_engagement": 1770000.0,
+   "montant_apres_verification": 1626840.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 8,
+ "alertes_ocr": [],
+ "notes_ocr": [
+  "« Société SOALHA CONSTRUCTIONS » : montant rectifié de 1 810 800.00 à 1 668 840.00 DH.",
+  "« Société SOZATRAD » : montant rectifié de 2 170 884.00 à 1 810 800.00 DH.",
+  "« Société CASAETANCHE » : montant rectifié de 1 719 120.00 à 2 170 884.00 DH.",
+  "« Société GIGA-MED » : montant rectifié de 1 540 800.00 à 1 719 120.00 DH.",
+  "« Société TIFAR ETANCHEITE » : montant rectifié de 1 492 320.00 à 1 540 800.00 DH.",
+  "« Société POLYSOL » : montant rectifié de 1 626 840.00 à 1 492 320.00 DH.",
+  "« Société BOURANIME » : montant rectifié de 1 770 000.00 à 1 626 840.00 DH.",
+  "Maître d'ouvrage absent du PV (utiliser l'acheteur public du portail)."
+ ],
+ "qualite": "complet"
+}

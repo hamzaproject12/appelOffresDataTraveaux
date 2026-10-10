@@ -1,0 +1,72 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "928137",
+ "orgAcronyme": "g3h",
+ "reference_pv": "108/25/EAU",
+ "nouveau": true,
+ "reference": "108/25/EAU",
+ "objet": "Travaux de réduction des pertes techniques avec engagement sur les performances au niveau",
+ "acheteur": "SRM-MS",
+ "procedure": "appel d'offres ouvert",
+ "categorie": "Travaux",
+ "date_limite_plis": "06/08/2025",
+ "lieu_ouverture": "Siège de la SRM-MS Boulevard Mohamed VI MARRAKECH",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "04/09/2025",
+ "justification": "Le soumissionnaire ne peut se voir attribuer plus d’un lot. L'attribution des lots se fera selon la combinaison la plus DA SRM-MS.",
+ "infructueux": false,
+ "attributaire": "BUTEC UTILITY SERVICES MAROC",
+ "montant_attribue": 5803920.0,
+ "attributaires_par_lot": [
+  {
+   "lot": "1",
+   "attributaire": "BUTEC UTILITY SERVICES MAROC",
+   "montant": 5803920.0
+  },
+  {
+   "lot": "2",
+   "attributaire": "RECOS",
+   "montant": 4669800.0
+  }
+ ],
+ "soumissionnaires": [
+  {
+   "nom": "BUTEC UTILITY SERVICES MAROC",
+   "montant_acte_engagement": 5803920.0,
+   "montant_apres_verification": null,
+   "autres_montants": [
+    5088240.0
+   ],
+   "lots": [
+    "1",
+    "2"
+   ],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "RECOS",
+   "montant_acte_engagement": 5860800.0,
+   "montant_apres_verification": null,
+   "autres_montants": [
+    4669800.0
+   ],
+   "lots": [
+    "1",
+    "2"
+   ],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 2,
+ "alertes_ocr": [],
+ "notes_ocr": [
+  "Marché alloti (2 lots)."
+ ],
+ "qualite": "attribution"
+}

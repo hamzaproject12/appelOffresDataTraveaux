@@ -1,0 +1,123 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "669539",
+ "orgAcronyme": "o8p",
+ "reference_pv": null,
+ "nouveau": true,
+ "reference": null,
+ "objet": null,
+ "acheteur": "CONSEIL COMMUNAL DE MEDIOUNA",
+ "procedure": "appel d'offres ouvert",
+ "categorie": "Travaux",
+ "date_limite_plis": "11/10/2022",
+ "lieu_ouverture": "BUREAUX D’ADM PROJET SIS 58, RUE CAPITAINE ABDESSLAM ELMOUEDEN, OLM – SOUISSI-RABAT",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "20/10/2022",
+ "justification": "l’offre la plus avantageuse (moins disante)",
+ "infructueux": false,
+ "attributaire": "STAPORT",
+ "montant_attribue": 64404372.0,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "GCR",
+   "montant_acte_engagement": 72774332.4,
+   "montant_apres_verification": 72774332.4,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "GROUPE MOJAZINE",
+   "montant_acte_engagement": 76521120.0,
+   "montant_apres_verification": 76521120.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "VIAS",
+   "montant_acte_engagement": 69940392.0,
+   "montant_apres_verification": 69940392.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "STAPORT",
+   "montant_acte_engagement": 64404372.0,
+   "montant_apres_verification": 64404372.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "TRAINVEST",
+   "montant_acte_engagement": 74655420.0,
+   "montant_apres_verification": 74655420.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "ALAM EQUIPEMENT",
+   "montant_acte_engagement": 69985068.0,
+   "montant_apres_verification": 69985068.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "EL HALLAOUI",
+   "montant_acte_engagement": 69679188.0,
+   "montant_apres_verification": 69679188.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "SNL TRAVAUX",
+   "montant_acte_engagement": 65574180.0,
+   "montant_apres_verification": 65574180.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": " ENTREPRISE GRTP",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_dossier_administratif_technique",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 9,
+ "alertes_ocr": [
+  "« GCR » absent de la liste des plis déposés (nom mal lu ?).",
+  "« GROUPE MOJAZINE » absent de la liste des plis déposés (nom mal lu ?).",
+  "« VIAS » absent de la liste des plis déposés (nom mal lu ?).",
+  "« STAPORT » absent de la liste des plis déposés (nom mal lu ?).",
+  "« TRAINVEST » absent de la liste des plis déposés (nom mal lu ?).",
+  "« ALAM EQUIPEMENT » absent de la liste des plis déposés (nom mal lu ?).",
+  "« EL HALLAOUI » absent de la liste des plis déposés (nom mal lu ?).",
+  "« SNL TRAVAUX » absent de la liste des plis déposés (nom mal lu ?)."
+ ],
+ "notes_ocr": [
+  "«  ENTREPRISE GRTP » absent de la liste des plis déposés (nom mal lu ?)."
+ ],
+ "qualite": "complet"
+}

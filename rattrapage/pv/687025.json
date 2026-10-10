@@ -1,0 +1,114 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "687025",
+ "orgAcronyme": "p8x",
+ "reference_pv": "33/2022/CH/INV",
+ "nouveau": true,
+ "reference": "33/2022/CH/INV",
+ "objet": null,
+ "acheteur": null,
+ "procedure": "appel d'offres ouvert",
+ "categorie": "Travaux",
+ "date_limite_plis": null,
+ "lieu_ouverture": null,
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "14/12/2022",
+ "justification": " Candidats ayant de bonnes références techniques, administratives et financières.  Les prix sont avantageux pour l’Administration, les offres financières ont été jugées les plus intéressantes par la commission chargée de l’ouverture des plis.",
+ "infructueux": false,
+ "attributaire": "Sté APRO Travaux sarl – Chichaoua",
+ "montant_attribue": 562050.0,
+ "attributaires_par_lot": [
+  {
+   "lot": null,
+   "attributaire": "Sté APRO Travaux sarl – Chichaoua",
+   "montant": 562050.0
+  },
+  {
+   "lot": null,
+   "attributaire": "Sté AFAK SOUSS sarl - Tiznit",
+   "montant": 385375.5
+  },
+  {
+   "lot": null,
+   "attributaire": "Sté SOT ITRANE sarl - Chichaoua",
+   "montant": 238320.0
+  },
+  {
+   "lot": null,
+   "attributaire": "Sté SENALAT sarl - Témara",
+   "montant": 242018.4
+  }
+ ],
+ "soumissionnaires": [
+  {
+   "nom": "Kouzemt, relevant de la direction provinciale de CHICHAOUA, AREF – MS",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "depose",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Sté SORAZIL sarl - Azilal",
+   "montant_acte_engagement": 578860.8,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Sté APRO Travaux sarl – Chichaoua",
+   "montant_acte_engagement": 562050.0,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Sté SOT ITRANE sarl - Chichaoua",
+   "montant_acte_engagement": 598242.0,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Sté AFAK SOUSS sarl - Tiznit",
+   "montant_acte_engagement": 385375.5,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Sté SENALAT sarl - Témara",
+   "montant_acte_engagement": 251988.0,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 6,
+ "alertes_ocr": [
+  "« Sté SORAZIL sarl - Azilal » absent de la liste des plis déposés (nom mal lu ?).",
+  "« Sté APRO Travaux sarl – Chichaoua » absent de la liste des plis déposés (nom mal lu ?).",
+  "« Sté SOT ITRANE sarl - Chichaoua » absent de la liste des plis déposés (nom mal lu ?).",
+  "« Sté AFAK SOUSS sarl - Tiznit » absent de la liste des plis déposés (nom mal lu ?).",
+  "« Sté SENALAT sarl - Témara » absent de la liste des plis déposés (nom mal lu ?)."
+ ],
+ "notes_ocr": [
+  "Maître d'ouvrage absent du PV (utiliser l'acheteur public du portail)."
+ ],
+ "qualite": "complet"
+}

@@ -1,0 +1,91 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "995176",
+ "orgAcronyme": "g3h",
+ "reference_pv": "924/21126",
+ "nouveau": true,
+ "reference": "924/21126",
+ "objet": null,
+ "acheteur": "Société Régionale Multiservices Fès Meknès « SRM-FM »",
+ "procedure": null,
+ "categorie": "Travaux",
+ "date_limite_plis": "19/03/2026",
+ "lieu_ouverture": "Siège de la SRM-FM",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "14/04/2026",
+ "justification": "L'offre la plus avantageuse.",
+ "infructueux": false,
+ "attributaire": "CHAHBOUNE ABDELMOUMAN",
+ "montant_attribue": 1206070.0,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "CHAHBOUNE ABDELMOUMAN",
+   "montant_acte_engagement": 1206070.0,
+   "montant_apres_verification": 1447284.0,
+   "autres_montants": [
+    1447284.0
+   ],
+   "lots": [
+    "1"
+   ],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "KSBID",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": true
+  },
+  {
+   "nom": "INMA HIGH TECH Min",
+   "montant_acte_engagement": 1546700.0,
+   "montant_apres_verification": 1856040.0,
+   "autres_montants": [
+    1856040.0
+   ],
+   "lots": [
+    "1"
+   ],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "FIMADIL",
+   "montant_acte_engagement": 1363200.0,
+   "montant_apres_verification": null,
+   "autres_montants": [
+    1635840.0
+   ],
+   "lots": [
+    "1"
+   ],
+   "statut": "ecarte_offre_financiere",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Groupement : MOUZHIR ELEC & HYDRAULIQUE DES CANAUX",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": true
+  }
+ ],
+ "nombre_soumissionnaires": 5,
+ "alertes_ocr": [],
+ "notes_ocr": [
+  "« CHAHBOUNE ABDELMOUMAN » : montant rectifié de 1 206 070.00 à 1 447 284.00 DH.",
+  "« INMA HIGH TECH Min » : montant rectifié de 1 546 700.00 à 1 856 040.00 DH."
+ ],
+ "qualite": "complet"
+}

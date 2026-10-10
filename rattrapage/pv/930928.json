@@ -1,0 +1,60 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "930928",
+ "orgAcronyme": "a1t",
+ "reference_pv": "51/2025/ADHA-LOT",
+ "nouveau": true,
+ "reference": "51/2025/ADHA-LOT",
+ "objet": null,
+ "acheteur": "DIRECTEUR GENERAL DE L'AGENCE DE DVELLOPEMNT DU HAUT ATLAS",
+ "procedure": null,
+ "categorie": "Travaux",
+ "date_limite_plis": "02/09/2025",
+ "lieu_ouverture": "Salle de réunions de la DIRECTION PROVINCIALE DE L'AGRICULTURE MARRAKECH",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "11/09/2025",
+ "justification": null,
+ "infructueux": false,
+ "attributaire": "AYSURVE SECURITE SARL",
+ "montant_attribue": 781380.0,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "AYSURVE SECURITE SARL",
+   "montant_acte_engagement": 781380.0,
+   "montant_apres_verification": 781380.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "CRTDSARL",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "CRTD SARL",
+   "montant_acte_engagement": 781995.6,
+   "montant_apres_verification": 781995.6,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 3,
+ "alertes_ocr": [
+  "« CRTD SARL » absent de la liste des plis déposés (nom mal lu ?)."
+ ],
+ "notes_ocr": [],
+ "qualite": "complet"
+}

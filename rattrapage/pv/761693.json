@@ -1,0 +1,143 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "761693",
+ "orgAcronyme": "d4q",
+ "reference_pv": null,
+ "nouveau": true,
+ "reference": null,
+ "objet": "du lot pu d'ouverture Concurrents retenus du lot remise des u des offres | des plis",
+ "acheteur": null,
+ "procedure": null,
+ "categorie": "Travaux",
+ "date_limite_plis": "18/10/2023",
+ "lieu_ouverture": "Casablanca",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": null,
+ "justification": "-__Pourle lot n° 1: Seule offre conforme. - _ Pourle lotn° 2: Offre moins disante conforme. -__Pourlelotn° 3: Seule offre conforme.",
+ "infructueux": true,
+ "attributaire": "el Travaux de plomberie et GLOBAL WORKS",
+ "montant_attribue": 627050.0,
+ "attributaires_par_lot": [
+  {
+   "lot": null,
+   "attributaire": "el Travaux de plomberie et GLOBAL WORKS",
+   "montant": 627050.0
+  },
+  {
+   "lot": null,
+   "attributaire": "maçonnerie /HTVA",
+   "montant": 285375.0
+  },
+  {
+   "lot": "2",
+   "attributaire": "Travaux de peinture IKHLAS DECO /HTVA D Av",
+   "montant": 288312.6
+  },
+  {
+   "lot": "1",
+   "attributaire": "GLOBAL WORKS",
+   "montant": 627050.0
+  },
+  {
+   "lot": "2",
+   "attributaire": "IKHLAS DECOR",
+   "montant": 285375.0
+  },
+  {
+   "lot": "3",
+   "attributaire": "ZIAD ELEC",
+   "montant": 288312.6
+  }
+ ],
+ "soumissionnaires": [
+  {
+   "nom": "ALI NEGOCE",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "depose",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "el Travaux de plomberie et GLOBAL WORKS",
+   "montant_acte_engagement": 627050.0,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "maçonnerie /HTVA",
+   "montant_acte_engagement": 285375.0,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Travaux de peinture IKHLAS DECO /HTVA D Av",
+   "montant_acte_engagement": 288312.6,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [
+    "2"
+   ],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "GLOBAL WORKS",
+   "montant_acte_engagement": 627050.0,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [
+    "1"
+   ],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "IKHLAS DECOR",
+   "montant_acte_engagement": 285375.0,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [
+    "2"
+   ],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "ZIAD ELEC",
+   "montant_acte_engagement": 288312.6,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [
+    "3"
+   ],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 7,
+ "alertes_ocr": [
+  "« el Travaux de plomberie et GLOBAL WORKS » absent de la liste des plis déposés (nom mal lu ?).",
+  "« maçonnerie /HTVA » absent de la liste des plis déposés (nom mal lu ?).",
+  "« Travaux de peinture IKHLAS DECO /HTVA D Av » absent de la liste des plis déposés (nom mal lu ?).",
+  "« GLOBAL WORKS » absent de la liste des plis déposés (nom mal lu ?).",
+  "« IKHLAS DECOR » absent de la liste des plis déposés (nom mal lu ?).",
+  "« ZIAD ELEC » absent de la liste des plis déposés (nom mal lu ?)."
+ ],
+ "notes_ocr": [
+  "Marché alloti (3 lots).",
+  "Maître d'ouvrage absent du PV (utiliser l'acheteur public du portail)."
+ ],
+ "qualite": "attribution"
+}

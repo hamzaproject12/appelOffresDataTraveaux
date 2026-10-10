@@ -1,0 +1,62 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "913313",
+ "orgAcronyme": "f8y",
+ "reference_pv": "03/2025",
+ "nouveau": true,
+ "reference": "03/2025",
+ "objet": "Travaux d'adduction d'eau potable a Douar Lakhrasla Commune de Sidi Boulamouar — préfecture d’Oujda-Angad»",
+ "acheteur": null,
+ "procedure": "appel d'offres ouvert",
+ "categorie": "Travaux",
+ "date_limite_plis": "01/07/2025",
+ "lieu_ouverture": null,
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "07/07/2025",
+ "justification": "Le Concurrrent a présenté l'offre économique la plus avantageuse.",
+ "infructueux": false,
+ "attributaire": null,
+ "montant_attribue": null,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "JELLOUILI MOSTAFA",
+   "montant_acte_engagement": 71556.0,
+   "montant_apres_verification": 71556.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "DAIFI BATIMENT",
+   "montant_acte_engagement": 85206.0,
+   "montant_apres_verification": 85206.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "LAGOS BTP",
+   "montant_acte_engagement": 80896.8,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 3,
+ "alertes_ocr": [
+  "Attributaire non trouvé."
+ ],
+ "notes_ocr": [
+  "Maître d'ouvrage absent du PV (utiliser l'acheteur public du portail)."
+ ],
+ "qualite": "complet"
+}

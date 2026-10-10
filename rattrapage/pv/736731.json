@@ -1,0 +1,78 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "736731",
+ "orgAcronyme": "g3h",
+ "reference_pv": "51/A/2023",
+ "nouveau": true,
+ "reference": "51/A/2023",
+ "objet": "TRAVAUX DE REALISATION DU COLLECTEUR PRINCIPAL UNIVERSITE 2EME TRANCHE DANS LA VILLE D'OUJDA",
+ "acheteur": "RADEEO",
+ "procedure": null,
+ "categorie": "Travaux",
+ "date_limite_plis": "27/07/2023",
+ "lieu_ouverture": "salle de réunion de la RADEEO",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "16/08/2023",
+ "justification": null,
+ "infructueux": false,
+ "attributaire": "Entreprise EL HAMDANI HASSAN",
+ "montant_attribue": 912464.64,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "(soumission électronique obligatoirement)",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "depose",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Société STEPAG",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Société OUJDA CHAUFFAGE",
+   "montant_acte_engagement": 1079676.0,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Entreprise EL HAMDANI HASSAN",
+   "montant_acte_engagement": 912464.64,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Société STEPAG Majoration",
+   "montant_acte_engagement": 1162728.0,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 5,
+ "alertes_ocr": [
+  "« Société STEPAG Majoration » absent de la liste des plis déposés (nom mal lu ?)."
+ ],
+ "notes_ocr": [],
+ "qualite": "complet"
+}

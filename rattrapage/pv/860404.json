@@ -1,0 +1,74 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "860404",
+ "orgAcronyme": "o8p",
+ "reference_pv": "38/SNTL/2024",
+ "nouveau": true,
+ "reference": "38/SNTL/2024",
+ "objet": "L'aménagement et mise en place d'un datacenter tier III au niveau du siège de la SNTL",
+ "acheteur": "SNTL",
+ "procedure": null,
+ "categorie": "Travaux",
+ "date_limite_plis": "28/11/2024",
+ "lieu_ouverture": "Siège SNTL Rabat",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "16/12/2024",
+ "justification": null,
+ "infructueux": false,
+ "attributaire": "FINATECH GROUP",
+ "montant_attribue": 17372479.68,
+ "attributaires_par_lot": [
+  {
+   "lot": null,
+   "attributaire": "FINATECH GROUP",
+   "montant": 17372479.68
+  },
+  {
+   "lot": null,
+   "attributaire": "NETCOM TECHNOLOGIES",
+   "montant": 15452995.2
+  },
+  {
+   "lot": null,
+   "attributaire": "EM TELECOM",
+   "montant": 14094452.4
+  }
+ ],
+ "soumissionnaires": [
+  {
+   "nom": "FINATECH GROUP",
+   "montant_acte_engagement": 17372479.68,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "NETCOM TECHNOLOGIES",
+   "montant_acte_engagement": 15452995.2,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "EM TELECOM",
+   "montant_acte_engagement": 14094452.4,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": true
+  }
+ ],
+ "nombre_soumissionnaires": 3,
+ "alertes_ocr": [],
+ "notes_ocr": [],
+ "qualite": "attribution"
+}

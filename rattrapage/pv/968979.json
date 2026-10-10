@@ -1,0 +1,114 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "968979",
+ "orgAcronyme": "f9f",
+ "reference_pv": null,
+ "nouveau": true,
+ "reference": null,
+ "objet": null,
+ "acheteur": null,
+ "procedure": "appel d'offres ouvert",
+ "categorie": "Travaux",
+ "date_limite_plis": "15/12/2025",
+ "lieu_ouverture": "des olis : Siège du Conseil Régional Souss Massa .!. Journaux avant oublié l'avis de publicité : o LE MATIN DU SAHARA n\" 18360 du 20lLt/202s",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": null,
+ "justification": "Offre jugée la plus avantageuse. |",
+ "infructueux": false,
+ "attributaire": "Société SAM TRADIV",
+ "montant_attribue": 3029736.0,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "Société AMASSIN",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Société OUBRAIM SARL",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Société ERRACHIDIA MARBRE",
+   "montant_acte_engagement": 3025434.0,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Société OUTAD WORK",
+   "montant_acte_engagement": 3029736.0,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Société SAM TRADIV",
+   "montant_acte_engagement": 3029736.0,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Société PRO GENIE HYDRAUTIQUE",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Société AIT SAOUN SARL",
+   "montant_acte_engagement": 2997.0,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "SociétéAMASSINCLB",
+   "montant_acte_engagement": 3068.0,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 8,
+ "alertes_ocr": [
+  "« Société ERRACHIDIA MARBRE » absent de la liste des plis déposés (nom mal lu ?).",
+  "« Société OUTAD WORK » absent de la liste des plis déposés (nom mal lu ?).",
+  "« Société SAM TRADIV » absent de la liste des plis déposés (nom mal lu ?).",
+  "« Société AIT SAOUN SARL » absent de la liste des plis déposés (nom mal lu ?).",
+  "« SociétéAMASSINCLB » absent de la liste des plis déposés (nom mal lu ?)."
+ ],
+ "notes_ocr": [
+  "« Société AMASSIN » absent de la liste des plis déposés (nom mal lu ?).",
+  "« Société OUBRAIM SARL » absent de la liste des plis déposés (nom mal lu ?).",
+  "« Société PRO GENIE HYDRAUTIQUE » absent de la liste des plis déposés (nom mal lu ?).",
+  "Maître d'ouvrage absent du PV (utiliser l'acheteur public du portail)."
+ ],
+ "qualite": "complet"
+}

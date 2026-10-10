@@ -1,0 +1,62 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "856304",
+ "orgAcronyme": "f4g",
+ "reference_pv": "16/DH/BG/2024",
+ "nouveau": true,
+ "reference": "16/DH/BG/2024",
+ "objet": "Travaux de construction du complexe religieux et culturel des Habous à ESSAOUIRA. Travaux traitement acoustique, audiovisuel et lumière",
+ "acheteur": "Ministère des Habous et des affaires islamiques",
+ "procedure": "appel d'offres ouvert international",
+ "categorie": "Travaux",
+ "date_limite_plis": "12/09/2024",
+ "lieu_ouverture": "bureau du Chef de la division de la construction et des investissements sis à l’angle rue Angola et rue Mali océan Rabat",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "02/12/2024",
+ "justification": "le concurrent ayant présenté l'offre techniquement conforme et mieux distante.",
+ "infructueux": false,
+ "attributaire": "STE BELECTRABAT",
+ "montant_attribue": null,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "STE TELECO MAROC",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_dossier_administratif_technique",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "STE BELECTRABAT",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "STE FINATECH SYSTEMS",
+   "montant_acte_engagement": 16311308.16,
+   "montant_apres_verification": 18271425.36,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 3,
+ "alertes_ocr": [
+  "Montant de l'attributaire « STE BELECTRABAT » non trouvé."
+ ],
+ "notes_ocr": [
+  "« STE FINATECH SYSTEMS » : montant rectifié de 16 311 308.16 à 18 271 425.36 DH."
+ ],
+ "qualite": "attribution"
+}

@@ -1,0 +1,71 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "824728",
+ "orgAcronyme": "u9g",
+ "reference_pv": "50/2024",
+ "nouveau": true,
+ "reference": "50/2024",
+ "objet": "Travaux de construction d’un village de vacances de la Fondation à MARTIL Lot n°03 : Aménagement et équipements des cuisines des appartements",
+ "acheteur": ", l’Education-Formation",
+ "procedure": null,
+ "categorie": "Travaux",
+ "date_limite_plis": "08/08/2024",
+ "lieu_ouverture": "Siège de la Fondation",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "23/08/2024",
+ "justification": "Le concurrent le moins disant.",
+ "infructueux": false,
+ "attributaire": "ESPACE CUISINE MAROCAINE",
+ "montant_attribue": 3750033.86,
+ "attributaires_par_lot": [
+  {
+   "lot": null,
+   "attributaire": "ESPACE CUISINE MAROCAINE",
+   "montant": 3750033.86
+  },
+  {
+   "lot": null,
+   "attributaire": "COULEUR EPICES SARL",
+   "montant": 4564304.5
+  }
+ ],
+ "soumissionnaires": [
+  {
+   "nom": "HORIZON METAL SARL",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_dossier_administratif_technique",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "COULEUR EPICES SARL",
+   "montant_acte_engagement": 4564304.5,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": true
+  },
+  {
+   "nom": "ESPACE CUISINE MAROCAINE",
+   "montant_acte_engagement": 3750033.86,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 3,
+ "alertes_ocr": [],
+ "notes_ocr": [
+  "Montants exprimés hors taxes (HT)."
+ ],
+ "qualite": "attribution"
+}

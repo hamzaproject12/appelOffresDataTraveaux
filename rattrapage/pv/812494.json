@@ -1,0 +1,72 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "812494",
+ "orgAcronyme": "g3h",
+ "reference_pv": "0S/INDH/2024",
+ "nouveau": true,
+ "reference": "0S/INDH/2024",
+ "objet": null,
+ "acheteur": "Gouverneur de la province d’Ouarzazate",
+ "procedure": "appel d'offres ouvert national",
+ "categorie": "Travaux",
+ "date_limite_plis": "01/07/2024",
+ "lieu_ouverture": "Secrétariat Général de la Province d’Ouarz",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": null,
+ "justification": "e : Offre économiquement la plus avanta",
+ "infructueux": false,
+ "attributaire": "STE AIT BAABI MOHAMED SARL AU",
+ "montant_attribue": 283812.0,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "STE ELECTRO TISILI SARL",
+   "montant_acte_engagement": 284803.2,
+   "montant_apres_verification": 284803.2,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "STE AIT BAABI MOHAMED SARL AU",
+   "montant_acte_engagement": 283812.0,
+   "montant_apres_verification": 283812.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "STE AMNAR ELECTRO SARL AU",
+   "montant_acte_engagement": 301626.0,
+   "montant_apres_verification": 301626.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "STE OUZEDOUTE SARL AU",
+   "montant_acte_engagement": 289800.0,
+   "montant_apres_verification": 289800.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 4,
+ "alertes_ocr": [
+  "« STE ELECTRO TISILI SARL » absent de la liste des plis déposés (nom mal lu ?).",
+  "« STE AIT BAABI MOHAMED SARL AU » absent de la liste des plis déposés (nom mal lu ?).",
+  "« STE AMNAR ELECTRO SARL AU » absent de la liste des plis déposés (nom mal lu ?).",
+  "« STE OUZEDOUTE SARL AU » absent de la liste des plis déposés (nom mal lu ?)."
+ ],
+ "notes_ocr": [],
+ "qualite": "complet"
+}

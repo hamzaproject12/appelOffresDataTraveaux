@@ -1,0 +1,65 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "700060",
+ "orgAcronyme": "j0w",
+ "reference_pv": "01/2023",
+ "nouveau": true,
+ "reference": "01/2023",
+ "objet": "ALIMENTATION EN EAU POTABLE DE DOUAR ELHAMOUL A LA COMMUNE LAHSINATE, PROVINCE D'ESSAOUIRA",
+ "acheteur": "la commune territoriale lahsinate représenté par Le président",
+ "procedure": "appel d'offres ouvert",
+ "categorie": "Travaux",
+ "date_limite_plis": "28/02/2023",
+ "lieu_ouverture": "siége de la commune",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "10/03/2023",
+ "justification": "le candidat relevant de l'activité de l'objet au marché et ayant répondu, favorablement aux conditions exigées. - _ Sté.LAB DE CONSTRUCTION SARL: 131808.00 dhs",
+ "infructueux": false,
+ "attributaire": "EL1/EN : MOGANOUR TRAVAUX SARL",
+ "montant_attribue": null,
+ "attributaires_par_lot": [
+  {
+   "lot": null,
+   "attributaire": "EL1/EN : MOGANOUR TRAVAUX SARL",
+   "montant": null
+  },
+  {
+   "lot": null,
+   "attributaire": "Sté.LAB DE CONSTRUCTION SARL",
+   "montant": null
+  }
+ ],
+ "soumissionnaires": [
+  {
+   "nom": "Sté.LAB DE CONSTRUCTION SARL",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "EL1/EN : MOGANOUR TRAVAUX SARL",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": true
+  }
+ ],
+ "nombre_soumissionnaires": 2,
+ "alertes_ocr": [
+  "« Sté.LAB DE CONSTRUCTION SARL » absent de la liste des plis déposés (nom mal lu ?).",
+  "« EL1/EN : MOGANOUR TRAVAUX SARL » absent de la liste des plis déposés (nom mal lu ?).",
+  "Montant de l'attributaire « EL1/EN : MOGANOUR TRAVAUX SARL » non trouvé.",
+  "Montant de l'attributaire « Sté.LAB DE CONSTRUCTION SARL » non trouvé."
+ ],
+ "notes_ocr": [],
+ "qualite": "participants"
+}

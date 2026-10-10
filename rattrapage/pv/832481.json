@@ -1,0 +1,62 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "832481",
+ "orgAcronyme": "d4q",
+ "reference_pv": null,
+ "nouveau": true,
+ "reference": null,
+ "objet": null,
+ "acheteur": null,
+ "procedure": "appel d'offres ouvert",
+ "categorie": "Travaux",
+ "date_limite_plis": "02/01/2023",
+ "lieu_ouverture": "Direction Approvisionnements et Marchés (DAM) : 65, Rue Othman Ben Affan 20 000 Casablanca",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": null,
+ "justification": "offre avantageuse.",
+ "infructueux": false,
+ "attributaire": "OUHAFID Travaux",
+ "montant_attribue": 8446537.33,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "OUEST APLICATION",
+   "montant_acte_engagement": 9498727.26,
+   "montant_apres_verification": null,
+   "autres_montants": [
+    9605775.36,
+    107048.1,
+    9498727.26,
+    11398472.71
+   ],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "OUHAFID Travaux",
+   "montant_acte_engagement": 8446537.33,
+   "montant_apres_verification": null,
+   "autres_montants": [
+    8553585.43,
+    107048.1,
+    446537.33,
+    10135844.8
+   ],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 2,
+ "alertes_ocr": [],
+ "notes_ocr": [
+  "Maître d'ouvrage absent du PV (utiliser l'acheteur public du portail).",
+  "Montants exprimés hors taxes (HT)."
+ ],
+ "qualite": "complet"
+}

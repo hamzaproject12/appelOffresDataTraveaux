@@ -1,0 +1,115 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "816437",
+ "orgAcronyme": "g3h",
+ "reference_pv": "74/A/24",
+ "nouveau": true,
+ "reference": "74/A/24",
+ "objet": "Travaux d'assainissement liquide des collecteurs des eaux pluviales et eaux usées du centre Had Boumoussa (2ème tranche)",
+ "acheteur": null,
+ "procedure": "appel d'offres ouvert",
+ "categorie": "Travaux",
+ "date_limite_plis": "03/07/2024",
+ "lieu_ouverture": null,
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "17/07/2024",
+ "justification": "- Offre mieux disante",
+ "infructueux": false,
+ "attributaire": null,
+ "montant_attribue": null,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "Société MATITRAVE",
+   "montant_acte_engagement": 14428707.28,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": true
+  },
+  {
+   "nom": "Société AMAN CONDUITES MODERNES",
+   "montant_acte_engagement": 13453812.9,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Société OUZNAG",
+   "montant_acte_engagement": 13641760.64,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Société COPSISSA",
+   "montant_acte_engagement": 13613365.66,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Société ERI-SER",
+   "montant_acte_engagement": 13791848.4,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Société SIGMA 4T",
+   "montant_acte_engagement": 13574153.54,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Société GHADDACH TRAVAUX TRANSPORT ET NEGOCE",
+   "montant_acte_engagement": 13448404.33,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Société F.S IDIVA",
+   "montant_acte_engagement": 13649873.49,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 8,
+ "alertes_ocr": [
+  "« Société MATITRAVE » absent de la liste des plis déposés (nom mal lu ?).",
+  "« Société AMAN CONDUITES MODERNES » absent de la liste des plis déposés (nom mal lu ?).",
+  "« Société OUZNAG » absent de la liste des plis déposés (nom mal lu ?).",
+  "« Société COPSISSA » absent de la liste des plis déposés (nom mal lu ?).",
+  "« Société ERI-SER » absent de la liste des plis déposés (nom mal lu ?).",
+  "« Société SIGMA 4T » absent de la liste des plis déposés (nom mal lu ?).",
+  "« Société GHADDACH TRAVAUX TRANSPORT ET NEGOCE » absent de la liste des plis déposés (nom mal lu ?).",
+  "« Société F.S IDIVA » absent de la liste des plis déposés (nom mal lu ?).",
+  "Attributaire non trouvé."
+ ],
+ "notes_ocr": [
+  "Maître d'ouvrage absent du PV (utiliser l'acheteur public du portail)."
+ ],
+ "qualite": "complet"
+}

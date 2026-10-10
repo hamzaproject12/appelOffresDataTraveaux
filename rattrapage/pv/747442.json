@@ -1,0 +1,85 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "747442",
+ "orgAcronyme": "g3h",
+ "reference_pv": "56/2023",
+ "nouveau": true,
+ "reference": "56/2023",
+ "objet": "Travaux d'installation des guérites en aluminium au service central du Ministère de l'Intérieur à Rabat (lot unique)",
+ "acheteur": "Ministère de l'Intérieur",
+ "procedure": "appel d'offres ouvert",
+ "categorie": "Travaux",
+ "date_limite_plis": "14/09/2023",
+ "lieu_ouverture": "la Direction des Affaires Administratives [Division des Marchés du Ministère de l'Intérieur)",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "16/10/2023",
+ "justification": "l’offre jugée la moins disante ;",
+ "infructueux": false,
+ "attributaire": "Sté. ASSABBANE HELEC",
+ "montant_attribue": 660000.0,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "Sté. ASSABBANE HELEC",
+   "montant_acte_engagement": 660000.0,
+   "montant_apres_verification": null,
+   "autres_montants": [
+    660000.0
+   ],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Sté. TRAMADA",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_offre_technique",
+   "admis_avec_reserve": true
+  },
+  {
+   "nom": "Sté. DHN",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": true
+  },
+  {
+   "nom": "Sté. SEL TEB",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_dossier_administratif_technique",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Sté. AMIPROC",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_dossier_administratif_technique",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 5,
+ "alertes_ocr": [
+  "« Sté. ASSABBANE HELEC » absent de la liste des plis déposés (nom mal lu ?)."
+ ],
+ "notes_ocr": [
+  "« Sté. TRAMADA » absent de la liste des plis déposés (nom mal lu ?).",
+  "« Sté. DHN » absent de la liste des plis déposés (nom mal lu ?).",
+  "« Sté. SEL TEB » absent de la liste des plis déposés (nom mal lu ?).",
+  "« Sté. AMIPROC » absent de la liste des plis déposés (nom mal lu ?)."
+ ],
+ "qualite": "attribution"
+}

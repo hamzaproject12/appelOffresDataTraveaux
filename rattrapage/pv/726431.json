@@ -1,0 +1,69 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "726431",
+ "orgAcronyme": "o4d",
+ "reference_pv": null,
+ "nouveau": true,
+ "reference": null,
+ "objet": "Fourniture et pose des plaques signalétiques externes pour la Direction Régionale CNSS Fès Saïss et les agences qui lui sont rattachées en lot unique",
+ "acheteur": "Direction Régionale CNSS Fès Saïss",
+ "procedure": "appel d'offres ouvert",
+ "categorie": "Travaux",
+ "date_limite_plis": "20/06/2023",
+ "lieu_ouverture": "Salle de réunion de la CNSS Direction Régionale Fès Saïss sis 4ème étage Résidence Jnan El Kamel Rue Antara Ibn Chaddad Fès",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "04/07/2023",
+ "justification": "Conformément à l’article 16 du R.C « l'offre la moins disante conforme ».",
+ "infructueux": false,
+ "attributaire": "STE NAJIM",
+ "montant_attribue": 128500.14,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "SMF LASER - STE NAJIM - STE SVEDACO TRAVAUX",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "depose",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "SMF LASER - STE NAJIM - ATELIER TEULI - STE",
+   "montant_acte_engagement": 216360.0,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "CHANTIES DE TRAVAUX DIVERS",
+   "montant_acte_engagement": 99000.0,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_offre_financiere",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "STE NAJIM",
+   "montant_acte_engagement": 128500.14,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 4,
+ "alertes_ocr": [
+  "« STE NAJIM » absent de la liste des plis déposés (nom mal lu ?)."
+ ],
+ "notes_ocr": [],
+ "qualite": "complet"
+}

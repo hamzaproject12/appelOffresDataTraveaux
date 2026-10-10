@@ -1,0 +1,86 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "707346",
+ "orgAcronyme": "o8p",
+ "reference_pv": null,
+ "nouveau": true,
+ "reference": null,
+ "objet": null,
+ "acheteur": "Direction Régionale des ports de Safi et Direction du Port de safi Atlantique",
+ "procedure": null,
+ "categorie": "Travaux",
+ "date_limite_plis": "28/03/2023",
+ "lieu_ouverture": "Direction Régionale des ports de Safi",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "06/04/2023",
+ "justification": null,
+ "infructueux": false,
+ "attributaire": "RENA",
+ "montant_attribue": 4589000.0,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "RENA",
+   "montant_acte_engagement": 4589000.0,
+   "montant_apres_verification": null,
+   "autres_montants": [
+    4589000.0
+   ],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "BOFAT TRAVAUX",
+   "montant_acte_engagement": 4940000.0,
+   "montant_apres_verification": null,
+   "autres_montants": [
+    4940000.0
+   ],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "STE D'EXECUTION DES TRAVAUX ROUTIERS ET OUVRAGE (SETRO)",
+   "montant_acte_engagement": 5110000.0,
+   "montant_apres_verification": null,
+   "autres_montants": [
+    5110000.0
+   ],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "GROUPEMENT SOLIDAIRE STE GESTRAD & SELTRA SARL",
+   "montant_acte_engagement": 5195000.0,
+   "montant_apres_verification": null,
+   "autres_montants": [
+    5195000.0
+   ],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "HIDAMEK TRAVAUX DIVERS NEGOCE IMPORT EXPORT SARL",
+   "montant_acte_engagement": 5540000.0,
+   "montant_apres_verification": null,
+   "autres_montants": [
+    5540000.0
+   ],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 5,
+ "alertes_ocr": [],
+ "notes_ocr": [],
+ "qualite": "complet"
+}

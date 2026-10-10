@@ -1,0 +1,62 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "934831",
+ "orgAcronyme": "q1s",
+ "reference_pv": "56/2025/SOREC",
+ "nouveau": true,
+ "reference": "56/2025/SOREC",
+ "objet": "Travaux de creusement et d’équipement d’un forage d’exploitation au haras national d’Oujda",
+ "acheteur": null,
+ "procedure": null,
+ "categorie": "Travaux",
+ "date_limite_plis": "15/07/2025",
+ "lieu_ouverture": "Bureaux du siège de la Société Royale d’Encouragement du Cheval (SOREC) sise à ZENITH RABAT -— Angle Rocade de Rabat et rue Ait Malek",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "22/08/2025",
+ "justification": "le concurrent ayant présenté l’offre la mieux disante.",
+ "infructueux": false,
+ "attributaire": "STE JANA RIEGO",
+ "montant_attribue": 336000.0,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "IBRAMED MASTERTRAV SOCIETE DE GESTION ET DE PROJET",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "depose",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "STE JANA RIEGO",
+   "montant_acte_engagement": 336000.0,
+   "montant_apres_verification": 336000.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "S.A au Capital de 153680600 - S'ège Social",
+   "montant_acte_engagement": 39158.0,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 3,
+ "alertes_ocr": [
+  "« S.A au Capital de 153680600 - S'ège Social » absent de la liste des plis déposés (nom mal lu ?)."
+ ],
+ "notes_ocr": [
+  "Maître d'ouvrage absent du PV (utiliser l'acheteur public du portail)."
+ ],
+ "qualite": "complet"
+}

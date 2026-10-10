@@ -1,0 +1,53 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "1017953",
+ "orgAcronyme": "g3h",
+ "reference_pv": "10009425",
+ "nouveau": true,
+ "reference": "10009425",
+ "objet": "Passage en souterrain de la ligne 22 KV desservant des postes LOT TADAMOUNE et CASERNE des FA Commune BOUARFA-Province FIGUIG",
+ "acheteur": null,
+ "procedure": null,
+ "categorie": "Travaux",
+ "date_limite_plis": "29/06/2026",
+ "lieu_ouverture": "SRM-Ori / Siège de la Direction Provinciale de Figuig",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "29/06/2026",
+ "justification": null,
+ "infructueux": true,
+ "attributaire": null,
+ "montant_attribue": null,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "Appel d’Offres déclaré infructueux et ce conformément à l’",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": true
+  },
+  {
+   "nom": "marchés de la SRM-ORI",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": true
+  }
+ ],
+ "nombre_soumissionnaires": 2,
+ "alertes_ocr": [],
+ "notes_ocr": [
+  "« Appel d’Offres déclaré infructueux et ce conformément à l’ » absent de la liste des plis déposés (nom mal lu ?).",
+  "« marchés de la SRM-ORI » absent de la liste des plis déposés (nom mal lu ?).",
+  "Maître d'ouvrage absent du PV (utiliser l'acheteur public du portail)."
+ ],
+ "qualite": "participants"
+}

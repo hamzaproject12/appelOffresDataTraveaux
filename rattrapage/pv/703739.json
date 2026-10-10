@@ -1,0 +1,60 @@
+{
+ "source": "extrait_docx",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "703739",
+ "orgAcronyme": "h5r",
+ "reference_pv": "01/BP/2023",
+ "nouveau": true,
+ "reference": "01/BP/2023",
+ "objet": null,
+ "acheteur": "Le Conseil Provincial de Settat",
+ "procedure": null,
+ "categorie": "Travaux",
+ "date_limite_plis": "14/03/2023",
+ "lieu_ouverture": "les bureaux du Conseil Provincial de Settat",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "30/03/2023",
+ "justification": "Offre financière la plus avantageuse.",
+ "infructueux": false,
+ "attributaire": "Sté. SEMIBAT /Marrakech",
+ "montant_attribue": 1495751.4,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "Sté. SIKWINA TRAVAUX /Béni Mellal",
+   "montant_acte_engagement": 1593195.3,
+   "montant_apres_verification": 1593195.3,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Sté. SEMIBAT /Marrakech",
+   "montant_acte_engagement": 1495751.4,
+   "montant_apres_verification": 1495751.4,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Sté. FEZNAOUI TRAVAUX/Azilal",
+   "montant_acte_engagement": 1595736.0,
+   "montant_apres_verification": 1622676.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 3,
+ "alertes_ocr": [],
+ "notes_ocr": [
+  "« Sté. FEZNAOUI TRAVAUX/Azilal » : montant rectifié de 1 595 736.00 à 1 622 676.00 DH."
+ ],
+ "qualite": "complet"
+}

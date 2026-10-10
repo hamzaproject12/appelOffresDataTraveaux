@@ -1,0 +1,53 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "707920",
+ "orgAcronyme": "f9f",
+ "reference_pv": "02/2023/BP",
+ "nouveau": true,
+ "reference": "02/2023/BP",
+ "objet": "Création d’une zone d’activités traditionnelles et artisanales à la commune Ait Melloul Travaux d’assainissement et de voirie Préfecture d’Inezgane Ait Melloul",
+ "acheteur": null,
+ "procedure": "appel d'offres ouvert",
+ "categorie": "Travaux",
+ "date_limite_plis": "21/03/2023",
+ "lieu_ouverture": null,
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "03/04/2023",
+ "justification": null,
+ "infructueux": false,
+ "attributaire": null,
+ "montant_attribue": null,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "Sté NAIT ELKHALFAOUI TRAVAUX SARL",
+   "montant_acte_engagement": 4062168.0,
+   "montant_apres_verification": 4062168.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Sté MAJI TRAVAUX SARL",
+   "montant_acte_engagement": 4090902.0,
+   "montant_apres_verification": 4090902.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 2,
+ "alertes_ocr": [
+  "Attributaire non trouvé."
+ ],
+ "notes_ocr": [
+  "Maître d'ouvrage absent du PV (utiliser l'acheteur public du portail)."
+ ],
+ "qualite": "complet"
+}

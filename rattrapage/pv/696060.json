@@ -1,0 +1,93 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "696060",
+ "orgAcronyme": "m8x",
+ "reference_pv": "41/BR/RGON/2022",
+ "nouveau": true,
+ "reference": "41/BR/RGON/2022",
+ "objet": "ASRIR - ELECTRIFICATION 2°/1° CATEGORIE DU DOUAR OUINSKRINE SIS ALA CT ASRIR (PROVINCE DE GUELMIM) MINISTERE DE L’INTERIEUR S",
+ "acheteur": "Conseil de la Région de Guelmim-Oued Noun",
+ "procedure": "appel d'offres ouvert",
+ "categorie": "Travaux",
+ "date_limite_plis": "08/12/2022",
+ "lieu_ouverture": "la salle de réunion n°01 au siège de la Région de Guelmim Oued Noun",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "06/01/2023",
+ "justification": "l'Offre moins disant.",
+ "infructueux": false,
+ "attributaire": "Sté OUHAFID TRAVAUX SARL",
+ "montant_attribue": 5275870.85,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "Type de dépôt Sociétés",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Electronique = Sté ELECTRO ANADIF SARL",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Sté DARAA ENERGY SARL",
+   "montant_acte_engagement": 5334530.52,
+   "montant_apres_verification": null,
+   "autres_montants": [
+    5334530.52
+   ],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Support papier",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Sté OUHAFID TRAVAUX SARL",
+   "montant_acte_engagement": 5275870.85,
+   "montant_apres_verification": null,
+   "autres_montants": [
+    5275870.85
+   ],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Sté ELECTRO ANADIF SARL L'offre financière est excessive",
+   "montant_acte_engagement": 5886911.52,
+   "montant_apres_verification": null,
+   "autres_montants": [
+    5886911.52
+   ],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 6,
+ "alertes_ocr": [
+  "« Sté ELECTRO ANADIF SARL L'offre financière est excessive » absent de la liste des plis déposés (nom mal lu ?)."
+ ],
+ "notes_ocr": [],
+ "qualite": "complet"
+}

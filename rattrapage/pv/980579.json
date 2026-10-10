@@ -1,0 +1,65 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "980579",
+ "orgAcronyme": "j8k",
+ "reference_pv": null,
+ "nouveau": true,
+ "reference": null,
+ "objet": "La réalisation des travaux de construction T.C.E de l’opération ITRANE logements en R+3 entrants dans le",
+ "acheteur": null,
+ "procedure": "appel d'offres ouvert",
+ "categorie": "Travaux",
+ "date_limite_plis": "26/02/2026",
+ "lieu_ouverture": "Division des Marchés de la Société Al Omrane souss Massa",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": null,
+ "justification": "Concurrent représentant l’offre la plus avantageuse.",
+ "infructueux": false,
+ "attributaire": "CLUTCH",
+ "montant_attribue": 24818668.2,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "CLUTCH - ENHAFRAG",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "CLUTCH",
+   "montant_acte_engagement": 24818668.2,
+   "montant_apres_verification": 24818668.2,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "ENHAFRAG",
+   "montant_acte_engagement": 24818668.2,
+   "montant_apres_verification": 24912127.62,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 3,
+ "alertes_ocr": [
+  "« CLUTCH » absent de la liste des plis déposés (nom mal lu ?).",
+  "« ENHAFRAG » absent de la liste des plis déposés (nom mal lu ?)."
+ ],
+ "notes_ocr": [
+  "« CLUTCH - ENHAFRAG » absent de la liste des plis déposés (nom mal lu ?).",
+  "« ENHAFRAG » : montant rectifié de 24 818 668.20 à 24 912 127.62 DH.",
+  "Maître d'ouvrage absent du PV (utiliser l'acheteur public du portail)."
+ ],
+ "qualite": "complet"
+}

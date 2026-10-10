@@ -1,0 +1,72 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "768601",
+ "orgAcronyme": "o8p",
+ "reference_pv": "42/2023/ANEP/DRR",
+ "nouveau": true,
+ "reference": "42/2023/ANEP/DRR",
+ "objet": "TRAVAUX DE MISE À NIVEAU DES CENTRES DE SOINS DE SANTE PRIMAIRES PROVINCE DE KENITRA : CSUT NKHAKHSA - CSUI HAJ MANSOUR - CSUT OKBA - CSUI OULED EL GHAZI - CSUI",
+ "acheteur": "MINISTERE DE LA SANTE ET DE LA PROTECTION SOCIALE",
+ "procedure": "appel d'offres ouvert international",
+ "categorie": "Travaux",
+ "date_limite_plis": "08/12/2023",
+ "lieu_ouverture": "Salle de réunions de la Direction Régionale de l'ANEP de Rabat-Salé-Kénitra, sis à Hay Nahda 2 Rabat",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "19/12/2023",
+ "justification": "Conformément aux dispositions de l'article 14 du règlement de consultation, la meilleure offre financière est celle la mieux-disante par rapport au prix de référence.",
+ "infructueux": false,
+ "attributaire": "STE KIKOVA SARL",
+ "montant_attribue": 13949826.0,
+ "attributaires_par_lot": [
+  {
+   "lot": null,
+   "attributaire": "STE KIKOVA SARL",
+   "montant": 13949826.0
+  },
+  {
+   "lot": null,
+   "attributaire": "STE SETUMA SARL",
+   "montant": null
+  }
+ ],
+ "soumissionnaires": [
+  {
+   "nom": "STE SETUMA SARL",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "STE KIKOVA SARL",
+   "montant_acte_engagement": 13949826.0,
+   "montant_apres_verification": 13949826.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "STE SETUMA SAR",
+   "montant_acte_engagement": 14667481.2,
+   "montant_apres_verification": 14667481.2,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 3,
+ "alertes_ocr": [
+  "« STE SETUMA SAR » absent de la liste des plis déposés (nom mal lu ?).",
+  "Montant de l'attributaire « STE SETUMA SARL » non trouvé."
+ ],
+ "notes_ocr": [],
+ "qualite": "complet"
+}

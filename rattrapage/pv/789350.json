@@ -1,0 +1,78 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "789350",
+ "orgAcronyme": "e5w",
+ "reference_pv": "15/AREP-FM/2024",
+ "nouveau": true,
+ "reference": "15/AREP-FM/2024",
+ "objet": "TRAVAUX DE CONSTRUCTION D’UNE SALLE COUVERTE A LA COMMUNE DE",
+ "acheteur": null,
+ "procedure": "appel d'offres ouvert national",
+ "categorie": "Travaux",
+ "date_limite_plis": null,
+ "lieu_ouverture": null,
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": null,
+ "justification": null,
+ "infructueux": false,
+ "attributaire": "STE GOVAT SARL",
+ "montant_attribue": 7377240.0,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "STE ASSALA ISKANE SARL",
+   "montant_acte_engagement": 8111328.0,
+   "montant_apres_verification": 8111328.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "PUBLICS SARL",
+   "montant_acte_engagement": 8096214.0,
+   "montant_apres_verification": 8096214.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "STE GOVAT SARL",
+   "montant_acte_engagement": 7377240.0,
+   "montant_apres_verification": 7377240.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "STE COMPAGNIE D’ETUDE DE COORDINATION DE CONTROLES ET DE REALISATION SARL",
+   "montant_acte_engagement": 7711716.0,
+   "montant_apres_verification": 7711716.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "STE ENGOR -ENGINEERING DE L’ORIENTAL- SA",
+   "montant_acte_engagement": 8106444.0,
+   "montant_apres_verification": 8106444.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 5,
+ "alertes_ocr": [],
+ "notes_ocr": [
+  "Maître d'ouvrage absent du PV (utiliser l'acheteur public du portail)."
+ ],
+ "qualite": "complet"
+}

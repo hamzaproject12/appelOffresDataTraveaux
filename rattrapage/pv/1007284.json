@@ -1,0 +1,116 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "1007284",
+ "orgAcronyme": "a1z",
+ "reference_pv": "01/CN/2026",
+ "nouveau": true,
+ "reference": "01/CN/2026",
+ "objet": "AMENAGEMENT ET GROS TRAVAUX DE MAINTENANCE DES BATIMENTS SOCIAUX A LA COMMUNE DE NOUACEUR PROVINCE DE NOUACEUR",
+ "acheteur": "Commune Nouaceur",
+ "procedure": "appel d'offres ouvert national",
+ "categorie": "Travaux",
+ "date_limite_plis": "07/05/2026",
+ "lieu_ouverture": "Bureau du Président de la Commune de Nouaceur > Publication",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "21/05/2026",
+ "justification": "son offre répond aux critères et conditions de l'appel d'offres et elle est économiquement la plus avantageuse.",
+ "infructueux": false,
+ "attributaire": "STE TAFROUST TRAVAUX BATI SARL AU",
+ "montant_attribue": null,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "STE TAFROUST TRAVAUX BATI SARL AU",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "STE GH IMMO SERVICES SARL AU 9 STE SOTRABERMAN SARL AU",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "STE BATISSEN SARL AU 10 STE P.E.H TRA SARL AU",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "STE IRENO SERVICES SARL AU 11 STE LAJIAR GLOBAL SARL",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "STE Y.L.B TECH SARL 12 STE GROUPE B2I SARL AU",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "STE G7M SARL AU 13 STE EZER SUD SARL AU",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "A STE ZAGOGECT SARL 14 STE ARTRAVASE SARL",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "depose",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "STE TAZTA SARL AU",
+   "montant_acte_engagement": 1560000.0,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "STE G7M SARL AU",
+   "montant_acte_engagement": 1543901.12,
+   "montant_apres_verification": 1543901.12,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 9,
+ "alertes_ocr": [
+  "« STE TAZTA SARL AU » absent de la liste des plis déposés (nom mal lu ?).",
+  "« STE G7M SARL AU » absent de la liste des plis déposés (nom mal lu ?).",
+  "Montant de l'attributaire « STE TAFROUST TRAVAUX BATI SARL AU » non trouvé."
+ ],
+ "notes_ocr": [],
+ "qualite": "complet"
+}

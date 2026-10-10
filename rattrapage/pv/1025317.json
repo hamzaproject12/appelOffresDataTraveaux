@@ -1,0 +1,65 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "1025317",
+ "orgAcronyme": "p8x",
+ "reference_pv": "20/RH/2026/INV",
+ "nouveau": true,
+ "reference": "20/RH/2026/INV",
+ "objet": "TRAVAUX D’AMENAGEMENT ET DE REHABILITATION DES UNITÉS SCOLAIRES PRIMAIRES DANS LE CADRE DES ÉCOLES PIONNIÈRES RELEVANT DE LA DIRECTION PROVINCIALE DE RHAMNA : Lot O1 : COMMUNES RAS EL AIN, JAAIDATE, BOUROUSS, SIDI BOUBKER ET JBILATE",
+ "acheteur": "Le directeur provincial à RHAMNA",
+ "procedure": "appel d'offres ouvert national",
+ "categorie": "Travaux",
+ "date_limite_plis": "21/05/2026",
+ "lieu_ouverture": "La salle des réunions à la direction provinciale de RHAMNA",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": null,
+ "justification": "Date d’chévement des travaux de la commission: 22/05/2026",
+ "infructueux": false,
+ "attributaire": "G TRAV SARL",
+ "montant_attribue": 1592436.0,
+ "attributaires_par_lot": [
+  {
+   "lot": null,
+   "attributaire": "G TRAV SARL",
+   "montant": 1592436.0
+  },
+  {
+   "lot": "01",
+   "attributaire": "G TRAV SARL",
+   "montant": 1966140.0
+  }
+ ],
+ "soumissionnaires": [
+  {
+   "nom": "NORIVAM SARL",
+   "montant_acte_engagement": 1594096.8,
+   "montant_apres_verification": 1594096.8,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "G TRAV SARL",
+   "montant_acte_engagement": 1592436.0,
+   "montant_apres_verification": 1592436.0,
+   "autres_montants": [],
+   "lots": [
+    "01"
+   ],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 2,
+ "alertes_ocr": [
+  "« NORIVAM SARL » absent de la liste des plis déposés (nom mal lu ?).",
+  "« G TRAV SARL » absent de la liste des plis déposés (nom mal lu ?)."
+ ],
+ "notes_ocr": [],
+ "qualite": "complet"
+}

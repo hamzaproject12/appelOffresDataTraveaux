@@ -1,0 +1,107 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "833948",
+ "orgAcronyme": "d4q",
+ "reference_pv": "34/E/2024",
+ "nouveau": true,
+ "reference": "34/E/2024",
+ "objet": "* Lot n1 : Tronçon Réservoir Al Maghreb Al Arabi- Étage 3,et Réservoir Sidi Je Azzouz-Errachad, conduites de diamètre DN< 225",
+ "acheteur": "s RADEE.TA",
+ "procedure": null,
+ "categorie": "Travaux",
+ "date_limite_plis": "31/07/2024",
+ "lieu_ouverture": "Siège de là RADEE.TA",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "01/10/2024",
+ "justification": "- Dossiers administratif, technique, documentation technique et offre technique. - Offre avantageuse répondant aux critères d'évaluation. - La société ABBEAUX TRAVAUX a été écartée pour la non présentation des prospectus, notices et autres documents % techniques. F \\ * . V4",
+ "infructueux": false,
+ "attributaire": "Société SRTHYG-BTP Rabais",
+ "montant_attribue": 4657497.84,
+ "attributaires_par_lot": [
+  {
+   "lot": "1",
+   "attributaire": "Société SRTHYG-BTP Rabais",
+   "montant": 4657497.84
+  },
+  {
+   "lot": "3",
+   "attributaire": "Société MOUZHIR ELEC Majoration",
+   "montant": 2977041.6
+  }
+ ],
+ "soumissionnaires": [
+  {
+   "nom": "technique sans réserve 4. Société SMYBAM",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Société MOUZHIR ELEC Majoration",
+   "montant_acte_engagement": 5303091.6,
+   "montant_apres_verification": null,
+   "autres_montants": [
+    5338179.0,
+    2977041.6
+   ],
+   "lots": [
+    "1",
+    "2",
+    "3"
+   ],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Société SRTHYG-BTP Bosnie ë",
+   "montant_acte_engagement": 4657497.84,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [
+    "1"
+   ],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Société SRTHYG-BTP Rabais",
+   "montant_acte_engagement": 4828625.55,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [
+    "1",
+    "2"
+   ],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Société SRTHYG-BTP Majoration",
+   "montant_acte_engagement": 2839215.6,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [
+    "3"
+   ],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 5,
+ "alertes_ocr": [
+  "« Société SRTHYG-BTP Bosnie ë » absent de la liste des plis déposés (nom mal lu ?).",
+  "« Société SRTHYG-BTP Rabais » absent de la liste des plis déposés (nom mal lu ?).",
+  "« Société SRTHYG-BTP Majoration » absent de la liste des plis déposés (nom mal lu ?)."
+ ],
+ "notes_ocr": [
+  "Marché alloti (3 lots)."
+ ],
+ "qualite": "complet"
+}

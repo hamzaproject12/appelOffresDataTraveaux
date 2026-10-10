@@ -1,0 +1,69 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "936205",
+ "orgAcronyme": "q0x",
+ "reference_pv": "34/2025",
+ "nouveau": true,
+ "reference": "34/2025",
+ "objet": "l’Entretien courant des voies",
+ "acheteur": null,
+ "procedure": null,
+ "categorie": "Travaux",
+ "date_limite_plis": "25/09/2025",
+ "lieu_ouverture": "siège de la Commune de Meknès (siège principal) sis au Boulevard des F.A.R, Ville Nouvelle, Meknès",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "02/10/2025",
+ "justification": null,
+ "infructueux": false,
+ "attributaire": "et Société CORIAM SARL",
+ "montant_attribue": 9045840.0,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "DIVERS SARL et Société SOURCE BLEUE",
+   "montant_acte_engagement": 9391200.0,
+   "montant_apres_verification": 9391200.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "et Société CORIAM SARL",
+   "montant_acte_engagement": 9045840.0,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Société MEDI EXPO SARL AU",
+   "montant_acte_engagement": 8965800.0,
+   "montant_apres_verification": 8965800.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Société SORTRAC SARL",
+   "montant_acte_engagement": 9040080.0,
+   "montant_apres_verification": 9040080.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 4,
+ "alertes_ocr": [],
+ "notes_ocr": [
+  "Maître d'ouvrage absent du PV (utiliser l'acheteur public du portail)."
+ ],
+ "qualite": "complet"
+}

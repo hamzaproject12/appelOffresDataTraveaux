@@ -1,0 +1,60 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "906643",
+ "orgAcronyme": "z9k",
+ "reference_pv": "09/2025/CBM",
+ "nouveau": true,
+ "reference": "09/2025/CBM",
+ "objet": "TRAVAUX D'ENTRETIEN DES INSTALLATIONS D'ECLAIRAGE PUBLIC : FOURNITURE ET POSE DES MATERIELS DE FESTIVITES ET DE PAVOISEMENT A LA VILLE DE BENI MELLAL",
+ "acheteur": "La commune de Béni Mellal",
+ "procedure": "appel d'offres ouvert national",
+ "categorie": "Travaux",
+ "date_limite_plis": "04/06/2025",
+ "lieu_ouverture": "La salle des réunions de la commune de Béni Mellal > LE MATIN : N° 18228 du 09-10-11/05/2025",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "16/06/2025",
+ "justification": "- Jugé le plus avantageux.",
+ "infructueux": false,
+ "attributaire": null,
+ "montant_attribue": null,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "Société CAMPAGNIE GENERALE DE LUMINAIRES SARL",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_dossier_administratif_technique",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Société VEGA LIGHT SARL",
+   "montant_acte_engagement": 4898772.0,
+   "montant_apres_verification": 4898772.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Société NOVOLIGHT SARL",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_offre_technique",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 3,
+ "alertes_ocr": [
+  "Attributaire non trouvé."
+ ],
+ "notes_ocr": [],
+ "qualite": "attribution"
+}

@@ -1,0 +1,72 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "962941",
+ "orgAcronyme": "j0w",
+ "reference_pv": "132/2025/AREP-MS",
+ "nouveau": true,
+ "reference": "132/2025/AREP-MS",
+ "objet": "Travaux de construction de la route reliant la RP2341 et Douar Lahdil Maamoura du PKO+000 au PK2+068 - Commune territoriale Sidi Chiker - Province de Youssoufia -",
+ "acheteur": "AGENCE REGIONALE D'EXECUTION DES PROJETS MARRAKECH-SAFI",
+ "procedure": "appel d'offres ouvert national",
+ "categorie": "Travaux",
+ "date_limite_plis": "01/12/2025",
+ "lieu_ouverture": "SIEGE DE L'AGENCE REGIONALE D'EXECUTION DES PROJETS MARRAKECH SAFI",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": null,
+ "justification": "Après examen des pièces du dossier administratif et technique et de l'offre financière, la commission a décidé de proposer à l'autorité compétente de retenir l'offre économiquement La plus avantageuse présentée par la société ENTREPRISE DE TRAVAUX ET D'INGENIERIE D’AGADIR (ETIA) _ SARL pour un montant de 2 297 633,40 Dhs TTC (Deux millions deux cent quatre-vingt-dix-sept mille six cent trente-troi",
+ "infructueux": false,
+ "attributaire": "STE ENTREPRISE DE TRAVAUX ET D'INGENIERIE D'AGADIR (ETIA)",
+ "montant_attribue": 2297633.4,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "STE VIABIS , Jz",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "depose",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "STE ENTREPRISE DE TRAVAUX ET D'INGENIERIE D'AGADIR (ETIA)",
+   "montant_acte_engagement": 2297633.4,
+   "montant_apres_verification": 2297633.4,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "STE S3ACT",
+   "montant_acte_engagement": 2340.0,
+   "montant_apres_verification": 2340098.17,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "STE VIA BIS",
+   "montant_acte_engagement": 2323.0,
+   "montant_apres_verification": 2323.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 4,
+ "alertes_ocr": [
+  "« STE VIA BIS » absent de la liste des plis déposés (nom mal lu ?).",
+  "« STE S3ACT » : écart anormal entre montant initial et vérifié (lecture à vérifier)."
+ ],
+ "notes_ocr": [
+  "« STE S3ACT » : montant rectifié de 2 340.00 à 2 340 098.17 DH."
+ ],
+ "qualite": "complet"
+}

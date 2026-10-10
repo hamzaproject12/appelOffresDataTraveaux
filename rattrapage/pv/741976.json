@@ -1,0 +1,60 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "741976",
+ "orgAcronyme": "z9k",
+ "reference_pv": null,
+ "nouveau": true,
+ "reference": null,
+ "objet": "Travaux de construction de voirie centre Sidi Aissa chellal a la commune Sidi Aissa Ben Ali province de Fquih Ben Salah",
+ "acheteur": null,
+ "procedure": null,
+ "categorie": "Travaux",
+ "date_limite_plis": "24/08/2023",
+ "lieu_ouverture": null,
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": null,
+ "justification": null,
+ "infructueux": true,
+ "attributaire": null,
+ "montant_attribue": null,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "AGOURA DE TRAVAUX GENERALES « SATG » SARL, Av Hassan II Imm Yasmina Hay Ibn",
+   "montant_acte_engagement": 12515087.04,
+   "montant_apres_verification": 12515087.04,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_dossier_administratif_technique",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "3F DE REVETEMENT ROUTIER ET",
+   "montant_acte_engagement": 12696046.51,
+   "montant_apres_verification": 12696046.51,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_dossier_administratif_technique",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "ATLAS TRAVAUX PUBLICS SARL, Mazella 2/32 route Ouled Ziane et 31 rue Libourne 4éme",
+   "montant_acte_engagement": 11272830.91,
+   "montant_apres_verification": 11272830.91,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_dossier_administratif_technique",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 3,
+ "alertes_ocr": [],
+ "notes_ocr": [
+  "Maître d'ouvrage absent du PV (utiliser l'acheteur public du portail)."
+ ],
+ "qualite": "complet"
+}

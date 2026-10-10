@@ -1,0 +1,63 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "950973",
+ "orgAcronyme": "q0x",
+ "reference_pv": "11/2025",
+ "nouveau": true,
+ "reference": "11/2025",
+ "objet": "_ Travaux de maintenance de bornes fontaines à la Commune de My Idriss Zerhoun",
+ "acheteur": null,
+ "procedure": "appel d'offres ouvert simplifié",
+ "categorie": "Travaux",
+ "date_limite_plis": "03/11/2025",
+ "lieu_ouverture": "bureau du président de la commune de My Idriss Zerhoune",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "10/11/2025",
+ "justification": "l’offre économiquement la plus avantageuse,",
+ "infructueux": false,
+ "attributaire": "Sté S2TCE SARL",
+ "montant_attribue": null,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "Sté S2TCE SARL. App 3 Imm 3 Lot Salma Kamilia MEKNES",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "depose",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Sté RACHID TRAVAUX SARL AU",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Sté S2TCE SARL",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 3,
+ "alertes_ocr": [
+  "« Sté S2TCE SARL » absent de la liste des plis déposés (nom mal lu ?).",
+  "Montant de l'attributaire « Sté S2TCE SARL » non trouvé."
+ ],
+ "notes_ocr": [
+  "Maître d'ouvrage absent du PV (utiliser l'acheteur public du portail)."
+ ],
+ "qualite": "participants"
+}

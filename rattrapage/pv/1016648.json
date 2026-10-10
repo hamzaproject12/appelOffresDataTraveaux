@@ -1,0 +1,80 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "1016648",
+ "orgAcronyme": "h5r",
+ "reference_pv": "02/2026/CROFEH",
+ "nouveau": true,
+ "reference": "02/2026/CROFEH",
+ "objet": null,
+ "acheteur": null,
+ "procedure": "appel d'offres ouvert simplifié",
+ "categorie": "Travaux",
+ "date_limite_plis": null,
+ "lieu_ouverture": "Journaux ayant publié l'avis de publicité",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": null,
+ "justification": "Offre financière la plus avantageuse économiquement. pèl d'offres",
+ "infructueux": false,
+ "attributaire": null,
+ "montant_attribue": null,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "SOCIETE HARROUM IMMO SARL AU",
+   "montant_acte_engagement": 142800.0,
+   "montant_apres_verification": 142800.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "T1RaI SOCIETE ABOU HANAE",
+   "montant_acte_engagement": 176400.0,
+   "montant_apres_verification": 176400.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Fi SOCIETE FONCASOL SARL AU",
+   "montant_acte_engagement": 150240.0,
+   "montant_apres_verification": 150240.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "FT M SOCIETE ABAR MAROC SARL-AU",
+   "montant_acte_engagement": 147840.0,
+   "montant_apres_verification": 147840.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "HE SOCIETE DRIHARD SARL-AU",
+   "montant_acte_engagement": 157680.0,
+   "montant_apres_verification": 157680.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 5,
+ "alertes_ocr": [
+  "Attributaire non trouvé."
+ ],
+ "notes_ocr": [
+  "Maître d'ouvrage absent du PV (utiliser l'acheteur public du portail)."
+ ],
+ "qualite": "complet"
+}

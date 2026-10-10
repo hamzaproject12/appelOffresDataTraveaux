@@ -1,0 +1,52 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "765101",
+ "orgAcronyme": "q1s",
+ "reference_pv": "42/DPA.OZ/SAHA/2023",
+ "nouveau": true,
+ "reference": "42/DPA.OZ/SAHA/2023",
+ "objet": "Travaux de construction d'environ de 3km de pistes rurales au niveau de la C/T d'asjen relevant à la zone d’action de la DPA de Ouezzane",
+ "acheteur": "DPA d’ Ouezzane",
+ "procedure": "appel d'offres ouvert",
+ "categorie": "Travaux",
+ "date_limite_plis": "27/09/2023",
+ "lieu_ouverture": "la salle de réunion de La DPA d° OUEZZANE",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "12/10/2023",
+ "justification": null,
+ "infructueux": false,
+ "attributaire": "SOCIETE LAMLIHTRAV",
+ "montant_attribue": 4401000.0,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "SOCIETE AZZOUZ SELLAM",
+   "montant_acte_engagement": 5268600.0,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "SOCIETE LAMLIHTRAV",
+   "montant_acte_engagement": 4401000.0,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 2,
+ "alertes_ocr": [
+  "« SOCIETE AZZOUZ SELLAM » absent de la liste des plis déposés (nom mal lu ?).",
+  "« SOCIETE LAMLIHTRAV » absent de la liste des plis déposés (nom mal lu ?)."
+ ],
+ "notes_ocr": [],
+ "qualite": "complet"
+}

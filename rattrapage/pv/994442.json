@@ -1,0 +1,93 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "994442",
+ "orgAcronyme": "q1s",
+ "reference_pv": null,
+ "nouveau": true,
+ "reference": null,
+ "objet": "La réalisation des travaux d'aménagement des pistes dans les communes territoriales de Mtioua et Ouaouzganc, Province de Chefchaouen",
+ "acheteur": "La Dircction Provinciale de l'Agriculture de Chefchaouen 2. SNTRO Conformément aux avis publiés dans",
+ "procedure": null,
+ "categorie": "Travaux",
+ "date_limite_plis": null,
+ "lieu_ouverture": "la salle de la réunion de la direction provinciale de l'agriculture de 3",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "15/04/2026",
+ "justification": "L'offre économiquement la plus avantageuse.",
+ "infructueux": false,
+ "attributaire": "GROUPEMENT 2JHL HOLDING SA ET NOUVELLE",
+ "montant_attribue": null,
+ "attributaires_par_lot": [
+  {
+   "lot": null,
+   "attributaire": "GROUPEMENT 2JHL HOLDING SA ET NOUVELLE",
+   "montant": null
+  },
+  {
+   "lot": null,
+   "attributaire": "TRAVAUX AFRIQUE SARL",
+   "montant": null
+  }
+ ],
+ "soumissionnaires": [
+  {
+   "nom": "IMA SARL",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_offre_technique",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Journal (en français): Le Matin, n°18429 du 27-28 février",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "depose",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "STE DU SAHEL ET SAHARA",
+   "montant_acte_engagement": 14988420.0,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "GROUPEMENT 2JHL HOLDING SA ET NOUVELLE",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "TRAVAUX AFRIQUE SARL",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 5,
+ "alertes_ocr": [
+  "« STE DU SAHEL ET SAHARA » absent de la liste des plis déposés (nom mal lu ?).",
+  "« GROUPEMENT 2JHL HOLDING SA ET NOUVELLE » absent de la liste des plis déposés (nom mal lu ?).",
+  "« TRAVAUX AFRIQUE SARL » absent de la liste des plis déposés (nom mal lu ?).",
+  "Montant de l'attributaire « GROUPEMENT 2JHL HOLDING SA ET NOUVELLE » non trouvé.",
+  "Montant de l'attributaire « TRAVAUX AFRIQUE SARL » non trouvé."
+ ],
+ "notes_ocr": [],
+ "qualite": "attribution"
+}

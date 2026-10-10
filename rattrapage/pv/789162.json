@@ -1,0 +1,87 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "789162",
+ "orgAcronyme": "g3h",
+ "reference_pv": null,
+ "nouveau": true,
+ "reference": null,
+ "objet": "Travaux d'aménagement des terrains de proximité en gazon synthétique en lots sépares : lot n° 01 :Benslimane, lot n°02 :Mohammedia, lot n°03 Ben M’SICK, lot n°04 :EI Fida,lot n°05 : Ain chock,lot n°06,Anfa,lot n°07 : Ain Sebaa Hay Mohammadi,lot n°08 :El",
+ "acheteur": "Casablanca Events et Animation « CEA SA »",
+ "procedure": "appel d'offres ouvert",
+ "categorie": "Travaux",
+ "date_limite_plis": "05/03/2024",
+ "lieu_ouverture": "105, Boulevard Abdelmoumen, Casablanca",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": null,
+ "justification": null,
+ "infructueux": false,
+ "attributaire": "MP PROJECT",
+ "montant_attribue": 2015500.8,
+ "attributaires_par_lot": [
+  {
+   "lot": "1",
+   "attributaire": "MP PROJECT",
+   "montant": 2015500.8
+  },
+  {
+   "lot": "3",
+   "attributaire": "GLOBAL TRADE OF MOROCCO lot",
+   "montant": 4745472.0
+  },
+  {
+   "lot": "6",
+   "attributaire": "GLOBAL TRADE OF MOROCCO lot",
+   "montant": 96377.6
+  },
+  {
+   "lot": "8",
+   "attributaire": "GLOBAL TRADE OF MOROCCO",
+   "montant": 5694566.4
+  }
+ ],
+ "soumissionnaires": [
+  {
+   "nom": "GLOBAL TRADE OF MOROCCO",
+   "montant_acte_engagement": 4745472.0,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [
+    "3",
+    "6",
+    "8"
+   ],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "MP PROJECT",
+   "montant_acte_engagement": 2015500.8,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [
+    "1"
+   ],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "CSD anca",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "depose",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 3,
+ "alertes_ocr": [],
+ "notes_ocr": [
+  "Marché alloti (4 lots)."
+ ],
+ "qualite": "attribution"
+}

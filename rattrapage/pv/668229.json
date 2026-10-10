@@ -1,0 +1,60 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "668229",
+ "orgAcronyme": "q1s",
+ "reference_pv": "61/2022/0RSM",
+ "nouveau": true,
+ "reference": "61/2022/0RSM",
+ "objet": "Travaux d'aménagement du club de l'ORMVA du Souss-Massa, Province d’AGADIR IDA OUTANANE",
+ "acheteur": "ORMVA/SM",
+ "procedure": "appel d'offres ouvert",
+ "categorie": "Travaux",
+ "date_limite_plis": "28/09/2022",
+ "lieu_ouverture": "salle de réunion de la direction de l'ORMVA/SM",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "12/10/2022",
+ "justification": "offre la moins disante de la société SSTCO",
+ "infructueux": false,
+ "attributaire": "ISTRADA TRAVAUX",
+ "montant_attribue": 2283702.54,
+ "attributaires_par_lot": [
+  {
+   "lot": null,
+   "attributaire": "ISTRADA TRAVAUX",
+   "montant": 2283702.54
+  },
+  {
+   "lot": null,
+   "attributaire": "SSTCO",
+   "montant": 1962598.12
+  }
+ ],
+ "soumissionnaires": [
+  {
+   "nom": "ISTRADA TRAVAUX",
+   "montant_acte_engagement": 2283702.54,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "SSTCO",
+   "montant_acte_engagement": 1962598.12,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 2,
+ "alertes_ocr": [],
+ "notes_ocr": [],
+ "qualite": "attribution"
+}

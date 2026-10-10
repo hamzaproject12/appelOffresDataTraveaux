@@ -1,0 +1,61 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "725347",
+ "orgAcronyme": "g3h",
+ "reference_pv": "34/2023",
+ "nouveau": true,
+ "reference": "34/2023",
+ "objet": null,
+ "acheteur": "Régie Autonome de Distribution d'Eau et d’Electricité de Fès",
+ "procedure": "appel d'offres ouvert",
+ "categorie": "Travaux",
+ "date_limite_plis": "29/05/2023",
+ "lieu_ouverture": null,
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "27/06/2023",
+ "justification": "offre la plus avantageuse",
+ "infructueux": false,
+ "attributaire": "EL HOURIA HOLDING",
+ "montant_attribue": 1415930.0,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "n GPL CONSULTING",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "depose",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "SGE",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "depose",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "EL HOURIA HOLDING",
+   "montant_acte_engagement": 1641530.0,
+   "montant_apres_verification": null,
+   "autres_montants": [
+    1613300.0,
+    1415930.0
+   ],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 3,
+ "alertes_ocr": [],
+ "notes_ocr": [],
+ "qualite": "attribution"
+}

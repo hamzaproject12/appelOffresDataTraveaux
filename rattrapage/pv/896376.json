@@ -1,0 +1,80 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "896376",
+ "orgAcronyme": "d4q",
+ "reference_pv": "138/DR3/2024",
+ "nouveau": true,
+ "reference": "138/DR3/2024",
+ "objet": "relatif à",
+ "acheteur": null,
+ "procedure": "appel d'offres ouvert",
+ "categorie": "Travaux",
+ "date_limite_plis": "13/02/2025",
+ "lieu_ouverture": "au siège de la Direction Régionale du Centre (DR3) Boulevard Mohamed VI, Quartier Administratif - Khouribga - Maroc",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "15/05/2025",
+ "justification": "Moins-disant",
+ "infructueux": false,
+ "attributaire": "MIDELCO",
+ "montant_attribue": 2374860.0,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "É: ET ECTEL SE M pote un 1) RDC A LG",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "depose",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "GROUP ENGELVIN MAROC/ HYMATOM MAROC - FRANCE",
+   "montant_acte_engagement": 3865536.71,
+   "montant_apres_verification": 3865540.79,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_dossier_administratif_technique",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "MIDELCO",
+   "montant_acte_engagement": 2374860.0,
+   "montant_apres_verification": 2374860.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "SM2TI (SOCIETE MAROCAINE DES TRAVAUX Offre Technique",
+   "montant_acte_engagement": 2094979.2,
+   "montant_apres_verification": 2094979.2,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_dossier_administratif_technique",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "TERTIAIRES ET INDUSTRIELS)",
+   "montant_acte_engagement": 2400240.0,
+   "montant_apres_verification": 2323440.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_dossier_administratif_technique",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 5,
+ "alertes_ocr": [],
+ "notes_ocr": [
+  "« GROUP ENGELVIN MAROC/ HYMATOM MAROC - FRANCE » : montant rectifié de 3 865 536.71 à 3 865 540.79 DH.",
+  "« TERTIAIRES ET INDUSTRIELS) » : montant rectifié de 2 400 240.00 à 2 323 440.00 DH.",
+  "Maître d'ouvrage absent du PV (utiliser l'acheteur public du portail)."
+ ],
+ "qualite": "complet"
+}

@@ -1,0 +1,62 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "729731",
+ "orgAcronyme": "f9f",
+ "reference_pv": null,
+ "nouveau": true,
+ "reference": null,
+ "objet": "Travaux d’ extension de Dar Talib à la Commune Tnine Aday , Cercle et Caidat Anett'",
+ "acheteur": null,
+ "procedure": "appel d'offres ouvert",
+ "categorie": "Travaux",
+ "date_limite_plis": null,
+ "lieu_ouverture": null,
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": null,
+ "justification": "Concurrent représentant ! ‘offre la plus avantageuse.",
+ "infructueux": false,
+ "attributaire": "Société SYTRAVIA à AGADIR",
+ "montant_attribue": 663014.9,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "Société 3F BTP à INEGANE",
+   "montant_acte_engagement": 682007.04,
+   "montant_apres_verification": 682007.04,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Société HEGBA s.a.r.l à GUELMIM",
+   "montant_acte_engagement": 645495.96,
+   "montant_apres_verification": 724695.96,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Société SYTRAVIA à AGADIR",
+   "montant_acte_engagement": 663014.9,
+   "montant_apres_verification": 665014.9,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 3,
+ "alertes_ocr": [],
+ "notes_ocr": [
+  "« Société HEGBA s.a.r.l à GUELMIM » : montant rectifié de 645 495.96 à 724 695.96 DH.",
+  "« Société SYTRAVIA à AGADIR » : montant rectifié de 663 014.90 à 665 014.90 DH.",
+  "Maître d'ouvrage absent du PV (utiliser l'acheteur public du portail)."
+ ],
+ "qualite": "complet"
+}

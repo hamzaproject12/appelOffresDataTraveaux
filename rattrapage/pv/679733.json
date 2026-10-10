@@ -1,0 +1,64 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "679733",
+ "orgAcronyme": "d4q",
+ "reference_pv": null,
+ "nouveau": true,
+ "reference": null,
+ "objet": "Entretien et réparation des collecteurs d'assainissement au niveau des centres relevant de l'AM5/3",
+ "acheteur": null,
+ "procedure": "appel d'offres ouvert",
+ "categorie": "Travaux",
+ "date_limite_plis": "13/10/2022",
+ "lieu_ouverture": "Siège de la Direction Régionale du Centre Nord (DR5) 88 rue du Soudan, Ville nouvelle - Fès - Maroc",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "22/11/2022",
+ "justification": "Moins-disant",
+ "infructueux": false,
+ "attributaire": "ANOUAR DES TRAVAUX HYDRAULIQUES ET",
+ "montant_attribue": 467400.0,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "ANOUAR DES TRAVAUX HYDRAULIQUES ET",
+   "montant_acte_engagement": 467400.0,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "DESTAR MAROC",
+   "montant_acte_engagement": 492147.36,
+   "montant_apres_verification": null,
+   "autres_montants": [
+    492147.36
+   ],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "BATIMENTS SANI FARAJI",
+   "montant_acte_engagement": 482729.28,
+   "montant_apres_verification": null,
+   "autres_montants": [
+    482729.28
+   ],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 3,
+ "alertes_ocr": [],
+ "notes_ocr": [
+  "Maître d'ouvrage absent du PV (utiliser l'acheteur public du portail)."
+ ],
+ "qualite": "complet"
+}

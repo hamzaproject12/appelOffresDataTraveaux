@@ -1,0 +1,72 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "762803",
+ "orgAcronyme": "o8p",
+ "reference_pv": "04/SAPT/2023",
+ "nouveau": true,
+ "reference": "04/SAPT/2023",
+ "objet": null,
+ "acheteur": "Société d'Aménagement pour la reconversion de la zone Portuaire de Tanger ville-SAPT SA",
+ "procedure": null,
+ "categorie": "Travaux",
+ "date_limite_plis": "04/12/2023",
+ "lieu_ouverture": "Bureaux de la Société SAPT sis à 50, avenue Mohamed Tazi, Merchane, Tanger",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "01/12/2023",
+ "justification": null,
+ "infructueux": false,
+ "attributaire": "insérée au Portail Marocain des Marchés Publics le",
+ "montant_attribue": null,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "GECOVA",
+   "montant_acte_engagement": 9479225.0,
+   "montant_apres_verification": 9479225.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "HAUTE DU MAROC DEVELOPPEMENT",
+   "montant_acte_engagement": 6991599.0,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "TGN Société de Travaux Divers",
+   "montant_acte_engagement": 8886477.25,
+   "montant_apres_verification": 8886477.25,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "insérée au Portail Marocain des Marchés Publics le",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 4,
+ "alertes_ocr": [
+  "« insérée au Portail Marocain des Marchés Publics le » absent de la liste des plis déposés (nom mal lu ?).",
+  "Montant de l'attributaire « insérée au Portail Marocain des Marchés Publics le » non trouvé."
+ ],
+ "notes_ocr": [
+  "Montants exprimés hors taxes (HT)."
+ ],
+ "qualite": "complet"
+}

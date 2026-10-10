@@ -1,0 +1,91 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "841132",
+ "orgAcronyme": "a1z",
+ "reference_pv": null,
+ "nouveau": true,
+ "reference": null,
+ "objet": null,
+ "acheteur": null,
+ "procedure": null,
+ "categorie": "Travaux",
+ "date_limite_plis": "07/10/2024",
+ "lieu_ouverture": "Service des marchés et des affaires financiers de Arrondissement Hay Hassani, Bd sidi Abderrahmane quartier El Hana - 202000 Casablanca ca",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "23/10/2024",
+ "justification": "son offre est jugée économiquement la plus avantageuse « mieux-disante par rapport au prix de référence »",
+ "infructueux": false,
+ "attributaire": "FRT SAN SARL",
+ "montant_attribue": 567120.0,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "PLANTAFLEUR SARL",
+   "montant_acte_engagement": 580320.0,
+   "montant_apres_verification": 580320.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "TSELK SARL",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "depose",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "SAFIR TRAVAUX SARL",
+   "montant_acte_engagement": 568320.0,
+   "montant_apres_verification": 568320.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "SOPOTRAP SARL",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "depose",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "TSLK SARL",
+   "montant_acte_engagement": 666000.0,
+   "montant_apres_verification": 666000.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "FRT SAN SARL",
+   "montant_acte_engagement": 567120.0,
+   "montant_apres_verification": 567120.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 6,
+ "alertes_ocr": [
+  "« TSLK SARL » absent de la liste des plis déposés (nom mal lu ?).",
+  "« FRT SAN SARL » absent de la liste des plis déposés (nom mal lu ?)."
+ ],
+ "notes_ocr": [
+  "Maître d'ouvrage absent du PV (utiliser l'acheteur public du portail).",
+  "Montants exprimés hors taxes (HT)."
+ ],
+ "qualite": "complet"
+}

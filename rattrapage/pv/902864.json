@@ -1,0 +1,107 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "902864",
+ "orgAcronyme": "f9f",
+ "reference_pv": "10/C",
+ "nouveau": true,
+ "reference": "10/C",
+ "objet": "RENFORCEMEMNT DE RESEAU D'EAU POTABLE ( FORAGE , CONDUITE , POMPAGE) DU DOUAR AIT JMIL RELEVANT DE LA COMMUNE TERRITORIALE ASOUL PROVINCE DE TINGHIR REGION DRAA TAFILALET",
+ "acheteur": "CONSEIL PROVINCIAL DE TINGHIR",
+ "procedure": null,
+ "categorie": "Travaux",
+ "date_limite_plis": "09/05/2025",
+ "lieu_ouverture": "Bureaux du Conseil Provincial de Tinghir",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "30/05/2025",
+ "justification": "Sen offre est la plus proche du prix de référence par défaut.",
+ "infructueux": false,
+ "attributaire": null,
+ "montant_attribue": null,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "STE L'INVESTISSEMENT PARFAIT SARL",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "depose",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "STE 1GO TECHNOLOGIE SARL",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "depose",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "STE BETONRICH TRAVAUX SARL",
+   "montant_acte_engagement": 584136.0,
+   "montant_apres_verification": 584136.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "STE THE ROAD SARL",
+   "montant_acte_engagement": 520566.0,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "STE JAHEZ SARL",
+   "montant_acte_engagement": 88558.0,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "STE ASNOMI SARL",
+   "montant_acte_engagement": 511587.0,
+   "montant_apres_verification": 511587.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "STE COMPÉTENCES AMI",
+   "montant_acte_engagement": 497292.0,
+   "montant_apres_verification": 497292.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "PU STEJAHEZ SARL FT",
+   "montant_acte_engagement": 588558.0,
+   "montant_apres_verification": 588558.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 8,
+ "alertes_ocr": [
+  "« STE COMPÉTENCES AMI » absent de la liste des plis déposés (nom mal lu ?).",
+  "« PU STEJAHEZ SARL FT » absent de la liste des plis déposés (nom mal lu ?).",
+  "Attributaire non trouvé."
+ ],
+ "notes_ocr": [],
+ "qualite": "complet"
+}

@@ -1,0 +1,88 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "975375",
+ "orgAcronyme": "d4q",
+ "reference_pv": null,
+ "nouveau": true,
+ "reference": null,
+ "objet": null,
+ "acheteur": null,
+ "procedure": "appel d'offres ouvert national",
+ "categorie": "Travaux",
+ "date_limite_plis": "27/10/2025",
+ "lieu_ouverture": "au siège de la Direction Régionale Souss-Massa (DR1) Rue 18 Novembre Quartier Industriel - Agadir - Maroc",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "06/02/2026",
+ "justification": "Moins-disant",
+ "infructueux": true,
+ "attributaire": null,
+ "montant_attribue": null,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "FASOFT",
+   "montant_acte_engagement": 134280.0,
+   "montant_apres_verification": null,
+   "autres_montants": [
+    134280.0
+   ],
+   "lots": [],
+   "statut": "ecarte_dossier_administratif_technique",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "MIDELCO",
+   "montant_acte_engagement": 169320.0,
+   "montant_apres_verification": null,
+   "autres_montants": [
+    169320.0
+   ],
+   "lots": [],
+   "statut": "ecarte_dossier_administratif_technique",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "PROTECTRA",
+   "montant_acte_engagement": 125580.0,
+   "montant_apres_verification": null,
+   "autres_montants": [
+    125580.0
+   ],
+   "lots": [],
+   "statut": "ecarte_dossier_administratif_technique",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "SUD ELECTRONIQUE INFORMATIQUE (SEI GROUPE) - Offre Technique",
+   "montant_acte_engagement": 141840.0,
+   "montant_apres_verification": null,
+   "autres_montants": [
+    141840.0
+   ],
+   "lots": [],
+   "statut": "ecarte_dossier_administratif_technique",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "GROUPE) WARNA",
+   "montant_acte_engagement": 142800.0,
+   "montant_apres_verification": null,
+   "autres_montants": [
+    142800.0
+   ],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 5,
+ "alertes_ocr": [],
+ "notes_ocr": [
+  "Maître d'ouvrage absent du PV (utiliser l'acheteur public du portail)."
+ ],
+ "qualite": "complet"
+}

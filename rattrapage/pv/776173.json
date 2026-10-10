@@ -1,0 +1,63 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "776173",
+ "orgAcronyme": "a1z",
+ "reference_pv": "26/CB/2023",
+ "nouveau": true,
+ "reference": "26/CB/2023",
+ "objet": "TRAVAUX D'AMENAGEMENT DES SOURCES D'EAU ET DU TRANSFERT DES EAUX POUR L'ARROSAGE DES ESPACES VERTS DANS LA COMMUNE DE CASABLANCA : Arrosage des espaces verts dans la commune de Casablanca à partir des sources de Sindibad et Sidi",
+ "acheteur": "CASABLANCA BAIA",
+ "procedure": null,
+ "categorie": "Travaux",
+ "date_limite_plis": "25/01/2024",
+ "lieu_ouverture": "SIEGE DE LA SOCIETE CASABLANCA BAIA",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "07/02/2024",
+ "justification": "l’offre la plus avantageuse",
+ "infructueux": false,
+ "attributaire": "GROUPEMENT TCN/ITACANAT",
+ "montant_attribue": 12845862.0,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "SOCIETE YOUR BIT .P",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_offre_technique",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "SOCIETE WATEC",
+   "montant_acte_engagement": 15606478.44,
+   "montant_apres_verification": 15606478.44,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "GROUPEMENT TCN/ITACANAT",
+   "montant_acte_engagement": 12845862.0,
+   "montant_apres_verification": 12845862.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 3,
+ "alertes_ocr": [
+  "« SOCIETE WATEC » absent de la liste des plis déposés (nom mal lu ?).",
+  "« GROUPEMENT TCN/ITACANAT » absent de la liste des plis déposés (nom mal lu ?)."
+ ],
+ "notes_ocr": [
+  "« SOCIETE YOUR BIT .P » absent de la liste des plis déposés (nom mal lu ?)."
+ ],
+ "qualite": "complet"
+}

@@ -1,0 +1,70 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "778096",
+ "orgAcronyme": "a1z",
+ "reference_pv": "24/CB/2023",
+ "nouveau": true,
+ "reference": "24/CB/2023",
+ "objet": "Travaux d'aménagement paysager, remise à niveau et entretien des jardins à l’arrondissement Sidi Othmane à Casablanca",
+ "acheteur": "CASABLANCA BAIA",
+ "procedure": "appel d'offres ouvert",
+ "categorie": "Travaux",
+ "date_limite_plis": "19/01/2024",
+ "lieu_ouverture": "SIEGE DE LA SOCIETE CASABLANCA BAIA",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "20/02/2024",
+ "justification": "l’offre la plus avantageuse",
+ "infructueux": false,
+ "attributaire": "GROUPEMENT TCN/ALMO JARDIN",
+ "montant_attribue": 20842.0,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "Concurrent 1 :SOCIETE KALIFA PLANTES",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "depose",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "GROUPEMENT VERVETA/PETIT ATLAS",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_offre_technique",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "GROUPEMENT TCN/ALMO JARDIN",
+   "montant_acte_engagement": 20842173.6,
+   "montant_apres_verification": 20842173.6,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "SOCIETE KALIFA PLANTES",
+   "montant_acte_engagement": 25098139.8,
+   "montant_apres_verification": 25098139.8,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 4,
+ "alertes_ocr": [
+  "« GROUPEMENT TCN/ALMO JARDIN » absent de la liste des plis déposés (nom mal lu ?).",
+  "« SOCIETE KALIFA PLANTES » absent de la liste des plis déposés (nom mal lu ?)."
+ ],
+ "notes_ocr": [],
+ "qualite": "complet"
+}

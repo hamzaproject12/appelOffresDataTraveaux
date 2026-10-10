@@ -1,0 +1,55 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "755847",
+ "orgAcronyme": "g8e",
+ "reference_pv": null,
+ "nouveau": true,
+ "reference": null,
+ "objet": "Travaux de construction d'un hôpital de proximité de 45 lits à la commune de Skhirat",
+ "acheteur": null,
+ "procedure": null,
+ "categorie": "Travaux",
+ "date_limite_plis": "20/10/2023",
+ "lieu_ouverture": "Bureau de la Société Rabat Région Aménagement au 9, Place Al Joulane — Rabat",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "15/11/2023",
+ "justification": "Offre conforme aux exigences du Règlement de la consultation et moins disante.",
+ "infructueux": false,
+ "attributaire": "AHMA",
+ "montant_attribue": 79148282.88,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "GROUPEMENT THERMO ENERGIE ET LE PALAIS D'AMENAGEMENT",
+   "montant_acte_engagement": 91392207.6,
+   "montant_apres_verification": null,
+   "autres_montants": [
+    91392207.6
+   ],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "AHMA",
+   "montant_acte_engagement": 79148282.88,
+   "montant_apres_verification": null,
+   "autres_montants": [
+    79148282.88
+   ],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 2,
+ "alertes_ocr": [],
+ "notes_ocr": [
+  "Maître d'ouvrage absent du PV (utiliser l'acheteur public du portail)."
+ ],
+ "qualite": "complet"
+}

@@ -1,0 +1,143 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "1037163",
+ "orgAcronyme": "g3h",
+ "reference_pv": "150/2026",
+ "nouveau": true,
+ "reference": "150/2026",
+ "objet": null,
+ "acheteur": "Société Régionale Multiservices Fès Meknès « SRM-FM »",
+ "procedure": null,
+ "categorie": "Travaux",
+ "date_limite_plis": "19/05/2026",
+ "lieu_ouverture": "Siège de la SRM-FM",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "21/07/2026",
+ "justification": "L'offre la plus avantageuse.",
+ "infructueux": false,
+ "attributaire": "TIFTRAVELEC",
+ "montant_attribue": 1600050.0,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "BOUICHOU HADDOU",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "TIFTRAVELEC",
+   "montant_acte_engagement": 1600050.0,
+   "montant_apres_verification": 1920060.0,
+   "autres_montants": [
+    1920060.0
+   ],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "LA REGIONALE DES EAUX",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_offre_financiere",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "AQUA INSTAL EQUIPEMENT (2 lots)",
+   "montant_acte_engagement": 2150770.0,
+   "montant_apres_verification": 2580924.0,
+   "autres_montants": [
+    2580924.0
+   ],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "GROUPEMENT PLOMB et SOBOUWAT (2 lots)",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "BENSAGHROUNE",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_dossier_administratif_technique",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "TRV INTERSYS (2 Lots)",
+   "montant_acte_engagement": 2729400.0,
+   "montant_apres_verification": 3275280.0,
+   "autres_montants": [
+    3275280.0
+   ],
+   "lots": [
+    "1"
+   ],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "SMERAV (2Lots)",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_dossier_administratif_technique",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "GROUPEMENT ABOU RAGHAD et TARIK EL AINOUSSI",
+   "montant_acte_engagement": 2136000.0,
+   "montant_apres_verification": 2563200.0,
+   "autres_montants": [
+    2563200.0
+   ],
+   "lots": [
+    "1"
+   ],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "GROUPEMENT PLOMB et",
+   "montant_acte_engagement": 1735800.0,
+   "montant_apres_verification": 2082960.0,
+   "autres_montants": [
+    2082960.0
+   ],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 10,
+ "alertes_ocr": [
+  "« GROUPEMENT PLOMB et » absent de la liste des plis déposés (nom mal lu ?)."
+ ],
+ "notes_ocr": [
+  "« TIFTRAVELEC » : montant rectifié de 1 600 050.00 à 1 920 060.00 DH.",
+  "« AQUA INSTAL EQUIPEMENT (2 lots) » : montant rectifié de 2 150 770.00 à 2 580 924.00 DH.",
+  "« TRV INTERSYS (2 Lots) » : montant rectifié de 2 729 400.00 à 3 275 280.00 DH.",
+  "« GROUPEMENT ABOU RAGHAD et TARIK EL AINOUSSI » : montant rectifié de 2 136 000.00 à 2 563 200.00 DH.",
+  "« GROUPEMENT PLOMB et » : montant rectifié de 1 735 800.00 à 2 082 960.00 DH."
+ ],
+ "qualite": "complet"
+}

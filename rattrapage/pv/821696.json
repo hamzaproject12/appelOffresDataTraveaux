@@ -1,0 +1,52 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "821696",
+ "orgAcronyme": "d4q",
+ "reference_pv": null,
+ "nouveau": true,
+ "reference": null,
+ "objet": null,
+ "acheteur": null,
+ "procedure": null,
+ "categorie": "Travaux",
+ "date_limite_plis": "18/07/2024",
+ "lieu_ouverture": "ONEE-BE / Siège Direction Régionale Distribution Agadir",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "08/08/2024",
+ "justification": "L'offre proposée par le soumissionnaire « SOCIETE IMADELEC » s’écarte d’un taux acceptable de +10,32% par rapport à l’estimation.",
+ "infructueux": false,
+ "attributaire": "SOCIETE IMADELEC",
+ "montant_attribue": 1641672.64,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "SOCIETE IMADELEC",
+   "montant_acte_engagement": 1641672.64,
+   "montant_apres_verification": 1641672.64,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "SOCIETE TRAVAUX DELEC",
+   "montant_acte_engagement": 1753640.67,
+   "montant_apres_verification": 1753640.68,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 2,
+ "alertes_ocr": [],
+ "notes_ocr": [
+  "« SOCIETE TRAVAUX DELEC » : montant rectifié de 1 753 640.67 à 1 753 640.68 DH.",
+  "Maître d'ouvrage absent du PV (utiliser l'acheteur public du portail)."
+ ],
+ "qualite": "complet"
+}

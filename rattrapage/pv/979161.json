@@ -1,0 +1,98 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "979161",
+ "orgAcronyme": "g3h",
+ "reference_pv": "10005095",
+ "nouveau": true,
+ "reference": "10005095",
+ "objet": "REHABILITATION DU RESEAU D'ASSAINISSEMENT LIQUIDE DES QUARTIERS SOUS EQUIPES DE LA PROVINCE DE DRIOUCH REPARTIS EN 3 LOTS : Lot 1 : COMMUNE DRIOUCH",
+ "acheteur": null,
+ "procedure": null,
+ "categorie": "Travaux",
+ "date_limite_plis": "06/01/2026",
+ "lieu_ouverture": "Siège de la SRM-ORI",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": null,
+ "justification": "offre moins disante par lot (l’attribution pour chaque concurrent est limitée à un maximum d’un (01) seul lot selon l’ordre chronologique des lots} FaitäOujdale: 29 Ÿ 2/2 70",
+ "infructueux": false,
+ "attributaire": "SMYBAM",
+ "montant_attribue": 3157273.66,
+ "attributaires_par_lot": [
+  {
+   "lot": "1",
+   "attributaire": "SMYBAM",
+   "montant": 3157273.66
+  },
+  {
+   "lot": "2",
+   "attributaire": "MARHABA ZARK",
+   "montant": 3790997.43
+  },
+  {
+   "lot": "3",
+   "attributaire": "LK INTERIM",
+   "montant": 1276190.78
+  }
+ ],
+ "soumissionnaires": [
+  {
+   "nom": "SMYBAM",
+   "montant_acte_engagement": 3157273.66,
+   "montant_apres_verification": 3157273.66,
+   "autres_montants": [
+    3976335.08,
+    1152846.03
+   ],
+   "lots": [
+    "1",
+    "2",
+    "3"
+   ],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "EXTRAS",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "depose",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "LK INTERIM",
+   "montant_acte_engagement": 1282296.96,
+   "montant_apres_verification": 1276190.78,
+   "autres_montants": [],
+   "lots": [
+    "3"
+   ],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "MARHABA ZARK",
+   "montant_acte_engagement": 3790997.43,
+   "montant_apres_verification": 3790997.43,
+   "autres_montants": [],
+   "lots": [
+    "2"
+   ],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 4,
+ "alertes_ocr": [],
+ "notes_ocr": [
+  "« LK INTERIM » : montant rectifié de 1 282 296.96 à 1 276 190.78 DH.",
+  "Marché alloti (3 lots).",
+  "Maître d'ouvrage absent du PV (utiliser l'acheteur public du portail)."
+ ],
+ "qualite": "attribution"
+}

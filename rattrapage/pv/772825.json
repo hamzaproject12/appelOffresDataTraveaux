@@ -1,0 +1,51 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "772825",
+ "orgAcronyme": "o4d",
+ "reference_pv": null,
+ "nouveau": true,
+ "reference": null,
+ "objet": "Appel d'Offres Ouvert simplifie n° 19/2023 Relatif à : Aménagement des vestiaires Polyclinique CNSS Agadir en lot unique",
+ "acheteur": "Polyclinique de la CNSS Agadir",
+ "procedure": "appel d'offres ouvert simplifié",
+ "categorie": "Travaux",
+ "date_limite_plis": "08/12/2023",
+ "lieu_ouverture": "Salle de réunion, de la Polyclinique de la CNSS Agadir sis Bd My Youssef Extension X Agadir",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "14/12/2023",
+ "justification": "conformément à l’article 14 du R.C : L'offre la mieu disante.",
+ "infructueux": false,
+ "attributaire": "STE SOCURB ATLANTIC",
+ "montant_attribue": null,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "STE A.K ETUDE",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_offre_technique",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "STE SOCURB ATLANTIC",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 2,
+ "alertes_ocr": [
+  "Montant de l'attributaire « STE SOCURB ATLANTIC » non trouvé."
+ ],
+ "notes_ocr": [],
+ "qualite": "participants"
+}

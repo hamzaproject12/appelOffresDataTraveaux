@@ -1,0 +1,70 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "753461",
+ "orgAcronyme": "d4q",
+ "reference_pv": "17/2023/ABHOER",
+ "nouveau": true,
+ "reference": "17/2023/ABHOER",
+ "objet": "Travaux de révision des installations d'éclairage du barrage My Youssef ee",
+ "acheteur": "Agence du Bassin Hydraulique de l’'Oum Er-Rbia",
+ "procedure": null,
+ "categorie": "Travaux",
+ "date_limite_plis": "27/07/2023",
+ "lieu_ouverture": "Siège de l'Agence du Bassin Hydraulique de l’Oum Er-Rbia à Béni Mellal",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "03/08/2023",
+ "justification": "L'offre la moins disante. #7",
+ "infructueux": false,
+ "attributaire": "Société PROMETI",
+ "montant_attribue": 1799988.0,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "Société Chaimae des Travaux d’Électricité - Société PROMETI",
+   "montant_acte_engagement": 1919004.0,
+   "montant_apres_verification": 1919004.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Société PETRADIS - Société TASTAOUTE",
+   "montant_acte_engagement": 2214432.0,
+   "montant_apres_verification": 2214432.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Société PROMETI",
+   "montant_acte_engagement": 1799988.0,
+   "montant_apres_verification": 1799988.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Société TASTAOUTe",
+   "montant_acte_engagement": 2119800.0,
+   "montant_apres_verification": 2119800.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 4,
+ "alertes_ocr": [
+  "« Société PROMETI » absent de la liste des plis déposés (nom mal lu ?).",
+  "« Société TASTAOUTe » absent de la liste des plis déposés (nom mal lu ?)."
+ ],
+ "notes_ocr": [],
+ "qualite": "complet"
+}

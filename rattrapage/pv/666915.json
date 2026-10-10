@@ -1,0 +1,73 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "666915",
+ "orgAcronyme": "j0w",
+ "reference_pv": null,
+ "nouveau": true,
+ "reference": null,
+ "objet": "Travaux de réfection de voirie et trottoirs relevant de la ville de Marrakech",
+ "acheteur": "Commune de Marrakech",
+ "procedure": null,
+ "categorie": "Travaux",
+ "date_limite_plis": "28/09/2022",
+ "lieu_ouverture": "Commune de Marrakech à l'Avenue Mohamed VI fournaux ayant publié l'avis de publicité",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "11/10/2022",
+ "justification": "l'Offre l'avantageuse est l'offre la moins disante.",
+ "infructueux": false,
+ "attributaire": "SOCIETE SAKITRA",
+ "montant_attribue": 3844800.0,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "ENTREPRISE GENERALE DES ROUTES ET DES TRAVAUX PUBLICS(GRTP)",
+   "montant_acte_engagement": 4009200.0,
+   "montant_apres_verification": 4009200.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "MENARA AMENAGEMENT ET SOCIETE ECA EL MARAH",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "SOCIETE SAKITRA",
+   "montant_acte_engagement": 3844800.0,
+   "montant_apres_verification": 3844800.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "GROUPEMENT SOLIDAIRE ENTRE LA SOCIETE MENARA",
+   "montant_acte_engagement": 4028400.0,
+   "montant_apres_verification": 4028400.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 4,
+ "alertes_ocr": [
+  "« ENTREPRISE GENERALE DES ROUTES ET DES TRAVAUX PUBLICS(GRTP) » absent de la liste des plis déposés (nom mal lu ?).",
+  "« SOCIETE SAKITRA » absent de la liste des plis déposés (nom mal lu ?).",
+  "« GROUPEMENT SOLIDAIRE ENTRE LA SOCIETE MENARA » absent de la liste des plis déposés (nom mal lu ?)."
+ ],
+ "notes_ocr": [
+  "« MENARA AMENAGEMENT ET SOCIETE ECA EL MARAH » absent de la liste des plis déposés (nom mal lu ?)."
+ ],
+ "qualite": "complet"
+}

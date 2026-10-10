@@ -1,0 +1,94 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "992499",
+ "orgAcronyme": "d0q",
+ "reference_pv": "02/2026/SAT",
+ "nouveau": true,
+ "reference": "02/2026/SAT",
+ "objet": "Travaux d’achèvement du réaménagement du Boulevard Mohamed Belhaj et place Vi Panoramique à Taza Haut (Tranche 2) Commune de Taza, Province de Taza, Région Fès-Meknès",
+ "acheteur": "Commune de Taza",
+ "procedure": "appel d'offres ouvert",
+ "categorie": "Travaux",
+ "date_limite_plis": "26/03/2026",
+ "lieu_ouverture": "Bd Moulay youssef siege de l’ex-communauté urbaine de Taza",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": null,
+ "justification": "L’offre la plus avantageuse",
+ "infructueux": false,
+ "attributaire": "Groupement : SOCIETE TOUS TRAVAUX DE GENIE CIVILE MAROCAINE SARL AU",
+ "montant_attribue": 2872490.4,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "STE ZOTROS SARL AU (ARFOUD)",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Groupement : SOCIETE TOUS TRAVAUX DE GENIE CIVILE MAROCAINE SARL AU",
+   "montant_acte_engagement": 2872490.4,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "et STE SEMIBAT SARL AU (MEKNES)",
+   "montant_acte_engagement": 2872490.4,
+   "montant_apres_verification": null,
+   "autres_montants": [
+    2872490.4
+   ],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "STAWIL « SARL (ER-RICH)",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "SOCIETE ZOTROS SARL AU",
+   "montant_acte_engagement": 3329304.0,
+   "montant_apres_verification": null,
+   "autres_montants": [
+    3375096.0
+   ],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "SOCIETE STAMIL SARL",
+   "montant_acte_engagement": 3388876.8,
+   "montant_apres_verification": null,
+   "autres_montants": [
+    3388876.8
+   ],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 6,
+ "alertes_ocr": [
+  "« SOCIETE ZOTROS SARL AU » absent de la liste des plis déposés (nom mal lu ?).",
+  "« SOCIETE STAMIL SARL » absent de la liste des plis déposés (nom mal lu ?)."
+ ],
+ "notes_ocr": [],
+ "qualite": "complet"
+}

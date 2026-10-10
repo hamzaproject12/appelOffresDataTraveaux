@@ -1,0 +1,53 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "941453",
+ "orgAcronyme": "g3h",
+ "reference_pv": "10002114",
+ "nouveau": true,
+ "reference": "10002114",
+ "objet": "réhabilitation du réseau d’eau potable au niveau de la ville de Berkane — Province de Berkane- Le. ne",
+ "acheteur": null,
+ "procedure": null,
+ "categorie": "Travaux",
+ "date_limite_plis": "25/08/2025",
+ "lieu_ouverture": "Siège de la SRM-ORI : Ni",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": null,
+ "justification": "Offre moins-disante conforme. D",
+ "infructueux": false,
+ "attributaire": "OUJDA CHAUFFAGE",
+ "montant_attribue": 9004800.0,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "IMA, HOLDING AL BARAKA, OUJDA CHAUFFAGE et ENTRAID",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "OUJDA CHAUFFAGE",
+   "montant_acte_engagement": 9004800.0,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 2,
+ "alertes_ocr": [
+  "« OUJDA CHAUFFAGE » absent de la liste des plis déposés (nom mal lu ?)."
+ ],
+ "notes_ocr": [
+  "Maître d'ouvrage absent du PV (utiliser l'acheteur public du portail)."
+ ],
+ "qualite": "attribution"
+}

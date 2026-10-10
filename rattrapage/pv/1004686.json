@@ -1,0 +1,58 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "1004686",
+ "orgAcronyme": "f9f",
+ "reference_pv": "09/2026/TN/CAM",
+ "nouveau": true,
+ "reference": "09/2026/TN/CAM",
+ "objet": null,
+ "acheteur": "Commune Ait Melloul",
+ "procedure": "appel d'offres ouvert national",
+ "categorie": "Travaux",
+ "date_limite_plis": "05/05/2026",
+ "lieu_ouverture": "salle de réunion au pare municipal sis au quartier industriel à Ait Melloul",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": null,
+ "justification": "le règlement de la consultation y afférent)",
+ "infructueux": false,
+ "attributaire": "SOCIETE SSTCO",
+ "montant_attribue": 1948932.0,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "SOCIETE FBTS",
+   "montant_acte_engagement": 1682316.0,
+   "montant_apres_verification": 1682316.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_offre_financiere",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "SOCIETE SSTCO",
+   "montant_acte_engagement": 1948932.0,
+   "montant_apres_verification": 1948932.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Groupement SOCIETE TRAVAUX Y COMPRIS et SOCIETE AD PAYSAGE",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_dossier_administratif_technique",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 3,
+ "alertes_ocr": [],
+ "notes_ocr": [],
+ "qualite": "complet"
+}

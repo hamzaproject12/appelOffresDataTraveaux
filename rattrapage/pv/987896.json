@@ -1,0 +1,63 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "987896",
+ "orgAcronyme": "o8p",
+ "reference_pv": "01/2026/GSC",
+ "nouveau": true,
+ "reference": "01/2026/GSC",
+ "objet": "TRAVAUX DE CONSTRUCTION DU GRAND STADE DE CASABLANCA -— PROVINCE DE BENSLIMANE. LOT N°3 : COUVERTURE ET FACADE",
+ "acheteur": null,
+ "procedure": "appel d'offres ouvert international",
+ "categorie": "Travaux",
+ "date_limite_plis": "12/03/2026",
+ "lieu_ouverture": "Salle de réunions de l'Agence Nationale des Equipements Publics, Hay Nahda 2 à Rabat",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "25/03/2026",
+ "justification": "Conformément aux dispositions des articles 5 et 14 du règlement de la consultation.",
+ "infructueux": false,
+ "attributaire": "Groupement SGTM-TGCC",
+ "montant_attribue": 3767825180.4,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "de Sociétés SGTM-TGCC",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Société INTER TRIDIM",
+   "montant_acte_engagement": 3850534252.09,
+   "montant_apres_verification": 3850533448.9,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Groupement SGTM-TGCC",
+   "montant_acte_engagement": 3767825180.4,
+   "montant_apres_verification": 3767825180.4,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 3,
+ "alertes_ocr": [
+  "« Groupement SGTM-TGCC » absent de la liste des plis déposés (nom mal lu ?)."
+ ],
+ "notes_ocr": [
+  "« Société INTER TRIDIM » : montant rectifié de 3 850 534 252.09 à 3 850 533 448.90 DH.",
+  "Maître d'ouvrage absent du PV (utiliser l'acheteur public du portail)."
+ ],
+ "qualite": "complet"
+}

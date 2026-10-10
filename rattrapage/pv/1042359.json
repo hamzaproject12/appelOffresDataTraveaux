@@ -1,0 +1,58 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "1042359",
+ "orgAcronyme": "p1v",
+ "reference_pv": "11/STU/2026",
+ "nouveau": true,
+ "reference": "11/STU/2026",
+ "objet": "TRAVAUX DE CONSTRUCTION D'UN PONT SUR L'OUED LFAREGH A LA PISTE RELIANT LA ROUTE PROVINCIAL 3459 ET DOUAR OULAD SIDI AHMED , DOUAR OULAD ABOU A LA COMMUNE DE LAAOUNATE",
+ "acheteur": "Commune Laaounate",
+ "procedure": "appel d'offres ouvert national",
+ "categorie": "Travaux",
+ "date_limite_plis": "03/09/2026",
+ "lieu_ouverture": "le bureau de Monsieur le Président",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "10/09/2026",
+ "justification": "la plus avantageuse est l'offre la plus élevée.",
+ "infructueux": false,
+ "attributaire": "STE AMIS TP SARL",
+ "montant_attribue": 795840.0,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "STE TRABATIR SARL AU",
+   "montant_acte_engagement": 811596.0,
+   "montant_apres_verification": 811596.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "STE IFOULKI RTM SARL AU",
+   "montant_acte_engagement": 797052.0,
+   "montant_apres_verification": 797052.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "STE AMIS TP SARL",
+   "montant_acte_engagement": 795840.0,
+   "montant_apres_verification": 795840.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 3,
+ "alertes_ocr": [],
+ "notes_ocr": [],
+ "qualite": "complet"
+}

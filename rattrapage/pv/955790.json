@@ -1,0 +1,64 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "955790",
+ "orgAcronyme": "g3h",
+ "reference_pv": "168/2025/S2A",
+ "nouveau": true,
+ "reference": "168/2025/S2A",
+ "objet": "TRAVAUX DE REQUALIFICATION DES QUARTIERS DE LA VILLE D’AGADIR TRANCHE 1 : QUARTIER IHCHACH TRAVAUX DE VOIRIE, D’ASSAINISSEMENT ET DE GENIE CIVIL",
+ "acheteur": null,
+ "procedure": "appel d'offres ouvert",
+ "categorie": "Travaux",
+ "date_limite_plis": null,
+ "lieu_ouverture": null,
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": null,
+ "justification": null,
+ "infructueux": false,
+ "attributaire": "GROUPEMENT SOCIETE ETIA & SOCIETE SICATRA",
+ "montant_attribue": 46368000.0,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "GROUPEMENT SOCIETE ETIA & SOCIETE SICATRA",
+   "montant_acte_engagement": 46368000.0,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": true
+  },
+  {
+   "nom": "SOCIETE ALEQ",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": true
+  },
+  {
+   "nom": "GROUPEMENT SOCIETE ETIA & SOCIETE",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": true
+  }
+ ],
+ "nombre_soumissionnaires": 3,
+ "alertes_ocr": [
+  "« GROUPEMENT SOCIETE ETIA & SOCIETE SICATRA » absent de la liste des plis déposés (nom mal lu ?)."
+ ],
+ "notes_ocr": [
+  "« SOCIETE ALEQ » absent de la liste des plis déposés (nom mal lu ?).",
+  "« GROUPEMENT SOCIETE ETIA & SOCIETE » absent de la liste des plis déposés (nom mal lu ?).",
+  "Maître d'ouvrage absent du PV (utiliser l'acheteur public du portail)."
+ ],
+ "qualite": "attribution"
+}

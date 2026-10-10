@@ -1,0 +1,93 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "675350",
+ "orgAcronyme": "d4q",
+ "reference_pv": "49/DR4/C/2022",
+ "nouveau": true,
+ "reference": "49/DR4/C/2022",
+ "objet": "Assainissement liquide du centre Mogran - Lot l Réseau des eaux usées",
+ "acheteur": null,
+ "procedure": "appel d'offres ouvert",
+ "categorie": "Travaux",
+ "date_limite_plis": "13/09/2022",
+ "lieu_ouverture": "Siège de la Direction Régionale de l'Ouest (DR4) Lotissement Al Qods - Kénitra - Maroc",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "08/11/2022",
+ "justification": "Moins-disant",
+ "infructueux": false,
+ "attributaire": "GMTP (GENIE MAROCAIN DES TRAVAUX",
+ "montant_attribue": 11456916.0,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "ADDICH TRAVAUX MAROC",
+   "montant_acte_engagement": 13643328.0,
+   "montant_apres_verification": 13643328.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "GROUP GERAB",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "depose",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "OKTITRAVAUX MAROC",
+   "montant_acte_engagement": 15603926.4,
+   "montant_apres_verification": 15603926.4,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "GROUP SMYBAM / MARHABA ZARK / IKEFRANE",
+   "montant_acte_engagement": 10111370.4,
+   "montant_apres_verification": 10171250.4,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "GROUP GERAB / ETACER",
+   "montant_acte_engagement": 12480631.44,
+   "montant_apres_verification": 12480644.4,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "GMTP (GENIE MAROCAIN DES TRAVAUX",
+   "montant_acte_engagement": 11456916.0,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 6,
+ "alertes_ocr": [
+  "« GROUP SMYBAM / MARHABA ZARK / IKEFRANE » absent de la liste des plis déposés (nom mal lu ?).",
+  "« GROUP GERAB / ETACER » absent de la liste des plis déposés (nom mal lu ?).",
+  "« GMTP (GENIE MAROCAIN DES TRAVAUX » absent de la liste des plis déposés (nom mal lu ?)."
+ ],
+ "notes_ocr": [
+  "« GROUP SMYBAM / MARHABA ZARK / IKEFRANE » : montant rectifié de 10 111 370.40 à 10 171 250.40 DH.",
+  "« GROUP GERAB / ETACER » : montant rectifié de 12 480 631.44 à 12 480 644.40 DH.",
+  "Maître d'ouvrage absent du PV (utiliser l'acheteur public du portail)."
+ ],
+ "qualite": "complet"
+}

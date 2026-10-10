@@ -1,0 +1,47 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "734895",
+ "orgAcronyme": "q1s",
+ "reference_pv": "31/2023/0RH/SGRID",
+ "nouveau": true,
+ "reference": "31/2023/0RH/SGRID",
+ "objet": "MAINTENANCE DU SYSTÈME D'AVERTISSEMENT À L'IRRIGATION",
+ "acheteur": null,
+ "procedure": null,
+ "categorie": "Travaux",
+ "date_limite_plis": "25/07/2023",
+ "lieu_ouverture": "Siège de l'Office Régional de Mise en Valeur Agricole du Haouz",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "07/08/2023",
+ "justification": "l'Offre la plus avantageuse est présentée par la société : QUALITAS ENVIRONMENTAL SOLUTIONS",
+ "infructueux": false,
+ "attributaire": "QUALITAS ENVIRONMENTAL SOLUTIONS",
+ "montant_attribue": 200000.0,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "QUALITAS ENVIRONMENTAL SOLUTIONS",
+   "montant_acte_engagement": 200000.0,
+   "montant_apres_verification": 4545000.0,
+   "autres_montants": [
+    400000.0
+   ],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 1,
+ "alertes_ocr": [
+  "« QUALITAS ENVIRONMENTAL SOLUTIONS » : écart anormal entre montant initial et vérifié (lecture à vérifier)."
+ ],
+ "notes_ocr": [
+  "« QUALITAS ENVIRONMENTAL SOLUTIONS » : montant rectifié de 200 000.00 à 4 545 000.00 DH.",
+  "Maître d'ouvrage absent du PV (utiliser l'acheteur public du portail)."
+ ],
+ "qualite": "attribution"
+}

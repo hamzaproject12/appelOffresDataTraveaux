@@ -1,0 +1,90 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "772761",
+ "orgAcronyme": "g3h",
+ "reference_pv": null,
+ "nouveau": true,
+ "reference": null,
+ "objet": null,
+ "acheteur": null,
+ "procedure": null,
+ "categorie": "Travaux",
+ "date_limite_plis": null,
+ "lieu_ouverture": null,
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "02/02/2024",
+ "justification": "“ La meilleure combinaison des offres permettant au maître d'ouvrage de retenir l'offre globale la plus avantageuse pour l’ensemble des lots.",
+ "infructueux": false,
+ "attributaire": "Société GTR",
+ "montant_attribue": 237307562.4,
+ "attributaires_par_lot": [
+  {
+   "lot": "1",
+   "attributaire": "Société GTR",
+   "montant": 237307562.4
+  },
+  {
+   "lot": "2",
+   "attributaire": "Groupement TGCC-HOUAR",
+   "montant": 306369447.06
+  }
+ ],
+ "soumissionnaires": [
+  {
+   "nom": "Société NGE CONTRACTING",
+   "montant_acte_engagement": 240311730.0,
+   "montant_apres_verification": null,
+   "autres_montants": [
+    240311730.0,
+    321389496.72
+   ],
+   "lots": [
+    "1",
+    "2"
+   ],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Groupement TGCC-HOUAR",
+   "montant_acte_engagement": 224313042.41,
+   "montant_apres_verification": null,
+   "autres_montants": [
+    224313042.41,
+    306369447.06
+   ],
+   "lots": [
+    "1",
+    "2"
+   ],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Société GTR",
+   "montant_acte_engagement": 237307562.4,
+   "montant_apres_verification": null,
+   "autres_montants": [
+    237307562.4,
+    325716927.12
+   ],
+   "lots": [
+    "1",
+    "2"
+   ],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 3,
+ "alertes_ocr": [],
+ "notes_ocr": [
+  "Marché alloti (2 lots).",
+  "Maître d'ouvrage absent du PV (utiliser l'acheteur public du portail)."
+ ],
+ "qualite": "complet"
+}

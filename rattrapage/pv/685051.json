@@ -1,0 +1,141 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "685051",
+ "orgAcronyme": "g8e",
+ "reference_pv": "81/2022",
+ "nouveau": true,
+ "reference": "81/2022",
+ "objet": "L’ACHEVEMENT DES TRAVAUX DE CONSTRUCTION DU SIEGE DE LA DIRECTION PROVINCIALE D'AL HOCEIMA (3 LOTS)",
+ "acheteur": "ADII",
+ "procedure": "appel d'offres ouvert",
+ "categorie": "Travaux",
+ "date_limite_plis": "21/11/2022",
+ "lieu_ouverture": null,
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "13/12/2022",
+ "justification": "offre la moins la disante",
+ "infructueux": false,
+ "attributaire": "Morrocco new technique sarl",
+ "montant_attribue": 3412980.0,
+ "attributaires_par_lot": [
+  {
+   "lot": null,
+   "attributaire": "Morrocco new technique sarl",
+   "montant": 3412980.0
+  },
+  {
+   "lot": "2",
+   "attributaire": "OFFICIA sarl AU",
+   "montant": 1870896.0
+  },
+  {
+   "lot": "2",
+   "attributaire": "Assabane Helec sarl",
+   "montant": 599922.0
+  }
+ ],
+ "soumissionnaires": [
+  {
+   "nom": "Mourdani sarl",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": true
+  },
+  {
+   "nom": "OFFICIA sarl AU",
+   "montant_acte_engagement": 1870896.0,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [
+    "2"
+   ],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "SADMELEC sarl",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "MAG Project sarl",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Rabat béton sarl",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "MAZZA ET Bel Hadj",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "TGCI sarl",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_dossier_administratif_technique",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Projet bâtiment",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Assabane Helec sarl",
+   "montant_acte_engagement": 599922.0,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [
+    "2"
+   ],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Morrocco new technique sarl",
+   "montant_acte_engagement": 3412980.0,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 10,
+ "alertes_ocr": [],
+ "notes_ocr": [],
+ "qualite": "attribution"
+}

@@ -1,0 +1,90 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "797046",
+ "orgAcronyme": "d4q",
+ "reference_pv": null,
+ "nouveau": true,
+ "reference": null,
+ "objet": null,
+ "acheteur": null,
+ "procedure": null,
+ "categorie": "Travaux",
+ "date_limite_plis": "28/03/2024",
+ "lieu_ouverture": "Direction Approvisionnements et Marchés (DAM) : 65, Rue Othman Ben Affan 20000 Casablanca",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": null,
+ "justification": "Moins disant conformes",
+ "infructueux": false,
+ "attributaire": "OSGc",
+ "montant_attribue": 2754240.0,
+ "attributaires_par_lot": [
+  {
+   "lot": null,
+   "attributaire": "OSGc",
+   "montant": 2754240.0
+  },
+  {
+   "lot": "1",
+   "attributaire": "GTD",
+   "montant": 3096000.0
+  },
+  {
+   "lot": "2",
+   "attributaire": "OSGc",
+   "montant": 2058360.0
+  },
+  {
+   "lot": "1",
+   "attributaire": "OSGc",
+   "montant": 2754240.0
+  }
+ ],
+ "soumissionnaires": [
+  {
+   "nom": "GTD , OSGC",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "OSGc",
+   "montant_acte_engagement": 2754240.0,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [
+    "1",
+    "2"
+   ],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "GTD",
+   "montant_acte_engagement": 3096000.0,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [
+    "1"
+   ],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 3,
+ "alertes_ocr": [
+  "« OSGc » absent de la liste des plis déposés (nom mal lu ?).",
+  "« GTD » absent de la liste des plis déposés (nom mal lu ?)."
+ ],
+ "notes_ocr": [
+  "Marché alloti (2 lots).",
+  "Maître d'ouvrage absent du PV (utiliser l'acheteur public du portail)."
+ ],
+ "qualite": "attribution"
+}

@@ -1,0 +1,88 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "921200",
+ "orgAcronyme": "e5w",
+ "reference_pv": "02/2025/CO",
+ "nouveau": true,
+ "reference": "02/2025/CO",
+ "objet": "TRAVAUX DE CONSTRUCTION DE SEGUIAS AUX DOUARS MAGDOULE OULAD DEHOU, MAGDOULE OULAD YOUSSEF LAKRARMA ET CENTRE DE OUIZEGHT RELEVANT DE LA COMMUNE DE OUIZEGHT",
+ "acheteur": "Commune de Ouizeght",
+ "procedure": "appel d'offres ouvert simplifié",
+ "categorie": "Travaux",
+ "date_limite_plis": null,
+ "lieu_ouverture": null,
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "28/05/2025",
+ "justification": "offre économiquement avantageuse",
+ "infructueux": false,
+ "attributaire": "STE GENIE OZOUDY DES TRAVAUX PUBLICS",
+ "montant_attribue": 432060.0,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "STE ALBI TRAVAUX DIVERS ET NEGOCES",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "depose",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "STE PLOMB SARL",
+   "montant_acte_engagement": 423900.0,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "STE LASDEM TSF SARL",
+   "montant_acte_engagement": 435156.0,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": " STE TITHRIT SARL",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "depose",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "STE EL OUAFAQ TRAVAUX",
+   "montant_acte_engagement": 489782.4,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "STE GENIE OZOUDY DES TRAVAUX PUBLICS",
+   "montant_acte_engagement": 432060.0,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 6,
+ "alertes_ocr": [
+  "« STE EL OUAFAQ TRAVAUX » absent de la liste des plis déposés (nom mal lu ?).",
+  "« STE GENIE OZOUDY DES TRAVAUX PUBLICS » absent de la liste des plis déposés (nom mal lu ?)."
+ ],
+ "notes_ocr": [],
+ "qualite": "complet"
+}

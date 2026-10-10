@@ -1,0 +1,104 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "710471",
+ "orgAcronyme": "u9g",
+ "reference_pv": "06/2023",
+ "nouveau": true,
+ "reference": "06/2023",
+ "objet": "du marché Fondation Mohammed VI de Promotion des Œuvres Sociales de lPEducation-Formation à Guelmim",
+ "acheteur": "8 l’Education-Formation",
+ "procedure": null,
+ "categorie": "Travaux",
+ "date_limite_plis": "11/04/2023",
+ "lieu_ouverture": "Siège de la Fondation",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "27/04/2023",
+ "justification": "offre la plus intéressante.",
+ "infructueux": false,
+ "attributaire": "STE STS PROJECTS",
+ "montant_attribue": 110860.0,
+ "attributaires_par_lot": [
+  {
+   "lot": null,
+   "attributaire": "STE STS PROJECTS",
+   "montant": 110860.0
+  },
+  {
+   "lot": null,
+   "attributaire": "STE CHRAMHA",
+   "montant": 116527.0
+  },
+  {
+   "lot": null,
+   "attributaire": "ENTREPRISE GAIN ALBARAKA",
+   "montant": 155835.0
+  },
+  {
+   "lot": null,
+   "attributaire": "STE BANI TD",
+   "montant": 158555.0
+  },
+  {
+   "lot": null,
+   "attributaire": "TAAMIR HOLDING",
+   "montant": 333340.0
+  }
+ ],
+ "soumissionnaires": [
+  {
+   "nom": "STE BANI TD",
+   "montant_acte_engagement": 158555.0,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "STE CHRAMHA",
+   "montant_acte_engagement": 116527.0,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "STE STS PROJECTS",
+   "montant_acte_engagement": 110860.0,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": true
+  },
+  {
+   "nom": "ENTREPRISE GAIN ALBARAKA",
+   "montant_acte_engagement": 155835.0,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": true
+  },
+  {
+   "nom": "TAAMIR HOLDING",
+   "montant_acte_engagement": 333340.0,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": true
+  }
+ ],
+ "nombre_soumissionnaires": 5,
+ "alertes_ocr": [],
+ "notes_ocr": [
+  "Montants exprimés hors taxes (HT)."
+ ],
+ "qualite": "attribution"
+}

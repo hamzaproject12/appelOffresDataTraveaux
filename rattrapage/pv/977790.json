@@ -1,0 +1,99 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "977790",
+ "orgAcronyme": "j8k",
+ "reference_pv": "108/2025",
+ "nouveau": true,
+ "reference": "108/2025",
+ "objet": "TRAVAUX DE VOIRIE ET D'ASSAINISSEMENT DU LOTISSEMENT POLE ADMINISTRATIF SIS À LA COMMUNE LKHENG, PROVINCE D'ERRACHIDIA",
+ "acheteur": "SOCIETE AL OMRANE DRÂA-TAFILALET",
+ "procedure": "appel d'offres ouvert",
+ "categorie": "Travaux",
+ "date_limite_plis": null,
+ "lieu_ouverture": "SOCIETE AL OMRANE DRÂA-TAFILALET",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": null,
+ "justification": null,
+ "infructueux": false,
+ "attributaire": "GROUPEMENT ARD VERTE & REFORMAN",
+ "montant_attribue": 10375027.28,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "GROUPEMENT SOMADICAT & SHTR",
+   "montant_acte_engagement": 10424275.82,
+   "montant_apres_verification": null,
+   "autres_montants": [
+    10424275.82
+   ],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": true
+  },
+  {
+   "nom": "ENTRETIENT DE BATIMENT ET OUVRAGES",
+   "montant_acte_engagement": 10670518.6,
+   "montant_apres_verification": null,
+   "autres_montants": [
+    10670518.6
+   ],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "NICE GARDEN",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_offre_technique",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "ETABLISSEMENT ESSAKINI",
+   "montant_acte_engagement": 10957801.75,
+   "montant_apres_verification": null,
+   "autres_montants": [
+    10957801.75
+   ],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "GROUPEMENT SALBI & ENARU",
+   "montant_acte_engagement": 11080923.12,
+   "montant_apres_verification": null,
+   "autres_montants": [
+    11080923.12
+   ],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "GROUPEMENT ARD VERTE & REFORMAN",
+   "montant_acte_engagement": 10375027.28,
+   "montant_apres_verification": null,
+   "autres_montants": [
+    10375027.28
+   ],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 6,
+ "alertes_ocr": [
+  "« ETABLISSEMENT ESSAKINI » absent de la liste des plis déposés (nom mal lu ?).",
+  "« GROUPEMENT SALBI & ENARU » absent de la liste des plis déposés (nom mal lu ?).",
+  "« GROUPEMENT ARD VERTE & REFORMAN » absent de la liste des plis déposés (nom mal lu ?)."
+ ],
+ "notes_ocr": [],
+ "qualite": "complet"
+}

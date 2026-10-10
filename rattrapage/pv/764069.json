@@ -1,0 +1,64 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "764069",
+ "orgAcronyme": "o8p",
+ "reference_pv": "161-23-AOO",
+ "nouveau": true,
+ "reference": "161-23-AOO",
+ "objet": "Travaux d'entretien des blocs sanitaires à la plateforme aéroportuaire Casablanca Mohammed V. |",
+ "acheteur": "l'OFFICE NATIONAL DES AEROPORTS",
+ "procedure": "appel d'offres ouvert",
+ "categorie": "Travaux",
+ "date_limite_plis": null,
+ "lieu_ouverture": "La salle de réunion de la Direction des Achaïs ei de la Logistique",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "14/12/2023",
+ "justification": "Moins-disant conforme.",
+ "infructueux": false,
+ "attributaire": "rectifications éventuelles CLIMATHERM",
+ "montant_attribue": 4909027.2,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "ACHRAF CLIM",
+   "montant_acte_engagement": 5929084.8,
+   "montant_apres_verification": 5929084.8,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "rectifications éventuelles CLIMATHERM",
+   "montant_acte_engagement": 4909027.2,
+   "montant_apres_verification": 4909027.2,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "DE | LP",
+   "montant_acte_engagement": 4781520.0,
+   "montant_apres_verification": null,
+   "autres_montants": [
+    4928153.28
+   ],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 3,
+ "alertes_ocr": [
+  "« ACHRAF CLIM » absent de la liste des plis déposés (nom mal lu ?).",
+  "« rectifications éventuelles CLIMATHERM » absent de la liste des plis déposés (nom mal lu ?).",
+  "« DE | LP » absent de la liste des plis déposés (nom mal lu ?)."
+ ],
+ "notes_ocr": [],
+ "qualite": "complet"
+}

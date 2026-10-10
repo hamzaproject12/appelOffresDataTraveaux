@@ -1,0 +1,69 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "754352",
+ "orgAcronyme": "m8x",
+ "reference_pv": "02/2023",
+ "nouveau": true,
+ "reference": "02/2023",
+ "objet": null,
+ "acheteur": ", COMMUNE DE TAMANARTE",
+ "procedure": null,
+ "categorie": "Travaux",
+ "date_limite_plis": null,
+ "lieu_ouverture": ", BUREAU DU PRESIDENT DE LA COMMUNE",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "01/11/2023",
+ "justification": "OFFRE LA MOINS DISANTE ET LA PLUS AVANTAGEUSE. CONFORMEMENT A L'ARTICLE 1 DU REGLEMENT D PRESENT APPEL D'OFFRE EST LANCE EN TROIS (3) LOTS S EHFECTUE PAR LOT, LE MEME CONCURRENT NE PEUT EIRE ATIKIB E LA CONSULTATION PREVOIR QUE LE EPARES, LE JUGEMENT DES OFFRES SERA UTAIRE QUE D'UN SEUL LOT.",
+ "infructueux": false,
+ "attributaire": null,
+ "montant_attribue": null,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "LOT O1 STE NALT La caution n'est pas signée électroniquement",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_dossier_administratif_technique",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "STE NACIRIGDALI",
+   "montant_acte_engagement": 471830.52,
+   "montant_apres_verification": 471830.52,
+   "autres_montants": [],
+   "lots": [
+    "01"
+   ],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "STE IFDISSE",
+   "montant_acte_engagement": 497075.64,
+   "montant_apres_verification": 497075.64,
+   "autres_montants": [],
+   "lots": [
+    "02"
+   ],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 3,
+ "alertes_ocr": [
+  "« STE NACIRIGDALI » absent de la liste des plis déposés (nom mal lu ?).",
+  "« STE IFDISSE » absent de la liste des plis déposés (nom mal lu ?).",
+  "Attributaire non trouvé."
+ ],
+ "notes_ocr": [
+  "« LOT O1 STE NALT La caution n'est pas signée électroniquement » absent de la liste des plis déposés (nom mal lu ?).",
+  "Marché alloti (2 lots)."
+ ],
+ "qualite": "complet"
+}

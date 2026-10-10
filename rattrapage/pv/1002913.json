@@ -1,0 +1,91 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "1002913",
+ "orgAcronyme": "g3h",
+ "reference_pv": "37/2026",
+ "nouveau": true,
+ "reference": "37/2026",
+ "objet": null,
+ "acheteur": "Société Régionale Multiservices Fès Meknès « SRM-FM »",
+ "procedure": null,
+ "categorie": "Travaux",
+ "date_limite_plis": "07/04/2026",
+ "lieu_ouverture": "Siège de la SRM-FM",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "05/05/2026",
+ "justification": "L’offre la plus avantageuse.",
+ "infructueux": false,
+ "attributaire": "SOUSALIO",
+ "montant_attribue": 12918050.0,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "SOUSALIO",
+   "montant_acte_engagement": 12918050.0,
+   "montant_apres_verification": 15501660.0,
+   "autres_montants": [
+    15501660.0
+   ],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "MATITRAVE",
+   "montant_acte_engagement": 16335250.0,
+   "montant_apres_verification": 19602300.0,
+   "autres_montants": [
+    19602300.0
+   ],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "ARCO",
+   "montant_acte_engagement": 14192400.0,
+   "montant_apres_verification": null,
+   "autres_montants": [
+    17030880.0
+   ],
+   "lots": [],
+   "statut": "ecarte_offre_financiere",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "SMYBAM",
+   "montant_acte_engagement": 15065950.0,
+   "montant_apres_verification": 18079140.0,
+   "autres_montants": [
+    18079140.0
+   ],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "GROUPEMENT GERAB & COVATRAP",
+   "montant_acte_engagement": 15702600.0,
+   "montant_apres_verification": 18843120.0,
+   "autres_montants": [
+    18843120.0
+   ],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 5,
+ "alertes_ocr": [],
+ "notes_ocr": [
+  "« SOUSALIO » : montant rectifié de 12 918 050.00 à 15 501 660.00 DH.",
+  "« MATITRAVE » : montant rectifié de 16 335 250.00 à 19 602 300.00 DH.",
+  "« SMYBAM » : montant rectifié de 15 065 950.00 à 18 079 140.00 DH.",
+  "« GROUPEMENT GERAB & COVATRAP » : montant rectifié de 15 702 600.00 à 18 843 120.00 DH."
+ ],
+ "qualite": "complet"
+}

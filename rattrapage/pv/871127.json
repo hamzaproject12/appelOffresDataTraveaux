@@ -1,0 +1,80 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "871127",
+ "orgAcronyme": "g3h",
+ "reference_pv": "08/2024/FRA-TRVX",
+ "nouveau": true,
+ "reference": "08/2024/FRA-TRVX",
+ "objet": "projet de construction de deux marchés de proximité au niveau de la ville de Fès,",
+ "acheteur": null,
+ "procedure": "appel d'offres ouvert",
+ "categorie": "Travaux",
+ "date_limite_plis": null,
+ "lieu_ouverture": "les bureaux de la « Société Fès Région Aménagement »",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": null,
+ "justification": "l’offre la plus avantageuse pour l’ Administration Date de l’achèvement des travaux de la commission : le 31 Janvier 2025",
+ "infructueux": false,
+ "attributaire": "Groupement entre Société Hamsaoui Travaux de Construction de Casablanca (HTCC SARL",
+ "montant_attribue": 22915035.2,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "Société MBI SCAVI SARL à TEMARA",
+   "montant_acte_engagement": 22798464.24,
+   "montant_apres_verification": 22798461.04,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_offre_financiere",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Groupement entre Société Hamsaoui Travaux de Construction de Casablanca (HTCC SARL",
+   "montant_acte_engagement": 22914853.2,
+   "montant_apres_verification": 22915035.2,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Société WINARUS ING SARL AU à Casablanca",
+   "montant_acte_engagement": 23442641.28,
+   "montant_apres_verification": 23442641.28,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_offre_financiere",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Société Soulaimani de Travaux Divers -SOSOTRAD SARL- à Temarra",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "depose",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Société CLUTCH SARL AU à SALA ALJADIDA",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "depose",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 5,
+ "alertes_ocr": [],
+ "notes_ocr": [
+  "« Société MBI SCAVI SARL à TEMARA » : montant rectifié de 22 798 464.24 à 22 798 461.04 DH.",
+  "« Groupement entre Société Hamsaoui Travaux de Construction de Casablanca (HTCC SARL » : montant rectifié de 22 914 853.20 à 22 915 035.20 DH.",
+  "Maître d'ouvrage absent du PV (utiliser l'acheteur public du portail)."
+ ],
+ "qualite": "complet"
+}

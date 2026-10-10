@@ -1,0 +1,54 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "942489",
+ "orgAcronyme": "d4q",
+ "reference_pv": "59/DR3/2025",
+ "nouveau": true,
+ "reference": "59/DR3/2025",
+ "objet": "- Date et heure d'ouverture des plis : 07/10/2025 10:30 (Ouverture en un seul temps)",
+ "acheteur": null,
+ "procedure": "appel d'offres ouvert",
+ "categorie": "Travaux",
+ "date_limite_plis": "07/10/2025",
+ "lieu_ouverture": "au siège de la Direction Régionale du Centre (DR3}) Boulevard Mohamed VI, Quartier Administratif - Khouribga - Maroc",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "21/10/2025",
+ "justification": "Moins-disant",
+ "infructueux": false,
+ "attributaire": "TBROTHÉR’S INITIATIVE SERVICES - Offre",
+ "montant_attribue": 478212.0,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "EF ET ETC ONCURRENT 31",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "depose",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "TBROTHÉR’S INITIATIVE SERVICES - Offre",
+   "montant_acte_engagement": 7478212.0,
+   "montant_apres_verification": 478212.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 2,
+ "alertes_ocr": [
+  "« TBROTHÉR’S INITIATIVE SERVICES - Offre » : écart anormal entre montant initial et vérifié (lecture à vérifier)."
+ ],
+ "notes_ocr": [
+  "« TBROTHÉR’S INITIATIVE SERVICES - Offre » : montant rectifié de 7 478 212.00 à 478 212.00 DH.",
+  "Maître d'ouvrage absent du PV (utiliser l'acheteur public du portail)."
+ ],
+ "qualite": "attribution"
+}

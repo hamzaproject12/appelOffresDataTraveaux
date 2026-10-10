@@ -1,0 +1,55 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "748017",
+ "orgAcronyme": "g3h",
+ "reference_pv": "53/2023",
+ "nouveau": true,
+ "reference": "53/2023",
+ "objet": "Travaux de remise en état des ascenseurs et monte-charges installés au Ministère de l'Intérieur à Rabat (lot unique) Ministre de l'Intérieur",
+ "acheteur": "Date d'ouverture des plis",
+ "procedure": "appel d'offres ouvert",
+ "categorie": "Travaux",
+ "date_limite_plis": null,
+ "lieu_ouverture": "l'Intérieur à Rabat l'Intérieur à Rabat",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "19/10/2023",
+ "justification": "L'offre la plus avantageuse qui est la moins disante.",
+ "infructueux": false,
+ "attributaire": "Sté. EHTECH",
+ "montant_attribue": 354000.0,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "Sté. EHTECH",
+   "montant_acte_engagement": 354000.0,
+   "montant_apres_verification": null,
+   "autres_montants": [
+    354000.0
+   ],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "mnt mme",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 2,
+ "alertes_ocr": [
+  "« Sté. EHTECH » absent de la liste des plis déposés (nom mal lu ?)."
+ ],
+ "notes_ocr": [
+  "« mnt mme » absent de la liste des plis déposés (nom mal lu ?)."
+ ],
+ "qualite": "attribution"
+}

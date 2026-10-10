@@ -1,0 +1,71 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "817654",
+ "orgAcronyme": "p8x",
+ "reference_pv": "45/AOO-INV/2024",
+ "nouveau": true,
+ "reference": "45/AOO-INV/2024",
+ "objet": null,
+ "acheteur": "La direction provinciale auprès de l'AREF DT à Tinghir represéntée par Mr le Directeur Provincial",
+ "procedure": "appel d'offres ouvert",
+ "categorie": "Travaux",
+ "date_limite_plis": "08/07/2024",
+ "lieu_ouverture": "La salle de réunion à la Direction Provinciale à Tinghir sise à rue Mohamed V à Tinghir La salle de réunion à la Direction Provinciale à Tinghir sise à rue Mohamed V à Tinghir",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "11/07/2024",
+ "justification": "L'OFFRE LA PLUS AVANTAGEUSE",
+ "infructueux": false,
+ "attributaire": null,
+ "montant_attribue": null,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "STE AIN IFASFASS SARL",
+   "montant_acte_engagement": 542086.8,
+   "montant_apres_verification": 542086.8,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "STE BEN ADDOU FRERES",
+   "montant_acte_engagement": 560958.0,
+   "montant_apres_verification": 560958.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "DHNT SARL",
+   "montant_acte_engagement": 576702.0,
+   "montant_apres_verification": 576702.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "STE EDATRAV",
+   "montant_acte_engagement": 542628.0,
+   "montant_apres_verification": 542628.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 4,
+ "alertes_ocr": [
+  "« DHNT SARL » absent de la liste des plis déposés (nom mal lu ?).",
+  "« STE EDATRAV » absent de la liste des plis déposés (nom mal lu ?).",
+  "Attributaire non trouvé."
+ ],
+ "notes_ocr": [],
+ "qualite": "complet"
+}

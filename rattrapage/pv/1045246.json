@@ -1,0 +1,109 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "1045246",
+ "orgAcronyme": "o8p",
+ "reference_pv": "068/26/AOO/ONDA",
+ "nouveau": true,
+ "reference": "068/26/AOO/ONDA",
+ "objet": "Travaux d'entretien de l'étanchéité à l'Aéroport Casablanca Mohammed V",
+ "acheteur": "l'OFFICE NATIONAL DES AEROPORTS",
+ "procedure": "appel d'offres ouvert",
+ "categorie": "Travaux",
+ "date_limite_plis": "27/08/2026",
+ "lieu_ouverture": "La salle de réunion de la Direction des Achaïs et de la Logistique",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "01/10/2026",
+ "justification": "L'offre la plus avantageuse.",
+ "infructueux": false,
+ "attributaire": "GOLDYOU BUILDING Rabais de",
+ "montant_attribue": 418537.6,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "HARANITRAV Rabais de",
+   "montant_acte_engagement": 862960.0,
+   "montant_apres_verification": 862960.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "POLYSOL",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "STE BOURANIME COMPRISE après Rabais de COMPRISE/AN après Rabaiïis",
+   "montant_acte_engagement": 3526560.0,
+   "montant_apres_verification": 526560.0,
+   "autres_montants": [
+    3526560.0
+   ],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "GOLDYOU BUILDING Rabais de",
+   "montant_acte_engagement": 418537.6,
+   "montant_apres_verification": 418537.6,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "ORTIS MAROC",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_dossier_administratif_technique",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "syjéolt Gllo",
+   "montant_acte_engagement": 2418537.6,
+   "montant_apres_verification": null,
+   "autres_montants": [
+    2418537.6
+   ],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "% PORSOE Rabaïs de",
+   "montant_acte_engagement": 71520.0,
+   "montant_apres_verification": 71520.0,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 7,
+ "alertes_ocr": [
+  "« HARANITRAV Rabais de » absent de la liste des plis déposés (nom mal lu ?).",
+  "« STE BOURANIME COMPRISE après Rabais de COMPRISE/AN après Rabaiïis » absent de la liste des plis déposés (nom mal lu ?).",
+  "« GOLDYOU BUILDING Rabais de » absent de la liste des plis déposés (nom mal lu ?).",
+  "« syjéolt Gllo » absent de la liste des plis déposés (nom mal lu ?).",
+  "« % PORSOE Rabaïs de » absent de la liste des plis déposés (nom mal lu ?).",
+  "« STE BOURANIME COMPRISE après Rabais de COMPRISE/AN après Rabaiïis » : écart anormal entre montant initial et vérifié (lecture à vérifier)."
+ ],
+ "notes_ocr": [
+  "« POLYSOL » absent de la liste des plis déposés (nom mal lu ?).",
+  "« ORTIS MAROC » absent de la liste des plis déposés (nom mal lu ?).",
+  "« STE BOURANIME COMPRISE après Rabais de COMPRISE/AN après Rabaiïis » : montant rectifié de 3 526 560.00 à 526 560.00 DH."
+ ],
+ "qualite": "complet"
+}

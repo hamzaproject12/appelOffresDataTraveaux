@@ -1,0 +1,89 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "765193",
+ "orgAcronyme": "q1s",
+ "reference_pv": "28/2023/DPA/IFNI",
+ "nouveau": true,
+ "reference": "28/2023/DPA/IFNI",
+ "objet": "Travaux d'Aménagement et équipement des points d’eaux à travers le Cercle d’Ifni, Province de Sidi Ifni",
+ "acheteur": "DPA SIDI IFNI",
+ "procedure": "appel d'offres ouvert",
+ "categorie": "Travaux",
+ "date_limite_plis": "28/11/2023",
+ "lieu_ouverture": "la salle de réunion de la DPA de Sidi Ifni",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "18/12/2023",
+ "justification": null,
+ "infructueux": false,
+ "attributaire": "STE 2PS-PROJETS SARL CA 75) LAAYOUNE",
+ "montant_attribue": 428398.0,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "VILLE",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "o1 STE ANOUMINES SARL ER",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_dossier_administratif_technique",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "STE PROFONDA SARL MARRAKECHE",
+   "montant_acte_engagement": 480000.0,
+   "montant_apres_verification": null,
+   "autres_montants": [
+    480000.0
+   ],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "STE 2PS-PROJETS SARL CA 75) LAAYOUNE",
+   "montant_acte_engagement": 428398.0,
+   "montant_apres_verification": null,
+   "autres_montants": [
+    428398.8
+   ],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "STE RIT-TRAV SARL Na1g 7 GUELMIM",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_dossier_administratif_technique",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "STE DAX-TRAV SARL TAN-TAN",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 6,
+ "alertes_ocr": [],
+ "notes_ocr": [],
+ "qualite": "complet"
+}

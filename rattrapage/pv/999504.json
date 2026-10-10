@@ -1,0 +1,68 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "999504",
+ "orgAcronyme": "o8p",
+ "reference_pv": null,
+ "nouveau": true,
+ "reference": null,
+ "objet": "Entretien des espaces verts de l'Aéroport de Tanger Ibn Batouta",
+ "acheteur": "l'OFFICE NATIONAL DES AEROPORTS",
+ "procedure": null,
+ "categorie": "Travaux",
+ "date_limite_plis": "14/04/2026",
+ "lieu_ouverture": "La salle de réunion de la Direction des Achats et de la Logistique",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "30/04/2026",
+ "justification": "L'offre la plus avantageuse.",
+ "infructueux": false,
+ "attributaire": "MAROC VERDURE",
+ "montant_attribue": 2104140.0,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "ADEME MULTISERVICES",
+   "montant_acte_engagement": 2157900.0,
+   "montant_apres_verification": 2157900.0,
+   "autres_montants": [
+    2157900.0
+   ],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "SOMECOTRAD",
+   "montant_acte_engagement": 2159280.0,
+   "montant_apres_verification": 2159280.0,
+   "autres_montants": [
+    2159280.0
+   ],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "MAROC VERDURE",
+   "montant_acte_engagement": 2104140.0,
+   "montant_apres_verification": 2104140.0,
+   "autres_montants": [
+    2104140.0
+   ],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 3,
+ "alertes_ocr": [
+  "« ADEME MULTISERVICES » absent de la liste des plis déposés (nom mal lu ?).",
+  "« SOMECOTRAD » absent de la liste des plis déposés (nom mal lu ?).",
+  "« MAROC VERDURE » absent de la liste des plis déposés (nom mal lu ?)."
+ ],
+ "notes_ocr": [],
+ "qualite": "complet"
+}

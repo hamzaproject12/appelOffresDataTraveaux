@@ -1,0 +1,102 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "917528",
+ "orgAcronyme": "w7t",
+ "reference_pv": "44/2025/DRANEF-FM",
+ "nouveau": true,
+ "reference": "44/2025/DRANEF-FM",
+ "objet": "Exécution des travaux d'aménagement au niveau de deux enclos pour la faune",
+ "acheteur": "Le Directeur Régional de l’Agence Nationale des Eaux et Forêts de Fès-Meknès, sous",
+ "procedure": null,
+ "categorie": "Travaux",
+ "date_limite_plis": "03/07/2025",
+ "lieu_ouverture": "La Direction Régionale de l’Agence Nationale des Eaux et Forêts de Fès Meknès.1, Avenue Hassan II Fès",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "16/07/2025",
+ "justification": null,
+ "infructueux": false,
+ "attributaire": "STE DJOUZ FRERES SARL",
+ "montant_attribue": 458654.4,
+ "attributaires_par_lot": [
+  {
+   "lot": null,
+   "attributaire": "STE DJOUZ FRERES SARL",
+   "montant": 458654.4
+  },
+  {
+   "lot": null,
+   "attributaire": "ENT NAMMAOUY AHMED",
+   "montant": 460080.0
+  },
+  {
+   "lot": null,
+   "attributaire": "ENT AKAJIA BEN YOUSSEF",
+   "montant": 461400.0
+  }
+ ],
+ "soumissionnaires": [
+  {
+   "nom": "STE SOTAV SARL AU",
+   "montant_acte_engagement": 579152.4,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [
+    "unique"
+   ],
+   "statut": "ecarte_offre_financiere",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "STE DJOUZ FRERES SARL",
+   "montant_acte_engagement": 458654.4,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [
+    "unique"
+   ],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "ENT NAMMAOUY AHMED",
+   "montant_acte_engagement": 460080.0,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [
+    "unique"
+   ],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "ENT AKAJIA BEN YOUSSEF",
+   "montant_acte_engagement": 461400.0,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [
+    "unique"
+   ],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "STE FORETRACH SARL",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [
+    "unique"
+   ],
+   "statut": "ecarte_dossier_administratif_technique",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 5,
+ "alertes_ocr": [],
+ "notes_ocr": [],
+ "qualite": "complet"
+}

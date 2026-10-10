@@ -1,0 +1,80 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "706342",
+ "orgAcronyme": "f9f",
+ "reference_pv": "09/2023/CI",
+ "nouveau": true,
+ "reference": "09/2023/CI",
+ "objet": "Travaux d'aménagement urbain : Giratoire entre la voie de contournement et le pont sur Oued Souss",
+ "acheteur": null,
+ "procedure": "appel d'offres ouvert",
+ "categorie": "Travaux",
+ "date_limite_plis": "21/03/2023",
+ "lieu_ouverture": "Bureau de Mr Le Président de la Commune d’Inezgane",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": null,
+ "justification": null,
+ "infructueux": false,
+ "attributaire": "STE NAIT EL KHALFAOUI TRAVAUX SARL",
+ "montant_attribue": 1328529.6,
+ "attributaires_par_lot": [],
+ "soumissionnaires": [
+  {
+   "nom": "STE IDRISSI CHHIBAT D'AMENAGEMENT ET TRAVAUX (SICATRA SARL)",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "STE MAJI TRAVAUX SARL",
+   "montant_acte_engagement": 1332001.2,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "STE NAIT EL KHALFAOUI TRAVAUX SARL",
+   "montant_acte_engagement": 1328529.6,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "STE HENANE TRAVAUX SARL",
+   "montant_acte_engagement": 1428124.8,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "STE SICATRA SARL",
+   "montant_acte_engagement": 1111718.4,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "admis",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 5,
+ "alertes_ocr": [
+  "« STE SICATRA SARL » absent de la liste des plis déposés (nom mal lu ?)."
+ ],
+ "notes_ocr": [
+  "Maître d'ouvrage absent du PV (utiliser l'acheteur public du portail)."
+ ],
+ "qualite": "complet"
+}

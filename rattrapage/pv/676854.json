@@ -1,0 +1,103 @@
+{
+ "source": "extrait_pdf_ocr",
+ "present": true,
+ "refConsultation_pv": null,
+ "refConsultation_annonce": "676854",
+ "orgAcronyme": "o8p",
+ "reference_pv": "19/A00/DRAN-ANP/2022",
+ "nouveau": true,
+ "reference": "19/A00/DRAN-ANP/2022",
+ "objet": "TRAVAUX D'INSTALLATION D'UN SYSTEME D'ARROSAGE AUTOMATIQUE DES ESPACES VERTS AU PORT DE MOHAMMEDIA",
+ "acheteur": "Agence Nationale des ports : Direction régionale Atlantique Nord et Direction du Port de Mohammedia",
+ "procedure": "appel d'offres ouvert",
+ "categorie": "Travaux",
+ "date_limite_plis": "18/10/2022",
+ "lieu_ouverture": "ANP/DRAN/DPM Conformément à l'avis publié : Désignation journaux Langue Date de parution",
+ "allotissement": null,
+ "estimation": null,
+ "caution_provisoire": null,
+ "date_achevement": "10/11/2022",
+ "justification": null,
+ "infructueux": false,
+ "attributaire": "OPTIMUM SUPERIEUR DE GENIE CIVIL",
+ "montant_attribue": 709200.0,
+ "attributaires_par_lot": [
+  {
+   "lot": null,
+   "attributaire": "OPTIMUM SUPERIEUR DE GENIE CIVIL",
+   "montant": 709200.0
+  },
+  {
+   "lot": null,
+   "attributaire": "SOLATRAVIT",
+   "montant": 602730.0
+  },
+  {
+   "lot": null,
+   "attributaire": "CONTRACTOR NEW WORK",
+   "montant": 618470.0
+  }
+ ],
+ "soumissionnaires": [
+  {
+   "nom": "OPTIMUM SUPERIEUR DE GENIE CIVIL",
+   "montant_acte_engagement": 709200.0,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "SOLATRAVIT",
+   "montant_acte_engagement": 602730.0,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "CONTRACTOR NEW WORK",
+   "montant_acte_engagement": 618470.0,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "attributaire",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "ORBIT VERT sarl",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_offre_technique",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "Ste TIRA TRAVAUX Sarl",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_offre_technique",
+   "admis_avec_reserve": false
+  },
+  {
+   "nom": "WASTE WATER SARL AU",
+   "montant_acte_engagement": null,
+   "montant_apres_verification": null,
+   "autres_montants": [],
+   "lots": [],
+   "statut": "ecarte_offre_technique",
+   "admis_avec_reserve": false
+  }
+ ],
+ "nombre_soumissionnaires": 6,
+ "alertes_ocr": [],
+ "notes_ocr": [
+  "Montants exprimés hors taxes (HT)."
+ ],
+ "qualite": "attribution"
+}
