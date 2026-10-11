@@ -1416,7 +1416,7 @@ const lotsDuMarche = m => [...new Set((m.concurrents || []).flatMap(lotsDe))].so
 let ficheMarche = null;
 
 // Comparaison des offres. Avec un lot choisi, seuls les concurrents de ce lot sont classés : le prix de
-// référence porte sur l'ensemble du marché, il ne sert donc plus — classement de la moins chère à la plus chère.
+// référence porte sur l'ensemble du marché : plus de classement ni de numéros, offres de la moins chère à la plus chère.
 function corpsOffres(m, lot) {
   const estim = m.estimation, lotsListe = lotsDuMarche(m);
   const conc = (m.concurrents || []).filter(c => !lot || lotsDe(c).includes(lot));
@@ -1443,7 +1443,7 @@ function corpsOffres(m, lot) {
     const w = mt != null && max ? Math.max(1, mt / max * 100) : 0;
     const origine = cleOrigine != null && c.cle != null && String(c.cle) === cleOrigine;
     return `<li class="offre ${gagne ? 'est-gagnant' : ''} ${ecarte ? 'est-ecarte' : ''} ${origine ? 'est-origine' : ''}">
-      <div class="offre__nom"><span class="offre__rang" aria-hidden="true">${i + 1}.</span>${gagne ? ic('coupe', 18) : ''}<span>${c.cle ? aFiche('s:' + c.cle, esc(c.nom), 'lien-discret') : esc(c.nom)}${
+      <div class="offre__nom">${ref != null ? `<span class="offre__rang" aria-hidden="true">${i + 1}.</span>` : ''}${gagne ? ic('coupe', 18) : ''}<span>${c.cle ? aFiche('s:' + c.cle, esc(c.nom), 'lien-discret') : esc(c.nom)}${
         c.lots ? ` <span class="doux">· lot ${esc(c.lots)}</span>` : ''}${
         origine ? ' <span class="puce puce--origine">Société consultée</span>' : ''}</span></div>
       <div class="offre__statut">${puceConc(c.statut)}</div>
@@ -1465,10 +1465,10 @@ function corpsOffres(m, lot) {
       ${conc.length ? `<div class="cadre cadre--fixe offres-cadre">
         <div class="offres__entete" aria-hidden="true"><span>Concurrent</span><span>Résultat</span><span>Offre (proportion)</span><span class="num">Montant (DH)</span><span class="num" title="Écart par rapport à l'estimation du maître d'ouvrage">Écart / estim.</span></div>
         <ol class="offres">${tries.map((c, i) => offre(c, i)).join('')}</ol></div>
-        <p class="section__pied">${lot ? 'Classement du lot ' + esc(lot) + ' : de l’offre la moins chère à la plus chère (le prix de référence concerne l’ensemble du marché).'
+        <p class="section__pied">${lot ? 'Pas de classement par lot : le prix de référence est calculé pour l’ensemble du marché. Offres du lot ' + esc(lot) + ' présentées de la moins chère à la plus chère.'
           : ref != null
           ? 'Classement final : en tête, l’offre la plus proche du prix de référence par en dessous, puis les suivantes en s’en éloignant ; les offres au-dessus du prix de référence viennent ensuite, de la plus proche à la plus éloignée.'
-          : 'Prix de référence indisponible : offres classées de la moins chère à la plus chère.'} Barres proportionnelles au montant de l'offre (après vérification si disponible, sinon acte d'engagement). Écart calculé par rapport à l'estimation du maître d'ouvrage${
+          : 'Prix de référence non calculé, donc pas de classement : offres présentées de la moins chère à la plus chère.'} Barres proportionnelles au montant de l'offre (après vérification si disponible, sinon acte d'engagement). Écart calculé par rapport à l'estimation du maître d'ouvrage${
           m.estimation == null ? ", ou au montant attribué quand l'estimation n'est pas connue" : ''} — le prix de référence, lui, sert à classer les concurrents, pas à mesurer l'écart.</p>`
       : `<div class="cadre cadre--fixe"><div class="etat etat--compact"><p>${lot ? 'Aucun concurrent pour ce lot.' : 'Aucun concurrent lu dans ce PV.'}</p></div></div>`}
 `;
