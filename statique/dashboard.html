@@ -507,6 +507,9 @@
 
   /* comparaison des offres */
   .offres-cadre { container-type: inline-size; }
+  .filtre-lot { display: flex; align-items: center; gap: var(--e3); margin-bottom: var(--e3); }
+  .filtre-lot label { color: var(--doux); font-size: var(--t-s); font-weight: 600; }
+  .filtre-lot .selecteur select { height: 36px; min-width: 150px; font-size: var(--t-s); }
   .offres { list-style: none; margin: 0; padding: 0; }
   .offres__entete, .offre { display: grid; gap: var(--e2) var(--e4); align-items: center; padding: var(--e3) var(--e5);
     grid-template-columns: minmax(0, 1fr) 170px minmax(120px, 220px) 130px 94px; }
@@ -1362,7 +1365,13 @@ dlg.addEventListener('close', () => {
   else { ETAT.fiche = null; ecrireURL('replace'); }
 });
 $('#fiche-fermer').addEventListener('click', () => dlg.close());
-dlg.addEventListener('change', e => { if (e.target.matches('[data-fiche-periode]')) changerAnneeFiche(e.target.value); });
+dlg.addEventListener('change', e => {
+  if (e.target.matches('[data-fiche-periode]')) changerAnneeFiche(e.target.value);
+  else if (e.target.matches('[data-filtre-lot]') && ficheMarche) {
+    const sec = $('#section-offres');
+    if (sec) { sec.innerHTML = corpsOffres(ficheMarche, e.target.value); $('#filtre-lot')?.focus(); }
+  }
+});
 function changerAnneeFiche(annee) {
   if (!ETAT.fiche || annee === anneeFiche) return;
   anneeFiche = annee;
@@ -1400,11 +1409,20 @@ dlg.addEventListener('click', e => {
 
 const montantOffre = c => c.montant_verifie ?? c.montant_acte;
 
-function rendreMarche(m) {
-  const conc = m.concurrents || [], estim = m.estimation;
+// Lots d'un concurrent : « 1 », « 01 », « 1,2 » ; « 0,00 » et « unique » ne désignent aucun lot.
+const lotsDe = c => [...new Set(String(c.lots || '').split(/[,;\s]+/).map(x => x.replace(/^0+(?=\d)/, ''))
+  .filter(x => /^[1-9]\d*$/.test(x)))];
+const lotsDuMarche = m => [...new Set((m.concurrents || []).flatMap(lotsDe))].sort((a, b) => a - b);
+let ficheMarche = null;
+
+// Comparaison des offres. Avec un lot choisi, seuls les concurrents de ce lot sont classés : le prix de
+// référence porte sur l'ensemble du marché, il ne sert donc plus — classement de la moins chère à la plus chère.
+function corpsOffres(m, lot) {
+  const estim = m.estimation, lotsListe = lotsDuMarche(m);
+  const conc = (m.concurrents || []).filter(c => !lot || lotsDe(c).includes(lot));
   // Classement final : d'abord les offres sous le prix de référence, de la plus proche à la plus éloignée,
   // puis celles au-dessus, de la plus proche à la plus éloignée. Sans prix de référence : de la moins chère à la plus chère.
-  const ref = m.prix_reference;
+  const ref = lot ? null : m.prix_reference;
   const rang = o => {
     const v = montantOffre(o);
     if (v == null) return [2, 0];
@@ -1418,19 +1436,6 @@ function rendreMarche(m) {
   const cleOrigine = origineMarche.get(m.ref);
   const montants = conc.map(montantOffre).filter(v => v != null);
   const max = Math.max(0, ...montants), min = montants.length ? Math.min(...montants) : null;
-  const faits = [
-    ["Maître d'ouvrage (PV)", esc(m.maitre_ouvrage || '—')],
-    ['Procédure', esc(m.procedure || '—')],
-    ['Catégorie', esc(m.categorie || '—')],
-    ['Publié le', esc(m.publie_le || '—')],
-    ['Ouverture des plis', dateOuverture(m)],
-    ["N° d'appel d'offres", esc(m.numero_ao || '—')],
-    ['Origine des données', puceSource(m)],
-    ['Statut de l’extraction', puceStatut(m.statut)],
-    ...(m.versions > 1 ? [['Publications de ce PV',
-      `${nb(m.versions)} annonces <span class="doux">— voir plus bas</span>`]] : []),
-    ['Source', m.lien ? `<a href="${esc(m.lien)}" target="_blank" rel="noopener">Ouvrir le PV ${ic('externe', 14)}<span class="sr"> (nouvel onglet)</span></a>` : '—'],
-  ];
   const offre = (c, i) => {
     const mt = montantOffre(c), gagne = c.statut === 'attributaire', ecarte = (c.statut || '').startsWith('ecarte');
     const ecart = mt != null && m.montant && !gagne ? (mt - m.montant) / m.montant * 100 : null;
@@ -1450,6 +1455,41 @@ function rendreMarche(m) {
         : mt == null ? '' : gagne ? 'attributaire' : ecart == null ? '' : `<span class="sr">Écart avec l'attributaire : </span>${ecart > 0 ? '+' : ''}${dec(ecart, 2)} %`}</div>
     </li>`;
   };
+  return `
+      <div class="section__tete"><h3 id="titre-offres">Comparaison des offres</h3>
+        <p>${lot ? `Lot ${esc(lot)} · ` : ''}${nb(conc.length)} concurrent${conc.length > 1 ? 's' : ''}${montants.length ? ` · offres de ${dh(min)} à ${dh(max)} DH` : ''}</p></div>
+      ${lotsListe.length > 1 ? `<div class="filtre-lot"><label for="filtre-lot">Lot</label>
+        <span class="selecteur"><select class="champ" id="filtre-lot" data-filtre-lot>
+          <option value="">Tous les lots (${nb(lotsListe.length)})</option>${lotsListe.map(l =>
+            `<option value="${esc(l)}"${l === lot ? ' selected' : ''}>Lot ${esc(l)}</option>`).join('')}</select>${ic('bas', 16)}</span></div>` : ''}
+      ${conc.length ? `<div class="cadre cadre--fixe offres-cadre">
+        <div class="offres__entete" aria-hidden="true"><span>Concurrent</span><span>Résultat</span><span>Offre (proportion)</span><span class="num">Montant (DH)</span><span class="num" title="Écart par rapport à l'estimation du maître d'ouvrage">Écart / estim.</span></div>
+        <ol class="offres">${tries.map((c, i) => offre(c, i)).join('')}</ol></div>
+        <p class="section__pied">${lot ? 'Classement du lot ' + esc(lot) + ' : de l’offre la moins chère à la plus chère (le prix de référence concerne l’ensemble du marché).'
+          : ref != null
+          ? 'Classement final : en tête, l’offre la plus proche du prix de référence par en dessous, puis les suivantes en s’en éloignant ; les offres au-dessus du prix de référence viennent ensuite, de la plus proche à la plus éloignée.'
+          : 'Prix de référence indisponible : offres classées de la moins chère à la plus chère.'} Barres proportionnelles au montant de l'offre (après vérification si disponible, sinon acte d'engagement). Écart calculé par rapport à l'estimation du maître d'ouvrage${
+          m.estimation == null ? ", ou au montant attribué quand l'estimation n'est pas connue" : ''} — le prix de référence, lui, sert à classer les concurrents, pas à mesurer l'écart.</p>`
+      : `<div class="cadre cadre--fixe"><div class="etat etat--compact"><p>${lot ? 'Aucun concurrent pour ce lot.' : 'Aucun concurrent lu dans ce PV.'}</p></div></div>`}
+`;
+}
+
+function rendreMarche(m) {
+  const estim = m.estimation;
+  ficheMarche = m;
+  const faits = [
+    ["Maître d'ouvrage (PV)", esc(m.maitre_ouvrage || '—')],
+    ['Procédure', esc(m.procedure || '—')],
+    ['Catégorie', esc(m.categorie || '—')],
+    ['Publié le', esc(m.publie_le || '—')],
+    ['Ouverture des plis', dateOuverture(m)],
+    ["N° d'appel d'offres", esc(m.numero_ao || '—')],
+    ['Origine des données', puceSource(m)],
+    ['Statut de l’extraction', puceStatut(m.statut)],
+    ...(m.versions > 1 ? [['Publications de ce PV',
+      `${nb(m.versions)} annonces <span class="doux">— voir plus bas</span>`]] : []),
+    ['Source', m.lien ? `<a href="${esc(m.lien)}" target="_blank" rel="noopener">Ouvrir le PV ${ic('externe', 14)}<span class="sr"> (nouvel onglet)</span></a>` : '—'],
+  ];
   return `
     <header class="fiche-tete">
       <div class="fiche-tete__meta"><span class="mono">${esc(m.reference || m.ref)}</span>${m.categorie ? `<span class="puce">${esc(m.categorie)}</span>` : ''}</div>
@@ -1512,17 +1552,8 @@ function rendreMarche(m) {
     ${m.justification ? `<section class="section"><div class="section__tete"><h3>Justification du choix de l'attributaire</h3>
       <p>Telle qu'elle figure au procès-verbal</p></div>
       <div class="cadre cadre--fixe" style="padding:var(--e4) var(--e5)">${esc(m.justification)}</div></section>` : ''}
-    <section class="section" aria-labelledby="titre-offres">
-      <div class="section__tete"><h3 id="titre-offres">Comparaison des offres</h3>
-        <p>${nb(conc.length)} concurrent${conc.length > 1 ? 's' : ''}${montants.length ? ` · offres de ${dh(min)} à ${dh(max)} DH` : ''}</p></div>
-      ${conc.length ? `<div class="cadre cadre--fixe offres-cadre">
-        <div class="offres__entete" aria-hidden="true"><span>Concurrent</span><span>Résultat</span><span>Offre (proportion)</span><span class="num">Montant (DH)</span><span class="num" title="Écart par rapport à l'estimation du maître d'ouvrage">Écart / estim.</span></div>
-        <ol class="offres">${tries.map((c, i) => offre(c, i)).join('')}</ol></div>
-        <p class="section__pied">${ref != null
-          ? 'Classement final : en tête, l’offre la plus proche du prix de référence par en dessous, puis les suivantes en s’en éloignant ; les offres au-dessus du prix de référence viennent ensuite, de la plus proche à la plus éloignée.'
-          : 'Prix de référence indisponible : offres classées de la moins chère à la plus chère.'} Barres proportionnelles au montant de l'offre (après vérification si disponible, sinon acte d'engagement). Écart calculé par rapport à l'estimation du maître d'ouvrage${
-          m.estimation == null ? ", ou au montant attribué quand l'estimation n'est pas connue" : ''} — le prix de référence, lui, sert à classer les concurrents, pas à mesurer l'écart.</p>`
-      : `<div class="cadre cadre--fixe"><div class="etat etat--compact"><p>Aucun concurrent lu dans ce PV.</p></div></div>`}
+    <section class="section" aria-labelledby="titre-offres" id="section-offres">
+      ${corpsOffres(m, '')}
     </section>`;
 }
 
