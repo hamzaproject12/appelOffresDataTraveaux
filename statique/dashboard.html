@@ -528,6 +528,10 @@
   .offre.est-gagnant .offre__nom { font-weight: 700; }
   .offre.est-gagnant .jauge i { background: var(--barre-gagnant); }
   .offre.est-gagnant .offre__ecart { color: var(--vert); font-weight: 600; }
+  .offre.est-origine { background: var(--accent-doux); box-shadow: inset 4px 0 0 var(--accent); }
+  .offre.est-origine.est-gagnant { background: linear-gradient(90deg, var(--accent-doux), var(--vert-doux)); }
+  .offre.est-origine .offre__nom { font-weight: 700; }
+  .puce--origine { background: var(--accent); color: var(--sur-accent); border-color: var(--accent); }
   .offre.est-ecarte .jauge i { background: repeating-linear-gradient(135deg, var(--barre) 0 4px, transparent 4px 7px);
     box-shadow: inset 0 0 0 1px var(--barre); }
   .offre.est-ecarte .offre__nom { color: var(--texte-2); }
@@ -1286,6 +1290,7 @@ let LISTE_FICHE = null;             // { type, cle } de la fiche dont la liste i
 // peut en changer dans la fiche. Le choix vaut pour les fiches qu'il ouvre ensuite depuis celle-ci.
 let anneeFiche = '';
 let retourListe = null;             // { y, id } : position de la liste et ligne d'origine, restaurées à la fermeture
+const origineMarche = new Map();    // référence du marché -> clé de la société dont on vient (pour la repérer dans les offres)
 
 function squeletteFiche() {
   return `<p class="sr">Chargement de la fiche…</p><div aria-hidden="true">
@@ -1299,6 +1304,10 @@ async function ouvrirFiche(id, { mode = 'push' } = {}) {
   const i = id.indexOf(':'), type = id.slice(0, i), cle = id.slice(i + 1);
   if (!Object.hasOwn(FICHES, type) || !cle) return;
   const f = FICHES[type];
+  if (type === 'm') {
+    if (ETAT.fiche?.startsWith('s:')) origineMarche.set(cle, ETAT.fiche.slice(2));
+    else if (!dlg.open) origineMarche.delete(cle);
+  }
   ETAT.fiche = id;
   if (mode === 'push') { profondeur++; ecrireURL('push'); }
   if (!dlg.open) {
@@ -1392,10 +1401,20 @@ const montantOffre = c => c.montant_verifie ?? c.montant_acte;
 
 function rendreMarche(m) {
   const conc = m.concurrents || [], estim = m.estimation;
+  // Classement final : d'abord les offres sous le prix de référence, de la plus proche à la plus éloignée,
+  // puis celles au-dessus, de la plus proche à la plus éloignée. Sans prix de référence : de la moins chère à la plus chère.
+  const ref = m.prix_reference;
+  const rang = o => {
+    const v = montantOffre(o);
+    if (v == null) return [2, 0];
+    if (ref == null) return [0, v];
+    return v <= ref ? [0, ref - v] : [1, v - ref];
+  };
   const tries = [...conc].sort((a, b) => {
-    const x = montantOffre(a), y = montantOffre(b);
-    if (x == null && y == null) return 0; if (x == null) return 1; if (y == null) return -1; return x - y;
+    const [ga, da] = rang(a), [gb, db] = rang(b);
+    return ga - gb || da - db;
   });
+  const cleOrigine = origineMarche.get(m.ref);
   const montants = conc.map(montantOffre).filter(v => v != null);
   const max = Math.max(0, ...montants), min = montants.length ? Math.min(...montants) : null;
   const faits = [
@@ -1416,9 +1435,11 @@ function rendreMarche(m) {
     const ecart = mt != null && m.montant && !gagne ? (mt - m.montant) / m.montant * 100 : null;
     const ecartRef = c.ecart;                 // écart avec l'estimation, calculé à la construction de la base
     const w = mt != null && max ? Math.max(1, mt / max * 100) : 0;
-    return `<li class="offre ${gagne ? 'est-gagnant' : ''} ${ecarte ? 'est-ecarte' : ''}">
+    const origine = cleOrigine != null && c.cle != null && String(c.cle) === cleOrigine;
+    return `<li class="offre ${gagne ? 'est-gagnant' : ''} ${ecarte ? 'est-ecarte' : ''} ${origine ? 'est-origine' : ''}">
       <div class="offre__nom">${gagne ? ic('coupe', 18) : ''}<span>${c.cle ? aFiche('s:' + c.cle, esc(c.nom), 'lien-discret') : esc(c.nom)}${
-        c.lots ? ` <span class="doux">· lot ${esc(c.lots)}</span>` : ''}</span></div>
+        c.lots ? ` <span class="doux">· lot ${esc(c.lots)}</span>` : ''}${
+        origine ? ' <span class="puce puce--origine">Société consultée</span>' : ''}</span></div>
       <div class="offre__statut">${puceConc(c.statut)}</div>
       <div class="offre__barre">${mt != null ? `<span class="jauge" aria-hidden="true"><i style="--l:${w.toFixed(1)}%"></i></span>` : '<span class="doux">Montant non lu</span>'}</div>
       <div class="offre__montant">${mt != null ? dh(mt) : tiret}${c.montant_verifie != null && c.montant_acte != null && c.montant_verifie !== c.montant_acte
@@ -1496,7 +1517,9 @@ function rendreMarche(m) {
       ${conc.length ? `<div class="cadre cadre--fixe offres-cadre">
         <div class="offres__entete" aria-hidden="true"><span>Concurrent</span><span>Résultat</span><span>Offre (proportion)</span><span class="num">Montant (DH)</span><span class="num" title="Écart par rapport à l'estimation du maître d'ouvrage">Écart / estim.</span></div>
         <ol class="offres">${tries.map(offre).join('')}</ol></div>
-        <p class="section__pied">Offres classées de la moins chère à la plus chère. Barres proportionnelles au montant de l'offre (après vérification si disponible, sinon acte d'engagement). Écart calculé par rapport à l'estimation du maître d'ouvrage${
+        <p class="section__pied">${ref != null
+          ? 'Classement final : en tête, l’offre la plus proche du prix de référence par en dessous, puis les suivantes en s’en éloignant ; les offres au-dessus du prix de référence viennent ensuite, de la plus proche à la plus éloignée.'
+          : 'Prix de référence indisponible : offres classées de la moins chère à la plus chère.'} Barres proportionnelles au montant de l'offre (après vérification si disponible, sinon acte d'engagement). Écart calculé par rapport à l'estimation du maître d'ouvrage${
           m.estimation == null ? ", ou au montant attribué quand l'estimation n'est pas connue" : ''} — le prix de référence, lui, sert à classer les concurrents, pas à mesurer l'écart.</p>`
       : `<div class="cadre cadre--fixe"><div class="etat etat--compact"><p>Aucun concurrent lu dans ce PV.</p></div></div>`}
     </section>`;
