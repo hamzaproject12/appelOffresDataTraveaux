@@ -541,7 +541,9 @@ def api_marches(request: Request, session: dict = Depends(visiteur)):
                       m.montant, m.montant_douteux, m.nb_concurrents, m.date_ouverture, m.publie_le,
                       m.date_douteuse,
                       m.statut, m.infructueux, m.estimation, m.prix_reference, m.ecart_attributaire, m.source,
-                      m.classes, m.mieux_disant, m.attributaire_mieux_disant
+                      m.classes, m.mieux_disant, m.attributaire_mieux_disant, m.nb_lots,
+                      (SELECT COUNT(DISTINCT COALESCE(l.cle_attributaire, l.attributaire)) FROM lots l
+                       WHERE l.ref = m.ref AND l.attributaire IS NOT NULL) AS nb_attributaires
                       FROM marches m WHERE {filtre}
                       ORDER BY {colonne} IS NULL, {colonne} {sens} LIMIT ? OFFSET ?""",
                    tuple(params) + (taille, (page - 1) * taille))
@@ -563,7 +565,7 @@ def api_marche(ref: str, request: Request, session: dict = Depends(visiteur)):
                             " ORDER BY rang IS NULL, rang, montant_verifie IS NULL, montant_verifie", (ref,))
     m["qualifications"] = lire("SELECT secteur, domaine, qualification, classe, brut"
                                " FROM qualifications WHERE ref = ?", (ref,))
-    m["lots"] = lire("SELECT lot, attributaire, montant FROM lots WHERE ref = ?", (ref,))
+    m["lots"] = lire("SELECT * FROM lots WHERE ref = ? ORDER BY CAST(lot AS INTEGER)", (ref,))
     # Les autres publications du même PV : rien n'est masqué, le lecteur peut les ouvrir.
     m["autres_versions"] = lire(
         "SELECT ref, publie_le, statut, attributaire, montant, nb_concurrents, principale"
@@ -650,7 +652,9 @@ def api_societe(cle: str, request: Request, session: dict = Depends(visiteur)):
                  f" WHERE c.cle = ? AND m.principale = 1 AND {fm}", (cle, *pm))[0]["n"]
     lignes = lire(f"""SELECT m.ref, m.reference, m.acheteur, m.objet, m.attributaire, m.montant,
                       m.date_ouverture, m.estimation, m.prix_reference, c.montant_acte, c.montant_verifie,
-                      c.statut statut_concurrent, c.ecart
+                      c.statut statut_concurrent, c.ecart, m.nb_lots,
+                      (SELECT COUNT(DISTINCT COALESCE(l.cle_attributaire, l.attributaire)) FROM lots l
+                       WHERE l.ref = m.ref AND l.attributaire IS NOT NULL) AS nb_attributaires
                       FROM concurrents c JOIN marches m ON m.ref = c.ref
                       WHERE c.cle = ? AND m.principale = 1 AND {fm}
                       ORDER BY m.tri_date DESC, m.ref, c.rowid LIMIT ? OFFSET ?""",
@@ -724,7 +728,9 @@ def api_acheteur(request: Request, session: dict = Depends(visiteur)):
                  (nom, *pm))[0]["n"]
     lignes = lire(f"""SELECT m.ref, m.reference, m.objet, m.attributaire, m.montant, m.nb_concurrents,
                       m.date_ouverture, m.statut, m.estimation, m.prix_reference, m.ecart_attributaire,
-                      m.montant_douteux
+                      m.montant_douteux, m.nb_lots,
+                      (SELECT COUNT(DISTINCT COALESCE(l.cle_attributaire, l.attributaire)) FROM lots l
+                       WHERE l.ref = m.ref AND l.attributaire IS NOT NULL) AS nb_attributaires
                       FROM marches m WHERE m.acheteur = ? AND m.principale = 1 AND {fm}
                       ORDER BY m.tri_date DESC, m.ref LIMIT ? OFFSET ?""",
                   (nom, *pm, taille, (page - 1) * taille))

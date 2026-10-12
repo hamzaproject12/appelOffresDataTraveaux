@@ -510,6 +510,9 @@
   .filtre-lot { display: flex; align-items: center; gap: var(--e3); margin-bottom: var(--e3); }
   .filtre-lot label { color: var(--doux); font-size: var(--t-s); font-weight: 600; }
   .filtre-lot .selecteur select { height: 36px; min-width: 150px; font-size: var(--t-s); }
+  .lot-entete { margin-bottom: var(--e3); }
+  .lot-entete__intitule { color: var(--doux); font-size: var(--t-s); margin: 0 0 var(--e1); }
+  .lot-entete__attr { display: flex; flex-wrap: wrap; align-items: center; gap: 6px; margin: 0; font-weight: 600; }
   .offres { list-style: none; margin: 0; padding: 0; }
   .offres__entete, .offre { display: grid; gap: var(--e2) var(--e4); align-items: center; padding: var(--e3) var(--e5);
     grid-template-columns: minmax(0, 1fr) 170px minmax(120px, 220px) 130px 94px; }
@@ -652,6 +655,9 @@ const puceSource = m => {
 };
 // La date d'ouverture vient de l'OCR : on la nuance quand elle contredit la date de publication,
 // et on montre la date de publication (sûre, venue du portail) quand elle n'a pas été lue.
+// Marché alloti : pas d'attributaire unique ; le détail se lit lot par lot dans la fiche.
+const lotsEtAttributaires = m => `<span title="Marché alloti : ouvrez la fiche pour le détail lot par lot">${nb(m.nb_lots)} lot${m.nb_lots > 1 ? 's' : ''}<span class="sous">${
+  m.nb_attributaires > 0 ? `${nb(m.nb_attributaires)} attributaire${m.nb_attributaires > 1 ? 's' : ''} · ` : ''}voir la fiche</span></span>`;
 const montantAttribue = m => m.montant == null ? tiret
   : m.montant_douteux
     ? `<span class="doux" title="Montant sans rapport avec les offres de ce marché : chiffre probablement mal lu, exclu des totaux">${dh(m.montant)} ?</span>`
@@ -776,7 +782,8 @@ const VUES = {
       { titre: "Objet et maître d'ouvrage", titreLong: "Maître d'ouvrage", tri: 'acheteur', genre: 'texte', deux: true,
         cls: 'col-objet', rendu: m => objetEtAcheteur(m.objet, m.acheteur || m.maitre_ouvrage) },
       { titre: 'Attributaire', tri: 'attributaire', genre: 'texte', cls: 'col-attr',
-        rendu: m => m.attributaire ? esc(m.attributaire) : `<span class="doux">${m.infructueux ? 'Infructueux' : '—'}</span>` },
+        rendu: m => m.nb_lots > 0 ? lotsEtAttributaires(m)
+          : m.attributaire ? esc(m.attributaire) : `<span class="doux">${m.infructueux ? 'Infructueux' : '—'}</span>` },
       { titre: 'Montant (DH)', tri: 'montant', num: true, rendu: montantAttribue },
       { titre: 'Prix de réf. (DH)', titreLong: 'Prix de référence', tri: 'reference_prix', num: true, large: true,
         rendu: m => m.prix_reference != null ? dh(m.prix_reference) : tiret },
@@ -794,7 +801,8 @@ const VUES = {
         <span>${m.statut !== 'ok' ? puceStatut(m.statut) + ' ' : ''}${dateOuverture(m)}</span></div>
       ${carteObjet(m.objet, m.acheteur || m.maitre_ouvrage)}
       <div class="carte-ligne__bas">
-        <div><span class="etiq">Attributaire</span>${m.attributaire ? esc(m.attributaire) : `<span class="doux">${m.infructueux ? 'Infructueux' : 'Non identifié'}</span>`}</div>
+        <div><span class="etiq">Attributaire</span>${m.nb_lots > 0 ? lotsEtAttributaires(m)
+          : m.attributaire ? esc(m.attributaire) : `<span class="doux">${m.infructueux ? 'Infructueux' : 'Non identifié'}</span>`}</div>
         <div class="carte-ligne__montant">${m.montant != null ? `${montantAttribue(m)} <small>DH</small>` : tiret}
           <span class="etiq">${m.ecart_attributaire != null
             ? `${ecartHtml(m.ecart_attributaire, detailEcart(m.montant, m.estimation))} / estim. · ` : ''}${
@@ -1371,6 +1379,13 @@ dlg.addEventListener('change', e => {
     const sec = $('#section-offres');
     if (sec) { sec.innerHTML = corpsOffres(ficheMarche, e.target.value); $('#filtre-lot')?.focus(); }
   }
+  else if (e.target.matches('[data-choix-lot]') && ficheMarche) {
+    const l = (ficheMarche.lots || []).find(x => numLot(x) === e.target.value);
+    if (l) {
+      $('#lot-corps').innerHTML = corpsLot(ficheMarche, l);
+      $('#section-offres').innerHTML = corpsOffres(ficheMarche, numLot(l));
+    }
+  }
 });
 function changerAnneeFiche(annee) {
   if (!ETAT.fiche || annee === anneeFiche) return;
@@ -1413,37 +1428,36 @@ const montantOffre = c => c.montant_verifie ?? c.montant_acte;
 const lotsDe = c => [...new Set(String(c.lots || '').split(/[,;\s]+/).map(x => x.replace(/^0+(?=\d)/, ''))
   .filter(x => /^[1-9]\d*$/.test(x)))];
 const lotsDuMarche = m => [...new Set((m.concurrents || []).flatMap(lotsDe))].sort((a, b) => a - b);
+// Un marché alloti est jugé lot par lot (table lots) ; les autres, d'un seul tenant.
+const numLot = l => String(l.lot ?? '').trim().replace(/^0+(?=\d)/, '');
+const marcheAlloti = m => m.nb_lots > 0 && (m.lots || []).length > 0;
 let ficheMarche = null;
 
-// Comparaison des offres. Avec un lot choisi, seuls les concurrents de ce lot sont classés : le prix de
-// référence porte sur l'ensemble du marché : plus de classement ni de numéros, offres de la moins chère à la plus chère.
+// Comparaison des offres. Le classement est celui de la commission, calculé en base (concurrents.rang) :
+// pour un marché alloti, le rang est propre à chaque lot ; la liste se limite alors aux offres du lot choisi.
+// Dans un marché ordinaire filtré sur un lot, le rang du marché n'a plus de sens : offres de la moins chère à la plus chère.
 function corpsOffres(m, lot) {
-  const estim = m.estimation, lotsListe = lotsDuMarche(m);
+  const estim = m.estimation, alloti = marcheAlloti(m), lotsListe = alloti ? [] : lotsDuMarche(m);
   const conc = (m.concurrents || []).filter(c => !lot || lotsDe(c).includes(lot));
-  // Classement final : d'abord les offres sous le prix de référence, de la plus proche à la plus éloignée,
-  // puis celles au-dessus, de la plus proche à la plus éloignée. Sans prix de référence : de la moins chère à la plus chère.
-  const ref = lot ? null : m.prix_reference;
-  const rang = o => {
-    const v = montantOffre(o);
-    if (v == null) return [2, 0];
-    if (ref == null) return [0, v];
-    return v <= ref ? [0, ref - v] : [1, v - ref];
-  };
+  const classe = alloti || !lot;
+  const rangDe = o => classe ? o.rang : null;
+  // Rang croissant, les offres sans rang à la suite ; à rang égal (ou sans rang), de la moins chère à la plus chère.
   const tries = [...conc].sort((a, b) => {
-    const [ga, da] = rang(a), [gb, db] = rang(b);
-    return ga - gb || da - db;
+    const ra = rangDe(a), rb = rangDe(b), ma = montantOffre(a), mb = montantOffre(b);
+    return (ra == null) - (rb == null) || (ra ?? 0) - (rb ?? 0) || (ma == null) - (mb == null) || (ma ?? 0) - (mb ?? 0);
   });
+  const avecRang = tries.some(c => rangDe(c) != null);
   const cleOrigine = origineMarche.get(m.ref);
   const montants = conc.map(montantOffre).filter(v => v != null);
   const max = Math.max(0, ...montants), min = montants.length ? Math.min(...montants) : null;
-  const offre = (c, i) => {
+  const offre = c => {
     const mt = montantOffre(c), gagne = c.statut === 'attributaire', ecarte = (c.statut || '').startsWith('ecarte');
     const ecart = mt != null && m.montant && !gagne ? (mt - m.montant) / m.montant * 100 : null;
     const ecartRef = c.ecart;                 // écart avec l'estimation, calculé à la construction de la base
     const w = mt != null && max ? Math.max(1, mt / max * 100) : 0;
     const origine = cleOrigine != null && c.cle != null && String(c.cle) === cleOrigine;
     return `<li class="offre ${gagne ? 'est-gagnant' : ''} ${ecarte ? 'est-ecarte' : ''} ${origine ? 'est-origine' : ''}">
-      <div class="offre__nom">${ref != null ? `<span class="offre__rang" aria-hidden="true">${i + 1}.</span>` : ''}${gagne ? ic('coupe', 18) : ''}<span>${c.cle ? aFiche('s:' + c.cle, esc(c.nom), 'lien-discret') : esc(c.nom)}${
+      <div class="offre__nom">${avecRang ? `<span class="offre__rang">${rangDe(c) != null ? `<span class="sr">Rang </span>${rangDe(c)}.` : ''}</span>` : ''}${gagne ? ic('coupe', 18) : ''}<span>${c.cle ? aFiche('s:' + c.cle, esc(c.nom), 'lien-discret') : esc(c.nom)}${
         c.lots ? ` <span class="doux">· lot ${esc(c.lots)}</span>` : ''}${
         origine ? ' <span class="puce puce--origine">Société consultée</span>' : ''}</span></div>
       <div class="offre__statut">${puceConc(c.statut)}</div>
@@ -1464,14 +1478,61 @@ function corpsOffres(m, lot) {
             `<option value="${esc(l)}"${l === lot ? ' selected' : ''}>Lot ${esc(l)}</option>`).join('')}</select>${ic('bas', 16)}</span></div>` : ''}
       ${conc.length ? `<div class="cadre cadre--fixe offres-cadre">
         <div class="offres__entete" aria-hidden="true"><span>Concurrent</span><span>Résultat</span><span>Offre (proportion)</span><span class="num">Montant (DH)</span><span class="num" title="Écart par rapport à l'estimation du maître d'ouvrage">Écart / estim.</span></div>
-        <ol class="offres">${tries.map((c, i) => offre(c, i)).join('')}</ol></div>
-        <p class="section__pied">${lot ? 'Pas de classement par lot : le prix de référence est calculé pour l’ensemble du marché. Offres du lot ' + esc(lot) + ' présentées de la moins chère à la plus chère.'
-          : ref != null
-          ? 'Classement final : en tête, l’offre la plus proche du prix de référence par en dessous, puis les suivantes en s’en éloignant ; les offres au-dessus du prix de référence viennent ensuite, de la plus proche à la plus éloignée.'
+        <ol class="offres">${tries.map(offre).join('')}</ol></div>
+        <p class="section__pied">${avecRang
+          ? `Classement de la commission${alloti ? ' pour le lot ' + esc(lot) : ''} : en tête, l’offre la plus proche du prix de référence sans le dépasser, puis les suivantes en s’en éloignant ; les offres au-dessus du prix de référence viennent ensuite, de la plus proche à la plus éloignée. Les offres sans rang n’ont pas été classées.`
+          : !classe ? 'Pas de classement par lot : le prix de référence est calculé pour l’ensemble du marché. Offres du lot ' + esc(lot) + ' présentées de la moins chère à la plus chère.'
           : 'Prix de référence non calculé, donc pas de classement : offres présentées de la moins chère à la plus chère.'} Barres proportionnelles au montant de l'offre (après vérification si disponible, sinon acte d'engagement). Écart calculé par rapport à l'estimation du maître d'ouvrage${
           m.estimation == null ? ", ou au montant attribué quand l'estimation n'est pas connue" : ''} — le prix de référence, lui, sert à classer les concurrents, pas à mesurer l'écart.</p>`
       : `<div class="cadre cadre--fixe"><div class="etat etat--compact"><p>${lot ? 'Aucun concurrent pour ce lot.' : 'Aucun concurrent lu dans ce PV.'}</p></div></div>`}
 `;
+}
+
+// Estimation et prix de référence d'un lot : mêmes cartes que pour un marché ordinaire, avec les valeurs du lot.
+function corpsLot(m, l) {
+  const num = numLot(l);
+  return `
+      <div class="lot-entete">
+        ${l.intitule ? `<p class="lot-entete__intitule">${esc(l.intitule)}</p>` : ''}
+        <p class="lot-entete__attr">${ic('coupe', 16)}${l.attributaire
+          ? `<span class="doux">Attributaire</span> ${l.cle_attributaire ? aFiche('s:' + l.cle_attributaire, esc(l.attributaire), 'lien-discret') : esc(l.attributaire)}${
+            l.montant != null ? ` <span class="doux">·</span> ${dh(l.montant)} <small>DH</small>` : ''}`
+          : '<span class="doux">Attributaire non identifié pour ce lot</span>'}</p></div>
+      <section class="kpis kpis--compact" aria-label="Estimation et prix de référence du lot ${esc(num)}">
+        <div class="kpi"><div class="kpi__lib">Estimation du maître d'ouvrage</div>
+          <div class="kpi__val">${l.estimation != null ? `${dh(l.estimation)} <small>DH</small>` : '—'}</div></div>
+        <div class="kpi"><div class="kpi__lib">Caution provisoire</div>
+          <div class="kpi__val">${l.caution_provisoire != null ? `${dh(l.caution_provisoire)} <small>DH</small>` : '—'}</div></div>
+        <div class="kpi"><div class="kpi__lib">Moyenne des offres</div>
+          <div class="kpi__val">${l.moyenne_offres != null ? `${dh(l.moyenne_offres)} <small>DH</small>` : '—'}</div>
+          ${l.nb_offres ? `<div class="kpi__note">${nb(l.nb_offres)} offre${l.nb_offres > 1 ? 's' : ''} retenue${l.nb_offres > 1 ? 's' : ''}</div>` : ''}</div>
+        <div class="kpi"><div class="kpi__lib">Prix de référence</div>
+          <div class="kpi__val">${l.prix_reference != null ? `${dh(l.prix_reference)} <small>DH</small>` : '—'}</div></div>
+        <div class="kpi"><div class="kpi__lib">Écart de l'attributaire / estimation</div>
+          <div class="kpi__val">${l.ecart_attributaire != null
+            ? ecartHtml(l.ecart_attributaire, detailEcart(l.montant, l.estimation)) : '—'}</div></div>
+      </section>
+      <p class="section__pied">Prix de référence = (moyenne des offres + estimation) ÷ 2 ; il sert à classer les concurrents de ce lot. Les écarts, eux, sont mesurés sur l'estimation du maître d'ouvrage pour ce lot.${
+        l.prix_reference == null ? (l.estimation_ecartee
+          ? " Non calculé : l'estimation et les offres ne portent pas sur le même périmètre."
+          : " Calculable dès que l'estimation et au moins une offre chiffrée sont connues.") : ''}${
+        l.montants_ecartes ? ` ${nb(l.montants_ecartes)} montant${l.montants_ecartes > 1 ? 's' : ''} hors d'échelle (chiffre mal lu) écarté${
+          l.montants_ecartes > 1 ? 's' : ''} de la moyenne.` : ''}</p>`;
+}
+
+function blocLots(m) {
+  return `
+    <section class="section" aria-labelledby="titre-reference">
+      <div class="section__tete"><h3 id="titre-reference">Estimation et prix de référence par lot</h3>
+        <p>${m.confiance_estimation === 'a_verifier'
+          ? "Consultation d'origine retrouvée sans certitude — à vérifier"
+          : "D'après l'annonce de consultation du maître d'ouvrage"}</p></div>
+      <div class="filtre-lot"><label for="choix-lot">Lot</label>
+        <span class="selecteur"><select class="champ" id="choix-lot" data-choix-lot>${m.lots.map((l, i) =>
+          `<option value="${esc(numLot(l))}"${i === 0 ? ' selected' : ''}>Lot ${esc(numLot(l) || '?')}</option>`).join('')}</select>${ic('bas', 16)}</span>
+        <span class="doux">${nb(m.lots.length)} lot${m.lots.length > 1 ? 's' : ''}</span></div>
+      <div id="lot-corps">${corpsLot(m, m.lots[0])}</div>
+    </section>`;
 }
 
 function rendreMarche(m) {
@@ -1507,7 +1568,7 @@ function rendreMarche(m) {
     ${m.divergence ? `<div class="alerte" role="note">${ic('alerte', 20)}<div><b>Deux lectures divergentes</b>
       Le portail annonce ${dh(m.montant)} DH, la lecture du PV scanné donnait ${dh(m.montant_ocr)} DH.
       C'est le montant du portail qui est retenu.</div></div>` : ''}
-    ${m.estimation != null || m.moyenne_offres != null ? `
+    ${marcheAlloti(m) ? blocLots(m) : m.estimation != null || m.moyenne_offres != null ? `
     <section class="section" aria-labelledby="titre-reference">
       <div class="section__tete"><h3 id="titre-reference">Estimation et prix de référence</h3>
         <p>${m.confiance_estimation === 'a_verifier'
@@ -1553,7 +1614,7 @@ function rendreMarche(m) {
       <p>Telle qu'elle figure au procès-verbal</p></div>
       <div class="cadre cadre--fixe" style="padding:var(--e4) var(--e5)">${esc(m.justification)}</div></section>` : ''}
     <section class="section" aria-labelledby="titre-offres" id="section-offres">
-      ${corpsOffres(m, '')}
+      ${corpsOffres(m, marcheAlloti(m) ? numLot(m.lots[0]) : '')}
     </section>`;
 }
 
@@ -1573,7 +1634,7 @@ LISTES_FICHE.s.colonnes = [
       ? ecartHtml(m.ecart, detailEcart(montantOffre(m), m.estimation)) : tiret },
   { titre: 'Montant attribué (DH)', num: true, large: true, rendu: m => m.montant != null ? dh(m.montant) : tiret },
   { titre: 'Résultat', cls: 'col-resultat', rendu: m => puceConc(m.statut_concurrent) },
-  { titre: 'Attributaire', large: true, cls: 'col-attr', rendu: m => esc(m.attributaire || '—') },
+  { titre: 'Attributaire', large: true, cls: 'col-attr', rendu: m => m.nb_lots > 0 ? lotsEtAttributaires(m) : esc(m.attributaire || '—') },
   { titre: 'Ouverture', cls: 'col-date', rendu: m => esc(m.date_ouverture || '—') },
 ];
 LISTES_FICHE.s.carte = m => `
@@ -1638,7 +1699,8 @@ function rendreSociete(s) {
 LISTES_FICHE.a.colonnes = [
   { titre: 'Référence', cls: 'col-ref', rendu: (m, lien) => `${lien(referenceHtml(m))}` },
   { titre: 'Objet', deux: true, cls: 'col-objet col-marche', rendu: m => objetEtAcheteur(m.objet) },
-  { titre: 'Attributaire', cls: 'col-attr', rendu: m => m.attributaire ? esc(m.attributaire) : tiret },
+  { titre: 'Attributaire', cls: 'col-attr',
+    rendu: m => m.nb_lots > 0 ? lotsEtAttributaires(m) : m.attributaire ? esc(m.attributaire) : tiret },
   { titre: 'Montant (DH)', num: true, rendu: m => m.montant != null ? dh(m.montant) : tiret },
   { titre: 'Prix de réf. (DH)', num: true, large: true, rendu: m => m.prix_reference != null ? dh(m.prix_reference) : tiret },
   { titre: 'Écart', titreLong: "Écart de l'attributaire à l'estimation", num: true,
@@ -1650,7 +1712,7 @@ LISTES_FICHE.a.colonnes = [
 LISTES_FICHE.a.carte = m => `
     <div class="carte-ligne__haut"><span class="mono">${esc(m.reference || m.ref)}</span><span>${esc(m.date_ouverture || '')}</span></div>
     ${carteObjet(m.objet)}
-    <div class="carte-ligne__bas"><div><span class="etiq">Attributaire</span>${m.attributaire ? esc(m.attributaire) : '<span class="doux">—</span>'}</div>
+    <div class="carte-ligne__bas"><div><span class="etiq">Attributaire</span>${m.nb_lots > 0 ? lotsEtAttributaires(m) : m.attributaire ? esc(m.attributaire) : '<span class="doux">—</span>'}</div>
       <div class="carte-ligne__montant">${m.montant != null ? `${dh(m.montant)} <small>DH</small>` : tiret}</div></div>`;
 
 function rendreAcheteur(a) {

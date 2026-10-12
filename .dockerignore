@@ -6,3 +6,11 @@ journal.csv
 journal.db
 pv.db
 pv_travaux.db
+# Ce que le pod n'utilise pas : inutile de l'envoyer dans le contexte de construction.
+rattrapage/
+moisson/
+sondage/
+sondage2/
+sondage3/
+*.log
+diagnostic_ocr.txt
