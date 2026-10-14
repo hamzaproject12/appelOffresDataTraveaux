@@ -25,6 +25,7 @@ import secrets
 import shutil
 import sqlite3
 import time
+import unicodedata
 from collections import defaultdict, deque
 from datetime import datetime, timezone
 from pathlib import Path
@@ -223,10 +224,20 @@ def preparer_journal() -> None:
 preparer_journal()
 
 
+def sans_accents(texte: str | None) -> str:
+    """Minuscules et accents retirés : « BENI MELLAL » et « Béni Mellal » s'écrivent pareil
+    une fois passés ici. Les PV mélangent les deux, la recherche ne doit pas en dépendre."""
+    t = unicodedata.normalize("NFKD", (texte or "").lower())
+    return "".join(c for c in t if not unicodedata.combining(c))
+
+
 def base(journal: bool = False) -> sqlite3.Connection:
     db = sqlite3.connect(JOURNAL_BASE if journal else BASE, check_same_thread=False)
     db.row_factory = sqlite3.Row
     db.execute("PRAGMA busy_timeout = 4000")
+    # Les noms en base portent les accents du PV et la casse de l'OCR : la recherche les ignore
+    # des deux côtés grâce à cette fonction, appelée depuis le SQL.
+    db.create_function("sans_accents", 1, sans_accents, deterministic=True)
     return db
 
 
@@ -328,6 +339,26 @@ def noter(request: Request, session: dict | None, action: str, details: str = ""
 def expression_fts(q: str) -> str | None:
     mots = re.findall(r"[0-9\w]{2,}", q or "", re.UNICODE)[:6]
     return " AND ".join(f'"{m}"*' for m in mots) if mots else None
+
+
+def mots_cherches(q: str, limite: int = 60) -> list[str]:
+    """Les mots saisis, sans accents ni casse, les six premiers au plus."""
+    return [sans_accents(m) for m in re.findall(r"[0-9\w]+", (q or "")[:limite], re.UNICODE)][:6]
+
+
+def filtre_mots(q: str, colonne: str, limite: int = 60) -> tuple[str, list[str]] | None:
+    """Tous les mots saisis, dans n'importe quel ordre et à n'importe quelle position.
+
+    « beni mellal » ne cherche pas la suite exacte « beni mellal » : il cherche les noms qui
+    portent « beni » ET « mellal », où qu'ils soient. Sortent donc aussi bien « COMMUNE BENI
+    MELLAL » que « ... RÉGION BENI MELLAL-KHENIFRA » ou « CHEF DE LA SURETÉ DE BENIMELLAL »,
+    que l'OCR a collé en un seul mot. Un seul mot saisi se comporte comme avant.
+    """
+    mots = mots_cherches(q, limite)
+    if not mots:
+        return None
+    return (" AND ".join([f"sans_accents({colonne}) LIKE ?"] * len(mots)),
+            [f"%{m}%" for m in mots])
 
 
 def page_demandee(request: Request) -> tuple[int, int]:
@@ -525,10 +556,14 @@ def api_marches(request: Request, session: dict = Depends(visiteur)):
     p = request.query_params
     page, taille = page_demandee(request)
     where, params = ["m.principale = 1"], []
-    fts = expression_fts(p.get("q", ""))
+    # L'index plein texte exige déjà TOUS les mots saisis, dans n'importe quel ordre et où qu'ils
+    # soient dans le PV (acheteur, objet, référence, concurrents) : « beni mellal » sort autant
+    # « COMMUNE BENI MELLAL » que « ... RÉGION BENI MELLAL-KHENIFRA ».
+    fts, i_recherche = expression_fts(p.get("q", "")), -1
     if fts:
+        i_recherche = len(where)                 # repéré pour le repli plus bas
         where.append("m.ref IN (SELECT ref FROM recherche WHERE recherche MATCH ?)")
-        params.append(fts)
+        params.append(fts)                       # et premier paramètre de la requête
     annee = filtre_annee(p.get("annee"))
     if annee:
         where.append(annee[0])
@@ -571,6 +606,16 @@ def api_marches(request: Request, session: dict = Depends(visiteur)):
     sens = "ASC" if p.get("sens") == "asc" else "DESC"
     filtre = " AND ".join(where)
     total = lire(f"SELECT COUNT(*) n FROM marches m WHERE {filtre}", tuple(params))[0]["n"]
+    if fts and total == 0:
+        # Un index de mots ne retrouve pas un mot collé à un autre par l'OCR : « mellal » ne sort
+        # pas « BENIMELLAL ». Quand la recherche ne donne rien, on rebalaye en sous-chaîne —
+        # plus lent, mais mieux qu'une page vide, et seulement dans ce cas-là.
+        mots = filtre_mots(p.get("q", ""), "texte")
+        if mots:
+            where[i_recherche] = f"m.ref IN (SELECT ref FROM recherche WHERE {mots[0]})"
+            params = mots[1] + params[1:]        # l'expression FTS était le premier paramètre
+            filtre = " AND ".join(where)
+            total = lire(f"SELECT COUNT(*) n FROM marches m WHERE {filtre}", tuple(params))[0]["n"]
     lignes = lire(f"""SELECT m.ref, m.reference, m.acheteur, m.maitre_ouvrage, m.objet, m.attributaire,
                       m.montant, m.montant_douteux, m.nb_concurrents, m.date_ouverture, m.publie_le,
                       m.date_douteuse,
@@ -616,8 +661,10 @@ def api_societes(request: Request, session: dict = Depends(visiteur)):
     page, taille = page_demandee(request)
     where, params = ["participations > 0"], []
     if p.get("q"):
-        where.append("nom LIKE ?")
-        params.append(f"%{p['q'].strip()[:40]}%")
+        mots = filtre_mots(p["q"], "nom", 60)
+        if mots:
+            where.append(mots[0])
+            params += mots[1]
     # « Quelles sociétés sont qualifiées B.1 classe 3 ? » — la qualification d'une société se déduit
     # des marchés auxquels elle a soumissionné : aucun registre public ne la donne autrement.
     for cle_filtre, colonne in (("secteur", "secteur"), ("qualification", "qualification"),
@@ -717,8 +764,10 @@ def api_acheteurs(request: Request, session: dict = Depends(visiteur)):
     page, taille = page_demandee(request)
     where, params = ["1=1"], []
     if p.get("q"):
-        where.append("nom LIKE ?")
-        params.append(f"%{p['q'].strip()[:60]}%")
+        mots = filtre_mots(p["q"], "nom", 80)
+        if mots:
+            where.append(mots[0])
+            params += mots[1]
     tris = {"marches": "marches", "montant": "montant", "attribues": "attribues", "nom": "nom",
             "infructueux": "infructueux"}
     colonne = tris.get(p.get("tri", "marches"), "marches")
