@@ -110,23 +110,43 @@
     transition: background-color .15s, color .15s; }
   .onglet:hover { background: var(--surface-3); color: var(--texte); }
   .onglet[aria-current="page"] { background: var(--accent-doux); color: var(--accent); font-weight: 600; }
-  .actions { margin-left: auto; display: flex; align-items: center; gap: var(--e2); }
+  .onglet .long { display: none; }
+  .actions { margin-left: auto; display: flex; align-items: center; gap: var(--e1); }
   .btn-icone { width: 44px; height: 44px; display: inline-grid; place-items: center; border-radius: var(--r-s);
-    border: 0; background: none; color: var(--doux); text-decoration: none; }
+    border: 1px solid transparent; background: none; color: var(--texte-2); text-decoration: none; }
   .btn-icone:hover { background: var(--surface-3); color: var(--texte); }
-  .separateur { width: 1px; height: 24px; background: var(--bord); }
-  .utilisateur { display: flex; align-items: center; gap: var(--e2); font-size: var(--t-s); color: var(--doux); }
-  .avatar { width: 28px; height: 28px; border-radius: 50%; background: var(--accent-doux); color: var(--accent);
-    display: grid; place-items: center; font-size: var(--t-xs); font-weight: 700; }
-  @media (max-width: 899px) { .utilisateur__nom, .marque small { display: none; } }
+  .utilisateur { display: flex; align-items: center; gap: var(--e2); color: var(--texte-2); font-size: var(--t-s);
+    padding: 0 var(--e2); min-width: 0; }
+  .utilisateur__nom { max-width: 180px; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; display: none; }
+  .avatar { width: 32px; height: 32px; border-radius: 50%; background: var(--accent-doux); color: var(--accent);
+    display: grid; place-items: center; font-weight: 650; font-size: var(--t-xs); flex-shrink: 0; }
+  .separateur { width: 1px; height: 24px; background: var(--bord); margin: 0 var(--e1); }
+
+  @media (min-width: 1280px) {
+    .onglet .long { display: inline; } .onglet .court { display: none; }
+    .utilisateur__nom { display: inline; }
+  }
+  @media (max-width: 1023px) {
+    :root { --haut-barre: 112px; }
+    .barre-haut__ligne { flex-wrap: wrap; min-height: 0; padding-top: var(--e2); }
+    .onglets { order: 3; flex-basis: 100%; padding-bottom: var(--e2); }
+    .utilisateur__nom { display: inline; }
+  }
   @media (max-width: 639px) {
-    .conteneur { padding-inline: var(--e3); }
-    .barre-haut__ligne { min-height: 56px; }
+    :root { --haut-barre: 60px; }
+    .conteneur { padding-inline: var(--e4); }
+    .barre-haut__ligne { flex-wrap: nowrap; padding-top: 0; min-height: 60px; }
+    .utilisateur__nom, .marque small { display: none; }
+    .utilisateur { padding: 0 var(--e1); }
+    .separateur { display: none; }
     .onglets { position: fixed; left: 0; right: 0; bottom: 0; z-index: 20; background: var(--surface);
-      border-top: 1px solid var(--bord); padding-bottom: env(safe-area-inset-bottom); }
-    .onglet { flex: 1; flex-direction: column; justify-content: center; gap: 3px; min-height: 56px;
-      padding: var(--e1) 2px; font-size: var(--t-xs); }
-    .onglet[aria-current="page"] { background: none; color: var(--accent); }
+      border-top: 1px solid var(--bord); display: grid; grid-template-columns: repeat(5, 1fr); gap: 2px;
+      padding: var(--e1) var(--e1) calc(var(--e1) + env(safe-area-inset-bottom)); }
+    .onglet { flex-direction: column; justify-content: center; gap: 3px; min-height: 56px; padding: var(--e1) 2px;
+      font-size: 11.5px; line-height: 1.2; text-align: center; white-space: normal; }
+    .onglet[aria-current="page"] { background: none; }
+    .onglet[aria-current="page"] svg { background: var(--accent-doux); border-radius: 999px; padding: 2px 12px;
+      width: 46px; height: 24px; box-sizing: content-box; margin: -2px 0; }
     body { padding-bottom: calc(68px + env(safe-area-inset-bottom)); }
   }
 
@@ -332,8 +352,10 @@
       <span><b>Marchés publics</b><small>Appels d’offres ouverts</small></span>
     </a>
     <nav class="onglets" aria-label="Sections">
-      <a class="onglet" href="/app#/marches"><i data-ic="marches"></i><span>Historique</span></a>
       <a class="onglet" href="/ao-ouverts" aria-current="page"><i data-ic="ouverts"></i><span>En cours</span></a>
+      <a class="onglet" href="/app#/marches"><i data-ic="marches"></i><span>Marchés</span></a>
+      <a class="onglet" href="/app#/societes"><i data-ic="societes"></i><span>Sociétés</span></a>
+      <a class="onglet" href="/app#/acheteurs"><i data-ic="acheteurs"></i><span>Maîtres d’ouvrage</span></a>
     </nav>
     <div class="actions">
       <button type="button" class="btn-icone" id="bouton-theme"></button>
@@ -414,7 +436,10 @@ const dh = v => v == null ? '—' : nfDh.format(+v) + ' DH';
 const pluriel = (n, s, p) => `${nfEntier.format(n)} ${n > 1 ? (p || s + 's') : s}`;
 
 const ICONES = {
-  marches: '<path d="M6 7h12M6 12h8M6 17h5"/><circle cx="17.5" cy="16.5" r="2.5"/>',
+  marches: '<path d="M14 3H6a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V9z"/><path d="M14 3v6h6M8 13h8M8 17h5"/>',
+  societes: '<circle cx="9" cy="8" r="4"/><path d="M2 21a7 7 0 0 1 14 0M16 4a4 4 0 0 1 0 8M22 21a7 7 0 0 0-4-6.3"/>',
+  acheteurs: '<path d="M3 21h18M5 21V11M9.5 21V11M14.5 21V11M19 21V11M2 11l10-7 10 7z"/>',
+  qualite: '<path d="M12 3 4 6v6c0 5 3.5 8 8 9 4.5-1 8-4 8-9V6z"/><path d="m9 12 2 2 4-4"/>',
   ouverts: '<path d="M12 7v5l3 2"/><circle cx="12" cy="12" r="9"/>',
   sortie: '<path d="M9 21H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h4M16 17l5-5-5-5M21 12H9"/>',
   soleil: '<circle cx="12" cy="12" r="4"/><path d="M12 2v2M12 20v2M4.9 4.9l1.4 1.4M17.7 17.7l1.4 1.4M2 12h2M20 12h2M4.9 19.1l1.4-1.4M17.7 6.3l1.4-1.4"/>',

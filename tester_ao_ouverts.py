@@ -312,6 +312,24 @@ def main() -> int:
         r = client.get("/ao-ouverts")
         verifier("/ao-ouverts rend la page au visiteur connecté",
                  r.status_code == 200 and "Appels d’offres ouverts" in r.text, f"reçu {r.status_code}")
+        # Sans cette consigne le navigateur garde une ancienne copie de la page, et une barre
+        # d'onglets modifiée n'apparaît pas chez les visiteurs.
+        verifier("les pages HTML se revalident à chaque visite",
+                 r.headers.get("cache-control") == "no-cache"
+                 and client.get("/app").headers.get("cache-control") == "no-cache")
+        for chemin in ("/app", "/ao-ouverts"):
+            etag = client.get(chemin).headers["etag"]
+            r304 = client.get(chemin, headers={"If-None-Match": etag})
+            verifier(f"{chemin} : 304 sans corps quand la page n'a pas changé",
+                     r304.status_code == 304 and not r304.content, str(r304.status_code))
+            verifier(f"{chemin} : page neuve quand l'ETag ne correspond plus",
+                     client.get(chemin, headers={"If-None-Match": '"autre"'}).status_code == 200)
+            page = client.get(chemin).text
+            barre = page.split('<nav class="onglets"', 1)[1].split("</nav>", 1)[0]
+            onglets = [t.split("</span>")[0].split(">")[-1] for t in barre.split("<span")[1:]]
+            verifier(f"{chemin} : « En cours » en premier, pas de « Qualité »",
+                     onglets[:1] == ["En cours"] and not any("Qualité" in o for o in onglets),
+                     str(onglets))
         sans_cookie = TestClient(serveur.app)
         verifier("/ao-ouverts renvoie à l'accès sans cookie",
                  sans_cookie.get("/ao-ouverts", follow_redirects=False).status_code == 302)

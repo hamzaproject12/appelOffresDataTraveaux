@@ -206,6 +206,26 @@ LIMITE_SERVICE_HEURE = int(os.environ.get("LIMITE_SERVICE_HEURE", 600))
 # l'historique : c'est ce qu'on vient regarder tous les matins.
 ACCUEIL_CONNECTE = "/ao-ouverts"
 
+# Les pages HTML sont servies avec un ETag mais sans consigne de cache : le navigateur en garde
+# alors une copie et la réutilise sans demander, si bien qu'une barre d'onglets modifiée n'apparaît
+# qu'après un rechargement forcé. « no-cache » veut dire « revalide à chaque fois » : un 304 sans
+# corps quand rien n'a changé, la page neuve dès que le fichier change.
+REVALIDER = {"Cache-Control": "no-cache"}
+
+
+def page_statique(request: Request, nom: str):
+    """Sert une page HTML en la faisant revalider ; 304 sans corps quand elle n'a pas changé."""
+    chemin = ICI / "statique" / nom
+    # L'ETag est calculé ici et non laissé à FileResponse, qui ne le pose qu'au moment d'envoyer :
+    # on ne pourrait pas le comparer à celui du visiteur, et sans lui chaque bascule d'onglet
+    # retélécharge la page entière.
+    st = chemin.stat()
+    etag = f'"{st.st_mtime_ns:x}-{st.st_size:x}"'
+    entetes = {**REVALIDER, "ETag": etag}
+    if request.headers.get("if-none-match") == etag:
+        return Response(status_code=304, headers=entetes)
+    return FileResponse(chemin, headers=entetes)
+
 
 def verifier_separation_ao() -> None:
     """Refuse de démarrer si ao_ouverts.db peut être emporté par le remplacement de la base.
@@ -761,7 +781,7 @@ def deconnexion(request: Request):
 def application(request: Request):
     if not verifier(request.cookies.get("pv")):
         return RedirectResponse("/", 302)
-    return FileResponse(ICI / "statique" / "dashboard.html")
+    return page_statique(request, "dashboard.html")
 
 
 # ------------------------------------------------------------------ API (toujours paginée)
@@ -1382,7 +1402,7 @@ def api_appels_ouverts(request: Request, session: dict = Depends(visiteur)):
 def page_ao_ouverts(request: Request):
     if not verifier(request.cookies.get("pv")):
         return RedirectResponse("/", 302)
-    return FileResponse(ICI / "statique" / "ao_ouverts.html")
+    return page_statique(request, "ao_ouverts.html")
 
 
 # ------------------------------------------------------------------ administration
