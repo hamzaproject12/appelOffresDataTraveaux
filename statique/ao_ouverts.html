@@ -575,7 +575,8 @@ const cartesHtml = lignes => `<ul class="cartes" role="list">${lignes.map(a => {
   return `<li><div class="carte ${j != null && j < 3 && j >= 0 ? 'urgent' : ''}">
     <div class="carte__haut"><span>${dateCourte(a.date_limite)} ${heure(a.date_limite)}</span>${badgeJ(j)}</div>
     <div class="carte__titre">${esc(a.objet || '—')}</div>
-    <div class="doux" style="margin-top:4px">${esc(a.acheteur || '—')}</div>
+    <div class="doux" style="margin-top:4px">${esc(a.acheteur || '—')}${a.lieu ? ' · ' + esc(a.lieu) : ''}</div>${
+      a.reference ? `<div class="mono doux xs ref-ao">${esc(a.reference)}</div>` : ''}
     <div class="carte__stats"><span>${dh(a.estimation)}</span>${
       a.caution_provisoire != null ? `<span>caution ${dh(a.caution_provisoire)}</span>` : ''}${
       a.lots.length ? `<span>${pluriel(a.lots.length, 'lot')}</span>` : ''}${
