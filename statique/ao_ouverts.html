@@ -1,0 +1,664 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="color-scheme" content="light dark">
+<title>Appels d’offres ouverts — Marchés publics</title>
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='7' fill='%231f4e78'/%3E%3Cpath d='M8 21V13M14 21V9M20 21V16M26 21V11' stroke='white' stroke-width='3' stroke-linecap='round'/%3E%3C/svg%3E">
+<script>
+  try { const t = localStorage.getItem('pv-theme'); if (t === 'light' || t === 'dark') document.documentElement.dataset.theme = t; } catch (e) {}
+</script>
+<style>
+  /* ================================================================ jetons */
+  :root {
+    --fond: #f3f4f6; --surface: #ffffff; --surface-2: #f8f9fb; --surface-3: #eceff3;
+    --bord: #dde1e7; --bord-fort: #b4bcc7;
+    --texte: #111827; --texte-2: #374151; --doux: #555e6c;
+    --accent: #1f4f8f; --accent-survol: #173e72; --accent-doux: #e7eef8; --sur-accent: #ffffff;
+    --vert: #0f6a3e; --vert-doux: #e4f3ea; --vert-bord: #9fd0b4;
+    --orange: #875100; --orange-doux: #fcf0da; --orange-bord: #ebc88a;
+    --rouge: #b3261e; --rouge-doux: #fcebea;
+    --neutre: #4b5563; --neutre-doux: #eceff3;
+    --barre: #9fb5d6; --barre-gagnant: #1d8a53;
+    --s-ok: #2f8f5b; --s-infructueux: #8b95a4; --s-a_verifier: #d4901f; --s-illisible: #d0542c; --s-erreur: #9f1f19; --s-annule: #c3c9d2;
+    --squelette: #e5e8ed; --squelette-reflet: #f3f5f8;
+    --ombre-1: 0 1px 2px rgba(17,24,39,.05);
+    --ombre-3: 0 24px 64px rgba(17,24,39,.24);
+    --voile: rgba(17,24,39,.5);
+    --focus: #2563eb;
+    color-scheme: light;
+
+    --police: "Segoe UI Variable Text", "Segoe UI", system-ui, -apple-system, "Helvetica Neue", Arial, sans-serif;
+    --mono: ui-monospace, "Cascadia Mono", "SF Mono", Consolas, monospace;
+    --t-xs: .75rem; --t-s: .8125rem; --t-m: .875rem; --t-l: 1rem; --t-xl: 1.25rem; --t-2xl: 1.5rem;
+    --e1: 4px; --e2: 8px; --e3: 12px; --e4: 16px; --e5: 24px; --e6: 32px; --e7: 48px;
+    --r-s: 6px; --r-m: 10px; --r-l: 14px;
+    --haut-barre: 64px;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root:not([data-theme="light"]) {
+      --fond: #0d1117; --surface: #161b22; --surface-2: #1b2129; --surface-3: #242b35;
+      --bord: #2b333e; --bord-fort: #46505e;
+      --texte: #e8ebef; --texte-2: #c9cfd7; --doux: #9ca6b4;
+      --accent: #7fb2f0; --accent-survol: #a6c9f5; --accent-doux: #1a2a40; --sur-accent: #0b1320;
+      --vert: #5cc98f; --vert-doux: #11281c; --vert-bord: #22553a;
+      --orange: #e8b95c; --orange-doux: #2c220f; --orange-bord: #5c4518;
+      --rouge: #f28b82; --rouge-doux: #34191a;
+      --neutre: #b4bdc9; --neutre-doux: #242b35;
+      --barre: #3d5a82; --barre-gagnant: #43b87c;
+      --s-ok: #43b87c; --s-infructueux: #6f7a89; --s-a_verifier: #e0a23a; --s-illisible: #e5734a; --s-erreur: #f0625a; --s-annule: #444d59;
+      --squelette: #212833; --squelette-reflet: #2a323e;
+      --ombre-1: none; --ombre-3: 0 24px 64px rgba(0,0,0,.6);
+      --voile: rgba(0,0,0,.66);
+      --focus: #7cb0ff;
+      color-scheme: dark;
+    }
+  }
+  :root[data-theme="dark"] {
+    --fond: #0d1117; --surface: #161b22; --surface-2: #1b2129; --surface-3: #242b35;
+    --bord: #2b333e; --bord-fort: #46505e;
+    --texte: #e8ebef; --texte-2: #c9cfd7; --doux: #9ca6b4;
+    --accent: #7fb2f0; --accent-survol: #a6c9f5; --accent-doux: #1a2a40; --sur-accent: #0b1320;
+    --vert: #5cc98f; --vert-doux: #11281c; --vert-bord: #22553a;
+    --orange: #e8b95c; --orange-doux: #2c220f; --orange-bord: #5c4518;
+    --rouge: #f28b82; --rouge-doux: #34191a;
+    --neutre: #b4bdc9; --neutre-doux: #242b35;
+    --barre: #3d5a82; --barre-gagnant: #43b87c;
+    --s-ok: #43b87c; --s-infructueux: #6f7a89; --s-a_verifier: #e0a23a; --s-illisible: #e5734a; --s-erreur: #f0625a; --s-annule: #444d59;
+    --squelette: #212833; --squelette-reflet: #2a323e;
+    --ombre-1: none; --ombre-3: 0 24px 64px rgba(0,0,0,.6);
+    --voile: rgba(0,0,0,.66);
+    --focus: #7cb0ff;
+    color-scheme: dark;
+  }
+
+  /* ================================================================ base */
+  *, *::before, *::after { box-sizing: border-box; }
+  html { -webkit-text-size-adjust: 100%; scroll-padding-top: calc(var(--haut-barre) + var(--e4)); }
+  html.fiche-ouverte { overflow: hidden; }
+  body { margin: 0; min-height: 100vh; background: var(--fond); color: var(--texte);
+    font: 400 var(--t-m)/1.5 var(--police); -webkit-font-smoothing: antialiased; }
+  h1, h2, h3, p { margin: 0; }
+  a { color: var(--accent); text-underline-offset: 2px; }
+  button, input, select { font: inherit; color: inherit; }
+  button { cursor: pointer; }
+  svg.ic { flex-shrink: 0; display: block; }
+  :focus-visible { outline: 2px solid var(--focus); outline-offset: 2px; border-radius: 4px; }
+  .sr { position: absolute !important; width: 1px; height: 1px; overflow: hidden; clip: rect(0 0 0 0);
+    white-space: nowrap; margin: -1px; padding: 0; border: 0; }
+  .doux { color: var(--doux); }
+  .mono { font-family: var(--mono); font-size: .92em; letter-spacing: -.01em; }
+  .num { text-align: right; white-space: nowrap; font-variant-numeric: tabular-nums; }
+  .evitement { position: absolute; left: var(--e2); top: -100px; z-index: 50; background: var(--accent);
+    color: var(--sur-accent); padding: var(--e3) var(--e4); border-radius: var(--r-s); font-weight: 600; }
+  .evitement:focus { top: var(--e2); }
+  .conteneur { width: 100%; max-width: 1440px; margin: 0 auto; padding-inline: var(--e5); }
+
+  /* ================================================================ en-tête */
+  .barre-haut { position: sticky; top: 0; z-index: 20; background: var(--surface); border-bottom: 1px solid var(--bord); }
+  .barre-haut__ligne { display: flex; align-items: center; gap: var(--e3) var(--e5); min-height: var(--haut-barre); }
+  .marque { display: flex; align-items: center; gap: 10px; color: var(--texte); text-decoration: none;
+    min-height: 44px; flex-shrink: 0; border-radius: var(--r-s); }
+  .marque__logo { width: 34px; height: 34px; border-radius: 9px; background: var(--accent); color: var(--sur-accent);
+    display: grid; place-items: center; }
+  .marque b { display: block; font-size: var(--t-l); font-weight: 650; letter-spacing: -.01em; line-height: 1.2; }
+  .marque small { display: block; font-size: var(--t-xs); color: var(--doux); line-height: 1.3; }
+  .onglets { display: flex; gap: var(--e1); }
+  .onglet { display: inline-flex; align-items: center; gap: var(--e2); min-height: 44px; padding: 0 14px;
+    border-radius: var(--r-s); color: var(--doux); text-decoration: none; font-weight: 500; white-space: nowrap;
+    transition: background-color .15s, color .15s; }
+  .onglet:hover { background: var(--surface-3); color: var(--texte); }
+  .onglet[aria-current="page"] { background: var(--accent-doux); color: var(--accent); font-weight: 600; }
+  .actions { margin-left: auto; display: flex; align-items: center; gap: var(--e2); }
+  .btn-icone { width: 44px; height: 44px; display: inline-grid; place-items: center; border-radius: var(--r-s);
+    border: 0; background: none; color: var(--doux); text-decoration: none; }
+  .btn-icone:hover { background: var(--surface-3); color: var(--texte); }
+  .separateur { width: 1px; height: 24px; background: var(--bord); }
+  .utilisateur { display: flex; align-items: center; gap: var(--e2); font-size: var(--t-s); color: var(--doux); }
+  .avatar { width: 28px; height: 28px; border-radius: 50%; background: var(--accent-doux); color: var(--accent);
+    display: grid; place-items: center; font-size: var(--t-xs); font-weight: 700; }
+  @media (max-width: 899px) { .utilisateur__nom, .marque small { display: none; } }
+  @media (max-width: 639px) {
+    .conteneur { padding-inline: var(--e3); }
+    .barre-haut__ligne { min-height: 56px; }
+    .onglets { position: fixed; left: 0; right: 0; bottom: 0; z-index: 20; background: var(--surface);
+      border-top: 1px solid var(--bord); padding-bottom: env(safe-area-inset-bottom); }
+    .onglet { flex: 1; flex-direction: column; justify-content: center; gap: 3px; min-height: 56px;
+      padding: var(--e1) 2px; font-size: var(--t-xs); }
+    .onglet[aria-current="page"] { background: none; color: var(--accent); }
+    body { padding-bottom: calc(68px + env(safe-area-inset-bottom)); }
+  }
+
+  /* ================================================================ contenu */
+  main { padding-block: var(--e6) var(--e7); outline: none; }
+  .tete-vue { margin-bottom: var(--e5); }
+  .tete-vue h1 { font-size: var(--t-2xl); font-weight: 650; letter-spacing: -.02em; line-height: 1.25; outline: none; }
+  .tete-vue p { color: var(--doux); margin-top: var(--e1); max-width: 75ch; }
+  @media (max-width: 639px) {
+    main { padding-top: var(--e5); }
+    .tete-vue { margin-bottom: var(--e4); }
+    .tete-vue h1 { font-size: var(--t-xl); }
+  }
+
+  /* chiffres clés */
+  .kpis { display: grid; grid-template-columns: repeat(auto-fit, minmax(190px, 1fr)); gap: var(--e3); margin-bottom: var(--e5); }
+  .kpi { background: var(--surface); border: 1px solid var(--bord); border-radius: var(--r-m); padding: var(--e4);
+    box-shadow: var(--ombre-1); min-width: 0; }
+  .kpi__lib { font-size: var(--t-s); color: var(--doux); font-weight: 500; }
+  .kpi__val { font-size: var(--t-2xl); font-weight: 650; letter-spacing: -.02em; line-height: 1.2; margin-top: var(--e1);
+    font-variant-numeric: tabular-nums; overflow-wrap: anywhere; }
+  .kpi__note { font-size: var(--t-xs); color: var(--doux); margin-top: 2px; }
+  @media (max-width: 639px) {
+    .kpis { grid-template-columns: 1fr 1fr; gap: var(--e2); margin-bottom: var(--e4); }
+    .kpi { padding: var(--e3); }
+    .kpi__val { font-size: var(--t-xl); }
+    .kpi:last-child:nth-child(odd) { grid-column: span 2; }
+  }
+
+  /* filtres */
+  .filtres { display: flex; flex-wrap: wrap; gap: var(--e2) var(--e3); align-items: flex-end; margin-bottom: var(--e4); }
+  .recherche { position: relative; flex: 1 1 320px; min-width: 0; }
+  .recherche > svg { position: absolute; left: 13px; top: 50%; transform: translateY(-50%); color: var(--doux); pointer-events: none; }
+  .champ { height: 44px; width: 100%; border: 1px solid var(--bord-fort); border-radius: var(--r-s);
+    background: var(--surface); color: var(--texte); padding: 0 var(--e3); transition: border-color .15s; }
+  .champ::placeholder { color: var(--doux); opacity: 1; }
+  .champ:hover { border-color: var(--doux); }
+  .champ:focus-visible { outline: 2px solid var(--focus); outline-offset: -1px; border-color: var(--focus); border-radius: var(--r-s); }
+  .recherche .champ { padding-left: 42px; }
+  .groupe { display: flex; flex-direction: column; gap: 6px; min-width: 0; }
+  .selecteur { position: relative; display: block; }
+  .selecteur select { appearance: none; -webkit-appearance: none; padding-right: 38px; cursor: pointer; min-width: 190px; }
+  .selecteur select.actif { border-color: var(--accent); background: var(--accent-doux); color: var(--accent); font-weight: 500; }
+  .selecteur svg { position: absolute; right: 12px; top: 50%; transform: translateY(-50%); pointer-events: none; color: var(--doux); }
+  .case { display: inline-flex; align-items: center; gap: 10px; min-height: 44px; padding: 0 14px;
+    border: 1px solid var(--bord-fort); border-radius: var(--r-s); background: var(--surface); cursor: pointer;
+    user-select: none; white-space: nowrap; }
+  .case input { width: 18px; height: 18px; margin: 0; accent-color: var(--accent); cursor: pointer; }
+  .case:has(input:checked) { border-color: var(--accent); background: var(--accent-doux); color: var(--accent); font-weight: 500; }
+  .case:has(input:focus-visible) { outline: 2px solid var(--focus); outline-offset: 2px; }
+  .case input:focus-visible { outline: none; }
+  @media (max-width: 639px) {
+    .champ { font-size: 16px; }
+    .groupe, .selecteur, .case { width: 100%; }
+    .selecteur select { min-width: 0; }
+    .case { white-space: normal; }
+  }
+
+  /* boutons */
+  .btn { display: inline-flex; align-items: center; justify-content: center; gap: var(--e2); min-height: 44px;
+    padding: 0 var(--e4); border-radius: var(--r-s); border: 1px solid var(--bord-fort); background: var(--surface);
+    color: var(--texte); font-weight: 500; text-decoration: none; white-space: nowrap; transition: background-color .15s; }
+  .btn:hover { background: var(--surface-3); }
+  .btn:disabled { opacity: .45; cursor: not-allowed; }
+  .btn:disabled:hover { background: var(--surface); }
+  .btn--principal { background: var(--accent); border-color: var(--accent); color: var(--sur-accent); }
+  .btn--principal:hover { background: var(--accent-survol); border-color: var(--accent-survol); }
+
+  /* résultats */
+  .resultats__tete { display: flex; flex-wrap: wrap; justify-content: space-between; align-items: baseline;
+    gap: 2px var(--e3); min-height: 24px; margin-bottom: var(--e2); color: var(--doux); font-size: var(--t-s); }
+  .resultats__tete strong { color: var(--texte); font-weight: 650; }
+  .cadre { position: relative; background: var(--surface); border: 1px solid var(--bord); border-radius: var(--r-m);
+    box-shadow: var(--ombre-1); overflow: hidden; overflow: clip; transition: opacity .15s; }
+  .cadre.en-cours { opacity: .55; }
+  .cadre.en-cours::before { content: ''; position: absolute; inset: 0 0 auto; height: 3px; z-index: 3;
+    background: linear-gradient(90deg, transparent, var(--accent), transparent) no-repeat; background-size: 40% 100%;
+    animation: progression 1s linear infinite; }
+  @keyframes progression { from { background-position: -60% 0; } to { background-position: 160% 0; } }
+
+  /* tableau */
+  .tableau { width: 100%; border-collapse: collapse; }
+  .tableau th { text-align: left; font-size: var(--t-xs); font-weight: 600; color: var(--doux);
+    text-transform: uppercase; letter-spacing: .03em; padding: var(--e3); white-space: nowrap;
+    background: var(--surface-2); border-bottom: 1px solid var(--bord); position: sticky;
+    top: var(--haut-barre); z-index: 2; }
+  .tableau th.num { text-align: right; }
+  .tableau td { padding: var(--e3); border-bottom: 1px solid var(--bord); vertical-align: top; overflow-wrap: anywhere; }
+  .tableau tbody tr:last-child td { border-bottom: 0; }
+  .tableau tbody tr:hover { background: var(--surface-2); }
+  .tableau td.num { white-space: nowrap; text-align: right; font-variant-numeric: tabular-nums; }
+  .tableau .col-limite { width: 8.5rem; }
+  .tableau .col-acheteur { width: 17%; }
+  .tableau .col-objet { width: 26%; }
+  .tableau .col-histo { width: 11rem; }
+  .tableau .col-lien { width: 3.5rem; }
+  /* Moins de trois jours : la ligne doit sauter aux yeux avant la colonne qui la justifie. */
+  .tableau tbody tr.urgent { background: var(--rouge-doux); }
+  .tableau tbody tr.urgent:hover { background: var(--rouge-doux); filter: brightness(.98); }
+  .tableau tbody tr.urgent td:first-child { box-shadow: inset 3px 0 0 var(--rouge); }
+  .tableau tbody tr.passe { color: var(--doux); }
+  @media (max-width: 1099px) { .tableau .col-lieu, .tableau .col-caution { display: none; } }
+  @media (max-width: 899px) { .tableau { display: none; } }
+
+  /* cartes (mobile) */
+  .cartes { display: none; list-style: none; margin: 0; padding: 0; }
+  .carte { display: block; background: var(--surface); border: 1px solid var(--bord); border-radius: var(--r-m);
+    padding: var(--e4); box-shadow: var(--ombre-1); }
+  .carte.urgent { border-color: var(--rouge); }
+  .carte__haut { display: flex; justify-content: space-between; align-items: center; gap: var(--e2);
+    font-size: var(--t-s); color: var(--doux); }
+  .carte__titre { font-weight: 600; margin-top: var(--e1); line-height: 1.4; overflow-wrap: anywhere; }
+  .carte__stats { display: flex; flex-wrap: wrap; gap: var(--e1) var(--e3); font-size: var(--t-s);
+    color: var(--doux); margin-top: var(--e2); }
+  @media (max-width: 899px) {
+    .cartes { display: grid; grid-template-columns: minmax(0, 1fr); gap: var(--e2); }
+    .cadre { background: none; border: 0; box-shadow: none; overflow: visible; border-radius: 0; }
+    .cadre > .etat { background: var(--surface); border: 1px solid var(--bord); border-radius: var(--r-m); }
+  }
+
+  /* pagination */
+  .pagination { display: flex; align-items: center; justify-content: space-between; gap: var(--e3);
+    padding: var(--e3) var(--e4); border-top: 1px solid var(--bord); background: var(--surface-2); }
+  .pagination__info { color: var(--doux); font-size: var(--t-s); text-align: center; font-variant-numeric: tabular-nums; }
+  @media (max-width: 899px) {
+    .pagination { background: none; border: 0; padding: var(--e4) 0 0; }
+    .pagination .btn { padding: 0 var(--e3); }
+  }
+
+  /* pastilles */
+  .puce { display: inline-flex; align-items: center; gap: 4px; padding: 2px 9px; border-radius: 999px;
+    font-size: var(--t-xs); font-weight: 600; white-space: nowrap; background: var(--neutre-doux);
+    color: var(--neutre); line-height: 1.5; }
+  .puce--ok { background: var(--vert-doux); color: var(--vert); }
+  .puce--attention { background: var(--orange-doux); color: var(--orange); }
+  .puce--ko { background: var(--rouge-doux); color: var(--rouge); }
+  .puces { display: flex; flex-wrap: wrap; gap: 4px; }
+
+  /* « chez cet acheteur » : l'historique en quatre lignes serrées */
+  .histo { display: grid; gap: 1px; font-size: var(--t-xs); color: var(--doux);
+    font-variant-numeric: tabular-nums; }
+  .histo b { color: var(--texte); font-weight: 650; }
+  .histo--vide { color: var(--doux); }
+
+  /* états */
+  .etat { display: flex; flex-direction: column; align-items: center; text-align: center; gap: var(--e2);
+    padding: var(--e7) var(--e5); color: var(--doux); }
+  .etat__icone { width: 52px; height: 52px; border-radius: 50%; display: grid; place-items: center;
+    background: var(--surface-3); color: var(--texte-2); margin-bottom: var(--e1); }
+  .etat--erreur .etat__icone { background: var(--rouge-doux); color: var(--rouge); }
+  .etat h2 { font-size: var(--t-l); color: var(--texte); font-weight: 650; }
+  .etat p { max-width: 50ch; }
+  .etat .btn { margin-top: var(--e3); }
+
+  /* squelette de chargement */
+  .sq { display: block; height: 12px; max-width: 100%; border-radius: 4px; background: var(--squelette);
+    background-image: linear-gradient(90deg, var(--squelette) 0%, var(--squelette-reflet) 50%, var(--squelette) 100%);
+    background-size: 200% 100%; animation: reflet 1.4s ease-in-out infinite; }
+  @keyframes reflet { from { background-position: 150% 0; } to { background-position: -50% 0; } }
+
+  @media (prefers-reduced-motion: reduce) {
+    *, *::before, *::after { animation-duration: .001ms !important; animation-iteration-count: 1 !important;
+      transition-duration: .001ms !important; }
+    .sq { background-image: none; }
+  }
+</style>
+</head>
+<body>
+<a class="evitement" href="#contenu">Aller au contenu</a>
+<header class="barre-haut">
+  <div class="conteneur barre-haut__ligne">
+    <a class="marque" href="/app">
+      <span class="marque__logo" aria-hidden="true">
+        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"><path d="M6 7h12M6 12h8M6 17h5"/><circle cx="17.5" cy="16.5" r="2.5"/></svg>
+      </span>
+      <span><b>Marchés publics</b><small>Appels d’offres ouverts</small></span>
+    </a>
+    <nav class="onglets" aria-label="Sections">
+      <a class="onglet" href="/app#/marches"><i data-ic="marches"></i><span>Historique</span></a>
+      <a class="onglet" href="/ao-ouverts" aria-current="page"><i data-ic="ouverts"></i><span>En cours</span></a>
+    </nav>
+    <div class="actions">
+      <button type="button" class="btn-icone" id="bouton-theme"></button>
+      <span class="separateur" aria-hidden="true"></span>
+      <a class="btn-icone" href="/deconnexion" aria-label="Se déconnecter" title="Se déconnecter"><i data-ic="sortie"></i></a>
+    </div>
+  </div>
+</header>
+
+<main id="contenu" class="conteneur" tabindex="-1">
+  <div class="tete-vue">
+    <h1 id="titre-vue" tabindex="-1">Appels d’offres ouverts</h1>
+    <p>Les consultations encore ouvertes détectées pour vos clients, et ce que les marchés déjà
+       attribués disent de l’acheteur qui les publie.</p>
+  </div>
+
+  <div class="kpis" id="kpis"></div>
+
+  <form class="filtres" id="filtres" role="search" onsubmit="return false">
+    <label class="recherche">
+      <span class="sr">Rechercher dans l’objet, l’acheteur ou la référence</span>
+      <svg class="ic" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><circle cx="11" cy="11" r="7"/><path d="m20 20-3.5-3.5"/></svg>
+      <input class="champ" type="search" id="q" placeholder="Acheteur, objet, référence…" autocomplete="off" maxlength="120">
+    </label>
+    <div class="groupe">
+      <label class="sr" for="client">Client</label>
+      <span class="selecteur">
+        <select class="champ" id="client"><option value="">Tous les clients</option></select>
+        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="m6 9 6 6 6-6"/></svg>
+      </span>
+    </div>
+    <div class="groupe">
+      <label class="sr" for="tri">Tri</label>
+      <span class="selecteur">
+        <select class="champ" id="tri">
+          <option value="date_limite">Date limite — la plus proche d’abord</option>
+          <option value="publie_le">Publication — la plus récente d’abord</option>
+          <option value="estimation">Estimation — la plus élevée d’abord</option>
+          <option value="acheteur">Acheteur — A → Z</option>
+        </select>
+        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="m6 9 6 6 6-6"/></svg>
+      </span>
+    </div>
+    <label class="case"><input type="checkbox" id="expires"><span id="lib-expires">Voir aussi les appels expirés</span></label>
+  </form>
+
+  <div class="resultats">
+    <div class="resultats__tete"><span id="compte" tabindex="-1">&nbsp;</span><span id="info-requete"></span></div>
+    <div class="cadre" id="cadre" aria-live="polite"></div>
+  </div>
+</main>
+
+<script>
+'use strict';
+const $ = (s, r = document) => r.querySelector(s);
+const TAILLE = 50;
+
+const nfEntier = new Intl.NumberFormat('fr-FR');
+const nfDh = new Intl.NumberFormat('fr-FR', { maximumFractionDigits: 0 });
+const esc = t => String(t ?? '').replace(/[&<>"']/g, c => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[c]));
+const nb = v => v == null ? '—' : nfEntier.format(v);
+const dh = v => v == null ? '—' : nfDh.format(+v) + ' DH';
+const pluriel = (n, s, p) => `${nfEntier.format(n)} ${n > 1 ? (p || s + 's') : s}`;
+
+const ICONES = {
+  marches: '<path d="M6 7h12M6 12h8M6 17h5"/><circle cx="17.5" cy="16.5" r="2.5"/>',
+  ouverts: '<path d="M12 7v5l3 2"/><circle cx="12" cy="12" r="9"/>',
+  sortie: '<path d="M9 21H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h4M16 17l5-5-5-5M21 12H9"/>',
+  soleil: '<circle cx="12" cy="12" r="4"/><path d="M12 2v2M12 20v2M4.9 4.9l1.4 1.4M17.7 17.7l1.4 1.4M2 12h2M20 12h2M4.9 19.1l1.4-1.4M17.7 6.3l1.4-1.4"/>',
+  lune: '<path d="M21 12.8A9 9 0 1 1 11.2 3a7 7 0 0 0 9.8 9.8z"/>',
+  alerte: '<path d="M12 9v4M12 17h.01"/><path d="M10.3 3.9 2.4 17.1A2 2 0 0 0 4.1 20h15.8a2 2 0 0 0 1.7-2.9L13.7 3.9a2 2 0 0 0-3.4 0z"/>',
+  vide: '<path d="M4 7h16M4 12h16M4 17h10"/>',
+  externe: '<path d="M14 4h6v6M20 4l-8 8M18 14v5a1 1 0 0 1-1 1H5a1 1 0 0 1-1-1V7a1 1 0 0 1 1-1h5"/>',
+  rafraichir: '<path d="M21 12a9 9 0 1 1-2.6-6.4M21 4v5h-5"/>',
+};
+const ic = (n, t = 20) => `<svg class="ic" width="${t}" height="${t}" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">${ICONES[n] || ''}</svg>`;
+document.querySelectorAll('i[data-ic]').forEach(i => i.outerHTML = ic(i.dataset.ic));
+
+// ================================================================ thème
+// Même clé que le tableau de bord : le choix suit le visiteur d'une page à l'autre.
+const btnTheme = $('#bouton-theme');
+const themeActuel = () => document.documentElement.dataset.theme || (matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light');
+function majBoutonTheme() {
+  const sombre = themeActuel() === 'dark', lib = sombre ? 'Passer au thème clair' : 'Passer au thème sombre';
+  btnTheme.innerHTML = ic(sombre ? 'soleil' : 'lune', 20);
+  btnTheme.setAttribute('aria-label', lib); btnTheme.title = lib;
+}
+btnTheme.addEventListener('click', () => {
+  const t = themeActuel() === 'dark' ? 'light' : 'dark';
+  document.documentElement.dataset.theme = t;
+  try { localStorage.setItem('pv-theme', t); } catch (e) {}
+  majBoutonTheme();
+});
+matchMedia('(prefers-color-scheme: dark)').addEventListener('change', majBoutonTheme);
+majBoutonTheme();
+
+// ================================================================ API
+class ErreurApi extends Error { constructor(type, statut) { super(type); this.type = type; this.statut = statut; } }
+async function api(chemin, params = {}) {
+  const url = new URL(chemin, location.origin);
+  Object.entries(params).forEach(([k, v]) => { if (v !== '' && v != null) url.searchParams.set(k, v); });
+  let r;
+  try { r = await fetch(url, { credentials: 'same-origin' }); }
+  catch (e) { throw new ErreurApi('reseau'); }
+  if (r.status === 401) { location.href = '/'; throw new ErreurApi('session', 401); }
+  if (r.status === 429) throw new ErreurApi('limite', 429);
+  if (!r.ok) throw new ErreurApi('serveur', r.status);
+  try { return await r.json(); } catch (e) { throw new ErreurApi('serveur', r.status); }
+}
+const MESSAGES = {
+  reseau: ['Connexion impossible', 'Le serveur ne répond pas. Vérifiez votre connexion, puis réessayez.'],
+  limite: ['Trop de requêtes', "Vous avez effectué beaucoup de requêtes d'affilée. Patientez une minute, puis réessayez."],
+  serveur: ['Erreur du serveur', 'Le serveur a rencontré un problème. Réessayez dans un instant.'],
+};
+const blocErreur = e => {
+  const [titre, texte] = MESSAGES[e.type] || MESSAGES.serveur;
+  return `<div class="etat etat--erreur" role="alert"><span class="etat__icone">${ic('alerte', 24)}</span>
+    <h2>${titre}</h2><p>${texte}${e.statut && e.type === 'serveur' ? ` (code ${e.statut})` : ''}</p>
+    <button type="button" class="btn btn--principal" id="reessayer">${ic('rafraichir', 18)}Réessayer</button></div>`;
+};
+
+// ================================================================ dates
+const JOUR = 86400000;
+// On compare des jours de calendrier, pas des durées : une clôture demain à 9 h est « J-1 »,
+// même s'il reste moins de vingt-quatre heures.
+function joursRestants(iso) {
+  if (!iso) return null;
+  const d = new Date(iso.replace(' ', 'T'));
+  if (isNaN(d)) return null;
+  const minuitCible = new Date(d.getFullYear(), d.getMonth(), d.getDate());
+  const aujourdhui = new Date();
+  const minuitJour = new Date(aujourdhui.getFullYear(), aujourdhui.getMonth(), aujourdhui.getDate());
+  return Math.round((minuitCible - minuitJour) / JOUR);
+}
+function dateCourte(iso) {
+  if (!iso) return '—';
+  const d = new Date(iso.replace(' ', 'T'));
+  return isNaN(d) ? esc(iso.slice(0, 10)) : d.toLocaleDateString('fr-FR', { day: '2-digit', month: 'short', year: 'numeric' });
+}
+function heure(iso) {
+  const d = iso ? new Date(iso.replace(' ', 'T')) : null;
+  if (!d || isNaN(d)) return '';
+  // 23:59:59 veut dire « le service n'a pas donné d'heure » : ne pas l'afficher comme une heure.
+  return (d.getHours() === 23 && d.getMinutes() === 59) ? '' : d.toLocaleTimeString('fr-FR', { hour: '2-digit', minute: '2-digit' });
+}
+function badgeJ(j) {
+  if (j == null) return '';
+  if (j < 0) return `<span class="puce">expiré</span>`;
+  if (j === 0) return `<span class="puce puce--ko">aujourd’hui</span>`;
+  if (j < 3) return `<span class="puce puce--ko">J-${j}</span>`;
+  if (j < 8) return `<span class="puce puce--attention">J-${j}</span>`;
+  return `<span class="puce">J-${j}</span>`;
+}
+
+// ================================================================ colonnes
+// « Chez cet acheteur » : le seul endroit où l'appel d'offres encore ouvert rencontre les
+// 18 085 marchés déjà attribués. Un tiret quand l'acheteur est inconnu de l'historique —
+// jamais un zéro, qui se lirait comme une mesure.
+function histoHtml(h) {
+  if (!h) return '<span class="histo--vide">—</span>';
+  const l = [`<span><b>${nb(h.nb_marches)}</b> ${h.nb_marches > 1 ? 'marchés' : 'marché'}</span>`];
+  if (h.taux_attribution_au_mieux_disant != null)
+    l.push(`<span><b>${nfDh.format(h.taux_attribution_au_mieux_disant)} %</b> au mieux-disant</span>`);
+  if (h.ecart_median_attribution != null)
+    l.push(`<span>écart médian <b>${h.ecart_median_attribution > 0 ? '+' : ''}${nfEntier.format(h.ecart_median_attribution)} %</b></span>`);
+  if (h.nb_concurrents_median != null)
+    l.push(`<span><b>${nfEntier.format(h.nb_concurrents_median)}</b> concurrents (médiane)</span>`);
+  return `<span class="histo">${l.join('')}</span>`;
+}
+const titreHisto = h => !h ? "Aucun marché attribué connu pour cet acheteur" :
+  `Sur ${pluriel(h.nb_marches, 'marché')} déjà attribués par cet acheteur. ` +
+  `L'écart médian compare le montant attribué à l'estimation annoncée ; ` +
+  `le taux dit combien de fois l'attribution est allée au mieux-disant calculé.`;
+
+const qualifHtml = q => !q.length ? '—' : `<span class="puces">${q.map(x =>
+  `<span class="puce">${esc(x.libelle || '—')}${x.classe ? ' · cl. ' + esc(x.classe) : ''}</span>`).join('')}</span>`;
+
+function lotsHtml(lots) {
+  if (!lots.length) return '<span class="doux">lot unique</span>';
+  const detail = lots.map(l => `Lot ${l.lot}${l.intitule ? ' — ' + l.intitule : ''}`).join('\n');
+  return `<span title="${esc(detail)}">${pluriel(lots.length, 'lot')}</span>`;
+}
+const lienPortail = u => !u ? '—' :
+  `<a href="${esc(u)}" target="_blank" rel="noopener" aria-label="Ouvrir l’annonce sur le portail (nouvel onglet)" title="Ouvrir l’annonce sur le portail">${ic('externe', 18)}</a>`;
+
+const COLONNES = [
+  { titre: 'Date limite', cls: 'col-limite', rendu: (a, j) => `${dateCourte(a.date_limite)}
+      <div style="margin-top:4px;display:flex;gap:6px;align-items:center">${badgeJ(j)}<span class="doux" style="font-size:var(--t-xs)">${heure(a.date_limite)}</span></div>` },
+  { titre: 'Acheteur', cls: 'col-acheteur', rendu: a => `${esc(a.acheteur || '—')}${
+      a.lieu ? `<div class="doux" style="font-size:var(--t-xs);margin-top:2px">${esc(a.lieu)}</div>` : ''}` },
+  { titre: 'Objet', cls: 'col-objet', rendu: a => `${esc(a.objet || '—')}${
+      a.reference ? `<div class="mono doux" style="margin-top:3px">${esc(a.reference)}</div>` : ''}` },
+  { titre: 'Estimation', cls: 'num', rendu: a => dh(a.estimation) },
+  { titre: 'Caution', cls: 'num col-caution', rendu: a => dh(a.caution_provisoire) },
+  { titre: 'Qualification', rendu: a => qualifHtml(a.qualifications) },
+  { titre: 'Lots', cls: 'num', rendu: a => lotsHtml(a.lots) },
+  { titre: 'Chez cet acheteur', cls: 'col-histo', rendu: a => histoHtml(a.historique) },
+  { titre: '', cls: 'col-lien', rendu: a => lienPortail(a.url) },
+];
+
+function tableHtml(lignes) {
+  const corps = lignes.map(a => {
+    const j = joursRestants(a.date_limite);
+    const classe = j != null && j < 0 ? 'passe' : (j != null && j < 3 ? 'urgent' : '');
+    const titre = a.historique ? ` title="${esc(titreHisto(a.historique))}"` : '';
+    return `<tr class="${classe}">${COLONNES.map((c, i) =>
+      `<td class="${c.cls || ''}"${i === 7 ? titre : ''}>${c.rendu(a, j)}</td>`).join('')}</tr>`;
+  }).join('');
+  return `<table class="tableau"><caption class="sr">Appels d’offres ouverts</caption>
+    <thead><tr>${COLONNES.map(c => `<th scope="col" class="${c.cls || ''}">${c.titre ? esc(c.titre) : '<span class="sr">Portail</span>'}</th>`).join('')}</tr></thead>
+    <tbody>${corps}</tbody></table>`;
+}
+
+const cartesHtml = lignes => `<ul class="cartes" role="list">${lignes.map(a => {
+  const j = joursRestants(a.date_limite);
+  return `<li><div class="carte ${j != null && j < 3 && j >= 0 ? 'urgent' : ''}">
+    <div class="carte__haut"><span>${dateCourte(a.date_limite)} ${heure(a.date_limite)}</span>${badgeJ(j)}</div>
+    <div class="carte__titre">${esc(a.objet || '—')}</div>
+    <div class="doux" style="margin-top:4px">${esc(a.acheteur || '—')}</div>
+    <div class="carte__stats"><span>${dh(a.estimation)}</span>${a.lots.length ? `<span>${pluriel(a.lots.length, 'lot')}</span>` : ''}${
+      a.qualifications.length ? `<span>${esc(a.qualifications.map(q => q.libelle + (q.classe ? ' cl.' + q.classe : '')).join(', '))}</span>` : ''}</div>
+    <div style="margin-top:var(--e3);padding-top:var(--e3);border-top:1px solid var(--bord)">
+      <div class="doux" style="font-size:var(--t-xs);margin-bottom:3px">Chez cet acheteur</div>${histoHtml(a.historique)}</div>
+    ${a.url ? `<div style="margin-top:var(--e3)"><a class="btn" href="${esc(a.url)}" target="_blank" rel="noopener">${ic('externe', 16)}Voir l’annonce</a></div>` : ''}
+  </div></li>`;
+}).join('')}</ul>`;
+
+const squelette = () => `<p class="sr">Chargement en cours…</p>
+  <table class="tableau" aria-hidden="true"><thead><tr>${COLONNES.map(c =>
+    `<th class="${c.cls || ''}">${esc(c.titre)}</th>`).join('')}</tr></thead>
+  <tbody>${Array.from({ length: 8 }, (_, i) => `<tr>${COLONNES.map((c, k) =>
+    `<td class="${c.cls || ''}"><span class="sq" style="width:${40 + ((i * 31 + k * 17) % 45)}%"></span></td>`).join('')}</tr>`).join('')}</tbody></table>
+  <ul class="cartes" aria-hidden="true">${Array.from({ length: 4 }, () => `<li><div class="carte">
+    <span class="sq" style="width:40%"></span><span class="sq" style="width:85%;margin-top:12px"></span>
+    <span class="sq" style="width:60%;margin-top:8px"></span></div></li>`).join('')}</ul>`;
+
+const paginationHtml = (page, pages, total) => pages <= 1 ? '' : `<nav class="pagination" aria-label="Pagination">
+  <button type="button" class="btn" data-page="${page - 1}"${page <= 1 ? ' disabled' : ''}>Précédent</button>
+  <span class="pagination__info">Page ${nfEntier.format(page)} sur ${nfEntier.format(pages)} · ${pluriel(total, 'appel')}</span>
+  <button type="button" class="btn" data-page="${page + 1}"${page >= pages ? ' disabled' : ''}>Suivant</button></nav>`;
+
+// ================================================================ état
+const ETAT = { q: '', client: '', tri: 'date_limite', expires: false, page: 1 };
+const TRIS = ['date_limite', 'publie_le', 'estimation', 'acheteur'];
+
+function lireURL() {
+  const sp = new URLSearchParams(location.hash.replace(/^#\/?\??/, ''));
+  ETAT.q = (sp.get('q') || '').slice(0, 120);
+  ETAT.client = (sp.get('client') || '').slice(0, 80);
+  ETAT.tri = TRIS.includes(sp.get('tri')) ? sp.get('tri') : 'date_limite';
+  ETAT.expires = sp.get('expires') === '1';
+  ETAT.page = Math.max(1, Math.min(parseInt(sp.get('page'), 10) || 1, 10000));
+}
+function ecrireURL(mode = 'replace') {
+  const sp = new URLSearchParams();
+  if (ETAT.q) sp.set('q', ETAT.q);
+  if (ETAT.client) sp.set('client', ETAT.client);
+  if (ETAT.tri !== 'date_limite') sp.set('tri', ETAT.tri);
+  if (ETAT.expires) sp.set('expires', '1');
+  if (ETAT.page > 1) sp.set('page', ETAT.page);
+  const qs = sp.toString();
+  history[mode === 'push' ? 'pushState' : 'replaceState'](null, '', '#/' + (qs ? '?' + qs : ''));
+}
+function synchroniserChamps() {
+  $('#q').value = ETAT.q;
+  $('#client').value = ETAT.client;
+  $('#tri').value = ETAT.tri;
+  $('#expires').checked = ETAT.expires;
+  $('#client').classList.toggle('actif', !!ETAT.client);
+}
+
+// ================================================================ chargement
+const cadre = $('#cadre');
+let jeton = 0, clientsConnus = null;
+
+async function charger() {
+  const mien = ++jeton;
+  if (!cadre.innerHTML) cadre.innerHTML = squelette(); else cadre.classList.add('en-cours');
+  const debut = performance.now();
+  let d;
+  try {
+    d = await api('/api/v1/appels_ouverts', {
+      q: ETAT.q, client: ETAT.client, tri: ETAT.tri,
+      actifs: ETAT.expires ? '0' : '1', page: ETAT.page, taille: TAILLE,
+    });
+  } catch (e) {
+    if (mien !== jeton) return;
+    cadre.classList.remove('en-cours');
+    cadre.innerHTML = blocErreur(e);
+    $('#compte').textContent = '';
+    $('#info-requete').textContent = '';
+    return;
+  }
+  if (mien !== jeton) return;
+  cadre.classList.remove('en-cours');
+
+  if (clientsConnus === null || clientsConnus.join('|') !== d.clients.join('|')) {
+    clientsConnus = d.clients;
+    const sel = $('#client');
+    sel.innerHTML = '<option value="">Tous les clients</option>' +
+      d.clients.map(c => `<option value="${esc(c)}">${esc(c)}</option>`).join('');
+    sel.value = ETAT.client;                 // disparu de la liste : retombe sur « tous »
+    if (sel.value !== ETAT.client) { ETAT.client = ''; ecrireURL(); }
+    sel.classList.toggle('actif', !!ETAT.client);
+  }
+  $('#lib-expires').textContent = !d.expires ? 'Voir aussi les appels expirés'
+    : d.expires === 1 ? 'Voir aussi l’appel expiré'
+    : `Voir aussi les ${nfEntier.format(d.expires)} appels expirés`;
+
+  const urgents = d.lignes.filter(a => { const j = joursRestants(a.date_limite); return j != null && j >= 0 && j < 3; }).length;
+  $('#kpis').innerHTML = [
+    ['Appels affichés', nb(d.total), ETAT.expires ? 'expirés compris' : 'encore ouverts'],
+    ['À moins de 3 jours', nb(urgents), 'sur cette page'],
+    ['Clients suivis', nb(d.clients.length), ETAT.client ? `filtré sur ${ETAT.client}` : 'tous confondus'],
+    ['Appels expirés', nb(d.expires), 'conservés en base'],
+  ].map(([lib, val, note]) => `<div class="kpi"><div class="kpi__lib">${esc(lib)}</div>
+    <div class="kpi__val">${val}</div><div class="kpi__note">${esc(note)}</div></div>`).join('');
+
+  const pages = Math.max(1, Math.ceil(d.total / d.taille));
+  if (!d.lignes.length) {
+    cadre.innerHTML = `<div class="etat"><span class="etat__icone">${ic('vide', 24)}</span>
+      <h2>Aucun appel d’offres</h2>
+      <p>${ETAT.q || ETAT.client ? 'Aucun appel ne correspond à ces critères.'
+        : ETAT.expires ? 'Le service de détection n’a encore rien envoyé.'
+        : 'Rien d’ouvert en ce moment. Cochez « voir aussi les appels expirés » pour consulter l’historique reçu.'}</p></div>`;
+  } else {
+    cadre.innerHTML = tableHtml(d.lignes) + cartesHtml(d.lignes) + paginationHtml(d.page, pages, d.total);
+  }
+  $('#compte').innerHTML = `<strong>${pluriel(d.total, 'appel d’offres', 'appels d’offres')}</strong>${
+    ETAT.expires ? '' : ' encore ouverts'}`;
+  $('#info-requete').textContent = `${Math.round(performance.now() - debut)} ms`;
+}
+
+// ================================================================ interactions
+let minuteur = null;
+$('#q').addEventListener('input', e => {
+  clearTimeout(minuteur);
+  minuteur = setTimeout(() => { ETAT.q = e.target.value.trim(); ETAT.page = 1; ecrireURL(); charger(); }, 300);
+});
+$('#client').addEventListener('change', e => { ETAT.client = e.target.value; ETAT.page = 1; ecrireURL('push'); synchroniserChamps(); charger(); });
+$('#tri').addEventListener('change', e => { ETAT.tri = e.target.value; ETAT.page = 1; ecrireURL(); charger(); });
+$('#expires').addEventListener('change', e => { ETAT.expires = e.target.checked; ETAT.page = 1; ecrireURL(); charger(); });
+cadre.addEventListener('click', e => {
+  const p = e.target.closest('[data-page]');
+  if (p) { ETAT.page = +p.dataset.page; ecrireURL('push'); charger(); scrollTo(0, 0); return; }
+  if (e.target.closest('#reessayer')) charger();
+});
+addEventListener('popstate', () => { lireURL(); synchroniserChamps(); charger(); });
+
+lireURL();
+synchroniserChamps();
+charger();
+</script>
+</body>
+</html>

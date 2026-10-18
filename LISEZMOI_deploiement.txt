@@ -49,6 +49,13 @@ page d'administration qui montre qui consulte quoi.
         ADMIN_MOTDEPASSE   ton mot de passe pour /admin
         ADMIN_UTILISATEUR  facultatif, "admin" par défaut
         MENTION_SUIVI      "0" pour retirer la phrase d'information sur l'enregistrement
+        JETON_SERVICE      jeton Bearer du service qui pousse les appels d'offres ouverts
+                           (POST /api/v1/appels_ouverts). Sans lui, la route refuse tout.
+        AO_OUVERTS         facultatif : chemin de la base des appels d'offres ouverts.
+                           Par defaut /data/ao_ouverts.db, sur le volume. NE JAMAIS la
+                           pointer sur pv_travaux.db : cette base-la est remplacee a chaque
+                           deploiement, tout ce qu'on y ecrirait serait perdu. Le serveur
+                           verifie ce point au demarrage et refuse de partir sinon.
    d) Settings -> Networking -> Generate Domain : tu obtiens une adresse en .up.railway.app,
       en HTTPS. Tu peux brancher ton propre nom de domaine au même endroit.
 

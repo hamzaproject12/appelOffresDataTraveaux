@@ -9,6 +9,12 @@ Variables d'environnement (à définir sur Railway) :
     ADMIN_MOTDEPASSE    mot de passe de la page d'administration (obligatoire)
     BASE                chemin de la base SQLite (défaut : /data/pv.db, sinon pv.db à côté du script)
     MENTION_SUIVI       "0" pour retirer la phrase d'information sur l'enregistrement des consultations
+    AO_OUVERTS          chemin de la base des appels d'offres ouverts (défaut : /data/ao_ouverts.db,
+                        sinon ao_ouverts.db à côté du script). C'est une base SÉPARÉE, sur le volume :
+                        pv_travaux.db est remplacée à chaque déploiement, elle ne peut rien retenir.
+    JETON_SERVICE       jeton « Authorization: Bearer » du service qui pousse les appels d'offres
+                        ouverts sur POST /api/v1/appels_ouverts. Sans lui, la route refuse tout.
+    LIMITE_SERVICE_HEURE  plafond horaire de ce service (défaut 600), indépendant des visiteurs
 
 Le navigateur ne reçoit jamais le jeu de données complet : chaque requête renvoie au plus 100 lignes.
 """
@@ -29,9 +35,19 @@ import unicodedata
 from collections import defaultdict, deque
 from datetime import datetime, timezone
 from pathlib import Path
+from statistics import median
 
 from fastapi import Depends, FastAPI, Form, HTTPException, Request, Response
 from fastapi.responses import FileResponse, HTMLResponse, JSONResponse, PlainTextResponse, RedirectResponse
+
+# La clé d'acheteur des appels d'offres ouverts DOIT être celle qui a servi à construire
+# pv_travaux.db, sinon la jointure avec l'historique est fausse sans prévenir. On importe donc
+# les deux pièces telles quelles plutôt que d'en recopier une variante :
+#   PREFIXE_ORG  retire le code interne du portail (« M4 / ENAM - OFFICE… »), comme le fait
+#                marche_du_portail() avant d'écrire marches.acheteur ;
+#   cle_plate    réduit ce qui reste à [a-z0-9], comme cle_marche() le fait déjà des deux côtés.
+# construire_base.py ne lit aucun fichier à l'import : il n'y définit que des regex et des chemins.
+from construire_base import PREFIXE_ORG, cle_plate
 
 ICI = Path(__file__).resolve().parent
 
@@ -173,6 +189,47 @@ LIMITE_JOUR = int(os.environ.get("LIMITE_JOUR", 1200))       # requêtes par jou
 # Les limites comptent à la fois par nom saisi ET par adresse IP : changer de nom ne remet pas
 # les compteurs à zéro.
 
+# --------------------------------------------------- appels d'offres ouverts : une base à part
+# pv_travaux.db est livrée compressée dans le dépôt et REMPLACÉE sur le volume dès que
+# l'empreinte de l'archive change (voir decompresser()). Tout ce qu'on y écrirait serait perdu
+# au déploiement suivant. Les appels d'offres reçus du service de détection vivent donc dans
+# leur propre fichier, sur le même volume, qu'aucune reconstruction ne connaît :
+# construire_base.py écrit dans BASE, maj_quotidienne.py remplace BASE, planificateur.py déplie
+# amorce.tar.gz (consultations/ et extraits/ seulement) — aucun des trois ne nomme ao_ouverts.db.
+AO_BASE = Path(os.environ.get("AO_OUVERTS") or
+               ("/data/ao_ouverts.db" if os.name != "nt" and Path("/data").is_dir()
+                else ICI / "ao_ouverts.db"))
+JETON_SERVICE = os.environ.get("JETON_SERVICE", "")
+LIMITE_SERVICE_HEURE = int(os.environ.get("LIMITE_SERVICE_HEURE", 600))
+
+
+def verifier_separation_ao() -> None:
+    """Refuse de démarrer si ao_ouverts.db peut être emporté par le remplacement de la base.
+
+    Le contrôle ne coûte rien et répond à la seule question qui compte : le fichier que nous
+    allons remplir est-il, de près ou de loin, un de ceux que le démarrage écrase ? On compare
+    les chemins résolus, pas les noms : BASE=/data/ao_ouverts.db par erreur dans les variables
+    Railway suffirait à tout perdre, et personne ne s'en apercevrait avant le déploiement suivant.
+    """
+    a = AO_BASE.resolve()
+    menaces = {
+        "la base servie (BASE), remplacée dès que l'empreinte de l'archive change": BASE.resolve(),
+        "le journal des visiteurs (JOURNAL)": JOURNAL_BASE.resolve(),
+    }
+    # decompresser() supprime aussi le -wal et le -shm de la base servie avant de la remplacer.
+    for suffixe in ("-wal", "-shm", ".tmp", ".neuf", ".gz", ".amorce"):
+        menaces[f"un fichier de travail de la base servie ({suffixe})"] = (
+            Path(str(BASE) + suffixe).resolve())
+    for quoi, chemin in menaces.items():
+        if a == chemin:
+            raise RuntimeError(
+                f"AO_OUVERTS={AO_BASE} désigne {quoi}.\n"
+                f"Les appels d'offres ouverts seraient effacés au prochain déploiement. "
+                f"Donne-lui un fichier à lui sur le volume, par exemple /data/ao_ouverts.db.")
+
+
+verifier_separation_ao()
+
 app = FastAPI(docs_url=None, redoc_url=None, openapi_url=None)
 
 
@@ -224,6 +281,43 @@ def preparer_journal() -> None:
 preparer_journal()
 
 
+def preparer_ao() -> None:
+    """Crée ao_ouverts.db si elle n'existe pas. Elle n'est jamais reconstruite, seulement remplie."""
+    AO_BASE.parent.mkdir(parents=True, exist_ok=True)
+    db = sqlite3.connect(AO_BASE)
+    try:
+        db.executescript("""
+          CREATE TABLE IF NOT EXISTS appels_ouverts (
+            ref_annonce TEXT PRIMARY KEY, org_acronyme TEXT, reference TEXT, objet TEXT,
+            acheteur TEXT, cle_acheteur TEXT, publie_le TEXT, date_limite TEXT, estimation REAL,
+            caution_provisoire REAL, lieu TEXT, url TEXT, source TEXT, recu_le TEXT, maj_le TEXT,
+            brut TEXT);
+          CREATE TABLE IF NOT EXISTS appels_clients (
+            ref_annonce TEXT, client TEXT, ajoute_le TEXT, PRIMARY KEY (ref_annonce, client));
+          CREATE TABLE IF NOT EXISTS appels_lots (
+            ref_annonce TEXT, lot TEXT, intitule TEXT, estimation REAL, caution_provisoire REAL,
+            PRIMARY KEY (ref_annonce, lot));
+          CREATE TABLE IF NOT EXISTS appels_qualifications (
+            ref_annonce TEXT, libelle TEXT, classe TEXT);
+          CREATE TABLE IF NOT EXISTS journal_service (
+            id INTEGER PRIMARY KEY, recu_le TEXT, jeton_nom TEXT, route TEXT, nb_recus INTEGER,
+            nb_crees INTEGER, nb_maj INTEGER, ip TEXT);
+          CREATE INDEX IF NOT EXISTS i_ao_limite ON appels_ouverts(date_limite);
+          CREATE INDEX IF NOT EXISTS i_ao_acheteur ON appels_ouverts(cle_acheteur);
+          CREATE INDEX IF NOT EXISTS i_ao_client ON appels_clients(client);
+          CREATE INDEX IF NOT EXISTS i_ao_qual ON appels_qualifications(ref_annonce);""")
+        db.commit()
+    finally:
+        db.close()
+
+
+preparer_ao()
+print(f"[pv] appels d'offres ouverts : {AO_BASE}", flush=True)
+print("[pv] service de détection : " + (f"actif, {LIMITE_SERVICE_HEURE} requêtes/heure"
+      if JETON_SERVICE else "DÉSACTIVÉ — définis JETON_SERVICE pour ouvrir POST /api/v1/appels_ouverts"),
+      flush=True)
+
+
 def sans_accents(texte: str | None) -> str:
     """Minuscules et accents retirés : « BENI MELLAL » et « Béni Mellal » s'écrivent pareil
     une fois passés ici. Les PV mélangent les deux, la recherche ne doit pas en dépendre."""
@@ -258,6 +352,40 @@ def ecrire(sql: str, params: tuple = (), journal: bool = True) -> None:
         pass
     finally:
         db.close()
+
+
+def cle_acheteur(nom: str | None) -> str:
+    """La clé sous laquelle un acheteur se retrouve des deux côtés : historique et AO ouverts.
+
+    Exactement les deux traitements que construire_base.py applique déjà au nom d'un acheteur
+    avant de l'écrire — retirer le préfixe interne du portail, puis réduire à [a-z0-9]. Les
+    importer plutôt que les recopier est volontaire : une variante qui dérive d'un caractère
+    ferait une jointure silencieusement vide.
+    """
+    return cle_plate(PREFIXE_ORG.sub("", (nom or "")).strip())
+
+
+# --------------------------------------------------- deux connexions, deux rôles
+# L'historique est en lecture seule : il est remplacé sous nos pieds par la reconstruction
+# nocturne, rien ne doit jamais y écrire depuis le serveur. Les appels d'offres ouverts, eux,
+# sont la seule chose que le serveur écrit en propre, dans leur fichier à part.
+
+def base_historique() -> sqlite3.Connection:
+    """pv_travaux.db, en lecture seule."""
+    db = sqlite3.connect(f"file:{BASE}?mode=ro", uri=True, check_same_thread=False)
+    db.row_factory = sqlite3.Row
+    db.execute("PRAGMA busy_timeout = 4000")
+    db.create_function("cle_acheteur", 1, cle_acheteur, deterministic=True)
+    return db
+
+
+def base_ao() -> sqlite3.Connection:
+    """ao_ouverts.db, en lecture-écriture."""
+    db = sqlite3.connect(AO_BASE, check_same_thread=False)
+    db.row_factory = sqlite3.Row
+    db.execute("PRAGMA busy_timeout = 4000")
+    db.create_function("sans_accents", 1, sans_accents, deterministic=True)
+    return db
 
 
 # ------------------------------------------------------------------ session signée
@@ -318,6 +446,49 @@ def visiteur(request: Request) -> dict:
     if not dans_les_clous(session["n"], adresse(request)):
         raise HTTPException(429, "Trop de requêtes, réessayez plus tard.")
     return session
+
+
+# --------------------------------------------------- plafond propre au service de détection
+# Les visiteurs sont comptés à la minute et à la journée, par nom et par IP. Le service, lui,
+# pousse par rafales quand il vient de détecter une fournée : son compteur est à l'heure, dans
+# sa propre file, et une rafale de sa part ne doit jamais fermer la porte à un visiteur.
+_service_recentes: dict[str, deque] = defaultdict(deque)
+
+
+def _compter_service(cle: str) -> bool:
+    maintenant = time.time()
+    f = _service_recentes[cle]
+    while f and maintenant - f[0] > 3600:
+        f.popleft()
+    f.append(maintenant)
+    return len(f) <= LIMITE_SERVICE_HEURE
+
+
+def service(request: Request) -> str:
+    """Authentifie le service de détection. Le cookie visiteur n'ouvre pas cette porte."""
+    if not JETON_SERVICE:
+        raise HTTPException(503, "JETON_SERVICE n'est pas défini sur le serveur.")
+    schema, _, presente = request.headers.get("authorization", "").partition(" ")
+    if schema.lower() != "bearer" or not hmac.compare_digest(presente.strip(), JETON_SERVICE):
+        raise HTTPException(401, "Jeton de service absent ou invalide.")
+    if not _compter_service(adresse(request)):
+        raise HTTPException(429, f"Plus de {LIMITE_SERVICE_HEURE} requêtes dans l'heure.")
+    return "service"
+
+
+def noter_service(request: Request, route: str, recus: int, crees: int, maj: int) -> None:
+    """Journalise l'appel du service dans SA table, jamais dans le journal des visiteurs."""
+    db = base_ao()
+    try:
+        db.execute("INSERT INTO journal_service (recu_le, jeton_nom, route, nb_recus, nb_crees,"
+                   " nb_maj, ip) VALUES (?,?,?,?,?,?,?)",
+                   (datetime.now(timezone.utc).isoformat(timespec="seconds"), "JETON_SERVICE",
+                    route, recus, crees, maj, adresse(request)))
+        db.commit()
+    except sqlite3.Error as e:
+        print(f"[pv] journal_service non écrit : {e}", flush=True)
+    finally:
+        db.close()
 
 
 def noter(request: Request, session: dict | None, action: str, details: str = "",
@@ -422,6 +593,90 @@ def filtre_annee_agrege(annee: str | None) -> tuple[str, list] | None:
     if annee == "incertaine":
         return (f"y.annee NOT IN ({','.join('?' * len(retenues))})", list(retenues)) if retenues else ("1=1", [])
     return None
+
+
+# ------------------------------------------------- l'historique vu par acheteur
+# Ce que les 18 085 marchés déjà attribués disent d'un acheteur, prêt à être posé en face d'un
+# appel d'offres encore ouvert. C'est le seul endroit où les deux mondes se touchent.
+#
+# L'unité de mesure n'est pas toujours le marché : un marché alloti n'a ni écart ni mieux-disant
+# au niveau du marché — tout est par lot, dans la table lots. On compte donc le marché quand il
+# est simple, et chacun de ses lots quand il est alloti. nb_marches, lui, reste un nombre de
+# marchés : c'est ce que le lecteur attend de « 42 marchés chez cet acheteur ».
+_agregats: tuple[float, int, dict[str, dict]] | None = None
+
+
+def agregats_acheteurs() -> dict[str, dict]:
+    """{clé d'acheteur : {nb_marches, taux…, ecart_median…, nb_concurrents_median}}.
+
+    Une seule passe sur la base, gardée en mémoire : 1 946 acheteurs ne pèsent rien, alors que
+    recalculer la médiane à chaque affichage de page coûterait une lecture complète. La
+    reconstruction nocturne remplace le fichier ; on relit quand sa date ou sa taille change.
+    """
+    global _agregats
+    try:
+        etat = (BASE.stat().st_mtime, BASE.stat().st_size)
+    except OSError:
+        return {}
+    if _agregats is not None and _agregats[:2] == etat:
+        return _agregats[2]
+
+    marches: dict[str, int] = defaultdict(int)
+    ecarts: dict[str, list] = defaultdict(list)
+    mieux: dict[str, list] = defaultdict(list)
+    concurrents: dict[str, list] = defaultdict(list)
+    db = base_historique()
+    try:
+        for r in db.execute("""SELECT cle_acheteur(m.acheteur) k, COALESCE(m.nb_lots, 1) > 1 alloti,
+                               m.ecart_attributaire e, m.attributaire_mieux_disant a,
+                               m.nb_concurrents c FROM marches m WHERE m.principale = 1"""):
+            if not r["k"]:
+                continue
+            marches[r["k"]] += 1
+            if r["alloti"]:
+                continue                     # ses chiffres sont dans lots, pas ici
+            if r["e"] is not None:
+                ecarts[r["k"]].append(r["e"])
+            if r["a"] is not None:
+                mieux[r["k"]].append(r["a"])
+            if r["c"] is not None:
+                concurrents[r["k"]].append(r["c"])
+        for r in db.execute("""SELECT cle_acheteur(m.acheteur) k, l.ecart_attributaire e,
+                               l.attributaire_mieux_disant a, l.nb_concurrents c
+                               FROM lots l JOIN marches m ON m.ref = l.ref
+                               WHERE m.principale = 1 AND COALESCE(m.nb_lots, 1) > 1"""):
+            if not r["k"]:
+                continue
+            if r["e"] is not None:
+                ecarts[r["k"]].append(r["e"])
+            if r["a"] is not None:
+                mieux[r["k"]].append(r["a"])
+            if r["c"] is not None:
+                concurrents[r["k"]].append(r["c"])
+    except sqlite3.Error as e:
+        print(f"[pv] agrégats par acheteur indisponibles ({e})", flush=True)
+        return {}
+    finally:
+        db.close()
+
+    out = {}
+    for k, n in marches.items():
+        out[k] = {
+            "nb_marches": n,
+            # Part des attributions qui sont allées au mieux-disant calculé, en pourcentage.
+            # Lue sur les seules unités où la règle est calculable — un marché sans estimation
+            # ni offres chiffrées ne dit ni oui ni non.
+            "taux_attribution_au_mieux_disant":
+                round(100 * sum(mieux[k]) / len(mieux[k]), 1) if mieux[k] else None,
+            # Écart médian de l'attribution à l'estimation, en pourcentage : positif, l'acheteur
+            # paie au-dessus de ce qu'il avait annoncé ; négatif, en dessous.
+            "ecart_median_attribution": round(median(ecarts[k]), 1) if ecarts[k] else None,
+            # Combien de concurrents se présentent habituellement chez lui. Les procédures sans
+            # offre comptent : elles font partie de ce qu'on vient mesurer.
+            "nb_concurrents_median": round(median(concurrents[k]), 1) if concurrents[k] else None,
+        }
+    _agregats = (etat[0], etat[1], out)
+    return out
 
 
 # ------------------------------------------------------------------ pages
@@ -854,6 +1109,253 @@ def api_qualite(request: Request, session: dict = Depends(visiteur)):
     return {"statuts": statuts}
 
 
+# ------------------------------------------------------- appels d'offres ouverts
+# Deux portes sur la même base, et elles ne s'ouvrent pas avec la même clé :
+#   POST  le service de détection, jeton Bearer, plafond horaire à lui ;
+#   GET   le visiteur du site, cookie habituel, pour alimenter la page /ao-ouverts.
+
+def _texte(v, limite: int = 500) -> str | None:
+    if v is None or isinstance(v, (dict, list, bool)):
+        return None
+    t = re.sub(r"\s+", " ", str(v)).strip()[:limite]
+    return t or None
+
+
+def _nombre(v) -> float | None:
+    """« 1 234 567,89 DH » aussi bien que 1234567.89 : le service n'est pas tenu d'être propre."""
+    if isinstance(v, bool) or v is None:
+        return None
+    if isinstance(v, (int, float)):
+        return float(v)
+    t = re.sub(r"[^0-9,.\-]", "", str(v))
+    if t.count(",") and t.count("."):            # « 1.234.567,89 » : le point sépare les milliers
+        t = t.replace(".", "")
+    t = t.replace(",", ".")
+    try:
+        return float(t)
+    except ValueError:
+        return None
+
+
+DATES = (("%Y-%m-%dT%H:%M:%S", 19), ("%Y-%m-%d %H:%M:%S", 19), ("%Y-%m-%dT%H:%M", 16),
+         ("%Y-%m-%d %H:%M", 16), ("%d/%m/%Y %H:%M", 16), ("%Y-%m-%d", 10), ("%d/%m/%Y", 10))
+
+
+def _date(v) -> str | None:
+    """Une date de clôture en ISO, heure comprise.
+
+    Une date sans heure devient 23:59:59 : une consultation qui ferme « le 5 novembre » est
+    encore ouverte le 5 au matin, et la ranger à minuit la ferait disparaître un jour trop tôt.
+    Les heures sont celles du portail (heure du Maroc) ; on ne les convertit pas, le décalage
+    d'une heure avec UTC est absorbé par cette fin de journée.
+    """
+    t = _texte(v, 40)
+    if not t:
+        return None
+    t = t.replace("Z", "").split("+")[0].strip()
+    for forme, taille in DATES:
+        try:
+            d = datetime.strptime(t[:taille], forme)
+        except ValueError:
+            continue
+        return d.isoformat(timespec="seconds") if taille > 10 else d.strftime("%Y-%m-%dT23:59:59")
+    return None
+
+
+def maintenant_iso() -> str:
+    return datetime.now(timezone.utc).isoformat(timespec="seconds")[:19]
+
+
+CHAMPS_AO = ("org_acronyme", "reference", "objet", "acheteur", "publie_le", "estimation",
+             "caution_provisoire", "lieu", "url", "source")
+
+
+@app.post("/api/v1/appels_ouverts")
+async def api_pousser_appels(request: Request, _: str = Depends(service)):
+    """Reçoit du service de détection les appels d'offres ouverts repérés pour des clients.
+
+    Idempotent : le même ref_annonce peut arriver autant de fois qu'on veut. Ce qui change à
+    chaque fois, c'est la liste des clients, et elle est FUSIONNÉE — un appel détecté pour
+    Hicham puis repoussé pour Pako finit avec les deux, jamais avec le seul dernier arrivé.
+
+    Les champs hors contrat (categorie_principale, mode_passation, entite_achat, org_portail,
+    themes…) ne sont pas une erreur : ils ne sont pas rejetés, et la colonne brut garde le JSON
+    tel qu'il est arrivé, de quoi rejouer la réception le jour où une colonne leur sera faite.
+    """
+    try:
+        corps = await request.json()
+    except (ValueError, UnicodeDecodeError):
+        raise HTTPException(422, "Corps JSON illisible.")
+    if not isinstance(corps, dict) or not isinstance(corps.get("appels_ouverts"), list):
+        raise HTTPException(422, 'Le corps attend {"appels_ouverts": [ … ]}.')
+    appels = corps["appels_ouverts"]
+
+    # On trie d'abord, on écrit ensuite : une entrée sans ref_annonce ou sans date_limite ne
+    # doit laisser aucune trace en base, pas même une ligne à moitié remplie.
+    rejetes, retenus = [], []
+    for brut in appels:
+        if not isinstance(brut, dict):
+            rejetes.append({"ref_annonce": None, "motif": "entrée qui n'est pas un objet JSON"})
+            continue
+        ref = _texte(brut.get("ref_annonce"), 120)
+        limite = _date(brut.get("date_limite"))
+        if not ref:
+            rejetes.append({"ref_annonce": None, "motif": "ref_annonce absent"})
+        elif not limite:
+            rejetes.append({"ref_annonce": ref, "motif": "date_limite absente ou illisible"})
+        else:
+            retenus.append((ref, limite, brut))
+
+    # COALESCE(excluded, existant) : une repousse plus maigre que la première ne doit pas effacer
+    # ce qu'on savait déjà. Seuls date_limite, maj_le et brut écrasent toujours.
+    garde = ", ".join(f"{c} = COALESCE(excluded.{c}, appels_ouverts.{c})" for c in CHAMPS_AO)
+    upsert = f"""INSERT INTO appels_ouverts (ref_annonce, {', '.join(CHAMPS_AO)}, cle_acheteur,
+                 date_limite, recu_le, maj_le, brut)
+                 VALUES (?,{','.join('?' * len(CHAMPS_AO))},?,?,?,?,?)
+                 ON CONFLICT(ref_annonce) DO UPDATE SET {garde},
+                   cle_acheteur = COALESCE(excluded.cle_acheteur, appels_ouverts.cle_acheteur),
+                   date_limite = excluded.date_limite, maj_le = excluded.maj_le,
+                   brut = excluded.brut"""
+
+    maintenant, crees, maj = maintenant_iso(), 0, 0
+    db = base_ao()
+    try:
+        for ref, limite, brut in retenus:
+            neuf = db.execute("SELECT 1 FROM appels_ouverts WHERE ref_annonce = ?",
+                              (ref,)).fetchone() is None
+            v = {c: (_nombre(brut.get(c)) if c in ("estimation", "caution_provisoire")
+                     else _date(brut.get(c)) if c == "publie_le"
+                     else _texte(brut.get(c), 2000 if c == "objet" else 400))
+                 for c in CHAMPS_AO}
+            db.execute(upsert,
+                       (ref, *(v[c] for c in CHAMPS_AO), cle_acheteur(v["acheteur"]) or None,
+                        limite, maintenant, maintenant, json.dumps(brut, ensure_ascii=False)))
+            crees, maj = crees + neuf, maj + (not neuf)
+
+            for client in (brut.get("clients") or []):
+                nom = _texte(client, 80)
+                if nom:
+                    db.execute("INSERT OR IGNORE INTO appels_clients (ref_annonce, client,"
+                               " ajoute_le) VALUES (?,?,?)", (ref, nom, maintenant))
+            # Les lots et les qualifications décrivent l'annonce elle-même : quand le service les
+            # renvoie, c'est sa version qui fait foi. Quand il ne les envoie pas, on garde les
+            # nôtres plutôt que de vider la fiche.
+            if isinstance(brut.get("lots"), list):
+                db.execute("DELETE FROM appels_lots WHERE ref_annonce = ?", (ref,))
+                for l in brut["lots"]:
+                    numero = _texte(l.get("lot"), 40) if isinstance(l, dict) else None
+                    if numero:
+                        db.execute("INSERT OR REPLACE INTO appels_lots VALUES (?,?,?,?,?)",
+                                   (ref, numero, _texte(l.get("intitule"), 500),
+                                    _nombre(l.get("estimation")),
+                                    _nombre(l.get("caution_provisoire"))))
+            if isinstance(brut.get("qualifications"), list):
+                db.execute("DELETE FROM appels_qualifications WHERE ref_annonce = ?", (ref,))
+                for q in brut["qualifications"]:
+                    couple = ((_texte(q.get("libelle"), 200), _texte(q.get("classe"), 20))
+                              if isinstance(q, dict) else (_texte(q, 200), None))
+                    if couple[0] or couple[1]:
+                        db.execute("INSERT INTO appels_qualifications VALUES (?,?,?)", (ref, *couple))
+        db.commit()
+    except sqlite3.Error as e:
+        db.rollback()
+        raise HTTPException(500, f"Écriture impossible : {e}")
+    finally:
+        db.close()
+
+    noter_service(request, "POST /api/v1/appels_ouverts", len(appels), crees, maj)
+    reponse = {"recus": len(appels), "crees": crees, "maj": maj, "rejetes": rejetes}
+    # Tout rejeté : la réponse doit être un refus, pas un succès à zéro. Un lot mixte passe en
+    # 200 avec ses rejets détaillés — perdre les entrées valides d'une fournée serait pire.
+    return JSONResponse(reponse, 422 if rejetes and not retenus else 200)
+
+
+@app.get("/api/v1/appels_ouverts")
+def api_appels_ouverts(request: Request, session: dict = Depends(visiteur)):
+    """Les appels d'offres ouverts, éclairés par ce que l'historique sait de leur acheteur."""
+    debut = time.time()
+    p = request.query_params
+    page, taille = page_demandee(request)
+    where, params = ["1 = 1"], []
+    if p.get("client"):
+        where.append("EXISTS (SELECT 1 FROM appels_clients c WHERE c.ref_annonce = a.ref_annonce"
+                     " AND c.client = ?)")
+        params.append(p["client"][:80])
+    # Par défaut on ne montre que ce qui est encore ouvert. Les expirés restent en base — ils ne
+    # sont jamais effacés — mais il faut les demander.
+    actifs = p.get("actifs", "1") != "0"
+    if actifs:
+        where.append("a.date_limite >= ?")
+        params.append(maintenant_iso())
+    if p.get("acheteur"):
+        where.append("a.cle_acheteur = ?")
+        params.append(cle_acheteur(p["acheteur"]))
+    if p.get("q"):
+        mots = filtre_mots(p["q"], "(COALESCE(a.objet,'') || ' ' || COALESCE(a.acheteur,'')"
+                                   " || ' ' || COALESCE(a.reference,''))")
+        if mots:
+            where.append(mots[0])
+            params += mots[1]
+    tris = {"date_limite": "a.date_limite ASC", "publie_le": "a.publie_le DESC",
+            "estimation": "a.estimation DESC", "acheteur": "a.acheteur ASC"}
+    ordre = tris.get(p.get("tri", "date_limite"), tris["date_limite"])
+    filtre = " AND ".join(where)
+
+    db = base_ao()
+    try:
+        total = db.execute(f"SELECT COUNT(*) n FROM appels_ouverts a WHERE {filtre}",
+                           tuple(params)).fetchone()["n"]
+        lignes = [dict(r) for r in db.execute(
+            f"""SELECT a.ref_annonce, a.org_acronyme, a.reference, a.objet, a.acheteur,
+                a.cle_acheteur, a.publie_le, a.date_limite, a.estimation, a.caution_provisoire,
+                a.lieu, a.url, a.source, a.recu_le, a.maj_le
+                FROM appels_ouverts a WHERE {filtre}
+                ORDER BY a.date_limite IS NULL, {ordre} LIMIT ? OFFSET ?""",
+            tuple(params) + (taille, (page - 1) * taille))]
+        par_ref = {l["ref_annonce"]: l for l in lignes}
+        for l in lignes:
+            l["clients"], l["lots"], l["qualifications"] = [], [], []
+        if lignes:
+            refs = list(par_ref)
+            trous = ",".join("?" * len(refs))
+            for r in db.execute(f"SELECT ref_annonce, client FROM appels_clients"
+                                f" WHERE ref_annonce IN ({trous}) ORDER BY client", refs):
+                par_ref[r["ref_annonce"]]["clients"].append(r["client"])
+            for r in db.execute(f"SELECT ref_annonce, lot, intitule, estimation, caution_provisoire"
+                                f" FROM appels_lots WHERE ref_annonce IN ({trous})"
+                                f" ORDER BY CAST(lot AS INTEGER), lot", refs):
+                par_ref[r["ref_annonce"]]["lots"].append(
+                    {k: r[k] for k in ("lot", "intitule", "estimation", "caution_provisoire")})
+            for r in db.execute(f"SELECT ref_annonce, libelle, classe FROM appels_qualifications"
+                                f" WHERE ref_annonce IN ({trous}) ORDER BY libelle", refs):
+                par_ref[r["ref_annonce"]]["qualifications"].append(
+                    {"libelle": r["libelle"], "classe": r["classe"]})
+        clients_connus = [r["client"] for r in db.execute(
+            "SELECT client, COUNT(*) n FROM appels_clients GROUP BY client ORDER BY n DESC, client")]
+        expires = db.execute("SELECT COUNT(*) n FROM appels_ouverts WHERE date_limite < ?",
+                             (maintenant_iso(),)).fetchone()["n"]
+    finally:
+        db.close()
+
+    # Le pont entre les deux bases : ce que les marchés déjà attribués disent de cet acheteur.
+    # Rien quand il est inconnu de l'historique — la page affichera un tiret, pas un zéro.
+    histo = agregats_acheteurs()
+    for l in lignes:
+        l["historique"] = histo.get(l["cle_acheteur"] or "")
+
+    noter(request, session, "appels d'offres ouverts",
+          json.dumps({k: v for k, v in p.items() if v}, ensure_ascii=False), total, debut)
+    return {"total": total, "page": page, "taille": taille, "lignes": lignes,
+            "clients": clients_connus, "expires": expires, "actifs": actifs}
+
+
+@app.get("/ao-ouverts", response_class=HTMLResponse)
+def page_ao_ouverts(request: Request):
+    if not verifier(request.cookies.get("pv")):
+        return RedirectResponse("/", 302)
+    return FileResponse(ICI / "statique" / "ao_ouverts.html")
+
+
 # ------------------------------------------------------------------ administration
 
 PAGE_ADMIN_CONNEXION = """<!DOCTYPE html><html lang="fr"><head><meta charset="utf-8">
@@ -980,7 +1482,9 @@ def sante():
 
 @app.exception_handler(HTTPException)
 def erreurs(request: Request, exc: HTTPException):
-    if exc.status_code == 401 and request.url.path.startswith("/api/"):
+    if exc.status_code == 401 and request.url.path.startswith("/api/") and exc.detail == "Session expirée":
+        # « session » est le signal que le navigateur attend pour renvoyer vers la page d'accès.
+        # Le service de détection, lui, n'a pas de session : son 401 garde son propre message.
         return JSONResponse({"erreur": "session"}, 401)
     if exc.status_code == 401 and exc.headers:
         return Response("Identifiant ou mot de passe incorrect.", 401, headers=exc.headers)

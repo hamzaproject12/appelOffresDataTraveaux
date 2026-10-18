@@ -124,3 +124,137 @@ Dans l'ordre, sur http://localhost:8000 après avoir entré un nom :
 
 Rapport final : ce que tu as changé par chantier, les contrôles avec leur résultat, et ce qui reste
 imparfait.
+
+---
+
+# Chantier 6 — Les appels d'offres encore ouverts
+
+Un service externe détecte, pour des clients nommés, les consultations **encore ouvertes** sur le
+portail. Il les pousse ici. La page `/ao-ouverts` les montre, et pose en face de chacune ce que
+les 18 085 marchés déjà attribués disent de l'acheteur qui publie.
+
+## Le piège, avant tout le reste
+
+`pv_travaux.db` est livrée compressée dans le dépôt et **remplacée sur le volume dès que
+l'empreinte SHA-256 de l'archive change** (`decompresser()` dans `serveur.py`). Toute table
+écrite dedans disparaîtrait au déploiement suivant, sans bruit.
+
+Les appels d'offres vivent donc dans **`ao_ouverts.db`, un fichier à part sur le même volume**,
+qu'aucun des trois programmes d'écriture ne connaît :
+
+| programme | ce qu'il écrit | touche `ao_ouverts.db` ? |
+|---|---|---|
+| `construire_base.py` | la base qu'on lui nomme en argument | non |
+| `maj_quotidienne.py` | remplace `BASE` par une base reconstruite | non |
+| `planificateur.py` | déplie `amorce.tar.gz` (`consultations/`, `extraits/`) | non |
+| `serveur.py` au démarrage | déplie l'archive vers `BASE` | non |
+
+Le serveur ne s'en remet pas à cette liste : `verifier_separation_ao()` compare au démarrage le
+chemin résolu de `AO_OUVERTS` à celui de `BASE`, du journal, et des fichiers de travail de la
+base servie (`-wal`, `-shm`, `.tmp`, `.neuf`, `.gz`, `.amorce`). S'ils coïncident, **le serveur
+refuse de démarrer** plutôt que de remplir un fichier condamné.
+
+## Variables d'environnement
+
+| variable | défaut | rôle |
+|---|---|---|
+| `AO_OUVERTS` | `/data/ao_ouverts.db`, sinon à côté du script | la base des appels d'offres ouverts. **Sur le volume**, jamais dans l'image. |
+| `JETON_SERVICE` | vide | jeton `Authorization: Bearer` du service de détection. Vide, `POST /api/v1/appels_ouverts` répond 503. |
+| `LIMITE_SERVICE_HEURE` | `600` | plafond horaire du service, compté par IP, dans sa propre file. |
+
+Sur Railway, `AO_OUVERTS` n'a pas à être défini : le volume est monté sur `/data` et le défaut
+tombe juste. `JETON_SERVICE`, lui, est obligatoire — c'est la seule clé de la porte.
+
+## `POST /api/v1/appels_ouverts`
+
+En-tête `Authorization: Bearer <JETON_SERVICE>`. **Le cookie visiteur n'ouvre pas cette route.**
+
+```json
+{"appels_ouverts": [{
+  "ref_annonce": "123456", "org_acronyme": "ONEE", "reference": "40/2026/DRT",
+  "objet": "...", "acheteur": "...", "publie_le": "01/10/2026",
+  "date_limite": "05/11/2026 10:00", "estimation": 1200000, "caution_provisoire": 20000,
+  "lieu": "Casablanca", "url": "https://...", "source": "detection",
+  "clients": ["Hicham", "Pako"],
+  "lots": [{"lot": "1", "intitule": "...", "estimation": 400000, "caution_provisoire": 9000}],
+  "qualifications": [{"libelle": "B.1", "classe": "3"}]
+}]}
+```
+
+- **Idempotent** : UPSERT sur `ref_annonce`. Le même appel peut arriver autant de fois qu'on veut.
+- **Les clients sont FUSIONNÉS, jamais remplacés** : reçu pour Hicham puis repoussé pour Pako,
+  l'appel finit avec les deux.
+- **Les champs inconnus sont acceptés** (`categorie_principale`, `mode_passation`, `entite_achat`,
+  `org_portail`, `themes`…) : aucune validation stricte, et le JSON d'origine est conservé entier
+  dans la colonne `brut`, de quoi rejouer la réception plus tard.
+- Une repousse plus maigre que la première n'efface pas ce qu'on savait : les champs absents sont
+  gardés (`COALESCE`). Les lots et les qualifications, eux, sont remplacés quand ils sont fournis.
+- **Rejet en 422, sans rien écrire**, de toute entrée sans `ref_annonce` ou sans `date_limite`.
+  Une fournée entièrement rejetée répond 422 ; une fournée mixte répond 200 et détaille ses rejets
+  dans `rejetes` — perdre les entrées valides serait pire que de les écrire.
+- Réponse : `{"recus": n, "crees": n, "maj": n, "rejetes": [{"ref_annonce", "motif"}]}`.
+- Consigné dans `journal_service` (base des AO), **jamais** dans le journal des visiteurs.
+
+Les dates sont acceptées en ISO ou en `JJ/MM/AAAA`, avec ou sans heure. Une date sans heure est
+rangée à `23:59:59` : une consultation qui ferme « le 5 novembre » est encore ouverte le 5 au
+matin, et la ranger à minuit la ferait disparaître un jour trop tôt.
+
+## `GET /api/v1/appels_ouverts`
+
+Cookie visiteur habituel, plafonds habituels. Paramètres : `client`, `actifs` (défaut `1`), `q`,
+`acheteur`, `tri` (`date_limite` par défaut, puis `publie_le`, `estimation`, `acheteur`), `page`,
+`taille`. `q` cherche tous les mots saisis, dans n'importe quel ordre, dans l'objet, l'acheteur et
+la référence — la même règle que la recherche des marchés.
+
+Chaque ligne porte `historique`, ou `null` quand l'acheteur est inconnu de `pv_travaux.db` :
+
+```json
+{"nb_marches": 203, "taux_attribution_au_mieux_disant": 95.1,
+ "ecart_median_attribution": 8.5, "nb_concurrents_median": 2}
+```
+
+Deux connexions distinctes : `pv_travaux.db` en **lecture seule** (`mode=ro`), `ao_ouverts.db` en
+lecture-écriture.
+
+### Deux pièges dans le calcul de ces agrégats
+
+1. **`m.principale = 1` est obligatoire** : un PV republié compterait sinon plusieurs fois.
+2. **Un marché alloti n'a ni écart ni mieux-disant au niveau du marché** — tout est par lot, dans
+   la table `lots`. Mesuré sur la base Travaux : sur 1 135 marchés allotis, `ecart_attributaire`
+   est renseigné **zéro** fois dans `marches`, contre 3 035 lots dans `lots`. L'unité de mesure est
+   donc le marché quand il est simple, et chacun de ses lots quand il est alloti. `nb_marches`,
+   lui, reste un nombre de marchés : c'est ce que le lecteur attend de « 203 marchés ».
+
+### La clé d'acheteur
+
+`cle_acheteur()` **importe** `PREFIXE_ORG` et `cle_plate` de `construire_base.py` plutôt que de
+les recopier : ce sont exactement les deux traitements appliqués au nom d'un acheteur avant son
+écriture dans `pv_travaux.db`. Une variante qui dériverait d'un caractère ferait une jointure
+silencieusement vide — pas une erreur, juste des tirets partout.
+
+## La page `/ao-ouverts`
+
+HTML seul, JavaScript natif, aucun framework, aucun bundler, aucune dépendance. Les jetons de
+couleur, le thème sombre et la base typographique sont **repris tels quels de `dashboard.html`**
+(même clé `localStorage` `pv-theme` : le choix de thème suit le visiteur d'une page à l'autre).
+
+Sélecteur de client (tous par défaut), recherche, tri, et une case « voir aussi les appels
+expirés » — les expirés ne sont **jamais effacés**, seulement masqués. Tableau trié par date
+limite croissante, badge `J-n`, et les appels à moins de trois jours surlignés. Colonnes : date
+limite, acheteur, objet, estimation, caution, qualification et classe, lots, **« chez cet
+acheteur »**, lien vers le portail. Sous 900 px, le tableau cède la place à des cartes.
+
+La colonne « chez cet acheteur » est ce qui relie les deux mondes : un appel d'offres encore
+ouvert, éclairé par les 18 085 marchés déjà attribués. Un tiret quand l'acheteur est inconnu —
+jamais un zéro, qui se lirait comme une mesure.
+
+## Vérifier
+
+```powershell
+python tester_ao_ouverts.py
+```
+
+Trente-sept contrôles dans un dossier temporaire, sans toucher aux bases réelles : authentification,
+idempotence et fusion des clients, rejets, champs hors contrat, jointure avec l'historique (y
+compris le cas alloti), expirés, journaux séparés, plafonds indépendants, et le piège lui-même —
+une archive dont l'empreinte a changé, `decompresser()` rejoué, et `ao_ouverts.db` intacte.

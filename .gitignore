@@ -12,6 +12,10 @@ pv.db
 pv.db.tmp
 pv_travaux.db
 pv_travaux.db.tmp
+# Les appels d'offres ouverts vivent sur le volume, jamais dans le depot : en local la base
+# retombe a cote du script, et elle n'a rien a y faire.
+ao_ouverts.db
+ao_ouverts.db.tmp
 
 # Le chantier de rattrapage : environ 70 000 fichiers de travail — un JSON par annonce lue,
 # un par refus, les journaux, la liste des annonces. Le pod ne s'en sert jamais : ce qu'il lui
