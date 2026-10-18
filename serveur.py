@@ -202,6 +202,10 @@ AO_BASE = Path(os.environ.get("AO_OUVERTS") or
 JETON_SERVICE = os.environ.get("JETON_SERVICE", "")
 LIMITE_SERVICE_HEURE = int(os.environ.get("LIMITE_SERVICE_HEURE", 600))
 
+# Où atterrit un visiteur une fois son nom donné. Les appels d'offres ouverts passent devant
+# l'historique : c'est ce qu'on vient regarder tous les matins.
+ACCUEIL_CONNECTE = "/ao-ouverts"
+
 
 def verifier_separation_ao() -> None:
     """Refuse de démarrer si ao_ouverts.db peut être emporté par le remplacement de la base.
@@ -717,7 +721,9 @@ def accueil(request: Request, erreur: str = ""):
         return HTMLResponse(f"<pre style='font:14px/1.6 monospace;padding:30px;white-space:pre-wrap'>"
                             f"Le site ne peut pas démarrer.\n\n{PROBLEME}</pre>", 503)
     if verifier(request.cookies.get("pv")):
-        return RedirectResponse("/app", 302)
+        # Les appels d'offres encore ouverts sont ce qu'on vient voir en premier : c'est la page
+        # d'accueil. L'historique des 18 085 marchés reste à un onglet de là.
+        return RedirectResponse(ACCUEIL_CONNECTE, 302)
     mention = ('<p class="mention">Les consultations effectuées sur ce service sont enregistrées.</p>'
                if MENTION_SUIVI else "")
     return PAGE_ACCUEIL.format(erreur=f'<p class="erreur">{erreur}</p>' if erreur else "",
@@ -735,7 +741,7 @@ def entrer(request: Request, nom: str = Form(...)):
            " ON CONFLICT(nom) DO UPDATE SET derniere_visite = excluded.derniere_visite, visites = visites + 1",
            (nom, maintenant, maintenant))
     noter(request, session, "connexion")
-    reponse = RedirectResponse("/app", 302)
+    reponse = RedirectResponse(ACCUEIL_CONNECTE, 302)
     reponse.set_cookie("pv", signer(session), max_age=DUREE_SESSION, httponly=True, samesite="lax",
                        secure=request.url.scheme == "https")
     return reponse
@@ -1189,6 +1195,11 @@ async def api_pousser_appels(request: Request, _: str = Depends(service)):
     if not isinstance(corps, dict) or not isinstance(corps.get("appels_ouverts"), list):
         raise HTTPException(422, 'Le corps attend {"appels_ouverts": [ … ]}.')
     appels = corps["appels_ouverts"]
+    # Les clients peuvent être annoncés une fois pour toute la fournée — {"clients": ["Hicham"],
+    # "appels_ouverts": [ … ]} — ou appel par appel. Les deux se cumulent, et ne remplacent
+    # jamais ce qui est déjà en base : un appel reçu pour Hicham puis repoussé pour Pako finit
+    # avec les deux.
+    clients_fournee = [n for n in (_texte(c, 80) for c in (corps.get("clients") or [])) if n]
 
     # On trie d'abord, on écrit ensuite : une entrée sans ref_annonce ou sans date_limite ne
     # doit laisser aucune trace en base, pas même une ligne à moitié remplie.
@@ -1232,11 +1243,10 @@ async def api_pousser_appels(request: Request, _: str = Depends(service)):
                         limite, maintenant, maintenant, json.dumps(brut, ensure_ascii=False)))
             crees, maj = crees + neuf, maj + (not neuf)
 
-            for client in (brut.get("clients") or []):
-                nom = _texte(client, 80)
-                if nom:
-                    db.execute("INSERT OR IGNORE INTO appels_clients (ref_annonce, client,"
-                               " ajoute_le) VALUES (?,?,?)", (ref, nom, maintenant))
+            propres = [n for n in (_texte(c, 80) for c in (brut.get("clients") or [])) if n]
+            for nom in dict.fromkeys(clients_fournee + propres):
+                db.execute("INSERT OR IGNORE INTO appels_clients (ref_annonce, client,"
+                           " ajoute_le) VALUES (?,?,?)", (ref, nom, maintenant))
             # Les lots et les qualifications décrivent l'annonce elle-même : quand le service les
             # renvoie, c'est sa version qui fait foi. Quand il ne les envoie pas, on garde les
             # nôtres plutôt que de vider la fiche.
@@ -1296,6 +1306,14 @@ def api_appels_ouverts(request: Request, session: dict = Depends(visiteur)):
         if mots:
             where.append(mots[0])
             params += mots[1]
+    # Le filtre par mois porte sur la date limite : « ce que je dois rendre en novembre ».
+    # Il est mis à part pour que la liste des mois proposés reste celle de tous les mois du reste
+    # de la sélection — sinon choisir un mois ferait disparaître les autres du menu.
+    filtre_base, params_base = " AND ".join(where), list(params)
+    mois_demande = re.fullmatch(r"\d{4}-\d{2}", p.get("mois", "") or "")
+    if mois_demande:
+        where.append("substr(a.date_limite, 1, 7) = ?")
+        params.append(mois_demande.group(0))
     tris = {"date_limite": "a.date_limite ASC", "publie_le": "a.publie_le DESC",
             "estimation": "a.estimation DESC", "acheteur": "a.acheteur ASC"}
     ordre = tris.get(p.get("tri", "date_limite"), tris["date_limite"])
@@ -1334,6 +1352,16 @@ def api_appels_ouverts(request: Request, session: dict = Depends(visiteur)):
             "SELECT client, COUNT(*) n FROM appels_clients GROUP BY client ORDER BY n DESC, client")]
         expires = db.execute("SELECT COUNT(*) n FROM appels_ouverts WHERE date_limite < ?",
                              (maintenant_iso(),)).fetchone()["n"]
+        mois = [{"mois": r["m"], "n": r["n"]} for r in db.execute(
+            f"""SELECT substr(a.date_limite, 1, 7) m, COUNT(*) n FROM appels_ouverts a
+                WHERE {filtre_base} AND a.date_limite IS NOT NULL
+                GROUP BY m ORDER BY m""", tuple(params_base))]
+        # La prochaine échéance suit la sélection affichée, mois compris : sinon, en regardant
+        # novembre, le chiffre clé annoncerait une date d'octobre qui n'est dans aucune ligne.
+        prochaine = db.execute(
+            f"SELECT MIN(a.date_limite) d FROM appels_ouverts a"
+            f" WHERE {filtre} AND a.date_limite >= ?",
+            tuple(params) + (maintenant_iso(),)).fetchone()["d"]
     finally:
         db.close()
 
@@ -1346,7 +1374,8 @@ def api_appels_ouverts(request: Request, session: dict = Depends(visiteur)):
     noter(request, session, "appels d'offres ouverts",
           json.dumps({k: v for k, v in p.items() if v}, ensure_ascii=False), total, debut)
     return {"total": total, "page": page, "taille": taille, "lignes": lignes,
-            "clients": clients_connus, "expires": expires, "actifs": actifs}
+            "clients": clients_connus, "expires": expires, "actifs": actifs,
+            "mois": mois, "prochaine": prochaine}
 
 
 @app.get("/ao-ouverts", response_class=HTMLResponse)

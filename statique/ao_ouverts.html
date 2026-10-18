@@ -167,6 +167,7 @@
   .champ:focus-visible { outline: 2px solid var(--focus); outline-offset: -1px; border-color: var(--focus); border-radius: var(--r-s); }
   .recherche .champ { padding-left: 42px; }
   .groupe { display: flex; flex-direction: column; gap: 6px; min-width: 0; }
+  .groupe[hidden], .pastille-client[hidden] { display: none; }   /* display:flex gagnerait sur [hidden] */
   .selecteur { position: relative; display: block; }
   .selecteur select { appearance: none; -webkit-appearance: none; padding-right: 38px; cursor: pointer; min-width: 190px; }
   .selecteur select.actif { border-color: var(--accent); background: var(--accent-doux); color: var(--accent); font-weight: 500; }
@@ -178,6 +179,12 @@
   .case:has(input:checked) { border-color: var(--accent); background: var(--accent-doux); color: var(--accent); font-weight: 500; }
   .case:has(input:focus-visible) { outline: 2px solid var(--focus); outline-offset: 2px; }
   .case input:focus-visible { outline: none; }
+  /* Un seul client pour l'instant : le menu est masqué, mais on dit lequel. */
+  .pastille-client { display: inline-flex; align-items: center; gap: 8px; min-height: 44px;
+    padding: 0 14px; border-radius: var(--r-s); background: var(--accent-doux); color: var(--accent);
+    font-weight: 600; white-space: nowrap; }
+  .pastille-client::before { content: ''; width: 7px; height: 7px; border-radius: 50%;
+    background: currentColor; }
   @media (max-width: 639px) {
     .champ { font-size: 16px; }
     .groupe, .selecteur, .case { width: 100%; }
@@ -207,28 +214,45 @@
     animation: progression 1s linear infinite; }
   @keyframes progression { from { background-position: -60% 0; } to { background-position: 160% 0; } }
 
-  /* tableau */
-  .tableau { width: 100%; border-collapse: collapse; }
+  /* tableau
+     Largeurs fixes : sans cela l'objet, qui est le texte le plus long, se fait écraser par des
+     colonnes courtes qui n'en demandaient pas tant. Il prend ici tout ce que les autres laissent. */
+  .tableau { width: 100%; border-collapse: collapse; table-layout: fixed; }
   .tableau th { text-align: left; font-size: var(--t-xs); font-weight: 600; color: var(--doux);
     text-transform: uppercase; letter-spacing: .03em; padding: var(--e3); white-space: nowrap;
     background: var(--surface-2); border-bottom: 1px solid var(--bord); position: sticky;
     top: var(--haut-barre); z-index: 2; }
   .tableau th.num { text-align: right; }
-  .tableau td { padding: var(--e3); border-bottom: 1px solid var(--bord); vertical-align: top; overflow-wrap: anywhere; }
+  .tableau td { padding: 14px var(--e3); border-bottom: 1px solid var(--bord); vertical-align: top;
+    overflow-wrap: break-word; }
   .tableau tbody tr:last-child td { border-bottom: 0; }
   .tableau tbody tr:hover { background: var(--surface-2); }
   .tableau td.num { white-space: nowrap; text-align: right; font-variant-numeric: tabular-nums; }
-  .tableau .col-limite { width: 8.5rem; }
-  .tableau .col-acheteur { width: 17%; }
-  .tableau .col-objet { width: 26%; }
-  .tableau .col-histo { width: 11rem; }
-  .tableau .col-lien { width: 3.5rem; }
+  .tableau .col-limite { width: 9.5rem; }
+  .tableau .col-acheteur { width: 19%; }
+  .tableau .col-montant { width: 9.5rem; }
+  .tableau .col-qualif { width: 10.5rem; }
+  .tableau .col-histo { width: 12rem; }
+  .tableau .col-lien { width: 3.25rem; }
+  /* contenu des cellules */
+  .xs { font-size: var(--t-xs); line-height: 1.45; }
+  .limite__date { font-weight: 600; white-space: nowrap; }
+  .limite__bas { display: flex; align-items: center; flex-wrap: wrap; gap: 5px; margin-top: 5px; }
+  /* Trois lignes au plus : une ligne du tableau ne doit pas faire la hauteur d'un paragraphe.
+     L'objet entier reste dans l'infobulle, et la carte du mobile l'affiche en entier. */
+  .objet { font-weight: 550; line-height: 1.45; display: -webkit-box; -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical; overflow: hidden; }
+  .acheteur { line-height: 1.4; display: -webkit-box; -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical; overflow: hidden; }
+  .ref-ao { margin-top: 4px; }
+  .montant { font-weight: 600; }
+  .sous-cellule { margin-top: 5px; }
   /* Moins de trois jours : la ligne doit sauter aux yeux avant la colonne qui la justifie. */
   .tableau tbody tr.urgent { background: var(--rouge-doux); }
   .tableau tbody tr.urgent:hover { background: var(--rouge-doux); filter: brightness(.98); }
   .tableau tbody tr.urgent td:first-child { box-shadow: inset 3px 0 0 var(--rouge); }
   .tableau tbody tr.passe { color: var(--doux); }
-  @media (max-width: 1099px) { .tableau .col-lieu, .tableau .col-caution { display: none; } }
+  @media (max-width: 1199px) { .tableau .col-qualif { display: none; } }
   @media (max-width: 899px) { .tableau { display: none; } }
 
   /* cartes (mobile) */
@@ -298,7 +322,7 @@
 <a class="evitement" href="#contenu">Aller au contenu</a>
 <header class="barre-haut">
   <div class="conteneur barre-haut__ligne">
-    <a class="marque" href="/app">
+    <a class="marque" href="/ao-ouverts">
       <span class="marque__logo" aria-hidden="true">
         <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"><path d="M6 7h12M6 12h8M6 17h5"/><circle cx="17.5" cy="16.5" r="2.5"/></svg>
       </span>
@@ -331,10 +355,20 @@
       <svg class="ic" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><circle cx="11" cy="11" r="7"/><path d="m20 20-3.5-3.5"/></svg>
       <input class="champ" type="search" id="q" placeholder="Acheteur, objet, référence…" autocomplete="off" maxlength="120">
     </label>
-    <div class="groupe">
+    <!-- Un seul client pour l'instant. Le menu reste en place, masqué : remettre CLIENT_IMPOSE
+         à '' dans le script le rouvre, avec « Tous les clients », sans rien toucher d'autre. -->
+    <div class="groupe" id="groupe-client" hidden>
       <label class="sr" for="client">Client</label>
       <span class="selecteur">
         <select class="champ" id="client"><option value="">Tous les clients</option></select>
+        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="m6 9 6 6 6-6"/></svg>
+      </span>
+    </div>
+    <span class="pastille-client" id="pastille-client" hidden></span>
+    <div class="groupe">
+      <label class="sr" for="mois">Mois de la date limite</label>
+      <span class="selecteur">
+        <select class="champ" id="mois"><option value="">Tous les mois</option></select>
         <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="m6 9 6 6 6-6"/></svg>
       </span>
     </div>
@@ -363,6 +397,11 @@
 'use strict';
 const $ = (s, r = document) => r.querySelector(s);
 const TAILLE = 50;
+
+// Un seul client pour l'instant : la page ne montre que les appels qui le concernent, et le
+// menu des clients reste masqué. Remettre cette constante à '' rouvre le choix (« Tous les
+// clients » compris) : c'est le seul endroit à changer.
+const CLIENT_IMPOSE = 'Hicham';
 
 const nfEntier = new Intl.NumberFormat('fr-FR');
 const nfDh = new Intl.NumberFormat('fr-FR', { maximumFractionDigits: 0 });
@@ -452,6 +491,12 @@ function heure(iso) {
   // 23:59:59 veut dire « le service n'a pas donné d'heure » : ne pas l'afficher comme une heure.
   return (d.getHours() === 23 && d.getMinutes() === 59) ? '' : d.toLocaleTimeString('fr-FR', { hour: '2-digit', minute: '2-digit' });
 }
+// « 2026-11 » -> « novembre 2026 », pour le menu des mois.
+function nomMois(aaaa_mm) {
+  const [a, m] = aaaa_mm.split('-').map(Number);
+  const l = new Date(a, m - 1, 1).toLocaleDateString('fr-FR', { month: 'long', year: 'numeric' });
+  return l.charAt(0).toUpperCase() + l.slice(1);
+}
 function badgeJ(j) {
   if (j == null) return '';
   if (j < 0) return `<span class="puce">expiré</span>`;
@@ -485,25 +530,29 @@ const qualifHtml = q => !q.length ? '—' : `<span class="puces">${q.map(x =>
   `<span class="puce">${esc(x.libelle || '—')}${x.classe ? ' · cl. ' + esc(x.classe) : ''}</span>`).join('')}</span>`;
 
 function lotsHtml(lots) {
-  if (!lots.length) return '<span class="doux">lot unique</span>';
+  if (!lots.length) return 'lot unique';
   const detail = lots.map(l => `Lot ${l.lot}${l.intitule ? ' — ' + l.intitule : ''}`).join('\n');
   return `<span title="${esc(detail)}">${pluriel(lots.length, 'lot')}</span>`;
 }
 const lienPortail = u => !u ? '—' :
   `<a href="${esc(u)}" target="_blank" rel="noopener" aria-label="Ouvrir l’annonce sur le portail (nouvel onglet)" title="Ouvrir l’annonce sur le portail">${ic('externe', 18)}</a>`;
 
+// L'objet d'abord, juste après l'échéance : c'est lui qu'on lit, et c'est le plus long.
+// Les montants vont par deux (estimation et caution), la qualification porte les lots en
+// dessous : sept colonnes au lieu de neuf, et l'objet récupère la place ainsi libérée.
 const COLONNES = [
-  { titre: 'Date limite', cls: 'col-limite', rendu: (a, j) => `${dateCourte(a.date_limite)}
-      <div style="margin-top:4px;display:flex;gap:6px;align-items:center">${badgeJ(j)}<span class="doux" style="font-size:var(--t-xs)">${heure(a.date_limite)}</span></div>` },
-  { titre: 'Acheteur', cls: 'col-acheteur', rendu: a => `${esc(a.acheteur || '—')}${
-      a.lieu ? `<div class="doux" style="font-size:var(--t-xs);margin-top:2px">${esc(a.lieu)}</div>` : ''}` },
-  { titre: 'Objet', cls: 'col-objet', rendu: a => `${esc(a.objet || '—')}${
-      a.reference ? `<div class="mono doux" style="margin-top:3px">${esc(a.reference)}</div>` : ''}` },
-  { titre: 'Estimation', cls: 'num', rendu: a => dh(a.estimation) },
-  { titre: 'Caution', cls: 'num col-caution', rendu: a => dh(a.caution_provisoire) },
-  { titre: 'Qualification', rendu: a => qualifHtml(a.qualifications) },
-  { titre: 'Lots', cls: 'num', rendu: a => lotsHtml(a.lots) },
-  { titre: 'Chez cet acheteur', cls: 'col-histo', rendu: a => histoHtml(a.historique) },
+  { titre: 'Date limite', cls: 'col-limite', rendu: (a, j) => `<div class="limite__date">${dateCourte(a.date_limite)}</div>
+      <div class="limite__bas">${badgeJ(j)}${heure(a.date_limite) ? `<span class="doux xs">${heure(a.date_limite)}</span>` : ''}</div>` },
+  { titre: 'Objet', cls: 'col-objet', rendu: a => `<div class="objet"${a.objet ? ` title="${esc(a.objet)}"` : ''}>${esc(a.objet || '—')}</div>${
+      a.reference ? `<div class="mono doux xs ref-ao">${esc(a.reference)}</div>` : ''}` },
+  { titre: 'Acheteur', cls: 'col-acheteur', rendu: a => `<div class="acheteur"${a.acheteur ? ` title="${esc(a.acheteur)}"` : ''}>${esc(a.acheteur || '—')}</div>${
+      a.lieu ? `<div class="doux xs" style="margin-top:2px">${esc(a.lieu)}</div>` : ''}` },
+  { titre: 'Estimation · caution', cls: 'num col-montant', rendu: a => `<div class="montant">${dh(a.estimation)}</div>${
+      a.caution_provisoire != null ? `<div class="doux xs sous-cellule">caution ${dh(a.caution_provisoire)}</div>` : ''}` },
+  { titre: 'Qualification · lots', cls: 'col-qualif', rendu: a =>
+      `${qualifHtml(a.qualifications)}<div class="doux xs sous-cellule">${lotsHtml(a.lots)}</div>` },
+  { titre: 'Chez cet acheteur', cls: 'col-histo', infobulle: a => a.historique && titreHisto(a.historique),
+    rendu: a => histoHtml(a.historique) },
   { titre: '', cls: 'col-lien', rendu: a => lienPortail(a.url) },
 ];
 
@@ -511,9 +560,10 @@ function tableHtml(lignes) {
   const corps = lignes.map(a => {
     const j = joursRestants(a.date_limite);
     const classe = j != null && j < 0 ? 'passe' : (j != null && j < 3 ? 'urgent' : '');
-    const titre = a.historique ? ` title="${esc(titreHisto(a.historique))}"` : '';
-    return `<tr class="${classe}">${COLONNES.map((c, i) =>
-      `<td class="${c.cls || ''}"${i === 7 ? titre : ''}>${c.rendu(a, j)}</td>`).join('')}</tr>`;
+    return `<tr class="${classe}">${COLONNES.map(c => {
+      const bulle = c.infobulle && c.infobulle(a);
+      return `<td class="${c.cls || ''}"${bulle ? ` title="${esc(bulle)}"` : ''}>${c.rendu(a, j)}</td>`;
+    }).join('')}</tr>`;
   }).join('');
   return `<table class="tableau"><caption class="sr">Appels d’offres ouverts</caption>
     <thead><tr>${COLONNES.map(c => `<th scope="col" class="${c.cls || ''}">${c.titre ? esc(c.titre) : '<span class="sr">Portail</span>'}</th>`).join('')}</tr></thead>
@@ -526,7 +576,9 @@ const cartesHtml = lignes => `<ul class="cartes" role="list">${lignes.map(a => {
     <div class="carte__haut"><span>${dateCourte(a.date_limite)} ${heure(a.date_limite)}</span>${badgeJ(j)}</div>
     <div class="carte__titre">${esc(a.objet || '—')}</div>
     <div class="doux" style="margin-top:4px">${esc(a.acheteur || '—')}</div>
-    <div class="carte__stats"><span>${dh(a.estimation)}</span>${a.lots.length ? `<span>${pluriel(a.lots.length, 'lot')}</span>` : ''}${
+    <div class="carte__stats"><span>${dh(a.estimation)}</span>${
+      a.caution_provisoire != null ? `<span>caution ${dh(a.caution_provisoire)}</span>` : ''}${
+      a.lots.length ? `<span>${pluriel(a.lots.length, 'lot')}</span>` : ''}${
       a.qualifications.length ? `<span>${esc(a.qualifications.map(q => q.libelle + (q.classe ? ' cl.' + q.classe : '')).join(', '))}</span>` : ''}</div>
     <div style="margin-top:var(--e3);padding-top:var(--e3);border-top:1px solid var(--bord)">
       <div class="doux" style="font-size:var(--t-xs);margin-bottom:3px">Chez cet acheteur</div>${histoHtml(a.historique)}</div>
@@ -549,13 +601,14 @@ const paginationHtml = (page, pages, total) => pages <= 1 ? '' : `<nav class="pa
   <button type="button" class="btn" data-page="${page + 1}"${page >= pages ? ' disabled' : ''}>Suivant</button></nav>`;
 
 // ================================================================ état
-const ETAT = { q: '', client: '', tri: 'date_limite', expires: false, page: 1 };
+const ETAT = { q: '', client: '', mois: '', tri: 'date_limite', expires: false, page: 1 };
 const TRIS = ['date_limite', 'publie_le', 'estimation', 'acheteur'];
 
 function lireURL() {
   const sp = new URLSearchParams(location.hash.replace(/^#\/?\??/, ''));
   ETAT.q = (sp.get('q') || '').slice(0, 120);
-  ETAT.client = (sp.get('client') || '').slice(0, 80);
+  ETAT.client = CLIENT_IMPOSE || (sp.get('client') || '').slice(0, 80);
+  ETAT.mois = /^\d{4}-\d{2}$/.test(sp.get('mois') || '') ? sp.get('mois') : '';
   ETAT.tri = TRIS.includes(sp.get('tri')) ? sp.get('tri') : 'date_limite';
   ETAT.expires = sp.get('expires') === '1';
   ETAT.page = Math.max(1, Math.min(parseInt(sp.get('page'), 10) || 1, 10000));
@@ -563,7 +616,8 @@ function lireURL() {
 function ecrireURL(mode = 'replace') {
   const sp = new URLSearchParams();
   if (ETAT.q) sp.set('q', ETAT.q);
-  if (ETAT.client) sp.set('client', ETAT.client);
+  if (ETAT.client && !CLIENT_IMPOSE) sp.set('client', ETAT.client);
+  if (ETAT.mois) sp.set('mois', ETAT.mois);
   if (ETAT.tri !== 'date_limite') sp.set('tri', ETAT.tri);
   if (ETAT.expires) sp.set('expires', '1');
   if (ETAT.page > 1) sp.set('page', ETAT.page);
@@ -573,14 +627,22 @@ function ecrireURL(mode = 'replace') {
 function synchroniserChamps() {
   $('#q').value = ETAT.q;
   $('#client').value = ETAT.client;
+  $('#mois').value = ETAT.mois;
   $('#tri').value = ETAT.tri;
   $('#expires').checked = ETAT.expires;
   $('#client').classList.toggle('actif', !!ETAT.client);
+  $('#mois').classList.toggle('actif', !!ETAT.mois);
 }
+
+// Le menu des clients ne s'affiche que s'il y a un choix à faire ; sinon une pastille dit
+// simplement sur qui porte la page.
+$('#groupe-client').hidden = !!CLIENT_IMPOSE;
+$('#pastille-client').hidden = !CLIENT_IMPOSE;
+if (CLIENT_IMPOSE) $('#pastille-client').textContent = 'Client : ' + CLIENT_IMPOSE;
 
 // ================================================================ chargement
 const cadre = $('#cadre');
-let jeton = 0, clientsConnus = null;
+let jeton = 0, clientsConnus = null, moisConnus = null;
 
 async function charger() {
   const mien = ++jeton;
@@ -589,7 +651,7 @@ async function charger() {
   let d;
   try {
     d = await api('/api/v1/appels_ouverts', {
-      q: ETAT.q, client: ETAT.client, tri: ETAT.tri,
+      q: ETAT.q, client: ETAT.client, mois: ETAT.mois, tri: ETAT.tri,
       actifs: ETAT.expires ? '0' : '1', page: ETAT.page, taille: TAILLE,
     });
   } catch (e) {
@@ -603,7 +665,7 @@ async function charger() {
   if (mien !== jeton) return;
   cadre.classList.remove('en-cours');
 
-  if (clientsConnus === null || clientsConnus.join('|') !== d.clients.join('|')) {
+  if (!CLIENT_IMPOSE && (clientsConnus === null || clientsConnus.join('|') !== d.clients.join('|'))) {
     clientsConnus = d.clients;
     const sel = $('#client');
     sel.innerHTML = '<option value="">Tous les clients</option>' +
@@ -612,15 +674,29 @@ async function charger() {
     if (sel.value !== ETAT.client) { ETAT.client = ''; ecrireURL(); }
     sel.classList.toggle('actif', !!ETAT.client);
   }
+  // Les mois proposés sont ceux du reste de la sélection, le mois choisi compris : en changer
+  // ne fait donc jamais disparaître le menu sous le doigt.
+  const clesMois = (d.mois || []).map(m => m.mois).join('|');
+  if (moisConnus !== clesMois) {
+    moisConnus = clesMois;
+    const sel = $('#mois');
+    sel.innerHTML = '<option value="">Tous les mois</option>' + (d.mois || []).map(m =>
+      `<option value="${esc(m.mois)}">${esc(nomMois(m.mois))} (${nfEntier.format(m.n)})</option>`).join('');
+    sel.value = ETAT.mois;
+    if (sel.value !== ETAT.mois) { ETAT.mois = ''; sel.value = ''; ecrireURL(); }
+    sel.classList.toggle('actif', !!ETAT.mois);
+  }
   $('#lib-expires').textContent = !d.expires ? 'Voir aussi les appels expirés'
     : d.expires === 1 ? 'Voir aussi l’appel expiré'
     : `Voir aussi les ${nfEntier.format(d.expires)} appels expirés`;
 
   const urgents = d.lignes.filter(a => { const j = joursRestants(a.date_limite); return j != null && j >= 0 && j < 3; }).length;
+  const jp = joursRestants(d.prochaine);
   $('#kpis').innerHTML = [
     ['Appels affichés', nb(d.total), ETAT.expires ? 'expirés compris' : 'encore ouverts'],
     ['À moins de 3 jours', nb(urgents), 'sur cette page'],
-    ['Clients suivis', nb(d.clients.length), ETAT.client ? `filtré sur ${ETAT.client}` : 'tous confondus'],
+    ['Prochaine échéance', d.prochaine ? dateCourte(d.prochaine) : '—',
+     jp == null ? 'rien d’ouvert' : jp === 0 ? 'aujourd’hui' : jp === 1 ? 'demain' : `dans ${jp} jours`],
     ['Appels expirés', nb(d.expires), 'conservés en base'],
   ].map(([lib, val, note]) => `<div class="kpi"><div class="kpi__lib">${esc(lib)}</div>
     <div class="kpi__val">${val}</div><div class="kpi__note">${esc(note)}</div></div>`).join('');
@@ -629,7 +705,7 @@ async function charger() {
   if (!d.lignes.length) {
     cadre.innerHTML = `<div class="etat"><span class="etat__icone">${ic('vide', 24)}</span>
       <h2>Aucun appel d’offres</h2>
-      <p>${ETAT.q || ETAT.client ? 'Aucun appel ne correspond à ces critères.'
+      <p>${ETAT.q || ETAT.mois ? 'Aucun appel ne correspond à ces critères.'
         : ETAT.expires ? 'Le service de détection n’a encore rien envoyé.'
         : 'Rien d’ouvert en ce moment. Cochez « voir aussi les appels expirés » pour consulter l’historique reçu.'}</p></div>`;
   } else {
@@ -647,6 +723,7 @@ $('#q').addEventListener('input', e => {
   minuteur = setTimeout(() => { ETAT.q = e.target.value.trim(); ETAT.page = 1; ecrireURL(); charger(); }, 300);
 });
 $('#client').addEventListener('change', e => { ETAT.client = e.target.value; ETAT.page = 1; ecrireURL('push'); synchroniserChamps(); charger(); });
+$('#mois').addEventListener('change', e => { ETAT.mois = e.target.value; ETAT.page = 1; ecrireURL('push'); synchroniserChamps(); charger(); });
 $('#tri').addEventListener('change', e => { ETAT.tri = e.target.value; ETAT.page = 1; ecrireURL(); charger(); });
 $('#expires').addEventListener('change', e => { ETAT.expires = e.target.checked; ETAT.page = 1; ecrireURL(); charger(); });
 cadre.addEventListener('click', e => {

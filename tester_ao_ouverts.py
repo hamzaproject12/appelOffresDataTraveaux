@@ -146,6 +146,16 @@ def main() -> int:
         verifier("une seule ligne en base", lignes == 1, f"{lignes} ligne(s)")
         verifier("les deux clients sont là", clients == ["Hicham", "Pako"], str(clients))
         verifier("recu_le conservé, maj_le mis à jour", recu <= maj, f"{recu} / {maj}")
+        # Le service peut aussi annoncer les clients une fois pour toute la fournée, à côté
+        # de appels_ouverts. Les deux formes se cumulent.
+        r = client.post("/api/v1/appels_ouverts", headers=entete,
+                        json={"clients": ["Samir"], "appels_ouverts": [appel()]})
+        db = ao()
+        clients = [c for (c,) in db.execute(
+            "SELECT client FROM appels_clients WHERE ref_annonce = 'AO-2026-001' ORDER BY client")]
+        db.close()
+        verifier("clients annoncés pour toute la fournée",
+                 clients == ["Hicham", "Pako", "Samir"], str(clients))
 
         print("\n3) refus des entrées inutilisables")
         avant = sqlite3.connect(dossier / "ao_ouverts.db")
@@ -205,8 +215,8 @@ def main() -> int:
         d = r.json()
         par_ref = {l["ref_annonce"]: l for l in d["lignes"]}
         verifier("les deux appels ouverts sont rendus", d["total"] == 2, str(d["total"]))
-        verifier("les clients connus sont listés", sorted(d["clients"]) == ["Hicham", "Pako"],
-                 str(d["clients"]))
+        verifier("les clients connus sont listés",
+                 sorted(d["clients"]) == ["Hicham", "Pako", "Samir"], str(d["clients"]))
         h = par_ref["AO-2026-001"]["historique"]
         verifier("historique d'un acheteur à marchés simples",
                  h == {"nb_marches": 4, "taux_attribution_au_mieux_disant": 75.0,
@@ -244,7 +254,36 @@ def main() -> int:
         verifier("il réapparaît avec actifs=0", d["total"] == 3 and d["expires"] == 1,
                  f"total {d['total']}, expirés {d['expires']}")
 
-        print("\n7) le journal du service est à part")
+        print("\n7) filtre par mois, et accueil sur les appels ouverts")
+        client.post("/api/v1/appels_ouverts", headers=entete, json={"appels_ouverts": [
+            appel(ref="AO-2099-NOV", date_limite="2099-11-20T12:00:00", clients=["Hicham"])]})
+        d = client.get("/api/v1/appels_ouverts").json()
+        mois = {m["mois"]: m["n"] for m in d["mois"]}
+        verifier("les mois sont listés avec leur compte",
+                 mois.get("2099-11") == 1 and mois.get("2099-12") == 2, str(mois))
+        d = client.get("/api/v1/appels_ouverts", params={"mois": "2099-11"}).json()
+        verifier("le filtre par mois ne garde que ce mois-là", d["total"] == 1, str(d["total"]))
+        # Le menu des mois doit rester entier quand un mois est choisi, sinon on ne peut plus
+        # en changer sans d'abord tout rouvrir.
+        verifier("les autres mois restent proposés",
+                 {m["mois"] for m in d["mois"]} == {"2099-11", "2099-12"}, str(d["mois"]))
+        verifier("la prochaine échéance suit la sélection",
+                 d["prochaine"] == "2099-11-20T12:00:00", str(d["prochaine"]))
+        verifier("et vaut la plus proche à venir quand aucun mois n'est choisi",
+                 client.get("/api/v1/appels_ouverts").json()["prochaine"] == "2099-11-20T12:00:00")
+        verifier("un mois mal formé est ignoré, pas une erreur",
+                 client.get("/api/v1/appels_ouverts",
+                            params={"mois": "n'importe quoi"}).json()["total"] == 3)
+        r = client.get("/", follow_redirects=False)
+        verifier("un visiteur connecté arrive sur /ao-ouverts",
+                 r.status_code == 302 and r.headers.get("location") == "/ao-ouverts",
+                 f"{r.status_code} -> {r.headers.get('location')}")
+        neuf = TestClient(serveur.app)
+        r = neuf.post("/entrer", data={"nom": "Autre visiteur"}, follow_redirects=False)
+        verifier("et y arrive aussi juste après avoir donné son nom",
+                 r.headers.get("location") == "/ao-ouverts", str(r.headers.get("location")))
+
+        print("\n8) le journal du service est à part")
         db = ao()
         n_service = db.execute("SELECT COUNT(*) FROM journal_service").fetchone()[0]
         db.close()
@@ -255,7 +294,7 @@ def main() -> int:
         verifier("les POST sont consignés dans journal_service", n_service >= 4, f"{n_service} lignes")
         verifier("et nulle part dans le journal des visiteurs", pollution == 0)
 
-        print("\n8) le plafond du service est à lui, et n'entame pas celui des visiteurs")
+        print("\n9) le plafond du service est à lui, et n'entame pas celui des visiteurs")
         # 600 vrais POST prendraient trop longtemps : on remplit directement la file du service,
         # qui est la seule chose que le plafond consulte.
         serveur._service_recentes.clear()
@@ -269,7 +308,7 @@ def main() -> int:
         verifier("un POST du service ne touche pas le compteur du visiteur",
                  len(serveur._recentes.get("nom:Visiteur d'essai", ())) == avant_visiteur)
 
-        print("\n9) la page est servie")
+        print("\n10) la page est servie")
         r = client.get("/ao-ouverts")
         verifier("/ao-ouverts rend la page au visiteur connecté",
                  r.status_code == 200 and "Appels d’offres ouverts" in r.text, f"reçu {r.status_code}")
@@ -277,7 +316,7 @@ def main() -> int:
         verifier("/ao-ouverts renvoie à l'accès sans cookie",
                  sans_cookie.get("/ao-ouverts", follow_redirects=False).status_code == 302)
 
-        print("\n10) LE PIÈGE : un déploiement ne doit pas emporter ao_ouverts.db")
+        print("\n11) LE PIÈGE : un déploiement ne doit pas emporter ao_ouverts.db")
         # On rejoue exactement ce que fait le démarrage : une archive dont l'empreinte SHA-256
         # a changé, AMORCE_SEULEMENT=1, et decompresser() qui remplace la base servie.
         cible = dossier / "pv_travaux.db"

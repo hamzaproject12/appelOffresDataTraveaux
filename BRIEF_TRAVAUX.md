@@ -258,3 +258,22 @@ Trente-sept contrôles dans un dossier temporaire, sans toucher aux bases réell
 idempotence et fusion des clients, rejets, champs hors contrat, jointure avec l'historique (y
 compris le cas alloti), expirés, journaux séparés, plafonds indépendants, et le piège lui-même —
 une archive dont l'empreinte a changé, `decompresser()` rejoué, et `ao_ouverts.db` intacte.
+
+### Mise a jour — page d'accueil, client unique, tableau et filtre par mois
+
+- `/` et `/entrer` renvoient desormais sur `/ao-ouverts` (constante `ACCUEIL_CONNECTE` dans
+  `serveur.py`). L'historique reste accessible par l'onglet « Marches » de la barre du haut,
+  present sur les deux pages.
+- La page ne montre qu'un client : la constante `CLIENT_IMPOSE` en tete du script de
+  `statique/ao_ouverts.html` vaut `'Hicham'`. Le menu « Tous les clients » existe toujours mais
+  reste masque ; remettre la constante a `''` le rouvre, sans autre changement.
+- `POST /api/v1/appels_ouverts` accepte les clients a deux endroits : `{"clients": [...]}` pour
+  toute la fournee, et/ou `clients` dans chaque appel. Les deux se cumulent et sont fusionnes
+  avec ce qui est deja en base.
+- `GET /api/v1/appels_ouverts` accepte `mois=AAAA-MM` (sur la date limite) et renvoie en plus
+  `mois` (les mois du reste de la selection, avec leur compte) et `prochaine` (l'echeance a
+  venir la plus proche dans la selection affichee).
+- Tableau : sept colonnes au lieu de neuf. L'objet passe en deuxieme position et prend la place
+  rendue par les regroupements « estimation · caution » et « qualification · lots » ; les
+  largeurs sont fixes (`table-layout: fixed`) et l'objet est coupe a trois lignes, l'integralite
+  restant dans l'infobulle et sur la carte du mobile.
