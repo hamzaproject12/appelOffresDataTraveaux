@@ -287,7 +287,10 @@
   .puce--ok { background: var(--vert-doux); color: var(--vert); }
   .puce--attention { background: var(--orange-doux); color: var(--orange); }
   .puce--ko { background: var(--rouge-doux); color: var(--rouge); }
-  .puces { display: flex; flex-wrap: wrap; gap: 4px; }
+  .puces { display: flex; flex-wrap: wrap; gap: 4px; min-width: 0; }
+  /* Jamais plus large que la colonne : un libellé trop long se coupe au lieu de déborder. */
+  .puce--classe { max-width: 100%; overflow: hidden; text-overflow: ellipsis; text-transform: uppercase;
+    letter-spacing: .02em; }
 
   /* « chez cet acheteur » : l'historique en quatre lignes serrées */
   .histo { display: grid; gap: 1px; font-size: var(--t-xs); color: var(--doux);
@@ -526,8 +529,18 @@ const titreHisto = h => !h ? "Aucun marché attribué connu pour cet acheteur" :
   `L'écart médian compare le montant attribué à l'estimation annoncée ; ` +
   `le taux dit combien de fois l'attribution est allée au mieux-disant calculé.`;
 
-const qualifHtml = q => !q.length ? '—' : `<span class="puces">${q.map(x =>
-  `<span class="puce">${esc(x.libelle || '—')}${x.classe ? ' · cl. ' + esc(x.classe) : ''}</span>`).join('')}</span>`;
+// Seul le numéro de classe est affiché (« CLASSE 3 ») : le libellé complet d'une qualification
+// est long, et il débordait sur la colonne voisine. Il reste lisible dans l'infobulle.
+const classesDe = q => [...new Set(q.map(x => (x.classe || '').trim()).filter(Boolean))];
+const detailQualif = q => q.map(x => [x.libelle, x.classe ? 'classe ' + x.classe : ''].filter(Boolean).join(' — ')).join('\n');
+function qualifHtml(q) {
+  if (!q.length) return '—';
+  const cl = classesDe(q);
+  // Sans classe, on n'invente rien : le libellé seul, coupé à la largeur de la colonne.
+  const puces = cl.length ? cl.map(c => `Classe ${c}`) : [...new Set(q.map(x => x.libelle).filter(Boolean))];
+  return `<span class="puces" title="${esc(detailQualif(q))}">${puces.map(t =>
+    `<span class="puce puce--classe">${esc(t)}</span>`).join('')}</span>`;
+}
 
 function lotsHtml(lots) {
   if (!lots.length) return 'lot unique';
@@ -580,7 +593,7 @@ const cartesHtml = lignes => `<ul class="cartes" role="list">${lignes.map(a => {
     <div class="carte__stats"><span>${dh(a.estimation)}</span>${
       a.caution_provisoire != null ? `<span>caution ${dh(a.caution_provisoire)}</span>` : ''}${
       a.lots.length ? `<span>${pluriel(a.lots.length, 'lot')}</span>` : ''}${
-      a.qualifications.length ? `<span>${esc(a.qualifications.map(q => q.libelle + (q.classe ? ' cl.' + q.classe : '')).join(', '))}</span>` : ''}</div>
+      a.qualifications.length ? `<span>${esc(classesDe(a.qualifications).map(c => 'Classe ' + c).join(', ') || a.qualifications.map(q => q.libelle).filter(Boolean).join(', '))}</span>` : ''}</div>
     <div style="margin-top:var(--e3);padding-top:var(--e3);border-top:1px solid var(--bord)">
       <div class="doux" style="font-size:var(--t-xs);margin-bottom:3px">Chez cet acheteur</div>${histoHtml(a.historique)}</div>
     ${a.url ? `<div style="margin-top:var(--e3)"><a class="btn" href="${esc(a.url)}" target="_blank" rel="noopener">${ic('externe', 16)}Voir l’annonce</a></div>` : ''}
