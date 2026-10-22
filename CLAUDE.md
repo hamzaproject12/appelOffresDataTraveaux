@@ -89,7 +89,8 @@ Une page /copilote/groupes permet de chercher une société, voir ses groupes et
   Ensuite, s'arrêter et attendre la validation.
 
 ## Avancement
-- [ ] 1 Socle   - [ ] 2 Groupes (calcul)   - [ ] 3 Page groupes   - [ ] 4 Similarité
+- [x] 1 Socle   - [x] 2 Groupes (calcul)   - [x] 3 Page groupes   - [x] 4 Similarité
+- [x] 3 bis AO rejoués
 - [ ] 5 Concurrents + taux   - [ ] 6 Simulateur   - [ ] 7 Page d'analyse   - [ ] 8 Décision
 - [ ] 9 Finitions et déploiement
 (Cocher ici à la fin de chaque étape validée.)

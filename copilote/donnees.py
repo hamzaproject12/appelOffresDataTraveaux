@@ -18,6 +18,8 @@ from dataclasses import dataclass, field
 from construire_base import (ADMIS, classement_commission, dans_la_fourchette, offre_de,
                              offres_du_marche, prix_de_reference)
 
+from . import fusions as _fusions
+
 CLE_FICTIVE = "__offre_fictive__"
 
 # Tranches du nombre d'offres retenues dans la moyenne. Une unité à une seule offre est gagnée par
@@ -59,8 +61,9 @@ class Attribution:
     nom_gagnant: str | None
 
 
-def _concurrent(row: sqlite3.Row, estimation: float | None) -> dict:
-    c = {"nom": row["nom"], "cle": row["cle"], "statut": row["statut"], "lots": row["lots"],
+def _concurrent(row: sqlite3.Row, estimation: float | None, fusions: dict[str, str]) -> dict:
+    c = {"nom": row["nom"], "cle": _fusions.appliquer(row["cle"], fusions),
+         "statut": row["statut"], "lots": row["lots"],
          "montant_verifie": row["montant_verifie"], "montant_acte": row["montant_acte"]}
     montant = offre_de(c)
     c["taux"] = montant / estimation if montant and estimation else None
@@ -71,30 +74,43 @@ def _annee(tri_date: str | None, douteuse) -> str:
     return "" if douteuse or not tri_date else tri_date[:4]
 
 
-def charger_unites(db: sqlite3.Connection, annee: str | None = None) -> list[Unite]:
+def charger_unites(db: sqlite3.Connection, annee: str | None = None,
+                   fusions: dict[str, str] | None = None,
+                   refs: list[str] | None = None) -> list[Unite]:
     """Toutes les unités jugeables, éventuellement d'une seule année.
 
     `db` est pv_travaux.db en lecture seule (bases.historique()). `annee` filtre sur l'année de
     la date du marché ; les dates douteuses (annee = '') ne sont retenues que si on ne filtre pas.
+    `fusions` ({cle_fusionner: cle_garder}) vaut par défaut copilote/fusions_validees.csv ; {} n'en
+    applique aucune. `refs` limite la lecture à ces marchés (la fiche d'un groupe en a quelques dizaines).
     """
+    if fusions is None:
+        fusions = _fusions.charger()
+    # Le filtre s'écrit dans les trois requêtes : lire tout l'historique pour en garder 150 marchés
+    # coûterait une seconde à chaque ouverture de fiche.
+    filtre = f" AND m.ref IN ({','.join('?' * len(refs))})" if refs is not None else ""
+    args = tuple(refs) if refs is not None else ()
+    if refs is not None and not refs:
+        return []
     par_ref: dict[str, list[sqlite3.Row]] = {}
     for row in db.execute(
             "SELECT c.ref, c.nom, c.cle, c.statut, c.lots, c.montant_verifie, c.montant_acte"
             " FROM concurrents c JOIN marches m ON m.ref = c.ref WHERE m.principale = 1"
-            " ORDER BY c.id"):
+            + filtre + " ORDER BY c.id", args):
         par_ref.setdefault(row["ref"], []).append(row)
 
     lots_de: dict[str, list[sqlite3.Row]] = {}
     for row in db.execute(
             "SELECT l.ref, l.lot, l.estimation, l.cle_attributaire, l.prix_reference"
             " FROM lots l JOIN marches m ON m.ref = l.ref WHERE m.principale = 1"
-            " ORDER BY l.ref, l.rowid"):
+            + filtre + " ORDER BY l.ref, l.rowid", args):
         lots_de.setdefault(row["ref"], []).append(row)
 
     unites: list[Unite] = []
     for m in db.execute(
             "SELECT ref, acheteur, tri_date, date_douteuse, estimation, cle_attributaire,"
-            " prix_reference, nb_lots FROM marches WHERE principale = 1 ORDER BY ref"):
+            " prix_reference, nb_lots FROM marches m WHERE principale = 1"
+            + filtre + " ORDER BY ref", args):
         a = _annee(m["tri_date"], m["date_douteuse"])
         if annee is not None and a != annee:
             continue
@@ -109,15 +125,17 @@ def charger_unites(db: sqlite3.Connection, annee: str | None = None) -> list[Uni
                           if numero in [x.strip() for x in (r["lots"] or "").split(",") if x.strip()]]
                 unites.append(Unite(
                     lot=numero, estimation=lot["estimation"] or None,
-                    cle_gagnant=lot["cle_attributaire"] or None,
+                    cle_gagnant=_fusions.appliquer(lot["cle_attributaire"] or None, fusions),
                     prix_reference_stocke=lot["prix_reference"],
-                    concurrents=[_concurrent(r, lot["estimation"] or None) for r in du_lot], **base))
+                    concurrents=[_concurrent(r, lot["estimation"] or None, fusions) for r in du_lot],
+                    **base))
         else:
             unites.append(Unite(
                 lot=None, estimation=m["estimation"] or None,
-                cle_gagnant=m["cle_attributaire"] or None,
+                cle_gagnant=_fusions.appliquer(m["cle_attributaire"] or None, fusions),
                 prix_reference_stocke=m["prix_reference"],
-                concurrents=[_concurrent(r, m["estimation"] or None) for r in lignes], **base))
+                concurrents=[_concurrent(r, m["estimation"] or None, fusions) for r in lignes],
+                **base))
     return unites
 
 

@@ -110,6 +110,7 @@
     transition: background-color .15s, color .15s; }
   .onglet:hover { background: var(--surface-3); color: var(--texte); }
   .onglet[aria-current="page"] { background: var(--accent-doux); color: var(--accent); font-weight: 600; }
+  .onglet[hidden] { display: none; }                          /* inline-flex gagnerait sur [hidden] */
   .onglet .long { display: none; }
   .actions { margin-left: auto; display: flex; align-items: center; gap: var(--e1); }
   .btn-icone { width: 44px; height: 44px; display: inline-grid; place-items: center; border-radius: var(--r-s);
@@ -356,6 +357,7 @@
       <a class="onglet" href="/app#/marches"><i data-ic="marches"></i><span>Marchés</span></a>
       <a class="onglet" href="/app#/societes"><i data-ic="societes"></i><span>Sociétés</span></a>
       <a class="onglet" href="/app#/acheteurs"><i data-ic="acheteurs"></i><span>Maîtres d’ouvrage</span></a>
+      <a class="onglet" href="/copilote/groupes" id="onglet-groupes" hidden><i data-ic="groupes"></i><span>Groupes</span></a>
     </nav>
     <div class="actions">
       <button type="button" class="btn-icone" id="bouton-theme"></button>
@@ -441,6 +443,7 @@ const ICONES = {
   acheteurs: '<path d="M3 21h18M5 21V11M9.5 21V11M14.5 21V11M19 21V11M2 11l10-7 10 7z"/>',
   qualite: '<path d="M12 3 4 6v6c0 5 3.5 8 8 9 4.5-1 8-4 8-9V6z"/><path d="m9 12 2 2 4-4"/>',
   ouverts: '<path d="M12 7v5l3 2"/><circle cx="12" cy="12" r="9"/>',
+  groupes: '<circle cx="6" cy="7" r="2.5"/><circle cx="18" cy="7" r="2.5"/><circle cx="12" cy="18" r="2.5"/><path d="M8.5 7h7M7.3 9.2l3.4 6.6M16.7 9.2l-3.4 6.6"/>',
   sortie: '<path d="M9 21H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h4M16 17l5-5-5-5M21 12H9"/>',
   soleil: '<circle cx="12" cy="12" r="4"/><path d="M12 2v2M12 20v2M4.9 4.9l1.4 1.4M17.7 17.7l1.4 1.4M2 12h2M20 12h2M4.9 19.1l1.4-1.4M17.7 6.3l1.4-1.4"/>',
   lune: '<path d="M21 12.8A9 9 0 1 1 11.2 3a7 7 0 0 0 9.8 9.8z"/>',
@@ -451,6 +454,8 @@ const ICONES = {
 };
 const ic = (n, t = 20) => `<svg class="ic" width="${t}" height="${t}" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">${ICONES[n] || ''}</svg>`;
 document.querySelectorAll('i[data-ic]').forEach(i => i.outerHTML = ic(i.dataset.ic));
+// Le lien « Groupes » n'existe que pour qui a l'accès copilote : 200 le révèle, 401 le laisse masqué.
+fetch('/api/copilote/moi', { credentials: 'same-origin' }).then(r => { if (r.ok) document.getElementById('onglet-groupes').hidden = false; }).catch(() => {});
 
 // ================================================================ thème
 // Même clé que le tableau de bord : le choix suit le visiteur d'une page à l'autre.

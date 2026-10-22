@@ -4,14 +4,14 @@ from pathlib import Path
 
 from copilote import bases
 from copilote.donnees import charger_unites
-from copilote.references import GRILLE, meilleur, par_tranche, taux_de_victoire, unites_eligibles
+from copilote.references import GRILLE, meilleur, meilleur_par_tranche, par_tranche, taux_de_victoire, unites_eligibles
 from tests import outils
 
 
 class Grille(unittest.TestCase):
-    def test_41_taux_de_095_a_105_par_pas_de_0_0025(self):
-        self.assertEqual(len(GRILLE), 41)
-        self.assertEqual((GRILLE[0], GRILLE[-1]), (0.95, 1.05))
+    def test_101_taux_de_080_a_105_par_pas_de_0_0025(self):
+        self.assertEqual(len(GRILLE), 101)
+        self.assertEqual((GRILLE[0], GRILLE[-1]), (0.80, 1.05))
         pas = {round(b - a, 4) for a, b in zip(GRILLE, GRILLE[1:])}
         self.assertEqual(pas, {0.0025})
 
@@ -57,6 +57,12 @@ class Victoire(unittest.TestCase):
         t = par_tranche(self.unites, [0.95])
         self.assertEqual(t["3-4"], {"n": 2, 0.95: 1.0})
         self.assertEqual(t["1-2"], {"n": 0, 0.95: None})
+
+    def test_meilleur_par_tranche(self):
+        t = meilleur_par_tranche(self.unites, [0.95, 1.0, 1.05])
+        self.assertEqual(t["3-4"], {"n": 2, "taux": 0.95, "taux_victoire": 1.0})
+        self.assertEqual(t["1-2"], {"n": 0, "taux": None, "taux_victoire": None})
+        self.assertEqual(set(t), {"1-2", "3-4", "5-7", "8+"})
 
 
 if __name__ == "__main__":

@@ -110,6 +110,7 @@
     transition: background-color .15s, color .15s; }
   .onglet:hover { background: var(--surface-3); color: var(--texte); }
   .onglet[aria-current="page"] { background: var(--accent-doux); color: var(--accent); font-weight: 600; }
+  .onglet[hidden] { display: none; }                          /* inline-flex gagnerait sur [hidden] */
   .onglet .long { display: none; }
   .actions { margin-left: auto; display: flex; align-items: center; gap: var(--e1); }
   .btn-icone { width: 44px; height: 44px; display: inline-grid; place-items: center; border-radius: var(--r-s);
@@ -140,7 +141,7 @@
     .utilisateur { padding: 0 var(--e1); }
     .separateur { display: none; }
     .onglets { position: fixed; left: 0; right: 0; bottom: 0; z-index: 20; background: var(--surface);
-      border-top: 1px solid var(--bord); display: grid; grid-template-columns: repeat(4, 1fr); gap: 2px;
+      border-top: 1px solid var(--bord); display: grid; grid-auto-flow: column; grid-auto-columns: 1fr; gap: 2px;   /* 4 onglets, 5 avec « Groupes » */
       padding: var(--e1) var(--e1) calc(var(--e1) + env(safe-area-inset-bottom)); }
     .onglet { flex-direction: column; justify-content: center; gap: 3px; min-height: 56px; padding: var(--e1) 2px;
       font-size: 11.5px; line-height: 1.2; text-align: center; white-space: normal; }
@@ -582,6 +583,7 @@
       <a class="onglet" href="#/marches" data-vue="marches"><i data-ic="marches"></i><span>Marchés</span></a>
       <a class="onglet" href="#/societes" data-vue="societes"><i data-ic="societes"></i><span>Sociétés</span></a>
       <a class="onglet" href="#/acheteurs" data-vue="acheteurs"><i data-ic="acheteurs"></i><span>Maîtres d’ouvrage</span></a>
+      <a class="onglet" href="/copilote/groupes" id="onglet-groupes" hidden><i data-ic="groupes"></i><span>Groupes</span></a>
     </nav>
     <div class="actions">
       <button type="button" class="btn-icone" id="bouton-theme"></button>
@@ -710,9 +712,12 @@ const ICONES = {
   horsligne: '<path d="M2 2l20 20M8.5 16.5a5 5 0 0 1 7 0M5 13a10 10 0 0 1 5.2-2.8M19 13a10 10 0 0 0-2.3-1.6M2 8.8a15 15 0 0 1 4.2-2.7M22 8.8A15 15 0 0 0 11 5M12 20h.01"/>',
   liste: '<path d="M8 6h13M8 12h13M8 18h13M3 6h.01M3 12h.01M3 18h.01"/>',
   ouverts: '<path d="M12 7v5l3 2"/><circle cx="12" cy="12" r="9"/>',
+  groupes: '<circle cx="6" cy="7" r="2.5"/><circle cx="18" cy="7" r="2.5"/><circle cx="12" cy="18" r="2.5"/><path d="M8.5 7h7M7.3 9.2l3.4 6.6M16.7 9.2l-3.4 6.6"/>',
 };
 const ic = (nom, t = 20) => `<svg class="ic" width="${t}" height="${t}" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false">${ICONES[nom] || ''}</svg>`;
 document.querySelectorAll('i[data-ic]').forEach(el => { el.outerHTML = ic(el.dataset.ic, 20); });
+// Le lien « Groupes » n'existe que pour qui a l'accès copilote : 200 le révèle, 401 le laisse masqué.
+fetch('/api/copilote/moi', { credentials: 'same-origin' }).then(r => { if (r.ok) document.getElementById('onglet-groupes').hidden = false; }).catch(() => {});
 
 // ================================================================ annonces
 const zoneAnnonces = $('#annonces');

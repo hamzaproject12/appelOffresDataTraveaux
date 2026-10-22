@@ -9,12 +9,50 @@ route ajoutée plus tard ne peut pas oublier l'authentification.
 from __future__ import annotations
 
 import sqlite3
+from contextlib import closing
 from pathlib import Path
+from typing import Literal
 
-from fastapi import APIRouter, Depends, Form, Request
-from fastapi.responses import HTMLResponse, JSONResponse, PlainTextResponse, RedirectResponse
+from fastapi import APIRouter, Depends, Form, HTTPException, Query, Request, Response
+from fastapi import Path as ParamChemin
+from fastapi.responses import FileResponse, HTMLResponse, JSONResponse, PlainTextResponse, RedirectResponse
+from pydantic import BaseModel, Field
 
-from . import acces, bases, config
+from . import acces, acheteurs, api_groupes, api_similaires, bases, config, similarite
+
+STATIQUE = Path(__file__).resolve().parent.parent / "statique"
+SANS_CACHE = {"Cache-Control": "no-store"}
+
+
+class AvisEntree(BaseModel):
+    """Un avis sur une paire (cle_a + cle_b) ou sur tout un groupe (groupe). L'auteur n'en fait pas
+    partie : il vient toujours de la session."""
+    reponse: Literal["oui", "non", "nsp"]
+    commentaire: str = Field("", max_length=api_groupes.MAX_COMMENTAIRE)
+    groupe: int | None = None
+    cle_a: str | None = Field(None, max_length=200)
+    cle_b: str | None = Field(None, max_length=200)
+
+
+class CorrespondanceEntree(BaseModel):
+    """Validation, refus ou saisie à la main d'une correspondance entre l'acheteur d'un AO et l'historique.
+    L'auteur n'en fait pas partie : il vient de la session."""
+    cle_ao: str = Field(..., min_length=1, max_length=200)
+    cle_historique: str = Field(..., min_length=1, max_length=200)
+    statut: Literal["proposee", "validee", "refusee"]
+    commentaire: str = Field("", max_length=500)
+    nom_ao: str | None = Field(None, max_length=300)
+
+
+def page_statique(request: Request, nom: str) -> Response:
+    """Même règle que serveur.page_statique : revalidation à chaque visite, 304 si rien n'a changé."""
+    chemin = STATIQUE / nom
+    st = chemin.stat()
+    etag = f'"{st.st_mtime_ns:x}-{st.st_size:x}"'
+    entetes = {"Cache-Control": "no-cache", "ETag": etag}
+    if request.headers.get("if-none-match") == etag:
+        return Response(status_code=304, headers=entetes)
+    return FileResponse(chemin, headers=entetes)
 
 STYLE = """<style>
 :root{--fond:#f3f4f6;--surface:#fff;--bord:#dde1e7;--texte:#111827;--doux:#555e6c;--accent:#1f4f8f;
@@ -162,7 +200,111 @@ def creer_routeur(secret: bytes, base: Path | str, ao_base: Path | str) -> APIRo
             },
         }, headers={"Cache-Control": "no-store"})
 
+    # ------------------------------------------------------------------ étape 3 : groupes
+    @protege.get("/copilote/groupes")
+    def page_groupes(request: Request):
+        return page_statique(request, "copilote_groupes.html")
+
+    @protege.get("/api/copilote/moi")
+    def moi(session: dict = Depends(garde)):
+        """Réponse légère pour la barre du haut : 200 si le visiteur a l'accès copilote, 401 sinon."""
+        return JSONResponse({"nom": session["nom"]}, headers=SANS_CACHE)
+
+    @protege.get("/api/copilote/groupes")
+    def liste_groupes(q: str = Query("", max_length=100), tri: Literal[api_groupes.TRIS] = "score"):
+        with closing(bases.calcul()) as calc, closing(bases.retours()) as ret:
+            return JSONResponse(api_groupes.lister(calc, ret, q, tri), headers=SANS_CACHE)
+
+    @protege.get("/api/copilote/famille/{empreinte}")
+    def une_famille(empreinte: str = ParamChemin(pattern=r"^[0-9a-f]{8,64}$")):
+        with closing(bases.calcul()) as calc, closing(bases.retours()) as ret:
+            f = api_groupes.famille(calc, ret, empreinte)
+        if f is None:
+            raise HTTPException(404, "Famille introuvable")
+        return JSONResponse(f, headers=SANS_CACHE)
+
+    @protege.get("/api/copilote/groupe/{gid}")
+    def un_groupe(gid: int):
+        with closing(bases.calcul()) as calc, closing(bases.retours()) as ret:
+            f = api_groupes.fiche(calc, ret, gid)
+        if f is None:
+            raise HTTPException(404, "Groupe introuvable")
+        return JSONResponse(f, headers=SANS_CACHE)
+
+    @protege.get("/api/copilote/avis")
+    def liste_avis(limite: int = Query(50, ge=1, le=200)):
+        with closing(bases.calcul()) as calc, closing(bases.retours()) as ret:
+            return JSONResponse({"avis": api_groupes.derniers_avis(calc, ret, limite)}, headers=SANS_CACHE)
+
+    @protege.post("/api/copilote/avis")
+    def donner_avis(avis: AvisEntree, session: dict = Depends(garde)):
+        try:
+            with closing(bases.calcul()) as calc, closing(bases.retours()) as ret:
+                r = api_groupes.enregistrer_avis(calc, ret, session["nom"], avis.reponse, avis.commentaire,
+                                                 avis.groupe, avis.cle_a, avis.cle_b)
+        except api_groupes.ErreurAvis as e:
+            raise HTTPException(e.statut, str(e))
+        return JSONResponse(r, headers=SANS_CACHE)
+
+    # ------------------------------------------------------------------ étape 4 : marchés similaires
+    @protege.get("/api/copilote/similaires/{ref_annonce}")
+    def similaires(ref_annonce: str, lot: str | None = Query(None, max_length=40),
+                   poids: str | None = Query(None, max_length=300)):
+        """Les 50 marchés les plus proches d'un AO ouvert. `poids` = « acheteur:50,montant:5 » (essais)."""
+        try:
+            with closing(bases.calcul()) as calc, closing(bases.retours()) as ret, closing(bases.ao_ouverts()) as ao:
+                r = api_similaires.analyser(ref_annonce, lot, poids, ouvrir_historique=bases.historique,
+                                            chemin_historique=bases.chemin_historique(), ao=ao, calc=calc, ret=ret)
+        except FileNotFoundError as e:
+            raise HTTPException(503, str(e))
+        except api_similaires.ErreurAnalyse as e:
+            return JSONResponse({"detail": str(e), **e.extra}, status_code=e.statut, headers=SANS_CACHE)
+        return JSONResponse(r, headers=SANS_CACHE)
+
+    @protege.get("/api/copilote/acheteurs")
+    def chercher_acheteurs(q: str = Query("", max_length=100), limite: int = Query(20, ge=1, le=50)):
+        """Cherche un acheteur de l'historique par son nom (pour saisir une correspondance à la main)."""
+        mots = acheteurs.noyau(q).split()
+        with closing(bases.historique()) as hist:
+            connus = api_similaires._connus(hist, similarite._cle_fichier(bases.chemin_historique()))
+        trouves = [c for c in connus if mots and all(m in acheteurs.plat(c["nom"]) for m in mots)]
+        trouves.sort(key=lambda c: -c["marches"])
+        return JSONResponse({"acheteurs": [{"cle": c["cle"], "nom": c["nom"], "marches": c["marches"],
+                                            "type": c["type"]} for c in trouves[:limite]]}, headers=SANS_CACHE)
+
+    @protege.get("/api/copilote/correspondances")
+    def liste_correspondances(statut: Literal["proposee", "validee", "refusee"] | None = None,
+                              cle_ao: str | None = Query(None, max_length=200)):
+        with closing(bases.retours()) as ret:
+            return JSONResponse({"correspondances": acheteurs.lister(ret, statut, cle_ao)}, headers=SANS_CACHE)
+
+    @protege.post("/api/copilote/correspondance")
+    def decider_correspondance(c: CorrespondanceEntree, session: dict = Depends(garde)):
+        with closing(bases.historique()) as hist:
+            connus = {x["cle"]: x for x in api_similaires._connus(hist, similarite._cle_fichier(
+                bases.chemin_historique()))}
+        if c.cle_historique not in connus:
+            raise HTTPException(404, "Cet acheteur n'existe pas dans l'historique")
+        with closing(bases.retours()) as ret:
+            acheteurs.decider(ret, c.cle_ao, c.cle_historique, c.statut, session["nom"], c.commentaire,
+                              c.nom_ao, connus[c.cle_historique]["nom"])
+            ligne = acheteurs.lister(ret, cle_ao=c.cle_ao)
+        return JSONResponse({"correspondances": ligne}, headers=SANS_CACHE)
+
+    def prechauffer() -> None:
+        """Au démarrage : recharge (ou calcule) l'index de similarité en arrière-plan. Ne bloque ni ne
+        fait échouer le serveur si l'historique n'est pas encore là."""
+        def travail():
+            try:
+                with closing(bases.calcul()) as calc:
+                    similarite.moteur(bases.historique, bases.chemin_historique(), calc)
+            except Exception as e:                              # noqa: BLE001 : jamais fatal au démarrage
+                print(f"[copilote] index de similarité non préchargé : {e}", flush=True)
+        import threading
+        threading.Thread(target=travail, name="copilote-prechauffage", daemon=True).start()
+
     routeur = APIRouter()
+    routeur.add_event_handler("startup", prechauffer)
     routeur.include_router(public)
     routeur.include_router(protege)
     return routeur

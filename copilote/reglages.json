@@ -1,0 +1,19 @@
+{
+  "_aide": "Réglages du moteur de marchés similaires. Les poids sont ramenés à une note sur 100 (leur somme n'a pas besoin de faire 100). Chaque critère vaut entre 0 et 1 avant d'être multiplié par son poids.",
+  "poids": {
+    "objet_nature": 40,
+    "acheteur": 30,
+    "qualification": 10,
+    "montant": 10,
+    "region": 5,
+    "recence": 5
+  },
+  "objet_nature": {"texte": 0.6, "famille": 0.25, "nature": 0.15},
+  "acheteur": {"meme_type": 0.3},
+  "qualification": {"inconnue": 0.4},
+  "recence": {"demi_vie_jours": 365},
+  "filtre": {"montant_min": 0.3, "montant_max": 3.0, "qualification": "code"},
+  "resultats": 50,
+  "pour_mediane": 20,
+  "correspondances_acheteurs": {"seuil_auto": 95, "ecart_ambigu": 3}
+}

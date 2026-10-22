@@ -1,0 +1,299 @@
+{
+ "annee": "2026",
+ "marches_testes": 6401,
+ "mediane_sur": 20,
+ "index": {
+  "calcul": "jusqua-2025-12-31",
+  "origine": "recharge",
+  "documents": 18713,
+  "traits": 20722
+ },
+ "fuites": {
+  "candidats_non_anterieurs": 0,
+  "idf_ajuste_sur": 12312,
+  "corpus_total": 18713
+ },
+ "comparables": {
+  "mediane": 5839.0,
+  "min": 2,
+  "moins_de_5": 2,
+  "moins_de_20": 11
+ },
+ "jeux_de_poids": {
+  "defaut": {
+   "objet_nature": 40.0,
+   "acheteur": 30.0,
+   "qualification": 10.0,
+   "montant": 10.0,
+   "region": 5.0,
+   "recence": 5.0
+  },
+  "objet_dominant": {
+   "objet_nature": 60.0,
+   "acheteur": 15.0,
+   "qualification": 10.0,
+   "montant": 10.0,
+   "region": 2.0,
+   "recence": 3.0
+  },
+  "acheteur_dominant": {
+   "objet_nature": 25.0,
+   "acheteur": 50.0,
+   "qualification": 10.0,
+   "montant": 5.0,
+   "region": 5.0,
+   "recence": 5.0
+  },
+  "montant_recence": {
+   "objet_nature": 35.0,
+   "acheteur": 20.0,
+   "qualification": 10.0,
+   "montant": 20.0,
+   "region": 5.0,
+   "recence": 10.0
+  },
+  "objet_seul": {
+   "objet_nature": 100.0,
+   "acheteur": 0.0,
+   "qualification": 0.0,
+   "montant": 0.0,
+   "region": 0.0,
+   "recence": 0.0
+  }
+ },
+ "resultats": {
+  "globale": {
+   "mae": 2.801398081062578,
+   "mediane": 1.8192828938916605,
+   "dans_2_points": 0.5502265271051399,
+   "n": 6401
+  },
+  "famille_20": {
+   "mae": 2.8309529742596236,
+   "mediane": 2.1542337775242393,
+   "dans_2_points": 0.472582408998594,
+   "n": 6401
+  },
+  "recents_20": {
+   "mae": 2.8899822171482072,
+   "mediane": 2.190267573861515,
+   "dans_2_points": 0.46164661771598187,
+   "n": 6401
+  },
+  "acheteur_20": {
+   "mae": 2.664467522215789,
+   "mediane": 1.8507937177092204,
+   "dans_2_points": 0.5302296516169348,
+   "n": 6401
+  },
+  "sim_defaut": {
+   "mae": 2.433655536408956,
+   "mediane": 1.6501357033460895,
+   "dans_2_points": 0.5710045305421028,
+   "n": 6401
+  },
+  "sim_objet_dominant": {
+   "mae": 2.427077012524666,
+   "mediane": 1.6476715921367902,
+   "dans_2_points": 0.5699109514138416,
+   "n": 6401
+  },
+  "sim_acheteur_dominant": {
+   "mae": 2.443412639306837,
+   "mediane": 1.6703902218870637,
+   "dans_2_points": 0.5703796281830964,
+   "n": 6401
+  },
+  "sim_montant_recence": {
+   "mae": 2.427086071262854,
+   "mediane": 1.6513016340973685,
+   "dans_2_points": 0.5691298234650836,
+   "n": 6401
+  },
+  "sim_objet_seul": {
+   "mae": 2.4804486333435234,
+   "mediane": 1.6875769475588553,
+   "dans_2_points": 0.5589751601312295,
+   "n": 6401
+  }
+ },
+ "comparaisons": {
+  "sim_defaut contre globale": {
+   "difference_mae_points": -0.36774254465362227,
+   "ic95": [
+    -0.41769939848513044,
+    -0.31961500250758257
+   ],
+   "victoires": 0.5814716450554601,
+   "egalites": 0.0003124511795032026,
+   "defaites": 0.4182159037650367
+  },
+  "sim_defaut contre famille_20": {
+   "difference_mae_points": -0.39729743785066757,
+   "ic95": [
+    -0.44853417538752566,
+    -0.34897238825726323
+   ],
+   "victoires": 0.5867833151070145,
+   "egalites": 0.0009373535385096079,
+   "defaites": 0.41227933135447586
+  },
+  "sim_objet_dominant contre globale": {
+   "difference_mae_points": -0.3743210685379123,
+   "ic95": [
+    -0.42206593399509207,
+    -0.3275017310266077
+   ],
+   "victoires": 0.5830339009529761,
+   "egalites": 0.0003124511795032026,
+   "defaites": 0.4166536478675207
+  },
+  "sim_objet_dominant contre famille_20": {
+   "difference_mae_points": -0.40387596173495754,
+   "ic95": [
+    -0.45312607852096276,
+    -0.35626410048276164
+   ],
+   "victoires": 0.588189345414779,
+   "egalites": 0.00046867676925480396,
+   "defaites": 0.41134197781596626
+  },
+  "sim_acheteur_dominant contre globale": {
+   "difference_mae_points": -0.35798544175574043,
+   "ic95": [
+    -0.4084245282373413,
+    -0.30989018007151253
+   ],
+   "victoires": 0.5813154194657085,
+   "egalites": 0.0003124511795032026,
+   "defaites": 0.4183721293547883
+  },
+  "sim_acheteur_dominant contre famille_20": {
+   "difference_mae_points": -0.3875403349527858,
+   "ic95": [
+    -0.4383407130388687,
+    -0.33808549492975837
+   ],
+   "victoires": 0.5813154194657085,
+   "egalites": 0.00046867676925480396,
+   "defaites": 0.4182159037650367
+  },
+  "sim_montant_recence contre globale": {
+   "difference_mae_points": -0.3743120097997241,
+   "ic95": [
+    -0.4244165575936332,
+    -0.3274954115059902
+   ],
+   "victoires": 0.5856897359787533,
+   "egalites": 0.0003124511795032026,
+   "defaites": 0.4139978128417435
+  },
+  "sim_montant_recence contre famille_20": {
+   "difference_mae_points": -0.4038669029967694,
+   "ic95": [
+    -0.4525640060454304,
+    -0.35673955737679064
+   ],
+   "victoires": 0.588189345414779,
+   "egalites": 0.0009373535385096079,
+   "defaites": 0.41087330104671144
+  },
+  "sim_objet_seul contre globale": {
+   "difference_mae_points": -0.3209494477190549,
+   "ic95": [
+    -0.3655987874530148,
+    -0.2792201610550231
+   ],
+   "victoires": 0.5780346820809249,
+   "egalites": 0.0003124511795032026,
+   "defaites": 0.4216528667395719
+  },
+  "sim_objet_seul contre famille_20": {
+   "difference_mae_points": -0.3505043409161001,
+   "ic95": [
+    -0.397492104006619,
+    -0.3055362322543102
+   ],
+   "victoires": 0.5739728167473832,
+   "egalites": 0.00046867676925480396,
+   "defaites": 0.42555850648336196
+  }
+ },
+ "par_tranche": {
+  "1-2": {
+   "n": 2584,
+   "globale": 4.099860878379415,
+   "sim_defaut": 3.3503017823401806
+  },
+  "3-4": {
+   "n": 1239,
+   "globale": 2.56774377641966,
+   "sim_defaut": 2.4759879360157346
+  },
+  "5-7": {
+   "n": 924,
+   "globale": 1.9167878946567862,
+   "sim_defaut": 1.9687118293031987
+  },
+  "8+": {
+   "n": 1654,
+   "globale": 1.442056864269845,
+   "sim_defaut": 1.2296314993875734
+  }
+ },
+ "par_acheteur": {
+  "acheteur connu (≥3 marchés antérieurs)": {
+   "n": 5587,
+   "globale": 2.887216308120209,
+   "sim_defaut": 2.4914740769247468
+  },
+  "acheteur peu ou pas connu": {
+   "n": 814,
+   "globale": 2.21237297716702,
+   "sim_defaut": 2.0368100992323863
+  }
+ },
+ "sensibilite": {
+  "k": {
+   "10": {
+    "mae": 2.4628603291462046,
+    "mediane": 1.6669634600965377,
+    "dans_2_points": 0.5608498672082487,
+    "n": 6401
+   },
+   "20": {
+    "mae": 2.433655536408956,
+    "mediane": 1.6501357033460895,
+    "dans_2_points": 0.5710045305421028,
+    "n": 6401
+   },
+   "50": {
+    "mae": 2.42568699541609,
+    "mediane": 1.6329444193867504,
+    "dans_2_points": 0.5711607561318544,
+    "n": 6401
+   }
+  },
+  "filtre_qualification": {
+   "code": {
+    "mae": 2.433655536408956,
+    "mediane": 1.6501357033460895,
+    "dans_2_points": 0.5710045305421028,
+    "n": 6401
+   },
+   "domaine": {
+    "mae": 2.439023083286054,
+    "mediane": 1.6509634713702481,
+    "dans_2_points": 0.5708483049523512,
+    "n": 6401
+   },
+   "aucun": {
+    "mae": 2.446075363544062,
+    "mediane": 1.666872898924976,
+    "dans_2_points": 0.5680362443368224,
+    "n": 6401
+   }
+  }
+ },
+ "duree_s": 600.2
+}

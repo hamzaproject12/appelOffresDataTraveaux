@@ -1,0 +1,104 @@
+{
+  "_aide": "Mots-clés cherchés dans l'objet, sans accents ni majuscules (l'apostrophe vaut une espace : écrire « ouvrage d art »). Un mot s'écrit en entier (le pluriel en s/x est accepté) ; un « * » à la fin accepte n'importe quelle suite (« assain* »). La première famille de 'ordre' dont un mot est présent l'emporte : mettre les plus précises en premier. Pour la nature, le mot cité le plus tôt dans l'objet l'emporte ; les mots 'secondaires' ne servent que si aucun mot principal n'est présent. Le bâtiment se range en 'batiment_neuf' ou 'batiment_rehabilitation' selon la nature (voir nature.py).",
+  "ordre": ["foret_environnement", "ouvrage_art", "hydro_agricole", "assainissement", "eau_potable",
+            "eclairage_electricite", "sport", "vrd", "route_piste", "amenagement_urbain", "batiment",
+            "cloture", "fourniture"],
+  "familles": {
+    "foret_environnement": {"libelle": "Forêt et environnement", "mots": [
+      "sylviculture", "reboisement", "peuplement*", "foret*", "boisement", "pare feu", "pare feux",
+      "lutte contre l erosion", "dune*", "decharge*", "parc national", "reserve de chasse", "liege*",
+      "cedre*", "pepiniere*", "pastoral*", "amenagement de parcours", "plantation*", "arboriculture", "arganier*",
+      "thuya", "regeneration*", "sylvopastoral*", "antierosi*", "ravin*", "erosion", "oasis", "palmeraie*", "palmier*",
+      "risques d incendie", "lutte contre les incendies", "chene*", "caroubier*", "eucalyptus", "pin maritime"]},
+    "ouvrage_art": {"libelle": "Ouvrage d'art", "mots": [
+      "ouvrage d art", "ouvrages d art", "pont", "ponts", "dalot*", "viaduc*", "passage submersible",
+      "passages submersibles", "radier*", "passerelle*", "ouvrage de franchissement", "buse*"]},
+    "hydro_agricole": {"libelle": "Hydraulique et hydro-agricole", "mots": [
+      "irrigation", "irrigu*", "hydro agricole*", "hydroagricole*", "barrage*", "lac collinaire*",
+      "seguia*", "canal", "canaux", "protection contre les inondations", "inondation*", "curage des oueds",
+      "recalibrage", "seuil*", "gabion*", "correction torrentielle", "bassin d orage", "bassins d orage",
+      "perimetre irrigue", "perimetres irrigues", "ormva", "amenagement hydraulique", "amenagements hydrauliques",
+      "khettara*", "epandage", "goutte a goutte", "piste agricole", "pistes agricoles", "retenue collinaire",
+      "hydraulique*", "piezometre*", "ouvrage hydraulique", "ouvrages hydrauliques"]},
+    "assainissement": {"libelle": "Assainissement", "mots": [
+      "assainissement", "eaux usees", "eau usee", "egout*", "collecteur*", "epuration", "step",
+      "eaux pluviales", "pluvial*", "caniveau*", "curage", "reseau d evacuation", "fosse septique",
+      "fosses septiques", "lagunage", "emissaire*", "station de relevage"]},
+    "eau_potable": {"libelle": "Eau potable", "mots": [
+      "eau potable", "eaux potables", "aep", "adduction*", "reservoir*", "chateau d eau", "chateaux d eau",
+      "forage*", "puits", "point d eau", "points d eau", "alimentation en eau", "borne fontaine", "bornes fontaines",
+      "station de pompage", "pompage", "canalisation*", "captage*", "approvisionnement en eau", "dessalement",
+      "recherche de fuites", "recherche et reparation de fuites", "compteur*",
+      "reseau d eau", "reseaux d eau", "distribution d eau", "distribution de l eau", "equipement hydraulique"]},
+    "eclairage_electricite": {"libelle": "Éclairage et électricité", "mots": [
+      "eclairage*", "luminaire*", "lampadaire*", "electrification*", "reseau electrique", "reseaux electriques",
+      "photovoltaique*", "solaire*", "electricite", "basse tension", "moyenne tension", "haute tension",
+      "poste de transformation", "groupe electrogene", "illumination*", "fibre optique", "hta", "bt", "mt", "poteau*",
+      "electrique*", "postes hta", "reseau mt", "reseau bt", "22 kv", "kv"]},
+    "sport": {"libelle": "Sport et loisirs", "mots": [
+      "terrain de sport", "terrains de sport", "terrain de proximite", "terrains de proximite", "stade*",
+      "gazon synthetique", "gazon artificiel", "salle couverte", "salle de sport", "piscine*", "complexe sportif",
+      "complexes sportifs", "padel", "tennis", "athletisme", "aire de jeux", "aires de jeux", "jeux pour enfants",
+      "football", "basket*", "handball", "gymnase*", "palestre", "salle omnisports", "omnisport*",
+      "terrain de foot", "pole sportif", "centre sportif", "equipement sportif", "equipements sportifs", "sportif*"]},
+    "vrd": {"libelle": "VRD (voirie et réseaux divers)", "mots": [
+      "vrd", "voirie et reseaux divers", "voiries et reseaux divers", "viabilisation", "equipement du lotissement",
+      "equipement de lotissement", "equipement des lotissements", "lotissement*", "voirie et assainissement",
+      "voirie et reseaux"]},
+    "route_piste": {"libelle": "Route et piste", "mots": [
+      "route*", "piste*", "chaussee*", "liaison routiere", "liaisons routieres", "enduit superficiel", "enrobe*",
+      "bitum*", "tapis", "rn", "rr", "rp", "pk", "signalisation*", "troncon*", "autoroute*", "nids de poule",
+      "carrefour*", "giratoire*", "rond point*", "ronds points", "glissieres", "chemin*", "desenclavement",
+      "desservant", "liaison*", "reliant", "goudronnage", "routier*", "routiere*", "voie", "voies", "points noirs",
+      "couche de surface", "ecf", "enrobes coules"]},
+    "amenagement_urbain": {"libelle": "Aménagement urbain", "mots": [
+      "amenagement urbain", "amenagements urbains", "mise a niveau urbaine", "mise a niveau de la ville",
+      "mise a niveau des quartiers", "la place", "des places", "place publique", "places publiques", "placette*",
+      "jardin*", "espace vert", "espaces verts", "promenade*", "parking*", "souk*", "abattoir*", "marche de gros",
+      "marches de gros", "marche communal", "marche de proximite", "marche municipal", "gare routiere", "cimetiere*",
+      "quartier*", "centre ville", "front de mer", "plage*", "esplanade*", "parc urbain", "parc de loisirs",
+      "parc public", "fontaine*", "mur de soutenement", "murs de soutenement", "soutenement", "aire de repos",
+      "aires de repos", "belvedere", "hammam*", "dallage*", "mobilier urbain", "zone industrielle",
+      "zone d activite", "zones d activites", "zone d activites", "voirie*", "voie urbaine", "voies urbaines",
+      "boulevard*", "avenue*", "rue", "rues", "ruelle*", "corniche", "trottoir*", "pave", "paves", "pavage",
+      "bordure*", "urbain*", "urbaine*", "ville", "amenagements exterieurs", "amenagement exterieur"]},
+    "batiment": {"libelle": "Bâtiment", "mots": [
+      "batiment*", "ecole*", "lycee*", "college*", "siege*", "logement*", "centre*", "dispensaire*", "hopital*",
+      "hopitaux", "mosquee*", "bibliotheque*", "maison*", "internat*", "dar talib", "dar taliba", "dar tolba",
+      "etablissement*", "salle*", "universite*", "faculte*", "institut*", "creche*", "foyer*", "complexe*",
+      "pavillon*", "residence*", "immeuble*", "bureaux", "bureau", "annexe*", "commissariat*", "caserne*",
+      "prison*", "tribunal*", "palais", "locaux", "mausolee*", "zaouia*", "musee*", "theatre*", "cinema*",
+      "auberge*", "hotel*", "cuisine*", "cantine*", "clinique*", "morgue", "urgences", "mairie*", "gendarmerie*",
+      "ksar", "kasbah", "remparts", "muraille*", "medina", "monument*", "patrimoine", "toiture*", "etancheite",
+      "peinture", "plomberie", "menuiserie*", "carrelage", "faux plafond", "climatisation", "chauffage",
+      "ascenseur*", "isolation", "ravalement", "facade*", "securite incendie", "scolaire*", "preau*", "sante",
+      "formation", "arrondissement*", "caidat", "pachalik", "cercle administratif", "ouvrages annexes",
+      "prescolaire*", "classes", "abri*", "plateforme*", "poste de commandement", "postes de commandement",
+      "postes de commandements", "postes des commandements", "conseil provincial", "conseil regional", "conseil communal"]},
+    "cloture": {"libelle": "Clôture et mur", "mots": ["cloture*", "mur", "murs", "grillage*", "muret*"]},
+    "fourniture": {"libelle": "Fourniture et équipement", "mots": [
+      "fourniture*", "acquisition*", "equipement*", "materiel*", "mobilier*", "livraison*", "achat*",
+      "informatique", "vehicule*", "engin*", "camion*", "pompe*", "panneau*"]}
+  },
+  "nature": {
+    "neuf": {"libelle": "Neuf", "mots": [
+      "construction*", "creation", "creer", "edification", "nouveau", "nouvelle", "nouveaux", "nouvelles",
+      "extension*", "realisation", "achevement", "poursuite", "elargissement", "sureleva*", "installation*",
+      "pose", "mise en place", "dedoublement", "fourniture*", "realiser", "construire", "reboisement", "deviation*"],
+      "secondaires": ["amenagement*", "bitumage", "revetement*", "goudronnage", "pavage", "desenclavement",
+                      "raccordement*", "alimentation*", "adduction*", "electrification*", "viabilisation",
+                      "forage*", "equipement*", "cloture*", "branchement*", "plantation*"]},
+    "rehabilitation": {"libelle": "Réhabilitation", "mots": [
+      "rehabilitation*", "renovation*", "mise a niveau", "restauration*", "reconversion*", "remise en etat",
+      "remise a niveau", "reamenagement*", "requalification*", "rehabiliter", "renover", "modernisation*",
+      "refection*", "reprise*", "renforcement*", "consolidation*", "amelioration*", "reaffectation*",
+      "remplacement*", "renouvellement*", "restructuration*", "revitalisation*", "reconstruction*", "restaurer", "ravalement",
+      "regeneration*", "redressement*"],
+      "secondaires": []},
+    "entretien": {"libelle": "Entretien", "mots": [
+      "entretien*", "reparation*", "maintenance*", "curage*", "rafraichissement", "nettoyage", "gardiennage",
+      "points noirs", "degrade*", "degradation*", "fuite", "fuites", "depannage*", "remise en service",
+      "rapiecage", "dessablement", "deblaiement*", "elagage", "desensablement", "balayage", "sylviculture", "conduite de peuplements"],
+      "secondaires": []}
+  }
+}

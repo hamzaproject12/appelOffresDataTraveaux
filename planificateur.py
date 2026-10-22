@@ -28,6 +28,7 @@ from pathlib import Path
 ICI = Path(__file__).resolve().parent
 DONNEES = Path(os.environ.get("DONNEES") or ICI.parent)
 MARQUE = DONNEES / "derniere_maj.txt"
+MARQUE_GROUPES = DONNEES / "derniere_maj_groupes.txt"
 
 
 def dire(*mots) -> None:
@@ -92,6 +93,36 @@ def appeler(*arguments: str) -> int:
     for ligne in p.stdout:
         print(ligne.rstrip(), flush=True)
     return p.wait()
+
+
+def recalcul_hebdomadaire() -> None:
+    """Groupes de présence commune du copilote, recalculés si le dernier calcul a 7 jours ou plus.
+
+    Lancé après la mise à jour quotidienne, dans un processus à part : un échec est écrit dans le
+    journal et retenté le lendemain, sans rien bloquer d'autre.
+    """
+    try:
+        dernier = datetime.fromisoformat(MARQUE_GROUPES.read_text(encoding="utf-8").strip())
+        if datetime.now(timezone.utc).date() - dernier.date() < timedelta(days=7):
+            return
+    except (OSError, ValueError):
+        pass
+    commande = [sys.executable, "-u", "-m", "copilote.recalculer", "groupes"]
+    try:
+        p = subprocess.Popen(commande, cwd=ICI, stdout=subprocess.PIPE,
+                             stderr=subprocess.STDOUT, text=True, bufsize=1)
+    except OSError as e:
+        dire(f"impossible de lancer le recalcul des groupes : {e}")
+        return
+    for ligne in p.stdout:
+        print(ligne.rstrip(), flush=True)
+    code = p.wait()
+    dire(f"recalcul hebdomadaire des groupes terminé, code {code}")
+    if code == 0:
+        try:
+            MARQUE_GROUPES.write_text(datetime.now(timezone.utc).date().isoformat(), encoding="utf-8")
+        except OSError as e:
+            dire(f"impossible d'écrire {MARQUE_GROUPES} : {e}")
 
 
 def amorcer_donnees() -> None:
@@ -203,6 +234,7 @@ def tourner() -> None:
         code = appeler(*arguments)
         noter(datetime.now(timezone.utc).date().isoformat())
         dire(f"mise à jour terminée en {(time.time() - debut) / 60:.0f} min, code {code}")
+        recalcul_hebdomadaire()
         time.sleep(60)                                # on ne repart jamais en boucle serrée
 
 

@@ -10,7 +10,7 @@ import sys
 
 from . import bases
 from .donnees import charger_unites, concordance
-from .references import GRILLE, meilleur, par_tranche, taux_de_victoire
+from .references import GRILLE, meilleur, meilleur_par_tranche, par_tranche, taux_de_victoire
 
 
 def pct(x) -> str:
@@ -60,6 +60,12 @@ def main(argv: list[str]) -> int:
         print("|---|---:|" + "---:|" * len(taux_cites))
         for nom, ligne in par_tranche(sous, taux_cites).items():
             print(f"| {nom} | {ligne['n']} | " + " | ".join(pct(ligne[r]) for r in taux_cites) + " |")
+        print(f"\n{a} : meilleur taux fixe par nombre d'offres reçues (grille {GRILLE[0]:.2f} à {GRILLE[-1]:.2f})")
+        print("| offres | n | meilleur taux | taux de victoire |")
+        print("|---|---:|---:|---:|")
+        for nom, b in meilleur_par_tranche(sous).items():
+            taux = "—" if b["taux"] is None else f"{b['taux']:.4f}"
+            print(f"| {nom} | {b['n']} | {taux} | {pct(b['taux_victoire'])} |")
     return 0
 
 

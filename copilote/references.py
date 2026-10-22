@@ -8,8 +8,8 @@ from __future__ import annotations
 
 from .donnees import CLE_FICTIVE, TRANCHES, Unite, rejouer_attribution, tranche_de
 
-# 0,95 à 1,05 par pas de 0,0025 : 41 taux. Calculés en entiers pour éviter la dérive flottante.
-GRILLE = [round((3800 + 10 * k) / 4000, 4) for k in range(41)]
+# 0,80 à 1,05 par pas de 0,0025 : 101 taux. Calculés en entiers pour éviter la dérive flottante.
+GRILLE = [round((3200 + 10 * k) / 4000, 4) for k in range(101)]
 
 
 def unites_eligibles(unites: list[Unite]) -> list[Unite]:
@@ -44,6 +44,23 @@ def par_tranche(unites: list[Unite], taux: list[float]) -> dict:
             v = sum(rejouer_attribution(u, r).cle_gagnant == CLE_FICTIVE for u in sous)
             ligne[r] = v / len(sous) if sous else None
         sortie[nom] = ligne
+    return sortie
+
+
+def meilleur_par_tranche(unites: list[Unite], grille: list[float] = GRILLE) -> dict:
+    """{tranche: {"n": …, "taux": meilleur taux fixe, "taux_victoire": …}} sur toute la grille.
+
+    À égalité, le taux le plus bas l'emporte (même règle que `meilleur`). `taux` vaut None
+    quand la tranche n'a aucune unité éligible.
+    """
+    sortie = {}
+    for nom, ligne in par_tranche(unites, grille).items():
+        candidats = [(r, ligne[r]) for r in grille if ligne[r] is not None]
+        if candidats:
+            r, v = max(candidats, key=lambda t: (t[1], -t[0]))
+            sortie[nom] = {"n": ligne["n"], "taux": r, "taux_victoire": v}
+        else:
+            sortie[nom] = {"n": ligne["n"], "taux": None, "taux_victoire": None}
     return sortie
 
 

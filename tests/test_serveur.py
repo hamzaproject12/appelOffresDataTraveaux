@@ -74,6 +74,50 @@ class Integration(unittest.TestCase):
             self.assertEqual(bases.cle_acheteur(nom), serveur.cle_acheteur(nom), nom)
 
 
+class RejeuContrat(unittest.TestCase):
+    """Les annonces rejouées sont acceptées telles quelles par le vrai POST /api/v1/appels_ouverts."""
+
+    def test_les_annonces_rejouees_passent_le_contrat_du_service(self):
+        from copilote import rejouer_ao
+        from tests.test_rejeu import base_de_rejeu
+        with tempfile.TemporaryDirectory() as tmp:
+            base_de_rejeu(Path(tmp) / "h.db")
+            hist = bases._lecture_seule(Path(tmp) / "h.db")
+            import sqlite3
+            calc = sqlite3.connect(Path(tmp) / "c.db")
+            calc.row_factory = sqlite3.Row
+            try:
+                rejouer_ao.preparer(calc)
+                choisis = rejouer_ao.choisir(rejouer_ao.candidats(hist), 12, 3, 0)
+                rejouer_ao.enregistrer(calc, choisis)
+                annonces = rejouer_ao.annonces_a_envoyer(calc)
+            finally:
+                hist.close()
+                calc.close()
+        client = TestClient(serveur.app, follow_redirects=False)
+        corps = {"clients": [rejouer_ao.CLIENT], "appels_ouverts": annonces}
+        sans_jeton = client.post("/api/v1/appels_ouverts", json=corps)
+        self.assertEqual(sans_jeton.status_code, 401)
+        r = client.post("/api/v1/appels_ouverts", json=corps, headers={"Authorization": "Bearer j"})
+        self.assertEqual(r.status_code, 200, r.text)
+        self.assertEqual((r.json()["recus"], r.json()["crees"], r.json()["rejetes"]), (12, 12, []))
+        client.post("/entrer", data={"nom": "Visiteur d'essai"})
+        lignes = client.get("/api/v1/appels_ouverts", params={"client": "Test", "taille": 50}).json()["lignes"]
+        self.assertEqual(len(lignes), 12)                                  # toutes encore ouvertes : date limite à venir
+        par_ref = {l["ref_annonce"]: l for l in lignes}
+        for a in annonces:
+            l = par_ref[a["ref_annonce"]]
+            self.assertEqual(l["clients"], ["Test"])
+            self.assertEqual(l["acheteur"], a["acheteur"])
+            self.assertAlmostEqual(l["estimation"], a["estimation"])
+            self.assertEqual([x["lot"] for x in l["lots"]], [x["lot"] for x in a.get("lots", [])])
+            self.assertEqual(sorted((q["libelle"], q["classe"]) for q in l["qualifications"]),
+                             sorted((q["libelle"], q["classe"]) for q in a["qualifications"]))
+        # Le renvoi est idempotent : rien de plus en base.
+        r2 = client.post("/api/v1/appels_ouverts", json=corps, headers={"Authorization": "Bearer j"})
+        self.assertEqual((r2.json()["crees"], r2.json()["maj"]), (0, 12))
+
+
 class Separation(unittest.TestCase):
     def refuse(self, **remplacements) -> str | None:
         with contextlib.ExitStack() as pile:

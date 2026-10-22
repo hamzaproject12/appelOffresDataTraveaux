@@ -115,11 +115,13 @@ class Acces(unittest.TestCase):
         """Aucune route /copilote* ou /api/copilote* hors /copilote/entrer n'est ouverte."""
         # Les routes d'un routeur inclus ne sont pas toutes listées dans app.routes selon la
         # version de FastAPI : le schéma OpenAPI, lui, les donne toutes.
-        chemins = {c for c in self.app.openapi()["paths"]
+        chemins = {c: methodes for c, methodes in self.app.openapi()["paths"].items()
                    if c.startswith(("/copilote", "/api/copilote")) and c != "/copilote/entrer"}
         self.assertTrue(chemins)
-        for chemin in chemins:
-            self.assertIn(self.client.get(chemin).status_code, (301, 302, 401), chemin)
+        for chemin, methodes in chemins.items():
+            for methode in methodes:           # chaque méthode déclarée : une route POST seule répondrait 405 à un GET
+                self.assertIn(self.client.request(methode.upper(), chemin).status_code, (301, 302, 401),
+                              f"{methode} {chemin}")
 
     # ------------------------------------------------------------------ accès
     def test_le_code_donne_le_nom_de_son_titulaire(self):

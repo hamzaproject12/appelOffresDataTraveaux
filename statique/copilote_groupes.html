@@ -1,0 +1,820 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="color-scheme" content="light dark">
+<title>Groupes de présence commune — Marchés publics</title>
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='7' fill='%231f4e78'/%3E%3Cpath d='M8 21V13M14 21V9M20 21V16M26 21V11' stroke='white' stroke-width='3' stroke-linecap='round'/%3E%3C/svg%3E">
+<script>
+  try { const t = localStorage.getItem('pv-theme'); if (t === 'light' || t === 'dark') document.documentElement.dataset.theme = t; } catch (e) {}
+</script>
+<style>
+  /* ================================================================ jetons (mêmes valeurs que ao_ouverts.html) */
+  :root {
+    --fond: #f3f4f6; --surface: #ffffff; --surface-2: #f8f9fb; --surface-3: #eceff3;
+    --bord: #dde1e7; --bord-fort: #b4bcc7;
+    --texte: #111827; --texte-2: #374151; --doux: #555e6c;
+    --accent: #1f4f8f; --accent-survol: #173e72; --accent-doux: #e7eef8; --sur-accent: #ffffff;
+    --vert: #0f6a3e; --vert-doux: #e4f3ea; --vert-bord: #9fd0b4;
+    --orange: #875100; --orange-doux: #fcf0da; --orange-bord: #ebc88a;
+    --rouge: #b3261e; --rouge-doux: #fcebea;
+    --neutre: #4b5563; --neutre-doux: #eceff3;
+    --squelette: #e5e8ed; --squelette-reflet: #f3f5f8;
+    --ombre-1: 0 1px 2px rgba(17,24,39,.05);
+    --focus: #2563eb;
+    color-scheme: light;
+
+    --police: "Segoe UI Variable Text", "Segoe UI", system-ui, -apple-system, "Helvetica Neue", Arial, sans-serif;
+    --mono: ui-monospace, "Cascadia Mono", "SF Mono", Consolas, monospace;
+    --t-xs: .75rem; --t-s: .8125rem; --t-m: .875rem; --t-l: 1rem; --t-xl: 1.25rem; --t-2xl: 1.5rem;
+    --e1: 4px; --e2: 8px; --e3: 12px; --e4: 16px; --e5: 24px; --e6: 32px; --e7: 48px;
+    --r-s: 6px; --r-m: 10px; --r-l: 14px;
+    --haut-barre: 64px;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root:not([data-theme="light"]) {
+      --fond: #0d1117; --surface: #161b22; --surface-2: #1b2129; --surface-3: #242b35;
+      --bord: #2b333e; --bord-fort: #46505e;
+      --texte: #e8ebef; --texte-2: #c9cfd7; --doux: #9ca6b4;
+      --accent: #7fb2f0; --accent-survol: #a6c9f5; --accent-doux: #1a2a40; --sur-accent: #0b1320;
+      --vert: #5cc98f; --vert-doux: #11281c; --vert-bord: #22553a;
+      --orange: #e8b95c; --orange-doux: #2c220f; --orange-bord: #5c4518;
+      --rouge: #f28b82; --rouge-doux: #34191a;
+      --neutre: #b4bdc9; --neutre-doux: #242b35;
+      --squelette: #212833; --squelette-reflet: #2a323e;
+      --ombre-1: none;
+      --focus: #7cb0ff;
+      color-scheme: dark;
+    }
+  }
+  :root[data-theme="dark"] {
+    --fond: #0d1117; --surface: #161b22; --surface-2: #1b2129; --surface-3: #242b35;
+    --bord: #2b333e; --bord-fort: #46505e;
+    --texte: #e8ebef; --texte-2: #c9cfd7; --doux: #9ca6b4;
+    --accent: #7fb2f0; --accent-survol: #a6c9f5; --accent-doux: #1a2a40; --sur-accent: #0b1320;
+    --vert: #5cc98f; --vert-doux: #11281c; --vert-bord: #22553a;
+    --orange: #e8b95c; --orange-doux: #2c220f; --orange-bord: #5c4518;
+    --rouge: #f28b82; --rouge-doux: #34191a;
+    --neutre: #b4bdc9; --neutre-doux: #242b35;
+    --squelette: #212833; --squelette-reflet: #2a323e;
+    --ombre-1: none;
+    --focus: #7cb0ff;
+    color-scheme: dark;
+  }
+
+  /* ================================================================ base */
+  *, *::before, *::after { box-sizing: border-box; }
+  html { -webkit-text-size-adjust: 100%; scroll-padding-top: calc(var(--haut-barre) + var(--e4)); }
+  body { margin: 0; min-height: 100vh; background: var(--fond); color: var(--texte);
+    font: 400 var(--t-m)/1.5 var(--police); -webkit-font-smoothing: antialiased; }
+  h1, h2, h3, p, ol, ul { margin: 0; }
+  ol, ul { padding: 0; list-style: none; }
+  a { color: var(--accent); text-underline-offset: 2px; }
+  button, input, select { font: inherit; color: inherit; }
+  button { cursor: pointer; }
+  svg.ic { flex-shrink: 0; display: block; }
+  :focus-visible { outline: 2px solid var(--focus); outline-offset: 2px; border-radius: 4px; }
+  .sr { position: absolute !important; width: 1px; height: 1px; overflow: hidden; clip: rect(0 0 0 0);
+    white-space: nowrap; margin: -1px; padding: 0; border: 0; }
+  .doux { color: var(--doux); }
+  .mono { font-family: var(--mono); font-size: .92em; letter-spacing: -.01em; }
+  .num { text-align: right; white-space: nowrap; font-variant-numeric: tabular-nums; }
+  .evitement { position: absolute; left: var(--e2); top: -100px; z-index: 50; background: var(--accent);
+    color: var(--sur-accent); padding: var(--e3) var(--e4); border-radius: var(--r-s); font-weight: 600; }
+  .evitement:focus { top: var(--e2); }
+  .conteneur { width: 100%; max-width: 1440px; margin: 0 auto; padding-inline: var(--e5); }
+
+  /* ================================================================ en-tête */
+  .barre-haut { position: sticky; top: 0; z-index: 20; background: var(--surface); border-bottom: 1px solid var(--bord); }
+  .barre-haut__ligne { display: flex; align-items: center; gap: var(--e3) var(--e5); min-height: var(--haut-barre); }
+  .marque { display: flex; align-items: center; gap: 10px; color: var(--texte); text-decoration: none;
+    min-height: 44px; flex-shrink: 0; border-radius: var(--r-s); }
+  .marque__logo { width: 34px; height: 34px; border-radius: 9px; background: var(--accent); color: var(--sur-accent);
+    display: grid; place-items: center; }
+  .marque b { display: block; font-size: var(--t-l); font-weight: 650; letter-spacing: -.01em; line-height: 1.2; }
+  .marque small { display: block; font-size: var(--t-xs); color: var(--doux); line-height: 1.3; }
+  .onglets { display: flex; gap: var(--e1); }
+  .onglet { display: inline-flex; align-items: center; gap: var(--e2); min-height: 44px; padding: 0 14px;
+    border-radius: var(--r-s); color: var(--doux); text-decoration: none; font-weight: 500; white-space: nowrap;
+    transition: background-color .15s, color .15s; }
+  .onglet:hover { background: var(--surface-3); color: var(--texte); }
+  .onglet[aria-current="page"] { background: var(--accent-doux); color: var(--accent); font-weight: 600; }
+  .onglet .long { display: none; }
+  .actions { margin-left: auto; display: flex; align-items: center; gap: var(--e1); }
+  .btn-icone { width: 44px; height: 44px; display: inline-grid; place-items: center; border-radius: var(--r-s);
+    border: 1px solid transparent; background: none; color: var(--texte-2); text-decoration: none; }
+  .btn-icone:hover { background: var(--surface-3); color: var(--texte); }
+  .separateur { width: 1px; height: 24px; background: var(--bord); margin: 0 var(--e1); }
+
+  @media (min-width: 1280px) { .onglet .long { display: inline; } .onglet .court { display: none; } }
+  @media (max-width: 1023px) {
+    :root { --haut-barre: 112px; }
+    .barre-haut__ligne { flex-wrap: wrap; min-height: 0; padding-top: var(--e2); }
+    .onglets { order: 3; flex-basis: 100%; padding-bottom: var(--e2); }
+  }
+  @media (max-width: 639px) {
+    :root { --haut-barre: 60px; }
+    .conteneur { padding-inline: var(--e4); }
+    .barre-haut__ligne { flex-wrap: nowrap; padding-top: 0; min-height: 60px; }
+    .marque small { display: none; }
+    .separateur { display: none; }
+    .onglets { position: fixed; left: 0; right: 0; bottom: 0; z-index: 20; background: var(--surface);
+      border-top: 1px solid var(--bord); display: grid; grid-template-columns: repeat(5, 1fr); gap: 2px;
+      padding: var(--e1) var(--e1) calc(var(--e1) + env(safe-area-inset-bottom)); }
+    .onglet { flex-direction: column; justify-content: center; gap: 3px; min-height: 56px; padding: var(--e1) 2px;
+      font-size: 11.5px; line-height: 1.2; text-align: center; white-space: normal; }
+    .onglet[aria-current="page"] { background: none; }
+    .onglet[aria-current="page"] svg { background: var(--accent-doux); border-radius: 999px; padding: 2px 12px;
+      width: 46px; height: 24px; box-sizing: content-box; margin: -2px 0; }
+    body { padding-bottom: calc(68px + env(safe-area-inset-bottom)); }
+  }
+
+  /* ================================================================ contenu */
+  main { padding-block: var(--e6) var(--e7); outline: none; }
+  .tete-vue { margin-bottom: var(--e5); }
+  .tete-vue h1 { font-size: var(--t-2xl); font-weight: 650; letter-spacing: -.02em; line-height: 1.25; outline: none; }
+  .tete-vue p { color: var(--doux); margin-top: var(--e1); max-width: 80ch; }
+  @media (max-width: 639px) {
+    main { padding-top: var(--e5); }
+    .tete-vue { margin-bottom: var(--e4); }
+    .tete-vue h1 { font-size: var(--t-xl); }
+  }
+
+  /* champs et boutons */
+  .champ { height: 44px; width: 100%; border: 1px solid var(--bord-fort); border-radius: var(--r-s);
+    background: var(--surface); color: var(--texte); padding: 0 var(--e3); transition: border-color .15s; }
+  .champ::placeholder { color: var(--doux); opacity: 1; }
+  .champ:hover { border-color: var(--doux); }
+  .champ:focus-visible { outline: 2px solid var(--focus); outline-offset: -1px; border-color: var(--focus); border-radius: var(--r-s); }
+  .recherche { position: relative; min-width: 0; }
+  .recherche > svg { position: absolute; left: 13px; top: 50%; transform: translateY(-50%); color: var(--doux); pointer-events: none; }
+  .recherche .champ { padding-left: 42px; }
+  .selecteur { position: relative; display: block; }
+  .selecteur select { appearance: none; -webkit-appearance: none; padding-right: 38px; cursor: pointer; }
+  .selecteur svg { position: absolute; right: 12px; top: 50%; transform: translateY(-50%); pointer-events: none; color: var(--doux); }
+  .btn { display: inline-flex; align-items: center; justify-content: center; gap: var(--e2); min-height: 44px;
+    padding: 0 var(--e4); border-radius: var(--r-s); border: 1px solid var(--bord-fort); background: var(--surface);
+    color: var(--texte); font-weight: 500; text-decoration: none; white-space: nowrap; transition: background-color .15s; }
+  .btn:hover { background: var(--surface-3); }
+  .btn:disabled { opacity: .45; cursor: not-allowed; }
+  .btn[aria-pressed="true"] { background: var(--accent-doux); border-color: var(--accent); color: var(--accent); font-weight: 650; }
+  .btn--sec { min-height: 36px; padding: 0 var(--e3); font-size: var(--t-s); }
+
+  /* pastilles */
+  .puce { display: inline-flex; align-items: center; gap: 4px; padding: 2px 9px; border-radius: 999px;
+    font-size: var(--t-xs); font-weight: 600; white-space: nowrap; background: var(--neutre-doux);
+    color: var(--neutre); line-height: 1.5; }
+  .puce--ok { background: var(--vert-doux); color: var(--vert); }
+  .puce--attention { background: var(--orange-doux); color: var(--orange); }
+  .puce--ko { background: var(--rouge-doux); color: var(--rouge); }
+  .puces { display: flex; flex-wrap: wrap; gap: 4px; min-width: 0; }
+
+  /* ================================================================ disposition : liste + fiche */
+  .recherche-ligne { display: grid; grid-template-columns: minmax(0, 1fr) 220px; gap: var(--e3); margin-bottom: var(--e4); }
+  @media (max-width: 639px) { .recherche-ligne { grid-template-columns: minmax(0, 1fr); } .champ { font-size: 16px; } }
+  .disposition { display: grid; grid-template-columns: minmax(0, 1fr); gap: var(--e5); align-items: start; }
+  body[data-vue="liste"] .col-fiche { display: none; }
+  body[data-vue="fiche"] .col-liste, body[data-vue="fiche"] .recherche-ligne, body[data-vue="fiche"] .tete-vue { display: none; }
+  @media (min-width: 1100px) {
+    .disposition { grid-template-columns: minmax(340px, 430px) minmax(0, 1fr); }
+    body[data-vue="liste"] .col-fiche { display: block; }
+    body[data-vue="fiche"] .col-liste, body[data-vue="fiche"] .recherche-ligne, body[data-vue="fiche"] .tete-vue { display: block; }
+    body[data-vue="fiche"] .recherche-ligne { display: grid; }
+    .col-liste { position: sticky; top: calc(var(--haut-barre) + var(--e4)); max-height: calc(100vh - var(--haut-barre) - var(--e6));
+      overflow-y: auto; padding-right: 2px; }
+    .retour { display: none !important; }
+  }
+  .resume { color: var(--doux); font-size: var(--t-s); margin-bottom: var(--e2); min-height: 20px; }
+  .resume strong { color: var(--texte); font-weight: 650; }
+
+  /* liste des groupes */
+  .liste { display: grid; gap: var(--e2); }
+  .g { display: flex; gap: var(--e3); padding: var(--e3); background: var(--surface); border: 1px solid var(--bord);
+    border-radius: var(--r-m); color: var(--texte); text-decoration: none; box-shadow: var(--ombre-1); }
+  .g:hover { border-color: var(--bord-fort); background: var(--surface-2); }
+  .g[aria-current="true"] { border-color: var(--accent); box-shadow: inset 3px 0 0 var(--accent); }
+  .g__score { flex: 0 0 48px; height: 48px; border-radius: var(--r-s); background: var(--accent-doux); color: var(--accent);
+    display: grid; place-content: center; text-align: center; line-height: 1.05; }
+  .g__score b { font-size: var(--t-xl); font-weight: 700; font-variant-numeric: tabular-nums; }
+  .g__score small { font-size: 10px; opacity: .8; }
+  .g__corps { display: grid; gap: 4px; min-width: 0; }
+  .g__noms { font-weight: 550; line-height: 1.4; overflow-wrap: anywhere; }
+  .g__noms b { color: var(--accent); }
+  .g__meta { font-size: var(--t-xs); color: var(--doux); }
+  .g__noms .occ { color: var(--doux); font-weight: 450; }
+  .g__occ { font-size: var(--t-s); color: var(--doux); overflow-wrap: anywhere; }
+  .g__occ b { color: var(--accent); }
+  .cliques { display: grid; gap: var(--e2); }
+  .membres-famille { display: grid; gap: var(--e4); grid-template-columns: minmax(0, 1fr); }
+  @media (min-width: 760px) { .membres-famille { grid-template-columns: repeat(2, minmax(0, 1fr)); } }
+  .membres-famille h3 { font-size: var(--t-s); font-weight: 650; margin-bottom: 2px; }
+  .membres-famille p.intro { color: var(--doux); font-size: var(--t-xs); margin-bottom: var(--e2); }
+  .membres-famille ul { list-style: none; display: grid; gap: 6px; padding: 0; margin: 0; }
+  .membres-famille li { display: flex; flex-wrap: wrap; gap: 4px var(--e2); align-items: baseline; }
+  .membres-famille .vide { color: var(--doux); font-size: var(--t-s); }
+  .derniers { margin-top: var(--e4); }
+  .derniers > summary { cursor: pointer; font-weight: 600; min-height: 36px; padding: 6px 0; }
+
+  /* états */
+  .etat { display: flex; flex-direction: column; align-items: center; text-align: center; gap: var(--e2);
+    padding: var(--e6) var(--e4); color: var(--doux); background: var(--surface); border: 1px solid var(--bord);
+    border-radius: var(--r-m); }
+  .etat h2 { font-size: var(--t-l); color: var(--texte); font-weight: 650; }
+  .etat p { max-width: 52ch; }
+  .etat--erreur { border-color: var(--rouge); }
+  .etat--erreur h2 { color: var(--rouge); }
+  .etat .btn { margin-top: var(--e2); }
+  .sq { display: block; height: 66px; border-radius: var(--r-m); background: var(--squelette);
+    background-image: linear-gradient(90deg, var(--squelette) 0%, var(--squelette-reflet) 50%, var(--squelette) 100%);
+    background-size: 200% 100%; animation: reflet 1.4s ease-in-out infinite; }
+  @keyframes reflet { from { background-position: 150% 0; } to { background-position: -50% 0; } }
+
+  /* ================================================================ fiche */
+  .fiche { display: grid; gap: var(--e5); min-width: 0; }
+  .retour { justify-self: start; }
+  .carte { background: var(--surface); border: 1px solid var(--bord); border-radius: var(--r-m); padding: var(--e4);
+    box-shadow: var(--ombre-1); min-width: 0; }
+  .carte > h2 { font-size: var(--t-l); font-weight: 650; margin-bottom: var(--e1); }
+  .carte > .intro { color: var(--doux); font-size: var(--t-s); margin-bottom: var(--e3); max-width: 80ch; }
+  .fiche-tete { display: flex; gap: var(--e4); align-items: flex-start; }
+  .fiche-tete h2 { font-size: var(--t-xl); font-weight: 650; line-height: 1.3; letter-spacing: -.01em; overflow-wrap: anywhere; }
+  .fiche-tete__meta { display: flex; flex-wrap: wrap; gap: var(--e1) var(--e3); margin-top: var(--e2); align-items: center;
+    color: var(--doux); font-size: var(--t-s); }
+  .fiche-tete h2:focus { outline: none; }                    /* titre focalisé à l'ouverture, pas un champ */
+  .anneau { flex: 0 0 auto; }
+  .anneau text { font-family: var(--police); fill: var(--texte); }
+  .lien-soc { color: var(--texte); font-weight: 600; text-decoration-color: var(--bord-fort); }
+  .lien-soc:hover { color: var(--accent); }
+  .avertissement { padding: var(--e3); border-radius: var(--r-s); background: var(--orange-doux); color: var(--orange);
+    font-size: var(--t-s); }
+  .rappel { font-size: var(--t-s); color: var(--doux); border-left: 3px solid var(--bord-fort); padding: 2px var(--e3);
+    max-width: 80ch; }
+
+  /* le pourquoi du score */
+  .criteres { display: grid; gap: var(--e4); }
+  .critere { display: grid; grid-template-columns: minmax(0, 1fr) 130px; gap: var(--e1) var(--e4); align-items: start; }
+  .critere__nom { font-weight: 600; }
+  .critere__phrase { grid-column: 1; color: var(--texte-2); max-width: 80ch; }
+  .critere__barre { grid-column: 2; grid-row: 1 / span 2; justify-self: end; width: 130px; text-align: right; }
+  .critere__barre svg { display: block; width: 100%; height: 8px; margin-top: 6px; }
+  .critere__pts { font-variant-numeric: tabular-nums; font-weight: 650; }
+  .critere details { margin-top: 2px; font-size: var(--t-xs); color: var(--doux); }
+  .critere summary { cursor: pointer; }
+  .critere details p { margin-top: 4px; max-width: 70ch; }
+  @media (max-width: 639px) {
+    .critere { grid-template-columns: minmax(0, 1fr); }
+    .critere__barre { grid-column: 1; grid-row: auto; justify-self: stretch; width: auto; }
+  }
+
+  /* tableaux */
+  .defile { overflow-x: auto; margin-inline: calc(-1 * var(--e4)); padding-inline: var(--e4); }
+  .tableau { width: 100%; border-collapse: collapse; }
+  .tableau th { text-align: left; font-size: var(--t-xs); font-weight: 600; color: var(--doux);
+    text-transform: uppercase; letter-spacing: .03em; padding: var(--e2) var(--e3); white-space: nowrap;
+    background: var(--surface-2); border-bottom: 1px solid var(--bord); }
+  .tableau th.num { text-align: right; }
+  .tableau td { padding: var(--e3); border-bottom: 1px solid var(--bord); vertical-align: top; overflow-wrap: anywhere; }
+  .tableau tbody tr:last-child td { border-bottom: 0; }
+  .tableau .objet { max-width: 46ch; color: var(--texte-2); font-size: var(--t-s); margin-top: 2px; display: -webkit-box;
+    -webkit-line-clamp: 3; -webkit-box-orient: vertical; overflow: hidden; }
+  .tableau .offres { display: grid; gap: 2px; font-size: var(--t-s); font-variant-numeric: tabular-nums; }
+  .tableau .offres .gagne { font-weight: 650; }
+  .tableau .offres .ecartee { color: var(--doux); text-decoration: line-through; text-decoration-color: var(--bord-fort); }
+  @media (max-width: 899px) {
+    .defile { overflow: visible; }
+    .tableau thead { display: none; }
+    .tableau, .tableau tbody, .tableau tr, .tableau td { display: block; width: 100%; }
+    .tableau tr { padding: var(--e3) 0; border-bottom: 1px solid var(--bord); }
+    .tableau tbody tr:last-child { border-bottom: 0; }
+    .tableau td { padding: 3px 0; border: 0; text-align: left !important; white-space: normal !important; }
+    .tableau td[data-l]::before { content: attr(data-l); display: block; font-size: var(--t-xs); color: var(--doux);
+      font-weight: 600; text-transform: uppercase; letter-spacing: .03em; }
+    .tableau .objet { max-width: none; }
+  }
+  .plus { display: flex; justify-content: center; padding-top: var(--e3); }
+
+  /* avis */
+  .avis-liste { display: grid; gap: var(--e3); margin-top: var(--e3); }
+  .avis { display: grid; gap: var(--e2); padding: var(--e3); border: 1px solid var(--bord); border-radius: var(--r-s);
+    background: var(--surface-2); }
+  .avis__titre { font-weight: 600; overflow-wrap: anywhere; }
+  .avis__faits { font-size: var(--t-xs); color: var(--doux); }
+  .avis__q { color: var(--texte-2); }
+  .avis__boutons { display: flex; flex-wrap: wrap; gap: var(--e2); }
+  .avis__boutons .btn { flex: 1 1 110px; }
+  .avis__etat { font-size: var(--t-xs); color: var(--doux); min-height: 18px; }
+  .avis--groupe { border-color: var(--accent); }
+  details.paires > summary { cursor: pointer; font-weight: 600; min-height: 36px; padding: 6px 0; }
+  .historique { display: grid; gap: var(--e3); }
+  .historique li { display: grid; gap: 2px; padding-bottom: var(--e3); border-bottom: 1px solid var(--bord); }
+  .historique li:last-child { border-bottom: 0; padding-bottom: 0; }
+  .historique__haut { display: flex; flex-wrap: wrap; gap: var(--e1) var(--e2); align-items: center; font-size: var(--t-s); }
+  .historique__com { color: var(--texte-2); overflow-wrap: anywhere; }
+
+  @media (prefers-reduced-motion: reduce) {
+    *, *::before, *::after { animation-duration: .001ms !important; animation-iteration-count: 1 !important;
+      transition-duration: .001ms !important; }
+    .sq { background-image: none; }
+  }
+</style>
+</head>
+<body data-vue="liste">
+<a class="evitement" href="#contenu">Aller au contenu</a>
+<header class="barre-haut">
+  <div class="conteneur barre-haut__ligne">
+    <a class="marque" href="/ao-ouverts">
+      <span class="marque__logo" aria-hidden="true">
+        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"><path d="M6 7h12M6 12h8M6 17h5"/><circle cx="17.5" cy="16.5" r="2.5"/></svg>
+      </span>
+      <span><b>Marchés publics</b><small>Copilote de soumission</small></span>
+    </a>
+    <nav class="onglets" aria-label="Sections">
+      <a class="onglet" href="/ao-ouverts"><i data-ic="ouverts"></i><span>En cours</span></a>
+      <a class="onglet" href="/app#/marches"><i data-ic="marches"></i><span>Marchés</span></a>
+      <a class="onglet" href="/app#/societes"><i data-ic="societes"></i><span>Sociétés</span></a>
+      <a class="onglet" href="/app#/acheteurs"><i data-ic="acheteurs"></i><span>Maîtres d’ouvrage</span></a>
+      <a class="onglet" href="/copilote/groupes" aria-current="page"><i data-ic="groupes"></i><span>Groupes</span></a>
+    </nav>
+    <div class="actions">
+      <button type="button" class="btn-icone" id="bouton-theme"></button>
+      <span class="separateur" aria-hidden="true"></span>
+      <a class="btn-icone" href="/deconnexion" aria-label="Se déconnecter" title="Se déconnecter"><i data-ic="sortie"></i></a>
+    </div>
+  </div>
+</header>
+
+<main id="contenu" class="conteneur" tabindex="-1">
+  <div class="tete-vue">
+    <h1 id="titre-vue" tabindex="-1">Groupes de présence commune</h1>
+    <p>Des sociétés qui déposent souvent des offres sur les mêmes marchés. C’est un signal statistique,
+       pas une conclusion : il peut s’agir de partenaires habituels, d’un même dirigeant, d’un groupement
+       ou de concurrents qui visent les mêmes acheteurs. Votre avis sert à le dire.</p>
+  </div>
+
+  <form class="recherche-ligne" role="search" onsubmit="return false">
+    <label class="recherche">
+      <span class="sr">Rechercher une société par son nom</span>
+      <i data-ic="recherche"></i>
+      <input class="champ" id="q" type="search" placeholder="Rechercher une société…" autocomplete="off" maxlength="100" spellcheck="false">
+    </label>
+    <label class="selecteur">
+      <span class="sr">Trier les familles</span>
+      <select class="champ" id="tri">
+        <option value="score">Trier : score décroissant</option>
+        <option value="marches">Trier : nombre de marchés</option>
+        <option value="taille">Trier : nombre de sociétés</option>
+        <option value="recent">Trier : activité récente</option>
+      </select>
+      <i data-ic="chevron"></i>
+    </label>
+  </form>
+
+  <div class="disposition">
+    <section class="col-liste" aria-label="Liste des familles de groupes">
+      <p class="resume" id="resume" aria-live="polite"></p>
+      <ol class="liste" id="liste"><li><span class="sq"></span></li><li><span class="sq"></span></li><li><span class="sq"></span></li></ol>
+      <details class="derniers" id="derniers">
+        <summary>Derniers avis, tous groupes</summary>
+        <div id="derniers-contenu" class="carte" style="margin-top:8px"></div>
+      </details>
+    </section>
+    <section class="col-fiche" id="fiche" aria-label="Fiche de la famille ou du groupe" aria-live="polite"></section>
+  </div>
+  <p class="sr" id="annonce" role="status" aria-live="polite"></p>
+</main>
+
+<script>
+'use strict';
+const $ = (s, r = document) => r.querySelector(s);
+const esc = s => String(s ?? '').replace(/[&<>"']/g, c => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[c]));
+const nf = new Intl.NumberFormat('fr-FR');
+const pluriel = (n, s, p) => `${nf.format(n)} ${n > 1 ? (p || s + 's') : s}`;
+const pct = (x, d = 0) => x == null ? '—' : (x * 100).toFixed(d).replace('.', ',') + ' %';
+const dateFr = iso => iso ? iso.split('-').reverse().join('/') : '—';
+const moisFr = iso => { if (!iso) return '—'; const [a, m] = iso.split('-'); return ['janv.', 'févr.', 'mars', 'avr.', 'mai', 'juin', 'juil.', 'août', 'sept.', 'oct.', 'nov.', 'déc.'][+m - 1] + ' ' + a; };
+const dateHeure = iso => { const d = new Date(iso); return isNaN(d) ? '' : d.toLocaleString('fr-FR', { dateStyle: 'short', timeStyle: 'short' }); };
+const lienSociete = (cle, nom, cls = 'lien-soc') =>
+  `<a class="${cls}" href="/app#/societes?fiche=${encodeURIComponent('s:' + cle)}" target="_blank" rel="noopener" title="Ouvrir la fiche de la société (nouvel onglet)">${esc(nom)}</a>`;
+
+const ICONES = {
+  marches: '<path d="M14 3H6a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V9z"/><path d="M14 3v6h6M8 13h8M8 17h5"/>',
+  societes: '<circle cx="9" cy="8" r="4"/><path d="M2 21a7 7 0 0 1 14 0M16 4a4 4 0 0 1 0 8M22 21a7 7 0 0 0-4-6.3"/>',
+  acheteurs: '<path d="M3 21h18M5 21V11M9.5 21V11M14.5 21V11M19 21V11M2 11l10-7 10 7z"/>',
+  ouverts: '<path d="M12 7v5l3 2"/><circle cx="12" cy="12" r="9"/>',
+  groupes: '<circle cx="6" cy="7" r="2.5"/><circle cx="18" cy="7" r="2.5"/><circle cx="12" cy="18" r="2.5"/><path d="M8.5 7h7M7.3 9.2l3.4 6.6M16.7 9.2l-3.4 6.6"/>',
+  sortie: '<path d="M9 21H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h4M16 17l5-5-5-5M21 12H9"/>',
+  soleil: '<circle cx="12" cy="12" r="4"/><path d="M12 2v2M12 20v2M4.9 4.9l1.4 1.4M17.7 17.7l1.4 1.4M2 12h2M20 12h2M4.9 19.1l1.4-1.4M17.7 6.3l1.4-1.4"/>',
+  lune: '<path d="M21 12.8A9 9 0 1 1 11.2 3a7 7 0 0 0 9.8 9.8z"/>',
+  recherche: '<circle cx="11" cy="11" r="7"/><path d="m20 20-3.5-3.5"/>',
+  chevron: '<path d="m6 9 6 6 6-6"/>',
+  retour: '<path d="M15 6l-6 6 6 6"/>',
+};
+const ic = (n, t = 20) => `<svg class="ic" width="${t}" height="${t}" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">${ICONES[n] || ''}</svg>`;
+document.querySelectorAll('i[data-ic]').forEach(i => i.outerHTML = ic(i.dataset.ic));
+
+// ================================================================ thème (même clé que le reste du site)
+const btnTheme = $('#bouton-theme');
+const themeActuel = () => document.documentElement.dataset.theme || (matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light');
+function majBoutonTheme() {
+  const sombre = themeActuel() === 'dark', lib = sombre ? 'Passer au thème clair' : 'Passer au thème sombre';
+  btnTheme.innerHTML = ic(sombre ? 'soleil' : 'lune', 20);
+  btnTheme.setAttribute('aria-label', lib); btnTheme.title = lib;
+}
+btnTheme.addEventListener('click', () => {
+  const t = themeActuel() === 'dark' ? 'light' : 'dark';
+  document.documentElement.dataset.theme = t;
+  try { localStorage.setItem('pv-theme', t); } catch (e) {}
+  majBoutonTheme();
+});
+matchMedia('(prefers-color-scheme: dark)').addEventListener('change', majBoutonTheme);
+majBoutonTheme();
+
+// ================================================================ API
+async function api(chemin, params = {}, options = {}) {
+  const url = new URL(chemin, location.origin);
+  Object.entries(params).forEach(([k, v]) => { if (v !== '' && v != null) url.searchParams.set(k, v); });
+  let r;
+  try { r = await fetch(url, { credentials: 'same-origin', ...options }); }
+  catch (e) { throw Object.assign(new Error('reseau'), { type: 'reseau' }); }
+  if (r.status === 401) { location.href = '/copilote/entrer'; throw Object.assign(new Error('session'), { type: 'session' }); }
+  let corps = null;
+  try { corps = await r.json(); } catch (e) {}
+  if (!r.ok) throw Object.assign(new Error(corps?.detail || 'serveur'), { type: r.status === 404 ? 'introuvable' : 'serveur', statut: r.status });
+  return corps;
+}
+const blocErreur = (titre, texte, bouton) => `<div class="etat etat--erreur" role="alert"><h2>${esc(titre)}</h2><p>${esc(texte)}</p>${bouton || ''}</div>`;
+const erreurTexte = e => e.type === 'reseau' ? ['Connexion impossible', 'Le serveur ne répond pas. Vérifiez votre connexion, puis réessayez.']
+  : e.type === 'introuvable' ? ['Famille introuvable', 'Cette famille ou ce groupe n’existe plus : ils sont recalculés chaque semaine. Revenez à la liste.']
+  : ['Erreur du serveur', 'Le serveur a rencontré un problème. Réessayez dans un instant.'];
+
+// ================================================================ état de la page, gardé dans l'adresse
+// f = identifiant (empreinte) de la famille ; g = numéro d'une clique de cette famille.
+const TRIS = ['score', 'marches', 'taille', 'recent'];
+let ETAT = { q: '', tri: 'score', f: null, g: null };
+function lireHash() {
+  const sp = new URLSearchParams(location.hash.replace(/^#/, ''));
+  const f = sp.get('f'), g = sp.get('g');
+  return { q: (sp.get('q') || '').slice(0, 100), tri: TRIS.includes(sp.get('tri')) ? sp.get('tri') : 'score',
+    f: /^[0-9a-f]{8,64}$/.test(f || '') ? f : null, g: /^\d+$/.test(g || '') ? +g : null };
+}
+function ecrireHash(e, mode) {
+  const sp = new URLSearchParams();
+  if (e.q) sp.set('q', e.q);
+  if (e.tri !== 'score') sp.set('tri', e.tri);
+  if (e.f != null) sp.set('f', e.f);
+  if (e.g != null) sp.set('g', e.g);
+  const h = sp.toString();
+  history[mode === 'push' ? 'pushState' : 'replaceState'](null, '', location.pathname + (h ? '#' + h : ''));
+}
+const annoncer = t => { $('#annonce').textContent = ''; setTimeout(() => { $('#annonce').textContent = t; }, 30); };
+
+// ================================================================ liste : une carte par famille
+let LISTE = null, jetonListe = 0;
+function carteFamille(f) {
+  const gras = new Set(f.correspond);
+  const trier = l => [...l].sort((a, b) => gras.has(b.cle) - gras.has(a.cle));
+  const lister = (l, k) => { const t = trier(l); return t.slice(0, k).map(m => gras.has(m.cle) ? `<b>${esc(m.nom)}</b>` : esc(m.nom)).join(', ') + (t.length > k ? ` +${t.length - k}` : ''); };
+  const occ = f.occasionnels.length
+    ? `<span class="g__occ">Occasionnels : ${lister(f.occasionnels, 3)}</span>` : '';
+  return `<a class="g" href="#f=${f.id}" data-fam="${f.id}"${ETAT.f === f.id ? ' aria-current="true"' : ''}>
+    <span class="g__score" role="img" aria-label="Score ${f.score} sur 100"><b>${f.score}</b><small>/100</small></span>
+    <span class="g__corps"><span class="g__noms">${lister(f.permanents, 4)}</span>${occ}
+      <span class="g__meta">${pluriel(f.permanents.length, 'permanent')} · ${pluriel(f.occasionnels.length, 'occasionnel')} · ${pluriel(f.cliques.length, 'clique')} · ${pluriel(f.marches, 'marché')} · jusqu’à ${esc(moisFr(f.dernier))}</span>
+      ${puceAvis(f.avis)}</span></a>`;
+}
+// une clique, dans la fiche d'une famille : les membres qui ne sont pas permanents sont en gris
+function carteClique(g, f) {
+  const perm = new Set(f.permanents.map(m => m.cle));
+  const noms = g.membres.map(m => perm.has(m.cle) ? esc(m.nom) : `<span class="occ">${esc(m.nom)}</span>`).join(', ');
+  return `<a class="g" href="#f=${f.id}&g=${g.id}" data-fam="${f.id}" data-g="${g.id}">
+    <span class="g__score" role="img" aria-label="Score ${g.score} sur 100"><b>${g.score}</b><small>/100</small></span>
+    <span class="g__corps"><span class="g__noms">${noms}</span>
+      <span class="g__meta">${pluriel(g.taille, 'société')} · ${pluriel(g.marches, 'marché')} · ${pluriel(g.acheteurs, 'acheteur')} · jusqu’à ${esc(moisFr(g.dernier))}</span>
+      <span class="puces">${g.id === f.meilleure_clique ? '<span class="puce puce--ok" title="Son score est celui de la famille">Meilleure clique</span>' : ''}${puceAvisInterne(g.avis)}</span></span></a>`;
+}
+function puceAvis(a) {
+  const interne = puceAvisInterne(a);
+  return interne ? `<span class="puces">${interne}</span>` : '';
+}
+// `a` est soit le détail d'une clique ({statut, oui, non, paires}), soit le statut seul d'une famille.
+function puceAvisInterne(a) {
+  if (!a) return '';
+  if (typeof a === 'string') a = { statut: a };
+  if (!a.statut) return '';
+  const lib = a.statut === 'conteste' ? 'Contesté' : 'Confirmé';
+  const titre = a.paires == null
+    ? (a.statut === 'conteste' ? 'Au moins une clique de la famille a une paire avec un « non »' : 'Aucun « non », au moins un « oui »')
+    : a.statut === 'conteste'
+      ? `${a.non} paire(s) sur ${a.paires} avec un « non »${a.oui ? `, ${a.oui} avec un « oui »` : ''}`
+      : `${a.oui} paire(s) sur ${a.paires} avec un « oui », aucun « non »`;
+  return `<span class="puce ${a.statut === 'conteste' ? 'puce--attention' : 'puce--ok'}" title="${esc(titre)}">${lib}</span>`;
+}
+function rendreListe(d) {
+  const resume = $('#resume'), liste = $('#liste');
+  if (!d.calcul) {
+    resume.textContent = '';
+    liste.innerHTML = `<li><div class="etat"><h2>Aucun calcul disponible</h2><p>Les groupes ne sont pas encore calculés. Lancez <span class="mono">python -m copilote.recalculer groupes</span>, ou attendez le recalcul de la semaine.</p></div></li>`;
+    return;
+  }
+  const calcule = d.calcul.cree_le ? dateFr(d.calcul.cree_le.slice(0, 10)) : '';
+  resume.innerHTML = ETAT.q
+    ? `<strong>${pluriel(d.total, 'famille')}</strong> contiennent « ${esc(ETAT.q)} »`
+    : `<strong>${pluriel(d.total, 'famille')}</strong> (${pluriel(d.cliques, 'clique')}) · calcul du ${calcule}`;
+  if (!d.total) {
+    liste.innerHTML = `<li><div class="etat"><h2>Aucune famille</h2><p>${ETAT.q
+      ? 'Aucun groupe de présence commune ne contient cette société. Elle peut exister dans l’historique sans former de groupe au seuil actuel.'
+      : 'Aucun groupe n’a été trouvé dans ce calcul.'}</p></div></li>`;
+    return;
+  }
+  liste.innerHTML = d.familles.map(f => `<li>${carteFamille(f)}</li>`).join('');
+}
+async function chargerListe() {
+  const jeton = ++jetonListe;
+  try {
+    const d = await api('/api/copilote/groupes', { q: ETAT.q, tri: ETAT.tri });
+    if (jeton !== jetonListe) return;
+    LISTE = d; rendreListe(d);
+  } catch (e) {
+    if (jeton !== jetonListe || e.type === 'session') return;
+    const [t, x] = erreurTexte(e);
+    $('#liste').innerHTML = `<li>${blocErreur(t, x, '<button type="button" class="btn" id="reessayer">Réessayer</button>')}</li>`;
+    $('#reessayer').onclick = chargerListe;
+  }
+}
+function marquerSelection() {
+  document.querySelectorAll('#liste .g').forEach(a => {
+    if (a.dataset.fam === ETAT.f) a.setAttribute('aria-current', 'true'); else a.removeAttribute('aria-current');
+  });
+}
+
+// ================================================================ fiche
+let FICHE = null, jetonFiche = 0, MARCHES_AFFICHES = 25, PAIRES_OUVERTES = null;
+const LIBELLE_REPONSE = { oui: 'Oui', non: 'Non', nsp: 'Je ne sais pas' };
+const PUCE_REPONSE = { oui: 'puce--ok', non: 'puce--attention', nsp: '' };
+
+function anneau(score) {
+  const r = 26, c = 2 * Math.PI * r, p = Math.max(0, Math.min(100, score)) / 100 * c;
+  return `<svg class="anneau" width="68" height="68" viewBox="0 0 68 68" role="img" aria-label="Score ${score} sur 100">
+    <circle cx="34" cy="34" r="${r}" fill="none" stroke="var(--surface-3)" stroke-width="7"/>
+    <circle cx="34" cy="34" r="${r}" fill="none" stroke="var(--accent)" stroke-width="7" stroke-linecap="round"
+      stroke-dasharray="${p.toFixed(1)} ${c.toFixed(1)}" transform="rotate(-90 34 34)"/>
+    <text x="34" y="39" text-anchor="middle" font-size="19" font-weight="700">${score}</text></svg>`;
+}
+function barre(points, max) {
+  const l = Math.max(0, Math.min(100, points / max * 100));
+  return `<svg viewBox="0 0 100 8" preserveAspectRatio="none" aria-hidden="true"><rect width="100" height="8" rx="4" fill="var(--surface-3)"/><rect width="${l.toFixed(1)}" height="8" rx="4" fill="var(--accent)"/></svg>`;
+}
+const tauxFr = t => t == null ? '—' : (t * 100).toFixed(1).replace('.', ',') + ' %';
+const courtNom = (n, k = 24) => n.length > k ? n.slice(0, k - 1) + '…' : n;
+
+function enteteFiche(f) {
+  const a = f.avis;
+  const noms = f.membres.map(m => lienSociete(m.cle, m.nom)).join(' · ');
+  return `<div class="carte"><div class="fiche-tete">${anneau(f.score)}<div style="min-width:0">
+    <h2 id="titre-fiche" tabindex="-1">${noms}</h2>
+    <div class="fiche-tete__meta"><span>Clique de la famille <a class="lien-soc" href="#f=${f.famille_id}" data-retour-famille>voir la famille</a></span><span>${pluriel(f.taille, 'société')}</span>
+      <span>${pluriel(f.marches, 'marché')} (${f.marches_complet} au complet)</span>
+      <span>${esc(moisFr(f.premier))} → ${esc(moisFr(f.dernier))}</span>${puceAvis(a)}</div></div></div>
+    <p class="rappel" style="margin-top:12px">Une clique est un groupe de sociétés toutes présentes ensemble ; c’est un fait statistique, pas une accusation. Un avis « oui » retient la paire
+    au prochain recalcul, un avis « non » l’exclut.</p></div>`;
+}
+function blocPourquoi(f) {
+  const total = f.explication.reduce((s, c) => s + c.points, 0);
+  return `<div class="carte"><h2>Pourquoi ce score : ${f.score} sur 100</h2>
+    <p class="intro">Le score additionne six critères pondérés (${total.toFixed(1).replace('.', ',')} points avant arrondi). Chaque ligne dit ce qui a été mesuré, sur combien de marchés, et comment le chiffre devient des points.</p>
+    <div class="criteres">${f.explication.map(c => `<div class="critere">
+      <div><div class="critere__nom">${esc(c.libelle)}</div></div>
+      <div class="critere__barre"><span class="critere__pts">${String(c.points).replace('.', ',')}</span> <span class="doux">/ ${c.max} points</span>${barre(c.points, c.max)}</div>
+      <div class="critere__phrase">${esc(c.phrase)}<details><summary>Comment c’est calculé</summary><p>${esc(c.methode)}</p></details></div>
+    </div>`).join('')}</div></div>`;
+}
+function blocMembres(f) {
+  return `<div class="carte"><h2>Membres</h2>
+    <p class="intro">Le rôle décrit qui remporte les marchés où le groupe est présent. Le taux de victoire compare les marchés avec le groupe et sans lui (entre parenthèses, le nombre de marchés ou lots jugés).</p>
+    <div class="defile"><table class="tableau"><thead><tr><th>Société</th><th>Rôle</th><th class="num">Présences</th><th class="num">Victoires avec le groupe</th><th class="num">Taux avec</th><th class="num">Taux sans</th></tr></thead><tbody>${
+      f.membres.map(m => `<tr><td data-l="Société">${lienSociete(m.cle, m.nom)}</td><td data-l="Rôle">${esc(m.role)}</td>
+        <td class="num" data-l="Présences">${m.presences_groupe} / ${m.marches}</td><td class="num" data-l="Victoires avec le groupe">${m.gains_groupe}</td>
+        <td class="num" data-l="Taux avec">${pct(m.taux_avec, 1)} <span class="doux">(${m.n_avec})</span></td>
+        <td class="num" data-l="Taux sans">${pct(m.taux_sans, 1)} <span class="doux">(${m.n_sans})</span></td></tr>`).join('')}</tbody></table></div></div>`;
+}
+function ligneMarche(m, f) {
+  const court = Object.fromEntries(f.membres.map(x => [x.cle, courtNom(x.nom)]));
+  const gagnants = m.gagnants.length ? m.gagnants.map(g => `${g.membre ? lienSociete(g.cle, g.nom, 'lien-soc') : esc(g.nom)}${g.membre ? ' <span class="puce puce--ok">membre</span>' : ''}`).join('<br>') : '<span class="doux">—</span>';
+  const offres = m.offres.length ? `<div class="offres">${m.offres.map(o => {
+    const ecartee = o.statut && !['admis', 'attributaire'].includes(o.statut);
+    return `<span class="${o.gagne ? 'gagne' : ''}${ecartee ? ' ecartee' : ''}">${o.gagne ? '✓ ' : ''}${esc(court[o.cle])}${o.lot != null ? ' (lot ' + esc(o.lot) + ')' : ''} : ${tauxFr(o.taux)}${ecartee ? ' <span class="doux">écartée</span>' : ''}</span>`;
+  }).join('')}</div>` : '<span class="doux">—</span>';
+  return `<tr><td data-l="Date" class="num">${dateFr(m.date)}</td>
+    <td data-l="Marché"><span class="mono">${esc(m.ref)}</span><div>${esc(m.acheteur)}</div>${m.objet ? `<div class="objet" title="${esc(m.objet)}">${esc(m.objet)}</div>` : ''}</td>
+    <td data-l="Membres présents" class="num">${m.presents} / ${f.taille}</td><td data-l="Gagnant">${gagnants}</td><td data-l="Offres des membres (taux = montant / estimation)">${offres}</td></tr>`;
+}
+function blocMarches(f) {
+  const lignes = f.marches_communs.slice(0, MARCHES_AFFICHES);
+  const reste = f.marches_communs.length - lignes.length;
+  return `<div class="carte"><h2>Marchés communs</h2>
+    <p class="intro">Les ${pluriel(f.marches_total, 'marché')} où au moins 3 membres ont déposé une offre, du plus récent au plus ancien. Le taux d’une offre est son montant divisé par l’estimation de l’administration ; ✓ marque l’offre retenue.</p>
+    ${f.avertissement ? `<p class="avertissement" role="status">${esc(f.avertissement)}</p>` : ''}
+    <div class="defile"><table class="tableau"><thead><tr><th>Date</th><th>Marché</th><th class="num">Présents</th><th>Gagnant</th><th>Offres des membres</th></tr></thead><tbody>${
+      lignes.map(m => ligneMarche(m, f)).join('')}</tbody></table></div>
+    ${reste > 0 ? `<div class="plus"><button type="button" class="btn" id="plus-marches">Afficher ${Math.min(25, reste)} de plus (${reste} restants)</button></div>` : ''}
+    ${f.marches_total > f.marches_communs.length ? `<p class="doux" style="margin-top:8px">Seuls les ${f.marches_communs.length} marchés les plus récents sont détaillés.</p>` : ''}</div>`;
+}
+function formulaireAvis(titre, faits, data, actuel, groupe) {
+  const dernier = actuel ? `<div class="avis__etat">Dernier avis tranché : <strong>${LIBELLE_REPONSE[actuel.reponse]}</strong>, ${esc(actuel.auteur)}, ${esc(dateHeure(actuel.date))}</div>` : '<div class="avis__etat">Aucun avis tranché.</div>';
+  return `<form class="avis${groupe ? ' avis--groupe' : ''}" ${data} onsubmit="return false">
+    <div class="avis__titre">${titre}</div>${faits ? `<div class="avis__faits">${faits}</div>` : ''}
+    <p class="avis__q">${esc(FICHE.question)}</p>
+    <div class="avis__boutons" role="group" aria-label="Votre réponse">${['oui', 'non', 'nsp'].map(r =>
+      `<button type="button" class="btn" data-r="${r}"${actuel && actuel.reponse === r ? ' aria-pressed="true"' : ''}>${LIBELLE_REPONSE[r]}</button>`).join('')}</div>
+    <label><span class="sr">Commentaire (facultatif)</span><input class="champ" name="commentaire" maxlength="1000" placeholder="Commentaire (facultatif) — ce que vous savez, d’où vient l’information" autocomplete="off"></label>
+    ${dernier}<div class="avis__etat" data-etat role="status"></div></form>`;
+}
+function blocAvis(f) {
+  const paires = f.paires.map(p => {
+    const faits = p.communs == null ? '' : `${pluriel(p.communs, 'marché')} en commun. ${esc(courtNom(p.b.nom, 30))} est présente sur ${pct(p.part_a)} des marchés de ${esc(courtNom(p.a.nom, 30))}, et inversement ${pct(p.part_b)}.`;
+    return formulaireAvis(`${lienSociete(p.a.cle, p.a.nom)} et ${lienSociete(p.b.cle, p.b.nom)}`, faits,
+      `data-a="${esc(p.a.cle)}" data-b="${esc(p.b.cle)}"`, p.avis, false);
+  }).join('');
+  return `<div class="carte"><h2>Votre avis</h2>
+    <p class="intro">Les avis sont neutres et gardent le nom de leur auteur. Cliquer sur un bouton enregistre aussitôt la réponse, avec le commentaire s’il est rempli. Le dernier avis tranché (oui / non) de chaque paire est celui qui compte.</p>
+    ${formulaireAvis('Pour tout le groupe', `Enregistre la même réponse pour les ${f.paires.length} paires.`, `data-groupe="${f.id}"`, null, true)}
+    <details class="paires"${(PAIRES_OUVERTES ?? f.paires.length <= 3) ? ' open' : ''} style="margin-top:12px"><summary>Avis paire par paire (${f.paires.length})</summary><div class="avis-liste">${paires}</div></details></div>`;
+}
+function blocHistorique(f) {
+  const liste = f.historique;
+  return `<div class="carte"><h2>Historique des avis</h2>${liste.length ? `<ol class="historique">${liste.map(h => `<li>
+    <div class="historique__haut"><strong>${esc(h.auteur)}</strong><span class="doux">${esc(dateHeure(h.date))}</span>
+      <span class="puce ${PUCE_REPONSE[h.reponse]}">${LIBELLE_REPONSE[h.reponse]}</span></div>
+    <div class="doux">${h.tout_le_groupe ? 'Pour tout le groupe' : h.paires.map(p => esc(p.a.nom) + ' — ' + esc(p.b.nom)).join(' ; ')}</div>
+    ${h.commentaire ? `<div class="historique__com">${esc(h.commentaire)}</div>` : ''}</li>`).join('')}</ol>`
+    : '<p class="doux">Aucun avis pour ce groupe.</p>'}</div>`;
+}
+function rendreFiche(f) {
+  FICHE = f;
+  $('#fiche').innerHTML = `<div class="fiche"><a class="btn retour" href="#f=${f.famille_id}" id="retour-famille">${ic('retour', 18)}Retour à la famille</a>
+    ${enteteFiche(f)}${blocPourquoi(f)}${blocMembres(f)}${blocMarches(f)}${blocAvis(f)}${blocHistorique(f)}</div>`;
+}
+const RETOUR_LISTE = `<a class="btn retour" href="#" id="retour">${ic('retour', 18)}Toutes les familles</a>`;
+function chargement() {
+  document.body.dataset.vue = 'fiche';
+  $('#fiche').innerHTML = '<div class="fiche"><span class="sq" style="height:90px"></span><span class="sq" style="height:260px"></span><span class="sq" style="height:160px"></span></div>';
+}
+async function ouvrirFiche(id, { focus = true } = {}) {
+  const jeton = ++jetonFiche;
+  chargement(); FAMILLE = null;
+  try {
+    const f = await api('/api/copilote/groupe/' + id);
+    if (jeton !== jetonFiche) return;
+    MARCHES_AFFICHES = 25; PAIRES_OUVERTES = null;
+    if (ETAT.f !== f.famille_id) { ETAT = { ...ETAT, f: f.famille_id }; ecrireHash(ETAT, 'replace'); marquerSelection(); }   // ancien lien « #g= »
+    rendreFiche(f);
+    if (focus) { window.scrollTo(0, 0); $('#titre-fiche')?.focus({ preventScroll: true }); }
+  } catch (e) {
+    if (jeton !== jetonFiche || e.type === 'session') return;
+    const [t, x] = erreurTexte(e);
+    $('#fiche').innerHTML = `<div class="fiche">${RETOUR_LISTE}${blocErreur(t, x)}</div>`;
+  }
+}
+
+// ---------------------------------------------------------------- fiche d'une famille
+let FAMILLE = null;
+function blocMembresFamille(f) {
+  const n = f.cliques.length;
+  const presence = cle => f.cliques.filter(c => c.membres.some(m => m.cle === cle)).length;
+  const liste = (l, avecPresence) => l.length ? `<ul>${l.map(m => `<li>${lienSociete(m.cle, m.nom)}${avecPresence
+    ? ` <span class="doux">dans ${presence(m.cle)} clique${presence(m.cle) > 1 ? 's' : ''} sur ${n}</span>` : ''}</li>`).join('')}</ul>`
+    : '<p class="vide">Aucun.</p>';
+  return `<div class="carte"><h2>Membres de la famille</h2>
+    <p class="intro">Une famille réunit des cliques qui se recoupent. Les membres permanents sont présents dans toutes ses cliques ; les occasionnels, dans certaines seulement.</p>
+    <div class="membres-famille"><div><h3>Permanents (${f.permanents.length})</h3><p class="intro">Présents dans les ${pluriel(n, 'clique')} de la famille.</p>${liste(f.permanents, false)}</div>
+    <div><h3>Occasionnels (${f.occasionnels.length})</h3><p class="intro">Présents dans une partie des cliques seulement.</p>${liste(f.occasionnels, true)}</div></div></div>`;
+}
+function blocCliques(f) {
+  return `<div class="carte"><h2>Cliques de la famille (${f.cliques.length})</h2>
+    <p class="intro">Dans une clique, toutes les sociétés sont mutuellement présentes ensemble sur au moins la moitié de leurs marchés. Les membres occasionnels sont en gris. Ouvrez une clique pour voir pourquoi elle a son score, ses marchés communs, et donner votre avis.</p>
+    <div class="cliques">${f.cliques.map(c => carteClique(c, f)).join('')}</div></div>`;
+}
+function rendreFamille(f) {
+  FAMILLE = f; FICHE = null;
+  const noms = f.permanents.map(m => lienSociete(m.cle, m.nom)).join(' · ');
+  const message = f.message ? `<p class="avertissement" role="status">${esc(f.message)}</p>` : '';
+  $('#fiche').innerHTML = `<div class="fiche">${RETOUR_LISTE}${message}
+    <div class="carte"><div class="fiche-tete">${anneau(f.score)}<div style="min-width:0">
+      <h2 id="titre-fiche" tabindex="-1">${noms}</h2>
+      <div class="fiche-tete__meta"><span>${pluriel(f.permanents.length, 'permanent')}</span><span>${pluriel(f.occasionnels.length, 'occasionnel')}</span>
+        <span>${pluriel(f.cliques.length, 'clique')}</span><span>${pluriel(f.marches, 'marché')} pour la meilleure clique</span>
+        <span>${esc(moisFr(f.premier))} → ${esc(moisFr(f.dernier))}</span>${puceAvis(f.avis)}</div></div></div>
+      <p class="rappel" style="margin-top:12px">Le score de la famille est celui de sa meilleure clique. Une famille est un fait statistique de présence commune, pas une accusation.
+      Son identifiant (<span class="mono">${esc(f.id)}</span>) ne change que si ses membres permanents changent : le lien reste valable après chaque recalcul.</p></div>
+    ${blocMembresFamille(f)}${blocCliques(f)}</div>`;
+}
+async function ouvrirFamille(id, { focus = true } = {}) {
+  const jeton = ++jetonFiche;
+  chargement(); FICHE = null;
+  try {
+    const f = await api('/api/copilote/famille/' + id);
+    if (jeton !== jetonFiche) return;
+    if (f.id !== ETAT.f) { ETAT = { ...ETAT, f: f.id }; ecrireHash(ETAT, 'replace'); marquerSelection(); }   // lien ancien : famille actuelle
+    rendreFamille(f);
+    if (focus) { window.scrollTo(0, 0); $('#titre-fiche')?.focus({ preventScroll: true }); }
+  } catch (e) {
+    if (jeton !== jetonFiche || e.type === 'session') return;
+    const [t, x] = erreurTexte(e);
+    $('#fiche').innerHTML = `<div class="fiche">${RETOUR_LISTE}${blocErreur(t, x)}</div>`;
+  }
+}
+function fermerFiche() {
+  jetonFiche++; FICHE = null; FAMILLE = null;
+  document.body.dataset.vue = 'liste';
+  $('#fiche').innerHTML = `<div class="etat"><h2>Choisissez une famille</h2><p>Une famille réunit des cliques de sociétés qui se recoupent, avec ses membres permanents et occasionnels. Ouvrez-la pour voir ses cliques ; chaque clique montre pourquoi elle a son score, ses marchés communs, et vous laisse donner votre avis.</p></div>`;
+}
+
+// ================================================================ navigation
+function naviguer(maj, mode = 'push') {
+  const nouveau = { ...ETAT, ...maj };
+  ecrireHash(nouveau, mode);
+  return appliquer(nouveau);
+}
+async function appliquer(nouveau) {
+  const avant = ETAT;
+  ETAT = nouveau;
+  $('#q').value = ETAT.q; $('#tri').value = ETAT.tri;
+  const listeChangee = !LISTE || avant.q !== nouveau.q || avant.tri !== nouveau.tri;
+  if (listeChangee) await chargerListe();
+  marquerSelection();
+  if (ETAT.g != null) {
+    if (!FICHE || FICHE.id !== ETAT.g) ouvrirFiche(ETAT.g); else document.body.dataset.vue = 'fiche';
+  } else if (ETAT.f != null) {
+    if (!FAMILLE || FAMILLE.id !== ETAT.f) ouvrirFamille(ETAT.f); else document.body.dataset.vue = 'fiche';
+  } else fermerFiche();
+}
+addEventListener('popstate', () => appliquer(lireHash()));
+addEventListener('hashchange', () => { const h = lireHash(); if (h.q !== ETAT.q || h.tri !== ETAT.tri || h.f !== ETAT.f || h.g !== ETAT.g) appliquer(h); });
+
+let minuterie;
+$('#q').addEventListener('input', e => {
+  clearTimeout(minuterie);
+  minuterie = setTimeout(() => { const q = e.target.value.trim(); if (q !== ETAT.q) naviguer({ q, f: null, g: null }, 'replace'); }, 250);
+});
+$('#tri').addEventListener('change', e => naviguer({ tri: e.target.value }, 'replace'));
+
+document.addEventListener('click', e => {
+  const a = e.target.closest('a.g');
+  if (a && !e.ctrlKey && !e.metaKey && !e.shiftKey && e.button === 0) {
+    e.preventDefault(); naviguer({ f: a.dataset.fam, g: a.dataset.g ? +a.dataset.g : null }); return;
+  }
+  if (e.target.closest('#retour')) { e.preventDefault(); naviguer({ f: null, g: null }); return; }
+  if (e.target.closest('#retour-famille, [data-retour-famille]')) { e.preventDefault(); naviguer({ f: FICHE.famille_id, g: null }); return; }
+  if (e.target.closest('#plus-marches')) { MARCHES_AFFICHES += 25; const y = scrollY; rendreFiche(FICHE); scrollTo(0, y); return; }
+  const bouton = e.target.closest('.avis [data-r]');
+  if (bouton) envoyerAvis(bouton);
+});
+
+// ================================================================ avis
+async function envoyerAvis(bouton) {
+  const form = bouton.closest('form'), etat = $('[data-etat]', form);
+  const corps = { reponse: bouton.dataset.r, commentaire: form.elements.commentaire.value.trim() };
+  if (form.dataset.groupe) corps.groupe = +form.dataset.groupe;
+  else { corps.cle_a = form.dataset.a; corps.cle_b = form.dataset.b; corps.groupe = FICHE.id; }
+  form.querySelectorAll('button').forEach(b => { b.disabled = true; });
+  etat.textContent = 'Enregistrement…';
+  try {
+    const r = await api('/api/copilote/avis', {}, { method: 'POST', headers: { 'Content-Type': 'application/json' }, body: JSON.stringify(corps) });
+    const id = FICHE.id, y = scrollY;
+    const f = await api('/api/copilote/groupe/' + id);
+    if (FICHE && FICHE.id === id) {
+      rendreFiche(f); scrollTo(0, y);
+      const cible = form.dataset.groupe ? 'form[data-groupe]'
+        : `form[data-a="${CSS.escape(form.dataset.a)}"][data-b="${CSS.escape(form.dataset.b)}"]`;
+      $(`${cible} [data-r="${corps.reponse}"]`)?.focus({ preventScroll: true });
+    }
+    annoncer(`Avis enregistré au nom de ${r.auteur} (${pluriel(r.enregistres, 'paire')}).`);
+    chargerListe(); if ($('#derniers').open) chargerDerniers();
+  } catch (e) {
+    form.querySelectorAll('button').forEach(b => { b.disabled = false; });
+    etat.textContent = e.type === 'session' ? '' : `L’avis n’a pas été enregistré : ${e.type === 'reseau' ? 'le serveur ne répond pas.' : (e.message || 'erreur du serveur.')}`;
+  }
+}
+
+// ================================================================ derniers avis (tous groupes)
+async function chargerDerniers() {
+  const cible = $('#derniers-contenu');
+  try {
+    const d = await api('/api/copilote/avis', { limite: 30 });
+    cible.innerHTML = d.avis.length ? `<ol class="historique">${d.avis.map(h => `<li>
+      <div class="historique__haut"><strong>${esc(h.auteur)}</strong><span class="doux">${esc(dateHeure(h.date))}</span>
+        <span class="puce ${PUCE_REPONSE[h.reponse]}">${LIBELLE_REPONSE[h.reponse]}</span></div>
+      <div class="doux">${h.tout_le_groupe ? 'Tout le groupe : ' + h.paires.slice(0, 1).map(p => esc(p.a.nom)).join('') + ' et les autres'
+        : h.paires.map(p => esc(p.a.nom) + ' — ' + esc(p.b.nom)).join(' ; ')}</div>
+      ${h.commentaire ? `<div class="historique__com">${esc(h.commentaire)}</div>` : ''}</li>`).join('')}</ol>` : '<p class="doux">Aucun avis enregistré.</p>';
+  } catch (e) { if (e.type !== 'session') cible.innerHTML = blocErreur(...erreurTexte(e)); }
+}
+document.addEventListener('toggle', e => { if (e.target.matches?.('details.paires')) PAIRES_OUVERTES = e.target.open; }, true);
+$('#derniers').addEventListener('toggle', e => { if (e.target.open) chargerDerniers(); });
+
+// ================================================================ démarrage
+appliquer(lireHash());
+</script>
+</body>
+</html>
