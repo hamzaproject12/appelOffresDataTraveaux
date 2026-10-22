@@ -6,6 +6,7 @@ RUN pip install --no-cache-dir -r requirements.txt
 
 # Le serveur, la construction de la base et les collecteurs : le pod sait se mettre à jour seul.
 COPY *.py ./
+COPY copilote ./copilote
 COPY statique ./statique
 # La base d'amorçage voyage compressée. Une fois le volume rempli, c'est lui qui fait foi :
 # AMORCE_SEULEMENT empêche un déploiement de code de faire revenir la base en arrière.

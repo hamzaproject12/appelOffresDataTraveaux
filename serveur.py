@@ -48,6 +48,9 @@ from fastapi.responses import FileResponse, HTMLResponse, JSONResponse, PlainTex
 #   cle_plate    réduit ce qui reste à [a-z0-9], comme cle_marche() le fait déjà des deux côtés.
 # construire_base.py ne lit aucun fichier à l'import : il n'y définit que des regex et des chemins.
 from construire_base import PREFIXE_ORG, cle_plate
+# Le copilote (chantier 7) : ses deux bases entrent dans le contrôle de séparation ci-dessous.
+from copilote.config import COPILOTE_CALCUL, COPILOTE_RETOURS
+from copilote.routes import creer_routeur
 
 ICI = Path(__file__).resolve().parent
 
@@ -251,10 +254,34 @@ def verifier_separation_ao() -> None:
                 f"Les appels d'offres ouverts seraient effacés au prochain déploiement. "
                 f"Donne-lui un fichier à lui sur le volume, par exemple /data/ao_ouverts.db.")
 
+    # Les deux bases du copilote obéissent à la même règle, et ne se confondent ni entre elles
+    # ni avec les appels d'offres ouverts : copilote_calcul.db se reconstruit, copilote_retours.db
+    # (les avis humains) ne se reconstruit jamais.
+    copilote = {
+        "COPILOTE_CALCUL": COPILOTE_CALCUL.resolve(),
+        "COPILOTE_RETOURS": COPILOTE_RETOURS.resolve(),
+    }
+    voisines = dict(menaces)
+    voisines["les appels d'offres ouverts (AO_OUVERTS)"] = a
+    for variable, chemin in copilote.items():
+        for quoi, autre in voisines.items():
+            if chemin == autre:
+                raise RuntimeError(
+                    f"{variable}={chemin} désigne {quoi}.\n"
+                    f"Les données du copilote seraient perdues ou mélangées. "
+                    f"Donne-lui un fichier à lui sur le volume, par exemple "
+                    f"/data/{'copilote_calcul' if variable == 'COPILOTE_CALCUL' else 'copilote_retours'}.db.")
+    if copilote["COPILOTE_CALCUL"] == copilote["COPILOTE_RETOURS"]:
+        raise RuntimeError(
+            "COPILOTE_CALCUL et COPILOTE_RETOURS désignent le même fichier.\n"
+            "La base de calcul se supprime et se reconstruit à volonté, celle des retours jamais : "
+            "elles ne peuvent pas partager un fichier.")
+
 
 verifier_separation_ao()
 
 app = FastAPI(docs_url=None, redoc_url=None, openapi_url=None)
+app.include_router(creer_routeur(SECRET, BASE, AO_BASE))      # copilote : /copilote/*, /api/copilote/*
 
 
 # ------------------------------------------------------------------ base de données

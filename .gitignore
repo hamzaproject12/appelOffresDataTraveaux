@@ -16,6 +16,9 @@ pv_travaux.db.tmp
 # retombe a cote du script, et elle n'a rien a y faire.
 ao_ouverts.db
 ao_ouverts.db.tmp
+# Les deux bases du copilote vivent aussi sur le volume : en local elles retombent a cote du script.
+copilote_calcul.db
+copilote_retours.db
 
 # Le chantier de rattrapage : environ 70 000 fichiers de travail — un JSON par annonce lue,
 # un par refus, les journaux, la liste des annonces. Le pod ne s'en sert jamais : ce qu'il lui

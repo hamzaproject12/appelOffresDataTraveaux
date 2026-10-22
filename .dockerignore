@@ -6,6 +6,9 @@ journal.csv
 journal.db
 pv.db
 pv_travaux.db
+ao_ouverts.db
+copilote_calcul.db
+copilote_retours.db
 # Ce que le pod n'utilise pas : inutile de l'envoyer dans le contexte de construction.
 rattrapage/
 moisson/
