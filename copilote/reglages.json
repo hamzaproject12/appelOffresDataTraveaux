@@ -15,5 +15,19 @@
   "filtre": {"montant_min": 0.3, "montant_max": 3.0, "qualification": "code"},
   "resultats": 50,
   "pour_mediane": 20,
-  "correspondances_acheteurs": {"seuil_auto": 95, "ecart_ambigu": 3}
+  "correspondances_acheteurs": {"seuil_auto": 95, "ecart_ambigu": 3},
+  "groupes": {
+    "_aide": "Groupes de présence commune. Une paire a un niveau si elle atteint les trois seuils : marchés communs, excès (observé / attendu par hasard) et valeur p de Poisson. Seuls « fort » et « moyen » (et les avis oui) forment des groupes ; « faible » n'apparaît que dans la fiche d'une société.",
+    "niveaux": {
+      "fort":   {"communs": 6, "exces": 5, "p": 0.0001},
+      "moyen":  {"communs": 4, "exces": 3, "p": 0.001},
+      "faible": {"communs": 3, "exces": 2, "p": 0.01}
+    },
+    "mutuel": {"communs": 5, "part": 0.5, "niveau": "moyen", "_aide": "Seconde voie : présentes ensemble sur au moins 5 marchés et chacune dans au moins 50 % des marchés de l'autre (l'ancienne règle), même si l'acheteur explique la rencontre."},
+    "accompagne": 0.5,
+    "actives": 5,
+    "taille_max_famille": 12,
+    "partenaires": 30,
+    "poids": {"force": 20, "volume": 15, "hasard": 30, "contextes": 15, "hors_profil": 5, "gains": 0}
+  }
 }

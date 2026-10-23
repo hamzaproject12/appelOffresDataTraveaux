@@ -317,6 +317,56 @@
       transition-duration: .001ms !important; }
     .sq { background-image: none; }
   }
+
+  /* ================================================================ groupes v2 : en-tête, filtres, sociétés */
+  .entete-stats { margin-top: var(--e3); color: var(--texte-2); max-width: 80ch; }
+  .entete-stats strong { color: var(--texte); font-variant-numeric: tabular-nums; font-weight: 650; }
+  .glossaire { margin-top: var(--e3); max-width: 80ch; font-size: var(--t-s); }
+  .glossaire > summary { cursor: pointer; font-weight: 600; min-height: 36px; padding: 6px 0; color: var(--accent); }
+  .glossaire dl { display: grid; gap: var(--e1); margin-top: var(--e2); }
+  .glossaire dt { font-weight: 650; color: var(--texte); }
+  .glossaire dd { margin: 0 0 var(--e2); color: var(--texte-2); }
+  .filtres { display: flex; flex-wrap: wrap; gap: var(--e2); margin-bottom: var(--e4); }
+  .filtres .btn { min-height: 40px; padding: 0 var(--e3); }
+  .filtres .n { font-variant-numeric: tabular-nums; color: var(--doux); font-weight: 500; }
+  .filtres .btn[aria-pressed="true"] .n { color: var(--accent); }
+  body[data-vue="fiche"] .filtres { display: none; }
+  @media (min-width: 1100px) { body[data-vue="fiche"] .filtres { display: flex; } }
+  .puce--fort { background: var(--accent); color: var(--sur-accent); }
+  .puce--moyen { background: var(--accent-doux); color: var(--accent); }
+  .puce--faible { background: var(--neutre-doux); color: var(--neutre); }
+  .pagination { display: flex; align-items: center; justify-content: space-between; gap: var(--e2);
+    margin-top: var(--e3); font-size: var(--t-s); color: var(--doux); }
+  .pagination:empty { display: none; }
+  .trouvees { display: grid; gap: var(--e1); margin-bottom: var(--e4); }
+  .trouvees:empty { display: none; }
+  .trouvees h2 { font-size: var(--t-xs); font-weight: 650; color: var(--doux); text-transform: uppercase; letter-spacing: .03em; }
+  .soc { display: flex; justify-content: space-between; gap: var(--e2); align-items: baseline; min-height: 44px;
+    padding: var(--e2) var(--e3); background: var(--surface); border: 1px solid var(--bord); border-radius: var(--r-s);
+    color: var(--texte); text-decoration: none; text-align: left; width: 100%; }
+  .soc:hover { border-color: var(--bord-fort); background: var(--surface-2); }
+  .soc > span:first-child { font-weight: 600; overflow-wrap: anywhere; min-width: 0; }
+  .soc small { color: var(--doux); white-space: nowrap; font-size: var(--t-xs); }
+  .partenaires { display: grid; gap: var(--e3); }
+  .partenaire { border: 1px solid var(--bord); border-radius: var(--r-s); padding: var(--e3); display: grid; gap: var(--e2);
+    background: var(--surface-2); min-width: 0; }
+  .partenaire__haut { display: flex; flex-wrap: wrap; gap: var(--e1) var(--e2); align-items: center; }
+  .faits { display: grid; grid-template-columns: repeat(auto-fit, minmax(120px, 1fr)); gap: var(--e2) var(--e3); font-size: var(--t-s); }
+  .fait { display: grid; gap: 1px; min-width: 0; }
+  .fait__l { font-size: var(--t-xs); color: var(--doux); }
+  .fait__v { font-weight: 600; font-variant-numeric: tabular-nums; overflow-wrap: anywhere; }
+  .partenaire details > summary, .carte details.plie > summary { cursor: pointer; font-size: var(--t-s); font-weight: 600;
+    min-height: 36px; padding: 6px 0; }
+  .liste-preuves { display: grid; gap: 4px; font-size: var(--t-s); margin-top: var(--e1); }
+  .liste-preuves li { display: flex; flex-wrap: wrap; gap: 2px var(--e2); }
+  .ajout-resultats { display: grid; gap: var(--e1); }
+  .ajout-choisi { font-weight: 650; }
+  .formulaire { display: grid; gap: var(--e2); max-width: 70ch; }
+  .formulaire label > span { display: block; font-size: var(--t-xs); color: var(--doux); margin-bottom: 2px; }
+  .chiffres { display: grid; grid-template-columns: repeat(auto-fit, minmax(160px, 1fr)); gap: var(--e3); margin-bottom: var(--e3); }
+  .chiffre { display: grid; gap: 2px; padding: var(--e3); border-radius: var(--r-s); background: var(--surface-2); border: 1px solid var(--bord); }
+  .chiffre b { font-size: var(--t-xl); font-variant-numeric: tabular-nums; }
+  .chiffre span { font-size: var(--t-xs); color: var(--doux); }
 </style>
 </head>
 <body data-vue="liste">
@@ -347,16 +397,21 @@
 <main id="contenu" class="conteneur" tabindex="-1">
   <div class="tete-vue">
     <h1 id="titre-vue" tabindex="-1">Groupes de présence commune</h1>
-    <p>Des sociétés qui déposent souvent des offres sur les mêmes marchés. C’est un signal statistique,
-       pas une conclusion : il peut s’agir de partenaires habituels, d’un même dirigeant, d’un groupement
-       ou de concurrents qui visent les mêmes acheteurs. Votre avis sert à le dire.</p>
+    <p>Des sociétés qui déposent des offres sur les mêmes marchés plus souvent que le hasard ne le ferait. C’est un
+       signal statistique, pas une conclusion : il peut s’agir de partenaires habituels, d’un même dirigeant, d’un
+       groupement ou de concurrents qui visent les mêmes acheteurs. Votre avis sert à le dire.</p>
+    <p class="entete-stats" id="entete-stats" aria-live="polite"></p>
+    <details class="glossaire" id="glossaire">
+      <summary>Comprendre les termes</summary>
+      <dl id="glossaire-contenu"></dl>
+    </details>
   </div>
 
   <form class="recherche-ligne" role="search" onsubmit="return false">
     <label class="recherche">
-      <span class="sr">Rechercher une société par son nom</span>
+      <span class="sr">Rechercher une société par son nom, parmi toutes celles de la base</span>
       <i data-ic="recherche"></i>
-      <input class="champ" id="q" type="search" placeholder="Rechercher une société…" autocomplete="off" maxlength="100" spellcheck="false">
+      <input class="champ" id="q" type="search" placeholder="Rechercher une société (toute la base)…" autocomplete="off" maxlength="100" spellcheck="false">
     </label>
     <label class="selecteur">
       <span class="sr">Trier les familles</span>
@@ -369,17 +424,20 @@
       <i data-ic="chevron"></i>
     </label>
   </form>
+  <div class="filtres" id="filtres" role="group" aria-label="Filtrer les familles par niveau"></div>
 
   <div class="disposition">
     <section class="col-liste" aria-label="Liste des familles de groupes">
+      <div class="trouvees" id="trouvees" aria-live="polite"></div>
       <p class="resume" id="resume" aria-live="polite"></p>
       <ol class="liste" id="liste"><li><span class="sq"></span></li><li><span class="sq"></span></li><li><span class="sq"></span></li></ol>
+      <nav class="pagination" id="pagination" aria-label="Pages de la liste"></nav>
       <details class="derniers" id="derniers">
         <summary>Derniers avis, tous groupes</summary>
         <div id="derniers-contenu" class="carte" style="margin-top:8px"></div>
       </details>
     </section>
-    <section class="col-fiche" id="fiche" aria-label="Fiche de la famille ou du groupe" aria-live="polite"></section>
+    <section class="col-fiche" id="fiche" aria-label="Fiche de la famille, du groupe ou de la société" aria-live="polite"></section>
   </div>
   <p class="sr" id="annonce" role="status" aria-live="polite"></p>
 </main>
@@ -391,9 +449,13 @@ const esc = s => String(s ?? '').replace(/[&<>"']/g, c => ({ '&': '&amp;', '<': 
 const nf = new Intl.NumberFormat('fr-FR');
 const pluriel = (n, s, p) => `${nf.format(n)} ${n > 1 ? (p || s + 's') : s}`;
 const pct = (x, d = 0) => x == null ? '—' : (x * 100).toFixed(d).replace('.', ',') + ' %';
+const dec = (x, d = 1) => x == null ? '—' : x.toFixed(d).replace('.', ',');
+const pts = x => x == null ? '—' : ((x >= 0 ? '+' : '−') + Math.abs(x * 100).toFixed(1).replace('.', ',')) + ' pt';
 const dateFr = iso => iso ? iso.split('-').reverse().join('/') : '—';
 const moisFr = iso => { if (!iso) return '—'; const [a, m] = iso.split('-'); return ['janv.', 'févr.', 'mars', 'avr.', 'mai', 'juin', 'juil.', 'août', 'sept.', 'oct.', 'nov.', 'déc.'][+m - 1] + ' ' + a; };
 const dateHeure = iso => { const d = new Date(iso); return isNaN(d) ? '' : d.toLocaleString('fr-FR', { dateStyle: 'short', timeStyle: 'short' }); };
+// Le nom d'une société ouvre sa fiche de partenaires ici ; l'historique complet reste dans le tableau de bord.
+const lienFiche = (cle, nom, cls = 'lien-soc') => `<a class="${cls}" href="#s=${encodeURIComponent(cle)}" data-s="${esc(cle)}" title="Partenaires de présence de cette société">${esc(nom)}</a>`;
 const lienSociete = (cle, nom, cls = 'lien-soc') =>
   `<a class="${cls}" href="/app#/societes?fiche=${encodeURIComponent('s:' + cle)}" target="_blank" rel="noopener" title="Ouvrir la fiche de la société (nouvel onglet)">${esc(nom)}</a>`;
 
@@ -445,23 +507,61 @@ async function api(chemin, params = {}, options = {}) {
 }
 const blocErreur = (titre, texte, bouton) => `<div class="etat etat--erreur" role="alert"><h2>${esc(titre)}</h2><p>${esc(texte)}</p>${bouton || ''}</div>`;
 const erreurTexte = e => e.type === 'reseau' ? ['Connexion impossible', 'Le serveur ne répond pas. Vérifiez votre connexion, puis réessayez.']
-  : e.type === 'introuvable' ? ['Famille introuvable', 'Cette famille ou ce groupe n’existe plus : ils sont recalculés chaque semaine. Revenez à la liste.']
+  : e.type === 'introuvable' ? ['Introuvable', 'Cette famille, ce groupe ou cette société n’existe plus dans le calcul : les groupes sont recalculés chaque semaine. Revenez à la liste.']
   : ['Erreur du serveur', 'Le serveur a rencontré un problème. Réessayez dans un instant.'];
 
+// ================================================================ niveaux et vocabulaire
+const NIVEAUX = ['fort', 'moyen', 'faible', 'confirme'];
+const DEFAUT = ['fort', 'moyen', 'confirme'];
+const LIB_NIVEAU = { fort: 'Fort', moyen: 'Moyen', faible: 'Faible', confirme: 'Confirmé par un avis', 'sans niveau': 'Sans niveau' };
+const TITRE_NIVEAU = {
+  fort: 'Présence commune très au-dessus du hasard, sur assez de marchés',
+  moyen: 'Présence commune nettement au-dessus du hasard, ou présence mutuelle habituelle',
+  faible: 'Présence commune au-dessus du hasard, sur peu de marchés : affichée dans la fiche d’une société seulement',
+  confirme: 'Au moins une paire a reçu un avis « oui »',
+  'sans niveau': 'Aucun niveau statistique : retenu par un avis' };
+const puceNiveau = n => n ? `<span class="puce puce--${n === 'confirme' ? 'ok' : esc(n)}" title="${esc(TITRE_NIVEAU[n] || '')}">${esc(LIB_NIVEAU[n] || n)}</span>` : '';
+let REGLAGES = null;
+function rendreGlossaire(r) {
+  if (!r || $('#glossaire-contenu').dataset.fait) return;
+  const n = r.niveaux, m = r.mutuel, s = x => String(x).replace('.', ',');
+  $('#glossaire-contenu').innerHTML = `
+    <dt>Niveau d’un lien</dt><dd>Il dit à quel point deux sociétés se retrouvent plus souvent que le hasard ne le voudrait.
+      <b>Fort</b> : au moins ${n.fort.communs} marchés communs, ${s(n.fort.exces)} fois plus que le hasard, probabilité d’un tel écart par hasard inférieure à ${s(n.fort.p)}.
+      <b>Moyen</b> : au moins ${n.moyen.communs} marchés, ${s(n.moyen.exces)} fois plus, probabilité inférieure à ${s(n.moyen.p)} — ou une présence mutuelle habituelle (ci-dessous).
+      <b>Faible</b> : au moins ${n.faible.communs} marchés, ${s(n.faible.exces)} fois plus, probabilité inférieure à ${s(n.faible.p)} ; montré seulement dans la fiche d’une société, jamais dans un groupe, sauf si un avis « oui » le confirme.
+      Le niveau d’un groupe est celui de sa paire la moins liée.</dd>
+    <dt>Excès par rapport au hasard</dt><dd>Les marchés communs observés, divisés par ceux qu’on attendrait si chaque société gardait ses acheteurs et son nombre de marchés, mais répondait au hasard parmi les marchés de chaque acheteur. Un excès de 1 : rien de plus que le hasard. Un excès de 5 : cinq fois plus souvent ensemble.</dd>
+    <dt>Présence mutuelle habituelle</dt><dd>Au moins ${m.communs} marchés communs, et chacune présente sur au moins ${pct(m.part)} des marchés de l’autre. Elles se suivent, même si le fait de viser les mêmes acheteurs l’explique en partie.</dd>
+    <dt>« B accompagne A »</dt><dd>B dépose une offre avec A sur au moins ${pct(r.accompagne)} de ses propres marchés, même si A va souvent sans B. « Dans les deux sens » : chacune accompagne l’autre.</dd>
+    <dt>Groupe, famille</dt><dd>Un groupe réunit des sociétés toutes liées deux à deux (niveau fort ou moyen, ou avis « oui ») ; deux sociétés suffisent. Une famille rassemble les groupes qui se recoupent.</dd>
+    <dt>Permanent, occasionnel</dt><dd>Dans une famille, un membre permanent est présent dans tous ses groupes ; un occasionnel, dans certains seulement.</dd>
+    <dt>Société active</dt><dd>Une société qui a déposé une offre sur au moins ${r.actives} marchés. En dessous, il y a trop peu de marchés pour conclure.</dd>
+    <dt>Ce que ce n’est pas</dt><dd>Un signal statistique de présence commune n’est pas une conclusion sur la manière dont les offres sont préparées. Seul un avis, avec son auteur et sa source, dit si des sociétés sont liées.</dd>`;
+  $('#glossaire-contenu').dataset.fait = '1';
+}
+
 // ================================================================ état de la page, gardé dans l'adresse
-// f = identifiant (empreinte) de la famille ; g = numéro d'une clique de cette famille.
+// n = niveaux filtrés ; p = page ; f = famille ; g = groupe de cette famille ; s = société.
 const TRIS = ['score', 'marches', 'taille', 'recent'];
-let ETAT = { q: '', tri: 'score', f: null, g: null };
+let ETAT = { q: '', tri: 'score', n: DEFAUT, p: 1, f: null, g: null, s: null };
 function lireHash() {
   const sp = new URLSearchParams(location.hash.replace(/^#/, ''));
-  const f = sp.get('f'), g = sp.get('g');
+  const f = sp.get('f'), g = sp.get('g'), s = sp.get('s');
+  const n = (sp.get('n') || '').split(',').filter(x => NIVEAUX.includes(x));
   return { q: (sp.get('q') || '').slice(0, 100), tri: TRIS.includes(sp.get('tri')) ? sp.get('tri') : 'score',
-    f: /^[0-9a-f]{8,64}$/.test(f || '') ? f : null, g: /^\d+$/.test(g || '') ? +g : null };
+    n: n.length ? n : DEFAUT, p: /^\d+$/.test(sp.get('p') || '') ? Math.max(1, +sp.get('p')) : 1,
+    f: /^[0-9a-f]{8,64}$/.test(f || '') ? f : null, g: /^\d+$/.test(g || '') ? +g : null,
+    s: /^[a-z0-9]{1,200}$/.test(s || '') ? s : null };
 }
+const memeNiveaux = (a, b) => [...a].sort().join(',') === [...b].sort().join(',');
 function ecrireHash(e, mode) {
   const sp = new URLSearchParams();
   if (e.q) sp.set('q', e.q);
   if (e.tri !== 'score') sp.set('tri', e.tri);
+  if (!memeNiveaux(e.n, DEFAUT)) sp.set('n', e.n.join(','));
+  if (e.p > 1) sp.set('p', e.p);
+  if (e.s != null) sp.set('s', e.s);
   if (e.f != null) sp.set('f', e.f);
   if (e.g != null) sp.set('g', e.g);
   const h = sp.toString();
@@ -477,62 +577,82 @@ function carteFamille(f) {
   const lister = (l, k) => { const t = trier(l); return t.slice(0, k).map(m => gras.has(m.cle) ? `<b>${esc(m.nom)}</b>` : esc(m.nom)).join(', ') + (t.length > k ? ` +${t.length - k}` : ''); };
   const occ = f.occasionnels.length
     ? `<span class="g__occ">Occasionnels : ${lister(f.occasionnels, 3)}</span>` : '';
+  const niv = f.niveaux.filter(n => n !== 'sans niveau');
   return `<a class="g" href="#f=${f.id}" data-fam="${f.id}"${ETAT.f === f.id ? ' aria-current="true"' : ''}>
     <span class="g__score" role="img" aria-label="Score ${f.score} sur 100"><b>${f.score}</b><small>/100</small></span>
     <span class="g__corps"><span class="g__noms">${lister(f.permanents, 4)}</span>${occ}
-      <span class="g__meta">${pluriel(f.permanents.length, 'permanent')} · ${pluriel(f.occasionnels.length, 'occasionnel')} · ${pluriel(f.cliques.length, 'clique')} · ${pluriel(f.marches, 'marché')} · jusqu’à ${esc(moisFr(f.dernier))}</span>
-      ${puceAvis(f.avis)}</span></a>`;
+      <span class="g__meta">${pluriel(f.taille, 'société')} · ${pluriel(f.nb_cliques, 'groupe')} · ${pluriel(f.marches, 'marché')} · jusqu’à ${esc(moisFr(f.dernier))}</span>
+      <span class="puces">${niv.map(puceNiveau).join('')}${puceAvisInterne(f.avis === 'conteste' ? 'conteste' : null)}</span></span></a>`;
 }
-// une clique, dans la fiche d'une famille : les membres qui ne sont pas permanents sont en gris
+// un groupe, dans la fiche d'une famille : les membres qui ne sont pas permanents sont en gris
 function carteClique(g, f) {
   const perm = new Set(f.permanents.map(m => m.cle));
   const noms = g.membres.map(m => perm.has(m.cle) ? esc(m.nom) : `<span class="occ">${esc(m.nom)}</span>`).join(', ');
   return `<a class="g" href="#f=${f.id}&g=${g.id}" data-fam="${f.id}" data-g="${g.id}">
     <span class="g__score" role="img" aria-label="Score ${g.score} sur 100"><b>${g.score}</b><small>/100</small></span>
     <span class="g__corps"><span class="g__noms">${noms}</span>
-      <span class="g__meta">${pluriel(g.taille, 'société')} · ${pluriel(g.marches, 'marché')} · ${pluriel(g.acheteurs, 'acheteur')} · jusqu’à ${esc(moisFr(g.dernier))}</span>
-      <span class="puces">${g.id === f.meilleure_clique ? '<span class="puce puce--ok" title="Son score est celui de la famille">Meilleure clique</span>' : ''}${puceAvisInterne(g.avis)}</span></span></a>`;
+      <span class="g__meta">${pluriel(g.taille, 'société')} · ${pluriel(g.marches, 'marché')} · ${pluriel(g.acheteurs, 'acheteur')} · victoires ${pct(g.taux_victoire)} · jusqu’à ${esc(moisFr(g.dernier))}</span>
+      <span class="puces">${puceNiveau(g.niveau)}${g.id === f.meilleure_clique ? '<span class="puce" title="Son score est celui de la famille">Meilleur groupe</span>' : ''}${puceAvisInterne(g.avis)}</span></span></a>`;
 }
-function puceAvis(a) {
-  const interne = puceAvisInterne(a);
-  return interne ? `<span class="puces">${interne}</span>` : '';
-}
-// `a` est soit le détail d'une clique ({statut, oui, non, paires}), soit le statut seul d'une famille.
+// `a` est soit le détail d'un groupe ({statut, oui, non, paires}), soit le statut seul d'une famille.
 function puceAvisInterne(a) {
   if (!a) return '';
   if (typeof a === 'string') a = { statut: a };
   if (!a.statut) return '';
   const lib = a.statut === 'conteste' ? 'Contesté' : 'Confirmé';
   const titre = a.paires == null
-    ? (a.statut === 'conteste' ? 'Au moins une clique de la famille a une paire avec un « non »' : 'Aucun « non », au moins un « oui »')
+    ? (a.statut === 'conteste' ? 'Au moins un groupe de la famille a une paire avec un « non »' : 'Aucun « non », au moins un « oui »')
     : a.statut === 'conteste'
       ? `${a.non} paire(s) sur ${a.paires} avec un « non »${a.oui ? `, ${a.oui} avec un « oui »` : ''}`
       : `${a.oui} paire(s) sur ${a.paires} avec un « oui », aucun « non »`;
   return `<span class="puce ${a.statut === 'conteste' ? 'puce--attention' : 'puce--ok'}" title="${esc(titre)}">${lib}</span>`;
 }
+function rendreEntete(e) {
+  $('#entete-stats').innerHTML = e ? `<strong>${nf.format(e.actives)}</strong> sociétés actives (${e.seuil_actives} marchés ou plus), dont
+    <strong>${nf.format(e.avec_partenaire)}</strong> ont au moins un partenaire détecté — ${nf.format(e.avec_moyen_ou_fort)} de niveau moyen ou fort.` : '';
+}
+function rendreFiltres(d) {
+  const c = d.compteurs || {};
+  $('#filtres').innerHTML = NIVEAUX.map(n => `<button type="button" class="btn" data-niveau="${n}" aria-pressed="${ETAT.n.includes(n)}" title="${esc(TITRE_NIVEAU[n])}">${esc(LIB_NIVEAU[n])} <span class="n">${nf.format(c[n] || 0)}</span></button>`).join('');
+}
+function rendreTrouvees(d) {
+  const cible = $('#trouvees');
+  if (!ETAT.q) { cible.innerHTML = ''; return; }
+  const l = d.societes || [];
+  cible.innerHTML = `<h2>Sociétés (${l.length ? l.length : 'aucune'}${l.length === 20 ? ' premières' : ''})</h2>${l.length ? l.map(s => {
+    const liens = s.fort + s.moyen + s.faible;
+    return `<a class="soc" href="#s=${encodeURIComponent(s.cle)}" data-s="${esc(s.cle)}"><span>${esc(s.nom)}</span><small>${pluriel(s.marches, 'marché')} · ${liens ? pluriel(liens, 'partenaire') : 'aucun partenaire'}</small></a>`;
+  }).join('') : '<p class="doux">Aucune société de la base ne porte ce nom.</p>'}`;
+}
 function rendreListe(d) {
-  const resume = $('#resume'), liste = $('#liste');
+  const resume = $('#resume'), liste = $('#liste'), pages = $('#pagination');
   if (!d.calcul) {
-    resume.textContent = '';
-    liste.innerHTML = `<li><div class="etat"><h2>Aucun calcul disponible</h2><p>Les groupes ne sont pas encore calculés. Lancez <span class="mono">python -m copilote.recalculer groupes</span>, ou attendez le recalcul de la semaine.</p></div></li>`;
+    resume.textContent = ''; pages.innerHTML = ''; rendreEntete(null);
+    liste.innerHTML = `<li><div class="etat"><h2>Aucun calcul disponible</h2><p>Les groupes ne sont pas encore calculés avec cette version. Lancez <span class="mono">python -m copilote.recalculer groupes</span>, ou attendez le recalcul de la semaine.</p></div></li>`;
     return;
   }
+  REGLAGES = d.reglages; rendreGlossaire(d.reglages);
+  rendreEntete(d.entete); rendreFiltres(d); rendreTrouvees(d);
   const calcule = d.calcul.cree_le ? dateFr(d.calcul.cree_le.slice(0, 10)) : '';
   resume.innerHTML = ETAT.q
-    ? `<strong>${pluriel(d.total, 'famille')}</strong> contiennent « ${esc(ETAT.q)} »`
-    : `<strong>${pluriel(d.total, 'famille')}</strong> (${pluriel(d.cliques, 'clique')}) · calcul du ${calcule}`;
+    ? `<strong>${pluriel(d.total, 'famille')}</strong> contiennent l’une de ces sociétés`
+    : `<strong>${pluriel(d.total, 'famille')}</strong> pour ces niveaux · calcul du ${calcule}`;
   if (!d.total) {
     liste.innerHTML = `<li><div class="etat"><h2>Aucune famille</h2><p>${ETAT.q
-      ? 'Aucun groupe de présence commune ne contient cette société. Elle peut exister dans l’historique sans former de groupe au seuil actuel.'
-      : 'Aucun groupe n’a été trouvé dans ce calcul.'}</p></div></li>`;
+      ? 'Aucun groupe ne contient ces sociétés pour les niveaux choisis. Ouvrez la fiche d’une société ci-dessus pour voir tous ses partenaires de présence, faibles compris.'
+      : 'Aucun groupe pour ces niveaux.'}</p></div></li>`;
+    pages.innerHTML = '';
     return;
   }
   liste.innerHTML = d.familles.map(f => `<li>${carteFamille(f)}</li>`).join('');
+  pages.innerHTML = d.pages > 1 ? `<button type="button" class="btn btn--sec" data-page="${d.page - 1}"${d.page <= 1 ? ' disabled' : ''}>Précédente</button>
+    <span>Page ${nf.format(d.page)} sur ${nf.format(d.pages)}</span>
+    <button type="button" class="btn btn--sec" data-page="${d.page + 1}"${d.page >= d.pages ? ' disabled' : ''}>Suivante</button>` : '';
 }
 async function chargerListe() {
   const jeton = ++jetonListe;
   try {
-    const d = await api('/api/copilote/groupes', { q: ETAT.q, tri: ETAT.tri });
+    const d = await api('/api/copilote/groupes', { q: ETAT.q, tri: ETAT.tri, niveaux: ETAT.n.join(','), page: ETAT.p });
     if (jeton !== jetonListe) return;
     LISTE = d; rendreListe(d);
   } catch (e) {
@@ -548,8 +668,8 @@ function marquerSelection() {
   });
 }
 
-// ================================================================ fiche
-let FICHE = null, jetonFiche = 0, MARCHES_AFFICHES = 25, PAIRES_OUVERTES = null;
+// ================================================================ fiche d'un groupe
+let FICHE = null, SOCIETE = null, jetonFiche = 0, MARCHES_AFFICHES = 25, PAIRES_OUVERTES = null;
 const LIBELLE_REPONSE = { oui: 'Oui', non: 'Non', nsp: 'Je ne sais pas' };
 const PUCE_REPONSE = { oui: 'puce--ok', non: 'puce--attention', nsp: '' };
 
@@ -562,30 +682,30 @@ function anneau(score) {
     <text x="34" y="39" text-anchor="middle" font-size="19" font-weight="700">${score}</text></svg>`;
 }
 function barre(points, max) {
-  const l = Math.max(0, Math.min(100, points / max * 100));
+  const l = max > 0 ? Math.max(0, Math.min(100, points / max * 100)) : 0;
   return `<svg viewBox="0 0 100 8" preserveAspectRatio="none" aria-hidden="true"><rect width="100" height="8" rx="4" fill="var(--surface-3)"/><rect width="${l.toFixed(1)}" height="8" rx="4" fill="var(--accent)"/></svg>`;
 }
 const tauxFr = t => t == null ? '—' : (t * 100).toFixed(1).replace('.', ',') + ' %';
 const courtNom = (n, k = 24) => n.length > k ? n.slice(0, k - 1) + '…' : n;
+const fait = (l, v) => `<div class="fait"><span class="fait__l">${l}</span><span class="fait__v">${v}</span></div>`;
 
 function enteteFiche(f) {
-  const a = f.avis;
-  const noms = f.membres.map(m => lienSociete(m.cle, m.nom)).join(' · ');
+  const noms = f.membres.map(m => lienFiche(m.cle, m.nom)).join(' · ');
   return `<div class="carte"><div class="fiche-tete">${anneau(f.score)}<div style="min-width:0">
     <h2 id="titre-fiche" tabindex="-1">${noms}</h2>
-    <div class="fiche-tete__meta"><span>Clique de la famille <a class="lien-soc" href="#f=${f.famille_id}" data-retour-famille>voir la famille</a></span><span>${pluriel(f.taille, 'société')}</span>
-      <span>${pluriel(f.marches, 'marché')} (${f.marches_complet} au complet)</span>
-      <span>${esc(moisFr(f.premier))} → ${esc(moisFr(f.dernier))}</span>${puceAvis(a)}</div></div></div>
-    <p class="rappel" style="margin-top:12px">Une clique est un groupe de sociétés toutes présentes ensemble ; c’est un fait statistique, pas une accusation. Un avis « oui » retient la paire
-    au prochain recalcul, un avis « non » l’exclut.</p></div>`;
+    <div class="fiche-tete__meta"><span>Groupe de la famille <a class="lien-soc" href="#f=${f.famille_id}" data-retour-famille>voir la famille</a></span><span>${pluriel(f.taille, 'société')}</span>
+      <span>${pluriel(f.marches, 'marché')}${f.taille > 2 ? ` (${f.marches_complet} au complet)` : ''}</span>
+      <span>${esc(moisFr(f.premier))} → ${esc(moisFr(f.dernier))}</span>${puceNiveau(f.niveau)}${f.confirme ? puceNiveau('confirme') : ''}${puceAvisInterne(f.avis)}</div></div></div>
+    <p class="rappel" style="margin-top:12px">Niveau du groupe : celui de sa paire la moins liée (${esc(LIB_NIVEAU[f.niveau] || f.niveau)}). Un groupe est un fait statistique de présence commune, pas une conclusion.
+    Un avis « oui » retient la paire au prochain recalcul, un avis « non » l’exclut.</p></div>`;
 }
 function blocPourquoi(f) {
   const total = f.explication.reduce((s, c) => s + c.points, 0);
   return `<div class="carte"><h2>Pourquoi ce score : ${f.score} sur 100</h2>
-    <p class="intro">Le score additionne six critères pondérés (${total.toFixed(1).replace('.', ',')} points avant arrondi). Chaque ligne dit ce qui a été mesuré, sur combien de marchés, et comment le chiffre devient des points.</p>
+    <p class="intro">Le score additionne cinq critères pondérés (${dec(total)} points avant arrondi). Le sixième, « qui gagne », décrit le groupe sans compter : un groupe qui gagne peu n’est pas moins lié. Chaque ligne dit ce qui a été mesuré, sur combien de marchés, et comment le chiffre devient des points.</p>
     <div class="criteres">${f.explication.map(c => `<div class="critere">
       <div><div class="critere__nom">${esc(c.libelle)}</div></div>
-      <div class="critere__barre"><span class="critere__pts">${String(c.points).replace('.', ',')}</span> <span class="doux">/ ${c.max} points</span>${barre(c.points, c.max)}</div>
+      <div class="critere__barre">${c.max > 0 ? `<span class="critere__pts">${dec(c.points)}</span> <span class="doux">/ ${dec(c.max)} points</span>${barre(c.points, c.max)}` : '<span class="doux">ne compte pas</span>'}</div>
       <div class="critere__phrase">${esc(c.phrase)}<details><summary>Comment c’est calculé</summary><p>${esc(c.methode)}</p></details></div>
     </div>`).join('')}</div></div>`;
 }
@@ -593,14 +713,34 @@ function blocMembres(f) {
   return `<div class="carte"><h2>Membres</h2>
     <p class="intro">Le rôle décrit qui remporte les marchés où le groupe est présent. Le taux de victoire compare les marchés avec le groupe et sans lui (entre parenthèses, le nombre de marchés ou lots jugés).</p>
     <div class="defile"><table class="tableau"><thead><tr><th>Société</th><th>Rôle</th><th class="num">Présences</th><th class="num">Victoires avec le groupe</th><th class="num">Taux avec</th><th class="num">Taux sans</th></tr></thead><tbody>${
-      f.membres.map(m => `<tr><td data-l="Société">${lienSociete(m.cle, m.nom)}</td><td data-l="Rôle">${esc(m.role)}</td>
+      f.membres.map(m => `<tr><td data-l="Société">${lienFiche(m.cle, m.nom)}</td><td data-l="Rôle">${esc(m.role)}</td>
         <td class="num" data-l="Présences">${m.presences_groupe} / ${m.marches}</td><td class="num" data-l="Victoires avec le groupe">${m.gains_groupe}</td>
         <td class="num" data-l="Taux avec">${pct(m.taux_avec, 1)} <span class="doux">(${m.n_avec})</span></td>
         <td class="num" data-l="Taux sans">${pct(m.taux_sans, 1)} <span class="doux">(${m.n_sans})</span></td></tr>`).join('')}</tbody></table></div></div>`;
 }
+function blocVictoires(f) {
+  const v = f.victoires;
+  if (!v || !v.unites) return `<div class="carte"><h2>Quand le groupe est présent</h2><p class="doux">Aucun marché ou lot jugé (attributaire connu) parmi ses marchés communs.</p></div>`;
+  const ext = v.gagnants_exterieurs.length ? `<p class="intro" style="margin-top:8px">Sociétés extérieures qui l’emportent le plus souvent : ${v.gagnants_exterieurs.map(g => `${lienFiche(g.cle, g.nom)} (${g.fois})`).join(', ')}.</p>` : '';
+  const lignes = f.defaites.slice(0, 50).map(x => `<tr><td class="num" data-l="Date">${dateFr(x.date)}</td>
+    <td data-l="Marché"><span class="mono">${esc(x.ref)}</span>${x.lot != null ? ` <span class="doux">lot ${esc(x.lot)}</span>` : ''}<div class="doux">${esc(x.acheteur)}</div></td>
+    <td data-l="Gagnant">${lienFiche(x.gagnant.cle, x.gagnant.nom)}<div class="doux">${tauxFr(x.taux_gagnant)}</div></td>
+    <td data-l="Meilleure offre du groupe">${x.membres_ecartes ? '<span class="puce puce--attention">offres des membres écartées</span>' : x.meilleur_membre ? `${esc(x.meilleur_membre.nom)}<div class="doux">${tauxFr(x.taux_meilleur)}</div>` : '<span class="doux">—</span>'}</td>
+    <td class="num" data-l="Écart gagnant − meilleure offre du groupe">${pts(x.ecart_meilleure)}</td>
+    <td class="num" data-l="Écart gagnant − prix de référence">${pts(x.ecart_reference)}</td></tr>`).join('');
+  return `<div class="carte"><h2>Quand le groupe est présent</h2>
+    <p class="intro">Sur les marchés communs, en comptant chaque lot à part et toutes les offres déposées, écartées comprises. Taux = montant ÷ estimation ; un écart est donné en points de taux.</p>
+    <div class="chiffres">
+      <div class="chiffre"><b>${pct(v.taux)}</b><span>de victoires (${v.gagnees} sur ${pluriel(v.unites, 'marché ou lot jugé', 'marchés ou lots jugés')})</span></div>
+      <div class="chiffre"><b>${nf.format(v.perdues)}</b><span>perdus, dont ${v.perdues_ecartes} où toutes les offres des membres étaient écartées</span></div>
+      <div class="chiffre"><b>${pts(v.ecart_meilleure)}</b><span>écart médian du gagnant à la meilleure offre du groupe</span></div>
+      <div class="chiffre"><b>${pts(v.ecart_reference)}</b><span>écart médian du gagnant au prix de référence</span></div>
+    </div>${ext}
+    ${f.defaites.length ? `<details class="plie"><summary>Marchés perdus, en preuve (${f.defaites.length})</summary><div class="defile"><table class="tableau"><thead><tr><th>Date</th><th>Marché</th><th>Gagnant</th><th>Meilleure offre du groupe</th><th class="num">Écart</th><th class="num">Écart à P</th></tr></thead><tbody>${lignes}</tbody></table></div>${f.defaites.length > 50 ? '<p class="doux">Les 50 plus récents sont affichés.</p>' : ''}</details>` : ''}</div>`;
+}
 function ligneMarche(m, f) {
   const court = Object.fromEntries(f.membres.map(x => [x.cle, courtNom(x.nom)]));
-  const gagnants = m.gagnants.length ? m.gagnants.map(g => `${g.membre ? lienSociete(g.cle, g.nom, 'lien-soc') : esc(g.nom)}${g.membre ? ' <span class="puce puce--ok">membre</span>' : ''}`).join('<br>') : '<span class="doux">—</span>';
+  const gagnants = m.gagnants.length ? m.gagnants.map(g => `${g.membre ? lienFiche(g.cle, g.nom) : esc(g.nom)}${g.membre ? ' <span class="puce puce--ok">membre</span>' : ''}`).join('<br>') : '<span class="doux">—</span>';
   const offres = m.offres.length ? `<div class="offres">${m.offres.map(o => {
     const ecartee = o.statut && !['admis', 'attributaire'].includes(o.statut);
     return `<span class="${o.gagne ? 'gagne' : ''}${ecartee ? ' ecartee' : ''}">${o.gagne ? '✓ ' : ''}${esc(court[o.cle])}${o.lot != null ? ' (lot ' + esc(o.lot) + ')' : ''} : ${tauxFr(o.taux)}${ecartee ? ' <span class="doux">écartée</span>' : ''}</span>`;
@@ -613,47 +753,47 @@ function blocMarches(f) {
   const lignes = f.marches_communs.slice(0, MARCHES_AFFICHES);
   const reste = f.marches_communs.length - lignes.length;
   return `<div class="carte"><h2>Marchés communs</h2>
-    <p class="intro">Les ${pluriel(f.marches_total, 'marché')} où au moins 3 membres ont déposé une offre, du plus récent au plus ancien. Le taux d’une offre est son montant divisé par l’estimation de l’administration ; ✓ marque l’offre retenue.</p>
+    <p class="intro">Les ${pluriel(f.marches_total, 'marché')} où ${f.taille > 2 ? 'au moins 3 membres ont' : 'les deux sociétés ont'} déposé une offre, du plus récent au plus ancien. Le taux d’une offre est son montant divisé par l’estimation de l’administration ; ✓ marque l’offre retenue.</p>
     ${f.avertissement ? `<p class="avertissement" role="status">${esc(f.avertissement)}</p>` : ''}
     <div class="defile"><table class="tableau"><thead><tr><th>Date</th><th>Marché</th><th class="num">Présents</th><th>Gagnant</th><th>Offres des membres</th></tr></thead><tbody>${
       lignes.map(m => ligneMarche(m, f)).join('')}</tbody></table></div>
     ${reste > 0 ? `<div class="plus"><button type="button" class="btn" id="plus-marches">Afficher ${Math.min(25, reste)} de plus (${reste} restants)</button></div>` : ''}
     ${f.marches_total > f.marches_communs.length ? `<p class="doux" style="margin-top:8px">Seuls les ${f.marches_communs.length} marchés les plus récents sont détaillés.</p>` : ''}</div>`;
 }
-function formulaireAvis(titre, faits, data, actuel, groupe) {
+function formulaireAvis(titre, faits, data, actuel, groupe, question) {
   const dernier = actuel ? `<div class="avis__etat">Dernier avis tranché : <strong>${LIBELLE_REPONSE[actuel.reponse]}</strong>, ${esc(actuel.auteur)}, ${esc(dateHeure(actuel.date))}</div>` : '<div class="avis__etat">Aucun avis tranché.</div>';
   return `<form class="avis${groupe ? ' avis--groupe' : ''}" ${data} onsubmit="return false">
-    <div class="avis__titre">${titre}</div>${faits ? `<div class="avis__faits">${faits}</div>` : ''}
-    <p class="avis__q">${esc(FICHE.question)}</p>
+    ${titre ? `<div class="avis__titre">${titre}</div>` : ''}${faits ? `<div class="avis__faits">${faits}</div>` : ''}
+    <p class="avis__q">${esc(question)}</p>
     <div class="avis__boutons" role="group" aria-label="Votre réponse">${['oui', 'non', 'nsp'].map(r =>
       `<button type="button" class="btn" data-r="${r}"${actuel && actuel.reponse === r ? ' aria-pressed="true"' : ''}>${LIBELLE_REPONSE[r]}</button>`).join('')}</div>
     <label><span class="sr">Commentaire (facultatif)</span><input class="champ" name="commentaire" maxlength="1000" placeholder="Commentaire (facultatif) — ce que vous savez, d’où vient l’information" autocomplete="off"></label>
     ${dernier}<div class="avis__etat" data-etat role="status"></div></form>`;
 }
+const sens = p => p.part_a == null ? '' : `${esc(courtNom(p.b.nom, 30))} est présente sur ${pct(p.part_a)} des marchés de ${esc(courtNom(p.a.nom, 30))}, et inversement ${pct(p.part_b)}.`;
 function blocAvis(f) {
   const paires = f.paires.map(p => {
-    const faits = p.communs == null ? '' : `${pluriel(p.communs, 'marché')} en commun. ${esc(courtNom(p.b.nom, 30))} est présente sur ${pct(p.part_a)} des marchés de ${esc(courtNom(p.a.nom, 30))}, et inversement ${pct(p.part_b)}.`;
-    return formulaireAvis(`${lienSociete(p.a.cle, p.a.nom)} et ${lienSociete(p.b.cle, p.b.nom)}`, faits,
-      `data-a="${esc(p.a.cle)}" data-b="${esc(p.b.cle)}"`, p.avis, false);
+    const faits = p.communs == null ? 'Moins de 3 marchés en commun.' : `${pluriel(p.communs, 'marché')} en commun, excès ${dec(p.exces)} par rapport au hasard${p.niveau ? ` — niveau ${esc(LIB_NIVEAU[p.niveau].toLowerCase())}${p.mutuel ? ' (présence mutuelle habituelle)' : ''}` : ' — sans niveau'}. ${sens(p)}`;
+    return formulaireAvis(`${lienFiche(p.a.cle, p.a.nom)} et ${lienFiche(p.b.cle, p.b.nom)}`, faits,
+      `data-a="${esc(p.a.cle)}" data-b="${esc(p.b.cle)}"`, p.avis, false, f.question);
   }).join('');
   return `<div class="carte"><h2>Votre avis</h2>
     <p class="intro">Les avis sont neutres et gardent le nom de leur auteur. Cliquer sur un bouton enregistre aussitôt la réponse, avec le commentaire s’il est rempli. Le dernier avis tranché (oui / non) de chaque paire est celui qui compte.</p>
-    ${formulaireAvis('Pour tout le groupe', `Enregistre la même réponse pour les ${f.paires.length} paires.`, `data-groupe="${f.id}"`, null, true)}
+    ${f.paires.length > 1 ? formulaireAvis('Pour tout le groupe', `Enregistre la même réponse pour les ${f.paires.length} paires.`, `data-groupe="${f.id}"`, null, true, f.question) : ''}
     <details class="paires"${(PAIRES_OUVERTES ?? f.paires.length <= 3) ? ' open' : ''} style="margin-top:12px"><summary>Avis paire par paire (${f.paires.length})</summary><div class="avis-liste">${paires}</div></details></div>`;
 }
-function blocHistorique(f) {
-  const liste = f.historique;
+function blocHistorique(liste, vide) {
   return `<div class="carte"><h2>Historique des avis</h2>${liste.length ? `<ol class="historique">${liste.map(h => `<li>
     <div class="historique__haut"><strong>${esc(h.auteur)}</strong><span class="doux">${esc(dateHeure(h.date))}</span>
       <span class="puce ${PUCE_REPONSE[h.reponse]}">${LIBELLE_REPONSE[h.reponse]}</span></div>
     <div class="doux">${h.tout_le_groupe ? 'Pour tout le groupe' : h.paires.map(p => esc(p.a.nom) + ' — ' + esc(p.b.nom)).join(' ; ')}</div>
     ${h.commentaire ? `<div class="historique__com">${esc(h.commentaire)}</div>` : ''}</li>`).join('')}</ol>`
-    : '<p class="doux">Aucun avis pour ce groupe.</p>'}</div>`;
+    : `<p class="doux">${vide}</p>`}</div>`;
 }
 function rendreFiche(f) {
-  FICHE = f;
+  FICHE = f; SOCIETE = null;
   $('#fiche').innerHTML = `<div class="fiche"><a class="btn retour" href="#f=${f.famille_id}" id="retour-famille">${ic('retour', 18)}Retour à la famille</a>
-    ${enteteFiche(f)}${blocPourquoi(f)}${blocMembres(f)}${blocMarches(f)}${blocAvis(f)}${blocHistorique(f)}</div>`;
+    ${enteteFiche(f)}${blocPourquoi(f)}${blocVictoires(f)}${blocMembres(f)}${blocMarches(f)}${blocAvis(f)}${blocHistorique(f.historique, 'Aucun avis pour ce groupe.')}</div>`;
 }
 const RETOUR_LISTE = `<a class="btn retour" href="#" id="retour">${ic('retour', 18)}Toutes les familles</a>`;
 function chargement() {
@@ -662,7 +802,7 @@ function chargement() {
 }
 async function ouvrirFiche(id, { focus = true } = {}) {
   const jeton = ++jetonFiche;
-  chargement(); FAMILLE = null;
+  chargement(); FAMILLE = null; SOCIETE = null;
   try {
     const f = await api('/api/copilote/groupe/' + id);
     if (jeton !== jetonFiche) return;
@@ -682,36 +822,36 @@ let FAMILLE = null;
 function blocMembresFamille(f) {
   const n = f.cliques.length;
   const presence = cle => f.cliques.filter(c => c.membres.some(m => m.cle === cle)).length;
-  const liste = (l, avecPresence) => l.length ? `<ul>${l.map(m => `<li>${lienSociete(m.cle, m.nom)}${avecPresence
-    ? ` <span class="doux">dans ${presence(m.cle)} clique${presence(m.cle) > 1 ? 's' : ''} sur ${n}</span>` : ''}</li>`).join('')}</ul>`
+  const liste = (l, avecPresence) => l.length ? `<ul>${l.map(m => `<li>${lienFiche(m.cle, m.nom)}${avecPresence
+    ? ` <span class="doux">dans ${presence(m.cle)} groupe${presence(m.cle) > 1 ? 's' : ''} sur ${n}</span>` : ''}</li>`).join('')}</ul>`
     : '<p class="vide">Aucun.</p>';
   return `<div class="carte"><h2>Membres de la famille</h2>
-    <p class="intro">Une famille réunit des cliques qui se recoupent. Les membres permanents sont présents dans toutes ses cliques ; les occasionnels, dans certaines seulement.</p>
-    <div class="membres-famille"><div><h3>Permanents (${f.permanents.length})</h3><p class="intro">Présents dans les ${pluriel(n, 'clique')} de la famille.</p>${liste(f.permanents, false)}</div>
-    <div><h3>Occasionnels (${f.occasionnels.length})</h3><p class="intro">Présents dans une partie des cliques seulement.</p>${liste(f.occasionnels, true)}</div></div></div>`;
+    <p class="intro">Une famille réunit des groupes qui se recoupent. Les membres permanents sont présents dans tous ses groupes ; les occasionnels, dans certains seulement.</p>
+    <div class="membres-famille"><div><h3>Permanents (${f.permanents.length})</h3><p class="intro">Présents dans les ${pluriel(n, 'groupe')} de la famille.</p>${liste(f.permanents, false)}</div>
+    <div><h3>Occasionnels (${f.occasionnels.length})</h3><p class="intro">Présents dans une partie des groupes seulement.</p>${liste(f.occasionnels, true)}</div></div></div>`;
 }
 function blocCliques(f) {
-  return `<div class="carte"><h2>Cliques de la famille (${f.cliques.length})</h2>
-    <p class="intro">Dans une clique, toutes les sociétés sont mutuellement présentes ensemble sur au moins la moitié de leurs marchés. Les membres occasionnels sont en gris. Ouvrez une clique pour voir pourquoi elle a son score, ses marchés communs, et donner votre avis.</p>
+  return `<div class="carte"><h2>Groupes de la famille (${f.cliques.length})</h2>
+    <p class="intro">Dans un groupe, toutes les sociétés sont liées deux à deux (niveau fort ou moyen, ou avis « oui »). Les membres occasionnels sont en gris. Ouvrez un groupe pour voir pourquoi il a son score, qui gagne quand il est présent, ses marchés communs, et donner votre avis.</p>
     <div class="cliques">${f.cliques.map(c => carteClique(c, f)).join('')}</div></div>`;
 }
 function rendreFamille(f) {
-  FAMILLE = f; FICHE = null;
-  const noms = f.permanents.map(m => lienSociete(m.cle, m.nom)).join(' · ');
+  FAMILLE = f; FICHE = null; SOCIETE = null;
+  const noms = f.permanents.map(m => lienFiche(m.cle, m.nom)).join(' · ');
   const message = f.message ? `<p class="avertissement" role="status">${esc(f.message)}</p>` : '';
   $('#fiche').innerHTML = `<div class="fiche">${RETOUR_LISTE}${message}
     <div class="carte"><div class="fiche-tete">${anneau(f.score)}<div style="min-width:0">
       <h2 id="titre-fiche" tabindex="-1">${noms}</h2>
       <div class="fiche-tete__meta"><span>${pluriel(f.permanents.length, 'permanent')}</span><span>${pluriel(f.occasionnels.length, 'occasionnel')}</span>
-        <span>${pluriel(f.cliques.length, 'clique')}</span><span>${pluriel(f.marches, 'marché')} pour la meilleure clique</span>
-        <span>${esc(moisFr(f.premier))} → ${esc(moisFr(f.dernier))}</span>${puceAvis(f.avis)}</div></div></div>
-      <p class="rappel" style="margin-top:12px">Le score de la famille est celui de sa meilleure clique. Une famille est un fait statistique de présence commune, pas une accusation.
+        <span>${pluriel(f.cliques.length, 'groupe')}</span><span>${pluriel(f.marches, 'marché')} pour le meilleur groupe</span>
+        <span>${esc(moisFr(f.premier))} → ${esc(moisFr(f.dernier))}</span>${f.niveaux.filter(n => n !== 'sans niveau').map(puceNiveau).join('')}${puceAvisInterne(f.avis)}</div></div></div>
+      <p class="rappel" style="margin-top:12px">Le score de la famille est celui de son meilleur groupe. Une famille est un fait statistique de présence commune, pas une conclusion.
       Son identifiant (<span class="mono">${esc(f.id)}</span>) ne change que si ses membres permanents changent : le lien reste valable après chaque recalcul.</p></div>
     ${blocMembresFamille(f)}${blocCliques(f)}</div>`;
 }
 async function ouvrirFamille(id, { focus = true } = {}) {
   const jeton = ++jetonFiche;
-  chargement(); FICHE = null;
+  chargement(); FICHE = null; SOCIETE = null;
   try {
     const f = await api('/api/copilote/famille/' + id);
     if (jeton !== jetonFiche) return;
@@ -724,10 +864,116 @@ async function ouvrirFamille(id, { focus = true } = {}) {
     $('#fiche').innerHTML = `<div class="fiche">${RETOUR_LISTE}${blocErreur(t, x)}</div>`;
   }
 }
+
+// ---------------------------------------------------------------- fiche d'une société : partenaires de présence
+function sensPartenaire(p, nom) {
+  if (p.part_societe == null) return 'Moins de 3 marchés en commun : ajoutée par un avis.';
+  if (p.deux_sens) return 'Dans les deux sens : chacune accompagne l’autre.';
+  if (p.accompagne_societe) return `${esc(courtNom(p.partenaire.nom, 40))} accompagne ${esc(courtNom(nom, 40))} : elle est avec elle sur ${pct(p.part_partenaire)} de ses propres marchés.`;
+  if (p.accompagne_partenaire) return `${esc(courtNom(nom, 40))} accompagne ${esc(courtNom(p.partenaire.nom, 40))} : elle est avec elle sur ${pct(p.part_societe)} de ses propres marchés.`;
+  return 'Présence occasionnelle dans les deux sens (moins de la moitié des marchés de chacune).';
+}
+function cartePartenaire(p, s, question) {
+  const e = p.ensemble;
+  const qui = e.unites ? `${esc(courtNom(s.nom, 26))} ${e.gains_societe}, ${esc(courtNom(p.partenaire.nom, 26))} ${e.gains_partenaire}, autres ${e.gains_autres} <span class="doux">(sur ${e.unites})</span>` : '—';
+  const preuves = p.preuves.length ? `<ul class="liste-preuves">${p.preuves.map(m => `<li><span class="num-v">${dateFr(m.date)}</span><span class="mono">${esc(m.ref)}</span><span class="doux">${esc(m.acheteur)}</span>${m.gagnants.length ? `<span>gagné par ${m.gagnants.map(g => esc(courtNom(g.nom, 30))).join(', ')}</span>` : ''}</li>`).join('')}</ul>` : '<p class="doux">Aucun marché commun rangé.</p>';
+  return `<article class="partenaire">
+    <div class="partenaire__haut">${lienFiche(p.partenaire.cle, p.partenaire.nom)}${puceNiveau(p.niveau)}${p.mutuel ? '<span class="puce" title="Au moins 5 marchés communs, et chacune sur la moitié des marchés de l’autre">présence mutuelle</span>' : ''}${p.avis ? `<span class="puce ${PUCE_REPONSE[p.avis.reponse]}">avis : ${LIBELLE_REPONSE[p.avis.reponse].toLowerCase()}</span>` : ''}</div>
+    <div class="faits">
+      ${fait('Marchés communs', p.communs == null ? '—' : nf.format(p.communs))}
+      ${fait(`Part des marchés de ${esc(courtNom(s.nom, 22))}`, pct(p.part_societe))}
+      ${fait(`Part des marchés du partenaire`, pct(p.part_partenaire) + (p.partenaire.marches != null ? ` <span class="doux">(sur ${p.partenaire.marches})</span>` : ''))}
+      ${fait('Excès par rapport au hasard', p.exces == null ? '—' : `${dec(p.exces)} <span class="doux">(attendu ${dec(p.attendu)})</span>`)}
+      ${fait('Qui gagne quand ils sont ensemble', qui)}
+      ${fait('Taux de victoire de la paire', pct(e.taux_victoire))}
+    </div>
+    <div class="avis__faits">${sensPartenaire(p, s.nom)}</div>
+    <details><summary>Marchés en preuve (${p.preuves.length})</summary>${preuves}</details>
+    ${formulaireAvis('', '', `data-a="${esc(p.cle_a)}" data-b="${esc(p.cle_b)}"`, p.avis, false, question)}
+  </article>`;
+}
+function blocAjout(s) {
+  return `<div class="carte"><h2>Ajouter une société liée</h2>
+    <p class="intro">Vous savez que ${esc(s.nom)} est liée à une autre société (partenaire habituel, même dirigeant, groupement déclaré) ? Choisissez-la et dites d’où vient l’information : l’avis « oui » est enregistré à votre nom, la paire apparaît aussitôt ici et rejoint les groupes au prochain recalcul.</p>
+    <form class="formulaire" id="ajout" onsubmit="return false">
+      <label><span>Société liée</span><input class="champ" id="ajout-q" type="search" placeholder="Nom de la société…" autocomplete="off" maxlength="100"></label>
+      <div class="ajout-resultats" id="ajout-resultats" aria-live="polite"></div>
+      <div class="ajout-choisi" id="ajout-choisi"></div>
+      <label><span>D’où vient l’information (obligatoire)</span><input class="champ" id="ajout-com" maxlength="1000" placeholder="Par exemple : même gérant au registre du commerce" autocomplete="off"></label>
+      <div><button type="button" class="btn" id="ajout-envoyer" disabled>Enregistrer : ces sociétés sont liées</button></div>
+      <div class="avis__etat" id="ajout-etat" role="status"></div>
+    </form></div>`;
+}
+function rendreSociete(d) {
+  SOCIETE = d; FICHE = null; FAMILLE = null;
+  const s = d.societe;
+  const liste = d.partenaires.length ? `<div class="partenaires">${d.partenaires.map(p => cartePartenaire(p, s, d.question)).join('')}</div>`
+    : `<p class="doux">Aucun partenaire de présence au-delà du hasard parmi les ${nf.format(d.paires_examinees)} sociétés croisées au moins 3 fois.</p>`;
+  const grp = d.groupes.length ? `<div class="cliques">${d.groupes.map(g => `<a class="soc" href="#f=${g.famille}&g=${g.id}" data-fam="${g.famille}" data-g="${g.id}"><span>Groupe de ${pluriel(g.taille, 'société')} · score ${g.score}</span><small>${esc(LIB_NIVEAU[g.niveau] || g.niveau)} · ${pluriel(g.marches, 'marché')}</small></a>`).join('')}</div>`
+    : '<p class="doux">Elle ne fait partie d’aucun groupe (liens fort ou moyen, ou avis « oui »).</p>';
+  $('#fiche').innerHTML = `<div class="fiche">${RETOUR_LISTE}
+    <div class="carte"><h2 id="titre-fiche" tabindex="-1">${esc(s.nom)}</h2>
+      <div class="fiche-tete__meta"><span>${pluriel(s.marches, 'marché')} avec une offre déposée</span>
+        <span>${nf.format(s.fort)} fort · ${nf.format(s.moyen)} moyen · ${nf.format(s.faible)} faible</span><span>${pluriel(s.groupes, 'groupe')}</span>
+        <span>${lienSociete(s.cle, 'Voir son historique')}</span></div>
+      ${d.message ? `<p class="avertissement" role="status" style="margin-top:12px">${esc(d.message)}</p>` : ''}</div>
+    <div class="carte"><h2>Partenaires de présence</h2>
+      <p class="intro">Les sociétés qui déposent des offres sur les mêmes marchés plus souvent que le hasard ne le voudrait, triées par excès (jusqu’à ${d.reglages.partenaires}). Les liens faibles sont montrés ici seulement. Un partenaire de présence n’est pas forcément un associé : seul votre avis le dit.</p>
+      ${liste}</div>
+    ${blocAjout(s)}
+    <div class="carte"><h2>Groupes de la société</h2>${grp}</div>
+    ${blocHistorique(d.historique, 'Aucun avis sur cette société.')}</div>`;
+}
+async function ouvrirSociete(cle, { focus = true } = {}) {
+  const jeton = ++jetonFiche;
+  chargement(); FICHE = null; FAMILLE = null;
+  try {
+    const d = await api('/api/copilote/societe/' + encodeURIComponent(cle));
+    if (jeton !== jetonFiche) return;
+    rendreSociete(d);
+    if (focus) { window.scrollTo(0, 0); $('#titre-fiche')?.focus({ preventScroll: true }); }
+  } catch (e) {
+    if (jeton !== jetonFiche || e.type === 'session') return;
+    const [t, x] = erreurTexte(e);
+    $('#fiche').innerHTML = `<div class="fiche">${RETOUR_LISTE}${blocErreur(t, x)}</div>`;
+  }
+}
+let AJOUT = null, minuterieAjout;
+document.addEventListener('input', e => {
+  if (e.target.id === 'ajout-com') majAjout();
+  if (e.target.id !== 'ajout-q') return;
+  clearTimeout(minuterieAjout);
+  minuterieAjout = setTimeout(async () => {
+    const q = e.target.value.trim(), cible = $('#ajout-resultats');
+    if (q.length < 2) { cible.innerHTML = ''; return; }
+    try {
+      const r = await api('/api/copilote/societes', { q, limite: 8 });
+      cible.innerHTML = r.societes.filter(x => x.cle !== SOCIETE?.societe.cle).map(x => `<button type="button" class="soc" data-choix="${esc(x.cle)}" data-nom="${esc(x.nom)}"><span>${esc(x.nom)}</span><small>${pluriel(x.marches, 'marché')}</small></button>`).join('') || '<p class="doux">Aucune société de ce nom.</p>';
+    } catch (err) { if (err.type !== 'session') cible.innerHTML = '<p class="doux">Recherche impossible pour l’instant.</p>'; }
+  }, 250);
+});
+function majAjout() {
+  const b = $('#ajout-envoyer');
+  if (b) b.disabled = !(AJOUT && $('#ajout-com').value.trim());
+}
+async function envoyerAjout() {
+  const etat = $('#ajout-etat'), b = $('#ajout-envoyer');
+  b.disabled = true; etat.textContent = 'Enregistrement…';
+  try {
+    const r = await api('/api/copilote/avis', {}, { method: 'POST', headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify({ reponse: 'oui', ajout: true, cle_a: SOCIETE.societe.cle, cle_b: AJOUT.cle, commentaire: $('#ajout-com').value.trim() }) });
+    annoncer(`Lien enregistré au nom de ${r.auteur}.`);
+    AJOUT = null; await ouvrirSociete(SOCIETE.societe.cle, { focus: false });
+  } catch (e) {
+    b.disabled = false;
+    etat.textContent = e.type === 'session' ? '' : `Le lien n’a pas été enregistré : ${e.type === 'reseau' ? 'le serveur ne répond pas.' : (e.message || 'erreur du serveur.')}`;
+  }
+}
+
 function fermerFiche() {
-  jetonFiche++; FICHE = null; FAMILLE = null;
+  jetonFiche++; FICHE = null; FAMILLE = null; SOCIETE = null;
   document.body.dataset.vue = 'liste';
-  $('#fiche').innerHTML = `<div class="etat"><h2>Choisissez une famille</h2><p>Une famille réunit des cliques de sociétés qui se recoupent, avec ses membres permanents et occasionnels. Ouvrez-la pour voir ses cliques ; chaque clique montre pourquoi elle a son score, ses marchés communs, et vous laisse donner votre avis.</p></div>`;
+  $('#fiche').innerHTML = `<div class="etat"><h2>Choisissez une famille ou une société</h2><p>Une famille réunit des groupes de sociétés qui se recoupent ; ouvrez-la pour voir ses groupes. Cherchez une société, même absente des groupes, pour voir tous ses partenaires de présence et donner votre avis.</p></div>`;
 }
 
 // ================================================================ navigation
@@ -740,33 +986,52 @@ async function appliquer(nouveau) {
   const avant = ETAT;
   ETAT = nouveau;
   $('#q').value = ETAT.q; $('#tri').value = ETAT.tri;
-  const listeChangee = !LISTE || avant.q !== nouveau.q || avant.tri !== nouveau.tri;
+  const listeChangee = !LISTE || avant.q !== nouveau.q || avant.tri !== nouveau.tri || avant.p !== nouveau.p || !memeNiveaux(avant.n, nouveau.n);
   if (listeChangee) await chargerListe();
   marquerSelection();
-  if (ETAT.g != null) {
+  if (ETAT.s != null) {
+    if (!SOCIETE || SOCIETE.societe.cle !== ETAT.s) ouvrirSociete(ETAT.s); else document.body.dataset.vue = 'fiche';
+  } else if (ETAT.g != null) {
     if (!FICHE || FICHE.id !== ETAT.g) ouvrirFiche(ETAT.g); else document.body.dataset.vue = 'fiche';
   } else if (ETAT.f != null) {
     if (!FAMILLE || FAMILLE.id !== ETAT.f) ouvrirFamille(ETAT.f); else document.body.dataset.vue = 'fiche';
   } else fermerFiche();
 }
 addEventListener('popstate', () => appliquer(lireHash()));
-addEventListener('hashchange', () => { const h = lireHash(); if (h.q !== ETAT.q || h.tri !== ETAT.tri || h.f !== ETAT.f || h.g !== ETAT.g) appliquer(h); });
+addEventListener('hashchange', () => {
+  const h = lireHash();
+  if (h.q !== ETAT.q || h.tri !== ETAT.tri || h.p !== ETAT.p || !memeNiveaux(h.n, ETAT.n) || h.f !== ETAT.f || h.g !== ETAT.g || h.s !== ETAT.s) appliquer(h);
+});
 
 let minuterie;
 $('#q').addEventListener('input', e => {
   clearTimeout(minuterie);
-  minuterie = setTimeout(() => { const q = e.target.value.trim(); if (q !== ETAT.q) naviguer({ q, f: null, g: null }, 'replace'); }, 250);
+  minuterie = setTimeout(() => { const q = e.target.value.trim(); if (q !== ETAT.q) naviguer({ q, p: 1, f: null, g: null, s: null }, 'replace'); }, 250);
 });
-$('#tri').addEventListener('change', e => naviguer({ tri: e.target.value }, 'replace'));
+$('#tri').addEventListener('change', e => naviguer({ tri: e.target.value, p: 1 }, 'replace'));
 
 document.addEventListener('click', e => {
-  const a = e.target.closest('a.g');
-  if (a && !e.ctrlKey && !e.metaKey && !e.shiftKey && e.button === 0) {
-    e.preventDefault(); naviguer({ f: a.dataset.fam, g: a.dataset.g ? +a.dataset.g : null }); return;
+  const simple = !e.ctrlKey && !e.metaKey && !e.shiftKey && e.button === 0;
+  const soc = e.target.closest('a[data-s]');
+  if (soc && simple) { e.preventDefault(); naviguer({ s: soc.dataset.s, f: null, g: null }); return; }
+  const a = e.target.closest('a.g, a.soc[data-g]');
+  if (a && simple) { e.preventDefault(); naviguer({ s: null, f: a.dataset.fam, g: a.dataset.g ? +a.dataset.g : null }); return; }
+  const niv = e.target.closest('[data-niveau]');
+  if (niv) {
+    const n = niv.dataset.niveau, l = ETAT.n.includes(n) ? ETAT.n.filter(x => x !== n) : [...ETAT.n, n];
+    naviguer({ n: l.length ? l : [n], p: 1 }, 'replace'); return;
   }
-  if (e.target.closest('#retour')) { e.preventDefault(); naviguer({ f: null, g: null }); return; }
-  if (e.target.closest('#retour-famille, [data-retour-famille]')) { e.preventDefault(); naviguer({ f: FICHE.famille_id, g: null }); return; }
+  const page = e.target.closest('[data-page]');
+  if (page && !page.disabled) { naviguer({ p: +page.dataset.page }, 'replace'); $('#resume').scrollIntoView({ block: 'nearest' }); return; }
+  if (e.target.closest('#retour')) { e.preventDefault(); naviguer({ f: null, g: null, s: null }); return; }
+  if (e.target.closest('#retour-famille, [data-retour-famille]')) { e.preventDefault(); naviguer({ f: FICHE.famille_id, g: null, s: null }); return; }
   if (e.target.closest('#plus-marches')) { MARCHES_AFFICHES += 25; const y = scrollY; rendreFiche(FICHE); scrollTo(0, y); return; }
+  const choix = e.target.closest('[data-choix]');
+  if (choix) {
+    AJOUT = { cle: choix.dataset.choix, nom: choix.dataset.nom };
+    $('#ajout-choisi').textContent = 'Société choisie : ' + AJOUT.nom; $('#ajout-resultats').innerHTML = ''; majAjout(); return;
+  }
+  if (e.target.closest('#ajout-envoyer')) { envoyerAjout(); return; }
   const bouton = e.target.closest('.avis [data-r]');
   if (bouton) envoyerAvis(bouton);
 });
@@ -776,19 +1041,23 @@ async function envoyerAvis(bouton) {
   const form = bouton.closest('form'), etat = $('[data-etat]', form);
   const corps = { reponse: bouton.dataset.r, commentaire: form.elements.commentaire.value.trim() };
   if (form.dataset.groupe) corps.groupe = +form.dataset.groupe;
-  else { corps.cle_a = form.dataset.a; corps.cle_b = form.dataset.b; corps.groupe = FICHE.id; }
+  else { corps.cle_a = form.dataset.a; corps.cle_b = form.dataset.b; if (FICHE) corps.groupe = FICHE.id; }
   form.querySelectorAll('button').forEach(b => { b.disabled = true; });
   etat.textContent = 'Enregistrement…';
   try {
     const r = await api('/api/copilote/avis', {}, { method: 'POST', headers: { 'Content-Type': 'application/json' }, body: JSON.stringify(corps) });
-    const id = FICHE.id, y = scrollY;
-    const f = await api('/api/copilote/groupe/' + id);
-    if (FICHE && FICHE.id === id) {
-      rendreFiche(f); scrollTo(0, y);
-      const cible = form.dataset.groupe ? 'form[data-groupe]'
-        : `form[data-a="${CSS.escape(form.dataset.a)}"][data-b="${CSS.escape(form.dataset.b)}"]`;
-      $(`${cible} [data-r="${corps.reponse}"]`)?.focus({ preventScroll: true });
+    const y = scrollY;
+    const cible = form.dataset.groupe ? 'form[data-groupe]'
+      : `form[data-a="${CSS.escape(form.dataset.a)}"][data-b="${CSS.escape(form.dataset.b)}"]`;
+    if (FICHE) {
+      const id = FICHE.id, f = await api('/api/copilote/groupe/' + id);
+      if (FICHE && FICHE.id === id) rendreFiche(f);
+    } else if (SOCIETE) {
+      const cle = SOCIETE.societe.cle, d = await api('/api/copilote/societe/' + encodeURIComponent(cle));
+      if (SOCIETE && SOCIETE.societe.cle === cle) rendreSociete(d);
     }
+    scrollTo(0, y);
+    $(`${cible} [data-r="${corps.reponse}"]`)?.focus({ preventScroll: true });
     annoncer(`Avis enregistré au nom de ${r.auteur} (${pluriel(r.enregistres, 'paire')}).`);
     chargerListe(); if ($('#derniers').open) chargerDerniers();
   } catch (e) {

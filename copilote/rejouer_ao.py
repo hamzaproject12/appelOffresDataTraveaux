@@ -39,7 +39,7 @@ from urllib.parse import urlparse
 
 from construire_base import cle_plate, offre_de
 
-from . import bases, rejeu
+from . import bases, groupes, rejeu
 from .donnees import Unite, charger_unites, rejouer_attribution
 
 NOMBRE = 20
@@ -414,8 +414,9 @@ def commande_groupes(args) -> int:
     calc = bases.calcul()
     try:
         dates = sorted({r["date_coupure"] for r in _lignes_etat(calc)})
+        # Un calcul d'une autre version des tables ne compte pas : il sera refait (une fois par date de coupure).
         faits = {r[0] for r in calc.execute("SELECT calcul FROM groupes_calculs")} \
-            if calc.execute("SELECT 1 FROM sqlite_master WHERE name = 'groupes_calculs'").fetchone() else set()
+            if groupes.a_jour(calc) else set()
     finally:
         calc.close()
     for d in dates:

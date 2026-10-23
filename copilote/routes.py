@@ -32,6 +32,7 @@ class AvisEntree(BaseModel):
     groupe: int | None = None
     cle_a: str | None = Field(None, max_length=200)
     cle_b: str | None = Field(None, max_length=200)
+    ajout: bool = False             # « Ajouter une société liée » : oui + commentaire obligatoires
 
 
 class CorrespondanceEntree(BaseModel):
@@ -211,9 +212,27 @@ def creer_routeur(secret: bytes, base: Path | str, ao_base: Path | str) -> APIRo
         return JSONResponse({"nom": session["nom"]}, headers=SANS_CACHE)
 
     @protege.get("/api/copilote/groupes")
-    def liste_groupes(q: str = Query("", max_length=100), tri: Literal[api_groupes.TRIS] = "score"):
+    def liste_groupes(q: str = Query("", max_length=100), tri: Literal[api_groupes.TRIS] = "score",
+                      niveaux: str = Query("", max_length=60, pattern=r"^[a-z,]*$"),
+                      page: int = Query(1, ge=1, le=100_000)):
+        voulus = [n for n in niveaux.split(",") if n in api_groupes.FILTRES] or None
         with closing(bases.calcul()) as calc, closing(bases.retours()) as ret:
-            return JSONResponse(api_groupes.lister(calc, ret, q, tri), headers=SANS_CACHE)
+            return JSONResponse(api_groupes.lister(calc, ret, q, tri, voulus, page), headers=SANS_CACHE)
+
+    @protege.get("/api/copilote/societes")
+    def chercher_societes(q: str = Query("", max_length=100),
+                          limite: int = Query(api_groupes.MAX_RECHERCHE, ge=1, le=50)):
+        """Toutes les sociétés de la base (table societes), pas seulement celles d'un groupe."""
+        with closing(bases.calcul()) as calc:
+            return JSONResponse(api_groupes.chercher_societes(calc, q, limite), headers=SANS_CACHE)
+
+    @protege.get("/api/copilote/societe/{cle}")
+    def une_societe(cle: str = ParamChemin(pattern=r"^[a-z0-9]{1,200}$")):
+        with closing(bases.calcul()) as calc, closing(bases.retours()) as ret:
+            f = api_groupes.fiche_societe(calc, ret, cle)
+        if f is None:
+            raise HTTPException(404, "Société introuvable")
+        return JSONResponse(f, headers=SANS_CACHE)
 
     @protege.get("/api/copilote/famille/{empreinte}")
     def une_famille(empreinte: str = ParamChemin(pattern=r"^[0-9a-f]{8,64}$")):
@@ -241,7 +260,7 @@ def creer_routeur(secret: bytes, base: Path | str, ao_base: Path | str) -> APIRo
         try:
             with closing(bases.calcul()) as calc, closing(bases.retours()) as ret:
                 r = api_groupes.enregistrer_avis(calc, ret, session["nom"], avis.reponse, avis.commentaire,
-                                                 avis.groupe, avis.cle_a, avis.cle_b)
+                                                 avis.groupe, avis.cle_a, avis.cle_b, avis.ajout)
         except api_groupes.ErreurAvis as e:
             raise HTTPException(e.statut, str(e))
         return JSONResponse(r, headers=SANS_CACHE)

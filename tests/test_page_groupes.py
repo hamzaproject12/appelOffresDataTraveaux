@@ -1,7 +1,8 @@
-"""Étape 3 : l'API et la page /copilote/groupes.
+"""Étape 3 (groupes v2) : l'API et la page /copilote/groupes.
 
 Une base de poche de 2 groupes (a, b, c sur 10 marchés ; e, f, g sur 5), calculée pour de vrai puis
-rangée dans une copilote_calcul.db temporaire. Aucune base du dossier n'est touchée.
+rangée dans une copilote_calcul.db temporaire. Aucune base du dossier n'est touchée. La table `societes`
+de l'historique y ajoute une société sans marché (« solo ») et l'ancien nom d'une société fusionnée.
 """
 import hashlib
 import re
@@ -36,6 +37,14 @@ class Base(unittest.TestCase):
         self.dossier = tempfile.TemporaryDirectory()
         self.d = Path(self.dossier.name)
         base_de_poche(self.d / "pv_travaux.db")
+        db = sqlite3.connect(self.d / "pv_travaux.db")
+        db.executescript("CREATE TABLE societes (cle TEXT PRIMARY KEY, nom TEXT, participations INTEGER,"
+                         " gagnes INTEGER, montant REAL, acheteurs INTEGER);")
+        db.executemany("INSERT INTO societes (cle, nom) VALUES (?, ?)",
+                       [("a", "Société Alpha Travaux"), ("a2", "ALPHA ANCIEN NOM"), ("b", "B"), ("solo", "Entreprise Solo")])
+        db.commit()
+        db.close()
+        api_groupes._annuaire.clear()
         self.patchs = [mock.patch.dict("os.environ", {"COPILOTE_ACCES": CODES}),
                        mock.patch.object(config, "COPILOTE_CALCUL", self.d / "calcul.db"),
                        mock.patch.object(config, "COPILOTE_RETOURS", self.d / "retours.db")]
@@ -49,7 +58,7 @@ class Base(unittest.TestCase):
             donnees = groupes.charger(lecture, None, {"a2": "a"})
             lecture.close()
             calc = bases.calcul()
-            groupes.enregistrer(calc, groupes.detecter(donnees, 0.5, tirages=20))
+            groupes.enregistrer(calc, groupes.detecter(donnees, tirages=20))
             calc.close()
         self.alice, self.bob = self.client("code-alice"), self.client("code-bob")
 
@@ -67,9 +76,9 @@ class Base(unittest.TestCase):
         return c
 
     def cliques(self, **params):
-        """Toutes les cliques de toutes les familles de la liste."""
+        """Toutes les cliques de toutes les familles de la liste (lues famille par famille)."""
         d = self.alice.get("/api/copilote/groupes", params=params).json()
-        return [c for f in d["familles"] for c in f["cliques"]]
+        return [c for f in d["familles"] for c in self.alice.get(f"/api/copilote/famille/{f['id']}").json()["cliques"]]
 
     def groupe_abc(self):
         """L'identifiant du groupe a, b, c (le seul de 3 membres sur 10 marchés)."""
@@ -85,7 +94,8 @@ class Base(unittest.TestCase):
 
 class Acces(Base):
     ROUTES = [("GET", "/api/copilote/groupes"), ("GET", "/api/copilote/groupe/1"), ("GET", "/api/copilote/avis"),
-              ("GET", "/api/copilote/famille/0123abcd"),
+              ("GET", "/api/copilote/famille/0123abcd"), ("GET", "/api/copilote/societes?q=a"),
+              ("GET", "/api/copilote/societe/a"),
               ("GET", "/api/copilote/moi"), ("GET", "/copilote/groupes"),
               ("POST", "/api/copilote/avis")]
 
@@ -125,7 +135,8 @@ class Acces(Base):
         """test_acces.test_chaque_route_du_copilote_est_gardee les couvre : on vérifie qu'elles existent."""
         chemins = set(self.app.openapi()["paths"])
         for attendu in ("/copilote/groupes", "/api/copilote/groupes", "/api/copilote/groupe/{gid}",
-                        "/api/copilote/famille/{empreinte}", "/api/copilote/avis", "/api/copilote/moi"):
+                        "/api/copilote/famille/{empreinte}", "/api/copilote/avis", "/api/copilote/moi",
+                        "/api/copilote/societes", "/api/copilote/societe/{cle}"):
             self.assertIn(attendu, chemins)
 
 
@@ -133,14 +144,17 @@ class Liste(Base):
     def test_liste_et_tri(self):
         d = self.alice.get("/api/copilote/groupes").json()
         self.assertEqual(d["total"], 2)                       # deux familles : a, b, c et e, f, g
-        self.assertEqual(d["cliques"], 2)
         self.assertEqual(d["calcul"]["calcul"], "courant")
+        self.assertEqual((d["page"], d["pages"], d["niveaux"]), (1, 1, ["confirme", "fort", "moyen"]))
+        self.assertEqual(d["compteurs"], {"fort": 0, "moyen": 2, "faible": 0, "confirme": 0})
         scores = [f["score"] for f in d["familles"]]
         self.assertEqual(scores, sorted(scores, reverse=True))
         f = d["familles"][0]
-        self.assertEqual({"id", "numero", "score", "taille", "permanents", "occasionnels", "cliques", "marches",
-                          "avis", "premier", "dernier", "meilleure_clique"} <= set(f), True)
-        self.assertEqual({"id", "score", "taille", "membres", "marches", "acheteurs", "avis"} <= set(f["cliques"][0]), True)
+        self.assertEqual({"id", "numero", "score", "taille", "permanents", "occasionnels", "nb_cliques", "marches",
+                          "avis", "premier", "dernier", "meilleure_clique", "niveau", "niveaux"} <= set(f), True)
+        self.assertEqual(f["niveau"], "moyen")
+        c = self.cliques()[0]
+        self.assertEqual({"id", "score", "taille", "membres", "marches", "acheteurs", "avis", "niveau"} <= set(c), True)
         par_taille = self.alice.get("/api/copilote/groupes", params={"tri": "marches"}).json()["familles"]
         self.assertEqual([x["marches"] for x in par_taille], sorted([x["marches"] for x in par_taille], reverse=True))
         recent = self.alice.get("/api/copilote/groupes", params={"tri": "recent"}).json()["familles"]
@@ -148,10 +162,30 @@ class Liste(Base):
         self.assertEqual(recent[0]["premier"][:4], "2026")          # e, f, g : marchés de 2026
         self.assertEqual(self.alice.get("/api/copilote/groupes", params={"tri": "au-hasard"}).status_code, 422)
 
+    def test_filtre_par_niveau_pagination_et_entete(self):
+        fort = self.alice.get("/api/copilote/groupes", params={"niveaux": "fort"}).json()
+        self.assertEqual((fort["total"], fort["niveaux"]), (0, ["fort"]))
+        self.assertEqual(fort["compteurs"]["moyen"], 2)                      # les compteurs ignorent le filtre
+        loin = self.alice.get("/api/copilote/groupes", params={"page": 50}).json()
+        self.assertEqual((loin["page"], len(loin["familles"])), (1, 2))      # une page trop loin revient à la dernière
+        calc, ret = bases.calcul(), bases.retours()
+        try:
+            page = api_groupes.lister(calc, ret, taille=1, page=2)
+        finally:
+            calc.close()
+            ret.close()
+        self.assertEqual((page["page"], page["pages"], len(page["familles"])), (2, 2, 1))
+        e = self.alice.get("/api/copilote/groupes").json()["entete"]
+        # a, b, c, d, e, f, g et les remplissages : seules les sociétés à 5 marchés ou plus sont « actives ».
+        self.assertEqual((e["seuil_actives"], e["avec_moyen_ou_fort"]), (5, 6))
+        self.assertLessEqual(e["avec_partenaire"], e["actives"])
+        self.assertEqual(self.alice.get("/api/copilote/groupes", params={"niveaux": "Fort;--"}).status_code, 422)
+
     def test_recherche_par_nom_sans_accent_ni_casse(self):
         g = self.alice.get("/api/copilote/groupes", params={"q": "  b  "}).json()
         self.assertEqual(g["total"], 1)
         self.assertEqual(g["familles"][0]["correspond"], ["b"])
+        self.assertIn("b", [x["cle"] for x in g["societes"]])
         self.assertEqual(self.alice.get("/api/copilote/groupes", params={"q": "zzz"}).json()["total"], 0)
         self.assertEqual(api_groupes.normaliser("  Société d'Étude – n°1 "), "societe d etude n1")
 
@@ -170,11 +204,11 @@ class Famille(Base):
         self.assertEqual(re.fullmatch(r"[0-9a-f]{8}", f["id"]) is not None, True)
         self.assertEqual([m["cle"] for m in f["permanents"]], ["a", "b", "c"])
         self.assertEqual(f["occasionnels"], [])
-        self.assertEqual(f["taille"], 3)
-        self.assertEqual(len(f["cliques"]), 1)
-        self.assertEqual(f["score"], f["cliques"][0]["score"])                  # score de la meilleure clique
-        self.assertEqual(f["meilleure_clique"], f["cliques"][0]["id"])
+        self.assertEqual((f["taille"], f["nb_cliques"]), (3, 1))
         un = self.alice.get(f"/api/copilote/famille/{f['id']}").json()
+        self.assertEqual(len(un["cliques"]), 1)
+        self.assertEqual(un["score"], un["cliques"][0]["score"])                # score de la meilleure clique
+        self.assertEqual(un["meilleure_clique"], un["cliques"][0]["id"])
         self.assertEqual((un["id"], un["redirigee_depuis"], un["message"]), (f["id"], None, None))
         self.assertEqual(self.alice.get("/api/copilote/famille/0123abcd").status_code, 404)
         self.assertEqual(self.alice.get("/api/copilote/famille/pas-une-empreinte").status_code, 422)
@@ -185,14 +219,15 @@ class Famille(Base):
 
     def test_un_lien_ancien_mene_a_la_famille_qui_partage_le_plus_de_membres(self):
         ancien = self.famille_abc()["id"]
-        # Recalcul au seuil 30 % : d rejoint a, b, c, donc les permanents changent et l'empreinte aussi.
+        # Avis oui sur d : d rejoint a, b, c, donc les permanents changent et l'empreinte aussi.
         lecture = bases.historique()
         donnees = groupes.charger(lecture, None, {"a2": "a"})
         lecture.close()
         calc = bases.calcul()
-        groupes.enregistrer(calc, groupes.detecter(donnees, 0.3, tirages=20), calcul="courant")
+        oui = {("a", "d"): "oui", ("b", "d"): "oui", ("c", "d"): "oui"}
+        groupes.enregistrer(calc, groupes.detecter(donnees, oui, tirages=20), calcul="courant")
         calc.close()
-        liste = self.alice.get("/api/copilote/groupes").json()["familles"]
+        liste = self.alice.get("/api/copilote/groupes", params={"niveaux": "fort,moyen,faible,confirme"}).json()["familles"]
         self.assertEqual(sorted(sorted(m["cle"] for m in f["permanents"]) for f in liste),
                          [["a", "b", "c", "d"], ["e", "f", "g"]])
         r = self.alice.get(f"/api/copilote/famille/{ancien}").json()
@@ -253,13 +288,26 @@ class Fiche(Base):
     def test_explication_en_six_criteres_dont_la_somme_donne_le_score(self):
         f = self.alice.get(f"/api/copilote/groupe/{self.groupe_abc()}").json()
         e = f["explication"]
-        self.assertEqual([c["cle"] for c in e], list(groupes.POIDS))
-        self.assertEqual(sum(c["max"] for c in e), 100)
+        self.assertEqual([c["cle"] for c in e], list(groupes.CRITERES))
+        self.assertAlmostEqual(sum(c["max"] for c in e), 100, delta=0.5)
+        gains = next(c for c in e if c["cle"] == "gains")
+        self.assertEqual((gains["max"], gains["points"]), (0, 0))         # descriptif : sans effet sur le score
+        self.assertIn("ne compte pas", gains["phrase"])
         self.assertLessEqual(abs(sum(c["points"] for c in e) - f["score"]), 0.5 + 0.05 * len(e))
         for c in e:
             self.assertTrue(c["phrase"].strip() and c["methode"].strip())
             self.assertTrue(0 <= c["points"] <= c["max"])
         self.assertIn("10 marchés", e[1]["phrase"])
+
+    def test_victoires_et_marches_perdus_du_groupe(self):
+        f = self.alice.get(f"/api/copilote/groupe/{self.groupe_abc()}").json()
+        v = f["victoires"]
+        self.assertEqual((v["unites"], v["gagnees"], v["perdues"]), (10, 10, 0))   # a, b, c gagnent tout
+        self.assertEqual(f["defaites"], [])
+        self.assertEqual((f["niveau"], f["confirme"]), ("moyen", False))
+        ab = next(p for p in f["paires"] if (p["a"]["cle"], p["b"]["cle"]) == ("a", "b"))
+        self.assertEqual((ab["niveau"], ab["mutuel"]), ("moyen", True))
+        self.assertIsNotNone(ab["exces"])
 
     def test_groupe_inconnu(self):
         self.assertEqual(self.alice.get("/api/copilote/groupe/9999").status_code, 404)
@@ -297,7 +345,7 @@ class DesAvis(Base):
         self.assertEqual(f["avis"], {"statut": "conteste", "oui": 0, "non": 1, "paires": 3})
         liste = self.bob.get("/api/copilote/groupes").json()["familles"]
         self.assertEqual(next(f for f in liste if f["id"] == f_id)["avis"], "conteste")      # la famille l'est aussi
-        self.assertEqual(next(c for f in liste for c in f["cliques"] if c["id"] == gid)["avis"]["statut"], "conteste")
+        self.assertEqual(next(c for c in self.cliques() if c["id"] == gid)["avis"]["statut"], "conteste")
         # Le recalcul lit la même base : un « non » exclut la paire, comme dans le calcul de l'étape 2.
         retours = bases.retours()
         try:
@@ -355,7 +403,10 @@ class DesAvis(Base):
                ({"reponse": "oui"}, 422),                                          # ni paire ni groupe
                ({"reponse": "oui", "cle_a": "a"}, 422),
                ({"reponse": "oui", "cle_a": "a", "cle_b": "a"}, 422),
-               ({"reponse": "oui", "cle_a": "a", "cle_b": "zz"}, 404),             # société sans groupe
+               ({"reponse": "oui", "cle_a": "a", "cle_b": "zz"}, 404),             # société inconnue
+               ({"reponse": "oui", "cle_a": "a", "cle_b": "d", "ajout": True}, 422),      # ajout sans commentaire
+               ({"reponse": "non", "cle_a": "a", "cle_b": "d", "ajout": True, "commentaire": "x"}, 422),
+               ({"reponse": "oui", "groupe": gid, "ajout": True, "commentaire": "x"}, 422),
                ({"reponse": "oui", "cle_a": "a", "cle_b": "e", "groupe": gid}, 422),   # e n'est pas dans ce groupe
                ({"reponse": "oui", "groupe": 9999}, 404),
                ({"reponse": "oui", "groupe": gid, "commentaire": "x" * (api_groupes.MAX_COMMENTAIRE + 1)}, 422)]
@@ -383,6 +434,61 @@ class DesAvis(Base):
         finally:
             calc.close()
         self.assertNotIn("avis_groupes", tables)
+
+
+class Societes(Base):
+    @mock.patch.object(api_groupes._fusions, "charger", return_value={"a2": "a"})    # celles du calcul de poche
+    def test_toute_societe_de_la_base_est_trouvee(self, _):
+        for q, cle in (("alpha travaux", "a"), ("ancien nom", "a"), ("Entreprise SOLO", "solo"), ("r1", "r1")):
+            r = self.alice.get("/api/copilote/societes", params={"q": q}).json()
+            self.assertIn(cle, [x["cle"] for x in r["societes"]], q)
+        exact = self.alice.get("/api/copilote/societes", params={"q": "b"}).json()["societes"]
+        self.assertEqual(exact[0]["cle"], "b")                                # le nom exact passe devant
+
+    def test_fiche_societe_partenaires_par_exces_avec_preuves(self):
+        f = self.alice.get("/api/copilote/societe/a").json()
+        self.assertEqual((f["societe"]["marches"], f["assez_de_marches"], f["message"]), (16, True, None))
+        p = {x["partenaire"]["cle"]: x for x in f["partenaires"]}
+        self.assertEqual(set(p), {"b", "c"})                                  # d n'a aucun niveau
+        excès = [x["exces"] for x in f["partenaires"]]
+        self.assertEqual(excès, sorted(excès, reverse=True))
+        b = p["b"]
+        self.assertEqual((b["communs"], b["part_societe"], b["part_partenaire"]), (10, 10 / 16, 1.0))
+        self.assertEqual((b["accompagne_societe"], b["accompagne_partenaire"], b["deux_sens"]), (True, True, True))
+        self.assertEqual((b["niveau"], b["mutuel"]), ("moyen", True))
+        self.assertEqual(len(b["preuves"]), 10)
+        e = b["ensemble"]
+        self.assertEqual((e["unites"], e["gains_societe"], e["gains_partenaire"], e["gains_autres"]), (10, 6, 2, 2))
+        self.assertEqual(f["groupes"][0]["taille"], 3)
+        self.assertEqual(f["question"], api_groupes.QUESTION)
+
+    def test_peu_de_marches_pour_conclure(self):
+        f = self.alice.get("/api/copilote/societe/solo").json()
+        self.assertEqual((f["societe"]["marches"], f["assez_de_marches"], f["partenaires"]), (0, False, []))
+        self.assertIn("Pas assez de marchés pour conclure", f["message"])
+        self.assertEqual(self.alice.get("/api/copilote/societe/inconnue").status_code, 404)
+        self.assertEqual(self.alice.get("/api/copilote/societe/PAS-UNE-CLE").status_code, 422)
+
+    def test_ajouter_une_societe_liee(self):
+        r = self.avis(self.alice, reponse="oui", cle_a="a", cle_b="d", ajout=True,
+                      commentaire="Même gérant, vu sur le registre du commerce")
+        self.assertEqual(r.status_code, 200, r.text)
+        f = self.bob.get("/api/copilote/societe/d").json()
+        a = next(x for x in f["partenaires"] if x["partenaire"]["cle"] == "a")    # visible tout de suite
+        self.assertEqual((a["avis"]["reponse"], a["avis"]["auteur"], a["niveau"]), ("oui", "Alice", None))
+        self.assertEqual(f["historique"][0]["commentaire"], "Même gérant, vu sur le registre du commerce")
+        retours = bases.retours()
+        try:
+            self.assertEqual(groupes.lire_avis(retours, fusions={}), {("a", "d"): "oui"})
+        finally:
+            retours.close()
+
+    def test_la_fiche_societe_est_rapide(self):
+        import time
+        debut = time.perf_counter()
+        for _ in range(5):
+            self.assertEqual(self.alice.get("/api/copilote/societe/a").status_code, 200)
+        self.assertLess((time.perf_counter() - debut) / 5, 0.3)
 
 
 class Pages(unittest.TestCase):

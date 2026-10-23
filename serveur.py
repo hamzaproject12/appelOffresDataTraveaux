@@ -1564,4 +1564,8 @@ def erreurs(request: Request, exc: HTTPException):
         return JSONResponse({"erreur": "session"}, 401)
     if exc.status_code == 401 and exc.headers:
         return Response("Identifiant ou mot de passe incorrect.", 401, headers=exc.headers)
+    if 300 <= exc.status_code < 400 and exc.headers:
+        # Une redirection levée par une dépendance (garde du copilote) : sans son Location, le
+        # navigateur afficherait le JSON au lieu de suivre le lien.
+        return Response(status_code=exc.status_code, headers=exc.headers)
     return JSONResponse({"erreur": exc.detail}, exc.status_code)

@@ -1,0 +1,1063 @@
+{
+ "diagnostic": {
+  "societes": 11577,
+  "actives": 6625,
+  "paires_3_communs": 117304,
+  "regles": {
+   "v1 : ≥ 5 communs, ≥ 50 % dans les deux sens": {
+    "paires": 564,
+    "societes": 596,
+    "actives": 596
+   },
+   "≥ 4 communs, excès ≥ 3, p < 0,001": {
+    "paires": 10570,
+    "societes": 2765,
+    "actives": 2750
+   },
+   "≥ 3 communs, excès ≥ 3, p < 0,01": {
+    "paires": 29824,
+    "societes": 4917,
+    "actives": 4689
+   }
+  },
+  "niveaux": {
+   "fort": {
+    "seuils": {
+     "communs": 6,
+     "exces": 5,
+     "p": 0.0001
+    },
+    "tests": 28228,
+    "attendus_par_hasard": 2.8,
+    "trouves_par_la_regle": 3321,
+    "paires_a_ce_niveau": 3321,
+    "dont_presence_mutuelle_seule": 0,
+    "au_moins_ce_niveau": {
+     "paires": 3321,
+     "societes": 1261,
+     "actives": 1261
+    }
+   },
+   "moyen": {
+    "seuils": {
+     "communs": 4,
+     "exces": 3,
+     "p": 0.001
+    },
+    "tests": 65615,
+    "attendus_par_hasard": 65.6,
+    "trouves_par_la_regle": 10570,
+    "paires_a_ce_niveau": 7553,
+    "dont_presence_mutuelle_seule": 304,
+    "au_moins_ce_niveau": {
+     "paires": 10874,
+     "societes": 2997,
+     "actives": 2982
+    }
+   },
+   "faible": {
+    "seuils": {
+     "communs": 3,
+     "exces": 2,
+     "p": 0.01
+    },
+    "tests": 117304,
+    "attendus_par_hasard": 1173.0,
+    "trouves_par_la_regle": 32811,
+    "paires_a_ce_niveau": 22108,
+    "dont_presence_mutuelle_seule": 0,
+    "au_moins_ce_niveau": {
+     "paires": 32982,
+     "societes": 5067,
+     "actives": 4839
+    }
+   }
+  },
+  "mutuel_total": 564,
+  "sans_offres_ecartees": {
+   "actives": 6119,
+   "v1": {
+    "paires": 540,
+    "societes": 551,
+    "actives": 551
+   },
+   "≥ 4, ×3, p < 0,001": {
+    "paires": 9251,
+    "societes": 2446,
+    "actives": 2431
+   },
+   "≥ 3, ×3, p < 0,01": {
+    "paires": 25932,
+    "societes": 4412,
+    "actives": 4208
+   }
+  }
+ },
+ "presences": {
+  "total": 151645,
+  "matrice": 151645,
+  "admise ou attributaire": 132833,
+  "ecarte_dossier_administratif_technique": 17543,
+  "depose": 1269
+ },
+ "structure": {
+  "groupes": 5257,
+  "groupes_de_2": 2786,
+  "taille_max_groupe": 19,
+  "tailles_groupes": {
+   "2": 2786,
+   "3": 339,
+   "4": 496,
+   "5": 310,
+   "6": 209,
+   "7": 190,
+   "8": 158,
+   "9": 130,
+   "10": 119,
+   "11": 100,
+   "12": 68,
+   "13": 61,
+   "14": 73,
+   "15": 56,
+   "16": 67,
+   "17": 55,
+   "18": 35,
+   "19": 5
+  },
+  "familles": 2453,
+  "familles_plus_de_12": 352,
+  "dont_une_seule_clique": 352,
+  "tailles_familles": {
+   "2": 402,
+   "3": 347,
+   "4": 219,
+   "5": 177,
+   "6": 127,
+   "7": 126,
+   "8": 107,
+   "9": 127,
+   "10": 148,
+   "11": 145,
+   "12": 176,
+   "13": 61,
+   "14": 73,
+   "15": 56,
+   "16": 67,
+   "17": 55,
+   "18": 35,
+   "19": 5
+  },
+  "niveaux_groupes": {
+   "moyen": 4971,
+   "fort": 286
+  },
+  "scores": {
+   "mediane": 52,
+   "distribution": {
+    "0": 8,
+    "10": 57,
+    "20": 134,
+    "30": 275,
+    "40": 1559,
+    "50": 2189,
+    "60": 883,
+    "70": 141,
+    "80": 10,
+    "90": 1
+   }
+  },
+  "structure_victoires": {
+   "chef de file": 514,
+   "rotation": 1525,
+   "peu de victoires": 3218
+  },
+  "duree_s": 42.9
+ },
+ "partenaires": {
+  "actives_avec_moyen_ou_fort": 2982.0,
+  "societes_avec_moyen_ou_fort": 2997
+ },
+ "anciens": {
+  "anciens": 66,
+  "dans_un_groupe": 66,
+  "dans_une_famille": 66,
+  "meme_composition": 40,
+  "ecart_score_sans_gains": {
+   "moyen": 2.4,
+   "min": -10,
+   "max": 12
+  },
+  "par_structure": {
+   "chef de file": {
+    "groupes": 12,
+    "ecart_moyen_sans_gains": 2.2
+   },
+   "peu de victoires": {
+    "groupes": 28,
+    "ecart_moyen_sans_gains": 4.0
+   },
+   "rotation": {
+    "groupes": 26,
+    "ecart_moyen_sans_gains": 0.6
+   }
+  },
+  "lignes": [
+   {
+    "signature": "ateliersindustrielscherifien|chamalsignalisation|injazworks|laligneblanche|pintaplanamaroc",
+    "taille": 5,
+    "structure": "rotation",
+    "score_v1": 81,
+    "score_v1_sans_gains": 78,
+    "score_v2": 82,
+    "taille_v2": 6,
+    "niveau_v2": "moyen",
+    "dans_un_groupe": true,
+    "dans_une_famille": true
+   },
+   {
+    "signature": "4kinvest|rh3m|sattelecom",
+    "taille": 3,
+    "structure": "rotation",
+    "score_v1": 78,
+    "score_v1_sans_gains": 82,
+    "score_v2": 76,
+    "taille_v2": 5,
+    "niveau_v2": "moyen",
+    "dans_un_groupe": true,
+    "dans_une_famille": true
+   },
+   {
+    "signature": "moroccoenergyandmaritimewo|norvia|rabbes|sozifidestravauxdivers|tecosmaritime|travauxbatimentpublicmaroca",
+    "taille": 6,
+    "structure": "rotation",
+    "score_v1": 78,
+    "score_v1_sans_gains": 74,
+    "score_v2": 70,
+    "taille_v2": 12,
+    "niveau_v2": "moyen",
+    "dans_un_groupe": true,
+    "dans_une_famille": true
+   },
+   {
+    "signature": "forefil|gftr|sbtp",
+    "taille": 3,
+    "structure": "rotation",
+    "score_v1": 77,
+    "score_v1_sans_gains": 78,
+    "score_v2": 83,
+    "taille_v2": 3,
+    "niveau_v2": "moyen",
+    "dans_un_groupe": true,
+    "dans_une_famille": true
+   },
+   {
+    "signature": "albinaegreen|chtra|techniquegeniebat",
+    "taille": 3,
+    "structure": "chef de file",
+    "score_v1": 76,
+    "score_v1_sans_gains": 85,
+    "score_v2": 91,
+    "taille_v2": 4,
+    "niveau_v2": "moyen",
+    "dans_un_groupe": true,
+    "dans_une_famille": true
+   },
+   {
+    "signature": "babalmajd|sobenmed|tramane",
+    "taille": 3,
+    "structure": "rotation",
+    "score_v1": 76,
+    "score_v1_sans_gains": 77,
+    "score_v2": 79,
+    "taille_v2": 3,
+    "niveau_v2": "moyen",
+    "dans_un_groupe": true,
+    "dans_une_famille": true
+   },
+   {
+    "signature": "he2b|moroccoenergyandmaritimewo|norvia|rabbes|sozifidestravauxdivers|travauxbatimentpublicmaroca",
+    "taille": 6,
+    "structure": "rotation",
+    "score_v1": 73,
+    "score_v1_sans_gains": 70,
+    "score_v2": 70,
+    "taille_v2": 12,
+    "niveau_v2": "moyen",
+    "dans_un_groupe": true,
+    "dans_une_famille": true
+   },
+   {
+    "signature": "allumsadaka|anblocation|artdimprimerieetdepub|elassryfatima|mekouarahmed|mpub|protectionducentre|riyadexlent|tdtfau",
+    "taille": 9,
+    "structure": "rotation",
+    "score_v1": 73,
+    "score_v1_sans_gains": 68,
+    "score_v2": 75,
+    "taille_v2": 9,
+    "niveau_v2": "moyen",
+    "dans_un_groupe": true,
+    "dans_une_famille": true
+   },
+   {
+    "signature": "dhd|genatr|m2tb",
+    "taille": 3,
+    "structure": "chef de file",
+    "score_v1": 73,
+    "score_v1_sans_gains": 74,
+    "score_v2": 71,
+    "taille_v2": 4,
+    "niveau_v2": "moyen",
+    "dans_un_groupe": true,
+    "dans_une_famille": true
+   },
+   {
+    "signature": "khadamatcompany|leveltravsahel|saouaidlkhayr",
+    "taille": 3,
+    "structure": "rotation",
+    "score_v1": 72,
+    "score_v1_sans_gains": 76,
+    "score_v2": 77,
+    "taille_v2": 4,
+    "niveau_v2": "moyen",
+    "dans_un_groupe": true,
+    "dans_une_famille": true
+   },
+   {
+    "signature": "alfabeaute|marocinfraroutiere|medla",
+    "taille": 3,
+    "structure": "rotation",
+    "score_v1": 70,
+    "score_v1_sans_gains": 76,
+    "score_v2": 74,
+    "taille_v2": 4,
+    "niveau_v2": "moyen",
+    "dans_un_groupe": true,
+    "dans_une_famille": true
+   },
+   {
+    "signature": "boubamoutravauxdiverset|chantiersgeants|grandedesequipements",
+    "taille": 3,
+    "structure": "rotation",
+    "score_v1": 68,
+    "score_v1_sans_gains": 70,
+    "score_v2": 70,
+    "taille_v2": 6,
+    "niveau_v2": "moyen",
+    "dans_un_groupe": true,
+    "dans_une_famille": true
+   },
+   {
+    "signature": "moroccoenergyandmaritimewo|norvia|rabbes|sigmamaritimeservices|sozifidestravauxdivers|travauxbatimentpublicmaroca",
+    "taille": 6,
+    "structure": "rotation",
+    "score_v1": 68,
+    "score_v1_sans_gains": 68,
+    "score_v2": 70,
+    "taille_v2": 12,
+    "niveau_v2": "moyen",
+    "dans_un_groupe": true,
+    "dans_une_famille": true
+   },
+   {
+    "signature": "aquasubservices|he2b|moroccoenergyandmaritimewo|norvia|rabbes|sozifidestravauxdivers",
+    "taille": 6,
+    "structure": "rotation",
+    "score_v1": 67,
+    "score_v1_sans_gains": 64,
+    "score_v2": 70,
+    "taille_v2": 12,
+    "niveau_v2": "moyen",
+    "dans_un_groupe": true,
+    "dans_une_famille": true
+   },
+   {
+    "signature": "cogimaroc|compagniedetransportdemarc|edmondafrica|hntl|sociteafricainedeserviceet",
+    "taille": 5,
+    "structure": "rotation",
+    "score_v1": 67,
+    "score_v1_sans_gains": 71,
+    "score_v2": 62,
+    "taille_v2": 11,
+    "niveau_v2": "moyen",
+    "dans_un_groupe": true,
+    "dans_une_famille": true
+   },
+   {
+    "signature": "arascommultiservices|globaleconstruction|laklidatravaux",
+    "taille": 3,
+    "structure": "rotation",
+    "score_v1": 66,
+    "score_v1_sans_gains": 68,
+    "score_v2": 77,
+    "taille_v2": 3,
+    "niveau_v2": "moyen",
+    "dans_un_groupe": true,
+    "dans_une_famille": true
+   },
+   {
+    "signature": "aquasubservices|moroccoenergyandmaritimewo|norvia|rabbes|sigmamaritimeservices|sozifidestravauxdivers",
+    "taille": 6,
+    "structure": "rotation",
+    "score_v1": 66,
+    "score_v1_sans_gains": 67,
+    "score_v2": 70,
+    "taille_v2": 12,
+    "niveau_v2": "moyen",
+    "dans_un_groupe": true,
+    "dans_une_famille": true
+   },
+   {
+    "signature": "agrossar|expertiseagricoleagrobenz|hydrauagricoldeloriental",
+    "taille": 3,
+    "structure": "chef de file",
+    "score_v1": 65,
+    "score_v1_sans_gains": 75,
+    "score_v2": 71,
+    "taille_v2": 4,
+    "niveau_v2": "moyen",
+    "dans_un_groupe": true,
+    "dans_une_famille": true
+   },
+   {
+    "signature": "construllage|gsa|rioamenagement|smarkandbusiness",
+    "taille": 4,
+    "structure": "chef de file",
+    "score_v1": 64,
+    "score_v1_sans_gains": 70,
+    "score_v2": 71,
+    "taille_v2": 4,
+    "niveau_v2": "moyen",
+    "dans_un_groupe": true,
+    "dans_une_famille": true
+   },
+   {
+    "signature": "bovenfh|buildunityenterprises|northernofpublicworksanda",
+    "taille": 3,
+    "structure": "chef de file",
+    "score_v1": 63,
+    "score_v1_sans_gains": 68,
+    "score_v2": 68,
+    "taille_v2": 4,
+    "niveau_v2": "moyen",
+    "dans_un_groupe": true,
+    "dans_une_famille": true
+   },
+   {
+    "signature": "alixtravservice|companyalaouigeneral|tripoleservices",
+    "taille": 3,
+    "structure": "peu de victoires",
+    "score_v1": 63,
+    "score_v1_sans_gains": 75,
+    "score_v2": 74,
+    "taille_v2": 3,
+    "niveau_v2": "moyen",
+    "dans_un_groupe": true,
+    "dans_une_famille": true
+   },
+   {
+    "signature": "elmansourymohamed|facilitytrav|horitrav",
+    "taille": 3,
+    "structure": "chef de file",
+    "score_v1": 62,
+    "score_v1_sans_gains": 70,
+    "score_v2": 65,
+    "taille_v2": 4,
+    "niveau_v2": "moyen",
+    "dans_un_groupe": true,
+    "dans_une_famille": true
+   },
+   {
+    "signature": "adini|awrachtifrouin|ayourlogistic",
+    "taille": 3,
+    "structure": "peu de victoires",
+    "score_v1": 62,
+    "score_v1_sans_gains": 71,
+    "score_v2": 61,
+    "taille_v2": 7,
+    "niveau_v2": "moyen",
+    "dans_un_groupe": true,
+    "dans_une_famille": true
+   },
+   {
+    "signature": "elfatermenagement|goodworkstan|greensahara",
+    "taille": 3,
+    "structure": "chef de file",
+    "score_v1": 61,
+    "score_v1_sans_gains": 57,
+    "score_v2": 63,
+    "taille_v2": 3,
+    "niveau_v2": "moyen",
+    "dans_un_groupe": true,
+    "dans_une_famille": true
+   },
+   {
+    "signature": "genieruraleturbain|sudphotovolteckh|travauxdinfrastructuresdeg",
+    "taille": 3,
+    "structure": "rotation",
+    "score_v1": 60,
+    "score_v1_sans_gains": 65,
+    "score_v2": 69,
+    "taille_v2": 3,
+    "niveau_v2": "moyen",
+    "dans_un_groupe": true,
+    "dans_une_famille": true
+   },
+   {
+    "signature": "askazayali|hassanbenhssayn|khouyaaddi",
+    "taille": 3,
+    "structure": "rotation",
+    "score_v1": 59,
+    "score_v1_sans_gains": 63,
+    "score_v2": 45,
+    "taille_v2": 7,
+    "niveau_v2": "moyen",
+    "dans_un_groupe": true,
+    "dans_une_famille": true
+   },
+   {
+    "signature": "dimaouitrad|macbatiment|wimiltrav",
+    "taille": 3,
+    "structure": "chef de file",
+    "score_v1": 57,
+    "score_v1_sans_gains": 62,
+    "score_v2": 66,
+    "taille_v2": 3,
+    "niveau_v2": "moyen",
+    "dans_un_groupe": true,
+    "dans_une_famille": true
+   },
+   {
+    "signature": "negaset|sobenzaramis|zeds",
+    "taille": 3,
+    "structure": "rotation",
+    "score_v1": 57,
+    "score_v1_sans_gains": 63,
+    "score_v2": 63,
+    "taille_v2": 3,
+    "niveau_v2": "moyen",
+    "dans_un_groupe": true,
+    "dans_une_famille": true
+   },
+   {
+    "signature": "mediatgb|recoltesservices|takrantravaux",
+    "taille": 3,
+    "structure": "chef de file",
+    "score_v1": 57,
+    "score_v1_sans_gains": 49,
+    "score_v2": 60,
+    "taille_v2": 3,
+    "niveau_v2": "moyen",
+    "dans_un_groupe": true,
+    "dans_une_famille": true
+   },
+   {
+    "signature": "aquasubservices|calypsotravauxsousmarinec|moroccoenergyandmaritimewo|rabbes|sigmamaritimeservices|sozifidestravauxdivers",
+    "taille": 6,
+    "structure": "peu de victoires",
+    "score_v1": 56,
+    "score_v1_sans_gains": 61,
+    "score_v2": 70,
+    "taille_v2": 12,
+    "niveau_v2": "moyen",
+    "dans_un_groupe": true,
+    "dans_une_famille": true
+   },
+   {
+    "signature": "desvegetations|lahmidikhalid|mazgout",
+    "taille": 3,
+    "structure": "rotation",
+    "score_v1": 56,
+    "score_v1_sans_gains": 53,
+    "score_v2": 61,
+    "taille_v2": 4,
+    "niveau_v2": "moyen",
+    "dans_un_groupe": true,
+    "dans_une_famille": true
+   },
+   {
+    "signature": "hamzatfourniture|nakhlaservice|newtechsahara|sssudbusiness",
+    "taille": 4,
+    "structure": "rotation",
+    "score_v1": 55,
+    "score_v1_sans_gains": 54,
+    "score_v2": 54,
+    "taille_v2": 4,
+    "niveau_v2": "moyen",
+    "dans_un_groupe": true,
+    "dans_une_famille": true
+   },
+   {
+    "signature": "ahelbaddad|ahelbouhbous|sakiaelhamraexecutions",
+    "taille": 3,
+    "structure": "peu de victoires",
+    "score_v1": 54,
+    "score_v1_sans_gains": 64,
+    "score_v2": 69,
+    "taille_v2": 3,
+    "niveau_v2": "moyen",
+    "dans_un_groupe": true,
+    "dans_une_famille": true
+   },
+   {
+    "signature": "manarhbusinessarespon|qomagri|yazanoworks",
+    "taille": 3,
+    "structure": "chef de file",
+    "score_v1": 54,
+    "score_v1_sans_gains": 47,
+    "score_v2": 52,
+    "taille_v2": 3,
+    "niveau_v2": "moyen",
+    "dans_un_groupe": true,
+    "dans_une_famille": true
+   },
+   {
+    "signature": "alytravaux|sobenzaramis|zeds",
+    "taille": 3,
+    "structure": "rotation",
+    "score_v1": 53,
+    "score_v1_sans_gains": 58,
+    "score_v2": 64,
+    "taille_v2": 3,
+    "niveau_v2": "moyen",
+    "dans_un_groupe": true,
+    "dans_une_famille": true
+   },
+   {
+    "signature": "askazayali|hassanbenhssayn|iaamarziadtravaux",
+    "taille": 3,
+    "structure": "rotation",
+    "score_v1": 53,
+    "score_v1_sans_gains": 58,
+    "score_v2": 47,
+    "taille_v2": 9,
+    "niveau_v2": "moyen",
+    "dans_un_groupe": true,
+    "dans_une_famille": true
+   },
+   {
+    "signature": "alytravaux|lamlihtrav|zeds",
+    "taille": 3,
+    "structure": "rotation",
+    "score_v1": 51,
+    "score_v1_sans_gains": 55,
+    "score_v2": 59,
+    "taille_v2": 3,
+    "niveau_v2": "moyen",
+    "dans_un_groupe": true,
+    "dans_une_famille": true
+   },
+   {
+    "signature": "genatr|m2tb|renomid",
+    "taille": 3,
+    "structure": "peu de victoires",
+    "score_v1": 50,
+    "score_v1_sans_gains": 56,
+    "score_v2": 79,
+    "taille_v2": 5,
+    "niveau_v2": "fort",
+    "dans_un_groupe": true,
+    "dans_une_famille": true
+   },
+   {
+    "signature": "biranzarenclean|exiroud|osd|puertonegro",
+    "taille": 4,
+    "structure": "peu de victoires",
+    "score_v1": 49,
+    "score_v1_sans_gains": 55,
+    "score_v2": 62,
+    "taille_v2": 4,
+    "niveau_v2": "moyen",
+    "dans_un_groupe": true,
+    "dans_une_famille": true
+   },
+   {
+    "signature": "diyanadak|holdingzien|s2maroc",
+    "taille": 3,
+    "structure": "rotation",
+    "score_v1": 48,
+    "score_v1_sans_gains": 42,
+    "score_v2": 47,
+    "taille_v2": 3,
+    "niveau_v2": "moyen",
+    "dans_un_groupe": true,
+    "dans_une_famille": true
+   },
+   {
+    "signature": "boutasouframultiservices|naytatravauxdivers|tanialigtravaux",
+    "taille": 3,
+    "structure": "peu de victoires",
+    "score_v1": 48,
+    "score_v1_sans_gains": 51,
+    "score_v2": 54,
+    "taille_v2": 3,
+    "niveau_v2": "moyen",
+    "dans_un_groupe": true,
+    "dans_une_famille": true
+   },
+   {
+    "signature": "abidhil|britodal|silmano",
+    "taille": 3,
+    "structure": "peu de victoires",
+    "score_v1": 47,
+    "score_v1_sans_gains": 56,
+    "score_v2": 55,
+    "taille_v2": 4,
+    "niveau_v2": "moyen",
+    "dans_un_groupe": true,
+    "dans_une_famille": true
+   },
+   {
+    "signature": "ahelbouhbous|ahlaabditrav|sakiaelhamraexecutions",
+    "taille": 3,
+    "structure": "peu de victoires",
+    "score_v1": 46,
+    "score_v1_sans_gains": 50,
+    "score_v2": 59,
+    "taille_v2": 3,
+    "niveau_v2": "moyen",
+    "dans_un_groupe": true,
+    "dans_une_famille": true
+   },
+   {
+    "signature": "laamartilakhlili|plantmed|smplant|yasplan",
+    "taille": 4,
+    "structure": "peu de victoires",
+    "score_v1": 45,
+    "score_v1_sans_gains": 53,
+    "score_v2": 59,
+    "taille_v2": 12,
+    "niveau_v2": "moyen",
+    "dans_un_groupe": true,
+    "dans_une_famille": true
+   },
+   {
+    "signature": "areejfourni|boutrabu|hamzatfourniture|imriklidexportationetd|nakhlaservice|sssudbusiness|younabib",
+    "taille": 7,
+    "structure": "rotation",
+    "score_v1": 44,
+    "score_v1_sans_gains": 44,
+    "score_v2": 51,
+    "taille_v2": 7,
+    "niveau_v2": "moyen",
+    "dans_un_groupe": true,
+    "dans_une_famille": true
+   },
+   {
+    "signature": "m2tb|renomid|yrbuilding",
+    "taille": 3,
+    "structure": "chef de file",
+    "score_v1": 44,
+    "score_v1_sans_gains": 46,
+    "score_v2": 79,
+    "taille_v2": 5,
+    "niveau_v2": "fort",
+    "dans_un_groupe": true,
+    "dans_une_famille": true
+   },
+   {
+    "signature": "dimpictrav|tigtra|workshopvrd",
+    "taille": 3,
+    "structure": "peu de victoires",
+    "score_v1": 43,
+    "score_v1_sans_gains": 49,
+    "score_v2": 53,
+    "taille_v2": 3,
+    "niveau_v2": "moyen",
+    "dans_un_groupe": true,
+    "dans_une_famille": true
+   },
+   {
+    "signature": "gresadivers|miladsahara|versaworksconstruction",
+    "taille": 3,
+    "structure": "peu de victoires",
+    "score_v1": 43,
+    "score_v1_sans_gains": 39,
+    "score_v2": 44,
+    "taille_v2": 3,
+    "niveau_v2": "moyen",
+    "dans_un_groupe": true,
+    "dans_une_famille": true
+   },
+   {
+    "signature": "bagetra|investevo|kizageniecivile|stp3s",
+    "taille": 4,
+    "structure": "peu de victoires",
+    "score_v1": 42,
+    "score_v1_sans_gains": 38,
+    "score_v2": 48,
+    "taille_v2": 4,
+    "niveau_v2": "moyen",
+    "dans_un_groupe": true,
+    "dans_une_famille": true
+   },
+   {
+    "signature": "elkaraouyinete|imayosnegoce|mabazservices|tet|tetlaytrading|tetsoulservices",
+    "taille": 6,
+    "structure": "rotation",
+    "score_v1": 42,
+    "score_v1_sans_gains": 32,
+    "score_v2": 32,
+    "taille_v2": 6,
+    "niveau_v2": "moyen",
+    "dans_un_groupe": true,
+    "dans_une_famille": true
+   },
+   {
+    "signature": "amalamezrou|axeinfratech|ennakhilbtp",
+    "taille": 3,
+    "structure": "chef de file",
+    "score_v1": 41,
+    "score_v1_sans_gains": 41,
+    "score_v2": 45,
+    "taille_v2": 3,
+    "niveau_v2": "moyen",
+    "dans_un_groupe": true,
+    "dans_une_famille": true
+   },
+   {
+    "signature": "areejfourni|boutrabu|imriklidexportationetd|msktrading|nakhlaservice|younabib",
+    "taille": 6,
+    "structure": "peu de victoires",
+    "score_v1": 39,
+    "score_v1_sans_gains": 41,
+    "score_v2": 50,
+    "taille_v2": 6,
+    "niveau_v2": "moyen",
+    "dans_un_groupe": true,
+    "dans_une_famille": true
+   },
+   {
+    "signature": "firstsudservices|imriklidexportationetd|msktrading|younabib",
+    "taille": 4,
+    "structure": "peu de victoires",
+    "score_v1": 39,
+    "score_v1_sans_gains": 45,
+    "score_v2": 52,
+    "taille_v2": 4,
+    "niveau_v2": "moyen",
+    "dans_un_groupe": true,
+    "dans_une_famille": true
+   },
+   {
+    "signature": "ahlsouilmnegoce|daylol|sersoluciontravaux",
+    "taille": 3,
+    "structure": "peu de victoires",
+    "score_v1": 39,
+    "score_v1_sans_gains": 40,
+    "score_v2": 46,
+    "taille_v2": 3,
+    "niveau_v2": "moyen",
+    "dans_un_groupe": true,
+    "dans_une_famille": true
+   },
+   {
+    "signature": "bazamegaservices|daylol|sersoluciontravaux",
+    "taille": 3,
+    "structure": "peu de victoires",
+    "score_v1": 38,
+    "score_v1_sans_gains": 45,
+    "score_v2": 51,
+    "taille_v2": 3,
+    "niveau_v2": "moyen",
+    "dans_un_groupe": true,
+    "dans_une_famille": true
+   },
+   {
+    "signature": "bitconnect|imriklidexportationetd|sotarim|younabib",
+    "taille": 4,
+    "structure": "peu de victoires",
+    "score_v1": 35,
+    "score_v1_sans_gains": 42,
+    "score_v2": 49,
+    "taille_v2": 4,
+    "niveau_v2": "moyen",
+    "dans_un_groupe": true,
+    "dans_une_famille": true
+   },
+   {
+    "signature": "bricouagglo|guerracyoutravaux|mbbtp",
+    "taille": 3,
+    "structure": "peu de victoires",
+    "score_v1": 34,
+    "score_v1_sans_gains": 35,
+    "score_v2": 38,
+    "taille_v2": 3,
+    "niveau_v2": "moyen",
+    "dans_un_groupe": true,
+    "dans_une_famille": true
+   },
+   {
+    "signature": "brycsonconstruct|safmbusiness|yougardtrad",
+    "taille": 3,
+    "structure": "peu de victoires",
+    "score_v1": 33,
+    "score_v1_sans_gains": 39,
+    "score_v2": 32,
+    "taille_v2": 5,
+    "niveau_v2": "moyen",
+    "dans_un_groupe": true,
+    "dans_une_famille": true
+   },
+   {
+    "signature": "ahlaabditrav|ahlaramservices|cobayrta",
+    "taille": 3,
+    "structure": "peu de victoires",
+    "score_v1": 32,
+    "score_v1_sans_gains": 38,
+    "score_v2": 43,
+    "taille_v2": 3,
+    "niveau_v2": "moyen",
+    "dans_un_groupe": true,
+    "dans_une_famille": true
+   },
+   {
+    "signature": "diyanadak|holdingzien|osd",
+    "taille": 3,
+    "structure": "peu de victoires",
+    "score_v1": 30,
+    "score_v1_sans_gains": 26,
+    "score_v2": 28,
+    "taille_v2": 3,
+    "niveau_v2": "moyen",
+    "dans_un_groupe": true,
+    "dans_une_famille": true
+   },
+   {
+    "signature": "hnbm|oulijatlas|reformasetdesign",
+    "taille": 3,
+    "structure": "peu de victoires",
+    "score_v1": 29,
+    "score_v1_sans_gains": 30,
+    "score_v2": 34,
+    "taille_v2": 3,
+    "niveau_v2": "moyen",
+    "dans_un_groupe": true,
+    "dans_une_famille": true
+   },
+   {
+    "signature": "ahlaabditrav|ahlaramservices|sakiaelhamraexecutions",
+    "taille": 3,
+    "structure": "peu de victoires",
+    "score_v1": 28,
+    "score_v1_sans_gains": 33,
+    "score_v2": 43,
+    "taille_v2": 3,
+    "niveau_v2": "moyen",
+    "dans_un_groupe": true,
+    "dans_une_famille": true
+   },
+   {
+    "signature": "fiyars|golenamenagement|marocainedeschantier|sotarc",
+    "taille": 4,
+    "structure": "peu de victoires",
+    "score_v1": 21,
+    "score_v1_sans_gains": 20,
+    "score_v2": 27,
+    "taille_v2": 4,
+    "niveau_v2": "moyen",
+    "dans_un_groupe": true,
+    "dans_une_famille": true
+   },
+   {
+    "signature": "fiyars|golenamenagement|nouvelletravauxequipemen|sotarc",
+    "taille": 4,
+    "structure": "peu de victoires",
+    "score_v1": 20,
+    "score_v1_sans_gains": 20,
+    "score_v2": 27,
+    "taille_v2": 4,
+    "niveau_v2": "moyen",
+    "dans_un_groupe": true,
+    "dans_une_famille": true
+   },
+   {
+    "signature": "grcflineconx|ryadmajestic|sozarma|yousnegoce",
+    "taille": 4,
+    "structure": "peu de victoires",
+    "score_v1": 17,
+    "score_v1_sans_gains": 20,
+    "score_v2": 28,
+    "taille_v2": 4,
+    "niveau_v2": "moyen",
+    "dans_un_groupe": true,
+    "dans_une_famille": true
+   },
+   {
+    "signature": "malideco|mhyconduitbtp|polydomax|solargis|tght",
+    "taille": 5,
+    "structure": "peu de victoires",
+    "score_v1": 15,
+    "score_v1_sans_gains": 18,
+    "score_v2": 22,
+    "taille_v2": 5,
+    "niveau_v2": "moyen",
+    "dans_un_groupe": true,
+    "dans_une_famille": true
+   }
+  ]
+ },
+ "stabilite": {
+  "jusqua": "2025-12-31",
+  "paires": {
+   "fort": {
+    "paires_jugees": 1045,
+    "retrouvees_2026": 0.818,
+    "au_moins_2_communs": 0.66,
+    "exces_2026_global": 4.03,
+    "communs_2026": 4048,
+    "attendus_2026": 1003.3
+   },
+   "moyen": {
+    "paires_jugees": 2688,
+    "retrouvees_2026": 0.678,
+    "au_moins_2_communs": 0.499,
+    "exces_2026_global": 2.92,
+    "communs_2026": 7841,
+    "attendus_2026": 2689.3
+   },
+   "faible": {
+    "paires_jugees": 7589,
+    "retrouvees_2026": 0.507,
+    "au_moins_2_communs": 0.314,
+    "exces_2026_global": 2.36,
+    "communs_2026": 12407,
+    "attendus_2026": 5253.8
+   },
+   "sans niveau": {
+    "paires_jugees": 37833,
+    "retrouvees_2026": 0.452,
+    "au_moins_2_communs": 0.25,
+    "exces_2026_global": 1.75,
+    "communs_2026": 45524,
+    "attendus_2026": 26040.7
+   }
+  },
+  "duree_s": 13.9
+ },
+ "temps": {
+  "fiche_societe_ms": {
+   "mesures": 220,
+   "mediane": 8.8,
+   "p95": 29.3,
+   "max": 36.7
+  },
+  "fiche_groupe_plus_grands_ms": 130.1,
+  "liste_ms": 59.8,
+  "liste_recherche_ms": 125.4
+ },
+ "recherche": {
+  "societes": 11631,
+  "trouvees": 11631,
+  "manquees": []
+ },
+ "vocabulaire": {
+  "mots_trouves": []
+ },
+ "feu_vert": {
+  "partenaires ≥ 1 500 sociétés actives (moyen ou fort)": 1.0,
+  "66 anciens groupes retrouvés": true,
+  "toute société trouvée par la recherche": true,
+  "fiche société < 300 ms": true,
+  "aucun mot accusateur": true
+ }
+}

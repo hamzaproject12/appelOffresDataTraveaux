@@ -74,6 +74,61 @@ class Integration(unittest.TestCase):
             self.assertEqual(bases.cle_acheteur(nom), serveur.cle_acheteur(nom), nom)
 
 
+class Redirections(unittest.TestCase):
+    """Toutes les redirections du site, par l'application complète : le gestionnaire d'erreurs de
+    serveur.py doit laisser passer le Location (en production, /copilote/groupes affichait du JSON)."""
+
+    def va(self, r, code: int, cible: str):
+        self.assertEqual(r.status_code, code, r.text)
+        self.assertEqual(r.headers.get("location"), cible)
+        self.assertNotIn("erreur", r.text)
+
+    def test_accueil_entrer_deconnexion(self):
+        client = TestClient(serveur.app, follow_redirects=False)
+        with mock.patch.object(serveur, "PROBLEME", ""):          # la base d'essai est vide
+            self.assertEqual(client.get("/").status_code, 200)
+        self.va(client.post("/entrer", data={"nom": "x"}), 302, "/?erreur=Merci+d%27indiquer+votre+nom.")
+        r = client.post("/entrer", data={"nom": "Visiteur d'essai"})
+        self.va(r, 302, serveur.ACCUEIL_CONNECTE)
+        self.assertIn("pv=", r.headers.get("set-cookie", ""))
+        with mock.patch.object(serveur, "PROBLEME", ""):
+            self.va(client.get("/"), 302, serveur.ACCUEIL_CONNECTE)
+        self.va(client.get("/deconnexion"), 302, "/")
+
+    def test_pages_sans_cookie_renvoient_a_l_accueil(self):
+        client = TestClient(serveur.app, follow_redirects=False)
+        for chemin in ("/app", "/ao-ouverts", "/copilote", "/copilote/groupes", "/copilote/entrer"):
+            self.va(client.get(chemin), 302, "/")
+
+    def test_copilote_renvoie_au_formulaire_de_code(self):
+        client = TestClient(serveur.app, follow_redirects=False)
+        client.post("/entrer", data={"nom": "Visiteur d'essai"})
+        for chemin in ("/copilote", "/copilote/groupes"):
+            self.va(client.get(chemin), 302, "/copilote/entrer")
+        self.assertEqual(client.get("/copilote/entrer").status_code, 200)
+        self.va(client.post("/copilote/entrer", data={"code": "faux"}), 303, "/copilote/entrer?e=1")
+        self.va(client.post("/copilote/entrer", data={"code": "code-alice"}), 303, "/copilote")
+        self.va(client.get("/copilote/entrer"), 302, "/copilote")
+        self.assertEqual(client.get("/copilote/groupes").status_code, 200)
+        self.assertEqual(client.get("/api/copilote/etat").status_code, 200)
+
+    def test_administration(self):
+        client = TestClient(serveur.app, follow_redirects=False)
+        with mock.patch.object(serveur, "ADMIN_MOTDEPASSE", "mdp-essai"):
+            self.va(client.get("/admin/journal.csv"), 302, "/admin")
+            self.va(client.post("/admin/entrer", data={"motdepasse": "faux"}), 302, "/admin?e=1")
+            r = client.post("/admin/entrer", data={"motdepasse": "mdp-essai"})
+            self.va(r, 302, "/admin")
+            self.assertIn("adm=", r.headers.get("set-cookie", ""))
+            self.assertEqual(client.get("/admin").status_code, 200)
+            self.va(client.get("/admin/sortir"), 302, "/admin")
+
+    def test_l_api_garde_ses_reponses_json(self):
+        client = TestClient(serveur.app, follow_redirects=False)
+        r = client.get("/api/copilote/etat")
+        self.assertEqual((r.status_code, r.json()), (401, {"erreur": "Accès au copilote requis"}))
+
+
 class RejeuContrat(unittest.TestCase):
     """Les annonces rejouées sont acceptées telles quelles par le vrai POST /api/v1/appels_ouverts."""
 

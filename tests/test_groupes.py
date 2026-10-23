@@ -7,7 +7,7 @@ from pathlib import Path
 from unittest import mock
 
 import planificateur
-from copilote import bases, config, fusions, groupes, recalculer
+from copilote import bases, config, fusions, groupes, recalculer, reglages
 from copilote.regions import region_de
 from tests import outils
 
@@ -73,34 +73,57 @@ class Groupes(unittest.TestCase):
         self.assertIn("a2", sans.societes)
         self.assertEqual(int(sans.X[sans.index["a"]].sum()), 15)
 
-    def test_presence_mutuelle_et_seuil(self):
+    def test_niveaux_et_presence_mutuelle(self):
         d = self.donnees()
-        p = {(x.a, x.b): x for x in groupes.paires(d, 0.5)}
-        self.assertEqual((p[("a", "b")].communs, p[("a", "b")].part_a, p[("a", "b")].part_b),
-                         (10, 10 / 16, 1.0))
-        self.assertFalse(p[("a", "d")].retenue)                  # 6/16 sous 50 %
-        self.assertFalse(p[("b", "d")].retenue)                  # 6/10 mais 6/14
-        self.assertEqual(self.membres(groupes.detecter(d, 0.5, tirages=20)), [["a", "b", "c"], ["e", "f", "g"]])
-        self.assertIn(["a", "b", "c", "d"], self.membres(groupes.detecter(d, 0.3, tirages=20)))
-        self.assertEqual(self.membres(groupes.detecter(d, 0.7, tirages=20)), [["e", "f", "g"]])
+        p = {(x.a, x.b): x for x in groupes.paires(d)}
+        ab = p[("a", "b")]
+        self.assertEqual((ab.communs, ab.part_a, ab.part_b), (10, 10 / 16, 1.0))
+        # Trois acheteurs pour tout le monde : le hasard explique l'essentiel (excès < 2), mais a et b
+        # se suivent dans les deux sens sur 10 marchés — la seconde voie leur donne le niveau moyen.
+        self.assertLess(ab.exces, 2)
+        self.assertEqual((ab.mutuel, ab.niveau, ab.retenue), (True, "moyen", True))
+        self.assertFalse(p[("a", "d")].retenue)                  # 6/16 et 6/14 : ni excès ni présence mutuelle
+        self.assertFalse(p[("b", "d")].retenue)
+        self.assertEqual(self.membres(groupes.detecter(d, tirages=20)), [["a", "b", "c"], ["e", "f", "g"]])
+        # Sans la seconde voie, il ne reste que l'excès : e, f, g (5 marchés en 2026) n'ont qu'un lien faible.
+        r = reglages.charger()
+        r["groupes"]["mutuel"]["communs"] = 999
+        sans = {(x.a, x.b): x for x in groupes.paires(d, reglages=r)}
+        self.assertEqual((sans[("e", "f")].niveau, sans[("a", "b")].niveau), ("faible", None))
+        self.assertEqual(self.membres(groupes.detecter(d, tirages=20, reglages=r)), [])
 
     def test_avis_oui_retient_sous_le_seuil_et_non_exclut(self):
         d = self.donnees()
-        p = {(x.a, x.b): x for x in groupes.paires(d, 0.5, {("a", "d"): "oui"})}
+        p = {(x.a, x.b): x for x in groupes.paires(d, {("a", "d"): "oui"})}
         self.assertEqual((p[("a", "d")].retenue, p[("a", "d")].origine), (True, "avis oui"))
         oui = {("a", "d"): "oui", ("b", "d"): "oui", ("c", "d"): "oui"}
-        self.assertIn(["a", "b", "c", "d"], self.membres(groupes.detecter(d, 0.5, oui, tirages=20)))
-        r = groupes.detecter(d, 0.5, {("a", "b"): "non"}, tirages=20)
-        self.assertEqual(self.membres(r), [["e", "f", "g"]])
+        r = groupes.detecter(d, oui, tirages=20)
+        self.assertIn(["a", "b", "c", "d"], self.membres(r))
+        abcd = next(g for g in r.groupes if g.membres == ["a", "b", "c", "d"])
+        self.assertEqual((abcd.mesures["niveau"], abcd.mesures["confirme"]), ("sans niveau", True))
+        # Un « non » sur (a, b) défait la clique : ses deux autres liens restent, en groupes de 2.
+        r = groupes.detecter(d, {("a", "b"): "non"}, tirages=20)
+        self.assertEqual(sorted(self.membres(r)), [["a", "c"], ["b", "c"], ["e", "f", "g"]])
+
+    def test_une_paire_est_un_groupe_et_son_hasard_est_celui_de_poisson(self):
+        r = groupes.detecter(self.donnees(), {("a", "b"): "non"}, tirages=20)
+        ac = next(g for g in r.groupes if g.membres == ["a", "c"])
+        lien = next(p for p in r.paires if (p.a, p.b) == ("a", "c"))
+        m = ac.mesures
+        self.assertEqual((m["methode_hasard"], m["marches_3"], m["taille"]), ("poisson", 10, 2))
+        self.assertAlmostEqual(m["rapport_hasard"], lien.exces)
+        self.assertAlmostEqual(m["p_hasard"], lien.p)
+        self.assertAlmostEqual(m["force"], 1.0)                  # c est présente sur tous ses marchés avec a
+        self.assertAlmostEqual(m["force_mutuelle"], 10 / 16)
 
     def test_jusqua_ne_voit_pas_l_avenir(self):
         d = self.donnees("2025-12-31")
         self.assertFalse({"e", "f", "g"} & set(d.societes))
         self.assertTrue(all(m.date <= "20251231" for m in d.marches))
-        self.assertEqual(self.membres(groupes.detecter(d, 0.5, tirages=20)), [["a", "b", "c"]])
+        self.assertEqual(self.membres(groupes.detecter(d, tirages=20)), [["a", "b", "c"]])
 
     def test_mesures_du_groupe(self):
-        r = groupes.detecter(self.donnees(), 0.5, tirages=50)
+        r = groupes.detecter(self.donnees(), tirages=50)
         g = next(g for g in r.groupes if g.membres == ["a", "b", "c"])
         m = g.mesures
         self.assertEqual((m["marches_3"], m["marches_complet"], m["acheteurs"], m["regions"], m["domaines"]),
@@ -114,49 +137,70 @@ class Groupes(unittest.TestCase):
         self.assertEqual(len(m["preuves"]), 10)
 
     def test_enregistrer_remplace_le_meme_calcul(self):
-        r = groupes.detecter(self.donnees(), 0.5, tirages=20)
+        r = groupes.detecter(self.donnees(), tirages=20)
         calc = sqlite3.connect(self.d / "calcul.db")
         try:
             for _ in range(2):
                 self.assertEqual(groupes.enregistrer(calc, r), "courant")
             self.assertEqual(calc.execute("SELECT count(*) FROM groupes").fetchone()[0], 2)
             self.assertEqual(calc.execute("SELECT count(*) FROM groupe_preuves").fetchone()[0], 15)
-            r2 = groupes.detecter(self.donnees("2025-12-31"), 0.5, tirages=20)
+            r2 = groupes.detecter(self.donnees("2025-12-31"), tirages=20)
             self.assertEqual(groupes.enregistrer(calc, r2), "jusqua-2025-12-31")
             self.assertEqual(calc.execute("SELECT count(*) FROM groupes").fetchone()[0], 3)
         finally:
             calc.close()
 
     def test_accord_entre_score_et_avis(self):
-        r = groupes.detecter(self.donnees(), 0.5, tirages=20)
+        r = groupes.detecter(self.donnees(), tirages=20)
         a = groupes.accord(r, {("a", "b"): "oui", ("a", "r1"): "non"}, seuil_score=0)
         self.assertEqual((a["avis"], a["oui_score_haut"], a["non_score_bas"]), (2, 1, 0))
 
-    def test_enregistrer_range_familles_liens_faibles_et_memoire_des_liens(self):
-        r = groupes.detecter(self.donnees(), 0.5, tirages=20)
+    def test_enregistrer_range_familles_liens_societes_et_memoire_des_liens(self):
+        r = groupes.detecter(self.donnees(), tirages=20)
         calc = sqlite3.connect(self.d / "calcul.db")
         try:
             groupes.enregistrer(calc, r)
-            lignes = calc.execute("SELECT id, permanents, occasionnels, cliques, taille FROM familles").fetchall()
+            lignes = calc.execute("SELECT id, permanents, occasionnels, cliques, taille, niveaux FROM familles").fetchall()
             self.assertEqual(sorted(json.loads(x[1]) for x in lignes), [["a", "b", "c"], ["e", "f", "g"]])
-            self.assertTrue(all(json.loads(x[2]) == [] and x[3] == 1 and x[4] == 3 for x in lignes))
+            self.assertTrue(all(json.loads(x[2]) == [] and x[3] == 1 and x[4] == 3 and x[5] == "moyen" for x in lignes))
             self.assertEqual(calc.execute("SELECT count(*) FROM famille_cliques").fetchone()[0], 2)
-            # d est présent avec a, b, c sur 6 marchés : 6/16 et 6/10 → entre 30 % et 50 %, donc un lien faible.
-            faibles = calc.execute("SELECT cle_a, cle_b FROM liens_faibles ORDER BY 1, 2").fetchall()
-            self.assertEqual(faibles, [("a", "d"), ("b", "d"), ("c", "d")])
+            # Toutes les paires croisées 3 fois ou plus sont rangées, avec ou sans niveau.
+            liens = {(a, b): (n, ret) for a, b, n, ret in calc.execute(
+                "SELECT cle_a, cle_b, niveau, retenue FROM groupes_liens")}
+            self.assertEqual(liens[("a", "b")], ("moyen", 1))
+            self.assertEqual(liens[("a", "d")], (None, 0))
+            self.assertEqual(calc.execute("SELECT count(*) FROM lien_preuves WHERE cle_a = 'a' AND cle_b = 'b'")
+                             .fetchone()[0], 10)
+            # Chaque société de la fenêtre a sa ligne, même sans aucun lien.
+            soc = dict(calc.execute("SELECT cle, marches FROM groupes_societes"))
+            self.assertEqual((soc["a"], soc["d"]), (16, 14))
+            self.assertEqual(len(soc), len(r.donnees.societes))
             # Un recalcul sans les marchés de 2026 ne retire pas les familles de la mémoire des liens.
-            r2 = groupes.detecter(self.donnees("2025-12-31"), 0.5, tirages=20)
+            r2 = groupes.detecter(self.donnees("2025-12-31"), tirages=20)
             groupes.enregistrer(calc, r2)
             self.assertEqual(calc.execute("SELECT count(*) FROM familles WHERE calcul = 'courant'").fetchone()[0], 2)
-            groupes.enregistrer(calc, groupes.detecter(self.donnees("2025-12-31"), 0.5, tirages=20), calcul="courant")
+            groupes.enregistrer(calc, groupes.detecter(self.donnees("2025-12-31"), tirages=20), calcul="courant")
             self.assertEqual(calc.execute("SELECT count(*) FROM familles WHERE calcul = 'courant'").fetchone()[0], 1)
             self.assertEqual(calc.execute("SELECT count(*) FROM familles_anciennes").fetchone()[0], 2)
         finally:
             calc.close()
 
-    def test_un_avis_non_retire_le_lien_faible(self):
-        r = groupes.detecter(self.donnees(), 0.5, {("a", "d"): "non"}, tirages=20)
-        self.assertEqual([(p.a, p.b) for p in groupes.liens_faibles(r.paires, 0.5)], [("b", "d"), ("c", "d")])
+    def test_les_tables_d_une_ancienne_version_sont_refaites(self):
+        calc = sqlite3.connect(self.d / "calcul.db")
+        try:
+            calc.executescript("CREATE TABLE groupes (calcul TEXT, id INTEGER, seuil REAL);"
+                               "INSERT INTO groupes VALUES ('courant', 1, 0.5);"
+                               "CREATE TABLE familles_anciennes (id TEXT PRIMARY KEY, permanents TEXT,"
+                               " occasionnels TEXT, vue_le TEXT);"
+                               "INSERT INTO familles_anciennes VALUES ('abcd1234', '[]', '[]', '');")
+            self.assertFalse(groupes.a_jour(calc))
+            groupes.enregistrer(calc, groupes.detecter(self.donnees(), tirages=20))
+            self.assertTrue(groupes.a_jour(calc))
+            self.assertEqual(calc.execute("SELECT count(*) FROM groupes").fetchone()[0], 2)
+            self.assertEqual(calc.execute("SELECT count(*) FROM familles_anciennes WHERE id = 'abcd1234'")
+                             .fetchone()[0], 1)                           # la mémoire des liens survit
+        finally:
+            calc.close()
 
 
 def groupe_factice(membres, score, famille=1, marches=10):
@@ -272,8 +316,9 @@ class Commande(unittest.TestCase):
         calc = bases.calcul()
         lignes = dict(calc.execute("SELECT calcul, groupes FROM groupes_calculs"))
         calc.close()
-        # Courant : l'avis « non » sur (a, b) défait {a, b, c}. Jusqu'à fin 2025 : l'avis n'existait pas.
-        self.assertEqual(lignes, {"courant": 1, "jusqua-2025-12-31": 1})
+        # Courant : l'avis « non » sur (a, b) défait {a, b, c} ; restent {a, c}, {b, c} et {e, f, g}.
+        # Jusqu'à fin 2025 : l'avis n'existait pas, et e, f, g pas encore.
+        self.assertEqual(lignes, {"courant": 3, "jusqua-2025-12-31": 1})
         hist = bases.historique()
         self.assertEqual(hist.execute("SELECT count(*) FROM sqlite_master WHERE name LIKE 'groupe%'")
                          .fetchone()[0], 0)

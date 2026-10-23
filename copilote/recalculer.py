@@ -1,25 +1,26 @@
 """Recalcule les résultats du copilote dans copilote_calcul.db (base supprimable à tout moment).
 
-    python -m copilote.recalculer groupes [--jusqua AAAA-MM-JJ] [--seuil 0.5] [--tirages 200]
+    python -m copilote.recalculer groupes [--jusqua AAAA-MM-JJ] [--tirages 200]
     python -m copilote.recalculer similarite [--jusqua AAAA-MM-JJ]
 
 --jusqua ne garde que les marchés (et les avis) datés jusqu'à ce jour inclus : sert au backtest.
-Le calcul est rangé sous l'identifiant « courant » ou « jusqua-AAAA-MM-JJ » (suffixe -sNN si le
-seuil n'est pas celui par défaut) ; un recalcul remplace les lignes du même identifiant.
+Le calcul est rangé sous l'identifiant « courant » ou « jusqua-AAAA-MM-JJ » ; un recalcul remplace
+les lignes du même identifiant. Les seuils des niveaux sont dans reglages.json (section « groupes »).
+Ce module tourne dans un processus à part (planificateur, ligne de commande), jamais dans le serveur web.
 """
 from __future__ import annotations
 
 import argparse
 import sys
 import time
+from collections import Counter
 
 from . import bases
 from . import fusions as _fusions
 from . import groupes
 
 
-def recalculer_groupes(jusqua: str | None = None, seuil: float = groupes.SEUIL,
-                       tirages: int = groupes.TIRAGES) -> str:
+def recalculer_groupes(jusqua: str | None = None, tirages: int = groupes.TIRAGES) -> str:
     debut = time.time()
     table_fusions = _fusions.charger()
     hist = bases.historique()
@@ -33,20 +34,22 @@ def recalculer_groupes(jusqua: str | None = None, seuil: float = groupes.SEUIL,
     finally:
         ret.close()
 
-    r = groupes.detecter(d, seuil, avis, tirages)
+    r = groupes.detecter(d, avis, tirages)
     extra = {}
     if avis:
         # L'accord se mesure sur le calcul SANS avis : avec, il serait d'accord par construction.
-        extra["accord_avis"] = groupes.accord(groupes.detecter(d, seuil, {}, tirages), avis)
+        extra["accord_avis"] = groupes.accord(groupes.detecter(d, {}, tirages), avis)
 
     calc = bases.calcul()
     try:
         calcul = groupes.enregistrer(calc, r, extra=extra)
     finally:
         calc.close()
+    niveaux = Counter(p.niveau for p in r.paires if p.niveau)
     print(f"groupes « {calcul} » : {len(d.marches)} marchés, {len(d.societes)} sociétés, "
-          f"{d.nb_fusions} fusions, {sum(p.retenue for p in r.paires)} paires retenues, "
-          f"{len(r.groupes)} groupes, {len(avis)} avis — {time.time() - debut:.0f} s", flush=True)
+          f"{d.nb_fusions} fusions, {len(r.paires)} paires examinées (fort {niveaux['fort']}, "
+          f"moyen {niveaux['moyen']}, faible {niveaux['faible']}), {len(r.groupes)} groupes, "
+          f"{len(r.familles)} familles, {len(avis)} avis — {time.time() - debut:.0f} s", flush=True)
     return calcul
 
 
@@ -89,13 +92,12 @@ def main(argv: list[str]) -> int:
     sous = p.add_subparsers(dest="quoi", required=True)
     g = sous.add_parser("groupes", help="groupes de présence commune")
     g.add_argument("--jusqua", help="AAAA-MM-JJ : ne garder que les marchés jusqu'à ce jour inclus")
-    g.add_argument("--seuil", type=float, default=groupes.SEUIL)
     g.add_argument("--tirages", type=int, default=groupes.TIRAGES)
     sim = sous.add_parser("similarite", help="index de similarité de l'objet")
     sim.add_argument("--jusqua", help="AAAA-MM-JJ : idf et vocabulaire ajustés sur les marchés jusqu'à ce jour inclus")
     a = p.parse_args(argv)
     if a.quoi == "groupes":
-        recalculer_groupes(a.jusqua, a.seuil, a.tirages)
+        recalculer_groupes(a.jusqua, a.tirages)
     elif a.quoi == "similarite":
         recalculer_similarite(a.jusqua)
     return 0

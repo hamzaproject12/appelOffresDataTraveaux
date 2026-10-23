@@ -61,7 +61,7 @@ def jusqua_pour(ref_annonce: str | None, calc: sqlite3.Connection) -> str | None
 def calcul_groupes_pour(ref_annonce: str | None, calc: sqlite3.Connection) -> str:
     """Identifiant du calcul de groupes à lire : « courant » pour un vrai AO, « jusqua-… » pour un rejeu."""
     jusqua = jusqua_pour(ref_annonce, calc)
-    return groupes.identifiant(jusqua, groupes.SEUIL) if jusqua else "courant"
+    return groupes.identifiant(jusqua)
 
 
 def unites_pour(db: sqlite3.Connection, ref_annonce: str | None, calc: sqlite3.Connection,
