@@ -47,7 +47,9 @@ class Base(unittest.TestCase):
         api_groupes._annuaire.clear()
         self.patchs = [mock.patch.dict("os.environ", {"COPILOTE_ACCES": CODES}),
                        mock.patch.object(config, "COPILOTE_CALCUL", self.d / "calcul.db"),
-                       mock.patch.object(config, "COPILOTE_RETOURS", self.d / "retours.db")]
+                       mock.patch.object(config, "COPILOTE_RETOURS", self.d / "retours.db"),
+                       # le calcul de poche est fait avec ces fusions : la fiche doit les voir aussi
+                       mock.patch.object(api_groupes._fusions, "charger", return_value={"a2": "a"})]
         for p in self.patchs:
             p.start()
         acces._echecs.clear()
@@ -95,7 +97,7 @@ class Base(unittest.TestCase):
 class Acces(Base):
     ROUTES = [("GET", "/api/copilote/groupes"), ("GET", "/api/copilote/groupe/1"), ("GET", "/api/copilote/avis"),
               ("GET", "/api/copilote/famille/0123abcd"), ("GET", "/api/copilote/societes?q=a"),
-              ("GET", "/api/copilote/societe/a"),
+              ("GET", "/api/copilote/societe/a/liens"),
               ("GET", "/api/copilote/moi"), ("GET", "/copilote/groupes"),
               ("POST", "/api/copilote/avis")]
 
@@ -136,7 +138,7 @@ class Acces(Base):
         chemins = set(self.app.openapi()["paths"])
         for attendu in ("/copilote/groupes", "/api/copilote/groupes", "/api/copilote/groupe/{gid}",
                         "/api/copilote/famille/{empreinte}", "/api/copilote/avis", "/api/copilote/moi",
-                        "/api/copilote/societes", "/api/copilote/societe/{cle}"):
+                        "/api/copilote/societes", "/api/copilote/societe/{cle}/liens"):
             self.assertIn(attendu, chemins)
 
 
@@ -324,6 +326,10 @@ class Fiche(Base):
         f = self.alice.get(f"/api/copilote/groupe/{self.groupe_abc()}").json()
         textes = [c["phrase"] + c["methode"] + c["libelle"] for c in f["explication"]] + [f["question"]]
         textes += [(ICI / "statique" / "copilote_groupes.html").read_text(encoding="utf-8")]
+        soc = self.alice.get("/api/copilote/societe/a/liens").json()
+        textes += [soc["resume"]["phrase"]]
+        textes += [x["titre"] + x["intro"] for x in soc["sections"]]
+        textes += [l["profil"]["phrase"] for x in soc["sections"] for l in x["lignes"]]
         for t in textes:
             self.assertIsNone(MOTS_INTERDITS.search(t), MOTS_INTERDITS.search(t) and MOTS_INTERDITS.search(t).group())
 
@@ -445,37 +451,108 @@ class Societes(Base):
         exact = self.alice.get("/api/copilote/societes", params={"q": "b"}).json()["societes"]
         self.assertEqual(exact[0]["cle"], "b")                                # le nom exact passe devant
 
-    def test_fiche_societe_partenaires_par_exces_avec_preuves(self):
-        f = self.alice.get("/api/copilote/societe/a").json()
-        self.assertEqual((f["societe"]["marches"], f["assez_de_marches"], f["message"]), (16, True, None))
-        p = {x["partenaire"]["cle"]: x for x in f["partenaires"]}
-        self.assertEqual(set(p), {"b", "c"})                                  # d n'a aucun niveau
-        excès = [x["exces"] for x in f["partenaires"]]
-        self.assertEqual(excès, sorted(excès, reverse=True))
-        b = p["b"]
-        self.assertEqual((b["communs"], b["part_societe"], b["part_partenaire"]), (10, 10 / 16, 1.0))
-        self.assertEqual((b["accompagne_societe"], b["accompagne_partenaire"], b["deux_sens"]), (True, True, True))
+    def liens(self, cle, client=None):
+        r = (client or self.alice).get(f"/api/copilote/societe/{cle}/liens")
+        self.assertEqual(r.status_code, 200, r.text)
+        d = r.json()
+        return d, {x["code"]: x for x in d["sections"]}
+
+    def test_les_quatre_sections_dans_l_ordre(self):
+        d, _ = self.liens("a")
+        self.assertEqual([x["code"] for x in d["sections"]],
+                         ["gagne_avec", "accompagne", "concurrents", "a_verifier"])
+        self.assertEqual([x["ouverte"] for x in d["sections"]], [True, True, True, False])
+        self.assertEqual([x["avis"] for x in d["sections"]], [True, True, False, False])
+        self.assertEqual(d["question"], api_groupes.QUESTION)
+
+    def test_presentes_quand_elle_gagne(self):
+        """a gagne 12 de ses 16 marchés ; b, c et d étaient là lors de 6 de ces victoires."""
+        d, sec = self.liens("a")
+        s = d["societe"]
+        self.assertEqual((s["marches"], s["unites"], s["victoires"], s["defaites"]), (16, 16, 12, 4))
+        self.assertEqual((s["victoires_totales"], d["assez_de_marches"], d["message"]), (12, True, None))
+        a = sec["gagne_avec"]
+        tete = [x["societe"]["cle"] for x in a["lignes"][:3]]
+        self.assertEqual(tete, ["b", "c", "d"])              # 6 victoires chacun, b et c sur 100 % de leurs marchés
+        self.assertEqual([x["victoires_societe"] for x in a["lignes"]][:3], [6, 6, 6])
+        b = next(x for x in a["lignes"] if x["societe"]["cle"] == "b")
+        self.assertEqual((b["victoires_societe"], b["victoires_societe_total"]), (6, 12))
+        self.assertEqual((b["victoires_partenaire"], b["victoires_partenaire_total"]), (2, 2))
+        self.assertEqual((b["marches_communs"], b["unites_communes"]), (10, 10))
+        self.assertEqual((b["part_marches_partenaire"], b["part_marches_societe"]), (1.0, 10 / 16))
+        # b offre 100 quand a gagne à 95 : son offre est 5,26 % au-dessus de l'offre gagnante
+        self.assertAlmostEqual(b["position_quand_elle_gagne"], 100 / 95 - 1, places=6)
+        self.assertAlmostEqual(b["position_quand_il_gagne"], 95 / 100 - 1, places=6)
         self.assertEqual((b["niveau"], b["mutuel"]), ("moyen", True))
-        self.assertEqual(len(b["preuves"]), 10)
-        e = b["ensemble"]
-        self.assertEqual((e["unites"], e["gains_societe"], e["gains_partenaire"], e["gains_autres"]), (10, 6, 2, 2))
-        self.assertEqual(f["groupes"][0]["taille"], 3)
-        self.assertEqual(f["question"], api_groupes.QUESTION)
+        self.assertEqual(b["profil"]["code"], "accompagne")
+        self.assertEqual(b["societe"], {"cle": "b", "nom": "B", "marches": 10, "victoires": 2})
+        # d n'a pas de niveau fort, mais elle était là lors de 6 victoires de a : elle est en tête aussi
+        dd = next(x for x in a["lignes"] if x["societe"]["cle"] == "d")
+        self.assertEqual((dd["victoires_societe"], dd["victoires_partenaire"]), (6, 0))
+        self.assertEqual(dd["part_marches_partenaire"], 6 / 14)
+        self.assertEqual(dd["profil"]["code"], "accompagne")
+
+    def test_phrase_de_resume(self):
+        d, _ = self.liens("a")
+        self.assertEqual(d["resume"]["phrase"],
+                         "A a déposé une offre sur 16 marchés et en a gagné 12. "
+                         "B était présente lors de 6 de ces 12 victoires, et a gagné 2 des 10 marchés "
+                         "et lots qu’elles partagent.")
+
+    def test_marches_en_preuve_avec_les_deux_offres(self):
+        f, sec = self.liens("a")
+        b = next(x for x in sec["gagne_avec"]["lignes"] if x["societe"]["cle"] == "b")
+        preuves = f["preuves"]["b"]
+        self.assertEqual((len(preuves), b["preuves_total"]), (8, 10))     # les 8 plus récents sur 10
+        dates = [m["date"] for m in preuves]
+        self.assertEqual(dates, sorted(dates, reverse=True))          # du plus récent au plus ancien
+        m = next(m for m in f["preuves"]["d"] if m["ref"] == "m00")       # d n'a que 6 marchés communs
+        self.assertEqual((m["gagnant"]["cle"], m["gagne"], m["lot"]), ("a", "societe", None))
+        self.assertEqual((m["taux_societe"], m["taux_partenaire"]), (0.95, 1.15))
+        self.assertEqual(m["acheteur"], "COMMUNE DE TAZA")
+
+    def test_societes_qu_elle_accompagne_et_concurrents(self):
+        """d ne gagne jamais un marché de a ; a gagne 6 marchés où d est présente et perd."""
+        d, sec = self.liens("d")
+        self.assertEqual(d["societe"]["victoires"], 8)                # ses 8 marchés t0…t7
+        b = sec["accompagne"]
+        a = next(x for x in b["lignes"] if x["societe"]["cle"] == "a")
+        self.assertEqual((a["victoires_partenaire"], a["victoires_partenaire_total"]), (6, 12))
+        self.assertEqual(a["victoires_societe"], 0)
+        self.assertEqual(a["profil"]["code"], "concurrent")
+        self.assertEqual(a["part_marches_societe"], 6 / 14)
+        self.assertAlmostEqual(a["position_quand_il_gagne"], 115 / 95 - 1, places=6)
+        c = sec["concurrents"]
+        self.assertEqual(c["lignes"][0]["societe"]["cle"], "a")       # 6 victoires contre elle
+        self.assertEqual(c["lignes"][0]["victoires_partenaire"], 6)
+
+    def test_sans_victoire_les_liens_restent_a_verifier(self):
+        """e gagne les 5 marchés communs à e, f et g : f et g n'ont aucune victoire à montrer."""
+        _, sec = self.liens("f")
+        self.assertEqual(sec["gagne_avec"]["lignes"], [])
+        self.assertEqual({x["societe"]["cle"] for x in sec["concurrents"]["lignes"]}, {"e"})
+        verifier = {x["societe"]["cle"] for x in sec["a_verifier"]["lignes"]}
+        self.assertIn("g", verifier)                                  # liée à f, mais sans victoire commune
+        g = next(x for x in sec["a_verifier"]["lignes"] if x["societe"]["cle"] == "g")
+        self.assertEqual((g["victoires_societe"], g["victoires_partenaire"]), (0, 0))
+        self.assertEqual(g["profil"]["code"], "sans_resultat")
+        self.assertIsNotNone(g["niveau"])
 
     def test_peu_de_marches_pour_conclure(self):
-        f = self.alice.get("/api/copilote/societe/solo").json()
-        self.assertEqual((f["societe"]["marches"], f["assez_de_marches"], f["partenaires"]), (0, False, []))
-        self.assertIn("Pas assez de marchés pour conclure", f["message"])
-        self.assertEqual(self.alice.get("/api/copilote/societe/inconnue").status_code, 404)
-        self.assertEqual(self.alice.get("/api/copilote/societe/PAS-UNE-CLE").status_code, 422)
+        d, sec = self.liens("solo")
+        self.assertEqual((d["societe"]["marches"], d["societe"]["unites"], d["assez_de_marches"]), (0, 0, False))
+        self.assertEqual([x["total"] for x in d["sections"]], [0, 0, 0, 0])
+        self.assertIn("Pas assez de marchés pour conclure", d["message"])
+        self.assertEqual(self.alice.get("/api/copilote/societe/inconnue/liens").status_code, 404)
+        self.assertEqual(self.alice.get("/api/copilote/societe/PAS-UNE-CLE/liens").status_code, 422)
 
     def test_ajouter_une_societe_liee(self):
         r = self.avis(self.alice, reponse="oui", cle_a="a", cle_b="d", ajout=True,
                       commentaire="Même gérant, vu sur le registre du commerce")
         self.assertEqual(r.status_code, 200, r.text)
-        f = self.bob.get("/api/copilote/societe/d").json()
-        a = next(x for x in f["partenaires"] if x["partenaire"]["cle"] == "a")    # visible tout de suite
-        self.assertEqual((a["avis"]["reponse"], a["avis"]["auteur"], a["niveau"]), ("oui", "Alice", None))
+        f, sec = self.liens("d", self.bob)
+        a = next(x for x in sec["accompagne"]["lignes"] if x["societe"]["cle"] == "a")   # visible tout de suite
+        self.assertEqual((a["avis"]["reponse"], a["avis"]["auteur"]), ("oui", "Alice"))
         self.assertEqual(f["historique"][0]["commentaire"], "Même gérant, vu sur le registre du commerce")
         retours = bases.retours()
         try:
@@ -487,8 +564,13 @@ class Societes(Base):
         import time
         debut = time.perf_counter()
         for _ in range(5):
-            self.assertEqual(self.alice.get("/api/copilote/societe/a").status_code, 200)
+            self.assertEqual(self.alice.get("/api/copilote/societe/a/liens").status_code, 200)
         self.assertLess((time.perf_counter() - debut) / 5, 0.3)
+
+    def test_la_lecture_de_la_fiche_ne_modifie_pas_l_historique(self):
+        avant = empreinte(self.d / "pv_travaux.db")
+        self.liens("a")
+        self.assertEqual(empreinte(self.d / "pv_travaux.db"), avant)
 
 
 class Pages(unittest.TestCase):

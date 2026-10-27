@@ -4,7 +4,7 @@ Lecture : copilote_calcul.db (calcul « courant »), complétée pour la fiche d
 pv_travaux.db en lecture seule (objet, taux de chaque membre) et, pour la recherche, par sa table
 `societes`. Écriture : uniquement les avis, dans copilote_retours.db. Rien ici ne touche aux calculs :
 un avis agit sur les groupes au recalcul suivant (groupes.lire_avis), et tout de suite sur la fiche
-d'une société.
+d'une société (fiche_societe.py, qui lit ce fichier).
 
 Vocabulaire : « groupe de présence commune », « signal », « partenaire de présence ». Un groupe est
 un fait statistique.
@@ -654,114 +654,6 @@ def fiche(calc: sqlite3.Connection, ret: sqlite3.Connection, gid: int) -> dict |
         "marches_communs": marches, "marches_total": len(preuves),
         "avertissement": avertissement,
         "historique": _mettre_en_forme(_regrouper(lignes), noms)}
-
-
-# --------------------------------------------------------------------------- fiche d'une société
-
-def fiche_societe(calc: sqlite3.Connection, ret: sqlite3.Connection, cle: str) -> dict | None:
-    """Une société et ses partenaires de présence : les paires qui ont un niveau ou un avis, triées par excès."""
-    if not _prets(calc):
-        return None
-    rg = _liens.reglages_groupes()
-    s = calc.execute("SELECT * FROM groupes_societes WHERE calcul = ? AND cle = ?", (CALCUL, cle)).fetchone()
-    if s is None:
-        connue = next((x for x in _charger_annuaire(calc) if x["cle"] == cle), None)
-        if connue is None:
-            return None
-        s = {"cle": cle, "nom": connue["nom"], "marches": 0, "fort": 0, "moyen": 0, "faible": 0, "groupes": 0}
-    else:
-        s = dict(s)
-
-    hist = _lignes_avis(ret, cle=cle)
-    par_paire = defaultdict(list)
-    for x in hist:
-        par_paire[(x["cle_a"], x["cle_b"])].append(x)
-    avec_avis = set(par_paire)
-
-    examinees = calc.execute("SELECT (SELECT COUNT(*) FROM groupes_liens WHERE calcul = ? AND cle_a = ?)"
-                             " + (SELECT COUNT(*) FROM groupes_liens WHERE calcul = ? AND cle_b = ?)",
-                             (CALCUL, cle, CALCUL, cle)).fetchone()[0]
-    lignes = {}
-    for col in ("cle_a", "cle_b"):
-        for r in calc.execute(f"SELECT * FROM groupes_liens WHERE calcul = ? AND {col} = ?"
-                              f" AND (niveau IS NOT NULL OR origine LIKE 'avis%')", (CALCUL, cle)):
-            lignes[(r["cle_a"], r["cle_b"])] = r
-    for a, b in avec_avis - set(lignes):           # un avis donné depuis le dernier calcul
-        r = calc.execute("SELECT * FROM groupes_liens WHERE calcul = ? AND cle_a = ? AND cle_b = ?",
-                         (CALCUL, a, b)).fetchone()
-        lignes[(a, b)] = r
-
-    # Les 30 places vont d'abord aux paires avec un avis, puis aux niveaux les plus forts : trié par excès seul,
-    # un lien faible sur 3 marchés (attendu minuscule, excès énorme) chasserait les liens forts. Affichage par excès.
-    def priorite(kv):
-        r = kv[1]
-        return (kv[0] not in avec_avis, -_liens.RANG.get(r["niveau"] if r else None, 0),
-                -(r["exces"] if r else 0), kv[0])
-    choisies = sorted(sorted(lignes.items(), key=priorite)[:rg["partenaires"]],
-                      key=lambda kv: (-(kv[1]["exces"] if kv[1] else 0), kv[0]))
-    autres = {b if a == cle else a for (a, b), _ in choisies}
-    noms = _noms(calc, autres | {cle})
-    noms.setdefault(cle, s["nom"])
-    marches_de = {r["cle"]: r["marches"] for r in calc.execute(
-        f"SELECT cle, marches FROM groupes_societes WHERE calcul = ? AND cle IN ({_marques(len(autres))})",
-        (CALCUL, *autres))} if autres else {}
-
-    partenaires = []
-    gagnants_cles = set()
-    preuves_de = {}
-    for (a, b), r in choisies:
-        preuves_de[(a, b)] = calc.execute(
-            "SELECT ref, date, acheteur, gagnants FROM lien_preuves WHERE calcul = ? AND cle_a = ? AND cle_b = ?"
-            " ORDER BY date DESC", (CALCUL, a, b)).fetchall()
-        gagnants_cles.update(g for p in preuves_de[(a, b)] for g in (p["gagnants"] or "").split(",") if g)
-    noms_gagnants = _noms(calc, gagnants_cles)
-    for (a, b), r in choisies:
-        autre = b if a == cle else a
-        moi_a = a == cle
-        p = _paire_sortie(r, a, b, noms, par_paire.get((a, b), []))
-        part_soc = (r["part_a"] if moi_a else r["part_b"]) if r else None       # mes marchés où l'autre est là
-        part_aut = (r["part_b"] if moi_a else r["part_a"]) if r else None       # ses marchés où je suis là
-        seuil = rg["accompagne"]
-        partenaires.append({
-            "partenaire": {"cle": autre, "nom": noms.get(autre, autre), "marches": marches_de.get(autre)},
-            "cle_a": a, "cle_b": b,
-            "communs": p["communs"], "part_societe": part_soc, "part_partenaire": part_aut,
-            "exces": p["exces"], "attendu": p["attendu"], "p": p["p"], "niveau": p["niveau"],
-            "mutuel": p["mutuel"], "origine": p["origine"],
-            "deux_sens": part_soc is not None and min(part_soc, part_aut) >= seuil,
-            "accompagne_societe": part_aut is not None and part_aut >= seuil,     # l'autre suit la société
-            "accompagne_partenaire": part_soc is not None and part_soc >= seuil,  # la société suit l'autre
-            "ensemble": {
-                "unites": r["unites"] if r else None,
-                "gains_societe": (r["gains_a"] if moi_a else r["gains_b"]) if r else None,
-                "gains_partenaire": (r["gains_b"] if moi_a else r["gains_a"]) if r else None,
-                "gains_autres": r["gains_autres"] if r else None,
-                "taux_victoire": r["taux_victoire"] if r else None,
-                "ecart_meilleure": r["ecart_meilleure"] if r else None,
-                "ecart_reference": r["ecart_reference"] if r else None},
-            "preuves": [{"ref": x["ref"], "date": date_iso(x["date"]), "acheteur": x["acheteur"],
-                         "gagnants": [_personne(g, noms_gagnants) for g in (x["gagnants"] or "").split(",") if g]}
-                        for x in preuves_de[(a, b)]],
-            "avis": p["avis"], "nb_avis": p["nb_avis"]})
-
-    groupes_soc = calc.execute(
-        "SELECT g.id, g.score, g.niveau, g.taille, g.marches_3, fc.famille FROM groupe_membres m"
-        " JOIN groupes g ON g.calcul = m.calcul AND g.id = m.groupe"
-        " LEFT JOIN famille_cliques fc ON fc.calcul = m.calcul AND fc.groupe = m.groupe"
-        " WHERE m.calcul = ? AND m.cle = ? ORDER BY g.score DESC, g.id LIMIT 50", (CALCUL, cle)).fetchall()
-    assez = s["marches"] >= rg["actives"]
-    return {
-        "societe": {k: s[k] for k in ("cle", "nom", "marches", "fort", "moyen", "faible", "groupes")},
-        "assez_de_marches": assez, "seuil_actives": rg["actives"],
-        "message": None if assez else (f"Pas assez de marchés pour conclure : {s['marches']} marché(s), il en faut "
-                                       f"au moins {rg['actives']}. Les partenaires éventuels sont affichés à titre "
-                                       f"indicatif."),
-        "partenaires": partenaires, "paires_examinees": examinees,
-        "partenaires_avec_niveau": s["fort"] + s["moyen"] + s["faible"],
-        "groupes": [{"id": g["id"], "score": g["score"], "niveau": g["niveau"], "taille": g["taille"],
-                     "marches": g["marches_3"], "famille": g["famille"]} for g in groupes_soc],
-        "question": QUESTION, "reglages": reglages_page(),
-        "historique": _mettre_en_forme(_regrouper(hist), _noms(calc, {c for x in hist for c in (x["cle_a"], x["cle_b"])}))}
 
 
 # --------------------------------------------------------------------------- avis (écriture)

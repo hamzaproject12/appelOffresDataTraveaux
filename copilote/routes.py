@@ -18,7 +18,8 @@ from fastapi import Path as ParamChemin
 from fastapi.responses import FileResponse, HTMLResponse, JSONResponse, PlainTextResponse, RedirectResponse
 from pydantic import BaseModel, Field
 
-from . import acces, acheteurs, api_groupes, api_similaires, bases, config, similarite
+from . import acces, acheteurs, api_groupes, api_similaires, bases, config, fiche_societe, similarite
+from . import fusions as _fusions
 
 STATIQUE = Path(__file__).resolve().parent.parent / "statique"
 SANS_CACHE = {"Cache-Control": "no-store"}
@@ -226,10 +227,15 @@ def creer_routeur(secret: bytes, base: Path | str, ao_base: Path | str) -> APIRo
         with closing(bases.calcul()) as calc:
             return JSONResponse(api_groupes.chercher_societes(calc, q, limite), headers=SANS_CACHE)
 
-    @protege.get("/api/copilote/societe/{cle}")
-    def une_societe(cle: str = ParamChemin(pattern=r"^[a-z0-9]{1,200}$")):
-        with closing(bases.calcul()) as calc, closing(bases.retours()) as ret:
-            f = api_groupes.fiche_societe(calc, ret, cle)
+    @protege.get("/api/copilote/societe/{cle}/liens")
+    def liens_societe(cle: str = ParamChemin(pattern=r"^[a-z0-9]{1,200}$")):
+        """La fiche d'une société : présentes quand elle gagne, sociétés qu'elle accompagne,
+        concurrents directs, autres présences à vérifier."""
+        try:
+            with closing(bases.historique()) as hist, closing(bases.calcul()) as calc,                     closing(bases.retours()) as ret:
+                f = fiche_societe.fiche(hist, calc, ret, cle)
+        except FileNotFoundError as e:
+            raise HTTPException(503, str(e)) from None
         if f is None:
             raise HTTPException(404, "Société introuvable")
         return JSONResponse(f, headers=SANS_CACHE)
@@ -311,14 +317,20 @@ def creer_routeur(secret: bytes, base: Path | str, ao_base: Path | str) -> APIRo
         return JSONResponse({"correspondances": ligne}, headers=SANS_CACHE)
 
     def prechauffer() -> None:
-        """Au démarrage : recharge (ou calcule) l'index de similarité en arrière-plan. Ne bloque ni ne
-        fait échouer le serveur si l'historique n'est pas encore là."""
+        """Au démarrage, en arrière-plan : l'index de similarité et les victoires de chaque société
+        (la première fiche ouverte les paierait sinon). Ne bloque ni ne fait échouer le serveur si
+        l'historique n'est pas encore là."""
         def travail():
             try:
                 with closing(bases.calcul()) as calc:
                     similarite.moteur(bases.historique, bases.chemin_historique(), calc)
             except Exception as e:                              # noqa: BLE001 : jamais fatal au démarrage
                 print(f"[copilote] index de similarité non préchargé : {e}", flush=True)
+            try:
+                with closing(bases.historique()) as hist:
+                    fiche_societe.victoires_par_societe(hist, _fusions.charger())
+            except Exception as e:                              # noqa: BLE001
+                print(f"[copilote] victoires par société non préchargées : {e}", flush=True)
         import threading
         threading.Thread(target=travail, name="copilote-prechauffage", daemon=True).start()
 

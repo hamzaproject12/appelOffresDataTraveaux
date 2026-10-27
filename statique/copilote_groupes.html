@@ -351,6 +351,9 @@
   .partenaire { border: 1px solid var(--bord); border-radius: var(--r-s); padding: var(--e3); display: grid; gap: var(--e2);
     background: var(--surface-2); min-width: 0; }
   .partenaire__haut { display: flex; flex-wrap: wrap; gap: var(--e1) var(--e2); align-items: center; }
+  .profil { font-size: var(--t-s); color: var(--doux); font-style: italic; }
+  .aide { border-bottom: 1px dotted currentColor; cursor: help; }
+  .resume-societe { font-size: var(--t-m); margin: var(--e2) 0 var(--e3); }
   .faits { display: grid; grid-template-columns: repeat(auto-fit, minmax(120px, 1fr)); gap: var(--e2) var(--e3); font-size: var(--t-s); }
   .fait { display: grid; gap: 1px; min-width: 0; }
   .fait__l { font-size: var(--t-xs); color: var(--doux); }
@@ -399,7 +402,8 @@
     <h1 id="titre-vue" tabindex="-1">Groupes de présence commune</h1>
     <p>Des sociétés qui déposent des offres sur les mêmes marchés plus souvent que le hasard ne le ferait. C’est un
        signal statistique, pas une conclusion : il peut s’agir de partenaires habituels, d’un même dirigeant, d’un
-       groupement ou de concurrents qui visent les mêmes acheteurs. Votre avis sert à le dire.</p>
+       groupement ou de concurrents qui visent les mêmes acheteurs. Votre avis sert à le dire. La fiche d’une société
+       répond à une autre question : quand elle gagne, qui est présent pour l’accompagner ?</p>
     <p class="entete-stats" id="entete-stats" aria-live="polite"></p>
     <details class="glossaire" id="glossaire">
       <summary>Comprendre les termes</summary>
@@ -454,8 +458,8 @@ const pts = x => x == null ? '—' : ((x >= 0 ? '+' : '−') + Math.abs(x * 100)
 const dateFr = iso => iso ? iso.split('-').reverse().join('/') : '—';
 const moisFr = iso => { if (!iso) return '—'; const [a, m] = iso.split('-'); return ['janv.', 'févr.', 'mars', 'avr.', 'mai', 'juin', 'juil.', 'août', 'sept.', 'oct.', 'nov.', 'déc.'][+m - 1] + ' ' + a; };
 const dateHeure = iso => { const d = new Date(iso); return isNaN(d) ? '' : d.toLocaleString('fr-FR', { dateStyle: 'short', timeStyle: 'short' }); };
-// Le nom d'une société ouvre sa fiche de partenaires ici ; l'historique complet reste dans le tableau de bord.
-const lienFiche = (cle, nom, cls = 'lien-soc') => `<a class="${cls}" href="#s=${encodeURIComponent(cle)}" data-s="${esc(cle)}" title="Partenaires de présence de cette société">${esc(nom)}</a>`;
+// Le nom d'une société ouvre sa fiche ici ; l'historique complet reste dans le tableau de bord.
+const lienFiche = (cle, nom, cls = 'lien-soc') => `<a class="${cls}" href="#s=${encodeURIComponent(cle)}" data-s="${esc(cle)}" title="Ouvrir la fiche : qui est présent quand elle gagne, qui elle accompagne, qui la bat">${esc(nom)}</a>`;
 const lienSociete = (cle, nom, cls = 'lien-soc') =>
   `<a class="${cls}" href="/app#/societes?fiche=${encodeURIComponent('s:' + cle)}" target="_blank" rel="noopener" title="Ouvrir la fiche de la société (nouvel onglet)">${esc(nom)}</a>`;
 
@@ -513,29 +517,31 @@ const erreurTexte = e => e.type === 'reseau' ? ['Connexion impossible', 'Le serv
 // ================================================================ niveaux et vocabulaire
 const NIVEAUX = ['fort', 'moyen', 'faible', 'confirme'];
 const DEFAUT = ['fort', 'moyen', 'confirme'];
-const LIB_NIVEAU = { fort: 'Fort', moyen: 'Moyen', faible: 'Faible', confirme: 'Confirmé par un avis', 'sans niveau': 'Sans niveau' };
+const LIB_NIVEAU = { fort: 'Lien très probable', moyen: 'Lien probable', faible: 'Lien à vérifier',
+  confirme: 'Confirmé par un avis', 'sans niveau': 'Sans niveau' };
 const TITRE_NIVEAU = {
-  fort: 'Présence commune très au-dessus du hasard, sur assez de marchés',
-  moyen: 'Présence commune nettement au-dessus du hasard, ou présence mutuelle habituelle',
-  faible: 'Présence commune au-dessus du hasard, sur peu de marchés : affichée dans la fiche d’une société seulement',
+  fort: 'Beaucoup plus souvent ensemble que la normale, sur assez de marchés',
+  moyen: 'Nettement plus souvent ensemble que la normale, ou deux sociétés qui se suivent',
+  faible: 'Un peu plus souvent ensemble que la normale, sur peu de marchés : à vérifier, montré dans la fiche d’une société seulement',
   confirme: 'Au moins une paire a reçu un avis « oui »',
-  'sans niveau': 'Aucun niveau statistique : retenu par un avis' };
+  'sans niveau': 'Aucun signal statistique : retenu par un avis' };
 const puceNiveau = n => n ? `<span class="puce puce--${n === 'confirme' ? 'ok' : esc(n)}" title="${esc(TITRE_NIVEAU[n] || '')}">${esc(LIB_NIVEAU[n] || n)}</span>` : '';
 let REGLAGES = null;
 function rendreGlossaire(r) {
   if (!r || $('#glossaire-contenu').dataset.fait) return;
   const n = r.niveaux, m = r.mutuel, s = x => String(x).replace('.', ',');
   $('#glossaire-contenu').innerHTML = `
-    <dt>Niveau d’un lien</dt><dd>Il dit à quel point deux sociétés se retrouvent plus souvent que le hasard ne le voudrait.
-      <b>Fort</b> : au moins ${n.fort.communs} marchés communs, ${s(n.fort.exces)} fois plus que le hasard, probabilité d’un tel écart par hasard inférieure à ${s(n.fort.p)}.
-      <b>Moyen</b> : au moins ${n.moyen.communs} marchés, ${s(n.moyen.exces)} fois plus, probabilité inférieure à ${s(n.moyen.p)} — ou une présence mutuelle habituelle (ci-dessous).
-      <b>Faible</b> : au moins ${n.faible.communs} marchés, ${s(n.faible.exces)} fois plus, probabilité inférieure à ${s(n.faible.p)} ; montré seulement dans la fiche d’une société, jamais dans un groupe, sauf si un avis « oui » le confirme.
-      Le niveau d’un groupe est celui de sa paire la moins liée.</dd>
-    <dt>Excès par rapport au hasard</dt><dd>Les marchés communs observés, divisés par ceux qu’on attendrait si chaque société gardait ses acheteurs et son nombre de marchés, mais répondait au hasard parmi les marchés de chaque acheteur. Un excès de 1 : rien de plus que le hasard. Un excès de 5 : cinq fois plus souvent ensemble.</dd>
-    <dt>Présence mutuelle habituelle</dt><dd>Au moins ${m.communs} marchés communs, et chacune présente sur au moins ${pct(m.part)} des marchés de l’autre. Elles se suivent, même si le fait de viser les mêmes acheteurs l’explique en partie.</dd>
-    <dt>« B accompagne A »</dt><dd>B dépose une offre avec A sur au moins ${pct(r.accompagne)} de ses propres marchés, même si A va souvent sans B. « Dans les deux sens » : chacune accompagne l’autre.</dd>
+    <dt>Sociétés liées probables</dt><dd>Deux sociétés présentes ensemble sur les mêmes marchés plus souvent que la normale. C’est un signal statistique, pas une conclusion : partenaires habituels, même dirigeant, groupement déclaré, ou simples concurrents qui visent les mêmes acheteurs. Seul votre avis le dit.</dd>
+    <dt>Force du lien</dt><dd><b>Lien très probable</b> : au moins ${n.fort.communs} marchés communs, ${s(n.fort.exces)} fois plus souvent ensemble que la normale, probabilité d’un tel écart par hasard inférieure à ${s(n.fort.p)}.
+      <b>Lien probable</b> : au moins ${n.moyen.communs} marchés, ${s(n.moyen.exces)} fois plus, probabilité inférieure à ${s(n.moyen.p)} — ou deux sociétés qui se suivent (ci-dessous).
+      <b>Lien à vérifier</b> : au moins ${n.faible.communs} marchés, ${s(n.faible.exces)} fois plus, probabilité inférieure à ${s(n.faible.p)} ; montré seulement dans la fiche d’une société, jamais dans un groupe, sauf si un avis « oui » le confirme.
+      La force d’un groupe est celle de sa paire la moins liée.</dd>
+    <dt>« 9 fois plus souvent ensemble que la normale »</dt><dd>Les marchés communs observés, divisés par ceux qu’on attendrait si chaque société gardait ses acheteurs et son nombre de marchés, mais répondait au hasard parmi les marchés de chaque acheteur. 1 fois : rien de plus que la normale. 9 fois : neuf fois plus souvent ensemble qu’attendu.</dd>
+    <dt>Deux sociétés qui se suivent</dt><dd>Au moins ${m.communs} marchés communs, et chacune présente sur au moins ${pct(m.part)} des marchés de l’autre. Elles se suivent, même si le fait de viser les mêmes acheteurs l’explique en partie.</dd>
+    <dt>Présente sur x % des marchés de A</dt><dd>Part des marchés de A où l’autre société a aussi déposé une offre. « B accompagne A » quand cette part atteint ${pct(r.accompagne)}.</dd>
+    <dt>Position d’une offre</dt><dd>Écart médian entre l’offre d’une société et l’offre gagnante, en part de celle-ci. « +5 % » : son offre était 5 % au-dessus de l’offre gagnante.</dd>
     <dt>Groupe, famille</dt><dd>Un groupe réunit des sociétés toutes liées deux à deux (niveau fort ou moyen, ou avis « oui ») ; deux sociétés suffisent. Une famille rassemble les groupes qui se recoupent.</dd>
-    <dt>Permanent, occasionnel</dt><dd>Dans une famille, un membre permanent est présent dans tous ses groupes ; un occasionnel, dans certains seulement.</dd>
+    <dt>Permanente, présente dans une partie du groupe</dt><dd>Dans une famille, une société permanente est présente dans tous ses groupes ; les autres, dans certains seulement.</dd>
     <dt>Société active</dt><dd>Une société qui a déposé une offre sur au moins ${r.actives} marchés. En dessous, il y a trop peu de marchés pour conclure.</dd>
     <dt>Ce que ce n’est pas</dt><dd>Un signal statistique de présence commune n’est pas une conclusion sur la manière dont les offres sont préparées. Seul un avis, avec son auteur et sa source, dit si des sociétés sont liées.</dd>`;
   $('#glossaire-contenu').dataset.fait = '1';
@@ -576,7 +582,7 @@ function carteFamille(f) {
   const trier = l => [...l].sort((a, b) => gras.has(b.cle) - gras.has(a.cle));
   const lister = (l, k) => { const t = trier(l); return t.slice(0, k).map(m => gras.has(m.cle) ? `<b>${esc(m.nom)}</b>` : esc(m.nom)).join(', ') + (t.length > k ? ` +${t.length - k}` : ''); };
   const occ = f.occasionnels.length
-    ? `<span class="g__occ">Occasionnels : ${lister(f.occasionnels, 3)}</span>` : '';
+    ? `<span class="g__occ" title="Présentes dans une partie des groupes de la famille seulement">Présentes dans une partie du groupe : ${lister(f.occasionnels, 3)}</span>` : '';
   const niv = f.niveaux.filter(n => n !== 'sans niveau');
   return `<a class="g" href="#f=${f.id}" data-fam="${f.id}"${ETAT.f === f.id ? ' aria-current="true"' : ''}>
     <span class="g__score" role="img" aria-label="Score ${f.score} sur 100"><b>${f.score}</b><small>/100</small></span>
@@ -609,7 +615,7 @@ function puceAvisInterne(a) {
 }
 function rendreEntete(e) {
   $('#entete-stats').innerHTML = e ? `<strong>${nf.format(e.actives)}</strong> sociétés actives (${e.seuil_actives} marchés ou plus), dont
-    <strong>${nf.format(e.avec_partenaire)}</strong> ont au moins un partenaire détecté — ${nf.format(e.avec_moyen_ou_fort)} de niveau moyen ou fort.` : '';
+    <strong>${nf.format(e.avec_partenaire)}</strong> ont au moins une société liée probable — ${nf.format(e.avec_moyen_ou_fort)} avec un lien probable ou très probable.` : '';
 }
 function rendreFiltres(d) {
   const c = d.compteurs || {};
@@ -621,7 +627,7 @@ function rendreTrouvees(d) {
   const l = d.societes || [];
   cible.innerHTML = `<h2>Sociétés (${l.length ? l.length : 'aucune'}${l.length === 20 ? ' premières' : ''})</h2>${l.length ? l.map(s => {
     const liens = s.fort + s.moyen + s.faible;
-    return `<a class="soc" href="#s=${encodeURIComponent(s.cle)}" data-s="${esc(s.cle)}"><span>${esc(s.nom)}</span><small>${pluriel(s.marches, 'marché')} · ${liens ? pluriel(liens, 'partenaire') : 'aucun partenaire'}</small></a>`;
+    return `<a class="soc" href="#s=${encodeURIComponent(s.cle)}" data-s="${esc(s.cle)}"><span>${esc(s.nom)}</span><small>${pluriel(s.marches, 'marché')} · ${liens ? pluriel(liens, 'lien probable', 'liens probables') : 'aucun lien probable'}</small></a>`;
   }).join('') : '<p class="doux">Aucune société de la base ne porte ce nom.</p>'}`;
 }
 function rendreListe(d) {
@@ -639,7 +645,7 @@ function rendreListe(d) {
     : `<strong>${pluriel(d.total, 'famille')}</strong> pour ces niveaux · calcul du ${calcule}`;
   if (!d.total) {
     liste.innerHTML = `<li><div class="etat"><h2>Aucune famille</h2><p>${ETAT.q
-      ? 'Aucun groupe ne contient ces sociétés pour les niveaux choisis. Ouvrez la fiche d’une société ci-dessus pour voir tous ses partenaires de présence, faibles compris.'
+      ? 'Aucun groupe ne contient ces sociétés pour les niveaux choisis. Ouvrez la fiche d’une société ci-dessus : elle montre qui est présent quand elle gagne, qui elle accompagne et qui la bat.'
       : 'Aucun groupe pour ces niveaux.'}</p></div></li>`;
     pages.innerHTML = '';
     return;
@@ -773,7 +779,7 @@ function formulaireAvis(titre, faits, data, actuel, groupe, question) {
 const sens = p => p.part_a == null ? '' : `${esc(courtNom(p.b.nom, 30))} est présente sur ${pct(p.part_a)} des marchés de ${esc(courtNom(p.a.nom, 30))}, et inversement ${pct(p.part_b)}.`;
 function blocAvis(f) {
   const paires = f.paires.map(p => {
-    const faits = p.communs == null ? 'Moins de 3 marchés en commun.' : `${pluriel(p.communs, 'marché')} en commun, excès ${dec(p.exces)} par rapport au hasard${p.niveau ? ` — niveau ${esc(LIB_NIVEAU[p.niveau].toLowerCase())}${p.mutuel ? ' (présence mutuelle habituelle)' : ''}` : ' — sans niveau'}. ${sens(p)}`;
+    const faits = p.communs == null ? 'Moins de 3 marchés en commun.' : `${pluriel(p.communs, 'marché')} en commun, ${foisPlus(p.exces)}${p.niveau ? ` — ${esc(LIB_NIVEAU[p.niveau].toLowerCase())}${p.mutuel ? ' (elles se suivent)' : ''}` : ' — aucun signal statistique'}. ${sens(p)}`;
     return formulaireAvis(`${lienFiche(p.a.cle, p.a.nom)} et ${lienFiche(p.b.cle, p.b.nom)}`, faits,
       `data-a="${esc(p.a.cle)}" data-b="${esc(p.b.cle)}"`, p.avis, false, f.question);
   }).join('');
@@ -826,13 +832,13 @@ function blocMembresFamille(f) {
     ? ` <span class="doux">dans ${presence(m.cle)} groupe${presence(m.cle) > 1 ? 's' : ''} sur ${n}</span>` : ''}</li>`).join('')}</ul>`
     : '<p class="vide">Aucun.</p>';
   return `<div class="carte"><h2>Membres de la famille</h2>
-    <p class="intro">Une famille réunit des groupes qui se recoupent. Les membres permanents sont présents dans tous ses groupes ; les occasionnels, dans certains seulement.</p>
+    <p class="intro">Une famille réunit des groupes qui se recoupent. Les sociétés permanentes sont présentes dans tous ses groupes ; les autres, dans une partie seulement.</p>
     <div class="membres-famille"><div><h3>Permanents (${f.permanents.length})</h3><p class="intro">Présents dans les ${pluriel(n, 'groupe')} de la famille.</p>${liste(f.permanents, false)}</div>
-    <div><h3>Occasionnels (${f.occasionnels.length})</h3><p class="intro">Présents dans une partie des groupes seulement.</p>${liste(f.occasionnels, true)}</div></div></div>`;
+    <div><h3>Présentes dans une partie du groupe (${f.occasionnels.length})</h3><p class="intro">Elles n’apparaissent que dans une partie des groupes de la famille.</p>${liste(f.occasionnels, true)}</div></div></div>`;
 }
 function blocCliques(f) {
   return `<div class="carte"><h2>Groupes de la famille (${f.cliques.length})</h2>
-    <p class="intro">Dans un groupe, toutes les sociétés sont liées deux à deux (niveau fort ou moyen, ou avis « oui »). Les membres occasionnels sont en gris. Ouvrez un groupe pour voir pourquoi il a son score, qui gagne quand il est présent, ses marchés communs, et donner votre avis.</p>
+    <p class="intro">Dans un groupe, toutes les sociétés sont liées deux à deux (lien probable ou très probable, ou avis « oui »). Celles qui ne sont présentes que dans une partie du groupe sont en gris. Ouvrez un groupe pour voir pourquoi il a son score, qui gagne quand il est présent, ses marchés communs, et donner votre avis.</p>
     <div class="cliques">${f.cliques.map(c => carteClique(c, f)).join('')}</div></div>`;
 }
 function rendreFamille(f) {
@@ -842,7 +848,7 @@ function rendreFamille(f) {
   $('#fiche').innerHTML = `<div class="fiche">${RETOUR_LISTE}${message}
     <div class="carte"><div class="fiche-tete">${anneau(f.score)}<div style="min-width:0">
       <h2 id="titre-fiche" tabindex="-1">${noms}</h2>
-      <div class="fiche-tete__meta"><span>${pluriel(f.permanents.length, 'permanent')}</span><span>${pluriel(f.occasionnels.length, 'occasionnel')}</span>
+      <div class="fiche-tete__meta"><span>${pluriel(f.permanents.length, 'permanente')}</span><span title="Présentes dans une partie des groupes seulement">${pluriel(f.occasionnels.length, 'dans une partie', 'dans une partie')}</span>
         <span>${pluriel(f.cliques.length, 'groupe')}</span><span>${pluriel(f.marches, 'marché')} pour le meilleur groupe</span>
         <span>${esc(moisFr(f.premier))} → ${esc(moisFr(f.dernier))}</span>${f.niveaux.filter(n => n !== 'sans niveau').map(puceNiveau).join('')}${puceAvisInterne(f.avis)}</div></div></div>
       <p class="rappel" style="margin-top:12px">Le score de la famille est celui de son meilleur groupe. Une famille est un fait statistique de présence commune, pas une conclusion.
@@ -865,33 +871,109 @@ async function ouvrirFamille(id, { focus = true } = {}) {
   }
 }
 
-// ---------------------------------------------------------------- fiche d'une société : partenaires de présence
-function sensPartenaire(p, nom) {
-  if (p.part_societe == null) return 'Moins de 3 marchés en commun : ajoutée par un avis.';
-  if (p.deux_sens) return 'Dans les deux sens : chacune accompagne l’autre.';
-  if (p.accompagne_societe) return `${esc(courtNom(p.partenaire.nom, 40))} accompagne ${esc(courtNom(nom, 40))} : elle est avec elle sur ${pct(p.part_partenaire)} de ses propres marchés.`;
-  if (p.accompagne_partenaire) return `${esc(courtNom(nom, 40))} accompagne ${esc(courtNom(p.partenaire.nom, 40))} : elle est avec elle sur ${pct(p.part_societe)} de ses propres marchés.`;
-  return 'Présence occasionnelle dans les deux sens (moins de la moitié des marchés de chacune).';
+// ---------------------------------------------------------------- fiche d'une société : ses quatre sections
+// Chaque terme de la page a une info-bulle courte, écrite une seule fois ici.
+const TERMES = {
+  liees: 'Deux sociétés présentes ensemble sur les mêmes marchés plus souvent que le hasard ne le voudrait. C’est un signal, pas une conclusion.',
+  normale: 'La normale, c’est ce que donnerait le hasard si chacune gardait ses acheteurs et son nombre de marchés. « 9 fois plus » : neuf fois plus souvent ensemble que cette normale.',
+  presente: 'Part des marchés d’une société où l’autre a aussi déposé une offre.',
+  position: 'Écart médian entre l’offre d’une société et l’offre gagnante, en part de celle-ci. « +5 % » : son offre était 5 % au-dessus.',
+  victoires: 'Marchés et lots gagnés : un marché alloti compte lot par lot.',
+  gagne_avec: 'Nombre de marchés et de lots partagés que l’autre société a gagnés.',
+  niveau: 'Lien très probable, probable ou à vérifier : cela dépend du nombre de marchés communs, de l’écart à la normale et de la probabilité d’un tel écart par hasard.',
+  hasard: 'Probabilité d’observer autant de marchés communs par hasard. Plus elle est petite, moins le hasard explique la rencontre.',
+  avis: 'Votre réponse, enregistrée à votre nom. Le dernier avis tranché (oui ou non) est celui qui compte.',
+  communs: 'Marchés où les deux ont déposé une offre sur la même unité jugée — le même lot quand le marché est alloti — offres écartées comprises. Entre parenthèses, le compte en marchés et lots.',
+};
+const aide = (texte, cle) => `<span class="aide" title="${esc(TERMES[cle] || '')}">${texte}</span>`;
+const faitAide = (label, cle, valeur) => fait(aide(label, cle), valeur);
+const foisPlus = x => x == null ? '—'
+  : `${x >= 2 ? nf.format(Math.round(x)) : dec(x, 1)} fois plus souvent ensemble que la normale`;
+const ecartFr = x => x == null ? '—' : (x >= 0 ? '+' : '−') + Math.abs(x * 100).toFixed(1).replace('.', ',') + ' %';
+const surN = (n, total) => `${nf.format(n)}${total ? ` <span class="doux">sur ${nf.format(total)}</span>` : ''}`;
+
+function faitsLien(l, s, code) {
+  const nomL = esc(courtNom(l.societe.nom, 22)), nomS = esc(courtNom(s.nom, 22));
+  const communs = faitAide('Marchés communs', 'communs',
+    `${nf.format(l.marches_communs)} <span class="doux">(${nf.format(l.unites_communes)} avec les lots)</span>`);
+  const normale = faitAide('Présence commune', 'normale', foisPlus(l.exces));
+  const croiseeL = faitAide('Présence croisée', 'presente', `${nomS} est présente sur ${pct(l.part_marches_partenaire)} des marchés de ${nomL}`);
+  const croiseeS = faitAide('Présence croisée', 'presente', `${nomL} est présente sur ${pct(l.part_marches_societe)} des marchés de ${nomS}`);
+  if (code === 'gagne_avec') return [
+    fait('Présente quand elle gagne', `${surN(l.victoires_societe, l.victoires_societe_total)} victoires`),
+    faitAide('Gagne avec elle', 'gagne_avec', `${pluriel(l.victoires_partenaire, 'fois', 'fois')} <span class="doux">sur ${nf.format(l.unites_communes)} marchés et lots</span>`),
+    communs, croiseeL,
+    faitAide(`Offre de ${nomL}`, 'position', `${ecartFr(l.position_quand_elle_gagne)} <span class="doux">de l’offre gagnante</span>`),
+    normale].join('');
+  if (code === 'accompagne') return [
+    fait(`Victoires de ${nomL} avec ${nomS} présente`, `${surN(l.victoires_partenaire, l.victoires_partenaire_total)} victoires`),
+    faitAide(`${nomS} gagne quand elles sont ensemble`, 'gagne_avec', pluriel(l.victoires_societe, 'fois', 'fois')),
+    communs, croiseeS,
+    faitAide(`Offre de ${nomS}`, 'position', `${ecartFr(l.position_quand_il_gagne)} <span class="doux">de l’offre gagnante</span>`),
+    normale].join('');
+  if (code === 'concurrents') return [
+    fait(`Victoires contre ${nomS}`, surN(l.victoires_partenaire, l.victoires_partenaire_total)),
+    fait(`Victoires de ${nomS} contre elle`, nf.format(l.victoires_societe)),
+    communs,
+    faitAide(`Offre de ${nomS}`, 'position', `${ecartFr(l.position_quand_il_gagne)} <span class="doux">de l’offre gagnante</span>`),
+    normale].join('');
+  return [communs, normale, croiseeL,
+    faitAide('Probabilité par hasard', 'hasard', l.p == null ? '—' : (l.p < 0.001 ? 'moins de 0,1 %' : pct(l.p, 1))),
+    fait('Résultats communs', l.victoires_societe || l.victoires_partenaire
+      ? `${nomS} ${nf.format(l.victoires_societe)}, ${nomL} ${nf.format(l.victoires_partenaire)}`
+      : 'aucune victoire ni d’un côté ni de l’autre')].join('');
 }
-function cartePartenaire(p, s, question) {
-  const e = p.ensemble;
-  const qui = e.unites ? `${esc(courtNom(s.nom, 26))} ${e.gains_societe}, ${esc(courtNom(p.partenaire.nom, 26))} ${e.gains_partenaire}, autres ${e.gains_autres} <span class="doux">(sur ${e.unites})</span>` : '—';
-  const preuves = p.preuves.length ? `<ul class="liste-preuves">${p.preuves.map(m => `<li><span class="num-v">${dateFr(m.date)}</span><span class="mono">${esc(m.ref)}</span><span class="doux">${esc(m.acheteur)}</span>${m.gagnants.length ? `<span>gagné par ${m.gagnants.map(g => esc(courtNom(g.nom, 30))).join(', ')}</span>` : ''}</li>`).join('')}</ul>` : '<p class="doux">Aucun marché commun rangé.</p>';
+
+function tableauPreuves(l, s, preuves) {
+  if (!preuves.length) return '<p class="doux">Aucun marché commun à montrer.</p>';
+  const coche = ' <span class="num-v" title="offre retenue">✓</span>';
+  const lignes = preuves.map(m => `<tr>
+    <td>${dateFr(m.date)}</td>
+    <td><span class="mono">${esc(m.reference || m.ref)}</span>${m.lot ? ` <span class="doux">lot ${esc(m.lot)}</span>` : ''}</td>
+    <td>${esc(courtNom(m.acheteur, 34))}</td>
+    <td>${m.gagnant ? esc(courtNom(m.gagnant.nom, 26)) : '<span class="doux">non attribué</span>'}</td>
+    <td class="num">${tauxFr(m.taux_societe)}${m.gagne === 'societe' ? coche : ''}</td>
+    <td class="num">${tauxFr(m.taux_partenaire)}${m.gagne === 'partenaire' ? coche : ''}</td></tr>`).join('');
+  return `<div class="defile"><table class="tableau"><thead><tr><th>Date</th><th>Marché</th><th>Acheteur</th>
+    <th>Gagnant</th><th class="num">${esc(courtNom(s.nom, 18))}</th><th class="num">${esc(courtNom(l.societe.nom, 18))}</th></tr></thead>
+    <tbody>${lignes}</tbody></table></div>
+    ${l.preuves_total > preuves.length ? `<p class="doux" style="margin-top:6px">Seuls les ${preuves.length} plus récents sont montrés, sur ${nf.format(l.preuves_total)}.</p>` : ''}`;
+}
+
+function carteSocieteLiee(l, s, section, question, preuves) {
   return `<article class="partenaire">
-    <div class="partenaire__haut">${lienFiche(p.partenaire.cle, p.partenaire.nom)}${puceNiveau(p.niveau)}${p.mutuel ? '<span class="puce" title="Au moins 5 marchés communs, et chacune sur la moitié des marchés de l’autre">présence mutuelle</span>' : ''}${p.avis ? `<span class="puce ${PUCE_REPONSE[p.avis.reponse]}">avis : ${LIBELLE_REPONSE[p.avis.reponse].toLowerCase()}</span>` : ''}</div>
-    <div class="faits">
-      ${fait('Marchés communs', p.communs == null ? '—' : nf.format(p.communs))}
-      ${fait(`Part des marchés de ${esc(courtNom(s.nom, 22))}`, pct(p.part_societe))}
-      ${fait(`Part des marchés du partenaire`, pct(p.part_partenaire) + (p.partenaire.marches != null ? ` <span class="doux">(sur ${p.partenaire.marches})</span>` : ''))}
-      ${fait('Excès par rapport au hasard', p.exces == null ? '—' : `${dec(p.exces)} <span class="doux">(attendu ${dec(p.attendu)})</span>`)}
-      ${fait('Qui gagne quand ils sont ensemble', qui)}
-      ${fait('Taux de victoire de la paire', pct(e.taux_victoire))}
-    </div>
-    <div class="avis__faits">${sensPartenaire(p, s.nom)}</div>
-    <details><summary>Marchés en preuve (${p.preuves.length})</summary>${preuves}</details>
-    ${formulaireAvis('', '', `data-a="${esc(p.cle_a)}" data-b="${esc(p.cle_b)}"`, p.avis, false, question)}
+    <div class="partenaire__haut">${lienFiche(l.societe.cle, l.societe.nom)}${puceNiveau(l.niveau)}${
+      l.mutuel ? `<span class="puce" title="${esc(REGLAGES ? `Au moins ${REGLAGES.mutuel.communs} marchés communs, et chacune sur au moins ${pct(REGLAGES.mutuel.part)} des marchés de l’autre` : '')}">se suivent</span>` : ''}${
+      l.avis ? `<span class="puce ${PUCE_REPONSE[l.avis.reponse]}" title="${esc(TERMES.avis)}">avis : ${LIBELLE_REPONSE[l.avis.reponse].toLowerCase()}</span>` : ''}
+      <span class="profil">${esc(l.profil.phrase)}</span></div>
+    <div class="faits">${faitsLien(l, s, section.code)}</div>
+    <details><summary>Marchés en preuve (${nf.format(l.preuves_total)})</summary>${tableauPreuves(l, s, preuves)}</details>
+    ${section.avis ? formulaireAvis('', '', `data-a="${esc(l.cle_a)}" data-b="${esc(l.cle_b)}"`, l.avis, false, question) : ''}
   </article>`;
 }
+
+const PAR_SECTION = 10;
+let AFFICHEES = {};
+function carteSection(section, s, question, preuves) {
+  const vide = { gagne_avec: 'Aucune société n’était présente lors d’au moins deux de ses victoires.',
+    accompagne: 'Elle n’est présente lors d’aucune série de victoires d’une même société.',
+    concurrents: 'Aucune autre société n’a gagné un marché où elle était présente.',
+    a_verifier: 'Aucune autre présence commune au-delà du hasard.' }[section.code];
+  const montrees = AFFICHEES[section.code] || PAR_SECTION;
+  const vues = section.lignes.slice(0, montrees), reste = section.lignes.length - vues.length;
+  const corps = section.lignes.length
+    ? `<div class="partenaires">${vues.map(l => carteSocieteLiee(l, s, section, question, preuves[l.societe.cle] || [])).join('')}</div>${
+        reste > 0 ? `<div class="plus"><button type="button" class="btn" data-plus="${section.code}">Afficher ${Math.min(PAR_SECTION, reste)} de plus (${nf.format(reste)} ${reste > 1 ? 'restantes' : 'restante'})</button></div>` : ''}`
+    : `<p class="doux">${vide}</p>`;
+  const compte = section.total > vues.length
+    ? `${nf.format(vues.length)} sur ${nf.format(section.total)}` : nf.format(section.total);
+  const titre = `<h2>${esc(section.titre)} <span class="doux">(${compte})</span></h2><p class="intro">${esc(section.intro)}</p>`;
+  return section.ouverte
+    ? `<div class="carte">${titre}${corps}</div>`
+    : `<div class="carte"><details class="plie"><summary>${esc(section.titre)} (${compte})</summary>
+        <p class="intro" style="margin-top:8px">${esc(section.intro)}</p>${corps}</details></div>`;
+}
+
 function blocAjout(s) {
   return `<div class="carte"><h2>Ajouter une société liée</h2>
     <p class="intro">Vous savez que ${esc(s.nom)} est liée à une autre société (partenaire habituel, même dirigeant, groupement déclaré) ? Choisissez-la et dites d’où vient l’information : l’avis « oui » est enregistré à votre nom, la paire apparaît aussitôt ici et rejoint les groupes au prochain recalcul.</p>
@@ -904,22 +986,24 @@ function blocAjout(s) {
       <div class="avis__etat" id="ajout-etat" role="status"></div>
     </form></div>`;
 }
-function rendreSociete(d) {
+function rendreSociete(d, garderAffichees = false) {
   SOCIETE = d; FICHE = null; FAMILLE = null;
+  if (!garderAffichees) AFFICHEES = {};
+  REGLAGES = d.reglages; rendreGlossaire(d.reglages);
   const s = d.societe;
-  const liste = d.partenaires.length ? `<div class="partenaires">${d.partenaires.map(p => cartePartenaire(p, s, d.question)).join('')}</div>`
-    : `<p class="doux">Aucun partenaire de présence au-delà du hasard parmi les ${nf.format(d.paires_examinees)} sociétés croisées au moins 3 fois.</p>`;
   const grp = d.groupes.length ? `<div class="cliques">${d.groupes.map(g => `<a class="soc" href="#f=${g.famille}&g=${g.id}" data-fam="${g.famille}" data-g="${g.id}"><span>Groupe de ${pluriel(g.taille, 'société')} · score ${g.score}</span><small>${esc(LIB_NIVEAU[g.niveau] || g.niveau)} · ${pluriel(g.marches, 'marché')}</small></a>`).join('')}</div>`
-    : '<p class="doux">Elle ne fait partie d’aucun groupe (liens fort ou moyen, ou avis « oui »).</p>';
+    : '<p class="doux">Elle ne fait partie d’aucun groupe (lien très probable ou probable, ou avis « oui »).</p>';
+  const liens = s.fort + s.moyen + s.faible;
   $('#fiche').innerHTML = `<div class="fiche">${RETOUR_LISTE}
     <div class="carte"><h2 id="titre-fiche" tabindex="-1">${esc(s.nom)}</h2>
+      <p class="resume-societe">${esc(d.resume.phrase)}</p>
       <div class="fiche-tete__meta"><span>${pluriel(s.marches, 'marché')} avec une offre déposée</span>
-        <span>${nf.format(s.fort)} fort · ${nf.format(s.moyen)} moyen · ${nf.format(s.faible)} faible</span><span>${pluriel(s.groupes, 'groupe')}</span>
+        <span>${aide(`${pluriel(s.victoires, 'victoire')} sur ${pluriel(s.unites, 'marché et lot', 'marchés et lots')}`, 'victoires')}</span>
+        <span>${aide(liens ? pluriel(liens, 'lien probable', 'liens probables') : 'aucun lien probable', 'liees')}</span>
+        <span>${pluriel(s.groupes, 'groupe')}</span>
         <span>${lienSociete(s.cle, 'Voir son historique')}</span></div>
       ${d.message ? `<p class="avertissement" role="status" style="margin-top:12px">${esc(d.message)}</p>` : ''}</div>
-    <div class="carte"><h2>Partenaires de présence</h2>
-      <p class="intro">Les sociétés qui déposent des offres sur les mêmes marchés plus souvent que le hasard ne le voudrait, triées par excès (jusqu’à ${d.reglages.partenaires}). Les liens faibles sont montrés ici seulement. Un partenaire de présence n’est pas forcément un associé : seul votre avis le dit.</p>
-      ${liste}</div>
+    ${d.sections.map(x => carteSection(x, s, d.question, d.preuves)).join('')}
     ${blocAjout(s)}
     <div class="carte"><h2>Groupes de la société</h2>${grp}</div>
     ${blocHistorique(d.historique, 'Aucun avis sur cette société.')}</div>`;
@@ -928,7 +1012,7 @@ async function ouvrirSociete(cle, { focus = true } = {}) {
   const jeton = ++jetonFiche;
   chargement(); FICHE = null; FAMILLE = null;
   try {
-    const d = await api('/api/copilote/societe/' + encodeURIComponent(cle));
+    const d = await api('/api/copilote/societe/' + encodeURIComponent(cle) + '/liens');
     if (jeton !== jetonFiche) return;
     rendreSociete(d);
     if (focus) { window.scrollTo(0, 0); $('#titre-fiche')?.focus({ preventScroll: true }); }
@@ -973,7 +1057,7 @@ async function envoyerAjout() {
 function fermerFiche() {
   jetonFiche++; FICHE = null; FAMILLE = null; SOCIETE = null;
   document.body.dataset.vue = 'liste';
-  $('#fiche').innerHTML = `<div class="etat"><h2>Choisissez une famille ou une société</h2><p>Une famille réunit des groupes de sociétés qui se recoupent ; ouvrez-la pour voir ses groupes. Cherchez une société, même absente des groupes, pour voir tous ses partenaires de présence et donner votre avis.</p></div>`;
+  $('#fiche').innerHTML = `<div class="etat"><h2>Choisissez une famille ou une société</h2><p>Une famille réunit des groupes de sociétés qui se recoupent ; ouvrez-la pour voir ses groupes. Cherchez une société, même absente des groupes : sa fiche dit qui est présent quand elle gagne, quelles sociétés elle accompagne et qui la bat.</p></div>`;
 }
 
 // ================================================================ navigation
@@ -1026,6 +1110,12 @@ document.addEventListener('click', e => {
   if (e.target.closest('#retour')) { e.preventDefault(); naviguer({ f: null, g: null, s: null }); return; }
   if (e.target.closest('#retour-famille, [data-retour-famille]')) { e.preventDefault(); naviguer({ f: FICHE.famille_id, g: null, s: null }); return; }
   if (e.target.closest('#plus-marches')) { MARCHES_AFFICHES += 25; const y = scrollY; rendreFiche(FICHE); scrollTo(0, y); return; }
+  const plus = e.target.closest('[data-plus]');
+  if (plus) {
+    const code = plus.dataset.plus;
+    AFFICHEES[code] = (AFFICHEES[code] || PAR_SECTION) + PAR_SECTION;
+    const y = scrollY; rendreSociete(SOCIETE, true); scrollTo(0, y); return;
+  }
   const choix = e.target.closest('[data-choix]');
   if (choix) {
     AJOUT = { cle: choix.dataset.choix, nom: choix.dataset.nom };
@@ -1053,8 +1143,8 @@ async function envoyerAvis(bouton) {
       const id = FICHE.id, f = await api('/api/copilote/groupe/' + id);
       if (FICHE && FICHE.id === id) rendreFiche(f);
     } else if (SOCIETE) {
-      const cle = SOCIETE.societe.cle, d = await api('/api/copilote/societe/' + encodeURIComponent(cle));
-      if (SOCIETE && SOCIETE.societe.cle === cle) rendreSociete(d);
+      const cle = SOCIETE.societe.cle, d = await api('/api/copilote/societe/' + encodeURIComponent(cle) + '/liens');
+      if (SOCIETE && SOCIETE.societe.cle === cle) rendreSociete(d, true);
     }
     scrollTo(0, y);
     $(`${cible} [data-r="${corps.reponse}"]`)?.focus({ preventScroll: true });

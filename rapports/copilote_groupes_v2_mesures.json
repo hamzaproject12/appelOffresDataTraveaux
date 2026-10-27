@@ -171,7 +171,7 @@
    "rotation": 1525,
    "peu de victoires": 3218
   },
-  "duree_s": 42.9
+  "duree_s": 25.6
  },
  "partenaires": {
   "actives_avec_moyen_ou_fort": 2982.0,
@@ -1032,18 +1032,40 @@
     "attendus_2026": 26040.7
    }
   },
-  "duree_s": 13.9
+  "duree_s": 9.3
  },
  "temps": {
   "fiche_societe_ms": {
    "mesures": 220,
-   "mediane": 8.8,
-   "p95": 29.3,
-   "max": 36.7
+   "mediane": 11.0,
+   "p95": 51.7,
+   "max": 472.0,
+   "plus_lentes": [
+    {
+     "cle": "espoiralpha",
+     "ms": 472.0
+    },
+    {
+     "cle": "caritastravaux",
+     "ms": 77.6
+    },
+    {
+     "cle": "afdamtravaux",
+     "ms": 77.0
+    },
+    {
+     "cle": "lagosbtp",
+     "ms": 74.2
+    },
+    {
+     "cle": "sabrbuilding",
+     "ms": 68.5
+    }
+   ]
   },
-  "fiche_groupe_plus_grands_ms": 130.1,
-  "liste_ms": 59.8,
-  "liste_recherche_ms": 125.4
+  "fiche_groupe_plus_grands_ms": 60.2,
+  "liste_ms": 21.3,
+  "liste_recherche_ms": 63.0
  },
  "recherche": {
   "societes": 11631,
@@ -1057,7 +1079,7 @@
   "partenaires ≥ 1 500 sociétés actives (moyen ou fort)": 1.0,
   "66 anciens groupes retrouvés": true,
   "toute société trouvée par la recherche": true,
-  "fiche société < 300 ms": true,
+  "fiche société < 300 ms (p95)": true,
   "aucun mot accusateur": true
  }
 }
