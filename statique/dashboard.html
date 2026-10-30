@@ -583,7 +583,7 @@
       <a class="onglet" href="#/marches" data-vue="marches"><i data-ic="marches"></i><span>Marchés</span></a>
       <a class="onglet" href="#/societes" data-vue="societes"><i data-ic="societes"></i><span>Sociétés</span></a>
       <a class="onglet" href="#/acheteurs" data-vue="acheteurs"><i data-ic="acheteurs"></i><span>Maîtres d’ouvrage</span></a>
-      <a class="onglet" href="/copilote/groupes" id="onglet-groupes" hidden><i data-ic="groupes"></i><span>Groupes</span></a>
+      <a class="onglet" href="/copilote/groupes"><i data-ic="groupes"></i><span>Groupes</span></a>
     </nav>
     <div class="actions">
       <button type="button" class="btn-icone" id="bouton-theme"></button>
@@ -716,8 +716,6 @@ const ICONES = {
 };
 const ic = (nom, t = 20) => `<svg class="ic" width="${t}" height="${t}" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false">${ICONES[nom] || ''}</svg>`;
 document.querySelectorAll('i[data-ic]').forEach(el => { el.outerHTML = ic(el.dataset.ic, 20); });
-// Le lien « Groupes » n'existe que pour qui a l'accès copilote : 200 le révèle, 401 le laisse masqué.
-fetch('/api/copilote/moi', { credentials: 'same-origin' }).then(r => { if (r.ok) document.getElementById('onglet-groupes').hidden = false; }).catch(() => {});
 
 // ================================================================ annonces
 const zoneAnnonces = $('#annonces');

@@ -11,11 +11,14 @@ pour un appel d'offres (AO), étape par étape, de façon visible et modifiable 
 3. sous-historique et taux de chaque société ;
 4. simulation de l'ouverture des plis → chance de gagner selon notre prix ;
 5. décision GO / À ÉTUDIER / NO-GO avec notre coût et notre marge.
-Une page /copilote/groupes permet de chercher une société, voir ses groupes et donner un avis.
+Une page /copilote/groupes (visible par les visiteurs connectés) permet de chercher une société, de voir
+pour chacune qui est plus présent quand elle gagne (calcul fait dans le navigateur, groupes_calcul.js) et
+de donner un avis.
 
 ## Architecture décidée
 - Le code du copilote vit dans le paquet `copilote/` (un module par étape). Il est branché sur
-  `serveur.py` par un `APIRouter` : on ajoute UNE ligne d'inclusion dans serveur.py, rien d'autre.
+  `serveur.py` par un `APIRouter` : UNE inclusion dans serveur.py (avec ses deux fonctions de limite de
+  requêtes et de journal), rien d'autre.
 - Deux nouvelles bases SQLite, à part, sur le volume (/data), jamais dans l'image :
   - `copilote_calcul.db` : résultats recalculables (groupes, paires, index de similarité…).
     Peut être supprimée et reconstruite à tout moment par `python -m copilote.recalculer`.
@@ -26,11 +29,23 @@ Une page /copilote/groupes permet de chercher une société, voir ses groupes et
 - `pv_travaux.db` est TOUJOURS ouverte en lecture seule (mode=ro). Elle est remplacée à chaque
   déploiement : rien ne doit jamais y être écrit.
 - `ao_ouverts.db` est lue en lecture seule par le copilote (c'est serveur.py qui l'alimente).
-- Accès : toutes les routes /copilote/* et /api/copilote/* exigent une authentification dédiée
-  (variable COPILOTE_ACCES = "nom:code,nom:code"), en plus du cookie visiteur. Un visiteur qui
-  n'a donné que son nom n'y accède pas. Chaque avis enregistré garde le nom de son auteur.
+- Accès, deux niveaux :
+  - La page des groupes (/copilote/groupes) et ses API (/api/copilote/groupes, /societes, /societe/{cle}/liens,
+    /famille, /groupe, /avis, et /api/groupes/societe/{cle}/donnees) sont visibles par tous les
+    visiteurs connectés : le cookie visiteur suffit, pas de COPILOTE_ACCES. L'auteur d'un avis est le
+    nom de la session visiteur ; ces routes sont comptées dans les limites de requêtes du serveur et
+    journalisées avec l'adresse IP. La page porte un bandeau permanent, une balise noindex et le
+    vocabulaire neutre.
+  - Tout le reste du copilote (/copilote, /api/copilote/etat, similaires, acheteurs, correspondances, et
+    les étapes 5 à 9) exige une authentification dédiée (variable COPILOTE_ACCES = "nom:code,nom:code"),
+    en plus du cookie visiteur. Un visiteur qui n'a donné que son nom n'y accède pas.
+    tests/test_acces.py fige la liste des routes ouvertes au visiteur : en ajouter une est une décision.
+  Chaque avis enregistré garde le nom de son auteur.
 - Les calculs lourds et réguliers sont en Python : groupes (chaque semaine, via planificateur.py),
   similarité, sous-historiques. Le serveur renvoie un « dossier d'analyse » JSON complet.
+- Le calcul « autour d'une société » (A, B, C, A ÷ B, lecture) existe aussi en deux copies :
+  statique/groupes_calcul.js et copilote/autour_societe.py (pour l'étape 5), comparées sur 20 sociétés
+  par tests/test_autour_societe.py.
 - Les calculs interactifs sont faits dans le navigateur, en JavaScript natif : taux final pondéré,
   prix de référence, simulation, décision. Ils sont recalculés instantanément à chaque modification
   (marché similaire décoché, société retirée, taux modifié, coût saisi).

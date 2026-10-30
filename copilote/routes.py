@@ -2,13 +2,23 @@
 
     app.include_router(creer_routeur(SECRET, BASE, AO_BASE))
 
-Tout ce qui est sous /copilote et /api/copilote passe par acces.garde, sauf /copilote/entrer.
-Les routes protégées sont déclarées sur `protege`, dont la dépendance s'applique d'office : une
-route ajoutée plus tard ne peut pas oublier l'authentification.
+Trois niveaux d'accès, un routeur chacun :
+
+    public    /copilote/entrer                       cookie visiteur seulement pour s'y présenter
+    visiteur  la page des groupes et ses API         cookie visiteur seulement (nom saisi à l'entrée)
+    protege   tout le reste du copilote              cookie visiteur ET code COPILOTE_ACCES
+
+La dépendance de chaque routeur s'applique d'office : une route ajoutée plus tard ne peut pas
+oublier l'authentification. Les routes de `visiteur` sont comptées dans les limites de requêtes
+du serveur et journalisées avec l'adresse IP ; tests/test_acces.py fige la liste de ces routes.
 """
 from __future__ import annotations
 
+import gzip
+import hashlib
+import json
 import sqlite3
+from collections import OrderedDict
 from contextlib import closing
 from pathlib import Path
 from typing import Literal
@@ -18,11 +28,15 @@ from fastapi import Path as ParamChemin
 from fastapi.responses import FileResponse, HTMLResponse, JSONResponse, PlainTextResponse, RedirectResponse
 from pydantic import BaseModel, Field
 
-from . import acces, acheteurs, api_groupes, api_similaires, bases, config, fiche_societe, similarite
+from . import (acces, acheteurs, api_groupes, api_similaires, autour_societe, bases, config, fiche_societe,
+               similarite)
 from . import fusions as _fusions
+from . import groupes as groupes_mod
 
 STATIQUE = Path(__file__).resolve().parent.parent / "statique"
 SANS_CACHE = {"Cache-Control": "no-store"}
+NOINDEX = {"X-Robots-Tag": "noindex, nofollow"}
+MAX_DONNEES_EN_MEMOIRE = 48         # sociétés gardées compressées (160 Ko bruts pour la plus grosse)
 
 
 class AvisEntree(BaseModel):
@@ -46,12 +60,12 @@ class CorrespondanceEntree(BaseModel):
     nom_ao: str | None = Field(None, max_length=300)
 
 
-def page_statique(request: Request, nom: str) -> Response:
+def page_statique(request: Request, nom: str, plus: dict | None = None) -> Response:
     """Même règle que serveur.page_statique : revalidation à chaque visite, 304 si rien n'a changé."""
     chemin = STATIQUE / nom
     st = chemin.stat()
     etag = f'"{st.st_mtime_ns:x}-{st.st_size:x}"'
-    entetes = {"Cache-Control": "no-cache", "ETag": etag}
+    entetes = {"Cache-Control": "no-cache", "ETag": etag, **(plus or {})}
     if request.headers.get("if-none-match") == etag:
         return Response(status_code=304, headers=entetes)
     return FileResponse(chemin, headers=entetes)
@@ -132,12 +146,37 @@ def _etat_base(chemin: Path, mode: str, requete: str | None, ouvrir) -> dict:
     return etat
 
 
-def creer_routeur(secret: bytes, base: Path | str, ao_base: Path | str) -> APIRouter:
-    """Le routeur du copilote. `secret` est celui de serveur.py, `base` et `ao_base` ses deux bases."""
+def creer_routeur(secret: bytes, base: Path | str, ao_base: Path | str,
+                  limiter=None, journaliser=None) -> APIRouter:
+    """Le routeur du copilote. `secret` est celui de serveur.py, `base` et `ao_base` ses deux bases.
+
+    `limiter(nom, ip) -> bool` est le compteur de requêtes de serveur.py (par nom et par adresse IP) ;
+    `journaliser(request, session, action, details)` écrit dans son journal des visiteurs, adresse IP
+    comprise. Sans eux (scripts, tests) les routes visiteur ne sont ni comptées ni journalisées.
+    """
     bases.definir_sources(base, ao_base)
     garde = acces.garde(secret)
 
+    def garde_visiteur(request: Request) -> dict:
+        """Le cookie visiteur suffit : 401 pour l'API, retour à l'accueil pour la page. Compte la requête."""
+        s = acces.session_visiteur(secret, request)
+        if not s:
+            if request.url.path.startswith("/api/"):
+                raise HTTPException(401, "Session expirée")
+            raise HTTPException(302, "Session expirée", headers={"Location": "/"})
+        if limiter and not limiter(s["n"], acces.adresse(request)):
+            raise HTTPException(429, "Trop de requêtes, réessayez plus tard.")
+        return s
+
+    def noter(request: Request, session: dict, action: str, details: str = "") -> None:
+        if journaliser:
+            try:
+                journaliser(request, session, action, details)
+            except Exception as e:                              # noqa: BLE001 : un journal en panne ne bloque rien
+                print(f"[copilote] journal non écrit : {e}", flush=True)
+
     public = APIRouter()
+    visiteur = APIRouter(dependencies=[Depends(garde_visiteur)])
     protege = APIRouter(dependencies=[Depends(garde)])
 
     @public.get("/copilote/entrer", response_class=HTMLResponse)
@@ -203,16 +242,22 @@ def creer_routeur(secret: bytes, base: Path | str, ao_base: Path | str) -> APIRo
         }, headers={"Cache-Control": "no-store"})
 
     # ------------------------------------------------------------------ étape 3 : groupes
-    @protege.get("/copilote/groupes")
-    def page_groupes(request: Request):
-        return page_statique(request, "copilote_groupes.html")
+    @visiteur.get("/copilote/groupes")
+    def page_groupes(request: Request, session: dict = Depends(garde_visiteur)):
+        noter(request, session, "groupes_page")
+        return page_statique(request, "copilote_groupes.html", NOINDEX)
+
+    @visiteur.get("/copilote/groupes_calcul.js")
+    def script_calcul(request: Request):
+        """Le calcul de la page des groupes (JavaScript natif), revalidé à chaque visite comme la page."""
+        return page_statique(request, "groupes_calcul.js")
 
     @protege.get("/api/copilote/moi")
     def moi(session: dict = Depends(garde)):
         """Réponse légère pour la barre du haut : 200 si le visiteur a l'accès copilote, 401 sinon."""
         return JSONResponse({"nom": session["nom"]}, headers=SANS_CACHE)
 
-    @protege.get("/api/copilote/groupes")
+    @visiteur.get("/api/copilote/groupes")
     def liste_groupes(q: str = Query("", max_length=100), tri: Literal[api_groupes.TRIS] = "score",
                       niveaux: str = Query("", max_length=60, pattern=r"^[a-z,]*$"),
                       page: int = Query(1, ge=1, le=100_000)):
@@ -220,15 +265,16 @@ def creer_routeur(secret: bytes, base: Path | str, ao_base: Path | str) -> APIRo
         with closing(bases.calcul()) as calc, closing(bases.retours()) as ret:
             return JSONResponse(api_groupes.lister(calc, ret, q, tri, voulus, page), headers=SANS_CACHE)
 
-    @protege.get("/api/copilote/societes")
+    @visiteur.get("/api/copilote/societes")
     def chercher_societes(q: str = Query("", max_length=100),
                           limite: int = Query(api_groupes.MAX_RECHERCHE, ge=1, le=50)):
         """Toutes les sociétés de la base (table societes), pas seulement celles d'un groupe."""
         with closing(bases.calcul()) as calc:
             return JSONResponse(api_groupes.chercher_societes(calc, q, limite), headers=SANS_CACHE)
 
-    @protege.get("/api/copilote/societe/{cle}/liens")
-    def liens_societe(cle: str = ParamChemin(pattern=r"^[a-z0-9]{1,200}$")):
+    @visiteur.get("/api/copilote/societe/{cle}/liens")
+    def liens_societe(request: Request, cle: str = ParamChemin(pattern=r"^[a-z0-9]{1,200}$"),
+                      session: dict = Depends(garde_visiteur)):
         """La fiche d'une société : présentes quand elle gagne, sociétés qu'elle accompagne,
         concurrents directs, autres présences à vérifier."""
         try:
@@ -238,9 +284,57 @@ def creer_routeur(secret: bytes, base: Path | str, ao_base: Path | str) -> APIRo
             raise HTTPException(503, str(e)) from None
         if f is None:
             raise HTTPException(404, "Société introuvable")
+        noter(request, session, "groupes_societe", cle)
         return JSONResponse(f, headers=SANS_CACHE)
 
-    @protege.get("/api/copilote/famille/{empreinte}")
+    donnees_en_memoire: "OrderedDict[tuple, tuple[bytes, bytes]]" = OrderedDict()
+
+    @visiteur.get("/api/groupes/societe/{cle}/donnees")
+    def donnees_societe(request: Request, cle: str = ParamChemin(pattern=r"^[a-z0-9]{1,200}$"),
+                        session: dict = Depends(garde_visiteur)):
+        """Les données brutes d'une société, pour le calcul fait dans le navigateur. Compressées (gzip)
+        et gardées en mémoire tant que l'historique, les fusions, le calcul des groupes et les avis de
+        cette société ne changent pas ; l'ETag permet au navigateur de ne rien retélécharger."""
+        try:
+            st = bases.chemin_historique().stat()
+        except OSError:
+            raise HTTPException(503, "Historique indisponible") from None
+        fusions = _fusions.charger()
+        with closing(bases.calcul()) as calc, closing(bases.retours()) as ret:
+            if not api_groupes._prets(calc):
+                raise HTTPException(409, "Aucun calcul de groupes : lancez python -m copilote.recalculer groupes.")
+            groupes_mod.preparer_retours(ret)
+            avis = ret.execute("SELECT COUNT(*), MAX(id) FROM avis_groupes WHERE cle_a = ? OR cle_b = ?",
+                               (cle, cle)).fetchone()
+            version = (cle, st.st_mtime_ns, st.st_size, api_groupes._meta(calc)["cree_le"],
+                       tuple(sorted(fusions.items())), tuple(avis))
+            etag = '"' + hashlib.sha1(repr(version).encode()).hexdigest()[:20] + '"'
+            entetes = {"Cache-Control": "private, no-cache", "ETag": etag, "Vary": "Accept-Encoding"}
+            if request.headers.get("if-none-match") == etag:
+                return Response(status_code=304, headers=entetes)
+            gardee = donnees_en_memoire.get(version)
+            if gardee is None:
+                try:
+                    with closing(bases.historique()) as hist:
+                        d = autour_societe.donnees(hist, calc, ret, cle, fusions)
+                except FileNotFoundError as e:
+                    raise HTTPException(503, str(e)) from None
+                if d is None:
+                    raise HTTPException(404, "Société introuvable")
+                brut = json.dumps(d, ensure_ascii=False, separators=(",", ":")).encode()
+                gardee = (brut, gzip.compress(brut, 6))
+                donnees_en_memoire[version] = gardee
+                while len(donnees_en_memoire) > MAX_DONNEES_EN_MEMOIRE:
+                    donnees_en_memoire.popitem(last=False)
+            else:
+                donnees_en_memoire.move_to_end(version)
+        noter(request, session, "groupes_societe", cle)
+        if "gzip" in request.headers.get("accept-encoding", ""):
+            return Response(gardee[1], media_type="application/json",
+                            headers={**entetes, "Content-Encoding": "gzip"})
+        return Response(gardee[0], media_type="application/json", headers=entetes)
+
+    @visiteur.get("/api/copilote/famille/{empreinte}")
     def une_famille(empreinte: str = ParamChemin(pattern=r"^[0-9a-f]{8,64}$")):
         with closing(bases.calcul()) as calc, closing(bases.retours()) as ret:
             f = api_groupes.famille(calc, ret, empreinte)
@@ -248,7 +342,7 @@ def creer_routeur(secret: bytes, base: Path | str, ao_base: Path | str) -> APIRo
             raise HTTPException(404, "Famille introuvable")
         return JSONResponse(f, headers=SANS_CACHE)
 
-    @protege.get("/api/copilote/groupe/{gid}")
+    @visiteur.get("/api/copilote/groupe/{gid}")
     def un_groupe(gid: int):
         with closing(bases.calcul()) as calc, closing(bases.retours()) as ret:
             f = api_groupes.fiche(calc, ret, gid)
@@ -256,19 +350,22 @@ def creer_routeur(secret: bytes, base: Path | str, ao_base: Path | str) -> APIRo
             raise HTTPException(404, "Groupe introuvable")
         return JSONResponse(f, headers=SANS_CACHE)
 
-    @protege.get("/api/copilote/avis")
+    @visiteur.get("/api/copilote/avis")
     def liste_avis(limite: int = Query(50, ge=1, le=200)):
         with closing(bases.calcul()) as calc, closing(bases.retours()) as ret:
             return JSONResponse({"avis": api_groupes.derniers_avis(calc, ret, limite)}, headers=SANS_CACHE)
 
-    @protege.post("/api/copilote/avis")
-    def donner_avis(avis: AvisEntree, session: dict = Depends(garde)):
+    @visiteur.post("/api/copilote/avis")
+    def donner_avis(request: Request, avis: AvisEntree, session: dict = Depends(garde_visiteur)):
+        # L'auteur est le nom de la session visiteur : il ne vient jamais de la requête.
         try:
             with closing(bases.calcul()) as calc, closing(bases.retours()) as ret:
-                r = api_groupes.enregistrer_avis(calc, ret, session["nom"], avis.reponse, avis.commentaire,
+                r = api_groupes.enregistrer_avis(calc, ret, session["n"], avis.reponse, avis.commentaire,
                                                  avis.groupe, avis.cle_a, avis.cle_b, avis.ajout)
         except api_groupes.ErreurAvis as e:
             raise HTTPException(e.statut, str(e))
+        noter(request, session, "groupes_avis",
+              f"{avis.reponse} {avis.cle_a or ''} {avis.cle_b or ''} groupe={avis.groupe}"[:200])
         return JSONResponse(r, headers=SANS_CACHE)
 
     # ------------------------------------------------------------------ étape 4 : marchés similaires
@@ -331,11 +428,17 @@ def creer_routeur(secret: bytes, base: Path | str, ao_base: Path | str) -> APIRo
                     fiche_societe.victoires_par_societe(hist, _fusions.charger())
             except Exception as e:                              # noqa: BLE001
                 print(f"[copilote] victoires par société non préchargées : {e}", flush=True)
+            try:
+                with closing(bases.historique()) as hist:
+                    autour_societe.unites_par_societe(hist, _fusions.charger())
+            except Exception as e:                              # noqa: BLE001
+                print(f"[copilote] unités par société non préchargées : {e}", flush=True)
         import threading
         threading.Thread(target=travail, name="copilote-prechauffage", daemon=True).start()
 
     routeur = APIRouter()
     routeur.add_event_handler("startup", prechauffer)
     routeur.include_router(public)
+    routeur.include_router(visiteur)
     routeur.include_router(protege)
     return routeur

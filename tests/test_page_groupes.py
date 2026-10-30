@@ -62,7 +62,9 @@ class Base(unittest.TestCase):
             calc = bases.calcul()
             groupes.enregistrer(calc, groupes.detecter(donnees, tirages=20))
             calc.close()
-        self.alice, self.bob = self.client("code-alice"), self.client("code-bob")
+        # Depuis le 7e changement, l'auteur d'un avis est le nom de la session visiteur : Alice et Bob
+        # sont des visiteurs de ce nom, qui ont aussi un code copilote (pour les routes protégées).
+        self.alice, self.bob = self.client("code-alice", "Alice"), self.client("code-bob", "Bob")
 
     def tearDown(self):
         for p in self.patchs:
@@ -70,9 +72,9 @@ class Base(unittest.TestCase):
         bases._sources.clear()
         self.dossier.cleanup()
 
-    def client(self, code=None):
+    def client(self, code=None, nom="Visiteur"):
         c = TestClient(self.app, follow_redirects=False)
-        c.cookies.set("pv", cookie_visiteur())
+        c.cookies.set("pv", cookie_visiteur(nom=nom))
         if code:
             self.assertEqual(c.post("/copilote/entrer", data={"code": code}).status_code, 303)
         return c
@@ -95,10 +97,11 @@ class Base(unittest.TestCase):
 
 
 class Acces(Base):
+    # La page des groupes et ses API : le cookie visiteur suffit (pas de code copilote).
     ROUTES = [("GET", "/api/copilote/groupes"), ("GET", "/api/copilote/groupe/1"), ("GET", "/api/copilote/avis"),
               ("GET", "/api/copilote/famille/0123abcd"), ("GET", "/api/copilote/societes?q=a"),
-              ("GET", "/api/copilote/societe/a/liens"),
-              ("GET", "/api/copilote/moi"), ("GET", "/copilote/groupes"),
+              ("GET", "/api/copilote/societe/a/liens"), ("GET", "/api/groupes/societe/a/donnees"),
+              ("GET", "/copilote/groupes"), ("GET", "/copilote/groupes_calcul.js"),
               ("POST", "/api/copilote/avis")]
 
     def test_sans_aucun_cookie_tout_est_refuse(self):
@@ -107,16 +110,51 @@ class Acces(Base):
             r = c.request(methode, chemin, json={"reponse": "oui", "groupe": 1} if methode == "POST" else None)
             self.assertIn(r.status_code, (302, 401), chemin)
 
-    def test_le_cookie_visiteur_seul_ne_suffit_pas(self):
-        c = self.client()
+    def test_le_cookie_visiteur_seul_suffit(self):
+        c = self.client()                                      # aucun code copilote
         for methode, chemin in self.ROUTES:
             r = c.request(methode, chemin, json={"reponse": "oui", "groupe": 1} if methode == "POST" else None)
-            self.assertIn(r.status_code, (302, 401), chemin)
-        self.assertEqual(c.get("/copilote/groupes").headers["location"], "/copilote/entrer")
+            self.assertNotIn(r.status_code, (302, 401, 403), chemin)
+        # …mais le reste du copilote exige toujours le code.
+        for chemin in ("/api/copilote/moi", "/api/copilote/etat", "/copilote"):
+            self.assertIn(c.get(chemin).status_code, (302, 401), chemin)
+        self.assertEqual(c.get("/copilote").headers["location"], "/copilote/entrer")
+
+    def test_sans_cookie_visiteur_la_page_renvoie_a_l_accueil(self):
+        c = TestClient(self.app, follow_redirects=False)
+        r = c.get("/copilote/groupes")
+        self.assertEqual((r.status_code, r.headers["location"]), (302, "/"))
+        self.assertEqual(c.get("/api/groupes/societe/a/donnees").status_code, 401)
+
+    def test_page_non_indexable_et_bandeau(self):
+        r = self.client().get("/copilote/groupes")
+        self.assertIn("noindex", r.headers["x-robots-tag"])
+        self.assertRegex(r.text, r'<meta name="robots" content="noindex')
+        self.assertIn("Statistiques de présence commune calculées à partir des procès-verbaux publics. "
+                      "Elles ne constituent pas la preuve d", r.text.replace("&rsquo;", "’"))
+
+    def test_un_visiteur_sans_code_donne_un_avis_a_son_nom(self):
+        r = self.avis(self.client(nom="Karim"), reponse="oui", cle_a="a", cle_b="b")
+        self.assertEqual((r.status_code, r.json()["auteur"]), (200, "Karim"))
+
+    def test_les_requetes_des_visiteurs_sont_comptees_et_journalisees(self):
+        vus, notes = [], []
+        app = FastAPI()
+        app.include_router(creer_routeur(SECRET, self.d / "pv_travaux.db", self.d / "ao_ouverts.db",
+                                         lambda nom, ip: vus.append((nom, ip)) or len(vus) <= 3,
+                                         lambda requete, session, action, details="": notes.append(
+                                             (session["n"], action, details))))
+        c = TestClient(app, follow_redirects=False)
+        c.cookies.set("pv", cookie_visiteur(nom="Nadia"))
+        self.assertEqual(c.get("/copilote/groupes").status_code, 200)
+        self.assertEqual(c.get("/api/groupes/societe/a/donnees").status_code, 200)
+        self.assertEqual(c.post("/api/copilote/avis", json={"reponse": "nsp", "cle_a": "a", "cle_b": "b"}).status_code, 200)
+        self.assertEqual(c.get("/api/copilote/groupes").status_code, 429)        # la 4e dépasse la limite
+        self.assertEqual([x[0] for x in vus], ["Nadia"] * 4)
+        self.assertEqual([n[1] for n in notes], ["groupes_page", "groupes_societe", "groupes_avis"])
+        self.assertEqual(notes[1][2], "a")
 
     def test_un_avis_refuse_n_ecrit_rien(self):
-        c = self.client()
-        self.avis(c, reponse="non", groupe=1)
         self.avis(TestClient(self.app), reponse="non", groupe=1)
         retours = bases.retours()
         try:
@@ -125,7 +163,7 @@ class Acces(Base):
         finally:
             retours.close()
 
-    def test_la_page_s_ouvre_avec_le_code_et_revalide(self):
+    def test_la_page_s_ouvre_et_revalide(self):
         r = self.alice.get("/copilote/groupes")
         self.assertEqual(r.status_code, 200)
         self.assertIn("Groupes de présence commune", r.text)
@@ -138,7 +176,8 @@ class Acces(Base):
         chemins = set(self.app.openapi()["paths"])
         for attendu in ("/copilote/groupes", "/api/copilote/groupes", "/api/copilote/groupe/{gid}",
                         "/api/copilote/famille/{empreinte}", "/api/copilote/avis", "/api/copilote/moi",
-                        "/api/copilote/societes", "/api/copilote/societe/{cle}/liens"):
+                        "/api/copilote/societes", "/api/copilote/societe/{cle}/liens",
+                        "/api/groupes/societe/{cle}/donnees", "/copilote/groupes_calcul.js"):
             self.assertIn(attendu, chemins)
 
 
@@ -574,12 +613,13 @@ class Societes(Base):
 
 
 class Pages(unittest.TestCase):
-    def test_le_lien_groupes_est_masque_jusqu_a_la_reponse_du_serveur(self):
+    def test_le_lien_groupes_est_visible_pour_tout_visiteur_connecte(self):
+        """Plus de test de l'accès copilote : la page est ouverte à tous les visiteurs connectés."""
         for nom in ("ao_ouverts.html", "dashboard.html"):
             html = (ICI / "statique" / nom).read_text(encoding="utf-8")
-            self.assertRegex(html, r'<a class="onglet" href="/copilote/groupes" id="onglet-groupes" hidden>', nom)
-            self.assertIn("fetch('/api/copilote/moi'", html, nom)
-            self.assertIn(".onglet[hidden] { display: none; }", html, nom)
+            self.assertRegex(html, r'<a class="onglet" href="/copilote/groupes"><i data-ic="groupes">', nom)
+            self.assertNotIn("onglet-groupes", html, nom)
+            self.assertNotIn("/api/copilote/moi", html, nom)
 
     def test_les_noms_renvoient_vers_la_fiche_du_tableau_de_bord(self):
         html = (ICI / "statique" / "copilote_groupes.html").read_text(encoding="utf-8")
@@ -591,7 +631,10 @@ class Pages(unittest.TestCase):
         html = (ICI / "statique" / "copilote_groupes.html").read_text(encoding="utf-8")
         self.assertIn("localStorage.getItem('pv-theme')", html)
         sans_icone = re.sub(r'<link rel="icon" href="data:[^"]*">', "", html)      # l'icône est en ligne : son xmlns n'est pas un CDN
-        self.assertNotRegex(sans_icone, r"<script[^>]+src=|<link[^>]+stylesheet|https?://")
+        # Un seul script externe, de la même origine : le calcul (statique/groupes_calcul.js). Aucun CDN.
+        self.assertEqual(re.findall(r"<script[^>]+src=[^>]*>", sans_icone), ['<script src="/copilote/groupes_calcul.js">'])
+        sans_calcul = sans_icone.replace('<script src="/copilote/groupes_calcul.js">', "")
+        self.assertNotRegex(sans_calcul, r"<script[^>]+src=|<link[^>]+stylesheet|https?://")
 
 
 if __name__ == "__main__":

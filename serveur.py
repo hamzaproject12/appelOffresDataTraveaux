@@ -281,7 +281,9 @@ def verifier_separation_ao() -> None:
 verifier_separation_ao()
 
 app = FastAPI(docs_url=None, redoc_url=None, openapi_url=None)
-app.include_router(creer_routeur(SECRET, BASE, AO_BASE))      # copilote : /copilote/*, /api/copilote/*
+# copilote : /copilote/*, /api/copilote/*, /api/groupes/* ; les fonctions sont liées à l'appel (définies plus bas)
+app.include_router(creer_routeur(SECRET, BASE, AO_BASE, lambda nom, ip: dans_les_clous(nom, ip),
+                                 lambda requete, session, action, details="": noter(requete, session, action, details)))
 
 
 # ------------------------------------------------------------------ base de données

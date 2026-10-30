@@ -123,6 +123,34 @@ class Acces(unittest.TestCase):
                 self.assertIn(self.client.request(methode.upper(), chemin).status_code, (301, 302, 401),
                               f"{methode} {chemin}")
 
+    # Les seules routes ouvertes au cookie visiteur seul (page des groupes et ses API). Toute autre route
+    # du copilote exige le code COPILOTE_ACCES : ajouter une route ici est une décision, pas un oubli.
+    ROUTES_VISITEUR = {("GET", "/copilote/groupes"), ("GET", "/copilote/groupes_calcul.js"),
+                       ("GET", "/api/copilote/groupes"), ("GET", "/api/copilote/societes"),
+                       ("GET", "/api/copilote/societe/{cle}/liens"), ("GET", "/api/groupes/societe/{cle}/donnees"),
+                       ("GET", "/api/copilote/famille/{empreinte}"), ("GET", "/api/copilote/groupe/{gid}"),
+                       ("GET", "/api/copilote/avis"), ("POST", "/api/copilote/avis")}
+
+    def test_le_cookie_visiteur_n_ouvre_que_la_page_des_groupes(self):
+        self.visiteur()
+        publiques = {("GET", "/copilote/entrer"), ("POST", "/copilote/entrer")}
+        vues = set()
+        for chemin, methodes in self.app.openapi()["paths"].items():
+            if not chemin.startswith(("/copilote", "/api/copilote", "/api/groupes")):
+                continue
+            for methode in methodes:
+                vues.add((methode.upper(), chemin))
+        self.assertEqual({v for v in vues if v in self.ROUTES_VISITEUR}, self.ROUTES_VISITEUR)
+        for methode, chemin in sorted(vues - publiques - self.ROUTES_VISITEUR):
+            concret = chemin.replace("{cle}", "a").replace("{empreinte}", "0123abcd").replace("{gid}", "1")
+            self.assertIn(self.client.request(methode, concret).status_code, (301, 302, 401),
+                          f"{methode} {chemin} devrait exiger le code copilote")
+        # …et elles ne répondent ni 401 ni 302 sans code (404 ou 409 : la base d'essai est vide).
+        for methode, chemin in sorted(self.ROUTES_VISITEUR):
+            concret = chemin.replace("{cle}", "a").replace("{empreinte}", "0123abcd").replace("{gid}", "1")
+            r = self.client.request(methode, concret, json={"reponse": "nsp", "groupe": 1} if methode == "POST" else None)
+            self.assertNotIn(r.status_code, (302, 401, 403), f"{methode} {chemin}")
+
     # ------------------------------------------------------------------ accès
     def test_le_code_donne_le_nom_de_son_titulaire(self):
         self.visiteur()

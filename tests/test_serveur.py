@@ -103,8 +103,8 @@ class Redirections(unittest.TestCase):
     def test_copilote_renvoie_au_formulaire_de_code(self):
         client = TestClient(serveur.app, follow_redirects=False)
         client.post("/entrer", data={"nom": "Visiteur d'essai"})
-        for chemin in ("/copilote", "/copilote/groupes"):
-            self.va(client.get(chemin), 302, "/copilote/entrer")
+        self.va(client.get("/copilote"), 302, "/copilote/entrer")
+        self.assertEqual(client.get("/copilote/groupes").status_code, 200)      # visible sans code copilote
         self.assertEqual(client.get("/copilote/entrer").status_code, 200)
         self.va(client.post("/copilote/entrer", data={"code": "faux"}), 303, "/copilote/entrer?e=1")
         self.va(client.post("/copilote/entrer", data={"code": "code-alice"}), 303, "/copilote")

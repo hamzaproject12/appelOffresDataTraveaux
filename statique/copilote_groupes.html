@@ -2,6 +2,7 @@
 <html lang="fr">
 <head>
 <meta charset="utf-8">
+<meta name="robots" content="noindex, nofollow">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
 <meta name="color-scheme" content="light dark">
 <title>Groupes de présence commune — Marchés publics</title>
@@ -370,6 +371,56 @@
   .chiffre { display: grid; gap: 2px; padding: var(--e3); border-radius: var(--r-s); background: var(--surface-2); border: 1px solid var(--bord); }
   .chiffre b { font-size: var(--t-xl); font-variant-numeric: tabular-nums; }
   .chiffre span { font-size: var(--t-xs); color: var(--doux); }
+
+  /* ================================================================ bandeau permanent et calcul « autour d'une société » */
+  .bandeau-info { margin: 0; padding: var(--e2) var(--e5); background: var(--orange-doux); color: var(--orange);
+    border-bottom: 1px solid var(--orange-bord); font-size: var(--t-s); font-weight: 600; text-align: center; }
+  .petit { font-size: var(--t-xs); }
+  .sous-titre { font-size: var(--t-m); font-weight: 650; margin: var(--e4) 0 var(--e2); }
+  .puces-groupe { display: flex; flex-wrap: wrap; gap: var(--e2); list-style: none; margin: 0 0 var(--e2); padding: 0; }
+  .puces-groupe li { padding: 4px 12px; border: 1px solid var(--bord-fort); border-radius: 999px; background: var(--surface-2); font-size: var(--t-s); }
+  .reglages { display: grid; grid-template-columns: repeat(auto-fit, minmax(230px, 1fr)); gap: var(--e3); align-items: end; margin-top: var(--e2); }
+  .reglage > span { display: block; font-size: var(--t-xs); color: var(--doux); margin-bottom: 2px; min-height: 2.6em; }
+  .reglage .rappel { color: var(--orange); }
+  .reglage--bouton { display: grid; gap: var(--e1); align-content: end; }
+  .champ--modifie { border-color: var(--orange); }
+  .tableau--societes .nom-ligne { display: flex; align-items: flex-start; gap: var(--e1); }
+  .tableau--societes .deplier { flex: none; width: 36px; height: 36px; display: inline-grid; place-items: center; border: 0;
+    background: none; color: var(--doux); border-radius: var(--r-s); cursor: pointer; }
+  .tableau--societes .deplier:hover { background: var(--surface-3); color: var(--texte); }
+  .tableau--societes .deplier[aria-expanded="true"] svg { transform: rotate(180deg); }
+  .tableau--societes tr.ligne-societe { cursor: pointer; }
+  .tableau--societes tr.ligne-societe:hover { background: var(--surface-2); }
+  .tableau--societes tr.preuve td { background: var(--surface-2); }
+  .tableau--societes td, .tableau--societes th { padding-inline: var(--e2); }
+  .pct { font: inherit; font-variant-numeric: tabular-nums; border: 0; border-bottom: 1px dotted currentColor; background: none;
+    color: inherit; padding: 2px 0; cursor: help; min-height: 24px; }
+  .pct:hover, .pct:focus-visible { color: var(--accent); }
+  .avis--ligne { padding: 0; border: 0; background: none; gap: 2px; }
+  .avis--ligne .avis__boutons { flex-wrap: wrap; gap: 4px; min-width: 130px; }
+  .avis--ligne .btn--sec { flex: 1 1 40%; }
+  .avis--ligne .btn--sec[data-r="nsp"] { flex-basis: 100%; }
+  .tableau--societes th { white-space: normal; }
+  .tableau--societes td:first-child { min-width: 170px; }
+  .avis--ligne .btn--sec { padding: 0 var(--e2); min-height: 32px; }
+  .preuve__corps { display: grid; gap: var(--e3); }
+  .defile--preuves { max-height: 360px; overflow-y: auto; }
+  .info-calcul { min-height: 1.6em; margin-top: var(--e2); }
+  .explication { display: grid; grid-template-columns: max-content 1fr; gap: var(--e2) var(--e4); margin: 0 0 var(--e3); }
+  .explication dt { font-weight: 650; }
+  .explication dd { margin: 0; color: var(--texte-2); max-width: 80ch; }
+  .exemple { padding: var(--e3); border: 1px solid var(--bord); border-radius: var(--r-s); background: var(--surface-2); font-size: var(--t-s);
+    margin-bottom: var(--e3); }
+  .liste-simple { margin: var(--e2) 0 0; padding-left: var(--e5); }
+  @media (max-width: 639px) {
+    .bandeau-info { padding-inline: var(--e4); text-align: left; }
+    .explication { grid-template-columns: 1fr; gap: 2px; }
+    .explication dd { margin-bottom: var(--e2); }
+    .tableau--societes tr.preuve td { padding: 0; }
+    .tableau--societes tr.ligne-societe { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 2px var(--e3); }
+    .tableau--societes tr.ligne-societe td:first-child, .tableau--societes tr.ligne-societe td:nth-last-child(-n+2) { grid-column: 1 / -1; }
+    .tableau--societes tr.ligne-societe td.num { text-align: left !important; }
+  }
 </style>
 </head>
 <body data-vue="liste">
@@ -396,6 +447,7 @@
     </div>
   </div>
 </header>
+<p class="bandeau-info" role="note">Statistiques de présence commune calculées à partir des procès-verbaux publics. Elles ne constituent pas la preuve d'un accord entre sociétés.</p>
 
 <main id="contenu" class="conteneur" tabindex="-1">
   <div class="tete-vue">
@@ -403,7 +455,7 @@
     <p>Des sociétés qui déposent des offres sur les mêmes marchés plus souvent que le hasard ne le ferait. C’est un
        signal statistique, pas une conclusion : il peut s’agir de partenaires habituels, d’un même dirigeant, d’un
        groupement ou de concurrents qui visent les mêmes acheteurs. Votre avis sert à le dire. La fiche d’une société
-       répond à une autre question : quand elle gagne, qui est présent pour l’accompagner ?</p>
+       répond à une autre question : quand elle gagne, qui est présent, et plus souvent que d’habitude ?</p>
     <p class="entete-stats" id="entete-stats" aria-live="polite"></p>
     <details class="glossaire" id="glossaire">
       <summary>Comprendre les termes</summary>
@@ -446,6 +498,7 @@
   <p class="sr" id="annonce" role="status" aria-live="polite"></p>
 </main>
 
+<script src="/copilote/groupes_calcul.js"></script>
 <script>
 'use strict';
 const $ = (s, r = document) => r.querySelector(s);
@@ -503,7 +556,7 @@ async function api(chemin, params = {}, options = {}) {
   let r;
   try { r = await fetch(url, { credentials: 'same-origin', ...options }); }
   catch (e) { throw Object.assign(new Error('reseau'), { type: 'reseau' }); }
-  if (r.status === 401) { location.href = '/copilote/entrer'; throw Object.assign(new Error('session'), { type: 'session' }); }
+  if (r.status === 401) { location.href = '/'; throw Object.assign(new Error('session'), { type: 'session' }); }
   let corps = null;
   try { corps = await r.json(); } catch (e) {}
   if (!r.ok) throw Object.assign(new Error(corps?.detail || 'serveur'), { type: r.status === 404 ? 'introuvable' : 'serveur', statut: r.status });
@@ -883,6 +936,11 @@ const TERMES = {
   niveau: 'Lien très probable, probable ou à vérifier : cela dépend du nombre de marchés communs, de l’écart à la normale et de la probabilité d’un tel écart par hasard.',
   hasard: 'Probabilité d’observer autant de marchés communs par hasard. Plus elle est petite, moins le hasard explique la rencontre.',
   avis: 'Votre réponse, enregistrée à votre nom. Le dernier avis tranché (oui ou non) est celui qui compte.',
+  A: 'Sur les victoires de la société, la part de celles où l’autre société avait aussi déposé une offre.',
+  B: 'Sur les unités où la société a déposé, la part de celles où l’autre société était là aussi.',
+  C: 'Sur toutes les unités de l’autre société, la part de celles où la société était là.',
+  AB: 'A ÷ B : combien de fois l’autre société est plus présente quand la société gagne que d’habitude. Autour de 1 : pareil.',
+  ensemble: 'Parmi les unités communes : victoires de la société – victoires de l’autre société (la société perd alors).',
   communs: 'Marchés où les deux ont déposé une offre sur la même unité jugée — le même lot quand le marché est alloti — offres écartées comprises. Entre parenthèses, le compte en marchés et lots.',
 };
 const aide = (texte, cle) => `<span class="aide" title="${esc(TERMES[cle] || '')}">${texte}</span>`;
@@ -892,91 +950,148 @@ const foisPlus = x => x == null ? '—'
 const ecartFr = x => x == null ? '—' : (x >= 0 ? '+' : '−') + Math.abs(x * 100).toFixed(1).replace('.', ',') + ' %';
 const surN = (n, total) => `${nf.format(n)}${total ? ` <span class="doux">sur ${nf.format(total)}</span>` : ''}`;
 
-function faitsLien(l, s, code) {
-  const nomL = esc(courtNom(l.societe.nom, 22)), nomS = esc(courtNom(s.nom, 22));
-  const communs = faitAide('Marchés communs', 'communs',
-    `${nf.format(l.marches_communs)} <span class="doux">(${nf.format(l.unites_communes)} avec les lots)</span>`);
-  const normale = faitAide('Présence commune', 'normale', foisPlus(l.exces));
-  const croiseeL = faitAide('Présence croisée', 'presente', `${nomS} est présente sur ${pct(l.part_marches_partenaire)} des marchés de ${nomL}`);
-  const croiseeS = faitAide('Présence croisée', 'presente', `${nomL} est présente sur ${pct(l.part_marches_societe)} des marchés de ${nomS}`);
-  if (code === 'gagne_avec') return [
-    fait('Présente quand elle gagne', `${surN(l.victoires_societe, l.victoires_societe_total)} victoires`),
-    faitAide('Gagne avec elle', 'gagne_avec', `${pluriel(l.victoires_partenaire, 'fois', 'fois')} <span class="doux">sur ${nf.format(l.unites_communes)} marchés et lots</span>`),
-    communs, croiseeL,
-    faitAide(`Offre de ${nomL}`, 'position', `${ecartFr(l.position_quand_elle_gagne)} <span class="doux">de l’offre gagnante</span>`),
-    normale].join('');
-  if (code === 'accompagne') return [
-    fait(`Victoires de ${nomL} avec ${nomS} présente`, `${surN(l.victoires_partenaire, l.victoires_partenaire_total)} victoires`),
-    faitAide(`${nomS} gagne quand elles sont ensemble`, 'gagne_avec', pluriel(l.victoires_societe, 'fois', 'fois')),
-    communs, croiseeS,
-    faitAide(`Offre de ${nomS}`, 'position', `${ecartFr(l.position_quand_il_gagne)} <span class="doux">de l’offre gagnante</span>`),
-    normale].join('');
-  if (code === 'concurrents') return [
-    fait(`Victoires contre ${nomS}`, surN(l.victoires_partenaire, l.victoires_partenaire_total)),
-    fait(`Victoires de ${nomS} contre elle`, nf.format(l.victoires_societe)),
-    communs,
-    faitAide(`Offre de ${nomS}`, 'position', `${ecartFr(l.position_quand_il_gagne)} <span class="doux">de l’offre gagnante</span>`),
-    normale].join('');
-  return [communs, normale, croiseeL,
-    faitAide('Probabilité par hasard', 'hasard', l.p == null ? '—' : (l.p < 0.001 ? 'moins de 0,1 %' : pct(l.p, 1))),
-    fait('Résultats communs', l.victoires_societe || l.victoires_partenaire
-      ? `${nomS} ${nf.format(l.victoires_societe)}, ${nomL} ${nf.format(l.victoires_partenaire)}`
-      : 'aucune victoire ni d’un côté ni de l’autre')].join('');
+// Le calcul « autour d'une société » vit dans groupes_calcul.js (le même, en Python, sert à l'étape 5).
+// Ici : les données de la société, les réglages, le tableau, les marchés en preuve et les avis.
+const REGL_CHAMPS = [
+  { k: 'min_victoires', lib: 'Présente sur au moins … victoires de la société', pas: 1, min: 1 },
+  { k: 'rapport_min', lib: 'A ÷ B d’au moins', pas: 0.1, min: 0 },
+  { k: 'max_victoires_y', lib: 'Et au plus … victoires contre la société', pas: 1, min: 0 },
+  { k: 'min_victoires_y', lib: 'Concurrent direct : au moins … victoires contre la société', pas: 1, min: 1 },
+];
+const LECTURE_PUCE = { presente: 'puce--moyen', concurrent: 'puce--attention', neutre: '' };
+const STATUT_OFFRE = { a: 'retenue', m: 'admise', e: 'écartée', d: 'déposée' };
+let REGL = null, ORIGINE = null, RESULTAT = null, OUVERTES = new Set(), NB_LIGNES = 25, TEMPS_CALCUL = 0;
+const frac = (n, d) => d ? `${nf.format(n)} / ${nf.format(d)} = ${pct(n / d)}` : 'non calculable (aucune unité)';
+const nomDe = cle => SOCIETE.societes[cle]?.nom || cle;
+
+function recalculer() {
+  const t0 = performance.now();
+  RESULTAT = GroupesCalcul.calculer(SOCIETE, REGL);
+  TEMPS_CALCUL = performance.now() - t0;
+}
+// Un pourcentage qui montre son calcul : au survol (title) et au clic ou à la touche Entrée (zone sous le tableau).
+const pctCalcul = (n, d, explication) => d
+  ? `<button type="button" class="pct" data-calcul="${esc(explication + ' : ' + frac(n, d))}" title="${esc(frac(n, d))}">${pct(n / d)}</button>` : '—';
+
+function phraseResume() {
+  const s = SOCIETE.societe, r = RESULTAT, nom = esc(s.nom);
+  const base = `${nom} a déposé une offre sur ${pluriel(r.unites_x, 'unité', 'unités')} (marchés ou lots) et en a gagné ${nf.format(r.victoires_x)}.`;
+  if (!r.victoires_x) return `${base} Sans victoire, A et A ÷ B ne peuvent pas être calculés.`;
+  const g = r.groupe.slice(1);
+  if (!g.length) return `${base} Aucune autre société n’est nettement plus présente lors de ses victoires que d’habitude, avec les réglages actuels.`;
+  const tete = r.lignes.filter(l => l.lecture === 'presente').slice(0, 3);
+  return `${base} ${g.length > 1 ? `${nf.format(g.length)} sociétés sont nettement plus présentes` : '1 société est nettement plus présente'} lors de ses victoires que d’habitude, `
+    + `par exemple ${tete.map(l => `${esc(nomDe(l.cle))} (${l.victoires_x_avec} victoires sur ${r.victoires_x})`).join(', ')}.`;
 }
 
-function tableauPreuves(l, s, preuves) {
-  if (!preuves.length) return '<p class="doux">Aucun marché commun à montrer.</p>';
-  const coche = ' <span class="num-v" title="offre retenue">✓</span>';
-  const lignes = preuves.map(m => `<tr>
-    <td>${dateFr(m.date)}</td>
-    <td><span class="mono">${esc(m.reference || m.ref)}</span>${m.lot ? ` <span class="doux">lot ${esc(m.lot)}</span>` : ''}</td>
-    <td>${esc(courtNom(m.acheteur, 34))}</td>
-    <td>${m.gagnant ? esc(courtNom(m.gagnant.nom, 26)) : '<span class="doux">non attribué</span>'}</td>
-    <td class="num">${tauxFr(m.taux_societe)}${m.gagne === 'societe' ? coche : ''}</td>
-    <td class="num">${tauxFr(m.taux_partenaire)}${m.gagne === 'partenaire' ? coche : ''}</td></tr>`).join('');
-  return `<div class="defile"><table class="tableau"><thead><tr><th>Date</th><th>Marché</th><th>Acheteur</th>
-    <th>Gagnant</th><th class="num">${esc(courtNom(s.nom, 18))}</th><th class="num">${esc(courtNom(l.societe.nom, 18))}</th></tr></thead>
-    <tbody>${lignes}</tbody></table></div>
-    ${l.preuves_total > preuves.length ? `<p class="doux" style="margin-top:6px">Seuls les ${preuves.length} plus récents sont montrés, sur ${nf.format(l.preuves_total)}.</p>` : ''}`;
+function rendreHaut() {
+  const s = SOCIETE.societe, r = RESULTAT;
+  const groupe = r.groupe.length > 1
+    ? `<ul class="puces-groupe">${r.groupe.map((c, i) => `<li>${i ? lienFiche(c, nomDe(c)) : `<strong>${esc(nomDe(c))}</strong>`}</li>`).join('')}</ul>`
+    : '<p class="doux">Aucune société n’entre dans le groupe avec les réglages actuels.</p>';
+  $('#zone-haut').innerHTML = `<h2 id="titre-fiche" tabindex="-1">${esc(s.nom)}</h2>
+    <p class="resume-societe">${phraseResume()}</p>
+    <div class="fiche-tete__meta"><span>${aide(`${pluriel(r.victoires_x, 'victoire')} sur ${pluriel(r.unites_x, 'unité', 'unités')}`, 'victoires')}</span>
+      <span>${lienSociete(s.cle, 'Voir son historique')}</span></div>
+    <h3 class="sous-titre">Groupe de présence commune autour de cette société</h3>
+    ${groupe}
+    <p class="doux petit">Une société y figure quand sa lecture, dans le tableau, est « ${esc(SOCIETE.lectures.presente)} » avec les réglages ci-dessous. C’est un signal statistique, pas une conclusion.</p>`;
 }
 
-function carteSocieteLiee(l, s, section, question, preuves) {
-  return `<article class="partenaire">
-    <div class="partenaire__haut">${lienFiche(l.societe.cle, l.societe.nom)}${puceNiveau(l.niveau)}${
-      l.mutuel ? `<span class="puce" title="${esc(REGLAGES ? `Au moins ${REGLAGES.mutuel.communs} marchés communs, et chacune sur au moins ${pct(REGLAGES.mutuel.part)} des marchés de l’autre` : '')}">se suivent</span>` : ''}${
-      l.avis ? `<span class="puce ${PUCE_REPONSE[l.avis.reponse]}" title="${esc(TERMES.avis)}">avis : ${LIBELLE_REPONSE[l.avis.reponse].toLowerCase()}</span>` : ''}
-      <span class="profil">${esc(l.profil.phrase)}</span></div>
-    <div class="faits">${faitsLien(l, s, section.code)}</div>
-    <details><summary>Marchés en preuve (${nf.format(l.preuves_total)})</summary>${tableauPreuves(l, s, preuves)}</details>
-    ${section.avis ? formulaireAvis('', '', `data-a="${esc(l.cle_a)}" data-b="${esc(l.cle_b)}"`, l.avis, false, question) : ''}
-  </article>`;
+function rendreReglages() {
+  $('#zone-reglages').innerHTML = REGL_CHAMPS.map(c => {
+    const modifie = REGL[c.k] !== ORIGINE[c.k];
+    return `<label class="reglage"><span>${esc(c.lib)}${modifie ? ` <span class="rappel">(valeur d’origine : <s>${dec(ORIGINE[c.k], c.pas < 1 ? 1 : 0)}</s>)</span>` : ''}</span>
+      <input class="champ${modifie ? ' champ--modifie' : ''}" type="number" inputmode="decimal" data-reglage="${c.k}" min="${c.min}" step="${c.pas}" value="${REGL[c.k]}"></label>`;
+  }).join('') + `<div class="reglage reglage--bouton"><button type="button" class="btn btn--sec" id="reglage-reset"${REGL_CHAMPS.every(c => REGL[c.k] === ORIGINE[c.k]) ? ' disabled' : ''}>Revenir aux valeurs d’origine</button>
+    <span class="doux petit" id="temps-calcul" aria-live="off"></span></div>`;
 }
 
-const PAR_SECTION = 10;
-let AFFICHEES = {};
-function carteSection(section, s, question, preuves) {
-  const vide = { gagne_avec: 'Aucune société n’était présente lors d’au moins deux de ses victoires.',
-    accompagne: 'Elle n’est présente lors d’aucune série de victoires d’une même société.',
-    concurrents: 'Aucune autre société n’a gagné un marché où elle était présente.',
-    a_verifier: 'Aucune autre présence commune au-delà du hasard.' }[section.code];
-  const montrees = AFFICHEES[section.code] || PAR_SECTION;
-  const vues = section.lignes.slice(0, montrees), reste = section.lignes.length - vues.length;
-  const corps = section.lignes.length
-    ? `<div class="partenaires">${vues.map(l => carteSocieteLiee(l, s, section, question, preuves[l.societe.cle] || [])).join('')}</div>${
-        reste > 0 ? `<div class="plus"><button type="button" class="btn" data-plus="${section.code}">Afficher ${Math.min(PAR_SECTION, reste)} de plus (${nf.format(reste)} ${reste > 1 ? 'restantes' : 'restante'})</button></div>` : ''}`
-    : `<p class="doux">${vide}</p>`;
-  const compte = section.total > vues.length
-    ? `${nf.format(vues.length)} sur ${nf.format(section.total)}` : nf.format(section.total);
-  const titre = `<h2>${esc(section.titre)} <span class="doux">(${compte})</span></h2><p class="intro">${esc(section.intro)}</p>`;
-  return section.ouverte
-    ? `<div class="carte">${titre}${corps}</div>`
-    : `<div class="carte"><details class="plie"><summary>${esc(section.titre)} (${compte})</summary>
-        <p class="intro" style="margin-top:8px">${esc(section.intro)}</p>${corps}</details></div>`;
+function formulaireLigne(l) {
+  const [a, b] = [SOCIETE.societe.cle, l.cle].sort(), av = SOCIETE.avis[l.cle], tranche = av && av.reponse;
+  return `<form class="avis avis--ligne" data-a="${esc(a)}" data-b="${esc(b)}" onsubmit="return false">
+    <div class="avis__boutons" role="group" aria-label="Ces sociétés sont-elles liées ? Réponse pour ${esc(nomDe(l.cle))}">${['oui', 'non', 'nsp'].map(x =>
+      `<button type="button" class="btn btn--sec" data-r="${x}"${tranche === x ? ' aria-pressed="true"' : ''}>${LIBELLE_REPONSE[x]}</button>`).join('')}</div>
+    <div class="avis__etat" data-etat role="status">${av && av.auteur ? `${esc(av.auteur)}, ${esc(dateHeure(av.date))}` : ''}</div></form>`;
+}
+
+function tableauPreuves(cle) {
+  const x = SOCIETE.societe.cle, lignes = GroupesCalcul.preuves(SOCIETE, cle).map(m => {
+    const u = m.unite, g = u.gagnant;
+    return `<tr><td data-l="Date">${dateFr(u.date)}</td>
+      <td data-l="Marché"><span class="mono">${esc(u.reference || u.ref)}</span>${u.lot ? ` <span class="doux">lot ${esc(u.lot)}</span>` : ''}
+        <div class="doux petit">${esc(courtNom(u.acheteur || '', 40))}${u.objet ? ' — ' + esc(courtNom(u.objet, 90)) : ''}</div></td>
+      <td data-l="Gagnant">${g ? esc(courtNom(nomDe(g), 26)) : '<span class="doux">non attribué</span>'}</td>
+      <td class="num" data-l="${esc(courtNom(SOCIETE.societe.nom, 18))}">${tauxFr(m.taux_x)}${g === x ? ' <span class="num-v" title="offre retenue">✓</span>' : ''}</td>
+      <td class="num${m.statut_y === 'e' ? ' ecartee' : ''}" data-l="${esc(courtNom(nomDe(cle), 18))}">${tauxFr(m.taux_y)}${g === cle ? ' <span class="num-v" title="offre retenue">✓</span>' : ''}${m.statut_y === 'e' ? ' <span class="doux petit">écartée</span>' : ''}</td></tr>`;
+  }).join('');
+  return `<div class="defile defile--preuves"><table class="tableau"><thead><tr><th>Date</th><th>Marché</th><th>Gagnant</th>
+    <th class="num">${esc(courtNom(SOCIETE.societe.nom, 18))}</th><th class="num">${esc(courtNom(nomDe(cle), 18))}</th></tr></thead><tbody>${lignes}</tbody></table></div>`;
+}
+
+function ligneSociete(l) {
+  const s = SOCIETE.societe, r = RESULTAT, nom = nomDe(l.cle), ouverte = OUVERTES.has(l.cle), n = SOCIETE.liens[l.cle];
+  const ligne = `<tr class="ligne-societe" data-cle="${esc(l.cle)}">
+    <td data-l="Société"><div class="nom-ligne"><button type="button" class="deplier" aria-expanded="${ouverte}" aria-label="Marchés en preuve : ${esc(nom)}">${ic('chevron', 18)}</button>
+      <div>${lienFiche(l.cle, nom)} ${n && n.niveau ? puceNiveau(n.niveau) : ''}<div class="doux petit">${pluriel(l.communes, 'unité')} en commun</div></div></div></td>
+    <td class="num" data-l="A">${pctCalcul(l.victoires_x_avec, r.victoires_x, `A : victoires de ${s.nom} avec ${nom} présente ÷ victoires de ${s.nom}`)}</td>
+    <td class="num" data-l="B">${pctCalcul(l.communes, r.unites_x, `B : unités communes ÷ unités de ${s.nom}`)}</td>
+    <td class="num" data-l="C">${pctCalcul(l.communes, l.total_y, `C : unités communes ÷ toutes les unités de ${nom}`)}</td>
+    <td class="num" data-l="A ÷ B">${l.rapport == null ? '—' : `<button type="button" class="pct" data-calcul="${esc(`A ÷ B : ${dec(l.A, 3)} ÷ ${dec(l.B, 3)} = ${dec(l.rapport, 3)}`)}" title="${esc(`${dec(l.A, 3)} ÷ ${dec(l.B, 3)} = ${dec(l.rapport, 3)}`)}">${dec(l.rapport, 2)}</button>`}</td>
+    <td class="num" data-l="Victoires ensemble" title="${esc(`${s.nom} ${l.victoires_x_avec}, ${nom} ${l.victoires_y}`)}">${nf.format(l.victoires_x_avec)} – ${nf.format(l.victoires_y)}</td>
+    <td class="num" data-l="Position de l’offre">${ecartFr(l.position)}</td>
+    <td data-l="Lecture"><span class="puce ${LECTURE_PUCE[l.lecture]}">${esc(SOCIETE.lectures[l.lecture])}</span></td>
+    <td data-l="Liées ?">${formulaireLigne(l)}</td></tr>`;
+  if (!ouverte) return ligne;
+  const lien = n && n.exces != null ? `Calcul hebdomadaire : ${foisPlus(n.exces)}.` : '';
+  return ligne + `<tr class="preuve"><td colspan="9"><div class="preuve__corps">
+    <p class="doux petit">${pluriel(l.communes, 'unité')} où les deux sociétés ont déposé une offre, les plus récentes d’abord. « Victoires ensemble » : ${esc(s.nom)} ${nf.format(l.victoires_x_avec)}, ${esc(nom)} ${nf.format(l.victoires_y)}. ${lien}</p>
+    ${tableauPreuves(l.cle)}
+    ${formulaireAvis('', '', `data-a="${esc([s.cle, l.cle].sort()[0])}" data-b="${esc([s.cle, l.cle].sort()[1])}"`, SOCIETE.avis[l.cle]?.reponse ? SOCIETE.avis[l.cle] : null, false, SOCIETE.question)}</div></td></tr>`;
+}
+
+function rendreTable() {
+  const r = RESULTAT, vues = r.lignes.slice(0, NB_LIGNES), reste = r.lignes.length - vues.length;
+  const autres = Object.keys(SOCIETE.avis).filter(c => !r.lignes.some(l => l.cle === c));
+  $('#zone-table').innerHTML = r.lignes.length ? `<div class="defile"><table class="tableau tableau--societes"><thead><tr>
+      <th>Société</th><th class="num">${aide('A', 'A')}</th><th class="num">${aide('B', 'B')}</th><th class="num">${aide('C', 'C')}</th>
+      <th class="num">${aide('A ÷ B', 'AB')}</th><th class="num">${aide('Victoires ensemble', 'ensemble')}</th>
+      <th class="num">${aide('Position de l’offre', 'position')}</th><th>Lecture</th><th>Liées ?</th></tr></thead>
+      <tbody>${vues.map(ligneSociete).join('')}</tbody></table></div>
+    <p class="doux petit info-calcul" id="info-calcul" role="status" aria-live="polite">Survolez ou touchez un pourcentage pour voir son calcul ; ouvrez une ligne pour voir les marchés en preuve.</p>
+    ${reste > 0 ? `<div class="plus"><button type="button" class="btn" id="plus-lignes">Afficher ${Math.min(25, reste)} de plus (${nf.format(reste)} ${reste > 1 ? 'restantes' : 'restante'})</button></div>` : ''}`
+    : '<p class="doux">Aucune autre société n’a déposé sur les mêmes marchés.</p>';
+  $('#zone-table').insertAdjacentHTML('beforeend', autres.length ? `<details class="plie" style="margin-top:12px"><summary>Avis donnés sur des sociétés sans marché commun (${autres.length})</summary>
+    <ul class="liste-simple">${autres.map(c => { const a = SOCIETE.avis[c]; return `<li>${lienFiche(c, nomDe(c))} — ${a.reponse ? `avis : ${LIBELLE_REPONSE[a.reponse].toLowerCase()} (${esc(a.auteur)})` : 'sans avis tranché'}</li>`; }).join('')}</ul></details>` : '');
+  const t = $('#temps-calcul'); if (t) t.textContent = `Calculé en ${TEMPS_CALCUL < 1 ? '< 1' : Math.round(TEMPS_CALCUL)} ms`;
+}
+
+function rendreResultats() { recalculer(); rendreHaut(); rendreReglages(); rendreTable(); rendreExplication(); }
+
+function rendreExplication() {
+  const s = SOCIETE.societe, r = RESULTAT, ex = r.lignes.find(l => l.A != null) || null, x = esc(s.nom);
+  const exemple = ex ? (() => { const y = esc(nomDe(ex.cle)); return `<div class="exemple"><strong>Exemple avec ${y}.</strong>
+    A : sur les ${nf.format(r.victoires_x)} victoires de ${x}, ${y} était présente ${nf.format(ex.victoires_x_avec)} fois : ${frac(ex.victoires_x_avec, r.victoires_x)}.
+    B : sur ses ${nf.format(r.unites_x)} unités, ${x} a croisé ${y} ${nf.format(ex.communes)} fois : ${frac(ex.communes, r.unites_x)}.
+    C : ${y} a déposé sur ${nf.format(ex.total_y)} unités en tout, dont ${nf.format(ex.communes)} avec ${x} : ${frac(ex.communes, ex.total_y)}.
+    A ÷ B : ${dec(ex.A, 3)} ÷ ${dec(ex.B, 3)} = ${dec(ex.rapport, 2)}.</div>`; })() : '';
+  $('#zone-explication').innerHTML = `<dl class="explication">
+    <dt>Unité</dt><dd>Un marché, ou un lot quand le marché est alloti : une offre de lot ne concourt que dans son lot. « Présente » veut dire qu’une offre a été déposée, même écartée.</dd>
+    <dt>A</dt><dd>Sur toutes les victoires de ${x}, la part de celles où l’autre société avait aussi déposé une offre.</dd>
+    <dt>B</dt><dd>Sur toutes les unités où ${x} a déposé, la part de celles où l’autre société était là aussi. C’est sa présence « normale » à côté de ${x}.</dd>
+    <dt>C</dt><dd>Sur toutes les unités de l’autre société dans la base, la part de celles où ${x} était là.</dd>
+    <dt>A ÷ B</dt><dd>On compare A à B. Autour de 1 : l’autre société est aussi présente quand ${x} gagne que d’habitude. Au-dessus de 1 : elle est plus présente lors de ses victoires. Au-dessous de 1 : moins.</dd>
+    <dt>Victoires ensemble</dt><dd>Parmi les unités communes, les victoires de ${x} puis celles de l’autre société (${x} perd alors).</dd>
+    <dt>Position de l’offre</dt><dd>Sur les victoires de ${x}, l’écart médian entre l’offre de l’autre société et l’offre gagnante, en part de celle-ci. « +2 % » : son offre était 2 % au-dessus.</dd>
+    <dt>Lecture</dt><dd>« ${esc(SOCIETE.lectures.presente)} » : présente sur au moins ${REGL.min_victoires} victoires de ${x}, A ÷ B d’au moins ${dec(REGL.rapport_min, 1)}, et au plus ${REGL.max_victoires_y} victoire${REGL.max_victoires_y > 1 ? 's' : ''} contre ${x}.
+      « ${esc(SOCIETE.lectures.concurrent)} » : au moins ${REGL.min_victoires_y} victoires contre ${x}, plus que ${x} n’en a quand elle est présente. Sinon « ${esc(SOCIETE.lectures.neutre)} ». Les réglages ci-dessus changent ces seuils ; le tableau se recalcule aussitôt.</dd></dl>
+    ${exemple}
+    <p class="doux petit">Ces chiffres sont des faits de présence commune relevés dans les procès-verbaux publics. Ils ne disent pas pourquoi deux sociétés se retrouvent sur les mêmes marchés : seul un avis humain peut dire si elles sont liées.</p>`;
 }
 
 function blocAjout(s) {
   return `<div class="carte"><h2>Ajouter une société liée</h2>
-    <p class="intro">Vous savez que ${esc(s.nom)} est liée à une autre société (partenaire habituel, même dirigeant, groupement déclaré) ? Choisissez-la et dites d’où vient l’information : l’avis « oui » est enregistré à votre nom, la paire apparaît aussitôt ici et rejoint les groupes au prochain recalcul.</p>
+    <p class="intro">Vous savez que ${esc(s.nom)} est liée à une autre société (partenaire habituel, même dirigeant, groupement déclaré) ? Choisissez-la et dites d’où vient l’information : l’avis « oui » est enregistré à votre nom et rejoint les groupes au prochain recalcul.</p>
     <form class="formulaire" id="ajout" onsubmit="return false">
       <label><span>Société liée</span><input class="champ" id="ajout-q" type="search" placeholder="Nom de la société…" autocomplete="off" maxlength="100"></label>
       <div class="ajout-resultats" id="ajout-resultats" aria-live="polite"></div>
@@ -986,35 +1101,30 @@ function blocAjout(s) {
       <div class="avis__etat" id="ajout-etat" role="status"></div>
     </form></div>`;
 }
-function rendreSociete(d, garderAffichees = false) {
+
+function rendreSociete(d, garder = false) {
   SOCIETE = d; FICHE = null; FAMILLE = null;
-  if (!garderAffichees) AFFICHEES = {};
-  REGLAGES = d.reglages; rendreGlossaire(d.reglages);
-  const s = d.societe;
-  const grp = d.groupes.length ? `<div class="cliques">${d.groupes.map(g => `<a class="soc" href="#f=${g.famille}&g=${g.id}" data-fam="${g.famille}" data-g="${g.id}"><span>Groupe de ${pluriel(g.taille, 'société')} · score ${g.score}</span><small>${esc(LIB_NIVEAU[g.niveau] || g.niveau)} · ${pluriel(g.marches, 'marché')}</small></a>`).join('')}</div>`
-    : '<p class="doux">Elle ne fait partie d’aucun groupe (lien très probable ou probable, ou avis « oui »).</p>';
-  const liens = s.fort + s.moyen + s.faible;
+  if (!garder || !REGL) { ORIGINE = { ...d.reglages }; REGL = { ...d.reglages }; OUVERTES = new Set(); NB_LIGNES = 25; }
   $('#fiche').innerHTML = `<div class="fiche">${RETOUR_LISTE}
-    <div class="carte"><h2 id="titre-fiche" tabindex="-1">${esc(s.nom)}</h2>
-      <p class="resume-societe">${esc(d.resume.phrase)}</p>
-      <div class="fiche-tete__meta"><span>${pluriel(s.marches, 'marché')} avec une offre déposée</span>
-        <span>${aide(`${pluriel(s.victoires, 'victoire')} sur ${pluriel(s.unites, 'marché et lot', 'marchés et lots')}`, 'victoires')}</span>
-        <span>${aide(liens ? pluriel(liens, 'lien probable', 'liens probables') : 'aucun lien probable', 'liees')}</span>
-        <span>${pluriel(s.groupes, 'groupe')}</span>
-        <span>${lienSociete(s.cle, 'Voir son historique')}</span></div>
-      ${d.message ? `<p class="avertissement" role="status" style="margin-top:12px">${esc(d.message)}</p>` : ''}</div>
-    ${d.sections.map(x => carteSection(x, s, d.question, d.preuves)).join('')}
-    ${blocAjout(s)}
-    <div class="carte"><h2>Groupes de la société</h2>${grp}</div>
-    ${blocHistorique(d.historique, 'Aucun avis sur cette société.')}</div>`;
+    <div class="carte" id="zone-haut"></div>
+    <div class="carte"><details class="plie" id="details-reglages"><summary>Réglages du calcul</summary>
+      <p class="intro" style="margin-top:8px">Les trois seuils de la lecture « ${esc(d.lectures.presente)} », et celui du « ${esc(d.lectures.concurrent)} ». Un changement recalcule tout aussitôt, dans votre navigateur ; il n’est pas enregistré.</p>
+      <div class="reglages" id="zone-reglages"></div></details></div>
+    <div class="carte"><h2>Sociétés présentes avec elle</h2>
+      <p class="intro">Triées par A : la part des victoires de la société où l’autre société avait aussi déposé. Touchez un pourcentage pour voir son calcul, une ligne pour voir les marchés.</p>
+      <div id="zone-table"></div></div>
+    <div class="carte"><h2>Comment c’est calculé</h2><div id="zone-explication"></div></div>
+    ${blocAjout(d.societe)}</div>`;
+  rendreResultats();
 }
-async function ouvrirSociete(cle, { focus = true } = {}) {
+async function ouvrirSociete(cle, { focus = true, garder = false } = {}) {
   const jeton = ++jetonFiche;
-  chargement(); FICHE = null; FAMILLE = null;
+  if (!garder) chargement();
+  FICHE = null; FAMILLE = null;
   try {
-    const d = await api('/api/copilote/societe/' + encodeURIComponent(cle) + '/liens');
+    const d = await api('/api/groupes/societe/' + encodeURIComponent(cle) + '/donnees');
     if (jeton !== jetonFiche) return;
-    rendreSociete(d);
+    rendreSociete(d, garder);
     if (focus) { window.scrollTo(0, 0); $('#titre-fiche')?.focus({ preventScroll: true }); }
   } catch (e) {
     if (jeton !== jetonFiche || e.type === 'session') return;
@@ -1047,7 +1157,7 @@ async function envoyerAjout() {
     const r = await api('/api/copilote/avis', {}, { method: 'POST', headers: { 'Content-Type': 'application/json' },
       body: JSON.stringify({ reponse: 'oui', ajout: true, cle_a: SOCIETE.societe.cle, cle_b: AJOUT.cle, commentaire: $('#ajout-com').value.trim() }) });
     annoncer(`Lien enregistré au nom de ${r.auteur}.`);
-    AJOUT = null; await ouvrirSociete(SOCIETE.societe.cle, { focus: false });
+    AJOUT = null; await ouvrirSociete(SOCIETE.societe.cle, { focus: false, garder: true });
   } catch (e) {
     b.disabled = false;
     etat.textContent = e.type === 'session' ? '' : `Le lien n’a pas été enregistré : ${e.type === 'reseau' ? 'le serveur ne répond pas.' : (e.message || 'erreur du serveur.')}`;
@@ -1057,7 +1167,7 @@ async function envoyerAjout() {
 function fermerFiche() {
   jetonFiche++; FICHE = null; FAMILLE = null; SOCIETE = null;
   document.body.dataset.vue = 'liste';
-  $('#fiche').innerHTML = `<div class="etat"><h2>Choisissez une famille ou une société</h2><p>Une famille réunit des groupes de sociétés qui se recoupent ; ouvrez-la pour voir ses groupes. Cherchez une société, même absente des groupes : sa fiche dit qui est présent quand elle gagne, quelles sociétés elle accompagne et qui la bat.</p></div>`;
+  $('#fiche').innerHTML = `<div class="etat"><h2>Choisissez une famille ou une société</h2><p>Une famille réunit des groupes de sociétés qui se recoupent ; ouvrez-la pour voir ses groupes. Cherchez une société, même absente des groupes : sa fiche dit quelles sociétés sont plus présentes quand elle gagne et lesquelles la battent le plus souvent.</p></div>`;
 }
 
 // ================================================================ navigation
@@ -1087,6 +1197,24 @@ addEventListener('hashchange', () => {
   if (h.q !== ETAT.q || h.tri !== ETAT.tri || h.p !== ETAT.p || !memeNiveaux(h.n, ETAT.n) || h.f !== ETAT.f || h.g !== ETAT.g || h.s !== ETAT.s) appliquer(h);
 });
 
+// Les réglages du calcul : chaque saisie valide recalcule tout, sans attendre.
+document.addEventListener('input', e => {
+  const k = e.target.dataset?.reglage;
+  if (!k) return;
+  const v = parseFloat(String(e.target.value).replace(',', '.'));
+  if (!Number.isFinite(v) || v < +e.target.min) return;
+  REGL[k] = v; recalculer(); rendreHaut(); rendreTable(); rendreExplication();
+  // les champs eux-mêmes ne sont pas redessinés (le curseur reste en place) : on ne met à jour que leurs rappels
+  const modifie = REGL_CHAMPS.some(c => REGL[c.k] !== ORIGINE[c.k]);
+  const reset = $('#reglage-reset'); if (reset) reset.disabled = !modifie;
+  REGL_CHAMPS.forEach(c => {
+    const champ = $(`[data-reglage="${c.k}"]`), lib = champ.closest('label').firstElementChild;
+    champ.classList.toggle('champ--modifie', REGL[c.k] !== ORIGINE[c.k]);
+    lib.querySelector('.rappel')?.remove();
+    if (REGL[c.k] !== ORIGINE[c.k]) lib.insertAdjacentHTML('beforeend', ` <span class="rappel">(valeur d’origine : <s>${dec(ORIGINE[c.k], c.pas < 1 ? 1 : 0)}</s>)</span>`);
+  });
+});
+
 let minuterie;
 $('#q').addEventListener('input', e => {
   clearTimeout(minuterie);
@@ -1110,11 +1238,15 @@ document.addEventListener('click', e => {
   if (e.target.closest('#retour')) { e.preventDefault(); naviguer({ f: null, g: null, s: null }); return; }
   if (e.target.closest('#retour-famille, [data-retour-famille]')) { e.preventDefault(); naviguer({ f: FICHE.famille_id, g: null, s: null }); return; }
   if (e.target.closest('#plus-marches')) { MARCHES_AFFICHES += 25; const y = scrollY; rendreFiche(FICHE); scrollTo(0, y); return; }
-  const plus = e.target.closest('[data-plus]');
-  if (plus) {
-    const code = plus.dataset.plus;
-    AFFICHEES[code] = (AFFICHEES[code] || PAR_SECTION) + PAR_SECTION;
-    const y = scrollY; rendreSociete(SOCIETE, true); scrollTo(0, y); return;
+  if (e.target.closest('#plus-lignes')) { NB_LIGNES += 25; const y = scrollY; rendreTable(); scrollTo(0, y); return; }
+  const pc = e.target.closest('button.pct');
+  if (pc) { const z = $('#info-calcul'); if (z) z.textContent = pc.dataset.calcul; return; }
+  if (e.target.closest('#reglage-reset')) { REGL = { ...ORIGINE }; rendreResultats(); return; }
+  const dep = e.target.closest('tr.ligne-societe');
+  if (dep && !e.target.closest('a, form, button.pct')) {
+    const cle = dep.dataset.cle; OUVERTES.has(cle) ? OUVERTES.delete(cle) : OUVERTES.add(cle);
+    const y = scrollY; rendreTable(); scrollTo(0, y);
+    $(`tr.ligne-societe[data-cle="${CSS.escape(cle)}"] .deplier`)?.focus({ preventScroll: true }); return;
   }
   const choix = e.target.closest('[data-choix]');
   if (choix) {
@@ -1129,7 +1261,7 @@ document.addEventListener('click', e => {
 // ================================================================ avis
 async function envoyerAvis(bouton) {
   const form = bouton.closest('form'), etat = $('[data-etat]', form);
-  const corps = { reponse: bouton.dataset.r, commentaire: form.elements.commentaire.value.trim() };
+  const corps = { reponse: bouton.dataset.r, commentaire: (form.elements.commentaire?.value || '').trim() };
   if (form.dataset.groupe) corps.groupe = +form.dataset.groupe;
   else { corps.cle_a = form.dataset.a; corps.cle_b = form.dataset.b; if (FICHE) corps.groupe = FICHE.id; }
   form.querySelectorAll('button').forEach(b => { b.disabled = true; });
@@ -1143,8 +1275,12 @@ async function envoyerAvis(bouton) {
       const id = FICHE.id, f = await api('/api/copilote/groupe/' + id);
       if (FICHE && FICHE.id === id) rendreFiche(f);
     } else if (SOCIETE) {
-      const cle = SOCIETE.societe.cle, d = await api('/api/copilote/societe/' + encodeURIComponent(cle) + '/liens');
-      if (SOCIETE && SOCIETE.societe.cle === cle) rendreSociete(d, true);
+      // Le tableau se met à jour sur place : pas besoin de recharger les données de la société.
+      const autre = form.dataset.a === SOCIETE.societe.cle ? form.dataset.b : form.dataset.a;
+      const avant = SOCIETE.avis[autre] || { reponse: null, auteur: null, date: null, nb: 0 };
+      SOCIETE.avis[autre] = corps.reponse === 'nsp' ? { ...avant, nb: avant.nb + 1 }
+        : { reponse: corps.reponse, auteur: r.auteur, date: r.cree_le, nb: avant.nb + 1 };
+      rendreTable();
     }
     scrollTo(0, y);
     $(`${cible} [data-r="${corps.reponse}"]`)?.focus({ preventScroll: true });
