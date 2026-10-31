@@ -189,6 +189,33 @@ def compteurs_par_societe(hist: sqlite3.Connection, fusions: dict[str, str]) -> 
         return _totaux_memo["valeur"]
 
 
+def donnees_unites(cle: str, unites, total, victoires, nom=None) -> dict:
+    """Le format de `donnees()`, réduit à ce que `calculer()` lit, à partir d'unités déjà choisies.
+
+    Sert à l'analyse d'un AO (groupes_ao.py) : `unites` sont celles d'avant la coupure de l'AO, et
+    `total(c)` / `victoires(c)` comptent les unités et les victoires de la société c sur la MÊME
+    période (C et « X sur les victoires de Y » ne doivent rien voir d'après la coupure). Les unités
+    où `cle` n'a pas déposé sont ignorées. `nom(c)` donne un nom lisible (sinon la clé).
+    """
+    sortie, presentes = [], set()
+    for u in unites:
+        offres, deja = [], set()
+        for o in u.concurrents:
+            if not o["cle"] or o["cle"] in deja:
+                continue
+            deja.add(o["cle"])
+            offres.append([o["cle"], STATUTS.get(o["statut"], "?"),
+                           None if o["taux"] is None else round(o["taux"], 6)])
+        if cle not in deja:
+            continue
+        presentes |= deja
+        sortie.append({"id": u.identifiant, "gagnant": u.cle_gagnant or None, "offres": offres})
+    nom = nom or (lambda c: c)
+    return {"societe": {"cle": cle, "nom": nom(cle)}, "unites": sortie,
+            "societes": {c: {"nom": nom(c), "total": total(c), "victoires": victoires(c)}
+                         for c in presentes | {cle}}}
+
+
 def donnees(hist: sqlite3.Connection, calc: sqlite3.Connection, ret: sqlite3.Connection, cle: str,
             fusions: dict[str, str] | None = None) -> dict | None:
     """Les données brutes de la société `cle`, ou None si elle est inconnue du calcul des groupes."""

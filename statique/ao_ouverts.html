@@ -340,6 +340,9 @@
       transition-duration: .001ms !important; }
     .sq { background-image: none; }
   }
+  .liens-ao { display: flex; align-items: center; gap: var(--e2); justify-content: flex-end; }
+  .tableau .col-lien { width: auto; white-space: nowrap; }
+  .btn--analyser { min-height: 36px; padding: 0 var(--e3); font-size: var(--t-s); font-weight: 600; }
 </style>
 </head>
 <body>
@@ -575,6 +578,10 @@ function lotsHtml(lots) {
   const detail = lots.map(l => `Lot ${l.lot}${l.intitule ? ' — ' + l.intitule : ''}`).join('\n');
   return `<span title="${esc(detail)}">${pluriel(lots.length, 'lot')}</span>`;
 }
+// Le bouton « Analyser » n'apparaît qu'aux visiteurs qui ont l'accès copilote (/api/copilote/moi répond 200).
+let ACCES_COPILOTE = false;
+const lienAnalyse = a => !ACCES_COPILOTE || !a.ref_annonce ? '' :
+  `<a class="btn btn--analyser" href="/copilote/analyse/${encodeURIComponent(a.ref_annonce)}" title="Sociétés probables, groupes, nombre de concurrents">Analyser</a>`;
 const lienPortail = u => !u ? '—' :
   `<a href="${esc(u)}" target="_blank" rel="noopener" aria-label="Ouvrir l’annonce sur le portail (nouvel onglet)" title="Ouvrir l’annonce sur le portail">${ic('externe', 18)}</a>`;
 
@@ -594,7 +601,7 @@ const COLONNES = [
       `${qualifHtml(a.qualifications)}<div class="doux xs sous-cellule">${lotsHtml(a.lots)}</div>` },
   { titre: 'Chez cet acheteur', cls: 'col-histo', infobulle: a => a.historique && titreHisto(a.historique),
     rendu: a => histoHtml(a.historique) },
-  { titre: '', cls: 'col-lien', rendu: a => lienPortail(a.url) },
+  { titre: '', cls: 'col-lien', rendu: a => `<div class="liens-ao">${lienAnalyse(a)}${lienPortail(a.url)}</div>` },
 ];
 
 function tableHtml(lignes) {
@@ -624,7 +631,7 @@ const cartesHtml = lignes => `<ul class="cartes" role="list">${lignes.map(a => {
       a.qualifications.length ? `<span>${esc(classesDe(a.qualifications).map(c => 'Classe ' + c).join(', ') || a.qualifications.map(q => q.libelle).filter(Boolean).join(', '))}</span>` : ''}</div>
     <div style="margin-top:var(--e3);padding-top:var(--e3);border-top:1px solid var(--bord)">
       <div class="doux" style="font-size:var(--t-xs);margin-bottom:3px">Chez cet acheteur</div>${histoHtml(a.historique)}</div>
-    ${a.url ? `<div style="margin-top:var(--e3)"><a class="btn" href="${esc(a.url)}" target="_blank" rel="noopener">${ic('externe', 16)}Voir l’annonce</a></div>` : ''}
+    ${a.url || ACCES_COPILOTE ? `<div style="margin-top:var(--e3);display:flex;gap:var(--e2);flex-wrap:wrap">${lienAnalyse(a)}${a.url ? `<a class="btn" href="${esc(a.url)}" target="_blank" rel="noopener">${ic('externe', 16)}Voir l’annonce</a>` : ''}</div>` : ''}
   </div></li>`;
 }).join('')}</ul>`;
 
@@ -777,7 +784,10 @@ addEventListener('popstate', () => { lireURL(); synchroniserChamps(); charger();
 
 lireURL();
 synchroniserChamps();
-charger();
+fetch('/api/copilote/moi', { credentials: 'same-origin' })
+  .then(r => { ACCES_COPILOTE = r.ok; })
+  .catch(() => {})
+  .finally(charger);
 </script>
 </body>
 </html>

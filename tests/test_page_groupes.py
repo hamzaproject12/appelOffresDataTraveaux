@@ -619,7 +619,11 @@ class Pages(unittest.TestCase):
             html = (ICI / "statique" / nom).read_text(encoding="utf-8")
             self.assertRegex(html, r'<a class="onglet" href="/copilote/groupes"><i data-ic="groupes">', nom)
             self.assertNotIn("onglet-groupes", html, nom)
-            self.assertNotIn("/api/copilote/moi", html, nom)
+        self.assertNotIn("/api/copilote/moi", (ICI / "statique" / "dashboard.html").read_text(encoding="utf-8"))
+        # Sur /ao-ouverts, l'accès copilote ne commande que le bouton « Analyser » (étape A), pas l'onglet.
+        html = (ICI / "statique" / "ao_ouverts.html").read_text(encoding="utf-8")
+        self.assertEqual(html.count("fetch('/api/copilote/moi'"), 1)
+        self.assertIn("!ACCES_COPILOTE || !a.ref_annonce ? ''", html)
 
     def test_les_noms_renvoient_vers_la_fiche_du_tableau_de_bord(self):
         html = (ICI / "statique" / "copilote_groupes.html").read_text(encoding="utf-8")

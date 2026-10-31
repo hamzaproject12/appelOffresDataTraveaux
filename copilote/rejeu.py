@@ -58,6 +58,17 @@ def jusqua_pour(ref_annonce: str | None, calc: sqlite3.Connection) -> str | None
     return ligne[0]
 
 
+def limite_pour(ref_annonce: str | None, calc: sqlite3.Connection) -> str | None:
+    """Le dernier jour visible au format des dates de l'historique (AAAAMMJJ, inclus) ; None pour un vrai AO.
+
+    Même règle que `unites_pour` : une unité est visible si elle est datée (date non douteuse) et que sa
+    date est inférieure ou égale à cette limite. Sert aux modules qui gardent l'historique en mémoire
+    (probables.py) et coupent un préfixe au lieu de relire la base.
+    """
+    jusqua = jusqua_pour(ref_annonce, calc)
+    return None if jusqua is None else jusqua.replace("-", "")
+
+
 def calcul_groupes_pour(ref_annonce: str | None, calc: sqlite3.Connection) -> str:
     """Identifiant du calcul de groupes à lire : « courant » pour un vrai AO, « jusqua-… » pour un rejeu."""
     jusqua = jusqua_pour(ref_annonce, calc)

@@ -20,6 +20,7 @@ import json
 import sqlite3
 from collections import OrderedDict
 from contextlib import closing
+from datetime import date
 from pathlib import Path
 from typing import Literal
 
@@ -28,8 +29,8 @@ from fastapi import Path as ParamChemin
 from fastapi.responses import FileResponse, HTMLResponse, JSONResponse, PlainTextResponse, RedirectResponse
 from pydantic import BaseModel, Field
 
-from . import (acces, acheteurs, api_groupes, api_similaires, autour_societe, bases, config, fiche_societe,
-               similarite)
+from . import (acces, acheteurs, analyse, api_groupes, api_similaires, autour_societe, bases, config,
+               fiche_societe, probables, similarite, verite_rejeu)
 from . import fusions as _fusions
 from . import groupes as groupes_mod
 
@@ -413,6 +414,61 @@ def creer_routeur(secret: bytes, base: Path | str, ao_base: Path | str,
             ligne = acheteurs.lister(ret, cle_ao=c.cle_ao)
         return JSONResponse({"correspondances": ligne}, headers=SANS_CACHE)
 
+    # ------------------------------------------------------------------ étape A : analyse d'un AO
+    @protege.get("/copilote/analyse/{ref_annonce}")
+    def page_analyse(request: Request, ref_annonce: str = ParamChemin(max_length=120)):
+        """La page d'analyse ; elle lit ref_annonce dans son adresse et appelle l'API."""
+        return page_statique(request, "copilote_analyse.html", NOINDEX)
+
+    @protege.get("/copilote/analyse_calcul.js")
+    def script_analyse(request: Request):
+        return page_statique(request, "analyse_calcul.js")
+
+    analyses_en_memoire: "OrderedDict[tuple, bytes]" = OrderedDict()
+
+    @protege.get("/api/copilote/analyse/{ref_annonce}")
+    def analyse_ao(ref_annonce: str = ParamChemin(max_length=120), lot: str | None = Query(None, max_length=40)):
+        """Le dossier d'analyse d'un AO : similaires, sociétés probables, groupes, nombre de concurrents.
+        Gardé en mémoire tant que l'AO, l'historique, les fusions et les coefficients ne changent pas."""
+        try:
+            st = bases.chemin_historique().stat()
+        except OSError:
+            raise HTTPException(503, "Historique indisponible") from None
+        try:
+            coef = probables.FICHIER.stat().st_mtime_ns
+        except OSError:
+            coef = None
+        try:
+            with closing(bases.calcul()) as calc, closing(bases.retours()) as ret, closing(bases.ao_ouverts()) as ao:
+                maj = ao.execute("SELECT maj_le FROM appels_ouverts WHERE ref_annonce = ?", (ref_annonce,)).fetchone()
+                version = (ref_annonce, lot, st.st_mtime_ns, st.st_size, coef, maj[0] if maj else None,
+                           tuple(sorted(_fusions.charger().items())), date.today().isoformat())
+                brut = analyses_en_memoire.get(version)
+                if brut is None:
+                    r = analyse.analyser(ref_annonce, lot, ouvrir_historique=bases.historique,
+                                         chemin_historique=bases.chemin_historique(), ao=ao, calc=calc, ret=ret)
+                    brut = json.dumps(r, ensure_ascii=False, separators=(",", ":")).encode()
+                    analyses_en_memoire[version] = brut
+                    while len(analyses_en_memoire) > 16:
+                        analyses_en_memoire.popitem(last=False)
+                else:
+                    analyses_en_memoire.move_to_end(version)
+        except FileNotFoundError as e:
+            raise HTTPException(503, str(e))
+        except api_similaires.ErreurAnalyse as e:
+            return JSONResponse({"detail": str(e), **e.extra}, status_code=e.statut, headers=SANS_CACHE)
+        return Response(brut, media_type="application/json", headers=SANS_CACHE)
+
+    @protege.get("/api/copilote/rejeu/{ref_annonce}/verite")
+    def verite(ref_annonce: str = ParamChemin(max_length=120), lot: str | None = Query(None, max_length=40)):
+        """Ce qui s'est réellement passé pour un AO « REJEU- » (bloc repliable de la page d'analyse).
+        Lu par verite_rejeu.py, jamais par le moteur."""
+        with closing(bases.calcul()) as calc:
+            v = verite_rejeu.pour_lot(calc, ref_annonce, lot)
+        if v is None:
+            raise HTTPException(404, "Pas de résultat connu pour cet AO")
+        return JSONResponse(v, headers=SANS_CACHE)
+
     def prechauffer() -> None:
         """Au démarrage, en arrière-plan : l'index de similarité et les victoires de chaque société
         (la première fiche ouverte les paierait sinon). Ne bloque ni ne fait échouer le serveur si
@@ -433,6 +489,10 @@ def creer_routeur(secret: bytes, base: Path | str, ao_base: Path | str,
                     autour_societe.unites_par_societe(hist, _fusions.charger())
             except Exception as e:                              # noqa: BLE001
                 print(f"[copilote] unités par société non préchargées : {e}", flush=True)
+            try:
+                probables.memoire(bases.historique, bases.chemin_historique())
+            except Exception as e:                              # noqa: BLE001
+                print(f"[copilote] mémoire des sociétés probables non préchargée : {e}", flush=True)
         import threading
         threading.Thread(target=travail, name="copilote-prechauffage", daemon=True).start()
 

@@ -1,0 +1,686 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="robots" content="noindex, nofollow">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="color-scheme" content="light dark">
+<title>Analyse d’un appel d’offres — Copilote</title>
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='7' fill='%231f4e78'/%3E%3Cpath d='M8 21V13M14 21V9M20 21V16M26 21V11' stroke='white' stroke-width='3' stroke-linecap='round'/%3E%3C/svg%3E">
+<script>
+  try { const t = localStorage.getItem('pv-theme'); if (t === 'light' || t === 'dark') document.documentElement.dataset.theme = t; } catch (e) {}
+</script>
+<style>
+  /* ================================================================ jetons (mêmes valeurs que ao_ouverts.html) */
+  :root {
+    --fond: #f3f4f6; --surface: #ffffff; --surface-2: #f8f9fb; --surface-3: #eceff3;
+    --bord: #dde1e7; --bord-fort: #b4bcc7;
+    --texte: #111827; --texte-2: #374151; --doux: #555e6c;
+    --accent: #1f4f8f; --accent-survol: #173e72; --accent-doux: #e7eef8; --sur-accent: #ffffff;
+    --vert: #0f6a3e; --vert-doux: #e4f3ea; --vert-bord: #9fd0b4;
+    --orange: #875100; --orange-doux: #fcf0da; --orange-bord: #ebc88a;
+    --rouge: #b3261e; --rouge-doux: #fcebea;
+    --neutre: #4b5563; --neutre-doux: #eceff3;
+    --squelette: #e5e8ed; --squelette-reflet: #f3f5f8;
+    --ombre-1: 0 1px 2px rgba(17,24,39,.05);
+    --focus: #2563eb;
+    color-scheme: light;
+
+    --police: "Segoe UI Variable Text", "Segoe UI", system-ui, -apple-system, "Helvetica Neue", Arial, sans-serif;
+    --mono: ui-monospace, "Cascadia Mono", "SF Mono", Consolas, monospace;
+    --t-xs: .75rem; --t-s: .8125rem; --t-m: .875rem; --t-l: 1rem; --t-xl: 1.25rem; --t-2xl: 1.5rem;
+    --e1: 4px; --e2: 8px; --e3: 12px; --e4: 16px; --e5: 24px; --e6: 32px; --e7: 48px;
+    --r-s: 6px; --r-m: 10px; --r-l: 14px;
+    --haut-barre: 64px;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root:not([data-theme="light"]) {
+      --fond: #0d1117; --surface: #161b22; --surface-2: #1b2129; --surface-3: #242b35;
+      --bord: #2b333e; --bord-fort: #46505e;
+      --texte: #e8ebef; --texte-2: #c9cfd7; --doux: #9ca6b4;
+      --accent: #7fb2f0; --accent-survol: #a6c9f5; --accent-doux: #1a2a40; --sur-accent: #0b1320;
+      --vert: #5cc98f; --vert-doux: #11281c; --vert-bord: #22553a;
+      --orange: #e8b95c; --orange-doux: #2c220f; --orange-bord: #5c4518;
+      --rouge: #f28b82; --rouge-doux: #34191a;
+      --neutre: #b4bdc9; --neutre-doux: #242b35;
+      --squelette: #212833; --squelette-reflet: #2a323e;
+      --ombre-1: none;
+      --focus: #7cb0ff;
+      color-scheme: dark;
+    }
+  }
+  :root[data-theme="dark"] {
+    --fond: #0d1117; --surface: #161b22; --surface-2: #1b2129; --surface-3: #242b35;
+    --bord: #2b333e; --bord-fort: #46505e;
+    --texte: #e8ebef; --texte-2: #c9cfd7; --doux: #9ca6b4;
+    --accent: #7fb2f0; --accent-survol: #a6c9f5; --accent-doux: #1a2a40; --sur-accent: #0b1320;
+    --vert: #5cc98f; --vert-doux: #11281c; --vert-bord: #22553a;
+    --orange: #e8b95c; --orange-doux: #2c220f; --orange-bord: #5c4518;
+    --rouge: #f28b82; --rouge-doux: #34191a;
+    --neutre: #b4bdc9; --neutre-doux: #242b35;
+    --squelette: #212833; --squelette-reflet: #2a323e;
+    --ombre-1: none;
+    --focus: #7cb0ff;
+    color-scheme: dark;
+  }
+
+  /* ================================================================ base */
+  *, *::before, *::after { box-sizing: border-box; }
+  html { -webkit-text-size-adjust: 100%; scroll-padding-top: calc(var(--haut-barre) + var(--e4)); }
+  body { margin: 0; min-height: 100vh; background: var(--fond); color: var(--texte);
+    font: 400 var(--t-m)/1.5 var(--police); -webkit-font-smoothing: antialiased; }
+  h1, h2, h3, p, ol, ul { margin: 0; }
+  ol, ul { padding: 0; list-style: none; }
+  a { color: var(--accent); text-underline-offset: 2px; }
+  button, input, select { font: inherit; color: inherit; }
+  button { cursor: pointer; }
+  svg.ic { flex-shrink: 0; display: block; }
+  :focus-visible { outline: 2px solid var(--focus); outline-offset: 2px; border-radius: 4px; }
+  .sr { position: absolute !important; width: 1px; height: 1px; overflow: hidden; clip: rect(0 0 0 0);
+    white-space: nowrap; margin: -1px; padding: 0; border: 0; }
+  .doux { color: var(--doux); }
+  .petit { font-size: var(--t-xs); }
+  .mono { font-family: var(--mono); font-size: .92em; letter-spacing: -.01em; }
+  .num { text-align: right; white-space: nowrap; font-variant-numeric: tabular-nums; }
+  .evitement { position: absolute; left: var(--e2); top: -100px; z-index: 50; background: var(--accent);
+    color: var(--sur-accent); padding: var(--e3) var(--e4); border-radius: var(--r-s); font-weight: 600; }
+  .evitement:focus { top: var(--e2); }
+  .conteneur { width: 100%; max-width: 1440px; margin: 0 auto; padding-inline: var(--e5); }
+
+  /* ================================================================ en-tête */
+  .barre-haut { position: sticky; top: 0; z-index: 20; background: var(--surface); border-bottom: 1px solid var(--bord); }
+  .barre-haut__ligne { display: flex; align-items: center; gap: var(--e3) var(--e5); min-height: var(--haut-barre); }
+  .marque { display: flex; align-items: center; gap: 10px; color: var(--texte); text-decoration: none;
+    min-height: 44px; flex-shrink: 0; border-radius: var(--r-s); }
+  .marque__logo { width: 34px; height: 34px; border-radius: 9px; background: var(--accent); color: var(--sur-accent);
+    display: grid; place-items: center; }
+  .marque b { display: block; font-size: var(--t-l); font-weight: 650; letter-spacing: -.01em; line-height: 1.2; }
+  .marque small { display: block; font-size: var(--t-xs); color: var(--doux); line-height: 1.3; }
+  .onglets { display: flex; gap: var(--e1); }
+  .onglet { display: inline-flex; align-items: center; gap: var(--e2); min-height: 44px; padding: 0 14px;
+    border-radius: var(--r-s); color: var(--doux); text-decoration: none; font-weight: 500; white-space: nowrap;
+    transition: background-color .15s, color .15s; }
+  .onglet:hover { background: var(--surface-3); color: var(--texte); }
+  .actions { margin-left: auto; display: flex; align-items: center; gap: var(--e1); }
+  .btn-icone { width: 44px; height: 44px; display: inline-grid; place-items: center; border-radius: var(--r-s);
+    border: 1px solid transparent; background: none; color: var(--texte-2); text-decoration: none; }
+  .btn-icone:hover { background: var(--surface-3); color: var(--texte); }
+  .separateur { width: 1px; height: 24px; background: var(--bord); margin: 0 var(--e1); }
+  @media (max-width: 1023px) {
+    :root { --haut-barre: 112px; }
+    .barre-haut__ligne { flex-wrap: wrap; min-height: 0; padding-top: var(--e2); }
+    .onglets { order: 3; flex-basis: 100%; padding-bottom: var(--e2); }
+  }
+  @media (max-width: 639px) {
+    :root { --haut-barre: 60px; }
+    .conteneur { padding-inline: var(--e4); }
+    .barre-haut__ligne { flex-wrap: nowrap; padding-top: 0; min-height: 60px; }
+    .marque small { display: none; }
+    .separateur { display: none; }
+    .onglets { position: fixed; left: 0; right: 0; bottom: 0; z-index: 20; background: var(--surface);
+      border-top: 1px solid var(--bord); display: grid; grid-template-columns: repeat(5, 1fr); gap: 2px;
+      padding: var(--e1) var(--e1) calc(var(--e1) + env(safe-area-inset-bottom)); }
+    .onglet { flex-direction: column; justify-content: center; gap: 3px; min-height: 56px; padding: var(--e1) 2px;
+      font-size: 11.5px; line-height: 1.2; text-align: center; white-space: normal; }
+    body { padding-bottom: calc(68px + env(safe-area-inset-bottom)); }
+  }
+  .bandeau-info { margin: 0; padding: var(--e2) var(--e5); background: var(--orange-doux); color: var(--orange);
+    border-bottom: 1px solid var(--orange-bord); font-size: var(--t-s); font-weight: 600; text-align: center; }
+
+  /* ================================================================ contenu */
+  main { padding-block: var(--e6) var(--e7); outline: none; display: grid; gap: var(--e5); min-width: 0; }
+  .tete-vue h1 { font-size: var(--t-2xl); font-weight: 650; letter-spacing: -.02em; line-height: 1.25; outline: none;
+    overflow-wrap: anywhere; }
+  .tete-vue p { color: var(--doux); margin-top: var(--e1); max-width: 80ch; }
+  .tete-vue .retour { display: inline-flex; margin-bottom: var(--e2); font-size: var(--t-s); }
+  @media (max-width: 639px) {
+    main { padding-top: var(--e5); }
+    .tete-vue h1 { font-size: var(--t-xl); }
+    .bandeau-info { padding-inline: var(--e4); text-align: left; }
+  }
+  .etape { background: var(--surface); border: 1px solid var(--bord); border-radius: var(--r-m); padding: var(--e4);
+    box-shadow: var(--ombre-1); min-width: 0; }
+  .etape > h2 { display: flex; align-items: center; gap: var(--e3); font-size: var(--t-l); font-weight: 650; }
+  .etape > h2 .rond { flex: none; width: 28px; height: 28px; border-radius: 50%; background: var(--accent); color: var(--sur-accent);
+    display: grid; place-items: center; font-size: var(--t-s); font-weight: 700; }
+  .etape--avenir { opacity: .75; }
+  .etape--avenir > h2 .rond { background: var(--neutre-doux); color: var(--neutre); }
+  .intro { color: var(--doux); font-size: var(--t-s); margin: var(--e1) 0 var(--e3); max-width: 85ch; }
+  .comment { margin-top: var(--e3); border-top: 1px dashed var(--bord); padding-top: var(--e2); font-size: var(--t-s); }
+  .comment > summary, details.plie > summary { cursor: pointer; font-weight: 600; color: var(--accent); min-height: 36px;
+    display: flex; align-items: center; }
+  .comment p, .comment li { color: var(--texte-2); max-width: 85ch; margin-top: var(--e1); }
+  .comment ul { list-style: disc; padding-left: var(--e5); }
+  .fiche-ao { display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: var(--e3) var(--e5); margin: 0; }
+  .fiche-ao div { min-width: 0; }
+  .fiche-ao dt { font-size: var(--t-xs); color: var(--doux); font-weight: 600; text-transform: uppercase; letter-spacing: .03em; }
+  .fiche-ao dd { margin: 2px 0 0; overflow-wrap: anywhere; }
+  .fiche-ao .large { grid-column: 1 / -1; }
+  .puce { display: inline-flex; align-items: center; gap: 4px; padding: 2px 9px; border-radius: 999px;
+    font-size: var(--t-xs); font-weight: 600; white-space: nowrap; background: var(--neutre-doux);
+    color: var(--neutre); line-height: 1.5; }
+  .puce--ok { background: var(--vert-doux); color: var(--vert); }
+  .puce--attention { background: var(--orange-doux); color: var(--orange); }
+  .puce--ko { background: var(--rouge-doux); color: var(--rouge); }
+  .puce--accent { background: var(--accent-doux); color: var(--accent); }
+  .btn { display: inline-flex; align-items: center; justify-content: center; gap: var(--e2); min-height: 44px;
+    padding: 0 var(--e4); border-radius: var(--r-s); border: 1px solid var(--bord-fort); background: var(--surface);
+    color: var(--texte); font-weight: 500; text-decoration: none; white-space: nowrap; transition: background-color .15s; }
+  .btn:hover { background: var(--surface-3); }
+  .btn--sec { min-height: 36px; padding: 0 var(--e3); font-size: var(--t-s); }
+  .lots { display: flex; flex-wrap: wrap; gap: var(--e2); margin-top: var(--e3); }
+  .lots .btn { white-space: normal; text-align: left; justify-content: flex-start; max-width: 100%; min-width: 0;
+    padding-block: var(--e1); overflow-wrap: anywhere; }
+  .lots .btn[aria-current="true"] { background: var(--accent-doux); border-color: var(--accent); color: var(--accent); font-weight: 650; }
+  .avertissement { padding: var(--e3); border-radius: var(--r-s); background: var(--orange-doux); color: var(--orange);
+    font-size: var(--t-s); }
+  .erreur { padding: var(--e4); border-radius: var(--r-m); background: var(--rouge-doux); color: var(--rouge); }
+  .chargement { padding: var(--e5); text-align: center; color: var(--doux); }
+
+  /* tableaux */
+  .defile { overflow-x: auto; margin-inline: calc(-1 * var(--e4)); padding-inline: var(--e4); }
+  .tableau { width: 100%; border-collapse: collapse; }
+  .tableau th { text-align: left; font-size: var(--t-xs); font-weight: 600; color: var(--doux);
+    text-transform: uppercase; letter-spacing: .03em; padding: var(--e2) var(--e3); white-space: nowrap;
+    background: var(--surface-2); border-bottom: 1px solid var(--bord); }
+  .tableau th.num { text-align: right; }
+  .tableau td { padding: var(--e2) var(--e3); border-bottom: 1px solid var(--bord); vertical-align: top; overflow-wrap: anywhere; }
+  .tableau tbody tr:last-child td { border-bottom: 0; }
+  .tableau .objet { max-width: 52ch; color: var(--texte-2); font-size: var(--t-s); display: -webkit-box;
+    -webkit-line-clamp: 2; -webkit-box-orient: vertical; overflow: hidden; }
+  .tableau tr.retiree td { color: var(--doux); }
+  .tableau tr.retiree .nom { text-decoration: line-through; }
+  .tableau tr.detail td { background: var(--surface-2); font-size: var(--t-s); }
+  @media (max-width: 899px) {
+    .defile { overflow: visible; }
+    .tableau thead { display: none; }
+    .tableau, .tableau tbody, .tableau tr, .tableau td { display: block; width: 100%; }
+    .tableau tr { padding: var(--e3) 0; border-bottom: 1px solid var(--bord); }
+    .tableau tbody tr:last-child { border-bottom: 0; }
+    .tableau td { padding: 3px 0; border: 0; text-align: left !important; white-space: normal !important; }
+    .tableau td[data-l]::before { content: attr(data-l); display: block; font-size: var(--t-xs); color: var(--doux);
+      font-weight: 600; text-transform: uppercase; letter-spacing: .03em; }
+    .tableau .objet { max-width: none; }
+  }
+  .score { font-weight: 700; font-variant-numeric: tabular-nums; }
+  .criteres { display: grid; gap: 4px; margin: var(--e2) 0; }
+  .critere { display: grid; grid-template-columns: 150px 70px minmax(0, 1fr); gap: var(--e3); align-items: baseline; }
+  .critere .pts { text-align: right; font-variant-numeric: tabular-nums; font-weight: 650; }
+  @media (max-width: 639px) { .critere { grid-template-columns: 1fr auto; } .critere .expl { grid-column: 1 / -1; color: var(--doux); } }
+
+  /* nombre de concurrents */
+  .compte { display: grid; grid-template-columns: minmax(0, 1fr) minmax(260px, 420px); gap: var(--e4) var(--e5); align-items: center;
+    padding: var(--e4); border-radius: var(--r-m); background: var(--accent-doux); margin-bottom: var(--e4); }
+  .compte__phrase { font-size: var(--t-l); }
+  .compte__phrase b { font-size: var(--t-xl); }
+  .compte__origine { color: var(--doux); font-size: var(--t-s); margin-top: var(--e1); }
+  .compte__origine s { text-decoration-thickness: 1px; }
+  .compte svg { width: 100%; height: auto; display: block; }
+  .compte svg text { font-family: var(--police); fill: var(--doux); font-size: 10px; }
+  @media (max-width: 899px) { .compte { grid-template-columns: minmax(0, 1fr); } }
+
+  /* groupes */
+  .groupes { display: grid; gap: var(--e4); }
+  .groupe { border: 1px solid var(--bord); border-radius: var(--r-m); padding: var(--e4); background: var(--surface-2); min-width: 0; }
+  .groupe > h3 { font-size: var(--t-m); font-weight: 650; display: flex; flex-wrap: wrap; gap: var(--e2); align-items: center; }
+  .groupe .strategie { margin-top: var(--e3); font-size: var(--t-s); color: var(--texte-2); display: grid; gap: var(--e2); }
+  .groupe .strategie p { max-width: 90ch; }
+  .controle { display: flex; align-items: center; gap: var(--e2); }
+  .controle input[type="checkbox"] { width: 20px; height: 20px; margin: 0; flex: none; }
+  .p-champ { width: 74px; height: 34px; border: 1px solid var(--bord-fort); border-radius: var(--r-s); background: var(--surface);
+    padding: 0 var(--e2); text-align: right; font-variant-numeric: tabular-nums; }
+  .p-champ.modifie { border-color: var(--orange); background: var(--orange-doux); }
+  .origine { color: var(--doux); font-size: var(--t-xs); }
+  .origine s { text-decoration-thickness: 1px; }
+  .barre-p { display: block; height: 6px; border-radius: 3px; background: var(--surface-3); margin-top: 4px; overflow: hidden; max-width: 120px; }
+  .barre-p i { display: block; height: 100%; background: var(--accent); }
+  .nom { font-weight: 600; }
+  .actions-calcul { display: flex; flex-wrap: wrap; gap: var(--e2); align-items: center; margin: var(--e3) 0; }
+
+  /* vérité */
+  .verite { border: 1px solid var(--vert-bord); background: var(--vert-doux); border-radius: var(--r-m); padding: var(--e2) var(--e4); }
+  .verite > summary { cursor: pointer; font-weight: 650; min-height: 40px; display: flex; align-items: center; color: var(--vert); }
+  .verite .contenu { display: grid; gap: var(--e3); padding: var(--e2) 0 var(--e3); }
+  .verite .tableau th { background: transparent; }
+  .oui { color: var(--vert); font-weight: 700; }
+  .non { color: var(--rouge); font-weight: 700; }
+</style>
+</head>
+<body>
+<a class="evitement" href="#contenu">Aller au contenu</a>
+<header class="barre-haut">
+  <div class="conteneur barre-haut__ligne">
+    <a class="marque" href="/ao-ouverts">
+      <span class="marque__logo" aria-hidden="true">
+        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"><path d="M6 7h12M6 12h8M6 17h5"/><circle cx="17.5" cy="16.5" r="2.5"/></svg>
+      </span>
+      <span><b>Marchés publics</b><small>Copilote de soumission</small></span>
+    </a>
+    <nav class="onglets" aria-label="Sections">
+      <a class="onglet" href="/ao-ouverts"><i data-ic="ouverts"></i><span>En cours</span></a>
+      <a class="onglet" href="/app#/marches"><i data-ic="marches"></i><span>Marchés</span></a>
+      <a class="onglet" href="/app#/societes"><i data-ic="societes"></i><span>Sociétés</span></a>
+      <a class="onglet" href="/app#/acheteurs"><i data-ic="acheteurs"></i><span>Maîtres d’ouvrage</span></a>
+      <a class="onglet" href="/copilote/groupes"><i data-ic="groupes"></i><span>Groupes</span></a>
+    </nav>
+    <div class="actions">
+      <button type="button" class="btn-icone" id="bouton-theme"></button>
+      <span class="separateur" aria-hidden="true"></span>
+      <a class="btn-icone" href="/deconnexion" aria-label="Se déconnecter" title="Se déconnecter"><i data-ic="sortie"></i></a>
+    </div>
+  </div>
+</header>
+<p class="bandeau-info" role="note">Estimations statistiques tirées des procès-verbaux publics. Un groupe de présence commune est un signal, pas la preuve d’un accord entre sociétés.</p>
+
+<main id="contenu" class="conteneur" tabindex="-1">
+  <div class="tete-vue">
+    <a class="retour" href="/ao-ouverts">← Appels d’offres ouverts</a>
+    <h1 id="titre" tabindex="-1">Analyse de l’appel d’offres</h1>
+    <p id="sous-titre">Chaque étape montre son résultat, comment il est calculé, et ce que vous pouvez modifier.</p>
+  </div>
+  <div id="corps"><p class="chargement" role="status">Calcul en cours… La première analyse d’un AO peut prendre jusqu’à une minute.</p></div>
+</main>
+
+<script src="/copilote/analyse_calcul.js"></script>
+<script>
+'use strict';
+const $ = (s, r = document) => r.querySelector(s);
+const esc = s => String(s ?? '').replace(/[&<>"']/g, c => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[c]));
+const nfEntier = new Intl.NumberFormat('fr-FR', { maximumFractionDigits: 0 });
+const nf1 = new Intl.NumberFormat('fr-FR', { minimumFractionDigits: 1, maximumFractionDigits: 1 });
+const nf2 = new Intl.NumberFormat('fr-FR', { minimumFractionDigits: 2, maximumFractionDigits: 2 });
+const nb = n => n == null ? '—' : nfEntier.format(n);
+const pct = (x, d = 0) => x == null ? '—' : (d ? nf1.format(x * 100) : nfEntier.format(x * 100)) + ' %';
+const ecartPct = x => x == null ? '—' : (x >= 0 ? '+' : '−') + nf1.format(Math.abs(x) * 100) + ' %';
+const taux = x => x == null ? '—' : nf2.format(x);
+const dh = m => m == null ? '—' : nfEntier.format(m) + ' DH';
+const dateFr = s => { if (!s) return '—'; const t = String(s).replace(/-/g, ''); return `${t.slice(6, 8)}/${t.slice(4, 6)}/${t.slice(0, 4)}`; };
+const pluriel = (n, s, p) => `${nfEntier.format(n)} ${n > 1 ? (p || s + 's') : s}`;
+
+const ICONES = {
+  marches: '<path d="M14 3H6a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V9z"/><path d="M14 3v6h6M8 13h8M8 17h5"/>',
+  societes: '<circle cx="9" cy="8" r="4"/><path d="M2 21a7 7 0 0 1 14 0M16 4a4 4 0 0 1 0 8M22 21a7 7 0 0 0-4-6.3"/>',
+  acheteurs: '<path d="M3 21h18M5 21V11M9.5 21V11M14.5 21V11M19 21V11M2 11l10-7 10 7z"/>',
+  ouverts: '<path d="M12 7v5l3 2"/><circle cx="12" cy="12" r="9"/>',
+  groupes: '<circle cx="6" cy="7" r="2.5"/><circle cx="18" cy="7" r="2.5"/><circle cx="12" cy="18" r="2.5"/><path d="M8.5 7h7M7.3 9.2l3.4 6.6M16.7 9.2l-3.4 6.6"/>',
+  sortie: '<path d="M9 21H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h4M16 17l5-5-5-5M21 12H9"/>',
+  soleil: '<circle cx="12" cy="12" r="4"/><path d="M12 2v2M12 20v2M4.9 4.9l1.4 1.4M17.7 17.7l1.4 1.4M2 12h2M20 12h2M4.9 19.1l1.4-1.4M17.7 6.3l1.4-1.4"/>',
+  lune: '<path d="M21 12.8A9 9 0 1 1 11.2 3a7 7 0 0 0 9.8 9.8z"/>',
+};
+const ic = (n, t = 20) => `<svg class="ic" width="${t}" height="${t}" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">${ICONES[n] || ''}</svg>`;
+document.querySelectorAll('i[data-ic]').forEach(i => i.outerHTML = ic(i.dataset.ic));
+
+// ================================================================ thème (même clé que le tableau de bord)
+const btnTheme = $('#bouton-theme');
+const themeActuel = () => document.documentElement.dataset.theme || (matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light');
+function majBoutonTheme() {
+  const sombre = themeActuel() === 'dark', lib = sombre ? 'Passer au thème clair' : 'Passer au thème sombre';
+  btnTheme.innerHTML = ic(sombre ? 'soleil' : 'lune', 20);
+  btnTheme.setAttribute('aria-label', lib); btnTheme.title = lib;
+}
+btnTheme.addEventListener('click', () => {
+  const t = themeActuel() === 'dark' ? 'light' : 'dark';
+  document.documentElement.dataset.theme = t;
+  try { localStorage.setItem('pv-theme', t); } catch (e) {}
+  majBoutonTheme();
+});
+matchMedia('(prefers-color-scheme: dark)').addEventListener('change', majBoutonTheme);
+majBoutonTheme();
+
+// ================================================================ données
+const REF = decodeURIComponent(location.pathname.split('/').filter(Boolean).pop() || '');
+const LOT = new URLSearchParams(location.search).get('lot');
+const EST_REJEU = REF.startsWith('REJEU-');
+let D = null;                    // le dossier d'analyse
+let PAR_CLE = {};                // candidats par clé
+const MODIFS = {};               // cle -> { retiree: bool, p: number | undefined }
+let ORIGINE = null;              // fourchette d'origine
+
+async function lire(url) {
+  const r = await fetch(url, { credentials: 'same-origin' });
+  let corps = null;
+  try { corps = await r.json(); } catch (e) {}
+  if (!r.ok) { const e = new Error((corps && corps.detail) || `Erreur ${r.status}`); e.statut = r.status; e.corps = corps; throw e; }
+  return corps;
+}
+
+const pDe = c => { const m = MODIFS[c.cle]; return m && m.p != null ? m.p : c.p; };
+const retiree = c => !!(MODIFS[c.cle] && MODIFS[c.cle].retiree);
+
+function calculerCompte() {
+  const ps = D.probables.candidats.filter(c => !retiree(c)).map(pDe);
+  const conc = D.concurrents;
+  const d = AnalyseCalcul.distribution(ps, conc.lambda || 0, conc.dispersion || 0);
+  return { d, f: AnalyseCalcul.fourchette(d, conc.niveau || 0.8) };
+}
+
+// ================================================================ ① l'AO
+function blocAo() {
+  const a = D.ao, h = D.historique, ach = D.acheteur;
+  const quals = a.qualifications.length ? a.qualifications.map(q => `${esc(q.code)}${q.classe != null ? ' classe ' + esc(q.classe) : ''}`).join(', ') : '—';
+  const statutAch = { direct: 'trouvé dans l’historique', correspondance: 'rapproché (correspondance validée)', aucun: 'inconnu de l’historique' }[ach.statut] || ach.statut;
+  return `<section class="etape" aria-labelledby="e1"><h2 id="e1"><span class="rond">1</span>L’appel d’offres</h2>
+    <p class="intro">Ce que l’annonce dit, et la date jusqu’à laquelle l’historique est lu.</p>
+    <dl class="fiche-ao">
+      <div class="large"><dt>Objet</dt><dd>${esc(a.objet || '—')}</dd></div>
+      <div><dt>Acheteur</dt><dd>${esc(a.acheteur || '—')}<div class="doux petit">${esc(statutAch)}</div></dd></div>
+      <div><dt>Estimation${a.lot ? ' du lot ' + esc(a.lot) : ''}</dt><dd>${dh(a.estimation)}</dd></div>
+      <div><dt>Qualifications</dt><dd>${quals}</dd></div>
+      <div><dt>Famille · nature</dt><dd>${esc(a.famille.libelle || 'non reconnue')} · ${esc(a.nature.libelle || '—')}</dd></div>
+      <div><dt>Région</dt><dd>${esc(a.region || 'non reconnue')}</dd></div>
+      <div><dt>Historique lu</dt><dd>${nb(h.unites_visibles)} marchés ou lots, jusqu’au ${dateFr(h.derniere_date)}
+        <div class="doux petit">${a.mode === 'rejeu' ? `AO rejoué : coupure au ${dateFr(a.coupure)}, la veille de l’ouverture réelle ; rien d’après n’est lu.` : 'AO réel : tout l’historique.'}</div></dd></div>
+    </dl>
+    ${a.mode === 'rejeu' ? '<p class="avertissement" style="margin-top:12px">AO de test : un marché déjà attribué, renvoyé comme s’il venait de paraître. Le résultat réel est dans le bloc « Ce qui s’est réellement passé », plus bas.</p>' : ''}
+  </section>`;
+}
+
+// ================================================================ ② les marchés similaires
+function blocSimilaires() {
+  const lignes = D.similaires.map((s, k) => {
+    const det = Object.values(s.detail).filter(x => !x.ignore).map(x => `<div class="critere"><span>${esc(x.libelle)}</span>
+      <span class="pts">${nf1.format(x.points)} / ${nfEntier.format(x.poids_effectif)}</span><span class="expl doux">${esc(x.explication)}</span></div>`).join('');
+    return `<tr>
+      <td data-l="Score" class="num"><span class="score">${nf1.format(s.score)}</span></td>
+      <td data-l="Marché"><div class="objet" title="${esc(s.objet)}">${esc(s.objet)}</div>
+        <div class="doux petit">${esc(s.acheteur || '')} · ${dateFr(s.date)}${s.lot ? ' · lot ' + esc(s.lot) : ''}</div>
+        <details class="plie"><summary>Détail du score</summary><div class="criteres">${det}</div></details></td>
+      <td data-l="Estimation" class="num">${dh(s.estimation)}</td>
+      <td data-l="Offres" class="num">${nb(s.nb_concurrents)}</td>
+      <td data-l="Gagnant">${esc(s.gagnant.nom || '—')}${s.gagnant.taux != null ? `<div class="doux petit">taux ${taux(s.gagnant.taux)}</div>` : ''}</td>
+    </tr>`;
+  }).join('');
+  const p = D.poids;
+  return `<section class="etape" aria-labelledby="e2"><h2 id="e2"><span class="rond">2</span>Les marchés similaires</h2>
+    <p class="intro">Les ${D.similaires.length} premiers des ${D.similaires_utilises} marchés antérieurs les plus proches
+      (sur ${nb(D.marches_comparables)} comparables parmi ${nb(D.marches_lus)} lus). Les 50 premiers servent à l’étape 3.</p>
+    <div class="defile"><table class="tableau"><thead><tr><th class="num">Score</th><th>Marché</th><th class="num">Estimation</th>
+      <th class="num">Offres</th><th>Gagnant</th></tr></thead><tbody>${lignes || '<tr><td colspan="5">Aucun marché comparable.</td></tr>'}</tbody></table></div>
+    <details class="comment"><summary>Comment le score est calculé</summary>
+      <p>Filtre : qualification compatible (même code), montant entre ×${nf1.format(D.filtre.montant_min)} et ×${nf1.format(D.filtre.montant_max)}.
+        Puis une note sur 100 : objet et nature ${p.objet_nature}, acheteur ${p.acheteur}, qualification ${p.qualification},
+        montant ${p.montant}, région ${p.region}, récence ${p.recence} (poids ramenés à 100 ; un critère que l’AO ne renseigne pas sort du calcul).</p>
+      <p>Les poids se règlent dans <span class="mono">copilote/reglages.json</span>.</p></details>
+  </section>`;
+}
+
+// ================================================================ ③ les sociétés probables
+function graphe(d, f, fo) {
+  const max = Math.max(...d), n = Math.min(d.length, Math.max(f.haut + 4, 12));
+  const L = 400, H = 120, bas = 20, larg = L / n;
+  let barres = '';
+  for (let k = 0; k < n; k++) {
+    const h = max ? (d[k] / max) * (H - bas - 8) : 0;
+    const dedans = k >= f.bas && k <= f.haut;
+    barres += `<rect x="${(k * larg + 1).toFixed(1)}" y="${(H - bas - h).toFixed(1)}" width="${Math.max(1, larg - 2).toFixed(1)}" height="${h.toFixed(1)}"
+      rx="1.5" fill="${dedans ? 'var(--accent)' : 'var(--bord-fort)'}"><title>${k} sociétés : ${pct(d[k], 1)}</title></rect>`;
+    if (n <= 20 || k % Math.ceil(n / 20) === 0) barres += `<text x="${(k * larg + larg / 2).toFixed(1)}" y="${H - 6}" text-anchor="middle">${k}</text>`;
+  }
+  if (fo && (fo.bas !== f.bas || fo.haut !== f.haut)) {
+    const x1 = fo.bas * larg, x2 = (fo.haut + 1) * larg;
+    barres += `<rect x="${x1.toFixed(1)}" y="2" width="${(x2 - x1).toFixed(1)}" height="${H - bas - 2}" fill="none" stroke="var(--orange)" stroke-dasharray="4 3"><title>Fourchette d’origine</title></rect>`;
+  }
+  return `<svg viewBox="0 0 ${L} ${H}" role="img" aria-label="Probabilité de chaque nombre de sociétés">${barres}</svg>`;
+}
+
+function blocCompte() {
+  const { d, f } = calculerCompte();
+  const fo = ORIGINE;
+  const change = fo && (fo.bas !== f.bas || fo.haut !== f.haut || fo.probable !== f.probable);
+  return `<div class="compte" id="compte" aria-live="polite">
+    <div><p class="compte__phrase">Entre <b>${f.bas}</b> et <b>${f.haut}</b> sociétés, avec ${pct(f.niveau)} de chances.
+      Valeur la plus probable : <b>${f.probable}</b> (moyenne ${nf1.format(f.moyenne)}).</p>
+      ${change ? `<p class="compte__origine">Calcul d’origine : <s>entre ${fo.bas} et ${fo.haut}, le plus probable ${fo.probable}</s>
+        — modifié par vos changements.</p>` : ''}
+      <p class="compte__origine">Somme des probabilités des ${D.probables.candidats.filter(c => !retiree(c)).length} sociétés
+        envoyées, plus ${nf1.format(D.concurrents.lambda)} société(s) attendue(s) que rien n’annonce.</p></div>
+    ${graphe(d, f, change ? fo : null)}</div>`;
+}
+
+function explication(c) {
+  if (!c.brut) {
+    const a = c.association;
+    return `<p>Ajoutée par association : présente sur ${pct(a.B)} des marchés de ${esc(a.nom_via)} (B), qui vient avec une probabilité de ${pct(a.p_via)}.
+      Probabilité = ${pct(a.B)} × ${pct(a.p_via)} = ${pct(a.p)}. Lecture : ${esc(a.lecture)}${a.C != null ? `, C = ${pct(a.C)}` : ''}.</p>`;
+  }
+  const b = c.brut, V = D.probables.variables, co = c.contributions || {};
+  const lignes = Object.keys(V).map(v => `<tr><td>${esc(V[v])}</td><td class="num">${nf2.format(c.x[v])}</td><td class="num">${co[v] >= 0 ? '+' : '−'}${nf2.format(Math.abs(co[v]))}</td></tr>`).join('');
+  return `<p>${b.similaires} des ${b.similaires_total} marchés similaires, ${b.proches} des ${b.proches_total} plus proches ;
+    ${b.acheteur} des ${b.acheteur_total} marchés de l’acheteur (3 ans) ; ${b.unites_12_mois} offres en 12 mois
+    (${b.unites} en tout), la dernière le ${dateFr(b.derniere)} ; ${b.region_2_ans} marchés dans la région et ${b.famille_2_ans}
+    dans la même famille sur 2 ans${b.montant_habituel ? ` ; montant habituel ≈ ${dh(b.montant_habituel)}` : ''}.
+    Formule : ${pct(c.p_formule, 1)}, corrigée par la calibration : ${pct(c.p, 1)}.
+    Éviction : ${c.eviction.ecartees} offres écartées sur ${c.eviction.offres} → ${pct(c.eviction.p)} (lissé vers ${pct(c.eviction.global, 1)}).</p>
+    <table class="tableau" style="margin-top:6px"><thead><tr><th>Variable</th><th class="num">Valeur</th><th class="num">Apport à la note</th></tr></thead>
+    <tbody>${lignes}<tr><td>constante</td><td></td><td class="num">${nf2.format(D.probables.coefficients.constante)}</td></tr></tbody></table>`;
+}
+
+function ligneSociete(c, groupe) {
+  const p = pDe(c), mod = MODIFS[c.cle] && MODIFS[c.cle].p != null, ret = retiree(c);
+  const etiq = [];
+  if (groupe && groupe.chef === c.cle) etiq.push('<span class="puce puce--accent">chef de file</span>');
+  if (c.association) etiq.push(`<span class="puce puce--attention" title="via ${esc(c.association.nom_via)}">probable par association</span>`);
+  return `<tr class="${ret ? 'retiree' : ''}" data-cle="${esc(c.cle)}">
+    <td data-l="Venir"><label class="controle"><input type="checkbox" data-action="garder" ${ret ? '' : 'checked'}
+      aria-label="Compter ${esc(c.nom)} parmi les sociétés probables"><span class="nom">${esc(c.nom)}</span></label>
+      <div style="margin-top:4px;display:flex;gap:4px;flex-wrap:wrap">${etiq.join('')}</div></td>
+    <td data-l="Probabilité de venir"><label class="sr" for="p-${esc(c.cle)}">Probabilité de venir de ${esc(c.nom)}, en %</label>
+      <input class="p-champ ${mod ? 'modifie' : ''}" id="p-${esc(c.cle)}" type="number" min="0" max="100" step="1" inputmode="numeric"
+        value="${Math.round(p * 100)}" data-action="p"> %
+      ${mod ? `<div class="origine">calculée : <s>${pct(c.p)}</s> <button type="button" class="btn btn--sec" data-action="retablir" style="min-height:28px">Rétablir</button></div>` : ''}
+      <span class="barre-p" aria-hidden="true"><i style="width:${Math.round(p * 100)}%"></i></span></td>
+    <td data-l="Éviction" class="num">${pct(c.eviction.p)}</td>
+    <td data-l="Pourquoi"><details class="plie"><summary>Pourquoi ${pct(c.p)}</summary>${explication(c)}</details></td>
+  </tr>`;
+}
+
+const enteteSocietes = `<thead><tr><th>Société</th><th>Probabilité de venir</th><th class="num">Éviction</th><th>Pourquoi</th></tr></thead>`;
+
+function blocStrategie(g) {
+  const s = g.strategie, nom = cle => (PAR_CLE[cle] && PAR_CLE[cle].nom) || cle;
+  if (!s.unites) return '<p>Aucun marché passé où deux membres au moins étaient présents.</p>';
+  const gains = Object.entries(s.gains).sort((a, b) => b[1] - a[1]).map(([k, n]) => `${esc(nom(k))} ${n}`).join(', ') || 'aucune';
+  const membres = s.membres.map(m => `<tr><td data-l="Membre">${esc(nom(m.cle))}</td><td data-l="Présences" class="num">${m.presences}</td>
+    <td data-l="Victoires" class="num">${m.victoires}</td>
+    <td data-l="Face au gagnant (médiane)" class="num">${ecartPct(m.position_gagnant)} <span class="doux petit">(${m.n_gagnant})</span></td>
+    <td data-l="Face au prix de référence (médiane)" class="num">${ecartPct(m.position_reference)} <span class="doux petit">(${m.n_reference})</span></td></tr>`).join('');
+  const ext = s.exterieur;
+  const gagnantsExt = ext.gagnants.map(x => `${esc(x.nom)} (${x.fois})`).join(', ');
+  const dern = s.dernieres.map(u => `<tr><td data-l="Date">${dateFr(u.date)}</td><td data-l="Acheteur"><span class="objet">${esc(u.acheteur)}</span></td>
+    <td data-l="Membres présents">${u.membres_presents.map(k => esc(nom(k))).join(', ')}</td>
+    <td data-l="Gagnant">${esc(u.nom_gagnant || '—')}${u.taux_gagnant != null ? ` <span class="doux petit">${taux(u.taux_gagnant)}</span>` : ''}</td>
+    <td data-l="Offres" class="num">${u.offres}</td></tr>`).join('');
+  return `<p>Sur <b>${s.unites}</b> marchés passés où au moins deux membres ont déposé (${s.jugees} attribués) : le groupe a gagné
+      <b>${s.gagnees}</b> fois (${pct(s.taux_victoire)}). Victoires : ${gains}.</p>
+    <p>Défaites : ${s.defaites}${s.defaites_ecartes ? ` (dont ${s.defaites_ecartes} où toutes les offres du groupe étaient écartées)` : ''}.
+      ${s.defaites ? `Gagnant extérieur : taux médian ${taux(ext.taux_median)} ; écart médian avec la meilleure offre du groupe
+      ${ext.ecart_meilleure == null ? '—' : (ext.ecart_meilleure >= 0 ? '+' : '−') + nf2.format(Math.abs(ext.ecart_meilleure))} point de taux,
+      avec le prix de référence ${ext.ecart_reference == null ? '—' : (ext.ecart_reference >= 0 ? '+' : '−') + nf2.format(Math.abs(ext.ecart_reference))}.
+      Les plus fréquents : ${gagnantsExt || '—'}.` : ''}</p>
+    <div class="defile"><table class="tableau"><thead><tr><th>Membre</th><th class="num">Présences</th><th class="num">Victoires</th>
+      <th class="num">Face au gagnant</th><th class="num">Face au prix de réf.</th></tr></thead><tbody>${membres}</tbody></table></div>
+    <details class="plie"><summary>Les ${s.dernieres.length} dernières rencontres</summary><div class="defile"><table class="tableau">
+      <thead><tr><th>Date</th><th>Acheteur</th><th>Membres présents</th><th>Gagnant</th><th class="num">Offres</th></tr></thead>
+      <tbody>${dern}</tbody></table></div></details>`;
+}
+
+function blocGroupe(g) {
+  const nom = cle => (PAR_CLE[cle] && PAR_CLE[cle].nom) || cle;
+  const liens = g.liens.map(l => `<li>${esc(nom(l.de))} → ${esc(nom(l.vers))} : ${esc(l.lecture)}, présente sur ${l.victoires_avec} victoires,
+    A ÷ B ${l.rapport == null ? '—' : nf1.format(l.rapport)}, C ${pct(l.C)}</li>`).join('');
+  return `<article class="groupe"><h3>Groupe ${g.numero} · chef de file : ${esc(nom(g.chef))}
+      <span class="puce">${pluriel(g.membres.length, 'société')}</span></h3>
+    <div class="defile"><table class="tableau">${enteteSocietes}<tbody>${g.membres.map(k => PAR_CLE[k] ? ligneSociete(PAR_CLE[k], g) : '').join('')}</tbody></table></div>
+    <details class="plie"><summary>Stratégie passée du groupe</summary><div class="strategie">${blocStrategie(g)}</div></details>
+    <details class="plie"><summary>Pourquoi ces sociétés sont ensemble</summary><ul class="comment" style="list-style:disc;padding-left:24px;border:0">${liens}</ul>
+      <p class="doux petit">Chef de file : le membre qui a le plus de victoires où un autre membre était présent
+      (${g.membres.map(k => `${esc(nom(k))} ${g.victoires_accompagnees[k] || 0}`).join(', ')}).</p></details>
+  </article>`;
+}
+
+function blocProbables() {
+  const pr = D.probables, r = pr.reglages;
+  const dansGroupe = new Set(D.groupes.flatMap(g => g.membres));
+  const indiv = D.individuelles.map(k => PAR_CLE[k]).filter(Boolean);
+  const autres = pr.candidats.filter(c => !c.dans_liste && !dansGroupe.has(c.cle));
+  const co = pr.coefficients.coefficients;
+  return `<section class="etape" aria-labelledby="e3"><h2 id="e3"><span class="rond">3</span>Les sociétés probables</h2>
+    <p class="intro">Qui viendra, avec quelle probabilité, réparti en groupes de présence commune. Décochez une société ou changez
+      sa probabilité : le nombre de concurrents se recalcule aussitôt (rien n’est enregistré).</p>
+    <div id="zone-compte">${blocCompte()}</div>
+    <div class="actions-calcul"><button type="button" class="btn btn--sec" data-action="tout-retablir">Tout rétablir</button>
+      <span class="doux petit" id="nb-modifs"></span></div>
+    <h3 style="font-size:var(--t-m);margin:16px 0 8px">Groupes (${D.groupes.length})</h3>
+    <div class="groupes">${D.groupes.map(blocGroupe).join('') || '<p class="doux">Aucun groupe parmi les sociétés probables.</p>'}</div>
+    <h3 style="font-size:var(--t-m);margin:20px 0 8px">Sociétés individuelles (${indiv.length})</h3>
+    <div class="defile"><table class="tableau">${enteteSocietes}<tbody>${indiv.map(c => ligneSociete(c, null)).join('')}</tbody></table></div>
+    <details class="plie" style="margin-top:12px"><summary>Autres sociétés possibles (${autres.length}, probabilité sous ${pct(r.seuil_liste)} ou au-delà des ${r.taille_liste} premières)</summary>
+      <div class="defile"><table class="tableau">${enteteSocietes}<tbody>${autres.map(c => ligneSociete(c, null)).join('')}</tbody></table></div></details>
+    <details class="comment"><summary>Comment c’est calculé</summary>
+      <ul>
+        <li>Candidates : les sociétés des ${r.proches} marchés les plus similaires, et celles qui ont déposé chez l’acheteur (3 ans)
+          ou dans la région (12 mois) sans qualification incompatible — ${nb(pr.nb_candidats)} ici.</li>
+        <li>Probabilité de venir : p = 1 / (1 + e<sup>−z</sup>), z = ${nf2.format(pr.coefficients.constante)} + Σ coefficient × variable.
+          Coefficients : ${Object.entries(co).map(([k, v]) => `${esc(pr.variables[k] || k)} ${nf2.format(v)}`).join(' ; ')}.
+          <span class="doux">${esc(pr.coefficients.origine)}</span> La formule surestime les fortes probabilités : une table
+          de calibration apprise sur d’autres marchés de la même année corrige l’échelle sans changer l’ordre des sociétés.</li>
+        <li>Liste affichée : les ${r.taille_liste} premières à partir de ${pct(r.seuil_liste)}. Alliées cherchées pour celles à
+          ${pct(r.seuil_allies)} ou plus, avec le calcul « autour d’une société » de la page des groupes, sur l’historique d’avant la coupure.</li>
+        <li>Une alliée absente de la liste mais « noyau », ou accompagnatrice avec C ≥ ${pct(r.c_association)}, est ajoutée
+          « probable par association » : p = B × p(société). Groupes fusionnés du lien le plus fort au plus faible, ${r.taille_groupe} sociétés au plus.</li>
+        <li>Nombre de concurrents : somme de tirages (une société vient ou non) avec un effet commun au marché
+          (σ = ${nf1.format(D.concurrents.dispersion)}), plus ${nf1.format(D.concurrents.lambda)} société(s) que rien n’annonce
+          (dont ${nf2.format(D.concurrents.lambda_autres)} d’après les ${nf1.format(D.concurrents.offres_moyennes_similaires)} offres moyennes des similaires).</li>
+      </ul></details>
+  </section>`;
+}
+
+const blocAvenir = (n, titre, texte) => `<section class="etape etape--avenir" aria-labelledby="e${n}"><h2 id="e${n}"><span class="rond">${n}</span>${titre}</h2>
+  <p class="intro">À venir : ${texte}</p></section>`;
+
+// ================================================================ ce qui s'est réellement passé (AO rejoués)
+function blocVerite(v) {
+  const ordre = [...D.probables.candidats].sort((a, b) => b.p - a.p);
+  const rang = Object.fromEntries(ordre.map((c, k) => [c.cle, k + 1]));
+  const groupeDe = {};
+  D.groupes.forEach(g => g.membres.forEach(m => { groupeDe[m] = g.numero; }));
+  const prevue = cle => PAR_CLE[cle] && (PAR_CLE[cle].dans_liste || PAR_CLE[cle].association);
+  const venues = new Set(v.concurrents.map(c => c.cle));
+  const lignes = v.concurrents.map(c => `<tr><td data-l="Société">${esc(c.nom)}${c.cle === v.gagnant.cle ? ' <span class="puce puce--ok">gagnant</span>' : ''}</td>
+    <td data-l="Prévue">${prevue(c.cle) ? '<span class="oui">✓</span>' : '<span class="non">✗</span>'}
+      ${rang[c.cle] ? `<span class="doux petit">rang ${rang[c.cle]}, ${pct(PAR_CLE[c.cle].p)}</span>` : '<span class="doux petit">absente des candidates envoyées</span>'}</td>
+    <td data-l="Groupe">${groupeDe[c.cle] ? 'groupe ' + groupeDe[c.cle] : '—'}</td>
+    <td data-l="Statut">${esc(c.statut)}</td><td data-l="Taux" class="num">${taux(c.taux)}</td><td data-l="Rang commission" class="num">${c.rang ?? '—'}</td></tr>`).join('');
+  const f = ORIGINE, n = v.nb_concurrents, dedans = n >= f.bas && n <= f.haut;
+  const g = v.gagnant;
+  const membresVenus = D.groupes.map(gr => {
+    const l = gr.membres.filter(m => venues.has(m));
+    return `<li>Groupe ${gr.numero} (${esc(PAR_CLE[gr.chef] ? PAR_CLE[gr.chef].nom : gr.chef)}) : ${l.length} sur ${gr.membres.length} venues${l.length ? ' — ' + l.map(m => esc(PAR_CLE[m].nom)).join(', ') : ''}</li>`;
+  }).join('');
+  const prevues = v.concurrents.filter(c => prevue(c.cle)).length;
+  return `<details class="verite"><summary>Ce qui s’est réellement passé</summary><div class="contenu">
+    <p>Marché réel <span class="mono">${esc(v.reference_reelle || '')}</span>, ouvert le ${dateFr(v.date_ouverture)}.
+      <b>${prevues}</b> des ${n} sociétés venues avaient été prévues.</p>
+    <p>Gagnant : <b>${esc(g.nom || '—')}</b> (taux ${taux(g.taux)}) — ${prevue(g.cle) ? `<span class="oui">prévu ✓</span>, rang ${rang[g.cle]}${groupeDe[g.cle] ? ', dans le groupe ' + groupeDe[g.cle] : ', individuel'}` : '<span class="non">non prévu ✗</span>'}.</p>
+    <p>Nombre de concurrents : <b>${n}</b> — fourchette prévue ${f.bas} à ${f.haut} : ${dedans ? '<span class="oui">dedans ✓</span>' : '<span class="non">en dehors ✗</span>'} (le plus probable : ${f.probable}).</p>
+    <div><b>Membres de groupe réellement présents</b><ul style="list-style:disc;padding-left:24px">${membresVenus || '<li>Aucun groupe prévu.</li>'}</ul></div>
+    <div class="defile"><table class="tableau"><thead><tr><th>Société venue</th><th>Prévue</th><th>Groupe</th><th>Statut</th><th class="num">Taux</th><th class="num">Rang commission</th></tr></thead>
+      <tbody>${lignes}</tbody></table></div>
+    <p class="doux petit">Lu à part (copilote/verite_rejeu.py) : le moteur ne voit jamais ce résultat. La comparaison porte sur le calcul d’origine, pas sur vos modifications.</p>
+  </div></details>`;
+}
+
+// ================================================================ assemblage et interactions
+function rafraichirCompte() {
+  $('#zone-compte').innerHTML = blocCompte();
+  const n = Object.keys(MODIFS).length;
+  $('#nb-modifs').textContent = n ? `${pluriel(n, 'modification')} en cours` : '';
+}
+
+function rendre(verite) {
+  const a = D.ao;
+  $('#titre').textContent = `Analyse de ${REF}${a.lot ? ' — lot ' + a.lot : ''}`;
+  document.title = `Analyse ${REF}${a.lot ? ' lot ' + a.lot : ''} — Copilote`;
+  $('#corps').innerHTML = [blocAo(), blocSimilaires(), blocProbables(),
+    verite ? blocVerite(verite) : '',
+    blocAvenir(4, 'Les taux de chaque société', 'le sous-historique et le taux probable de chaque société.'),
+    blocAvenir(5, 'La simulation de l’ouverture des plis', 'la chance de gagner selon notre prix.')].join('');
+}
+
+function ligneDe(el) { const tr = el.closest('tr[data-cle]'); return tr && PAR_CLE[tr.dataset.cle]; }
+
+function redessinerLignes(cle) {
+  document.querySelectorAll(`tr[data-cle="${CSS.escape(cle)}"]`).forEach(tr => {
+    const g = D.groupes.find(x => x.membres.includes(cle));
+    const tmp = document.createElement('tbody');
+    tmp.innerHTML = ligneSociete(PAR_CLE[cle], g || null);
+    tr.replaceWith(tmp.firstElementChild);
+  });
+}
+
+document.addEventListener('change', e => {
+  const c = ligneDe(e.target);
+  if (!c) return;
+  if (e.target.dataset.action === 'garder') {
+    MODIFS[c.cle] = { ...(MODIFS[c.cle] || {}), retiree: !e.target.checked };
+  } else if (e.target.dataset.action === 'p') {
+    let v = parseFloat(String(e.target.value).replace(',', '.'));
+    if (!isFinite(v)) return;
+    v = Math.min(100, Math.max(0, v)) / 100;
+    MODIFS[c.cle] = { ...(MODIFS[c.cle] || {}), p: Math.abs(v - c.p) < 0.005 ? undefined : v };
+  } else return;
+  const m = MODIFS[c.cle];
+  if (!m.retiree && m.p == null) delete MODIFS[c.cle];
+  redessinerLignes(c.cle);
+  rafraichirCompte();
+});
+document.addEventListener('click', e => {
+  const b = e.target.closest('[data-action]');
+  if (!b || b.tagName === 'INPUT') return;
+  if (b.dataset.action === 'retablir') {
+    const c = ligneDe(b);
+    if (c && MODIFS[c.cle]) { delete MODIFS[c.cle].p; if (!MODIFS[c.cle].retiree) delete MODIFS[c.cle]; redessinerLignes(c.cle); rafraichirCompte(); }
+  } else if (b.dataset.action === 'tout-retablir') {
+    const cles = Object.keys(MODIFS);
+    cles.forEach(k => delete MODIFS[k]);
+    cles.forEach(redessinerLignes);
+    rafraichirCompte();
+  }
+});
+
+function blocLots(lots, detail) {
+  return `<section class="etape"><h2><span class="rond">1</span>Choisir un lot</h2>
+    <p class="intro">${esc(detail)}</p><div class="lots">${lots.map(l => {
+      const num = typeof l === 'object' ? l.lot : l;
+      const lib = typeof l === 'object' && l.intitule ? ` — ${l.intitule.slice(0, 80)}` : '';
+      return `<a class="btn btn--sec" href="?lot=${encodeURIComponent(num)}"${String(num) === LOT ? ' aria-current="true"' : ''}>Lot ${esc(num)}${esc(lib)}</a>`;
+    }).join('')}</div></section>`;
+}
+
+async function demarrer() {
+  if (!REF) { $('#corps').innerHTML = '<p class="erreur">Aucun appel d’offres indiqué dans l’adresse.</p>'; return; }
+  const q = LOT ? `?lot=${encodeURIComponent(LOT)}` : '';
+  try {
+    D = await lire(`/api/copilote/analyse/${encodeURIComponent(REF)}${q}`);
+  } catch (e) {
+    if (e.corps && e.corps.lots) { $('#corps').innerHTML = blocLots(e.corps.lots, e.message); return; }
+    if (e.statut === 401) { location.href = '/copilote/entrer'; return; }
+    $('#corps').innerHTML = `<p class="erreur">${esc(e.message)}</p>`;
+    return;
+  }
+  PAR_CLE = Object.fromEntries(D.probables.candidats.map(c => [c.cle, c]));
+  ORIGINE = calculerCompte().f;
+  let verite = null;
+  if (EST_REJEU) { try { verite = await lire(`/api/copilote/rejeu/${encodeURIComponent(REF)}/verite${q}`); } catch (e) { verite = null; } }
+  rendre(verite);
+  if (D.ao.lot) {
+    // AO alloti : rappeler les autres lots en tête.
+    try { await lire(`/api/copilote/analyse/${encodeURIComponent(REF)}`); } catch (e) {
+      if (e.corps && e.corps.lots) $('#corps').insertAdjacentHTML('afterbegin', blocLots(e.corps.lots, 'Cet AO est alloti : chaque lot s’analyse à part.').replace('<span class="rond">1</span>', ''));
+    }
+  }
+}
+demarrer();
+</script>
+</body>
+</html>

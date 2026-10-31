@@ -244,7 +244,7 @@ class Coupure(Base):
 
     def test_la_verite_n_est_lue_que_par_rejouer_ao(self):
         """Aucun autre module du copilote ne nomme la table de vérité ni sa fonction de lecture."""
-        permis = {"rejouer_ao.py"}
+        permis = {"rejouer_ao.py", "verite_rejeu.py"}         # verite_rejeu : la page d'analyse et les mesures
         for chemin in sorted((ICI / "copilote").glob("*.py")):
             texte = chemin.read_text(encoding="utf-8")
             if chemin.name in permis:

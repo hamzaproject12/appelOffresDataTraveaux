@@ -54,7 +54,9 @@ def lire_ao(ao: sqlite3.Connection, ref_annonce: str, lot: str | None) -> dict:
 
 def analyser(ref_annonce: str, lot: str | None, poids_texte: str | None, *, ouvrir_historique, chemin_historique,
              ao: sqlite3.Connection, calc: sqlite3.Connection, ret: sqlite3.Connection,
-             aujourdhui: date | None = None) -> dict:
+             aujourdhui: date | None = None, interne: bool = False):
+    """La réponse de l'API. Avec `interne`, renvoie (réponse, {moteur, cible, composantes, notes, retenus,
+    jour_ref, coupure}) : l'analyse de l'AO (analyse.py) repart des mêmes marchés sans les recalculer."""
     r0 = reglages.charger()
     try:
         poids = reglages.poids_depuis_texte(poids_texte, r0["poids"])
@@ -105,7 +107,7 @@ def analyser(ref_annonce: str, lot: str | None, poids_texte: str | None, *, ouvr
     n = r["resultats"]
     retenus = m.meilleurs(notes, n) if comp.k else []
     lignes = [m.ligne(cible, comp, int(i), notes, poids) for i in retenus]
-    return {
+    reponse = {
         "ao": {"ref_annonce": ref_annonce, "lot": cible.lot, "objet": objet, "acheteur": nom_ach,
                "estimation": estimation, "mode": mode,
                "date_reference": date.fromordinal(jour_ref).isoformat(),
@@ -123,3 +125,7 @@ def analyser(ref_annonce: str, lot: str | None, poids_texte: str | None, *, ouvr
                   {"nb": 0, "mediane": None, "q1": None, "q3": None},
         "similaires": lignes,
     }
+    if interne:
+        return reponse, {"moteur": m, "cible": cible, "composantes": comp, "notes": notes, "retenus": retenus,
+                         "jour_ref": jour_ref, "coupure": coupure}
+    return reponse
