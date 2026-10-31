@@ -306,7 +306,7 @@ def creer_routeur(secret: bytes, base: Path | str, ao_base: Path | str,
             groupes_mod.preparer_retours(ret)
             avis = ret.execute("SELECT COUNT(*), MAX(id) FROM avis_groupes WHERE cle_a = ? OR cle_b = ?",
                                (cle, cle)).fetchone()
-            version = (cle, st.st_mtime_ns, st.st_size, api_groupes._meta(calc)["cree_le"],
+            version = (autour_societe.FORMAT, cle, st.st_mtime_ns, st.st_size, api_groupes._meta(calc)["cree_le"],
                        tuple(sorted(fusions.items())), tuple(avis))
             etag = '"' + hashlib.sha1(repr(version).encode()).hexdigest()[:20] + '"'
             entetes = {"Cache-Control": "private, no-cache", "ETag": etag, "Vary": "Accept-Encoding"}

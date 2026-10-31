@@ -376,6 +376,10 @@
   .bandeau-info { margin: 0; padding: var(--e2) var(--e5); background: var(--orange-doux); color: var(--orange);
     border-bottom: 1px solid var(--orange-bord); font-size: var(--t-s); font-weight: 600; text-align: center; }
   .petit { font-size: var(--t-xs); }
+  .titre-col h2 { font-size: var(--t-l); font-weight: 650; }
+  .titre-col p { color: var(--doux); font-size: var(--t-s); margin: 2px 0 var(--e3); max-width: 70ch; }
+  .puces-groupe small { color: var(--doux); margin-left: 4px; }
+  .sous-groupe { font-size: var(--t-s); font-weight: 650; color: var(--texte-2); margin: var(--e3) 0 var(--e2); }
   .sous-titre { font-size: var(--t-m); font-weight: 650; margin: var(--e4) 0 var(--e2); }
   .puces-groupe { display: flex; flex-wrap: wrap; gap: var(--e2); list-style: none; margin: 0 0 var(--e2); padding: 0; }
   .puces-groupe li { padding: 4px 12px; border: 1px solid var(--bord-fort); border-radius: 999px; background: var(--surface-2); font-size: var(--t-s); }
@@ -484,6 +488,8 @@
 
   <div class="disposition">
     <section class="col-liste" aria-label="Liste des familles de groupes">
+      <div class="titre-col"><h2>Groupes détectés sur toute la base (calcul de la semaine)</h2>
+        <p>Des sociétés qui se retrouvent sur les mêmes marchés plus souvent que le hasard. Le calcul porte sur tout l’historique et se refait une fois par semaine.</p></div>
       <div class="trouvees" id="trouvees" aria-live="polite"></div>
       <p class="resume" id="resume" aria-live="polite"></p>
       <ol class="liste" id="liste"><li><span class="sq"></span></li><li><span class="sq"></span></li><li><span class="sq"></span></li></ol>
@@ -930,7 +936,7 @@ const TERMES = {
   liees: 'Deux sociétés présentes ensemble sur les mêmes marchés plus souvent que le hasard ne le voudrait. C’est un signal, pas une conclusion.',
   normale: 'La normale, c’est ce que donnerait le hasard si chacune gardait ses acheteurs et son nombre de marchés. « 9 fois plus » : neuf fois plus souvent ensemble que cette normale.',
   presente: 'Part des marchés d’une société où l’autre a aussi déposé une offre.',
-  position: 'Écart médian entre l’offre d’une société et l’offre gagnante, en part de celle-ci. « +5 % » : son offre était 5 % au-dessus.',
+  position: 'Écart médian entre l’offre de cette société et l’offre gagnante de X, sur les victoires de X. Une offre loin au-dessus ou loin en dessous déplace la moyenne des offres, donc le prix de référence.',
   victoires: 'Marchés et lots gagnés : un marché alloti compte lot par lot.',
   gagne_avec: 'Nombre de marchés et de lots partagés que l’autre société a gagnés.',
   niveau: 'Lien très probable, probable ou à vérifier : cela dépend du nombre de marchés communs, de l’écart à la normale et de la probabilité d’un tel écart par hasard.',
@@ -953,12 +959,15 @@ const surN = (n, total) => `${nf.format(n)}${total ? ` <span class="doux">sur ${
 // Le calcul « autour d'une société » vit dans groupes_calcul.js (le même, en Python, sert à l'étape 5).
 // Ici : les données de la société, les réglages, le tableau, les marchés en preuve et les avis.
 const REGL_CHAMPS = [
-  { k: 'min_victoires', lib: 'Présente sur au moins … victoires de la société', pas: 1, min: 1 },
-  { k: 'rapport_min', lib: 'A ÷ B d’au moins', pas: 0.1, min: 0 },
-  { k: 'max_victoires_y', lib: 'Et au plus … victoires contre la société', pas: 1, min: 0 },
-  { k: 'min_victoires_y', lib: 'Concurrent direct : au moins … victoires contre la société', pas: 1, min: 1 },
+  { k: 'min_victoires', lib: 'Noyau et accompagnatrice : présente sur au moins … victoires de la société', pas: 1, min: 1, dec: 0 },
+  { k: 'rapport_min', lib: 'Noyau et accompagnatrice : A ÷ B d’au moins', pas: 0.1, min: 0, dec: 2 },
+  { k: 'part_noyau', lib: 'Noyau : la société présente sur au moins … des victoires de l’autre (0,5 = la moitié)', pas: 0.05, min: 0, dec: 2 },
+  { k: 'c_min', lib: 'Accompagnatrice : ou C d’au moins (0,6 = 60 %)', pas: 0.05, min: 0, dec: 2 },
+  { k: 'min_victoires_y', lib: 'Concurrent direct : l’autre gagne au moins … fois quand la société est présente', pas: 1, min: 1, dec: 0 },
+  { k: 'rapport_concurrent', lib: 'Concurrent direct : et A ÷ B en dessous de', pas: 0.1, min: 0, dec: 2 },
+  { k: 'taille_groupe', lib: 'Taille du groupe, société comprise (les suivantes : « autres sociétés proches »)', pas: 1, min: 1, dec: 0 },
 ];
-const LECTURE_PUCE = { presente: 'puce--moyen', concurrent: 'puce--attention', neutre: '' };
+const LECTURE_PUCE = { noyau: 'puce--fort', accompagnatrice: 'puce--moyen', concurrent: 'puce--attention', neutre: '' };
 const STATUT_OFFRE = { a: 'retenue', m: 'admise', e: 'écartée', d: 'déposée' };
 let REGL = null, ORIGINE = null, RESULTAT = null, OUVERTES = new Set(), NB_LIGNES = 25, TEMPS_CALCUL = 0;
 const frac = (n, d) => d ? `${nf.format(n)} / ${nf.format(d)} = ${pct(n / d)}` : 'non calculable (aucune unité)';
@@ -977,31 +986,43 @@ function phraseResume() {
   const s = SOCIETE.societe, r = RESULTAT, nom = esc(s.nom);
   const base = `${nom} a déposé une offre sur ${pluriel(r.unites_x, 'unité', 'unités')} (marchés ou lots) et en a gagné ${nf.format(r.victoires_x)}.`;
   if (!r.victoires_x) return `${base} Sans victoire, A et A ÷ B ne peuvent pas être calculés.`;
-  const g = r.groupe.slice(1);
-  if (!g.length) return `${base} Aucune autre société n’est nettement plus présente lors de ses victoires que d’habitude, avec les réglages actuels.`;
-  const tete = r.lignes.filter(l => l.lecture === 'presente').slice(0, 3);
-  return `${base} ${g.length > 1 ? `${nf.format(g.length)} sociétés sont nettement plus présentes` : '1 société est nettement plus présente'} lors de ses victoires que d’habitude, `
-    + `par exemple ${tete.map(l => `${esc(nomDe(l.cle))} (${l.victoires_x_avec} victoires sur ${r.victoires_x})`).join(', ')}.`;
+  const noy = r.noyau.slice(1), acc = r.accompagnatrices;
+  if (!noy.length && !acc.length) return `${base} Aucune autre société n’est nettement plus présente lors de ses victoires que d’habitude, avec les réglages actuels.`;
+  const noms = l => l.slice(0, 3).map(c => esc(nomDe(c))).join(', ') + (l.length > 3 ? ` et ${l.length - 3} autre${l.length > 4 ? 's' : ''}` : '');
+  const morceaux = [];
+  if (noy.length) morceaux.push(`${pluriel(noy.length, 'société gagne', 'sociétés gagnent')} à tour de rôle avec elle (${noms(noy)})`);
+  if (acc.length) morceaux.push(`${pluriel(acc.length, 'société est', 'sociétés sont')} plus présente${acc.length > 1 ? 's' : ''} que d’habitude lors de ses victoires (${noms(acc)})`);
+  return `${base} Dans son groupe : ${morceaux.join(' ; ')}.`;
 }
 
 function rendreHaut() {
-  const s = SOCIETE.societe, r = RESULTAT;
-  const groupe = r.groupe.length > 1
-    ? `<ul class="puces-groupe">${r.groupe.map((c, i) => `<li>${i ? lienFiche(c, nomDe(c)) : `<strong>${esc(nomDe(c))}</strong>`}</li>`).join('')}</ul>`
+  const s = SOCIETE.societe, r = RESULTAT, ligne = {};
+  r.lignes.forEach(l => { ligne[l.cle] = l; });
+  const puce = (c, premier) => {
+    const l = ligne[c];
+    return `<li>${premier ? `<strong>${esc(nomDe(c))}</strong>` : lienFiche(c, nomDe(c))}${l ? `<small title="Victoires de ${esc(s.nom)} où elle était présente">${l.victoires_x_avec}/${r.victoires_x}</small>` : ''}</li>`;
+  };
+  const noy = r.noyau.slice(1), acc = r.accompagnatrices;
+  const groupe = (noy.length || acc.length)
+    ? `<h4 class="sous-groupe">Noyau (gagnent à tour de rôle)</h4><ul class="puces-groupe">${r.noyau.map((c, i) => puce(c, i === 0)).join('')}</ul>
+      ${acc.length ? `<h4 class="sous-groupe">Accompagnatrices</h4><ul class="puces-groupe">${acc.map(c => puce(c, false)).join('')}</ul>` : ''}`
     : '<p class="doux">Aucune société n’entre dans le groupe avec les réglages actuels.</p>';
+  const autres = r.autres.length ? `<details class="plie"><summary>Autres sociétés proches (${r.autres.length})</summary>
+      <p class="doux petit" style="margin-top:6px">Elles répondent aux mêmes critères mais passent après les ${nf.format(REGL.taille_groupe)} premières (classées par victoires accompagnées, puis par A ÷ B).</p>
+      <ul class="puces-groupe">${r.autres.map(c => puce(c, false)).join('')}</ul></details>` : '';
   $('#zone-haut').innerHTML = `<h2 id="titre-fiche" tabindex="-1">${esc(s.nom)}</h2>
     <p class="resume-societe">${phraseResume()}</p>
     <div class="fiche-tete__meta"><span>${aide(`${pluriel(r.victoires_x, 'victoire')} sur ${pluriel(r.unites_x, 'unité', 'unités')}`, 'victoires')}</span>
       <span>${lienSociete(s.cle, 'Voir son historique')}</span></div>
     <h3 class="sous-titre">Groupe de présence commune autour de cette société</h3>
-    ${groupe}
-    <p class="doux petit">Une société y figure quand sa lecture, dans le tableau, est « ${esc(SOCIETE.lectures.presente)} » avec les réglages ci-dessous. C’est un signal statistique, pas une conclusion.</p>`;
+    ${groupe}${autres}
+    <p class="doux petit" style="margin-top:8px">Le petit nombre à droite d’un nom : les victoires de ${esc(s.nom)} où cette société était présente. C’est un signal statistique, pas une conclusion.</p>`;
 }
 
 function rendreReglages() {
   $('#zone-reglages').innerHTML = REGL_CHAMPS.map(c => {
     const modifie = REGL[c.k] !== ORIGINE[c.k];
-    return `<label class="reglage"><span>${esc(c.lib)}${modifie ? ` <span class="rappel">(valeur d’origine : <s>${dec(ORIGINE[c.k], c.pas < 1 ? 1 : 0)}</s>)</span>` : ''}</span>
+    return `<label class="reglage"><span>${esc(c.lib)}${modifie ? ` <span class="rappel">(valeur d’origine : <s>${dec(ORIGINE[c.k], c.dec)}</s>)</span>` : ''}</span>
       <input class="champ${modifie ? ' champ--modifie' : ''}" type="number" inputmode="decimal" data-reglage="${c.k}" min="${c.min}" step="${c.pas}" value="${REGL[c.k]}"></label>`;
   }).join('') + `<div class="reglage reglage--bouton"><button type="button" class="btn btn--sec" id="reglage-reset"${REGL_CHAMPS.every(c => REGL[c.k] === ORIGINE[c.k]) ? ' disabled' : ''}>Revenir aux valeurs d’origine</button>
     <span class="doux petit" id="temps-calcul" aria-live="off"></span></div>`;
@@ -1039,13 +1060,14 @@ function ligneSociete(l) {
     <td class="num" data-l="C">${pctCalcul(l.communes, l.total_y, `C : unités communes ÷ toutes les unités de ${nom}`)}</td>
     <td class="num" data-l="A ÷ B">${l.rapport == null ? '—' : `<button type="button" class="pct" data-calcul="${esc(`A ÷ B : ${dec(l.A, 3)} ÷ ${dec(l.B, 3)} = ${dec(l.rapport, 3)}`)}" title="${esc(`${dec(l.A, 3)} ÷ ${dec(l.B, 3)} = ${dec(l.rapport, 3)}`)}">${dec(l.rapport, 2)}</button>`}</td>
     <td class="num" data-l="Victoires ensemble" title="${esc(`${s.nom} ${l.victoires_x_avec}, ${nom} ${l.victoires_y}`)}">${nf.format(l.victoires_x_avec)} – ${nf.format(l.victoires_y)}</td>
-    <td class="num" data-l="Position de l’offre">${ecartFr(l.position)}</td>
+    <td class="num" data-l="Position de l’offre" title="${esc(TERMES.position)}">${ecartFr(l.position)}</td>
     <td data-l="Lecture"><span class="puce ${LECTURE_PUCE[l.lecture]}">${esc(SOCIETE.lectures[l.lecture])}</span></td>
     <td data-l="Liées ?">${formulaireLigne(l)}</td></tr>`;
   if (!ouverte) return ligne;
   const lien = n && n.exces != null ? `Calcul hebdomadaire : ${foisPlus(n.exces)}.` : '';
   return ligne + `<tr class="preuve"><td colspan="9"><div class="preuve__corps">
-    <p class="doux petit">${pluriel(l.communes, 'unité')} où les deux sociétés ont déposé une offre, les plus récentes d’abord. « Victoires ensemble » : ${esc(s.nom)} ${nf.format(l.victoires_x_avec)}, ${esc(nom)} ${nf.format(l.victoires_y)}. ${lien}</p>
+    <p class="doux petit">${pluriel(l.communes, 'unité')} où les deux sociétés ont déposé une offre, les plus récentes d’abord. « Victoires ensemble » : ${esc(s.nom)} ${nf.format(l.victoires_x_avec)}, ${esc(nom)} ${nf.format(l.victoires_y)}.
+      ${l.victoires_y_total ? `${esc(nom)} a gagné ${pluriel(l.victoires_y_total, 'unité', 'unités')} dans la base ; ${esc(s.nom)} était présente sur ${nf.format(l.victoires_y)} d’entre elles (${pct(l.part_x_sur_y)}).` : `${esc(nom)} n’a gagné aucune unité dans la base.`} ${lien}</p>
     ${tableauPreuves(l.cle)}
     ${formulaireAvis('', '', `data-a="${esc([s.cle, l.cle].sort()[0])}" data-b="${esc([s.cle, l.cle].sort()[1])}"`, SOCIETE.avis[l.cle]?.reponse ? SOCIETE.avis[l.cle] : null, false, SOCIETE.question)}</div></td></tr>`;
 }
@@ -1083,8 +1105,13 @@ function rendreExplication() {
     <dt>A ÷ B</dt><dd>On compare A à B. Autour de 1 : l’autre société est aussi présente quand ${x} gagne que d’habitude. Au-dessus de 1 : elle est plus présente lors de ses victoires. Au-dessous de 1 : moins.</dd>
     <dt>Victoires ensemble</dt><dd>Parmi les unités communes, les victoires de ${x} puis celles de l’autre société (${x} perd alors).</dd>
     <dt>Position de l’offre</dt><dd>Sur les victoires de ${x}, l’écart médian entre l’offre de l’autre société et l’offre gagnante, en part de celle-ci. « +2 % » : son offre était 2 % au-dessus.</dd>
-    <dt>Lecture</dt><dd>« ${esc(SOCIETE.lectures.presente)} » : présente sur au moins ${REGL.min_victoires} victoires de ${x}, A ÷ B d’au moins ${dec(REGL.rapport_min, 1)}, et au plus ${REGL.max_victoires_y} victoire${REGL.max_victoires_y > 1 ? 's' : ''} contre ${x}.
-      « ${esc(SOCIETE.lectures.concurrent)} » : au moins ${REGL.min_victoires_y} victoires contre ${x}, plus que ${x} n’en a quand elle est présente. Sinon « ${esc(SOCIETE.lectures.neutre)} ». Les réglages ci-dessus changent ces seuils ; le tableau se recalcule aussitôt.</dd></dl>
+    <dt>Lecture</dt><dd>Chaque société reçoit une seule lecture, dans cet ordre :
+      <ul class="liste-simple"><li><strong>${esc(SOCIETE.lectures.noyau)}</strong> : présente sur au moins ${REGL.min_victoires} victoires de ${x}, A ÷ B d’au moins ${dec(REGL.rapport_min, 2)}, et ${x} présente sur au moins ${pct(REGL.part_noyau)} des victoires de l’autre société.</li>
+      <li><strong>${esc(SOCIETE.lectures.accompagnatrice)}</strong> : présente sur au moins ${REGL.min_victoires} victoires de ${x}, et (A ÷ B d’au moins ${dec(REGL.rapport_min, 2)} ou C d’au moins ${pct(REGL.c_min)}), sans être noyau.</li>
+      <li><strong>${esc(SOCIETE.lectures.concurrent)}</strong> : gagne au moins ${REGL.min_victoires_y} fois quand ${x} est présente, et A ÷ B en dessous de ${dec(REGL.rapport_concurrent, 2)}.</li>
+      <li><strong>${esc(SOCIETE.lectures.neutre)}</strong> : le reste.</li></ul>
+      Les réglages ci-dessus changent ces seuils ; le tableau se recalcule aussitôt.</dd>
+    <dt>Groupe</dt><dd>${x}, plus les noyaux et les accompagnatrices, classés par victoires de ${x} où ils étaient présents, puis par A ÷ B. Au plus ${nf.format(REGL.taille_groupe)} sociétés, ${x} comprise ; les suivantes sont repliées sous « Autres sociétés proches ».</dd></dl>
     ${exemple}
     <p class="doux petit">Ces chiffres sont des faits de présence commune relevés dans les procès-verbaux publics. Ils ne disent pas pourquoi deux sociétés se retrouvent sur les mêmes marchés : seul un avis humain peut dire si elles sont liées.</p>`;
 }
@@ -1106,9 +1133,11 @@ function rendreSociete(d, garder = false) {
   SOCIETE = d; FICHE = null; FAMILLE = null;
   if (!garder || !REGL) { ORIGINE = { ...d.reglages }; REGL = { ...d.reglages }; OUVERTES = new Set(); NB_LIGNES = 25; }
   $('#fiche').innerHTML = `<div class="fiche">${RETOUR_LISTE}
+    <div class="titre-col"><h2>Autour de cette société (calcul instantané)</h2>
+      <p>Quand cette société gagne, qui est présent ? Calculé à l’instant dans votre navigateur à partir de ses marchés : changer un réglage recalcule tout aussitôt.</p></div>
     <div class="carte" id="zone-haut"></div>
     <div class="carte"><details class="plie" id="details-reglages"><summary>Réglages du calcul</summary>
-      <p class="intro" style="margin-top:8px">Les trois seuils de la lecture « ${esc(d.lectures.presente)} », et celui du « ${esc(d.lectures.concurrent)} ». Un changement recalcule tout aussitôt, dans votre navigateur ; il n’est pas enregistré.</p>
+      <p class="intro" style="margin-top:8px">Les seuils des lectures « ${esc(d.lectures.noyau)} », « ${esc(d.lectures.accompagnatrice)} » et « ${esc(d.lectures.concurrent)} », et la taille du groupe. Un changement recalcule tout aussitôt, dans votre navigateur ; il n’est pas enregistré.</p>
       <div class="reglages" id="zone-reglages"></div></details></div>
     <div class="carte"><h2>Sociétés présentes avec elle</h2>
       <p class="intro">Triées par A : la part des victoires de la société où l’autre société avait aussi déposé. Touchez un pourcentage pour voir son calcul, une ligne pour voir les marchés.</p>
@@ -1211,7 +1240,7 @@ document.addEventListener('input', e => {
     const champ = $(`[data-reglage="${c.k}"]`), lib = champ.closest('label').firstElementChild;
     champ.classList.toggle('champ--modifie', REGL[c.k] !== ORIGINE[c.k]);
     lib.querySelector('.rappel')?.remove();
-    if (REGL[c.k] !== ORIGINE[c.k]) lib.insertAdjacentHTML('beforeend', ` <span class="rappel">(valeur d’origine : <s>${dec(ORIGINE[c.k], c.pas < 1 ? 1 : 0)}</s>)</span>`);
+    if (REGL[c.k] !== ORIGINE[c.k]) lib.insertAdjacentHTML('beforeend', ` <span class="rappel">(valeur d’origine : <s>${dec(ORIGINE[c.k], c.dec)}</s>)</span>`);
   });
 });
 

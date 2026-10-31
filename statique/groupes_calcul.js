@@ -12,15 +12,22 @@
  *   B  = unités communes / unités de X
  *   C  = unités communes / unités de Y dans toute la base
  *   A ÷ B  = combien de fois Y est plus présente quand X gagne que d'habitude
- *   victoires_y = unités communes que Y a gagnées (X perd alors)
+ *   victoires_y = unités communes que Y a gagnées (X présente, X perd alors)
+ *   part_x_sur_y = victoires de Y où X était présente / toutes les victoires de Y (societes[Y].victoires)
  *   position    = médiane de (taux de Y / taux de X − 1) sur les victoires de X
- * Lecture : « presente » (plus présente quand elle gagne), « concurrent » (concurrent direct) ou
- * « neutre ». Un fait statistique, jamais une accusation.
+ * Lecture de chaque Y, dans cet ordre (seuils dans REGLAGES, réglables dans la page) :
+ *   noyau            présente sur ≥ min_victoires victoires de X, A ÷ B ≥ rapport_min, ET part_x_sur_y ≥ part_noyau ;
+ *   accompagnatrice  présente sur ≥ min_victoires victoires de X, et (A ÷ B ≥ rapport_min ou C ≥ c_min), sans être noyau ;
+ *   concurrent       victoires_y ≥ min_victoires_y ET A ÷ B < rapport_concurrent ;
+ *   neutre           le reste.
+ * Groupe : X + noyaux et accompagnatrices, classés par victoires de X avec Y présente puis A ÷ B, au plus
+ * taille_groupe sociétés (X comprise) ; les suivantes sont « autres ». Un fait statistique, jamais une accusation.
  */
 (function (racine) {
   'use strict';
 
-  var REGLAGES = { min_victoires: 3, rapport_min: 1.5, max_victoires_y: 2, min_victoires_y: 3 };
+  var REGLAGES = { min_victoires: 3, rapport_min: 1.3, part_noyau: 0.5, c_min: 0.6, min_victoires_y: 3,
+                   rapport_concurrent: 1.0, taille_groupe: 9 };
 
   function mediane(v) {
     if (!v.length) return null;
@@ -55,22 +62,33 @@
 
     var lignes = [];
     communes.forEach(function (c, cle) {
-      var av = avec.get(cle) || 0, gy = gagneY.get(cle) || 0, soc = d.societes[cle];
+      var av = avec.get(cle) || 0, gy = gagneY.get(cle) || 0, soc = d.societes[cle] || {};
       var a = victoiresX ? av / victoiresX : null, b = nX ? c / nX : null;
-      var rapport = a !== null && b ? a / b : null, ty = soc ? soc.total : 0;
+      var rapport = a !== null && b ? a / b : null, ty = soc.total || 0, vt = soc.victoires || 0;
+      var cc = ty ? c / ty : null, part = vt ? Math.min(1, gy / vt) : null;
+      var presente = av >= r.min_victoires, fort = rapport !== null && rapport >= r.rapport_min;
       var lecture = 'neutre';
-      if (av >= r.min_victoires && rapport !== null && rapport >= r.rapport_min && gy <= r.max_victoires_y) lecture = 'presente';
-      else if (gy >= r.min_victoires_y && gy > av) lecture = 'concurrent';
-      lignes.push({ cle: cle, communes: c, victoires_x_avec: av, victoires_y: gy, A: a, B: b,
-                    C: ty ? c / ty : null, rapport: rapport, position: mediane(ecarts.get(cle) || []),
-                    lecture: lecture, total_y: ty });
+      if (presente && fort && part !== null && part >= r.part_noyau) lecture = 'noyau';
+      else if (presente && (fort || (cc !== null && cc >= r.c_min))) lecture = 'accompagnatrice';
+      else if (gy >= r.min_victoires_y && rapport !== null && rapport < r.rapport_concurrent) lecture = 'concurrent';
+      lignes.push({ cle: cle, communes: c, victoires_x_avec: av, victoires_y: gy, victoires_y_total: vt,
+                    part_x_sur_y: part, A: a, B: b, C: cc, rapport: rapport,
+                    position: mediane(ecarts.get(cle) || []), lecture: lecture, total_y: ty });
     });
     lignes.sort(function (p, q) {
       return ((q.A || 0) - (p.A || 0)) || (q.communes - p.communes) || (p.cle < q.cle ? -1 : p.cle > q.cle ? 1 : 0);
     });
-    var groupe = lignes.filter(function (l) { return l.lecture === 'presente'; })
-      .map(function (l) { return l.cle; }).sort();
-    return { unites_x: nX, victoires_x: victoiresX, lignes: lignes, groupe: [x].concat(groupe) };
+    var proches = lignes.filter(function (l) { return l.lecture === 'noyau' || l.lecture === 'accompagnatrice'; })
+      .sort(function (p, q) {
+        return (q.victoires_x_avec - p.victoires_x_avec) || (q.rapport - p.rapport) || (p.cle < q.cle ? -1 : p.cle > q.cle ? 1 : 0);
+      });
+    var place = Math.max(0, Math.trunc(r.taille_groupe) - 1), dedans = proches.slice(0, place), autres = proches.slice(place);
+    function cles(l) { return l.map(function (z) { return z.cle; }); }
+    return { unites_x: nX, victoires_x: victoiresX, lignes: lignes,
+             groupe: [x].concat(cles(dedans)),
+             noyau: [x].concat(cles(dedans.filter(function (l) { return l.lecture === 'noyau'; }))),
+             accompagnatrices: cles(dedans.filter(function (l) { return l.lecture === 'accompagnatrice'; })),
+             autres: cles(autres) };
   }
 
   /* Les unités de X où Y est présente, pour la preuve : les plus récentes d'abord (l'ordre des données). */
