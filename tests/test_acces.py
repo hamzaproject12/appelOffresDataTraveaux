@@ -22,7 +22,7 @@ class Acces(unittest.TestCase):
     def setUp(self):
         self.dossier = tempfile.TemporaryDirectory()
         d = Path(self.dossier.name)
-        self.patchs = [mock.patch.dict("os.environ", {"COPILOTE_ACCES": CODES}),
+        self.patchs = [mock.patch.dict("os.environ", {"COPILOTE_ACCES": CODES, "COPILOTE_CODE_EXIGE": "1"}),
                        mock.patch.object(config, "COPILOTE_CALCUL", d / "calcul.db"),
                        mock.patch.object(config, "COPILOTE_RETOURS", d / "retours.db")]
         for p in self.patchs:
@@ -197,6 +197,49 @@ class Comptes(unittest.TestCase):
             self.assertEqual(acces.identifier("code-alice"), "Alice")
             self.assertIsNone(acces.identifier("code-alic"))
             self.assertIsNone(acces.identifier(""))
+
+
+class SansCode(unittest.TestCase):
+    """COPILOTE_CODE_EXIGE absent (pendant la construction) : le cookie visiteur ouvre tout le copilote."""
+
+    def setUp(self):
+        self.dossier = tempfile.TemporaryDirectory()
+        d = Path(self.dossier.name)
+        self.patchs = [mock.patch.dict("os.environ", {"COPILOTE_ACCES": "", "COPILOTE_CODE_EXIGE": ""}),
+                       mock.patch.object(config, "COPILOTE_CALCUL", d / "calcul.db"),
+                       mock.patch.object(config, "COPILOTE_RETOURS", d / "retours.db")]
+        for p in self.patchs:
+            p.start()
+        self.app = FastAPI()
+        self.app.include_router(creer_routeur(SECRET, d / "pv_travaux.db", d / "ao_ouverts.db"))
+        self.client = TestClient(self.app, follow_redirects=False)
+
+    def tearDown(self):
+        for p in self.patchs:
+            p.stop()
+        bases._sources.clear()
+        self.dossier.cleanup()
+
+    def test_sans_cookie_visiteur_tout_reste_refuse(self):
+        self.assertEqual(self.client.get("/api/copilote/moi").status_code, 401)
+        self.assertEqual(self.client.get("/api/copilote/analyse/X").status_code, 401)
+        r = self.client.get("/copilote/analyse/X")
+        self.assertEqual((r.status_code, r.headers["location"]), (302, "/"))
+
+    def test_le_cookie_visiteur_suffit(self):
+        self.client.cookies.set("pv", cookie_visiteur(nom="Hamza"))
+        r = self.client.get("/api/copilote/moi")
+        self.assertEqual((r.status_code, r.json()), (200, {"nom": "Hamza"}))
+        self.assertEqual(self.client.get("/api/copilote/etat").json()["auteur"], "Hamza")
+        self.assertEqual(self.client.get("/copilote/analyse/X").status_code, 200)
+        self.assertEqual(self.client.get("/copilote/analyse_calcul.js").status_code, 200)
+        r = self.client.get("/copilote/entrer")
+        self.assertEqual((r.status_code, r.headers["location"]), (302, "/copilote"))
+
+    def test_le_code_revient_avec_une_variable(self):
+        self.client.cookies.set("pv", cookie_visiteur())
+        with mock.patch.dict("os.environ", {"COPILOTE_ACCES": CODES, "COPILOTE_CODE_EXIGE": "1"}):
+            self.assertEqual(self.client.get("/api/copilote/moi").status_code, 401)
 
 
 if __name__ == "__main__":

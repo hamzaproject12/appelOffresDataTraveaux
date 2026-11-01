@@ -288,7 +288,7 @@ class Api(unittest.TestCase):
                         ("REJEU-02", "Travaux d'alimentation en eau potable du douar LIEU2", "COMMUNE DE LIEU2", 2e6, None)],
                 lots=[("AO3", "1", "Terrassements", 1e6), ("AO3", "2", "Chaussee", 3e6)],
                 quals=[("AO1", "B.1", "3")])
-        self.patchs = [mock.patch.dict("os.environ", {"COPILOTE_ACCES": CODES}),
+        self.patchs = [mock.patch.dict("os.environ", {"COPILOTE_ACCES": CODES, "COPILOTE_CODE_EXIGE": "1"}),
                        mock.patch.object(config, "COPILOTE_CALCUL", self.d / "calcul.db"),
                        mock.patch.object(config, "COPILOTE_RETOURS", self.d / "retours.db")]
         for p in self.patchs:

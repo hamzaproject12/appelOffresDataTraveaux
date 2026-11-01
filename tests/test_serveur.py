@@ -29,7 +29,7 @@ def setUpModule():
         "AO_OUVERTS": str(dossier / "ao_ouverts.db"),
         "COPILOTE_CALCUL": str(dossier / "copilote_calcul.db"),
         "COPILOTE_RETOURS": str(dossier / "copilote_retours.db"),
-        "COPILOTE_ACCES": "Alice:code-alice", "SECRET": "secret-d-essai", "JETON_SERVICE": "j"})
+        "COPILOTE_ACCES": "Alice:code-alice", "COPILOTE_CODE_EXIGE": "1", "SECRET": "secret-d-essai", "JETON_SERVICE": "j"})
     sys.path.insert(0, str(ICI))
     import copilote.config
     importlib.reload(copilote.config)                       # relit COPILOTE_CALCUL / COPILOTE_RETOURS

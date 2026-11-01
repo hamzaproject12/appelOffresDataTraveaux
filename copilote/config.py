@@ -27,6 +27,16 @@ COPILOTE_CALCUL = _chemin("COPILOTE_CALCUL", "copilote_calcul.db")
 COPILOTE_RETOURS = _chemin("COPILOTE_RETOURS", "copilote_retours.db")
 
 
+def code_exige() -> bool:
+    """Le code COPILOTE_ACCES n'est exigé que si COPILOTE_CODE_EXIGE vaut 1 (lu à chaque requête).
+
+    Pendant la construction du copilote, tout est ouvert au visiteur connecté (cookie visiteur,
+    limites de requêtes et journal du serveur) : décision de Hamza du 01/11/2026. On remettra le
+    code à la fin (étape 9) en posant COPILOTE_CODE_EXIGE=1, sans toucher au code.
+    """
+    return os.environ.get("COPILOTE_CODE_EXIGE", "").strip() == "1"
+
+
 def chemin_historique() -> Path:
     """pv_travaux.db : celle que serveur.py sert (BASE), sinon celle posée à côté du script."""
     if os.environ.get("BASE"):

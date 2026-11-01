@@ -40,6 +40,9 @@ de donner un avis.
     les étapes 5 à 9) exige une authentification dédiée (variable COPILOTE_ACCES = "nom:code,nom:code"),
     en plus du cookie visiteur. Un visiteur qui n'a donné que son nom n'y accède pas.
     tests/test_acces.py fige la liste des routes ouvertes au visiteur : en ajouter une est une décision.
+  - **Pendant la construction (décision du 01/11/2026)** : le code n'est exigé que si
+    COPILOTE_CODE_EXIGE=1. Sans cette variable, tout le copilote est ouvert au visiteur connecté
+    (cookie visiteur, limites de requêtes du serveur). On remettra le code à l'étape 9.
   Chaque avis enregistré garde le nom de son auteur.
 - Les calculs lourds et réguliers sont en Python : groupes (chaque semaine, via planificateur.py),
   similarité, sous-historiques. Le serveur renvoie un « dossier d'analyse » JSON complet.

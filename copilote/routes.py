@@ -6,7 +6,8 @@ Trois niveaux d'accès, un routeur chacun :
 
     public    /copilote/entrer                       cookie visiteur seulement pour s'y présenter
     visiteur  la page des groupes et ses API         cookie visiteur seulement (nom saisi à l'entrée)
-    protege   tout le reste du copilote              cookie visiteur ET code COPILOTE_ACCES
+    protege   tout le reste du copilote              cookie visiteur ET code COPILOTE_ACCES si
+                                                     COPILOTE_CODE_EXIGE=1 ; sinon cookie visiteur seul
 
 La dépendance de chaque routeur s'applique d'office : une route ajoutée plus tard ne peut pas
 oublier l'authentification. Les routes de `visiteur` sont comptées dans les limites de requêtes
@@ -156,7 +157,7 @@ def creer_routeur(secret: bytes, base: Path | str, ao_base: Path | str,
     comprise. Sans eux (scripts, tests) les routes visiteur ne sont ni comptées ni journalisées.
     """
     bases.definir_sources(base, ao_base)
-    garde = acces.garde(secret)
+    garde_code = acces.garde(secret)
 
     def garde_visiteur(request: Request) -> dict:
         """Le cookie visiteur suffit : 401 pour l'API, retour à l'accueil pour la page. Compte la requête."""
@@ -168,6 +169,14 @@ def creer_routeur(secret: bytes, base: Path | str, ao_base: Path | str,
         if limiter and not limiter(s["n"], acces.adresse(request)):
             raise HTTPException(429, "Trop de requêtes, réessayez plus tard.")
         return s
+
+    def garde(request: Request) -> dict:
+        """Les routes « protégées » : le code COPILOTE_ACCES si config.code_exige(), sinon le cookie
+        visiteur seul (compté dans les limites comme les autres routes visiteur)."""
+        if config.code_exige():
+            return garde_code(request)
+        s = garde_visiteur(request)
+        return {"nom": s["n"], "visiteur": s["n"]}
 
     def noter(request: Request, session: dict, action: str, details: str = "") -> None:
         if journaliser:
@@ -184,7 +193,7 @@ def creer_routeur(secret: bytes, base: Path | str, ao_base: Path | str,
     def entrer_page(request: Request, e: str = ""):
         if not acces.session_visiteur(secret, request):
             return RedirectResponse("/", 302)
-        if acces.session_copilote(secret, request):
+        if not config.code_exige() or acces.session_copilote(secret, request):
             return RedirectResponse("/copilote", 302)
         erreur = '<p class="erreur">Code refusé.</p>' if e else ""
         return HTMLResponse(PAGE_ENTRER.replace("{erreur}", erreur),

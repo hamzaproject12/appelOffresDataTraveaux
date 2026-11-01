@@ -45,7 +45,7 @@ class Base(unittest.TestCase):
         db.commit()
         db.close()
         api_groupes._annuaire.clear()
-        self.patchs = [mock.patch.dict("os.environ", {"COPILOTE_ACCES": CODES}),
+        self.patchs = [mock.patch.dict("os.environ", {"COPILOTE_ACCES": CODES, "COPILOTE_CODE_EXIGE": "1"}),
                        mock.patch.object(config, "COPILOTE_CALCUL", self.d / "calcul.db"),
                        mock.patch.object(config, "COPILOTE_RETOURS", self.d / "retours.db"),
                        # le calcul de poche est fait avec ces fusions : la fiche doit les voir aussi
