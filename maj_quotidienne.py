@@ -61,6 +61,11 @@ def dire(*mots) -> None:
 
 # ---------------------------------------------------------------- la sonde
 
+# Code de sortie quand la sonde échoue avant la collecte : planificateur.py le distingue d'un autre échec
+# et retente dans l'heure (le portail est parfois injoignable la nuit, joignable en journée).
+SONDE_EN_ECHEC = 3
+
+
 def sonder() -> bool:
     """Une seule requête, pour savoir si le portail répond depuis cette machine.
 
@@ -440,7 +445,7 @@ def main() -> None:
     if not a.sans_collecte:
         if not sonder():
             dire("ARRÊT : le portail ne répond pas. La base en place reste servie telle quelle.")
-            sys.exit(1)
+            sys.exit(SONDE_EN_ECHEC)
         try:
             nouvelles = consultations_recentes(a.jours)
             fiches_manquantes(a.fils, a.plafond_fiches)

@@ -23,6 +23,16 @@ Probabilité de venir : une formule logistique p = 1 / (1 + e^-(b0 + Σ bk·xk))
     region_n        log(1 + ses unités des 12 derniers mois dans la région de l'AO)
     famille_part    part de ses unités des 2 dernières années dans la famille de travaux de l'AO
     montant_ecart   |log(estimation de l'AO) − moyenne des log(estimations) de ses marchés|, 3 au plus
+    acheteur_famille     marchés de l'acheteur DANS LA FAMILLE de l'AO (24 mois) où elle est présente, lissé :
+                         présences / (marchés + 2) — 4 sur 4 donne 0,67, 9 sur 10 donne 0,75
+    acheteur_famille_n   log(1 + nombre de ces présences)
+    acheteur_24          marchés de l'acheteur toutes familles (24 mois) où elle est présente / (marchés + 2)
+
+Segments (version A2) : une « habituée » de l'acheteur est présente sur au moins 2 de ses marchés de la
+même famille en 24 mois ; les autres sociétés forment le second segment. Les habituées ont leur propre
+formule (par_segment : mêmes variables, coefficients appris sur leurs seuls couples) et chaque segment sa
+table de calibration (calibration_segments) : la formule commune, apprise surtout sur des sociétés qui ne
+viennent presque jamais, sous-estimait les habituées (89 % des seguias d'une DPA, notée 28 %).
 
 Les coefficients sont ajustés par `python -m copilote.mesures_probables ajuster` sur des marchés de
 l'année d'avant le backtest, et rangés dans probables.json : la formule est fixe, seuls ses poids
@@ -41,12 +51,20 @@ Gauss-Hermite). σ (« dispersion ») est ajusté sur la même année que les co
 fourchette à 80 % contienne le vrai nombre 80 % du temps ; σ = 0 redonne la Poisson-binomiale pure.
 La même loi est recalculée dans le navigateur (statique/analyse_calcul.js) quand on décoche une
 société ou change sa probabilité ; tests/cas_concurrents.json garantit que les deux copies s'accordent.
+
+Historique de l'acheteur (version A2) : le nombre de concurrents de ses marchés de la même famille (3 ans)
+corrige le modèle. Avec n tels marchés de nombre médian H et une espérance du modèle M, la cible est
+T = exp((1 − w)·log M + w·log H), w = n / (n + k). Le décalage δ de l'effet commun (u = δ + σ'·x − σ'²/2)
+est choisi pour que l'espérance de la loi vaille T, et σ' = (1 − w)·σ + w·σ_h : plus l'acheteur a
+d'historique, plus la loi se resserre autour de lui. k et σ_h sont ajustés avec les coefficients.
+δ et σ' voyagent dans le dossier : le navigateur les garde quand on décoche une société.
 """
 from __future__ import annotations
 
 import bisect
 import json
 import math
+import statistics
 import threading
 import time
 from collections import Counter, defaultdict
@@ -61,9 +79,11 @@ from .corpus import jour as jour_ordinal
 from .donnees import Unite, charger_unites, rejouer_attribution
 
 FICHIER = Path(__file__).with_name("probables.json")
+FICHIER_A = Path(__file__).with_name("probables_A.json")      # version A figée, pour les mesures avant / après
 ECARTE = "ecarte_dossier_administratif_technique"
 VARIABLES = ("similaires", "similaires_n", "proches_n", "acheteur", "acheteur_n", "qualification", "activite",
-             "anciennete", "region_part", "region_n", "famille_part", "montant_ecart")
+             "anciennete", "region_part", "region_n", "famille_part", "montant_ecart",
+             "acheteur_famille", "acheteur_famille_n", "acheteur_24")
 LIBELLES = {
     "similaires": "présence sur les 50 marchés similaires (pondérée par la note et la récence)",
     "similaires_n": "nombre des 50 marchés similaires où elle est présente",
@@ -77,7 +97,12 @@ LIBELLES = {
     "region_n": "marchés dans la région de l'AO (12 mois)",
     "famille_part": "part de ses marchés (2 ans) dans la même famille de travaux",
     "montant_ecart": "écart entre l'estimation de l'AO et ses montants habituels",
+    "acheteur_famille": "présence chez l'acheteur dans la même famille (24 mois, lissée)",
+    "acheteur_famille_n": "nombre de ces présences",
+    "acheteur_24": "présence chez l'acheteur toutes familles (24 mois, lissée)",
 }
+SEGMENTS = {"habituee": "habituée de l'acheteur (au moins 2 de ses marchés de la même famille en 24 mois)",
+            "autre": "pas habituée de l'acheteur dans cette famille"}
 
 REGLAGES = {
     "seuil_liste": 0.03,        # une société entre dans la liste affichée à partir de cette probabilité
@@ -90,6 +115,10 @@ REGLAGES = {
     "fenetre_acheteur": 1095,   # jours
     "fenetre_activite": 365,    # jours
     "fenetre_profil": 730,      # jours : région, famille, montants habituels
+    "fenetre_habituee": 730,    # jours : présence chez l'acheteur (même famille, toutes familles)
+    "lissage_acheteur": 2,      # présences / (marchés + lissage)
+    "habituee_min": 2,          # présences chez l'acheteur, même famille, pour être « habituée »
+    "fenetre_historique": 1095, # jours : nombre de concurrents des marchés de l'acheteur, même famille
     "eviction_k": 5,            # lissage du taux d'éviction vers le taux global
     "niveau": 0.8,              # la fourchette du nombre de concurrents
 }
@@ -113,7 +142,17 @@ def charger_coefficients(chemin: Path | None = None) -> dict:
         c["coefficients"].setdefault(v, 0.0)
     c.setdefault("autres", DEFAUT["autres"])
     c.setdefault("dispersion", 0.0)
+    c.setdefault("version", "A2")
+    c.setdefault("groupes", "etoile")
     return c
+
+
+def empreinte_coefficients(coefs: dict) -> str:
+    """Les 12 premiers caractères du SHA-256 des coefficients et des réglages : la « version des réglages »
+    d'une prévision figée (suivi.py)."""
+    import hashlib
+    brut = json.dumps({"c": coefs, "r": REGLAGES}, sort_keys=True, ensure_ascii=False, default=str)
+    return hashlib.sha256(brut.encode()).hexdigest()[:12]
 
 
 # --------------------------------------------------------------------------- l'historique en mémoire
@@ -307,9 +346,9 @@ def _qualification(mem: Memoire, cle: str, n: int, codes: frozenset) -> float:
     return 0.0 if Memoire.compte(mem.avec_codes.get(cle, []), n) else 0.5
 
 
-def acheteur_unites(mem: Memoire, ctx: Contexte) -> list[int]:
-    """Les unités visibles de l'acheteur (ses clés rapprochées) sur la fenêtre de 3 ans."""
-    debut = mem.indice_du_jour(ctx.jour - REGLAGES["fenetre_acheteur"])
+def acheteur_unites(mem: Memoire, ctx: Contexte, fenetre: int | None = None) -> list[int]:
+    """Les unités visibles de l'acheteur (ses clés rapprochées) sur la fenêtre (3 ans par défaut)."""
+    debut = mem.indice_du_jour(ctx.jour - (fenetre or REGLAGES["fenetre_acheteur"]))
     sortie: set[int] = set()
     for a in ctx.acheteur_cles:
         idx = mem.par_acheteur.get(a, [])
@@ -326,9 +365,14 @@ class _Fenetres:
 
 
 def variables(mem: Memoire, ctx: Contexte, cle: str, poids_sim: float, n_sim: int, n_proches: int, chez: int,
-              n_ach: int, fen: _Fenetres | None = None) -> dict:
-    """Les variables d'une société, et les comptes bruts qui les expliquent."""
+              n_ach: int, fen: _Fenetres | None = None, extra: dict | None = None) -> dict:
+    """Les variables d'une société, et les comptes bruts qui les expliquent. `extra` : ses présences chez
+    l'acheteur sur 24 mois (même famille, toutes familles) et ses victoires parmi les marchés proches."""
     fen = fen or _Fenetres(mem, ctx)
+    e = extra or {}
+    lissage = REGLAGES["lissage_acheteur"]
+    chez_fam, n_fam = e.get("chez_famille", 0), e.get("n_famille", 0)
+    chez24, n24 = e.get("chez_24", 0), e.get("n_24", 0)
     n = ctx.n
     mes = mem.par_societe.get(cle, [])
     k_n = bisect.bisect_left(mes, n)
@@ -349,15 +393,25 @@ def variables(mem: Memoire, ctx: Contexte, cle: str, poids_sim: float, n_sim: in
               "acheteur": chez / (n_ach + 1), "acheteur_n": math.log1p(chez),
               "qualification": q, "activite": math.log1p(actives), "anciennete": annees,
               "region_part": en_region / profil if profil else 0.0, "region_n": math.log1p(region_12),
-              "famille_part": en_famille / profil if profil else 0.0, "montant_ecart": ecart},
+              "famille_part": en_famille / profil if profil else 0.0, "montant_ecart": ecart,
+              "acheteur_famille": chez_fam / (n_fam + lissage), "acheteur_famille_n": math.log1p(chez_fam),
+              "acheteur_24": chez24 / (n24 + lissage)},
         "brut": {"similaires": n_sim, "similaires_total": len(ctx.similaires), "proches": n_proches,
                  "proches_total": len(ctx.proches),
                  "acheteur": chez, "acheteur_total": n_ach, "unites_12_mois": actives, "unites": k_n,
                  "unites_2_ans": profil, "region_2_ans": en_region, "region_12_mois": region_12,
                  "famille_2_ans": en_famille,
                  "montant_habituel": round(math.exp(moy)) if moy is not None else None,
-                 "derniere": mem.dates[mes[k_n - 1]] if k_n else None},
+                 "derniere": mem.dates[mes[k_n - 1]] if k_n else None,
+                 "acheteur_famille": chez_fam, "acheteur_famille_total": n_fam,
+                 "acheteur_24": chez24, "acheteur_24_total": n24,
+                 "victoires_proches": e.get("victoires_proches", 0)},
     }
+
+
+def segment(x: dict) -> str:
+    """« habituee » : présente sur au moins `habituee_min` marchés de l'acheteur de la même famille (24 mois)."""
+    return "habituee" if x.get("acheteur_famille_n", 0.0) >= math.log1p(REGLAGES["habituee_min"]) - 1e-9 else "autre"
 
 
 def _logistique(z: float) -> float:
@@ -380,12 +434,28 @@ def calibrer(p: float, calibration: dict | None) -> float:
     return y0 + (p - x0) * (y1 - y0) / (x1 - x0)
 
 
+def table_calibration(x: dict, coefs: dict) -> dict | None:
+    """La table du segment de la société (version A2), sinon la table unique (version A)."""
+    par_segment = coefs.get("calibration_segments")
+    if par_segment:
+        return par_segment.get(segment(x)) or coefs.get("calibration")
+    return coefs.get("calibration")
+
+
+def formule_de(x: dict, coefs: dict) -> dict:
+    """La formule qui s'applique à la société : celle de son segment si elle existe (par_segment, version A2 :
+    les habituées ont leurs propres coefficients), sinon la formule commune."""
+    propre = (coefs.get("par_segment") or {}).get(segment(x))
+    return propre or coefs
+
+
 def probabilite(x: dict, coefs: dict) -> tuple[float, dict, float]:
     """(p, contribution de chaque variable bk·xk à la note z, p de la formule avant calibration)."""
-    contrib = {v: coefs["coefficients"].get(v, 0.0) * x[v] for v in VARIABLES}
-    z = coefs["constante"] + sum(contrib.values())
+    f = formule_de(x, coefs)
+    contrib = {v: f["coefficients"].get(v, 0.0) * x.get(v, 0.0) for v in VARIABLES}
+    z = f["constante"] + sum(contrib.values())
     brute = _logistique(z)
-    return calibrer(brute, coefs.get("calibration")), contrib, brute
+    return calibrer(brute, table_calibration(x, coefs)), contrib, brute
 
 
 def eviction(mem: Memoire, cle: str, n: int) -> dict:
@@ -409,12 +479,23 @@ def signaux(mem: Memoire, ctx: Contexte) -> list[dict]:
             poids_sim[k] += s.poids
             n_sim[k] += 1
     n_proches: Counter = Counter()
+    v_proches: Counter = Counter()
     for u in ctx.proches:
         n_proches.update(_cles(u))
+        if u.cle_gagnant:
+            v_proches[u.cle_gagnant] += 1
     ach = acheteur_unites(mem, ctx)
     chez: Counter = Counter()
     for i in ach:
         chez.update(mem.presents[i])
+    ach24 = acheteur_unites(mem, ctx, REGLAGES["fenetre_habituee"])
+    fam24 = [i for i in ach24 if ctx.famille and mem.famille[i] == ctx.famille]
+    chez24: Counter = Counter()
+    for i in ach24:
+        chez24.update(mem.presents[i])
+    chez_fam: Counter = Counter()
+    for i in fam24:
+        chez_fam.update(mem.presents[i])
     en_region: set[str] = set()
     if ctx.region:
         fen = mem.indice_du_jour(ctx.jour - REGLAGES["fenetre_activite"])
@@ -424,7 +505,9 @@ def signaux(mem: Memoire, ctx: Contexte) -> list[dict]:
     fen = _Fenetres(mem, ctx)
     sortie = []
     for cle in sorted(set(n_sim) | set(n_proches) | set(chez) | en_region):
-        v = variables(mem, ctx, cle, poids_sim[cle], n_sim[cle], n_proches[cle], chez[cle], len(ach), fen)
+        v = variables(mem, ctx, cle, poids_sim[cle], n_sim[cle], n_proches[cle], chez[cle], len(ach), fen,
+                      {"chez_famille": chez_fam[cle], "n_famille": len(fam24), "chez_24": chez24[cle],
+                       "n_24": len(ach24), "victoires_proches": v_proches[cle]})
         if not n_sim[cle] and v["x"]["qualification"] == 0.0:
             continue                    # rien dans les 50 similaires, et sa qualification ne convient pas
         sortie.append({"cle": cle, **v})
@@ -438,7 +521,7 @@ def candidats(mem: Memoire, ctx: Contexte, coefs: dict | None = None) -> list[di
     for s in signaux(mem, ctx):
         p, contrib, brute = probabilite(s["x"], coefs)
         sortie.append({"cle": s["cle"], "p": p, "p_formule": brute, "x": s["x"], "brut": s["brut"],
-                       "contributions": contrib})
+                       "contributions": contrib, "constante": formule_de(s["x"], coefs)["constante"]})
     sortie.sort(key=lambda c: (-c["p"], c["cle"]))
     return sortie
 
@@ -495,21 +578,27 @@ def poisson_binomiale(ps: list[float], lam: float = 0.0, epsilon: float = 1e-9) 
     return d
 
 
-def distribution(ps: list[float], lam: float = 0.0, dispersion: float = 0.0) -> list[float]:
+def _notes(ps: list[float]) -> list[float]:
+    sortie = []
+    for p in ps:
+        p = min(1 - 1e-12, max(1e-12, float(p)))
+        sortie.append(math.log(p / (1 - p)))
+    return sortie
+
+
+def distribution(ps: list[float], lam: float = 0.0, dispersion: float = 0.0, decalage: float = 0.0) -> list[float]:
     """Loi du nombre de sociétés venues : Poisson-binomiale à effet commun (voir l'en-tête du module).
+    `decalage` δ déplace l'effet commun : u = δ + σ·x − σ²/2.
 
     Recopiée À L'IDENTIQUE dans statique/analyse_calcul.js (distribution) ; tests/cas_concurrents.json.
     """
-    if dispersion <= 0:
+    if dispersion <= 0 and not decalage:
         return poisson_binomiale(ps, lam)
-    s = float(dispersion)
-    notes = []
-    for p in ps:
-        p = min(1 - 1e-12, max(1e-12, float(p)))
-        notes.append(math.log(p / (1 - p)))
+    s = max(0.0, float(dispersion))
+    notes = _notes(ps)
     total: list[float] = []
     for x, w in zip(HERMITE_X, HERMITE_W):
-        u = s * x - s * s / 2
+        u = decalage + s * x - s * s / 2
         d = poisson_binomiale([1 / (1 + math.exp(-(z + u))) for z in notes], lam * math.exp(u))
         if len(d) > len(total):
             total.extend([0.0] * (len(d) - len(total)))
@@ -518,6 +607,50 @@ def distribution(ps: list[float], lam: float = 0.0, dispersion: float = 0.0) -> 
     while len(total) > 1 and total[-1] < 1e-9:
         total.pop()
     return total
+
+
+def esperance(ps: list[float], lam: float = 0.0, dispersion: float = 0.0, decalage: float = 0.0) -> float:
+    """L'espérance de distribution(ps, lam, dispersion, decalage), sans la convolution."""
+    s = max(0.0, float(dispersion))
+    notes = _notes(ps)
+    total = 0.0
+    for x, w in zip(HERMITE_X, HERMITE_W):
+        u = decalage + s * x - s * s / 2
+        total += w * (sum(1 / (1 + math.exp(-(z + u))) for z in notes) + lam * math.exp(u))
+    return total
+
+
+def historique_acheteur(mem: Memoire, ctx: Contexte) -> list[int]:
+    """Le nombre de sociétés de chaque marché visible de l'acheteur, dans la famille de l'AO (3 ans)."""
+    if not ctx.famille:
+        return []
+    return [len(mem.presents[i]) for i in acheteur_unites(mem, ctx, REGLAGES["fenetre_historique"])
+            if mem.famille[i] == ctx.famille and mem.presents[i]]
+
+
+def corriger_par_historique(ps: list[float], lam: float, dispersion: float, nombres: list[int],
+                            reglage: dict | None) -> dict:
+    """δ et σ' (voir l'en-tête) : l'espérance de la loi est ramenée vers le nombre médian de concurrents
+    des marchés de l'acheteur de la même famille, d'autant plus qu'il en a."""
+    m0 = esperance(ps, lam, dispersion)
+    sortie = {"n": len(nombres), "mediane": float(statistics.median(nombres)) if nombres else None,
+              "poids": 0.0, "esperance_modele": m0, "cible": m0, "decalage": 0.0, "dispersion": dispersion,
+              "derniers": nombres[-12:]}
+    if not reglage or not nombres or m0 <= 0:
+        return sortie
+    w = len(nombres) / (len(nombres) + float(reglage["k"]))
+    h = max(1.0, sortie["mediane"])
+    cible = math.exp((1 - w) * math.log(m0) + w * math.log(h))
+    s2 = (1 - w) * dispersion + w * float(reglage["dispersion"])
+    bas, haut = -6.0, 6.0
+    for _ in range(50):                       # l'espérance croît avec δ : dichotomie
+        mil = (bas + haut) / 2
+        if esperance(ps, lam, s2, mil) < cible:
+            bas = mil
+        else:
+            haut = mil
+    sortie.update(poids=w, cible=cible, decalage=round((bas + haut) / 2, 6), dispersion=round(s2, 6))
+    return sortie
 
 
 def fourchette(d: list[float], niveau: float = 0.8) -> dict:
@@ -554,16 +687,21 @@ def analyser(mem: Memoire, ctx: Contexte, coefs: dict | None = None, reglages: d
              avec_groupes: bool = True) -> dict:
     """Candidats, liste affichée, groupes (groupes_ao.py) et nombre de concurrents."""
     from . import groupes_ao
-    r = {**REGLAGES, **(reglages or {})}
     coefs = coefs or charger_coefficients()
+    # Les réglages propres à une version de coefficients (A2 : seuil_allies 0,07) passent avant les défauts.
+    r = {**REGLAGES, **(coefs.get("reglages") or {}), **(reglages or {})}
     tous = candidats(mem, ctx, coefs)
     for c in tous:
         c["dans_liste"] = False
         c["association"] = None
     for c in [c for c in tous if c["p"] >= r["seuil_liste"]][:int(r["taille_liste"])]:
         c["dans_liste"] = True
-    g = groupes_ao.former(mem, ctx.n, tous, r) if avec_groupes else {"groupes": [], "individuelles": [],
-                                                                       "ajoutees": []}
+    if not avec_groupes:
+        g = {"groupes": [], "individuelles": [], "ajoutees": []}
+    elif coefs.get("groupes") == "union":
+        g = groupes_ao.former_union(mem, ctx.n, tous, r)           # version A, pour les mesures avant / après
+    else:
+        g = groupes_ao.former(mem, ctx.n, tous, r)
     tous = tous + g["ajoutees"]
     tous.sort(key=lambda c: (-c["p"], c["cle"]))
     envoyes = [c for c in tous if c["p"] >= r["seuil_envoi"] or c["dans_liste"] or c["association"]]
@@ -573,11 +711,19 @@ def analyser(mem: Memoire, ctx: Contexte, coefs: dict | None = None, reglages: d
         c["nom"] = mem.nom(c["cle"])
         c.setdefault("eviction", eviction(mem, c["cle"], ctx.n))
     autres = lambda_autres(ctx, coefs)
-    d = distribution([c["p"] for c in envoyes], autres + reste, coefs.get("dispersion", 0.0))
+    ps = [c["p"] for c in envoyes]
+    lam = autres + reste
+    h = corriger_par_historique(ps, lam, coefs.get("dispersion", 0.0), historique_acheteur(mem, ctx),
+                                coefs.get("historique"))
+    d = distribution(ps, lam, h["dispersion"], h["decalage"])
+    for c in envoyes:
+        c["segment"] = segment(c["x"]) if c.get("x") else None
     return {"candidats": envoyes, "nb_candidats": len(tous), "groupes": g["groupes"],
             "individuelles": g["individuelles"],
-            "concurrents": {"distribution": d, "lambda": autres + reste, "lambda_autres": autres,
-                            "lambda_reste": reste, "dispersion": coefs.get("dispersion", 0.0),
+            "concurrents": {"distribution": d, "lambda": lam, "lambda_autres": autres,
+                            "lambda_reste": reste, "dispersion": h["dispersion"],
+                            "dispersion_modele": coefs.get("dispersion", 0.0), "decalage": h["decalage"],
+                            "historique": h,
                             "offres_moyennes_similaires": offres_moyennes_similaires(ctx),
                             **fourchette(d, r["niveau"])},
             "reglages": r, "coefficients": coefs}

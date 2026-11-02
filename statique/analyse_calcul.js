@@ -6,9 +6,10 @@
  *
  *   poisson_binomiale(ps, λ)  loi du nombre de sociétés venues si chacune vient avec sa probabilité,
  *                             indépendamment, plus une Poisson(λ) pour celles que rien n'annonce ;
- *   distribution(ps, λ, σ)    la même avec un effet commun u ~ N(0, σ²) centré (u − σ²/2), ajouté à la
+ *   distribution(ps, λ, σ, δ) la même avec un effet commun u = δ + σ·x − σ²/2, x ~ N(0, 1), ajouté à la
  *                             note logistique de chaque société et à log λ : moyenne sur 9 valeurs de u
- *                             (quadrature de Gauss-Hermite) ;
+ *                             (quadrature de Gauss-Hermite). δ vient de l'historique de l'acheteur
+ *                             (probables.corriger_par_historique) et reste fixe quand on modifie la liste ;
  *   fourchette(d, niveau)     [bas, haut] : premiers k où la loi cumulée atteint (1 − niveau)/2 et
  *                             1 − (1 − niveau)/2 ; probable = valeur la plus probable ; moyenne.
  */
@@ -53,16 +54,17 @@
     return d;
   }
 
-  function distribution(ps, lam, dispersion) {
+  function distribution(ps, lam, dispersion, decalage) {
     lam = lam || 0;
-    if (!(dispersion > 0)) return poisson_binomiale(ps, lam);
-    var s = +dispersion, notes = [], total = [], i, k;
+    decalage = +decalage || 0;
+    if (!(dispersion > 0) && !decalage) return poisson_binomiale(ps, lam);
+    var s = Math.max(0, +dispersion || 0), notes = [], total = [], i, k;
     for (i = 0; i < ps.length; i++) {
       var p = Math.min(1 - 1e-12, Math.max(1e-12, +ps[i]));
       notes.push(Math.log(p / (1 - p)));
     }
     for (var h = 0; h < HERMITE_X.length; h++) {
-      var u = s * HERMITE_X[h] - s * s / 2;
+      var u = decalage + s * HERMITE_X[h] - s * s / 2;
       var qs = notes.map(function (z) { return 1 / (1 + Math.exp(-(z + u))); });
       var d = poisson_binomiale(qs, lam * Math.exp(u));
       while (total.length < d.length) total.push(0);

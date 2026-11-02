@@ -31,7 +31,7 @@ from fastapi.responses import FileResponse, HTMLResponse, JSONResponse, PlainTex
 from pydantic import BaseModel, Field
 
 from . import (acces, acheteurs, analyse, api_groupes, api_similaires, autour_societe, bases, config,
-               fiche_societe, probables, similarite, verite_rejeu)
+               fiche_societe, probables, rejeu, similarite, suivi, verite_rejeu)
 from . import fusions as _fusions
 from . import groupes as groupes_mod
 
@@ -462,11 +462,47 @@ def creer_routeur(secret: bytes, base: Path | str, ao_base: Path | str,
                         analyses_en_memoire.popitem(last=False)
                 else:
                     analyses_en_memoire.move_to_end(version)
+                # Point 4 : une copie figée de la prévision d'un vrai AO, au plus une par jour. Un échec
+                # d'écriture ne doit jamais empêcher d'afficher l'analyse.
+                if not rejeu.est_un_rejeu(ref_annonce):
+                    try:
+                        if not suivi.deja_fige(ret, ref_annonce, lot):
+                            suivi.figer(ret, json.loads(brut))
+                    except sqlite3.Error as e:
+                        print(f"[copilote] prévision de {ref_annonce} non figée : {e}", flush=True)
         except FileNotFoundError as e:
             raise HTTPException(503, str(e))
         except api_similaires.ErreurAnalyse as e:
             return JSONResponse({"detail": str(e), **e.extra}, status_code=e.statut, headers=SANS_CACHE)
         return Response(brut, media_type="application/json", headers=SANS_CACHE)
+
+    @protege.get("/api/copilote/analyse/{ref_annonce}/lots")
+    def lots_ao(ref_annonce: str = ParamChemin(max_length=120)):
+        """Les lots d'un AO (liste vide s'il n'est pas alloti) : la page d'analyse ouverte sans ?lot= les lit
+        ici, au lieu d'appeler l'analyse sans lot (réponse 400)."""
+        try:
+            with closing(bases.ao_ouverts()) as ao:
+                if ao.execute("SELECT 1 FROM appels_ouverts WHERE ref_annonce = ?", (ref_annonce,)).fetchone() is None:
+                    raise HTTPException(404, "AO introuvable")
+                lots = [{"lot": str(r["lot"]), "intitule": r["intitule"], "estimation": r["estimation"]}
+                        for r in ao.execute("SELECT lot, intitule, estimation FROM appels_lots WHERE ref_annonce = ?"
+                                            " ORDER BY rowid", (ref_annonce,))]
+        except FileNotFoundError as e:
+            raise HTTPException(503, str(e))
+        return JSONResponse({"ref_annonce": ref_annonce, "lots": lots}, headers=SANS_CACHE)
+
+    @protege.get("/api/copilote/prevision/{ref_annonce}")
+    def prevision(ref_annonce: str = ParamChemin(max_length=120), lot: str | None = Query(None, max_length=40)):
+        """Les prévisions figées d'un vrai AO et, quand son PV est dans l'historique, « Prévu / Réel »."""
+        try:
+            mem = probables.memoire(bases.historique, bases.chemin_historique())
+        except FileNotFoundError as e:
+            raise HTTPException(503, str(e))
+        with closing(bases.retours()) as ret:
+            e = suivi.etat(ret, mem, ref_annonce, lot)
+        if e is None:
+            raise HTTPException(404, "Aucune prévision figée pour cet AO")
+        return JSONResponse(e, headers=SANS_CACHE)
 
     @protege.get("/api/copilote/rejeu/{ref_annonce}/verite")
     def verite(ref_annonce: str = ParamChemin(max_length=120), lot: str | None = Query(None, max_length=40)):

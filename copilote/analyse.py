@@ -25,12 +25,14 @@ def _r(x, n: int = 4):
 def _candidat(c: dict) -> dict:
     return {
         "cle": c["cle"], "nom": c["nom"], "p": _r(c["p"]),
-        "p_formule": _r(c["p_formule"]), "dans_liste": c["dans_liste"],
+        "p_formule": _r(c["p_formule"]), "dans_liste": c["dans_liste"], "segment": c.get("segment"),
+        "accompagne_aussi": c.get("accompagne_aussi", []),
         "association": None if not c["association"] else {
             **c["association"], "p": _r(c["association"]["p"]), "B": _r(c["association"]["B"]),
             "C": _r(c["association"]["C"]), "p_via": _r(c["association"]["p_via"])},
         "x": None if c["x"] is None else {k: _r(v) for k, v in c["x"].items()},
         "contributions": None if c["contributions"] is None else {k: _r(v, 3) for k, v in c["contributions"].items()},
+        "constante": _r(c.get("constante"), 3),
         "brut": c["brut"],
         "eviction": {"p": _r(c["eviction"]["p"]), "ecartees": c["eviction"]["ecartees"],
                      "offres": c["eviction"]["offres"], "global": _r(c["eviction"]["global"])},
@@ -41,6 +43,8 @@ def _groupe(g: dict) -> dict:
     s = g["strategie"]
     return {
         "numero": g["numero"], "chef": g["chef"], "membres": g["membres"],
+        "aussi": g.get("aussi", []), "travaille_avec": g.get("travaille_avec", []),
+        "score_chef": None if not g.get("score_chef") else {k: _r(v) for k, v in g["score_chef"].items()},
         "victoires_accompagnees": g["victoires_accompagnees"],
         "liens": [{k: (_r(v) if isinstance(v, float) else v) for k, v in l.items()} for l in g["liens"]],
         "strategie": {
@@ -73,7 +77,9 @@ def contexte(mem: probables.Memoire, limite: str | None, jour_ref: int, cible, m
 
 def analyser(ref_annonce: str, lot: str | None, *, ouvrir_historique, chemin_historique,
              ao: sqlite3.Connection, calc: sqlite3.Connection, ret: sqlite3.Connection,
-             aujourdhui: date | None = None) -> dict:
+             aujourdhui: date | None = None, coefficients: dict | None = None) -> dict:
+    """`coefficients` : ceux de probables.json par défaut ; probables.charger_coefficients(FICHIER_A) pour
+    rejouer la version A (mesures avant / après)."""
     sim, interne = api_similaires.analyser(ref_annonce, lot, None, ouvrir_historique=ouvrir_historique,
                                            chemin_historique=chemin_historique, ao=ao, calc=calc, ret=ret,
                                            aujourdhui=aujourdhui, interne=True)
@@ -81,10 +87,12 @@ def analyser(ref_annonce: str, lot: str | None, *, ouvrir_historique, chemin_his
     mem = probables.memoire(ouvrir_historique, chemin_historique)
     ctx = contexte(mem, limite, interne["jour_ref"], interne["cible"], interne["moteur"], interne["notes"],
                    interne["composantes"], interne["retenus"])
-    a = probables.analyser(mem, ctx)
+    a = probables.analyser(mem, ctx, coefficients)
     conc = a["concurrents"]
+    hist_c = conc["historique"]
     return {
-        "ao": {**sim["ao"], "coupure": interne["coupure"]},
+        "ao": {**sim["ao"], "coupure": interne["coupure"], "lots": interne["lots"],
+               "date_limite": interne["date_limite"], "reference": interne["reference"]},
         "acheteur": sim["acheteur"], "index": sim["index"], "filtre": sim["filtre"], "poids": sim["poids"],
         "marches_lus": sim["marches_lus"], "marches_comparables": sim["marches_comparables"],
         "resume_similaires": sim["resume"],
@@ -94,9 +102,16 @@ def analyser(ref_annonce: str, lot: str | None, *, ouvrir_historique, chemin_his
                       "variables": probables.LIBELLES,
                       "coefficients": {"constante": a["coefficients"]["constante"],
                                        "coefficients": a["coefficients"]["coefficients"],
-                                       "origine": a["coefficients"].get("origine", "")},
+                                       "origine": a["coefficients"].get("origine", ""),
+                                       "version": a["coefficients"].get("version", "A2"),
+                                       "empreinte": probables.empreinte_coefficients(a["coefficients"]),
+                                       "segments": sorted(a["coefficients"].get("calibration_segments") or []),
+                                       "segments_formule": sorted(a["coefficients"].get("par_segment") or [])},
+                      "segments": probables.SEGMENTS,
                       "reglages": a["reglages"]},
-        "concurrents": {**{k: _r(v) if isinstance(v, float) else v for k, v in conc.items() if k != "distribution"},
+        "concurrents": {**{k: _r(v) if isinstance(v, float) else v for k, v in conc.items()
+                           if k not in ("distribution", "historique")},
+                        "historique": {**{k: _r(v) if isinstance(v, float) else v for k, v in hist_c.items()}},
                         "distribution": [_r(v, 6) for v in conc["distribution"]]},
         "groupes": [_groupe(g) for g in a["groupes"]],
         "individuelles": a["individuelles"],

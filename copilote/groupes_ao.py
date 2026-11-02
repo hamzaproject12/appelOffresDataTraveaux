@@ -3,8 +3,23 @@ chaque groupe.
 
 Pour chaque société probable (p ≥ seuil_allies), le calcul « autour d'une société » (autour_societe.py,
 les règles de la page des groupes : noyau, accompagnatrice, concurrent direct) est refait sur les seules
-unités d'avant la coupure de l'AO, totaux compris. Ses alliées (noyaux et accompagnatrices du groupe
-de 9 au plus) donnent des liens :
+unités d'avant la coupure de l'AO, totaux compris. Ses alliées sont les noyaux et accompagnatrices de son
+groupe de 9 au plus, retenues si elles sont dans la liste des probables, ou si elles sont « noyau » ou
+accompagnatrice avec C ≥ 60 % (ajoutées alors « probables par association », p = B × p(société)).
+
+Version A2 — groupes EN ÉTOILE (`former`) : un groupe = un chef de file + ses alliées directes, sans
+chaînage (A→B→C ne met plus C avec A).
+
+    1. score de chef = p(venir) × taux de victoire lissé sur les 300 marchés les plus similaires,
+       (victoires + 0,25) / (présences + 2) ;
+    2. on parcourt les sociétés par score décroissant : une société qui a des alliées devient chef de
+       file, sauf si elle est l'alliée d'un chef déjà retenu ET qu'elle a moins de 2 alliées directes
+       dans la liste de l'AO (elle est alors simple accompagnatrice). Deux chefs alliés restent chacun à
+       la tête de son groupe : « travaille aussi avec X » ;
+    3. une accompagnatrice de plusieurs chefs va sous le chef le plus probable ; les autres groupes la
+       rappellent : « accompagne aussi X ».
+
+Version A (`former_union`, gardée pour les mesures avant / après) :
 
     a) l'alliée est déjà dans la liste des probables : le lien compte tel quel ;
     b) elle n'y est pas mais elle est « noyau », ou accompagnatrice avec C ≥ 60 % : elle est ajoutée
@@ -79,8 +94,8 @@ def _resume_lien(x: str, y: str, l: dict) -> dict:
             "part_x_sur_y": l["part_x_sur_y"]}
 
 
-def former(mem: Memoire, n: int, tous: list[dict], r: dict) -> dict:
-    """Groupes et individuelles. Modifie les candidats de `tous` (association, p) ; renvoie aussi les
+def former_union(mem: Memoire, n: int, tous: list[dict], r: dict) -> dict:
+    """Version A : groupes par union-find. Groupes et individuelles. Modifie les candidats de `tous` (association, p) ; renvoie aussi les
     sociétés ajoutées par association qui n'étaient pas candidates (« ajoutees »)."""
     par_cle = {c["cle"]: c for c in tous}
     liste = {c["cle"] for c in tous if c["dans_liste"]}
@@ -212,3 +227,108 @@ def strategie(mem: Memoire, n: int, membres: list[str]) -> dict:
             "ecart_meilleure": resume["ecart_meilleure"], "ecart_reference": resume["ecart_reference"],
             "gagnants": resume["gagnants_exterieurs"]},
         "dernieres": dernieres}
+
+
+# --------------------------------------------------------------------------- version A2 : groupes en étoile
+
+def taux_victoire_similaires(c: dict) -> float:
+    """Victoires sur les marchés les plus similaires où elle est présente, lissées : (v + 0,25) / (n + 2)."""
+    b = c.get("brut") or {}
+    return (b.get("victoires_proches", 0) + 0.25) / (b.get("proches", 0) + 2)
+
+
+def former(mem: Memoire, n: int, tous: list[dict], r: dict) -> dict:
+    """Groupes en étoile (voir l'en-tête). Modifie les candidats de `tous` (association, p) ; renvoie aussi les
+    sociétés ajoutées par association qui n'étaient pas candidates (« ajoutees »)."""
+    par_cle = {c["cle"]: c for c in tous}
+    liste = {c["cle"] for c in tous if c["dans_liste"]}
+    taille = int(r["taille_groupe"])
+    alliees: dict[str, list[tuple[str, dict]]] = {}        # x -> [(y, ligne « autour de x »)]
+    alliees_de: dict[str, int] = {}
+    for x in [c for c in tous if c["p"] >= r["seuil_allies"]]:
+        res = autour(mem, n, x["cle"], taille)
+        lignes = {l["cle"]: l for l in res["lignes"]}
+        alliees_de[x["cle"]] = len(res["groupe"]) - 1
+        retenues = []
+        for y in res["groupe"][1:]:
+            l = lignes[y]
+            if y in liste or l["lecture"] == "noyau" or (l["C"] is not None and l["C"] >= r["c_association"]):
+                retenues.append((y, l))
+        alliees[x["cle"]] = retenues
+
+    score = {x: par_cle[x]["p"] * taux_victoire_similaires(par_cle[x]) for x in alliees}
+    ordre = sorted(alliees, key=lambda x: (-score[x], -par_cle[x]["p"], x))
+    chefs: list[str] = []
+    for x in ordre:
+        if not alliees[x]:
+            continue
+        directes = sum(1 for y, _ in alliees[x] if y in liste and y not in chefs)   # sans les chefs déjà retenus
+        absorbee = any(x in {y for y, _ in alliees[c]} for c in chefs)
+        if absorbee and directes < 2:
+            continue
+        chefs.append(x)
+    est_chef = set(chefs)
+
+    # Chaque accompagnatrice va sous le chef le plus probable qui la compte parmi ses alliées.
+    proposee: dict[str, list[str]] = {}
+    for c in chefs:
+        for y, _ in alliees[c]:
+            if y not in est_chef:
+                proposee.setdefault(y, []).append(c)
+    place = {y: min(cs, key=lambda c: (-par_cle[c]["p"], -score[c], c)) for y, cs in proposee.items()}
+
+    # Les sociétés par association placées dans un groupe : marquées, ou ajoutées.
+    ajoutees = []
+    for y, c in place.items():
+        if y in liste:
+            continue
+        l = dict(alliees[c])[y]
+        p = (l["B"] or 0.0) * par_cle[c]["p"]
+        info = {"via": c, "nom_via": mem.nom(c), "p": p, "B": l["B"], "C": l["C"], "lecture": l["lecture"],
+                "p_via": par_cle[c]["p"]}
+        cand = par_cle.get(y)
+        if cand is None:
+            cand = {"cle": y, "nom": mem.nom(y), "p": p, "p_formule": None, "x": None, "brut": None,
+                    "contributions": None, "eviction": eviction(mem, y, n), "dans_liste": False}
+            par_cle[y] = cand
+            ajoutees.append(cand)
+        cand["association"] = info
+        cand["p"] = max(cand["p"], p)
+
+    sortie = []
+    for c in chefs:
+        membres = [y for y, _ in alliees[c] if place.get(y) == c]
+        if not membres:
+            continue
+        aussi = [{"cle": y, "chef": place[y]} for y, _ in alliees[c] if y in place and place[y] != c]
+        avec = sorted({y for y, _ in alliees[c] if y in est_chef and y != c}
+                      | {d for d in chefs if d != c and c in {y for y, _ in alliees[d]}})
+        lignes = dict(alliees[c])
+        ordre_m = [c] + sorted(membres, key=lambda m: (-par_cle[m]["p"], m))
+        ens_m = set(ordre_m)
+        accompagnees = {m: sum(1 for i in Memoire.avant(mem.victoires.get(m, []), n)
+                               if len(mem.presents[i] & ens_m) >= 2) for m in ordre_m}
+        b = par_cle[c].get("brut") or {}
+        sortie.append({
+            "chef": c, "membres": ordre_m, "aussi": aussi, "travaille_avec": avec,
+            "score_chef": {"p": par_cle[c]["p"], "taux_victoire": taux_victoire_similaires(par_cle[c]),
+                           "victoires": b.get("victoires_proches", 0), "presences": b.get("proches", 0),
+                           "score": score[c]},
+            "victoires_accompagnees": accompagnees,
+            "liens": [_resume_lien(c, y, lignes[y]) for y in membres + [a["cle"] for a in aussi]],
+            "strategie": strategie(mem, n, ordre_m),
+            "p_moyenne": sum(par_cle[m]["p"] for m in ordre_m) / len(ordre_m)})
+    sortie.sort(key=lambda g: (-sum(par_cle[m]["p"] for m in g["membres"]), g["chef"]))
+    numero = {}
+    for k, g in enumerate(sortie, 1):
+        g["numero"] = k
+        numero[g["chef"]] = k
+    for g in sortie:
+        g["aussi"] = [{**a, "groupe": numero.get(a["chef"])} for a in g["aussi"]]
+        g["travaille_avec"] = [{"cle": d, "groupe": numero.get(d)} for d in g["travaille_avec"]]
+        for a in g["aussi"]:
+            par_cle[a["cle"]].setdefault("accompagne_aussi", []).append(g["chef"])
+    dans_groupe = {m for g in sortie for m in g["membres"]}
+    individuelles = [c["cle"] for c in tous if c["dans_liste"] and c["cle"] not in dans_groupe]
+    return {"groupes": sortie, "individuelles": individuelles, "ajoutees": ajoutees,
+            "alliees_cherchees": alliees_de}

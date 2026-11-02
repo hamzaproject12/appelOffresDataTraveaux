@@ -23,7 +23,8 @@ de donner un avis.
   - `copilote_calcul.db` : résultats recalculables (groupes, paires, index de similarité…).
     Peut être supprimée et reconstruite à tout moment par `python -m copilote.recalculer`.
   - `copilote_retours.db` : saisies humaines à conserver (avis sur les groupes, taux modifiés,
-    profil de l'entreprise, nos soumissions). Jamais supprimée ni reconstruite.
+    profil de l'entreprise, nos soumissions) et les prévisions figées des vrais AO (table `previsions`,
+    copilote/suivi.py). Jamais supprimée ni reconstruite.
   Les deux chemins (variables COPILOTE_CALCUL, COPILOTE_RETOURS) sont ajoutés au contrôle de
   séparation existant (même logique que verifier_separation_ao).
 - `pv_travaux.db` est TOUJOURS ouverte en lecture seule (mode=ro). Elle est remplacée à chaque

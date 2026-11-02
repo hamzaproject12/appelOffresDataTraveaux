@@ -350,7 +350,7 @@ const retiree = c => !!(MODIFS[c.cle] && MODIFS[c.cle].retiree);
 function calculerCompte() {
   const ps = D.probables.candidats.filter(c => !retiree(c)).map(pDe);
   const conc = D.concurrents;
-  const d = AnalyseCalcul.distribution(ps, conc.lambda || 0, conc.dispersion || 0);
+  const d = AnalyseCalcul.distribution(ps, conc.lambda || 0, conc.dispersion || 0, conc.decalage || 0);
   return { d, f: AnalyseCalcul.fourchette(d, conc.niveau || 0.8) };
 }
 
@@ -433,8 +433,17 @@ function blocCompte() {
       ${change ? `<p class="compte__origine">Calcul d’origine : <s>entre ${fo.bas} et ${fo.haut}, le plus probable ${fo.probable}</s>
         — modifié par vos changements.</p>` : ''}
       <p class="compte__origine">Somme des probabilités des ${D.probables.candidats.filter(c => !retiree(c)).length} sociétés
-        envoyées, plus ${nf1.format(D.concurrents.lambda)} société(s) attendue(s) que rien n’annonce.</p></div>
+        envoyées, plus ${nf1.format(D.concurrents.lambda)} société(s) attendue(s) que rien n’annonce.</p>
+      ${blocHistoriqueAcheteur()}</div>
     ${graphe(d, f, change ? fo : null)}</div>`;
+}
+
+function blocHistoriqueAcheteur() {
+  const h = D.concurrents.historique;
+  if (!h || !h.n) return '<p class="compte__origine">Aucun marché de l’acheteur dans cette famille sur 3 ans : le nombre vient du seul modèle.</p>';
+  return `<p class="compte__origine">Historique de l’acheteur : <b>${h.n}</b> marché(s) de la même famille sur 3 ans, médiane
+    <b>${nf1.format(h.mediane)}</b> sociétés (derniers : ${h.derniers.join(', ')}). Poids ${pct(h.poids)} : l’espérance du modèle,
+    ${nf1.format(h.esperance_modele)}, est ramenée à ${nf1.format(h.cible)}.</p>`;
 }
 
 function explication(c) {
@@ -449,10 +458,13 @@ function explication(c) {
     ${b.acheteur} des ${b.acheteur_total} marchés de l’acheteur (3 ans) ; ${b.unites_12_mois} offres en 12 mois
     (${b.unites} en tout), la dernière le ${dateFr(b.derniere)} ; ${b.region_2_ans} marchés dans la région et ${b.famille_2_ans}
     dans la même famille sur 2 ans${b.montant_habituel ? ` ; montant habituel ≈ ${dh(b.montant_habituel)}` : ''}.
+    ${b.acheteur_famille_total != null ? `Chez l’acheteur sur 24 mois : ${b.acheteur_famille} de ses ${b.acheteur_famille_total} marchés
+    de la même famille, ${b.acheteur_24} de ses ${b.acheteur_24_total} marchés toutes familles.` : ''}
+    ${c.segment && D.probables.segments ? `Segment : ${esc(D.probables.segments[c.segment] || c.segment)} (calibration propre au segment).` : ''}
     Formule : ${pct(c.p_formule, 1)}, corrigée par la calibration : ${pct(c.p, 1)}.
     Éviction : ${c.eviction.ecartees} offres écartées sur ${c.eviction.offres} → ${pct(c.eviction.p)} (lissé vers ${pct(c.eviction.global, 1)}).</p>
     <table class="tableau" style="margin-top:6px"><thead><tr><th>Variable</th><th class="num">Valeur</th><th class="num">Apport à la note</th></tr></thead>
-    <tbody>${lignes}<tr><td>constante</td><td></td><td class="num">${nf2.format(D.probables.coefficients.constante)}</td></tr></tbody></table>`;
+    <tbody>${lignes}<tr><td>constante${c.segment === 'habituee' && (D.probables.coefficients.segments_formule || []).length ? ' (formule des habituées)' : ''}</td><td></td><td class="num">${nf2.format(c.constante != null ? c.constante : D.probables.coefficients.constante)}</td></tr></tbody></table>`;
 }
 
 function ligneSociete(c, groupe) {
@@ -460,6 +472,7 @@ function ligneSociete(c, groupe) {
   const etiq = [];
   if (groupe && groupe.chef === c.cle) etiq.push('<span class="puce puce--accent">chef de file</span>');
   if (c.association) etiq.push(`<span class="puce puce--attention" title="via ${esc(c.association.nom_via)}">probable par association</span>`);
+  (c.accompagne_aussi || []).forEach(k => etiq.push(`<span class="puce">accompagne aussi ${esc(nomDe(k))}</span>`));
   return `<tr class="${ret ? 'retiree' : ''}" data-cle="${esc(c.cle)}">
     <td data-l="Venir"><label class="controle"><input type="checkbox" data-action="garder" ${ret ? '' : 'checked'}
       aria-label="Compter ${esc(c.nom)} parmi les sociétés probables"><span class="nom">${esc(c.nom)}</span></label>
@@ -473,6 +486,8 @@ function ligneSociete(c, groupe) {
     <td data-l="Pourquoi"><details class="plie"><summary>Pourquoi ${pct(c.p)}</summary>${explication(c)}</details></td>
   </tr>`;
 }
+
+const nomDe = cle => (PAR_CLE[cle] && PAR_CLE[cle].nom) || cle;
 
 const enteteSocietes = `<thead><tr><th>Société</th><th>Probabilité de venir</th><th class="num">Éviction</th><th>Pourquoi</th></tr></thead>`;
 
@@ -508,13 +523,22 @@ function blocGroupe(g) {
   const nom = cle => (PAR_CLE[cle] && PAR_CLE[cle].nom) || cle;
   const liens = g.liens.map(l => `<li>${esc(nom(l.de))} → ${esc(nom(l.vers))} : ${esc(l.lecture)}, présente sur ${l.victoires_avec} victoires,
     A ÷ B ${l.rapport == null ? '—' : nf1.format(l.rapport)}, C ${pct(l.C)}</li>`).join('');
+  const avec = (g.travaille_avec || []).map(t => `${esc(nom(t.cle))}${t.groupe ? ` (groupe ${t.groupe})` : ''}`).join(', ');
+  const aussi = (g.aussi || []).map(a => `<span class="puce">${esc(nom(a.cle))} — accompagne aussi ce chef de file, placée dans le groupe ${a.groupe || '?'} (${esc(nom(a.chef))})</span>`).join(' ');
+  const sc = g.score_chef;
+  const chef = sc ? `Chef de file : la société au plus fort score, probabilité de venir × taux de victoire sur les marchés similaires :
+      ${pct(sc.p)} × ${pct(sc.taux_victoire)} (${sc.victoires} victoires sur ${sc.presences} présences, lissé). Le groupe est en étoile :
+      le chef de file et ses alliées directes, sans enchaînement.`
+    : `Chef de file : le membre qui a le plus de victoires où un autre membre était présent
+      (${g.membres.map(k => `${esc(nom(k))} ${g.victoires_accompagnees[k] || 0}`).join(', ')}).`;
   return `<article class="groupe"><h3>Groupe ${g.numero} · chef de file : ${esc(nom(g.chef))}
       <span class="puce">${pluriel(g.membres.length, 'société')}</span></h3>
+    ${avec ? `<p class="petit" style="margin-top:4px">Travaille aussi avec ${avec}.</p>` : ''}
     <div class="defile"><table class="tableau">${enteteSocietes}<tbody>${g.membres.map(k => PAR_CLE[k] ? ligneSociete(PAR_CLE[k], g) : '').join('')}</tbody></table></div>
+    ${aussi ? `<div style="margin-top:8px;display:flex;gap:4px;flex-wrap:wrap">${aussi}</div>` : ''}
     <details class="plie"><summary>Stratégie passée du groupe</summary><div class="strategie">${blocStrategie(g)}</div></details>
     <details class="plie"><summary>Pourquoi ces sociétés sont ensemble</summary><ul class="comment" style="list-style:disc;padding-left:24px;border:0">${liens}</ul>
-      <p class="doux petit">Chef de file : le membre qui a le plus de victoires où un autre membre était présent
-      (${g.membres.map(k => `${esc(nom(k))} ${g.victoires_accompagnees[k] || 0}`).join(', ')}).</p></details>
+      <p class="doux petit">${chef}</p></details>
   </article>`;
 }
 
@@ -547,10 +571,18 @@ function blocProbables() {
         <li>Liste affichée : les ${r.taille_liste} premières à partir de ${pct(r.seuil_liste)}. Alliées cherchées pour celles à
           ${pct(r.seuil_allies)} ou plus, avec le calcul « autour d’une société » de la page des groupes, sur l’historique d’avant la coupure.</li>
         <li>Une alliée absente de la liste mais « noyau », ou accompagnatrice avec C ≥ ${pct(r.c_association)}, est ajoutée
-          « probable par association » : p = B × p(société). Groupes fusionnés du lien le plus fort au plus faible, ${r.taille_groupe} sociétés au plus.</li>
+          « probable par association » : p = B × p(société).</li>
+        <li>Groupes en étoile : par score décroissant (probabilité × taux de victoire sur les marchés similaires), une société qui a des
+          alliées devient chef de file avec ses alliées directes (${r.taille_groupe} sociétés au plus). Une alliée d’un chef déjà retenu reste
+          simple accompagnatrice, sauf si elle a elle-même au moins 2 alliées dans la liste : elle garde alors son groupe
+          (« travaille aussi avec »). Une accompagnatrice de deux chefs va sous le plus probable (« accompagne aussi »).</li>
+        <li>Probabilité : la table de calibration est propre à chaque segment — habituée de l’acheteur (au moins 2 de ses marchés
+          de la même famille en 24 mois) ou non.</li>
         <li>Nombre de concurrents : somme de tirages (une société vient ou non) avec un effet commun au marché
           (σ = ${nf1.format(D.concurrents.dispersion)}), plus ${nf1.format(D.concurrents.lambda)} société(s) que rien n’annonce
-          (dont ${nf2.format(D.concurrents.lambda_autres)} d’après les ${nf1.format(D.concurrents.offres_moyennes_similaires)} offres moyennes des similaires).</li>
+          (dont ${nf2.format(D.concurrents.lambda_autres)} d’après les ${nf1.format(D.concurrents.offres_moyennes_similaires)} offres moyennes des similaires).
+          L’espérance est ramenée vers le nombre médian de concurrents des marchés de l’acheteur dans la même famille,
+          avec un poids n / (n + k) : décalage ${nf2.format(D.concurrents.decalage || 0)}, σ final ${nf2.format(D.concurrents.dispersion)}.</li>
       </ul></details>
   </section>`;
 }
@@ -590,6 +622,36 @@ function blocVerite(v) {
   </div></details>`;
 }
 
+// ================================================================ prévu / réel (vrais AO, suivi.py)
+function blocPrevuReel(pv) {
+  if (!pv) return '';
+  const c = pv.comparee;
+  const tete = `Prévision figée le ${dateFr(c.jour.replaceAll('-', ''))} (version ${esc(c.version)}, réglages ${esc(c.empreinte)})`;
+  if (!pv.reel) return `<section class="etape" aria-label="Prévu et réel"><p class="doux petit">${tete}.
+    Le PV n’est pas encore dans l’historique : la comparaison « Prévu / Réel » s’affichera ici dès qu’il arrivera
+    (${pv.copies.length} copie(s) enregistrée(s)).</p></section>`;
+  const s = pv.score, g = s.gagnant;
+  const lignes = s.societes.map(x => `<tr><td data-l="Société">${esc(x.nom)}${g && x.cle === g.cle ? ' <span class="puce puce--ok">gagnant</span>' : ''}</td>
+    <td data-l="Prévue">${x.prevue ? '<span class="oui">✓</span>' : '<span class="non">✗</span>'}
+      ${x.rang ? `<span class="doux petit">rang ${x.rang}, ${pct(x.p)}</span>` : '<span class="doux petit">absente de la prévision</span>'}</td>
+    <td data-l="Groupe">${x.groupe ? 'groupe ' + x.groupe : '—'}</td><td data-l="Statut">${esc(x.statut)}</td>
+    <td data-l="Taux" class="num">${taux(x.taux)}</td></tr>`).join('');
+  const absentes = s.prevues_absentes.slice(0, 15).map(x => `${esc(x.nom)} (${pct(x.p)})`).join(', ');
+  const groupes = s.groupes.map(gr => `<li>Groupe ${gr.numero} (${esc(nomDe(gr.chef))}) : ${gr.venus.length} sur ${gr.membres} venues</li>`).join('');
+  return `<details class="verite" open><summary>Prévu / Réel</summary><div class="contenu">
+    <p>${tete}, comparée au PV <span class="mono">${esc(pv.reel.ref_pv)}</span> du ${dateFr(pv.reel.date)}.</p>
+    <p><b>${s.venues_prevues}</b> des ${s.venues} sociétés venues étaient prévues (${s.dans_top15} dans les 15 premières).</p>
+    <p>Nombre de concurrents : <b>${s.nb_concurrents}</b> — fourchette prévue ${s.fourchette[0]} à ${s.fourchette[1]} :
+      ${s.dans_fourchette ? '<span class="oui">dedans ✓</span>' : '<span class="non">en dehors ✗</span>'} (le plus probable : ${s.probable}).</p>
+    <p>Gagnant : <b>${esc(g ? g.nom : '—')}</b>${g ? ` — ${g.prevu ? `<span class="oui">prévu ✓</span>, rang ${g.rang}` : '<span class="non">non prévu ✗</span>'}${g.groupe ? `, groupe ${g.groupe}` : ', hors groupe'}` : ''}.</p>
+    ${groupes ? `<div><b>Groupes prévus</b><ul style="list-style:disc;padding-left:24px">${groupes}</ul></div>` : ''}
+    <div class="defile"><table class="tableau"><thead><tr><th>Société venue</th><th>Prévue</th><th>Groupe</th><th>Statut</th><th class="num">Taux</th></tr></thead>
+      <tbody>${lignes}</tbody></table></div>
+    ${absentes ? `<p class="doux petit">Prévues mais absentes : ${absentes}.</p>` : ''}
+    <p class="doux petit">La comparaison porte sur la copie figée avant l’ouverture des plis, pas sur le calcul du jour.</p>
+  </div></details>`;
+}
+
 // ================================================================ assemblage et interactions
 function rafraichirCompte() {
   $('#zone-compte').innerHTML = blocCompte();
@@ -597,12 +659,12 @@ function rafraichirCompte() {
   $('#nb-modifs').textContent = n ? `${pluriel(n, 'modification')} en cours` : '';
 }
 
-function rendre(verite) {
+function rendre(verite, prevu) {
   const a = D.ao;
   $('#titre').textContent = `Analyse de ${REF}${a.lot ? ' — lot ' + a.lot : ''}`;
   document.title = `Analyse ${REF}${a.lot ? ' lot ' + a.lot : ''} — Copilote`;
   $('#corps').innerHTML = [blocAo(), blocSimilaires(), blocProbables(),
-    verite ? blocVerite(verite) : '',
+    verite ? blocVerite(verite) : '', blocPrevuReel(prevu),
     blocAvenir(4, 'Les taux de chaque société', 'le sous-historique et le taux probable de chaque société.'),
     blocAvenir(5, 'La simulation de l’ouverture des plis', 'la chance de gagner selon notre prix.')].join('');
 }
@@ -659,6 +721,16 @@ function blocLots(lots, detail) {
 
 async function demarrer() {
   if (!REF) { $('#corps').innerHTML = '<p class="erreur">Aucun appel d’offres indiqué dans l’adresse.</p>'; return; }
+  if (!LOT) {
+    // Sans lot dans l'adresse : la liste des lots d'abord. Un AO alloti ne s'analyse qu'avec le lot choisi.
+    let lots = [];
+    try { lots = (await lire(`/api/copilote/analyse/${encodeURIComponent(REF)}/lots`)).lots || []; } catch (e) {
+      if (e.statut === 401) { location.href = '/copilote/entrer'; return; }
+      $('#corps').innerHTML = `<p class="erreur">${esc(e.message)}</p>`;
+      return;
+    }
+    if (lots.length) { $('#corps').innerHTML = blocLots(lots, 'Cet AO est alloti : chaque lot s’analyse à part. Choisissez un lot.'); return; }
+  }
   const q = LOT ? `?lot=${encodeURIComponent(LOT)}` : '';
   try {
     D = await lire(`/api/copilote/analyse/${encodeURIComponent(REF)}${q}`);
@@ -670,14 +742,13 @@ async function demarrer() {
   }
   PAR_CLE = Object.fromEntries(D.probables.candidats.map(c => [c.cle, c]));
   ORIGINE = calculerCompte().f;
-  let verite = null;
+  let verite = null, prevu = null;
   if (EST_REJEU) { try { verite = await lire(`/api/copilote/rejeu/${encodeURIComponent(REF)}/verite${q}`); } catch (e) { verite = null; } }
-  rendre(verite);
-  if (D.ao.lot) {
-    // AO alloti : rappeler les autres lots en tête.
-    try { await lire(`/api/copilote/analyse/${encodeURIComponent(REF)}`); } catch (e) {
-      if (e.corps && e.corps.lots) $('#corps').insertAdjacentHTML('afterbegin', blocLots(e.corps.lots, 'Cet AO est alloti : chaque lot s’analyse à part.').replace('<span class="rond">1</span>', ''));
-    }
+  else { try { prevu = await lire(`/api/copilote/prevision/${encodeURIComponent(REF)}${q}`); } catch (e) { prevu = null; } }
+  rendre(verite, prevu);
+  if (D.ao.lot && (D.ao.lots || []).length > 1) {
+    // AO alloti : les autres lots en tête, lus dans le dossier lui-même (aucun appel sans lot).
+    $('#corps').insertAdjacentHTML('afterbegin', blocLots(D.ao.lots, 'Cet AO est alloti : chaque lot s’analyse à part.').replace('<span class="rond">1</span>', ''));
   }
 }
 demarrer();

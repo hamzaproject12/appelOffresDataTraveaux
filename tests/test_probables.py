@@ -98,7 +98,7 @@ class Distribution(unittest.TestCase):
 
     def test_cas_communs_python(self):
         for c in CAS:
-            d = probables.distribution(c["ps"], c["lambda"], c["dispersion"])
+            d = probables.distribution(c["ps"], c["lambda"], c["dispersion"], c.get("decalage", 0.0))
             self.assertEqual(len(d), len(c["attendu"]["distribution"]), c["nom"])
             for a, b in zip(d, c["attendu"]["distribution"]):
                 self.assertAlmostEqual(a, b, places=10, msg=c["nom"])

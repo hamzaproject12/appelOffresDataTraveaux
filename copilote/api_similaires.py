@@ -49,7 +49,8 @@ def lire_ao(ao: sqlite3.Connection, ref_annonce: str, lot: str | None) -> dict:
                                 {"lots": [str(x["lot"]) for x in lots]})
     elif lot is not None:
         raise ErreurAnalyse(404, "Cet AO n'a pas de lots")
-    return {"ligne": dict(ligne), "lot": choisi, "qualifications": quals}
+    return {"ligne": dict(ligne), "lot": choisi, "qualifications": quals,
+            "lots": [{"lot": str(x["lot"]), "intitule": x["intitule"], "estimation": x["estimation"]} for x in lots]}
 
 
 def analyser(ref_annonce: str, lot: str | None, poids_texte: str | None, *, ouvrir_historique, chemin_historique,
@@ -127,5 +128,7 @@ def analyser(ref_annonce: str, lot: str | None, poids_texte: str | None, *, ouvr
     }
     if interne:
         return reponse, {"moteur": m, "cible": cible, "composantes": comp, "notes": notes, "retenus": retenus,
-                         "jour_ref": jour_ref, "coupure": coupure}
+                         "jour_ref": jour_ref, "coupure": coupure, "lots": donnees["lots"],
+                         "date_limite": ligne.get("date_limite"), "reference": ligne.get("reference"),
+                         "cle_acheteur": cle_ach}
     return reponse

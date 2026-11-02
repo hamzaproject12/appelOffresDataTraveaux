@@ -10,7 +10,9 @@ réveil, chaque nouveau PV trouvé. C'est la seule fenêtre sur ce qui se passe 
 Réglages (variables d'environnement) :
 
     MAJ_AUTO=0        n'exécute rien, sonde le portail au démarrage et s'arrête là
-    MAJ_HEURE=03:30   heure de la mise à jour, UTC (défaut 03:30)
+    MAJ_HEURE=03:30   heure de la mise à jour, UTC (défaut 03:30 ; conseillé 11:00, le portail ne
+                      répond pas la nuit depuis Railway)
+    MAJ_ESSAIS=6      si la sonde échoue, nouvel essai toutes les heures, au plus ce nombre d'essais par jour
     MAJ_BASE=travaux  passé à maj_quotidienne.py en --base ; vide pour les services
     MAJ_JOURS=45      fenêtre de recherche des nouvelles consultations
     MAJ_FILS=2        requêtes simultanées vers le portail (rester bas depuis un hébergeur)
@@ -29,6 +31,8 @@ ICI = Path(__file__).resolve().parent
 DONNEES = Path(os.environ.get("DONNEES") or ICI.parent)
 MARQUE = DONNEES / "derniere_maj.txt"
 MARQUE_GROUPES = DONNEES / "derniere_maj_groupes.txt"
+SONDE_EN_ECHEC = 3          # code de sortie de maj_quotidienne.py quand le portail ne répond pas
+INTERVALLE_ESSAI = 3600     # secondes entre deux essais quand la sonde échoue
 
 
 def dire(*mots) -> None:
@@ -93,6 +97,29 @@ def appeler(*arguments: str) -> int:
     for ligne in p.stdout:
         print(ligne.rstrip(), flush=True)
     return p.wait()
+
+
+def essais_voulus() -> int:
+    try:
+        return max(1, min(24, int(os.environ.get("MAJ_ESSAIS", "6"))))
+    except ValueError:
+        return 6
+
+
+def essais_du_jour(lancer, dormir=time.sleep, essais: int = 6, intervalle: int = INTERVALLE_ESSAI) -> tuple[int, int]:
+    """Lance la mise à jour ; tant que la sonde échoue (code SONDE_EN_ECHEC), retente toutes les `intervalle`
+    secondes, `essais` fois au plus en tout. Un autre code (succès ou autre échec) arrête les essais.
+    Renvoie (dernier code, nombre d'essais faits)."""
+    code = SONDE_EN_ECHEC
+    for k in range(1, essais + 1):
+        code = lancer()
+        if code != SONDE_EN_ECHEC:
+            return code, k
+        if k < essais:
+            dire(f"portail injoignable (essai {k} sur {essais}) : nouvel essai dans {intervalle // 60} min")
+            dormir(intervalle)
+    dire(f"portail injoignable après {essais} essais : prochain essai demain à l'heure prévue")
+    return code, essais
 
 
 def recalcul_hebdomadaire() -> None:
@@ -231,9 +258,10 @@ def tourner() -> None:
                 continue
 
         debut = time.time()
-        code = appeler(*arguments)
-        noter(datetime.now(timezone.utc).date().isoformat())
-        dire(f"mise à jour terminée en {(time.time() - debut) / 60:.0f} min, code {code}")
+        jour_essai = datetime.now(timezone.utc).date().isoformat()
+        code, essais = essais_du_jour(lambda: appeler(*arguments), essais=essais_voulus())
+        noter(jour_essai)
+        dire(f"mise à jour terminée en {(time.time() - debut) / 60:.0f} min, code {code}, {essais} essai(s)")
         recalcul_hebdomadaire()
         time.sleep(60)                                # on ne repart jamais en boucle serrée
 

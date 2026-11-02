@@ -421,6 +421,14 @@
     <div class="resultats__tete"><span id="compte" tabindex="-1">&nbsp;</span><span id="info-requete"></span></div>
     <div class="cadre" id="cadre" aria-live="polite"></div>
   </div>
+  <!-- AO de test (rejeux du copilote, client « Test ») : montrés à part, malgré le client imposé, et seulement
+       aux visiteurs qui ont l'accès copilote. -->
+  <details class="resultats" id="bloc-test" hidden style="margin-top:var(--e5)">
+    <summary style="cursor:pointer;min-height:40px;display:flex;align-items:center;font-weight:650" id="titre-test">AO de test</summary>
+    <p class="doux xs" style="margin:var(--e2) 0">Marchés déjà jugés, rejoués comme s’ils étaient ouverts (REJEU-, REJEU-R-) : la page
+      d’analyse ne voit que l’historique d’avant leur ouverture et montre ensuite ce qui s’est réellement passé.</p>
+    <div class="cadre" id="cadre-test"></div>
+  </details>
 </main>
 
 <script>
@@ -581,7 +589,7 @@ function lotsHtml(lots) {
 // Le bouton « Analyser » n'apparaît qu'aux visiteurs qui ont l'accès copilote (/api/copilote/moi répond 200).
 let ACCES_COPILOTE = false;
 const lienAnalyse = a => !ACCES_COPILOTE || !a.ref_annonce ? '' :
-  `<a class="btn btn--analyser" href="/copilote/analyse/${encodeURIComponent(a.ref_annonce)}" title="Sociétés probables, groupes, nombre de concurrents">Analyser</a>`;
+  `<a class="btn btn--analyser" href="/copilote/analyse/${encodeURIComponent(a.ref_annonce)}${(a.lots || []).length ? '?lot=' + encodeURIComponent(a.lots[0].lot) : ''}" title="Sociétés probables, groupes, nombre de concurrents">Analyser</a>`;
 const lienPortail = u => !u ? '—' :
   `<a href="${esc(u)}" target="_blank" rel="noopener" aria-label="Ouvrir l’annonce sur le portail (nouvel onglet)" title="Ouvrir l’annonce sur le portail">${ic('externe', 18)}</a>`;
 
@@ -784,10 +792,23 @@ addEventListener('popstate', () => { lireURL(); synchroniserChamps(); charger();
 
 lireURL();
 synchroniserChamps();
+// Les AO de test (client « Test ») ne passent pas le filtre du client imposé : on les lit à part.
+const CLIENT_TEST = 'Test';
+async function chargerTests() {
+  if (!ACCES_COPILOTE || !CLIENT_IMPOSE || CLIENT_IMPOSE === CLIENT_TEST) return;
+  let d;
+  try { d = await api('/api/v1/appels_ouverts', { client: CLIENT_TEST, actifs: '0', tri: 'publie_le', taille: TAILLE }); }
+  catch (e) { return; }
+  if (!d.lignes.length) return;
+  $('#titre-test').textContent = `AO de test (${pluriel(d.total, 'appel', 'appels')})`;
+  $('#cadre-test').innerHTML = tableHtml(d.lignes) + cartesHtml(d.lignes);
+  $('#bloc-test').hidden = false;
+}
+
 fetch('/api/copilote/moi', { credentials: 'same-origin' })
   .then(r => { ACCES_COPILOTE = r.ok; })
   .catch(() => {})
-  .finally(charger);
+  .finally(() => { charger(); chargerTests(); });
 </script>
 </body>
 </html>

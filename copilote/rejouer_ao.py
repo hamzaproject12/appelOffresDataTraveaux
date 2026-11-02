@@ -190,11 +190,13 @@ class _Tirage:
         return None
 
 
-def choisir(cands: list[Candidat], n: int = NOMBRE, nb_allotis: int = ALLOTIS, graine: int = 0) -> list[Candidat]:
-    """n marchés variés en acheteur, classe, montant et mois, dont nb_allotis allotis. Même graine, même choix."""
+def choisir(cands: list[Candidat], n: int = NOMBRE, nb_allotis: int = ALLOTIS, graine: int = 0,
+            tirage: type | None = None) -> list[Candidat]:
+    """n marchés variés en acheteur, classe, montant et mois, dont nb_allotis allotis. Même graine, même choix.
+    `tirage` : une variante de _Tirage (rejeu_recent.py varie aussi la famille de travaux)."""
     simples = [c for c in cands if c.nb_lots == 0]
     allotis = [c for c in cands if c.nb_lots > 0]
-    t = _Tirage(graine)
+    t = (tirage or _Tirage)(graine)
 
     # Allotis d'abord (les plus rares) : 2 lots, 3 à 4 lots, 5 à 6 lots, tour à tour.
     tranches = [(2, 2), (3, 4), (5, MAX_LOTS)]
@@ -204,7 +206,7 @@ def choisir(cands: list[Candidat], n: int = NOMBRE, nb_allotis: int = ALLOTIS, g
 
     # Simples : autant de marchés par classe, puis un tiers de chaque tranche de montant dans chaque classe.
     n_simples = n - nb_allotis
-    coupes = statistics.quantiles([c.montant for c in simples], n=3)
+    coupes = statistics.quantiles([c.montant for c in simples], n=3) if len(simples) >= 2 else [0.0, 0.0]
     tercile = lambda c: 0 if c.montant <= coupes[0] else 1 if c.montant <= coupes[1] else 2
     quotas = Counter({classe: n_simples // 5 for classe in range(1, 6)})
     for classe in [4, 3, 5, 2, 1][: n_simples - sum(quotas.values())]:
