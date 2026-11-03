@@ -121,7 +121,15 @@ REGLAGES = {
     "fenetre_historique": 1095, # jours : nombre de concurrents des marchés de l'acheteur, même famille
     "eviction_k": 5,            # lissage du taux d'éviction vers le taux global
     "niveau": 0.8,              # la fourchette du nombre de concurrents
+    "association": True,        # alliées hors liste ajoutées « par association » (reglages.json : false)
+    "seuil_groupe_affiche": 0.15,  # la page montre d'abord les groupes dont le chef a au moins cette probabilité
 }
+
+
+def reglages_fichier() -> dict:
+    """La section « probables » de reglages.json (sans les clés d'aide) : elle passe avant REGLAGES."""
+    from . import reglages as _reglages
+    return {k: v for k, v in (_reglages.charger().get("probables") or {}).items() if not k.startswith("_")}
 
 # Poids écrits à la main, utilisés tant que probables.json n'a pas été produit.
 DEFAUT = {"constante": -5.0,
@@ -151,7 +159,7 @@ def empreinte_coefficients(coefs: dict) -> str:
     """Les 12 premiers caractères du SHA-256 des coefficients et des réglages : la « version des réglages »
     d'une prévision figée (suivi.py)."""
     import hashlib
-    brut = json.dumps({"c": coefs, "r": REGLAGES}, sort_keys=True, ensure_ascii=False, default=str)
+    brut = json.dumps({"c": coefs, "r": {**REGLAGES, **reglages_fichier()}}, sort_keys=True, ensure_ascii=False, default=str)
     return hashlib.sha256(brut.encode()).hexdigest()[:12]
 
 
@@ -689,7 +697,7 @@ def analyser(mem: Memoire, ctx: Contexte, coefs: dict | None = None, reglages: d
     from . import groupes_ao
     coefs = coefs or charger_coefficients()
     # Les réglages propres à une version de coefficients (A2 : seuil_allies 0,07) passent avant les défauts.
-    r = {**REGLAGES, **(coefs.get("reglages") or {}), **(reglages or {})}
+    r = {**REGLAGES, **reglages_fichier(), **(coefs.get("reglages") or {}), **(reglages or {})}
     tous = candidats(mem, ctx, coefs)
     for c in tous:
         c["dans_liste"] = False

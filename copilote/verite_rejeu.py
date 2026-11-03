@@ -10,6 +10,8 @@ from __future__ import annotations
 
 import sqlite3
 
+from construire_base import ADMIS, offres_du_marche
+
 from . import rejeu
 from .rejouer_ao import lire_verite
 
@@ -32,8 +34,21 @@ def pour_lot(calc: sqlite3.Connection, ref_annonce: str, lot: str | None) -> dic
                             "rang": k["rang"]})
     return {
         "ref_annonce": ref_annonce, "lot": v["lot"] or None, "reference_reelle": v["reference_reelle"],
+        "ref_reel": v["ref_reel"],
         "date_ouverture": v["date_ouverture"], "estimation": v["estimation"],
         "prix_reference": v["prix_reference"], "moyenne_offres": v["moyenne_offres"], "nb_offres": v["nb_offres"],
         "gagnant": {"cle": v["cle_gagnant"], "nom": v["nom_gagnant"], "taux": v["taux_gagnant"]},
         "nb_concurrents": len(concurrents), "concurrents": concurrents,
+        "retenues": retenues(v["concurrents"], v["estimation"]),
     }
+
+
+def retenues(concurrents: list[dict], estimation: float | None) -> list[float]:
+    """Les taux des offres qui entrent dans la moyenne et le classement (règle de construire_base : les admis
+    si le PV les distingue, sinon toutes). La page y insère notre offre au point recommandé."""
+    if not estimation:
+        return []
+    cs = [{"statut": c.get("statut"), "montant_verifie": c.get("montant")} for c in concurrents]
+    _, sur_admis = offres_du_marche(cs)
+    return [c["montant_verifie"] / estimation for c in cs
+            if c["montant_verifie"] and (c["statut"] in ADMIS or not sur_admis)]

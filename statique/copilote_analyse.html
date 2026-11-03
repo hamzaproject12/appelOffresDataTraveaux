@@ -229,6 +229,19 @@
   .controle input[type="checkbox"] { width: 20px; height: 20px; margin: 0; flex: none; }
   .p-champ { width: 74px; height: 34px; border: 1px solid var(--bord-fort); border-radius: var(--r-s); background: var(--surface);
     padding: 0 var(--e2); text-align: right; font-variant-numeric: tabular-nums; }
+  .courbe { width: 100%; max-width: 860px; height: auto; display: block; margin-top: var(--e2); touch-action: pan-y; }
+  .courbe text { font-family: var(--police); fill: var(--doux); font-size: 11px; }
+  .courbe text.dh { font-size: 10px; fill: var(--texte-2); }
+  svg.mini { width: 120px; height: 12px; display: block; margin-top: 4px; }
+  .lecture { min-height: 1.5em; font-size: var(--t-s); color: var(--texte-2); }
+  .legende { display: flex; flex-wrap: wrap; gap: 4px 12px; align-items: center; color: var(--doux); }
+  .legende .tr { display: inline-block; width: 18px; height: 4px; border-radius: 2px; margin-right: 4px; vertical-align: middle; }
+  .tr--accent { background: var(--accent); } .tr--orange { background: var(--orange); } .tr--rouge { background: var(--rouge); }
+  .tr--zone { background: var(--vert-doux); border: 1px solid var(--vert-bord); height: 10px !important; } .tr--texte { background: var(--texte); }
+  .zone-reco { display: grid; gap: var(--e1); }
+  h3.sous { font-size: var(--t-m); margin: var(--e4) 0 var(--e1); }
+  .verite-sim { border: 1px solid var(--vert-bord); background: var(--vert-doux); border-radius: var(--r-m); padding: var(--e2) var(--e4); margin-top: var(--e3); font-size: var(--t-s); }
+  .verite-sim ul { list-style: disc; padding-left: var(--e5); margin-top: var(--e1); }
   .p-champ.modifie { border-color: var(--orange); background: var(--orange-doux); }
   .origine { color: var(--doux); font-size: var(--t-xs); }
   .origine s { text-decoration-thickness: 1px; }
@@ -282,6 +295,7 @@
 </main>
 
 <script src="/copilote/analyse_calcul.js"></script>
+<script src="/copilote/simulateur.js"></script>
 <script>
 'use strict';
 const $ = (s, r = document) => r.querySelector(s);
@@ -333,7 +347,8 @@ const LOT = new URLSearchParams(location.search).get('lot');
 const EST_REJEU = REF.startsWith('REJEU-');
 let D = null;                    // le dossier d'analyse
 let PAR_CLE = {};                // candidats par clé
-const MODIFS = {};               // cle -> { retiree: bool, p: number | undefined }
+const MODIFS = {};               // cle -> { retiree: bool, p: number | undefined, mu: taux | undefined }
+const vide = m => !m.retiree && m.p == null && m.mu == null;
 let ORIGINE = null;              // fourchette d'origine
 
 async function lire(url) {
@@ -548,14 +563,21 @@ function blocProbables() {
   const indiv = D.individuelles.map(k => PAR_CLE[k]).filter(Boolean);
   const autres = pr.candidats.filter(c => !c.dans_liste && !dansGroupe.has(c.cle));
   const co = pr.coefficients.coefficients;
+  // Groupes affichés d'abord : chef de file à au moins seuil_groupe_affiche (probabilité calculée, pas la valeur modifiée).
+  const seuilG = r.seuil_groupe_affiche == null ? 0.15 : r.seuil_groupe_affiche;
+  const pChef = g => (PAR_CLE[g.chef] && PAR_CLE[g.chef].p) || 0;
+  const gProbables = D.groupes.filter(g => pChef(g) >= seuilG), gPeu = D.groupes.filter(g => pChef(g) < seuilG);
   return `<section class="etape" aria-labelledby="e3"><h2 id="e3"><span class="rond">3</span>Les sociétés probables</h2>
     <p class="intro">Qui viendra, avec quelle probabilité, réparti en groupes de présence commune. Décochez une société ou changez
       sa probabilité : le nombre de concurrents se recalcule aussitôt (rien n’est enregistré).</p>
     <div id="zone-compte">${blocCompte()}</div>
     <div class="actions-calcul"><button type="button" class="btn btn--sec" data-action="tout-retablir">Tout rétablir</button>
       <span class="doux petit" id="nb-modifs"></span></div>
-    <h3 style="font-size:var(--t-m);margin:16px 0 8px">Groupes (${D.groupes.length})</h3>
-    <div class="groupes">${D.groupes.map(blocGroupe).join('') || '<p class="doux">Aucun groupe parmi les sociétés probables.</p>'}</div>
+    <h3 style="font-size:var(--t-m);margin:16px 0 8px">Groupes (${gProbables.length})</h3>
+    <div class="groupes">${gProbables.map(blocGroupe).join('') || `<p class="doux">Aucun groupe dont le chef de file vient avec au moins ${pct(seuilG)}.</p>`}</div>
+    ${gPeu.length ? `<details class="plie" style="margin-top:12px"><summary>Groupes peu probables (${gPeu.length}) — chef de file sous ${pct(seuilG)}</summary>
+      <p class="doux petit">Ils restent comptés dans le nombre de concurrents et dans la simulation, avec leurs probabilités.</p>
+      <div class="groupes">${gPeu.map(blocGroupe).join('')}</div></details>` : ''}
     <h3 style="font-size:var(--t-m);margin:20px 0 8px">Sociétés individuelles (${indiv.length})</h3>
     <div class="defile"><table class="tableau">${enteteSocietes}<tbody>${indiv.map(c => ligneSociete(c, null)).join('')}</tbody></table></div>
     <details class="plie" style="margin-top:12px"><summary>Autres sociétés possibles (${autres.length}, probabilité sous ${pct(r.seuil_liste)} ou au-delà des ${r.taille_liste} premières)</summary>
@@ -570,8 +592,10 @@ function blocProbables() {
           de calibration apprise sur d’autres marchés de la même année corrige l’échelle sans changer l’ordre des sociétés.</li>
         <li>Liste affichée : les ${r.taille_liste} premières à partir de ${pct(r.seuil_liste)}. Alliées cherchées pour celles à
           ${pct(r.seuil_allies)} ou plus, avec le calcul « autour d’une société » de la page des groupes, sur l’historique d’avant la coupure.</li>
-        <li>Une alliée absente de la liste mais « noyau », ou accompagnatrice avec C ≥ ${pct(r.c_association)}, est ajoutée
-          « probable par association » : p = B × p(société).</li>
+        ${r.association === false ? `<li>Seules les alliées présentes dans la liste entrent dans un groupe (pas d’ajout « par association »).</li>`
+          : `<li>Une alliée absente de la liste mais « noyau », ou accompagnatrice avec C ≥ ${pct(r.c_association)}, est ajoutée
+          « probable par association » : p = B × p(société).</li>`}
+        <li>Groupes affichés d’abord : ceux dont le chef de file vient avec au moins ${pct(seuilG)} ; les autres sont repliés plus bas.</li>
         <li>Groupes en étoile : par score décroissant (probabilité × taux de victoire sur les marchés similaires), une société qui a des
           alliées devient chef de file avec ses alliées directes (${r.taille_groupe} sociétés au plus). Une alliée d’un chef déjà retenu reste
           simple accompagnatrice, sauf si elle a elle-même au moins 2 alliées dans la liste : elle garde alors son groupe
@@ -587,8 +611,302 @@ function blocProbables() {
   </section>`;
 }
 
-const blocAvenir = (n, titre, texte) => `<section class="etape etape--avenir" aria-labelledby="e${n}"><h2 id="e${n}"><span class="rond">${n}</span>${titre}</h2>
-  <p class="intro">À venir : ${texte}</p></section>`;
+// ================================================================ ④ les taux de chaque société
+const muDe = c => { const m = MODIFS[c.cle]; const t = D.taux.societes[c.cle]; return m && m.mu != null ? m.mu : t.mu; };
+const nf3 = new Intl.NumberFormat('fr-FR', { minimumFractionDigits: 3, maximumFractionDigits: 3 });
+const t3 = x => x == null ? '—' : nf3.format(x);
+const points = x => x == null ? '—' : (x >= 0 ? '+' : '−') + nf1.format(Math.abs(x) * 100) + ' pt';
+let SIM = null, SIM_ORIGINE = null, VERITE = null, PRIX_SAISI = '';
+
+function profilMembre(cle) {
+  for (const g of D.taux.groupes) {
+    const m = g.membres.find(x => x.cle === cle);
+    if (m) return { g, m };
+  }
+  return null;
+}
+
+function explicationTaux(c) {
+  const t = D.taux.societes[c.cle], r = D.taux.reglages, seg = D.taux.segment;
+  const sh = t.sous_historique || [];
+  const pm = profilMembre(c.cle);
+  const lignes = sh.map(l => `<tr><td data-l="Date">${dateFr(l.date)}</td><td data-l="Acheteur">${esc(l.acheteur)}</td>
+    <td data-l="Taux" class="num">${t3(l.taux)}</td><td data-l="Poids" class="num">${pct(l.poids, 1)}</td>
+    <td data-l="Similarité" class="num">${nfEntier.format(l.similarite)}</td><td data-l="Âge" class="num">${nfEntier.format(l.age_jours)} j</td>
+    <td data-l="Chez l’acheteur">${l.chez_acheteur ? '✓' : '—'}</td><td data-l="Gagné">${l.gagne ? '<span class="oui">✓</span>' : '—'}</td>
+    <td data-l="Offres" class="num">${l.offres}</td></tr>`).join('');
+  const groupe = pm ? `<p><b>Membre du groupe de ${esc(nomDe(pm.g.chef))}.</b>
+      Chef de file présent : ${t3(pm.m.chef_present.mu)} (${pm.m.chef_present.n} marchés) ; absent : ${t3(pm.m.chef_absent.mu)} (${pm.m.chef_absent.n} marchés).
+      Écart habituel à l’offre du chef : ${points(pm.m.ecart.mu)} (${pm.m.ecart.n} marchés communs) ; sur ses victoires : ${points(pm.m.ecart_victoires.mu)}
+      (${pm.m.ecart_victoires.n}). Présente sur ${pct(pm.m.presence_victoires.q)} de ses victoires
+      (${pm.m.presence_victoires.presentes} sur ${pm.m.presence_victoires.victoires}, lissé vers sa probabilité de venir).</p>` : '';
+  return `<p>${t.n ? `Moyenne pondérée de ses ${t.n} taux passés : <b>${t3(t.moyenne_brute)}</b> sur ${nf1.format(t.n_eff)} marchés « effectifs »
+      (${t.chez_acheteur} chez l’acheteur). ` : 'Aucun taux passé lisible : on prend le segment. '}
+    Rapprochée du segment (${esc(seg.niveau)}, ${nb(seg.offres)} offres, moyenne ${t3(seg.moyenne)}) avec un poids
+    ${nf1.format(r.k_moyenne)} / (n<sub>eff</sub> + ${nf1.format(r.k_moyenne)}) : <b>${t3(t.mu)}</b>.
+    Dispersion ${t3(t.sigma)} → fourchette 10–90 % ${t3(t.q10)} à ${t3(t.q90)}.</p>
+    <p class="doux petit">Poids d’une offre : similarité<sup>${r.gamma}</sup> × 0,5<sup>âge / ${r.demi_vie} j</sup> × (1 + ${r.bonus_acheteur} si chez le même acheteur).
+      Réglages appris sur 2025 (copilote/simulation.json).</p>
+    ${groupe}
+    ${sh.length ? `<div class="defile"><table class="tableau"><thead><tr><th>Date</th><th>Acheteur</th><th class="num">Taux</th><th class="num">Poids</th>
+      <th class="num">Similarité</th><th class="num">Âge</th><th>Chez l’acheteur</th><th>Gagné</th><th class="num">Offres</th></tr></thead>
+      <tbody>${lignes}</tbody></table></div>
+      ${t.n > sh.length ? `<p class="doux petit">Les ${sh.length} offres les plus lourdes sur ${t.n}.</p>` : ''}` : ''}`;
+}
+
+function ligneTaux(c) {
+  const t = D.taux.societes[c.cle];
+  if (!t) return '';
+  const mu = muDe(c), mod = MODIFS[c.cle] && MODIFS[c.cle].mu != null, ret = retiree(c);
+  const L = 120, x = v => Math.max(0, Math.min(L, (v - 0.7) / 0.6 * L));
+  const barre = `<svg class="mini" viewBox="0 0 ${L} 12" aria-hidden="true"><rect x="0" y="5" width="${L}" height="2" fill="var(--surface-3)"/>
+    <rect x="${x(t.q10).toFixed(1)}" y="2" width="${Math.max(2, x(t.q90) - x(t.q10)).toFixed(1)}" height="8" rx="2" fill="var(--accent-doux)" stroke="var(--accent)"/>
+    <line x1="${x(1).toFixed(1)}" x2="${x(1).toFixed(1)}" y1="0" y2="12" stroke="var(--bord-fort)"/>
+    <circle cx="${x(mu).toFixed(1)}" cy="6" r="3" fill="${mod ? 'var(--orange)' : 'var(--accent)'}"/></svg>`;
+  return `<tr class="${ret ? 'retiree' : ''}" data-taux="${esc(c.cle)}">
+    <td data-l="Société"><span class="nom">${esc(c.nom)}</span>
+      <div class="doux petit">${pct(pDe(c))} de venir${ret ? ' — retirée en ③' : ''}</div></td>
+    <td data-l="Taux probable"><label class="sr" for="mu-${esc(c.cle)}">Taux probable de ${esc(c.nom)}</label>
+      <input class="p-champ ${mod ? 'modifie' : ''}" id="mu-${esc(c.cle)}" type="number" min="0.3" max="3" step="0.001" inputmode="decimal"
+        value="${mu.toFixed(3)}" data-action="mu" style="width:6.5em">
+      ${mod ? `<div class="origine">calculé : <s>${t3(t.mu)}</s> <button type="button" class="btn btn--sec" data-action="retablir-mu" style="min-height:28px">Rétablir</button></div>` : ''}</td>
+    <td data-l="Fourchette 10–90 %">${t3(t.q10)} à ${t3(t.q90)}<br>${barre}</td>
+    <td data-l="Historique" class="num">${t.n} <span class="doux petit">(${nf1.format(t.n_eff)} eff.)</span></td>
+    <td data-l="Détail"><details class="plie"><summary>Sous-historique</summary>${explicationTaux(c)}</details></td>
+  </tr>`;
+}
+const enteteTaux = `<thead><tr><th>Société</th><th>Taux probable</th><th>Fourchette 10–90 %</th><th class="num">Marchés</th><th>Détail</th></tr></thead>`;
+
+function blocTaux() {
+  const T = D.taux, seg = T.segment, em = T.effet_marche;
+  const dansGroupe = new Set(D.groupes.flatMap(g => g.membres));
+  const principales = D.probables.candidats.filter(c => c.dans_liste || dansGroupe.has(c.cle));
+  const autres = D.probables.candidats.filter(c => !c.dans_liste && !dansGroupe.has(c.cle));
+  return `<section class="etape" aria-labelledby="e4"><h2 id="e4"><span class="rond">4</span>Les taux de chaque société</h2>
+    <p class="intro">Le taux probable de chaque société (montant ÷ estimation), d’après ses offres passées les plus proches de cet AO.
+      Changez un taux : la simulation ⑤ se recalcule aussitôt (rien n’est enregistré).</p>
+    <p class="petit">Effet de marché : <b>${pct(em.part)}</b> de la variation des offres est commune à toutes les offres d’un même marché
+      (σ ${t3(em.sigma)} sur ${nb(em.marches)} marchés), en plus de l’effet du nombre de concurrents : moins il y en a, plus les offres sont hautes
+      (${[2, 5, 10, 20].map(n => `${n} sociétés ${points((em.constante || 0) + (em.pente || 0) * Math.log(n))}`).join(', ')}, par rapport à l’habitude de chaque société).
+      Concurrents non identifiés : taux tirés dans les ${nb(seg.offres)} offres du segment
+      « ${esc(seg.niveau)} » (moyenne ${t3(seg.moyenne)}, σ ${t3(seg.sigma)}).</p>
+    <div class="defile"><table class="tableau">${enteteTaux}<tbody>${principales.map(ligneTaux).join('')}</tbody></table></div>
+    ${autres.length ? `<details class="plie" style="margin-top:12px"><summary>Autres sociétés possibles (${autres.length})</summary>
+      <div class="defile"><table class="tableau">${enteteTaux}<tbody>${autres.map(ligneTaux).join('')}</tbody></table></div></details>` : ''}
+    <details class="comment"><summary>Comment c’est calculé</summary><ul>
+      <li>Moyenne pondérée de ses taux passés : poids = similarité de l’offre à cet AO × récence × bonus si l’offre était chez le même
+        acheteur. Peu d’historique : la moyenne est rapprochée de celle du segment (acheteur, famille, tranche de montant ; le segment
+        s’élargit s’il a moins de ${D.taux.reglages.min_segment} offres).</li>
+      <li>Fourchette 10–90 % : moyenne ± 1,28 σ, σ rapprochée de celle du segment. Réglée sur 2025 pour contenir 80 % des vraies offres.</li>
+      <li>Membres d’un groupe : deux profils (chef de file présent ou absent) et leur écart habituel à l’offre du chef.</li>
+      <li>Effet de marché : écart de chaque offre à la moyenne de sa société. Une part dépend du nombre de concurrents
+        (constante + pente × ln N, ajustée offre par offre) ; le reste, moyenne des écarts par marché corrigée du bruit d’échantillon,
+        est le choc commun. Mesuré sur les marchés d’avant le début du mois de la coupure.</li>
+    </ul></details>
+  </section>`;
+}
+
+function redessinerTaux(cle) {
+  document.querySelectorAll(`tr[data-taux="${CSS.escape(cle)}"]`).forEach(tr => {
+    const d = tr.querySelector('details'), ouvert = d && d.open;
+    const tmp = document.createElement('tbody');
+    tmp.innerHTML = ligneTaux(PAR_CLE[cle]);
+    const neuf = tmp.firstElementChild;
+    tr.replaceWith(neuf);
+    if (ouvert) neuf.querySelector('details').open = true;
+  });
+}
+
+// ================================================================ ⑤ la simulation
+function modifsSimulation() {
+  const m = {};
+  Object.entries(MODIFS).forEach(([cle, x]) => { m[cle] = { retiree: !!x.retiree, p: x.p, mu: x.mu }; });
+  return m;
+}
+function simulerActuel() {
+  const t0 = performance.now();
+  SIM = Object.keys(MODIFS).length ? Simulateur.simuler(Simulateur.appliquer(D.simulation.modele, modifsSimulation())) : SIM_ORIGINE;
+  SIM.ms = performance.now() - t0 + (SIM === SIM_ORIGINE ? SIM_ORIGINE.ms0 : 0);
+}
+
+const vraiP = () => VERITE && VERITE.prix_reference && VERITE.estimation ? VERITE.prix_reference / VERITE.estimation : null;
+const chanceA = (s, x) => { const xs = s.grille, j = Math.round((x - xs[0]) / (xs[1] - xs[0])); return j >= 0 && j < xs.length ? s.chance[j] : null; };
+
+function courbe(s, so) {
+  const etroit = innerWidth < 600, W = etroit ? 360 : 640, H = etroit ? 250 : 270, g = 40, d = 24, h = 14, b = 46, xs = s.grille, n = xs.length, E = D.ao.estimation;
+  const haut = Math.max(...s.chance, ...(so ? so.chance : [0]));
+  const ymax = [0.1, 0.2, 0.4, 0.6, 0.8, 1].find(v => v >= haut - 1e-9) || 1;
+  const X = v => g + (v - xs[0]) / (xs[n - 1] - xs[0]) * (W - g - d), Y = v => h + (1 - v / ymax) * (H - h - b);
+  const chemin = ch => ch.map((v, j) => `${j ? 'L' : 'M'}${X(xs[j]).toFixed(1)},${Y(v).toFixed(1)}`).join('');
+  let o = '';
+  if (s.zone) o += `<rect x="${X(s.zone.de).toFixed(1)}" y="${h}" width="${Math.max(1, X(s.zone.a) - X(s.zone.de)).toFixed(1)}" height="${H - h - b}" fill="var(--vert-doux)"><title>Zone recommandée</title></rect>`;
+  for (let k = 0; k <= 4; k++) {
+    const v = ymax * k / 4;
+    o += `<line x1="${g}" x2="${W - d}" y1="${Y(v).toFixed(1)}" y2="${Y(v).toFixed(1)}" stroke="var(--bord)"/>
+      <text x="${g - 6}" y="${(Y(v) + 3).toFixed(1)}" text-anchor="end">${pct(v, ymax < 0.2 ? 1 : 0)}</text>`;
+  }
+  for (let k = 0; k <= 8; k += etroit ? 2 : 1) {
+    const v = 0.8 + k * 0.05;
+    o += `<line x1="${X(v).toFixed(1)}" x2="${X(v).toFixed(1)}" y1="${H - b}" y2="${H - b + 4}" stroke="var(--bord-fort)"/>
+      <text x="${X(v).toFixed(1)}" y="${H - b + 16}" text-anchor="middle">${nf2.format(v)}</text>
+      ${E ? `<text x="${X(v).toFixed(1)}" y="${H - b + 30}" text-anchor="middle" class="dh">${nf2.format(v * E / 1e6)} M</text>` : ''}`;
+  }
+  if (so) o += `<path d="${chemin(so.chance)}" fill="none" stroke="var(--orange)" stroke-width="1.5" stroke-dasharray="5 4"><title>Courbe d’origine</title></path>`;
+  o += `<path d="${chemin(s.chance)}" fill="none" stroke="var(--accent)" stroke-width="2.2"/>`;
+  if (s.zone) o += `<line x1="${X(s.zone.x).toFixed(1)}" x2="${X(s.zone.x).toFixed(1)}" y1="${h}" y2="${H - b}" stroke="var(--vert)" stroke-width="1.5"/>
+    <circle cx="${X(s.zone.x).toFixed(1)}" cy="${Y(s.chance[s.zone.indice]).toFixed(1)}" r="4" fill="var(--vert)"><title>Point recommandé ${t3(s.zone.x)}</title></circle>`;
+  const tg = VERITE && VERITE.gagnant && VERITE.gagnant.taux;
+  if (tg && tg >= xs[0] && tg <= xs[n - 1]) {
+    o += `<line x1="${X(tg).toFixed(1)}" x2="${X(tg).toFixed(1)}" y1="${h}" y2="${H - b}" stroke="var(--rouge)" stroke-dasharray="3 3"/>
+      <circle cx="${X(tg).toFixed(1)}" cy="${Y(chanceA(s, tg)).toFixed(1)}" r="4" fill="var(--rouge)"><title>Offre gagnante réelle : ${t3(tg)}</title></circle>`;
+  }
+  o += `<line class="guide" x1="0" x2="0" y1="${h}" y2="${H - b}" stroke="var(--texte-2)" stroke-width="1" visibility="hidden"/>
+    <rect class="capteur" x="${g}" y="${h}" width="${W - g - d}" height="${H - h - b}" fill="transparent" style="cursor:crosshair"/>`;
+  return `<svg class="courbe" viewBox="0 0 ${W} ${H}" role="img" aria-label="Chance de gagner selon notre taux, de 0,80 à 1,20 de l’estimation"
+    data-g="${g}" data-l="${W - g - d}" data-w="${W}">${o}</svg>
+    <p class="legende petit"><span class="tr tr--accent"></span>chance de gagner${so ? ' <span class="tr tr--orange"></span>courbe d’origine' : ''}
+      <span class="tr tr--zone"></span>zone recommandée${tg ? ' <span class="tr tr--rouge"></span>offre gagnante réelle' : ''}</p>`;
+}
+
+function histoP(s, so) {
+  const etroit = innerWidth < 600, W = etroit ? 360 : 640, H = 150, g = 16, d = 16, h = 10, b = 30, C = Simulateur.CLASSES_P, hist = s.prix_reference.histogramme;
+  const max = Math.max(...hist, 1), larg = (W - g - d) / C.n, X = v => g + (v - C.debut) / (C.pas * C.n) * (W - g - d);
+  const p = s.prix_reference;
+  let o = '';
+  hist.forEach((v, k) => {
+    const x0 = C.debut + k * C.pas, dedans = p.q10 != null && x0 + C.pas > p.q10 && x0 < p.q90, hh = v / max * (H - h - b);
+    o += `<rect x="${(g + k * larg + 0.5).toFixed(1)}" y="${(H - b - hh).toFixed(1)}" width="${Math.max(1, larg - 1).toFixed(1)}" height="${hh.toFixed(1)}"
+      fill="${dedans ? 'var(--accent)' : 'var(--bord-fort)'}"><title>${nf3.format(x0)} à ${nf3.format(x0 + C.pas)} : ${pct(v / s.scenarios, 1)}</title></rect>`;
+  });
+  for (let k = 0; k <= 12; k += etroit ? 2 : 1) { const v = 0.7 + k * 0.05; o += `<text x="${X(v).toFixed(1)}" y="${H - b + 16}" text-anchor="middle">${nf2.format(v)}</text>`; }
+  if (p.mediane != null) o += `<line x1="${X(p.mediane).toFixed(1)}" x2="${X(p.mediane).toFixed(1)}" y1="${h}" y2="${H - b}" stroke="var(--texte)" stroke-width="1.5"><title>Médiane ${t3(p.mediane)}</title></line>`;
+  if (so && so.prix_reference.mediane != null && Math.abs(so.prix_reference.mediane - p.mediane) > 1e-9)
+    o += `<line x1="${X(so.prix_reference.mediane).toFixed(1)}" x2="${X(so.prix_reference.mediane).toFixed(1)}" y1="${h}" y2="${H - b}" stroke="var(--orange)" stroke-dasharray="4 3"><title>Médiane d’origine</title></line>`;
+  const vrai = vraiP();
+  if (vrai != null) o += `<line x1="${X(vrai).toFixed(1)}" x2="${X(vrai).toFixed(1)}" y1="${h}" y2="${H - b}" stroke="var(--rouge)" stroke-width="2" stroke-dasharray="3 3"><title>Vrai prix de référence ${t3(vrai)}</title></line>`;
+  return `<svg class="courbe" viewBox="0 0 ${W} ${H}" role="img" aria-label="Distribution du prix de référence simulé, sans notre offre">${o}</svg>
+    <p class="legende petit"><span class="tr tr--accent"></span>intervalle 80 % <span class="tr tr--texte"></span>médiane${vrai != null ? ' <span class="tr tr--rouge"></span>vrai prix de référence' : ''}</p>`;
+}
+
+function blocCentral(c) {
+  if (!c) return '';
+  const E = D.ao.estimation;
+  const lignes = [...c.offres].sort((a, b) => a.taux - b.taux).map(o => `<tr class="${o.admise ? '' : 'retiree'}"><td data-l="Société"><span class="nom">${esc(o.nom)}</span>${o.admise ? '' : ' <span class="puce puce--ko">évincée</span>'}</td>
+    <td data-l="Taux" class="num">${t3(o.taux)}</td><td data-l="Montant" class="num">${E ? dh(o.taux * E) : '—'}</td></tr>`).join('');
+  return `<details class="plie"><summary>Scénario central détaillé (${c.offres.filter(o => o.admise).length} offres admises + la nôtre)</summary>
+    <p class="petit">Le scénario tiré dont le prix de référence (sans notre offre) et le nombre d’offres sont les plus proches des médianes.
+      Notre offre au point recommandé : <b>${t3(c.x)}</b>${E ? ` (${dh(c.x * E)})` : ''}. Moyenne des offres admises, la nôtre comprise :
+      ${t3(c.moyenne)} ; prix de référence = (moyenne + 1) / 2 = <b>${t3(c.prix_reference)}</b>${E ? ` (${dh(c.prix_reference * E)})` : ''}.
+      Gagnant : <b>${c.nous_gagnons ? 'notre offre' : esc(c.gagnant)}</b> (la plus proche du prix de référence par défaut, sinon par excès).</p>
+    <div class="defile"><table class="tableau"><thead><tr><th>Société</th><th class="num">Taux</th><th class="num">Montant</th></tr></thead><tbody>${lignes}</tbody></table></div>
+  </details>`;
+}
+
+function blocVeriteSimulation() {
+  if (!VERITE) return '';
+  const vrai = vraiP(), so = SIM_ORIGINE, z = so.zone, x = z ? z.x : null, p = so.prix_reference;
+  const gagnee = x != null && VERITE.retenues ? Simulateur.gagne(VERITE.retenues, x) : null;
+  const tg = VERITE.gagnant && VERITE.gagnant.taux;
+  return `<div class="verite-sim"><b>Ce qui s’est réellement passé</b><ul>
+    <li>Vrai prix de référence : <b>${t3(vrai)}</b> — intervalle 80 % simulé ${t3(p.q10)} à ${t3(p.q90)} :
+      ${vrai != null && p.q10 != null && vrai >= p.q10 && vrai <= p.q90 ? '<span class="oui">dedans ✓</span>' : '<span class="non">en dehors ✗</span>'}
+      (médiane simulée ${t3(p.mediane)}, écart ${vrai != null && p.mediane != null ? points(vrai - p.mediane) : '—'}).</li>
+    <li>Offre gagnante réelle : ${esc((VERITE.gagnant && VERITE.gagnant.nom) || '—')} à <b>${t3(tg)}</b> ; la courbe d’origine y annonçait
+      ${tg ? pct(chanceA(so, tg)) : '—'} de chances.</li>
+    ${x != null ? `<li>Notre offre au point recommandé (${t3(x)}, chance annoncée ${pct(z.chance)}), insérée parmi les ${VERITE.retenues.length} vraies offres retenues :
+      ${gagnee ? '<span class="oui">elle aurait gagné ✓</span>' : '<span class="non">elle aurait perdu ✗</span>'}.</li>` : ''}
+  </ul><p class="doux petit">Comparaison faite sur le calcul d’origine, pas sur vos modifications. Le moteur ne voit jamais ce résultat.</p></div>`;
+}
+
+function blocSimulationContenu() {
+  const s = SIM, so = Object.keys(MODIFS).length ? SIM_ORIGINE : null, z = s.zone, E = D.ao.estimation, p = s.prix_reference;
+  const zo = so && so.zone;
+  const chefs = s.chefs.map(c => `<tr><td data-l="Chef de file">${esc(nomDe(c.chef))}</td><td data-l="Vient (admis)" class="num">${pct(c.present)}</td>
+    <td data-l="Gagne (sans notre offre)" class="num">${pct(c.gagne)}</td>
+    <td data-l="Face au prix de référence" class="num">${points(c.ecart_mediane)} <span class="doux petit">(${points(c.ecart_q10)} à ${points(c.ecart_q90)})</span></td></tr>`).join('');
+  return `<div class="zone-reco">
+      ${z ? `<p class="compte__phrase">Zone recommandée : <b>${t3(z.de)} à ${t3(z.a)}</b> de l’estimation${E ? ` (${dh(z.de * E)} à ${dh(z.a * E)})` : ''}.
+        Meilleure chance : <b>${pct(z.chance, 1)}</b> à ${t3(z.x)}${E ? ` (${dh(z.x * E)})` : ''}.</p>` : '<p>Aucune chance de gagner sur la grille.</p>'}
+      ${zo && z && (zo.x !== z.x || zo.de !== z.de || zo.a !== z.a) ? `<p class="compte__origine">Calcul d’origine : <s>zone ${t3(zo.de)} à ${t3(zo.a)}, meilleure chance ${pct(zo.chance, 1)} à ${t3(zo.x)}</s>
+        — modifié par vos changements.</p>` : ''}
+      <p class="doux petit">La zone vise la meilleure chance de gagner ; le coût et la marge viendront à l’étape 8. Survolez la courbe pour lire
+        la chance et le montant en dirhams de chaque point, ou saisissez votre prix.</p>
+    </div>
+    ${courbe(s, so)}
+    <p class="lecture" id="lecture">&nbsp;</p>
+    <div class="actions-calcul"><label class="petit" for="prix-dh">Votre prix (DH) :</label>
+      <input id="prix-dh" class="p-champ" type="number" min="0" step="1000" inputmode="numeric" style="width:11em" value="${esc(PRIX_SAISI)}">
+      <span class="petit" id="prix-lecture"></span></div>
+    <h3 class="sous">Prix de référence simulé, sans notre offre</h3>
+    <p class="petit">Médiane <b>${t3(p.mediane)}</b>${E && p.mediane != null ? ` (${dh(p.mediane * E)})` : ''} ; intervalle 80 % ${t3(p.q10)} à ${t3(p.q90)}
+      ${E && p.q10 != null ? `(${dh(p.q10 * E)} à ${dh(p.q90 * E)})` : ''} ; ${nf1.format(s.offres_moyennes)} offres admises en moyenne.
+      <span class="doux">Méthode de l’étape 4 (médiane des 20 plus similaires) : ${t3(D.resume_similaires.mediane)}.</span></p>
+    ${histoP(s, so)}
+    ${blocVeriteSimulation()}
+    ${chefs ? `<h3 class="sous">Position probable des chefs de file</h3>
+      <div class="defile"><table class="tableau"><thead><tr><th>Chef de file</th><th class="num">Vient (admis)</th><th class="num">Gagne (sans notre offre)</th>
+      <th class="num">Face au prix de référence (médiane, 10–90 %)</th></tr></thead><tbody>${chefs}</tbody></table></div>` : ''}
+    ${blocCentral(s.central)}
+    <p class="doux petit">${nb(s.scenarios)} scénarios, graine ${s.graine}, calculés dans le navigateur en ${nfEntier.format(s.ms || 0)} ms.</p>`;
+}
+
+function blocSimulation() {
+  const mo = D.simulation.modele;
+  return `<section class="etape" aria-labelledby="e5"><h2 id="e5"><span class="rond">5</span>La simulation de l’ouverture des plis</h2>
+    <p class="intro">Chance de gagner selon notre prix, de 0,80 à 1,20 de l’estimation. Chaque scénario tire qui vient, qui est évincé,
+      l’effet de marché et le taux de chacun, puis insère notre offre et applique la règle de la commission.</p>
+    <div id="zone-simulation">${blocSimulationContenu()}</div>
+    <details class="comment"><summary>Comment c’est calculé</summary><ul>
+      <li>Qui vient : la loi du nombre de concurrents de ③ (effet commun σ ${nf2.format(mo.nombre.dispersion)}, décalage ${nf2.format(mo.nombre.decalage)}),
+        plus ${nf1.format(mo.nombre.lambda)} société(s) non identifiée(s) attendue(s), dont le taux est tiré dans le segment de ④.</li>
+      <li>Groupe en étoile : si le chef de file vient, le groupe « vient pour gagner » avec la probabilité du taux de victoire du chef sur
+        les marchés similaires ; ses accompagnatrices viennent alors avec leur fréquence mesurée sur les victoires du chef, à leur écart
+        habituel à son offre. Sinon chacune vient avec sa propre probabilité, à son taux « chef présent » ou « chef absent ».</li>
+      <li>Une fois connu le nombre N de sociétés venues, tous les taux du scénario sont décalés de
+        ${nf3.format(mo.marche.constante || 0)} ${(mo.marche.pente || 0) < 0 ? '−' : '+'} ${nf3.format(Math.abs(mo.marche.pente || 0))} × ln N (moins de concurrents,
+        offres plus hautes), plus un effet de marché commun σ ${t3(mo.marche.sigma)}. Chaque société présente est évincée avec sa probabilité d’éviction (③).</li>
+      <li>Prix de référence P = (moyenne des offres admises, la nôtre comprise + estimation) / 2. Gagnant : l’offre la plus proche de P
+        par défaut, sinon la plus proche par excès ; à égalité de montant, l’offre déjà déposée passe avant la nôtre (construire_base.py).</li>
+      ${mo.calibration ? `<li>Chance affichée = chance simulée corrigée par une table de calibration apprise sur 2025 (marchés tenus à part) :
+        ${mo.calibration.x.filter((_, k) => k % 5 === 0).map((x, k) => `${pct(x)} simulés → ${pct(mo.calibration.y[k * 5])}`).join(', ')}.
+        Elle est croissante : elle garde l’ordre des prix et change surtout l’échelle.</li>` : ''}
+      <li>Point recommandé : le maximum de la courbe lissée (±0,005). Zone : autour de lui, les taux où la chance reste ≥ 90 % du maximum.</li>
+      <li>Les copies JavaScript (statique/simulateur.js) et Python (copilote/simulateur.py) donnent le même résultat pour la même graine ;
+        la prévision figée d’un vrai AO garde la courbe et la zone.</li>
+    </ul></details>
+  </section>`;
+}
+
+function lirePrix() {
+  const el = $('#prix-lecture'), E = D.ao.estimation;
+  if (!el) return;
+  const v = parseFloat(String(PRIX_SAISI).replace(/\s/g, '').replace(',', '.'));
+  if (!isFinite(v) || !E) { el.textContent = ''; return; }
+  const x = v / E, c = chanceA(SIM, x);
+  el.innerHTML = `taux ${t3(x)} : ${c == null ? 'hors de la grille (0,80 à 1,20)' : `<b>${pct(c, 1)}</b> de chances`}`;
+}
+
+function rafraichirSimulation() {
+  simulerActuel();
+  const z = $('#zone-simulation');
+  if (z) { z.innerHTML = blocSimulationContenu(); lirePrix(); }
+}
+
+document.addEventListener('input', e => {
+  if (e.target.id === 'prix-dh') { PRIX_SAISI = e.target.value; lirePrix(); }
+});
+document.addEventListener('pointermove', e => {
+  const r = e.target.closest && e.target.closest('.capteur');
+  const svg = r && r.ownerSVGElement;
+  if (!svg || !SIM) return;
+  const b = svg.getBoundingClientRect(), W = +svg.dataset.w, g = +svg.dataset.g, L = +svg.dataset.l;
+  const xv = (e.clientX - b.left) / b.width * W, xs = SIM.grille;
+  const j = Math.max(0, Math.min(xs.length - 1, Math.round((xv - g) / L * (xs.length - 1))));
+  const gx = g + j / (xs.length - 1) * L, guide = svg.querySelector('.guide');
+  guide.setAttribute('x1', gx); guide.setAttribute('x2', gx); guide.setAttribute('visibility', 'visible');
+  const E = D.ao.estimation;
+  $('#lecture').innerHTML = `À <b>${t3(xs[j])}</b>${E ? ` (${dh(xs[j] * E)})` : ''} : <b>${pct(SIM.chance[j], 1)}</b> de chances de gagner.`;
+});
 
 // ================================================================ ce qui s'est réellement passé (AO rejoués)
 function blocVerite(v) {
@@ -644,6 +962,10 @@ function blocPrevuReel(pv) {
     <p>Nombre de concurrents : <b>${s.nb_concurrents}</b> — fourchette prévue ${s.fourchette[0]} à ${s.fourchette[1]} :
       ${s.dans_fourchette ? '<span class="oui">dedans ✓</span>' : '<span class="non">en dehors ✗</span>'} (le plus probable : ${s.probable}).</p>
     <p>Gagnant : <b>${esc(g ? g.nom : '—')}</b>${g ? ` — ${g.prevu ? `<span class="oui">prévu ✓</span>, rang ${g.rang}` : '<span class="non">non prévu ✗</span>'}${g.groupe ? `, groupe ${g.groupe}` : ', hors groupe'}` : ''}.</p>
+    ${s.prix_reference ? `<p>Prix de référence : <b>${t3(s.prix_reference.vrai)}</b> — intervalle 80 % figé ${t3(s.prix_reference.q10)} à ${t3(s.prix_reference.q90)} :
+      ${s.prix_reference.dans80 ? '<span class="oui">dedans ✓</span>' : '<span class="non">en dehors ✗</span>'} (médiane figée ${t3(s.prix_reference.mediane)}).</p>` : ''}
+    ${s.zone ? `<p>Notre offre au point recommandé figé (${t3(s.zone.x)}, chance annoncée ${pct(s.zone.chance_annoncee)}) parmi les vraies offres :
+      ${s.zone.gagnee ? '<span class="oui">elle aurait gagné ✓</span>' : '<span class="non">elle aurait perdu ✗</span>'}.</p>` : ''}
     ${groupes ? `<div><b>Groupes prévus</b><ul style="list-style:disc;padding-left:24px">${groupes}</ul></div>` : ''}
     <div class="defile"><table class="tableau"><thead><tr><th>Société venue</th><th>Prévue</th><th>Groupe</th><th>Statut</th><th class="num">Taux</th></tr></thead>
       <tbody>${lignes}</tbody></table></div>
@@ -665,8 +987,7 @@ function rendre(verite, prevu) {
   document.title = `Analyse ${REF}${a.lot ? ' lot ' + a.lot : ''} — Copilote`;
   $('#corps').innerHTML = [blocAo(), blocSimilaires(), blocProbables(),
     verite ? blocVerite(verite) : '', blocPrevuReel(prevu),
-    blocAvenir(4, 'Les taux de chaque société', 'le sous-historique et le taux probable de chaque société.'),
-    blocAvenir(5, 'La simulation de l’ouverture des plis', 'la chance de gagner selon notre prix.')].join('');
+    blocTaux(), blocSimulation()].join('');
 }
 
 function ligneDe(el) { const tr = el.closest('tr[data-cle]'); return tr && PAR_CLE[tr.dataset.cle]; }
@@ -681,6 +1002,19 @@ function redessinerLignes(cle) {
 }
 
 document.addEventListener('change', e => {
+  if (e.target.dataset.action === 'mu') {
+    const tr = e.target.closest('tr[data-taux]'), c = tr && PAR_CLE[tr.dataset.taux];
+    if (!c) return;
+    const v = parseFloat(String(e.target.value).replace(',', '.'));
+    if (!isFinite(v)) return;
+    const t = D.taux.societes[c.cle], x = Math.min(3, Math.max(0.3, v));
+    MODIFS[c.cle] = { ...(MODIFS[c.cle] || {}), mu: Math.abs(x - t.mu) < 0.0005 ? undefined : x };
+    if (vide(MODIFS[c.cle])) delete MODIFS[c.cle];
+    redessinerTaux(c.cle);
+    rafraichirCompte();
+    rafraichirSimulation();
+    return;
+  }
   const c = ligneDe(e.target);
   if (!c) return;
   if (e.target.dataset.action === 'garder') {
@@ -691,22 +1025,33 @@ document.addEventListener('change', e => {
     v = Math.min(100, Math.max(0, v)) / 100;
     MODIFS[c.cle] = { ...(MODIFS[c.cle] || {}), p: Math.abs(v - c.p) < 0.005 ? undefined : v };
   } else return;
-  const m = MODIFS[c.cle];
-  if (!m.retiree && m.p == null) delete MODIFS[c.cle];
+  if (vide(MODIFS[c.cle])) delete MODIFS[c.cle];
   redessinerLignes(c.cle);
+  redessinerTaux(c.cle);
   rafraichirCompte();
+  rafraichirSimulation();
 });
 document.addEventListener('click', e => {
   const b = e.target.closest('[data-action]');
   if (!b || b.tagName === 'INPUT') return;
   if (b.dataset.action === 'retablir') {
     const c = ligneDe(b);
-    if (c && MODIFS[c.cle]) { delete MODIFS[c.cle].p; if (!MODIFS[c.cle].retiree) delete MODIFS[c.cle]; redessinerLignes(c.cle); rafraichirCompte(); }
+    if (c && MODIFS[c.cle]) {
+      delete MODIFS[c.cle].p; if (vide(MODIFS[c.cle])) delete MODIFS[c.cle];
+      redessinerLignes(c.cle); redessinerTaux(c.cle); rafraichirCompte(); rafraichirSimulation();
+    }
+  } else if (b.dataset.action === 'retablir-mu') {
+    const tr = b.closest('tr[data-taux]'), c = tr && PAR_CLE[tr.dataset.taux];
+    if (c && MODIFS[c.cle]) {
+      delete MODIFS[c.cle].mu; if (vide(MODIFS[c.cle])) delete MODIFS[c.cle];
+      redessinerTaux(c.cle); rafraichirCompte(); rafraichirSimulation();
+    }
   } else if (b.dataset.action === 'tout-retablir') {
     const cles = Object.keys(MODIFS);
     cles.forEach(k => delete MODIFS[k]);
-    cles.forEach(redessinerLignes);
+    cles.forEach(k => { redessinerLignes(k); redessinerTaux(k); });
     rafraichirCompte();
+    rafraichirSimulation();
   }
 });
 
@@ -745,6 +1090,11 @@ async function demarrer() {
   let verite = null, prevu = null;
   if (EST_REJEU) { try { verite = await lire(`/api/copilote/rejeu/${encodeURIComponent(REF)}/verite${q}`); } catch (e) { verite = null; } }
   else { try { prevu = await lire(`/api/copilote/prevision/${encodeURIComponent(REF)}${q}`); } catch (e) { prevu = null; } }
+  VERITE = verite;
+  const t0 = performance.now();
+  SIM_ORIGINE = Simulateur.simuler(D.simulation.modele);
+  SIM_ORIGINE.ms0 = performance.now() - t0;
+  simulerActuel();
   rendre(verite, prevu);
   if (D.ao.lot && (D.ao.lots || []).length > 1) {
     // AO alloti : les autres lots en tête, lus dans le dossier lui-même (aucun appel sans lot).

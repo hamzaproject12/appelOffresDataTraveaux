@@ -232,6 +232,40 @@ def mesurer(calc: sqlite3.Connection, coefs: dict[str, dict] | None = None) -> d
                                     ouvrir_ao=ao_en_memoire(calc))
 
 
+def mesurer_simulation(calc: sqlite3.Connection) -> dict:
+    """Étape C sur les REJEU-R : prix de référence, calibration, zone recommandée contre taux fixes."""
+    from . import mesures_simulation
+    r = mesures_simulation.rejeux(prefixe=PREFIXE, exclure=None, ouvrir_ao=ao_en_memoire(calc))
+    r.pop("_lignes", None)
+    return r
+
+
+def _rapport_simulation(sim: dict) -> list[str]:
+    r = sim["resume"]
+    f = lambda v: _fmt(v, "pct")                                                    # noqa: E731
+    pts = lambda v: "—" if v is None else f"{100 * v:.2f} pt".replace(".", ",")   # noqa: E731
+    lignes = ["", "## Étape C — simulation de l'ouverture des plis", "",
+              f"{r.get('avec_reference', 0)} marchés ou lots avec un prix de référence, {r.get('attribues', 0)} attribués.", "",
+              "| critère | mesuré | seuil |", "|---|---:|---|",
+              f"| vrai prix de référence dans l'intervalle 80 % | {f(r.get('dans80'))} | 70 à 90 % |",
+              f"| écart moyen de la médiane au vrai prix de référence | {pts(r.get('mae'))} | "
+              f"< méthode de l'étape 4 : {pts(r.get('mae_etape4'))} |",
+              f"| écart médian | {pts(r.get('erreur_mediane'))} | étape 4 : {pts(r.get('erreur_mediane_etape4'))} |", "",
+              "Calibration de la chance annoncée :", "",
+              "| annoncée | n | moyenne annoncée | réelle | écart |", "|---|---:|---:|---:|---:|"]
+    for b in r.get("calibration", []):
+        ecart = f"{b['ecart_points']:+.1f} pt".replace(".", ",")
+        lignes.append(f"| {round(100 * b['de'])}–{round(100 * b['a'])} % | {b['n']} | {f(b['annoncee'])} | "
+                      f"{f(b['reelle'])} | {ecart} |")
+    lignes += ["", "Zone recommandée contre le meilleur taux fixe :", "",
+               "| offres | n | zone | meilleur taux fixe | ses victoires |", "|---|---:|---:|---:|---:|"]
+    for t, v in r.get("zone_contre_fixes", {}).items():
+        if v.get("n"):
+            lignes.append(f"| {t} | {v['n']} | {f(v['zone'])} | {str(v['meilleur_fixe']).replace('.', ',')} | "
+                          f"{f(v['victoires_meilleur_fixe'])} |")
+    return lignes
+
+
 def _fmt(v, genre: str) -> str:
     if v is None:
         return "—"
@@ -256,6 +290,10 @@ def rapport_md(res: dict, infos: dict) -> str:
                       f"{_fmt(v.get('A2', {}).get('resume', {}).get(cle), genre)} |")
     if res.get("erreurs"):
         lignes += ["", "Erreurs :"] + [f"- {e}" for e in res["erreurs"]]
+    if res.get("simulation"):
+        lignes += _rapport_simulation(res["simulation"])
+        if res["simulation"].get("erreurs"):
+            lignes += ["", "Erreurs (simulation) :"] + [f"- {e}" for e in res["simulation"]["erreurs"]]
     return "\n".join(lignes) + "\n"
 
 
@@ -314,6 +352,7 @@ def mesurer_et_ecrire(args, infos: dict, envoi=ra.poster) -> int:
                 print(f"envoi au site local impossible ({e}). La mesure continue ; pour les voir dans /ao-ouverts, lancer "
                       "le site puis `python -m copilote.rejeu_recent envoyer`.")
         res = mesurer(calc)
+        res["simulation"] = mesurer_simulation(calc)
     ecrire(res, infos)
     for nom, v in res["versions"].items():
         r = v["resume"]

@@ -258,7 +258,8 @@ class GroupesAo(unittest.TestCase):
 
 class Separation(unittest.TestCase):
     def test_le_moteur_n_importe_pas_la_verite(self):
-        permis = {"verite_rejeu.py", "rejouer_ao.py", "routes.py", "mesures_probables.py"}
+        permis = {"verite_rejeu.py", "rejouer_ao.py", "routes.py", "mesures_probables.py",
+                  "mesures_simulation.py"}             # étape C : les mesures lisent la vérité, le moteur jamais
         for chemin in sorted((ICI / "copilote").glob("*.py")):
             if chemin.name in permis:
                 continue

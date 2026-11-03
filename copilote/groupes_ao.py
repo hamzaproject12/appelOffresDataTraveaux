@@ -6,6 +6,8 @@ les règles de la page des groupes : noyau, accompagnatrice, concurrent direct) 
 unités d'avant la coupure de l'AO, totaux compris. Ses alliées sont les noyaux et accompagnatrices de son
 groupe de 9 au plus, retenues si elles sont dans la liste des probables, ou si elles sont « noyau » ou
 accompagnatrice avec C ≥ 60 % (ajoutées alors « probables par association », p = B × p(société)).
+Les ajouts par association sont désactivés depuis le 03/11/2026 (reglages.json, probables.association = false) :
+seules les alliées de la liste comptent alors, dans les groupes comme dans le nombre de concurrents.
 
 Version A2 — groupes EN ÉTOILE (`former`) : un groupe = un chef de file + ses alliées directes, sans
 chaînage (A→B→C ne met plus C avec A).
@@ -110,7 +112,8 @@ def former_union(mem: Memoire, n: int, tous: list[dict], r: dict) -> dict:
             l = lignes[y]
             if y in liste:
                 aretes.append((x["cle"], y, l))
-            elif l["lecture"] == "noyau" or (l["C"] is not None and l["C"] >= r["c_association"]):
+            elif r.get("association", True) and (
+                    l["lecture"] == "noyau" or (l["C"] is not None and l["C"] >= r["c_association"])):
                 p = (l["B"] or 0.0) * x["p"]
                 if y not in association or p > association[y][0]:
                     association[y] = (p, x["cle"], l)
@@ -252,7 +255,8 @@ def former(mem: Memoire, n: int, tous: list[dict], r: dict) -> dict:
         retenues = []
         for y in res["groupe"][1:]:
             l = lignes[y]
-            if y in liste or l["lecture"] == "noyau" or (l["C"] is not None and l["C"] >= r["c_association"]):
+            if y in liste or (r.get("association", True) and (
+                    l["lecture"] == "noyau" or (l["C"] is not None and l["C"] >= r["c_association"]))):
                 retenues.append((y, l))
         alliees[x["cle"]] = retenues
 

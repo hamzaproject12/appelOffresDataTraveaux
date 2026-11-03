@@ -64,7 +64,21 @@ def copie(dossier: dict) -> dict:
                                                  "dispersion", "decalage", "distribution")},
         "groupes": [{"numero": g["numero"], "chef": g["chef"], "membres": g["membres"],
                      "aussi": [a["cle"] for a in g.get("aussi", [])]} for g in dossier["groupes"]],
+        **({"simulation": simulation_figee(dossier["simulation"]["modele"])} if dossier.get("simulation") else {}),
     }
+
+
+def simulation_figee(modele: dict) -> dict:
+    """Étape C : la courbe de chance de gagner, la zone recommandée et le prix de référence simulé, calculés par
+    copilote/simulateur.py sur le modèle du dossier (même graine que la page : même résultat)."""
+    from . import simulateur
+    s = simulateur.simuler(modele, central=False)
+    r4 = lambda v: None if v is None else round(v, 5)       # noqa: E731
+    return {"graine": s["graine"], "scenarios": s["scenarios"], "grille": modele.get("grille"),
+            "estimation": modele.get("estimation"), "chance": [round(c, 5) for c in s["chance"]],
+            "zone": None if not s["zone"] else {k: (r4(v) if isinstance(v, float) else v) for k, v in s["zone"].items()},
+            "prix_reference": {k: r4(s["prix_reference"][k]) for k in ("n", "mediane", "q10", "q90", "q25", "q75")},
+            "chefs": s["chefs"], "offres_moyennes": r4(s["offres_moyennes"])}
 
 
 def figer(ret, dossier: dict, maintenant: datetime | None = None) -> str:
@@ -122,7 +136,8 @@ def reel(mem: probables.Memoire, ref_annonce: str, lot: str | None) -> dict | No
                 offres.append({"cle": c["cle"], "nom": c["nom"], "statut": c["statut"], "taux": c.get("taux")})
         gagnant = next((o for o in offres if o["cle"] == u.cle_gagnant), None)
         return {"ref_pv": u.ref, "lot": u.lot, "date": u.date, "nb_concurrents": len(offres),
-                "concurrents": offres, "gagnant": gagnant}
+                "concurrents": offres, "gagnant": gagnant, "prix_reference_taux": mem.taux_reference(u),
+                "_indice": i}
     return None
 
 
@@ -136,6 +151,16 @@ def choisir_copie(copies: list[dict], r: dict | None) -> dict | None:
         if avant:
             return avant[-1]
     return copies[0]
+
+
+def zone_reelle(u, sim: dict | None) -> dict | None:
+    """Notre offre au point recommandé de la copie figée, insérée parmi les vraies offres du PV."""
+    from .donnees import CLE_FICTIVE, rejouer_attribution
+    if not sim or not sim.get("zone") or not u.estimation or not u.cle_gagnant:
+        return None
+    x = sim["zone"]["x"]
+    return {"x": x, "chance_annoncee": sim["zone"]["chance"],
+            "gagnee": rejouer_attribution(u, x).cle_gagnant == CLE_FICTIVE}
 
 
 def comparer(prev: dict, r: dict) -> dict:
@@ -165,7 +190,17 @@ def comparer(prev: dict, r: dict) -> dict:
                                        "groupe": groupe_de.get(g["cle"])},
         "groupes": [{"numero": gr["numero"], "chef": gr["chef"], "membres": len(gr["membres"]),
                      "venus": [m for m in gr["membres"] if m in venues]} for gr in prev["groupes"]],
+        "prix_reference": _prix_compare(prev.get("simulation"), r.get("prix_reference_taux")),
+        "zone": r.get("zone"),
     }
+
+
+def _prix_compare(sim: dict | None, vrai: float | None) -> dict | None:
+    if not sim or vrai is None or sim["prix_reference"]["mediane"] is None:
+        return None
+    p = sim["prix_reference"]
+    return {"vrai": vrai, "mediane": p["mediane"], "q10": p["q10"], "q90": p["q90"],
+            "dans80": p["q10"] <= vrai <= p["q90"], "ecart": vrai - p["mediane"]}
 
 
 def etat(ret, mem: probables.Memoire, ref_annonce: str, lot: str | None) -> dict | None:
@@ -175,6 +210,8 @@ def etat(ret, mem: probables.Memoire, ref_annonce: str, lot: str | None) -> dict
         return None
     r = reel(mem, ref_annonce, lot)
     choisie = choisir_copie(copies, r)
+    if r is not None:
+        r["zone"] = zone_reelle(mem.unites[r.pop("_indice")], choisie["prevision"].get("simulation"))
     return {"ref_annonce": ref_annonce, "lot": lot,
             "copies": [{"jour": c["jour"], "cree_le": c["cree_le"], "version": c["version"],
                         "empreinte": c["empreinte"]} for c in copies],

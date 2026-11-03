@@ -29,5 +29,10 @@
     "taille_max_famille": 12,
     "partenaires": 30,
     "poids": {"force": 20, "volume": 15, "hasard": 30, "contextes": 15, "hors_profil": 5, "gains": 0}
+  },
+  "probables": {
+    "_aide": "Sociétés probables d'un AO (copilote/probables.py). association : ajouter les alliées hors liste « probables par association » (désactivé le 03/11/2026, code conservé). seuil_groupe_affiche : la page montre d'abord les groupes dont le chef de file a au moins cette probabilité de venir ; les autres sont repliés. La simulation garde tous les groupes.",
+    "association": false,
+    "seuil_groupe_affiche": 0.15
   }
 }

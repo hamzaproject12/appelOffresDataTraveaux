@@ -110,6 +110,11 @@ de donner un avis.
 ## Avancement
 - [x] 1 Socle   - [x] 2 Groupes (calcul)   - [x] 3 Page groupes   - [x] 4 Similarité
 - [x] 3 bis AO rejoués
+- [x] A Sociétés probables   - [x] A2 Habituées, nombre de concurrents, groupes en étoile (validée le 03/11/2026)
+  Seuils FEU VERT de l'étape A (décision du 03/11/2026) : top 15 ≥ 30 % ; vrai gagnant dans le top 30 ≥ 40 % ;
+  fourchette 80 % du nombre de concurrents entre 70 et 90 % (500 marchés de 2026). E.G.R : groupes en étoile
+  gardés, sans chaînage.
+- [ ] C Taux de chaque société + simulation de l'ouverture des plis
 - [ ] 5 Concurrents + taux   - [ ] 6 Simulateur   - [ ] 7 Page d'analyse   - [ ] 8 Décision
 - [ ] 9 Finitions et déploiement
 (Cocher ici à la fin de chaque étape validée.)

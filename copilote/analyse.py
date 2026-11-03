@@ -13,7 +13,7 @@ from __future__ import annotations
 import sqlite3
 from datetime import date
 
-from . import api_similaires, probables, rejeu
+from . import api_similaires, probables, rejeu, simulateur, taux
 
 TOP_SIMILAIRES = 20
 
@@ -90,7 +90,9 @@ def analyser(ref_annonce: str, lot: str | None, *, ouvrir_historique, chemin_his
     a = probables.analyser(mem, ctx, coefficients)
     conc = a["concurrents"]
     hist_c = conc["historique"]
-    return {
+    tx = taux.calculer(mem, ctx, a["candidats"], a["groupes"], moteur=interne["moteur"],
+                       composantes=interne["composantes"], poids=sim["poids"])
+    dossier = {
         "ao": {**sim["ao"], "coupure": interne["coupure"], "lots": interne["lots"],
                "date_limite": interne["date_limite"], "reference": interne["reference"]},
         "acheteur": sim["acheteur"], "index": sim["index"], "filtre": sim["filtre"], "poids": sim["poids"],
@@ -115,4 +117,33 @@ def analyser(ref_annonce: str, lot: str | None, *, ouvrir_historique, chemin_his
                         "distribution": [_r(v, 6) for v in conc["distribution"]]},
         "groupes": [_groupe(g) for g in a["groupes"]],
         "individuelles": a["individuelles"],
+        "taux": rendre_taux(tx),
+    }
+    dossier["simulation"] = {"modele": simulateur.modele(dossier),
+                             "aide": "statique/simulateur.js et copilote/simulateur.py, même graine = même résultat"}
+    return dossier
+
+
+def _rr(d: dict, n: int = 5) -> dict:
+    return {k: (_r(v, n) if isinstance(v, float) else v) for k, v in d.items()}
+
+
+def rendre_taux(tx: dict) -> dict:
+    """Les profils de taux.calculer, arrondis pour le JSON (le modèle du simulateur est construit sur ces
+    valeurs arrondies : la page et la prévision figée partent exactement du même modèle)."""
+    seg = tx["segment"]
+    return {
+        "societes": {k: {**_rr({x: y for x, y in p.items() if x != "sous_historique"}),
+                         **({"sous_historique": p["sous_historique"]} if "sous_historique" in p else {})}
+                     for k, p in tx["societes"].items()},
+        "segment": {**_rr({k: v for k, v in seg.items() if k != "quantiles"}),
+                    "quantiles": [_r(q, 5) for q in seg["quantiles"]]},
+        "effet_marche": _rr(tx["effet_marche"]),
+        "groupes": [{**_rr({k: v for k, v in g.items() if k != "membres"}),
+                     "membres": [{"cle": m["cle"], "chef_present": _rr(m["chef_present"]),
+                                  "chef_absent": _rr(m["chef_absent"]), "ecart": _rr(m["ecart"]),
+                                  "ecart_victoires": _rr(m["ecart_victoires"]),
+                                  "presence_victoires": _rr(m["presence_victoires"])} for m in g["membres"]]}
+                    for g in tx["groupes"]],
+        "reglages": tx["reglages"],
     }

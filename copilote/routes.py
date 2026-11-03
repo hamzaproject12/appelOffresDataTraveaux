@@ -433,6 +433,11 @@ def creer_routeur(secret: bytes, base: Path | str, ao_base: Path | str,
     def script_analyse(request: Request):
         return page_statique(request, "analyse_calcul.js")
 
+    @protege.get("/copilote/simulateur.js")
+    def script_simulateur(request: Request):
+        """Le simulateur de l'ouverture des plis (étape C), copie de copilote/simulateur.py."""
+        return page_statique(request, "simulateur.js")
+
     analyses_en_memoire: "OrderedDict[tuple, bytes]" = OrderedDict()
 
     @protege.get("/api/copilote/analyse/{ref_annonce}")

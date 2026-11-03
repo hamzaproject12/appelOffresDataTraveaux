@@ -229,6 +229,30 @@ class GroupesEnEtoile(unittest.TestCase):
         self.assertAlmostEqual(g["ajoutees"][0]["p"], 0.3)
         self.assertEqual(g["individuelles"], ["solo"])
 
+    def test_sans_association_l_alliee_hors_liste_n_entre_nulle_part(self):
+        """reglages.json (03/11/2026) : association = false. L'alliée hors liste n'est ni ajoutée ni dans un
+        groupe ; le chef sans autre alliée redevient individuelle. Même chose en version A."""
+        self.assertIs(probables.reglages_fichier()["association"], False)
+        self.r["association"] = False
+        autour = {"a": [ligne("z", lecture="noyau", B=0.6, C=0.2), ligne("b")]}
+        for union in (False, True):
+            tous = [self.cand("a", 0.5, 2, 10), self.cand("b", 0.2), self.cand("solo", 0.3)]
+            g = self.former(autour, tous, union=union)
+            self.assertEqual(g["ajoutees"], [])
+            self.assertEqual([sorted(x["membres"]) for x in g["groupes"]], [["a", "b"]])
+            self.assertFalse(any(c["association"] for c in tous))
+        tous = [self.cand("a", 0.5, 2, 10), self.cand("solo", 0.3)]
+        g = self.former({"a": [ligne("z", lecture="noyau", B=0.6, C=0.2)]}, tous)
+        self.assertEqual((g["groupes"], g["ajoutees"]), ([], []))
+        self.assertEqual(sorted(g["individuelles"]), ["a", "solo"])
+
+    def test_reglages_du_fichier_passent_avant_les_defauts(self):
+        mem, ctx = memoire_acheteur()
+        base = {**probables.DEFAUT, "coefficients": dict(probables.DEFAUT["coefficients"])}
+        r = probables.analyser(mem, ctx, base)["reglages"]
+        self.assertIs(r["association"], False)
+        self.assertEqual(r["seuil_groupe_affiche"], 0.15)
+
 
 # --------------------------------------------------------------------------- 4. prévisions figées, page, lots
 
@@ -430,6 +454,21 @@ class RejeuRecent(unittest.TestCase):
                                            "allotis": 1, "maj": {"avant": {"avec_pv": 0}, "apres": {"avec_pv": 40}}})
         self.assertIn("| vrai gagnant dans le top 30 | 50,0 % | 50,0 % |", md)
         self.assertIn("40 nouveaux", md)
+
+    def test_rapport_avec_la_simulation(self):
+        res = {"versions": {"A2": {"resume": {"n": 3}}}, "erreurs": [],
+               "simulation": {"resume": {"avec_reference": 3, "attribues": 2, "dans80": 0.8, "mae": 0.02,
+                                         "mae_etape4": 0.025, "erreur_mediane": 0.015, "erreur_mediane_etape4": 0.02,
+                                         "calibration": [{"de": 0.2, "a": 0.3, "n": 5, "annoncee": 0.25, "reelle": 0.2,
+                                                          "ecart_points": 5.0}],
+                                         "zone_contre_fixes": {"1-2": {"n": 2, "zone": 0.5, "meilleur_fixe": 0.95,
+                                                                       "victoires_meilleur_fixe": 0.5}}},
+                              "erreurs": []}}
+        md = rejeu_recent.rapport_md(res, {"depuis": "2026-10-01", "coefficients": {}, "choisis": 3, "allotis": 0})
+        self.assertIn("## Étape C", md)
+        self.assertIn("| vrai prix de référence dans l'intervalle 80 % | 80,0 % | 70 à 90 % |", md)
+        self.assertIn("| 1-2 | 2 | 50,0 % | 0,95 | 50,0 % |", md)
+        self.assertIn("| 20–30 % | 5 | 25,0 % | 20,0 % | +5,0 pt |", md)
 
 
 def _ro(chemin):
