@@ -259,6 +259,34 @@
   .verite .tableau th { background: transparent; }
   .oui { color: var(--vert); font-weight: 700; }
   .non { color: var(--rouge); font-weight: 700; }
+
+  /* ================================================================ ⑥ la décision */
+  .grille-champs { display: grid; grid-template-columns: repeat(auto-fit, minmax(230px, 1fr)); gap: var(--e3) var(--e5); align-items: end; margin-bottom: var(--e3); }
+  .grille-champs label { display: grid; gap: 4px; font-size: var(--t-s); color: var(--texte-2); font-weight: 600; min-width: 0; }
+  .p-champ.large { width: 100%; height: 40px; text-align: left; }
+  select.p-champ { padding-right: var(--e2); }
+  .btn--plein { background: var(--accent); color: var(--sur-accent); border-color: var(--accent); font-weight: 600; }
+  .btn--plein:hover { background: var(--accent-survol); }
+  .verdict { display: grid; grid-template-columns: auto minmax(0, 1fr); gap: var(--e4) var(--e5); align-items: start; padding: var(--e4); border-radius: var(--r-m);
+    border: 1px solid var(--bord-fort); margin: var(--e4) 0 var(--e2); }
+  .dec--go { background: var(--vert-doux); border-color: var(--vert-bord); }
+  .dec--etude { background: var(--orange-doux); border-color: var(--orange-bord); }
+  .dec--nogo { background: var(--rouge-doux); border-color: var(--rouge); }
+  .verdict__badge { display: flex; align-items: center; gap: 10px; font-size: var(--t-2xl); font-weight: 750; letter-spacing: -.01em; white-space: nowrap; }
+  .dec--go .verdict__badge { color: var(--vert); } .dec--etude .verdict__badge { color: var(--orange); } .dec--nogo .verdict__badge { color: var(--rouge); }
+  .verdict__ic { width: 36px; height: 36px; border-radius: 50%; border: 3px solid currentColor; display: grid; place-items: center; font-size: 1.2rem; }
+  .raisons { display: grid; gap: 6px; margin-top: var(--e2); }
+  .raison { position: relative; padding-left: 24px; max-width: 90ch; }
+  .raison::before { content: '•'; position: absolute; left: 7px; color: var(--doux); }
+  .raison--ok::before { content: '✓'; left: 3px; color: var(--vert); font-weight: 700; }
+  .raison--attention::before { content: '!'; left: 6px; color: var(--orange); font-weight: 800; }
+  .raison--bloquant::before { content: '✗'; left: 3px; color: var(--rouge); font-weight: 800; }
+  @media (max-width: 639px) { .verdict { grid-template-columns: minmax(0, 1fr); } }
+  .reco { margin: var(--e3) 0; display: grid; gap: var(--e1); }
+  .ligne-reco td { background: var(--vert-doux); }
+  .liste-simple { list-style: disc; padding-left: var(--e5); color: var(--texte-2); margin: var(--e2) 0; }
+  .soumis, .soumission-form { margin-top: var(--e4); }
+  .soumis { padding: var(--e3) var(--e4); border-radius: var(--r-m); background: var(--accent-doux); display: flex; flex-wrap: wrap; gap: var(--e2) var(--e3); align-items: center; }
 </style>
 </head>
 <body>
@@ -298,6 +326,7 @@
 
 <script src="/copilote/analyse_calcul.js"></script>
 <script src="/copilote/simulateur.js"></script>
+<script src="/copilote/decision.js"></script>
 <script>
 'use strict';
 const $ = (s, r = document) => r.querySelector(s);
@@ -851,7 +880,7 @@ function blocSimulationContenu() {
         (décret 2-22-431) ; la zone ne descend jamais sous ${t3(D.simulation.modele.plancher || Simulateur.PLANCHER)}.</p>` : ''}
       ${zo && z && (zo.x !== z.x || zo.de !== z.de || zo.a !== z.a) ? `<p class="compte__origine">Calcul d’origine : <s>zone ${t3(zo.de)} à ${t3(zo.a)}, meilleure chance ${pct(zo.chance, 1)} à ${t3(zo.x)}</s>
         — modifié par vos changements.</p>` : ''}
-      <p class="doux petit">La zone vise la meilleure chance de gagner ; le coût et la marge viendront à l’étape 8. Survolez la courbe pour lire
+      <p class="doux petit">La zone vise la meilleure chance de gagner ; le coût, la marge et le gain espéré sont pris en compte à l’étape ⑥ (décision). Survolez la courbe pour lire
         la chance et le montant en dirhams de chaque point, ou saisissez votre prix.</p>
     </div>
     ${courbe(s, so)}
@@ -920,6 +949,7 @@ function rafraichirSimulation() {
   simulerActuel();
   const z = $('#zone-simulation');
   if (z) { z.innerHTML = blocSimulationContenu(); lirePrix(); }
+  rafraichirDecision();
 }
 
 document.addEventListener('input', e => {
@@ -1005,6 +1035,331 @@ function blocPrevuReel(pv) {
   </div></details>`;
 }
 
+// ================================================================ ⑥ la décision
+// Le calcul est dans /copilote/decision.js (copie de copilote/decision.py) ; ici, la saisie, l'affichage et l'enregistrement.
+let DEC = null;                                    // ce que le serveur ajoute : profil, qualifications de l'AO, acheteur, plan, délai, seuils
+const DS = { cout: '', marge: '', scenario: 'seul', partenaire: null, formulaire: false, prix: '', commentaire: '', message: '' };
+
+const lireDh = s => { const v = parseFloat(String(s ?? '').replace(/\s/g, '').replace(',', '.')); return isFinite(v) && v > 0 ? v : null; };
+const lirePctDec = s => { const t = String(s ?? '').trim().replace(/\s/g, '').replace(',', '.'); if (t === '') return null; const v = parseFloat(t); return isFinite(v) && v >= 0 ? v / 100 : null; };
+const decLib = { GO: 'GO', A_ETUDIER: 'À ÉTUDIER', NO_GO: 'NO-GO' };
+const decClasse = { GO: 'dec--go', A_ETUDIER: 'dec--etude', NO_GO: 'dec--nogo' };
+const decIcone = { GO: '✓', A_ETUDIER: '?', NO_GO: '✗' };
+const scenarioLib = { seul: 'Seul', groupement: 'Groupement déclaré', sous_traitance: 'Sous-traitance' };
+
+function partenairesDuScenario() {
+  const ps = (DEC.profil && DEC.profil.partenaires) || [];
+  if (DS.scenario === 'groupement') return ps.filter(p => p.type === 'groupement');
+  if (DS.scenario === 'sous_traitance') return ps.filter(p => p.type === 'sous_traitant' || p.type === 'fournisseur');
+  return [];
+}
+const partenaireChoisi = () => DS.scenario === 'seul' ? null : (partenairesDuScenario().find(p => p.id === DS.partenaire) || null);
+
+// Tout ce qui se calcule à partir de l'état de la page ; recalculé à chaque modification (société décochée, taux changé, coût saisi…).
+function etatDecision() {
+  const E = D.ao.estimation, reg = DEC.reglages, profil = DEC.profil;
+  if (!E) return { erreur: 'Cet AO n’a pas d’estimation : le prix ne peut pas se situer par rapport à l’estimation.' };
+  const saisi = lireDh(DS.cout), defaut = DEC.cout_defaut;
+  let coutBase, origineCout;
+  if (saisi != null) { coutBase = saisi; origineCout = 'saisi'; }
+  else if (defaut) { coutBase = defaut.taux * E; origineCout = defaut.origine; }
+  else return { sansCout: true };
+  const margeSaisie = lirePctDec(DS.marge);
+  const margeMin = margeSaisie != null ? margeSaisie : (profil.marge_min != null ? profil.marge_min : 0);
+  const p = partenaireChoisi();
+  const cout = Decision.coutDuScenario(coutBase, E, p);
+  const exig = Decision.exigencesDe(DEC.lignes_ao);
+  const quals = Object.fromEntries(profil.qualifs.map(q => [q.code, q.classe]));
+  const groupement = p && p.type === 'groupement' ? [p] : [];
+  const elig = Decision.verifier(exig, quals, groupement);
+  const apports = Decision.apports(exig, quals, profil.partenaires);
+  const ev = Decision.evaluer(SIM.grille, SIM.chance, E, cout, margeMin, reg, SIM.nombre_prevu);
+  const signaux = signauxPage();
+  const dec = Decision.decider(ev, elig, signaux, reg);
+  return { E, coutBase, origineCout, margeMin, margeOrigine: profil.marge_min, p, cout, exig, elig, apports, ev, signaux, dec, quals };
+}
+function signauxPage() {
+  const reg = DEC.reglages, prevu = SIM.nombre_prevu, conc = D.concurrents;
+  const s = { prevu: prevu, jours: DEC.jours };
+  if (prevu) s.identifies_part = Math.max(0, Math.min(1, 1 - (conc.lambda || 0) / prevu));
+  s.acheteur_n = DEC.acheteur.n;
+  s.infructueux = DEC.acheteur.infructueux;
+  if (DEC.plan.max != null) { s.plan_max = DEC.plan.max; s.en_cours = DEC.plan.en_cours; }
+  s.groupes_forts = [];
+  D.groupes.forEach(g => {
+    const c = PAR_CLE[g.chef];
+    if (!c || retiree(c)) return;
+    const membres = g.membres.filter(m => PAR_CLE[m] && !retiree(PAR_CLE[m]));
+    if (pDe(c) >= reg.groupe_fort.p_chef && membres.length >= reg.groupe_fort.membres_min) s.groupes_forts.push({ numero: g.numero, nom: c.nom, p: pDe(c) });
+  });
+  return s;
+}
+
+// ------------------------------------------------------------------ affichage
+function blocEligibilite(e) {
+  const etats = { ok: '<span class="oui">✓ remplie</span>', classe: '<span class="non">✗ classe insuffisante</span>', absent: '<span class="non">✗ absente</span>',
+    inconnu: '<span class="avertissement-texte">? non reconnue</span>', alternative: '<span class="avertissement-texte">? alternative « ou »</span>' };
+  const lignes = e.elig.lignes.map(l => `<tr><td data-l="Exigée">${l.code ? `<span class="nom">${esc(l.code)}</span> classe ${esc(l.classe ?? '?')}` : `<span class="doux">${esc((l.brut || 'sans libellé').trim())}</span>`}</td>
+    <td data-l="Nous">${l.nous ? 'classe ' + esc(l.nous) : '—'}</td>
+    <td data-l="État">${l.couvert_par ? `<span class="oui">✓ couverte par ${esc(l.couvert_par)} (groupement)</span>` : etats[l.etat]}</td></tr>`).join('');
+  const apporteurs = e.apports.map(a => `<li>${esc(a.code)} classe ${esc(a.classe)} : ${a.partenaires.length ? 'un groupement avec ' + a.partenaires.map(esc).join(' ou ') + ' la couvrirait' : 'aucun partenaire déclaré ne la couvre'}.</li>`).join('');
+  const statut = { eligible: ['puce--ok', 'Éligible'], a_etudier: ['puce--attention', 'À vérifier'], non_eligible: ['puce--ko', 'Non éligible'] }[e.elig.statut];
+  const reg = D.ao.region, fam = D.ao.famille && D.ao.famille.code;
+  const nosRegions = DEC.profil.regions.map(r => r.region), nosFamilles = DEC.profil.familles.map(f => f.famille);
+  const rappel = [];
+  if (reg && nosRegions.length) rappel.push(`Région de l’AO : ${esc(reg)} — ${nosRegions.includes(reg) ? '<span class="oui">dans nos régions</span>' : '<span class="avertissement-texte">hors de nos régions déclarées</span>'}`);
+  if (fam && nosFamilles.length) rappel.push(`Famille : ${esc(D.ao.famille.libelle)} — ${nosFamilles.includes(fam) ? '<span class="oui">dans nos familles</span>' : '<span class="avertissement-texte">hors de nos familles déclarées</span>'}`);
+  return `<h3 class="sous">Éligibilité <span class="puce ${statut[0]}">${statut[1]}</span></h3>
+    ${e.exig.length ? `<div class="defile"><table class="tableau"><thead><tr><th>Exigée par l’AO</th><th>Nous</th><th>État</th></tr></thead><tbody>${lignes}</tbody></table></div>`
+      : '<p class="doux">L’annonce ne donne aucune qualification : rien à vérifier.</p>'}
+    ${e.exig.length > 1 ? '<p class="doux petit">Toutes les qualifications listées sont considérées comme exigées, sauf si l’annonce propose une alternative (« ou »).</p>' : ''}
+    ${apporteurs ? `<ul class="liste-simple">${apporteurs}</ul>` : ''}
+    ${!DEC.profil.qualifs.length ? '<p class="avertissement">Aucune qualification n’est saisie pour notre entreprise : <a href="/copilote/entreprise">la renseigner</a>.</p>' : ''}
+    ${rappel.length ? `<p class="doux petit">${rappel.join(' · ')}</p>` : ''}`;
+}
+
+function courbeDecision(e) {
+  const xs = SIM.grille, n = xs.length, ch = SIM.chance, E = e.E, c = e.ev.cout;
+  const gains = xs.map((x, j) => (x - c) * ch[j] * E);
+  const etroit = innerWidth < 600, W = etroit ? 360 : 640, H = etroit ? 250 : 270, g = 40, d = etroit ? 44 : 64, h = 14, b = 46;
+  const ymax = [0.1, 0.2, 0.4, 0.6, 0.8, 1].find(v => v >= Math.max(...ch) - 1e-9) || 1;
+  const gmax = Math.max(...gains, 1);
+  const X = v => g + (v - xs[0]) / (xs[n - 1] - xs[0]) * (W - g - d), Yc = v => h + (1 - v / ymax) * (H - h - b), Yg = v => h + (1 - Math.max(0, v) / gmax) * (H - h - b);
+  const chemin = (arr, Y) => arr.map((v, j) => `${j ? 'L' : 'M'}${X(xs[j]).toFixed(1)},${Y(v).toFixed(1)}`).join('');
+  const reg = DEC.reglages, al = reg.plage.alerte;
+  let o = '';
+  const haut = H - h - b;
+  // hors plage : grisé (sous le plancher ou la marge minimale, au-dessus du plafond)
+  if (e.ev.xmin > xs[0]) o += `<rect x="${X(xs[0]).toFixed(1)}" y="${h}" width="${(X(Math.min(e.ev.xmin, xs[n - 1])) - X(xs[0])).toFixed(1)}" height="${haut}" fill="var(--surface-3)" opacity=".8"><title>Hors plage : sous max(${t3(reg.plage.plancher)} ; coût × (1 + marge minimale)) = ${t3(e.ev.xmin)}</title></rect>`;
+  if (e.ev.xmin < al) o += `<rect x="${X(Math.max(e.ev.xmin, xs[0])).toFixed(1)}" y="${h}" width="${(X(al) - X(Math.max(e.ev.xmin, xs[0]))).toFixed(1)}" height="${haut}" fill="var(--orange-doux)"><title>Sous ${t3(al)} : ${AVERTISSEMENT_BAS}</title></rect>`;
+  if (e.ev.zone) o += `<rect x="${X(e.ev.zone.de).toFixed(1)}" y="${h}" width="${Math.max(2, X(e.ev.zone.a) - X(e.ev.zone.de)).toFixed(1)}" height="${haut}" fill="var(--vert-doux)" stroke="var(--vert-bord)"><title>Zone recommandée ${t3(e.ev.zone.de)} à ${t3(e.ev.zone.a)}</title></rect>`;
+  for (let k = 0; k <= 4; k++) {
+    const v = ymax * k / 4, y = Yc(v);
+    o += `<line x1="${g}" x2="${W - d}" y1="${y.toFixed(1)}" y2="${y.toFixed(1)}" stroke="var(--bord)"/><text x="${g - 6}" y="${(y + 4).toFixed(1)}" text-anchor="end">${nfEntier.format(v * 100)} %</text>`;
+    o += `<text x="${W - d + 6}" y="${(Yg(gmax * k / 4) + 4).toFixed(1)}" text-anchor="start" class="dh">${nfEntier.format(gmax * k / 4 / 1000)} k</text>`;
+  }
+  for (const x of [0.8, 0.85, 0.9, 0.95, 1.0, 1.05, 1.1, 1.15, 1.2]) o += `<text x="${X(x).toFixed(1)}" y="${H - b + 16}" text-anchor="middle">${nf2.format(x)}</text>`;
+  o += `<text x="${(g + (W - g - d) / 2).toFixed(1)}" y="${H - 8}" text-anchor="middle">notre prix en part de l’estimation (${dh(E)})</text>`;
+  o += `<path d="${chemin(gains, Yg)}" fill="none" stroke="var(--vert)" stroke-width="2.2" stroke-linejoin="round"/>`;
+  o += `<path d="${chemin(ch, Yc)}" fill="none" stroke="var(--accent)" stroke-width="2.2" stroke-linejoin="round" stroke-dasharray="5 3"/>`;
+  const r = e.ev.reco, bc = e.ev.meilleure_chance;
+  if (r) o += `<line x1="${X(r.x).toFixed(1)}" x2="${X(r.x).toFixed(1)}" y1="${h}" y2="${H - b}" stroke="var(--vert)" stroke-width="1.5"/><circle cx="${X(r.x).toFixed(1)}" cy="${Yg(r.gain_dh).toFixed(1)}" r="5" fill="var(--vert)"/>`;
+  o += `<circle cx="${X(bc.x).toFixed(1)}" cy="${Yc(bc.chance).toFixed(1)}" r="4.5" fill="var(--surface)" stroke="var(--accent)" stroke-width="2"/>`;
+  o += `<line class="guide-dec" x1="0" x2="0" y1="${h}" y2="${H - b}" stroke="var(--texte)" stroke-width="1" visibility="hidden"/>`;
+  o += `<rect class="capteur-dec" x="${g}" y="${h}" width="${W - g - d}" height="${haut}" fill="transparent"/>`;
+  return `<svg class="courbe" viewBox="0 0 ${W} ${H}" data-w="${W}" data-g="${g}" data-l="${W - g - d}" role="img" aria-label="Chance de gagner et gain espéré selon notre prix">${o}</svg>
+    <div class="legende petit"><span><i class="tr tr--accent" style="background:none;border-top:3px dashed var(--accent);height:0"></i>chance de gagner (échelle de gauche)</span>
+      <span><i class="tr" style="background:var(--vert)"></i>gain espéré en milliers de DH (échelle de droite)</span>
+      <span><i class="tr tr--zone"></i>zone recommandée</span><span><i class="tr tr--bas"></i>proche du seuil d’offre anormalement basse</span><span>● prix recommandé · ○ meilleure chance</span></div>
+    <p class="lecture" id="lecture-decision">&nbsp;</p>`;
+}
+
+function tableauChoix(e) {
+  const E = e.E;
+  const lignes = e.ev.tableau.map(t => {
+    const recommande = t.cle === 'reco', fixe = t.cle === 'fixe';
+    const notes = [];
+    if (t.alerte) notes.push(`<span class="avertissement-texte">⚠ ${AVERTISSEMENT_BAS}</span>`);
+    if (t.sous_marge && !t.hors_plage) notes.push('<span class="avertissement-texte">sous la marge minimale</span>');
+    if (t.hors_plage) notes.push('<span class="doux">hors plage</span>');
+    return `<tr class="${recommande ? 'ligne-reco' : ''}"><td data-l="Prix">${recommande ? '<b>Point recommandé</b>' : ''}${fixe ? `<b>Règle simple apprise sur ${esc(t.appris_sur)}</b><div class="doux petit">taux fixe de la tranche « ${esc(t.libelle)} », ${t.marches_appris} marchés</div>` : ''} <span class="mono">${t3(t.x)}</span><div class="doux petit">${dh(t.x * E)}</div></td>
+      <td data-l="Chance" class="num">${pct(t.chance, 1)}</td>
+      <td data-l="Marge" class="num ${t.marge < 0 ? 'non' : ''}">${dhSigne(t.marge_dh)}<div class="doux petit">${t.marge_pct == null ? '—' : ecartPct(t.marge_pct)} du coût</div></td>
+      <td data-l="Gain espéré" class="num ${t.gain_dh < 0 ? 'non' : ''}"><b>${dhSigne(t.gain_dh)}</b></td><td data-l="Remarques">${notes.join(' · ') || '—'}</td></tr>`;
+  }).join('');
+  return `<h3 class="sous">Choisir un prix, d’un coup d’œil</h3>
+    <div class="defile"><table class="tableau"><thead><tr><th>Prix (part de l’estimation)</th><th class="num">Chance</th><th class="num">Marge</th><th class="num">Gain espéré</th><th>Remarques</th></tr></thead><tbody>${lignes}</tbody></table></div>
+    <p class="doux petit">Gain espéré = (prix − coût) × chance de gagner. Marge en dirhams et en % du coût. Coût utilisé : ${dh(e.cout)}.</p>
+    ${e.ev.tableau.some(t => t.cle === 'fixe') ? `<p class="doux petit">« Règle simple » : le taux fixe qui aurait rapporté le plus en 2025 aux marchés de la même tranche de nombre de concurrents prévus, pour ce coût et cette marge minimale. Il ne regarde pas cet AO ; sa chance, sa marge et son gain espéré sont lus sur la courbe de cet AO, pour comparer avec le point recommandé.</p>` : ''}`;
+}
+const dhSigne = m => m == null ? '—' : (m < 0 ? '−' : '') + nfEntier.format(Math.abs(m)) + ' DH';
+
+function blocRecommandation(e) {
+  const ev = e.ev, r = ev.reco, bc = ev.meilleure_chance, E = e.E;
+  const coutTxt = { saisi: 'coût saisi', global: 'coût par défaut (global)', famille: `coût par défaut de la famille « ${esc(D.ao.famille.libelle || '')} »` }[e.origineCout];
+  const repli = e.origineCout === 'global' && D.ao.famille && D.ao.famille.code && DEC.profil.couts_famille.length
+    ? ` <span class="doux">(repli sur le coût global : aucun coût propre à la famille « ${esc(D.ao.famille.libelle || 'non reconnue')} »)</span>` : '';
+  return `<div class="reco">
+    ${r ? `<p class="compte__phrase">Prix recommandé : <b>${t3(r.x)}</b> de l’estimation (<b>${dh(r.x * E)}</b>)${ev.zone ? `, zone <b>${t3(ev.zone.de)} à ${t3(ev.zone.a)}</b> (${dh(ev.zone.de * E)} à ${dh(ev.zone.a * E)})` : ''}.<br>
+      Chance <b>${pct(r.chance, 1)}</b> · marge <b>${dhSigne(r.marge_dh)}</b> (${ecartPct(r.marge_pct)} du coût) · gain espéré <b>${dhSigne(r.gain_dh)}</b>.</p>`
+      : `<p class="compte__phrase"><b>Aucun prix recommandé</b> : ${ev.vide ? 'la plage est vide' : 'le gain espéré reste nul ou négatif sur toute la plage'}.</p>`}
+    <p class="doux petit">Plage cherchée : ${t3(ev.xmin)} à ${t3(ev.xmax)} (max(${t3(DEC.reglages.plage.plancher)} ; coût × (1 + ${pct(e.margeMin, 1)} de marge minimale)) jusqu’à ${t3(DEC.reglages.plage.plafond)}).</p>
+    <p class="doux petit">Pour comparaison — point de meilleure chance (l’objectif de l’étape ⑤) : <b>${t3(bc.x)}</b> (${dh(bc.x * E)}), chance ${pct(bc.chance, 1)}, marge ${dhSigne(bc.marge_dh)}, gain espéré ${dhSigne(bc.gain_dh)}${bc.sous_marge ? ' — <span class="avertissement-texte">sous la marge minimale</span>' : ''}.</p>
+    <p class="doux petit">Coût : ${dh(e.cout)} — ${coutTxt}${repli}${e.p ? `, avec ${esc(e.p.nom)} (${esc(effetTexte(e.p))})` : ''}.</p></div>`;
+}
+function effetTexte(p) {
+  if (!p.effet_cout) return 'aucun effet sur le coût';
+  return p.effet_cout_unite === 'pct' ? `coût ${p.effet_cout > 0 ? '+' : '−'}${nf1.format(Math.abs(p.effet_cout) * 100)} % de l’estimation` : `coût ${p.effet_cout > 0 ? '+' : '−'}${nfEntier.format(Math.abs(p.effet_cout))} DH`;
+}
+
+function blocVerdict(e) {
+  const dec = e.dec, T = DEC.textes;
+  const lignes = dec.raisons.map(r => `<li class="raison raison--${r.ton}">${esc(Decision.phrase(r, T))}</li>`).join('');
+  const conf = { faible: ['puce--attention', 'Confiance limitée'], correcte: ['puce--ok', 'Confiance correcte'], inconnue: ['', 'Confiance non évaluée'] }[dec.confiance];
+  return `<div class="verdict ${decClasse[dec.decision]}"><div class="verdict__badge"><span class="verdict__ic" aria-hidden="true">${decIcone[dec.decision]}</span>${esc(T.decisions[dec.decision])}</div>
+    <div><span class="puce ${conf[0]}">${conf[1]}</span>
+    <ul class="raisons">${lignes}</ul></div></div>
+    <p class="doux petit">${esc(T.hypothese)}</p>`;
+}
+
+function blocSoumission(e) {
+  if (DEC.soumission && !DS.formulaire) {
+    const s = DEC.soumission;
+    return `<div class="soumis"><b>Soumission enregistrée</b> : ${dh(s.prix_depose)} (${t3(s.prix_depose / s.estimation)}), coût ${dh(s.cout)}, scénario ${esc(scenarioLib[s.scenario] || s.scenario)}${s.partenaire ? ' avec ' + esc(s.partenaire) : ''},
+      par ${esc(s.auteur)} le ${new Date(s.soumis_le).toLocaleDateString('fr-FR')}. <a href="/copilote/suivi">Voir le suivi</a>
+      <button type="button" class="btn btn--sec" data-act="soumission-modifier">Corriger</button></div>`;
+  }
+  if (!DS.formulaire) return `<div class="actions-calcul"><button type="button" class="btn btn--plein" data-act="soumission-ouvrir">J’ai soumissionné</button>
+    <span class="doux petit">${DS.message ? esc(DS.message) : 'Enregistre le prix que vous avez déposé, pour le comparer au PV quand il arrivera.'}</span></div>`;
+  const r = e.ev.reco;
+  if (DS.prix === '') DS.prix = r ? String(Math.round(r.x * e.E)) : '';
+  return `<div class="groupe soumission-form"><h3>J’ai soumissionné</h3>
+    <div class="grille-champs">
+      <label>Prix déposé (DH)<input class="p-champ large" id="soum-prix" inputmode="numeric" value="${esc(DS.prix)}"></label>
+      <label>Coût de cet AO (DH)<input class="p-champ large" id="soum-cout" inputmode="numeric" value="${esc(String(Math.round(e.cout)))}"></label>
+      <label>Scénario<input class="p-champ large" disabled value="${esc(scenarioLib[DS.scenario])}${e.p ? ' — ' + esc(e.p.nom) : ''}"></label>
+      <label>Commentaire (facultatif)<input class="p-champ large" id="soum-comm" maxlength="500" value="${esc(DS.commentaire)}"></label>
+    </div>
+    <p class="doux petit">Le scénario et le partenaire sont ceux choisis plus haut ; la décision affichée (${esc(decLib[e.dec.decision])}) est enregistrée avec le prix.</p>
+    <div class="actions-calcul"><button type="button" class="btn btn--plein" data-act="soumission-envoyer">Enregistrer</button>
+      <button type="button" class="btn" data-act="soumission-annuler">Annuler</button><span class="petit" id="soum-etat" role="status"></span></div></div>`;
+}
+
+function champsDecision() {
+  const p = DEC.profil, E = D.ao.estimation;
+  const defaut = DEC.cout_defaut;
+  const ps = partenairesDuScenario();
+  const margeP = p.marge_min;
+  const margeModif = DS.marge !== '' && lirePctDec(DS.marge) != null && margeP != null && Math.abs(lirePctDec(DS.marge) - margeP) > 1e-9;
+  return `<div class="grille-champs">
+    <label>Coût de cet AO (DH)<input class="p-champ large" id="dec-cout" inputmode="numeric" value="${esc(DS.cout)}" placeholder="${defaut && E ? 'par défaut : ' + nfEntier.format(defaut.taux * E) : 'à saisir'}"></label>
+    <label>Marge minimale (% du coût)<input class="p-champ large${margeModif ? ' modifie' : ''}" id="dec-marge" inputmode="decimal" value="${esc(DS.marge)}" placeholder="${margeP != null ? pctDecimal(margeP) : 'non saisie (0)'}"></label>
+    <label>Scénario<select class="p-champ large" id="dec-scenario">${Object.keys(scenarioLib).map(k => `<option value="${k}"${DS.scenario === k ? ' selected' : ''}>${scenarioLib[k]}</option>`).join('')}</select></label>
+    ${DS.scenario !== 'seul' ? `<label>${DS.scenario === 'groupement' ? 'Partenaire (groupement)' : 'Sous-traitant ou fournisseur'}<select class="p-champ large" id="dec-partenaire">
+      <option value="">— choisir —</option>${ps.map(x => `<option value="${x.id}"${x.id === DS.partenaire ? ' selected' : ''}>${esc(x.nom)} — ${esc(effetTexte(x))}</option>`).join('')}</select></label>` : ''}
+  </div>
+  ${DS.scenario !== 'seul' && !ps.length ? `<p class="avertissement">Aucun ${DS.scenario === 'groupement' ? 'groupement' : 'sous-traitant ni fournisseur'} déclaré : <a href="/copilote/entreprise">en déclarer un</a>.</p>` : ''}
+  <div id="dec-modif">${noteModif()}</div>
+  <p class="doux petit">Un partenaire ne modifie que le coût et l’éligibilité, jamais le prix d’une autre société. Profil : <a href="/copilote/entreprise">notre entreprise</a>.
+    ${p.meta && p.meta.cout_defaut ? `Coût par défaut saisi par ${esc(p.meta.cout_defaut.auteur)}.` : ''}</p>`;
+}
+function noteModif() {
+  if (DS.cout === '' && DS.marge === '') return '';
+  const p = DEC.profil, d = DEC.cout_defaut, E = D.ao.estimation, morceaux = [];
+  if (DS.cout !== '') morceaux.push(`coût <s>${d && E ? dh(d.taux * E) : 'non saisi'}</s> → ${lireDh(DS.cout) ? dh(lireDh(DS.cout)) : 'illisible'}`);
+  if (DS.marge !== '') morceaux.push(`marge minimale <s>${p.marge_min != null ? pct(p.marge_min, 1) : 'non saisie'}</s> → ${lirePctDec(DS.marge) != null ? pct(lirePctDec(DS.marge), 1) : 'illisible'}`);
+  return `<p class="compte__origine">Modifié ici (rien n’est enregistré dans le profil) : ${morceaux.join(' ; ')}. <button type="button" class="btn btn--sec" data-act="decision-retablir">Rétablir</button></p>`;
+}
+const pctDecimal = v => String(Math.round(v * 10000) / 100).replace('.', ',');
+
+function resultatDecision() {
+  let e;
+  try { e = etatDecision(); } catch (err) { return `<p class="erreur">${esc(err.message)}</p>`; }
+  if (e.erreur) return `<p class="avertissement">${esc(e.erreur)}</p>`;
+  if (e.sansCout) return `<p class="avertissement">Aucun coût : saisissez le coût de cet AO ci-dessus, ou renseignez un coût par défaut dans <a href="/copilote/entreprise">notre entreprise</a>.</p>`;
+  return `${blocVerdict(e)}${blocRecommandation(e)}${courbeDecision(e)}${tableauChoix(e)}${blocEligibilite(e)}${blocSoumission(e)}`;
+}
+
+function blocDecision() {
+  if (!DEC || DEC.refuse) {
+    return `<section class="etape" aria-labelledby="e6"><h2 id="e6"><span class="rond">6</span>La décision</h2>
+      <p class="avertissement">${DEC && DEC.message ? esc(DEC.message) : 'Cette étape n’est pas disponible.'} ${DEC && DEC.statut === 401 ? '<a href="/copilote/entrer">Entrer le code d’accès</a>' : ''}</p></section>`;
+  }
+  const reg = DEC.reglages;
+  return `<section class="etape" aria-labelledby="e6"><h2 id="e6"><span class="rond">6</span>La décision : GO, à étudier ou NO-GO</h2>
+    <p class="intro">Notre coût contre la chance de gagner de l’étape ⑤ : pour chaque prix x, <b>gain espéré = (x − coût) × chance(x)</b>. Le prix recommandé est le maximum de ce gain,
+      entre le plancher légal et le plafond, avec une marge au moins égale à la marge minimale. Tout se recalcule quand vous changez une société, un taux ou le coût.</p>
+    <div id="decision-champs">${champsDecision()}</div>
+    <div id="decision-resultat">${resultatDecision()}</div>
+    <details class="comment"><summary>Comment c’est calculé</summary><ul>
+      <li>Coût : celui que vous saisissez, sinon le coût par défaut de la famille de travaux, sinon le coût global (profil de l’entreprise). Un partenaire déclaré ajoute son effet sur le coût ; il ne change jamais le prix d’une autre société.</li>
+      <li>Plage de prix : de max(${t3(reg.plage.plancher)} ; coût × (1 + marge minimale)) à ${t3(reg.plage.plafond)}. Un prix à plus de 20 % sous l’estimation est écarté d’office (décret 2-22-431) ; sous ${t3(reg.plage.alerte)}, un avertissement
+        « ${AVERTISSEMENT_BAS} » s’affiche.</li>
+      <li>Prix recommandé : le maximum du gain espéré lissé (±0,005 comme la zone de l’étape ⑤) ; zone : là où ce gain lissé reste ≥ ${pct(reg.zone_part)} du maximum. Le point de meilleure chance est donné pour comparaison : en C2, il tombe au plancher sur 92 % des marchés.</li>
+      <li>NO-GO : plage vide, aucun prix à gain espéré ≥ ${pct(reg.gain.nogo, 1)} de l’estimation, chance au prix recommandé &lt; ${pct(reg.chance.nogo)}, non éligible seul, ou date limite dépassée.
+        GO : gain espéré ≥ ${pct(reg.gain.go, 1)} de l’estimation et chance ≥ ${pct(reg.chance.go)}, sans signal de risque. Entre les deux : À ÉTUDIER.</li>
+      <li>Signaux qui font passer un GO en À ÉTUDIER (jamais en NO-GO) : historique de l’acheteur &lt; ${reg.confiance.acheteur_min} marchés, moins de ${pct(reg.confiance.identifies_min)} des concurrents identifiés, groupe de présence commune fort probable
+        (chef de file ≥ ${pct(reg.groupe_fort.p_chef)}), acheteur à plus de ${pct(reg.infructueux_max)} d’infructueux, moins de ${reg.delai_min_jours} jours restants, plan de charge atteint.</li>
+      <li>Seuils : <span class="mono">copilote/reglages.json</span>, section « decision » ; choisis sur les marchés de 2025, mesurés sur 2026 (rapport de l’étape D). La copie JavaScript (<span class="mono">statique/decision.js</span>) et la copie Python donnent les mêmes résultats.</li>
+    </ul></details>
+  </section>`;
+}
+
+function rafraichirDecision() {
+  if (!DEC || DEC.refuse) return;
+  const r = $('#decision-resultat');
+  if (r) r.innerHTML = resultatDecision();
+}
+function rafraichirChampsDecision() {
+  const c = $('#decision-champs');
+  if (c) c.innerHTML = champsDecision();
+  rafraichirDecision();
+}
+
+document.addEventListener('input', e => {
+  if (e.target.id === 'dec-cout') { DS.cout = e.target.value; rafraichirDecision(); majModif(); }
+  else if (e.target.id === 'dec-marge') { DS.marge = e.target.value; rafraichirDecision(); majModif(); }
+  else if (e.target.id === 'soum-prix') DS.prix = e.target.value;
+  else if (e.target.id === 'soum-comm') DS.commentaire = e.target.value;
+});
+function majModif() { const m = $('#dec-modif'); if (m) m.innerHTML = noteModif(); }
+document.addEventListener('change', e => {
+  if (e.target.id === 'dec-scenario') { DS.scenario = e.target.value; DS.partenaire = null; rafraichirChampsDecision(); }
+  else if (e.target.id === 'dec-partenaire') { DS.partenaire = e.target.value ? +e.target.value : null; rafraichirDecision(); }
+  else if (e.target.id === 'dec-cout' || e.target.id === 'dec-marge') rafraichirChampsDecision();
+});
+document.addEventListener('pointermove', e => {
+  const r = e.target.closest && e.target.closest('.capteur-dec');
+  const svg = r && r.ownerSVGElement;
+  if (!svg || !SIM || !DEC || DEC.refuse) return;
+  const st = etatDecision();
+  if (st.erreur || st.sansCout) return;
+  const b = svg.getBoundingClientRect(), W = +svg.dataset.w, g = +svg.dataset.g, L = +svg.dataset.l, xs = SIM.grille;
+  const xv = (e.clientX - b.left) / b.width * W;
+  const j = Math.max(0, Math.min(xs.length - 1, Math.round((xv - g) / L * (xs.length - 1))));
+  const gx = g + j / (xs.length - 1) * L, guide = svg.querySelector('.guide-dec');
+  guide.setAttribute('x1', gx); guide.setAttribute('x2', gx); guide.setAttribute('visibility', 'visible');
+  const x = xs[j], marge = (x - st.ev.cout) * st.E, ch = SIM.chance[j];
+  $('#lecture-decision').innerHTML = `À <b>${t3(x)}</b> (${dh(x * st.E)}) : chance <b>${pct(ch, 1)}</b>, marge <b>${dhSigne(marge)}</b>, gain espéré <b>${dhSigne(marge * ch)}</b>`
+    + (x < alerteDe() - 1e-9 ? ` <span class="avertissement-texte">⚠ ${AVERTISSEMENT_BAS}</span>` : '')
+    + (x < st.ev.xmin - 1e-9 ? ' <span class="doux">(hors plage)</span>' : '');
+});
+document.addEventListener('click', async e => {
+  const b = e.target.closest('[data-act]');
+  if (!b || !b.dataset.act.startsWith('soumission') && b.dataset.act !== 'decision-retablir') return;
+  if (b.dataset.act === 'decision-retablir') { DS.cout = ''; DS.marge = ''; rafraichirChampsDecision(); return; }
+  if (b.dataset.act === 'soumission-ouvrir' || b.dataset.act === 'soumission-modifier') {
+    DS.formulaire = true; DS.prix = DEC.soumission && b.dataset.act === 'soumission-modifier' ? String(Math.round(DEC.soumission.prix_depose)) : ''; DS.message = ''; rafraichirDecision(); return;
+  }
+  if (b.dataset.act === 'soumission-annuler') { DS.formulaire = false; rafraichirDecision(); return; }
+  if (b.dataset.act === 'soumission-envoyer') {
+    const etat = $('#soum-etat'), e0 = etatDecision();
+    const prix = lireDh($('#soum-prix').value), cout = lireDh($('#soum-cout').value);
+    if (!prix || !cout) { etat.textContent = 'Prix et coût : nombres positifs attendus.'; etat.className = 'petit non'; return; }
+    const r = e0.ev.reco;
+    try {
+      const rep = await fetch('/api/copilote/soumissions', { method: 'POST', credentials: 'same-origin', headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({ ref_annonce: REF, lot: LOT || null, prix_depose: prix, cout: cout, scenario: DS.scenario, partenaire: e0.p ? e0.p.nom : '',
+          decision: e0.dec.decision, commentaire: $('#soum-comm').value,
+          instantane: { x_reco: r ? r.x : null, chance: r ? r.chance : null, gain: r ? r.gain : null, cout_taux: e0.ev.cout, marge_min: e0.margeMin,
+            origine_cout: e0.origineCout, raisons: e0.dec.raisons.map(z => z.code), eligibilite: e0.elig.statut, modifications: Object.keys(MODIFS).length } }) });
+      const corps = await rep.json().catch(() => ({}));
+      if (!rep.ok) throw new Error(corps.detail || `Erreur ${rep.status}`);
+      DEC.soumission = corps; DS.formulaire = false; DS.prix = ''; rafraichirDecision();
+    } catch (err) { etat.textContent = err.message; etat.className = 'petit non'; }
+  }
+});
+
+async function chargerDecision(q) {
+  try {
+    const r = await fetch(`/api/copilote/decision/${encodeURIComponent(REF)}${q}`, { credentials: 'same-origin' });
+    const c = await r.json().catch(() => ({}));
+    if (r.status === 401) return { refuse: true, statut: 401, message: 'Cette étape exige le code d’accès du copilote.' };
+    if (!r.ok) return { refuse: true, statut: r.status, message: c.detail || `Erreur ${r.status}` };
+    return c;
+  } catch (err) { return { refuse: true, message: err.message }; }
+}
+
 // ================================================================ assemblage et interactions
 function rafraichirCompte() {
   $('#zone-compte').innerHTML = blocCompte();
@@ -1018,7 +1373,7 @@ function rendre(verite, prevu) {
   document.title = `Analyse ${REF}${a.lot ? ' lot ' + a.lot : ''} — Copilote`;
   $('#corps').innerHTML = [blocAo(), blocSimilaires(), blocProbables(),
     verite ? blocVerite(verite) : '', blocPrevuReel(prevu),
-    blocTaux(), blocSimulation()].join('');
+    blocTaux(), blocSimulation(), blocDecision()].join('');
 }
 
 function ligneDe(el) { const tr = el.closest('tr[data-cle]'); return tr && PAR_CLE[tr.dataset.cle]; }
@@ -1129,6 +1484,7 @@ async function demarrer() {
   SIM_ORIGINE = Simulateur.simuler(D.simulation.modele);
   SIM_ORIGINE.ms0 = performance.now() - t0;
   simulerActuel();
+  DEC = await chargerDecision(q);
   rendre(verite, prevu);
   if (D.ao.lot && (D.ao.lots || []).length > 1) {
     // AO alloti : les autres lots en tête, lus dans le dossier lui-même (aucun appel sans lot).

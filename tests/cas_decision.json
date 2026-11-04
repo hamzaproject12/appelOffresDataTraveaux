@@ -1,0 +1,357 @@
+{
+ "_aide": "Cas communs de decision.py et decision.js (tests/test_decision.py). La courbe de chance est fabriquée par test_decision.py (logistique m, s, pmax, bruit déterministe) et passée aux deux copies.",
+ "cas": [
+  {
+   "nom": "go_classique",
+   "courbe": {
+    "m": 0.98,
+    "s": 0.04,
+    "pmax": 0.7,
+    "bruit": 0.01
+   },
+   "estimation": 10000000,
+   "cout_dh": 8500000,
+   "marge_min": 0.05,
+   "signaux": {
+    "prevu": 3.2,
+    "jours": 12,
+    "acheteur_n": 9,
+    "identifies_part": 0.8
+   }
+  },
+  {
+   "nom": "go_cout_bas_zone_haute",
+   "courbe": {
+    "m": 1.0,
+    "s": 0.05,
+    "pmax": 0.55,
+    "bruit": 0.01
+   },
+   "estimation": 10000000,
+   "cout_dh": 8000000,
+   "marge_min": 0.05,
+   "signaux": {
+    "prevu": 3.9
+   }
+  },
+  {
+   "nom": "nogo_aucun_gain",
+   "courbe": {
+    "m": 0.84,
+    "s": 0.02,
+    "pmax": 0.04,
+    "bruit": 0.0
+   },
+   "estimation": 10000000,
+   "cout_dh": 9500000,
+   "marge_min": 0.05,
+   "signaux": {
+    "prevu": 14
+   }
+  },
+  {
+   "nom": "nogo_plage_vide",
+   "courbe": {
+    "m": 1.0,
+    "s": 0.05,
+    "pmax": 0.55,
+    "bruit": 0.01
+   },
+   "estimation": 10000000,
+   "cout_dh": 13000000,
+   "marge_min": 0.05,
+   "signaux": {}
+  },
+  {
+   "nom": "gros_marche_faible",
+   "courbe": {
+    "m": 1.02,
+    "s": 0.05,
+    "pmax": 0.09,
+    "bruit": 0.0
+   },
+   "estimation": 10000000,
+   "cout_dh": 8500000,
+   "marge_min": 0.05,
+   "signaux": {
+    "prevu": 16.4
+   }
+  },
+  {
+   "nom": "petit_marche_plancher",
+   "courbe": {
+    "m": 0.95,
+    "s": 0.07,
+    "pmax": 0.8,
+    "bruit": 0.02
+   },
+   "estimation": 10000000,
+   "cout_dh": 8000000,
+   "marge_min": 0.05,
+   "signaux": {
+    "prevu": 2.2
+   }
+  },
+  {
+   "nom": "tie_0_8125",
+   "courbe": {
+    "m": 0.8125,
+    "s": 0.03,
+    "pmax": 0.9,
+    "bruit": 0.0
+   },
+   "estimation": 10000000,
+   "cout_dh": 7900000,
+   "marge_min": 0.02,
+   "signaux": {
+    "prevu": 4.5,
+    "jours": 2
+   }
+  },
+  {
+   "nom": "delai_depasse",
+   "courbe": {
+    "m": 1.0,
+    "s": 0.05,
+    "pmax": 0.55,
+    "bruit": 0.01
+   },
+   "estimation": 10000000,
+   "cout_dh": 8500000,
+   "marge_min": 0.05,
+   "signaux": {
+    "jours": -3,
+    "prevu": 6
+   }
+  },
+  {
+   "nom": "signaux_attention",
+   "courbe": {
+    "m": 1.0,
+    "s": 0.05,
+    "pmax": 0.55,
+    "bruit": 0.01
+   },
+   "estimation": 10000000,
+   "cout_dh": 8400000,
+   "marge_min": 0.05,
+   "signaux": {
+    "prevu": 6,
+    "acheteur_n": 1,
+    "identifies_part": 0.3,
+    "groupes_forts": [
+     {
+      "numero": 2,
+      "nom": "SOCIETE ALPHA",
+      "p": 0.72
+     }
+    ],
+    "infructueux": {
+     "n": 4,
+     "total": 10,
+     "taux": 0.4
+    },
+    "en_cours": 5,
+    "plan_max": 5
+   }
+  },
+  {
+   "nom": "eligible_classe_haute",
+   "courbe": {
+    "m": 1.0,
+    "s": 0.05,
+    "pmax": 0.55,
+    "bruit": 0.01
+   },
+   "estimation": 10000000,
+   "cout_dh": 8500000,
+   "marge_min": 0.05,
+   "lignes_ao": [
+    [
+     "B.1- Travaux de terrassements routiers courants",
+     "3"
+    ],
+    [
+     "B.3",
+     "3"
+    ]
+   ],
+   "quals": {
+    "B.1": "2",
+    "B.3": "S"
+   },
+   "signaux": {
+    "prevu": 5
+   }
+  },
+  {
+   "nom": "non_eligible_classe_insuffisante",
+   "courbe": {
+    "m": 1.0,
+    "s": 0.05,
+    "pmax": 0.55,
+    "bruit": 0.01
+   },
+   "estimation": 10000000,
+   "cout_dh": 8500000,
+   "marge_min": 0.05,
+   "lignes_ao": [
+    [
+     "B.1- Travaux de terrassements routiers courants",
+     "3"
+    ],
+    [
+     "B.3",
+     "3"
+    ]
+   ],
+   "quals": {
+    "B.1": "4",
+    "B.3": "3"
+   },
+   "signaux": {
+    "prevu": 5
+   }
+  },
+  {
+   "nom": "non_eligible_absent_groupement",
+   "courbe": {
+    "m": 1.0,
+    "s": 0.05,
+    "pmax": 0.55,
+    "bruit": 0.01
+   },
+   "estimation": 10000000,
+   "cout_dh": 8500000,
+   "marge_min": 0.05,
+   "lignes_ao": [
+    [
+     "B.1- Travaux de terrassements routiers courants",
+     "3"
+    ],
+    [
+     "B.3",
+     "3"
+    ]
+   ],
+   "quals": {
+    "B.1": "3"
+   },
+   "scenario_partenaire": 1,
+   "partenaires": [
+    {
+     "id": 1,
+     "nom": "Partenaire Un",
+     "type": "groupement",
+     "qualifs": [
+      {
+       "code": "B.3",
+       "classe": "2"
+      }
+     ],
+     "effet_cout": -0.01,
+     "effet_cout_unite": "pct"
+    }
+   ],
+   "signaux": {
+    "prevu": 5
+   }
+  },
+  {
+   "nom": "sous_traitant_ne_rend_pas_eligible",
+   "courbe": {
+    "m": 1.0,
+    "s": 0.05,
+    "pmax": 0.55,
+    "bruit": 0.01
+   },
+   "estimation": 10000000,
+   "cout_dh": 8500000,
+   "marge_min": 0.05,
+   "lignes_ao": [
+    [
+     "B.1- Travaux de terrassements routiers courants",
+     "3"
+    ],
+    [
+     "B.3",
+     "3"
+    ]
+   ],
+   "quals": {
+    "B.1": "3"
+   },
+   "scenario_partenaire": 2,
+   "partenaires": [
+    {
+     "id": 2,
+     "nom": "Sous Traitant",
+     "type": "sous_traitant",
+     "qualifs": [
+      {
+       "code": "B.3",
+       "classe": "1"
+      }
+     ],
+     "effet_cout": -250000,
+     "effet_cout_unite": "dh"
+    }
+   ],
+   "signaux": {
+    "prevu": 5
+   }
+  },
+  {
+   "nom": "alternative_et_inconnue",
+   "courbe": {
+    "m": 1.0,
+    "s": 0.05,
+    "pmax": 0.55,
+    "bruit": 0.01
+   },
+   "estimation": 10000000,
+   "cout_dh": 8500000,
+   "marge_min": 0.05,
+   "lignes_ao": [
+    [
+     "B.1 ou B.3",
+     "4"
+    ],
+    [
+     "4.1.Travaux de séguia",
+     "4"
+    ]
+   ],
+   "quals": {
+    "B.1": "3"
+   },
+   "signaux": {
+    "prevu": 5
+   }
+  },
+  {
+   "nom": "classe_s_exigee",
+   "courbe": {
+    "m": 1.0,
+    "s": 0.05,
+    "pmax": 0.55,
+    "bruit": 0.01
+   },
+   "estimation": 10000000,
+   "cout_dh": 8500000,
+   "marge_min": 0.05,
+   "lignes_ao": [
+    [
+     "X.1",
+     "S"
+    ]
+   ],
+   "quals": {
+    "X.1": "1"
+   },
+   "signaux": {
+    "prevu": 5
+   }
+  }
+ ]
+}

@@ -1,0 +1,460 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="robots" content="noindex, nofollow">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="color-scheme" content="light dark">
+<title>Suivi des soumissions — Copilote</title>
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='7' fill='%231f4e78'/%3E%3Cpath d='M8 21V13M14 21V9M20 21V16M26 21V11' stroke='white' stroke-width='3' stroke-linecap='round'/%3E%3C/svg%3E">
+<script>
+  try { const t = localStorage.getItem('pv-theme'); if (t === 'light' || t === 'dark') document.documentElement.dataset.theme = t; } catch (e) {}
+</script>
+<style>
+  /* ================================================================ jetons (mêmes valeurs que ao_ouverts.html) */
+  :root {
+    --fond: #f3f4f6; --surface: #ffffff; --surface-2: #f8f9fb; --surface-3: #eceff3;
+    --bord: #dde1e7; --bord-fort: #b4bcc7;
+    --texte: #111827; --texte-2: #374151; --doux: #555e6c;
+    --accent: #1f4f8f; --accent-survol: #173e72; --accent-doux: #e7eef8; --sur-accent: #ffffff;
+    --vert: #0f6a3e; --vert-doux: #e4f3ea; --vert-bord: #9fd0b4;
+    --orange: #875100; --orange-doux: #fcf0da; --orange-bord: #ebc88a;
+    --rouge: #b3261e; --rouge-doux: #fcebea;
+    --neutre: #4b5563; --neutre-doux: #eceff3;
+    --squelette: #e5e8ed; --squelette-reflet: #f3f5f8;
+    --ombre-1: 0 1px 2px rgba(17,24,39,.05);
+    --focus: #2563eb;
+    color-scheme: light;
+
+    --police: "Segoe UI Variable Text", "Segoe UI", system-ui, -apple-system, "Helvetica Neue", Arial, sans-serif;
+    --mono: ui-monospace, "Cascadia Mono", "SF Mono", Consolas, monospace;
+    --t-xs: .75rem; --t-s: .8125rem; --t-m: .875rem; --t-l: 1rem; --t-xl: 1.25rem; --t-2xl: 1.5rem;
+    --e1: 4px; --e2: 8px; --e3: 12px; --e4: 16px; --e5: 24px; --e6: 32px; --e7: 48px;
+    --r-s: 6px; --r-m: 10px; --r-l: 14px;
+    --haut-barre: 64px;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root:not([data-theme="light"]) {
+      --fond: #0d1117; --surface: #161b22; --surface-2: #1b2129; --surface-3: #242b35;
+      --bord: #2b333e; --bord-fort: #46505e;
+      --texte: #e8ebef; --texte-2: #c9cfd7; --doux: #9ca6b4;
+      --accent: #7fb2f0; --accent-survol: #a6c9f5; --accent-doux: #1a2a40; --sur-accent: #0b1320;
+      --vert: #5cc98f; --vert-doux: #11281c; --vert-bord: #22553a;
+      --orange: #e8b95c; --orange-doux: #2c220f; --orange-bord: #5c4518;
+      --rouge: #f28b82; --rouge-doux: #34191a;
+      --neutre: #b4bdc9; --neutre-doux: #242b35;
+      --squelette: #212833; --squelette-reflet: #2a323e;
+      --ombre-1: none;
+      --focus: #7cb0ff;
+      color-scheme: dark;
+    }
+  }
+  :root[data-theme="dark"] {
+    --fond: #0d1117; --surface: #161b22; --surface-2: #1b2129; --surface-3: #242b35;
+    --bord: #2b333e; --bord-fort: #46505e;
+    --texte: #e8ebef; --texte-2: #c9cfd7; --doux: #9ca6b4;
+    --accent: #7fb2f0; --accent-survol: #a6c9f5; --accent-doux: #1a2a40; --sur-accent: #0b1320;
+    --vert: #5cc98f; --vert-doux: #11281c; --vert-bord: #22553a;
+    --orange: #e8b95c; --orange-doux: #2c220f; --orange-bord: #5c4518;
+    --rouge: #f28b82; --rouge-doux: #34191a;
+    --neutre: #b4bdc9; --neutre-doux: #242b35;
+    --squelette: #212833; --squelette-reflet: #2a323e;
+    --ombre-1: none;
+    --focus: #7cb0ff;
+    color-scheme: dark;
+  }
+
+  /* ================================================================ base */
+  *, *::before, *::after { box-sizing: border-box; }
+  html { -webkit-text-size-adjust: 100%; scroll-padding-top: calc(var(--haut-barre) + var(--e4)); }
+  body { margin: 0; min-height: 100vh; background: var(--fond); color: var(--texte);
+    font: 400 var(--t-m)/1.5 var(--police); -webkit-font-smoothing: antialiased; }
+  h1, h2, h3, p, ol, ul { margin: 0; }
+  ol, ul { padding: 0; list-style: none; }
+  a { color: var(--accent); text-underline-offset: 2px; }
+  button, input, select { font: inherit; color: inherit; }
+  button { cursor: pointer; }
+  svg.ic { flex-shrink: 0; display: block; }
+  :focus-visible { outline: 2px solid var(--focus); outline-offset: 2px; border-radius: 4px; }
+  .sr { position: absolute !important; width: 1px; height: 1px; overflow: hidden; clip: rect(0 0 0 0);
+    white-space: nowrap; margin: -1px; padding: 0; border: 0; }
+  .doux { color: var(--doux); }
+  .petit { font-size: var(--t-xs); }
+  .mono { font-family: var(--mono); font-size: .92em; letter-spacing: -.01em; }
+  .num { text-align: right; white-space: nowrap; font-variant-numeric: tabular-nums; }
+  .evitement { position: absolute; left: var(--e2); top: -100px; z-index: 50; background: var(--accent);
+    color: var(--sur-accent); padding: var(--e3) var(--e4); border-radius: var(--r-s); font-weight: 600; }
+  .evitement:focus { top: var(--e2); }
+  .conteneur { width: 100%; max-width: 1440px; margin: 0 auto; padding-inline: var(--e5); }
+
+  /* ================================================================ en-tête */
+  .barre-haut { position: sticky; top: 0; z-index: 20; background: var(--surface); border-bottom: 1px solid var(--bord); }
+  .barre-haut__ligne { display: flex; align-items: center; gap: var(--e3) var(--e5); min-height: var(--haut-barre); }
+  .marque { display: flex; align-items: center; gap: 10px; color: var(--texte); text-decoration: none;
+    min-height: 44px; flex-shrink: 0; border-radius: var(--r-s); }
+  .marque__logo { width: 34px; height: 34px; border-radius: 9px; background: var(--accent); color: var(--sur-accent);
+    display: grid; place-items: center; }
+  .marque b { display: block; font-size: var(--t-l); font-weight: 650; letter-spacing: -.01em; line-height: 1.2; }
+  .marque small { display: block; font-size: var(--t-xs); color: var(--doux); line-height: 1.3; }
+  .onglets { display: flex; gap: var(--e1); }
+  .onglet { display: inline-flex; align-items: center; gap: var(--e2); min-height: 44px; padding: 0 14px;
+    border-radius: var(--r-s); color: var(--doux); text-decoration: none; font-weight: 500; white-space: nowrap;
+    transition: background-color .15s, color .15s; }
+  .onglet:hover { background: var(--surface-3); color: var(--texte); }
+  .actions { margin-left: auto; display: flex; align-items: center; gap: var(--e1); }
+  .btn-icone { width: 44px; height: 44px; display: inline-grid; place-items: center; border-radius: var(--r-s);
+    border: 1px solid transparent; background: none; color: var(--texte-2); text-decoration: none; }
+  .btn-icone:hover { background: var(--surface-3); color: var(--texte); }
+  .separateur { width: 1px; height: 24px; background: var(--bord); margin: 0 var(--e1); }
+  @media (max-width: 1023px) {
+    :root { --haut-barre: 112px; }
+    .barre-haut__ligne { flex-wrap: wrap; min-height: 0; padding-top: var(--e2); }
+    .onglets { order: 3; flex-basis: 100%; padding-bottom: var(--e2); }
+  }
+  @media (max-width: 639px) {
+    :root { --haut-barre: 60px; }
+    .conteneur { padding-inline: var(--e4); }
+    .barre-haut__ligne { flex-wrap: nowrap; padding-top: 0; min-height: 60px; }
+    .marque small { display: none; }
+    .separateur { display: none; }
+    .onglets { position: fixed; left: 0; right: 0; bottom: 0; z-index: 20; background: var(--surface);
+      border-top: 1px solid var(--bord); display: grid; grid-template-columns: repeat(5, 1fr); gap: 2px;
+      padding: var(--e1) var(--e1) calc(var(--e1) + env(safe-area-inset-bottom)); }
+    .onglet { flex-direction: column; justify-content: center; gap: 3px; min-height: 56px; padding: var(--e1) 2px;
+      font-size: 11.5px; line-height: 1.2; text-align: center; white-space: normal; }
+    body { padding-bottom: calc(68px + env(safe-area-inset-bottom)); }
+  }
+  .bandeau-info { margin: 0; padding: var(--e2) var(--e5); background: var(--orange-doux); color: var(--orange);
+    border-bottom: 1px solid var(--orange-bord); font-size: var(--t-s); font-weight: 600; text-align: center; }
+
+  /* ================================================================ contenu */
+  main { padding-block: var(--e6) var(--e7); outline: none; display: grid; gap: var(--e5); min-width: 0; }
+  .tete-vue h1 { font-size: var(--t-2xl); font-weight: 650; letter-spacing: -.02em; line-height: 1.25; outline: none;
+    overflow-wrap: anywhere; }
+  .tete-vue p { color: var(--doux); margin-top: var(--e1); max-width: 80ch; }
+  .tete-vue .retour { display: inline-flex; margin-bottom: var(--e2); font-size: var(--t-s); }
+  @media (max-width: 639px) {
+    main { padding-top: var(--e5); }
+    .tete-vue h1 { font-size: var(--t-xl); }
+    .bandeau-info { padding-inline: var(--e4); text-align: left; }
+  }
+  .etape { background: var(--surface); border: 1px solid var(--bord); border-radius: var(--r-m); padding: var(--e4);
+    box-shadow: var(--ombre-1); min-width: 0; }
+  .etape > h2 { display: flex; align-items: center; gap: var(--e3); font-size: var(--t-l); font-weight: 650; }
+  .etape > h2 .rond { flex: none; width: 28px; height: 28px; border-radius: 50%; background: var(--accent); color: var(--sur-accent);
+    display: grid; place-items: center; font-size: var(--t-s); font-weight: 700; }
+  .etape--avenir { opacity: .75; }
+  .etape--avenir > h2 .rond { background: var(--neutre-doux); color: var(--neutre); }
+  .intro { color: var(--doux); font-size: var(--t-s); margin: var(--e1) 0 var(--e3); max-width: 85ch; }
+  .comment { margin-top: var(--e3); border-top: 1px dashed var(--bord); padding-top: var(--e2); font-size: var(--t-s); }
+  .comment > summary, details.plie > summary { cursor: pointer; font-weight: 600; color: var(--accent); min-height: 36px;
+    display: flex; align-items: center; }
+  .comment p, .comment li { color: var(--texte-2); max-width: 85ch; margin-top: var(--e1); }
+  .comment ul { list-style: disc; padding-left: var(--e5); }
+  .fiche-ao { display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: var(--e3) var(--e5); margin: 0; }
+  .fiche-ao div { min-width: 0; }
+  .fiche-ao dt { font-size: var(--t-xs); color: var(--doux); font-weight: 600; text-transform: uppercase; letter-spacing: .03em; }
+  .fiche-ao dd { margin: 2px 0 0; overflow-wrap: anywhere; }
+  .fiche-ao .large { grid-column: 1 / -1; }
+  .puce { display: inline-flex; align-items: center; gap: 4px; padding: 2px 9px; border-radius: 999px;
+    font-size: var(--t-xs); font-weight: 600; white-space: nowrap; background: var(--neutre-doux);
+    color: var(--neutre); line-height: 1.5; }
+  .puce--ok { background: var(--vert-doux); color: var(--vert); }
+  .puce--attention { background: var(--orange-doux); color: var(--orange); }
+  .puce--ko { background: var(--rouge-doux); color: var(--rouge); }
+  .puce--accent { background: var(--accent-doux); color: var(--accent); }
+  .btn { display: inline-flex; align-items: center; justify-content: center; gap: var(--e2); min-height: 44px;
+    padding: 0 var(--e4); border-radius: var(--r-s); border: 1px solid var(--bord-fort); background: var(--surface);
+    color: var(--texte); font-weight: 500; text-decoration: none; white-space: nowrap; transition: background-color .15s; }
+  .btn:hover { background: var(--surface-3); }
+  .btn--sec { min-height: 36px; padding: 0 var(--e3); font-size: var(--t-s); }
+  .lots { display: flex; flex-wrap: wrap; gap: var(--e2); margin-top: var(--e3); }
+  .lots .btn { white-space: normal; text-align: left; justify-content: flex-start; max-width: 100%; min-width: 0;
+    padding-block: var(--e1); overflow-wrap: anywhere; }
+  .lots .btn[aria-current="true"] { background: var(--accent-doux); border-color: var(--accent); color: var(--accent); font-weight: 650; }
+  .avertissement-texte { color: var(--orange); }
+  .avertissement { padding: var(--e3); border-radius: var(--r-s); background: var(--orange-doux); color: var(--orange);
+    font-size: var(--t-s); }
+  .erreur { padding: var(--e4); border-radius: var(--r-m); background: var(--rouge-doux); color: var(--rouge); }
+  .chargement { padding: var(--e5); text-align: center; color: var(--doux); }
+
+  /* tableaux */
+  .defile { overflow-x: auto; margin-inline: calc(-1 * var(--e4)); padding-inline: var(--e4); }
+  .tableau { width: 100%; border-collapse: collapse; }
+  .tableau th { text-align: left; font-size: var(--t-xs); font-weight: 600; color: var(--doux);
+    text-transform: uppercase; letter-spacing: .03em; padding: var(--e2) var(--e3); white-space: nowrap;
+    background: var(--surface-2); border-bottom: 1px solid var(--bord); }
+  .tableau th.num { text-align: right; }
+  .tableau td { padding: var(--e2) var(--e3); border-bottom: 1px solid var(--bord); vertical-align: top; overflow-wrap: anywhere; }
+  .tableau tbody tr:last-child td { border-bottom: 0; }
+  .tableau .objet { max-width: 52ch; color: var(--texte-2); font-size: var(--t-s); display: -webkit-box;
+    -webkit-line-clamp: 2; -webkit-box-orient: vertical; overflow: hidden; }
+  .tableau tr.retiree td { color: var(--doux); }
+  .tableau tr.retiree .nom { text-decoration: line-through; }
+  .tableau tr.detail td { background: var(--surface-2); font-size: var(--t-s); }
+  @media (max-width: 899px) {
+    .defile { overflow: visible; }
+    .tableau thead { display: none; }
+    .tableau, .tableau tbody, .tableau tr, .tableau td { display: block; width: 100%; }
+    .tableau tr { padding: var(--e3) 0; border-bottom: 1px solid var(--bord); }
+    .tableau tbody tr:last-child { border-bottom: 0; }
+    .tableau td { padding: 3px 0; border: 0; text-align: left !important; white-space: normal !important; }
+    .tableau td[data-l]::before { content: attr(data-l); display: block; font-size: var(--t-xs); color: var(--doux);
+      font-weight: 600; text-transform: uppercase; letter-spacing: .03em; }
+    .tableau .objet { max-width: none; }
+  }
+  .score { font-weight: 700; font-variant-numeric: tabular-nums; }
+  .criteres { display: grid; gap: 4px; margin: var(--e2) 0; }
+  .critere { display: grid; grid-template-columns: 150px 70px minmax(0, 1fr); gap: var(--e3); align-items: baseline; }
+  .critere .pts { text-align: right; font-variant-numeric: tabular-nums; font-weight: 650; }
+  @media (max-width: 639px) { .critere { grid-template-columns: 1fr auto; } .critere .expl { grid-column: 1 / -1; color: var(--doux); } }
+
+  /* nombre de concurrents */
+  .compte { display: grid; grid-template-columns: minmax(0, 1fr) minmax(260px, 420px); gap: var(--e4) var(--e5); align-items: center;
+    padding: var(--e4); border-radius: var(--r-m); background: var(--accent-doux); margin-bottom: var(--e4); }
+  .compte__phrase { font-size: var(--t-l); }
+  .compte__phrase b { font-size: var(--t-xl); }
+  .compte__origine { color: var(--doux); font-size: var(--t-s); margin-top: var(--e1); }
+  .compte__origine s { text-decoration-thickness: 1px; }
+  .compte svg { width: 100%; height: auto; display: block; }
+  .compte svg text { font-family: var(--police); fill: var(--doux); font-size: 10px; }
+  @media (max-width: 899px) { .compte { grid-template-columns: minmax(0, 1fr); } }
+
+  /* groupes */
+  .groupes { display: grid; gap: var(--e4); }
+  .groupe { border: 1px solid var(--bord); border-radius: var(--r-m); padding: var(--e4); background: var(--surface-2); min-width: 0; }
+  .groupe > h3 { font-size: var(--t-m); font-weight: 650; display: flex; flex-wrap: wrap; gap: var(--e2); align-items: center; }
+  .groupe .strategie { margin-top: var(--e3); font-size: var(--t-s); color: var(--texte-2); display: grid; gap: var(--e2); }
+  .groupe .strategie p { max-width: 90ch; }
+  .controle { display: flex; align-items: center; gap: var(--e2); }
+  .controle input[type="checkbox"] { width: 20px; height: 20px; margin: 0; flex: none; }
+  .p-champ { width: 74px; height: 34px; border: 1px solid var(--bord-fort); border-radius: var(--r-s); background: var(--surface);
+    padding: 0 var(--e2); text-align: right; font-variant-numeric: tabular-nums; }
+  .courbe { width: 100%; max-width: 860px; height: auto; display: block; margin-top: var(--e2); touch-action: pan-y; }
+  .courbe text { font-family: var(--police); fill: var(--doux); font-size: 11px; }
+  .courbe text.dh { font-size: 10px; fill: var(--texte-2); }
+  svg.mini { width: 120px; height: 12px; display: block; margin-top: 4px; }
+  .lecture { min-height: 1.5em; font-size: var(--t-s); color: var(--texte-2); }
+  .legende { display: flex; flex-wrap: wrap; gap: 4px 12px; align-items: center; color: var(--doux); }
+  .legende .tr { display: inline-block; width: 18px; height: 4px; border-radius: 2px; margin-right: 4px; vertical-align: middle; }
+  .tr--accent { background: var(--accent); } .tr--orange { background: var(--orange); } .tr--rouge { background: var(--rouge); }
+  .tr--bas { background: var(--orange-doux); border: 1px solid var(--orange); height: 10px !important; }
+  .tr--zone { background: var(--vert-doux); border: 1px solid var(--vert-bord); height: 10px !important; } .tr--texte { background: var(--texte); }
+  .zone-reco { display: grid; gap: var(--e1); }
+  h3.sous { font-size: var(--t-m); margin: var(--e4) 0 var(--e1); }
+  .verite-sim { border: 1px solid var(--vert-bord); background: var(--vert-doux); border-radius: var(--r-m); padding: var(--e2) var(--e4); margin-top: var(--e3); font-size: var(--t-s); }
+  .verite-sim ul { list-style: disc; padding-left: var(--e5); margin-top: var(--e1); }
+  .p-champ.modifie { border-color: var(--orange); background: var(--orange-doux); }
+  .origine { color: var(--doux); font-size: var(--t-xs); }
+  .origine s { text-decoration-thickness: 1px; }
+  .barre-p { display: block; height: 6px; border-radius: 3px; background: var(--surface-3); margin-top: 4px; overflow: hidden; max-width: 120px; }
+  .barre-p i { display: block; height: 100%; background: var(--accent); }
+  .nom { font-weight: 600; }
+  .actions-calcul { display: flex; flex-wrap: wrap; gap: var(--e2); align-items: center; margin: var(--e3) 0; }
+
+  /* vérité */
+  .verite { border: 1px solid var(--vert-bord); background: var(--vert-doux); border-radius: var(--r-m); padding: var(--e2) var(--e4); }
+  .verite > summary { cursor: pointer; font-weight: 650; min-height: 40px; display: flex; align-items: center; color: var(--vert); }
+  .verite .contenu { display: grid; gap: var(--e3); padding: var(--e2) 0 var(--e3); }
+  .verite .tableau th { background: transparent; }
+  .oui { color: var(--vert); font-weight: 700; }
+  .non { color: var(--rouge); font-weight: 700; }
+
+  /* ================================================================ formulaires et tableaux de l'étape D */
+  .grille-champs { display: grid; grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); gap: var(--e3) var(--e5); align-items: end; }
+  label { display: grid; gap: 4px; font-size: var(--t-s); color: var(--texte-2); font-weight: 600; min-width: 0; }
+  .champ { min-height: 40px; padding: 0 var(--e3); border: 1px solid var(--bord-fort); border-radius: var(--r-s);
+    background: var(--surface); width: 100%; min-width: 0; font-weight: 400; }
+  .champ.large { max-width: 100%; }
+  .champ.modifie { border-color: var(--orange); background: var(--orange-doux); }
+  td .champ { min-height: 36px; }
+  .ligne-q { display: flex; flex-wrap: wrap; gap: var(--e2); align-items: center; margin-bottom: var(--e2); }
+  .ligne-q .champ { width: auto; flex: 1 1 130px; }
+  .cases { display: grid; grid-template-columns: repeat(auto-fill, minmax(230px, 1fr)); gap: var(--e1) var(--e4); }
+  .cases .controle { min-height: 36px; font-weight: 400; }
+  .btn--plein { background: var(--accent); color: var(--sur-accent); border-color: var(--accent); font-weight: 600; }
+  .btn--plein:hover { background: var(--accent-survol); }
+  .btn[disabled] { opacity: .5; cursor: default; }
+  .barre-enregistrer { display: flex; flex-wrap: wrap; gap: var(--e3); align-items: center; position: sticky; bottom: var(--e3);
+    background: var(--surface); border: 1px solid var(--bord-fort); border-radius: var(--r-m); padding: var(--e3) var(--e4); z-index: 5; box-shadow: var(--ombre-1); }
+  @media (max-width: 639px) { .barre-enregistrer { bottom: 72px; } }
+  .cartes { display: grid; grid-template-columns: repeat(auto-fit, minmax(150px, 1fr)); gap: var(--e3); margin-top: var(--e3); }
+  .carte { background: var(--surface-2); border: 1px solid var(--bord); border-radius: var(--r-m); padding: var(--e3) var(--e4); }
+  .carte b { display: block; font-size: var(--t-2xl); line-height: 1.2; font-variant-numeric: tabular-nums; }
+  .carte span { font-size: var(--t-xs); color: var(--doux); font-weight: 600; text-transform: uppercase; letter-spacing: .03em; }
+</style>
+<body>
+<a class="evitement" href="#contenu">Aller au contenu</a>
+<header class="barre-haut">
+  <div class="conteneur barre-haut__ligne">
+    <a class="marque" href="/ao-ouverts">
+      <span class="marque__logo" aria-hidden="true">
+        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"><path d="M6 7h12M6 12h8M6 17h5"/><circle cx="17.5" cy="16.5" r="2.5"/></svg>
+      </span>
+      <span><b>Marchés publics</b><small>Copilote de soumission</small></span>
+    </a>
+    <nav class="onglets" aria-label="Sections">
+      <a class="onglet" href="/ao-ouverts"><i data-ic="ouverts"></i><span>En cours</span></a>
+      <a class="onglet" href="/app#/marches"><i data-ic="marches"></i><span>Marchés</span></a>
+      <a class="onglet" href="/app#/societes"><i data-ic="societes"></i><span>Sociétés</span></a>
+      <a class="onglet" href="/app#/acheteurs"><i data-ic="acheteurs"></i><span>Maîtres d’ouvrage</span></a>
+      <a class="onglet" href="/copilote/groupes"><i data-ic="groupes"></i><span>Groupes</span></a>
+    </nav>
+    <div class="actions">
+      <button type="button" class="btn-icone" id="bouton-theme"></button>
+      <span class="separateur" aria-hidden="true"></span>
+      <a class="btn-icone" href="/deconnexion" aria-label="Se déconnecter" title="Se déconnecter"><i data-ic="sortie"></i></a>
+    </div>
+  </div>
+</header>
+<p class="bandeau-info" role="note">Estimations statistiques tirées des procès-verbaux publics. Un groupe de présence commune est un signal, pas la preuve d’un accord entre sociétés.</p>
+
+<main id="contenu" class="conteneur" tabindex="-1">
+  <div class="tete-vue">
+    <a class="retour" href="/ao-ouverts">← Appels d’offres ouverts</a>
+    <h1 id="titre" tabindex="-1">Suivi des soumissions</h1>
+    <p>Pour chaque AO soumissionné ou figé : ce qui était prévu, ce qui s’est passé quand le PV est arrivé, et le rang qu’aurait eu notre offre.</p>
+  </div>
+  <div id="corps"><p class="chargement" role="status">Chargement…</p></div>
+</main>
+
+<script>
+'use strict';
+const $ = (s, r = document) => r.querySelector(s);
+const esc = s => String(s ?? '').replace(/[&<>"']/g, c => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[c]));
+const nfEntier = new Intl.NumberFormat('fr-FR', { maximumFractionDigits: 0 });
+const nf1 = new Intl.NumberFormat('fr-FR', { minimumFractionDigits: 1, maximumFractionDigits: 1 });
+const nf2 = new Intl.NumberFormat('fr-FR', { minimumFractionDigits: 2, maximumFractionDigits: 2 });
+const nb = n => n == null ? '—' : nfEntier.format(n);
+const pct = (x, d = 0) => x == null ? '—' : (d ? nf1.format(x * 100) : nfEntier.format(x * 100)) + ' %';
+const ecartPct = x => x == null ? '—' : (x >= 0 ? '+' : '−') + nf1.format(Math.abs(x) * 100) + ' %';
+const taux = x => x == null ? '—' : nf2.format(x);
+const dh = m => m == null ? '—' : nfEntier.format(m) + ' DH';
+const dateFr = s => { if (!s) return '—'; const t = String(s).replace(/-/g, ''); return `${t.slice(6, 8)}/${t.slice(4, 6)}/${t.slice(0, 4)}`; };
+const pluriel = (n, s, p) => `${nfEntier.format(n)} ${n > 1 ? (p || s + 's') : s}`;
+
+const ICONES = {
+  marches: '<path d="M14 3H6a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V9z"/><path d="M14 3v6h6M8 13h8M8 17h5"/>',
+  societes: '<circle cx="9" cy="8" r="4"/><path d="M2 21a7 7 0 0 1 14 0M16 4a4 4 0 0 1 0 8M22 21a7 7 0 0 0-4-6.3"/>',
+  acheteurs: '<path d="M3 21h18M5 21V11M9.5 21V11M14.5 21V11M19 21V11M2 11l10-7 10 7z"/>',
+  ouverts: '<path d="M12 7v5l3 2"/><circle cx="12" cy="12" r="9"/>',
+  groupes: '<circle cx="6" cy="7" r="2.5"/><circle cx="18" cy="7" r="2.5"/><circle cx="12" cy="18" r="2.5"/><path d="M8.5 7h7M7.3 9.2l3.4 6.6M16.7 9.2l-3.4 6.6"/>',
+  sortie: '<path d="M9 21H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h4M16 17l5-5-5-5M21 12H9"/>',
+  soleil: '<circle cx="12" cy="12" r="4"/><path d="M12 2v2M12 20v2M4.9 4.9l1.4 1.4M17.7 17.7l1.4 1.4M2 12h2M20 12h2M4.9 19.1l1.4-1.4M17.7 6.3l1.4-1.4"/>',
+  lune: '<path d="M21 12.8A9 9 0 1 1 11.2 3a7 7 0 0 0 9.8 9.8z"/>',
+};
+const ic = (n, t = 20) => `<svg class="ic" width="${t}" height="${t}" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">${ICONES[n] || ''}</svg>`;
+document.querySelectorAll('i[data-ic]').forEach(i => i.outerHTML = ic(i.dataset.ic));
+
+// ================================================================ thème (même clé que le tableau de bord)
+const btnTheme = $('#bouton-theme');
+const themeActuel = () => document.documentElement.dataset.theme || (matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light');
+function majBoutonTheme() {
+  const sombre = themeActuel() === 'dark', lib = sombre ? 'Passer au thème clair' : 'Passer au thème sombre';
+  btnTheme.innerHTML = ic(sombre ? 'soleil' : 'lune', 20);
+  btnTheme.setAttribute('aria-label', lib); btnTheme.title = lib;
+}
+btnTheme.addEventListener('click', () => {
+  const t = themeActuel() === 'dark' ? 'light' : 'dark';
+  document.documentElement.dataset.theme = t;
+  try { localStorage.setItem('pv-theme', t); } catch (e) {}
+  majBoutonTheme();
+});
+matchMedia('(prefers-color-scheme: dark)').addEventListener('change', majBoutonTheme);
+majBoutonTheme();
+
+// ================================================================ données
+const t3 = x => x == null ? '—' : new Intl.NumberFormat('fr-FR', { minimumFractionDigits: 3, maximumFractionDigits: 3 }).format(x);
+const scenarioLib = { seul: 'Seul', groupement: 'Groupement', sous_traitance: 'Sous-traitance' };
+const decLib = { GO: 'GO', A_ETUDIER: 'À ÉTUDIER', NO_GO: 'NO-GO' };
+const decPuce = { GO: 'puce--ok', A_ETUDIER: 'puce--attention', NO_GO: 'puce--ko' };
+const quand = s => { if (!s) return ''; const d = new Date(s); return isNaN(d) ? esc(s) : d.toLocaleDateString('fr-FR'); };
+
+async function lire(url) {
+  const r = await fetch(url, { credentials: 'same-origin' });
+  let c = null; try { c = await r.json(); } catch (e) {}
+  if (r.status === 401) { location.href = '/copilote/entrer'; throw new Error('Accès au copilote requis'); }
+  if (!r.ok) throw new Error((c && c.detail) || `Erreur ${r.status}`);
+  return c;
+}
+const lien = l => `/copilote/analyse/${encodeURIComponent(l.ref_annonce)}${l.lot ? '?lot=' + encodeURIComponent(l.lot) : ''}`;
+
+function blocBilan(b) {
+  const carte = (v, l) => `<div class="carte"><b>${v}</b><span>${l}</span></div>`;
+  return `<section class="etape" aria-labelledby="b1"><h2 id="b1"><span class="rond">∑</span>Bilan de nos soumissions</h2>
+    <p class="intro">Seules comptent les soumissions réelles dont le PV est dans l’historique ; notre offre est replacée parmi les vraies offres avec la règle de la commission.
+      Les AO de test (REJEU-) sont montrés plus bas mais ne comptent pas ici.</p>
+    <div class="cartes">
+      ${carte(nb(b.soumissions), 'Soumissions')}${carte(nb(b.jugees), 'Jugées (PV connu)')}${carte(nb(b.en_attente), 'En attente du PV')}
+      ${carte(nb(b.gagnees), 'Gagnées')}${carte(b.taux_victoire == null ? '—' : pct(b.taux_victoire, 1), 'Taux de victoire')}
+      ${carte(b.marge_moyenne == null ? '—' : pct(b.marge_moyenne, 1), 'Marge moyenne des victoires')}${carte(b.gain_dh == null ? '—' : dh(b.gain_dh), 'Gain réalisé')}
+    </div>
+    ${b.figees_jugees ? `<p class="doux petit" style="margin-top:12px">AO figés sans soumission, PV connu : ${nb(b.figees_gagnees)} gagné(s) sur ${nb(b.figees_jugees)} au point recommandé figé.</p>` : ''}
+    ${b.jugees && b.jugees < 20 ? `<p class="avertissement" style="margin-top:12px">Seulement ${nb(b.jugees)} soumission(s) jugée(s) : le taux de victoire n’est pas encore significatif.</p>` : ''}
+  </section>`;
+}
+
+function ligneNotre(l) {
+  const s = l.soumission;
+  if (!s) return l.figee && l.figee.x ? `<span class="doux">non soumis ; point recommandé figé : ${t3(l.figee.x)}</span>` : '<span class="doux">non soumis</span>';
+  const x = s.prix_depose / s.estimation;
+  return `<b>${dh(s.prix_depose)}</b> (${t3(x)})<div class="doux petit">coût ${dh(s.cout)} · marge ${pct((s.prix_depose - s.cout) / s.cout, 1)} · ${esc(scenarioLib[s.scenario] || s.scenario)}${s.partenaire ? ' avec ' + esc(s.partenaire) : ''}</div>
+    <div class="origine">${esc(s.auteur)}, ${quand(s.soumis_le)}</div>`;
+}
+function cellDecision(l) {
+  const d = (l.soumission && l.soumission.decision) || (l.figee && l.figee.decision && l.figee.decision.decision);
+  return d ? `<span class="puce ${decPuce[d] || ''}">${esc(decLib[d] || d)}</span>${l.soumission && l.soumission.decision ? '<div class="origine">au dépôt</div>' : '<div class="origine">figée</div>'}` : '—';
+}
+function cellResultat(l) {
+  if (!l.reel) return '<span class="doux">PV pas encore dans l’historique</span>';
+  const n = l.notre;
+  return `${l.reel.nb_concurrents} offres ; gagnant ${esc((l.reel.gagnant && l.reel.gagnant.nom) || '—')}
+    ${n ? `<div>${n.gagne ? '<span class="oui">notre offre gagne ✓</span>' : '<span class="non">notre offre perd ✗</span>'} · rang ${n.rang ?? '—'} sur ${n.nb_offres + 1}<div class="origine">${esc(n.source)}</div></div>` : ''}`;
+}
+function detail(l) {
+  const p = l.prevu, r = l.reel, c = l.comparaison, n = l.notre;
+  if (!p && !r) return '<p class="doux">Rien à comparer pour l’instant.</p>';
+  const lignes = [];
+  if (p && r) {
+    lignes.push(`<tr><td data-l="">Nombre de concurrents</td><td data-l="Prévu">${p.nombre.bas} à ${p.nombre.haut} (le plus probable : ${p.nombre.probable})</td><td data-l="Réel">${r.nb_concurrents} ${c ? (c.dans_fourchette ? '<span class="oui">✓ dans la fourchette</span>' : '<span class="non">✗ hors fourchette</span>') : ''}</td></tr>`);
+    lignes.push(`<tr><td data-l="">Prix de référence</td><td data-l="Prévu">${p.prix_reference == null ? '—' : t3(p.prix_reference) + ' (médiane simulée)'}</td><td data-l="Réel">${r.prix_reference_taux == null ? '—' : t3(r.prix_reference_taux)}${c && c.prix_reference ? (c.prix_reference.dans80 ? ' <span class="oui">✓ dans l’intervalle 80 %</span>' : ' <span class="non">✗ hors intervalle</span>') : ''}</td></tr>`);
+    if (c) lignes.push(`<tr><td data-l="">Sociétés venues et prévues</td><td data-l="Prévu">—</td><td data-l="Réel">${c.venues_prevues} sur ${c.venues}</td></tr>`);
+    lignes.push(`<tr><td data-l="">Gagnant</td><td data-l="Prévu">—</td><td data-l="Réel">${esc((r.gagnant && r.gagnant.nom) || '—')}${r.gagnant && r.gagnant.taux ? ' (taux ' + t3(r.gagnant.taux) + ')' : ''}</td></tr>`);
+  }
+  if (n) lignes.push(`<tr><td data-l="">Notre offre</td><td data-l="Prévu">${l.figee && l.figee.chance != null ? 'chance annoncée ' + pct(l.figee.chance, 1) + ' à ' + t3(l.figee.x) : '—'}</td>
+    <td data-l="Réel">taux ${t3(n.x)} (${esc(n.source)}) : rang ${n.rang ?? '—'}, ${n.gagne ? 'aurait gagné' : 'aurait perdu'} ; prix de référence réel ${t3(n.prix_reference)}</td></tr>`);
+  const societes = r ? `<h4 class="sous">Offres du PV</h4><div class="defile"><table class="tableau"><thead><tr><th>Société</th><th class="num">Taux</th><th>Statut</th></tr></thead><tbody>${
+    r.societes.map(s => `<tr><td data-l="Société">${esc(s.nom)}</td><td data-l="Taux" class="num">${t3(s.taux)}</td><td data-l="Statut">${esc(s.statut || '')}</td></tr>`).join('')}</tbody></table></div>` : '';
+  return `<div class="defile"><table class="tableau"><thead><tr><th></th><th>Prévu</th><th>Réel</th></tr></thead><tbody>${lignes.join('')}</tbody></table></div>${societes}
+    ${l.figee ? `<p class="doux petit">${l.figee.copies} prévision(s) figée(s), la première le ${quand(l.figee.premier_jour)}.</p>` : ''}`;
+}
+function blocLignes(lignes) {
+  if (!lignes.length) return `<section class="etape"><h2><span class="rond">1</span>AO suivis</h2><p class="doux">Rien pour l’instant. Une prévision est figée à la première ouverture de l’analyse d’un vrai AO ;
+    le bouton « J’ai soumissionné » de l’étape ⑥ enregistre un dépôt.</p></section>`;
+  const l = lignes.map((x, k) => `<tr><td data-l="AO"><a class="nom" href="${lien(x)}">${esc(x.ref_annonce)}${x.lot ? ' lot ' + esc(x.lot) : ''}</a>${x.rejeu ? ' <span class="puce">test</span>' : ''}
+      <div class="objet">${esc(x.objet || '')}</div><div class="origine">${esc(x.acheteur || '')}${x.date_limite ? ' · ouverture ' + dateFr(x.date_limite.slice(0, 10)) : ''}</div></td>
+    <td data-l="Notre dépôt">${ligneNotre(x)}</td><td data-l="Décision">${cellDecision(x)}</td><td data-l="Résultat">${cellResultat(x)}</td>
+    <td><button type="button" class="btn btn--sec" data-act="detail" aria-expanded="false">Prévu / réel</button></td></tr>
+    <tr class="detail" data-k="${k}" hidden><td colspan="5">${detail(x)}</td></tr>`).join('');
+  return `<section class="etape" aria-labelledby="b2"><h2 id="b2"><span class="rond">1</span>AO suivis (${lignes.length})</h2>
+    <p class="intro">Les plus récents d’abord. « Prévu / réel » compare la prévision figée avant l’ouverture des plis à ce qui s’est passé.</p>
+    <div class="defile"><table class="tableau"><thead><tr><th>AO</th><th>Notre dépôt</th><th>Décision</th><th>Résultat</th><th></th></tr></thead><tbody>${l}</tbody></table></div></section>`;
+}
+document.addEventListener('click', e => {
+  const b = e.target.closest('[data-act="detail"]');
+  if (!b) return;
+  const suite = b.closest('tr').nextElementSibling;
+  if (suite && suite.classList.contains('detail')) { suite.hidden = !suite.hidden; b.setAttribute('aria-expanded', String(!suite.hidden)); }
+});
+async function demarrer() {
+  try {
+    const r = await lire('/api/copilote/suivi');
+    $('#corps').innerHTML = blocBilan(r.bilan) + blocLignes(r.lignes);
+    document.title = 'Suivi des soumissions — Copilote';
+  } catch (e) { $('#corps').innerHTML = `<p class="erreur">${esc(e.message)}</p>`; }
+}
+demarrer();
+
+</script>
+</body>
+</html>

@@ -49,9 +49,22 @@ def _jour(maintenant: datetime | None = None) -> str:
     return (maintenant or datetime.now(timezone.utc)).date().isoformat()
 
 
-def copie(dossier: dict) -> dict:
-    """Ce qui est figé d'un dossier d'analyse (analyse.analyser)."""
+def copie(dossier: dict, profil: dict | None = None) -> dict:
+    """Ce qui est figé d'un dossier d'analyse (analyse.analyser). `profil` (étape D) : le profil de l'entreprise s'il est
+    configuré ; la décision (coût par défaut, scénario seul) s'ajoute alors sous la clé « decision ». Sans profil, la
+    copie est exactement celle d'avant l'étape D."""
     pr, conc = dossier["probables"], dossier["concurrents"]
+    sortie = _copie(dossier, pr, conc)
+    if profil is not None and "simulation" in sortie:
+        from . import decision_donnees
+        d = decision_donnees.decision_figee(dossier, sortie["simulation"], profil, sortie.pop("_prevu", None))
+        if d is not None:
+            sortie["decision"] = d
+    sortie.pop("_prevu", None)
+    return sortie
+
+
+def _copie(dossier: dict, pr: dict, conc: dict) -> dict:
     return {
         "date_reference": dossier["ao"].get("date_reference"),
         "historique": dossier.get("historique"),
@@ -64,15 +77,25 @@ def copie(dossier: dict) -> dict:
                                                  "dispersion", "decalage", "distribution")},
         "groupes": [{"numero": g["numero"], "chef": g["chef"], "membres": g["membres"],
                      "aussi": [a["cle"] for a in g.get("aussi", [])]} for g in dossier["groupes"]],
-        **({"simulation": simulation_figee(dossier["simulation"]["modele"])} if dossier.get("simulation") else {}),
+        **_simulation_et_prevu(dossier),
     }
 
 
-def simulation_figee(modele: dict) -> dict:
-    """Étape C : la courbe de chance de gagner, la zone recommandée et le prix de référence simulé, calculés par
-    copilote/simulateur.py sur le modèle du dossier (même graine que la page : même résultat)."""
+def _simulation_et_prevu(dossier: dict) -> dict:
+    if not dossier.get("simulation"):
+        return {}
     from . import simulateur
-    s = simulateur.simuler(modele, central=False)
+    s = simulateur.simuler(dossier["simulation"]["modele"], central=False)
+    return {"simulation": simulation_figee(dossier["simulation"]["modele"], s), "_prevu": s["nombre_prevu"]}
+
+
+def simulation_figee(modele: dict, s: dict | None = None) -> dict:
+    """Étape C : la courbe de chance de gagner, la zone recommandée et le prix de référence simulé, calculés par
+    copilote/simulateur.py sur le modèle du dossier (même graine que la page : même résultat). `s` : la sortie de
+    simulateur.simuler si elle est déjà calculée."""
+    from . import simulateur
+    if s is None:
+        s = simulateur.simuler(modele, central=False)
     r4 = lambda v: None if v is None else round(v, 5)       # noqa: E731
     return {"graine": s["graine"], "scenarios": s["scenarios"], "grille": modele.get("grille"),
             "estimation": modele.get("estimation"), "chance": [round(c, 5) for c in s["chance"]],
@@ -94,9 +117,16 @@ def figer(ret, dossier: dict, maintenant: datetime | None = None) -> str:
         " objet, date_limite, prevision) VALUES (?,?,?,?,?,?,?,?,?,?,?)",
         (ao["ref_annonce"], ao.get("lot") or "", _jour(m), m.isoformat(timespec="seconds"), pr.get("version") or "",
          pr.get("empreinte") or "", ao.get("reference"), ao.get("acheteur"), ao.get("objet"), ao.get("date_limite"),
-         json.dumps(copie(dossier), ensure_ascii=False, separators=(",", ":"))))
+         json.dumps(copie(dossier, _profil(ret)), ensure_ascii=False, separators=(",", ":"))))
     ret.commit()
     return "enregistree" if cur.rowcount else "deja"
+
+
+def _profil(ret) -> dict | None:
+    """Le profil de l'entreprise (étape D) s'il est configuré, sinon None : la copie reste alors celle d'avant D."""
+    from . import entreprise
+    p = entreprise.lire(ret)
+    return p if p["configure"] else None
 
 
 def deja_fige(ret, ref_annonce: str, lot: str | None, maintenant: datetime | None = None) -> bool:

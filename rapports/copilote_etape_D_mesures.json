@@ -1,0 +1,474 @@
+{
+ "marches_2026": 493,
+ "marches_2025": 296,
+ "marge_min": 0.05,
+ "seuils_choisis_sur_2025": {
+  "gain_go": 0.015,
+  "chance_go": 0.1,
+  "gain_total_dh": 481669601
+ },
+ "essais_2025": [
+  {
+   "gain_go": 0.005,
+   "chance_go": 0.05,
+   "gain_total_dh": 481669601
+  },
+  {
+   "gain_go": 0.005,
+   "chance_go": 0.1,
+   "gain_total_dh": 481669601
+  },
+  {
+   "gain_go": 0.005,
+   "chance_go": 0.15,
+   "gain_total_dh": 481035242
+  },
+  {
+   "gain_go": 0.005,
+   "chance_go": 0.2,
+   "gain_total_dh": 478757131
+  },
+  {
+   "gain_go": 0.005,
+   "chance_go": 0.3,
+   "gain_total_dh": 420716346
+  },
+  {
+   "gain_go": 0.01,
+   "chance_go": 0.05,
+   "gain_total_dh": 481669601
+  },
+  {
+   "gain_go": 0.01,
+   "chance_go": 0.1,
+   "gain_total_dh": 481669601
+  },
+  {
+   "gain_go": 0.01,
+   "chance_go": 0.15,
+   "gain_total_dh": 481035242
+  },
+  {
+   "gain_go": 0.01,
+   "chance_go": 0.2,
+   "gain_total_dh": 478757131
+  },
+  {
+   "gain_go": 0.01,
+   "chance_go": 0.3,
+   "gain_total_dh": 420716346
+  },
+  {
+   "gain_go": 0.015,
+   "chance_go": 0.05,
+   "gain_total_dh": 481669601
+  },
+  {
+   "gain_go": 0.015,
+   "chance_go": 0.1,
+   "gain_total_dh": 481669601
+  },
+  {
+   "gain_go": 0.015,
+   "chance_go": 0.15,
+   "gain_total_dh": 481035242
+  },
+  {
+   "gain_go": 0.015,
+   "chance_go": 0.2,
+   "gain_total_dh": 478757131
+  },
+  {
+   "gain_go": 0.015,
+   "chance_go": 0.3,
+   "gain_total_dh": 420716346
+  },
+  {
+   "gain_go": 0.02,
+   "chance_go": 0.05,
+   "gain_total_dh": 480751448
+  },
+  {
+   "gain_go": 0.02,
+   "chance_go": 0.1,
+   "gain_total_dh": 480751448
+  },
+  {
+   "gain_go": 0.02,
+   "chance_go": 0.15,
+   "gain_total_dh": 480446743
+  },
+  {
+   "gain_go": 0.02,
+   "chance_go": 0.2,
+   "gain_total_dh": 478369954
+  },
+  {
+   "gain_go": 0.02,
+   "chance_go": 0.3,
+   "gain_total_dh": 420716346
+  },
+  {
+   "gain_go": 0.03,
+   "chance_go": 0.05,
+   "gain_total_dh": 470454150
+  },
+  {
+   "gain_go": 0.03,
+   "chance_go": 0.1,
+   "gain_total_dh": 470454150
+  },
+  {
+   "gain_go": 0.03,
+   "chance_go": 0.15,
+   "gain_total_dh": 470454150
+  },
+  {
+   "gain_go": 0.03,
+   "chance_go": 0.2,
+   "gain_total_dh": 469549006
+  },
+  {
+   "gain_go": 0.03,
+   "chance_go": 0.3,
+   "gain_total_dh": 420716346
+  }
+ ],
+ "couts": {
+  "0.80": {
+   "regle_go": {
+    "joues": 493,
+    "victoires": 207,
+    "gain_dh": 617310472,
+    "gain_points": 41.9915,
+    "taux_victoire": 0.4198782961460446,
+    "gain_par_ao_joue_dh": 1252151,
+    "marches": 493,
+    "decisions": {
+     "GO": 493,
+     "A_ETUDIER": 0,
+     "NO_GO": 0
+    },
+    "petits_marches": {
+     "joues": 198,
+     "victoires": 111,
+     "gain_dh": 530598616,
+     "gain_points": 22.971,
+     "taux_victoire": 0.5606060606060606,
+     "gain_par_ao_joue_dh": 2679791,
+     "marches": 0
+    },
+    "gros_marches": {
+     "joues": 295,
+     "victoires": 96,
+     "gain_dh": 86711856,
+     "gain_points": 19.0205,
+     "taux_victoire": 0.3254237288135593,
+     "gain_par_ao_joue_dh": 293938,
+     "marches": 0
+    }
+   },
+   "regle_go_ou_a_etudier": {
+    "joues": 493,
+    "victoires": 207,
+    "gain_dh": 617310472,
+    "gain_points": 41.9915,
+    "taux_victoire": 0.4198782961460446,
+    "gain_par_ao_joue_dh": 1252151,
+    "marches": 493,
+    "decisions": {
+     "GO": 493,
+     "A_ETUDIER": 0,
+     "NO_GO": 0
+    },
+    "petits_marches": {
+     "joues": 198,
+     "victoires": 111,
+     "gain_dh": 530598616,
+     "gain_points": 22.971,
+     "taux_victoire": 0.5606060606060606,
+     "gain_par_ao_joue_dh": 2679791,
+     "marches": 0
+    },
+    "gros_marches": {
+     "joues": 295,
+     "victoires": 96,
+     "gain_dh": 86711856,
+     "gain_points": 19.0205,
+     "taux_victoire": 0.3254237288135593,
+     "gain_par_ao_joue_dh": 293938,
+     "marches": 0
+    }
+   },
+   "toujours_0_95": {
+    "joues": 493,
+    "victoires": 236,
+    "gain_dh": 527334341,
+    "gain_points": 35.4,
+    "taux_victoire": 0.4787018255578093,
+    "gain_par_ao_joue_dh": 1069644,
+    "marches": 493
+   },
+   "taux_fixe_2025_global": {
+    "taux": 1.0375,
+    "joues": 493,
+    "victoires": 166,
+    "gain_dh": 706356391,
+    "gain_points": 39.425,
+    "taux_victoire": 0.3367139959432049,
+    "gain_par_ao_joue_dh": 1432772,
+    "marches": 493
+   },
+   "taux_fixe_2025_par_tiers": {
+    "taux": [
+     1.0425,
+     1.0225,
+     1.025
+    ],
+    "joues": 493,
+    "victoires": 178,
+    "gain_dh": 658861909,
+    "gain_points": 41.6175,
+    "taux_victoire": 0.36105476673427994,
+    "gain_par_ao_joue_dh": 1336434,
+    "marches": 493
+   },
+   "taux_fixe_c2_meilleure_victoire": {
+    "taux": 0.82,
+    "joues": 493,
+    "victoires": 286,
+    "gain_dh": 70697522,
+    "gain_points": 5.72,
+    "taux_victoire": 0.5801217038539553,
+    "gain_par_ao_joue_dh": 143403,
+    "marches": 493
+   },
+   "regle_au_moins_aussi_bonne_que_les_trois": false
+  },
+  "0.85": {
+   "regle_go": {
+    "joues": 493,
+    "victoires": 207,
+    "gain_dh": 496995887,
+    "gain_points": 32.871,
+    "taux_victoire": 0.4198782961460446,
+    "gain_par_ao_joue_dh": 1008105,
+    "marches": 493,
+    "decisions": {
+     "GO": 493,
+     "A_ETUDIER": 0,
+     "NO_GO": 0
+    },
+    "petits_marches": {
+     "joues": 198,
+     "victoires": 113,
+     "gain_dh": 426015566,
+     "gain_points": 18.28,
+     "taux_victoire": 0.5707070707070707,
+     "gain_par_ao_joue_dh": 2151594,
+     "marches": 0
+    },
+    "gros_marches": {
+     "joues": 295,
+     "victoires": 94,
+     "gain_dh": 70980321,
+     "gain_points": 14.591,
+     "taux_victoire": 0.31864406779661014,
+     "gain_par_ao_joue_dh": 240611,
+     "marches": 0
+    }
+   },
+   "regle_go_ou_a_etudier": {
+    "joues": 493,
+    "victoires": 207,
+    "gain_dh": 496995887,
+    "gain_points": 32.871,
+    "taux_victoire": 0.4198782961460446,
+    "gain_par_ao_joue_dh": 1008105,
+    "marches": 493,
+    "decisions": {
+     "GO": 493,
+     "A_ETUDIER": 0,
+     "NO_GO": 0
+    },
+    "petits_marches": {
+     "joues": 198,
+     "victoires": 113,
+     "gain_dh": 426015566,
+     "gain_points": 18.28,
+     "taux_victoire": 0.5707070707070707,
+     "gain_par_ao_joue_dh": 2151594,
+     "marches": 0
+    },
+    "gros_marches": {
+     "joues": 295,
+     "victoires": 94,
+     "gain_dh": 70980321,
+     "gain_points": 14.591,
+     "taux_victoire": 0.31864406779661014,
+     "gain_par_ao_joue_dh": 240611,
+     "marches": 0
+    }
+   },
+   "toujours_0_95": {
+    "joues": 493,
+    "victoires": 236,
+    "gain_dh": 351556227,
+    "gain_points": 23.6,
+    "taux_victoire": 0.4787018255578093,
+    "gain_par_ao_joue_dh": 713096,
+    "marches": 493
+   },
+   "taux_fixe_2025_global": {
+    "taux": 1.05,
+    "joues": 493,
+    "victoires": 129,
+    "gain_dh": 503669760,
+    "gain_points": 25.8,
+    "taux_victoire": 0.2616632860040568,
+    "gain_par_ao_joue_dh": 1021643,
+    "marches": 493
+   },
+   "taux_fixe_2025_par_tiers": {
+    "taux": [
+     1.0425,
+     1.05,
+     1.025
+    ],
+    "joues": 493,
+    "victoires": 140,
+    "gain_dh": 491183798,
+    "gain_points": 26.9325,
+    "taux_victoire": 0.2839756592292089,
+    "gain_par_ao_joue_dh": 996316,
+    "marches": 493
+   },
+   "taux_fixe_c2_meilleure_victoire": {
+    "taux": 0.82,
+    "joues": 493,
+    "victoires": 286,
+    "gain_dh": -106046283,
+    "gain_points": -8.58,
+    "taux_victoire": 0.5801217038539553,
+    "gain_par_ao_joue_dh": -215104,
+    "marches": 493
+   },
+   "regle_au_moins_aussi_bonne_que_les_trois": false
+  },
+  "0.90": {
+   "regle_go": {
+    "joues": 492,
+    "victoires": 215,
+    "gain_dh": 318817179,
+    "gain_points": 25.121,
+    "taux_victoire": 0.4369918699186992,
+    "gain_par_ao_joue_dh": 648002,
+    "marches": 493,
+    "decisions": {
+     "GO": 492,
+     "A_ETUDIER": 1,
+     "NO_GO": 0
+    },
+    "petits_marches": {
+     "joues": 198,
+     "victoires": 115,
+     "gain_dh": 265842998,
+     "gain_points": 13.829,
+     "taux_victoire": 0.5808080808080808,
+     "gain_par_ao_joue_dh": 1342641,
+     "marches": 0
+    },
+    "gros_marches": {
+     "joues": 294,
+     "victoires": 100,
+     "gain_dh": 52974181,
+     "gain_points": 11.292,
+     "taux_victoire": 0.3401360544217687,
+     "gain_par_ao_joue_dh": 180184,
+     "marches": 0
+    }
+   },
+   "regle_go_ou_a_etudier": {
+    "joues": 493,
+    "victoires": 215,
+    "gain_dh": 318817179,
+    "gain_points": 25.121,
+    "taux_victoire": 0.43610547667342797,
+    "gain_par_ao_joue_dh": 646688,
+    "marches": 493,
+    "decisions": {
+     "GO": 492,
+     "A_ETUDIER": 1,
+     "NO_GO": 0
+    },
+    "petits_marches": {
+     "joues": 198,
+     "victoires": 115,
+     "gain_dh": 265842998,
+     "gain_points": 13.829,
+     "taux_victoire": 0.5808080808080808,
+     "gain_par_ao_joue_dh": 1342641,
+     "marches": 0
+    },
+    "gros_marches": {
+     "joues": 295,
+     "victoires": 100,
+     "gain_dh": 52974181,
+     "gain_points": 11.292,
+     "taux_victoire": 0.3389830508474576,
+     "gain_par_ao_joue_dh": 179573,
+     "marches": 0
+    }
+   },
+   "toujours_0_95": {
+    "joues": 493,
+    "victoires": 236,
+    "gain_dh": 175778114,
+    "gain_points": 11.8,
+    "taux_victoire": 0.4787018255578093,
+    "gain_par_ao_joue_dh": 356548,
+    "marches": 493
+   },
+   "taux_fixe_2025_global": {
+    "taux": 1.05,
+    "joues": 493,
+    "victoires": 129,
+    "gain_dh": 377752320,
+    "gain_points": 19.35,
+    "taux_victoire": 0.2616632860040568,
+    "gain_par_ao_joue_dh": 766232,
+    "marches": 493
+   },
+   "taux_fixe_2025_par_tiers": {
+    "taux": [
+     1.05,
+     1.05,
+     1.025
+    ],
+    "joues": 493,
+    "victoires": 133,
+    "gain_dh": 377715567,
+    "gain_points": 19.625,
+    "taux_victoire": 0.2697768762677485,
+    "gain_par_ao_joue_dh": 766157,
+    "marches": 493
+   },
+   "taux_fixe_c2_meilleure_victoire": {
+    "taux": 0.82,
+    "joues": 493,
+    "victoires": 286,
+    "gain_dh": -282790089,
+    "gain_points": -22.88,
+    "taux_victoire": 0.5801217038539553,
+    "gain_par_ao_joue_dh": -573611,
+    "marches": 493
+   },
+   "regle_au_moins_aussi_bonne_que_les_trois": false
+  }
+ },
+ "feu_vert": {
+  "couts_ok": 0,
+  "sur": 3,
+  "ok": false
+ }
+}

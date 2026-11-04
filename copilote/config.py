@@ -37,6 +37,13 @@ def code_exige() -> bool:
     return os.environ.get("COPILOTE_CODE_EXIGE", "").strip() == "1"
 
 
+def prive() -> bool:
+    """COPILOTE_PRIVE=1 : la page « notre entreprise », la décision (étape ⑥ et son API), « J'ai soumissionné » et le
+    suivi exigent le code COPILOTE_ACCES, même si COPILOTE_CODE_EXIGE n'est pas posé. Éteint par défaut (décision de
+    Hamza du 04/11/2026) : à activer avant d'ouvrir le site à des clients. Lu à chaque requête."""
+    return os.environ.get("COPILOTE_PRIVE", "").strip() == "1"
+
+
 def chemin_historique() -> Path:
     """pv_travaux.db : celle que serveur.py sert (BASE), sinon celle posée à côté du script."""
     if os.environ.get("BASE"):

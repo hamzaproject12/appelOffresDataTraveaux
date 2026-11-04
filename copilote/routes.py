@@ -31,7 +31,8 @@ from fastapi.responses import FileResponse, HTMLResponse, JSONResponse, PlainTex
 from pydantic import BaseModel, Field
 
 from . import (acces, acheteurs, analyse, api_groupes, api_similaires, autour_societe, bases, config,
-               fiche_societe, probables, rejeu, similarite, suivi, verite_rejeu)
+               decision_donnees, entreprise, fiche_societe, probables, rejeu, similarite, soumissions, suivi,
+               suivi_page, verite_rejeu)
 from . import fusions as _fusions
 from . import groupes as groupes_mod
 
@@ -130,6 +131,51 @@ fetch('/api/copilote/etat').then(r => r.json()).then(e => {
 </script></body></html>""")
 
 
+class QualifEntree(BaseModel):
+    code: str = Field(..., min_length=1, max_length=40)
+    classe: str = Field(..., min_length=1, max_length=10)
+
+
+class CoutFamilleEntree(BaseModel):
+    famille: str = Field(..., max_length=60)
+    cout: float | None = None
+
+
+class ProfilEntree(BaseModel):
+    """Notre entreprise (hors partenaires). Les pourcentages sont des fractions : 0,05 = 5 %."""
+    marge_min: float | None = None
+    cout_defaut: float | None = None
+    plan_charge_max: int | None = Field(None, ge=0, le=1000)
+    qualifs: list[QualifEntree] = Field(default_factory=list, max_length=80)
+    regions: list[str] = Field(default_factory=list, max_length=20)
+    familles: list[str] = Field(default_factory=list, max_length=40)
+    couts_famille: list[CoutFamilleEntree] = Field(default_factory=list, max_length=40)
+
+
+class PartenaireEntree(BaseModel):
+    nom: str = Field(..., min_length=1, max_length=120)
+    type: Literal["groupement", "sous_traitant", "fournisseur"]
+    specialite: str = Field("", max_length=200)
+    qualifs: list[QualifEntree] = Field(default_factory=list, max_length=40)
+    effet_cout: float = 0.0
+    effet_cout_unite: Literal["pct", "dh"] = "pct"
+    commentaire: str = Field("", max_length=500)
+
+
+class SoumissionEntree(BaseModel):
+    """« J'ai soumissionné » : l'auteur vient de la session. L'estimation, la date limite, l'objet et l'acheteur sont
+    relus dans l'AO par le serveur."""
+    ref_annonce: str = Field(..., min_length=1, max_length=120)
+    lot: str | None = Field(None, max_length=40)
+    prix_depose: float = Field(..., gt=0)
+    cout: float = Field(..., gt=0)
+    scenario: Literal["seul", "groupement", "sous_traitance"]
+    partenaire: str = Field("", max_length=120)
+    decision: str = Field("", max_length=20)
+    instantane: dict = Field(default_factory=dict)
+    commentaire: str = Field("", max_length=500)
+
+
 def _etat_base(chemin: Path, mode: str, requete: str | None, ouvrir) -> dict:
     """Existence, taille et un compte indicatif, sans jamais lever : c'est un tableau de bord."""
     etat = {"mode": mode, "existe": Path(chemin).exists(), "taille_mo": None, "contenu": None}
@@ -178,6 +224,13 @@ def creer_routeur(secret: bytes, base: Path | str, ao_base: Path | str,
         s = garde_visiteur(request)
         return {"nom": s["n"], "visiteur": s["n"]}
 
+    def garde_prive(request: Request) -> dict:
+        """Les quatre parties de l'étape D (entreprise, décision, soumissions, suivi) : le code COPILOTE_ACCES si
+        COPILOTE_PRIVE=1 (à activer avant d'ouvrir le site à des clients) ; sinon comme le reste du copilote."""
+        if config.prive():
+            return garde_code(request)
+        return garde(request)
+
     def noter(request: Request, session: dict, action: str, details: str = "") -> None:
         if journaliser:
             try:
@@ -188,6 +241,7 @@ def creer_routeur(secret: bytes, base: Path | str, ao_base: Path | str,
     public = APIRouter()
     visiteur = APIRouter(dependencies=[Depends(garde_visiteur)])
     protege = APIRouter(dependencies=[Depends(garde)])
+    prive = APIRouter(dependencies=[Depends(garde_prive)])
 
     @public.get("/copilote/entrer", response_class=HTMLResponse)
     def entrer_page(request: Request, e: str = ""):
@@ -440,10 +494,9 @@ def creer_routeur(secret: bytes, base: Path | str, ao_base: Path | str,
 
     analyses_en_memoire: "OrderedDict[tuple, bytes]" = OrderedDict()
 
-    @protege.get("/api/copilote/analyse/{ref_annonce}")
-    def analyse_ao(ref_annonce: str = ParamChemin(max_length=120), lot: str | None = Query(None, max_length=40)):
-        """Le dossier d'analyse d'un AO : similaires, sociétés probables, groupes, nombre de concurrents.
-        Gardé en mémoire tant que l'AO, l'historique, les fusions et les coefficients ne changent pas."""
+    def dossier_brut(ref_annonce: str, lot: str | None) -> bytes:
+        """Le dossier d'analyse d'un AO (JSON), gardé en mémoire tant que l'AO, l'historique, les fusions et les
+        coefficients ne changent pas. Fige la prévision du jour d'un vrai AO. Lève HTTPException / ErreurAnalyse."""
         try:
             st = bases.chemin_historique().stat()
         except OSError:
@@ -452,29 +505,35 @@ def creer_routeur(secret: bytes, base: Path | str, ao_base: Path | str,
             coef = probables.FICHIER.stat().st_mtime_ns
         except OSError:
             coef = None
+        with closing(bases.calcul()) as calc, closing(bases.retours()) as ret, closing(bases.ao_ouverts()) as ao:
+            maj = ao.execute("SELECT maj_le FROM appels_ouverts WHERE ref_annonce = ?", (ref_annonce,)).fetchone()
+            version = (ref_annonce, lot, st.st_mtime_ns, st.st_size, coef, maj[0] if maj else None,
+                       tuple(sorted(_fusions.charger().items())), date.today().isoformat())
+            brut = analyses_en_memoire.get(version)
+            if brut is None:
+                r = analyse.analyser(ref_annonce, lot, ouvrir_historique=bases.historique,
+                                     chemin_historique=bases.chemin_historique(), ao=ao, calc=calc, ret=ret)
+                brut = json.dumps(r, ensure_ascii=False, separators=(",", ":")).encode()
+                analyses_en_memoire[version] = brut
+                while len(analyses_en_memoire) > 16:
+                    analyses_en_memoire.popitem(last=False)
+            else:
+                analyses_en_memoire.move_to_end(version)
+            # Point 4 : une copie figée de la prévision d'un vrai AO, au plus une par jour. Un échec
+            # d'écriture ne doit jamais empêcher d'afficher l'analyse.
+            if not rejeu.est_un_rejeu(ref_annonce):
+                try:
+                    if not suivi.deja_fige(ret, ref_annonce, lot):
+                        suivi.figer(ret, json.loads(brut))
+                except sqlite3.Error as e:
+                    print(f"[copilote] prévision de {ref_annonce} non figée : {e}", flush=True)
+        return brut
+
+    @protege.get("/api/copilote/analyse/{ref_annonce}")
+    def analyse_ao(ref_annonce: str = ParamChemin(max_length=120), lot: str | None = Query(None, max_length=40)):
+        """Le dossier d'analyse d'un AO : similaires, sociétés probables, groupes, nombre de concurrents."""
         try:
-            with closing(bases.calcul()) as calc, closing(bases.retours()) as ret, closing(bases.ao_ouverts()) as ao:
-                maj = ao.execute("SELECT maj_le FROM appels_ouverts WHERE ref_annonce = ?", (ref_annonce,)).fetchone()
-                version = (ref_annonce, lot, st.st_mtime_ns, st.st_size, coef, maj[0] if maj else None,
-                           tuple(sorted(_fusions.charger().items())), date.today().isoformat())
-                brut = analyses_en_memoire.get(version)
-                if brut is None:
-                    r = analyse.analyser(ref_annonce, lot, ouvrir_historique=bases.historique,
-                                         chemin_historique=bases.chemin_historique(), ao=ao, calc=calc, ret=ret)
-                    brut = json.dumps(r, ensure_ascii=False, separators=(",", ":")).encode()
-                    analyses_en_memoire[version] = brut
-                    while len(analyses_en_memoire) > 16:
-                        analyses_en_memoire.popitem(last=False)
-                else:
-                    analyses_en_memoire.move_to_end(version)
-                # Point 4 : une copie figée de la prévision d'un vrai AO, au plus une par jour. Un échec
-                # d'écriture ne doit jamais empêcher d'afficher l'analyse.
-                if not rejeu.est_un_rejeu(ref_annonce):
-                    try:
-                        if not suivi.deja_fige(ret, ref_annonce, lot):
-                            suivi.figer(ret, json.loads(brut))
-                    except sqlite3.Error as e:
-                        print(f"[copilote] prévision de {ref_annonce} non figée : {e}", flush=True)
+            brut = dossier_brut(ref_annonce, lot)
         except FileNotFoundError as e:
             raise HTTPException(503, str(e))
         except api_similaires.ErreurAnalyse as e:
@@ -519,6 +578,119 @@ def creer_routeur(secret: bytes, base: Path | str, ao_base: Path | str,
             raise HTTPException(404, "Pas de résultat connu pour cet AO")
         return JSONResponse(v, headers=SANS_CACHE)
 
+    # ------------------------------------------------------------------ étape D : entreprise, décision, suivi
+    @protege.get("/copilote/decision.js")
+    def script_decision(request: Request):
+        """La décision GO / À ÉTUDIER / NO-GO, copie JavaScript de copilote/decision.py (du code, pas des données)."""
+        return page_statique(request, "decision.js")
+
+    @prive.get("/copilote/entreprise")
+    def page_entreprise(request: Request):
+        return page_statique(request, "copilote_entreprise.html", NOINDEX)
+
+    @prive.get("/copilote/suivi")
+    def page_suivi(request: Request):
+        return page_statique(request, "copilote_suivi.html", NOINDEX)
+
+    @prive.get("/api/copilote/entreprise")
+    def lire_entreprise(session: dict = Depends(garde_prive)):
+        with closing(bases.retours()) as ret:
+            return JSONResponse({"auteur": session["nom"], "profil": entreprise.lire(ret),
+                                 "referentiel": entreprise.referentiel(), "journal": entreprise.journal(ret)},
+                                headers=SANS_CACHE)
+
+    @prive.put("/api/copilote/entreprise")
+    def ecrire_entreprise(request: Request, p: ProfilEntree, session: dict = Depends(garde_prive)):
+        with closing(bases.retours()) as ret:
+            try:
+                profil = entreprise.ecrire(ret, p.model_dump(), session["nom"])
+            except entreprise.ProfilInvalide as e:
+                raise HTTPException(422, str(e)) from None
+            journal = entreprise.journal(ret)
+        noter(request, session, "entreprise_profil")
+        return JSONResponse({"profil": profil, "journal": journal}, headers=SANS_CACHE)
+
+    @prive.post("/api/copilote/entreprise/partenaires")
+    def ajouter_partenaire(request: Request, p: PartenaireEntree, session: dict = Depends(garde_prive)):
+        with closing(bases.retours()) as ret:
+            try:
+                nouveau = entreprise.enregistrer_partenaire(ret, p.model_dump(), session["nom"])
+            except entreprise.ProfilInvalide as e:
+                raise HTTPException(422, str(e)) from None
+        noter(request, session, "entreprise_partenaire", f"ajout {nouveau['nom']}")
+        return JSONResponse(nouveau, headers=SANS_CACHE)
+
+    @prive.put("/api/copilote/entreprise/partenaires/{pid}")
+    def changer_partenaire(request: Request, p: PartenaireEntree, pid: int = ParamChemin(ge=1),
+                           session: dict = Depends(garde_prive)):
+        with closing(bases.retours()) as ret:
+            try:
+                nouveau = entreprise.enregistrer_partenaire(ret, p.model_dump(), session["nom"], pid)
+            except entreprise.ProfilInvalide as e:
+                raise HTTPException(422, str(e)) from None
+            except LookupError:
+                raise HTTPException(404, "Partenaire introuvable") from None
+        noter(request, session, "entreprise_partenaire", f"changement {nouveau['nom']}")
+        return JSONResponse(nouveau, headers=SANS_CACHE)
+
+    @prive.delete("/api/copilote/entreprise/partenaires/{pid}")
+    def retirer_partenaire(request: Request, pid: int = ParamChemin(ge=1), session: dict = Depends(garde_prive)):
+        with closing(bases.retours()) as ret:
+            try:
+                entreprise.supprimer_partenaire(ret, pid, session["nom"])
+            except LookupError:
+                raise HTTPException(404, "Partenaire introuvable") from None
+        noter(request, session, "entreprise_partenaire", f"retrait {pid}")
+        return JSONResponse({"ok": True}, headers=SANS_CACHE)
+
+    @prive.get("/api/copilote/decision/{ref_annonce}")
+    def donnees_decision(ref_annonce: str = ParamChemin(max_length=120), lot: str | None = Query(None, max_length=40)):
+        """Ce qui complète le dossier d'analyse pour l'étape ⑥ : notre profil, les qualifications de l'AO, l'historique
+        de l'acheteur, le plan de charge, le délai, la soumission déjà enregistrée, les seuils et les phrases."""
+        try:
+            dossier = json.loads(dossier_brut(ref_annonce, lot))
+            with closing(bases.ao_ouverts()) as ao, closing(bases.historique()) as hist, closing(bases.retours()) as ret:
+                r = decision_donnees.donnees(dossier, ao, hist, ret)
+        except FileNotFoundError as e:
+            raise HTTPException(503, str(e))
+        except api_similaires.ErreurAnalyse as e:
+            return JSONResponse({"detail": str(e), **e.extra}, status_code=e.statut, headers=SANS_CACHE)
+        return JSONResponse(r, headers=SANS_CACHE)
+
+    @prive.post("/api/copilote/soumissions")
+    def soumettre(request: Request, s: SoumissionEntree, session: dict = Depends(garde_prive)):
+        """« J'ai soumissionné » : l'estimation, la date limite, l'objet et l'acheteur sont relus dans l'AO."""
+        try:
+            with closing(bases.ao_ouverts()) as ao:
+                d = api_similaires.lire_ao(ao, s.ref_annonce, s.lot)
+        except FileNotFoundError as e:
+            raise HTTPException(503, str(e))
+        except api_similaires.ErreurAnalyse as e:
+            raise HTTPException(e.statut, str(e)) from None
+        ligne, lot = d["ligne"], d["lot"]
+        estimation = (lot or {}).get("estimation") or ligne.get("estimation")
+        if not estimation:
+            raise HTTPException(422, "Cet AO n'a pas d'estimation : impossible de situer le prix déposé")
+        with closing(bases.retours()) as ret:
+            try:
+                r = soumissions.enregistrer(ret, {
+                    **s.model_dump(), "lot": s.lot or "", "estimation": estimation, "date_limite": ligne.get("date_limite"),
+                    "objet": ligne.get("objet"), "acheteur": ligne.get("acheteur")}, session["nom"])
+            except soumissions.SoumissionInvalide as e:
+                raise HTTPException(422, str(e)) from None
+        noter(request, session, "soumission", f"{s.ref_annonce}{':' + s.lot if s.lot else ''}")
+        return JSONResponse(r, headers=SANS_CACHE)
+
+    @prive.get("/api/copilote/suivi")
+    def donnees_suivi():
+        try:
+            mem = probables.memoire(bases.historique, bases.chemin_historique())
+        except FileNotFoundError as e:
+            raise HTTPException(503, str(e))
+        with closing(bases.retours()) as ret, closing(bases.calcul()) as calc:
+            r = suivi_page.tableau(ret, lambda ref, lot: verite_rejeu.pour_lot(calc, ref, lot), mem)
+        return JSONResponse(r, headers=SANS_CACHE)
+
     def prechauffer() -> None:
         """Au démarrage, en arrière-plan : l'index de similarité et les victoires de chaque société
         (la première fiche ouverte les paierait sinon). Ne bloque ni ne fait échouer le serveur si
@@ -551,4 +723,5 @@ def creer_routeur(secret: bytes, base: Path | str, ao_base: Path | str,
     routeur.include_router(public)
     routeur.include_router(visiteur)
     routeur.include_router(protege)
+    routeur.include_router(prive)
     return routeur

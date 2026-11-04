@@ -1,0 +1,32 @@
+{
+ "_aide": "Phrases de l'étape ⑥ « Décision ». Chaque {nom:format} est remplacé par un chiffre calculé (formats : dh, pct, pct0, t3, n1, n, s). Lu par copilote/decision.py et par la page (statique/decision.js).",
+ "hypothese": "Hypothèse : les concurrents gardent leur comportement habituel (taux appris sur leur historique, tels qu'ils sont simulés en ④ et ⑤).",
+ "decisions": {
+  "GO": "GO",
+  "A_ETUDIER": "À ÉTUDIER",
+  "NO_GO": "NO-GO"
+ },
+ "raisons": {
+  "delai_depasse": "La date limite est dépassée depuis {jours:n} jour(s).",
+  "delai_court": "Il reste {jours:n} jour(s) avant la date limite (minimum conseillé : {minimum:n}).",
+  "non_eligible": "Vous n'êtes pas éligible seul : il manque {liste}. Seul un groupement déclaré dont un membre a la qualification et la classe peut y répondre.",
+  "eligibilite_incertaine": "Éligibilité à vérifier : {liste}.",
+  "plage_vide": "Avec un coût de {cout_dh:dh} DH, le prix minimal ({xmin_dh:dh} DH, soit {xmin:t3} de l'estimation) dépasse le plafond de {xmax:t3} : aucun prix possible.",
+  "aucun_gain": "Aucun prix entre {xmin:t3} et {xmax:t3} de l'estimation ne donne un gain espéré suffisant : le maximum est {gain_dh:dh} DH ({gain:pct} de l'estimation) à {x:t3}, pour un seuil de {seuil:pct}.",
+  "chance_faible": "Au prix recommandé ({x:t3}), la chance de gagner n'est que de {chance:pct}, sous le seuil de {seuil:pct0}.",
+  "chance_moyenne": "Au prix recommandé ({x:t3}), la chance de gagner est de {chance:pct}, sous les {seuil:pct0} d'un GO.",
+  "chance_ok": "Au prix recommandé ({x:t3}), la chance de gagner est de {chance:pct}.",
+  "gain_moyen": "Le gain espéré est de {gain_dh:dh} DH ({gain:pct} de l'estimation) au prix recommandé {x:t3} ({prix_dh:dh} DH), sous les {seuil:pct0} d'un GO.",
+  "gain_ok": "Le gain espéré est de {gain_dh:dh} DH ({gain:pct} de l'estimation) au prix recommandé {x:t3} ({prix_dh:dh} DH).",
+  "marge": "Marge à ce prix : {marge_dh:dh} DH, soit {marge_pct:pct} du coût (minimum demandé : {marge_min:pct}).",
+  "proche_seuil": "Le prix recommandé ({x:t3}) est sous {alerte:t3} : proche du seuil d'offre anormalement basse (une offre à plus de 20 % sous l'estimation est écartée d'office).",
+  "marche_petit": "Petit marché ({prevu:n1} concurrents prévus) : notre offre pèse sur le prix de référence, une offre basse le fait baisser. Chance de {c_bas:pct} à {x_bas:t3}, de {c_un:pct} à 1,000 ; au mieux {c_max:pct} à {x_max:t3}.",
+  "marche_gros_faible": "Gros marché ({prevu:n1} concurrents prévus) : la chance est faible à tout prix, au mieux {c_max:pct} à {x_max:t3}.",
+  "marche_gros": "Gros marché ({prevu:n1} concurrents prévus) : au mieux {c_max:pct} de chances, à {x_max:t3}.",
+  "confiance_acheteur_peu": "Confiance limitée : l'historique ne compte que {n:n} marché(s) de cet acheteur.",
+  "confiance_identifies_peu": "Confiance limitée : seulement {part:pct0} des concurrents attendus sont identifiés par leur nom.",
+  "groupe_fort": "Un groupe de présence commune (groupe {numero:n}) est probable : son chef de file {nom:s} vient avec {p:pct0} de probabilité.",
+  "infructueux": "{taux:pct0} des appels d'offres de cet acheteur sont infructueux ({n:n} sur {total:n}), au-dessus de {seuil:pct0}.",
+  "plan_plein": "Plan de charge atteint : {en_cours:n} AO en cours pour un maximum de {plan_max:n}."
+ }
+}

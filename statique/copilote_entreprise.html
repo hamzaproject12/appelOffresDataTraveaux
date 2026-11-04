@@ -1,0 +1,602 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="robots" content="noindex, nofollow">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="color-scheme" content="light dark">
+<title>Notre entreprise — Copilote</title>
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='7' fill='%231f4e78'/%3E%3Cpath d='M8 21V13M14 21V9M20 21V16M26 21V11' stroke='white' stroke-width='3' stroke-linecap='round'/%3E%3C/svg%3E">
+<script>
+  try { const t = localStorage.getItem('pv-theme'); if (t === 'light' || t === 'dark') document.documentElement.dataset.theme = t; } catch (e) {}
+</script>
+<style>
+  /* ================================================================ jetons (mêmes valeurs que ao_ouverts.html) */
+  :root {
+    --fond: #f3f4f6; --surface: #ffffff; --surface-2: #f8f9fb; --surface-3: #eceff3;
+    --bord: #dde1e7; --bord-fort: #b4bcc7;
+    --texte: #111827; --texte-2: #374151; --doux: #555e6c;
+    --accent: #1f4f8f; --accent-survol: #173e72; --accent-doux: #e7eef8; --sur-accent: #ffffff;
+    --vert: #0f6a3e; --vert-doux: #e4f3ea; --vert-bord: #9fd0b4;
+    --orange: #875100; --orange-doux: #fcf0da; --orange-bord: #ebc88a;
+    --rouge: #b3261e; --rouge-doux: #fcebea;
+    --neutre: #4b5563; --neutre-doux: #eceff3;
+    --squelette: #e5e8ed; --squelette-reflet: #f3f5f8;
+    --ombre-1: 0 1px 2px rgba(17,24,39,.05);
+    --focus: #2563eb;
+    color-scheme: light;
+
+    --police: "Segoe UI Variable Text", "Segoe UI", system-ui, -apple-system, "Helvetica Neue", Arial, sans-serif;
+    --mono: ui-monospace, "Cascadia Mono", "SF Mono", Consolas, monospace;
+    --t-xs: .75rem; --t-s: .8125rem; --t-m: .875rem; --t-l: 1rem; --t-xl: 1.25rem; --t-2xl: 1.5rem;
+    --e1: 4px; --e2: 8px; --e3: 12px; --e4: 16px; --e5: 24px; --e6: 32px; --e7: 48px;
+    --r-s: 6px; --r-m: 10px; --r-l: 14px;
+    --haut-barre: 64px;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root:not([data-theme="light"]) {
+      --fond: #0d1117; --surface: #161b22; --surface-2: #1b2129; --surface-3: #242b35;
+      --bord: #2b333e; --bord-fort: #46505e;
+      --texte: #e8ebef; --texte-2: #c9cfd7; --doux: #9ca6b4;
+      --accent: #7fb2f0; --accent-survol: #a6c9f5; --accent-doux: #1a2a40; --sur-accent: #0b1320;
+      --vert: #5cc98f; --vert-doux: #11281c; --vert-bord: #22553a;
+      --orange: #e8b95c; --orange-doux: #2c220f; --orange-bord: #5c4518;
+      --rouge: #f28b82; --rouge-doux: #34191a;
+      --neutre: #b4bdc9; --neutre-doux: #242b35;
+      --squelette: #212833; --squelette-reflet: #2a323e;
+      --ombre-1: none;
+      --focus: #7cb0ff;
+      color-scheme: dark;
+    }
+  }
+  :root[data-theme="dark"] {
+    --fond: #0d1117; --surface: #161b22; --surface-2: #1b2129; --surface-3: #242b35;
+    --bord: #2b333e; --bord-fort: #46505e;
+    --texte: #e8ebef; --texte-2: #c9cfd7; --doux: #9ca6b4;
+    --accent: #7fb2f0; --accent-survol: #a6c9f5; --accent-doux: #1a2a40; --sur-accent: #0b1320;
+    --vert: #5cc98f; --vert-doux: #11281c; --vert-bord: #22553a;
+    --orange: #e8b95c; --orange-doux: #2c220f; --orange-bord: #5c4518;
+    --rouge: #f28b82; --rouge-doux: #34191a;
+    --neutre: #b4bdc9; --neutre-doux: #242b35;
+    --squelette: #212833; --squelette-reflet: #2a323e;
+    --ombre-1: none;
+    --focus: #7cb0ff;
+    color-scheme: dark;
+  }
+
+  /* ================================================================ base */
+  *, *::before, *::after { box-sizing: border-box; }
+  html { -webkit-text-size-adjust: 100%; scroll-padding-top: calc(var(--haut-barre) + var(--e4)); }
+  body { margin: 0; min-height: 100vh; background: var(--fond); color: var(--texte);
+    font: 400 var(--t-m)/1.5 var(--police); -webkit-font-smoothing: antialiased; }
+  h1, h2, h3, p, ol, ul { margin: 0; }
+  ol, ul { padding: 0; list-style: none; }
+  a { color: var(--accent); text-underline-offset: 2px; }
+  button, input, select { font: inherit; color: inherit; }
+  button { cursor: pointer; }
+  svg.ic { flex-shrink: 0; display: block; }
+  :focus-visible { outline: 2px solid var(--focus); outline-offset: 2px; border-radius: 4px; }
+  .sr { position: absolute !important; width: 1px; height: 1px; overflow: hidden; clip: rect(0 0 0 0);
+    white-space: nowrap; margin: -1px; padding: 0; border: 0; }
+  .doux { color: var(--doux); }
+  .petit { font-size: var(--t-xs); }
+  .mono { font-family: var(--mono); font-size: .92em; letter-spacing: -.01em; }
+  .num { text-align: right; white-space: nowrap; font-variant-numeric: tabular-nums; }
+  .evitement { position: absolute; left: var(--e2); top: -100px; z-index: 50; background: var(--accent);
+    color: var(--sur-accent); padding: var(--e3) var(--e4); border-radius: var(--r-s); font-weight: 600; }
+  .evitement:focus { top: var(--e2); }
+  .conteneur { width: 100%; max-width: 1440px; margin: 0 auto; padding-inline: var(--e5); }
+
+  /* ================================================================ en-tête */
+  .barre-haut { position: sticky; top: 0; z-index: 20; background: var(--surface); border-bottom: 1px solid var(--bord); }
+  .barre-haut__ligne { display: flex; align-items: center; gap: var(--e3) var(--e5); min-height: var(--haut-barre); }
+  .marque { display: flex; align-items: center; gap: 10px; color: var(--texte); text-decoration: none;
+    min-height: 44px; flex-shrink: 0; border-radius: var(--r-s); }
+  .marque__logo { width: 34px; height: 34px; border-radius: 9px; background: var(--accent); color: var(--sur-accent);
+    display: grid; place-items: center; }
+  .marque b { display: block; font-size: var(--t-l); font-weight: 650; letter-spacing: -.01em; line-height: 1.2; }
+  .marque small { display: block; font-size: var(--t-xs); color: var(--doux); line-height: 1.3; }
+  .onglets { display: flex; gap: var(--e1); }
+  .onglet { display: inline-flex; align-items: center; gap: var(--e2); min-height: 44px; padding: 0 14px;
+    border-radius: var(--r-s); color: var(--doux); text-decoration: none; font-weight: 500; white-space: nowrap;
+    transition: background-color .15s, color .15s; }
+  .onglet:hover { background: var(--surface-3); color: var(--texte); }
+  .actions { margin-left: auto; display: flex; align-items: center; gap: var(--e1); }
+  .btn-icone { width: 44px; height: 44px; display: inline-grid; place-items: center; border-radius: var(--r-s);
+    border: 1px solid transparent; background: none; color: var(--texte-2); text-decoration: none; }
+  .btn-icone:hover { background: var(--surface-3); color: var(--texte); }
+  .separateur { width: 1px; height: 24px; background: var(--bord); margin: 0 var(--e1); }
+  @media (max-width: 1023px) {
+    :root { --haut-barre: 112px; }
+    .barre-haut__ligne { flex-wrap: wrap; min-height: 0; padding-top: var(--e2); }
+    .onglets { order: 3; flex-basis: 100%; padding-bottom: var(--e2); }
+  }
+  @media (max-width: 639px) {
+    :root { --haut-barre: 60px; }
+    .conteneur { padding-inline: var(--e4); }
+    .barre-haut__ligne { flex-wrap: nowrap; padding-top: 0; min-height: 60px; }
+    .marque small { display: none; }
+    .separateur { display: none; }
+    .onglets { position: fixed; left: 0; right: 0; bottom: 0; z-index: 20; background: var(--surface);
+      border-top: 1px solid var(--bord); display: grid; grid-template-columns: repeat(5, 1fr); gap: 2px;
+      padding: var(--e1) var(--e1) calc(var(--e1) + env(safe-area-inset-bottom)); }
+    .onglet { flex-direction: column; justify-content: center; gap: 3px; min-height: 56px; padding: var(--e1) 2px;
+      font-size: 11.5px; line-height: 1.2; text-align: center; white-space: normal; }
+    body { padding-bottom: calc(68px + env(safe-area-inset-bottom)); }
+  }
+  .bandeau-info { margin: 0; padding: var(--e2) var(--e5); background: var(--orange-doux); color: var(--orange);
+    border-bottom: 1px solid var(--orange-bord); font-size: var(--t-s); font-weight: 600; text-align: center; }
+
+  /* ================================================================ contenu */
+  main { padding-block: var(--e6) var(--e7); outline: none; display: grid; gap: var(--e5); min-width: 0; }
+  .tete-vue h1 { font-size: var(--t-2xl); font-weight: 650; letter-spacing: -.02em; line-height: 1.25; outline: none;
+    overflow-wrap: anywhere; }
+  .tete-vue p { color: var(--doux); margin-top: var(--e1); max-width: 80ch; }
+  .tete-vue .retour { display: inline-flex; margin-bottom: var(--e2); font-size: var(--t-s); }
+  @media (max-width: 639px) {
+    main { padding-top: var(--e5); }
+    .tete-vue h1 { font-size: var(--t-xl); }
+    .bandeau-info { padding-inline: var(--e4); text-align: left; }
+  }
+  .etape { background: var(--surface); border: 1px solid var(--bord); border-radius: var(--r-m); padding: var(--e4);
+    box-shadow: var(--ombre-1); min-width: 0; }
+  .etape > h2 { display: flex; align-items: center; gap: var(--e3); font-size: var(--t-l); font-weight: 650; }
+  .etape > h2 .rond { flex: none; width: 28px; height: 28px; border-radius: 50%; background: var(--accent); color: var(--sur-accent);
+    display: grid; place-items: center; font-size: var(--t-s); font-weight: 700; }
+  .etape--avenir { opacity: .75; }
+  .etape--avenir > h2 .rond { background: var(--neutre-doux); color: var(--neutre); }
+  .intro { color: var(--doux); font-size: var(--t-s); margin: var(--e1) 0 var(--e3); max-width: 85ch; }
+  .comment { margin-top: var(--e3); border-top: 1px dashed var(--bord); padding-top: var(--e2); font-size: var(--t-s); }
+  .comment > summary, details.plie > summary { cursor: pointer; font-weight: 600; color: var(--accent); min-height: 36px;
+    display: flex; align-items: center; }
+  .comment p, .comment li { color: var(--texte-2); max-width: 85ch; margin-top: var(--e1); }
+  .comment ul { list-style: disc; padding-left: var(--e5); }
+  .fiche-ao { display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: var(--e3) var(--e5); margin: 0; }
+  .fiche-ao div { min-width: 0; }
+  .fiche-ao dt { font-size: var(--t-xs); color: var(--doux); font-weight: 600; text-transform: uppercase; letter-spacing: .03em; }
+  .fiche-ao dd { margin: 2px 0 0; overflow-wrap: anywhere; }
+  .fiche-ao .large { grid-column: 1 / -1; }
+  .puce { display: inline-flex; align-items: center; gap: 4px; padding: 2px 9px; border-radius: 999px;
+    font-size: var(--t-xs); font-weight: 600; white-space: nowrap; background: var(--neutre-doux);
+    color: var(--neutre); line-height: 1.5; }
+  .puce--ok { background: var(--vert-doux); color: var(--vert); }
+  .puce--attention { background: var(--orange-doux); color: var(--orange); }
+  .puce--ko { background: var(--rouge-doux); color: var(--rouge); }
+  .puce--accent { background: var(--accent-doux); color: var(--accent); }
+  .btn { display: inline-flex; align-items: center; justify-content: center; gap: var(--e2); min-height: 44px;
+    padding: 0 var(--e4); border-radius: var(--r-s); border: 1px solid var(--bord-fort); background: var(--surface);
+    color: var(--texte); font-weight: 500; text-decoration: none; white-space: nowrap; transition: background-color .15s; }
+  .btn:hover { background: var(--surface-3); }
+  .btn--sec { min-height: 36px; padding: 0 var(--e3); font-size: var(--t-s); }
+  .lots { display: flex; flex-wrap: wrap; gap: var(--e2); margin-top: var(--e3); }
+  .lots .btn { white-space: normal; text-align: left; justify-content: flex-start; max-width: 100%; min-width: 0;
+    padding-block: var(--e1); overflow-wrap: anywhere; }
+  .lots .btn[aria-current="true"] { background: var(--accent-doux); border-color: var(--accent); color: var(--accent); font-weight: 650; }
+  .avertissement-texte { color: var(--orange); }
+  .avertissement { padding: var(--e3); border-radius: var(--r-s); background: var(--orange-doux); color: var(--orange);
+    font-size: var(--t-s); }
+  .erreur { padding: var(--e4); border-radius: var(--r-m); background: var(--rouge-doux); color: var(--rouge); }
+  .chargement { padding: var(--e5); text-align: center; color: var(--doux); }
+
+  /* tableaux */
+  .defile { overflow-x: auto; margin-inline: calc(-1 * var(--e4)); padding-inline: var(--e4); }
+  .tableau { width: 100%; border-collapse: collapse; }
+  .tableau th { text-align: left; font-size: var(--t-xs); font-weight: 600; color: var(--doux);
+    text-transform: uppercase; letter-spacing: .03em; padding: var(--e2) var(--e3); white-space: nowrap;
+    background: var(--surface-2); border-bottom: 1px solid var(--bord); }
+  .tableau th.num { text-align: right; }
+  .tableau td { padding: var(--e2) var(--e3); border-bottom: 1px solid var(--bord); vertical-align: top; overflow-wrap: anywhere; }
+  .tableau tbody tr:last-child td { border-bottom: 0; }
+  .tableau .objet { max-width: 52ch; color: var(--texte-2); font-size: var(--t-s); display: -webkit-box;
+    -webkit-line-clamp: 2; -webkit-box-orient: vertical; overflow: hidden; }
+  .tableau tr.retiree td { color: var(--doux); }
+  .tableau tr.retiree .nom { text-decoration: line-through; }
+  .tableau tr.detail td { background: var(--surface-2); font-size: var(--t-s); }
+  @media (max-width: 899px) {
+    .defile { overflow: visible; }
+    .tableau thead { display: none; }
+    .tableau, .tableau tbody, .tableau tr, .tableau td { display: block; width: 100%; }
+    .tableau tr { padding: var(--e3) 0; border-bottom: 1px solid var(--bord); }
+    .tableau tbody tr:last-child { border-bottom: 0; }
+    .tableau td { padding: 3px 0; border: 0; text-align: left !important; white-space: normal !important; }
+    .tableau td[data-l]::before { content: attr(data-l); display: block; font-size: var(--t-xs); color: var(--doux);
+      font-weight: 600; text-transform: uppercase; letter-spacing: .03em; }
+    .tableau .objet { max-width: none; }
+  }
+  .score { font-weight: 700; font-variant-numeric: tabular-nums; }
+  .criteres { display: grid; gap: 4px; margin: var(--e2) 0; }
+  .critere { display: grid; grid-template-columns: 150px 70px minmax(0, 1fr); gap: var(--e3); align-items: baseline; }
+  .critere .pts { text-align: right; font-variant-numeric: tabular-nums; font-weight: 650; }
+  @media (max-width: 639px) { .critere { grid-template-columns: 1fr auto; } .critere .expl { grid-column: 1 / -1; color: var(--doux); } }
+
+  /* nombre de concurrents */
+  .compte { display: grid; grid-template-columns: minmax(0, 1fr) minmax(260px, 420px); gap: var(--e4) var(--e5); align-items: center;
+    padding: var(--e4); border-radius: var(--r-m); background: var(--accent-doux); margin-bottom: var(--e4); }
+  .compte__phrase { font-size: var(--t-l); }
+  .compte__phrase b { font-size: var(--t-xl); }
+  .compte__origine { color: var(--doux); font-size: var(--t-s); margin-top: var(--e1); }
+  .compte__origine s { text-decoration-thickness: 1px; }
+  .compte svg { width: 100%; height: auto; display: block; }
+  .compte svg text { font-family: var(--police); fill: var(--doux); font-size: 10px; }
+  @media (max-width: 899px) { .compte { grid-template-columns: minmax(0, 1fr); } }
+
+  /* groupes */
+  .groupes { display: grid; gap: var(--e4); }
+  .groupe { border: 1px solid var(--bord); border-radius: var(--r-m); padding: var(--e4); background: var(--surface-2); min-width: 0; }
+  .groupe > h3 { font-size: var(--t-m); font-weight: 650; display: flex; flex-wrap: wrap; gap: var(--e2); align-items: center; }
+  .groupe .strategie { margin-top: var(--e3); font-size: var(--t-s); color: var(--texte-2); display: grid; gap: var(--e2); }
+  .groupe .strategie p { max-width: 90ch; }
+  .controle { display: flex; align-items: center; gap: var(--e2); }
+  .controle input[type="checkbox"] { width: 20px; height: 20px; margin: 0; flex: none; }
+  .p-champ { width: 74px; height: 34px; border: 1px solid var(--bord-fort); border-radius: var(--r-s); background: var(--surface);
+    padding: 0 var(--e2); text-align: right; font-variant-numeric: tabular-nums; }
+  .courbe { width: 100%; max-width: 860px; height: auto; display: block; margin-top: var(--e2); touch-action: pan-y; }
+  .courbe text { font-family: var(--police); fill: var(--doux); font-size: 11px; }
+  .courbe text.dh { font-size: 10px; fill: var(--texte-2); }
+  svg.mini { width: 120px; height: 12px; display: block; margin-top: 4px; }
+  .lecture { min-height: 1.5em; font-size: var(--t-s); color: var(--texte-2); }
+  .legende { display: flex; flex-wrap: wrap; gap: 4px 12px; align-items: center; color: var(--doux); }
+  .legende .tr { display: inline-block; width: 18px; height: 4px; border-radius: 2px; margin-right: 4px; vertical-align: middle; }
+  .tr--accent { background: var(--accent); } .tr--orange { background: var(--orange); } .tr--rouge { background: var(--rouge); }
+  .tr--bas { background: var(--orange-doux); border: 1px solid var(--orange); height: 10px !important; }
+  .tr--zone { background: var(--vert-doux); border: 1px solid var(--vert-bord); height: 10px !important; } .tr--texte { background: var(--texte); }
+  .zone-reco { display: grid; gap: var(--e1); }
+  h3.sous { font-size: var(--t-m); margin: var(--e4) 0 var(--e1); }
+  .verite-sim { border: 1px solid var(--vert-bord); background: var(--vert-doux); border-radius: var(--r-m); padding: var(--e2) var(--e4); margin-top: var(--e3); font-size: var(--t-s); }
+  .verite-sim ul { list-style: disc; padding-left: var(--e5); margin-top: var(--e1); }
+  .p-champ.modifie { border-color: var(--orange); background: var(--orange-doux); }
+  .origine { color: var(--doux); font-size: var(--t-xs); }
+  .origine s { text-decoration-thickness: 1px; }
+  .barre-p { display: block; height: 6px; border-radius: 3px; background: var(--surface-3); margin-top: 4px; overflow: hidden; max-width: 120px; }
+  .barre-p i { display: block; height: 100%; background: var(--accent); }
+  .nom { font-weight: 600; }
+  .actions-calcul { display: flex; flex-wrap: wrap; gap: var(--e2); align-items: center; margin: var(--e3) 0; }
+
+  /* vérité */
+  .verite { border: 1px solid var(--vert-bord); background: var(--vert-doux); border-radius: var(--r-m); padding: var(--e2) var(--e4); }
+  .verite > summary { cursor: pointer; font-weight: 650; min-height: 40px; display: flex; align-items: center; color: var(--vert); }
+  .verite .contenu { display: grid; gap: var(--e3); padding: var(--e2) 0 var(--e3); }
+  .verite .tableau th { background: transparent; }
+  .oui { color: var(--vert); font-weight: 700; }
+  .non { color: var(--rouge); font-weight: 700; }
+
+  /* ================================================================ formulaires et tableaux de l'étape D */
+  .grille-champs { display: grid; grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); gap: var(--e3) var(--e5); align-items: end; }
+  label { display: grid; gap: 4px; font-size: var(--t-s); color: var(--texte-2); font-weight: 600; min-width: 0; }
+  .champ { min-height: 40px; padding: 0 var(--e3); border: 1px solid var(--bord-fort); border-radius: var(--r-s);
+    background: var(--surface); width: 100%; min-width: 0; font-weight: 400; }
+  .champ.large { max-width: 100%; }
+  .champ.modifie { border-color: var(--orange); background: var(--orange-doux); }
+  td .champ { min-height: 36px; }
+  .ligne-q { display: flex; flex-wrap: wrap; gap: var(--e2); align-items: center; margin-bottom: var(--e2); }
+  .ligne-q .champ { width: auto; flex: 1 1 130px; }
+  .cases { display: grid; grid-template-columns: repeat(auto-fill, minmax(230px, 1fr)); gap: var(--e1) var(--e4); }
+  .cases .controle { min-height: 36px; font-weight: 400; }
+  .btn--plein { background: var(--accent); color: var(--sur-accent); border-color: var(--accent); font-weight: 600; }
+  .btn--plein:hover { background: var(--accent-survol); }
+  .btn[disabled] { opacity: .5; cursor: default; }
+  .barre-enregistrer { display: flex; flex-wrap: wrap; gap: var(--e3); align-items: center; position: sticky; bottom: var(--e3);
+    background: var(--surface); border: 1px solid var(--bord-fort); border-radius: var(--r-m); padding: var(--e3) var(--e4); z-index: 5; box-shadow: var(--ombre-1); }
+  @media (max-width: 639px) { .barre-enregistrer { bottom: 72px; } }
+  .cartes { display: grid; grid-template-columns: repeat(auto-fit, minmax(150px, 1fr)); gap: var(--e3); margin-top: var(--e3); }
+  .carte { background: var(--surface-2); border: 1px solid var(--bord); border-radius: var(--r-m); padding: var(--e3) var(--e4); }
+  .carte b { display: block; font-size: var(--t-2xl); line-height: 1.2; font-variant-numeric: tabular-nums; }
+  .carte span { font-size: var(--t-xs); color: var(--doux); font-weight: 600; text-transform: uppercase; letter-spacing: .03em; }
+</style>
+<body>
+<a class="evitement" href="#contenu">Aller au contenu</a>
+<header class="barre-haut">
+  <div class="conteneur barre-haut__ligne">
+    <a class="marque" href="/ao-ouverts">
+      <span class="marque__logo" aria-hidden="true">
+        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"><path d="M6 7h12M6 12h8M6 17h5"/><circle cx="17.5" cy="16.5" r="2.5"/></svg>
+      </span>
+      <span><b>Marchés publics</b><small>Copilote de soumission</small></span>
+    </a>
+    <nav class="onglets" aria-label="Sections">
+      <a class="onglet" href="/ao-ouverts"><i data-ic="ouverts"></i><span>En cours</span></a>
+      <a class="onglet" href="/app#/marches"><i data-ic="marches"></i><span>Marchés</span></a>
+      <a class="onglet" href="/app#/societes"><i data-ic="societes"></i><span>Sociétés</span></a>
+      <a class="onglet" href="/app#/acheteurs"><i data-ic="acheteurs"></i><span>Maîtres d’ouvrage</span></a>
+      <a class="onglet" href="/copilote/groupes"><i data-ic="groupes"></i><span>Groupes</span></a>
+    </nav>
+    <div class="actions">
+      <button type="button" class="btn-icone" id="bouton-theme"></button>
+      <span class="separateur" aria-hidden="true"></span>
+      <a class="btn-icone" href="/deconnexion" aria-label="Se déconnecter" title="Se déconnecter"><i data-ic="sortie"></i></a>
+    </div>
+  </div>
+</header>
+<p class="bandeau-info" role="note">Estimations statistiques tirées des procès-verbaux publics. Un groupe de présence commune est un signal, pas la preuve d’un accord entre sociétés.</p>
+
+<main id="contenu" class="conteneur" tabindex="-1">
+  <div class="tete-vue">
+    <a class="retour" href="/ao-ouverts">← Appels d’offres ouverts</a>
+    <h1 id="titre" tabindex="-1">Notre entreprise</h1>
+    <p>Ce que le copilote sait de nous : qualifications, zones, marge minimale, coût par défaut, plan de charge et partenaires déclarés. Il s’en sert pour l’éligibilité et la décision (étape ⑥ de l’analyse). Chaque valeur garde son auteur et sa date.</p>
+  </div>
+  <div id="corps"><p class="chargement" role="status">Chargement…</p></div>
+</main>
+
+<script>
+'use strict';
+const $ = (s, r = document) => r.querySelector(s);
+const esc = s => String(s ?? '').replace(/[&<>"']/g, c => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[c]));
+const nfEntier = new Intl.NumberFormat('fr-FR', { maximumFractionDigits: 0 });
+const nf1 = new Intl.NumberFormat('fr-FR', { minimumFractionDigits: 1, maximumFractionDigits: 1 });
+const nf2 = new Intl.NumberFormat('fr-FR', { minimumFractionDigits: 2, maximumFractionDigits: 2 });
+const nb = n => n == null ? '—' : nfEntier.format(n);
+const pct = (x, d = 0) => x == null ? '—' : (d ? nf1.format(x * 100) : nfEntier.format(x * 100)) + ' %';
+const ecartPct = x => x == null ? '—' : (x >= 0 ? '+' : '−') + nf1.format(Math.abs(x) * 100) + ' %';
+const taux = x => x == null ? '—' : nf2.format(x);
+const dh = m => m == null ? '—' : nfEntier.format(m) + ' DH';
+const dateFr = s => { if (!s) return '—'; const t = String(s).replace(/-/g, ''); return `${t.slice(6, 8)}/${t.slice(4, 6)}/${t.slice(0, 4)}`; };
+const pluriel = (n, s, p) => `${nfEntier.format(n)} ${n > 1 ? (p || s + 's') : s}`;
+
+const ICONES = {
+  marches: '<path d="M14 3H6a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V9z"/><path d="M14 3v6h6M8 13h8M8 17h5"/>',
+  societes: '<circle cx="9" cy="8" r="4"/><path d="M2 21a7 7 0 0 1 14 0M16 4a4 4 0 0 1 0 8M22 21a7 7 0 0 0-4-6.3"/>',
+  acheteurs: '<path d="M3 21h18M5 21V11M9.5 21V11M14.5 21V11M19 21V11M2 11l10-7 10 7z"/>',
+  ouverts: '<path d="M12 7v5l3 2"/><circle cx="12" cy="12" r="9"/>',
+  groupes: '<circle cx="6" cy="7" r="2.5"/><circle cx="18" cy="7" r="2.5"/><circle cx="12" cy="18" r="2.5"/><path d="M8.5 7h7M7.3 9.2l3.4 6.6M16.7 9.2l-3.4 6.6"/>',
+  sortie: '<path d="M9 21H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h4M16 17l5-5-5-5M21 12H9"/>',
+  soleil: '<circle cx="12" cy="12" r="4"/><path d="M12 2v2M12 20v2M4.9 4.9l1.4 1.4M17.7 17.7l1.4 1.4M2 12h2M20 12h2M4.9 19.1l1.4-1.4M17.7 6.3l1.4-1.4"/>',
+  lune: '<path d="M21 12.8A9 9 0 1 1 11.2 3a7 7 0 0 0 9.8 9.8z"/>',
+};
+const ic = (n, t = 20) => `<svg class="ic" width="${t}" height="${t}" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">${ICONES[n] || ''}</svg>`;
+document.querySelectorAll('i[data-ic]').forEach(i => i.outerHTML = ic(i.dataset.ic));
+
+// ================================================================ thème (même clé que le tableau de bord)
+const btnTheme = $('#bouton-theme');
+const themeActuel = () => document.documentElement.dataset.theme || (matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light');
+function majBoutonTheme() {
+  const sombre = themeActuel() === 'dark', lib = sombre ? 'Passer au thème clair' : 'Passer au thème sombre';
+  btnTheme.innerHTML = ic(sombre ? 'soleil' : 'lune', 20);
+  btnTheme.setAttribute('aria-label', lib); btnTheme.title = lib;
+}
+btnTheme.addEventListener('click', () => {
+  const t = themeActuel() === 'dark' ? 'light' : 'dark';
+  document.documentElement.dataset.theme = t;
+  try { localStorage.setItem('pv-theme', t); } catch (e) {}
+  majBoutonTheme();
+});
+matchMedia('(prefers-color-scheme: dark)').addEventListener('change', majBoutonTheme);
+majBoutonTheme();
+
+// ================================================================ données
+let P = null, REF = null, JOURNAL = [], AUTEUR = '';
+const pctIn = v => v == null || v === '' ? '' : String(Math.round(v * 10000) / 100).replace('.', ',');
+const lirePct = s => { const t = String(s ?? '').trim().replace(/\s/g, '').replace(',', '.'); if (t === '') return null; const v = parseFloat(t); return isFinite(v) ? v / 100 : NaN; };
+const quand = s => { if (!s) return ''; const d = new Date(s); return isNaN(d) ? esc(s) : d.toLocaleString('fr-FR', { dateStyle: 'short', timeStyle: 'short' }); };
+const meta = m => m ? `<span class="origine">modifié par ${esc(m.auteur)} le ${quand(m.modifie_le)}</span>` : '<span class="origine">pas encore saisi</span>';
+const metaLigne = l => `<span class="origine">${esc(l.auteur)}, ${quand(l.modifie_le)}</span>`;
+
+async function appeler(url, methode, corps) {
+  const r = await fetch(url, { method: methode, credentials: 'same-origin', headers: corps ? { 'Content-Type': 'application/json' } : {}, body: corps ? JSON.stringify(corps) : undefined });
+  let c = null; try { c = await r.json(); } catch (e) {}
+  if (r.status === 401) { location.href = '/copilote/entrer'; throw new Error('Accès au copilote requis'); }
+  if (!r.ok) throw new Error((c && c.detail && (typeof c.detail === 'string' ? c.detail : JSON.stringify(c.detail))) || `Erreur ${r.status}`);
+  return c;
+}
+
+// ================================================================ brouillon (modifiable, enregistré d'un clic)
+let B = null;                                   // copie de travail du profil
+const brouillon = p => ({
+  marge_min: pctIn(p.marge_min), cout_defaut: pctIn(p.cout_defaut), plan_charge_max: p.plan_charge_max == null ? '' : String(p.plan_charge_max),
+  qualifs: p.qualifs.map(q => ({ code: q.code, classe: q.classe })), regions: p.regions.map(r => r.region), familles: p.familles.map(f => f.famille),
+  couts_famille: p.couts_famille.map(c => ({ famille: c.famille, cout: pctIn(c.cout) })),
+});
+const different = () => JSON.stringify(B) !== JSON.stringify(brouillon(P));
+
+const optionsClasse = sel => REF.classes.map(c => `<option value="${c}"${c === sel ? ' selected' : ''}>${c === 'S' ? 'Classe S' : 'Classe ' + c}</option>`).join('');
+const optionsFamille = sel => `<option value="">— famille —</option>` + REF.familles.map(f => `<option value="${esc(f.code)}"${f.code === sel ? ' selected' : ''}>${esc(f.libelle)}</option>`).join('');
+const libFamille = code => (REF.familles.find(f => f.code === code) || {}).libelle || code;
+
+function blocScalaires() {
+  return `<section class="etape" aria-labelledby="s1"><h2 id="s1"><span class="rond">1</span>Marge, coût et plan de charge</h2>
+    <p class="intro">La marge se compte sur le coût : le prix recommandé ne descend jamais sous <b>coût × (1 + marge minimale)</b>.
+      Le coût par défaut s’applique à un AO dont vous n’avez pas saisi le coût ; sans valeur ici, la page de décision demande le coût de chaque AO.</p>
+    <div class="grille-champs">
+      <label>Marge minimale (% du coût)<input class="champ" inputmode="decimal" data-f="marge_min" value="${esc(B.marge_min)}" placeholder="ex. 5"></label>
+      <label>Coût par défaut (% de l’estimation)<input class="champ" inputmode="decimal" data-f="cout_defaut" value="${esc(B.cout_defaut)}" placeholder="ex. 85"></label>
+      <label>Plan de charge (AO en cours, au maximum)<input class="champ" inputmode="numeric" data-f="plan_charge_max" value="${esc(B.plan_charge_max)}" placeholder="vide = pas de limite"></label>
+    </div>
+    <p class="doux petit">${meta(P.meta.marge_min)} · ${meta(P.meta.cout_defaut)} · ${meta(P.meta.plan_charge_max)}</p>
+  </section>`;
+}
+function blocQualifs() {
+  const lignes = B.qualifs.map((q, k) => `<tr><td data-l="Code"><input class="champ" data-q="${k}" data-f="code" value="${esc(q.code)}" aria-label="Code de qualification" placeholder="B.1"></td>
+    <td data-l="Classe"><select class="champ" data-q="${k}" data-f="classe" aria-label="Classe">${optionsClasse(q.classe)}</select></td>
+    <td><button type="button" class="btn btn--sec" data-act="retirer-q" data-k="${k}">Retirer</button></td></tr>`).join('');
+  return `<section class="etape" aria-labelledby="s2"><h2 id="s2"><span class="rond">2</span>Nos qualifications et classes</h2>
+    <p class="intro">Les codes comme dans l’annonce (B.1, O.2, X.1…). Ordre des classes : <b>S</b> est la plus haute, puis <b>1, 2, 3, 4, 5</b> :
+      une entreprise de classe 3 peut répondre à une exigence de classe 3, 4 ou 5, pas à la classe 2. Cet ordre est celui de l’Équipement et de l’Agriculture
+      (vérifié sur l’historique : les gros marchés exigent les petits chiffres).</p>
+    ${B.qualifs.length ? `<div class="defile"><table class="tableau"><thead><tr><th>Code</th><th>Classe</th><th></th></tr></thead><tbody>${lignes}</tbody></table></div>` : '<p class="doux">Aucune qualification saisie : tout AO qui en exige sera « non éligible seul ».</p>'}
+    <div class="actions-calcul"><button type="button" class="btn btn--sec" data-act="ajouter-q">+ Ajouter une qualification</button></div>
+    <p class="doux petit">${P.qualifs.length ? 'Enregistrées : ' + P.qualifs.slice(0, 4).map(q => `${esc(q.code)} ${metaLigne(q)}`).join(' · ') : ''}</p>
+  </section>`;
+}
+function blocZones() {
+  const coche = (liste, valeur, type) => `<label class="controle"><input type="checkbox" data-type="${type}" value="${esc(valeur)}"${liste.includes(valeur) ? ' checked' : ''}><span>${esc(type === 'familles' ? libFamille(valeur) : valeur)}</span></label>`;
+  return `<section class="etape" aria-labelledby="s3"><h2 id="s3"><span class="rond">3</span>Régions et familles de travaux</h2>
+    <p class="intro">Là où vous travaillez et ce que vous savez faire. Pour l’instant ces choix sont enregistrés et rappelés sur la page de décision ;
+      ils ne changent pas le calcul du gain espéré.</p>
+    <h3 class="sous">Régions</h3><div class="cases">${REF.regions.map(r => coche(B.regions, r, 'regions')).join('')}</div>
+    <h3 class="sous">Familles de travaux</h3><div class="cases">${REF.familles.map(f => coche(B.familles, f.code, 'familles')).join('')}</div>
+  </section>`;
+}
+function blocCouts() {
+  const lignes = B.couts_famille.map((c, k) => `<tr><td data-l="Famille"><select class="champ" data-c="${k}" data-f="famille" aria-label="Famille">${optionsFamille(c.famille)}</select></td>
+    <td data-l="Coût (% de l’estimation)"><input class="champ" inputmode="decimal" data-c="${k}" data-f="cout" value="${esc(c.cout)}" aria-label="Coût en pourcentage de l’estimation" placeholder="85"></td>
+    <td><button type="button" class="btn btn--sec" data-act="retirer-c" data-k="${k}">Retirer</button></td></tr>`).join('');
+  return `<section class="etape" aria-labelledby="s4"><h2 id="s4"><span class="rond">4</span>Coût par famille de travaux</h2>
+    <p class="intro">Un coût propre à une famille l’emporte sur le coût par défaut du ①. Pour une famille sans coût, le copilote retombe sur le
+      coût global (${B.cout_defaut ? esc(B.cout_defaut) + ' %' : 'non saisi'}) et la page de décision le dit.</p>
+    ${B.couts_famille.length ? `<div class="defile"><table class="tableau"><thead><tr><th>Famille</th><th>Coût (% de l’estimation)</th><th></th></tr></thead><tbody>${lignes}</tbody></table></div>` : ''}
+    <div class="actions-calcul"><button type="button" class="btn btn--sec" data-act="ajouter-c">+ Ajouter un coût de famille</button></div>
+  </section>`;
+}
+function blocEnregistrer() {
+  return `<div class="barre-enregistrer"><button type="button" class="btn btn--plein" data-act="enregistrer"${different() ? '' : ' disabled'}>Enregistrer l’entreprise</button>
+    <button type="button" class="btn" data-act="annuler"${different() ? '' : ' disabled'}>Annuler les modifications</button>
+    <span class="petit" id="etat-enreg" role="status">${different() ? 'Modifications non enregistrées.' : ''}</span></div>`;
+}
+
+// ================================================================ partenaires
+let EDIT = null;                                   // partenaire en cours d'édition (copie), id null pour un nouveau
+const nouveauPartenaire = () => ({ id: null, nom: '', type: 'groupement', specialite: '', qualifs: [], effet_cout: '', effet_cout_unite: 'pct', commentaire: '' });
+const typeLib = t => (REF.types.find(x => x.code === t) || {}).libelle || t;
+function effetTexte(p) {
+  if (!p.effet_cout) return 'aucun effet sur le coût';
+  const v = p.effet_cout_unite === 'pct' ? `${(p.effet_cout > 0 ? '+' : '−')}${nf1.format(Math.abs(p.effet_cout) * 100)} % de l’estimation` : `${(p.effet_cout > 0 ? '+' : '−')}${nfEntier.format(Math.abs(p.effet_cout))} DH`;
+  return 'coût ' + v;
+}
+function blocPartenaires() {
+  const liste = P.partenaires.map(p => `<tr><td data-l="Partenaire"><span class="nom">${esc(p.nom)}</span><div class="doux petit">${esc(p.specialite || '')}</div></td>
+    <td data-l="Type"><span class="puce ${p.type === 'groupement' ? 'puce--accent' : ''}">${esc(typeLib(p.type))}</span></td>
+    <td data-l="Qualifications">${p.qualifs.length ? p.qualifs.map(q => `${esc(q.code)} cl. ${esc(q.classe)}`).join(', ') : '—'}${p.type !== 'groupement' && p.qualifs.length ? '<div class="doux petit">ne rend pas éligible (seul un groupement le fait)</div>' : ''}</td>
+    <td data-l="Effet">${esc(effetTexte(p))}</td><td data-l="Saisi par">${metaLigne(p)}</td>
+    <td><button type="button" class="btn btn--sec" data-act="editer-p" data-id="${p.id}">Modifier</button>
+      <button type="button" class="btn btn--sec" data-act="retirer-p" data-id="${p.id}">Retirer</button></td></tr>`).join('');
+  return `<section class="etape" aria-labelledby="s5"><h2 id="s5"><span class="rond">5</span>Partenaires déclarés</h2>
+    <p class="intro">Un <b>groupement</b> dépose une seule offre commune ; l’un de ses membres peut apporter la qualification et la classe qui nous manquent.
+      Un <b>sous-traitant</b> ou un <b>fournisseur</b> ne change que notre coût. Un partenaire ne modifie jamais le prix d’une autre société :
+      il ne sert qu’à calculer notre coût et notre éligibilité.</p>
+    ${P.partenaires.length ? `<div class="defile"><table class="tableau"><thead><tr><th>Partenaire</th><th>Type</th><th>Qualifications</th><th>Effet</th><th>Saisi par</th><th></th></tr></thead><tbody>${liste}</tbody></table></div>` : '<p class="doux">Aucun partenaire déclaré.</p>'}
+    <div class="actions-calcul"><button type="button" class="btn btn--sec" data-act="nouveau-p">+ Déclarer un partenaire</button></div>
+    <div id="form-partenaire">${EDIT ? formulairePartenaire() : ''}</div>
+  </section>`;
+}
+function formulairePartenaire() {
+  const e = EDIT;
+  const qs = e.qualifs.map((q, k) => `<div class="ligne-q"><input class="champ" data-pq="${k}" data-f="code" value="${esc(q.code)}" aria-label="Code" placeholder="B.1">
+    <select class="champ" data-pq="${k}" data-f="classe" aria-label="Classe">${optionsClasse(q.classe)}</select>
+    <button type="button" class="btn btn--sec" data-act="retirer-pq" data-k="${k}">Retirer</button></div>`).join('');
+  return `<div class="groupe" style="margin-top:12px"><h3>${e.id ? 'Modifier le partenaire' : 'Nouveau partenaire'}</h3>
+    <div class="grille-champs">
+      <label>Nom<input class="champ" data-p="nom" value="${esc(e.nom)}" maxlength="120"></label>
+      <label>Type<select class="champ" data-p="type">${REF.types.map(t => `<option value="${t.code}"${t.code === e.type ? ' selected' : ''}>${esc(t.libelle)}</option>`).join('')}</select></label>
+      <label>Spécialité<input class="champ" data-p="specialite" value="${esc(e.specialite)}" maxlength="200"></label>
+      <label>Effet sur notre coût<span class="ligne-q"><input class="champ" inputmode="decimal" data-p="effet_cout" value="${esc(e.effet_cout)}" placeholder="ex. −2 ou 150000">
+        <select class="champ" data-p="effet_cout_unite"><option value="pct"${e.effet_cout_unite === 'pct' ? ' selected' : ''}>% de l’estimation</option><option value="dh"${e.effet_cout_unite === 'dh' ? ' selected' : ''}>DH</option></select></span></label>
+    </div>
+    <h3 class="sous">Qualifications et classes du partenaire</h3>${qs || '<p class="doux petit">Aucune.</p>'}
+    <div class="actions-calcul"><button type="button" class="btn btn--sec" data-act="ajouter-pq">+ Ajouter</button></div>
+    <label>Commentaire<input class="champ large" data-p="commentaire" value="${esc(e.commentaire)}" maxlength="500"></label>
+    <p class="doux petit">Un effet négatif réduit notre coût (par exemple un fournisseur moins cher). Pour un sous-traitant ou un fournisseur, les qualifications sont
+      seulement notées : elles ne rendent pas éligible.</p>
+    <div class="actions-calcul"><button type="button" class="btn btn--plein" data-act="sauver-p">Enregistrer le partenaire</button>
+      <button type="button" class="btn" data-act="annuler-p">Annuler</button><span class="petit" id="etat-p" role="status"></span></div></div>`;
+}
+function blocJournal() {
+  const l = JOURNAL.map(j => `<tr><td data-l="Quand">${quand(j.quand)}</td><td data-l="Qui">${esc(j.auteur)}</td><td data-l="Action">${esc(j.action)}</td><td data-l="Détail">${esc(j.details)}</td></tr>`).join('');
+  return `<details class="comment"><summary>Historique des modifications (${JOURNAL.length})</summary>${l ? `<div class="defile"><table class="tableau"><thead><tr><th>Quand</th><th>Qui</th><th>Action</th><th>Détail</th></tr></thead><tbody>${l}</tbody></table></div>` : '<p>Rien pour l’instant.</p>'}</details>`;
+}
+
+function rendre() {
+  $('#corps').innerHTML = [blocScalaires(), blocQualifs(), blocZones(), blocCouts(), blocEnregistrer(), blocPartenaires(), blocJournal()].join('');
+  document.title = 'Notre entreprise — Copilote';
+}
+// Une saisie met à jour le brouillon sans tout redessiner (le focus reste dans le champ) ; seul l'état des boutons change.
+function majBoutons() {
+  const d = different();
+  document.querySelectorAll('[data-act="enregistrer"], [data-act="annuler"]').forEach(b => { b.disabled = !d; });
+  const e = $('#etat-enreg'); if (e) { e.textContent = d ? 'Modifications non enregistrées.' : ''; e.className = 'petit'; }
+}
+document.addEventListener('input', e => {
+  const t = e.target;
+  if (t.dataset.p !== undefined) { EDIT[t.dataset.p] = t.value; return; }
+  if (t.dataset.pq !== undefined) { EDIT.qualifs[+t.dataset.pq][t.dataset.f] = t.value; return; }
+  if (t.dataset.q !== undefined) B.qualifs[+t.dataset.q][t.dataset.f] = t.value;
+  else if (t.dataset.c !== undefined) B.couts_famille[+t.dataset.c][t.dataset.f] = t.value;
+  else if (t.dataset.f && ['marge_min', 'cout_defaut', 'plan_charge_max'].includes(t.dataset.f)) B[t.dataset.f] = t.value;
+  else return;
+  majBoutons();
+});
+document.addEventListener('change', e => {
+  const t = e.target;
+  if (t.type === 'checkbox' && t.dataset.type) {
+    const l = B[t.dataset.type]; const i = l.indexOf(t.value);
+    if (t.checked && i < 0) l.push(t.value); else if (!t.checked && i >= 0) l.splice(i, 1);
+    majBoutons();
+  } else if (t.dataset.p === 'type' || t.dataset.p === 'effet_cout_unite') EDIT[t.dataset.p] = t.value;
+  else if (t.dataset.pq !== undefined) EDIT.qualifs[+t.dataset.pq][t.dataset.f] = t.value;
+  else if (t.dataset.q !== undefined) { B.qualifs[+t.dataset.q][t.dataset.f] = t.value; majBoutons(); }
+  else if (t.dataset.c !== undefined) { B.couts_famille[+t.dataset.c][t.dataset.f] = t.value; majBoutons(); }
+});
+
+function chargerProfil(r) { P = r.profil; if (r.journal) JOURNAL = r.journal; B = brouillon(P); }
+function versEntree() {
+  const num = (s, nom) => { const v = lirePct(s); if (Number.isNaN(v)) throw new Error(`${nom} : nombre attendu`); return v; };
+  const plan = String(B.plan_charge_max).trim();
+  return {
+    marge_min: num(B.marge_min, 'Marge minimale'), cout_defaut: num(B.cout_defaut, 'Coût par défaut'),
+    plan_charge_max: plan === '' ? null : parseInt(plan, 10),
+    qualifs: B.qualifs.filter(q => q.code.trim()).map(q => ({ code: q.code.trim(), classe: q.classe })),
+    regions: B.regions, familles: B.familles,
+    couts_famille: B.couts_famille.filter(c => c.famille).map(c => ({ famille: c.famille, cout: num(c.cout, 'Coût de famille') })),
+  };
+}
+async function rechargerSansPerdreLeBrouillon() {
+  const r = await appeler('/api/copilote/entreprise', 'GET');
+  const garde = B; chargerProfil(r); B = garde;
+}
+document.addEventListener('click', async e => {
+  const b = e.target.closest('[data-act]');
+  if (!b) return;
+  const a = b.dataset.act, k = +b.dataset.k;
+  if (a === 'ajouter-q') { B.qualifs.push({ code: '', classe: '3' }); rendre(); }
+  else if (a === 'retirer-q') { B.qualifs.splice(k, 1); rendre(); }
+  else if (a === 'ajouter-c') { B.couts_famille.push({ famille: '', cout: '' }); rendre(); }
+  else if (a === 'retirer-c') { B.couts_famille.splice(k, 1); rendre(); }
+  else if (a === 'annuler') { B = brouillon(P); rendre(); }
+  else if (a === 'enregistrer') {
+    const etat = $('#etat-enreg');
+    try {
+      chargerProfil(await appeler('/api/copilote/entreprise', 'PUT', versEntree())); rendre();
+      const m = $('#etat-enreg'); m.textContent = 'Enregistré.'; m.className = 'petit oui';
+    } catch (err) { etat.textContent = err.message; etat.className = 'petit non'; }
+  }
+  else if (a === 'nouveau-p') { EDIT = nouveauPartenaire(); $('#form-partenaire').innerHTML = formulairePartenaire(); $('#form-partenaire input').focus(); }
+  else if (a === 'editer-p') {
+    const p = P.partenaires.find(x => x.id === +b.dataset.id);
+    EDIT = { ...p, qualifs: p.qualifs.map(q => ({ ...q })), effet_cout: p.effet_cout_unite === 'pct' ? pctIn(p.effet_cout) : String(p.effet_cout) };
+    $('#form-partenaire').innerHTML = formulairePartenaire(); $('#form-partenaire').scrollIntoView({ block: 'nearest' });
+  }
+  else if (a === 'annuler-p') { EDIT = null; $('#form-partenaire').innerHTML = ''; }
+  else if (a === 'ajouter-pq') { EDIT.qualifs.push({ code: '', classe: '3' }); $('#form-partenaire').innerHTML = formulairePartenaire(); }
+  else if (a === 'retirer-pq') { EDIT.qualifs.splice(k, 1); $('#form-partenaire').innerHTML = formulairePartenaire(); }
+  else if (a === 'sauver-p') {
+    const etat = $('#etat-p');
+    try {
+      let effet = String(EDIT.effet_cout).trim().replace(/\s/g, '').replace(',', '.').replace('−', '-');
+      effet = effet === '' ? 0 : parseFloat(effet);
+      if (!isFinite(effet)) throw new Error('Effet sur le coût : nombre attendu');
+      const corps = { nom: EDIT.nom, type: EDIT.type, specialite: EDIT.specialite, commentaire: EDIT.commentaire,
+        effet_cout: EDIT.effet_cout_unite === 'pct' ? effet / 100 : effet, effet_cout_unite: EDIT.effet_cout_unite,
+        qualifs: EDIT.qualifs.filter(q => q.code.trim()).map(q => ({ code: q.code.trim(), classe: q.classe })) };
+      await appeler(EDIT.id ? `/api/copilote/entreprise/partenaires/${EDIT.id}` : '/api/copilote/entreprise/partenaires', EDIT.id ? 'PUT' : 'POST', corps);
+      await rechargerSansPerdreLeBrouillon(); EDIT = null; rendre();
+    } catch (err) { etat.textContent = err.message; etat.className = 'petit non'; }
+  }
+  else if (a === 'retirer-p') {
+    const p = P.partenaires.find(x => x.id === +b.dataset.id);
+    if (!confirm(`Retirer le partenaire « ${p.nom} » ?`)) return;
+    try { await appeler(`/api/copilote/entreprise/partenaires/${p.id}`, 'DELETE'); await rechargerSansPerdreLeBrouillon(); rendre(); }
+    catch (err) { alert(err.message); }
+  }
+});
+window.addEventListener('beforeunload', e => { if (B && P && different()) { e.preventDefault(); e.returnValue = ''; } });
+
+async function demarrer() {
+  try {
+    const r = await appeler('/api/copilote/entreprise', 'GET');
+    REF = r.referentiel; AUTEUR = r.auteur; chargerProfil(r); rendre();
+  } catch (e) { $('#corps').innerHTML = `<p class="erreur">${esc(e.message)}</p>`; }
+}
+demarrer();
+
+</script>
+</body>
+</html>

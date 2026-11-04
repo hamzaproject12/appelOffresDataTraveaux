@@ -44,6 +44,11 @@ de donner un avis.
   - **Pendant la construction (décision du 01/11/2026)** : le code n'est exigé que si
     COPILOTE_CODE_EXIGE=1. Sans cette variable, tout le copilote est ouvert au visiteur connecté
     (cookie visiteur, limites de requêtes du serveur). On remettra le code à l'étape 9.
+  - **Étape D, interrupteur COPILOTE_PRIVE (décision du 04/11/2026)** : éteint par défaut. Allumé (`COPILOTE_PRIVE=1`),
+    le code COPILOTE_ACCES est exigé pour ces quatre parties seulement : page et API « notre entreprise »
+    (/copilote/entreprise), API de décision (étape ⑥ de l'analyse), « J'ai soumissionné » (POST /api/copilote/soumissions),
+    suivi (/copilote/suivi). Le reste du copilote ne change pas. Tests dans tests/test_etape_d.py (interrupteur éteint et allumé).
+    **À activer avant d'ouvrir le site à des clients.**
   Chaque avis enregistré garde le nom de son auteur.
 - Les calculs lourds et réguliers sont en Python : groupes (chaque semaine, via planificateur.py),
   similarité, sous-historiques. Le serveur renvoie un « dossier d'analyse » JSON complet.
@@ -119,6 +124,11 @@ de donner un avis.
   selon le nombre prévu ; taux fixes de comparaison choisis sur 2025 ; plancher légal (décret 2-22-431 : offre à
   plus de 20 % sous l'estimation écartée d'office) → point recommandé et zone jamais sous 0,82, avertissement
   « proche du seuil d'offre anormalement basse » sous 0,85.
+- [x] D Notre entreprise et décision (04/11/2026) : livrée avec le critère du taux fixe KO (la règle bat « toujours 0,95 »
+  aux 3 coûts mais pas le meilleur taux fixe de 2025) ; écart accepté par Hamza, amélioration prévue en D2 ; ligne
+  « Règle simple apprise sur 2025 » dans le tableau de choix pour comparer ; rapport rapports/copilote_etape_D.md
+- [ ] D2 Meilleur prix recommandé : calibration plus fine près de 1,00 apprise sur ~1 000 marchés de 2025, et/ou prix
+  recommandé stabilisé (gain lissé ±0,02), choisis sur 2025 ; critère : battre le meilleur taux fixe de 2025 pour 2 coûts sur 3
 - [ ] 5 Concurrents + taux   - [ ] 6 Simulateur   - [ ] 7 Page d'analyse   - [ ] 8 Décision
 - [ ] 9 Finitions et déploiement
 (Cocher ici à la fin de chaque étape validée.)
