@@ -628,6 +628,33 @@ def esperance(ps: list[float], lam: float = 0.0, dispersion: float = 0.0, decala
     return total
 
 
+def recaler(ps: list[float], lam: float, dispersion: float, decalage: float, table: dict | None) -> dict:
+    """Étape C2 : le recalage du nombre de concurrents selon le nombre prévu m = esperance(ps, λ, σ, δ).
+    La table, apprise sur 2025 (python -m copilote.mesures_probables recaler), donne pour quelques valeurs de
+    log m un ajout au décalage et un facteur de la dispersion : δ' = δ + ajout(m), σ' = σ × facteur(m),
+    interpolés linéairement en log m entre ses points, bornés aux extrémités. Les petits marchés prévus
+    viennent moins nombreux et plus dispersés qu'annoncé, les gros prévus ont une queue haute plus longue.
+    Recalculé quand on décoche une société (m change). Recopiée À L'IDENTIQUE dans statique/analyse_calcul.js
+    (recaler) ; tests/cas_concurrents.json."""
+    m = esperance(ps, lam, dispersion, decalage)
+    if not table:
+        return {"decalage": decalage, "dispersion": dispersion, "prevu": m, "ajout": 0.0, "facteur": 1.0}
+    lx = math.log(max(m, 0.1))
+    xs, aj, fa = table["log_prevu"], table["ajout"], table["facteur"]
+    if lx <= xs[0]:
+        a, f = aj[0], fa[0]
+    elif lx >= xs[-1]:
+        a, f = aj[-1], fa[-1]
+    else:
+        k = 1
+        while xs[k] < lx:
+            k += 1
+        t = (lx - xs[k - 1]) / (xs[k] - xs[k - 1])
+        a = aj[k - 1] + (aj[k] - aj[k - 1]) * t
+        f = fa[k - 1] + (fa[k] - fa[k - 1]) * t
+    return {"decalage": decalage + a, "dispersion": dispersion * f, "prevu": m, "ajout": a, "facteur": f}
+
+
 def historique_acheteur(mem: Memoire, ctx: Contexte) -> list[int]:
     """Le nombre de sociétés de chaque marché visible de l'acheteur, dans la famille de l'AO (3 ans)."""
     if not ctx.famille:
@@ -723,14 +750,18 @@ def analyser(mem: Memoire, ctx: Contexte, coefs: dict | None = None, reglages: d
     lam = autres + reste
     h = corriger_par_historique(ps, lam, coefs.get("dispersion", 0.0), historique_acheteur(mem, ctx),
                                 coefs.get("historique"))
-    d = distribution(ps, lam, h["dispersion"], h["decalage"])
+    rc = recaler(ps, lam, h["dispersion"], h["decalage"], coefs.get("recalage_nombre"))
+    d = distribution(ps, lam, rc["dispersion"], rc["decalage"])
     for c in envoyes:
         c["segment"] = segment(c["x"]) if c.get("x") else None
     return {"candidats": envoyes, "nb_candidats": len(tous), "groupes": g["groupes"],
             "individuelles": g["individuelles"],
             "concurrents": {"distribution": d, "lambda": lam, "lambda_autres": autres,
-                            "lambda_reste": reste, "dispersion": h["dispersion"],
-                            "dispersion_modele": coefs.get("dispersion", 0.0), "decalage": h["decalage"],
+                            "lambda_reste": reste, "dispersion": rc["dispersion"],
+                            "dispersion_modele": coefs.get("dispersion", 0.0), "decalage": rc["decalage"],
+                            "dispersion_base": h["dispersion"], "decalage_base": h["decalage"],
+                            "recalage": coefs.get("recalage_nombre"),
+                            "recalage_detail": {k: rc[k] for k in ("prevu", "ajout", "facteur")},
                             "historique": h,
                             "offres_moyennes_similaires": offres_moyennes_similaires(ctx),
                             **fourchette(d, r["niveau"])},

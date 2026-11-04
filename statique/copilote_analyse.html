@@ -172,6 +172,7 @@
   .lots .btn { white-space: normal; text-align: left; justify-content: flex-start; max-width: 100%; min-width: 0;
     padding-block: var(--e1); overflow-wrap: anywhere; }
   .lots .btn[aria-current="true"] { background: var(--accent-doux); border-color: var(--accent); color: var(--accent); font-weight: 650; }
+  .avertissement-texte { color: var(--orange); }
   .avertissement { padding: var(--e3); border-radius: var(--r-s); background: var(--orange-doux); color: var(--orange);
     font-size: var(--t-s); }
   .erreur { padding: var(--e4); border-radius: var(--r-m); background: var(--rouge-doux); color: var(--rouge); }
@@ -237,6 +238,7 @@
   .legende { display: flex; flex-wrap: wrap; gap: 4px 12px; align-items: center; color: var(--doux); }
   .legende .tr { display: inline-block; width: 18px; height: 4px; border-radius: 2px; margin-right: 4px; vertical-align: middle; }
   .tr--accent { background: var(--accent); } .tr--orange { background: var(--orange); } .tr--rouge { background: var(--rouge); }
+  .tr--bas { background: var(--orange-doux); border: 1px solid var(--orange); height: 10px !important; }
   .tr--zone { background: var(--vert-doux); border: 1px solid var(--vert-bord); height: 10px !important; } .tr--texte { background: var(--texte); }
   .zone-reco { display: grid; gap: var(--e1); }
   h3.sous { font-size: var(--t-m); margin: var(--e4) 0 var(--e1); }
@@ -365,8 +367,13 @@ const retiree = c => !!(MODIFS[c.cle] && MODIFS[c.cle].retiree);
 function calculerCompte() {
   const ps = D.probables.candidats.filter(c => !retiree(c)).map(pDe);
   const conc = D.concurrents;
-  const d = AnalyseCalcul.distribution(ps, conc.lambda || 0, conc.dispersion || 0, conc.decalage || 0);
-  return { d, f: AnalyseCalcul.fourchette(d, conc.niveau || 0.8) };
+  // Étape C2 : le recalage dépend du nombre prévu, il est refait sur la liste modifiée (prévisions figées
+  // d'avant C2 : pas de table, décalage et σ gardés tels quels).
+  const rc = conc.recalage && conc.decalage_base != null
+    ? AnalyseCalcul.recaler(ps, conc.lambda || 0, conc.dispersion_base || 0, conc.decalage_base || 0, conc.recalage)
+    : { decalage: conc.decalage || 0, dispersion: conc.dispersion || 0 };
+  const d = AnalyseCalcul.distribution(ps, conc.lambda || 0, rc.dispersion, rc.decalage);
+  return { d, f: AnalyseCalcul.fourchette(d, conc.niveau || 0.8), rc };
 }
 
 // ================================================================ ① l'AO
@@ -606,7 +613,13 @@ function blocProbables() {
           (σ = ${nf1.format(D.concurrents.dispersion)}), plus ${nf1.format(D.concurrents.lambda)} société(s) que rien n’annonce
           (dont ${nf2.format(D.concurrents.lambda_autres)} d’après les ${nf1.format(D.concurrents.offres_moyennes_similaires)} offres moyennes des similaires).
           L’espérance est ramenée vers le nombre médian de concurrents des marchés de l’acheteur dans la même famille,
-          avec un poids n / (n + k) : décalage ${nf2.format(D.concurrents.decalage || 0)}, σ final ${nf2.format(D.concurrents.dispersion)}.</li>
+          avec un poids n / (n + k) : décalage ${nf2.format(D.concurrents.decalage_base != null ? D.concurrents.decalage_base : (D.concurrents.decalage || 0))},
+          σ ${nf2.format(D.concurrents.dispersion_base != null ? D.concurrents.dispersion_base : D.concurrents.dispersion)}.</li>
+        ${D.concurrents.recalage ? `<li>Recalage selon le nombre prévu (appris sur 2025) : sans lui, les petits marchés étaient surestimés et les
+          gros n’avaient pas assez de queue haute. Pour ${nf1.format(D.concurrents.recalage_detail.prevu)} sociétés prévues :
+          décalage ${D.concurrents.recalage_detail.ajout >= 0 ? '+' : ''}${nf2.format(D.concurrents.recalage_detail.ajout)},
+          σ × ${nf2.format(D.concurrents.recalage_detail.facteur)} → décalage ${nf2.format(D.concurrents.decalage)}, σ ${nf2.format(D.concurrents.dispersion)}.
+          Refait quand vous décochez une société.</li>` : ''}
       </ul></details>
   </section>`;
 }
@@ -729,6 +742,10 @@ function simulerActuel() {
   SIM.ms = performance.now() - t0 + (SIM === SIM_ORIGINE ? SIM_ORIGINE.ms0 : 0);
 }
 
+// Plancher légal (décret 2-22-431) : une offre de travaux de plus de 20 % sous l'estimation est écartée d'office.
+const SEUIL_ECARTEE = 0.80;
+const alerteDe = () => D.simulation.modele.alerte || Simulateur.ALERTE;
+const AVERTISSEMENT_BAS = 'proche du seuil d’offre anormalement basse';
 const vraiP = () => VERITE && VERITE.prix_reference && VERITE.estimation ? VERITE.prix_reference / VERITE.estimation : null;
 const chanceA = (s, x) => { const xs = s.grille, j = Math.round((x - xs[0]) / (xs[1] - xs[0])); return j >= 0 && j < xs.length ? s.chance[j] : null; };
 
@@ -739,6 +756,8 @@ function courbe(s, so) {
   const X = v => g + (v - xs[0]) / (xs[n - 1] - xs[0]) * (W - g - d), Y = v => h + (1 - v / ymax) * (H - h - b);
   const chemin = ch => ch.map((v, j) => `${j ? 'L' : 'M'}${X(xs[j]).toFixed(1)},${Y(v).toFixed(1)}`).join('');
   let o = '';
+  const al = alerteDe();
+  o += `<rect x="${X(xs[0]).toFixed(1)}" y="${h}" width="${(X(al) - X(xs[0])).toFixed(1)}" height="${H - h - b}" fill="var(--orange-doux)"><title>Sous ${t3(al)} : ${AVERTISSEMENT_BAS} (écartée d’office sous ${t3(SEUIL_ECARTEE)}, décret 2-22-431)</title></rect>`;
   if (s.zone) o += `<rect x="${X(s.zone.de).toFixed(1)}" y="${h}" width="${Math.max(1, X(s.zone.a) - X(s.zone.de)).toFixed(1)}" height="${H - h - b}" fill="var(--vert-doux)"><title>Zone recommandée</title></rect>`;
   for (let k = 0; k <= 4; k++) {
     const v = ymax * k / 4;
@@ -765,7 +784,7 @@ function courbe(s, so) {
   return `<svg class="courbe" viewBox="0 0 ${W} ${H}" role="img" aria-label="Chance de gagner selon notre taux, de 0,80 à 1,20 de l’estimation"
     data-g="${g}" data-l="${W - g - d}" data-w="${W}">${o}</svg>
     <p class="legende petit"><span class="tr tr--accent"></span>chance de gagner${so ? ' <span class="tr tr--orange"></span>courbe d’origine' : ''}
-      <span class="tr tr--zone"></span>zone recommandée${tg ? ' <span class="tr tr--rouge"></span>offre gagnante réelle' : ''}</p>`;
+      <span class="tr tr--zone"></span>zone recommandée <span class="tr tr--bas"></span>sous ${t3(alerteDe())} : ${AVERTISSEMENT_BAS}${tg ? ' <span class="tr tr--rouge"></span>offre gagnante réelle' : ''}</p>`;
 }
 
 function histoP(s, so) {
@@ -827,6 +846,9 @@ function blocSimulationContenu() {
   return `<div class="zone-reco">
       ${z ? `<p class="compte__phrase">Zone recommandée : <b>${t3(z.de)} à ${t3(z.a)}</b> de l’estimation${E ? ` (${dh(z.de * E)} à ${dh(z.a * E)})` : ''}.
         Meilleure chance : <b>${pct(z.chance, 1)}</b> à ${t3(z.x)}${E ? ` (${dh(z.x * E)})` : ''}.</p>` : '<p>Aucune chance de gagner sur la grille.</p>'}
+      ${z && z.de < alerteDe() - 1e-9 ? `<p class="avertissement">⚠ ${z.x < alerteDe() - 1e-9 ? 'Point recommandé' : 'Bas de la zone'} sous ${t3(alerteDe())} :
+        ${AVERTISSEMENT_BAS}. Une offre de plus de 20 % sous l’estimation (sous ${t3(SEUIL_ECARTEE)}) est écartée d’office
+        (décret 2-22-431) ; la zone ne descend jamais sous ${t3(D.simulation.modele.plancher || Simulateur.PLANCHER)}.</p>` : ''}
       ${zo && z && (zo.x !== z.x || zo.de !== z.de || zo.a !== z.a) ? `<p class="compte__origine">Calcul d’origine : <s>zone ${t3(zo.de)} à ${t3(zo.a)}, meilleure chance ${pct(zo.chance, 1)} à ${t3(zo.x)}</s>
         — modifié par vos changements.</p>` : ''}
       <p class="doux petit">La zone vise la meilleure chance de gagner ; le coût et la marge viendront à l’étape 8. Survolez la courbe pour lire
@@ -867,10 +889,16 @@ function blocSimulation() {
         offres plus hautes), plus un effet de marché commun σ ${t3(mo.marche.sigma)}. Chaque société présente est évincée avec sa probabilité d’éviction (③).</li>
       <li>Prix de référence P = (moyenne des offres admises, la nôtre comprise + estimation) / 2. Gagnant : l’offre la plus proche de P
         par défaut, sinon la plus proche par excès ; à égalité de montant, l’offre déjà déposée passe avant la nôtre (construire_base.py).</li>
-      ${mo.calibration ? `<li>Chance affichée = chance simulée corrigée par une table de calibration apprise sur 2025 (marchés tenus à part) :
-        ${mo.calibration.x.filter((_, k) => k % 5 === 0).map((x, k) => `${pct(x)} simulés → ${pct(mo.calibration.y[k * 5])}`).join(', ')}.
-        Elle est croissante : elle garde l’ordre des prix et change surtout l’échelle.</li>` : ''}
-      <li>Point recommandé : le maximum de la courbe lissée (±0,005). Zone : autour de lui, les taux où la chance reste ≥ 90 % du maximum.</li>
+      ${mo.calibration && mo.calibration.a ? `<li>Chance affichée = chance simulée c à notre taux x, corrigée par une logistique apprise sur
+        2025 (marchés tenus à part) : logistique(a + b × logit c + g × (x − 1)), avec a, b et g selon le nombre de concurrents prévu
+        (${nf1.format(SIM.nombre_prevu)} ici). g est négatif : en 2025, une offre basse gagnait plus souvent que la simulation ne le disait.
+        À 1,00 : ${[0.2, 0.5, 0.8].map(c => `${pct(c)} simulés → ${pct(Simulateur.calibrer([c], mo.calibration, SIM.nombre_prevu, [1.0])[0])}`).join(', ')}.
+        Le point recommandé et la zone se lisent sur cette chance calibrée.</li>` : ''}
+      ${mo.calibration && mo.calibration.x ? `<li>Chance affichée = chance simulée corrigée par la table de calibration de l’étape C
+        (${mo.calibration.x.filter((_, k) => k % 5 === 0).map((x, k) => `${pct(x)} simulés → ${pct(mo.calibration.y[k * 5])}`).join(', ')}).</li>` : ''}
+      <li>Point recommandé : le maximum de la courbe lissée (±0,005), jamais sous ${t3(mo.plancher || Simulateur.PLANCHER)} (marge au-dessus du seuil
+        de 0,80 sous lequel une offre est écartée d’office, décret 2-22-431). Zone : autour de lui, les taux où la chance reste ≥ 90 % du maximum,
+        jamais sous ce plancher. Sous ${t3(alerteDe())}, un avertissement « ${AVERTISSEMENT_BAS} » s’affiche.</li>
       <li>Les copies JavaScript (statique/simulateur.js) et Python (copilote/simulateur.py) donnent le même résultat pour la même graine ;
         la prévision figée d’un vrai AO garde la courbe et la zone.</li>
     </ul></details>
@@ -883,7 +911,9 @@ function lirePrix() {
   const v = parseFloat(String(PRIX_SAISI).replace(/\s/g, '').replace(',', '.'));
   if (!isFinite(v) || !E) { el.textContent = ''; return; }
   const x = v / E, c = chanceA(SIM, x);
-  el.innerHTML = `taux ${t3(x)} : ${c == null ? 'hors de la grille (0,80 à 1,20)' : `<b>${pct(c, 1)}</b> de chances`}`;
+  const bas = x < SEUIL_ECARTEE ? ` <span class="non">— plus de 20 % sous l’estimation : offre écartée d’office (décret 2-22-431)</span>`
+    : x < alerteDe() ? ` <span class="avertissement-texte">⚠ ${AVERTISSEMENT_BAS}</span>` : '';
+  el.innerHTML = `taux ${t3(x)} : ${c == null ? 'hors de la grille (0,80 à 1,20)' : `<b>${pct(c, 1)}</b> de chances`}${bas}`;
 }
 
 function rafraichirSimulation() {
@@ -905,7 +935,8 @@ document.addEventListener('pointermove', e => {
   const gx = g + j / (xs.length - 1) * L, guide = svg.querySelector('.guide');
   guide.setAttribute('x1', gx); guide.setAttribute('x2', gx); guide.setAttribute('visibility', 'visible');
   const E = D.ao.estimation;
-  $('#lecture').innerHTML = `À <b>${t3(xs[j])}</b>${E ? ` (${dh(xs[j] * E)})` : ''} : <b>${pct(SIM.chance[j], 1)}</b> de chances de gagner.`;
+  $('#lecture').innerHTML = `À <b>${t3(xs[j])}</b>${E ? ` (${dh(xs[j] * E)})` : ''} : <b>${pct(SIM.chance[j], 1)}</b> de chances de gagner.`
+    + (xs[j] < alerteDe() - 1e-9 ? ` <span class="avertissement-texte">⚠ ${AVERTISSEMENT_BAS}</span>` : '');
 });
 
 // ================================================================ ce qui s'est réellement passé (AO rejoués)
@@ -1091,6 +1122,9 @@ async function demarrer() {
   if (EST_REJEU) { try { verite = await lire(`/api/copilote/rejeu/${encodeURIComponent(REF)}/verite${q}`); } catch (e) { verite = null; } }
   else { try { prevu = await lire(`/api/copilote/prevision/${encodeURIComponent(REF)}${q}`); } catch (e) { prevu = null; } }
   VERITE = verite;
+  const mo0 = D.simulation.modele;               // prévisions figées d'avant C2 : plancher et alerte par défaut
+  if (mo0.plancher == null) mo0.plancher = Simulateur.PLANCHER;
+  if (mo0.alerte == null) mo0.alerte = Simulateur.ALERTE;
   const t0 = performance.now();
   SIM_ORIGINE = Simulateur.simuler(D.simulation.modele);
   SIM_ORIGINE.ms0 = performance.now() - t0;

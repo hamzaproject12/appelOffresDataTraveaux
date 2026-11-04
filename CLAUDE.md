@@ -115,6 +115,10 @@ de donner un avis.
   fourchette 80 % du nombre de concurrents entre 70 et 90 % (500 marchés de 2026). E.G.R : groupes en étoile
   gardés, sans chaînage.
 - [ ] C Taux de chaque société + simulation de l'ouverture des plis
+  C2 (décisions du 04/11/2026) : (b) jugé contre l'étape 4 sur les mêmes marchés ; nombre de concurrents recalé
+  selon le nombre prévu ; taux fixes de comparaison choisis sur 2025 ; plancher légal (décret 2-22-431 : offre à
+  plus de 20 % sous l'estimation écartée d'office) → point recommandé et zone jamais sous 0,82, avertissement
+  « proche du seuil d'offre anormalement basse » sous 0,85.
 - [ ] 5 Concurrents + taux   - [ ] 6 Simulateur   - [ ] 7 Page d'analyse   - [ ] 8 Décision
 - [ ] 9 Finitions et déploiement
 (Cocher ici à la fin de chaque étape validée.)

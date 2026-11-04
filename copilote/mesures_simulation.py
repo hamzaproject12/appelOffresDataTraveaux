@@ -3,7 +3,12 @@
     python -m copilote.mesures_simulation ajuster [--n 300]     réglages des taux → copilote/simulation.json
     python -m copilote.mesures_simulation mesurer [--n 500]     500 marchés de 2026 (graine 1, ceux de A2)
     python -m copilote.mesures_simulation rejeux                les 20 AO REJEU (par l'API interne)
-    python -m copilote.mesures_simulation tout                  mesurer + rejeux → rapports/copilote_etape_C_mesures.json
+    python -m copilote.mesures_simulation tout                  mesurer + rejeux → rapports/copilote_etape_C2_mesures.json
+    python -m copilote.mesures_simulation mesurer --annee 2025 --facteur f --courbes c.pkl
+                                                                 2025 sans calibration (courbes brutes gardées)
+    python -m copilote.mesures_simulation calibrer --courbes c.pkl --facteur f
+                                                                 calibration logistique et taux fixes de 2025
+                                                                 → section « simulation » de simulation.json
 
 Sans fuite : pour un marché du jour d, l'historique visible s'arrête la veille (Memoire.coupe), les similaires
 sont datés avant d, l'idf de l'index n'a vu que les années d'avant, les réglages viennent de l'année d'avant.
@@ -15,8 +20,10 @@ Mesures (la vérité : les offres réellement déposées, jamais vues par le mot
      (médiane des prix de référence des 20 marchés les plus similaires) sur les mêmes marchés ;
   c) calibration : la chance annoncée pour x = 0,85 … 1,10 et au point recommandé, contre le résultat réel de
      notre offre fictive insérée parmi les vraies offres (donnees.rejouer_attribution, règle de construire_base) ;
-  d) victoires au point recommandé, contre le meilleur taux fixe de chaque tranche de nombre d'offres (choisi
-     sur ces mêmes marchés : la base simple est avantagée).
+  d) victoires au point recommandé, contre le meilleur taux fixe de chaque tranche de nombre d'offres CHOISI SUR
+     2025 puis appliqué tel quel (étape C2), et contre l'offre fixe à 0,95. Le meilleur taux choisi après coup sur
+     les marchés mesurés n'est donné qu'à titre d'information (borne haute). Taux fixes et point recommandé
+     jamais sous le plancher (0,82).
 """
 from __future__ import annotations
 
@@ -32,9 +39,10 @@ import numpy as np
 from . import analyse, bases, config, mesures_probables as mp, probables, reglages, rejeu, simulateur, taux
 from .donnees import CLE_FICTIVE, TRANCHES, rejouer_attribution, tranche_de
 
-SORTIE = config.RAPPORTS / "copilote_etape_C_mesures.json"
+SORTIE = config.RAPPORTS / "copilote_etape_C2_mesures.json"
 X_CALIBRATION = (0.85, 0.90, 0.95, 1.00, 1.05, 1.10)
 FIXES = [round((3200 + 10 * k) / 4000, 4) for k in range(161)]      # 0,80 à 1,20 par 0,0025
+TIERS_CALIBRATION = 3                    # tranches de nombre prévu de la calibration logistique : les tiers de 2025
 N_ETAPE4 = 20
 MIN_COMPARABLES = 5
 
@@ -73,7 +81,10 @@ def dossier_leger(mem, ctx, comp, m, r0, coefs, ref: str, lot, estimation, rtaux
     return {"ao": {"ref_annonce": ref, "lot": lot, "estimation": estimation},
             "probables": {"candidats": cands},
             "concurrents": {"decalage": round(float(conc["decalage"]), 4), "dispersion": round(float(conc["dispersion"]), 4),
-                            "lambda": round(float(conc["lambda"]), 4)},
+                            "lambda": round(float(conc["lambda"]), 4),
+                            "decalage_base": round(float(conc["decalage_base"]), 4),
+                            "dispersion_base": round(float(conc["dispersion_base"]), 4),
+                            "recalage": conc.get("recalage")},
             "taux": analyse.rendre_taux(tx)}
 
 
@@ -96,7 +107,7 @@ def mesurer_un(sortie: dict, v: dict, base4: float | None) -> dict:
              "erreur": None if pr["mediane"] is None else abs(pr["mediane"] - v["p"]),
              "erreur_etape4": None if base4 is None else abs(base4 - v["p"]),
              "nb_offres": v["nb_offres"], "tranche": v["tranche"], "offres_simulees": sortie["offres_moyennes"],
-             "zone": sortie["zone"], "attribue": v["attribue"]}
+             "nombre_prevu": sortie.get("nombre_prevu"), "zone": sortie["zone"], "attribue": v["attribue"]}
     if v["attribue"]:
         xs = sortie["grille"]
         cal = []
@@ -112,6 +123,7 @@ def mesurer_un(sortie: dict, v: dict, base4: float | None) -> dict:
         ligne["calibration"] = cal
         ligne["fixes"] = [v["gagne"](x) for x in FIXES]
         ligne["courbe"] = sortie["chance"]                                   # pour les essais hors ligne
+        ligne["courbe_brute"] = sortie["chance_brute"]                       # pour la calibration (2025)
         ligne["gagne_grille"] = [v["gagne"](x) for x in xs]
     return ligne
 
@@ -122,7 +134,27 @@ def _pct(v):
     return None if v is None else round(float(v), 4)
 
 
-def resumer(lignes: list[dict]) -> dict:
+def fixes_admis(plancher: float = simulateur.PLANCHER) -> list[int]:
+    """Les indices des taux fixes au moins égaux au plancher."""
+    return [k for k, x in enumerate(FIXES) if x >= plancher - 1e-12]
+
+
+def meilleurs_fixes(lignes: list[dict], plancher: float = simulateur.PLANCHER) -> dict:
+    """Pour chaque tranche de nombre d'offres (et « tout ») : le taux fixe, au moins égal au plancher, qui gagne
+    le plus souvent sur ces marchés."""
+    admis = fixes_admis(plancher)
+    sortie = {}
+    for nom, _, _ in TRANCHES + [("tout", 0, 0)]:
+        sous = [l for l in lignes if "fixes" in l and (nom == "tout" or l["tranche"] == nom)]
+        if not sous:
+            continue
+        fix = np.mean([[l["fixes"][k] for k in admis] for l in sous], axis=0)
+        jb = int(np.argmax(fix))
+        sortie[nom] = {"taux": FIXES[admis[jb]], "victoires": _pct(fix[jb]), "n": len(sous)}
+    return sortie
+
+
+def resumer(lignes: list[dict], fixes_2025: dict | None = None) -> dict:
     ok = [l for l in lignes if l["p_mediane"] is not None]
     att = [l for l in ok if l["attribue"] and "calibration" in l]
     sortie = {
@@ -145,12 +177,15 @@ def resumer(lignes: list[dict]) -> dict:
         if x:
             blocs.append({"de": de, "a": a, "n": len(x), "annoncee": _pct(np.mean([c for c, _ in x])),
                           "reelle": _pct(np.mean([g for _, g in x])),
-                          "ecart_points": round(100 * (np.mean([c for c, _ in x]) - np.mean([g for _, g in x])), 1)})
+                          "ecart_points": round(float(100 * (np.mean([c for c, _ in x]) - np.mean([g for _, g in x]))), 1)})
     sortie["calibration"] = blocs
     rec = [(c, g) for l in att for x, c, g in l["calibration"] if x == "rec"]
     sortie["calibration_rec"] = {"n": len(rec), "annoncee": _pct(np.mean([c for c, _ in rec])) if rec else None,
                                  "reelle": _pct(np.mean([g for _, g in rec])) if rec else None}
-    # d) zone recommandée contre taux fixes, par tranche
+    # d) zone recommandée contre taux fixes, par tranche : le taux fixe choisi sur 2025 (appliqué tel quel), 0,95,
+    #    et, pour information, le meilleur choisi après coup sur ces marchés (borne haute)
+    fixes_2025 = fixes_2025 if fixes_2025 is not None else (taux.charger_simulation().get("fixes_2025") or {})
+    apres = meilleurs_fixes(att)
     tranches = {}
     for nom, _, _ in TRANCHES + [("tout", 0, 0)]:
         sous = [l for l in att if "gagne_rec" in l and (nom == "tout" or l["tranche"] == nom)]
@@ -158,40 +193,97 @@ def resumer(lignes: list[dict]) -> dict:
             tranches[nom] = {"n": 0}
             continue
         fix = np.mean([l["fixes"] for l in sous], axis=0)
-        jb = int(np.argmax(fix))
+        x25 = (fixes_2025.get(nom) or {}).get("taux")
+        if nom == "tout":                    # chaque marché au taux de 2025 de sa tranche
+            v25 = [l["fixes"][FIXES.index((fixes_2025.get(l["tranche"]) or {}).get("taux"))] for l in sous
+                   if (fixes_2025.get(l["tranche"]) or {}).get("taux") in FIXES]
+            v25 = _pct(np.mean(v25)) if len(v25) == len(sous) else None
+            x25 = "par tranche" if v25 is not None else None
+        else:
+            v25 = _pct(fix[FIXES.index(x25)]) if x25 in FIXES else None
         tranches[nom] = {"n": len(sous), "zone": _pct(np.mean([l["gagne_rec"] for l in sous])),
                          "chance_annoncee": _pct(np.mean([l["chance_rec"] for l in sous])),
                          "x_rec_median": _pct(np.median([l["x_rec"] for l in sous])),
-                         "meilleur_fixe": FIXES[jb], "victoires_meilleur_fixe": _pct(fix[jb]),
-                         "fixe_095": _pct(fix[FIXES.index(0.95)])}
+                         "fixe_2025": x25, "victoires_fixe_2025": v25,
+                         "fixe_095": _pct(fix[FIXES.index(0.95)]),
+                         "apres_coup": (apres.get(nom) or {}).get("taux"),
+                         "victoires_apres_coup": (apres.get(nom) or {}).get("victoires")}
     sortie["zone_contre_fixes"] = tranches
+    # par tranche de nombre prévu : nombre simulé et nombre réel (le tri par nombre RÉEL exagère l'écart)
+    prev = []
+    for de, a in ((0, 3), (3, 5), (5, 8), (8, 12), (12, 1e9)):
+        sous = [l for l in ok if l.get("nombre_prevu") is not None and de <= l["offres_simulees"] < a]
+        if sous:
+            prev.append({"de": de, "a": None if a >= 1e9 else a, "n": len(sous),
+                         "offres_simulees": round(float(np.mean([l["offres_simulees"] for l in sous])), 2),
+                         "offres_reelles": round(float(np.mean([l["nb_offres"] for l in sous])), 2),
+                         "reelles_mediane": float(np.median([l["nb_offres"] for l in sous]))})
+    sortie["nombre_par_simule"] = prev
+    reel = []
+    for nom, _, _ in TRANCHES:
+        sous = [l for l in ok if l["tranche"] == nom]
+        if sous:
+            reel.append({"tranche": nom, "n": len(sous),
+                         "offres_simulees": round(float(np.mean([l["offres_simulees"] for l in sous])), 2),
+                         "offres_reelles": round(float(np.mean([l["nb_offres"] for l in sous])), 2)})
+    sortie["nombre_par_reel"] = reel
+    sortie["feu_vert"] = feu_vert(sortie)
     return sortie
+
+
+def feu_vert(r: dict) -> dict:
+    """Les critères FEU VERT de l'étape C2 (le dernier, à moins de 10 points, se lit sur les AO REJEU)."""
+    cal = r.get("calibration") or []
+    z = r.get("zone_contre_fixes") or {}
+    t4 = [t for t in ("1-2", "3-4", "5-7", "8+") if (z.get(t) or {}).get("n")]
+    battues = [t for t in t4 if z[t].get("victoires_fixe_2025") is not None and z[t]["zone"] >= z[t]["victoires_fixe_2025"]]
+    tout = z.get("tout") or {}
+    rec = r.get("calibration_rec") or {}
+    ecart_rec = None if rec.get("annoncee") is None else round(100 * (rec["annoncee"] - rec["reelle"]), 1)
+    ok_c = int(sum(bool(abs(b["ecart_points"]) <= 5) for b in cal))
+    return {k: (bool(v) if isinstance(v, (bool, np.bool_)) else v) for k, v in {
+        "a_dans80": r.get("dans80") is not None and 0.70 <= r["dans80"] <= 0.90,
+        "b_ecart": r.get("mae") is not None and r.get("mae_etape4") is not None and r["mae"] <= r["mae_etape4"],
+        "c_tranches_ok": ok_c, "c_tranches": len(cal),
+        "c_calibration": len(cal) > 0 and ok_c >= len(cal) - 1,
+        "d_tranches_battues": len(battues), "d_tranches": len(t4),
+        "d_zone": tout.get("victoires_fixe_2025") is not None and tout["zone"] >= tout["victoires_fixe_2025"]
+        and len(battues) >= min(3, len(t4)),
+        "ecart_point_recommande": None if ecart_rec is None else float(ecart_rec),
+        "rejeu_moins_de_10_points": ecart_rec is not None and abs(ecart_rec) < 10,
+    }.items()}
 
 
 def _rendu(lignes: list[dict]) -> dict:
     return {"resume": resumer(lignes),
-            "lignes": [{k: v for k, v in l.items() if k not in ("fixes", "courbe", "gagne_grille")} for l in lignes]}
+            "lignes": [{k: v for k, v in l.items() if k not in ("fixes", "courbe", "courbe_brute", "gagne_grille")}
+                       for l in lignes]}
 
 
 def garder_courbes(chemin: str, **jeux) -> None:
     """Les courbes et les victoires réelles sur toute la grille (essais de règles de zone sans tout relancer)."""
     import pickle
     with open(chemin, "wb") as f:
-        pickle.dump({nom: [{k: l.get(k) for k in ("courbe", "gagne_grille", "tranche", "nb_offres", "identifiant")}
+        pickle.dump({nom: [{k: l.get(k) for k in ("courbe", "courbe_brute", "gagne_grille", "fixes", "tranche",
+                                                  "nb_offres", "nombre_prevu", "identifiant")}
                            for l in lignes if "courbe" in l] for nom, lignes in jeux.items()}, f)
 
 
 # --------------------------------------------------------------------------- backtest
 
 def mesurer(annee: str = "2026", n: int = 500, graine: int = 1, rtaux: dict | None = None,
-            coefs: dict | None = None, scenarios: int = simulateur.SCENARIOS, rsim: dict | None = None) -> dict:
+            coefs: dict | None = None, scenarios: int = simulateur.SCENARIOS, rsim: dict | None = None,
+            hors_echantillon: bool = False) -> dict:
+    """`hors_echantillon` (2025, étape C2) : marchés pris hors des échantillons d'ajustement de A2 et du recalage
+    du nombre (mesures_probables.indices_simulation)."""
     r0 = reglages.charger()
     coefs = coefs or probables.charger_coefficients()
     m = mp.moteur_annee(annee, sauver=True)
     mem = probables.memoire(bases.historique, bases.chemin_historique())
     lignes = []
     t0 = time.time()
-    for k, i in enumerate(mp.cibles(m, annee, n, graine)):
+    indices = mp.indices_simulation(m, annee, n, graine) if hors_echantillon else mp.cibles(m, annee, n, graine)
+    for k, i in enumerate(indices):
         u = m.corpus.unites[i]
         v = verite_unite(u)
         if v is None:
@@ -205,7 +297,8 @@ def mesurer(annee: str = "2026", n: int = 500, graine: int = 1, rtaux: dict | No
         lignes.append(x)
         if k % 25 == 0:
             print(f"  mesurer {k} ({time.time() - t0:.0f} s)", flush=True)
-    return {"annee": annee, "graine": graine, "duree_s": round(time.time() - t0), **_rendu(lignes), "_lignes": lignes}
+    return {"annee": annee, "graine": graine, "hors_echantillon": hors_echantillon, "duree_s": round(time.time() - t0),
+            **_rendu(lignes), "_lignes": lignes}
 
 
 def rejeux(prefixe: str = "REJEU-", exclure: str | None = "REJEU-R", ouvrir_ao=None,
@@ -360,15 +453,49 @@ def table_calibration(courbes: list[dict], pas: int = 10, points: int = 21) -> d
     return {"x": xs, "y": [round(min(v, 1.0), 5) for v in ys], "couples": int(len(c)), "marches": len(courbes)}
 
 
+def calibration_logistique(courbes: list[dict], bornes=None, pas: int = 10) -> dict:
+    """Étape C2 : chance réelle = logistique(a + b · logit(chance simulée) + g · (x − 1)), a, b, g appris par
+    tranche de nombre prévu (régression logistique sur les couples (courbe brute à x, victoire réelle à x), aux x
+    de la grille, un sur `pas`). Lisse, croissante en chance simulée (b > 0). g corrige la forme de la courbe :
+    mesuré sur 2025, une offre basse gagnait plus souvent que la simulation ne l'annonçait (g < 0). La version à
+    2 paramètres (g = 0) passait le critère REJEU mais pas (c) ni (d) sur 2026 (rapports/copilote_etape_C2.md)."""
+    from sklearn.linear_model import LogisticRegression
+    eps = simulateur.EPS_CHANCE
+    if bornes is None:                       # les tiers du nombre prévu, arrondis au demi
+        prevus = [l.get("nombre_prevu") or 0.0 for l in courbes]
+        bornes = [round(2 * float(np.quantile(prevus, k / TIERS_CALIBRATION))) / 2 for k in range(1, TIERS_CALIBRATION)]
+    lim = (0.0,) + tuple(bornes) + (1e9,)
+    xs = simulateur.grille()
+    a, b, gx, detail = [], [], [], []
+    for de, fin in zip(lim[:-1], lim[1:]):
+        sous = [l for l in courbes if de <= (l.get("nombre_prevu") or 0.0) < fin]
+        js = range(0, len(xs), pas)
+        c = np.clip(np.array([l["courbe_brute"][j] for l in sous for j in js]), eps, 1 - eps)
+        x = np.array([xs[j] - 1.0 for l in sous for j in js])
+        g = np.array([float(l["gagne_grille"][j]) for l in sous for j in js])
+        Z = np.column_stack([np.log(c / (1 - c)), x])
+        lr = LogisticRegression(C=1e6, max_iter=2000).fit(Z, g)
+        a.append(round(float(lr.intercept_[0]), 5))
+        b.append(round(max(float(lr.coef_[0][0]), 0.05), 5))
+        gx.append(round(float(lr.coef_[0][1]), 5))
+        detail.append({"de": de, "a": None if fin >= 1e9 else fin, "marches": len(sous), "couples": int(len(c))})
+    return {"bornes": list(bornes), "a": a, "b": b, "g": gx, "tranches": detail}
+
+
 def calibrer(chemin_courbes: str, facteur: float, mesure_2025: dict | None = None, ecrire: bool = True) -> dict:
+    """Appris sur les courbes de 2025 (sans calibration) : la calibration logistique et le meilleur taux fixe de
+    chaque tranche de nombre d'offres (jamais sous le plancher), écrits dans la section « simulation »."""
     import pickle
     with open(chemin_courbes, "rb") as f:
         courbes = pickle.load(f)["backtest"]
-    t = table_calibration(courbes)
+    t = calibration_logistique(courbes)
+    fixes = meilleurs_fixes(courbes)
     with open(taux.FICHIER, encoding="utf-8") as f:
         tout = json.load(f)
-    tout["simulation"] = {"facteur_marche": facteur, "calibration": {"x": t["x"], "y": t["y"]},
-                          "appris": {"annee": "2025", "marches": t["marches"], "couples": t["couples"],
+    tout["simulation"] = {"facteur_marche": facteur, "plancher": simulateur.PLANCHER, "alerte": simulateur.ALERTE,
+                          "calibration": {k: t[k] for k in ("bornes", "a", "b", "g")},
+                          "fixes_2025": fixes,
+                          "appris": {"annee": "2025", "marches": len(courbes), "tranches_calibration": t["tranches"],
                                      "appris_jusqu_au": "2025-12-31", **(mesure_2025 or {})}}
     if ecrire:
         with open(taux.FICHIER, "w", encoding="utf-8") as f:
@@ -402,12 +529,16 @@ def main(argv: list[str]) -> int:
     if rsim:
         sortie["reglages_simulation"] = rsim
     if a.commande in ("mesurer", "tout"):
-        graine = a.graine if a.graine is not None else (1 if (a.annee or "2026") == "2026" else 0)
-        sortie["backtest"] = mesurer(a.annee or "2026", a.n or 500, graine, scenarios=a.scenarios, rsim=rsim)
-        print("backtest", json.dumps(sortie["backtest"]["resume"], ensure_ascii=False))
+        a2025 = (a.annee or "2026") != "2026"
+        graine = a.graine if a.graine is not None else (13 if a2025 else 1)
+        sortie["backtest"] = mesurer(a.annee or "2026", a.n or 500, graine, scenarios=a.scenarios, rsim=rsim,
+                                     hors_echantillon=a2025)
+        if a.courbes:
+            garder_courbes(a.courbes, backtest=sortie["backtest"]["_lignes"])
+        print("backtest", json.dumps(sortie["backtest"]["resume"], ensure_ascii=False, default=str))
     if a.commande in ("rejeux", "tout"):
         sortie["rejeux"] = rejeux(scenarios=a.scenarios)
-        print("rejeux", json.dumps(sortie["rejeux"]["resume"], ensure_ascii=False))
+        print("rejeux", json.dumps(sortie["rejeux"]["resume"], ensure_ascii=False, default=str))
     if a.courbes:
         garder_courbes(a.courbes, **{k: v.pop("_lignes") for k, v in sortie.items() if isinstance(v, dict) and "_lignes" in v})
     for v in sortie.values():

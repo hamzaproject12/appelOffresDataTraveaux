@@ -2,6 +2,7 @@
 import hashlib
 import itertools
 import json
+import math
 import re
 import shutil
 import sqlite3
@@ -98,7 +99,11 @@ class Distribution(unittest.TestCase):
 
     def test_cas_communs_python(self):
         for c in CAS:
-            d = probables.distribution(c["ps"], c["lambda"], c["dispersion"], c.get("decalage", 0.0))
+            rc = probables.recaler(c["ps"], c["lambda"], c["dispersion"], c.get("decalage", 0.0), c.get("recalage"))
+            if c.get("recalage"):
+                for k, v in c["attendu"]["recale"].items():
+                    self.assertAlmostEqual(rc[k], v, places=12, msg=f"{c['nom']} : {k}")
+            d = probables.distribution(c["ps"], c["lambda"], rc["dispersion"], rc["decalage"])
             self.assertEqual(len(d), len(c["attendu"]["distribution"]), c["nom"])
             for a, b in zip(d, c["attendu"]["distribution"]):
                 self.assertAlmostEqual(a, b, places=10, msg=c["nom"])
@@ -111,12 +116,36 @@ class Distribution(unittest.TestCase):
         r = subprocess.run([NODE, str(ICI / "tests" / "lancer_concurrents.js")], input=json.dumps({"cas": CAS}),
                            capture_output=True, text=True, timeout=60, check=True)
         for c, js in zip(CAS, json.loads(r.stdout)["resultats"]):
+            if c.get("recalage"):
+                for k, v in c["attendu"]["recale"].items():
+                    self.assertAlmostEqual(js["recale"][k], v, places=12, msg=f"{c['nom']} : {k}")
             self.assertEqual(len(js["distribution"]), len(c["attendu"]["distribution"]), c["nom"])
             for a, b in zip(js["distribution"], c["attendu"]["distribution"]):
                 self.assertAlmostEqual(a, b, places=10, msg=c["nom"])
             for k in ("bas", "haut", "probable"):
                 self.assertEqual(js["fourchette"][k], c["attendu"]["fourchette"][k], c["nom"])
             self.assertAlmostEqual(js["fourchette"]["moyenne"], c["attendu"]["fourchette"]["moyenne"], places=9)
+
+    def test_recalage_sans_table_ne_change_rien(self):
+        rc = probables.recaler([0.4, 0.2], 1.0, 0.8, 0.3, None)
+        self.assertEqual((rc["decalage"], rc["dispersion"], rc["ajout"], rc["facteur"]), (0.3, 0.8, 0.0, 1.0))
+        self.assertAlmostEqual(rc["prevu"], probables.esperance([0.4, 0.2], 1.0, 0.8, 0.3))
+
+    def test_recalage_interpole_et_borne(self):
+        t = {"log_prevu": [0.0, 1.0], "ajout": [1.0, 0.0], "facteur": [2.0, 1.0]}
+        rc = probables.recaler([], math.exp(0.5), 0.0, 0.0, t)           # λ seul : prévu = e^0,5
+        self.assertAlmostEqual(rc["ajout"], 0.5)
+        self.assertAlmostEqual(rc["facteur"], 1.5)
+        self.assertEqual(probables.recaler([], 100.0, 0.5, 0.0, t)["ajout"], 0.0)
+        self.assertEqual(probables.recaler([], 0.2, 0.5, 0.0, t)["facteur"], 2.0)
+
+    def test_analyse_applique_le_recalage_du_fichier(self):
+        coefs = probables.charger_coefficients()
+        self.assertIn("recalage_nombre", coefs)
+        r = coefs["recalage_nombre"]
+        self.assertEqual(len(r["log_prevu"]), len(r["ajout"]))
+        self.assertEqual(r["log_prevu"], sorted(r["log_prevu"]))
+        self.assertEqual(r["appris"]["appris_jusqu_au"], "2025-12-31")
 
     def test_calibration_strictement_croissante_et_bornee(self):
         cal = probables.charger_coefficients().get("calibration") or {"x": [0.1, 0.5, 0.9], "y": [0.08, 0.2, 0.4]}

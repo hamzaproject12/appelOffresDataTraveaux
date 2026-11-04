@@ -241,28 +241,43 @@ def mesurer_simulation(calc: sqlite3.Connection) -> dict:
 
 
 def _rapport_simulation(sim: dict) -> list[str]:
+    """Les mesures de l'étape C2 sur les REJEU-R (mêmes critères que rapports/copilote_etape_C2.md)."""
     r = sim["resume"]
+    fv = r.get("feu_vert") or {}
     f = lambda v: _fmt(v, "pct")                                                    # noqa: E731
     pts = lambda v: "—" if v is None else f"{100 * v:.2f} pt".replace(".", ",")   # noqa: E731
-    lignes = ["", "## Étape C — simulation de l'ouverture des plis", "",
+    ok = lambda b: "OK" if b else "KO"                                              # noqa: E731
+    t = lambda x: "—" if x is None else str(x).replace(".", ",")                   # noqa: E731
+    rec = r.get("calibration_rec") or {}
+    ecart = fv.get("ecart_point_recommande")
+    lignes = ["", "## Étape C2 — simulation de l'ouverture des plis", "",
               f"{r.get('avec_reference', 0)} marchés ou lots avec un prix de référence, {r.get('attribues', 0)} attribués.", "",
-              "| critère | mesuré | seuil |", "|---|---:|---|",
-              f"| vrai prix de référence dans l'intervalle 80 % | {f(r.get('dans80'))} | 70 à 90 % |",
-              f"| écart moyen de la médiane au vrai prix de référence | {pts(r.get('mae'))} | "
-              f"< méthode de l'étape 4 : {pts(r.get('mae_etape4'))} |",
-              f"| écart médian | {pts(r.get('erreur_mediane'))} | étape 4 : {pts(r.get('erreur_mediane_etape4'))} |", "",
+              "| critère | mesuré | seuil | |", "|---|---:|---|---|",
+              f"| (a) vrai prix de référence dans l'intervalle 80 % | {f(r.get('dans80'))} | 70 à 90 % | {ok(fv.get('a_dans80'))} |",
+              f"| (b) écart moyen de la médiane au vrai prix de référence | {pts(r.get('mae'))} | "
+              f"≤ étape 4 sur les mêmes marchés : {pts(r.get('mae_etape4'))} | {ok(fv.get('b_ecart'))} |",
+              f"| (c) tranches de chance à ±5 points | {fv.get('c_tranches_ok', 0)} sur {fv.get('c_tranches', 0)} | "
+              f"toutes sauf une au plus | {ok(fv.get('c_calibration'))} |",
+              f"| (d) zone contre taux fixe choisi sur 2025 | {f((r.get('zone_contre_fixes') or {}).get('tout', {}).get('zone'))} "
+              f"contre {f((r.get('zone_contre_fixes') or {}).get('tout', {}).get('victoires_fixe_2025'))} ; "
+              f"{fv.get('d_tranches_battues', 0)} tranches sur {fv.get('d_tranches', 0)} | au total et 3 tranches sur 4 | "
+              f"{ok(fv.get('d_zone'))} |",
+              f"| chance annoncée au point recommandé | {f(rec.get('annoncee'))} annoncée, {f(rec.get('reelle'))} réelle "
+              f"({'—' if ecart is None else f'{ecart:+.1f} pt'.replace('.', ',')}) | moins de 10 points | "
+              f"{ok(fv.get('rejeu_moins_de_10_points'))} |", "",
               "Calibration de la chance annoncée :", "",
               "| annoncée | n | moyenne annoncée | réelle | écart |", "|---|---:|---:|---:|---:|"]
     for b in r.get("calibration", []):
-        ecart = f"{b['ecart_points']:+.1f} pt".replace(".", ",")
+        e = f"{b['ecart_points']:+.1f} pt".replace(".", ",")
         lignes.append(f"| {round(100 * b['de'])}–{round(100 * b['a'])} % | {b['n']} | {f(b['annoncee'])} | "
-                      f"{f(b['reelle'])} | {ecart} |")
-    lignes += ["", "Zone recommandée contre le meilleur taux fixe :", "",
-               "| offres | n | zone | meilleur taux fixe | ses victoires |", "|---|---:|---:|---:|---:|"]
-    for t, v in r.get("zone_contre_fixes", {}).items():
+                      f"{f(b['reelle'])} | {e} |")
+    lignes += ["", "Zone recommandée contre les taux fixes (jamais sous le plancher) :", "",
+               "| offres | n | zone | taux fixe choisi sur 2025 | ses victoires | 0,95 fixe | après coup (information) |",
+               "|---|---:|---:|---:|---:|---:|---:|"]
+    for k, v in (r.get("zone_contre_fixes") or {}).items():
         if v.get("n"):
-            lignes.append(f"| {t} | {v['n']} | {f(v['zone'])} | {str(v['meilleur_fixe']).replace('.', ',')} | "
-                          f"{f(v['victoires_meilleur_fixe'])} |")
+            lignes.append(f"| {k} | {v['n']} | {f(v['zone'])} | {t(v.get('fixe_2025'))} | {f(v.get('victoires_fixe_2025'))} | "
+                          f"{f(v.get('fixe_095'))} | {f(v.get('victoires_apres_coup'))} à {t(v.get('apres_coup'))} |")
     return lignes
 
 

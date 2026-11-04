@@ -8,6 +8,9 @@
   var GRILLE = { debut: 1600, denominateur: 2000, n: 801 };
   var SCENARIOS = 4000, LISSAGE = 10, PART_ZONE = 0.9;
   var CLASSES_P = { debut: 0.70, pas: 0.005, n: 120 };
+  var PLANCHER = 0.82, ALERTE = 0.85, EPS_CHANCE = 1e-4;
+  // esperance et recaler (nombre de concurrents, étape C2) : statique/analyse_calcul.js, chargé avant.
+  var AC = (typeof module !== 'undefined' && module.exports) ? require('./analyse_calcul.js') : racine.AnalyseCalcul;
 
   function Generateur(graine) { this.a = graine >>> 0; }
   Generateur.prototype.uniforme = function () {
@@ -151,30 +154,56 @@
     mo.groupes.forEach(function (gr) { dans[gr.chef] = 1; gr.membres.forEach(function (i) { dans[i] = 1; }); });
     var seules = [];
     for (var i = 0; i < soc.length; i++) if (!dans[i]) seules.push(i);
-    return Object.assign({}, mo, { societes: soc, inconnues: inc, seules: seules });
+    // Étape C2 : le nombre recalé selon le nombre prévu, refait sur la liste modifiée (voir simulateur.py).
+    var nb = Object.assign({}, mo.nombre), ps = mo.societes.map(function (s) { return s.p; }), base = nb.base;
+    if (nb.recalage && base) {
+      var rc = AC.recaler(ps, nb.lambda, base.dispersion, base.decalage, nb.recalage);
+      nb.decalage = rc.decalage;
+      nb.dispersion = rc.dispersion;
+    }
+    nb.prevu = AC.esperance(ps, nb.lambda, nb.dispersion, nb.decalage);
+    return Object.assign({}, mo, { societes: soc, inconnues: inc, nombre: nb, seules: seules });
   }
 
-  function zoneRecommandee(xs, chance, scenarios) {
+  function zoneRecommandee(xs, chance, scenarios, plancher) {
     scenarios = scenarios || SCENARIOS;
-    var n = chance.length, lisse = [], j, k;
+    var n = chance.length, lisse = [], j, k, j0 = 0;
     if (!n) return null;
+    if (plancher !== undefined && plancher !== null) while (j0 < n - 1 && xs[j0] < plancher - 1e-12) j0++;
     for (j = 0; j < n; j++) {
       var a = Math.max(0, j - LISSAGE), b = Math.min(n - 1, j + LISSAGE), s = 0.0;
       for (k = a; k <= b; k++) s += chance[k];
       lisse.push(s / (b - a + 1));
     }
-    var jm = 0;
-    for (j = 1; j < n; j++) if (lisse[j] > lisse[jm]) jm = j;
+    var jm = j0;
+    for (j = j0 + 1; j < n; j++) if (lisse[j] > lisse[jm]) jm = j;
     if (lisse[jm] <= 0) return null;
     var seuil = PART_ZONE * lisse[jm], de = jm, a2 = jm;
-    while (de > 0 && lisse[de - 1] >= seuil) de--;
+    while (de > j0 && lisse[de - 1] >= seuil) de--;
     while (a2 < n - 1 && lisse[a2 + 1] >= seuil) a2++;
     return { x: xs[jm], indice: jm, chance: chance[jm], chance_lissee: lisse[jm], de: xs[de], a: xs[a2], seuil: seuil };
   }
 
-  // La chance simulée corrigée par la table de calibration (voir calibrer dans simulateur.py).
-  function calibrer(chance, table) {
+  function trancheCalibration(table, prevu) {
+    var k = 0;
+    (table.bornes || []).forEach(function (b) { if (prevu >= b) k++; });
+    return k;
+  }
+
+  // La chance simulée corrigée par la calibration apprise sur 2025 (voir calibrer dans simulateur.py) :
+  // logistique à 2 paramètres par tranche de nombre prévu, ou ancienne table (prévisions figées de l'étape C).
+  function calibrer(chance, table, prevu, xs) {
     if (!table) return chance.slice();
+    if (table.a) {
+      var kc = trancheCalibration(table, prevu || 0), ca = table.a[kc], cb = table.b[kc];
+      var cg = table.g ? table.g[kc] : 0.0;
+      return chance.map(function (c, j) {
+        c = Math.min(1.0 - EPS_CHANCE, Math.max(EPS_CHANCE, c));
+        var z = ca + cb * Math.log(c / (1.0 - c));
+        if (cg) z += cg * (xs[j] - 1.0);
+        return logistique(z);
+      });
+    }
     var tx = table.x, ty = table.y;
     return chance.map(function (c) {
       if (c <= tx[0]) return ty[0];
@@ -218,21 +247,26 @@
       }
     }
     var brute = gains.map(function (v) { return v / S; });
-    var chance = calibrer(brute, mo.calibration);
-    // Calibration croissante : point recommandé et zone lus sur la courbe simulée, chance affichée calibrée.
-    var zone = zoneRecommandee(xs, brute, S);
-    if (zone) {
-      zone.chance = chance[zone.indice];
-      var cz = calibrer([zone.chance_lissee, zone.seuil], mo.calibration);
-      zone.chance_lissee = cz[0];
-      zone.seuil = cz[1];
+    var prevu = mo.nombre.prevu, cal = mo.calibration, chance = calibrer(brute, cal, prevu, xs), zone;
+    if (cal && cal.a) {
+      // Étape C2 : calibration qui dépend aussi de notre taux, zone lue sur la chance calibrée (voir simulateur.py).
+      zone = zoneRecommandee(xs, chance, S, mo.plancher);
+    } else {
+      // Ancienne table croissante : zone lue sur la courbe simulée, chance affichée calibrée.
+      zone = zoneRecommandee(xs, brute, S, mo.plancher);
+      if (zone) {
+        zone.chance = chance[zone.indice];
+        var cz = calibrer([zone.chance_lissee, zone.seuil], cal, prevu);
+        zone.chance_lissee = cz[0];
+        zone.seuil = cz[1];
+      }
     }
     var tries = refs.slice().sort(parNombre), med = quantile(tries, 0.5);
     var sortie = {
       scenarios: S, graine: mo.graine, grille: xs, chance: chance, chance_brute: brute, zone: zone,
       prix_reference: { n: tries.length, mediane: med, q10: quantile(tries, 0.1), q90: quantile(tries, 0.9),
         q25: quantile(tries, 0.25), q75: quantile(tries, 0.75), histogramme: histogramme(tries) },
-      offres_moyennes: nombres.reduce(function (a, b) { return a + b; }, 0) / S,
+      offres_moyennes: nombres.reduce(function (a, b) { return a + b; }, 0) / S, nombre_prevu: prevu,
       chefs: mo.groupes.map(function (gr, k) {
         var e = chefEcarts[k].slice().sort(parNombre);
         return { chef: mo.societes[gr.chef].cle, present: chefPresent[k] / S, gagne: chefGagne[k] / S,
@@ -294,7 +328,8 @@
   function gagne(offres, x) { var g = [0]; compterVictoires(offres, [x], g); return g[0] === 1; }
 
   var api = { Generateur: Generateur, gagne: gagne, simuler: simuler, appliquer: appliquer, preparer: preparer,
-    zoneRecommandee: zoneRecommandee, grille: grille, CLASSES_P: CLASSES_P, GRILLE: GRILLE };
+    zoneRecommandee: zoneRecommandee, grille: grille, calibrer: calibrer, CLASSES_P: CLASSES_P, GRILLE: GRILLE,
+    PLANCHER: PLANCHER, ALERTE: ALERTE };
   if (typeof module !== 'undefined' && module.exports) module.exports = api;
   else racine.Simulateur = api;
 })(this);

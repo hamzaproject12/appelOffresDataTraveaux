@@ -1,0 +1,193 @@
+[
+ {
+  "ref": "REJEU-11",
+  "lot": null,
+  "objet": "TRAVAUX DE MISE A NIVEAU URBAINE DES BOULEVARDS DE LA VILLE D’AHFIR LOT A – PROVINCE DE BERKANE -",
+  "estimation": 19641120.0,
+  "groupes": 0,
+  "societes": 57,
+  "zone": {
+   "x": 0.82,
+   "indice": 40,
+   "chance": 0.7889386164610703,
+   "chance_lissee": 0.7890502485539149,
+   "de": 0.82,
+   "a": 1.0235,
+   "seuil": 0.7101452236985234
+  },
+  "chance": {
+   "0.85": 0.7709968988315037,
+   "0.90": 0.7420709036040748,
+   "0.95": 0.7181622533260403,
+   "1.00": 0.7304968374026083,
+   "1.05": 0.6006730357292779,
+   "1.10": 0.3688999365131889
+  },
+  "p_mediane": 1.0599956235612882,
+  "p_q10": 1.022257980227898,
+  "p_q90": 1.0993470304698025,
+  "p_vrai": 1.053460113272563,
+  "nb_vrai": 4,
+  "offres_simulees": 3.543,
+  "nombre_prevu": 3.9429022872646926,
+  "fourchette_nombre": [
+   1,
+   8
+  ],
+  "gagnant": {
+   "cle": "greencode",
+   "nom": "GREEN CODE",
+   "taux": 1.0530774212468534
+  },
+  "chance_au_gagnant": 0.5880693255784564,
+  "zone_gagnee": true,
+  "chefs": [],
+  "central": {
+   "x": 0.82,
+   "moyenne": 1.044987780074908,
+   "prix_reference": 1.0224938900374538,
+   "gagnant": "nous"
+  }
+ },
+ {
+  "ref": "REJEU-16",
+  "lot": null,
+  "objet": "Travaux D'aménagement d’entrée sud du douar AMARAGH à la Commune de TNINE AGLOU Province de TIZNIT.",
+  "estimation": 1159692.0,
+  "groupes": 0,
+  "societes": 85,
+  "zone": {
+   "x": 0.82,
+   "indice": 40,
+   "chance": 0.5988161005372153,
+   "chance_lissee": 0.5988369374891992,
+   "de": 0.82,
+   "a": 0.857,
+   "seuil": 0.5389532437402793
+  },
+  "chance": {
+   "0.85": 0.5510963797058104,
+   "0.90": 0.4707315033999588,
+   "0.95": 0.3997518104012732,
+   "1.00": 0.3359621572470306,
+   "1.05": 0.21040977015419124,
+   "1.10": 0.11433114769304822
+  },
+  "p_mediane": 1.03215995511568,
+  "p_q10": 0.9953054070857978,
+  "p_q90": 1.0710209478855381,
+  "p_vrai": 1.0133310741127817,
+  "nb_vrai": 19,
+  "offres_simulees": 6.216,
+  "nombre_prevu": 7.052438035130135,
+  "fourchette_nombre": [
+   1,
+   15
+  ],
+  "gagnant": {
+   "cle": "extrapublic",
+   "nom": "EXTRA PUBLIC",
+   "taux": 1.0112685092248632
+  },
+  "chance_au_gagnant": 0.31643751728534936,
+  "zone_gagnee": false,
+  "chefs": [],
+  "central": {
+   "x": 0.82,
+   "moyenne": 1.0154751317561455,
+   "prix_reference": 1.0077375658780727,
+   "gagnant": "nous"
+  }
+ },
+ {
+  "ref": "REJEU-18",
+  "lot": "1",
+  "objet": "L’exécution des travaux d’amélioration sylvopastorale sur une superficie totale de 209.35 ha, dans le périmètre El mlaab 2 situé dans la commune territoriale de Beni Guil, Province de Figuig L’exécution des travaux d’amélioration sylvopastorale au profit de la Direction Provinciale de l’Agence Nationale des Eaux et Forêts de Figuig répartie en 05 Lots",
+  "estimation": 1797600.0,
+  "groupes": 5,
+  "societes": 64,
+  "zone": {
+   "x": 0.9865,
+   "indice": 373,
+   "chance": 0.5802364930955394,
+   "chance_lissee": 0.5795475398135362,
+   "de": 0.82,
+   "a": 1.019,
+   "seuil": 0.5215927858321826
+  },
+  "chance": {
+   "0.85": 0.5614000699864863,
+   "0.90": 0.5453587468364742,
+   "0.95": 0.5597187823711571,
+   "1.00": 0.5684956555362937,
+   "1.05": 0.3764719889548055,
+   "1.10": 0.22692681920837665
+  },
+  "p_mediane": 1.0383468138257776,
+  "p_q10": 0.9927651984153782,
+  "p_q90": 1.0860671274318963,
+  "p_vrai": 1.010532560080107,
+  "nb_vrai": 9,
+  "offres_simulees": 3.799,
+  "nombre_prevu": 4.113581126225796,
+  "fourchette_nombre": [
+   1,
+   8
+  ],
+  "gagnant": {
+   "cle": "desvegetations",
+   "nom": "STE DES VEGETATIONS",
+   "taux": 1.006675567423231
+  },
+  "chance_au_gagnant": 0.5562673482283764,
+  "zone_gagnee": false,
+  "chefs": [
+   {
+    "chef": "boumghazelsaid",
+    "present": 0.1375,
+    "gagne": 0.05525,
+    "ecart_mediane": -0.037206335367083065,
+    "ecart_q10": -0.14626085250650928,
+    "ecart_q90": 0.060020117349631294
+   },
+   {
+    "chef": "lahmidikhalid",
+    "present": 0.096,
+    "gagne": 0.0355,
+    "ecart_mediane": -0.002799816233322594,
+    "ecart_q10": -0.045271387142400574,
+    "ecart_q90": 0.04050143843577709
+   },
+   {
+    "chef": "safaplante",
+    "present": 0.124,
+    "gagne": 0.01125,
+    "ecart_mediane": 0.09171939734282186,
+    "ecart_q10": 0.05222324740114359,
+    "ecart_q90": 0.13182018153943842
+   },
+   {
+    "chef": "bourgeonvert",
+    "present": 0.07525,
+    "gagne": 0.02425,
+    "ecart_mediane": 0.002891353334914859,
+    "ecart_q10": -0.1066413551601949,
+    "ecart_q90": 0.12122778104722198
+   },
+   {
+    "chef": "leschantiersbnifachat",
+    "present": 0.0655,
+    "gagne": 0.0145,
+    "ecart_mediane": 0.03686731250207642,
+    "ecart_q10": -0.006774794499938773,
+    "ecart_q90": 0.08526798881189604
+   }
+  ],
+  "central": {
+   "x": 0.9865,
+   "moyenne": 1.0541591599554132,
+   "prix_reference": 1.0270795799777066,
+   "gagnant": "nous"
+  }
+ }
+]

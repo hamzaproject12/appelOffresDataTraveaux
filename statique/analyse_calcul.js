@@ -10,6 +10,10 @@
  *                             note logistique de chaque société et à log λ : moyenne sur 9 valeurs de u
  *                             (quadrature de Gauss-Hermite). δ vient de l'historique de l'acheteur
  *                             (probables.corriger_par_historique) et reste fixe quand on modifie la liste ;
+ *   esperance(ps, λ, σ, δ)    l'espérance de distribution(ps, λ, σ, δ), sans la convolution ;
+ *   recaler(ps, λ, σ, δ, t)   étape C2 : δ' = δ + ajout(m), σ' = σ × facteur(m), m = esperance(ps, λ, σ, δ),
+ *                             interpolés en log m dans la table t (probables.recaler) ; recalculé quand on
+ *                             décoche une société ;
  *   fourchette(d, niveau)     [bas, haut] : premiers k où la loi cumulée atteint (1 − niveau)/2 et
  *                             1 − (1 − niveau)/2 ; probable = valeur la plus probable ; moyenne.
  */
@@ -74,6 +78,45 @@
     return total;
   }
 
+  function notesDe(ps) {
+    var notes = [];
+    for (var i = 0; i < ps.length; i++) {
+      var p = Math.min(1 - 1e-12, Math.max(1e-12, +ps[i]));
+      notes.push(Math.log(p / (1 - p)));
+    }
+    return notes;
+  }
+
+  function esperance(ps, lam, dispersion, decalage) {
+    lam = lam || 0;
+    decalage = +decalage || 0;
+    var s = Math.max(0, +dispersion || 0), notes = notesDe(ps), total = 0.0;
+    for (var h = 0; h < HERMITE_X.length; h++) {
+      var u = decalage + s * HERMITE_X[h] - s * s / 2, somme = 0;
+      for (var i = 0; i < notes.length; i++) somme += 1 / (1 + Math.exp(-(notes[i] + u)));
+      total += HERMITE_W[h] * (somme + lam * Math.exp(u));
+    }
+    return total;
+  }
+
+  function recaler(ps, lam, dispersion, decalage, table) {
+    decalage = +decalage || 0;
+    dispersion = +dispersion || 0;
+    var m = esperance(ps, lam, dispersion, decalage);
+    if (!table) return { decalage: decalage, dispersion: dispersion, prevu: m, ajout: 0.0, facteur: 1.0 };
+    var lx = Math.log(Math.max(m, 0.1)), xs = table.log_prevu, aj = table.ajout, fa = table.facteur, a, f;
+    if (lx <= xs[0]) { a = aj[0]; f = fa[0]; }
+    else if (lx >= xs[xs.length - 1]) { a = aj[aj.length - 1]; f = fa[fa.length - 1]; }
+    else {
+      var k = 1;
+      while (xs[k] < lx) k++;
+      var t = (lx - xs[k - 1]) / (xs[k] - xs[k - 1]);
+      a = aj[k - 1] + (aj[k] - aj[k - 1]) * t;
+      f = fa[k - 1] + (fa[k] - fa[k - 1]) * t;
+    }
+    return { decalage: decalage + a, dispersion: dispersion * f, prevu: m, ajout: a, facteur: f };
+  }
+
   function fourchette(d, niveau) {
     niveau = niveau == null ? 0.8 : niveau;
     var basQ = (1 - niveau) / 2, hautQ = 1 - (1 - niveau) / 2;
@@ -95,6 +138,7 @@
   }
 
   var api = { poisson_binomiale: poisson_binomiale, distribution: distribution, fourchette: fourchette,
+    esperance: esperance, recaler: recaler,
     HERMITE_X: HERMITE_X, HERMITE_W: HERMITE_W };
   if (typeof module !== 'undefined' && module.exports) module.exports = api;
   else racine.AnalyseCalcul = api;

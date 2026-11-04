@@ -60,8 +60,9 @@ class DeuxCopies(unittest.TestCase):
             rp = sans_exact(simulateur.simuler(mo))
             # Décisions identiques (courbe, zone, gagnants) ; valeurs continues à 1e-12 près : Math.log et Math.cos
             # du navigateur peuvent différer de ceux de Python au dernier chiffre (≈ 1e-16) sur un taux tiré.
-            self.assertEqual(rp["chance"], rj["chance"], c["nom"])
-            for cle in ("zone", "prix_reference", "chefs", "central", "offres_moyennes"):
+            # Courbe simulée identique au scénario près ; la chance calibrée (logistique : exp et log) à 1e-12 près.
+            self.assertEqual(rp["chance_brute"], rj["chance_brute"], c["nom"])
+            for cle in ("chance", "zone", "prix_reference", "chefs", "central", "offres_moyennes", "nombre_prevu"):
                 proche(self, rp.get(cle), rj.get(cle), f"{c['nom']} : {cle}")
 
     def test_courbe_complete_en_moins_de_300_ms(self):
@@ -144,6 +145,45 @@ class Simulateur(unittest.TestCase):
         r = simulateur.simuler(c["modele"])
         self.assertEqual(r["chance"], simulateur.calibrer(r["chance_brute"], c["modele"]["calibration"]))
         self.assertNotEqual(r["chance"], r["chance_brute"])
+
+    def test_calibration_logistique_par_tranche(self):
+        t = {"bornes": [3.0, 7.0], "a": [0.0, 0.5, -0.5], "b": [1.0, 1.0, 2.0]}
+        c = [0.01, 0.2, 0.5, 0.8, 0.99]
+        for v, w in zip(simulateur.calibrer(c, t, 1.0), c):        # a = 0, b = 1 : la chance telle quelle
+            self.assertAlmostEqual(v, w, places=9)
+        haut = simulateur.calibrer(c, t, 5.0)
+        self.assertTrue(all(x > y for x, y in zip(haut, c)))      # a = 0,5 : plus haut
+        g = simulateur.calibrer([k / 100 for k in range(101)], t, 20.0)
+        self.assertEqual(g, sorted(g))                             # croissante
+        self.assertEqual(simulateur.tranche_calibration(t, 7.0), 2)
+        self.assertLess(simulateur.calibrer([1.0], t, 1.0)[0], 1.0)
+        tg = {**t, "g": [-2.0, 0.0, 0.0]}                          # g < 0 : à chance simulée égale, le taux bas gagne
+        bas, haut = simulateur.calibrer([0.5, 0.5], tg, 1.0, [0.85, 1.05])
+        self.assertGreater(bas, haut)
+        self.assertAlmostEqual(simulateur.calibrer([0.5], tg, 1.0, [1.0])[0], 0.5)
+
+    def test_plancher_jamais_franchi(self):
+        xs = [0.8 + j * 0.0005 for j in range(801)]
+        bas = [max(0.0, 0.9 - j * 0.002) for j in range(801)]     # meilleure chance tout en bas de la grille
+        z = simulateur.zone_recommandee(xs, bas, 4000, 0.82)
+        self.assertAlmostEqual(z["x"], 0.82)
+        self.assertAlmostEqual(z["de"], 0.82)
+        self.assertAlmostEqual(simulateur.zone_recommandee(xs, bas, 4000)["x"], 0.8)
+        c = next(c for c in CAS if c["nom"].startswith("C2 : nombre"))
+        self.assertGreaterEqual(simulateur.simuler(c["modele"])["zone"]["de"], 0.82 - 1e-12)
+
+    def test_nombre_recale_refait_quand_on_decoche(self):
+        c = next(c for c in CAS if c["nom"].startswith("C2 : société"))
+        a = simulateur.preparer(c["modele"])["nombre"]
+        b = simulateur.preparer(simulateur.appliquer(c["modele"], c["modifs"]))["nombre"]
+        self.assertLess(b["prevu"], a["prevu"])
+        mo = simulateur.appliquer(c["modele"], c["modifs"])
+        nb = mo["nombre"]
+        rc = probables.recaler([s["p"] for s in mo["societes"]], nb["lambda"], nb["base"]["dispersion"],
+                               nb["base"]["decalage"], nb["recalage"])
+        self.assertEqual((b["decalage"], b["dispersion"]), (rc["decalage"], rc["dispersion"]))
+        sans = {**c["modele"], "nombre": {k: v for k, v in c["modele"]["nombre"].items() if k != "recalage"}}
+        self.assertEqual(simulateur.preparer(sans)["nombre"]["decalage"], c["modele"]["nombre"]["decalage"])
 
     def test_retirer_une_societe_ou_changer_un_taux_change_la_courbe(self):
         mo = CAS[0]["modele"]
@@ -281,7 +321,8 @@ class Dossier(Api):
         page = (ICI / "statique" / "copilote_analyse.html").read_text(encoding="utf-8")
         for morceau in ('src="/copilote/simulateur.js"', "function blocTaux", "function blocSimulation",
                         "Simulateur.appliquer", "data-action=\"mu\"", "retablir-mu", "Votre prix (DH)",
-                        "Groupes peu probables", "VERITE.retenues"):
+                        "Groupes peu probables", "VERITE.retenues", "AnalyseCalcul.recaler",
+                        "proche du seuil d’offre anormalement basse", "décret 2-22-431"):
             self.assertIn(morceau, page)
         self.assertNotIn("À venir", page)
 

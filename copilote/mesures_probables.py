@@ -5,6 +5,8 @@
     python -m copilote.mesures_probables rejeux                              les AO « REJEU- » (par l'API interne)
     python -m copilote.mesures_probables tout                                mesurer + rejeux, versions A et A2
                                                                               → rapports/copilote_etape_A2_mesures.json
+    python -m copilote.mesures_probables recaler [--cache f.pkl]             étape C2 : recalage du nombre de
+                                                                              concurrents (2025) → probables.json
 
 Deux versions sont mesurées sur les MÊMES marchés : A (probables_A.json, groupes par union-find, figée le
 02/11/2026) et A2 (probables.json : présence chez l'acheteur, calibration par segment, historique du nombre de
@@ -514,9 +516,156 @@ def rejeux(prefixe: str = "REJEU-", coefs: dict[str, dict] | None = None, exclur
     return {"versions": {v: _rendu(l) for v, l in lignes.items()}, "erreurs": erreurs}
 
 
+# --------------------------------------------------------------------------- étape C2 : recalage du nombre
+
+TRANCHES_RECALAGE = (2.0, 3.0, 4.5, 7.0, 11.0)          # bornes du nombre prévu (espérance de la loi A2)
+GRILLE_U = np.arange(-6.0, 6.0001, 0.05)                   # effet commun u, pour les vraisemblances
+AJOUTS = np.round(np.arange(-2.0, 2.0001, 0.05), 4)
+FACTEURS = np.round(np.arange(0.25, 4.0001, 0.125), 4)
+
+
+def indices_recalage(m: similarite.Moteur, annee: str = "2025", n: int = 1500, graine: int = 11) -> list[int]:
+    """Les marchés du recalage : hors de l'échantillon d'ajustement des coefficients (graine 0, 1 200 marchés)."""
+    deja = set(cibles(m, annee, 1200, 0))
+    autres = [i for i in cibles(m, annee, 100000, graine) if i not in deja]
+    random.Random(graine).shuffle(autres)
+    return sorted(autres[:n])
+
+
+def indices_simulation(m: similarite.Moteur, annee: str, n: int, graine: int = 13) -> list[int]:
+    """Les marchés de 2025 où l'étape C2 apprend la calibration et les taux fixes : ni dans l'échantillon
+    d'ajustement des coefficients, ni dans celui du recalage du nombre (les deux y seraient trop beaux)."""
+    exclus = set(cibles(m, annee, 1200, 0)) | set(indices_recalage(m, annee))
+    autres = [i for i in cibles(m, annee, 100000, graine) if i not in exclus]
+    random.Random(graine).shuffle(autres)
+    return sorted(autres[:n])
+
+
+def marches_hors_echantillon(annee: str = "2025", n: int = 1500, graine: int = 11, cache: str | None = None) -> list[dict]:
+    """Les variables de n marchés de `annee` pris HORS de l'échantillon d'ajustement des coefficients (graine 0,
+    1 200 marchés) : le recalage est appris sur des marchés que la formule n'a pas vus."""
+    import pickle
+    from pathlib import Path
+    if cache and Path(cache).exists():
+        with open(cache, "rb") as f:
+            return pickle.load(f)
+    r0 = reglages.charger()
+    m = moteur_annee(annee, sauver=False)
+    mem = probables.memoire(bases.historique, bases.chemin_historique())
+    marches = []
+    t0 = time.time()
+    for k, i in enumerate(indices_recalage(m, annee, n, graine)):
+        ctx = contexte_marche(m, mem, i, r0)
+        vrais = reels(m.corpus.unites[i])
+        sig = probables.signaux(mem, ctx)
+        marches.append({"i": int(i), "x": [s["x"] for s in sig], "y": [int(s["cle"] in vrais) for s in sig],
+                        "autres": len(vrais - {s["cle"] for s in sig}), "vrais": len(vrais),
+                        "moy": probables.offres_moyennes_similaires(ctx),
+                        "hist": probables.historique_acheteur(mem, ctx)})
+        if k % 250 == 0:
+            print(f"  marchés {k} ({time.time() - t0:.0f} s)", flush=True)
+    if cache:
+        with open(cache, "wb") as f:
+            pickle.dump(marches, f)
+    return marches
+
+
+def _vraisemblance_u(ps: list[float], lam: float, v: int) -> tuple[np.ndarray, np.ndarray]:
+    """P(N = v | u) et P(N ≤ v | u) sur GRILLE_U (u fixé, pas d'effet commun aléatoire), lois tronquées à v."""
+    from scipy.stats import poisson
+    ps = np.clip(np.asarray(ps, dtype=float), 1e-12, 1 - 1e-12)
+    notes = np.log(ps / (1 - ps))
+    U = GRILLE_U[:, None]
+    d = np.zeros((len(GRILLE_U), v + 1))
+    d[:, 0] = 1.0
+    for z in notes:
+        q = 1 / (1 + np.exp(-(z + U)))                                  # (nu, 1)
+        d[:, 1:] = d[:, 1:] * (1 - q) + d[:, :-1] * q
+        d[:, 0] *= (1 - q[:, 0])
+    l2 = lam * np.exp(GRILLE_U)[:, None]
+    j = np.arange(v + 1)[None, :]
+    pmf = (d * poisson.pmf(v - j, l2)).sum(axis=1)
+    cdf = (d * poisson.cdf(v - j, l2)).sum(axis=1)
+    return pmf, cdf
+
+
+def _preparer_recalage(marches: list[dict], coefs: dict) -> list[dict]:
+    sortie = []
+    for x in _preparer_compte(marches, coefs):
+        h = probables.corriger_par_historique(x["ps"], x["lam"], coefs.get("dispersion", 0.0), x["hist"],
+                                              coefs.get("historique"))
+        pmf, cdf = _vraisemblance_u(x["ps"], x["lam"], x["vrais"])
+        sortie.append({"vrais": x["vrais"], "dec": h["decalage"], "disp": h["dispersion"],
+                       "prevu": probables.esperance(x["ps"], x["lam"], h["dispersion"], h["decalage"]),
+                       "pmf": pmf, "cdf": cdf})
+    return sortie
+
+
+def _mesures_recalage(lot: list[dict], ajout: np.ndarray, facteur: np.ndarray) -> dict:
+    """Pour chaque (ajout, facteur) : log-vraisemblance moyenne du vrai nombre et couverture de la fourchette 80 %."""
+    X = np.asarray(probables.HERMITE_X)[None, None, :]
+    W = np.asarray(probables.HERMITE_W)
+    A, F = ajout[:, None, None], facteur[None, :, None]
+    ll = np.zeros((len(ajout), len(facteur)))
+    dedans = np.zeros_like(ll)
+    for x in lot:
+        s = x["disp"] * F
+        u = x["dec"] + A + s * X - s * s / 2
+        pm = np.interp(u, GRILLE_U, x["pmf"]) @ W
+        cd = np.interp(u, GRILLE_U, x["cdf"]) @ W
+        ll += np.log(np.maximum(pm, 1e-12))
+        dedans += ((cd >= 0.1 - 1e-12) & (cd - pm < 0.9 - 1e-12)).astype(float)
+    return {"ll": ll / max(len(lot), 1), "couverture": dedans / max(len(lot), 1)}
+
+
+def ajuster_recalage(marches: list[dict], coefs: dict | None = None) -> dict:
+    """Par tranche de nombre prévu, l'ajout au décalage et le facteur de σ qui maximisent la vraisemblance du
+    vrai nombre (marchés de 2025 hors échantillon). Points de la table : log du nombre prévu médian de chaque
+    tranche ; probables.recaler interpole entre eux."""
+    coefs = coefs or probables.charger_coefficients()
+    prep = _preparer_recalage(marches, coefs)
+    bornes = (0.0,) + TRANCHES_RECALAGE + (1e9,)
+    points, ajouts, facteurs, detail = [], [], [], []
+    for de, a in zip(bornes[:-1], bornes[1:]):
+        lot = [x for x in prep if de <= x["prevu"] < a]
+        if len(lot) < 30:
+            continue
+        m = _mesures_recalage(lot, AJOUTS, FACTEURS)
+        i, j = np.unravel_index(int(np.argmax(m["ll"])), m["ll"].shape)
+        sans = _mesures_recalage(lot, np.array([0.0]), np.array([1.0]))
+        points.append(round(float(np.log(np.median([x["prevu"] for x in lot]))), 4))
+        ajouts.append(float(AJOUTS[i]))
+        facteurs.append(float(FACTEURS[j]))
+        detail.append({"de": de, "a": None if a >= 1e9 else a, "n": len(lot),
+                       "prevu_moyen": round(float(np.mean([x["prevu"] for x in lot])), 3),
+                       "reel_moyen": round(float(np.mean([x["vrais"] for x in lot])), 3),
+                       "reel_median": float(np.median([x["vrais"] for x in lot])),
+                       "ajout": float(AJOUTS[i]), "facteur": float(FACTEURS[j]),
+                       "ll_avant": round(float(sans["ll"][0, 0]), 4), "ll_apres": round(float(m["ll"][i, j]), 4),
+                       "couverture_avant": round(float(sans["couverture"][0, 0]), 4),
+                       "couverture_apres": round(float(m["couverture"][i, j]), 4)})
+    return {"log_prevu": points, "ajout": ajouts, "facteur": facteurs,
+            "appris": {"annee": "2025", "marches": len(prep), "hors_echantillon": True,
+                       "appris_jusqu_au": "2025-12-31", "tranches": detail}}
+
+
+def recaler(cache: str | None = None, n: int = 1500, ecrire: bool = True) -> dict:
+    coefs = probables.charger_coefficients()
+    coefs.pop("recalage_nombre", None)
+    t = ajuster_recalage(marches_hors_echantillon("2025", n, 11, cache), coefs)
+    if ecrire:
+        with open(probables.FICHIER, encoding="utf-8") as f:
+            tout = json.load(f)
+        tout["recalage_nombre"] = t
+        with open(probables.FICHIER, "w", encoding="utf-8") as f:
+            json.dump(tout, f, ensure_ascii=False, indent=2)
+            f.write("\n")
+    return t
+
+
 def main(argv: list[str]) -> int:
     p = argparse.ArgumentParser(prog="python -m copilote.mesures_probables")
-    p.add_argument("commande", choices=("ajuster", "mesurer", "rejeux", "tout"))
+    p.add_argument("commande", choices=("ajuster", "mesurer", "rejeux", "tout", "recaler"))
     p.add_argument("--annee")
     p.add_argument("--n", type=int)
     p.add_argument("--graine", type=int, default=None)
@@ -524,6 +673,9 @@ def main(argv: list[str]) -> int:
     a = p.parse_args(argv)
     if hasattr(sys.stdout, "reconfigure"):
         sys.stdout.reconfigure(encoding="utf-8", errors="replace")
+    if a.commande == "recaler":
+        print(json.dumps(recaler(a.cache, a.n or 1500), ensure_ascii=False, indent=2))
+        return 0
     if a.commande == "ajuster":
         c = ajuster(a.annee or "2025", a.n or 1200, a.graine or 0, cache=a.cache)
         print(json.dumps({k: v for k, v in c.items() if k not in ("calibration", "calibration_segments")},

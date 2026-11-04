@@ -34,6 +34,8 @@ import numpy as np
 
 from construire_base import classement_commission, prix_de_reference
 
+from .probables import esperance, recaler
+
 M32 = 0xFFFFFFFF
 TAUX_MIN, TAUX_MAX = 0.3, 3.0
 GRILLE = {"debut": 1600, "denominateur": 2000, "n": 801}     # x = (1600 + j) / 2000 : 0,80 à 1,20 par 0,0005
@@ -41,6 +43,9 @@ SCENARIOS = 4000
 LISSAGE = 10            # moyenne glissante sur ±10 points de grille (±0,005) pour la zone recommandée
 PART_ZONE = 0.9         # la zone : chance lissée ≥ 90 % du maximum, autour du maximum
 CLASSES_P = {"debut": 0.70, "pas": 0.005, "n": 120}      # histogramme du prix de référence (0,70 à 1,30)
+PLANCHER = 0.82         # le point recommandé et la zone ne descendent jamais sous ce taux (réglable, simulation.json)
+ALERTE = 0.85           # sous ce taux : « proche du seuil d'offre anormalement basse » (décret 2-22-431 : −20 %)
+EPS_CHANCE = 1e-4       # la chance simulée est bornée à [ε, 1 − ε] avant la calibration logistique
 
 
 # --------------------------------------------------------------------------- générateur commun
@@ -260,15 +265,30 @@ def preparer(mo: dict) -> dict:
     si = inc["sigma"]
     inc["f"] = math.sqrt(max(0.1, 1.0 - sm * sm / (si * si))) if si > 0 else 1.0
     dans = {i for gr in mo["groupes"] for i in [gr["chef"]] + gr["membres"]}
-    return {**mo, "societes": soc, "inconnues": inc, "seules": [i for i in range(len(soc)) if i not in dans]}
+    # Étape C2 : le nombre recalé selon le nombre prévu, refait sur la liste modifiée (société décochée : p = 0).
+    nb = dict(mo["nombre"])
+    ps = [s["p"] for s in mo["societes"]]
+    base = nb.get("base")
+    if nb.get("recalage") and base:
+        rc = recaler(ps, nb["lambda"], base["dispersion"], base["decalage"], nb["recalage"])
+        nb["decalage"], nb["dispersion"] = rc["decalage"], rc["dispersion"]
+    nb["prevu"] = esperance(ps, nb["lambda"], nb["dispersion"], nb["decalage"])
+    return {**mo, "societes": soc, "inconnues": inc, "nombre": nb,
+            "seules": [i for i in range(len(soc)) if i not in dans]}
 
 
-def zone_recommandee(xs: np.ndarray | list, chance: list[float], scenarios: int = SCENARIOS) -> dict | None:
-    """Le point recommandé : le maximum de la courbe lissée (±0,005). La zone : autour de lui, les x où la chance
-    lissée reste ≥ 90 % du maximum. (`scenarios` n'est plus utilisé : gardé pour la signature.)"""
+def zone_recommandee(xs: np.ndarray | list, chance: list[float], scenarios: int = SCENARIOS,
+                     plancher: float | None = None) -> dict | None:
+    """Le point recommandé : le maximum de la courbe lissée (±0,005), à partir du plancher. La zone : autour de
+    lui, les x où la chance lissée reste ≥ 90 % du maximum, jamais sous le plancher. (`scenarios` n'est plus
+    utilisé : gardé pour la signature.)"""
     n = len(chance)
     if n == 0:
         return None
+    j0 = 0
+    if plancher is not None:
+        while j0 < n - 1 and xs[j0] < plancher - 1e-12:
+            j0 += 1
     lisse = []
     for j in range(n):
         a, b = max(0, j - LISSAGE), min(n - 1, j + LISSAGE)
@@ -276,15 +296,15 @@ def zone_recommandee(xs: np.ndarray | list, chance: list[float], scenarios: int 
         for k in range(a, b + 1):
             s += chance[k]
         lisse.append(s / (b - a + 1))
-    jm = 0
-    for j in range(1, n):
+    jm = j0
+    for j in range(j0 + 1, n):
         if lisse[j] > lisse[jm]:
             jm = j
     if lisse[jm] <= 0:
         return None
     seuil = PART_ZONE * lisse[jm]
     a = jm
-    while a > 0 and lisse[a - 1] >= seuil:
+    while a > j0 and lisse[a - 1] >= seuil:
         a -= 1
     b = jm
     while b < n - 1 and lisse[b + 1] >= seuil:
@@ -323,13 +343,20 @@ def simuler(modele: dict, central: bool = True) -> dict:
             if qui[gi] == mo["groupes"][k]["chef"]:
                 chef_gagne[k] += 1
     brute = [int(v) / S for v in gains]
-    chance = calibrer(brute, mo.get("calibration"))
-    # La calibration est croissante : elle garde l'ordre des points. Le point recommandé et la zone se lisent donc
-    # sur la courbe simulée (les paliers de la table aplatiraient la courbe) ; la chance affichée est calibrée.
-    zone = zone_recommandee(xs, brute, S)
-    if zone:
-        zone["chance"] = chance[zone["indice"]]
-        zone["chance_lissee"], zone["seuil"] = calibrer([zone["chance_lissee"], zone["seuil"]], mo.get("calibration"))
+    prevu = mo["nombre"]["prevu"]
+    cal = mo.get("calibration")
+    chance = calibrer(brute, cal, prevu, xs)
+    if cal and "a" in cal:
+        # Étape C2 : la calibration dépend aussi de notre taux, le point recommandé et la zone se lisent sur la
+        # chance calibrée (celle qui a été mesurée sur 2025).
+        zone = zone_recommandee(xs, chance, S, mo.get("plancher"))
+    else:
+        # Ancienne table croissante (prévisions figées de l'étape C) : elle garde l'ordre des points, zone lue sur
+        # la courbe simulée, chance affichée calibrée.
+        zone = zone_recommandee(xs, brute, S, mo.get("plancher"))
+        if zone:
+            zone["chance"] = chance[zone["indice"]]
+            zone["chance_lissee"], zone["seuil"] = calibrer([zone["chance_lissee"], zone["seuil"]], cal, prevu)
     tries = sorted(refs)
     med = quantile(tries, 0.5)
     sortie = {
@@ -339,7 +366,7 @@ def simuler(modele: dict, central: bool = True) -> dict:
         "prix_reference": {"n": len(tries), "mediane": med, "q10": quantile(tries, 0.1), "q90": quantile(tries, 0.9),
                            "q25": quantile(tries, 0.25), "q75": quantile(tries, 0.75),
                            "histogramme": histogramme(tries)},
-        "offres_moyennes": sum(nombres) / S,
+        "offres_moyennes": sum(nombres) / S, "nombre_prevu": prevu,
         "chefs": [{"chef": mo["societes"][gr["chef"]]["cle"], "present": chef_present[k] / S,
                    "gagne": chef_gagne[k] / S,
                    "ecart_mediane": quantile(sorted(chef_ecarts[k]), 0.5),
@@ -352,11 +379,34 @@ def simuler(modele: dict, central: bool = True) -> dict:
     return sortie
 
 
-def calibrer(chance: list[float], table: dict | None) -> list[float]:
-    """La chance simulée corrigée par la table de calibration (croissante, apprise sur 2025) : interpolation
-    linéaire entre ses points. Sans table, la chance simulée telle quelle."""
+def tranche_calibration(table: dict, prevu: float) -> int:
+    k = 0
+    for b in table.get("bornes") or []:
+        if prevu >= b:
+            k += 1
+    return k
+
+
+def calibrer(chance: list[float], table: dict | None, prevu: float = 0.0, xs=None) -> list[float]:
+    """La chance simulée corrigée par la calibration apprise sur 2025.
+    Étape C2 : logistique par tranche de nombre prévu (`bornes`) :
+    chance = logistique(a + b · logit(c) + g · (x − 1)), c bornée à [ε, 1 − ε], x notre taux (g absent : 0).
+    Ancienne table (étape C, prévisions figées) : interpolation linéaire entre ses points. Sans table, la chance
+    simulée telle quelle."""
     if not table:
         return list(chance)
+    if "a" in table:
+        k = tranche_calibration(table, prevu)
+        a, b = table["a"][k], table["b"][k]
+        g = table["g"][k] if table.get("g") else 0.0
+        sortie = []
+        for j, c in enumerate(chance):
+            c = min(1.0 - EPS_CHANCE, max(EPS_CHANCE, c))
+            z = a + b * math.log(c / (1.0 - c))
+            if g:
+                z += g * (float(xs[j]) - 1.0)
+            sortie.append(logistique(z))
+        return sortie
     tx, ty = table["x"], table["y"]
     sortie = []
     for c in chance:
@@ -474,7 +524,11 @@ def modele(dossier: dict, graine: int | None = None, scenarios: int = SCENARIOS,
         "graine": graine if graine is not None else graine_de(str(ao.get("ref_annonce") or ""), ao.get("lot")),
         "scenarios": scenarios, "grille": dict(GRILLE), "estimation": ao.get("estimation"),
         "nombre": {"decalage": float(conc.get("decalage") or 0.0), "dispersion": float(conc["dispersion"]),
-                   "lambda": float(conc["lambda"])},
+                   "lambda": float(conc["lambda"]),
+                   "base": None if conc.get("decalage_base") is None else {
+                       "decalage": float(conc["decalage_base"]), "dispersion": float(conc["dispersion_base"])},
+                   "recalage": conc.get("recalage")},
+        "plancher": float(rs.get("plancher", PLANCHER)), "alerte": float(rs.get("alerte", ALERTE)),
         "marche": {"sigma": float(tx["effet_marche"]["sigma"]) * float(rs.get("facteur_marche") or 1.0),
                    "constante": float(tx["effet_marche"].get("constante") or 0.0),
                    "pente": float(tx["effet_marche"].get("pente") or 0.0)},

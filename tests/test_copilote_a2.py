@@ -456,19 +456,25 @@ class RejeuRecent(unittest.TestCase):
         self.assertIn("40 nouveaux", md)
 
     def test_rapport_avec_la_simulation(self):
+        from copilote import mesures_simulation
+        resume = {"avec_reference": 3, "attribues": 2, "dans80": 0.8, "mae": 0.02, "mae_etape4": 0.025,
+                  "erreur_mediane": 0.015, "erreur_mediane_etape4": 0.02,
+                  "calibration": [{"de": 0.2, "a": 0.3, "n": 5, "annoncee": 0.25, "reelle": 0.2, "ecart_points": 5.0}],
+                  "calibration_rec": {"n": 2, "annoncee": 0.5, "reelle": 0.45},
+                  "zone_contre_fixes": {"1-2": {"n": 2, "zone": 0.5, "fixe_2025": 0.8225, "victoires_fixe_2025": 0.5,
+                                                "fixe_095": 0.25, "apres_coup": 0.83, "victoires_apres_coup": 0.6},
+                                        "tout": {"n": 2, "zone": 0.5, "fixe_2025": "par tranche",
+                                                 "victoires_fixe_2025": 0.5, "fixe_095": 0.25}}}
+        resume["feu_vert"] = mesures_simulation.feu_vert(resume)
         res = {"versions": {"A2": {"resume": {"n": 3}}}, "erreurs": [],
-               "simulation": {"resume": {"avec_reference": 3, "attribues": 2, "dans80": 0.8, "mae": 0.02,
-                                         "mae_etape4": 0.025, "erreur_mediane": 0.015, "erreur_mediane_etape4": 0.02,
-                                         "calibration": [{"de": 0.2, "a": 0.3, "n": 5, "annoncee": 0.25, "reelle": 0.2,
-                                                          "ecart_points": 5.0}],
-                                         "zone_contre_fixes": {"1-2": {"n": 2, "zone": 0.5, "meilleur_fixe": 0.95,
-                                                                       "victoires_meilleur_fixe": 0.5}}},
-                              "erreurs": []}}
+               "simulation": {"resume": resume, "erreurs": []}}
         md = rejeu_recent.rapport_md(res, {"depuis": "2026-10-01", "coefficients": {}, "choisis": 3, "allotis": 0})
-        self.assertIn("## Étape C", md)
-        self.assertIn("| vrai prix de référence dans l'intervalle 80 % | 80,0 % | 70 à 90 % |", md)
-        self.assertIn("| 1-2 | 2 | 50,0 % | 0,95 | 50,0 % |", md)
+        self.assertIn("## Étape C2", md)
+        self.assertIn("| (a) vrai prix de référence dans l'intervalle 80 % | 80,0 % | 70 à 90 % | OK |", md)
+        self.assertIn("| 1-2 | 2 | 50,0 % | 0,8225 | 50,0 % | 25,0 % | 60,0 % à 0,83 |", md)
         self.assertIn("| 20–30 % | 5 | 25,0 % | 20,0 % | +5,0 pt |", md)
+        self.assertIn("(+5,0 pt) | moins de 10 points | OK |", md)
+        self.assertTrue(resume["feu_vert"]["d_zone"])
 
 
 def _ro(chemin):
